@@ -1,0 +1,89 @@
+<script>
+    
+console.log("--- executing videoEvents.js");
+
+var videoPlayer = document.getElementById("videoPlayer");
+var videoSegmentEnd;
+var videoContinuousPlay = true;
+
+//--------------------------------------------------------------------------------
+videoPlayer.addEventListener("timeupdate", function (){
+
+   tCurrent = Math.round(videoPlayer.currentTime * 1000)
+   console.log("timeupdate " + tCurrent + " continuous? " + videoContinuousPlay)
+   //if(!videoContinuousPlay){
+   //   $(".line-wrapper").removeClass("current-line")
+   //   }
+ 
+   //if(videoContinuousPlay){
+     for(lineTimes of timeStamps){
+        if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
+           var lineNumber = parseInt(lineTimes.id)
+           scrollAndHighlight(lineNumber)
+           }
+        } // for lineTimes
+     // } // if videoContinuousPlay
+
+   if (!videoContinuousPlay && videoSegmentEnd && videoPlayer.currentTime >= videoSegmentEnd){
+      videoPlayer.pause();
+      //$(".line-wrapper").removeClass("current-line")
+      //setTimeout(function(){$(".line-wrapper").removeClass("current-line")}, 0)
+      videoContinuousPlay=true;
+      //setTimeout(function(){videoContinuousPlay=true;}, 1000)
+      }   
+
+})  // addEventListener timeupdate
+
+//--------------------------------------------------------------------------------
+function scrollAndHighlight(lineNumber){
+
+   //var newTop = Math.round($('#' + lineNumber).position().top) - 100;
+   //var options = {top: newTop, left: 0, behavior: "smooth"}
+   //$(".line-wrapper").removeClass("current-line")
+   //$('#' + lineNumber).addClass("current-line")
+
+   // from here:
+   // https://stackoverflow.com/questions/27980084/scrolling-to-a-element-inside-a-scrollable-div-with-pure-javascript
+   var scrollingDivTop = document.getElementById("textDiv").offsetTop
+   //console.log("texDiv top: " + scrollingDivTop);
+
+   var lineDivTop = document.getElementById(lineNumber).offsetTop - scrollingDivTop;
+   lineDivTop -= 100;
+   //console.log("line top for " + lineNumber + ": " + lineDivTop);
+
+   var options = {top: lineDivTop, left: 0, behavior: "smooth"}
+   document.getElementById("textDiv").scrollTo(options)
+
+   $(".line-wrapper").removeClass("current-line")
+   $('#' + lineNumber).addClass("current-line")
+
+}  // scrollAndHighlight
+//--------------------------------------------------------------------------------
+function playSample(audioID, startTime, endTime)
+{
+    console.log("tlingit-specific playSample: " + audioID + ", " + startTime + ", " + endTime)
+    playVideoSegment(audioID, startTime, endTime)
+
+} // playSample
+//--------------------------------------------------------------------------------
+function playVideoSegment(audioID, startTime, endTime)
+{
+    videoContinuousPlay = false;
+    startTime = startTime/1000;
+
+      // subtract half a second so playback does not run over
+      // this is dodgy, works only if the supplied intervals (stop and
+      // start times) have the expected padding.  which are the elan 
+      // user's choices
+    endTime = (endTime/1000) - 0.3  
+				    
+    console.log("tlingit-specific playVideoSegment: " + audioID + ", " + startTime + ", " + endTime)
+
+    videoSegmentEnd = endTime;
+    videoPlayer.currentTime = startTime
+    //debugger;
+    videoPlayer.play();
+
+} // playVideoSegment
+//--------------------------------------------------------------------------------
+</script>

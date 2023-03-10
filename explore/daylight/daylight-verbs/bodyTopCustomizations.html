@@ -1,0 +1,65 @@
+<div id="main" class="container">
+  <div class="row" id="waveform-div">
+    <div id="controls" class="col-md-6">
+      <div class="card">
+        <div class="card-body">  
+	  <button class="btn btn-outline-primary" onclick='play()' >PLAY</button>
+	  <button class="btn btn-outline-primary" onclick='pause()'>Pause</button>
+	  <div style="margin-top: 10px; margin-bottom: 10px;">
+            <button id="resetButton" class="btn btn-outline-primary" onclick='reset()'
+                    data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Remove any regions, go to start, use normal playback speed."
+                    >Reset</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-outline-primary dropdown-toggle"
+                      data-bs-toggle="dropdown" aria-expanded="false"> Speed </button>
+              <ul class="dropdown-menu">
+		<li><a class="dropdown-item" onclick="halfSpeed()">Half</a></li>
+		<li><a class="dropdown-item" onclick="threeQuarterSpeed()">Three quarters</a></li>
+		<li><a class="dropdown-item" onclick="normalSpeed()">Normal</a></li>
+              </ul>
+            </div>
+	  </div>
+	  </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">  
+          <h6 class="card-title">Tier Visibility</h6>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="speechTier" onclick="speechTierToggle()" checked>
+            <label class="form-check-label" for="flexCheckDefault"> Speech </label>
+          </div>
+          
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="morphemeTier" onclick="morphemeTierToggle()" checked>
+            <label class="form-check-label" for="flexCheckChecked"> Morpheme </label>
+          </div>
+
+	  <div class="form-check">
+	    <input class="form-check-input" type="checkbox" value="" id="morphemeGloss" onclick="morphemeGlossTierToggle()" checked>
+	    <label class="form-check-label" for="flexCheckChecked"> Morpheme Gloss</label>
+	  </div>
+
+	  <div class="form-check">
+	    <input class="form-check-input" type="checkbox" value="" id="morphemeTier" onclick="translationTierToggle()" checked>
+	    <label class="form-check-label" for="flexCheckChecked"> Translation </label>
+	  </div>
+
+	  <div class="form-check">
+	    <input class="form-check-input" type="checkbox" value="" id="annotations" onclick="annotationsToggle()">
+	    <label class="form-check-label" for="flexCheckChecked"> Annotations </label>
+	  </div>
+        </div>
+      </div>
+      </div>
+
+
+    <div class="col-md-6">
+      <div id="waveform"></div>
+    </div>
+
+  </div id="waveform-div">
+
+    </div id="row">
+

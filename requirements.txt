@@ -1,0 +1,7 @@
+xmlschema
+soundfile
+pandas
+pyyaml
+yattag
+bs4
+audioExtractor

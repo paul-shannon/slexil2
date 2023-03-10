@@ -1,0 +1,9 @@
+git add   .gitignore
+git add   README.md
+git add makefile
+git add misc/
+git add requirements.txt
+git add slexil/
+git add testData/
+git add tests/
+

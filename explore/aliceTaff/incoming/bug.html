@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+     <center>
+      
+  <div id="movieDiv" style="margin: 40px;">
+    <video id="videoPlayer" controls width="800">
+      <source src="1RuthNora2Wide.m4v" type="video/mp4">
+      <!-- source --
+        -- src="http://localhost:60050/slexil/1RuthNora2Wide.m4v" --
+        -- type="video/mp4" -->
+        Your browser does not support the video tag.
+    </video>
+    <script>
+      $("#videoPlayer").on("timeupdate", function(e){
+          playEvent = e;
+          console.log("timeupdate: " + e.timeStamp/1000)
+         })
+    </script>
+    
+  </body>
+</html>

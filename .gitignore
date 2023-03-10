@@ -1,0 +1,8 @@
+*.mp3
+*.wav
+*.m4v
+*.eaf
+dot-git-hidden/
+py3105/
+vpy363/
+slexil/__pycache__
