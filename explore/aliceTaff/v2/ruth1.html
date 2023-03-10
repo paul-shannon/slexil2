@@ -41,7 +41,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="modalLabel">
-        Nora Dauenhauer, Ḵaanáḵ Ruth Demmert, and G̱uneiwtí Marsha Hotch.
+        01 Nora Dauenhauer, Ḵaanáḵ Ruth Demmert, and G̱uneiwtí Marsha Hotch.
        </h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -1063,7 +1063,7 @@
           <div class="line">
             <div class="speech-tier">Gooḵ.</div>
           </div>
-          <div class="freeTranslation-tier">Dried salmn eggs.</div>
+          <div class="freeTranslation-tier">Dried salmon eggs.</div>
           <div class="annotationDiv"></div>
         </div>
       </div>
@@ -2001,8 +2001,14 @@ function scrollAndHighlight(lineNumber){
 //--------------------------------------------------------------------------------
 function playSample(audioID, startTime, endTime)
 {
-    videoContinuousPlay = false;
     console.log("tlingit-specific playSample: " + audioID + ", " + startTime + ", " + endTime)
+    playVideoSegment(audioID, startTime, endTime)
+
+} // playSample
+//--------------------------------------------------------------------------------
+function playVideoSegment(audioID, startTime, endTime)
+{
+    videoContinuousPlay = false;
     startTime = startTime/1000;
 
       // subtract half a second so playback does not run over
@@ -2011,15 +2017,14 @@ function playSample(audioID, startTime, endTime)
       // user's choices
     endTime = (endTime/1000) - 0.3  
 				    
-    console.log("tlingit-specific playSample: " + audioID + ", " + startTime + ", " + endTime)
+    console.log("tlingit-specific playVideoSegment: " + audioID + ", " + startTime + ", " + endTime)
 
-    console.log("tlingit-specific playSample: " + audioID + ", " + startTime + ", " + endTime)
     videoSegmentEnd = endTime;
     videoPlayer.currentTime = startTime
     //debugger;
     videoPlayer.play();
 
-} // playSample
+} // playVideoSegment
 //--------------------------------------------------------------------------------
 </script>
   </body>

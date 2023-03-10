@@ -20,7 +20,7 @@ view-local:
 
 publish-html:
 	scp ruth.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/v2/
-	scp ijal.css paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/v2/
+	scp *.css paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/v2/
 	scp ijalUtils.js paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/v2/
 
 
