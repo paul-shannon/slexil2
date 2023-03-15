@@ -37,9 +37,17 @@ class EAFParser:
 
    def __init__(self, elanXmlFilename):
        self.elanXmlFilename = elanXmlFilename
+       self.pandasTable = None
+       self.stringifiedTable = None
 
    def getFilename(self):
        return(self.elanXmlFilename)
+
+   def getStringifiedStartStopTable(self):
+       return(self.stringifiedTable)
+
+   def getPandasTable(self):
+       return(self.pandasTable)
 
    def extractStartAndEndTimes(self):
         # print("entering determine start and end times")
@@ -47,13 +55,13 @@ class EAFParser:
         timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
         timeIDs = [x.attrib["TIME_SLOT_ID"] for x in timeSlotElements]
         times = [int(x.attrib["TIME_VALUE"]) for x in timeSlotElements]
-        audioTiers = xmlDoc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION")
-        audioIDs = [x.attrib["ANNOTATION_ID"] for x in audioTiers]
-        tsRef1 = [x.attrib["TIME_SLOT_REF1"] for x in audioTiers]
-        tsRef2 = [x.attrib["TIME_SLOT_REF2"] for x in audioTiers]
-        d = {"id": audioIDs, "t1": tsRef1, "t2": tsRef2}
-        tbl_t1 = pd.DataFrame({"id": audioIDs, "t1": tsRef1})
-        tbl_t2 = pd.DataFrame({"id": audioIDs, "t2": tsRef2})
+        timeAlignedTiers = xmlDoc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION")
+        timeAlignedIDs = [x.attrib["ANNOTATION_ID"] for x in timeAlignedTiers]
+        tsRef1 = [x.attrib["TIME_SLOT_REF1"] for x in timeAlignedTiers]
+        tsRef2 = [x.attrib["TIME_SLOT_REF2"] for x in timeAlignedTiers]
+        d = {"id": timeAlignedIDs, "t1": tsRef1, "t2": tsRef2}
+        tbl_t1 = pd.DataFrame({"id": timeAlignedIDs, "t1": tsRef1})
+        tbl_t2 = pd.DataFrame({"id": timeAlignedIDs, "t2": tsRef2})
         tbl_times = pd.DataFrame({"id": timeIDs, "timeValue": times})
         tbl_t1m = pd.merge(tbl_t1, tbl_times, left_on="t1", right_on="id")
         tbl_t2m = pd.merge(tbl_t2, tbl_times, left_on="t2", right_on="id")
@@ -62,13 +70,15 @@ class EAFParser:
         # still need to rename, maybe also reorder columns
         tbl.columns = ["lineID", "t1", "start", "t2", "end"]
         list(tbl.columns)
+        # pdb.set_trace()
         tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
         #        tbl = tbl.sort('start')
-        self.startStopTable = self.makeStartStopTable(tbl)
+        self.pandasTable = tbl
+        self.stringifiedTable = self.stringifyStartStopTable(tbl)
         # print("+++\n",tbl,"\n+++")
         return (tbl)
 
-   def makeStartStopTable(self, tbl):
+   def stringifyStartStopTable(self, tbl):
         CSV = tbl.to_csv(index=False)
         phraseList = CSV.split('\n')
         if phraseList[-1] == '':

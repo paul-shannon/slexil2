@@ -26,7 +26,10 @@ def test_extractStartAndStopTimes():
 
     elanXmlFilename="../testData/inferno/inferno-threeLines.eaf"
     p = EAFParser(elanXmlFilename)
-    tbl = p.extractStartAndEndTimes()
+    p.extractStartAndEndTimes()
+    tbl = p.getPandasTable()
+    stringifiedTable = p.getStringifiedStartStopTable()
+
     assert(tbl.ndim == 2)
     assert(tbl.shape == (3,5))  # 3 rows, 5 columns
 
