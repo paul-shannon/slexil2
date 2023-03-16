@@ -28,7 +28,7 @@ david.beck at ualberta.ca.
 # import re
 # import sys
 import os
-# from yattag import *
+from yattag import *
 import yaml
 # import unittest
 from ijalLine import *
@@ -38,7 +38,7 @@ import pdb
 # from decimal import Decimal
 import logging
 import identifyLines
-from audioExtractor import AudioExtractor
+#from audioExtractor import AudioExtractor
 
 #----------------------------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -66,23 +66,35 @@ class Text:
 		self.lineNumberForDebugging = lineNumberForDebugging
 		self.quiet = quiet
 		self.xmlDoc = etree.parse(self.xmlFilename)
+		self.extractMediaInfo()
 		with open(tierGuideFile, 'r') as f:
 			self.tierGuide = yaml.safe_load(f)
 		self.speechTier = self.tierGuide['speech']
 		self.speechTierList = identifyLines.getList(self.xmlDoc,self.tierGuide)
 		self.lineCount = len(self.speechTierList)
+		#pdb.set_trace()
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		logging.basicConfig(filename=os.path.join(projectDirectory,"ERRORS.log"),format="%(levelname)s %(message)s")
 		logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
-		self.audio = AudioExtractor(soundFileName, xmlFilename, targetDirectory)
+		#self.audio = AudioExtractor(soundFileName, xmlFilename, targetDirectory)
 
+	def extractMediaInfo(self):
+		# todo: test for the presence of these elements and the attributes
+		x = self.xmlDoc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
+		self.mediaURL = x.attrib["MEDIA_URL"]
+		self.mediaMimeType = x.attrib["MIME_TYPE"]
+		print("media url: %s" % self.mediaURL)
+		print("mimeType:  %s" % self.mediaMimeType)
+		
+	def getMediaInfo(self):
+		return({"url": self.mediaURL,  "mimeType": self.mediaMimeType})
+		
 	def getTierSummary(self):
 		tmpDoc = etree.parse(self.xmlFilename)
 		tierIDs = [tier.attrib["TIER_ID"] for tier in tmpDoc.findall("TIER")]
 		tiers = tmpDoc.findall("TIER")
-		#pdb.set_trace()
 		#print(self.tierGuide)
 		itemList = pd.DataFrame(list(self.tierGuide.items()), columns=['key', 'value'])
 		tbl = itemList[:-1].copy()
@@ -112,6 +124,34 @@ class Text:
 		self.tierTable = tbl
 		return(tbl)
 
+	def determineStartAndEndTimes(self):
+		print("entering determine start and end times")
+		xmlDoc = etree.parse(self.xmlFilename)
+		timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
+		timeIDs = [x.attrib["TIME_SLOT_ID"] for x in timeSlotElements]
+		times = [int(x.attrib["TIME_VALUE"]) for x in timeSlotElements]
+		audioTiers = xmlDoc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION")
+		audioIDs = [x.attrib["ANNOTATION_ID"] for x in audioTiers]
+		tsRef1 = [x.attrib["TIME_SLOT_REF1"] for x in audioTiers]
+		tsRef2 = [x.attrib["TIME_SLOT_REF2"] for x in audioTiers]
+		d = {"id": audioIDs, "t1": tsRef1, "t2": tsRef2}
+		tbl_t1 = pd.DataFrame({"id": audioIDs, "t1": tsRef1})
+		tbl_t2 = pd.DataFrame({"id": audioIDs, "t2": tsRef2})
+		tbl_times = pd.DataFrame({"id": timeIDs, "timeValue": times})
+		tbl_t1m = pd.merge(tbl_t1, tbl_times, left_on="t1", right_on="id")
+		tbl_t2m = pd.merge(tbl_t2, tbl_times, left_on="t2", right_on="id")
+		tbl_raw = pd.merge(tbl_t1m, tbl_t2m, on="id_x")
+		tbl = tbl_raw.drop(["id_y_x", "id_y_y"], axis=1)
+		# still need to rename, maybe also reorder columns
+		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
+		list(tbl.columns)
+		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
+		#        tbl = tbl.sort('start')
+		self.startStopTable = self.makeStartStopTable(tbl)
+		# print("+++\n",tbl,"\n+++")
+		return (tbl)
+
+
 	def makeStartStopTable(self, annotations):
 		self.audioTable = []
 		startStopTimes = "window.timeStamps=["
@@ -121,8 +161,8 @@ class Text:
 			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" %(str(i+1),start,end)
 			startStopTimes += entry
 			self.audioTable.append(annotation)
-		startStopTimes =startStopTimes[:-1] + "]"
-		# 		print(startStopTimes)
+		startStopTimes = startStopTimes[:-1] + "]"
+		# print(startStopTimes)
 		return(startStopTimes)
 
 	def validInputs(self):
@@ -163,7 +203,7 @@ class Text:
 			print("%d: %d tiers" % (i, tbl.shape[0]))
 
 	def getCSS(self):
-		cssFilename = "ijal.css"
+		cssFilename = "slexil.css"
 		#assert(os.path.exists(cssFilename))
 		css = '<link rel = "stylesheet" type = "text/css" href = "%s" />' % cssFilename
 		return(css)
@@ -173,15 +213,34 @@ class Text:
 		#scriptTag = '<script src="jquery-3.3.1.min.js"></script>\n'
 		return(scriptTag)
 
+	def getBootstrap(self):
+		style = """<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+  crossorigin="anonymous">"""
+		script_1 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>'
+		script_2 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>'
+		scriptTag = "%s\n%s\n%s" % (style, script_1, script_2)
+		return(scriptTag)
+
+
 	def getJavascript(self,timeCodesForText):
 		startStopTimes = self.makeStartStopTable(timeCodesForText)
-		jsSource = '<script src="ijalUtils.js"></script>\n'
+		jsSource = '<script src="slexil.js"></script>\n'
 		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
 		return(jsSource)
 
 	def getPlayer(self):
-		soundFile = os.path.join(self.audioPath,os.path.basename(self.soundFileName))
-		playerDiv = '<audio class="player" id="audioplayer" src="%s" controls></audio></audio>' %soundFile
+		mimeType = self.getMediaInfo()["mimeType"]
+		try:
+			mimeType in ["audio/x-wav", "video/m4v"]
+		except:
+			sys.exit(1)
+		url = self.getMediaInfo()["url"]
+		if(mimeType in ["audio/x-wav", "audio/mp3"]):
+			playerDiv = '<audio class="player" id="mediaPlayer" src="%s" controls></audio>' % url
+		if(mimeType in ["video/m4v"]):
+			playerDiv = '<video class="player" id="mediaPlayer" src="%s" controls></video>' % url
 		return playerDiv
 
 	def toHTML(self, lineNumber=None):
@@ -192,17 +251,28 @@ class Text:
 		else:
 			lineNumbers = [lineNumber]
 		if(not self.lineNumberForDebugging == None):
-                        lineNumbers = [self.lineNumberForDebugging]
+			lineNumbers = [self.lineNumberForDebugging]
 		htmlDoc.asis('<!DOCTYPE html>')
-		# pdb.set_trace()
+		#pdb.set_trace()
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
 				htmlDoc.asis(self.getJQuery())
+				htmlDoc.asis(self.getBootstrap())
 				htmlDoc.asis(self.getCSS())
 				htmlDoc.asis("<!-- headCustomizationHook -->")
 			with htmlDoc.tag('body'):
+				with htmlDoc.tag("div", id="infoDiv"):
+					with htmlDoc.tag("div", id="titleRow", klass="row"):
+						with htmlDoc.tag("div", klass="col-md-10 col-12"):
+							with htmlDoc.tag("h3", id="h3Title"):
+								htmlDoc.asis("title goes here")
+						with htmlDoc.tag("div", klass="col-md-2 col-12"):
+							with htmlDoc.tag("button", klass="btn btn-primary"):
+								htmlDoc.asis("About")
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
+				with htmlDoc.tag("div", id="mediaPlayerDiv"):
+					htmlDoc.asis(self.getPlayer())
 				with htmlDoc.tag("div", id="textDiv"):
 					for i in lineNumbers:
 						if(not self.quiet):
@@ -214,7 +284,7 @@ class Text:
 						timeCodesForLine = [start,end]
 						timeCodesForText.append(timeCodesForLine)
 						id = line.getAnnotationID()
-						self.audio.makeLineAudio(i, id, start, end)
+						#self.audio.makeLineAudio(i, id, start, end)
 						with htmlDoc.tag("div",  klass="line-wrapper", id=i+1):
 							tbl = line.getTable()
 							#lineID = tbl.ix[0]['ANNOTATION_ID']
@@ -226,7 +296,6 @@ class Text:
 							line.toHTML(htmlDoc)
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
-				#htmlDoc.asis(self.getPlayer())
 				htmlDoc.asis(self.getJavascript(timeCodesForText))
 				htmlDoc.asis("<!-- bodyBottomCustomizationHook -->")
 		self.htmlDoc = htmlDoc

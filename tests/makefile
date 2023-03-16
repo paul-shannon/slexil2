@@ -1,31 +1,35 @@
 default:
-	@echo targets: all, morphemeGloss, ijalLine, fullText, extractAudio, displayInferno clean
+	@echo targets: venv, morphemeGloss, ijalLine, fullText, 
+	@echo targets: audioExtractor, displayInferno clean
+
+venv:
+	@echo be sure to run: source /Users/paul/github/slexil2/py3105/bin/activate
 
 all: morphemeGloss ijalLine fullText
 
 
+eafParser:
+	python test_EAFParser.py
+
 morphemeGloss:
-	python3 test_MorphemeGloss.py
+	python test_MorphemeGloss.py
 
 ijalLine:
-	python3 test_IjalLine.py
+	python test_IjalLine.py
 
 audioExtractor:
-	python3 test_AudioExtractor.py
-	python3 test_startStopTable.py
-	python3 test_Audio_formats.py
-	python3 test_startStopTable.py
+	python test_AudioExtractor.py
 
 fullText: 
-	python3 test_Text.py
+	python test_Text.py
 
 displayInferno:
-	python3 test_Text.py display
+	python test_Text.py display
 
 
 # for now, local pshannon use only (14 nov 2021)
 extractAudio:
-	python3 ~/github/yamlToEAF/extractAudioPhrases.py \
+	python ~/github/yamlToEAF/extractAudioPhrases.py \
                                ../testData/inferno/inferno-threeLines.wav \
                                ../testData/inferno/inferno-threeLines.eaf \
                                audio

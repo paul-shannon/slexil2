@@ -1,7 +1,6 @@
 // ijalUtil.js
 //----------------------------------------------------------------------------------------------------
-
-var rec = document.getElementById("audioplayer");
+var rec = document.getElementById("mediaplayer");
 var annotationPlaying = null;
 var currentLine = null;
 var currentAnnotation = 'none';

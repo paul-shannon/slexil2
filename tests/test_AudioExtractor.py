@@ -10,7 +10,7 @@ def runTests():
 
     test_constructor()
     test_determineStartAndEndTimes()
-    test_extraction()
+    #test_extraction()
 
 #----------------------------------------------------------------------------------------------------
 def test_constructor():
@@ -47,22 +47,23 @@ def test_determineStartAndEndTimes():
     assert(a3_end == 8033)
 
 #----------------------------------------------------------------------------------------------------
-def test_extraction():
-
-    print("--- test tierGuide-specific extraction")
-
-    clearAudioDirectory("../testData/audio-tmp")
-
-    ea = AudioExtractor("../testData/inferno/inferno-threeLines.wav",
-                        "../testData/inferno/inferno-threeLines.eaf",
-                        "../testData/audio-tmp")
-
-    ea.extract(quiet=True)
-    fileList = [f for f in os.listdir("../testData/audio-tmp") if not f.startswith('.')]
-    fileList.sort()
-    expected = ['a1.wav', 'a2.wav', 'a3.wav', 'inferno-threeLines.wav']
-    assert(fileList == expected)
-
+# extraction of audio segments no longer needed
+#def test_extraction():
+#
+#    print("--- test tierGuide-specific extraction")
+#
+#    clearAudioDirectory("../testData/audio-tmp")
+#
+#    ea = AudioExtractor("../testData/inferno/inferno-threeLines.wav",
+#                        "../testData/inferno/inferno-threeLines.eaf",
+#                        "../testData/audio-tmp")
+#
+#    ea.extract(quiet=True)
+#    fileList = [f for f in os.listdir("../testData/audio-tmp") if not f.startswith('.')]
+#    fileList.sort()
+#    expected = ['a1.wav', 'a2.wav', 'a3.wav', 'inferno-threeLines.wav']
+#    assert(fileList == expected)
+#
 #----------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     runTests()

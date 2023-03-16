@@ -1,5 +1,5 @@
 default:
-	@echo targets: kb, http.local view.local publish
+	@echo targets: kb, http view.local publish
 kb:
 	m4 --quiet -P kb.pre > kb.pre2
 	sed  s/COMMA/,/g kb.pre2 > kb.js

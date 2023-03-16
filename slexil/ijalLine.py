@@ -277,12 +277,12 @@ class IjalLine:
     # ----------------------------------------------------------------------------------------------------
     def htmlLeadIn(self, htmlDoc, audioDirectory, audioFileType):
 
-        text = "%d)" % (self.lineNumber + 1)
+        text = "%d) " % (self.lineNumber + 1)
         htmlDoc.text(text)
         lineID = self.rootID
-        audioTag = '<audio id="%s"><source src="%s/%s.%s"/></audio>' % (
-            self.getAnnotationID(), audioDirectory, self.getAnnotationID(),audioFileType)
-        htmlDoc.asis(audioTag)
+        #audioTag = '<audio id="%s"><source src="%s/%s.%s"/></audio>' % (
+        #   self.getAnnotationID(), audioDirectory, self.getAnnotationID(),audioFileType)
+        #htmlDoc.asis(audioTag)
         onError = "this.style.display=\'none\'"
         buttonTag = '<button onclick="playSample(\'%s\', %d, %d)">🔈</button>' % (self.getAnnotationID(), self.getStartTime(), self.getEndTime())
         htmlDoc.asis(buttonTag)
