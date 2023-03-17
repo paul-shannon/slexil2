@@ -66,6 +66,8 @@ class Text:
 		self.lineNumberForDebugging = lineNumberForDebugging
 		self.quiet = quiet
 		self.xmlDoc = etree.parse(self.xmlFilename)
+		self.extractMetadata()
+		print(self.metadata)
 		self.extractMediaInfo()
 		with open(tierGuideFile, 'r') as f:
 			self.tierGuide = yaml.safe_load(f)
@@ -79,6 +81,17 @@ class Text:
 		logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
 		#self.audio = AudioExtractor(soundFileName, xmlFilename, targetDirectory)
+
+	def extractMetadata(self):
+		properties = self.xmlDoc.findall("HEADER")[0].findall("PROPERTY")
+		self.metadata = {}
+		for prop in properties:
+			name = prop.attrib["NAME"]
+			if("metadata:" in name):
+				name = name.replace("metadata:","")
+				value = prop.text
+				print("%s: %s" % (name, value))
+				self.metadata[name] = value 
 
 	def extractMediaInfo(self):
 		# todo: test for the presence of these elements and the attributes
@@ -266,10 +279,32 @@ class Text:
 					with htmlDoc.tag("div", id="titleRow", klass="row"):
 						with htmlDoc.tag("div", klass="col-md-10 col-12"):
 							with htmlDoc.tag("h3", id="h3Title"):
-								htmlDoc.asis("title goes here")
+								title = "no title supplied"
+								if ("title" in self.metadata.keys()):
+									title = self.metadata["title"]
+								htmlDoc.asis(title)
 						with htmlDoc.tag("div", klass="col-md-2 col-12"):
-							with htmlDoc.tag("button", klass="btn btn-primary"):
-								htmlDoc.asis("About")
+							with htmlDoc.tag("button",
+									('data-bs-toggle','modal'),
+									('data-bs-target', '#aboutModalDialog'),
+									klass="btn btn-primary"):
+										htmlDoc.text('About')
+					with htmlDoc.tag("div",
+							('tabindex', "-1"),
+							('aria-labelledby', "modalLabel"),
+							('aria-hidden', "true"),
+							klass="modal fade", id="aboutModalDialog"):
+								with htmlDoc.tag("div", klass="modal-dialog modal-lg"):
+									with htmlDoc.tag("div", klass="modal-content"):
+										with htmlDoc.tag("div", klass="modal-body"):
+											if(len(self.metadata.keys()) > 0):
+												for topic in self.metadata.keys():
+													with htmlDoc.tag("h1"):
+														htmlDoc.text("%s:" % topic)
+													htmlDoc.text(self.metadata[topic])
+													htmlDoc.tag("p")
+													htmlDoc.tag("br")
+													htmlDoc.tag("br")
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
 				with htmlDoc.tag("div", id="mediaPlayerDiv"):
 					htmlDoc.asis(self.getPlayer())

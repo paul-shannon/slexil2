@@ -320,7 +320,7 @@ class IjalLine:
             translation = self.getTranslation()
             if translation:
                with htmlDoc.tag("div", klass="freeTranslation-tier"):
-                   htmlDoc.asis(self.getTranslation())
+                   htmlDoc.asis(translation)
 
             translation2 = self.getTranslation2()
             if translation2 != None:
