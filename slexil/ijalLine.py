@@ -275,7 +275,7 @@ class IjalLine:
         return (self.morphemeSpacing)
 
     # ----------------------------------------------------------------------------------------------------
-    def htmlLeadIn(self, htmlDoc, audioDirectory, audioFileType):
+    def htmlLeadIn(self, htmlDoc): # , audioDirectory, audioFileType):
 
         text = "%d) " % (self.lineNumber + 1)
         htmlDoc.text(text)

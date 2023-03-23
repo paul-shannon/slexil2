@@ -1,4 +1,3 @@
-
 '''
 ******************************************************************
 SLEXIL—Software Linking Elan XML to Illuminated Language
@@ -46,7 +45,6 @@ import identifyLines
 class Text:
 
 	xmlFilename = ''
-	audioPath = ''
 	grammaticalTermsFile = None
 	grammaticalTerms = []
 	xmlDoc = None
@@ -54,11 +52,8 @@ class Text:
 	lineCount = 0
 	quiet = True
 
-	def __init__(self, xmlFilename, soundFileName, grammaticalTermsFile, tierGuideFile, projectDirectory, lineNumberForDebugging=None, quiet=True):
+	def __init__(self, xmlFilename, grammaticalTermsFile, tierGuideFile, projectDirectory, lineNumberForDebugging=None, quiet=True):
 		self.xmlFilename = xmlFilename
-		self.soundFileName = soundFileName
-		self.audioPath = "audio"
-		self.audioFileType = self.soundFileName[-3:]
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
 		self.projectDirectory = projectDirectory
@@ -195,9 +190,10 @@ class Text:
 				assert(os.path.isfile(self.grammaticalTermsFile))
 			except AssertionError as e:
 				raise Exception(self.grammaticalTermsFile) from e
-			grammaticalTerms = open(self.grammaticalTermsFile).read()#.split("\n")
-			assert(len(grammaticalTerms) > 0)
-			self.grammaticalTerms = _makeAbbreviationListLowerCase(grammaticalTerms)
+			# parse the terms in _makeAbbreviations, read in a single line here
+			grammaticalTerms_raw = open(self.grammaticalTermsFile).read()
+			assert(len(grammaticalTerms_raw) > 0)
+			self.grammaticalTerms = _makeAbbreviationListLowerCase(grammaticalTerms_raw)
 		return(True)
 
 	def getLineAsTable(self, lineNumber):
@@ -325,7 +321,7 @@ class Text:
 							#lineID = tbl.ix[0]['ANNOTATION_ID']
 							# lineID = tbl.iloc[0][tbl.columns.values.tolist().index('ANNOTATION_ID')]
 							with htmlDoc.tag("div", klass="line-sidebar"):
-								line.htmlLeadIn(htmlDoc, self.audioPath, self.audioFileType)
+								line.htmlLeadIn(htmlDoc) # , self.audioPath, self.audioFileType)
 								s = f"<!-- sidebarHookLine_{i+1} -->"
 								htmlDoc.asis(s)
 							line.toHTML(htmlDoc)

@@ -1,5 +1,5 @@
 default:
-	@echo targets: venv, morphemeGloss, ijalLine, fullText, 
+	@echo targets: venv, morphemeGloss, ijalLine, text, textDisplay
 	@echo targets: audioExtractor, displayInferno clean
 
 venv:
@@ -20,20 +20,12 @@ ijalLine:
 audioExtractor:
 	python test_AudioExtractor.py
 
-fullText: 
+text: 
 	python test_Text.py
 
-displayInferno:
+textDisplay:
 	python test_Text.py display
 
-
-# for now, local pshannon use only (14 nov 2021)
-extractAudio:
-	python ~/github/yamlToEAF/extractAudioPhrases.py \
-                               ../testData/inferno/inferno-threeLines.wav \
-                               ../testData/inferno/inferno-threeLines.eaf \
-                               audio
-	cp ../testData/inferno/inferno-threeLines.wav audio/
 
 
 clean:

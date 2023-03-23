@@ -168,10 +168,10 @@ sub {
 }
 
 .current-line {
-        background: #B6E8FF;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
+    background: #B6E8FF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .audio-wrapper {

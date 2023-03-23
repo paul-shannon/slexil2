@@ -16,10 +16,17 @@
     <div id="infoDiv">
       <div id="titleRow" class="row">
         <div class="col-md-10 col-12">
-          <h3 id="h3Title">title goes here</h3>
+          <h3 id="h3Title">no title supplied</h3>
         </div>
         <div class="col-md-2 col-12">
-          <button class="btn btn-primary">About</button>
+          <button data-bs-toggle="modal" data-bs-target="#aboutModalDialog" class="btn btn-primary">About</button>
+        </div>
+      </div>
+      <div tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true" class="modal fade" id="aboutModalDialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body"></div>
+          </div>
         </div>
       </div>
     </div>
