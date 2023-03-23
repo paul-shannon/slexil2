@@ -1,3 +1,8 @@
+body {
+    font-family: "New York Times-Roman";
+    font-size: 20px;
+}
+
 #textDiv{
     overflow-y: scroll;
     margin-left: 20px;

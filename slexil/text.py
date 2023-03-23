@@ -280,8 +280,8 @@ class Text:
 						with htmlDoc.tag("div", klass="col-md-10 col-12"):
 							with htmlDoc.tag("h3", id="h3Title"):
 								title = "no title supplied"
-								if ("title" in self.metadata.keys()):
-									title = self.metadata["title"]
+								if ("Title" in self.metadata.keys()):
+									title = self.metadata["Title"]
 								htmlDoc.asis(title)
 						with htmlDoc.tag("div", klass="col-md-2 col-12"):
 							with htmlDoc.tag("button",
