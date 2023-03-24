@@ -29,15 +29,11 @@ david.beck at ualberta.ca.
 import os
 from yattag import *
 import yaml
-# import unittest
 from ijalLine import *
-# import importlib
 pd.set_option('display.width', 1000)
 import pdb
-# from decimal import Decimal
 import logging
 import identifyLines
-#from audioExtractor import AudioExtractor
 
 #----------------------------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -61,40 +57,37 @@ class Text:
 		self.lineNumberForDebugging = lineNumberForDebugging
 		self.quiet = quiet
 		self.xmlDoc = etree.parse(self.xmlFilename)
-		self.extractMetadata()
-		print(self.metadata)
+		self.metadata = self.extractMetadata()
 		self.extractMediaInfo()
 		with open(tierGuideFile, 'r') as f:
 			self.tierGuide = yaml.safe_load(f)
 		self.speechTier = self.tierGuide['speech']
 		self.speechTierList = identifyLines.getList(self.xmlDoc,self.tierGuide)
 		self.lineCount = len(self.speechTierList)
-		#pdb.set_trace()
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		logging.basicConfig(filename=os.path.join(projectDirectory,"ERRORS.log"),format="%(levelname)s %(message)s")
 		logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
-		#self.audio = AudioExtractor(soundFileName, xmlFilename, targetDirectory)
 
 	def extractMetadata(self):
 		properties = self.xmlDoc.findall("HEADER")[0].findall("PROPERTY")
-		self.metadata = {}
+		metadata = {}
 		for prop in properties:
 			name = prop.attrib["NAME"]
 			if("metadata:" in name):
 				name = name.replace("metadata:","")
 				value = prop.text
-				print("%s: %s" % (name, value))
-				self.metadata[name] = value 
+				metadata[name] = value
+		return(metadata)
 
 	def extractMediaInfo(self):
 		# todo: test for the presence of these elements and the attributes
 		x = self.xmlDoc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
 		self.mediaURL = x.attrib["MEDIA_URL"]
 		self.mediaMimeType = x.attrib["MIME_TYPE"]
-		print("media url: %s" % self.mediaURL)
-		print("mimeType:  %s" % self.mediaMimeType)
+		#print("media url: %s" % self.mediaURL)
+		#print("mimeType:  %s" % self.mediaMimeType)
 		
 	def getMediaInfo(self):
 		return({"url": self.mediaURL,  "mimeType": self.mediaMimeType})
@@ -133,7 +126,7 @@ class Text:
 		return(tbl)
 
 	def determineStartAndEndTimes(self):
-		print("entering determine start and end times")
+		# print("entering determine start and end times")
 		xmlDoc = etree.parse(self.xmlFilename)
 		timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
 		timeIDs = [x.attrib["TIME_SLOT_ID"] for x in timeSlotElements]
@@ -271,36 +264,18 @@ class Text:
 				htmlDoc.asis(self.getCSS())
 				htmlDoc.asis("<!-- headCustomizationHook -->")
 			with htmlDoc.tag('body'):
+				aboutBoxNeeded = False
 				with htmlDoc.tag("div", id="infoDiv"):
 					with htmlDoc.tag("div", id="titleRow", klass="row"):
 						with htmlDoc.tag("div", klass="col-md-10 col-12"):
-							with htmlDoc.tag("h3", id="h3Title"):
-								title = "no title supplied"
-								if ("Title" in self.metadata.keys()):
+							if ("Title" in self.metadata.keys()):
+								with htmlDoc.tag("h3", id="h3Title"):
 									title = self.metadata["Title"]
-								htmlDoc.asis(title)
-						with htmlDoc.tag("div", klass="col-md-2 col-12"):
-							with htmlDoc.tag("button",
-									('data-bs-toggle','modal'),
-									('data-bs-target', '#aboutModalDialog'),
-									klass="btn btn-primary"):
-										htmlDoc.text('About')
-					with htmlDoc.tag("div",
-							('tabindex', "-1"),
-							('aria-labelledby', "modalLabel"),
-							('aria-hidden', "true"),
-							klass="modal fade", id="aboutModalDialog"):
-								with htmlDoc.tag("div", klass="modal-dialog modal-lg"):
-									with htmlDoc.tag("div", klass="modal-content"):
-										with htmlDoc.tag("div", klass="modal-body"):
-											if(len(self.metadata.keys()) > 0):
-												for topic in self.metadata.keys():
-													with htmlDoc.tag("h1"):
-														htmlDoc.text("%s:" % topic)
-													htmlDoc.text(self.metadata[topic])
-													htmlDoc.tag("p")
-													htmlDoc.tag("br")
-													htmlDoc.tag("br")
+									htmlDoc.asis(title)
+						aboutBoxNeeded = optionallyAddAboutButton(htmlDoc, self.metadata)
+					if(aboutBoxNeeded):
+						addAboutBox(htmlDoc, self.metadata)
+
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
 				with htmlDoc.tag("div", id="mediaPlayerDiv"):
 					htmlDoc.asis(self.getPlayer())
@@ -333,7 +308,46 @@ class Text:
 		self.htmlText = htmlDoc.getvalue()
 		return(self.htmlText)
 
-#---------------------------------------------------------
+#--------------------------------------------------------------------------------
+def optionallyAddAboutButton(htmlDoc, metadata):
+
+	if(not "Title" in metadata.keys()):
+		return(False)
+
+	if("Title" in metadata.keys()):  # no metadata beyond Title: skip
+		if(len(metadata) == 1):
+			return(False)
+
+	with htmlDoc.tag("div", klass="col-md-2 col-12"):
+		with htmlDoc.tag("button",
+							  ('data-bs-toggle','modal'),
+							  ('data-bs-target', '#aboutModalDialog'),
+							  klass="btn btn-primary"):
+			htmlDoc.text('About')
+
+	return(True)
+
+#--------------------------------------------------------------------------------
+def addAboutBox(htmlDoc, metadata):
+
+	with htmlDoc.tag("div",
+		('tabindex', "-1"),
+		('aria-labelledby', "modalLabel"),
+		('aria-hidden', "true"),
+		klass="modal fade", id="aboutModalDialog"):
+			with htmlDoc.tag("div", klass="modal-dialog modal-lg"):
+				with htmlDoc.tag("div", klass="modal-content"):
+					with htmlDoc.tag("div", klass="modal-body"):
+						if(len(metadata.keys()) > 0):
+							for topic in metadata.keys():
+								with htmlDoc.tag("h1"):
+									htmlDoc.text("%s:" % topic)
+								htmlDoc.text(metadata[topic])
+								htmlDoc.tag("p")
+								htmlDoc.tag("br")
+								htmlDoc.tag("br")
+											  
+#---------------------------------------------------------------
 def _makeAbbreviationListLowerCase(grammaticalTerms):
 	''' ensures grammatical terms in user list are lower case '''
 	exceptions  = ["A","S","O","P"]

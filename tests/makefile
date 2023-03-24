@@ -27,6 +27,5 @@ textDisplay:
 	python test_Text.py display
 
 
-
 clean:
 	- rm tmp*.html
