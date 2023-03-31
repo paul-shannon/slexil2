@@ -35,6 +35,7 @@ function scrollAndHighlight(lineNumber){
    document.getElementById("textDiv").scrollTo(options)
 
    $(".line-wrapper").removeClass("current-line")
+   queryTerm
    $('#' + lineNumber).addClass("current-line")
 
 }  // scrollAndHighlight
@@ -70,18 +71,16 @@ function playMediaSegment(mediaID, startTime, endTime)
 //--------------------------------------------------------------------------------
 $('#fontSizeSlider').on('input', function() {
     var v = $(this).val();
-    console.log(v)
     $("#textDiv").css('font-size', v + 'em')
     });
 
 $('#videoSizeSelector').on('input', function() {
     var v = $(this).val();
-    console.log(v);
     $("#mediaPlayer").width(v);
     });
 
 $('#speedSelector').on('input', function() {
     var v = $(this).val();
-    console.log(v)
     mediaPlayer.playbackRate = v;
+	$("#playbackSpeedReadout").text(v);
     });
