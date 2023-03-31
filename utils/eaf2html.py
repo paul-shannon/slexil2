@@ -27,8 +27,12 @@ grammaticalTermsFile = vars(args)["terms"]
 tierGuideFile = vars(args)["tierGuide"]
 projectDirectory = vars(args)["projectDirectory"]
 quiet = vars(args)["quiet"]
-startLine = int(vars(args)["startLine"])
-endLine = int(vars(args)["endLine"])
+startLine = vars(args)["startLine"]
+endLine = vars(args)["endLine"]
+if(startLine != None):
+	startLine = int(startLine)
+if(endLine != None):
+	endLine = int(endLine)
 fontSizeControls = vars(args)["addFontSizeControls"]
 
 text = Text(elanXmlFilename, grammaticalTermsFile, tierGuideFile,

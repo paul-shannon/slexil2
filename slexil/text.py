@@ -377,8 +377,8 @@ def addFontSizeControls(htmlDoc):
 					  min="0.5", max="1.25", value="1.0", step="0.25", id="speedSelector")
 		with htmlDoc.tag("label"):
 			htmlDoc.asis("Speed")
-		pdb.set_trace()
-		htmlDoc.textarea(name="playbackSpeedReadout", id="playbackSpeedReadout")
+		with htmlDoc.tag("div", id="playbackSpeedReadout"):
+				htmlDoc.asis("1.0")
 		htmlDoc.stag("br")
 
 		htmlDoc.input(name="fontSizeSlider", type="range",

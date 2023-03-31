@@ -1,9 +1,13 @@
-git add   .gitignore
-git add   README.md
-git add makefile
-git add misc/
-git add requirements.txt
-git add slexil/
-git add testData/
-git add tests/
+	git add   explore/aliceTaff/01/ERRORS.log
+	git add   explore/aliceTaff/01/makefile
+	git rm  explore/aliceTaff/07/florence.html
+	git add   explore/aliceTaff/slexil.css
+	git add   explore/aliceTaff/slexil.js
+	git add   junk
+	git add   slexil/text.py
+	git add   utils/eaf2html.py
 
+git add explore/aliceTaff/01/index.html
+git add explore/aliceTaff/01/slexil.css
+git add explore/aliceTaff/01/slexil.js
+git add explore/fontSizeControls/

@@ -3,7 +3,7 @@ EAF = 01RuthNora230209AT.eaf
 
 
 default:
-	@echo targets:  venv http html open-local mkdir testdir 
+	@echo targets:  venv http update-slexil-code html open-local mkdir testdir 
 	@echo targets: publish open
 
 venv:
@@ -14,17 +14,20 @@ PORT = 8009
 http:
 	python -m http.server $(PORT) &
 
-html:
-	cp -p ../slexil.* .
+html: update-slexil-code
 	python ../../../utils/eaf2html.py \
                --eaf $(EAF) \
                --terms grammaticalTerms.txt \
                --tierGuide tierGuide.yaml \
                --projectDirectory ./ \
                --quiet \
-               --addFontSizeControls \
-               --startLine 0 \
-               --endLine 50
+               --addFontSizeControls
+#               --startLine 121 \
+#               --endLine 126
+
+update-slexil-code:
+	cp -p ../slexil.* .
+
 
 publish:
 	scp index.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
