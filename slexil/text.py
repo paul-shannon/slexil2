@@ -26,7 +26,7 @@ david.beck at ualberta.ca.
 #----------------------------------------------------------------------------------------------------
 # import re
 # import sys
-import os
+import os, sys
 from yattag import *
 import yaml
 from ijalLine import *
@@ -48,13 +48,22 @@ class Text:
 	lineCount = 0
 	quiet = True
 
-	def __init__(self, xmlFilename, grammaticalTermsFile, tierGuideFile, projectDirectory, lineNumberForDebugging=None, quiet=True):
+	def __init__(self,
+				 xmlFilename,
+				 grammaticalTermsFile,
+				 tierGuideFile,
+				 projectDirectory,
+				 quiet,
+				 fontSizeControls,
+				 startLine,
+				 endLine):
+		print("debug? %s" % (not quiet))
 		self.xmlFilename = xmlFilename
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
 		self.projectDirectory = projectDirectory
+		self.fontSizeControls = fontSizeControls
 		self.validInputs()
-		self.lineNumberForDebugging = lineNumberForDebugging
 		self.quiet = quiet
 		self.xmlDoc = etree.parse(self.xmlFilename)
 		self.metadata = self.extractMetadata()
@@ -64,6 +73,13 @@ class Text:
 		self.speechTier = self.tierGuide['speech']
 		self.speechTierList = identifyLines.getList(self.xmlDoc,self.tierGuide)
 		self.lineCount = len(self.speechTierList)
+		if(self.lineCount == 0):
+			print("no lines found, disagreement between tierGuide and eaf?")
+			sys.exit(1)
+		if(startLine != None):
+			self.lineNumbers = range(startLine, endLine)
+		else:
+			self.lineNumbers = range(self.lineCount)
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		logging.basicConfig(filename=os.path.join(projectDirectory,"ERRORS.log"),format="%(levelname)s %(message)s")
@@ -152,7 +168,6 @@ class Text:
 		# print("+++\n",tbl,"\n+++")
 		return (tbl)
 
-
 	def makeStartStopTable(self, annotations):
 		self.audioTable = []
 		startStopTimes = "window.timeStamps=["
@@ -191,14 +206,13 @@ class Text:
 
 	def getLineAsTable(self, lineNumber):
 		audioData = lineNumber+1 #self.audioTable[int(lineNumber)]
-		print("audio data: %s" %audioData)
+		print("audio data: %s" % audioData)
 		x = IjalLine(self.xmlDoc, lineNumber, self.tierGuide, audioData, quiet=self.quiet)
 		x.parse()
 		return(x.getTable())
 
 	def traverseStructure(self):
-		lineNumbers = range(self.lineCount)
-		for i in lineNumbers:
+		for i in self.lineNumbers:
 			x = IjalLine(self.xmlDoc, i, self.tierGuide, quiet=self.quiet)
 			x.parse()
 			tbl = x.getTable()
@@ -235,25 +249,22 @@ class Text:
 	def getPlayer(self):
 		mimeType = self.getMediaInfo()["mimeType"]
 		try:
-			mimeType in ["audio/x-wav", "video/m4v"]
+			mimeType in ["audio/x-wav", "video/m4v", "video/mp4", "video/quicktime"]
 		except:
 			sys.exit(1)
 		url = self.getMediaInfo()["url"]
 		if(mimeType in ["audio/x-wav", "audio/mp3"]):
 			playerDiv = '<audio class="player" id="mediaPlayer" src="%s" controls></audio>' % url
-		if(mimeType in ["video/m4v"]):
+		if(mimeType in ["video/m4v", "video/quicktime", "video/mp4"]):
 			playerDiv = '<video class="player" id="mediaPlayer" src="%s" controls></video>' % url
 		return playerDiv
 
 	def toHTML(self, lineNumber=None):
 		htmlDoc = Doc()
 		timeCodesForText = []
-		if(lineNumber == None):
-			lineNumbers = range(self.lineCount)
-		else:
-			lineNumbers = [lineNumber]
-		if(not self.lineNumberForDebugging == None):
-			lineNumbers = [self.lineNumberForDebugging]
+		if(not self.quiet):
+			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
+
 		htmlDoc.asis('<!DOCTYPE html>')
 		#pdb.set_trace()
 		with htmlDoc.tag('html', lang="en"):
@@ -279,8 +290,11 @@ class Text:
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
 				with htmlDoc.tag("div", id="mediaPlayerDiv"):
 					htmlDoc.asis(self.getPlayer())
+				if(self.fontSizeControls):
+						addFontSizeControls(htmlDoc)
+
 				with htmlDoc.tag("div", id="textDiv"):
-					for i in lineNumbers:
+					for i in self.lineNumbers:
 						if(not self.quiet):
 						        print("line %d/%d" % (i, self.lineCount))
 						line = IjalLine(self.xmlDoc, i, self.tierGuide, self.grammaticalTerms, quiet=self.quiet)
@@ -347,6 +361,33 @@ def addAboutBox(htmlDoc, metadata):
 								htmlDoc.tag("br")
 								htmlDoc.tag("br")
 											  
+#---------------------------------------------------------------
+def addFontSizeControls(htmlDoc):
+
+	print("--- addFontSizeControls")
+	with htmlDoc.tag("div", id="fontSizeControlsDiv"):
+
+		htmlDoc.input(name="videoSizeSelector", type="range",
+					  min="100", max="800", value="400", step="100", id="videoSizeSelector")
+		with htmlDoc.tag("label"):
+				htmlDoc.asis("Video Size")
+		htmlDoc.stag("br")
+
+		htmlDoc.input(name="speedSelector", type="range",
+					  min="0.5", max="1.25", value="1.0", step="0.25", id="speedSelector")
+		with htmlDoc.tag("label"):
+			htmlDoc.asis("Speed")
+		pdb.set_trace()
+		htmlDoc.textarea(name="playbackSpeedReadout", id="playbackSpeedReadout")
+		htmlDoc.stag("br")
+
+		htmlDoc.input(name="fontSizeSlider", type="range",
+					  min="0.2", max="4.0", value="1.4", step="0.1", id="fontSizeSlider")
+		with htmlDoc.tag("label"):
+			htmlDoc.asis("Print Size")
+
+
+
 #---------------------------------------------------------------
 def _makeAbbreviationListLowerCase(grammaticalTerms):
 	''' ensures grammatical terms in user list are lower case '''

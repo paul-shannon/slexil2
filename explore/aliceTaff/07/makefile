@@ -1,10 +1,9 @@
 PROJECT_NUMBER = 07
-PROJECT_NAME = florence
-
+EAF = 7FlorenceRon230302AT.eaf
 
 default:
-	@echo targets:  venv http html view-local mkdir testdir 
-	@echo targets: publish-html open
+	@echo targets:  venv http html open-local mkdir testdir 
+	@echo targets: publish open
 
 venv:
 	@echo be sure to run: source /Users/paul/github/slexil2/py3105/bin/activate
@@ -15,22 +14,29 @@ http:
 	python -m http.server $(PORT) &
 
 html:
-	python3 eafToHtml.py #7FlorenceRon230302AT.eaf FlorenceRon7-27-09.m4v $(PROJECT)
+	python ../../../utils/eaf2html.py $(EAF) \
+               grammaticalTerms.txt \
+               tierGuide.yaml \
+               . \
+               False
+#               91  92
 
-publish-html:
-	scp $(PROJECT_NAME).html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
+publish:
+	scp index.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
 	scp slexil.css paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
 	scp slexil.js paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
 
 
 publish-all:
-	scp $(PROJECT_NAME).html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
+	scp index.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
 	scp slexil.css paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
 	scp slexil.js paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
 
+open-local:
+	open index.html
 
 open:
-	open https://pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/$(PROJECT_NAME).html
+	open https://pshannon.net/tlingit-demos/$(PROJECT_NUMBER)
 
 mkdir:
 	ssh paulshannnon@pshannon.net mkdir public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)

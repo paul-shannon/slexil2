@@ -66,7 +66,7 @@ class IjalLine:
     def parse(self):
         self.tbl = standardizeTable(self.tblRaw, self.tierGuide)
         if(not self.quiet):
-            print("--- ijalLine:parse, line %d", self.lineNumber)
+            print("--- ijalLine:parse, line %d" % self.lineNumber)
             print(self.tbl)
         self.tbl.index = range(len(self.tbl.index))
         self.categories = categories = self.tbl["category"].tolist()
