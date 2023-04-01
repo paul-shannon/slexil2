@@ -288,6 +288,8 @@ class Text:
 						addAboutBox(htmlDoc, self.metadata)
 
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
+				if(self.fontSizeControls):
+						addVideoSizeSlider(htmlDoc)
 				with htmlDoc.tag("div", id="mediaPlayerDiv"):
 					htmlDoc.asis(self.getPlayer())
 				if(self.fontSizeControls):
@@ -362,29 +364,33 @@ def addAboutBox(htmlDoc, metadata):
 								htmlDoc.tag("br")
 											  
 #---------------------------------------------------------------
-def addFontSizeControls(htmlDoc):
+def addVideoSizeSlider(htmlDoc):
 
-	print("--- addFontSizeControls")
-	with htmlDoc.tag("div", id="fontSizeControlsDiv"):
+	with htmlDoc.tag("div", id="videoSizeSliderDiv", klass="sliderControlDiv"):
 
-		htmlDoc.input(name="videoSizeSelector", type="range",
-					  min="100", max="800", value="400", step="100", id="videoSizeSelector")
 		with htmlDoc.tag("label"):
 				htmlDoc.asis("Video Size")
-		htmlDoc.stag("br")
+		htmlDoc.input(name="videoSizeSelector", type="range",
+					  min="100", max="800", value="400", step="100", id="videoSizeSelector")
 
+#---------------------------------------------------------------
+def addFontSizeControls(htmlDoc):
+
+	print("--- addFontSizeControls new klass")
+	with htmlDoc.tag("div", id="fontSizeControlsDiv", klass="sliderControlDiv"):
+
+		with htmlDoc.tag("label"):
+			htmlDoc.asis("Playback Speed")
 		htmlDoc.input(name="speedSelector", type="range",
 					  min="0.5", max="1.25", value="1.0", step="0.25", id="speedSelector")
-		with htmlDoc.tag("label"):
-			htmlDoc.asis("Speed")
 		with htmlDoc.tag("div", id="playbackSpeedReadout"):
 				htmlDoc.asis("1.0")
 		htmlDoc.stag("br")
 
-		htmlDoc.input(name="fontSizeSlider", type="range",
-					  min="0.2", max="4.0", value="1.4", step="0.1", id="fontSizeSlider")
 		with htmlDoc.tag("label"):
 			htmlDoc.asis("Print Size")
+		htmlDoc.input(name="fontSizeSlider", type="range",
+					  min="0.2", max="4.0", value="1.4", step="0.1", id="fontSizeSlider")
 
 
 

@@ -21,19 +21,20 @@
       </div>
     </div>
     <!-- bodyTopCustomizationHook -->
+    <div id="videoSizeSliderDiv" class="sliderControlDiv">
+      <label>Video Size</label>
+      <input type="range" min="100" max="800" value="400" step="100" id="videoSizeSelector" name="videoSizeSelector" />
+    </div>
     <div id="mediaPlayerDiv">
       <video class="player" id="mediaPlayer" src="https://igv-data.systemsbiology.net/slexil/1RuthNora2Wide.m4v" controls></video>
     </div>
-    <div id="fontSizeControlsDiv">
-      <input type="range" min="100" max="800" value="400" step="100" id="videoSizeSelector" name="videoSizeSelector" />
-      <label>Video Size</label>
-      <br />
+    <div id="fontSizeControlsDiv" class="sliderControlDiv">
+      <label>Playback Speed</label>
       <input type="range" min="0.5" max="1.25" value="1.0" step="0.25" id="speedSelector" name="speedSelector" />
-      <label>Speed</label>
       <div id="playbackSpeedReadout">1.0</div>
       <br />
-      <input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" />
       <label>Print Size</label>
+      <input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" />
     </div>
     <div id="textDiv">
       <div class="line-wrapper" id="1">

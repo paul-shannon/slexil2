@@ -33,9 +33,10 @@ function scrollAndHighlight(lineNumber){
    document.getElementById("textDiv").scrollTo(options)
 
    //$(".line-wrapper").removeClass("current-line")
-   $(".line-content").removeClass("current-line")
-   qt = "#" + lineNumber + " .line-content"
-	$(qt).addClass("current-line")
+   $(".line-content > .line").removeClass("current-line")
+   //qt = "#" + lineNumber + " .line-content"
+   qt = "#" + lineNumber + " .line"
+   $(qt).addClass("current-line")
    //$('#' + lineNumber).addClass("current-line")
 
 }  // scrollAndHighlight

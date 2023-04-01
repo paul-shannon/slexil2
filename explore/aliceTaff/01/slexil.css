@@ -18,10 +18,16 @@ body {
 
 }
 
-#fontSizeControlsDiv{
+#videoSizeSliderDiv{
 	margin: 10px;
-	margin-left: 40px;
+	margin-left: 120px;
 }
+
+.sliderControlDiv{
+	margin: 10px;
+	margin-left: 120px;
+}
+
 #infoDiv{
     margin-top: 15px;
 	margin-left: 40px;
@@ -86,6 +92,7 @@ body {
 .line {
   //display: grid;
   background-color: transparent;
+  font-weight: bold;
   //border: 1px solid gray;
   padding-left: 20px;
   padding: 0px;
