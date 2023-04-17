@@ -10,7 +10,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel = "stylesheet" type = "text/css" href = "slexil.css" />
-    <!-- headCustomizationHook -->
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+  crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <div id="infoDiv">
@@ -18,7 +25,93 @@
         <div class="col-md-10 col-12"></div>
       </div>
     </div>
-    <!-- bodyTopCustomizationHook -->
+
+    <div id="infoDiv" style=" margin: 40px; margin-top: 20px; margin-bottom: 3px;">
+
+      <div class="row" id="titleRow">
+	<div class="col-md-10 col-12">
+	  <h3 style="display:inline-block;">
+	    Nora Dauenhauer, Ḵaanáḵ Ruth Demmert, and G̱uneiwtí Marsha Hotch
+	  </h3>
+	</div>
+	<div class="col-md-2 col-12">
+	  <button type="button"
+		  class="btn btn-primary"
+		  data-bs-toggle="modal"
+		  data-bs-target="#ruthModal">About</button>
+     	  </div>
+     </div id="titleRow">
+
+<!-- div id="metadataModalDialogDiv" style="margin-top: 20px; margin-left: 20px;">
+
+</div id="metadataModalDialogDiv"-->
+
+<div class="modal fade" id="ruthModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel">
+        Nora Dauenhauer, Ḵaanáḵ Ruth Demmert, and G̱uneiwtí Marsha Hotch.
+       </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+       Speakers are Ḵeixwnéi Nora Dauenhauer, Ḵaanáḵ Ruth Demmert, and
+       G̱uneiwtí Marsha Hotch. Recorded June 29, 2007, at Bill Ray
+       Center in Juneau, Alaska, by Ljáaḵk Alice Taff.
+
+     <p><p>
+
+        This material is based on work supported by National Science
+        Foundation grant 0853788 to the University of Alaska Southeast
+        with Ljáaḵkʼ Alice Taff as Principal Investigator, and by
+        National Endowment for the Humanities fellowship 266286-19 to
+        Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or
+        recommendations expressed in this material are those of the
+        authors and do not necessarily reflect the views of the
+        National Science Foundation or National Endowment for the
+        Humanities.
+      <p>
+
+      Tlingit transcription by Daaljíni Mary Folletti and Kingeistí
+      David Katzeek. English translation by Daaljíni Mary
+      Foletti. Edited by X̱’aagi Sháawu Keri Edwards Eggleston and
+      Ḵaachkoo.aaḵw Helen Sarabia, also by X̱ʼunei Lance
+      Twitchell.
+
+      <p>
+        SYMBOLS: Brackets = {false start}, (added for clarity), [translator/transcriber's note].
+	??? = canʼt understand. «quotation marks for Tlingit text (so as not to be confused with
+	Tlingit ʼ)»
+
+      <p>
+        Time-aligned text for this video was accomplished using ELAN
+        Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].
+	Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive.
+	Retrieved from <a href="https://archive.mpi.nl/tla/elan" target="_blank">
+        https://archive.mpi.nl/tla/elan</a>.
+	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div id="ruthModal">
+
+
+  </div id="infoDiv">
+
+
+  <div id="movieDiv" style="margin: 40px;">
+    <video id="videoPlayer"  controls width="800">
+      <source src="1RuthNora2Wide.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+  </div id="movieDiv">
+
     <div id="videoSizeSliderDiv" class="sliderControlDiv">
       <label>Video Size</label>
       <input type="range" min="100" max="800" value="400" step="100" id="videoSizeSelector" name="videoSizeSelector" />
@@ -175,6 +268,49 @@
     <script type="text/javascript">window.timeStamps=[{ 'id' : '1', 'start' : 0, 'end' : 2022},
 { 'id' : '2', 'start' : 2732, 'end' : 6596},
 { 'id' : '3', 'start' : 7491, 'end' : 13688},]</script>
-    <!-- bodyBottomCustomizationHook -->
+<script>
+    
+console.log("--- executing videoEvents.js");
+
+vp = $("#videoPlayer");
+
+vp.on("timeupdate", function(e){
+   tCurrent = Math.round(vp.get(0).currentTime * 1000)
+   //console.log("timeupdate");
+   for(lineTimes of timeStamps){
+       if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
+           //console.log("playing line " + lineTimes.id);
+           var lineNumber = parseInt(lineTimes.id)
+           scrollAndHighlight(lineNumber)
+          }
+      } // for lineTimes
+   })
+
+//--------------------------------------------------------------------------------
+function scrollAndHighlight(lineNumber){
+
+   //var newTop = Math.round($('#' + lineNumber).position().top) - 100;
+   //var options = {top: newTop, left: 0, behavior: "smooth"}
+   //$(".line-wrapper").removeClass("current-line")
+   //$('#' + lineNumber).addClass("current-line")
+
+   // from here:
+   // https://stackoverflow.com/questions/27980084/scrolling-to-a-element-inside-a-scrollable-div-with-pure-javascript
+   var scrollingDivTop = document.getElementById("textDiv").offsetTop
+   //console.log("texDiv top: " + scrollingDivTop);
+
+   var lineDivTop = document.getElementById(lineNumber).offsetTop - scrollingDivTop;
+   lineDivTop -= 100;
+   //console.log("line top for " + lineNumber + ": " + lineDivTop);
+
+   var options = {top: lineDivTop, left: 0, behavior: "smooth"}
+   document.getElementById("textDiv").scrollTo(options)
+
+   $(".line-wrapper").removeClass("current-line")
+   $('#' + lineNumber).addClass("current-line")
+
+}  // scrollAndHighlight
+//--------------------------------------------------------------------------------
+</script>
   </body>
 </html>

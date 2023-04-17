@@ -1,8 +1,9 @@
-NAME = coyoteAndBigRock
+NAME = coyoteAndBigRock-prosody
 
 
 default:
-	@echo targets: venv eaf http update-slexil-code html open-local
+	@echo targets: venv eaf http update-slexil-code html
+    @echo targets: tailor open-local
 	@echo targets: mkdir testdir 
 	@echo targets: publish open
 
@@ -28,8 +29,11 @@ html:
 #               --startLine 121 \
 #               --endLine 126
 
-update-slexil-code:
-	cp -p ~/github/slexil2/explore/lushootseed/slexil.* .
+tailor:
+	sed -f insertCustomCode.sed index.html  > index0.html
+
+#update-slexil-code:
+#	cp -p ~/github/slexil2/explore/lushootseed/slexil.* .
 
 
 publish:

@@ -13,12 +13,8 @@
     <!-- headCustomizationHook -->
   </head>
   <body>
-    <div id="infoDiv">
-      <div id="titleRow" class="row">
-        <div class="col-md-10 col-12"></div>
-      </div>
-    </div>
     <!-- bodyTopCustomizationHook -->
+    <div id="controlsDiv">
     <div id="videoSizeSliderDiv" class="sliderControlDiv">
       <label>Video Size</label>
       <input type="range" min="100" max="800" value="400" step="100" id="videoSizeSelector" name="videoSizeSelector" />
@@ -33,7 +29,12 @@
       <br />
       <label>Print Size</label>
       <input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" />
+      <br />
+      <button type="button" class="btn btn-outline-secondary" id="toggleAnnotationsButton">Show Annotations</button>
     </div>
+	</div id="controlsDiv">
+    <div id="textRowDiv" class="row">
+    <div id="leftColumn" class="col-12">
     <div id="textDiv">
       <div class="line-wrapper" id="1">
         <div class="line-sidebar">1) <button onclick="playSample(1, 0, 2022)">🔈</button><!-- sidebarHookLine_1 --></div>
@@ -170,11 +171,40 @@
         </div>
       </div>
     </div>
+	</div>
+	<div class="col-4" id="kbDiv">
+      <h4>now is the time!</h4>
+	</div>
+     </div>
     <div class="spacer"></div>
     <script src="slexil.js"></script>
+    <script src="../../kb.js"></script>
+    <script src="../../showdown.js"></script>
+    <script src="../../annotations.js"></script>
     <script type="text/javascript">window.timeStamps=[{ 'id' : '1', 'start' : 0, 'end' : 2022},
 { 'id' : '2', 'start' : 2732, 'end' : 6596},
 { 'id' : '3', 'start' : 7491, 'end' : 13688},]</script>
     <!-- bodyBottomCustomizationHook -->
+    <script>
+      var showAnno = false;
+      $("#toggleAnnotationsButton").click(function(){
+		  var kbDivVisible = $("#kbDiv").is(":visible")
+		  console.log("click simple anno toggle, kbDivVisible?" + kbDivVisible)
+		  if (kbDivVisible){
+			  console.log("hiding kbDiv");
+			  showAnno = false;
+			  $("#kbDiv").removeClass("col-4").hide()
+			  $("#leftColumn").removeClass("col-7").addClass("col-12")
+			  $("#toggleAnnotationsButton").text("Show Annotations")
+		  } else {
+			  console.log("showing kbDiv");
+			  $("#kbDiv").addClass("col-4").show()
+			  $("#leftColumn").removeClass("col-12").addClass("col-8")
+			  $("#toggleAnnotationsButton").text("Hide Annotations")
+			  showAnno = true;
+		  }
+	  });
+	  
+    </script>
   </body>
 </html>

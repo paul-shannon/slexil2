@@ -15,22 +15,6 @@ lines:
 
   - lineNumber: 2
     startTime: 2732
-    endTime: 4656
-    lushootseed: ʔuʔuxʷ tiʔəʔ sbiaw
-    morphemes: [ʔu-ʔuxʷ,tiʔəʔ,sbiaw]
-    morphemeGloss: [PFV-go, PROX, coyote]
-    english: Coyote goes.
-
-  - lineNumber: 3
-    startTime: 4657
-    endTime: 6596
-    lushootseed: gʷəl ʔey'dxʷ tiʔiɬ ʔiišəds
-    morphemes: [gʷəl,ʔey'-dxʷ, tiʔiɬ,ʔiišəd-s]
-    morphemeGloss: [SCONJ, find-DC, DIST, relatives-3PO]
-    english: And he finds his friends.
-
-  - lineNumber: 4
-    startTime: 2732
     endTime: 6596
     lushootseed: ʔuʔuxʷ tiʔəʔ sbiaw gʷəl ʔey'dxʷ tiʔiɬ ʔiišəds
     morphemes: [ʔu-ʔuxʷ,tiʔəʔ,sbiaw,gʷəl,ʔey'-dxʷ, tiʔiɬ,ʔiišəd-s]
