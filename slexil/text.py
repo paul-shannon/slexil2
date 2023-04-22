@@ -21,9 +21,10 @@ david.beck at ualberta.ca.
 ******************************************************************
 '''
 
-# text.py: a class to represent a complete IJAL interlinear text, and to transform its
+# text.py: a class to represent a complete IJAL interlinear text, and to
+# transform its
 # represention in ELAN xml (eaf) format, accompanied by audio, into html
-#----------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # import re
 # import sys
 import os, sys
@@ -35,9 +36,9 @@ import pdb
 import logging
 import identifyLines
 
-#----------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
-#------------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 class Text:
 
 	xmlFilename = ''
@@ -47,6 +48,7 @@ class Text:
 	htmlDoc = None
 	lineCount = 0
 	quiet = True
+	timeCodesForText = []
 
 	def __init__(self,
 				 xmlFilename,
@@ -82,7 +84,8 @@ class Text:
 			self.lineNumbers = range(self.lineCount)
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
-		logging.basicConfig(filename=os.path.join(projectDirectory,"ERRORS.log"),format="%(levelname)s %(message)s")
+		f = os.path.join(projectDirectory, "ERRORS.log")
+		logging.basicConfig(filename=f,format="%(levelname)s %(message)")
 		logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
 
@@ -174,7 +177,8 @@ class Text:
 		for i,annotation in enumerate(annotations):
 			start = annotation[0]
 			end = annotation[1]
-			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" %(str(i+1),start,end)
+			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" \
+					%(str(i+1),start,end)
 			startStopTimes += entry
 			self.audioTable.append(annotation)
 		startStopTimes = startStopTimes[:-1] + "]"
@@ -190,9 +194,7 @@ class Text:
 			assert(os.path.isfile(self.tierGuideFile))
 		except AssertionError as e:
 			raise Exception(tierGuideFile)from e
-		# the audioPath points to a relative directory "./audio" in which wav files are found
-		# but without a handle on the project directory, we cannot easily test this
-		# skip it for now
+			# skip it for now
 		if(not self.grammaticalTermsFile == None):
 			try:
 				assert(os.path.isfile(self.grammaticalTermsFile))
@@ -240,9 +242,15 @@ class Text:
 		return(scriptTag)
 
 
-	def getJavascript(self,timeCodesForText):
-		startStopTimes = self.makeStartStopTable(timeCodesForText)
+	def getJavascript(self):
+		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
+		kbData = "kb.js"
+		showDownScript = "showdown.js"
+		annoScript = "annotations.js"
 		jsSource = '<script src="slexil.js"></script>\n'
+		jsSource += '<script src="%s"></script>\n' % kbData
+		jsSource += '<script src="%s"></script>\n' % showDownScript
+		jsSource += '<script src="%s"></script>\n' % annoScript
 		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
 		return(jsSource)
 
@@ -261,7 +269,7 @@ class Text:
 
 	def toHTML(self, lineNumber=None):
 		htmlDoc = Doc()
-		timeCodesForText = []
+		self.timeCodesForText = []
 		if(not self.quiet):
 			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
 
@@ -283,7 +291,8 @@ class Text:
 								with htmlDoc.tag("h3", id="h3Title"):
 									title = self.metadata["Title"]
 									htmlDoc.asis(title)
-						aboutBoxNeeded = optionallyAddAboutButton(htmlDoc, self.metadata)
+						aboutBoxNeeded = optionallyAddAboutButton(htmlDoc,
+																  self.metadata)
 					if(aboutBoxNeeded):
 						addAboutBox(htmlDoc, self.metadata)
 
@@ -295,36 +304,44 @@ class Text:
 				if(self.fontSizeControls):
 						addFontSizeControls(htmlDoc)
 
-				with htmlDoc.tag("div", id="textDiv"):
-					for i in self.lineNumbers:
-						if(not self.quiet):
-						        print("line %d/%d" % (i, self.lineCount))
-						line = IjalLine(self.xmlDoc, i, self.tierGuide, self.grammaticalTerms, quiet=self.quiet)
-						line.parse()
-						start = line.getStartTime()
-						end = line.getEndTime()
-						timeCodesForLine = [start,end]
-						timeCodesForText.append(timeCodesForLine)
-						id = line.getAnnotationID()
-						#self.audio.makeLineAudio(i, id, start, end)
-						with htmlDoc.tag("div",  klass="line-wrapper", id=i+1):
-							tbl = line.getTable()
-							#lineID = tbl.ix[0]['ANNOTATION_ID']
-							# lineID = tbl.iloc[0][tbl.columns.values.tolist().index('ANNOTATION_ID')]
-							with htmlDoc.tag("div", klass="line-sidebar"):
-								line.htmlLeadIn(htmlDoc) # , self.audioPath, self.audioFileType)
-								s = f"<!-- sidebarHookLine_{i+1} -->"
-								htmlDoc.asis(s)
-							line.toHTML(htmlDoc)
+				with htmlDoc.tag("div", id="textAndAnnoDiv", klass="row"):
+					with htmlDoc.tag("div", id="textLeftColumn", klass="col-8"):
+						self.createTextDiv(htmlDoc);
+					with htmlDoc.tag("div", id="annoDiv", klass="col-4"):
+						 htmlDoc.asis("now is the time")
+
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
-				htmlDoc.asis(self.getJavascript(timeCodesForText))
+				htmlDoc.asis(self.getJavascript())
 				htmlDoc.asis("<!-- bodyBottomCustomizationHook -->")
 		self.htmlDoc = htmlDoc
 		self.htmlText = htmlDoc.getvalue()
 		return(self.htmlText)
 
-#--------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+	def createTextDiv(self, htmlDoc):
+
+		with htmlDoc.tag("div", id="textDiv"):
+			for i in self.lineNumbers:
+				if(not self.quiet):
+					print("line %d/%d" % (i, self.lineCount))
+				line = IjalLine(self.xmlDoc, i, self.tierGuide,
+								self.grammaticalTerms, quiet=self.quiet)
+				line.parse()
+				start = line.getStartTime()
+				end = line.getEndTime()
+				timeCodesForLine = [start,end]
+				self.timeCodesForText.append(timeCodesForLine)
+				id = line.getAnnotationID()
+				with htmlDoc.tag("div",  klass="line-wrapper", id=i+1):
+					tbl = line.getTable()
+					with htmlDoc.tag("div", klass="line-sidebar"):
+						line.htmlLeadIn(htmlDoc)
+						s = f"<!-- sidebarHookLine_{i+1} -->"
+						htmlDoc.asis(s)
+					line.toHTML(htmlDoc)
+
+#-------------------------------------------------------------------------------
 def optionallyAddAboutButton(htmlDoc, metadata):
 
 	if(not "Title" in metadata.keys()):
@@ -343,7 +360,7 @@ def optionallyAddAboutButton(htmlDoc, metadata):
 
 	return(True)
 
-#--------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 def addAboutBox(htmlDoc, metadata):
 
 	with htmlDoc.tag("div",
@@ -362,7 +379,7 @@ def addAboutBox(htmlDoc, metadata):
 								htmlDoc.tag("p")
 								htmlDoc.tag("br")
 								htmlDoc.tag("br")
-											  
+
 #---------------------------------------------------------------
 def addVideoSizeSlider(htmlDoc):
 
@@ -371,9 +388,10 @@ def addVideoSizeSlider(htmlDoc):
 		with htmlDoc.tag("label"):
 				htmlDoc.asis("Video Size")
 		htmlDoc.input(name="videoSizeSelector", type="range",
-					  min="100", max="800", value="400", step="100", id="videoSizeSelector")
+					  min="100", max="800", value="400", step="100",
+					  id="videoSizeSelector")
 
-#---------------------------------------------------------------
+#-------------------------------------------------------------------------------
 def addFontSizeControls(htmlDoc):
 
 	print("--- addFontSizeControls new klass")
@@ -382,7 +400,8 @@ def addFontSizeControls(htmlDoc):
 		with htmlDoc.tag("label"):
 			htmlDoc.asis("Playback Speed")
 		htmlDoc.input(name="speedSelector", type="range",
-					  min="0.5", max="1.25", value="1.0", step="0.25", id="speedSelector")
+					  min="0.5", max="1.25", value="1.0",
+					  step="0.25", id="speedSelector")
 		with htmlDoc.tag("div", id="playbackSpeedReadout"):
 				htmlDoc.asis("1.0")
 		htmlDoc.stag("br")
@@ -390,8 +409,12 @@ def addFontSizeControls(htmlDoc):
 		with htmlDoc.tag("label"):
 			htmlDoc.asis("Print Size")
 		htmlDoc.input(name="fontSizeSlider", type="range",
-					  min="0.2", max="4.0", value="1.4", step="0.1", id="fontSizeSlider")
-
+					  min="0.2", max="4.0", value="1.4", step="0.1",
+					  id="fontSizeSlider")
+		htmlDoc.stag("br")
+		with htmlDoc.tag("button", id="toggleAnnotationsButton",
+						 klass="btn btn-outline-secondary"):
+			htmlDoc.text('Show Annotations')
 
 
 #---------------------------------------------------------------

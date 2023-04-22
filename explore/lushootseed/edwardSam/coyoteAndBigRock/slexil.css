@@ -9,7 +9,7 @@ body, html {
 	//border: 1px solid red;
     overflow-y: scroll;
     }
-#textRowDiv{
+#textAndAnnoDiv{
 	//border: 1px solid red;
     margin-top: 5px;
     margin-left: 5px;
@@ -29,7 +29,7 @@ body, html {
 
 }
 
-#kbDiv{
+#annoDiv{
 	display: none;
     overflow-y: scroll;
     outline-color: gray;
@@ -228,6 +228,10 @@ sub {
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px;
+}
+
+.mouseEntered{
+	background: lightgrey;
 }
 
 .audio-wrapper {

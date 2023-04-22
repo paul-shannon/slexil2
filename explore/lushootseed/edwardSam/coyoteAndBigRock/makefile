@@ -1,11 +1,12 @@
-NAME = coyoteAndBigRock-prosody
+NAME = coyoteAndBigRock
 
 
 default:
-	@echo targets: venv eaf http update-slexil-code html
-    @echo targets: tailor open-local
-	@echo targets: mkdir testdir 
-	@echo targets: publish open
+	@echo targets:
+	@echo   venv eaf http update-slexil-code html
+	@echo   tailor open-local
+	@echo   mkdir testdir 
+	@echo   publish open
 
 venv:
 	@echo be sure to run: source /Users/paul/github/slexil2/py3105/bin/activate

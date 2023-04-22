@@ -1,74 +1,60 @@
+var showAnno = false;
+converter = new showdown.Converter()
+
 $(function() {
     $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
             if(showAnno){
                var thisElement = this;
-               var key = thisElement.innerHTML)
-               var annoBox = $("#kbDiv");
-               annoBox.html(key);
+               var key = thisElement.innerHTML
+               var annoBox = $("#annoDiv");
+               console.log("--- looking up " + key);
+               var annoText = lookup(key)
+               //console.log(annoText)
+               annoBox.html(annoText);
                }
             })
         .mouseleave(function(){
             var infoBox = $(this).parent().siblings(".morphemeInfo");
             infoBox.hide()
             })
+
+  $("#toggleAnnotationsButton").click(function(){
+	  var annoDivVisible = $("#annoDiv").is(":visible")
+	  //console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
+	  if (annoDivVisible){
+		  console.log("hiding annoDiv");
+		  showAnno = false;
+		  $("#annoDiv").removeClass("col-4").hide()
+		  $("#textLeftColumn").removeClass("col-7").addClass("col-12")
+		  $("#toggleAnnotationsButton").text("Show Annotations")
+	  } else {
+		  console.log("showing annoDiv");
+		  $("#annoDiv").addClass("col-4").show()
+		  $("#textLeftColumn").removeClass("col-12").addClass("col-8")
+		  $("#toggleAnnotationsButton").text("Hide Annotations")
+		  showAnno = true;
+	     }
+     }); // toggleAnnotationsButton click
+
+
     }); // on ready
-
-//------------------------------------------------------------------------------------------------------------------------
-kb = {
-
-   "tu=t’əd•al•gʷiɬ":
-        [
-        ], 
-
-   "gʷәl":
-        ["<b>gʷәl</b>: &nbsp; and, but, or, then, next, as if, because.",
-         "<br>",
-         "Sentential adverb, conjunction; used especially to introduce sentences in long narratives.",
-         "<br>",
-         "Can also mark topicalization, in effect treating the topic as an entire clause and using gʷәl", 
-         "<br>",
-         "to introduce the following clause."],
-
-    "tux̌ʷ": ["<b>tux̌ʷ</b>: &nbsp; merely, just (in contrast to the usual or expected), simply, contrary to expectation; instead, conversely, but.", 
-             "<br>",
-             "The distribution and significance of tux̌ʷ give it sometimes the characteristics of a sentential adverb",
-             "<br>",
-             "and sometimes the attributes of a sentential adverb.",
-             "<br>",
-             "In the latter capacity, note how it often enters into construction with gʷәl and huy:",
-             "<br>",
-             "'gʷәl tux̌ʷ': but, and yet, as, while, and as, and while.",
-             "<br>",
-             "'tux̌ʷ huy': but then instead.  'gʷәl tux̌ʷ huy' also occurs." 
-             ]
-     };
 
 //------------------------------------------------------------------------------------------------------------------------
 function lookup(morpheme)
 {
-   var found = Object.keys(kb).indexOf(morpheme) >= 0;
+   var index = Object.keys(kb).indexOf(morpheme);
+   var found = index >= 0
    console.log("---- lookup, using kb: '" + morpheme + "', found? " + found)
-    
-   if(Object.keys(kb).indexOf(morpheme) < 0)
+   console.log("    index: " + index);
+
+   if(index < 0)
        return("")
 
     var markup = converter.makeHtml(kb[morpheme]);
     return(markup);
 
 } // lookup
-//------------------------------------------------------------------------------------------------------------------------
-
-function old_lookup(morpheme)
-{
-   console.log("---- lookup: " + morpheme)
-
-   if(Object.keys(kb).indexOf(morpheme) < 0)
-       return(morpheme)
-
-    return(kb[morpheme]);
-
-}
 //------------------------------------------------------------------------------------------------------------------------
 
 
