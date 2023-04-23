@@ -6,8 +6,8 @@ $(function() {
         .mouseenter(function(){
             console.log("== entering highlightable element");
             if(showAnno){
-               //$(this).addClass(".focusedGrammaticalElement")
-               $(this).css("background-color", "lightgray")
+               $(this).addClass("focusedGrammaticalElement")
+               //$(this).css("background-color", "lightgray")
                var key = this.innerHTML
                var annoBox = $("#annoDiv");
                console.log("--- looking up " + key);
@@ -17,8 +17,8 @@ $(function() {
                }
             })
         .mouseleave(function(){
-            //$(this).removeClass(".focusedGrammaticalElement")
-            $(this).css("background-color", "white")
+            $(this).removeClass("focusedGrammaticalElement")
+            //$(this).css("background-color", "white")
             var infoBox = $(this).parent().siblings(".morphemeInfo");
             infoBox.hide()
             })

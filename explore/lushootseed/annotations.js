@@ -4,21 +4,16 @@ converter = new showdown.Converter()
 $(function() {
     $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
-            console.log("== entering highlightable element");
             if(showAnno){
-               //$(this).addClass(".focusedGrammaticalElement")
-               $(this).css("background-color", "lightgray")
+               $(this).addClass("focusedGrammaticalElement")
                var key = this.innerHTML
                var annoBox = $("#annoDiv");
-               console.log("--- looking up " + key);
                var annoText = lookup(key)
-               //console.log(annoText)
                annoBox.html(annoText);
                }
             })
         .mouseleave(function(){
-            //$(this).removeClass(".focusedGrammaticalElement")
-            $(this).css("background-color", "white")
+            $(this).removeClass("focusedGrammaticalElement")
             var infoBox = $(this).parent().siblings(".morphemeInfo");
             infoBox.hide()
             })
