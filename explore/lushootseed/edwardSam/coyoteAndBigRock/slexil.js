@@ -6,10 +6,13 @@ mediaPlayer.addEventListener("timeupdate", function (){
 
    tCurrent = Math.round(mediaPlayer.currentTime * 1000)
    //console.log("timeupdate " + tCurrent + " continuous? " + mediaContinuousPlay)
+
    for(lineTimes of timeStamps){
       if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
          var lineNumber = parseInt(lineTimes.id)
+         //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
          scrollAndHighlight(lineNumber)
+         break;
          }
       } // for lineTimes
 
@@ -26,6 +29,7 @@ function scrollAndHighlight(lineNumber){
    // https://stackoverflow.com/questions/27980084/scrolling-to-a-element-inside-a-scrollable-div-with-pure-javascript
    var scrollingDivTop = document.getElementById("textDiv").offsetTop
 
+   //console.log("--- scrollAndHighlight to line " + lineNumber);
    var lineDivTop = document.getElementById(lineNumber).offsetTop - scrollingDivTop;
    lineDivTop -= 100;
 
@@ -73,7 +77,8 @@ function playMediaSegment(mediaID, startTime, endTime)
 $('#fontSizeSlider').on('input', function() {
     var v = $(this).val();
     console.log(v)
-    $("#textDiv").css('font-size', v + 'em')
+    $("#textDiv").css('font-size', (v * 22) + 'px')
+    $("#annoDiv").css('font-size', (v * 22) + 'px')
     });
 
 $('#videoSizeSelector').on('input', function() {
@@ -86,7 +91,7 @@ $('#speedSelector').on('input', function() {
     var v = $(this).val();
     console.log(v)
     mediaPlayer.playbackRate = v;
-	$("#playbackSpeedReadout").text(v);
+    $("#playbackSpeedReadout").text(v);
     });
 
 
