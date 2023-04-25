@@ -3,6 +3,37 @@ kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
 
+"Types of Sentences (MLA)":
+`
+
+##### Types of Sentences
+A sentence contains one or more clauses, and can be classified as 
+one of the four types by assessing the number and types of clauses it contains.
+
+- **simple**: a single independent clause, a subject and predicate that form a complete thought.
+     - _The girl bought an ice cream cone._
+     - _The girl bought an ice cream cone and took it to the park._
+     - _The girl—a freckle-faced brunette, about ten years old, in a striped 
+       dress and sandals—bought an ice cream cone and took it to the park._
+- **compound**: two or more independent clauses joined by a coordinating conjction,
+   (and, but, yet, for, or, nor, so), a conjunctive adverb (however, furthermore,
+    likewise, rather, therfore) or a semicolon.
+     - _The girl bought an ice cream cone, but she dropped it in the park._
+
+- **complex**: one or more dependent clauses attached to an independent clause.
+    The dependent clauses are connected to the independent clause through
+    subordinating conjuctions (_because, after, when_) or relative pronouns
+    (_who, which, that_).
+     - _After she bought an ice cream cone, the girl went to the park._
+     - _The girl dropped her ice cream cone because a large dog knocked her over._
+     - _The girl, who had a freckled face and wore a striped shirt, was knocked over by a large dog, which ate her ice cream cone._
+- **compound-complex**: one or more dependent clauses attached to one or more independent  clauses.
+     - _After she bought an ice cream cone, the girl, who had a freckled face and wore a striped shirt, went to the park, but she was knocked over by a large dog, which ate her treat, so she ran home to her mother, who made her an ice cream sundae._
+
+
+<a href="https://style.mla.org/types-of-sentences" target="_blank">MLA Style Guide</a>
+`,
+	 
 "ʔiišəd–s":	
 `
 - ʔiišəd

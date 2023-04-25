@@ -4,21 +4,16 @@ converter = new showdown.Converter()
 $(function() {
     $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
-            console.log("== entering highlightable element");
             if(showAnno){
                $(this).addClass("focusedGrammaticalElement")
-               //$(this).css("background-color", "lightgray")
                var key = this.innerHTML
                var annoBox = $("#annoDiv");
-               console.log("--- looking up " + key);
                var annoText = lookup(key)
-               //console.log(annoText)
                annoBox.html(annoText);
                }
             })
         .mouseleave(function(){
             $(this).removeClass("focusedGrammaticalElement")
-            //$(this).css("background-color", "white")
             var infoBox = $(this).parent().siblings(".morphemeInfo");
             infoBox.hide()
             })
@@ -32,15 +27,28 @@ $(function() {
 		  $("#annoDiv").removeClass("col-4").hide()
 		  $("#textLeftColumn").removeClass("col-7").addClass("col-12")
 		  $("#toggleAnnotationsButton").text("Show Annotations")
+    	  $("#linguisticTopicController").css("display", "none")
 	  } else {
 		  console.log("showing annoDiv");
 		  $("#annoDiv").addClass("col-4").show()
 		  $("#textLeftColumn").removeClass("col-12").addClass("col-8")
 		  $("#toggleAnnotationsButton").text("Hide Annotations")
+    	  $("#linguisticTopicController").css("display", "inline-block")
 		  showAnno = true;
 	     }
      }); // toggleAnnotationsButton click
 
+	 $("#languageTopicsSelector").on("change", function(){
+		  var key = this.value;
+		  if(key != "Linguistic Topic?"){ // the title
+			  var annoBox = $("#annoDiv");
+			  var annoText = lookup(key)
+			  annoBox.html(annoText);
+           }
+           // show the blank (first) option in the selector
+		  $("#languageTopicsSelector option")[0].selected = true;
+      }); // languageTopicsSelector change
+        
 
     }); // on ready
 

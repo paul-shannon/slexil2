@@ -27,15 +27,28 @@ $(function() {
 		  $("#annoDiv").removeClass("col-4").hide()
 		  $("#textLeftColumn").removeClass("col-7").addClass("col-12")
 		  $("#toggleAnnotationsButton").text("Show Annotations")
+    	  $("#linguisticTopicController").css("display", "none")
 	  } else {
 		  console.log("showing annoDiv");
 		  $("#annoDiv").addClass("col-4").show()
 		  $("#textLeftColumn").removeClass("col-12").addClass("col-8")
 		  $("#toggleAnnotationsButton").text("Hide Annotations")
+    	  $("#linguisticTopicController").css("display", "inline-block")
 		  showAnno = true;
 	     }
      }); // toggleAnnotationsButton click
 
+	 $("#languageTopicsSelector").on("change", function(){
+		  var key = this.value;
+		  if(key != "Linguistic Topic?"){ // the title
+			  var annoBox = $("#annoDiv");
+			  var annoText = lookup(key)
+			  annoBox.html(annoText);
+           }
+           // show the blank (first) option in the selector
+		  $("#languageTopicsSelector option")[0].selected = true;
+      }); // languageTopicsSelector change
+        
 
     }); // on ready
 

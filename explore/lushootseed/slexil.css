@@ -191,9 +191,29 @@ body, html {
     background-color: lightgray;
     }
 
+#annoButtonsDiv{
+   margin-left: 80px;
+   margin-bottom: 10px;
+   }
+
 #toggleAnnotationsButton{
    margin-top: 10px;
 }
+
+
+#linguisticTopicController{
+    margin-top: 10px;
+	 display: none;  // to start
+}
+
+#linguisticTopicSelectorLabel{
+	 margin: 20px;
+}
+
+.dropdown{
+ 	 display: inline-block;
+}
+
 
 button{
     background-color: white;
