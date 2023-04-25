@@ -432,11 +432,11 @@ def addAnnotationControls(htmlDoc):
 					with htmlDoc.tag("option"):
 						htmlDoc.asis("")
 					with htmlDoc.tag("option"):
-						htmlDoc.asis("gʷəl")
+						htmlDoc.asis("Coordinating Conjunction")
 					with htmlDoc.tag("option"):
 						htmlDoc.asis("Types of Sentences (MLA)")
 					with htmlDoc.tag("option"):
-						htmlDoc.asis("tu=haʔkʷ")
+						htmlDoc.asis("Adverbial Conjunction")
 					with htmlDoc.tag("option"):
 						htmlDoc.asis("tu=dxʷ–had–had=əxʷ")
 
