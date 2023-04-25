@@ -236,9 +236,9 @@ class Text:
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
   integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
   crossorigin="anonymous">"""
-		script_1 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>'
+		#script_1 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>'
 		script_2 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>'
-		scriptTag = "%s\n%s\n%s" % (style, script_1, script_2)
+		scriptTag = "%s\n%s\n" % (style, script_2)
 		return(scriptTag)
 
 
@@ -303,12 +303,12 @@ class Text:
 					htmlDoc.asis(self.getPlayer())
 				if(self.fontSizeControls):
 						addFontSizeControls(htmlDoc)
-
+				addAnnotationControls(htmlDoc)
 				with htmlDoc.tag("div", id="textAndAnnoDiv", klass="row"):
-					with htmlDoc.tag("div", id="textLeftColumn", klass="col-8"):
+					with htmlDoc.tag("div", id="textLeftColumn", klass="col-12"):
 						self.createTextDiv(htmlDoc);
 					with htmlDoc.tag("div", id="annoDiv", klass="col-4"):
-						 htmlDoc.asis("now is the time")
+						 htmlDoc.asis("")
 
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
@@ -400,7 +400,7 @@ def addFontSizeControls(htmlDoc):
 		with htmlDoc.tag("label"):
 			htmlDoc.asis("Playback Speed")
 		htmlDoc.input(name="speedSelector", type="range",
-					  min="0.5", max="1.25", value="1.0",
+					  min="0.5", max="1.25", value="0.8",
 					  step="0.25", id="speedSelector")
 		with htmlDoc.tag("div", id="playbackSpeedReadout"):
 				htmlDoc.asis("1.0")
@@ -412,12 +412,35 @@ def addFontSizeControls(htmlDoc):
 					  min="0.2", max="4.0", value="1.4", step="0.1",
 					  id="fontSizeSlider")
 		htmlDoc.stag("br")
-		with htmlDoc.tag("button", id="toggleAnnotationsButton",
-						 klass="btn btn-outline-secondary"):
-			htmlDoc.text('Show Annotations')
 
 
 #---------------------------------------------------------------
+def addAnnotationControls(htmlDoc):
+
+	print("--- addAnnottionControls")
+	with htmlDoc.tag("div", id="annoButtonsDiv", klass="row"):
+		with htmlDoc.tag("div", klass="col-8 text-left"):
+			with htmlDoc.tag("button", id="toggleAnnotationsButton",
+						 klass="btn btn-outline-dark"):
+				htmlDoc.text('Show Annotations')
+		with htmlDoc.tag("div", klass="col-4 text-right"):
+			with htmlDoc.tag("span", id="linguisticTopicController"):
+				with htmlDoc.tag("label", id="linguisticTopicSelectorLabel"):
+					htmlDoc.asis("Linguistic Topic:")
+				with htmlDoc.tag("select", id="languageTopicsSelector",
+								 klass="seletpicker btn btn-outline-dark"):
+					with htmlDoc.tag("option"):
+						htmlDoc.asis("")
+					with htmlDoc.tag("option"):
+						htmlDoc.asis("gʷəl")
+					with htmlDoc.tag("option"):
+						htmlDoc.asis("Types of Sentences (MLA)")
+					with htmlDoc.tag("option"):
+						htmlDoc.asis("tu=haʔkʷ")
+					with htmlDoc.tag("option"):
+						htmlDoc.asis("tu=dxʷ–had–had=əxʷ")
+
+#-------------------------------------------------------------------------------
 def _makeAbbreviationListLowerCase(grammaticalTerms):
 	''' ensures grammatical terms in user list are lower case '''
 	exceptions  = ["A","S","O","P"]
