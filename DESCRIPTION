@@ -1,8 +1,8 @@
 Package: slexil2
 Type: module
 Title: slexil2: Software Linking ELAN XML to Illuminated Language
-Version: 2.1.0
-Date: 2023-04-22
+Version: 2.1.1
+Date: 2023-04-27
 Author: Paul Shannon
 Maintainer: Paul Shannon <paul.thurmond.shannon@gmail.com>
 URL: https://slexil.artsrn.ualberta.ca/

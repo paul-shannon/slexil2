@@ -2,7 +2,55 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"Theme and Rheme":
+`
+#####Theme and Rheme
+- Theme: what the sentence is concerned with.
+- Rheme: that which is communicated about the Theme, or the event contained 
+in the Theme.
 
+The most obvious context to see this is in a question/answer pair:
+- _Who will Bill meet?_ [Th: Bill meet] [Rh Fred]
+- _Who met Fred_?  [Rh: Bill] [Th: met Fred]
+
+In Salishan and neighbouring languages, there is a requirement that
+the syntactic predicate be the Rheme. Lushootseed:
+
+[Rh ƛ’al’ bəʔusaxʷəbdubut ] [Th tiʔiɬ kikəwič ]<br>
+ƛ’al’	bə=ʔu–saxʷəb–dxʷ–but	tiʔiɬ	kikəwič<br>
+also	ADD=PFV–escape–DC–REFL	DIST	Little.Hunchback<br>
+‘Little Hunchback also managed to escape’ <br>
+(<< “what happened to Little Hunchback?”)<br>
+
+[Rh kikəwič ] [Th tiʔiɬ bəsusaxʷəbdubuts ]<br>
+kikəwič	tiʔiɬ	bə=s=ʔu–saxʷəb–dxʷ–but=s ]<br>
+Little.Hunchback	DIST	ADD=NML=PFV–escape–DC–REFL=3PO<br>
+‘the one who managed to escape was Little Hunchback’<br>
+ (<< “who managed to escape?”)<br>
+-	the predicate of a Salishan sentence is the Rheme, no matter what its part of speech
+-	Thematic verbs become Subjects inside a “headless” relative clause
+
+In Lushootseed, with restrictions (or strong preferences) that
+Subjects be Themes, promotional voices like the passive can be used to
+ensure that the Thematic element is the Subject
+
+ʔuhaydxʷ čəx̌ ʔu ti sʔuhuyutəbs tiʔiɬ sčətxʷəd<br>
+ʔuhaydxʷ	čəx̌	ʔu	ti	s=ʔu–huyu–t–əb=s	tiʔiɬ	sčətxʷəd<br>
+know	2SG:SUB	INT	DEF	NML=PFV–do.to–ICS–PASS=3PO	DIST	bear<br>
+‘do you know what happened to Bear?’</br>
+
+[Rh	c’əldub ʔə tiʔiɬ c’ix̌c’ix̌ ] [Th tiʔiɬ sčətxʷəd ]<br>
+c’əldxʷ–b	ʔə	tiʔiɬ	c’ix̌c’ix̌	tiʔiɬ	sčətxʷəd<br>
+defeat–PASS	PREP	DIST	fish.hawk	DIST	bear<br>
+‘Bear was defeated by Fish Hawk’<br>
+
+-	‘Bear’ is the Thematic element in the second sentence
+-	‘Bear’ is PATIENT of the event, which is the Direct Object of the active form of the verb c’əldxʷ ‘defeat someone’
+-	the passive voice is used to ensure that ‘Bear’ is the Subject
+
+
+`,
+	 
 "Adverbial Conjunction":
 `
 #####Adverbial Conjunction
