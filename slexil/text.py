@@ -43,11 +43,13 @@ class Text:
 
 	xmlFilename = ''
 	grammaticalTermsFile = None
+	kbFilename = None
+	linguisticsFilename = None
 	grammaticalTerms = []
 	xmlDoc = None
 	htmlDoc = None
 	lineCount = 0
-	quiet = True
+	verbose = False
 	timeCodesForText = []
 
 	def __init__(self,
@@ -55,18 +57,22 @@ class Text:
 				 grammaticalTermsFile,
 				 tierGuideFile,
 				 projectDirectory,
-				 quiet,
+				 verbose,
 				 fontSizeControls,
 				 startLine,
-				 endLine):
-		print("debug? %s" % (not quiet))
+				 endLine,
+				 kbFilename,
+				 linguisticsFilename):
+		print("debug? %s" % (not verbose))
 		self.xmlFilename = xmlFilename
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
 		self.projectDirectory = projectDirectory
 		self.fontSizeControls = fontSizeControls
+		self.kbFilename = kbFilename
+		self.linguisticsFilename = linguisticsFilename
 		self.validInputs()
-		self.quiet = quiet
+		self.verbose = verbose
 		self.xmlDoc = etree.parse(self.xmlFilename)
 		self.metadata = self.extractMetadata()
 		self.extractMediaInfo()
@@ -90,6 +96,8 @@ class Text:
 		targetDirectory = os.path.join(projectDirectory,"audio")
 
 	def extractMetadata(self):
+		if (self.verbose):
+			print("--- entering extractMetadata")
 		properties = self.xmlDoc.findall("HEADER")[0].findall("PROPERTY")
 		metadata = {}
 		for prop in properties:
@@ -101,17 +109,21 @@ class Text:
 		return(metadata)
 
 	def extractMediaInfo(self):
+		if(self.verbose):
+			print("--- entering extractMediaInfo")
 		# todo: test for the presence of these elements and the attributes
 		x = self.xmlDoc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
 		self.mediaURL = x.attrib["MEDIA_URL"]
 		self.mediaMimeType = x.attrib["MIME_TYPE"]
 		#print("media url: %s" % self.mediaURL)
 		#print("mimeType:  %s" % self.mediaMimeType)
-		
+
 	def getMediaInfo(self):
 		return({"url": self.mediaURL,  "mimeType": self.mediaMimeType})
-		
+
 	def getTierSummary(self):
+		if(self.verbose):
+			print("--- entering getTierSummary")
 		tmpDoc = etree.parse(self.xmlFilename)
 		tierIDs = [tier.attrib["TIER_ID"] for tier in tmpDoc.findall("TIER")]
 		tiers = tmpDoc.findall("TIER")
@@ -134,7 +146,6 @@ class Text:
 				tierValue = tierValues[i]
 				tierID = tier.attrib["TIER_ID"]
 				count = len(tier.findall("ANNOTATION"))
-				#pdb.set_trace()
 				rowNumber = tbl[tbl['value']==tierValue].index
 				#tbl.ix[rowNumber, 'count'] = count
 				tbl.iloc[rowNumber, tbl.columns.values.tolist().index('count')] = count
@@ -145,6 +156,8 @@ class Text:
 		return(tbl)
 
 	def determineStartAndEndTimes(self):
+		if(self.verbose):
+			print("--- entering determineStartAndEndTimes")
 		# print("entering determine start and end times")
 		xmlDoc = etree.parse(self.xmlFilename)
 		timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
@@ -167,11 +180,13 @@ class Text:
 		list(tbl.columns)
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 		#        tbl = tbl.sort('start')
+		print("+++\n",tbl,"\n+++")
 		self.startStopTable = self.makeStartStopTable(tbl)
-		# print("+++\n",tbl,"\n+++")
 		return (tbl)
 
 	def makeStartStopTable(self, annotations):
+		if(self.verbose):
+			print("--- entering makeStartStopTable")
 		self.audioTable = []
 		startStopTimes = "window.timeStamps=["
 		for i,annotation in enumerate(annotations):
@@ -182,10 +197,14 @@ class Text:
 			startStopTimes += entry
 			self.audioTable.append(annotation)
 		startStopTimes = startStopTimes[:-1] + "]"
-		# print(startStopTimes)
+		if(self.verbose):
+			print("--- startStopTimes")
+			print(startStopTimes)
 		return(startStopTimes)
 
 	def validInputs(self):
+		if(self.verbose):
+			print("--- entering validInputs")
 		try:
 			assert(os.path.isfile(self.xmlFilename))
 		except AssertionError as e:
@@ -207,31 +226,41 @@ class Text:
 		return(True)
 
 	def getLineAsTable(self, lineNumber):
+		if(self.verbose):
+			print("--- entering getLineAsTable")
 		audioData = lineNumber+1 #self.audioTable[int(lineNumber)]
 		print("audio data: %s" % audioData)
-		x = IjalLine(self.xmlDoc, lineNumber, self.tierGuide, audioData, quiet=self.quiet)
+		x = IjalLine(self.xmlDoc, lineNumber, self.tierGuide, audioData, quiet=(not self.verbose))
 		x.parse()
 		return(x.getTable())
 
 	def traverseStructure(self):
+		if(self.verbose):
+			print("--- entering traverseStructure")
 		for i in self.lineNumbers:
-			x = IjalLine(self.xmlDoc, i, self.tierGuide, quiet=self.quiet)
+			x = IjalLine(self.xmlDoc, i, self.tierGuide, quiet=(not self.verbose))
 			x.parse()
 			tbl = x.getTable()
 			print("%d: %d tiers" % (i, tbl.shape[0]))
 
 	def getCSS(self):
+		if(self.verbose):
+			print("--- entering getCSS")
 		cssFilename = "slexil.css"
 		#assert(os.path.exists(cssFilename))
 		css = '<link rel = "stylesheet" type = "text/css" href = "%s" />' % cssFilename
 		return(css)
 
 	def getJQuery(self):
+		if(self.verbose):
+			print("--- entering getJQuery")
 		scriptTag = '<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>\n'
 		#scriptTag = '<script src="jquery-3.3.1.min.js"></script>\n'
 		return(scriptTag)
 
 	def getBootstrap(self):
+		if(self.verbose):
+			print("--- entering getBootstrap")
 		style = """<link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
   integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
@@ -243,14 +272,19 @@ class Text:
 
 
 	def getJavascript(self):
-		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
-		kbData = "kb.js"
+		if(self.verbose):
+			print("--- entering getJavascript")
+		jsSource = ""
+		if(self.kbFilename != None):
+			jsSource += '<script src="%s"></script>\n' % self.kbFilename
+		if(self.linguisticsFilename != None):
+			jsSource += '<script src="%s"></script>\n' % self.linguisticsFilename
 		showDownScript = "showdown.js"
 		annoScript = "annotations.js"
-		jsSource = '<script src="slexil.js"></script>\n'
-		jsSource += '<script src="%s"></script>\n' % kbData
+		jsSource += '<script src="slexil.js"></script>\n'
 		jsSource += '<script src="%s"></script>\n' % showDownScript
 		jsSource += '<script src="%s"></script>\n' % annoScript
+		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
 		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
 		return(jsSource)
 
@@ -268,13 +302,14 @@ class Text:
 		return playerDiv
 
 	def toHTML(self, lineNumber=None):
+		if(self.verbose):
+			print("--- entering toHTML")
 		htmlDoc = Doc()
 		self.timeCodesForText = []
-		if(not self.quiet):
+		if(self.verbose):
 			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
 
 		htmlDoc.asis('<!DOCTYPE html>')
-		#pdb.set_trace()
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
@@ -303,12 +338,20 @@ class Text:
 					htmlDoc.asis(self.getPlayer())
 				if(self.fontSizeControls):
 						addFontSizeControls(htmlDoc)
-				addAnnotationControls(htmlDoc)
-				with htmlDoc.tag("div", id="textAndAnnoDiv", klass="row"):
-					with htmlDoc.tag("div", id="textLeftColumn", klass="col-12"):
-						self.createTextDiv(htmlDoc);
-					with htmlDoc.tag("div", id="annoDiv", klass="col-4"):
-						 htmlDoc.asis("")
+				if(self.kbFilename != None):
+					if(self.verbose):
+						print("kbFilename triggered")
+					linguisticsTopics = []
+					if(self.linguisticsFilename != None):
+						linguisticsTopics = getLinguisticsTopics(self.linguisticsFilename)
+						print("--- linguisticsTopics")
+						print(linguisticsTopics)
+					addAnnotationControls(htmlDoc, linguisticsTopics)
+					with htmlDoc.tag("div", id="textAndAnnoDiv", klass="row"):
+						with htmlDoc.tag("div", id="textLeftColumn", klass="col-12"):
+							self.createTextDiv(htmlDoc);
+						with htmlDoc.tag("div", id="annoDiv", klass="col-4"):
+								htmlDoc.asis("")
 
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
@@ -321,12 +364,14 @@ class Text:
 #-------------------------------------------------------------------------------
 	def createTextDiv(self, htmlDoc):
 
+		if(self.verbose) :
+			print("--- entering createTextDiv")
 		with htmlDoc.tag("div", id="textDiv"):
 			for i in self.lineNumbers:
-				if(not self.quiet):
+				if(self.verbose):
 					print("line %d/%d" % (i, self.lineCount))
 				line = IjalLine(self.xmlDoc, i, self.tierGuide,
-								self.grammaticalTerms, quiet=self.quiet)
+								self.grammaticalTerms, quiet=(not self.verbose))
 				line.parse()
 				start = line.getStartTime()
 				end = line.getEndTime()
@@ -359,6 +404,21 @@ def optionallyAddAboutButton(htmlDoc, metadata):
 			htmlDoc.text('About')
 
 	return(True)
+
+#-------------------------------------------------------------------------------
+def getLinguisticsTopics(filename):
+
+	f = open(filename)
+	lines = f.readlines()
+	topics = []
+	for line in lines:
+		if line.find('":') > 0:
+			cleanLine = line.strip().replace('"', '').replace(':', '')
+			print(cleanLine)
+			topics.append(cleanLine)
+
+	topics.sort()
+	return(topics)
 
 #-------------------------------------------------------------------------------
 def addAboutBox(htmlDoc, metadata):
@@ -415,7 +475,7 @@ def addFontSizeControls(htmlDoc):
 
 
 #---------------------------------------------------------------
-def addAnnotationControls(htmlDoc):
+def addAnnotationControls(htmlDoc, linguisticsTopics):
 
 	print("--- addAnnottionControls")
 	with htmlDoc.tag("div", id="annoButtonsDiv", klass="row"):
@@ -431,14 +491,9 @@ def addAnnotationControls(htmlDoc):
 								 klass="seletpicker btn btn-outline-dark"):
 					with htmlDoc.tag("option"):
 						htmlDoc.asis("")
-					with htmlDoc.tag("option"):
-						htmlDoc.asis("Adverbial Conjunction")
-					with htmlDoc.tag("option"):
-						htmlDoc.asis("Coordinating Conjunction")
-					with htmlDoc.tag("option"):
-						htmlDoc.asis("Theme and Rheme")
-					with htmlDoc.tag("option"):
-						htmlDoc.asis("Types of Sentences (MLA)")
+					for topic in linguisticsTopics:
+						with htmlDoc.tag("option"):
+							htmlDoc.asis(topic)
 
 #-------------------------------------------------------------------------------
 def _makeAbbreviationListLowerCase(grammaticalTerms):

@@ -42,7 +42,7 @@ linguisticTerms = {
       <img src="images/line1-diagram-v2.png" width=400>
     `,
 "PREDICATE":`
-  Kroevers <i>predicate proper</i> [p58] may be a word whose English translation is a verb.
+  Kroeber's <i>predicate proper</i> [p58] may be a word whose English translation is a verb.
   However, throughout Salish, it is also perfectly possible for the predicate proper to be
   something translatable as an adjective or a noun.  Such predicates take whatever sort of 
   person marking is appropriate for intransivitve predicates in the language in question.

@@ -3,6 +3,13 @@ converter = new showdown.Converter()
 
 var timer = null;
 
+if (typeof(kb) == 'object'){
+   if(typeof(linguistics) == 'object'){
+      kb = {...kb, ...linguistics};
+      }
+    console.log("kb entries: " + Object.keys(kb).length)
+    }
+
 $(function() {
     $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
