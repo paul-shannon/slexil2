@@ -1,8 +1,657 @@
 linguistics = {
 
-"Tense":
+"Clitic":
 `
-#####Tense
+#####Clitic
+
+A clitic is a morpheme that has syntactic
+characteristics of a word, but depends phonologically
+on another word or phrase. In this sense, it is
+syntactically independent but phonologically
+dependent—always attached to a host. A clitic is
+pronounced like an affix, but plays a syntactic role at
+the phrase level. In other words, clitics have the form
+of affixes, but the distribution of function words. For
+example, the contracted forms of the auxiliary verbs in
+I'm and we've are clitics.
+<h5>Summary</h5>
+
+Clitics can be defined as <i>prosodically defective
+function words</i>. They can belong to a number of
+syntactic categories, such as articles, pronouns,
+prepositions, complementizers, negative adverbs, or
+auxiliaries. They do not generally belong to open
+classes, like verbs, nouns, or adjectives. Their
+prosodically defective character is most often
+manifested by the absence of stress, which in turn
+correlates with vowel reduction in those languages that
+have it independently; sometimes the clitic can be just
+a consonant or a consonant cluster, with no vowel. This
+same prosodically defective character forces them to
+attach either to the word that follows them (proclisis)
+or to the word that precedes them (enclisis); in some
+cases they even appear inside a word (mesoclisis or
+endoclisis). The word to which a clitic attaches is
+called the host. In some languages (like some dialects
+of Italian or Catalan) enclitics can surface as
+stressed, but the presence of stress can be argued to
+be the result of assignment of stress to the
+host-clitic complex, not to the clitic itself. One
+consequence of clitics being prosodically defective is
+that they cannot be the sole element of an utterance,
+for instance as an answer to some question; they need
+to always appear with a host.
+
+ <p><p>
+
+A useful distinction is that between simple clitics and
+special clitics. Simple clitics often have a nonclitic
+variant and appear in the expected syntactic position
+for nonclitics of their syntactic category. Much more
+attention has been paid in the literature to special
+clitics. Special clitics appear in a designated
+position within the clause or within the noun phrase
+(or determiner phrase). In several languages certain
+clitics must appear in second position, within the
+clause, as in most South Slavic languages, or within
+the noun phrase, as in Kwakw'ala. The pronominal
+clitics of Romance languages or Greek must have the
+verb as a host and appear in a position different from
+the full noun phrase. A much debated question is
+whether the position of special clitics is the result
+of syntactic movement, or whether other factors,
+morphological or phonological, intervene as well or are
+the sole motivation for their position. Clitics can
+also cluster, with some languages allowing only
+sequences of two clitics, and other languages allowing
+longer sequences. Here one relevant question is what
+determines the order of the clitics, with the main
+avenues of analysis being approaches based on syntactic
+movement, approaches based on the types of
+morphosyntactic features each clitic has, and
+approaches based on templates. An additional issue
+concerning clitic clusters is the incompatibility
+between specific clitics when combined and the changes
+that this incompatibility can provoke in the form of
+one or more of the clitics. Combinations of identical
+or nearly identical clitics are often disallowed, and
+the constraint known as the Person-Case Constraint
+(PCC) disallows combinations of clitics with a first or
+second person accusative clitic (a direct object, DO,
+clitic) and a third person (and sometimes also first or
+second person) dative clitic (an indirect object, IO,
+clitic). In all these cases either one of the clitics
+surfaces with the form of another clitic or one of the
+clitics does not surface; sometimes there is no
+possible output. Here again both syntactic and
+morphological approaches have been proposed.
+
+Clitics and Clitic Clusters in Morphology, Eulalia Bonet
+`,
+
+
+"Reduplication":
+`
+#####Reduplication
+An account of the varieties of reduplication will appear here.`
+,
+
+"Tense-aspect-mood (TAM)":
+
+`
+#####Tense-aspect-mood (TAM)
+A group of grammatical categories which are important for the understanding of
+spoken or written content and which are marked in different ways by different languages.
+   
+- Tense: location of state or action in time, past, present or future.
+- Aspect: extension time, whether it is unitary (perfective), continuous or repeated (imperfective).
+- <a href="#Mood">Mood</a> its reality: actual (realis), a possibility,  or a necessity (irrealis).
+  &mdash; from Medieval Latin irrealis,  in- (“not”) + realis (“actual; existing”)
+
+Subjunctive
+
+The subjunctive indicates the speaker's attitude toward the <i>irrealis</i> state or
+action's existance: imagined? wished for?  possible?  not yet occurred?
+
+The irrealis subjunctive contrasts with the realis moods, whose most common form is the
+ <i>indicative</i>, indicating actual or high probability events or states.
+
+Other realis moods: evidential, mirative (surprise).
+
+Subjunctive forms of verbs are typically
+used to express various states of <i>unreality</i> such as: wish,
+emotion, possibility, judgment, opinion, obligation, or action that
+has not yet occurred; the precise situations in which they are used
+vary from language to language. The subjunctive is one of the
+<i>irrealis</i> moods, which refer to what is not necessarily real. It
+is often contrasted with the <i>indicative</i>, a realis mood which is
+used principally to indicate that something is a statement of fact.
+
+In a sentence, the grammatical mood conveys the speaker’s attitude
+about the state of being of what the sentence describes. This may
+sound a little complicated, but it’s simple enough: In the indicative
+mood, for instance, the speaker is sure that something is the case,
+while in the imperative mood the speaker desires that something should
+happen.
+
+In English, the subjunctive mood is used to explore conditional or
+imaginary situations. It can be tricky to use, which partially
+explains why many speakers and writers forgo it.
+
+Also: 
+- aspect: how an action, event, or state, denoted by a verb, extends over time
+- mood: the speaker's attitude toward what they are saying (for example, a 
+statement of fact, of desire, of command, etc.)
+
+`,
+	 
+
+"Adjunct":
+`
+#####Adjunct
+
+An optional, or structurally dispensable part of a sentence, clause, or phrase that, 
+if removed or discarded, will not structurally affect the remainder of the sentence. 
+
+In the sentence <i>John helped Bill in Central Park</i>, the phrase 
+<i>in Central Park</i> is an adjunct.
+
+An adjunct can be a single word, a phrase, or an entire clause:
+
+- She will leave <i>tomorrow.</i>
+- She will leave <i>in the morning.</i>
+- She will leave <i>after she has had breakfast.</i>
+`,
+
+"Inchoative":
+`
+#####Inchohative
+
+Inchoative (or inceptive) indicates a process of beginning or
+becoming.  Abbreviated INCH.
+
+Most of the Interior Salish languages have an
+important affix which has been called INCHOATIVE. Semantically it
+covers both simple mutative ideas—i.e., shift to a new state of
+affairs—and more specialized notions emphasizing the beginning of
+an action or state or the emergence of a concept.
+
+Inchoative aspect is a grammatical aspect, referring to the
+beginning of a state. It can be found in conservative
+Indo-European languages such as Latin and Lithuanian, and also in
+Finnic languages or European derived languages with high
+percentage of Latin-based words like Esperanto. It should not be
+confused with the prospective, which denotes actions that are
+about to start. The English language can approximate the
+inchoative aspect through the verbs "to become" or "to get"
+combined with an adjective.
+
+Inchoative is a term used for verbs whose meanings can be
+paraphrased as '<i>to begin to...</i>' (e.g. inflame and depopulate) or
+verbs which express the beginning of a state or process, like
+<i>harden</i> (become hard), <i>die</i> (become dead) or break. The term is also
+used in explicating the ambiguity of <i>John will eat his lunch in an
+hour</i>: the inchoative reading is the one in which it will take an
+hour before John is to eat his lunch.
+`,
+
+"Derivation vs. Inflection":
+`
+#####Derivation vs. Inflection
+
+Derivation can be contrasted with inflection, in that derivation
+can produce a new word (a distinct lexeme) whereas inflection
+produces grammatical variants of the same word.
+
+
+Ad hoc criterion: a derived word earns it's own entry in a
+dictionary, as in <i>bake</i>, <i>baker</i>, <i>bakery</i>
+vs. <i>bake</i>, <i>baked</i>, <i>baking</i>.
+
+Inflection applies in more or less regular patterns to all
+members of a part of speech (for example, nearly every English
+verb adds <i>-s</i> for the third person singular present tense),
+while derivation follows less consistent patterns (for example,
+the nominalizing suffix <i>-ity</i> can be used with the
+adjectives <i>modern</i> and <i>dense</i>, but not with open or
+strong). However, it is important to note that derivations and
+inflections can share homonyms, that being, morphemes that have
+the same sound, but not the same meaning. For example, when the
+affix <i>-er</i>, is added to an adjective, as in <i>small-er</i>,
+it acts as an inflection, but when added to a verb, as in
+<i>cook-er</i>, it acts as a derivation.
+
+
+As mentioned above, a derivation can produce a new word (or new
+part of speech) but is not required to do so. For example, the
+derivation of the word "common" to "uncommon" is a derivational
+morpheme but doesn't change the part of speech (adjective).
+
+An important distinction between derivational and inflectional
+morphology lies in the content/function of a listeme. Derivational
+morphology changes both the meaning and the content of a listeme,
+while inflectional morphology doesn't change the meaning, but
+changes the function.
+
+ listeme is a word or phrase (or, according to Steven Pinker,
+"a stretch of sound") that must be memorized because its sound or
+meaning does not conform to some general rule. Also called a
+lexical item. All word roots, irregular forms, and idioms are
+listemes.
+
+A non-exhaustive list of derivational morphemes in English: 
+- -ful
+- -able
+- im-
+- un-
+- -ing
+- -er
+
+A non-exhaustive list of inflectional morphemes in English: 
+- -er
+- -est
+- -ing
+- -en
+- -ed
+- -s
+`,
+    
+
+
+
+
+
+"Additive Style":
+`
+#####Additive Style
+Stanley Fish, How to Write a Sentence, and How to Read One (2011): 
+
+<blockquote>I want to submit to you that topic sentences and thesis statements 
+are best expressed in the subordinating style rather than in the additive style.
+</blockquote>
+
+The first of Walter Ong's characteristics of orally based thought
+and expression, chapter 3 of Orality and Literacy, "Some Psychodynamics of Orality",
+p.37.  He compares the creation narrative in Genesis 1:1-5,
+King James Version 1604-1611
+
+- In the beginning God created the heaven and the earth.
+- And the earth was without form, and void; and darkness was upon the face of the deep. 
+- And the Spirit of God moved upon the face of the waters.
+- And God said, Let there be light: and there was light.
+- And God saw the light, that it was good: and God divided the light from the darkness.
+- And God called the light Day, and the darkness he called Night. 
+- And the evening and the morning were the first day.
+
+New American Bible 1970
+
+- In the beginning, when God created the heavens and the earth,
+the earth was a formless wasteland, and darkness covered the abyss, while a mighty wind swept over the waters.
+- Then God said, "Let there be light," and there was light.
+- God saw how good the light was. God then separated the light from the darkness.
+- God called the light "day," and the darkness he called "night." Thus evening came, and morning followed - the first day.
+`,
+
+
+"Habitual":
+`
+#####Habitual:
+
+<a href="https://en.wikipedia.org/wiki/Habitual_aspect" target="_top">wikipedia</a>: 
+the aspect of a verb is a grammatical category that defines
+the <b>temporal flow</b> (or lack thereof) in a given action, event, or
+state. 
+
+<p> While habituals "describe a situation which is characteristic of an
+extended period of time" (Comrie 1985: 27), iteratives consist of "repeated
+occurrences of the same situation".
+
+<p>The habitual aspect (abbreviated HAB) is not to be confused with iterative 
+aspect or frequentative aspect, specifies an action as occurring habitually: the 
+subject performs the action usually, ordinarily, or customarily. As such, the 
+habitual aspect provides structural information on the nature of the subject referent:
+<ul> 
+   <li> "John smokes" being interpretable as "John is a smoker"
+   <li> "Enjoh habitually gets up early in the morning" as "Enjoh is an early bird". 
+</ul>
+
+Some sense of intrinsic, inborn is carried: an event or state is characteristic of a period of time.
+
+ <p>
+ <b>iterative aspect</b>: or event-internal pluractionality, expresses the repetition
+ of an event observable on a single occasion.  <i>she is drumming</i>
+ <b>frequentive aspect</b>: like habitual, this implies multiple occasions.  
+  <a href="https://en.wikipedia.org/wiki/Frequentative" target="_top">wikipedia</a>
+  describes English <i>-le</i> and <i>-er</i> as frequentive suffixes, (grunt -> gruntle, jig -> jiggle)
+   and reduplication (i.e. <i>murmur</i>) and vowel grades (i.e, <i>teeter-totter</i> and <i>pitter-patter</i>).
+ English present tense often has a frequentive aspect: <i>I walk to work</i>.  
+ <p>
+
+ The habitual aspect is a type of imperfective aspect, which does not depict an event as 
+ a single entity viewed only as a whole but instead specifies something about its internal
+ temporal structure.
+ <p>
+
+The habitual aspect is a form of expression connoting repetition or continuous existence of a state of 
+affairs. In standard English, present tense, there is no special grammatical marker for the habitual; 
+the simple present is used, as in <i>I go there (every day)</i>.
+
+<p> However, for past reference English uses the simple past form or either of two alternative
+markers: <b>used to</b> as in <i>we used to go there (every Thursday)</i>, and <b>would</b> as in
+<i>back then we would go there (every Thursday).</i>
+
+<a href="https://en.wikipedia.org/wiki/African-American_Vernacular_English"  target="_top">African-American Vernacular English (<i>AAVE</i>)</a>
+ uses <b>be</b> (habitual be) to indicate that  performance of the verb is of a habitual nature:
+<p>
+<i>Habitual be</i> is the use of an uninflected <i>be</i> in African-American Vernacular English (AAVE),
+Caribbean English and Certain dialects of Hiberno-English 
+(<a href="https://en.wikipedia.org/wiki/South-West_Irish_English" target="_top">South-West Irish English</a>)
+to mark habitual or extended actions,  in place of the Standard English inflected forms of be, such as 
+is and are.
+ <ul>
+   <li> I do be thinking about it 
+   <li> she does be late
+   <li> separately interesting, non-canonical constituent order: <i>Thinking to steal a few eggs I was</i>
+ </ul>
+
+<p>
+In AAVE, use of <i>be</i> indicates that a subject repeatedly does an action or embodies a trait. In Standard English, the
+use of (an inflection of) <i>be</i> merely conveys that an individual has done an action in a
+particular tense, such as in the statement "She was singing" (the habitual being "she sings").
+<p>
+In South-Western Hiberno-English, the habitual takes a different form, with do being added to
+the sentence as a supplement. Instead of saying "She is late" or "They are always doing that,"
+"She do be late" and "They always be doing that" are used. It is descended from Irish language
+grammar and use of the verb Bí, the habitual tense of the verb "to be".
+<p>
+It is a common misconception that AAVE speakers simply replace <i>is</i> with <i>be</i> across all tenses,
+with no added meaning. In fact, AAVE speakers use <i>be</i> to mark a habitual grammatical aspect not
+explicitly distinguished in Standard English. For example, <i>to be singing</i> means to sing
+habitually, not to presently be singing. In one experiment, children were shown drawings of Elmo
+eating cookies while Cookie Monster looked on. Both black and white subjects agreed that Elmo is
+eating cookies, but the black children said that Cookie Monster be eating cookies.
+`,
+
+
+"čəd words":
+    `
+#####čəd words
+
+predicate particles - where, in modern grammar, a particle is a
+function word that must be associated with another word or phrase to
+impart meaning, i.e., does not have its own lexical
+definition. According to this definition, particles are a separate
+part of speech and are distinct from other classes of function words,
+such as articles, prepositions, conjunctions and adverbs.        
+
+
+- čəd: I, me
+- čəɬ:  we, us
+- čəxʷ: you (singular)
+- čəɬəp: you folks
+
+additional comments<
+- čəɬ<sup>2</sup>: [Skagit (only?)] make or hunt for one's use, go after. LD 63
+- <i>ləčəɬ čəd</i>: I am on my way to make something.
+- <i>čəɬ ƛ’əlayʔ</i>: make canoe, ’make canoes/a canoe/canoes in general’
+- contrast <i>čəɬ ti ƛ’əlayʔ</i> ‘make that canoe/the canoe we were talking about/particular canoes’
+- David Beck: this is one of a very few verbs that can be used with a noun without a demonstrative or determiner.
+`,
+
+
+
+
+"Anaphor":
+`
+#####Anaphor
+The use of an expression whose interpretation depends upon another
+expression in context (its antecedent or postcedent).
+
+<p>In a narrower sense, <i>anaphora</i> is the use of an expression that
+depends specifically upon an antecedent expression and thus is contrasted
+with <i>cataphora</i>, which is the use of an expression that depends upon a
+postcedent expression. The anaphoric (referring) term is called an
+anaphor. 
+
+<p>For example, in the sentence <i>Sally arrived, but nobody saw her</i>, the
+pronoun <i>her</i> is an anaphor, referring back to the antecedent Sally. In the
+sentence <i>Before her arrival, nobody saw Sally</i>, the pronoun <i>her</i> refers
+forward to the postcedent Sally, so <i>her</i> is now a cataphor (and an anaphor in
+the broader, but not the narrower, sense). 
+
+<p>In <i>When they saw Ruth, the men looked slightly abashed</i>,
+ the word <i>they</i> is used as a cataphor for <i>the men</i>.
+
+<p>Usually, an anaphoric expression is a proform or some other kind of
+deictic (contextually-dependent) expression. Both anaphora and cataphora
+are species of endophora, referring to something mentioned elsewhere in a
+dialog or text.
+
+<p>A linguistic entity which indicates a referential tie to some other linguistic 
+ entity in the same text.
+
+<p>Thus an anaphor is a <a href="https://en.wikipedia.org/wiki/Pro-form"
+ target="_top">proform</a> or some other kind of deictic
+ (contextually-dependent) expression, where <i>proform</i> is a word or
+ expression which stands in for (expresses the same content as) another
+ word, phrase, clause or sentence where the meaning is recoverable from
+ context, <i>pronouns</i> being the best known.
+`,
+
+
+
+"Deixis":
+`
+#####Deixis
+"DIKE-sis". Reference by means of an expression whose interpretation is
+ relative to the (usually) extralinguistic context of the utterance, such as:
+- who is speaking
+- the time or place of speaking
+- the gestures of the speaker
+- the current location in the discourse
+
+wikipedia: The use of general words and phrases to refer to a specific
+time, place, or person in context, e.g., the words tomorrow, there, and
+they. Words are deictic if their semantic meaning is fixed but their
+denoted meaning varies depending on time and/or place. Words or phrases
+that require contextual information to be fully understood—for example,
+English pronouns—are deictic. Deixis is closely related to anaphora. In
+linguistic anthropology, deixis is treated as a particular subclass of the
+more general semiotic phenomenon of indexicality, a sign "pointing to"
+some aspect of its context of occurrence.  <p>
+
+- <b>deictic center</b>:  I, here, now
+- <b>time deixis</b>: [before, recently, yesterday] now [later, tomorrow, soon]
+- <b>space</b>: [there] here [there]
+- <b>person</b>: you, me, she/he, they
+- <b>deictic projection</b>:  speaker is not in the deictic center: <i> I am coming home now.</i>
+- <b>discourse deixis</b>:  <i>That was an amazing account.</i>
+- <b>social</b>:  T-V distinction, Latin "tu" and "vos", for languages with at least two
+  second person pronouns.
+
+The terms deixis and <b>indexicality</b> are frequently used almost
+interchangeably, and both deal with essentially the same idea of
+contextually-dependent references. However, the two terms have different
+histories and traditions. In the past, deixis was associated specifically
+with spatiotemporal reference, and indexicality was used more broadly.[16]
+More importantly, each is associated with a different field of
+study. Deixis is associated with linguistics, and indexicality is
+associated with philosophy[17] as well as pragmatics.[18]
+
+_deixis_ refers to words and phrases, such as "me" or "here", that cannot be fully understood
+without additional contextual information—in this case, the identity of the speaker ("me") and
+the speaker's location ("here"). Words are deictic if their semantic meaning is fixed but their
+denoted meaning varies depending on time and/or place. Words or phrases that require contextual
+information to convey any meaning—for example, English pronouns—are deictic.
+ 
+`,
+
+
+
+
+
+
+
+"Demonstrative":
+`
+#####Demonstrative
+
+Words which distinguish entities of interest, often used in spatial or discourse deixis,
+or as anaphora.  
+
+<h5>English examples</h5> 
+<ul>
+  <li> As a djective: <i>put <b>that</b> hat on</i>.  
+  <li> As pronoun: <i>put <b>that</b> on</i>.
+  <li> As adverb: <i>He is not <b>that</b> nice</i>. <i>I came <b>this</b> close</i>. (with accompanying gesture).
+</ul>
+
+Lushootseed Reader volume 1, Lesson 15, p77: Demonstratives
+
+The demonstrative systems (pronomial, adjectival, and adverbial) are
+complex in Lushootseed for several reasons:
+
+- They involve a fairly large number of concepts.
+- There is considerable variation among speakers in their use.  
+-  Adjectival and adverbial demonstratives can  enter into a variety of combinations creating 
+  still more, and often quite subtle, distinctions than occur in either subclass taken alone.
+
+The basic system, however, is straight forward; and that is what is
+presented here.  The complex and sometimes idiosyncratic combinations
+are dealt with in footnotes as they occur in the texts.
+
+Five concepts are marked in the basic adjectival system.  These are
+distal, proximal, unique reference, non-contrastive (or neutral), and
+hypothetical and/or remote.  Each of these can be futhher marked for
+feminine.  The specific forms in Northern and Southern Lushootseed
+differ in several cases.
+
+
+|                            | NL.unmarked | NL.marked | SL.unmarked | SL.marked |
+|----------------------------|-----------|-------------|-------------|-----------|
+| distal                     | tiʔiɬ     | tsiʔiɬ       | tiiɬ         | tsiʔiɬ    |
+| proximal                   | tiʔəʔ    | tsiʔəʔ       | ti           | tsi     |
+| unique.reference           | ti       | tsi          | šə           | sə      |
+| non.contrastive            | tə       | tsə          | tə           | tsə     |
+| hypothetical.and/or.remote | kʷi      | kʷsi         | kʷi           | kʷsi   |
+
+`,
+
+
+"Determiner":
+`#####Determiner
+A word, phrase, or affix that occurs together with a noun or noun phrase
+and serves to express the reference of that noun or noun phrase in the
+context. That is, a determiner may indicate whether the noun is referring
+to a definite or indefinite element of a class, to a closer or more distant
+element, to an element belonging to a specified person or thing, to a
+particular number or quantity, etc.
+- <b>articles:</b> definite or indefinite, <i>a, an, the</i>
+- <b>demonstratives:</b> <i>this, that</i>
+- <b>possessive determiners:</b> <i>my, hers, their</i>
+- <b>ordinal numerals:</b> <i>first, second</i> (last?)
+- <b>quantifiers:</b>  <i>many, both, all, no</i>
+- <b>distributive:</b>  <i>each, any</i>
+- <b>interrogative:</b> <i>which</i>
+`,
+	 
+"ECS":
+`
+#####ECS
+Event External Causative, the Lushootseed suffix _-txʷ_
+
+Adds participant (a trajector) which is initiator of separate process
+of which it is not the trajector (the primary clausal figure).
+
+The notion of ‘separate process’ is a matter of construal and in
+practice there is considerable overlap in direct- and indirect-causation (ICS).
+
+Two papers by David Beck:
+- <a href="https://sites.ualberta.ca/~dbeck/CAUS.pdf" target="_blank">Transitivity and Causation in Lushootseed Morphology</a>.
+- <a href="https://era.library.ualberta.ca/items/0ebf0b27-5436-404f-b7d8-8c74dd53d35a/view/108859df-0420-4df0-8d16-7208c7d2d2e3/IJAL_75_2009_533_clean.pdf" target="_blank">
+         A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes</a>
+
+<b>TRAJECTOR</b> and <b>LANDMARK</b> are the terms proposed by R. Langacker to describe
+the semantics of the linguistic expressions denoting simple and complex
+events, in which one object (the Trajector) is moving or undergoing
+changes in relation to another object (the Landmark).  The line along which
+the Trajector is moving, either literally or metaphorically, is called the
+<b>Path</b>.
+
+Two important constraints of Lushootseed grammar:
+- Only one third-person direct actant (subject or direct object) may be overt in a clause: 
+          in transitive clauses, third-person subjects are elided; first- and second-person subjects 
+          in transitive clauses are realizable as pronominals, which are not NPs.
+-  Oblique (intransitive) objects are not in the verb’s profile and surface as a PP.
+`,
+
+"And-fronting":
+`
+#####And-fronting
+
+- Kroeber p376: and-fronting of determiner phrases (DPs) is rare in Coast Salish languages 
+             generally, but fairly common in Lushootseed. 
+- Hess v1 p122: The sentential adverb <i>gʷəl</i>, in addtion to starting
+    sentences ("and then...") in long narratives, is also used to topicalize.  This is
+    achieved by treating the topic as an entire clause and using <i>gʷəl</i> to introduce
+    the following clause.
+
+<b>More generally:</b>
+
+- Emphasis: modifying the sense of the sentence.  A <i>sentential adverb</i> is a single word or short phrase, usually interrupting
+        normal syntax, used to lend emphasis to words immediately proximal to the adverb:  <i>
+        I did, <b>indeed</b>, complete the task. </i>  Or "Reluctantly, he completed the task.".
+        
+- Topicalization:  the initial position of the adverb is not unlike the <i>wh</i>-position,
+        which is unspecified for the kind of <i>wh</i>-element that can occupy it.  The fronted elements
+        are <b>topics</b> representing information that is already part of the discourse (aka, old information).
+         All of these fronted elements are pronounced with a pause after the initial phrase.
+- Unlike wh-elements, topicalization never demonstrates inversion or complementary
+        distribution. (More detail <a href="http://primus.arts.u-szeged.hu/bese/Chapter7/7.5.1.htm#1307" target="_blank"> here</a>.)
+`,
+
+"Perfective Aspect": 
+`
+#####Perfective Aspect
+
+  The perfective aspect (abbreviated _pfv_), sometimes called the
+  aoristic aspect, is a grammatical aspect that describes an action
+  viewed as a simple whole; i.e., a unit without interior
+  composition. The perfective aspect is distinguished from the
+  imperfective aspect, which presents an event as having internal
+  structure (such as ongoing, continuous, or habitual actions).
+
+
+  The perfective is often thought of as for events of short duration
+  (e.g., "John killed the wasp"). However, this is not necessarily
+  true—a perfective verb is equally right for a long-lasting event,
+  provided that it is a complete whole; e.g., (Livy) "Tarquin the Proud reigned
+  for 25 years." It simply "presents an occurrence in summary,
+  viewed as a whole from the outside, without regard for the internal
+  make-up of the occurrence."
+
+
+
+<b>Perfective Aspect vs Perfect Tense</b>
+
+A <i>perfect</i> tense (abbreviated <b>PERF</b> or <b>prf</b>) is a
+grammatical form used to describe a past event with present relevance,
+or a present state resulting from a past situation. For example, "I
+have put it on the table" implies both that I put the object on the
+table and that it is still there; "I have been to France" conveys that
+this is a part of my experience as of now; and "I have lost my wallet"
+implies that this loss is troublesome at the present moment. A perfect
+tense does not necessarily have to be perfective in aspect. For
+example, "I have been waiting here for an hour" and "I have been going
+to that doctor all my life" are perfect but also imperfective in
+aspect.
+
+  `,
+	 
+
+"Tense and Aspect":
+`
+#####Tense and Aspect
 
 Thom Hess, LG1, p49: &nbsp; Obligatory in English, where
 every sentence must locate the event before, after,

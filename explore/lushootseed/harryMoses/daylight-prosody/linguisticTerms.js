@@ -121,7 +121,7 @@ to that doctor all my life" are perfect but also imperfective in
 aspect.
 
 `,
-    
+     
     "And-fronting": `<b><i>And</i>-fronting</b>
       <ul>
         <li> Kroeber p376: and-fronting of determiner phrases (DPs) is rare in Coast Salish languages 
@@ -321,7 +321,7 @@ aspect.
 
     `,
 
-    "anaphor":
+     "anaphor":
     `
 
     The use of an expression whose interpretation depends upon another

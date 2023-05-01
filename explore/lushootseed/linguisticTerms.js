@@ -121,7 +121,7 @@ to that doctor all my life" are perfect but also imperfective in
 aspect.
 
 `,
-    
+     
     "And-fronting": `<b><i>And</i>-fronting</b>
       <ul>
         <li> Kroeber p376: and-fronting of determiner phrases (DPs) is rare in Coast Salish languages 
@@ -321,7 +321,7 @@ aspect.
 
     `,
 
-    "anaphor":
+     "anaphor":
     `
 
     The use of an expression whose interpretation depends upon another
@@ -486,71 +486,6 @@ aspect.
         <li> God called the light "day," and the darkness he called "night." Thus evening came, and morning followed - the first day.
        </ol>
     `,
-    "DERIVATIONAL_SUFFIX":
-    `
-    Derivation can be contrasted with inflection, in that derivation
-    can produce a new word (a distinct lexeme) whereas inflection
-    produces grammatical variants of the same word.
-
-    <p>
-    Ad hoc criterion: a derived word earns it's own entry in a
-    dictionary, as in <i>bake</i>, <i>baker</i>, <i>bakery</i>
-    vs. <i>bake</i>, <i>baked</i>, <i>baking</i>.
-
-    <p> Inflection applies in more or less regular patterns to all
-    members of a part of speech (for example, nearly every English
-    verb adds <i>-s</i> for the third person singular present tense),
-    while derivation follows less consistent patterns (for example,
-    the nominalizing suffix <i>-ity</i> can be used with the
-    adjectives <i>modern</i> and <i>dense</i>, but not with open or
-    strong). However, it is important to note that derivations and
-    inflections can share homonyms, that being, morphemes that have
-    the same sound, but not the same meaning. For example, when the
-    affix <i>-er</i>, is added to an adjective, as in <i>small-er</i>,
-    it acts as an inflection, but when added to a verb, as in
-    <i>cook-er</i>, it acts as a derivation.
-
-    <p>
-    As mentioned above, a derivation can produce a new word (or new
-    part of speech) but is not required to do so. For example, the
-    derivation of the word "common" to "uncommon" is a derivational
-    morpheme but doesn't change the part of speech (adjective).
-
-    <p> An important distinction between derivational and inflectional
-    morphology lies in the content/function of a listeme. Derivational
-    morphology changes both the meaning and the content of a listeme,
-    while inflectional morphology doesn't change the meaning, but
-    changes the function.
-
-    <p>A listeme is a word or phrase (or, according to Steven Pinker,
-    "a stretch of sound") that must be memorized because its sound or
-    meaning does not conform to some general rule. Also called a
-    lexical item. All word roots, irregular forms, and idioms are
-    listemes.
-
-    <p>
-    A non-exhaustive list of derivational morphemes in English: 
-     <ul>
-      <li>-ful
-      <li>-able
-      <li>im-
-      <li>un-
-      <li>-ing
-      <li>-er
-     </ul>
-
-    <p>
-    A non-exhaustive list of inflectional morphemes in English: 
-     <ul>
-        <li>-er
-        <li>-est
-        <li>-ing
-        <li>-en
-        <li>-ed
-        <li>-s
-    </ul>
-    `,
-    
   //------------------------
     "INCH":
     `

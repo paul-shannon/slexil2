@@ -1,5 +1,6 @@
 var showAnno = false;
 converter = new showdown.Converter()
+converter.setOption("tables", true);
 
 var timer = null;
 

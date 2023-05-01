@@ -25,10 +25,10 @@ html:
                --terms grammaticalTerms.txt \
                --tierGuide tierGuide.yaml \
                --projectDirectory ./ \
-               --verbose \
                --addFontSizeControls \
                --kb kb.js \
                --linguistics linguistics.js
+#               --verbose 
 #               --startLine 121 \
 #               --endLine 126
 

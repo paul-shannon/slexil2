@@ -63,7 +63,7 @@ class Text:
 				 endLine,
 				 kbFilename,
 				 linguisticsFilename):
-		print("debug? %s" % (not verbose))
+		print("debug? %s" % (verbose))
 		self.xmlFilename = xmlFilename
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
@@ -333,25 +333,26 @@ class Text:
 
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
 				if(self.fontSizeControls):
-						addVideoSizeSlider(htmlDoc)
+					addVideoSizeSlider(htmlDoc)
 				with htmlDoc.tag("div", id="mediaPlayerDiv"):
 					htmlDoc.asis(self.getPlayer())
 				if(self.fontSizeControls):
-						addFontSizeControls(htmlDoc)
+					addFontSizeControls(htmlDoc)
 				if(self.kbFilename != None):
 					if(self.verbose):
 						print("kbFilename triggered")
 					linguisticsTopics = []
 					if(self.linguisticsFilename != None):
-						linguisticsTopics = getLinguisticsTopics(self.linguisticsFilename)
+						linguisticsTopics = getLinguisticsTopics(self.linguisticsFilename, self.verbose)
 						print("--- linguisticsTopics")
-						print(linguisticsTopics)
+						for topic in linguisticsTopics:
+							print(topic)
 					addAnnotationControls(htmlDoc, linguisticsTopics)
-					with htmlDoc.tag("div", id="textAndAnnoDiv", klass="row"):
-						with htmlDoc.tag("div", id="textLeftColumn", klass="col-12"):
-							self.createTextDiv(htmlDoc);
-						with htmlDoc.tag("div", id="annoDiv", klass="col-4"):
-								htmlDoc.asis("")
+				with htmlDoc.tag("div", id="textAndAnnoDiv", klass="row"):
+					with htmlDoc.tag("div", id="textLeftColumn", klass="col-12"):
+						self.createTextDiv(htmlDoc);
+					with htmlDoc.tag("div", id="annoDiv", klass="col-4"):
+						htmlDoc.asis("")
 
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
@@ -406,12 +407,14 @@ def optionallyAddAboutButton(htmlDoc, metadata):
 	return(True)
 
 #-------------------------------------------------------------------------------
-def getLinguisticsTopics(filename):
+def getLinguisticsTopics(filename, verbose):
 
 	f = open(filename)
 	lines = f.readlines()
 	topics = []
 	for line in lines:
+		if(verbose):
+			print(line)
 		if line.find('":') > 0:
 			cleanLine = line.strip().replace('"', '').replace(':', '')
 			print(cleanLine)
