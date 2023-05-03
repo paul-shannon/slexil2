@@ -1,37 +1,37 @@
 title: Coyote and Big Rock 
 narrator: sʔadacut Edward Hagan Sam
 textEntry: Paul Shannon
-mediaFile: coyoteAndBigRock.mp3
+mediaFile: coyoteAndBigRock.wav
 mimeType: audio/mp3
 
 lines:
   - lineNumber: 1
-    startTime: 0
-    endTime: 2022
+    startTime: 1292
+    endTime: 2911
     lushootseed: tiʔəʔ sbiaw
     morphemes: [tiʔəʔ, sbiaw]
     morphemeGloss: [PROX, coyote]
     english: Coyote.
 
   - lineNumber: 2
-    startTime: 2732
-    endTime: 4628
+    startTime: 4633
+    endTime: 5900
     lushootseed: ʔuʔuxʷ tiʔəʔ sbiaw
     morphemes: [ʔu-ʔuxʷ,tiʔəʔ,sbiaw]
     morphemeGloss: [PFV-go, PROX, coyote]
     english: Coyote goes.
 
   - lineNumber: 3
-    startTime: 4629
-    endTime: 6596
+    startTime: 5871
+    endTime: 7968
     lushootseed: gʷəl ʔey'dxʷ tiʔiɬ ʔiišəds
     morphemes: [gʷəl,ʔey'-dxʷ, tiʔiɬ,ʔiišəd-s]
     morphemeGloss: [SCONJ, find-DC, DIST, relatives-3PO]
     english: And he finds his friends.
 
   - lineNumber: 4
-    startTime: 7491
-    endTime: 13688
+    startTime: 9720
+    endTime: 14760
     lushootseed: ʔušudxʷ tiʔiɬ səsq'ʷuʔ ʔə tiʔiɬ ʔiišəds ʔal tiʔəʔ hikʷ č'ƛ'aʔ
     morphemes: [ʔu-šuɬ-dxʷ,tiʔiɬ,s=ʔas-q'ʷuʔ,ʔə,tiʔiɬ,ʔiišəd-s,ʔal,tiʔəʔ,hikʷ,č'ƛ'aʔ]
     morphemeGloss: [PFV-see-DC,DIST,NM=STAT-gathered,PR,DIST,relatives-3PO,at,PROX,big,stone]

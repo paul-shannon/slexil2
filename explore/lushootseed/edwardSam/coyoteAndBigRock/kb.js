@@ -3,6 +3,21 @@ kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
 
+"ʔuʔuxʷ tiʔəʔ sbiaw":
+`
+[<small>**Rh**</small>_ʔuʔuxʷ_] [<small>**Th**</small> _tiʔəʔ sbiaw"_]
+`,
+	 
+"tiʔəʔ sbiaw":
+`
+[<small>**Rh**</small> _tiʔəʔ_] [<small>**Th**</small> _sbiaw"_]
+
+contrast this with  [<small>**Rh**</small> _sʔuladxʷ_] [<small>**Th**</small>_tiʔəʔ]
+
+ (need reference, a Thom Hess example seen somewhere)
+
+`,
+	 
 "ʔiišəd–s":	
 `
 - ʔiišəd
@@ -18,8 +33,21 @@ kb = {
 
 "sbiaw":
 `
-s√biaw
-coyote.  LD39
+######s√biaw
+- coyote
+- LD39 (from XML)
+- orth    s√biáw 
+- categor:    ns 
+- shape:    CVVC 
+- bibl Hess:    35.6
+- gloss zoo:    *coyote 
+- example
+     - gʷa bəs√biaw tiʔəʔ ləcu(t)-cut. 
+     - But it was Coyote who was talking. 
+- subc  tra 
+     - w:    biáw-cut 
+     - gloss eth: act smart; person who pretends first to know and then pretends that he doesn't know 
+     - ref compare: yəwáʔq 
 `,
 	
 
@@ -1593,7 +1621,9 @@ _now washed themselves_
 
 "tuhuyucutəxʷ tiʔəʔ səsaliʔ ləgʷləgʷəb":
 `
-[predicate][noun subject phrase]
+[<small>**Rh**</small> _tuhuyucutəxʷ_] [<small>**Th**</small> _tiʔəʔ səsaliʔ ləgʷləgʷəb_]
+[reflexive verb] [noun phrase]
+[predicate] [subject]
 `,
 
 "tu=huyu–t–sut=əxʷ":
@@ -2584,7 +2614,8 @@ lexical category functioning as predicate or complement.
 
 "tiʔəʔ":
 `
-_this_
+#####tiʔəʔ
+  - _this_
   - unmarked pronomial demonstrative  (maybe actually adnomial?)
   - Demonstratives are commonly divided into pronominal demonstratives, which substitute for a noun (phrase),
     and adnominal demonstratives, which accompany a coreferential noun. In English, pronominal and adnominal

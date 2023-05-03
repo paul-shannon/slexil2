@@ -3,6 +3,14 @@ NAME = coyoteAndBigRock
 
 default:
 	@echo targets:
+	@echo   venv eaf http refresh-js html
+	@echo   tailor open-local
+	@echo   mkdir testdir 
+	@echo   publish open
+
+
+old.default:
+	@echo targets:
 	@echo   venv eaf http update-slexil-code html
 	@echo   tailor open-local
 	@echo   mkdir testdir 
@@ -19,7 +27,7 @@ http:
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
 
-html: 
+old.html: 
 	python ~/github/slexil2/utils/eaf2html.py \
                --eaf $(NAME).eaf \
                --terms grammaticalTerms.txt \
@@ -29,6 +37,26 @@ html:
                --addFontSizeControls
 #               --startLine 121 \
 #               --endLine 126
+
+refresh-js:
+	cp -p ../../*.js .
+	cp -p ../../slexil.css .
+
+
+
+html: 
+	python ~/github/slexil2/utils/eaf2html.py \
+               --eaf $(NAME).eaf \
+               --terms grammaticalTerms.txt \
+               --tierGuide tierGuide.yaml \
+               --projectDirectory ./ \
+               --addFontSizeControls \
+               --kb kb.js \
+               --linguistics linguistics.js
+#               --verbose 
+#               --startLine 121 \
+#               --endLine 126
+
 
 tailor:
 	sed -f insertCustomCode.sed index.html  > index0.html

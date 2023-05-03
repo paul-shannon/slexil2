@@ -7,7 +7,6 @@
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
   integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
   crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel = "stylesheet" type = "text/css" href = "slexil.css" />
     <!-- headCustomizationHook -->
@@ -24,23 +23,60 @@
       <input type="range" min="100" max="800" value="400" step="100" id="videoSizeSelector" name="videoSizeSelector" />
     </div>
     <div id="mediaPlayerDiv">
-      <audio class="player" id="mediaPlayer" src="coyoteAndBigRock.mp3" controls></audio>
+      <audio class="player" id="mediaPlayer" src="coyoteAndBigRock.wav" controls></audio>
     </div>
     <div id="fontSizeControlsDiv" class="sliderControlDiv">
       <label>Playback Speed</label>
-      <input type="range" min="0.5" max="1.25" value="1.0" step="0.25" id="speedSelector" name="speedSelector" />
+      <input type="range" min="0.5" max="1.25" value="0.8" step="0.25" id="speedSelector" name="speedSelector" />
       <div id="playbackSpeedReadout">1.0</div>
       <br />
       <label>Print Size</label>
       <input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" />
       <br />
-      <button id="toggleAnnotationsButton" class="btn btn-outline-secondary">Show Annotations</button>
+    </div>
+    <div id="annoButtonsDiv" class="row">
+      <div class="col-8 text-left">
+        <button id="toggleAnnotationsButton" class="btn btn-outline-dark">Show Annotations</button>
+      </div>
+      <div class="col-4 text-right">
+        <span id="linguisticTopicController">
+          <label id="linguisticTopicSelectorLabel">Linguistic Topic:</label>
+          <select id="languageTopicsSelector" class="seletpicker btn btn-outline-dark">
+            <option></option>
+            <option>Additive Style</option>
+            <option>Adjunct</option>
+            <option>Adverbial Conjunction</option>
+            <option>Anaphor</option>
+            <option>And-fronting</option>
+            <option>Clitic</option>
+            <option>Coordinating Conjunction</option>
+            <option>Copula</option>
+            <option>Deixis</option>
+            <option>Demonstrative</option>
+            <option>Derivation vs. Inflection</option>
+            <option>Determiner</option>
+            <option>ECS</option>
+            <option>Habitual</option>
+            <option>Inchoative</option>
+            <option>PFV</option>
+            <option>PROX</option>
+            <option>Perfective Aspect</option>
+            <option>Reduplication</option>
+            <option>Salishan Predicates</option>
+            <option>Tense and Aspect</option>
+            <option>Tense-aspect-mood (TAM)</option>
+            <option>Theme and Rheme</option>
+            <option>Types of Sentences (MLA)</option>
+            <option>čəd words</option>
+          </select>
+        </span>
+      </div>
     </div>
     <div id="textAndAnnoDiv" class="row">
-      <div id="textLeftColumn" class="col-8">
+      <div id="textLeftColumn" class="col-12">
         <div id="textDiv">
           <div class="line-wrapper" id="1">
-            <div class="line-sidebar">1) <button onclick="playSample(1, 0, 2022)">🔈</button><!-- sidebarHookLine_1 --></div>
+            <div class="line-sidebar">1) <button onclick="playSample(1, 1292, 2911)">🔈</button><!-- sidebarHookLine_1 --></div>
             <div class="line-content" id="1">
               <div class="line">
                 <span class="speech-tier">tiʔəʔ sbiaw</span>
@@ -64,7 +100,7 @@
             </div>
           </div>
           <div class="line-wrapper" id="2">
-            <div class="line-sidebar">2) <button onclick="playSample(2, 2732, 4628)">🔈</button><!-- sidebarHookLine_2 --></div>
+            <div class="line-sidebar">2) <button onclick="playSample(2, 4633, 5900)">🔈</button><!-- sidebarHookLine_2 --></div>
             <div class="line-content" id="2">
               <div class="line">
                 <span class="speech-tier">ʔuʔuxʷ tiʔəʔ sbiaw</span>
@@ -92,7 +128,7 @@
             </div>
           </div>
           <div class="line-wrapper" id="3">
-            <div class="line-sidebar">3) <button onclick="playSample(3, 4629, 6596)">🔈</button><!-- sidebarHookLine_3 --></div>
+            <div class="line-sidebar">3) <button onclick="playSample(3, 5871, 7968)">🔈</button><!-- sidebarHookLine_3 --></div>
             <div class="line-content" id="3">
               <div class="line">
                 <span class="speech-tier">gʷəl ʔey'dxʷ tiʔiɬ ʔiišəds</span>
@@ -126,7 +162,7 @@
             </div>
           </div>
           <div class="line-wrapper" id="4">
-            <div class="line-sidebar">4) <button onclick="playSample(4, 7491, 13688)">🔈</button><!-- sidebarHookLine_4 --></div>
+            <div class="line-sidebar">4) <button onclick="playSample(4, 9720, 14760)">🔈</button><!-- sidebarHookLine_4 --></div>
             <div class="line-content" id="4">
               <div class="line">
                 <span class="speech-tier">ʔušudxʷ tiʔiɬ səsq'ʷuʔ ʔə tiʔiɬ ʔiišəds ʔal tiʔəʔ hikʷ č'ƛ'aʔ</span>
@@ -2899,17 +2935,18 @@
           </div>
         </div>
       </div>
-      <div id="annoDiv" class="col-4">now is the time</div>
+      <div id="annoDiv" class="col-4"></div>
     </div>
     <div class="spacer"></div>
-    <script src="slexil.js"></script>
     <script src="kb.js"></script>
+    <script src="linguistics.js"></script>
+    <script src="slexil.js"></script>
     <script src="showdown.js"></script>
     <script src="annotations.js"></script>
-    <script type="text/javascript">window.timeStamps=[{ 'id' : '1', 'start' : 0, 'end' : 2022},
-{ 'id' : '2', 'start' : 2732, 'end' : 4628},
-{ 'id' : '3', 'start' : 4629, 'end' : 6596},
-{ 'id' : '4', 'start' : 7491, 'end' : 13688},
+    <script type="text/javascript">window.timeStamps=[{ 'id' : '1', 'start' : 1292, 'end' : 2911},
+{ 'id' : '2', 'start' : 4633, 'end' : 5900},
+{ 'id' : '3', 'start' : 5871, 'end' : 7968},
+{ 'id' : '4', 'start' : 9720, 'end' : 14760},
 { 'id' : '5', 'start' : -1, 'end' : -1},
 { 'id' : '6', 'start' : -1, 'end' : -1},
 { 'id' : '7', 'start' : -1, 'end' : -1},

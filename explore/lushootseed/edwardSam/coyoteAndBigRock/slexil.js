@@ -91,7 +91,7 @@ $('#speedSelector').on('input', function() {
     var v = $(this).val();
     console.log(v)
     mediaPlayer.playbackRate = v;
-    $("#playbackSpeedReadout").text(v);
+	$("#playbackSpeedReadout").text(v);
     });
 
 

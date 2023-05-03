@@ -1,5 +1,19 @@
 linguistics = {
 
+"PROX":	 
+`
+A distinction in place deixis that indicates location close to the
+speaker or other deictic center.
+`,
+
+	 
+"PFV":
+`
+#####PFV
+The perfective aspect, sometimes call the aoristic aspect, describes an
+action viewed as a simple whole, that is, without interior composition.
+`,
+
 "Clitic":
 `
 #####Clitic
@@ -668,6 +682,10 @@ the divide into two groups called <b>perfective</b>
 (prefix <i><b>ʔu-</b></i>) and <b>imperfective</b> 
 (prefix <i><b>lə-</b><i> for progressive, <i><b>ləs-</b></i> for
 progressive state).
+
+Dawn Bates and Thom Hess discuss the morpheme **ɬu-** in
+<a href="https://lingpapers.sites.olt.ubc.ca/files/2018/03/2001_Bates_Hess.pdf" 
+target="_top">Tense or aspect? A prefix of future time in Lushootseed</a>
 `,
 
 
@@ -694,10 +712,10 @@ that describe the subject, such as seem, become, or remain.
 <b>Beck 2009: Thematicity in Lushootseed Syntax</b>
 
 One of the more remarkable characteristics of Lushootseed syntax is
-the flexibility it displays with re- spect to which parts of speech
+the flexibility it displays with respect to which parts of speech
 are eligible syntactic predicates (Beck, 2002). As in most Salishan
 languages (Kinkade, 1983), words corresponding to English verbs,
-nouns, adjectives, adverbs, and demon- strative pronouns are all
+nouns, adjectives, adverbs, and demonstrative pronouns are all
 potential predicates, as in the nominally-predicated expressions:
 
 (3a) ʔaciɬtalbixʷ čəd<br>
