@@ -449,7 +449,7 @@ def addVideoSizeSlider(htmlDoc):
 	with htmlDoc.tag("div", id="videoSizeSliderDiv", klass="sliderControlDiv"):
 
 		with htmlDoc.tag("label"):
-				htmlDoc.asis("Video Size")
+				htmlDoc.asis("Media Player Size")
 		htmlDoc.input(name="videoSizeSelector", type="range",
 					  min="100", max="800", value="400", step="100",
 					  id="videoSizeSelector")
