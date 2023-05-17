@@ -49,7 +49,7 @@ pip install update git+https://github.com/paul-shannon/slexil2
 ### Get short and simple examples files
 
 - create and enter a temporary test directory
-- if you have cloned this github repo, data files and script are in *demos/*
+- if you have cloned this github repo, data files and script are in *demos/* directory.
 - otherwise, you can download the three files you need like this:
     - curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/inferno-threeLines.eaf
     - curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/grammaticalTerms.txt
