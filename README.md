@@ -42,7 +42,9 @@ The source EAF XML looks like this:
   
 - This shell command will install slexil:
 
-   pip install update git+https://github.com/paul-shannon/slexil2
+<pre>
+pip install update git+https://github.com/paul-shannon/slexil2
+</pre>
    
 ### Get short and simple examples files
 
