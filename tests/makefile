@@ -1,31 +1,12 @@
 default:
-	@echo targets: venv, morphemeGloss, ijalLine, text, textDisplay
-	@echo targets: audioExtractor, displayInferno clean
+	@echo targets: test build
 
-venv:
-	@echo be sure to run: source /Users/paul/github/slexil2/py3105/bin/activate
+test:
+	python -m unittest test_htmlInserter.py
+	python -m unittest test_listTiers.py
+	python -m unittest test_morphemeGloss.py
+	python -m unittest test_infernoDemo.py
+	python -m unittest test_infernoDemo_toHTML.py
 
-all: morphemeGloss ijalLine fullText
-
-
-eafParser:
-	python test_EAFParser.py
-
-morphemeGloss:
-	python test_MorphemeGloss.py
-
-ijalLine:
-	python test_IjalLine.py
-
-audioExtractor:
-	python test_AudioExtractor.py
-
-text: 
-	python test_Text.py
-
-textDisplay:
-	python test_Text.py display
-
-
-clean:
-	- rm tmp*.html
+install:
+	(cd ..; make install)

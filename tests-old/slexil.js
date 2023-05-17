@@ -1,3 +1,5 @@
+console.log("--- executing mediaPlayerEvents.js");
+
 var mediaPlayer = document.getElementById("mediaPlayer");
 var mediaSegmentEnd;
 var mediaContinuousPlay = true;
@@ -32,12 +34,8 @@ function scrollAndHighlight(lineNumber){
    var options = {top: lineDivTop, left: 0, behavior: "smooth"}
    document.getElementById("textDiv").scrollTo(options)
 
-   //$(".line-wrapper").removeClass("current-line")
-   $(".line-content > .line").removeClass("current-line")
-   //qt = "#" + lineNumber + " .line-content"
-   qt = "#" + lineNumber + " .line"
-   $(qt).addClass("current-line")
-   //$('#' + lineNumber).addClass("current-line")
+   $(".line-wrapper").removeClass("current-line")
+   $('#' + lineNumber).addClass("current-line")
 
 }  // scrollAndHighlight
 //--------------------------------------------------------------------------------
@@ -70,24 +68,3 @@ function playMediaSegment(mediaID, startTime, endTime)
 
 } // playMediaSegment
 //--------------------------------------------------------------------------------
-$('#fontSizeSlider').on('input', function() {
-    var v = $(this).val();
-    console.log(v)
-    $("#textDiv").css('font-size', v + 'em')
-    });
-
-$('#videoSizeSelector').on('input', function() {
-    var v = $(this).val();
-    console.log(v);
-    $("#mediaPlayer").width(v);
-    });
-
-$('#speedSelector').on('input', function() {
-    var v = $(this).val();
-    console.log(v)
-    mediaPlayer.playbackRate = v;
-	$("#playbackSpeedReadout").text(v);
-    });
-
-
-

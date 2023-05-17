@@ -2,7 +2,7 @@ PROJECT_NUMBER = 07
 EAF = 7FlorenceRon230302AT.eaf
 
 default:
-	@echo targets:  venv http html open-local mkdir testdir 
+	@echo targets:  venv http update-slexil-code html open-local mkdir testdir 
 	@echo targets: publish open
 
 venv:
@@ -13,13 +13,20 @@ PORT = 8009
 http:
 	python -m http.server $(PORT) &
 
-html:
-	python ../../../utils/eaf2html.py $(EAF) \
-               grammaticalTerms.txt \
-               tierGuide.yaml \
-               . \
-               False
-#               91  92
+html: update-slexil-code
+	python ../../../utils/eaf2html.py \
+               --eaf $(EAF) \
+               --terms grammaticalTerms.txt \
+               --tierGuide tierGuide.yaml \
+               --projectDirectory ./ \
+               --quiet \
+               --addFontSizeControls
+#               --startLine 121 \
+#               --endLine 126
+
+update-slexil-code:
+	cp -p ../slexil.* .
+
 
 publish:
 	scp index.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
@@ -36,7 +43,7 @@ open-local:
 	open index.html
 
 open:
-	open https://pshannon.net/tlingit-demos/$(PROJECT_NUMBER)
+	open https://pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/index.html
 
 mkdir:
 	ssh paulshannnon@pshannon.net mkdir public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)

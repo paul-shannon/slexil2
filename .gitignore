@@ -5,4 +5,6 @@
 dot-git-hidden/
 py3105/
 vpy363/
-slexil/__pycache__
+src/slexil/__pycache__
+*.pyc
+

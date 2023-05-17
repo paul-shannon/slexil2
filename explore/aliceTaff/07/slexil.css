@@ -7,10 +7,21 @@ body {
     overflow-y: scroll;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 20px;
     //width: 96%;
     height: 600px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    #border: 1px solid gray;
+    #border-radius: 10px;
+    outline-color: gray;
+    outline-style: solid;
+    outline-offset: 3px;
+	outline-width: 1px;
+
+}
+
+.sliderControlDiv{
+	margin: 10px;
+	margin-left: 100px;
 }
 
 #infoDiv{
@@ -25,6 +36,17 @@ body {
 #mediaPlayerDiv{
 	margin-top: 10px;
 	margin-left: 100px;
+}
+
+#playbackSpeedReadout{
+	width: 35px;
+	height: 24px;
+    padding-left: 5px;
+    //padding-bottom: 10px;
+    margin: 5px;
+	border: 1px solid green;
+	font-size: 14px;
+    display: inline-block;
 }
 
 #h3Title{
@@ -56,15 +78,19 @@ body {
   //border: 1px solid red;
   margin: 0px;
   margin-bottom: 2px;
-  overflow-x: auto;
-  white-space: nowrap;
+  overflow-wrap: word-wrap;
+  //padding-left: 30px;
+  //overflow-x: auto;
+  //white-space: nowrap;
   }
 
 
 .line {
-  display: grid;
+  //display: grid;
   background-color: transparent;
+  font-weight: bold;
   //border: 1px solid gray;
+  padding-left: 20px;
   padding: 0px;
   margin-top:  0px;
   margin-bottom:  10px;
@@ -72,14 +98,14 @@ body {
 
 .speech-tier{
   background-color: transparent;
-  grid-template-columns: auto;
+  grid-template-columns: none;
   //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   // font-size: 30px;
   text-align: left;
   vertical-align: bottom;
   margin-left: 5px;
-  word-spacing: 20px;
+  //word-spacing: 20px;
   }
 
 .freeTranslation-tier{
@@ -90,12 +116,12 @@ body {
   //font-size: 30px;
   text-align: left;
   margin-left: 5px;
-  word-spacing: 20px;
+  //word-spacing: 20px;
   }
 
 .secondTranscription-tier{
   //background-color: lightyellow;
-  grid-template-columns: auto;
+  //grid-template-columns: auto;
   //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   //font-size: 24px;
