@@ -1,20 +1,20 @@
 body, html {
     font-family: "New York Times-Roman";
     font-size: 22px;
-	height: 100%;
+   height: 100%;
 }
 
 #controlsDiv{
-	height: 30vh;
-	//border: 1px solid red;
+   height: 30vh;
+   //border: 1px solid red;
     overflow-y: scroll;
     }
-#textRowDiv{
-	//border: 1px solid red;
+#textAndAnnoDiv{
+   //border: 1px solid red;
     margin-top: 5px;
     margin-left: 5px;
-	margin-right: 5px;
-	height: 65vh;
+   margin-right: 5px;
+   height: 65vh;
 }
 #textDiv{
     overflow-y: scroll;
@@ -25,55 +25,56 @@ body, html {
     outline-color: gray;
     outline-style: solid;
     outline-offset: 0px;
-	outline-width: 1px;
+   outline-width: 1px;
 
 }
 
-#kbDiv{
-	display: none;
+#annoDiv{
+    display: none;
     overflow-y: scroll;
     outline-color: gray;
     outline-style: solid;
     outline-offset: 0px;
-	outline-width: 1px;
+    outline-width: 1px;
     //margin-left: 20px;
     margin-right: 0px;
     margin-top: 0px;
+    height: 65vh;
     }
 
 
 .sliderControlDiv{
-	margin: 10px;
-	margin-left: 100px;
+   margin: 10px;
+   margin-left: 100px;
 }
 
 #infoDiv{
     margin-top: 15px;
-	margin-left: 40px;
+   margin-left: 40px;
     font-size: 24px;
 }
 
 #mediaPlayer{
-	width: 400px;
-}	
+   width: 400px;
+}  
 #mediaPlayerDiv{
-	margin-top: 10px;
-	margin-left: 100px;
+   margin-top: 10px;
+   margin-left: 100px;
 }
 
 #playbackSpeedReadout{
-	width: 35px;
-	height: 24px;
+   width: 35px;
+   height: 24px;
     padding-left: 5px;
     //padding-bottom: 10px;
     margin: 5px;
-	border: 1px solid green;
-	font-size: 14px;
+   border: 1px solid green;
+   font-size: 14px;
     display: inline-block;
 }
 
 #h3Title{
-	display: inline-block;
+   display: inline-block;
     }
 
 .line-wrapper {
@@ -128,7 +129,7 @@ body, html {
   text-align: left;
   vertical-align: bottom;
   margin-left: 5px;
-  //word-spacing: 20px;
+  word-spacing: 20px;
   }
 
 .freeTranslation-tier{
@@ -186,9 +187,33 @@ body, html {
   text-align: left;
   }
 
+.focusedGrammaticalElement{
+    background-color: lightgray;
+    }
+
+#annoButtonsDiv{
+   margin-left: 80px;
+   margin-bottom: 10px;
+   }
+
 #toggleAnnotationsButton{
-	margin-top: 10px;
+   margin-top: 10px;
 }
+
+
+#linguisticTopicController{
+    margin-top: 10px;
+	 display: none;  // to start
+}
+
+#linguisticTopicSelectorLabel{
+	 margin: 20px;
+}
+
+.dropdown{
+ 	 display: inline-block;
+}
+
 
 button{
     background-color: white;
@@ -201,12 +226,12 @@ button{
 }
 
 sup {
-	vertical-align:text-top; 
-	font-size:75%; 
+   vertical-align:text-top; 
+   font-size:75%; 
 }
 sub {
-	vertical-align:text-middle; 
-	font-size:75%; 
+   vertical-align:text-middle; 
+   font-size:75%; 
 }
 
 .playerxx {
@@ -218,9 +243,9 @@ sub {
     border-left: 4px solid;
     border-right: 4px solid;
     z-index: 1;
-	position: fixed;
-	bottom: 0px;
-	left: -5px;
+   position: fixed;
+   bottom: 0px;
+   left: -5px;
 }
 
 .current-line {
@@ -230,16 +255,20 @@ sub {
         border-radius: 5px;
 }
 
+.mouseEntered{
+   background: lightgrey;
+}
+
 .audio-wrapper {
-	position: relative;
-	margin: 0 auto;
-	width: 100%;
+   position: relative;
+   margin: 0 auto;
+   width: 100%;
 }
 
 .audio-wrapper audio {
-	position: absolute;
-	top:4px;
-	left:0px;
+   position: absolute;
+   top:4px;
+   left:0px;
 }
 
 .spacer {

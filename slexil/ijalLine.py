@@ -284,7 +284,7 @@ class IjalLine:
         #   self.getAnnotationID(), audioDirectory, self.getAnnotationID(),audioFileType)
         #htmlDoc.asis(audioTag)
         onError = "this.style.display=\'none\'"
-        buttonTag = '<button onclick="playSample(\'%s\', %d, %d)">🔈</button>' % (self.getAnnotationID(), self.getStartTime(), self.getEndTime())
+        buttonTag = '<button onclick="playSample(%d, %d, %d)">🔈</button>' % (self.lineNumber+1, self.getStartTime(), self.getEndTime())
         htmlDoc.asis(buttonTag)
 
     # ----------------------------------------------------------------------------------------------------
@@ -293,7 +293,7 @@ class IjalLine:
         with htmlDoc.tag("div", klass="line-content", id=self.lineNumber+1):
             with htmlDoc.tag("div", klass="line"):
                 styleString = "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
-                with htmlDoc.tag("div", klass="speech-tier"):
+                with htmlDoc.tag("span", klass="speech-tier"):
                     htmlDoc.asis(self.getSpokenText())
 
             transcription2 = self.getTranscription2()

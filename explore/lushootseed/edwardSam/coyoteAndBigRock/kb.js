@@ -2351,24 +2351,22 @@ _remote_
 `,
 
 "gʷəl":
-` 
-#####gʷəl
-- and, but, or, then, next, as if, because.
-- Sentential adverb, conjunction; used especially to introduce sentences in long narratives.
-- can also mark topicalization, in effect treating the topic as an entire clause and using gʷəl
-  to introduce the following clause.
-- it is also used to topicalize - in effect treating the topic as an entire clause  and using gʷəl 
-  to introduce the following clause.  hess vol1 p122.  LD xix.
-- in Lushootseed, temporal expresssions may be and-fronted, kroeber p377, this line is given  as an example
-- Topicalization is a mechanism of syntax that establishes an expression as the sentence or clause
-  topic by having it appear at the front of the sentence or clause (as opposed to in a canonical
-  position further to the right). Topicalization often results in a discontinuity and is thus one
-  of a number of established discontinuity types (the other three being wh-fronting, scrambling,
-  and extraposition). Topicalization is also used as a constituency test; an expression that can
-  be topicalized is deemed a constituent. The topicalization of arguments in English is rare,
-  whereas circumstantial adjuncts are often topicalized. Most languages allow topicalization, and
-  in some languages, topicalization occurs much more frequently and/or in a much less marked
-  manner than in English.
+` - and, but, or, then, next, as if, because.
+  - Sentential adverb, conjunction; used especially to introduce sentences in long narratives.
+  - can also mark topicalization, in effect treating the topic as an entire clause and using gʷəl
+    to introduce the following clause.
+  - it is also used to topicalize - in effect treating the topic as an entire clause  and using gʷəl 
+    to introduce the following clause.  hess vol1 p122.  LD xix.
+  - in Lushootseed, temporal expresssions may be and-fronted, kroeber p377, this line is given  as an example
+  - Topicalization is a mechanism of syntax that establishes an expression as the sentence or clause
+    topic by having it appear at the front of the sentence or clause (as opposed to in a canonical
+    position further to the right). Topicalization often results in a discontinuity and is thus one
+    of a number of established discontinuity types (the other three being wh-fronting, scrambling,
+    and extraposition). Topicalization is also used as a constituency test; an expression that can
+    be topicalized is deemed a constituent. The topicalization of arguments in English is rare,
+    whereas circumstantial adjuncts are often topicalized. Most languages allow topicalization, and
+    in some languages, topicalization occurs much more frequently and/or in a much less marked
+    manner than in English.
 
 `,
 
@@ -3173,7 +3171,7 @@ kbOld = {
      "<img src='siQab.jpg' width=400></img>",
     ],
 
-    "gʷəl":
+   "gʷəl":
         ["<b>gʷəl</b>: &nbsp; and, but, or, then, next, as if, because.",
          "<br>",
          "Sentential adverb, conjunction; used especially to introduce sentences in long narratives.",
