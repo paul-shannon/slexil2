@@ -1,17 +1,9 @@
-NAME = coyoteAndBigRock
+NAME = howDaylightWasStolen
 
 
 default:
 	@echo targets:
 	@echo   venv eaf http refresh-js html
-	@echo   tailor open-local
-	@echo   mkdir testdir 
-	@echo   publish open
-
-
-old.default:
-	@echo targets:
-	@echo   venv eaf http update-slexil-code html
 	@echo   tailor open-local
 	@echo   mkdir testdir 
 	@echo   publish open
@@ -27,23 +19,6 @@ http:
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
 
-old.html: 
-	python ~/github/slexil2/utils/eaf2html.py \
-               --eaf $(NAME).eaf \
-               --terms grammaticalTerms.txt \
-               --tierGuide tierGuide.yaml \
-               --projectDirectory ./ \
-               --quiet \
-               --addFontSizeControls
-#               --startLine 121 \
-#               --endLine 126
-
-refresh-js:
-	cp -p ../../*.js .
-	cp -p ../../slexil.css .
-
-
-
 html: 
 	python ~/github/slexil2/utils/eaf2html.py \
                --eaf $(NAME).eaf \
@@ -57,12 +32,13 @@ html:
 #               --startLine 121 \
 #               --endLine 126
 
-
 tailor:
 	sed -f insertCustomCode.sed index.html  > index0.html
 
-#update-slexil-code:
-#	cp -p ~/github/slexil2/explore/lushootseed/slexil.* .
+refresh-js:
+	cp -p ../../*.js .
+	cp -p ../../slexil.css .
+
 
 
 publish:

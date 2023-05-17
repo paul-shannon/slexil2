@@ -1,5 +1,4 @@
-NAME = coyoteAndBigRock
-
+NAME = 103-sirena_Slexil
 
 default:
 	@echo targets:
@@ -30,7 +29,7 @@ eaf:
 old.html: 
 	python ~/github/slexil2/utils/eaf2html.py \
                --eaf $(NAME).eaf \
-               --terms grammaticalTerms.txt \
+               --terms GlosesSLEXIL.txt \
                --tierGuide tierGuide.yaml \
                --projectDirectory ./ \
                --quiet \
@@ -47,12 +46,12 @@ refresh-js:
 html: 
 	python ~/github/slexil2/utils/eaf2html.py \
                --eaf $(NAME).eaf \
-               --terms grammaticalTerms.txt \
+               --terms GlosesSLEXIL.txt \
                --tierGuide tierGuide.yaml \
                --projectDirectory ./ \
-               --addFontSizeControls \
-               --kb kb.js \
-               --linguistics linguistics.js
+               --addFontSizeControls
+#               --kb kb.js \
+#               --linguistics linguistics.js
 #               --verbose 
 #               --startLine 121 \
 #               --endLine 126

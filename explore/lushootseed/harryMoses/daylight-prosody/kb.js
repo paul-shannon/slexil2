@@ -2,21 +2,6 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
-
-"ʔuʔuxʷ tiʔəʔ sbiaw":
-`
-[<small>**Rh**</small>_ʔuʔuxʷ_] [<small>**Th**</small> _tiʔəʔ sbiaw"_]
-`,
-	 
-"tiʔəʔ sbiaw":
-`
-[<small>**Rh**</small> _tiʔəʔ_] [<small>**Th**</small> _sbiaw"_]
-
-contrast this with  [<small>**Rh**</small> _sʔuladxʷ_] [<small>**Th**</small>_tiʔəʔ]
-
- (need reference, a Thom Hess example seen somewhere)
-
-`,
 	 
 "ʔiišəd–s":	
 `
@@ -33,21 +18,8 @@ contrast this with  [<small>**Rh**</small> _sʔuladxʷ_] [<small>**Th**</small>_
 
 "sbiaw":
 `
-######s√biaw
-- coyote
-- LD39 (from XML)
-- orth    s√biáw 
-- categor:    ns 
-- shape:    CVVC 
-- bibl Hess:    35.6
-- gloss zoo:    *coyote 
-- example
-     - gʷa bəs√biaw tiʔəʔ ləcu(t)-cut. 
-     - But it was Coyote who was talking. 
-- subc  tra 
-     - w:    biáw-cut 
-     - gloss eth: act smart; person who pretends first to know and then pretends that he doesn't know 
-     - ref compare: yəwáʔq 
+s√biaw
+coyote.  LD39
 `,
 	
 
@@ -2351,24 +2323,22 @@ _remote_
 `,
 
 "gʷəl":
-` 
-#####gʷəl
-- and, but, or, then, next, as if, because.
-- Sentential adverb, conjunction; used especially to introduce sentences in long narratives.
-- can also mark topicalization, in effect treating the topic as an entire clause and using gʷəl
-  to introduce the following clause.
-- it is also used to topicalize - in effect treating the topic as an entire clause  and using gʷəl 
-  to introduce the following clause.  hess vol1 p122.  LD xix.
-- in Lushootseed, temporal expresssions may be and-fronted, kroeber p377, this line is given  as an example
-- Topicalization is a mechanism of syntax that establishes an expression as the sentence or clause
-  topic by having it appear at the front of the sentence or clause (as opposed to in a canonical
-  position further to the right). Topicalization often results in a discontinuity and is thus one
-  of a number of established discontinuity types (the other three being wh-fronting, scrambling,
-  and extraposition). Topicalization is also used as a constituency test; an expression that can
-  be topicalized is deemed a constituent. The topicalization of arguments in English is rare,
-  whereas circumstantial adjuncts are often topicalized. Most languages allow topicalization, and
-  in some languages, topicalization occurs much more frequently and/or in a much less marked
-  manner than in English.
+` - and, but, or, then, next, as if, because.
+  - Sentential adverb, conjunction; used especially to introduce sentences in long narratives.
+  - can also mark topicalization, in effect treating the topic as an entire clause and using gʷəl
+    to introduce the following clause.
+  - it is also used to topicalize - in effect treating the topic as an entire clause  and using gʷəl 
+    to introduce the following clause.  hess vol1 p122.  LD xix.
+  - in Lushootseed, temporal expresssions may be and-fronted, kroeber p377, this line is given  as an example
+  - Topicalization is a mechanism of syntax that establishes an expression as the sentence or clause
+    topic by having it appear at the front of the sentence or clause (as opposed to in a canonical
+    position further to the right). Topicalization often results in a discontinuity and is thus one
+    of a number of established discontinuity types (the other three being wh-fronting, scrambling,
+    and extraposition). Topicalization is also used as a constituency test; an expression that can
+    be topicalized is deemed a constituent. The topicalization of arguments in English is rare,
+    whereas circumstantial adjuncts are often topicalized. Most languages allow topicalization, and
+    in some languages, topicalization occurs much more frequently and/or in a much less marked
+    manner than in English.
 
 `,
 
@@ -2616,8 +2586,7 @@ lexical category functioning as predicate or complement.
 
 "tiʔəʔ":
 `
-#####tiʔəʔ
-  - _this_
+_this_
   - unmarked pronomial demonstrative  (maybe actually adnomial?)
   - Demonstratives are commonly divided into pronominal demonstratives, which substitute for a noun (phrase),
     and adnominal demonstratives, which accompany a coreferential noun. In English, pronominal and adnominal
@@ -3173,7 +3142,7 @@ kbOld = {
      "<img src='siQab.jpg' width=400></img>",
     ],
 
-    "gʷəl":
+   "gʷəl":
         ["<b>gʷəl</b>: &nbsp; and, but, or, then, next, as if, because.",
          "<br>",
          "Sentential adverb, conjunction; used especially to introduce sentences in long narratives.",
