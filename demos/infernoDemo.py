@@ -22,6 +22,7 @@ text = Text(elanXmlFilename,
 			kbFilename = kbFilename,
 			linguisticsFilename = linguisticsFilename)
 
+
 htmlText = text.toHTML() 
 filename = "inferno.html"
 f = open(filename, "w")
