@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.ualberta.ca" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="FieldBook">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" name="Lex">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element maxOccurs="1" minOccurs="1" name="Orth" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="POS" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="IPA" type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Grm">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="Prefix" use="optional"/>
+                                            <xsd:attribute name="MediaRef" type="xsd:IDREF"
+                                                use="optional"/>
+                                            <xsd:attribute name="Variant" use="optional"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="C2">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="MediaRef" type="xsd:IDREF"
+                                                use="optional"/>
+                                            <xsd:attribute name="Variant" use="optional"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Cf">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="CrossRef" type="xsd:IDREF"
+                                                use="optional"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Reg" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Dia">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element maxOccurs="unbounded" minOccurs="0"
+                                            name="Alternative">
+                                            <xsd:complexType>
+                                                <xsd:simpleContent>
+                                                  <xsd:extension base="xsd:string">
+                                                  <xsd:attribute name="CrossRef" type="xsd:IDREF"
+                                                  use="optional"/>
+                                                  <xsd:attribute name="Variant" type="xsd:string"/>
+                                                  </xsd:extension>
+                                                </xsd:simpleContent>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="Dialect" use="required"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Brrw">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="Source" type="xsd:string"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="PhKy" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Lit" type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="1" name="Def">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element maxOccurs="1" minOccurs="0" name="POS"
+                                            type="xsd:string"/>
+                                        <xsd:element maxOccurs="1" minOccurs="0" name="Reg"
+                                            type="xsd:string"/>
+                                        <xsd:element maxOccurs="1" minOccurs="0" name="Dia">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element maxOccurs="unbounded" minOccurs="0"
+                                                  name="Alternative">
+                                                  <xsd:complexType>
+                                                  <xsd:simpleContent>
+                                                  <xsd:extension base="xsd:string">
+                                                  <xsd:attribute name="CrossRef" type="xsd:IDREF"
+                                                  use="optional"/>
+                                                  <xsd:attribute name="Variant" type="xsd:string"/>
+                                                  </xsd:extension>
+                                                  </xsd:simpleContent>
+                                                  </xsd:complexType>
+                                                  </xsd:element>
+                                                </xsd:sequence>
+                                                <xsd:attribute name="Dialect" use="required"/>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element maxOccurs="1" minOccurs="1" name="L1"
+                                            type="xsd:string"/>
+                                        <xsd:element maxOccurs="1" minOccurs="0" name="L2"
+                                            type="xsd:string"/>
+                                        <xsd:element maxOccurs="1" minOccurs="0" name="Cxt"
+                                            type="xsd:string"/>
+                                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="Ln">
+                                            <xsd:complexType>
+                                                <xsd:simpleContent>
+                                                  <xsd:extension base="xsd:string">
+                                                  <xsd:attribute name="LnRef" type="xsd:IDREF"
+                                                  use="required"/>
+                                                  </xsd:extension>
+                                                </xsd:simpleContent>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="Index" type="xsd:integer" use="required"/>
+                                    <xsd:attribute name="L1Index" type="xsd:integer" use="optional"/>
+                                    <xsd:attribute name="L2Index" type="xsd:integer" use="optional"
+                                    />
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Drvn">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="LexIDREF" type="xsd:IDREF"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Root">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="LexIDREF" type="xsd:IDREF"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Comments"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Sound">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="MediaRef" type="xsd:IDREF"
+                                                use="required"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="LexID" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="Date" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Update" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Spkr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Rschr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Kywd" type="xsd:string"/>
+                        <xsd:attribute name="L1Index" type="xsd:string"/>
+                        <xsd:attribute name="L2Index" type="xsd:string"/>
+                        <xsd:attribute name="Confirmed" type="xsd:string"/>
+                        <xsd:attribute name="Sort" type="xsd:string"/>
+                        <xsd:attribute name="Hom" type="xsd:string"/>
+                        <xsd:attribute name="Done" type="xsd:boolean"/>
+                    </xsd:complexType>
+                    <xsd:unique name="Lex">
+                        <xsd:selector xpath="Lex"/>
+                        <xsd:field xpath="@LexID"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" name="Text">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Title" type="xsd:string"/>
+                            <xsd:element minOccurs="0" maxOccurs="unbounded" name="Ln">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="LnRef" type="xsd:IDREF"
+                                                use="optional"/>
+                                            <xsd:attribute name="SpokenBy" type="xsd:string"
+                                                use="optional"/>
+                                            <xsd:attribute name="Time" type="xsd:string"
+                                                use="optional"/>
+                                            <xsd:attribute name="EndTime" type="xsd:string"
+                                                use="optional"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Comments"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Sound">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="MediaRef" type="xsd:IDREF"
+                                                use="required"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="TextID" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="Date" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Update" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Spkr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Rschr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Kywd" type="xsd:string"/>
+                        <xsd:attribute name="Trns" type="xsd:string"/>
+                    </xsd:complexType>
+                    <xsd:unique name="Text">
+                        <xsd:selector xpath="Text"/>
+                        <xsd:field xpath="@TextID"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" name="Dset">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Title" type="xsd:string"/>
+                            <xsd:element name="Data" type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Ln">
+                                <xsd:complexType>
+                                    <xsd:attribute name="LnRef" type="xsd:IDREF" use="required"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Comments"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Sound">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="MediaRef" type="xsd:IDREF"
+                                                use="required"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="DsetID" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="Date" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Update" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Spkr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Rschr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Kywd" type="xsd:string" use="optional"/>
+                    </xsd:complexType>
+                    <xsd:unique name="Dset">
+                        <xsd:selector xpath="Dset"/>
+                        <xsd:field xpath="@DsetID"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" name="Ex">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element maxOccurs="1" minOccurs="1" name="Line" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="1" name="Mrph" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="1" name="ILEG" type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Synt">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="Tier" type="xsd:string"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element maxOccurs="1" minOccurs="1" name="L1Gloss"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="L2Gloss"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Comments"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Sound">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="MediaRef" type="xsd:IDREF"
+                                                use="required"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="ExID" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="Date" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Update" type="xsd:date" use="required"/>
+                        <xsd:attribute name="Spkr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Rschr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Kywd" type="xsd:string" use="optional"/>
+                        <xsd:attribute name="SourceText" type="xsd:string" use="optional"/>
+                        <xsd:attribute name="Links" type="xsd:string" use="optional"/>
+                    </xsd:complexType>
+                    <xsd:unique name="Ex">
+                        <xsd:selector xpath="Ex"/>
+                        <xsd:field xpath="@ExID"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" minOccurs="1" name="Speaker">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Name" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Birthdate"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Place" type="xsd:string"/>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Info" type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="SCode" type="xsd:ID" use="required"/>
+                    </xsd:complexType>
+                    <xsd:unique name="Speaker">
+                        <xsd:selector xpath="Speaker"/>
+                        <xsd:field xpath="@SCode"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" minOccurs="1" name="Rschr">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Name"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Affiliation"
+                                type="xsd:string"/>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Info"
+                                type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="Pwd" type="xsd:string"/>
+                        <xsd:attribute name="RCode" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="Level" type="xsd:string" use="optional"/>
+                        <xsd:attribute name="lastLex" type="xsd:IDREF"/>
+                        <xsd:attribute name="lastEG" type="xsd:IDREF"/>
+                        <xsd:attribute name="lastDset" type="xsd:IDREF"/>
+                        <xsd:attribute name="lastText" type="xsd:IDREF"/>
+                    </xsd:complexType>
+                    <xsd:unique name="User">
+                        <xsd:selector xpath="User"/>
+                        <xsd:field xpath="RCode"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element name="Abbreviations">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Abbr">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="Abv" type="xsd:string"/>
+                                            <xsd:attribute name="Term" type="xsd:string"/>
+                                            <xsd:attribute name="Form" type="xsd:string"/>
+                                            <xsd:attribute name="ACode" type="xsd:ID"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                                <xsd:unique name="Abbr">
+                                    <xsd:selector xpath="Abbr"/>
+                                    <xsd:field xpath="@ACode"/>
+                                </xsd:unique>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" minOccurs="0" name="Media">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element maxOccurs="1" minOccurs="0" name="Comments"
+                                type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="MedID" type="xsd:ID" use="required"/>
+                        <xsd:attribute name="Date" type="xsd:date"/>
+                        <xsd:attribute name="Spkr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Rschr" type="xsd:IDREF"/>
+                        <xsd:attribute name="Catalog" type="xsd:string"/>
+                        <xsd:attribute name="Filename" type="xsd:string" use="required"/>
+                        <xsd:attribute name="FileType" type="xsd:string"/>
+                        <xsd:attribute name="Apparatus" type="xsd:string"/>
+                        <xsd:attribute name="Place" type="xsd:string"/>
+                    </xsd:complexType>
+                    <xsd:unique name="Media">
+                        <xsd:selector xpath="Media"/>
+                        <xsd:field xpath="@MedID"/>
+                    </xsd:unique>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" minOccurs="0" name="Orthography">
+                    <xsd:complexType>
+                        <xsd:simpleContent>
+                            <xsd:extension base="xsd:string">
+                                <xsd:attribute name="Name" type="xsd:string" use="required"/>
+                                <xsd:attribute name="Diacrits" type="xsd:string" use="optional"/>
+                            </xsd:extension>
+                        </xsd:simpleContent>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element maxOccurs="unbounded" minOccurs="0" name="SortKey">
+                    <xsd:complexType>
+                        <xsd:simpleContent>
+                            <xsd:extension base="xsd:string">
+                                <xsd:attribute name="SName" type="xsd:string" use="required"/>
+                            </xsd:extension>
+                        </xsd:simpleContent>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="Dbase" type="xsd:string" use="required"/>
+            <xsd:attribute name="Language" type="xsd:string" use="required"/>
+            <xsd:attribute name="Family" type="xsd:string" use="optional"/>
+            <xsd:attribute name="Population" type="xsd:string" use="optional"/>
+            <xsd:attribute name="Location" type="xsd:string" use="optional"/>
+            <xsd:attribute name="ISO" type="xsd:string" use="optional"/>
+            <xsd:attribute name="Font" type="xsd:anyURI" use="optional"/>
+            <xsd:attribute name="L1Choice" type="xsd:language" use="required"/>
+            <xsd:attribute name="L2Choice" type="xsd:language" use="optional"/>
+            <xsd:attribute name="LastCard" type="xsd:IDREF" use="required"/>
+            <xsd:attribute name="LastLex" type="xsd:IDREF" use="required"/>
+            <xsd:attribute name="LastEx" type="xsd:IDREF" use="required"/>
+            <xsd:attribute name="LastText" type="xsd:IDREF" use="required"/>
+            <xsd:attribute name="LastDset" type="xsd:IDREF" use="required"/>
+            <xsd:attribute name="LastSpeaker" type="xsd:IDREF" use="optional"/>
+            <xsd:attribute name="LastRschr" type="xsd:IDREF" use="optional"/>
+            <xsd:attribute name="DefaultSpeaker" type="xsd:IDREF" use="optional"/>
+            <xsd:attribute name="DefaultRschr" type="xsd:IDREF" use="optional"/>
+            <xsd:attribute name="MediaFolder" type="xsd:string" use="optional"/>
+            <xsd:attribute name="lAuto" type="xsd:string" use="required"/>
+            <xsd:attribute name="eParse" type="xsd:string" use="required"/>
+            <xsd:attribute name="Orth" type="xsd:string" use="optional"/>
+            <xsd:attribute name="SortKey" type="xsd:string" use="optional"/>
+            <xsd:attribute name="Tiers" type="xsd:string" use="optional"/>
+            <xsd:attribute name="noText" type="xsd:string" use="optional"/>
+            <xsd:attribute name="noEG" type="xsd:string" use="optional"/>
+            <xsd:attribute name="noDefaultSort" type="xsd:string" use="optional"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
