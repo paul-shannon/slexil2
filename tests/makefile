@@ -1,5 +1,9 @@
 default:
-	@echo targets: test build
+	@echo targets: venv test install
+
+venv:
+	@echo source ~/github/slexilAsModuleAndPackage/pySlexil/bin/activate
+
 
 test:
 	python -m unittest test_htmlInserter.py
