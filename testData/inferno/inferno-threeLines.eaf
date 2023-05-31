@@ -6,8 +6,8 @@
 		     xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="../testData/inferno/inferno-threeLines.wav"
-            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="file://./inferno-threeLines.wav"/>
+            MEDIA_URL="https://pshannon.net/inferno/audio/inferno-threeLines.wav"
+            MIME_TYPE="audio/x-wav"/>
         <PROPERTY NAME="lastUsedAnnotationId">3</PROPERTY>
         <PROPERTY NAME="metadata:Title">From Dante's Inferno Canto 1</PROPERTY>
         <PROPERTY NAME="metadata:Narrator">Roberto Benigni</PROPERTY>
