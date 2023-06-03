@@ -236,6 +236,7 @@ class IjalLine:
         glosses = self.getMorphemeGlosses()
 
         if (len(morphemes) > len(glosses)):
+            pdb.set_trace()			
             logging.warning("EAF error: There are more morphs (%d) than glosses (%d) in line %s." % (
                 len(morphemes), len(glosses), int(self.lineNumber) + 1))
             theDifference = len(morphemes) - len(glosses)

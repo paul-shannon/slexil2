@@ -3,6 +3,7 @@
 *.m4v
 *.eaf
 dot-git-hidden/
+explore/
 py3105/
 vpy363/
 src/slexil/__pycache__

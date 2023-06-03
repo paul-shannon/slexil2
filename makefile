@@ -2,7 +2,7 @@ default:
 	@echo targets: venv install install-via-setup check test gitpip
 
 venv:
-	@echo run: source ~/github/slexilAsModuleAndPackage/pySlexil/bin/activate
+	@echo source ~/github/slexil2/py3105/bin/activate
 
 install:
 	pip install . --upgrade

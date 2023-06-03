@@ -3,7 +3,7 @@
 		     DATE="2009-06-10T21:33:58+01:00" FORMAT="2.8"
 		     VERSION="2.8"
 		     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		     xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+			  xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
             MEDIA_URL="https://pshannon.net/inferno/audio/inferno-threeLines.wav"
@@ -37,7 +37,7 @@
         </ANNOTATION>
 
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="phonemic" PARENT_REF="italianSpeech" TIER_ID="morphemes">
+    <TIER LINGUISTIC_TYPE_REF="morpheme" PARENT_REF="italianSpeech" TIER_ID="morphemes">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>en=il	mezz–o	de=il	cammin–Ø	di	nostr–a	vit–a</ANNOTATION_VALUE>
@@ -58,7 +58,7 @@
 
     </TIER>
 
-    <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="translation" PARENT_REF="italianSpeech" TIER_ID="morphemeGloss">
+    <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="morpheme-gloss" PARENT_REF="italianSpeech" TIER_ID="morphemeGloss">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a5">
                 <ANNOTATION_VALUE>in=DEF:MASC:SG	middle-MASC:SG	of=DEF:MASC:SG	journey–MASC:SG	of	our-FEM:SG	life-FEM</ANNOTATION_VALUE>
@@ -102,7 +102,8 @@
      </TIER>
 
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
-    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonemic" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="morpheme" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="morpheme-gloss" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
     <LOCALE LANGUAGE_CODE="tr" VARIANT="Standard"/>
     <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>

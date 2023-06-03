@@ -1,6 +1,6 @@
 import re
 import sys
-sys.path.append("/Users/paul/github/slexil2/slexil")
+sys.path.append("/Users/paul/github/slexil2/src/slexil")
 from text import *
 import importlib
 import os
