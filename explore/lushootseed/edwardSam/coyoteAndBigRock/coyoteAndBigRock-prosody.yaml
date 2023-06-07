@@ -1,0 +1,49 @@
+title: Coyote and Big Rock 
+narrator: Edward Hagan Sam
+textEntry: Paul Shannon
+mediaFile: coyoteAndBigRock-1-5.wav
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    startTime: 1623
+    endTime: 2600
+    lushootseed: tiʔəʔ sbiaw
+    morphemes: [tiʔəʔ, sbiaw]
+    morphemeGloss: [PROX, coyote]
+    english: Coyote.
+
+  - lineNumber: 2
+    startTime: 4430
+    endTime: 5873
+    lushootseed: ʔuʔuxʷ tiʔəʔ sbiaw
+    morphemes: [ʔu-ʔuxʷ,tiʔəʔ,sbiaw]
+    morphemeGloss: [PFV-go, PROX, coyote]
+    english: Coyote goes.
+
+  - lineNumber: 3
+    startTime: 5703
+    endTime: 7600
+    lushootseed: gʷəl ʔey'dxʷ tiʔiɬ ʔiišəds
+    morphemes: [gʷəl,ʔey'-dxʷ, tiʔiɬ,ʔiišəd-s]
+    morphemeGloss: [SCONJ, find-DC, DIST, relatives-3PO]
+    english: And he finds his friends.
+
+  - lineNumber: 4
+    startTime: 4633
+    endTime: 8350
+    lushootseed: ʔuʔuxʷ tiʔəʔ sbiaw gʷəl ʔey'dxʷ tiʔiɬ ʔiišəds
+    morphemes: [ʔu-ʔuxʷ,tiʔəʔ,sbiaw,gʷəl,ʔey'-dxʷ, tiʔiɬ,ʔiišəd-s]
+    morphemeGloss: [PFV-go, PROX, coyote,SCONJ, find-DC, DIST, relatives-3PO]
+    english: Coyote goes and he finds his friends.
+
+  - lineNumber: 5
+    startTime: 9000
+    endTime: 15000
+    lushootseed: ʔušudxʷ tiʔiɬ səsq'ʷuʔ ʔə tiʔiɬ ʔiišəds ʔal tiʔəʔ hikʷ č'ƛ'aʔ
+    morphemes: [ʔu-šuɬ-dxʷ,tiʔiɬ,s=ʔas-q'ʷuʔ,ʔə,tiʔiɬ,ʔiišəd-s,ʔal,tiʔəʔ,hikʷ,č'ƛ'aʔ]
+    morphemeGloss: [PFV-see-DC,DIST,NM=STAT-gathered,PR,DIST,relatives-3PO,at,PROX,big,stone]
+    english: He sees his friends gathered by a big rock.
+
+
+
