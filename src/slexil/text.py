@@ -362,7 +362,7 @@ class Text:
 						htmlDoc.asis("")
 
 				with htmlDoc.tag("div", klass="spacer"):
-					htmlDoc.asis('')et
+					htmlDoc.asis('')
 				htmlDoc.asis(htmlInserter.getSlexiljs())
 
 				if(self.kbFilename != None):
