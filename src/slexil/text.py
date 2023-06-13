@@ -20,7 +20,6 @@ Information about the software can be obtained by contacting
 david.beck at ualberta.ca.
 ******************************************************************
 '''
-
 # text.py: a class to represent a complete IJAL interlinear text, and to
 # transform its
 # represention in ELAN xml (eaf) format, accompanied by audio, into html
@@ -34,7 +33,7 @@ from ijalLine import *
 from htmlInserter import HtmlInserter
 pd.set_option('display.width', 1000)
 import pdb
-import logging
+#import logging
 import identifyLines
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -91,8 +90,8 @@ class Text:
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		f = os.path.join(projectDirectory, "ERRORS.log")
-		logging.basicConfig(filename=f,format="%(levelname)s %(message)")
-		logging.getLogger().setLevel(logging.WARNING)
+		#logging.basicConfig(filename=f,format="%(levelname)s %(message)")
+		#logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
 
 	def extractMetadata(self):
@@ -363,7 +362,7 @@ class Text:
 						htmlDoc.asis("")
 
 				with htmlDoc.tag("div", klass="spacer"):
-					htmlDoc.asis('')
+					htmlDoc.asis('')et
 				htmlDoc.asis(htmlInserter.getSlexiljs())
 
 				if(self.kbFilename != None):
