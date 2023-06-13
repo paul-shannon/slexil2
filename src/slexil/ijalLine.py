@@ -74,7 +74,7 @@ class IjalLine:
         if 'speech' in self.categories:
             self.speechRow = self.categories.index("speech")
         else:
-            logging.warning("EAF error: Line %s has nothing in the transcription line." % (int(self.lineNumber) + 1))
+            logging.warning("EAF error - Line %s has nothing in the transcription line." % (int(self.lineNumber) + 1))
             self.speechRow = None
         if 'translation' in self.categories:
             self.translationRow = self.categories.index("translation")
@@ -234,17 +234,15 @@ class IjalLine:
         """
         morphemes = self.getMorphemes()
         glosses = self.getMorphemeGlosses()
-
         if (len(morphemes) > len(glosses)):
-            pdb.set_trace()			
-            logging.warning("EAF error: There are more morphs (%d) than glosses (%d) in line %s." % (
-                len(morphemes), len(glosses), int(self.lineNumber) + 1))
+            logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
+            print(self.getSpokenText())
             theDifference = len(morphemes) - len(glosses)
             for i in range(0, theDifference):
                 glosses.append("⚠️")
         elif (len(morphemes) < len(glosses)):
-            logging.warning("EAF error: There are more glosses (%d) than morphs (%d) in line %s." % (
-                len(glosses), len(morphemes), int(self.lineNumber) + 1))
+            logging.warning("EAF error - There are more glosses (%d) than morphs (%d) in line %s." % (len(glosses), len(morphemes), int(self.lineNumber) + 1))
+            print(self.getSpokenText())
             theDifference = len(glosses) - len(morphemes)
             for i in range(0, theDifference):
                 morphemes.append("⚠️")
