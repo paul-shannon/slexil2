@@ -21,7 +21,7 @@ build:
 	docker build -t pshannon/slexil2 .
 
 runDocker:
-	docker run -d --name slexil2Container -p 9004:80 pshannon/slexil2
+	docker run -d --name slexil2Container -p 10004:8008 pshannon/slexil2
 
 viewDocker:
 	open http://localhost:9004

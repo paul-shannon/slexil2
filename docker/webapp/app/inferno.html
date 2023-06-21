@@ -1,0 +1,353 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+  crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+	body, html {
+	font-family: "New York Times-Roman";
+	font-size: 22px;
+	height: 100%;
+	}
+
+#controlsDiv{
+	height: 30vh;
+	overflow-y: scroll;
+	}
+
+#textAndAnnoDiv{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 65vh;
+	}
+#textDiv{
+	overflow-y: scroll;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 65vh;
+	outline-color: gray;
+	outline-style: solid;
+	outline-offset: 0px;
+	outline-width: 1px;
+
+}
+
+#annoDiv{
+	display: none;
+	overflow-y: scroll;
+	outline-color: gray;
+	outline-style: solid;
+	outline-offset: 0px;
+	outline-width: 1px;
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 65vh;
+	}
+
+
+.sliderControlDiv{
+	margin: 10px;
+	margin-left: 100px;
+}
+
+#infoDiv{
+	margin-top: 15px;
+	margin-left: 40px;
+	font-size: 24px;
+	}
+
+	#mediaPlayer{
+	width: 400px;
+	}
+#mediaPlayerDiv{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+#playbackSpeedReadout{
+	width: 35px;
+	height: 24px;
+	padding-left: 5px;
+	margin: 5px;
+	border: 1px solid green;
+	font-size: 14px;
+	display: inline-block;
+}
+
+#h3Title{
+	display: inline-block;
+	}
+
+.line-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 20fr;
+	margin: 20px;
+	background: white;
+}
+
+.line-sidebar{
+	background: white;
+	padding: 10px;
+	padding-top: 4px;
+	width: 40px;
+	margin-top: 0px;
+	margin-right: 10px;
+	font-size: 24px;
+	}
+	
+	.line-content{
+	height: 100%;
+	margin: 0px;
+	margin-bottom: 2px;
+	overflow-wrap: word-wrap;
+	}
+	
+	
+	.line {
+	background-color: transparent;
+	font-weight: bold;
+	padding-left: 20px;
+	padding: 0px;
+	margin-top:  0px;
+	margin-bottom:  10px;
+	}
+	
+	.speech-tier{
+	background-color: transparent;
+	grid-template-columns: none;
+	padding: 0px;
+	text-align: left;
+	vertical-align: bottom;
+	margin-left: 5px;
+	word-spacing: 20px;
+	}
+	
+	.freeTranslation-tier{
+	grid-template-columns: auto;
+	padding: 0px;
+	text-align: left;
+	margin-left: 5px;
+	}
+	
+	.secondTranscription-tier{
+	padding: 0px;
+	text-align: left;
+	margin-left: 5px;
+	word-spacing: 20px;
+	}
+	
+	.gloss-tier{
+	background-color: transparent;
+	grid-template-columns: auto;
+	padding: 10px;
+	text-align: left;
+	margin-left: 30px;
+	word-spacing: 20px;
+	}
+	
+	.morpheme-tier {
+	display: grid;
+	border: 0px solid rgba(0, 0, 0, 0.8);
+	grid-template-columns: 4ch 5ch 5ch 4ch 5ch 12ch 7ch 5ch 16ch;
+	grid-column-gap: 2%;
+	margin: 5px;
+	width: 95%;
+	justify-content: flex-start;
+	overflow-wrap: word-wrap;
+	}
+	
+	.morpheme-cell {
+	margin-bottom: 2px;
+	padding: 3px;
+	text-align: left;
+	}
+	
+	.focusedGrammaticalElement{
+	background-color: lightgray;
+	}
+	
+	#annoButtonsDiv{
+	margin-left: 80px;
+	margin-bottom: 10px;
+	}
+	
+	#toggleAnnotationsButton{
+	margin-top: 10px;
+	}
+	
+	
+	#linguisticTopicController{
+	margin-top: 10px;
+	}
+	
+	#linguisticTopicSelectorLabel{
+	margin: 20px;
+	}
+	
+	.dropdown{
+	display: inline-block;
+	}
+	
+	
+	button{
+	background-color: white;
+	border: 0px;
+	}
+	
+	.grammatical-term {
+	font-variant: small-caps;
+	color: blue;
+	}
+	
+	sup {
+	vertical-align:text-top; 
+	font-size:75%; 
+	}
+	sub {
+	vertical-align:text-middle; 
+	font-size:75%; 
+	}
+	
+	.playerxx {
+	width: 100%;
+	height: 22px;
+	background: #0101DF;
+	border-bottom: 4px solid;
+	border-top: 4px solid;
+	border-left: 4px solid;
+	border-right: 4px solid;
+	z-index: 1;
+	position: fixed;
+	bottom: 0px;
+	left: -5px;
+	}
+	
+	.current-line {
+	background: #B6E8FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	}
+	
+	.mouseEntered{
+	background: lightgrey;
+	}
+	
+	.audio-wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	}
+	
+	.audio-wrapper audio {
+	position: absolute;
+	top:4px;
+	left:0px;
+	}
+
+.spacer {
+	height: 32px;
+	}
+</style><!-- headCustomizationHook --></head><body><div id="infoDiv"><div id="titleRow" class="row"><div class="col-md-10 col-12"><h3 id="h3Title">From Dante's Inferno Canto 1</h3></div><div class="col-md-2 col-12"><button data-bs-toggle="modal" data-bs-target="#aboutModalDialog" class="btn btn-primary">About</button></div></div><div tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true" class="modal fade" id="aboutModalDialog"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-body"><h1>Title:</h1>From Dante's Inferno Canto 1<h1>Narrator:</h1>Roberto Benigni<h1>Context:</h1>A minimal audio-only slexil example</div></div></div></div></div><!-- bodyTopCustomizationHook --><div id="mediaPlayerDiv"><audio class="player" id="mediaPlayer" src="https://pshannon.net/inferno/audio/inferno-threeLines.wav" controls></audio></div><div id="textAndAnnoDiv" class="row"><div id="textLeftColumn" class="col-12"><div id="textDiv"><div class="line-wrapper" id="1"><div class="line-sidebar">1) <button onclick="playSample(1, 0, 3093)">🔈</button><!-- sidebarHookLine_1 --></div><div class="line-content" id="1"><div class="line"><span class="speech-tier">Nel mezzo del cammin di nostra vita</span></div><div class="morpheme-tier" style="grid-template-columns: 15ch 15ch 15ch 16ch 3ch 11ch 9ch ;"><div class="morpheme-cell">en=il</div><div class="morpheme-cell">mezz–o</div><div class="morpheme-cell">de=il</div><div class="morpheme-cell">cammin–Ø</div><div class="morpheme-cell">di</div><div class="morpheme-cell">nostr–a</div><div class="morpheme-cell">vit–a</div></div><div class="morpheme-tier" style="grid-template-columns: 15ch 15ch 15ch 16ch 3ch 11ch 9ch ;"><div class="morpheme-cell"><div class="morpheme-gloss">in=<span class="grammatical-term">def</span>:<span class="grammatical-term">masc</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">middle–<span class="grammatical-term">masc</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">of=<span class="grammatical-term">def</span>:<span class="grammatical-term">masc</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">journey–<span class="grammatical-term">masc</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">of</div></div><div class="morpheme-cell"><div class="morpheme-gloss">our–<span class="grammatical-term">fem</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">life–<span class="grammatical-term">fem</span></div></div></div><div class="freeTranslation-tier">Midway upon the journey of our life</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="2"><div class="line-sidebar">2) <button onclick="playSample(2, 3093, 5624)">🔈</button><!-- sidebarHookLine_2 --></div><div class="line-content" id="2"><div class="line"><span class="speech-tier">mi ritrovai per una selva oscura</span></div><div class="morpheme-tier" style="grid-template-columns: 6ch 25ch 4ch 13ch 11ch 12ch ;"><div class="morpheme-cell">mi</div><div class="morpheme-cell">ritrov–ai</div><div class="morpheme-cell">per</div><div class="morpheme-cell">una</div><div class="morpheme-cell">selv–a</div><div class="morpheme-cell">oscur–a</div></div><div class="morpheme-tier" style="grid-template-columns: 6ch 25ch 4ch 13ch 11ch 12ch ;"><div class="morpheme-cell"><div class="morpheme-gloss">I:<span class="grammatical-term">dat</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">found–<span class="grammatical-term">1sg</span>:<span class="grammatical-term">indef</span>:<span class="grammatical-term">rem</span>:<span class="grammatical-term">past</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">for</div></div><div class="morpheme-cell"><div class="morpheme-gloss"><span class="grammatical-term">indef</span>:<span class="grammatical-term">fem</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">forest–<span class="grammatical-term">fem</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">dark–<span class="grammatical-term">fem</span>:<span class="grammatical-term">sg</span></div></div></div><div class="freeTranslation-tier">I found myself within a forest dark,</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="3"><div class="line-sidebar">3) <button onclick="playSample(3, 5624, 8033)">🔈</button><!-- sidebarHookLine_3 --></div><div class="line-content" id="3"><div class="line"><span class="speech-tier">ché la diritta via era smarrita.</span></div><div class="morpheme-tier" style="grid-template-columns: 5ch 11ch 16ch 9ch 12ch 19ch ;"><div class="morpheme-cell">ché</div><div class="morpheme-cell">la</div><div class="morpheme-cell">diritt–a</div><div class="morpheme-cell">vi–a</div><div class="morpheme-cell">era</div><div class="morpheme-cell">smarr–it–a</div></div><div class="morpheme-tier" style="grid-template-columns: 5ch 11ch 16ch 9ch 12ch 19ch ;"><div class="morpheme-cell"><div class="morpheme-gloss">that</div></div><div class="morpheme-cell"><div class="morpheme-gloss"><span class="grammatical-term">def</span>:<span class="grammatical-term">fem</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">straight–<span class="grammatical-term">fem</span>:<span class="grammatical-term">sg</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">path–<span class="grammatical-term">fem</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">be:<span class="grammatical-term">3sg</span>:<span class="grammatical-term">impf</span></div></div><div class="morpheme-cell"><div class="morpheme-gloss">lose–<span class="grammatical-term">partic</span>–<span class="grammatical-term">fem</span>:<span class="grammatical-term">sg</span></div></div></div><div class="freeTranslation-tier">For the straightforward pathway had been lost.</div><div class="annotationDiv"></div></div></div></div></div><div id="annoDiv" class="col-4"></div></div><div class="spacer"></div><script>
+var mediaPlayer = document.getElementById("mediaPlayer");
+var mediaSegmentEnd;
+var mediaContinuousPlay = true;
+//--------------------------------------------------------------------------------
+mediaPlayer.addEventListener("timeupdate", function (){
+
+   tCurrent = Math.round(mediaPlayer.currentTime * 1000)
+   //console.log("timeupdate " + tCurrent + " continuous? " + mediaContinuousPlay)
+
+   for(lineTimes of timeStamps){
+      if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
+         var lineNumber = parseInt(lineTimes.id)
+         //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
+         scrollAndHighlight(lineNumber)
+         break;
+         }
+      } // for lineTimes
+
+   if (!mediaContinuousPlay && mediaSegmentEnd && mediaPlayer.currentTime >= mediaSegmentEnd){
+      mediaPlayer.pause();
+      mediaContinuousPlay=true;
+      }   
+
+})  // addEventListener timeupdate
+//--------------------------------------------------------------------------------
+function scrollAndHighlight(lineNumber){
+
+   // from here:
+   // https://stackoverflow.com/questions/27980084/scrolling-to-a-element-inside-a-scrollable-div-with-pure-javascript
+   var scrollingDivTop = document.getElementById("textDiv").offsetTop
+
+   //console.log("--- scrollAndHighlight to line " + lineNumber);
+   var lineDivTop = document.getElementById(lineNumber).offsetTop - scrollingDivTop;
+   lineDivTop -= 100;
+
+   var options = {top: lineDivTop, left: 0, behavior: "smooth"}
+   document.getElementById("textDiv").scrollTo(options)
+
+   //$(".line-wrapper").removeClass("current-line")
+   $(".line-content > .line").removeClass("current-line")
+   //qt = "#" + lineNumber + " .line-content"
+   qt = "#" + lineNumber + " .line"
+   $(qt).addClass("current-line")
+   //$('#' + lineNumber).addClass("current-line")
+
+}  // scrollAndHighlight
+//--------------------------------------------------------------------------------
+function playSample(mediaID, startTime, endTime)
+{
+    console.log("medium-agnostic playSample: " + mediaID + ", " +
+		startTime + ", " + endTime)
+    playMediaSegment(mediaID, startTime, endTime)
+
+} // playSample
+//--------------------------------------------------------------------------------
+function playMediaSegment(mediaID, startTime, endTime)
+{
+    mediaContinuousPlay = false;
+    startTime = startTime/1000;
+
+      // subtract half a second so playback does not run over
+      // this is dodgy, works only if the supplied intervals (stop and
+      // start times) have the expected padding.  which are the elan 
+      // user's choices
+    endTime = (endTime/1000) - 0.3  
+				    
+    console.log("medium-agnostic playMediaSegment: " + mediaID + ", " +
+				startTime + ", " + endTime)
+
+    mediaSegmentEnd = endTime;
+    mediaPlayer.currentTime = startTime
+    //debugger;
+    mediaPlayer.play();
+
+} // playMediaSegment
+//--------------------------------------------------------------------------------
+$('#fontSizeSlider').on('input', function() {
+    var v = $(this).val();
+    console.log(v)
+    $("#textDiv").css('font-size', (v * 22) + 'px')
+    $("#annoDiv").css('font-size', (v * 22) + 'px')
+    });
+
+$('#videoSizeSelector').on('input', function() {
+    var v = $(this).val();
+    console.log(v);
+    $("#mediaPlayer").width(v);
+    });
+
+$('#speedSelector').on('input', function() {
+    var v = $(this).val();
+    console.log(v)
+    mediaPlayer.playbackRate = v;
+	$("#playbackSpeedReadout").text(v);
+    });
+</script><script type="text/javascript">window.timeStamps=[{ 'id' : '1', 'start' : 0, 'end' : 3093},
+{ 'id' : '2', 'start' : 3093, 'end' : 5624},
+{ 'id' : '3', 'start' : 5624, 'end' : 8033},]</script>
+<!-- bodyBottomCustomizationHook --></body></html>

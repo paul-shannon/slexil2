@@ -2,7 +2,7 @@ default:
 	@echo targets: venv test install
 
 venv:
-	@echo source ~/github/slexilAsModuleAndPackage/pySlexil/bin/activate
+	@echo source ~/github/slexil2/py3105/bin/activate
 
 
 test:

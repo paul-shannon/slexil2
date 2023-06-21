@@ -39,7 +39,7 @@ $(function() {
 
   $("#toggleAnnotationsButton").click(function(){
      var annoDivVisible = $("#annoDiv").is(":visible")
-     //console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
+     console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
      if (annoDivVisible){
         console.log("hiding annoDiv");
         showAnno = false;

@@ -404,19 +404,22 @@ mediaPlayer.addEventListener("timeupdate", function (){
    tCurrent = Math.round(mediaPlayer.currentTime * 1000)
    //console.log("timeupdate " + tCurrent + " continuous? " + mediaContinuousPlay)
 
-   for(lineTimes of timeStamps){
-      if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
-         var lineNumber = parseInt(lineTimes.id)
-         //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
-         scrollAndHighlight(lineNumber)
-         break;
-         }
-      } // for lineTimes
+   if(mediaContinuousPlay){
+      for(lineTimes of timeStamps){
+         if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
+            var lineNumber = parseInt(lineTimes.id)
+            //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
+            scrollAndHighlight(lineNumber)
+            break;
+            }
+         } // for lineTimes
+     } // if mediaContinuousPlay
 
-   if (!mediaContinuousPlay && mediaSegmentEnd && mediaPlayer.currentTime >= mediaSegmentEnd){
-      mediaPlayer.pause();
-      mediaContinuousPlay=true;
-      }   
+   if (!mediaContinuousPlay && mediaSegmentEnd && 
+       mediaPlayer.currentTime >= mediaSegmentEnd){
+     mediaPlayer.pause();
+     mediaContinuousPlay=true;
+     }   
 
 })  // addEventListener timeupdate
 //--------------------------------------------------------------------------------
@@ -446,6 +449,8 @@ function playSample(mediaID, startTime, endTime)
 {
     console.log("medium-agnostic playSample: " + mediaID + ", " +
 		startTime + ", " + endTime)
+
+    scrollAndHighlight(mediaID)
     playMediaSegment(mediaID, startTime, endTime)
 
 } // playSample
@@ -491,6 +496,8 @@ $('#speedSelector').on('input', function() {
 	$("#playbackSpeedReadout").text(v);
     });
 </script>
+    <script src="showdown.js"></script>
+    <script src="annotations.js"></script>
     <script type="text/javascript">window.timeStamps=[{ 'id' : '1', 'start' : 0, 'end' : 3093},
 { 'id' : '2', 'start' : 3093, 'end' : 5624},
 { 'id' : '3', 'start' : 5624, 'end' : 8033},]</script>

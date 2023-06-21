@@ -8,6 +8,21 @@ from dash import dcc, html, dash_table
 
 import pandas as pd
 
+uploaderStyle = {'width': '60%',
+                 'height': '60px',
+                 'lineHeight': '60px',
+                 'borderWidth': '1px',
+                 'borderStyle': 'solid',
+                 'borderRadius': '5px',
+                 'textAlign': 'center',
+                 'font-size': "24px",
+                 'margin': '10px',
+                 'margin-left': '100px'
+                 }
+
+simpleTextDisplayStyle = {"font-size": "32px",
+                          "margin-left": "200px"
+                          }
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -19,54 +34,30 @@ app.layout = html.Div([
             'EAF: Drag and Drop or ',
             html.A('Select File')
             ]),
-        style={
-            'width': '100%',
-            'height': '60px',
-            'lineHeight': '60px',
-            'borderWidth': '1px',
-            'borderStyle': 'solid',
-            'borderRadius': '5px',
-            'textAlign': 'center',
-            'margin': '10px'
-            }
+        style=uploaderStyle
         ),
-    html.Div(id='eafFilename-display'),
+    html.Div(id='eafFilename-display',
+             style=simpleTextDisplayStyle),
     dcc.Upload(
         id='tierGuideFilename-select',
         children=html.Div([
             'tierGuide.yaml: Drag and Drop or ',
             html.A('Select File')
             ]),
-        style={
-            'width': '100%',
-            'height': '60px',
-            'lineHeight': '60px',
-            'borderWidth': '1px',
-            'borderStyle': 'solid',
-            'borderRadius': '5px',
-            'textAlign': 'center',
-            'margin': '10px'
-            }
+        style=uploaderStyle
         ),
-    html.Div(id='tierGuideFilename-display'),
+    html.Div(id='tierGuideFilename-display',
+             style=simpleTextDisplayStyle),
     dcc.Upload(
         id='grammaticalTermsFilename-select',
         children=html.Div([
             'grammaticalTerms.yaml: Drag and Drop or ',
             html.A('Select File')
             ]),
-        style={
-            'width': '100%',
-            'height': '60px',
-            'lineHeight': '60px',
-            'borderWidth': '1px',
-            'borderStyle': 'solid',
-            'borderRadius': '5px',
-            'textAlign': 'center',
-            'margin': '10px'
-            }
+        style=uploaderStyle
         ),
-    html.Div(id='grammaticalTermsFilename-display'),
+    html.Div(id='grammaticalTermsFilename-display',
+             style=simpleTextDisplayStyle),
 ])
 
 def parseEAF(filename):

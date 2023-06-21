@@ -154,34 +154,34 @@ class Text:
 		self.tierTable = tbl
 		return(tbl)
 
-	def determineStartAndEndTimes(self):
-		if(self.verbose):
-			print("--- entering determineStartAndEndTimes")
-		# print("entering determine start and end times")
-		xmlDoc = etree.parse(self.xmlFilename)
-		timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
-		timeIDs = [x.attrib["TIME_SLOT_ID"] for x in timeSlotElements]
-		times = [int(x.attrib["TIME_VALUE"]) for x in timeSlotElements]
-		audioTiers = xmlDoc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION")
-		audioIDs = [x.attrib["ANNOTATION_ID"] for x in audioTiers]
-		tsRef1 = [x.attrib["TIME_SLOT_REF1"] for x in audioTiers]
-		tsRef2 = [x.attrib["TIME_SLOT_REF2"] for x in audioTiers]
-		d = {"id": audioIDs, "t1": tsRef1, "t2": tsRef2}
-		tbl_t1 = pd.DataFrame({"id": audioIDs, "t1": tsRef1})
-		tbl_t2 = pd.DataFrame({"id": audioIDs, "t2": tsRef2})
-		tbl_times = pd.DataFrame({"id": timeIDs, "timeValue": times})
-		tbl_t1m = pd.merge(tbl_t1, tbl_times, left_on="t1", right_on="id")
-		tbl_t2m = pd.merge(tbl_t2, tbl_times, left_on="t2", right_on="id")
-		tbl_raw = pd.merge(tbl_t1m, tbl_t2m, on="id_x")
-		tbl = tbl_raw.drop(["id_y_x", "id_y_y"], axis=1)
-		# still need to rename, maybe also reorder columns
-		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
-		list(tbl.columns)
-		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
-		#        tbl = tbl.sort('start')
-		print("+++\n",tbl,"\n+++")
-		self.startStopTable = self.makeStartStopTable(tbl)
-		return (tbl)
+#	def determineStartAndEndTimes(self):
+#		if(self.verbose):
+#			print("--- entering determineStartAndEndTimes")
+#		# print("entering determine start and end times")
+#		xmlDoc = etree.parse(self.xmlFilename)
+#		timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
+#		timeIDs = [x.attrib["TIME_SLOT_ID"] for x in timeSlotElements]
+#		times = [int(x.attrib["TIME_VALUE"]) for x in timeSlotElements]
+#		audioTiers = xmlDoc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION")
+#		audioIDs = [x.attrib["ANNOTATION_ID"] for x in audioTiers]
+#		tsRef1 = [x.attrib["TIME_SLOT_REF1"] for x in audioTiers]
+#		tsRef2 = [x.attrib["TIME_SLOT_REF2"] for x in audioTiers]
+#		d = {"id": audioIDs, "t1": tsRef1, "t2": tsRef2}
+#		tbl_t1 = pd.DataFrame({"id": audioIDs, "t1": tsRef1})
+#		tbl_t2 = pd.DataFrame({"id": audioIDs, "t2": tsRef2})
+#		tbl_times = pd.DataFrame({"id": timeIDs, "timeValue": times})
+#		tbl_t1m = pd.merge(tbl_t1, tbl_times, left_on="t1", right_on="id")
+#		tbl_t2m = pd.merge(tbl_t2, tbl_times, left_on="t2", right_on="id")
+#		tbl_raw = pd.merge(tbl_t1m, tbl_t2m, on="id_x")
+#		tbl = tbl_raw.drop(["id_y_x", "id_y_y"], axis=1)
+#		# still need to rename, maybe also reorder columns
+#		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
+#		list(tbl.columns)
+#		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
+#		#        tbl = tbl.sort('start')
+#		print("+++\n",tbl,"\n+++")
+#		self.startStopTable = self.makeStartStopTable(tbl)
+#		return (tbl)
 
 	def makeStartStopTable(self, annotations):
 		if(self.verbose):
@@ -280,14 +280,14 @@ class Text:
 		if(self.verbose):
 			print("--- entering getJavascript")
 		jsSource = ""
-		#if(self.kbFilename != None):
-		#	jsSource += '<script src="%s"></script>\n' % self.kbFilename
-		#if(self.linguisticsFilename != None):
-		#	jsSource += '<script src="%s"></script>\n' % self.linguisticsFilename
-		#showDownScript = "showdown.js"
-		#annoScript = "annotations.js"
-		#jsSource += '<script src="%s"></script>\n' % showDownScript
-		#jsSource += '<script src="%s"></script>\n' % annoScript
+		if(self.kbFilename != None):
+			jsSource += '<script src="%s"></script>\n' % self.kbFilename
+		if(self.linguisticsFilename != None):
+			jsSource += '<script src="%s"></script>\n' % self.linguisticsFilename
+		showDownScript = "showdown.js"
+		annoScript = "annotations.js"
+		jsSource += '<script src="%s"></script>\n' % showDownScript
+		jsSource += '<script src="%s"></script>\n' % annoScript
 		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
 		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
 		return(jsSource)

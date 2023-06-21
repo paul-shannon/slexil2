@@ -15,7 +15,8 @@ gitpip:
 
 
 check:
-	ls -lat ~/github/slexilAsModuleAndPackage/pySlexil/lib/python3.10/site-packages/slexil*
+	ls -lat ~/github/slexil2/py3105/lib/python3.10/site-packages/slexil*
+#	ls -lat ~/github/slexilAsModuleAndPackage/pySlexil/lib/python3.10/site-packages/slexil*
  
 test:
 	(cd tests; 	make test)

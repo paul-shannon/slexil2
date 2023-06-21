@@ -258,19 +258,22 @@ mediaPlayer.addEventListener("timeupdate", function (){
    tCurrent = Math.round(mediaPlayer.currentTime * 1000)
    //console.log("timeupdate " + tCurrent + " continuous? " + mediaContinuousPlay)
 
-   for(lineTimes of timeStamps){
-      if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
-         var lineNumber = parseInt(lineTimes.id)
-         //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
-         scrollAndHighlight(lineNumber)
-         break;
-         }
-      } // for lineTimes
+   if(mediaContinuousPlay){
+      for(lineTimes of timeStamps){
+         if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
+            var lineNumber = parseInt(lineTimes.id)
+            //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
+            scrollAndHighlight(lineNumber)
+            break;
+            }
+         } // for lineTimes
+     } // if mediaContinuousPlay
 
-   if (!mediaContinuousPlay && mediaSegmentEnd && mediaPlayer.currentTime >= mediaSegmentEnd){
-      mediaPlayer.pause();
-      mediaContinuousPlay=true;
-      }   
+   if (!mediaContinuousPlay && mediaSegmentEnd && 
+       mediaPlayer.currentTime >= mediaSegmentEnd){
+     mediaPlayer.pause();
+     mediaContinuousPlay=true;
+     }   
 
 })  // addEventListener timeupdate
 //--------------------------------------------------------------------------------
@@ -300,6 +303,8 @@ function playSample(mediaID, startTime, endTime)
 {
     console.log("medium-agnostic playSample: " + mediaID + ", " +
 		startTime + ", " + endTime)
+
+    scrollAndHighlight(mediaID)
     playMediaSegment(mediaID, startTime, endTime)
 
 } // playSample
