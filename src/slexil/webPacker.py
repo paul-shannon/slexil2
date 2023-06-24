@@ -20,6 +20,7 @@ class WebPacker:
        self.jsFiles.append(os.path.join(baseDir, "jquery-3.6.3.min.js.py"))
        self.jsFiles.append(os.path.join(baseDir, "slexil.js.py"))
        self.jsFiles.append(os.path.join(baseDir, "bootstrap.bundle.min.js.py"))
+       self.jsFiles.append(os.path.join(baseDir, "annotations.js.py"))
 
        for path in self.cssFiles:
           found = os.path.exists(path) 

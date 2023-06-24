@@ -6,6 +6,7 @@ slexil.toml
 src/slexil/LineDataFrame.py
 src/slexil/__init__.py
 src/slexil/aboutTexts.py
+src/slexil/annotations.js.py
 src/slexil/audioExtractor.py
 src/slexil/audioExtractorBKP.py
 src/slexil/bootstrap.bundle.min.js.py

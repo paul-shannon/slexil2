@@ -323,11 +323,17 @@ class Text:
 		self.startStopTable = self.extractTimeCodes()
 		startStopTimesJSText = self.makeJavascriptStartStopObject(self.startStopTable)
 
+		annotationLinks = ""
+		if(self.kbFilename != None):
+			annotationLinks += '<script src="%s"></script>\n' % self.kbFilename
+		if(self.linguisticsFilename != None):
+			annotationLinks += '<script src="%s"></script>\n' % self.linguisticsFilename
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
 				htmlDoc.asis(webPacker.getCSSText())
 				htmlDoc.asis(startStopTimesJSText)
+				htmlDoc.asis(annotationLinks)
 				htmlDoc.asis("<!-- headCustomizationHook -->")
 			with htmlDoc.tag('body'):
 				aboutBoxNeeded = False
