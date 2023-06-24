@@ -1,16 +1,14 @@
 Metadata-Version: 2.1
 Name: slexil-package
-Version: 2.1.7
+Version: 2.1.19
 Summary: Software Linking ELAN XML to Illuminated Language
 Home-page: https://github.com/paul-shannon/slexil2
 Author: Paul Shannon
 Author-email: paul.thurmond.shannon@gmail.com
-License: UNKNOWN
 Project-URL: Documentation, https://github.com/paul-shannon/slexil2
 Project-URL: Bug Reports, https://github.com/paul-shannon/slexil2/issues
 Project-URL: Source Code, https://github.com/paul-shannon/slexil2
 Keywords: slexil,ELAN,IJAL
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.10
 Classifier: License :: OSI Approved :: GPL License
@@ -115,6 +113,4 @@ print("wrote %s" % filename)
 </pre>
 
   
-
-
 

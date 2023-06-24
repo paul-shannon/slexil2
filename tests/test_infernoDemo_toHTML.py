@@ -52,5 +52,6 @@ class TestInfernoDemo_toHTML(unittest.TestCase):
 		htmlText = text.toHTML()
 		filename = "inferno.html"
 		f = open(filename, "w")
-		f.write(indent(htmlText))
+		#f.write(indent(htmlText))
+		f.write(htmlText)
 		f.close()
