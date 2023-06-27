@@ -11,6 +11,7 @@ src/slexil/audioExtractor.py
 src/slexil/audioExtractorBKP.py
 src/slexil/bootstrap.bundle.min.js.py
 src/slexil/bootstrap.min.css.py
+src/slexil/eafParser.py
 src/slexil/errors.py
 src/slexil/formatting.py
 src/slexil/grammaticalTerms.py
@@ -41,8 +42,10 @@ src/slexil_package.egg-info/requires.txt
 src/slexil_package.egg-info/top_level.txt
 src/webapp/__init__.py
 src/webapp/main.py
+tests/test_eafParser.py
 tests/test_infernoDemo.py
 tests/test_infernoDemo_toHTML.py
 tests/test_listTiers.py
 tests/test_morphemeGloss.py
+tests/test_tierParsing.py
 tests/test_webPacker.py
