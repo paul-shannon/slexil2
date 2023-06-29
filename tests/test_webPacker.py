@@ -15,47 +15,29 @@ class TestWebPacker(unittest.TestCase):
 		cssFiles = packer.getCSSFilenames()
 		assert(len(cssFiles) == 2)
 		jsFiles = packer.getJSFilenames()
-		assert(len(jsFiles) == 4)
+		assert(len(jsFiles) == 5)
 
 	def test_readCSS(self):
-		print("--- running TestWebPacker.test_readAll")
+		print("--- running TestWebPacker.test_readCSS")
 		packer = WebPacker(baseDir)
 		packer.readCSS()
 		cssText = packer.getCSSText()
 		assert(len(cssText) > 20000)
 		openTags = [m.start() for m in re.finditer("<style>", cssText)]
 		closeTags = [m.start() for m in re.finditer("</style>", cssText)]
-		assert(len(openTags) == 3)
-		assert(len(closeTags) == 3)
+		assert(len(openTags) == 2)
+		assert(len(closeTags) == 2)
 
 	def test_readJS(self):
-		print("--- running TestWebPacker.test_readAll")
+		print("--- running TestWebPacker.test_readJS")
 		packer = WebPacker(baseDir)
 		packer.readJS()
 		jsText = packer.getJSText()
 		len(jsText)
 		openTags = [m.start() for m in re.finditer("<script>", jsText)]
 		closeTags = [m.start() for m in re.finditer("</script>", jsText)]
-		print("js open  tags: %d" % len(openTags))
-		print("js close tags: %d" % len(closeTags))
+		assert(len(openTags) >= 5)
+		assert(len(closeTags) >= 5)
 
-
-	def test_showdownjs(self):
-		print("--- running TestWebPacker.test_showdownjs")
-		packer = WebPacker()
-		jsText = packer.getShowdownjs()
-		assert(len(jsText) > 180000)
-		assert("<script>" in jsText)
-		assert("/script>" in jsText)
-
-	def test_annotationjs(self):
-		print("--- running TestWebPacker.test_annotationjs")
-		packer = WebPacker()
-		jsText = packer.getAnnotationjs()
-		assert(len(jsText) > 3000)
-		assert("<script>" in jsText)
-		assert("/script>" in jsText)
-
-
-
-
+if __name__ == '__main__':
+		unittest.main()

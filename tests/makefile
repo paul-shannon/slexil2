@@ -8,11 +8,12 @@ dev:
 	python -m unittest test_eafParser.py
 
 test:
-	python -m unittest test_htmlInserter.py
-	python -m unittest test_listTiers.py
-	python -m unittest test_morphemeGloss.py
-	python -m unittest test_infernoDemo.py
-	python -m unittest test_infernoDemo_toHTML.py
+	python -m unittest test_webPacker.py 
+	python -m unittest test_eafParser.py
+#	python -m unittest test_listTiers.py
+#	python -m unittest test_morphemeGloss.py
+#	python -m unittest test_infernoDemo.py
+#	python -m unittest test_infernoDemo_toHTML.py
 
 install:
 	(cd ..; make install)

@@ -21,14 +21,14 @@ dataDir = os.path.join(packageRoot, "data")
 
 class TestEafParser(unittest.TestCase):
 
-	def notest_ctor(self):
+	def test_ctor(self):
 		print("--- test_ctor")
 		f = eafFiles[3]
 		parser = EafParser(f)
 		self.assertEqual(parser.getFilename(), f)
 		self.assertEqual(parser.xmlValid(), True)
 		
-	def notest_tiersTable(self):
+	def test_tiersTable(self):
 
 		print("--- test_tiersTable")
 		f = eafFiles[3]
@@ -61,7 +61,7 @@ class TestEafParser(unittest.TestCase):
 						 ['utterance', 'utterance', 'utterance'])
 
 
-	def notest_timeTable(self):
+	def test_timeTable(self):
 
 		print("--- test_timeTable")
 		f = eafFiles[3]
@@ -87,7 +87,7 @@ class TestEafParser(unittest.TestCase):
 	# lines from typically all tiers are grouped with a time-aligned spoken tier
 	# we need to recover all of those lines, some of which may be nested > 1 level
 	# below the spoken tier line.  this recursive capability is tested here.
-	def notest_depthFirstTierTraversal(self):
+	def test_depthFirstTierTraversal(self):
 
 		print("--- test_depthFirstTierTraversal")
 		f = eafFiles[0]
@@ -163,3 +163,7 @@ class TestEafParser(unittest.TestCase):
 
 
 	#--------------------------------------------------------------------------------
+
+if __name__ == '__main__':
+		unittest.main()
+		

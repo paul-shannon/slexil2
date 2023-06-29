@@ -55,3 +55,7 @@ class TestInfernoDemo_toHTML(unittest.TestCase):
 		#f.write(indent(htmlText))
 		f.write(htmlText)
 		f.close()
+
+
+if __name__ == '__main__':
+		unittest.main()
