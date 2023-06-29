@@ -40,3 +40,7 @@ class TestMorphemeGloss(unittest.TestCase):
 		mg.toHTML(htmlDoc)
 		html = htmlDoc.getvalue()
 		self.assertEqual(html.count("grammatical-term"), 8)
+
+if __name__ == '__main__':
+		unittest.main()
+		

@@ -1,9 +1,11 @@
 import yaml
 from xml.etree import ElementTree as etree
 
-'''this module eliminates errors with files that have more than one type of alignable annotation
-and overgenerate lines and audiophrases for non-lines. We need to ensure that only needed lines are 
-processed and that the lines sent to IjalLine conform to the Tierguide'''
+'''this module eliminates errors with files that have more
+than one type of alignable annotation and overgenerate lines
+and audiophrases for non-lines. We need to ensure that only
+needed lines are processed and that the lines sent to
+IjalLine conform to the Tierguide'''
 
 def getList(doc,tierGuide):
     speechTier = tierGuide['speech']

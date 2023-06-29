@@ -20,3 +20,4 @@ class TestListTiers(unittest.TestCase):
 		self.assertEqual(len(tierElements), 4)
 
 
+if __name__ == '__main__':

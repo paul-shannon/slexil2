@@ -20,7 +20,6 @@ Information about the software can be obtained by contacting
 david.beck at ualberta.ca.
 ******************************************************************
 '''
-
 # text.py: a class to represent a complete IJAL interlinear text, and to
 # transform its
 # represention in ELAN xml (eaf) format, accompanied by audio, into html
@@ -31,10 +30,10 @@ import os, sys
 from yattag import *
 import yaml
 from ijalLine import *
-from htmlInserter import HtmlInserter
+from webPacker import WebPacker
 pd.set_option('display.width', 1000)
 import pdb
-import logging
+#import logging
 import identifyLines
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -51,6 +50,7 @@ class Text:
 	lineCount = 0
 	verbose = False
 	timeCodesForText = []
+	startStopTable = None
 
 	def __init__(self,
 				 xmlFilename,
@@ -91,8 +91,8 @@ class Text:
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		f = os.path.join(projectDirectory, "ERRORS.log")
-		logging.basicConfig(filename=f,format="%(levelname)s %(message)")
-		logging.getLogger().setLevel(logging.WARNING)
+		#logging.basicConfig(filename=f,format="%(levelname)s %(message)")
+		#logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
 
 	def extractMetadata(self):
@@ -155,7 +155,7 @@ class Text:
 		self.tierTable = tbl
 		return(tbl)
 
-	def determineStartAndEndTimes(self):
+	def extractTimeCodes(self):
 		if(self.verbose):
 			print("--- entering determineStartAndEndTimes")
 		# print("entering determine start and end times")
@@ -181,26 +181,27 @@ class Text:
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 		#        tbl = tbl.sort('start')
 		print("+++\n",tbl,"\n+++")
-		self.startStopTable = self.makeStartStopTable(tbl)
+		self.startStopTable = tbl
 		return (tbl)
 
-	def makeStartStopTable(self, annotations):
+	def makeJavascriptStartStopObject(self, tbl):
 		if(self.verbose):
 			print("--- entering makeStartStopTable")
-		self.audioTable = []
 		startStopTimes = "window.timeStamps=["
-		for i,annotation in enumerate(annotations):
-			start = annotation[0]
-			end = annotation[1]
-			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" \
-					%(str(i+1),start,end)
+		rows = tbl.shape[0]
+		for i in range(rows):
+			start = tbl.loc[i, "start"]
+			end = tbl.loc[i, "end"]
+			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" %(str(i+1),start,end)
 			startStopTimes += entry
-			self.audioTable.append(annotation)
-		startStopTimes = startStopTimes[:-1] + "]"
-		if(self.verbose):
-			print("--- startStopTimes")
 			print(startStopTimes)
-		return(startStopTimes)
+
+		startStopTimes = startStopTimes[:-1] + "]"
+		startStopTimesJS = "".join(["\n<script>\n", startStopTimes, "\n</script>\n"])
+		if(self.verbose):
+			print("--- startStopTimesJS")
+			print(startStopTimesJS)
+		return(startStopTimesJS)
 
 	def validInputs(self):
 		if(self.verbose):
@@ -243,56 +244,56 @@ class Text:
 			tbl = x.getTable()
 			print("%d: %d tiers" % (i, tbl.shape[0]))
 
-	def getCSSLink(self):
-		if(self.verbose):
-			print("--- entering getCSSLink")
-		cssFilename = "slexil.css"
-		#assert(os.path.exists(cssFilename))
-		css = '<link rel = "stylesheet" type = "text/css" href = "%s" />' % cssFilename
-		return(css)
-
-	def getJQuery(self):
-		if(self.verbose):
-			print("--- entering getJQuery")
-		scriptTag = '<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>\n'
-		#scriptTag = '<script src="jquery-3.3.1.min.js"></script>\n'
-		return(scriptTag)
-
-	def getShowdown(self):
-		if(self.verbose):
-			print("--- entering getShowdown")
-		scriptTag = '<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>\n'
-		return(scriptTag)
-
-	def getBootstrap(self):
-		if(self.verbose):
-			print("--- entering getBootstrap")
-		style = """<link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-  crossorigin="anonymous">"""
-		#script_1 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>'
-		script_2 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>'
-		scriptTag = "%s\n%s\n" % (style, script_2)
-		return(scriptTag)
-
-
-	def getJavascript(self):
-		if(self.verbose):
-			print("--- entering getJavascript")
-		jsSource = ""
-		#if(self.kbFilename != None):
-		#	jsSource += '<script src="%s"></script>\n' % self.kbFilename
-		#if(self.linguisticsFilename != None):
-		#	jsSource += '<script src="%s"></script>\n' % self.linguisticsFilename
-		#showDownScript = "showdown.js"
-		#annoScript = "annotations.js"
-		#jsSource += '<script src="%s"></script>\n' % showDownScript
-		#jsSource += '<script src="%s"></script>\n' % annoScript
-		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
-		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
-		return(jsSource)
-
+##	def getCSSLink(self):
+##		if(self.verbose):
+##			print("--- entering getCSSLink")
+##		cssFilename = "slexil.css"
+##		#assert(os.path.exists(cssFilename))
+##		css = '<link rel = "stylesheet" type = "text/css" href = "%s" />' % cssFilename
+##		return(css)
+##
+##	def getJQuery(self):
+##		if(self.verbose):
+##			print("--- entering getJQuery")
+##		scriptTag = '<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>\n'
+##		#scriptTag = '<script src="jquery-3.3.1.min.js"></script>\n'
+##		return(scriptTag)
+##
+##	def getShowdown(self):
+##		if(self.verbose):
+##			print("--- entering getShowdown")
+##		scriptTag = '<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>\n'
+##		return(scriptTag)
+##
+##	def getBootstrap(self):
+##		if(self.verbose):
+##			print("--- entering getBootstrap")
+##		style = """<link rel="stylesheet"
+##  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+##  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+##  crossorigin="anonymous">"""
+##		#script_1 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>'
+##		script_2 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>'
+##		scriptTag = "%s\n%s\n" % (style, script_2)
+##		return(scriptTag)
+##
+##
+##	def getJavascript(self):
+##		if(self.verbose):
+##			print("--- entering getJavascript")
+##		jsSource = ""
+##		if(self.kbFilename != None):
+##			jsSource += '<script src="%s"></script>\n' % self.kbFilename
+##		if(self.linguisticsFilename != None):
+##			jsSource += '<script src="%s"></script>\n' % self.linguisticsFilename
+##		showDownScript = "showdown.js"
+##		#annoScript = "annotations.js"
+##		jsSource += '<script src="%s"></script>\n' % showDownScript
+##		#jsSource += '<script src="%s"></script>\n' % annoScript
+##		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
+##		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
+##		return(jsSource)
+##
 	def getPlayer(self):
 		mimeType = self.getMediaInfo()["mimeType"]
 		try:
@@ -314,16 +315,25 @@ class Text:
 		if(self.verbose):
 			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
 
-		htmlDoc.asis('<!DOCTYPE html>')
-		htmlInserter = HtmlInserter()
+		htmlDoc.asis('<!DOCTYPE html>\n')
+		baseDir = os.path.dirname(__file__) # find the js and css files 
+		webPacker = WebPacker(baseDir)
+		webPacker.readCSS()
+		webPacker.readJS()
+		self.startStopTable = self.extractTimeCodes()
+		startStopTimesJSText = self.makeJavascriptStartStopObject(self.startStopTable)
+
+		annotationLinks = ""
+		if(self.kbFilename != None):
+			annotationLinks += '<script src="%s"></script>\n' % self.kbFilename
+		if(self.linguisticsFilename != None):
+			annotationLinks += '<script src="%s"></script>\n' % self.linguisticsFilename
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
-				htmlDoc.asis(self.getJQuery())
-				htmlDoc.asis(self.getBootstrap())
-				if(self.kbFilename != None):
-					htmlDoc.asis(self.getShowdown())
-				htmlDoc.asis(htmlInserter.getCSS())
+				htmlDoc.asis(webPacker.getCSSText())
+				htmlDoc.asis(startStopTimesJSText)
+				htmlDoc.asis(annotationLinks)
 				htmlDoc.asis("<!-- headCustomizationHook -->")
 			with htmlDoc.tag('body'):
 				aboutBoxNeeded = False
@@ -364,11 +374,7 @@ class Text:
 
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
-				htmlDoc.asis(htmlInserter.getSlexiljs())
-
-				if(self.kbFilename != None):
-					htmlDoc.asis(htmlInserter.getAnnotationjs())
-				htmlDoc.asis(self.getJavascript())
+				htmlDoc.asis(webPacker.getJSText())
 				htmlDoc.asis("<!-- bodyBottomCustomizationHook -->")
 		self.htmlDoc = htmlDoc
 		self.htmlText = htmlDoc.getvalue()

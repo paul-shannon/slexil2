@@ -31,7 +31,7 @@ import pdb
 import formatting
 from translationLine import *
 # from errors import *
-import logging
+# import logging
 from LineDataFrame import DataFrame as ldf
 import identifyLines
 
@@ -74,7 +74,7 @@ class IjalLine:
         if 'speech' in self.categories:
             self.speechRow = self.categories.index("speech")
         else:
-            logging.warning("EAF error: Line %s has nothing in the transcription line." % (int(self.lineNumber) + 1))
+            #logging.warning("EAF error - Line %s has nothing in the transcription line." % (int(self.lineNumber) + 1))
             self.speechRow = None
         if 'translation' in self.categories:
             self.translationRow = self.categories.index("translation")
@@ -150,7 +150,7 @@ class IjalLine:
         # row = categories.index("translation")
         # pdb. set_trace()
         if self.translationRow == None:
-            logging.warning("missing translation at line %d" % (int(self.lineNumber) + 1))
+            #logging.warning("missing translation at line %d" % (int(self.lineNumber) + 1))
             return (None)
         translation = self.tbl.iloc[self.translationRow, self.tbl.columns.values.tolist().index("TEXT")]
         translationLine = TranslationLine(translation)
@@ -234,16 +234,15 @@ class IjalLine:
         """
         morphemes = self.getMorphemes()
         glosses = self.getMorphemeGlosses()
-
         if (len(morphemes) > len(glosses)):
-            logging.warning("EAF error: There are more morphs (%d) than glosses (%d) in line %s." % (
-                len(morphemes), len(glosses), int(self.lineNumber) + 1))
+            #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
+            print(self.getSpokenText())
             theDifference = len(morphemes) - len(glosses)
             for i in range(0, theDifference):
                 glosses.append("⚠️")
         elif (len(morphemes) < len(glosses)):
-            logging.warning("EAF error: There are more glosses (%d) than morphs (%d) in line %s." % (
-                len(glosses), len(morphemes), int(self.lineNumber) + 1))
+            #logging.warning("EAF error - There are more glosses (%d) than morphs (%d) in line %s." % (len(glosses), len(morphemes), int(self.lineNumber) + 1))
+            print(self.getSpokenText())
             theDifference = len(glosses) - len(morphemes)
             for i in range(0, theDifference):
                 morphemes.append("⚠️")
