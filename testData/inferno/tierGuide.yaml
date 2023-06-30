@@ -1,6 +1,5 @@
-morpheme: morphemes
-morphemeGloss: morphemeGloss
 speech: italianSpeech
-transcription2: ''
+morpheme: morphemes
+morphemeGloss: morpheme-gloss
 translation: english
-translation2: ''
+translation2: 

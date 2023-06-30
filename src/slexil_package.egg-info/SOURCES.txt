@@ -42,6 +42,8 @@ src/slexil_package.egg-info/requires.txt
 src/slexil_package.egg-info/top_level.txt
 src/webapp/__init__.py
 src/webapp/main.py
+tests/test_IjalLine-v1.py
+tests/test_MorphemeGloss.py
 tests/test_eafParser.py
 tests/test_infernoDemo.py
 tests/test_infernoDemo_toHTML.py

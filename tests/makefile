@@ -9,7 +9,7 @@ dev:
 
 test:
 	python -m unittest test_webPacker.py 
-	python -m unittest test_eafParser.py
+	python test_eafParser.py
 #	python -m unittest test_listTiers.py
 #	python -m unittest test_morphemeGloss.py
 #	python -m unittest test_infernoDemo.py

@@ -58,7 +58,7 @@
 
     </TIER>
 
-    <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="morpheme-gloss" PARENT_REF="italianSpeech" TIER_ID="morphemeGloss">
+    <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="morpheme-gloss" PARENT_REF="italianSpeech" TIER_ID="morpheme-gloss">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a5">
                 <ANNOTATION_VALUE>in=DEF:MASC:SG	middle-MASC:SG	of=DEF:MASC:SG	journey–MASC:SG	of	our-FEM:SG	life-FEM</ANNOTATION_VALUE>
