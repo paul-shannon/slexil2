@@ -65,7 +65,6 @@ class Text:
 				 endLine,
 				 kbFilename,
 				 linguisticsFilename):
-		print("debug? %s" % (verbose))
 		self.xmlFilename = xmlFilename
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
@@ -190,7 +189,6 @@ class Text:
 		list(tbl.columns)
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 		#        tbl = tbl.sort('start')
-		print("+++\n",tbl,"\n+++")
 		self.startStopTable = tbl
 		return (tbl)
 
@@ -205,7 +203,8 @@ class Text:
 			end = tbl.loc[i, "end"]
 			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" %(str(i+1),start,end)
 			startStopTimes += entry
-			print(startStopTimes)
+			if(self.verbose):
+					print(startStopTimes)
 
 		startStopTimes = startStopTimes[:-1] + "]"
 		startStopTimesJS = "".join(["\n<script>\n", startStopTimes, "\n</script>\n"])

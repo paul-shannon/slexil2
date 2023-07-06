@@ -9,9 +9,6 @@
             MEDIA_URL="https://pshannon.net/inferno/audio/inferno-threeLines.wav"
             MIME_TYPE="audio/x-wav"/>
         <PROPERTY NAME="lastUsedAnnotationId">3</PROPERTY>
-        <PROPERTY NAME="metadata:Title">From Dante's Inferno Canto 1</PROPERTY>
-        <PROPERTY NAME="metadata:Narrator">Roberto Benigni</PROPERTY>
-        <PROPERTY NAME="metadata:Context">A minimal audio-only slexil example</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="00"/>

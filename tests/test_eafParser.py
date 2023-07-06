@@ -133,6 +133,7 @@ def test_depthFirstTierTraversal():
 def test_getLineTable():
 
 	print("--- test_getLineTable")
+
 	f = eafFiles[0]
 	parser = EafParser(f)
 	assert(parser.getLineCount() == 3)
@@ -142,14 +143,15 @@ def test_getLineTable():
 
 	tbl = parser.getTimeTable()
 	assert(tbl.shape == (3, 5))
-	#pdb.set_trace()
 
 	tbl = parser.getLineTable(1)
-	assert(tbl.shape == (4, 6))
-	expected = ['id','parent','startTime','endTime','tierType','text']
+	assert(tbl.shape == (4, 7))
+	expected = ['id','parent','startTime','endTime','tierID','tierType','text']
 	assert(tbl.columns.tolist() == expected)
 	assert(tbl["id"].tolist() == ['a1', 'a5', 'a9', 'a13'])
 	assert(tbl["parent"].tolist() == ['', 'a1', 'a5', 'a1'])
+	expected = ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english']
+	assert(tbl["tierID"].tolist() == expected)
 	assert(tbl.loc[0, "startTime"] == 0.0)
 	assert(tbl.loc[0, "endTime"] == 3093.0)
 
@@ -170,3 +172,5 @@ def test_parseAllLines():
 
 
 #---------------------------------------------------------------------------------------------------
+if __name__ == '__main__':
+    runTests()

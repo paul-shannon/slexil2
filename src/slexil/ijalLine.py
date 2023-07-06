@@ -42,18 +42,18 @@ class IjalLine:
     tierElements = []
     doc = None
     lineNumber = None
-    soundFile = None
+    quiet = True
     grammaticalTerms = None
-    morphemes = None
+    morphemes =  None
     morphemeGlosses = None
-    morphemeSpacing = []
+    morphemeSpacing = None
 
     def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[], quiet=True):
-        self.tbl = standardizeTable(lineTable, tierGuide)
+        self.tbl = standardizeTable(lineTable, tierGuide, quiet)
         self.lineNumber = lineNumber
         self.tierGuide = tierGuide
         self.grammaticalTerms = grammaticalTerms
-
+        self.quiet = quiet
 
     def getTierCount(self):
         return (self.getTable().shape[0])
@@ -96,8 +96,10 @@ class IjalLine:
         canonicalTierName = "translation"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
            return(None)
-        row = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-        rawTranslation = self.tbl.loc[row, "text"]
+        rowNumbers = self.tbl.index
+        whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
+        rowNumber = rowNumbers[whichRowNumber]
+        rawTranslation = self.tbl.loc[rowNumber, "text"]
         translationLine = TranslationLine(rawTranslation)
         return (translationLine.getStandardized())
 
@@ -118,7 +120,8 @@ class IjalLine:
 
         canonicalTierName = "morpheme"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           print("=== found no tier named '%s'" % canonicalTierName)
+           if(not self.quiet):
+              print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
@@ -136,7 +139,8 @@ class IjalLine:
 
         canonicalTierName = "morphemeGloss"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           print("=== found no tier named '%s'" % canonicalTierName)
+           if(not self.quiet):
+              print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
@@ -168,7 +172,7 @@ class IjalLine:
     def calculateMorphemeSpacing(self):
 
         """
-         the spacing is used to create a styleString, specifying grid cell widths which
+         the spacing is used to create a morphemeSpacingStyleString, specifying grid cell widths which
          accomodate the widest of each morpheme/gloss pair, so that they each member of
          each pair is vertically aligned:
              m1        m2        ----m3-----
@@ -176,20 +180,24 @@ class IjalLine:
         """
         morphemes = self.getMorphemes()
         glosses = self.getMorphemeGlosses()
-        if (len(morphemes) > len(glosses)):
-            #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
-            print(self.getSpokenText())
-            theDifference = len(morphemes) - len(glosses)
-            for i in range(0, theDifference):
-                glosses.append("⚠️")
-        elif (len(morphemes) < len(glosses)):
-            #logging.warning("EAF error - There are more glosses (%d) than morphs (%d) in line %s." % (len(glosses), len(morphemes), int(self.lineNumber) + 1))
-            print(self.getSpokenText())
-            theDifference = len(glosses) - len(morphemes)
-            for i in range(0, theDifference):
-                morphemes.append("⚠️")
-
+        if(morphemes == None):
+           self.morphemeSpacing == None
+           return
         self.morphemeSpacing = []
+        if(glosses):
+           if (len(morphemes) > len(glosses)):
+               #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
+               print(self.getSpokenText())
+               theDifference = len(morphemes) - len(glosses)
+               for i in range(0, theDifference):
+                   glosses.append("⚠️")
+           elif (len(morphemes) < len(glosses)):
+               #logging.warning("EAF error - There are more glosses (%d) than morphs (%d) in line %s." % (len(glosses), len(morphemes), int(self.lineNumber) + 1))
+               print("morpheme/gloss mismatch, line: %s" %self.getSpokenText())
+               theDifference = len(glosses) - len(morphemes)
+               for i in range(0, theDifference):
+                   morphemes.append("⚠️")
+
 
         for i in range(len(morphemes)):
             if "<su" in morphemes[i]:
@@ -200,14 +208,16 @@ class IjalLine:
                 morphemeSize = len(newmorph)
             else:
                 morphemeSize = len(morphemes[i])
-            if "<su" in glosses[i]:
-                newGloss = glosses[i].replace("<sub>", "")
-                newGloss = newGloss.replace("</sub>", "")
-                newGloss = newGloss.replace("<sup>", "")
-                newGloss = newGloss.replace("</sup>", "")
-                glossSize = len(newGloss)
-            else:
-                glossSize = len(glosses[i])
+            glossSize = 0
+            if(glosses):
+               if "<su" in glosses[i]:
+                  newGloss = glosses[i].replace("<sub>", "")
+                  newGloss = newGloss.replace("</sub>", "")
+                  newGloss = newGloss.replace("<sup>", "")
+                  newGloss = newGloss.replace("</sup>", "")
+                  glossSize = len(newGloss)
+               else:
+                  glossSize = len(glosses[i])
             self.morphemeSpacing.append(max(morphemeSize, glossSize) + 1)
 
     # ----------------------------------------------------------------------------------------------------
@@ -233,7 +243,6 @@ class IjalLine:
 
         with htmlDoc.tag("div", klass="line-content", id=self.lineNumber+1):
             with htmlDoc.tag("div", klass="line"):
-                styleString = "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
                 with htmlDoc.tag("span", klass="speech-tier"):
                     htmlDoc.asis(self.getSpokenText())
 
@@ -243,20 +252,24 @@ class IjalLine:
             #       htmlDoc.asis(self.getTranscription2())
 
             morphemes = self.getMorphemes()
-            if (len(morphemes) > 0):
-               with htmlDoc.tag("div", klass="morpheme-tier", style=styleString):
-                  for morpheme in morphemes:
-                      with htmlDoc.tag("div", klass="morpheme-cell"):
-                          htmlDoc.asis(morpheme)
+            morphemeSpacingStyleString = ""
+            if (morphemes):
+               if(len(morphemes) > 0):
+                  morphemeSpacingStyleString = "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
+                  with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+                     for morpheme in morphemes:
+                        with htmlDoc.tag("div", klass="morpheme-cell"):
+                            htmlDoc.asis(morpheme)
 
             morphemeGlosses = self.getMorphemeGlosses()
-            if (len(morphemeGlosses) > 0):
-               with htmlDoc.tag("div", klass="morpheme-tier", style=styleString):
-                  for morphemeGloss in self.getMorphemeGlosses():
-                      with htmlDoc.tag("div", klass="morpheme-cell"):
-                          mg = MorphemeGloss(morphemeGloss, self.grammaticalTerms)
-                          mg.parse()
-                          mg.toHTML(htmlDoc)
+            if (morphemes and morphemeGlosses):
+               if(len(morphemeGlosses) > 0):
+                  with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+                     for morphemeGloss in self.getMorphemeGlosses():
+                         with htmlDoc.tag("div", klass="morpheme-cell"):
+                            mg = MorphemeGloss(morphemeGloss, self.grammaticalTerms)
+                            mg.parse()
+                            mg.toHTML(htmlDoc)
 
             translation = self.getTranslation()
             if translation:
@@ -293,28 +306,59 @@ def findChildren(doc, rootElement):
 # ------------------------------------------------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------------------------------------------------
-def standardizeTable(tbl, tierGuide):
+# every line in the text is transformed from ELAN xml to a pandas table.
+# each row in the table corresponds to a tier in the xml.  Here we
+# aassociate canonical IJAL tiers (e.g., speech, morpheme, morphemeGloss, translation)
+# with each of the tiers in the xml, using the user-supplied tierGuide.
+# for example: 	tierGuide = {'speech': 'italianSpeech',
+#                            'transcription2': None,
+#                            'morpheme': 'morphemes',
+#                            'morphemeGloss': 'morpheme-gloss',
+#                            'translation': 'english',
+#                            'translation2': None}
+# futhermore, since a speech tier is a mandatory minimum, we chack for that,
+# return None if insufficient information is provided.
+def standardizeTable(tbl, tierGuide, quiet):
 
     tierNames = tbl["tierID"].tolist()
-    canonicalNames = ('speech', 'morpheme', 'morphemeGloss', 'translation', 'translation2')
+    allCanonicalNames = ('speech', 'morpheme', 'morphemeGloss', 'translation', 'translation2')
     userCanonicalNames = list(tierGuide.keys())
-    userIllegals = list(set(userCanonicalNames).difference(set(canonicalNames)))
+    userIllegals = list(set(userCanonicalNames).difference(set(allCanonicalNames)))
     if(len(userIllegals) > 0):
        print("tierGuide uses unknown canonical IJAL categories: %s" % userIllegals)
-    shared = set(canonicalNames).intersection(userCanonicalNames)
+    recognized = [tierName for tierName in allCanonicalNames if tierName in userCanonicalNames]
+    if(len(recognized) == 0):
+       print("error no valid canonical tier names in your tierGuide")
+       print(tierGuide)
+       return(None)
 
+       # extract the user's tier names for the recognized canonical tier names
+    keepers = [tierGuide[key] for key in recognized]
+    tbl_trimmed = [tbl[tbl["tierID"].isin(keepers)]][0]
+
+    # subset the tbl to only include rows with a canonical tier name 
+    if(not quiet):
+       print("shared, recongized tierNames, keys: %s" % recognized)
+
+    canonicalTier = []
+    userTierNames = list(tbl_trimmed["tierID"])
     # reverse the guide so we can map from user-supplied and often idiosyncratic
-    # TIER_ID values, to the IJAL standard types: speech, translation, morpheme, morphemeGloss
+    # TIER_ID values, to the IJAL standard types: speech, translation, morpheme, 
+    # morphemeGloss
 
     revGuide = {v: k for k, v in tierGuide.items()}
-    print("revGuide: %s" % revGuide)
-    print("tierNames: %s" % tierNames)
-    canonicalTierNames = [revGuide[key] for key in tierNames]
+    if(not quiet):
+        print("revGuide: %s" % revGuide)
+        print("userTierNames: %s" % userTierNames)
+    canonicalTierNames = [revGuide[key] for key in userTierNames]
+    if(not "speech" in canonicalTierNames):
+       printf("no tier designated as the spoken line ('speech' tier)")
+       return(None)
+
       # add a new column to the table.  we will use this later to assemble the html
-    tbl_final = tbl.assign(canonicalTier=canonicalTierNames)
+    tbl_final = tbl_trimmed.assign(canonicalTier=canonicalTierNames)
 
     return (tbl_final)
-
 
 # ------------------------------------------------------------------------------------------------------------------------
 def replaceHyphensWithNDashes(list):

@@ -41,9 +41,15 @@ src/slexil_package.egg-info/dependency_links.txt
 src/slexil_package.egg-info/requires.txt
 src/slexil_package.egg-info/top_level.txt
 src/webapp/__init__.py
+src/webapp/explore-redirect.py
+src/webapp/main-minimal.py
+src/webapp/main-newBug.py
 src/webapp/main.py
 tests/test_IjalLine-v1.py
+tests/test_IjalLine.py
 tests/test_MorphemeGloss.py
+tests/test_Text.py
+tests/test_TextAllPossibleTierCombination.py
 tests/test_eafParser.py
 tests/test_infernoDemo.py
 tests/test_infernoDemo_toHTML.py
