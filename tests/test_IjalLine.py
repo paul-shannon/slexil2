@@ -42,7 +42,7 @@ def test_tierMapping():
 				 'morphemeGloss': 'morpheme-gloss',
 				 'translation': 'english',
 				 'translation2': None}
-	il0 = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], quiet=True)
+	il0 = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=False)
 	tbl = il0.getTable()
 	assert(tbl.shape == (4, 8))
 	assert(list(tbl["tierID"]) == 
@@ -57,7 +57,7 @@ def test_tierMapping():
 	tierGuide = {"speech": "italianSpeech",
 				 "translation": "english"}
 	tbl = parser.getLineTable(1)
-	il1 = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], quiet=False)
+	il1 = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=True)
 	tbl = il1.getTable()
 	assert(tbl.shape == (2, 8))
 	assert(list(tbl["tierID"]) == ['italianSpeech', 'english'])
@@ -69,7 +69,7 @@ def test_tierMapping():
 
 	speechOnlyTierGuide = {"speech": "italianSpeech"}
 	tbl = parser.getLineTable(1)
-	il2 = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], quiet=True)
+	il2 = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], verbose=False)
 	tbl = il2.getTable()
 	assert(tbl.shape == (1, 8))
 	assert(list(tbl["tierID"]) == ['italianSpeech'])
@@ -80,7 +80,7 @@ def test_tierMapping():
 
 	speechOnlyTierGuide = {"speech-bogus": "italianSpeech"}
 	tbl = parser.getLineTable(1)
-	il2 = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], quiet=True)
+	il2 = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], verbose=False)
 	tbl = il2.getTable()
 	assert(tbl == None)
 
@@ -91,7 +91,7 @@ def test_tierMapping():
 
 	speechOnlyTierGuide = {"speech": "italianSpeech", "morphine": "moerphemes"}
 	tbl = parser.getLineTable(1)
-	il2 = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], quiet=True)
+	il2 = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], verbose=False)
 	tbl = il2.getTable()
 	assert(tbl.shape == (1, 8))
 	assert(list(tbl["canonicalTier"]) == ["speech"])
@@ -111,7 +111,7 @@ def test_toHTML_speechOnly():
 	   # work properly in all circumstances, with 1-6 tiers
 	   #------------------------------------------------------------
 
-	il = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], quiet=True)
+	il = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], verbose=False)
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)
@@ -155,7 +155,7 @@ def test_toHTML_speechAndTranslation():
 	   # work properly in all circumstances, with 1-6 tiers
 	   #------------------------------------------------------------
 
-	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], quiet=True)
+	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=False)
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)
@@ -194,7 +194,7 @@ def test_toHTML_speechAndMorphemes():
 	   # work properly in all circumstances, with 1-6 tiers
 	   #------------------------------------------------------------
 
-	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], quiet=True)
+	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=False)
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)
@@ -240,7 +240,7 @@ def test_toHTML_speechAndMorphemesAndGlosses():
 	   # work properly in all circumstances, with 1-6 tiers
 	   #------------------------------------------------------------
 
-	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], quiet=True)
+	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=False)
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)
@@ -290,7 +290,7 @@ def test_toHTML_speechAndMorphemesAndGlossesAndTranslation():
 	   # work properly in all circumstances, with 1-6 tiers
 	   #------------------------------------------------------------
 
-	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], quiet=True)
+	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=False)
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)

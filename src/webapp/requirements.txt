@@ -1,5 +1,6 @@
 dash
 xmlschema
+lxml
 dash
 pandas
 dash_table
