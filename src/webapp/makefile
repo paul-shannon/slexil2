@@ -4,6 +4,7 @@ default:
 	@echo run
 	@echo run-minimal
 	@echo dockerBuild
+	@echo dockerBuild-noCache
 	@echo dockerBash
 	@echo dockerRun
 
@@ -23,9 +24,16 @@ run-minimal:
 dockerBuild:
 	docker build -t pshannon/slexil2 .
 
+dockerBuild-noCache:
+	docker build --no-cacher -t pshannon/slexil2 .
+
 dockerBash:
 	docker run -ti --rm -p 9004:80 pshannon/slexil2 bash
 
 dockerRun:
 	docker run -d --name slexil2Container -p 10004:8008 pshannon/slexil2
+
+dockerStop:
+	docker stop slexil2Container
+	docker rm slexil2Container
 
