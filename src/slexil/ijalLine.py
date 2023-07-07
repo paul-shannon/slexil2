@@ -48,12 +48,15 @@ class IjalLine:
     morphemeGlosses = None
     morphemeSpacing = None
 
-    def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[], quiet=True):
-        self.tbl = standardizeTable(lineTable, tierGuide, quiet)
+    def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[], verbose=True):
+        self.tbl = standardizeTable(lineTable, tierGuide, verbose)
         self.lineNumber = lineNumber
         self.tierGuide = tierGuide
         self.grammaticalTerms = grammaticalTerms
-        self.quiet = quiet
+        self.verbose = verbose
+        if(self.verbose):
+           print(self.tbl)
+
 
     def getTierCount(self):
         return (self.getTable().shape[0])
@@ -100,6 +103,10 @@ class IjalLine:
         whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
         rowNumber = rowNumbers[whichRowNumber]
         rawTranslation = self.tbl.loc[rowNumber, "text"]
+        if(rawTranslation == None):
+           return("")
+        if(len(rawTranslation) == 0):
+           return("")
         translationLine = TranslationLine(rawTranslation)
         return (translationLine.getStandardized())
 
@@ -120,7 +127,7 @@ class IjalLine:
 
         canonicalTierName = "morpheme"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(not self.quiet):
+           if(not self.verbose):
               print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
@@ -130,7 +137,9 @@ class IjalLine:
             rawMorphemeList = rawMorphemeText.split('\t')
         elif " " in rawMorphemeText:
             rawMorphemeList = rawMorphemeText.split(' ')
-
+        else:  # neither tab nor space separators
+            rawMorphemeList = rawMorphemeText
+#        pdb.set_trace()
         self.morphemes = replaceHyphensWithNDashes(rawMorphemeList)
         return (self.morphemes)
 
@@ -139,7 +148,7 @@ class IjalLine:
 
         canonicalTierName = "morphemeGloss"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(not self.quiet):
+           if(not self.verbose):
               print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
@@ -149,7 +158,8 @@ class IjalLine:
             rawMorphemeGlossList = rawMorphemeGlossText.split('\t')
         elif (" " in rawMorphemeGlossText):
             rawMorphemeGlossList = rawMorphemeGlossText.split(' ')
-
+        else:  # neither space nor tab separators found
+            rawMorphemeGlossList = rawMorphemeGlossText
         self.morphemeGlosses = replaceHyphensWithNDashes(rawMorphemeGlossList)
         return (self.morphemeGlosses)
 
@@ -318,7 +328,7 @@ def findChildren(doc, rootElement):
 #                            'translation2': None}
 # futhermore, since a speech tier is a mandatory minimum, we chack for that,
 # return None if insufficient information is provided.
-def standardizeTable(tbl, tierGuide, quiet):
+def standardizeTable(tbl, tierGuide, verbose):
 
     tierNames = tbl["tierID"].tolist()
     allCanonicalNames = ('speech', 'morpheme', 'morphemeGloss', 'translation', 'translation2')
@@ -337,7 +347,7 @@ def standardizeTable(tbl, tierGuide, quiet):
     tbl_trimmed = [tbl[tbl["tierID"].isin(keepers)]][0]
 
     # subset the tbl to only include rows with a canonical tier name 
-    if(not quiet):
+    if(not verbose):
        print("shared, recongized tierNames, keys: %s" % recognized)
 
     canonicalTier = []
@@ -347,7 +357,7 @@ def standardizeTable(tbl, tierGuide, quiet):
     # morphemeGloss
 
     revGuide = {v: k for k, v in tierGuide.items()}
-    if(not quiet):
+    if(not verbose):
         print("revGuide: %s" % revGuide)
         print("userTierNames: %s" % userTierNames)
     canonicalTierNames = [revGuide[key] for key in userTierNames]

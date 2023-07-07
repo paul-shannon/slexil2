@@ -203,14 +203,14 @@ class Text:
 			end = tbl.loc[i, "end"]
 			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" %(str(i+1),start,end)
 			startStopTimes += entry
-			if(self.verbose):
-					print(startStopTimes)
+		#if(self.verbose):
+		#	print(startStopTimes)
 
 		startStopTimes = startStopTimes[:-1] + "]"
 		startStopTimesJS = "".join(["\n<script>\n", startStopTimes, "\n</script>\n"])
-		if(self.verbose):
-			print("--- startStopTimesJS")
-			print(startStopTimesJS)
+		#if(self.verbose):
+		#	print("--- startStopTimesJS")
+		#	print(startStopTimesJS)
 		return(startStopTimesJS)
 
 	#--------------------------------------------------------------------------------	
@@ -357,7 +357,7 @@ class Text:
 					print("line %d/%d" % (i, self.lineCount))
 				lineTable = self.lineTables[i]	
 				line = IjalLine(lineTable, i, self.tierGuide,
-								self.grammaticalTerms, quiet=(not self.verbose))
+								self.grammaticalTerms, self.verbose)
 				line.extractMorphemes()
 				line.extractMorphemeGlosses()
 				line.calculateMorphemeSpacing()
