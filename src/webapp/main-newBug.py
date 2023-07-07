@@ -99,6 +99,7 @@ def downloadProjectZipFile(urlpath):
     dirname = os.path.dirname(fullPath)
     filename = os.path.basename(fullPath)
     print("---- %s" % fullPath)
+    pdb.set_trace()
 
     if urlpath[-4:] == "html" or urlpath[-3:] == "css" or urlpath[-17:] == '.html-forDownload':
         print("=== populate textArea from %s" % urlpath)
@@ -155,7 +156,6 @@ def create_eafUploader():
 #        children=['Drag and drop or ', hyperLink],
 #        id='upload-eaf-file', multiple=False, disabled=False)
 
-    print("--- create_eafUploader()")
     hyperLink = html.A(id='upload-eaf-link', children='select file')
     uploader = dcc.Upload(id='upload-eaf-file', children=['Drag and drop or ', hyperLink], multiple=False, disabled=True)
 
@@ -175,7 +175,6 @@ def create_eafUploader():
 
 # ----------------------------------------------------------------------------------------------------
 def create_eafUploaderTab():
-    print("--- create_eafUploaderTab()")
     children = [html.Div("Add .eaf file", className="stepTitle"),
                 html.Div([create_eafUploader()], className="dragDropArea"),
                 # html.Div("*Required",className="requiredLabel"),
@@ -304,10 +303,10 @@ def createAppTab():
                 html.Details(
                     [html.Summary('Upload components', className="summary"), html.Div(create_componentsUploaderTab())],
                     className="allDivs"),
-                #html.Details(
-                #    [html.Summary('Media file location', className="summary"),
-                #     html.Div(create_mediaFileLocationTab())],
-                #    className="allDivs"),
+                html.Details(
+                    [html.Summary('Media file location', className="summary"),
+                     html.Div(create_mediaFileLocationTab())],
+                    className="allDivs"),
                 html.Details(
                     [html.Summary('Create webpage', className="summary"), html.Div(create_webpageBuilderTab())],
                     className="allDivs"),
@@ -467,8 +466,7 @@ dashApp.layout = html.Div(
 
 # ----------------------------------------------------------------------------------------------------
 @dashApp.callback(Output('tab_contents', 'children'),
-                  [Input('tabs', 'value')])
-                  #prevent_initial_call=True)
+              [Input('tabs', 'value')])
 def fillTab(tab):
     print("==== filling in tab")
     if tab == 'appTab':
@@ -484,8 +482,7 @@ def fillTab(tab):
                    Output('eaf_filename_hiddenStorage', 'children')],
                    [Input('upload-eaf-file', 'contents')],
                    [State('upload-eaf-file', 'filename'),
-                    State('projectDirectory_hiddenStorage', 'children')],
-                   prevent_initial_call=True)
+                    State('projectDirectory_hiddenStorage', 'children')])
 def on_eafUpload(contents, name, projectDirectory):
     print("on_eafUpload")
     if name is None:
@@ -533,8 +530,8 @@ def on_eafUpload(contents, name, projectDirectory):
      Output('grammaticalTerms_filename_hiddenStorage', 'children')],
     [Input('upload-grammaticalTerms-file', 'contents')],
     [State('upload-grammaticalTerms-file', 'filename'),
-     State('projectDirectory_hiddenStorage', 'children')],
-    prevent_initial_call=True)
+     State('projectDirectory_hiddenStorage', 'children')]
+)
 def on_grammaticalTermsUpload(contents, name, projectDirectory):
     if name is None:
         return "", "warningOff", ""
@@ -560,8 +557,7 @@ def on_grammaticalTermsUpload(contents, name, projectDirectory):
 @dashApp.callback(
     Output('tierMapGui-div', 'children'),
     [Input("eaf_filename_hiddenStorage", 'children')],
-    [State('tierMapGui-div', 'children')],
-    prevent_initial_call=True)
+    [State('tierMapGui-div', 'children')])
 def createTierMappingMenusCallback(eafFilename, oldchildren):
     print("=== createTierMappingMenusCallback, eaf_filename_hiddenStorage trigger")
     if (eafFilename == ""):
@@ -610,8 +606,7 @@ def createTierMappingMenusCallback(eafFilename, oldchildren):
     [State('eaf_filename_hiddenStorage', 'children'),
      State('projectDirectory_hiddenStorage', 'children'),
      State('grammaticalTerms_filename_hiddenStorage', 'children'),
-     State('projectTitle_hiddenStorage', 'children')],
-     prevent_initial_call=True)
+     State('projectTitle_hiddenStorage', 'children')])
 def createWebPageCallback(n_clicks, eafFileName, projectDirectory,
                           grammaticalTermsFile, projectTitle):
     print("=== entering createWebpageCallback")
@@ -663,8 +658,8 @@ def createWebPageCallback(n_clicks, eafFileName, projectDirectory,
 @dashApp.callback(
     [Output('createPageErrorMessages', 'children'),
      Output('createPageErrorMessages', 'className')],
-    [Input('createPageErrorMessages_hiddenStorage', 'children')],
-     prevent_initial_call=True)
+    [Input('createPageErrorMessages_hiddenStorage', 'children')]
+)
 def setCreatePageErrorMessages(errorMessage):
     print("===entering setCreatePageErrorMessages callback")
     if len(errorMessage) == 0:
@@ -680,8 +675,8 @@ def setCreatePageErrorMessages(errorMessage):
      Output('upload-eaf-file', 'disabled'),
      Output('upload-grammaticalTerms-file', 'disabled')],
     [Input('setTitleButton', 'n_clicks')],
-    [State('setTitleTextInput', 'value')],
-    prevent_initial_call=True)
+    [State('setTitleTextInput', 'value')]
+)
 def setTitle(n_clicks, newTitle):
     print("=== title callback")
     if n_clicks is None:

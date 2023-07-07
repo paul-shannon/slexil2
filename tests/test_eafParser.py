@@ -1,6 +1,6 @@
 import unittest
 import pdb
-import os
+import os, sys
 from slexil.eafParser import EafParser
 import xmlschema
 from xml.etree import ElementTree as etree
@@ -16,154 +16,161 @@ if(eafFiles[-1] == ""):
 	del eafFiles[-1]
 print("eaf file count: %d" % len(eafFiles))
 
-packageRoot = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-dataDir = os.path.join(packageRoot, "data")
+#---------------------------------------------------------------------------------------------------
+def runTests():
 
-class TestEafParser(unittest.TestCase):
+	test_ctor()
+	test_tierTable()
+	test_timeTable()
+	test_depthFirstTierTraversal()
+	test_getLineTable()
+	test_parseAllLines()
 
-	def test_ctor(self):
-		print("--- test_ctor")
-		f = eafFiles[3]
-		parser = EafParser(f)
-		self.assertEqual(parser.getFilename(), f)
-		self.assertEqual(parser.xmlValid(), True)
-		
-	def test_tiersTable(self):
+#---------------------------------------------------------------------------------------------------
+def test_ctor():
 
-		print("--- test_tiersTable")
-		f = eafFiles[3]
-		parser = EafParser(f)
-		parser.constructTiersTable()
-		tbl = parser.getTierTable()
+	print("--- test_ctor")
+	f = eafFiles[3]
+	parser = EafParser(f)
+	assert(parser.getFilename() == f)
+	assert(parser.xmlValid())
 
-		   # this is the table we expect: 
-		   # TIER_ID LINGUISTIC_TYPE_REF PARENT_REF DEFAULT_LOCALE           CONSTRAINTS GRAPHIC_REFERENCES TIME_ALIGNABLE
-		   # 0         utterance          default-lt        NaN            NaN                   NaN              false           true
-		   # 1       translation         translation  utterance             en  Symbolic_Association              false          false
-		   # 2         verb form         translation  utterance             en  Symbolic_Association              false          false
-		   # 3  Speaker Initials           utterance  utterance            NaN  Symbolic_Association              false          false
+#---------------------------------------------------------------------------------------------------
+def test_tierTable():
 
-		self.assertEqual(tbl.shape, (4,7))
-		   # check column names
-		expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE',
-					'CONSTRAINTS', 'GRAPHIC_REFERENCES', 'TIME_ALIGNABLE']
-		self.assertEqual(tbl.columns.values.tolist(), expected)
-		   # check 1st column 
-		self.assertEqual(tbl["TIER_ID"].tolist(),
-						 ['utterance', 'translation', 'verb form', 'Speaker Initials'])
-		self.assertEqual(tbl["TIME_ALIGNABLE"].tolist(),
-						  ['true', 'false', 'false', 'false'])
+	print("--- test_tierTable")
+	f = eafFiles[3]
+	parser = EafParser(f)
+	#parser.constructTierTable()
+	tbl = parser.getTierTable()
 
-		  # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
-		  # must use 2 steps to handle nan
-		self.assertEqual(np.isnan(tbl.loc[0, "PARENT_REF"]), True)
-		self.assertEqual(tbl.loc[1:3, "PARENT_REF"].tolist(),
-						 ['utterance', 'utterance', 'utterance'])
+	   # this is the table we expect: 
+	   # TIER_ID LINGUISTIC_TYPE_REF PARENT_REF DEFAULT_LOCALE           CONSTRAINTS GRAPHIC_REFERENCES TIME_ALIGNABLE
+	   # 0         utterance          default-lt        NaN            NaN                   NaN              false           true
+	   # 1       translation         translation  utterance             en  Symbolic_Association              false          false
+	   # 2         verb form         translation  utterance             en  Symbolic_Association              false          false
+	   # 3  Speaker Initials           utterance  utterance            NaN  Symbolic_Association              false          false
 
+	assert(tbl.shape == (4,7))
+	   # check column names
+	expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE',
+				'CONSTRAINTS', 'GRAPHIC_REFERENCES', 'TIME_ALIGNABLE']
+	assert(tbl.columns.values.tolist() == expected)
+	   # check 1st column 
+	assert(tbl["TIER_ID"].tolist() ==
+					 ['utterance', 'translation', 'verb form', 'Speaker Initials'])
+	assert(tbl["TIME_ALIGNABLE"].tolist() ==
+					  ['true', 'false', 'false', 'false'])
 
-	def test_timeTable(self):
-
-		print("--- test_timeTable")
-		f = eafFiles[3]
-		parser = EafParser(f)
-		parser.constructTimeTable()
-		tbl = parser.getTimeTable()
-		self.assertEqual(tbl.shape, (170,5))
-		   # looks like this:
-		   # tbl.loc[1:3]
-		   #   lineID  start   end   t1   t2
-		   # 1  a1358   1400  2475  ts3  ts4
-		   # 2  a1376   2665  5090  ts5  ts6
-		   # 3  a1377   5090  7530  ts7  ts8
-
-		self.assertEqual(tbl.columns.values.tolist(),
-						 ['lineID', 'start', 'end', 't1', 't2'])
-		startTimes = tbl["start"].tolist()
-		endTimes = tbl["end"].tolist()
-		self.assertEqual(startTimes[0:3], [116,  1400, 2665])
-		self.assertEqual(endTimes[0:3],   [1380, 2475, 5090])
-		
-	#--------------------------------------------------------------------------------
-	# lines from typically all tiers are grouped with a time-aligned spoken tier
-	# we need to recover all of those lines, some of which may be nested > 1 level
-	# below the spoken tier line.  this recursive capability is tested here.
-	def test_depthFirstTierTraversal(self):
-
-		print("--- test_depthFirstTierTraversal")
-		f = eafFiles[0]
-		parser = EafParser(f)
-
-		nestedTierIDs = parser.depthFirstTierTraversal("a2")
-		self.assertEqual(nestedTierIDs, ['a6', 'a10', 'a14'])
-
-		  # a10 is a child of a6 (morpheme -> morphemeGloss)
-		nestedTierIDs = parser.depthFirstTierTraversal("a6")
-		self.assertEqual(nestedTierIDs, ['a10'])
-
-		  # a10 is a leaf node: no children
-		nestedTierIDs = parser.depthFirstTierTraversal("a10")
-		self.assertEqual(nestedTierIDs, [])
-
-		  # a1 is aligned.  it too should have 2 direct &
-		  # 1 indirect children
-		nestedTierIDs = parser.depthFirstTierTraversal("a1")
-		self.assertEqual(nestedTierIDs, ['a5', 'a9', 'a13'])
-
-		  # now a tlingit eaf
-		  # '../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf'
-
-		f = eafFiles[12]
-		print(f)
-		parser = EafParser(f)
-		nestedTierIDs = parser.depthFirstTierTraversal("a1")
-		print(nestedTierIDs)
-		#self.assertEquals(nestedTierIDs, ['a365'])
+	  # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
+	  # must use 2 steps to handle nan
+	assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
+	assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
+					 ['utterance', 'utterance', 'utterance'])
 
 
-	#--------------------------------------------------------------------------------
-	# a "line" is the parent time-aligned tier, and all of its associated child tiers
-	def test_constructLineTable(self):
+#---------------------------------------------------------------------------------------------------
+def test_timeTable():
 
-		print("--- test_constructLineTable")
-		f = eafFiles[0]
-		parser = EafParser(f)
-		self.assertEquals(parser.getLineCount(), 3)
+	print("--- test_timeTable")
+	f = eafFiles[3]
+	parser = EafParser(f)
+	#parser.constructTimeTable()
+	tbl = parser.getTimeTable()
+	assert(tbl.shape == (170,5))
+	   # looks like this:
+	   # tbl.loc[1:3]
+	   #   lineID  start   end   t1   t2
+	   # 1  a1358   1400  2475  ts3  ts4
+	   # 2  a1376   2665  5090  ts5  ts6
+	   # 3  a1377   5090  7530  ts7  ts8
 
-		parser.constructTiersTable()
-		tiers = parser.getTierTable()
+	assert(tbl.columns.values.tolist() ==
+					 ['lineID', 'start', 'end', 't1', 't2'])
+	startTimes = tbl["start"].tolist()
+	endTimes = tbl["end"].tolist()
+	assert(startTimes[0:3] == [116,  1400, 2665])
+	assert(endTimes[0:3] ==   [1380, 2475, 5090])
+	
+#---------------------------------------------------------------------------------------------------
+# lines from typically all tiers are grouped with a time-aligned spoken tier
+# we need to recover all of those lines, some of which may be nested > 1 level
+# below the spoken tier line.  this recursive capability is tested here.
+#---------------------------------------------------------------------------------------------------
+def test_depthFirstTierTraversal():
 
-		parser.constructTimeTable()
-		times = parser.getTimeTable()
-		print(times)
+	print("--- test_depthFirstTierTraversal")
+	f = eafFiles[0]
+	parser = EafParser(f)
 
-		parser.constructLineTable(1)
-		line = parser.getLineTable()
-		print(line)
+	nestedAnnotationIDs = parser.depthFirstTierTraversal("a2")
+	assert(nestedAnnotationIDs == ['a6', 'a10', 'a14'])
 
-		print("---- traversing %s", eafFiles[0])
-		for i in range(parser.getLineCount()):
-			parser.constructLineTable(i)
-			line = parser.getLineTable()
-			print(line)
+	  # a10 is a child of a6 (morpheme -> morphemeGloss)
+	nestedAnnotationIDs = parser.depthFirstTierTraversal("a6")
+	assert(nestedAnnotationIDs == ['a10'])
 
-	#--------------------------------------------------------------------------------
-	# a "line" is the parent time-aligned tier, and all of its associated child tiers
-	def test_parseAllLines(self):
+	  # a10 is a leaf node: no children
+	nestedAnnotationIDs = parser.depthFirstTierTraversal("a10")
+	assert(nestedAnnotationIDs == [])
 
-		print("--- test_parseAllLines")
-		f = eafFiles[0]
-		parser = EafParser(f)
-		self.assertEqual(parser.getLineCount(), 3)
-		parser.constructTiersTable()
-		parser.constructTimeTable()
-		parser.parseAllLines()
-		x = parser.getAllLines()
-		startTimes = [tbl.loc[0, "startTime"] for tbl in x]
-		self.assertEqual(startTimes, [0.0, 3093.0, 5624.0])
+	  # a1 is aligned.  it too should have 2 direct &
+	  # 1 indirect children
+	nestedAnnotationIDs = parser.depthFirstTierTraversal("a1")
+	assert(nestedAnnotationIDs == ['a5', 'a9', 'a13'])
+
+	  # now a tlingit eaf
+	  # '../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf'
+
+	f = eafFiles[12]  # ../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf
+	parser = EafParser(f)
+	nestedAnnotationIDs = parser.depthFirstTierTraversal("a1")
+	assert(nestedAnnotationIDs == ['a365'])
 
 
-	#--------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+# a "line" is the parent time-aligned tier, and all of its associated child tiers
+def test_getLineTable():
 
+	print("--- test_getLineTable")
+
+	f = eafFiles[0]
+	parser = EafParser(f)
+	assert(parser.getLineCount() == 3)
+
+	tbl = parser.getTierTable()
+	assert(tbl.shape == (4, 7))
+
+	tbl = parser.getTimeTable()
+	assert(tbl.shape == (3, 5))
+
+	tbl = parser.getLineTable(1)
+	assert(tbl.shape == (4, 7))
+	expected = ['id','parent','startTime','endTime','tierID','tierType','text']
+	assert(tbl.columns.tolist() == expected)
+	assert(tbl["id"].tolist() == ['a1', 'a5', 'a9', 'a13'])
+	assert(tbl["parent"].tolist() == ['', 'a1', 'a5', 'a1'])
+	expected = ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english']
+	assert(tbl["tierID"].tolist() == expected)
+	assert(tbl.loc[0, "startTime"] == 0.0)
+	assert(tbl.loc[0, "endTime"] == 3093.0)
+
+#---------------------------------------------------------------------------------------------------
+# a "line" is the parent time-aligned tier, and all of its associated child tiers
+def test_parseAllLines():
+
+	print("--- test_parseAllLines")
+	f = eafFiles[0]
+	parser = EafParser(f)
+	assert(parser.getLineCount() == 3)
+	#parser.constructTierTable()
+	#parser.constructTimeTable()
+	parser.parseAllLines()
+	x = parser.getAllLinesTable()  # a list of time-ordered line tables
+	startTimes = [tbl.loc[0, "startTime"] for tbl in x]
+	assert(startTimes == [0.0, 3093.0, 5624.0])
+
+
+#---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
-		unittest.main()
-		
+    runTests()

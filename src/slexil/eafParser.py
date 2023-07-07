@@ -26,6 +26,9 @@ class EafParser:
 		assert(self.xmlValid())
 		self.doc = etree.parse(xmlFilename)
 		self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
+		self.constructTierTable()
+		self.constructTimeTable()
+		self.parseAllLines()
 
 	#----------------------------------------------------------------------------------
 	def xmlValid(self):
@@ -53,14 +56,11 @@ class EafParser:
 		return(self.tierTable)
 	def getTimeTable(self):
 		return(self.timeTable)
-	def getLineTable(self):
-		return(self.lineTable)
-	def getAllLines(self):
+	def getAllLinesTable(self):
 		return(self.linesAll)
 
-
 	#----------------------------------------------------------------------------------
-	def constructTiersTable(self):
+	def constructTierTable(self):
 
 		   # first get the possible LINGUISTIC_TYPE_REFS.  each tier must have this
 		types = self.doc.findall("LINGUISTIC_TYPE")
@@ -131,10 +131,10 @@ class EafParser:
 	   # function scope.  to be improved.
 	def depthFirstTierTraversal(self, parentID):
 		visitList = []
-		def dfs(visited, doc, tierID):
-				if(tierID not in visitList):
-						visitList.append(tierID)
-						pattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF='%s']" % tierID
+		def dfs(visited, doc, annotationID):
+				if(annotationID not in visitList):
+						visitList.append(annotationID)
+						pattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF='%s']" % annotationID
 						kidElements = doc.findall(pattern)
 						kids = [kid.attrib["ANNOTATION_ID"] for kid in kidElements]
 						for kid in kids:
@@ -145,11 +145,12 @@ class EafParser:
 		return(visitList)
 
 	#----------------------------------------------------------------------------------
-	def constructLineTable(self, lineNumber):
+	def getLineTable(self, lineNumber):
 		rowNumber = lineNumber - 1 # rows are 0-based, lines are 1-based
 		x = self.doc.findall('TIER/ANNOTATION/ALIGNABLE_ANNOTATION')[rowNumber]
 		parentID = x.attrib["ANNOTATION_ID"]
 		tierType = x.getparent().getparent().attrib["LINGUISTIC_TYPE_REF"]
+		tierID   = x.getparent().getparent().attrib["TIER_ID"]
 		xValue = x.find("ANNOTATION_VALUE")
 		alignedID = x.attrib["ANNOTATION_ID"]
 		timeSlotRefStart = x.attrib["TIME_SLOT_REF1"]
@@ -161,6 +162,7 @@ class EafParser:
 							"parent": "",
 							"startTime": startTime,
 							"endTime": endTime,
+							"tierID": tierID,
 							"tierType": tierType,
 							"text": contents}, index=[0])
 		
@@ -172,6 +174,7 @@ class EafParser:
 			#print("childID: %s  searchPattern: %s" % (childID, searchPattern))
 			child = self.doc.find(searchPattern)
 			tierType = child.getparent().getparent().attrib["LINGUISTIC_TYPE_REF"]
+			tierID = child.getparent().getparent().attrib["TIER_ID"]
 			parentID = ""
 			if("ANNOTATION_REF" in child.attrib):
 				parentID = child.attrib["ANNOTATION_REF"]
@@ -182,9 +185,11 @@ class EafParser:
 #								"startTime": "",
 #								"endTime": "",
 								"tierType": tierType,
+								"tierID": tierID,
 								"text": childContents}
 
 		self.lineTable = tbl
+		return(tbl)
 		
 	#----------------------------------------------------------------------------------
 	def parseAllLines(self):
@@ -192,8 +197,7 @@ class EafParser:
 		self.linesAll = list()
 
 		for i in range(self.getLineCount()):
-			self.constructLineTable(i)
-			self.linesAll.append(self.getLineTable())
+			self.linesAll.append(self.getLineTable(i+1))
 
 			# do in-place sort of self.linesAll, using startTime
 			# of the time aligned tier in each line 
@@ -202,5 +206,6 @@ class EafParser:
 
 		self.linesAll.sort(reverse=False, key=sortFunction)
 		
+	#----------------------------------------------------------------------------------
 
 

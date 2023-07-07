@@ -2,6 +2,7 @@ default:
 	@echo venv
 	@echo pkgs
 	@echo run
+	@echo run-minimal
 
 venv:
 	source ~/github/slexil2/py3105/bin/activate
@@ -11,4 +12,7 @@ pkgs:
 
 run:
 	python main.py
+
+run-minimal:
+	python main-minimal.py
 
