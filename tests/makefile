@@ -1,5 +1,6 @@
 default:
 	@echo targets: venv dev test install
+	@echo install pipgit check infernoDemo
 
 venv:
 	@echo source ~/github/slexil2/py3105/bin/activate
@@ -19,3 +20,13 @@ test:
 
 install:
 	(cd ..; make install)
+
+pipgit:
+	(cd ..; make gitpip)
+
+check:
+	(cd ..; make check)
+
+infernoDemo:
+	python demoInferno.py
+	open inferno.html

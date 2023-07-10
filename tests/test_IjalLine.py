@@ -12,15 +12,6 @@ import pandas as pd
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
 #----------------------------------------------------------------------------------------------------
-def runTests():
-
-	test_toHTML_speechOnly()
-	test_toHTML_speechAndTranslation()
-	test_toHTML_speechAndMorphemes()
-	test_toHTML_speechAndMorphemesAndGlosses()
-	test_toHTML_speechAndMorphemesAndGlossesAndTranslation()
-	
-#----------------------------------------------------------------------------------------------------
 # this function checks for proper use of the tierGuide:
 #    user tier names are mapped to canonical tier names
 #    only successfully mapped tiers - maybe just speech, maybe all 6 - are
@@ -97,6 +88,32 @@ def test_tierMapping():
 	assert(list(tbl["canonicalTier"]) == ["speech"])
 		   
 #----------------------------------------------------------------------------------------------------
+def test_calculateMorphemeSpacing():
+
+	print("--- test_calculateMorphemeSpacing")
+
+	f = "../testData/inferno/inferno-threeLines.eaf"
+	parser = EafParser(f)
+	tbl = parser.getLineTable(1)
+	tierGuide = {"speech": "italianSpeech",
+	             "morpheme": "morphemes",
+	             "morphemeGloss": "morpheme-gloss",
+	             "translation": "english"}
+
+	il = IjalLine(tbl, 1, tierGuide, grammaticalTerms=[], verbose=False)
+	il.extractMorphemes()
+	il.extractMorphemeGlosses()
+	il.calculateMorphemeSpacing()
+
+	morphemes = il.getMorphemes()
+	glosses = il.getMorphemeGlosses()
+	spacing = il.getMorphemeSpacing()
+	print(spacing)
+	assert(spacing == [15, 15, 15, 16, 3, 11])
+	pdb.set_trace()
+	
+	
+#----------------------------------------------------------------------------------------------------
 def test_toHTML_speechOnly():
 
 	print("--- test_toHTML_speechOnly")
@@ -112,6 +129,8 @@ def test_toHTML_speechOnly():
 	   #------------------------------------------------------------
 
 	il = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], verbose=False)
+	extractMorphemes()
+	extractMorphemeGlosses()
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)
@@ -903,6 +922,16 @@ def test_featherSnake_toHTML(displayPage=False):
         os.system("open %s" % filename)
 
 
+#----------------------------------------------------------------------------------------------------
+def runTests():
+
+	test_calculateMorphemeSpacing()
+	#test_toHTML_speechOnly()
+	#test_toHTML_speechAndTranslation()
+	#test_toHTML_speechAndMorphemes()
+	#test_toHTML_speechAndMorphemesAndGlosses()
+	#test_toHTML_speechAndMorphemesAndGlossesAndTranslation()
+	
 #----------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     runTests()

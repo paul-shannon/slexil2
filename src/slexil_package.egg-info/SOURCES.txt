@@ -44,6 +44,7 @@ src/webapp/__init__.py
 src/webapp/explore-redirect.py
 src/webapp/main-minimal.py
 src/webapp/main-newBug.py
+src/webapp/main-old.py
 src/webapp/main.py
 tests/test_IjalLine.py
 tests/test_MorphemeGloss.py

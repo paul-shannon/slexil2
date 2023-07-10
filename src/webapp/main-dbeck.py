@@ -1,4 +1,3 @@
-
 '''
 ******************************************************************
 SLEXIL—Software Linking Elan XML to Illuminated Language
@@ -23,18 +22,23 @@ david.beck at ualberta.ca.
 '''
 
 import base64
-from zipfile import ZipFile
-
-import soundfile as soundfile
+import time
 import dash
-from dash import dcc
-from dash import html
+
+from dash import dcc, html
+
+import dash_bootstrap_components as dbc
 import flask
 import xmlschema
-import webbrowser
+
+import slexil
+from text import *
+
+
+from xml.etree import ElementTree as etree
+# import pdb
 from dash.dependencies import Input, Output, State
 from shutil import copy
-from audioExtractor import *
 from text import *
 from aboutTexts import AboutTexts
 
@@ -45,28 +49,34 @@ HTMLFILE = ""
 # ----------------------------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
 #
-assert (os.path.exists(PROJECTS_DIRECTORY))
+try:
+    assert (os.path.exists(PROJECTS_DIRECTORY))
+except AssertionError:
+    os.mkdir(PROJECTS_DIRECTORY)
 
 # ----------------------------------------------------------------------------------------------------
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbc.themes.BOOTSTRAP]
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-app.config['suppress_callback_exceptions'] = True
-app.title = "SLEXIL"
+app = flask.Flask(__name__)
+dashApp = dash.Dash(__name__, server = app, url_base_pathname = '/', external_stylesheets=external_stylesheets)
+dashApp.title = "slexil"
+#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+#flaskApp.config['suppress_callback_exceptions'] = True
+#flaskApp.title = "SLEXIL"
 
-app.scripts.config.serve_locally = True
-server = app.server
+# app.scripts.config.serve_locally = True
+# server = app.server
 
 
-#------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------
 # this route handles the download of zipped up "demo input" zip file,
 # in this case, infernoDemo.zip, which a new slexil user can run through the webapp to
 # learn the ropes
 # we may want to further qualify the route path to something like '/demos/<filename>'
 # for better separation in the slexil webapp directory structure
-#----------------------------------------------------------------------------------------------------
-@app.server.route('/demos/<filename>')
+# ----------------------------------------------------------------------------------------------------
+@app.route('/demos/<filename>')
 def downloadZip(filename):
     print("==== download zip: %s" % filename)
     path = os.path.join("demos", filename)
@@ -74,18 +84,31 @@ def downloadZip(filename):
                            mimetype='application/zip',
                            as_attachment=True)
 
-
+@app.route('/texts/<filename>')
+def downloadFile(filename):
+    print("=== entering download for texts/%s" % filename)
+    fullPath = os.path.join("texts", filename)
+    return flask.send_file(fullPath,
+                           mimetype='audio/x-wav',
+                           as_attachment=True)
+	
 # ----------------------------------------------------------------------------------------------------
-@app.server.route('/PROJECTS/<path:urlpath>')
+@app.route('/PROJECTS/<path:urlpath>')
 def downloadProjectZipFile(urlpath):
+    print("=== entering download file app.server.route")
     fullPath = os.path.join("PROJECTS", urlpath)
     dirname = os.path.dirname(fullPath)
     filename = os.path.basename(fullPath)
-    if urlpath[-4:] =="html" or urlpath[-3:] =="css":
+    print("---- %s" % fullPath)
+
+    if urlpath[-4:] == "html" or urlpath[-3:] == "css" or urlpath[-17:] == '.html-forDownload':
         print("=== populate textArea from %s" % urlpath)
         return flask.send_file(os.path.join(fullPath))
     elif urlpath[-3:] == "wav":
-        print("=== call audio file from %s" % urlpath)
+        print("=== call wav file from %s" % urlpath)
+        return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "ogg":
+        print("=== call ogg file from %s" % urlpath)
         return flask.send_file(os.path.join(fullPath))
     elif urlpath[-2:] == "js":
         print("=== call javascript file from %s" % urlpath)
@@ -105,7 +128,7 @@ def create_setTitleTab():
                               placeholder='enter convenient, concise text title here, no spaces please!',
                               value="",
                               className="titleInput")
-    setTitleButton = html.Button(type="submit",id='setTitleButton', children="submit", className="button")
+    setTitleButton = html.Button(type="submit", id='setTitleButton', children="submit", className="button")
 
     children = [setTitleButton, setTitleInput]
 
@@ -113,55 +136,69 @@ def create_setTitleTab():
 
     return div
 
+uploaderStyle = {'width': '60%',
+                 'height': '60px',
+                 'lineHeight': '60px',
+                 'borderWidth': '1px',
+                 'borderStyle': 'solid',
+                 'borderRadius': '5px',
+                 'textAlign': 'center',
+                 'font-size': "24px",
+                 'margin': '10px',
+                 'margin-left': '100px'
+                 }
+
+
 # ----------------------------------------------------------------------------------------------------
 def create_eafUploader():
 
+    print("--- create_eafUploader()")
     hyperLink = html.A(id='upload-eaf-link', children='select file')
-    uploader = dcc.Upload(children=['Drag and drop or ', hyperLink], id='upload-eaf-file', multiple=False, disabled=1)
+    uploader = dcc.Upload(id='upload-eaf-file', children=['Drag and drop or ', hyperLink], multiple=False, disabled=True)
 
     return uploader
 
 # ----------------------------------------------------------------------------------------------------
 def create_eafUploaderTab():
-
-    spinner = dcc.Loading(id="loadingEaf", type="circle")
-
-    children = [#spinner,
+    print("--- create_eafUploaderTab()")
+    loading = dcc.Loading("", id="eafuploadStatus", className="timewarning")
+    children = [html.Div("Add .eaf file", className="stepTitle"),
                 html.Div([create_eafUploader()], className="dragDropArea"),
-                html.Div("This can take a minute or two for large texts.", id="eafuploadStatus", className="timewarning")
+                html.Div(""),
+                html.Div(loading, className="progressAndInfo", style={"text-align" : "center"})
                 ]
 
     div = html.Div(children=children, id='eafUploaderDiv', className="selectionBox")
 
     return div
 
-
 # ----------------------------------------------------------------------------------------------------
-def create_soundFileUploader():
-
-    hyperLink = html.A(id='upload-sound-link', children='select file')
-    uploader = dcc.Upload(id='upload-sound-file', children=['Drag and drop or ', hyperLink], multiple=False, disabled=1)
-
-    return uploader
+def create_mediaFilenameTab():
+    print("--- create_mediaFilenameTab()")
+    label = html.Div("If needed, set an alternate file location in the box below.", id="mediaNameInstructions",
+                     className="narrowinformation")
 
 
-# ----------------------------------------------------------------------------------------------------
-def create_soundFileUploaderTab():
+    setMediaFilename = dcc.Input(id="changeMediaURL",
+                                 placeholder='filename will be read from .eaf',
+                                 value="",
+                                 className="mediaFilenamer",
+                                 disabled=True)
 
-    children = [html.Div([create_soundFileUploader()], className="dragDropArea"),
-                html.Div(children="This can take a minute or two for large files.", id="soundUploadStatus", className="timewarning")#,
-                ]
+    setMediaFilenameButton = html.Button(type="submit", id='setMediaFilenameButton', children="change url",
+                                         className="button", disabled=True)
+    children = [label,setMediaFilenameButton,setMediaFilename]
 
-    div = html.Div(children=children, id='soundFileUploaderDiv', className="selectionBox")
+
+    div = html.Div(children=children, id='mediaFileDiv', className="selectionBox")
 
     return div
 
-
 # ----------------------------------------------------------------------------------------------------
 def create_grammaticalTermsUploaderTab():
-
-    children = [html.Div([create_grammaticalTermsFileUploader()], className="dragDropArea"),
-                html.Div(id='grammaticalTermsUploadStatus', className="warningOff")
+    children = [html.Div("Add abbreviations", className="stepTitle"),
+                html.Div([create_grammaticalTermsFileUploader()], className="dragDropArea"),
+                html.Div(id='grammaticalTermsUploadStatus', className="information")
                 ]
 
     div = html.Div(children=children, id='grammaticalTermsFileUploaderDiv', className="selectionBox")
@@ -171,9 +208,11 @@ def create_grammaticalTermsUploaderTab():
 
 # ----------------------------------------------------------------------------------------------------
 def create_grammaticalTermsFileUploader():
-
     hyperLink = html.A(id='upload-grammaticalTerms-link', children='select file')
-    uploader = dcc.Upload(id='upload-grammaticalTerms-file', children=['Drag and drop or ', hyperLink], multiple=False, disabled=1)
+    uploader = dcc.Upload(id='upload-grammaticalTerms-file',
+                          children=['Drag and drop or ', hyperLink, ' (optional)'],
+                          multiple=False,
+                          disabled=True)
 
     return uploader
 
@@ -181,28 +220,28 @@ def create_grammaticalTermsFileUploader():
 # ----------------------------------------------------------------------------------------------------
 def create_webPageCreationTab():
     createAndDisplayButton = html.Button('Make page', id='createAndDisplayWebPageButton',
-                                         className="button", disabled=1)
+                                         className="button", disabled=True)
 
     downloadLinkAndButton = html.A(id="downloadURL",
                                    children=[html.Button('Download',
                                                          id="downloadAssembledTextButton",
-                                                         className='button', disabled=1)],
+                                                         className='button', disabled=True)],
                                    href='')
 
-    # createWebpageStatus = html.Span(id="createWebPageStatus", children="cwpita", style={'display': 'none'})
     previewLink = html.A('open preview', id="previewLink", href='', target='_blank')
-    createWebpageStatus = html.Div(id="createWebPageStatus", children=[previewLink, " in a new tab"],className="previewoff")#, style={'display': 'none'})
+    createWebpageStatus = html.Div(id="createWebPageStatus", children=[previewLink, "  in a new tab"],
+                                   className="previewoff")
 
-    # webPageIframe = html.Iframe(id="storyIFrame", className="webpageFrame")
     errorMessages = html.Span(id="createPageErrorMessages", children="", className="warningOff")
 
-    children = html.Div(children=[createAndDisplayButton, downloadLinkAndButton, createWebpageStatus, errorMessages],
-                         className="webFrameButtonBox")
+    # takesTime = html.Div("This can take a minute or two for large texts.", id="webPageCreationStatus",
+    #                     className="previewoff")
 
-    # children = [buttonDiv]#,
-    #             # createWebpageStatus,
-                # html.Br()]#,
-                # webPageIframe]
+    children = [html.Hr(className="divider"),
+                html.Div(children=[downloadLinkAndButton, createAndDisplayButton, createWebpageStatus, errorMessages],
+                         className="webFrameButtonBox"),
+                # takesTime,
+                html.Hr(className="paddeddivider")]
 
     div = html.Div(children=children, id='createWebPageDiv')
 
@@ -228,25 +267,38 @@ def create_tierMapGui():
 
 
 # ----------------------------------------------------------------------------------------------------
+def create_componentsUploaderTab():
+    children = [create_eafUploaderTab(),
+                create_grammaticalTermsUploaderTab(),
+                create_mediaFilenameTab()
+                ]
+    div = html.Div(children=children, id='uploadComponents-div', className='tierDiv')
+
+    return div
+
+# ----------------------------------------------------------------------------------------------------
+def create_webpageBuilderTab():
+    children = [create_tierMapGui(),
+                create_webPageCreationTab()
+                ]
+    div = html.Div(children=children, id='buildPage-div', className='tierDiv')
+
+    return div
+
+
+# ----------------------------------------------------------------------------------------------------
 def createAppTab():
     intro = create_introduction()
+
     children = [intro,
                 html.Details([html.Summary('Set title', className="summary"), html.Div(create_setTitleTab())],
                              className="allDivs", open="1"),
-                html.Details([html.Summary('Upload .eaf file', className="summary"), html.Div(create_eafUploaderTab())],
-                             className="allDivs"),
-                html.Details([html.Summary('Create tier guide', className="summary"), html.Div(create_tierMapGui())],
-                             className="allDivs"),
                 html.Details(
-                    [html.Summary('Upload audio file', className="summary"), html.Div(create_soundFileUploaderTab())],
+                    [html.Summary('Upload components', className="summary"), html.Div(create_componentsUploaderTab())],
                     className="allDivs"),
                 html.Details(
-                    [html.Summary('Upload abbreviations', className="summary"),
-                     html.Div(create_grammaticalTermsUploaderTab())],
+                    [html.Summary('Create webpage', className="summary"), html.Div(create_webpageBuilderTab())],
                     className="allDivs"),
-                html.Details(
-                    [html.Summary('Create web page', className="summary"), html.Div(create_webPageCreationTab())],
-                    className="allDivs")
                 ]
     div = html.Div(id="webapp", className="null", children=children)
     return div
@@ -261,7 +313,6 @@ def createAboutTab():
 
 # ----------------------------------------------------------------------------------------------------
 def create_allDivs():
-
     children = [
         html.H4("", className="banner", id='pageTitleH4'),
         dcc.Tabs(
@@ -277,16 +328,17 @@ def create_allDivs():
                 dcc.Tab(
                     label='About SLEXIL',
                     value='aboutTab',
-                    className = "tabbutton",
-                    selected_className = "tabbutton",
+                    className="tabbutton",
+                    selected_className="tabbutton",
                     id="aboutTab")
             ]),
         html.Div(id='tab_contents')
-        ]
+    ]
 
     div = html.Div(children=children, id='main-div', className="mainDiv")
 
     return div
+
 
 # ----------------------------------------------------------------------------------------------------
 def create_introduction():
@@ -294,12 +346,12 @@ def create_introduction():
                         in [ELAN](https://tla.mpi.nl/tools/tla-tools/elan/). Users can access this site to upload the 
                         .eaf and .wav portions of ELAN projects and download an HTML file and accompanying CSS, JavaScript, 
                         and parsed audio files that can be embedded on a webpage or viewed in a browser on any computer. 
-                        You can find a [video tutorial] (https://youtu.be/ijqnk57J9G8) on using SLEXIL on YouTube 
-                        or download a demo project to practice with by clicking on the button to the right.''')
+                        You can find a [video tutorial] (https://youtu.be/7b99pkhQibs) on using SLEXIL on YouTube 
+                        or download a demo project to practice with by clicking on the **Download Demo** button.''')
 
-    button = html.Button('download demo', className='demoButton')
-    contents = [html.A(button, href='demos/infernoDemo.zip', className="buttonCell"), 
-                html.Div(id="intro", children=[text],className="introText")]
+    button = html.Button('DOWNLOAD DEMO', className='demoButton')
+    contents = [html.A(button, href='demos/infernoDemo.zip', className="buttonCell"),
+                html.Div(id="intro", children=[text], className="introText")]
     div = html.Div(children=contents, className='introduction', id='preamble')
 
     return div
@@ -342,7 +394,7 @@ def createTierMappingMenus(eafFilename):
                      html.Td(createPulldownMenu("transcription2", tierChoices))]),
             html.Tr([html.Td("morphological analysis"), html.Td("taŋʔeː–š’a̰ʔáː–maːɬ=tsá̰"),
                      html.Td(createPulldownMenu("morpheme", tierChoices))]),
-            html.Tr([html.Td("morpheme glosses"),
+            html.Tr([html.Td("morphemic glosses"),
                      html.Td(children=[
                          html.Div("basin–", style={'display': 'inline-block'}),
                          html.Div("shine", style={'display': 'inline-block'}),
@@ -351,8 +403,7 @@ def createTierMappingMenus(eafFilename):
                      ]),
                      html.Td(createPulldownMenu("morphemeGloss", tierChoices))]),
             html.Tr([html.Td(children=[
-                html.Div("translation", style={'display': 'inline-block'}),
-                html.Div("*", style={'display': 'inline-block', 'color': 'red'})]),
+                html.Div("translation", style={'display': 'inline-block'})]),
                 html.Td("‘The horizon is growing light.’"), html.Td(createPulldownMenu("translation", tierChoices))]),
             html.Tr([html.Td("second translation"), html.Td("‘Está aclarando donde sale el sol.’"),
                      html.Td(createPulldownMenu("translation2", tierChoices))])
@@ -363,7 +414,7 @@ def createTierMappingMenus(eafFilename):
                                                className="button")
 
     tierMappingChoicesResultDisplay = html.Span(id="tierMappingChoicesResultDisplay", children="",
-                                                style={"border": 1, "margin-left": 10})
+                                                style={"border": 1, "margin-left": 10, "font-size": "12pt"})
     requiredTiersFootnote = html.Span("*Required", id='requiredTiersFootnote', className="warningfootnote")
 
     children = [dropDownMenus,
@@ -377,14 +428,13 @@ def createTierMappingMenus(eafFilename):
 
 
 # ----------------------------------------------------------------------------------------------------
-app.layout = html.Div(
+# progressBar = dbc.Progress("Working ...", id='progress', value=0, striped=True, animated=True, style={'display': 'inline'})
+dashApp.layout = html.Div(
     children=[
         create_allDivs(),
         html.P(id='projectTitle_hiddenStorage', children="", style={'display': 'none'}),
         html.P(id='projectDirectory_hiddenStorage', children="", style={'display': 'none'}),
-        html.P(id='eaf_filename_hiddenStorage', children="", style={'display': 'none'}),
-        html.P(id='sound_filename_hiddenStorage', children="", style={'display': 'none'}),
-        html.P(id='audioPhraseDirectory_hiddenStorage', children="", style={'display': 'none'}),
+        html.P(id='eaf_filename_hiddenStorage', children=[], style={'display': 'none'}),
         html.P(id='grammaticalTerms_filename_hiddenStorage', children="", style={'display': 'none'}),
         html.P(id='tierGuide_filename_hiddenStorage', children="", style={'display': 'none'}),
         html.P(id='speechTier_hiddenStorage', children="", style={'display': 'none'}),
@@ -393,7 +443,9 @@ app.layout = html.Div(
         html.P(id='morphemeGlossTier_hiddenStorage', children="", style={'display': 'none'}),
         html.P(id='translationTier_hiddenStorage', children="", style={'display': 'none'}),
         html.P(id='translation2Tier_hiddenStorage', children="", style={'display': 'none'}),
-        html.P(id='createPageErrorMessages_hiddenStorage', children="", style={'display': 'none'})
+        html.P(id='createPageErrorMessages_hiddenStorage', children="", style={'display': 'none'}),
+        html.P(id='mediaFile_hiddenStorage', children="", style={'display': 'none'}),
+        html.P(id='mediaMimeType_hiddenStorage', children="", style={'display': 'none'})
     ],
     className="row",
     id='outerDiv'
@@ -401,8 +453,9 @@ app.layout = html.Div(
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(Output('tab_contents', 'children'),
-            [Input('tabs', 'value')])
+@dashApp.callback(Output('tab_contents', 'children'),
+                  [Input('tabs', 'value')])
+                  #prevent_initial_call=True)
 def fillTab(tab):
     print("==== filling in tab")
     if tab == 'appTab':
@@ -413,122 +466,81 @@ def fillTab(tab):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback([Output('eafuploadStatus', 'children'),
-               Output('eafuploadStatus', 'className'),
-               Output('eaf_filename_hiddenStorage', 'children')],
-              [Input('upload-eaf-file', 'contents')],
-              [State('upload-eaf-file', 'filename'),
-               State('projectDirectory_hiddenStorage', 'children')])
+@dashApp.callback([Output('eafuploadStatus', 'children'),
+                   Output('eafuploadStatus', 'className'),
+                   Output('eaf_filename_hiddenStorage', 'children'),
+                   Output('mediaFile_hiddenStorage', 'children'),
+                   Output('mediaMimeType_hiddenStorage','children')],
+                   [Input('upload-eaf-file', 'contents')],
+                   [State('upload-eaf-file', 'filename'),
+                    State('projectDirectory_hiddenStorage', 'children')],
+                   prevent_initial_call=True)
 def on_eafUpload(contents, name, projectDirectory):
+    print("on_eafUpload")
     if name is None:
-        return ("This can take a minute or two for large texts.", "timewarning", "")
+        return ("", "timewarning", "","","")
     print("on_eafUpload, name: %s" % name)
     data = contents.encode("utf8").split(b";base64,")[1]
+    # print("len(data) = %d" %len(data))
     filename = os.path.join(projectDirectory, name)
     if not filename[-4:] == '.eaf':
         eaf_validationMessage = '☠️ Please select a valid ELAN project (.eaf) file.'
-        return eaf_validationMessage, "timewarning", ''
+        return eaf_validationMessage, "timewarning", '', 1,"","",""
     with open(filename, "wb") as fp:
         fp.write(base64.decodebytes(data))
-        fileSize = os.path.getsize(filename)
-        print("eaf file size: %d" % fileSize)
-        schema = xmlschema.XMLSchema('http://www.mpi.nl/tools/elan/EAFv3.0.xsd')
+    print("Filename: %s" %filename)
+    assert(os.path.isfile(filename))
+    fileSize = os.path.getsize(filename)
+    print("eaf file size: %d" % fileSize)
+    schema = xmlschema.XMLSchema('http://www.mpi.nl/tools/elan/EAFv3.0.xsd')
+    try:
         validXML = schema.is_valid(filename)
-        eaf_validationMessage = "👍︎ File %s (%d bytes) is valid." % (name, fileSize)
-        if (not validXML):
-            try:
-                schema.validate(filename)
-            except xmlschema.XMLSchemaValidationError as e:
-                failureReason = e.reason
-                eaf_validationMessage = "☠️ XML parsing error: %s [File: %s]" % (failureReason, filename)
-        return eaf_validationMessage, "information",filename
-
-
-# ----------------------------------------------------------------------------------------------------
-def extractSoundPhrases(soundFileName, eafFileName, projectDirectory):
-    print("=== extractSoundPhrases")
-    soundFile = os.path.basename(soundFileName)
-    eafFile = os.path.basename(eafFileName)
-    print("soundFileName: %s" % soundFileName)
-    print("eafFileName: %s" % eafFile)
-    soundFileFullPath = os.path.join(projectDirectory,soundFile)
-    phraseFileCount = extractPhrases(soundFileFullPath, eafFileName, projectDirectory)
-    print("=== enable next button in sequence (upload abbreviations)")
-    return "parsed into %d lines." % (phraseFileCount)
-
-
-# ----------------------------------------------------------------------------------------------------
-@app.callback([Output('soundUploadStatus', 'children'),
-               Output('soundUploadStatus', 'className'),
-               Output('sound_filename_hiddenStorage', 'children'),
-                Output('upload-grammaticalTerms-file', 'disabled'),
-                Output('createAndDisplayWebPageButton', 'disabled')],
-              [Input('upload-sound-file', 'contents')],
-              [State('upload-sound-file', 'filename'),
-                State('eaf_filename_hiddenStorage', 'children'),
-               State('projectDirectory_hiddenStorage', 'children')])
-def on_soundUpload(contents, name, eafilename, projectDirectory):
-    if name is None:
-        return "This can take a minute or two for large files.","timewarning", "", 1, 1
-    print("=== on_soundUpload")
-    data = contents.encode("utf8").split(b";base64,")[1]
-    filename = os.path.join(projectDirectory, name)
-    # if not filename[-4:] == ".wav" and not filename[-4:] == ".WAV":
-    #     sound_validationMessage = "Please select a WAVE (.wav) file."
-    #     return sound_validationMessage,"timewarning", "", 1, 1
-    print("=== opening file")
-    with open(filename, "wb") as fp:
-        fp.write(base64.decodebytes(data))
-        fileSize = os.path.getsize(filename)
-        errorMessage = ""
-        validSound = True
+    except etree.ParseError as e:
+        import xml.parsers.expat
+        error = xml.parsers.expat.errors.messages[e.code]
+        eaf_validationMessage = "☠️ XML parsing error: %s [File: %s]" % (error, name)
+        return eaf_validationMessage, "timewarning", '', 1,"",""
+    eaf_validationMessage = "👍︎ File %s (%d bytes) is valid." % (name, fileSize)
+    if (not validXML):
         try:
-            mtx, rate = soundfile.read(filename)
-        except (ValueError, RuntimeError) as e:
-            print("exeption in .wav file: %s" % e)
-            rate = -1
-            validSound = False
-            errorMessage = str(e)
-        print("sound file size: %d, rate: %d" % (fileSize, rate))
-        if validSound:
-            sound_validationMessage = "👍︎ Sound file: %s (%d bytes), " % (name, fileSize)
-            extractionMessage = extractSoundPhrases(name, eafilename, projectDirectory)
-            sound_validationMessage += extractionMessage
-            return sound_validationMessage,"information", filename, 0, 0
-        else:
-            if "Unsupported bit depth: the wav file has 24-bit data" in errorMessage:
-                sound_validationMessage = "☠️ File %s (%d byes) has 24-bit data, must be minimum 32-bit." % (
-                    name, fileSize)
-            elif "File contains data in an unknown format" in errorMessage:
-                sound_validationMessage = "☠️ File %s unsupported format (see About SLEXIL)." % (
-                    name)
-            else:
-                sound_validationMessage = "☠️ Bad sound file: %s [File: %s (%d bytes)]" % (errorMessage, name, fileSize)
-            return sound_validationMessage,"timewarning", filename, 1, 1
+            schema.validate(filename)
+        except xmlschema.XMLSchemaValidationError as e:
+            failureReason = e.reason
+            eaf_validationMessage = "☠️ XML parsing error: %s [File: %s]" % (failureReason, name)
+            return eaf_validationMessage, "timewarning", '', 1,"",""
+        # eaf_validationMessage = "👍︎ File %s (%d bytes) is valid." % (name, fileSize)
+    print("=== enabling next sequence (Upload audio)")
+    tmpDoc = etree.parse(filename)
+    filePath = tmpDoc.findall("HEADER/MEDIA_DESCRIPTOR")[0].attrib["MEDIA_URL"]
+    mediaFile = os.path.basename(filePath)
+    mimeType = tmpDoc.findall("HEADER/MEDIA_DESCRIPTOR")[0].attrib["MIME_TYPE"]
+    print("Media file: %s" %mediaFile)
+    print("MIME type: %s" %mimeType)
+    return (eaf_validationMessage, "information", filename, mediaFile, mimeType)
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     [Output('grammaticalTermsUploadStatus', 'children'),
      Output('grammaticalTermsUploadStatus', 'className'),
      Output('grammaticalTerms_filename_hiddenStorage', 'children')],
     [Input('upload-grammaticalTerms-file', 'contents')],
     [State('upload-grammaticalTerms-file', 'filename'),
-     State('projectDirectory_hiddenStorage', 'children')]
-    )
+     State('projectDirectory_hiddenStorage', 'children')],
+    prevent_initial_call=True)
 def on_grammaticalTermsUpload(contents, name, projectDirectory):
     if name is None:
-        return "","warningOff",""
+        return "", "warningOff", ""
     print("=== on_grammaticalTermsUpload")
     filename = os.path.join(projectDirectory, name)
     if filename[-4:] == '.eaf':
-        return "☠️ Please select a text file, not the ELAN project file (.eaf).","timewarning",""
+        return "☠️ Please select a text file, not the ELAN project file (.eaf).", "timewarning", ""
     encodedString = contents.encode("utf8").split(b";base64,")[1]
     decodedString = base64.b64decode(encodedString)
     try:
         s = decodedString.decode('utf-8')
     except UnicodeDecodeError:
-        return "☠️ Please select a text (UTF-8) file.", "timewarning",""
+        return "☠️ Please select a text (UTF-8) file.", "timewarning", ""
     s = s.replace("\t", "")
     with open(filename, "w") as fp:
         fp.write(s)
@@ -538,10 +550,11 @@ def on_grammaticalTermsUpload(contents, name, projectDirectory):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('tierMapGui-div', 'children'),
     [Input("eaf_filename_hiddenStorage", 'children')],
-    [State('tierMapGui-div', 'children')])
+    [State('tierMapGui-div', 'children')],
+    prevent_initial_call=True)
 def createTierMappingMenusCallback(eafFilename, oldchildren):
     print("=== createTierMappingMenusCallback, eaf_filename_hiddenStorage trigger")
     if (eafFilename == ""):
@@ -551,138 +564,147 @@ def createTierMappingMenusCallback(eafFilename, oldchildren):
         print("the current children of tierMapGui are %s" % oldchildren)
     return (createTierMappingMenus(eafFilename))
 
-
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
-    Output('audioPhraseDirectory_hiddenStorage', 'children'),
-    [Input('associateEAFAndSoundInfoTextArea', 'value')])
-def update_output(value):
-    print("=== callback triggered by associateEAFAndSoundTextArea change: %s" % value)
-    phraseDirectory = value.split(":")[0]
-    return (phraseDirectory)
-
-
-# ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     [Output('previewLink', 'href'),
      Output('downloadAssembledTextButton', 'disabled'),
      Output('createPageErrorMessages_hiddenStorage', 'children'),
      Output('createWebPageStatus', 'className')],
     [Input('createAndDisplayWebPageButton', 'n_clicks')],
-    [State('sound_filename_hiddenStorage', 'children'),
-     State('eaf_filename_hiddenStorage', 'children'),
+    [State('eaf_filename_hiddenStorage', 'children'),
      State('projectDirectory_hiddenStorage', 'children'),
      State('grammaticalTerms_filename_hiddenStorage', 'children'),
-     State('projectTitle_hiddenStorage', 'children')])
-def createWebPageCallback(n_clicks, soundFileName, eafFileName, projectDirectory,
-                          grammaticalTermsFile, projectTitle):
-    if n_clicks is None:
-        return ("", 1, "","previewoff")
+     State('projectTitle_hiddenStorage', 'children'),
+     State('mediaFile_hiddenStorage', 'children'),
+     State('mediaMimeType_hiddenStorage','children')],
+     prevent_initial_call=True)
+def createWebPageCallback(n_clicks, eafFileName, projectDirectory,
+                          grammaticalTermsFile, projectTitle, mediaFile, mimeType):
+    print("=== entering createWebpageCallback")
+    print("n_clicks is ", n_clicks)
+    if n_clicks == None:
+        return ("", 1, "", "previewoff")
     print("=== create web page callback")
     print("eaf: %s" % eafFileName)
-    print("audio phrases in: %s/audio" % projectDirectory)
+    tierGuide = os.path.join(projectDirectory, "tierGuide.yaml")
+    # pdb.set_trace()
     if (grammaticalTermsFile == ""):
         grammaticalTermsFile = None
     else:
         print("grammaticalTermsFile: %s" % grammaticalTermsFile)
 
     htmlDoc = createWebPage(eafFileName, projectDirectory, grammaticalTermsFile,
-                            os.path.join(projectDirectory, "tierGuide.yaml"), soundFileName)
+                            tierGuide, mediaFile, mimeType)
 
     webpageAt = os.path.join(projectDirectory, "%s.html" % projectTitle)
     absolutePath = os.path.abspath(webpageAt)
     print("webpage: %s" % webpageAt)
-    file = open(absolutePath, "w")
-    file.write(htmlDoc)
+    with open(absolutePath, "w") as file:
+        file.write(htmlDoc)
+    file.close()
+       # http GET on xxx.html files displays that file in the browser
+       # use another suffix to accoplish an actual download
+    absolutePathToDownloadableHtmlFile = "%s-forDownload" % absolutePath
+    print("url for download: %s" % absolutePathToDownloadableHtmlFile)
+    with open(absolutePathToDownloadableHtmlFile, "w") as file:
+        file.write(htmlDoc)
     file.close()
     errorLog = os.path.abspath(os.path.join(projectDirectory, "ERRORS.log"))
+    errorMessage = ''
     if os.path.isfile(errorLog):
         with open(errorLog) as elog:
             logContents = elog.read()
             if "WARNING" in logContents:
-                return ("wrote file", 0, "Wrote file. Check error log for formatting issues.")
+                errorMessage = "Wrote file. Check error log for formatting issues."
 
-    createZipFile(projectDirectory, projectTitle)
-    newButtonState = 0
+    #createZipFile(projectDirectory, projectTitle)
+    # newButtonState = 0
     print("=== activating hyperLink to %s" % webpageAt)
+    # pdb.set_trace()
     print("=== leaving web page callback")
-    return (webpageAt, newButtonState, "","previewon")
+    return (webpageAt, 0, errorMessage, "previewon")
+
 
 # ----------------------------------------------------------------------------------------------------
-# @app.callback(Output('createWebPageStatus', 'className'),
-#     [Input('previewLink', 'href')])
-# def display_preview_link(newHref):
-#     if len(newHref) == 0:
-#         return("previewoff")
-#     print("=== activating hyperLink to %s" %newHref)
-#     return("previewon")
-# ----------------------------------------------------------------------------------------------------
-# def open_preview(source):
-#     print("=== entering open preview")
-#     currentDirectoryOnEntry = os.getcwd()
-#     filenameFullPath = os.path.join(currentDirectoryOnEntry, source)
-#     print("displaying page %s" %filenameFullPath)
-#     webbrowser.open_new_tab("file://%s" % filenameFullPath)
-
-# ----------------------------------------------------------------------------------------------------
-# @app.callback(
-#     [Output('storyIFrame', 'src'),
-#      Output('previewLink','href')],
-#     [Input('createWebPageStatus', 'display')],
-#     [State('projectDirectory_hiddenStorage', 'children'),
-#      State('projectTitle_hiddenStorage', 'children')])
-# def displayText(createWebPageStatus, projectDirectory, projectTitle):
-#     print("=== displayText '%s'" % createWebPageStatus)
-#     # if createWebPageStatus == 'cwpita':
-#     #     return ("","")
-#     # if (len(createWebPageStatus) == 0):
-#     #     return ("","")
-#     pathToHTML = os.path.join(projectDirectory, "%s.html" % projectTitle)
-#     print("=== storyIFrame display %s" % pathToHTML)
-#     currentDirectoryOnEntry = os.getcwd()
-#     filenameFullPath = os.path.join(currentDirectoryOnEntry, pathToHTML)
-#     print("displaying page %s" %filenameFullPath)
-#     fileURL = 'file://%s' %filenameFullPath
-#     return (pathToHTML,fileURL)
-
-# ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     [Output('createPageErrorMessages', 'children'),
      Output('createPageErrorMessages', 'className')],
-    [Input('createPageErrorMessages_hiddenStorage', 'children')]
-)
+    [Input('createPageErrorMessages_hiddenStorage', 'children')],
+     prevent_initial_call=True)
 def setCreatePageErrorMessages(errorMessage):
+    print("===entering setCreatePageErrorMessages callback")
     if len(errorMessage) == 0:
         className = 'warningOff'
     else:
-        className = 'warningOn'
+        className = 'formatWarningOn'
     return (errorMessage, className)
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     [Output('projectTitle_hiddenStorage', 'children'),
-     Output('upload-eaf-file', 'disabled')],
+     Output('upload-eaf-file', 'disabled'),
+     Output('upload-grammaticalTerms-file', 'disabled')],
     [Input('setTitleButton', 'n_clicks')],
-    [State('setTitleTextInput', 'value')]
-)
+    [State('setTitleTextInput', 'value')],
+    prevent_initial_call=True)
 def setTitle(n_clicks, newTitle):
     print("=== title callback")
     if n_clicks is None:
         print("n_clicks is None")
-        return "", 1
+        return "", 1, 1
     if len(newTitle) == 0:
         print("no title provided")
-        return "", 1
+        return "", 1, 1
     print("nClicks: %d, currentTitle: %s" % (n_clicks, newTitle))
     print("=== set project title")
     print("=== enable next button in sequence (upload .eaf file)")
     newTitle = newTitle.strip()
-    return newTitle, 0
+    newTitle = newTitle.replace(" ", "_")
+    return newTitle, 0, 0
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
+    [Output('changeMediaURL', 'disabled'),
+     Output('setMediaFilenameButton', 'disabled'),
+     Output('changeMediaURL', 'value')],
+    [Input('mediaFile_hiddenStorage', 'children')],
+    prevent_initial_call=True)
+def setMediaFilename(value):
+    print("=== set media file name: %s" %value)
+    if len(value) == 0:
+        print("no media file")
+        return (1, 1, "")
+    return (0, 0,value)
+
+# ----------------------------------------------------------------------------------------------------
+@dashApp.callback(
+    [Output('mediaFile_hiddenStorage', 'children', allow_duplicate=True)],
+    [Input('setMediaFilenameButton', 'n_clicks')],
+    [State('changeMediaURL', 'value'),
+     State('mediaFile_hiddenStorage', 'children')],
+    prevent_initial_call=True)
+def setNewMediaURL(n_clicks, newURL, oldURL):
+    print("=== new media URL callback")
+    print(oldURL)
+    if n_clicks is None:
+        print("n_clicks is None")
+        if len(oldURL) == 0:
+            return [""]
+        else:
+            return oldURL
+    if len(newURL) == 0:
+        print("no file name provided")
+        return oldURL
+    print("nClicks: %d, currentURL: %s" % (n_clicks, newURL))
+    print("=== set new media file URL")
+    newURL = newURL.strip()
+    newURL = newURL.replace(" ", "_")
+    return [newURL]
+
+# ----------------------------------------------------------------------------------------------------
+@dashApp.callback(
     Output('projectDirectory_hiddenStorage', 'children'),
     [Input('projectTitle_hiddenStorage', 'children')]
 )
@@ -699,7 +721,7 @@ def update_output(projectTitle):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('pageTitleH4', 'children'),
     [Input('projectDirectory_hiddenStorage', 'children')]
 )
@@ -714,7 +736,7 @@ def update_pageTitle(projectDirectory):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('speechTier_hiddenStorage', 'children'),
     [Input('tierGuideMenu-speech', 'value')])
 def updateSpeechTier(value):
@@ -725,7 +747,7 @@ def updateSpeechTier(value):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('translationTier_hiddenStorage', 'children'),
     [Input('tierGuideMenu-translation', 'value')])
 def updateTranslationTier(value):
@@ -736,7 +758,7 @@ def updateTranslationTier(value):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('morphemeTier_hiddenStorage', 'children'),
     [Input('tierGuideMenu-morpheme', 'value')])
 def updateMorphemeTier(value):
@@ -747,7 +769,7 @@ def updateMorphemeTier(value):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('morphemeGlossTier_hiddenStorage', 'children'),
     [Input('tierGuideMenu-morphemeGloss', 'value')])
 def updateMorphemeGlossTier(value):
@@ -758,7 +780,7 @@ def updateMorphemeGlossTier(value):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('translation2Tier_hiddenStorage', 'children'),
     [Input('tierGuideMenu-translation2', 'value')])
 def updateTranslation2Tier(value):
@@ -769,7 +791,7 @@ def updateTranslation2Tier(value):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     Output('transcription2Tier_hiddenStorage', 'children'),
     [Input('tierGuideMenu-transcription2', 'value')])
 def updateTranscription2Tier(value):
@@ -780,10 +802,10 @@ def updateTranscription2Tier(value):
 
 
 # ----------------------------------------------------------------------------------------------------
-@app.callback(
+@dashApp.callback(
     [Output('tierMappingChoicesResultDisplay', 'children'),
-    Output('tierGuide_filename_hiddenStorage', 'children'),
-     Output('upload-sound-file', 'disabled')],
+     Output('tierGuide_filename_hiddenStorage', 'children'),
+     Output('createAndDisplayWebPageButton', 'disabled')],
     [Input('saveTierMappingSelectionsButton', 'n_clicks')],
     [State('speechTier_hiddenStorage', 'children'),
      State('transcription2Tier_hiddenStorage', 'children'),
@@ -795,23 +817,23 @@ def updateTranscription2Tier(value):
 def saveTierMappingSelection(n_clicks, speechTier, transcription2Tier, morphemeTier, morphemeGlossTier, translationTier,
                              translation2Tier, projectDirectory):
     if n_clicks is None:
-        return ("", 1)
+        return ("", "", 1)
     print("== save tierMappingSelections")
     if len(speechTier) == 0:
         print("speechTier not mapped")
-        return ("☠️ You must specify a tier for the first line.","", 1)
+        return ("☠️ You must specify a tier for the first line.", "", 1)
 
-    if len(translationTier) == 0:
-        print("translationTier not mapped")
-        return ("☠️ You must specify a tier for the translation.","", 1)
+    # if len(translationTier) == 0:
+    #     print("translationTier not mapped")
+    #     return ("☠️ You must specify a tier for the translation.", "", 1)
 
     if len(morphemeTier) != 0 and len(morphemeGlossTier) == 0:
         print("morpheme tier but no morphemeGlossTier")
-        return ("☠️ You must specify the tier for the morpheme glosses.","", 1)
+        return ("☠️ You must specify the tier for the morpheme glosses.", "", 1)
 
     if len(morphemeTier) == 0 and len(morphemeGlossTier) != 0:
         print("morpheme tier but no morphemeGlossTier")
-        return ("☠️ You must specify the tier where the line is parsed.","", 1)
+        return ("☠️ You must specify the tier where the line is parsed.", "", 1)
 
     print("tierGuide.yaml contains")
     print("   speechTier: %s" % speechTier)
@@ -822,20 +844,7 @@ def saveTierMappingSelection(n_clicks, speechTier, transcription2Tier, morphemeT
     print("   translation2Tier: %s" % translation2Tier)
     saveTierGuide(projectDirectory, speechTier, transcription2Tier, morphemeTier, morphemeGlossTier, translationTier,
                   translation2Tier)
-    print("=== enabling next sequence (Upload audio)")
-    return ("👍 Your selections have been saved.","tierGuide.yaml", 0)
-
-
-# ----------------------------------------------------------------------------------------------------
-@app.callback(Output('saveWebpageProgressTextArea', 'children'),
-              [Input('confirmDownLoadObject', 'submit_n_clicks')],
-              [State('projectTitle_hiddenStorage', 'children')])
-def confirmDownload(submit_n_clicks, projectTitle):
-    if not submit_n_clicks:
-        return ''
-    print("creating zip file")
-    fullPath = createZipFile(projectTitle)
-    return ("saved web page: %s" % fullPath)
+    return ("👍 Your selections have been saved.", "tierGuide.yaml", 0)
 
 
 # ----------------------------------------------------------------------------------------------------
@@ -844,15 +853,15 @@ def confirmDownload(submit_n_clicks, projectTitle):
 # webpage.zip, which is written into the href field of the html.A (or link) which nests the
 # assembleTextButton
 # ----------------------------------------------------------------------------------------------------
-@app.callback(Output('downloadURL', 'href'),
+@dashApp.callback(Output('downloadURL', 'href'),
               [Input('projectDirectory_hiddenStorage', 'children')],
               [State('projectTitle_hiddenStorage', 'children')])
 def updateDownloadTextButtonHref(directory, projectTitle):
     print("=== projectDirectory_hiddenStorage changed, updateDownloadTextButtonHref: %s" % directory)
-    projectTitle += '.zip'
+    projectTitle += '.html-forDownload'
     print(projectTitle)
-    pathToZip = os.path.join(directory, projectTitle)
-    return (pathToZip)
+    pathToDownload = os.path.join(directory, projectTitle)
+    return (pathToDownload)
 
 
 # ----------------------------------------------------------------------------------------------------
@@ -872,25 +881,9 @@ def saveTierGuide(projectDirectory, speechTier, transcription2Tier, morphemeTier
 
     print("saved tierMap to %s" % filename)
 
-# ----------------------------------------------------------------------------------------------------
-def extractPhrases(soundFileFullPath, eafFileFullPath, projectDirectory):
-    print("=== entering extractPhrases")
-    print("soundFileFullPath: %s" % soundFileFullPath)
-    print("projectDirectory: %s" % projectDirectory)
-    audioDirectory = os.path.join(projectDirectory, "audio")
-
-    if not os.path.exists(audioDirectory):
-        os.makedirs(audioDirectory)
-    copy(soundFileFullPath, audioDirectory)
-    ea = AudioExtractor(soundFileFullPath, eafFileFullPath, audioDirectory)
-    assert (ea.validInputs)
-    ea.extract(quiet=True)
-    phraseFileCount = len(os.listdir(audioDirectory))-1
-    return (phraseFileCount)
-
 
 # ----------------------------------------------------------------------------------------------------
-def createWebPage(eafFileName, projectDirectory, grammaticalTermsFileName, tierGuideFileName, soundFileName):
+def createWebPage(eafFileName, projectDirectory, grammaticalTermsFileName, tierGuideFileName, mediaFile, mimeType):
     print("=== entering createWebPage")
     audioDirectoryRelativePath = "audio"
     print("eafFileName: %s" % eafFileName)
@@ -898,25 +891,37 @@ def createWebPage(eafFileName, projectDirectory, grammaticalTermsFileName, tierG
     print("audioDirectoryRelativePath: %s" % audioDirectoryRelativePath)
     print("grammaticalTermsFile: %s" % grammaticalTermsFileName)
     print("tierGuideFile: %s" % tierGuideFileName)
-    print("soundFile: %s" %soundFileName)
 
     text = Text(eafFileName,
-                soundFileName,
                 grammaticalTermsFileName,
                 tierGuideFileName,
-                projectDirectory)
+                projectDirectory,
+                verbose=True,
+                fontSizeControls=False,
+                startLine=None,
+                endLine=None,
+                kbFilename=None,
+                linguisticsFilename=None)
+
+    print("==setting media file name")
+    text.setMediaURL(mediaFile,mimeType)
+    print("Media file is: %s" %mediaFile)
+    print("MIME type is: %s" %mimeType)
     print("=== leaving createWebPage")
+    # pdb.set_trace()
     return (text.toHTML())
 
 
 # ----------------------------------------------------------------------------------------------------
 def createZipFile(projectDir, projectTitle):
+    print("=== entering createZipFile")
     currentDirectoryOnEntry = os.getcwd()
     os.chdir(projectDir)
     print(projectDir)
 
-    audioDir = "audio"
-    filesToSave = [os.path.join("audio", f) for f in os.listdir(audioDir) if f.endswith('.wav')]
+    # audioDir = "audio"
+    # filesToSave = [os.path.join("audio", f) for f in os.listdir(audioDir)]  # if f.endswith('.wav')]
+    filesToSave = []
     filesToSave.insert(0, "%s.html" % projectTitle)
 
     # zipfile is named for project
@@ -924,16 +929,17 @@ def createZipFile(projectDir, projectTitle):
     zipFilenameFullPath = os.path.join(currentDirectoryOnEntry, projectDir, zipFilename)
     zipHandle = ZipFile(zipFilename, 'w')
 
-    # filesToSave includes ijal.css, ijalUtils.js
+    # filesToSave includes ijal.css, slexil.js
+    # jquery file now accessible via internet, but may compromise offline use?
     CSSfile = os.path.join(currentDirectoryOnEntry, "ijal.css")
-    scriptFile = os.path.join(currentDirectoryOnEntry, "ijalUtils.js")
-    jqueryFile = os.path.join(currentDirectoryOnEntry, "jquery-3.3.1.min.js")
+    scriptFile = os.path.join(currentDirectoryOnEntry, "slexil.js")
+    # jqueryFile = os.path.join(currentDirectoryOnEntry, "jquery-3.3.1.min.js")
     copy(CSSfile, os.getcwd())
     copy(scriptFile, os.getcwd())
-    copy(jqueryFile, os.getcwd())
+    # copy(jqueryFile, os.getcwd())
     filesToSave.append("ijal.css")
-    filesToSave.append("ijalUtils.js")
-    filesToSave.append("jquery-3.3.1.min.js")
+    filesToSave.append("slexil.js")
+    # filesToSave.append("jquery-3.3.1.min.js")
     if os.path.isfile("ERRORS.log"):
         print("=== adding errors log to .zip file")
         errorLog = ("ERRORS.log")
@@ -946,15 +952,11 @@ def createZipFile(projectDir, projectTitle):
 
     os.chdir(currentDirectoryOnEntry)
     print(zipFilenameFullPath)
+    print("=== leaving createZipFile")
     return (zipFilenameFullPath)
 
 
 # ----------------------------------------------------------------------------------------------------
-# enable these lines for running from bash and python
-# if __name__ == "__main__":
-#   app.run_server(host='0.0.0.0', port=60041)
-
-# enable these lines if running with gunicorn
 if __name__ == "__main__":
-    server = app.server
-    app.run()
+    app.run(host='0.0.0.0', debug=True, port=8009)
+
