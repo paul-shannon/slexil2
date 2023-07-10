@@ -44,6 +44,8 @@ class Text:
 	grammaticalTermsFile = None
 	kbFilename = None
 	linguisticsFilename = None
+	mediaURL = None   # almost always read from the eaf, can be set
+	mediaMimeType = None
 	grammaticalTerms = []
 	xmlDoc = None
 	htmlDoc = None
@@ -123,6 +125,12 @@ class Text:
 		self.mediaMimeType = x.attrib["MIME_TYPE"]
 		#print("media url: %s" % self.mediaURL)
 		#print("mimeType:  %s" % self.mediaMimeType)
+
+	#--------------------------------------------------------------------------------	
+	def setMediaURL(self, newURL, mimeType):
+
+		self.mediaURL = newURL
+		self.mediaMimeType = mimeType
 
 	#--------------------------------------------------------------------------------	
 	def getMediaInfo(self):
@@ -297,6 +305,7 @@ class Text:
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
+				htmlDoc.asis('<title>slexil2</title>')
 				htmlDoc.asis(webPacker.getCSSText())
 				htmlDoc.asis(startStopTimesJSText)
 				htmlDoc.asis(annotationLinks)

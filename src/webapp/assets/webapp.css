@@ -132,6 +132,10 @@
     margin-top: 0em;
     margin-bottom: 0em;
 }
+paddeddivider {
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
 .button {
 	width: 99px;
 	height: 33px;
@@ -146,6 +150,44 @@
 	border-style: solid;
 	border-radius: 12px;
 	border-color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 6px;
+}
+
+.mediabutton {
+	width: 129px;
+	height: 33px;
+	color: black;
+	font-family: Helvetica Neue;
+	font-variant: small-caps;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 30px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px;
+	border-color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 6px;
+}
+
+.mediabutton:disabled {
+	width: 129px;
+	height: 33px;
+	color: gray;
+	font-family: Helvetica Neue;
+	font-variant: small-caps;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 30px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px;
+	border-color: gray;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -295,6 +337,16 @@ summary:focus {
 	margin-bottom: 30px;
 }
 
+.mediaFilenamer {
+	display: inline-block;
+	width: 576px;
+	height: 40px;
+	font-size: large;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
 .webpageFrame {
 	width: 725px;
 	height: 800px;
@@ -302,11 +354,11 @@ summary:focus {
 }
 
 .webFrameButtonBox {
-    display: flex;
+    display: inline-block;
 	margin-left: 10px;
 	margin-top: 20px;
 	justify-content: right;
-	grid-column: 1;
+	grid-column: 0;
 }
 
 .textarea {
@@ -384,7 +436,14 @@ summary:focus {
     width: 575px;
     height: 40px;
 }
-
+.narrowinformation {
+    display: inline-block;
+    grid-column: 0;
+    text-align: left;
+    font-size: 10pt;
+    width: 575px;
+    height: 40px;
+}
 .warningOn {
 	display: inline-block;
 	width: 155;
@@ -499,7 +558,7 @@ h3 {font-size: 14pt;}
     display: inline-block;
 	color: red;
 	text-align: left;
-	width: 575px;
+	width: 400px;
 	height: 28px;
 	font-size: 12pt;
 	padding-top: 15px;
