@@ -29,7 +29,10 @@ david.beck at ualberta.ca.
 
 from dash import dcc
 from dash import html
+<<<<<<< Updated upstream
+=======
 
+>>>>>>> Stashed changes
 
 class AboutTexts:
     def __init__(self):

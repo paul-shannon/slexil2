@@ -20,7 +20,6 @@ Information about the software can be obtained by contacting
 david.beck at ualberta.ca.
 ******************************************************************
 '''
-
 # text.py: a class to represent a complete IJAL interlinear text, and to
 # transform its
 # represention in ELAN xml (eaf) format, accompanied by audio, into html
@@ -30,12 +29,12 @@ david.beck at ualberta.ca.
 import os, sys
 from yattag import *
 import yaml
+from eafParser import *
 from ijalLine import *
+from webPacker import WebPacker
 pd.set_option('display.width', 1000)
 import pdb
-import logging
 import identifyLines
-
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
@@ -51,6 +50,9 @@ class Text:
 	lineCount = 0
 	verbose = False
 	timeCodesForText = []
+	startStopTable = None
+	eafParser = None
+	lineTables = None
 
 	def __init__(self,
 				 xmlFilename,
@@ -63,7 +65,6 @@ class Text:
 				 endLine,
 				 kbFilename,
 				 linguisticsFilename):
-		print("debug? %s" % (verbose))
 		self.xmlFilename = xmlFilename
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
@@ -75,7 +76,7 @@ class Text:
 		self.verbose = verbose
 		self.xmlDoc = etree.parse(self.xmlFilename)
 		self.metadata = self.extractMetadata()
-		# self.extractMediaInfo()
+		self.extractMediaInfo()
 		with open(tierGuideFile, 'r') as f:
 			self.tierGuide = yaml.safe_load(f)
 		self.speechTier = self.tierGuide['speech']
@@ -91,10 +92,14 @@ class Text:
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		f = os.path.join(projectDirectory, "ERRORS.log")
-		logging.basicConfig(filename=f,format="%(levelname)s %(message)")
-		logging.getLogger().setLevel(logging.WARNING)
 		targetDirectory = os.path.join(projectDirectory,"audio")
+		self.eafParser = EafParser(xmlFilename)
+		  # read all the lines, possibly from multiple speakers, sort by start time 
+		self.eafParser.parseAllLines()
+		  # this is a list of dataframes
+		self.lineTables = self.eafParser.getAllLinesTable() 
 
+	#--------------------------------------------------------------------------------	
 	def extractMetadata(self):
 		if (self.verbose):
 			print("--- entering extractMetadata")
@@ -108,23 +113,22 @@ class Text:
 				metadata[name] = value
 		return(metadata)
 
-	# def extractMediaInfo(self):
-	# 	if(self.verbose):
-	# 		print("--- entering extractMediaInfo")
-	# 	# todo: test for the presence of these elements and the attributes
-	# 	x = self.xmlDoc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
-	# 	self.mediaURL = x.attrib["MEDIA_URL"]
-	# 	self.mediaMimeType = x.attrib["MIME_TYPE"]
-	# 	#print("media url: %s" % self.mediaURL)
-	# 	#print("mimeType:  %s" % self.mediaMimeType)
+	#--------------------------------------------------------------------------------	
+	def extractMediaInfo(self):
+		if(self.verbose):
+			print("--- entering extractMediaInfo")
+		# todo: test for the presence of these elements and the attributes
+		x = self.xmlDoc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
+		self.mediaURL = x.attrib["MEDIA_URL"]
+		self.mediaMimeType = x.attrib["MIME_TYPE"]
+		#print("media url: %s" % self.mediaURL)
+		#print("mimeType:  %s" % self.mediaMimeType)
 
-	def setMediaURL(self,mediaFile,mimeType):
-		self.mediaURL = mediaFile
-		self.mediaMimeType = mimeType
-
+	#--------------------------------------------------------------------------------	
 	def getMediaInfo(self):
 		return({"url": self.mediaURL,  "mimeType": self.mediaMimeType})
 
+	#--------------------------------------------------------------------------------	
 	def getTierSummary(self):
 		if(self.verbose):
 			print("--- entering getTierSummary")
@@ -159,7 +163,8 @@ class Text:
 		self.tierTable = tbl
 		return(tbl)
 
-	def determineStartAndEndTimes(self):
+	#--------------------------------------------------------------------------------	
+	def extractTimeCodes(self):
 		if(self.verbose):
 			print("--- entering determineStartAndEndTimes")
 		# print("entering determine start and end times")
@@ -184,28 +189,31 @@ class Text:
 		list(tbl.columns)
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 		#        tbl = tbl.sort('start')
-		print("+++\n",tbl,"\n+++")
-		self.startStopTable = self.makeStartStopTable(tbl)
+		self.startStopTable = tbl
 		return (tbl)
 
-	def makeStartStopTable(self, annotations):
+	#--------------------------------------------------------------------------------	
+	def makeJavascriptStartStopObject(self, tbl):
 		if(self.verbose):
 			print("--- entering makeStartStopTable")
-		self.audioTable = []
 		startStopTimes = "window.timeStamps=["
-		for i,annotation in enumerate(annotations):
-			start = annotation[0]
-			end = annotation[1]
-			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" \
-					%(str(i+1),start,end)
+		rows = tbl.shape[0]
+		for i in range(rows):
+			start = tbl.loc[i, "start"]
+			end = tbl.loc[i, "end"]
+			entry = "{ 'id' : '%s', 'start' : %s, 'end' : %s},\n" %(str(i+1),start,end)
 			startStopTimes += entry
-			self.audioTable.append(annotation)
-		startStopTimes = startStopTimes[:-1] + "]"
-		if(self.verbose):
-			print("--- startStopTimes")
-			print(startStopTimes)
-		return(startStopTimes)
+		#if(self.verbose):
+		#	print(startStopTimes)
 
+		startStopTimes = startStopTimes[:-1] + "]"
+		startStopTimesJS = "".join(["\n<script>\n", startStopTimes, "\n</script>\n"])
+		#if(self.verbose):
+		#	print("--- startStopTimesJS")
+		#	print(startStopTimesJS)
+		return(startStopTimesJS)
+
+	#--------------------------------------------------------------------------------	
 	def validInputs(self):
 		if(self.verbose):
 			print("--- entering validInputs")
@@ -229,6 +237,7 @@ class Text:
 			self.grammaticalTerms = _makeAbbreviationListLowerCase(grammaticalTerms_raw)
 		return(True)
 
+	#--------------------------------------------------------------------------------	
 	def getLineAsTable(self, lineNumber):
 		if(self.verbose):
 			print("--- entering getLineAsTable")
@@ -238,6 +247,7 @@ class Text:
 		x.parse()
 		return(x.getTable())
 
+	#--------------------------------------------------------------------------------	
 	def traverseStructure(self):
 		if(self.verbose):
 			print("--- entering traverseStructure")
@@ -247,51 +257,8 @@ class Text:
 			tbl = x.getTable()
 			print("%d: %d tiers" % (i, tbl.shape[0]))
 
-	def getCSS(self):
-		if(self.verbose):
-			print("--- entering getCSS")
-		cssFilename = "slexil.css"
-		#assert(os.path.exists(cssFilename))
-		css = '<link rel = "stylesheet" type = "text/css" href = "%s" />' % cssFilename
-		return(css)
 
-	def getJQuery(self):
-		if(self.verbose):
-			print("--- entering getJQuery")
-		scriptTag = '<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>\n'
-		#scriptTag = '<script src="jquery-3.3.1.min.js"></script>\n'
-		return(scriptTag)
-
-	def getBootstrap(self):
-		if(self.verbose):
-			print("--- entering getBootstrap")
-		style = """<link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-  crossorigin="anonymous">"""
-		#script_1 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>'
-		script_2 = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>'
-		scriptTag = "%s\n%s\n" % (style, script_2)
-		return(scriptTag)
-
-
-	def getJavascript(self):
-		if(self.verbose):
-			print("--- entering getJavascript")
-		jsSource = ""
-		if(self.kbFilename != None):
-			jsSource += '<script src="%s"></script>\n' % self.kbFilename
-		if(self.linguisticsFilename != None):
-			jsSource += '<script src="%s"></script>\n' % self.linguisticsFilename
-		showDownScript = "showdown.js"
-		annoScript = "annotations.js"
-		jsSource += '<script src="slexil.js"></script>\n'
-		jsSource += '<script src="%s"></script>\n' % showDownScript
-		jsSource += '<script src="%s"></script>\n' % annoScript
-		startStopTimes = self.makeStartStopTable(self.timeCodesForText)
-		jsSource += '<script type="text/javascript">%s</script>\n' %startStopTimes
-		return(jsSource)
-
+	#--------------------------------------------------------------------------------	
 	def getPlayer(self):
 		mimeType = self.getMediaInfo()["mimeType"]
 		try:
@@ -305,6 +272,7 @@ class Text:
 			playerDiv = '<video class="player" id="mediaPlayer" src="%s" controls></video>' % url
 		return playerDiv
 
+	#--------------------------------------------------------------------------------	
 	def toHTML(self, lineNumber=None):
 		if(self.verbose):
 			print("--- entering toHTML")
@@ -313,13 +281,25 @@ class Text:
 		if(self.verbose):
 			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
 
-		htmlDoc.asis('<!DOCTYPE html>')
+		htmlDoc.asis('<!DOCTYPE html>\n')
+		baseDir = os.path.dirname(__file__) # find the js and css files 
+		webPacker = WebPacker(baseDir)
+		webPacker.readCSS()
+		webPacker.readJS()
+		self.startStopTable = self.extractTimeCodes()
+		startStopTimesJSText = self.makeJavascriptStartStopObject(self.startStopTable)
+
+		annotationLinks = ""
+		if(self.kbFilename != None):
+			annotationLinks += '<script src="%s"></script>\n' % self.kbFilename
+		if(self.linguisticsFilename != None):
+			annotationLinks += '<script src="%s"></script>\n' % self.linguisticsFilename
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
-				htmlDoc.asis(self.getJQuery())
-				htmlDoc.asis(self.getBootstrap())
-				htmlDoc.asis(self.getCSS())
+				htmlDoc.asis(webPacker.getCSSText())
+				htmlDoc.asis(startStopTimesJSText)
+				htmlDoc.asis(annotationLinks)
 				htmlDoc.asis("<!-- headCustomizationHook -->")
 			with htmlDoc.tag('body'):
 				aboutBoxNeeded = False
@@ -360,13 +340,13 @@ class Text:
 
 				with htmlDoc.tag("div", klass="spacer"):
 					htmlDoc.asis('')
-				htmlDoc.asis(self.getJavascript())
+				htmlDoc.asis(webPacker.getJSText())
 				htmlDoc.asis("<!-- bodyBottomCustomizationHook -->")
 		self.htmlDoc = htmlDoc
 		self.htmlText = htmlDoc.getvalue()
 		return(self.htmlText)
 
-#-------------------------------------------------------------------------------
+	#-------------------------------------------------------------------------------
 	def createTextDiv(self, htmlDoc):
 
 		if(self.verbose) :
@@ -375,9 +355,12 @@ class Text:
 			for i in self.lineNumbers:
 				if(self.verbose):
 					print("line %d/%d" % (i, self.lineCount))
-				line = IjalLine(self.xmlDoc, i, self.tierGuide,
-								self.grammaticalTerms, quiet=(not self.verbose))
-				line.parse()
+				lineTable = self.lineTables[i]	
+				line = IjalLine(lineTable, i, self.tierGuide,
+								self.grammaticalTerms, self.verbose)
+				line.extractMorphemes()
+				line.extractMorphemeGlosses()
+				line.calculateMorphemeSpacing()
 				start = line.getStartTime()
 				end = line.getEndTime()
 				timeCodesForLine = [start,end]
