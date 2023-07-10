@@ -1,6 +1,7 @@
 default:
 	@echo venv
 	@echo pkgs
+	@echo install
 	@echo run
 	@echo run-minimal
 	@echo dockerBuild
@@ -14,6 +15,9 @@ venv:
 
 pkgs:
 	pip install -r requirements.txt
+
+install:
+	(cd ../..; make install)
 
 run:
 	python main.py
