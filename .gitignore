@@ -3,6 +3,7 @@
 *.m4v
 *.eaf
 src/slexil_package.egg-info/
+src/slexil_package.egg-info/PKG-INFO
 build/
 dot-git-hidden/
 explore/
