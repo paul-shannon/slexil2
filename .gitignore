@@ -3,6 +3,7 @@
 *.m4v
 *.eaf
 src/slexil_package.egg-info/
+build/
 dot-git-hidden/
 explore/
 py3105/
