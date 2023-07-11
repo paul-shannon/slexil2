@@ -108,9 +108,8 @@ def test_calculateMorphemeSpacing():
 	morphemes = il.getMorphemes()
 	glosses = il.getMorphemeGlosses()
 	spacing = il.getMorphemeSpacing()
-	print(spacing)
-	assert(spacing == [15, 15, 15, 16, 3, 11])
-	pdb.set_trace()
+	#print(spacing)
+	assert(spacing == [16, 16, 16, 17, 4, 12, 10])
 	
 	
 #----------------------------------------------------------------------------------------------------

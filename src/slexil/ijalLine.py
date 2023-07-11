@@ -226,7 +226,7 @@ class IjalLine:
                   glossSize = len(newGloss)
                else:
                   glossSize = len(glosses[i])
-            self.morphemeSpacing.append(max(morphemeSize, glossSize) + 3)
+            self.morphemeSpacing.append(max(morphemeSize, glossSize) + 2)
 
     # ----------------------------------------------------------------------------------------------------
     def getMorphemeSpacing(self):

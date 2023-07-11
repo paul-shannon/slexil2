@@ -318,7 +318,8 @@ def createAppTab():
 
 # ----------------------------------------------------------------------------------------------------
 def createAboutTab():
-    aboutTab = AboutTexts()
+	versionString = slexil.__version__
+    aboutTab = AboutTexts(versionString)
     innerdiv = aboutTab.getMainDiv()
     return innerdiv
 

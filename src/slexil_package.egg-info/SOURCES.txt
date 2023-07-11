@@ -3,12 +3,9 @@ README.md
 setup.cfg
 setup.py
 slexil.toml
-src/slexil/LineDataFrame.py
 src/slexil/__init__.py
 src/slexil/aboutTexts.py
 src/slexil/annotations.js.py
-src/slexil/audioExtractor.py
-src/slexil/audioExtractorBKP.py
 src/slexil/bootstrap.bundle.min.js.py
 src/slexil/bootstrap.min.css.py
 src/slexil/eafParser.py
@@ -19,7 +16,6 @@ src/slexil/identifyLines.py
 src/slexil/ijalLine.py
 src/slexil/jquery-3.6.3.js.py
 src/slexil/jquery-3.6.3.min.js.py
-src/slexil/junk.py
 src/slexil/learnTierIDs.py
 src/slexil/morphemeGloss.py
 src/slexil/showdown.js.py
@@ -30,11 +26,6 @@ src/slexil/text.py
 src/slexil/translationLine.py
 src/slexil/version.py
 src/slexil/webPacker.py
-src/slexil/webapp.py
-src/slexil/webapp2.py
-src/slexil/webapp3.py
-src/slexil/webapp3_run_locally.py
-src/slexil/webapp4.py
 src/slexil_package.egg-info/PKG-INFO
 src/slexil_package.egg-info/SOURCES.txt
 src/slexil_package.egg-info/dependency_links.txt
@@ -42,9 +33,9 @@ src/slexil_package.egg-info/requires.txt
 src/slexil_package.egg-info/top_level.txt
 src/webapp/__init__.py
 src/webapp/explore-redirect.py
+src/webapp/main-dbeck.py
 src/webapp/main-minimal.py
 src/webapp/main-newBug.py
-src/webapp/main-old.py
 src/webapp/main.py
 tests/test_IjalLine.py
 tests/test_MorphemeGloss.py
