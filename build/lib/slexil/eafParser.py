@@ -33,9 +33,10 @@ class EafParser:
 	#----------------------------------------------------------------------------------
 	def xmlValid(self):
 		assert(len(self.xmlFilename) > 4)
-		baseDir = "/Users/paul/github/slexil2/testData"
-		schemaFile = os.path.join(baseDir, "EAFv3.0.xsd")
-		assert(os.path.isfile(schemaFile))
+		#baseDir = "/Users/paul/github/slexil2/testData"
+		#schemaFile = os.path.join(baseDir, "EAFv3.0.xsd")
+		#assert(os.path.isfile(schemaFile))
+		schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
 		
 		valid = False
 		try:

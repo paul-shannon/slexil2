@@ -36,7 +36,7 @@ from text import *
 
 
 from xml.etree import ElementTree as etree
-# import pdb
+import pdb
 from dash.dependencies import Input, Output, State
 from shutil import copy
 from text import *
@@ -62,7 +62,7 @@ app = flask.Flask(__name__)
 dashApp = dash.Dash(__name__, server = app, url_base_pathname = '/', external_stylesheets=external_stylesheets)
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 #flaskApp.config['suppress_callback_exceptions'] = True
-#flaskApp.title = "SLEXIL"
+dashApp.title = "SLEXIL2"
 
 # app.scripts.config.serve_locally = True
 # server = app.server
@@ -318,7 +318,8 @@ def createAppTab():
 
 # ----------------------------------------------------------------------------------------------------
 def createAboutTab():
-    aboutTab = AboutTexts()
+	versionString = slexil.__version__
+    aboutTab = AboutTexts(versionString)
     innerdiv = aboutTab.getMainDiv()
     return innerdiv
 
@@ -948,5 +949,4 @@ def createZipFile(projectDir, projectTitle):
 
 # ----------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port=8051)
-
+    app.run(host='0.0.0.0', debug=True, port=8009)

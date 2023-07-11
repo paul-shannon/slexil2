@@ -1,13 +1,11 @@
-	git add   explore/aliceTaff/01/ERRORS.log
-	git add   explore/aliceTaff/01/makefile
-	git rm  explore/aliceTaff/07/florence.html
-	git add   explore/aliceTaff/slexil.css
-	git add   explore/aliceTaff/slexil.js
-	git add   junk
-	git add   slexil/text.py
-	git add   utils/eaf2html.py
-
-git add explore/aliceTaff/01/index.html
-git add explore/aliceTaff/01/slexil.css
-git add explore/aliceTaff/01/slexil.js
-git add explore/fontSizeControls/
+	git add  .gitignore
+	git add  build/lib/slexil/aboutTexts.py
+	git add  build/lib/slexil/eafParser.py
+	git add  build/lib/slexil/ijalLine.py
+	git add  build/lib/slexil/text.py
+	git add  build/lib/slexil/version.py
+	git add  build/lib/webapp/main.py
+	git add  docker/helloWorld/makefile
+	git add  junk
+	git add  src/webapp/main.py
+	git add  tests/inferno.html

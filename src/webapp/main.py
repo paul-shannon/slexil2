@@ -318,8 +318,7 @@ def createAppTab():
 
 # ----------------------------------------------------------------------------------------------------
 def createAboutTab():
-	versionString = slexil.__version__
-    aboutTab = AboutTexts(versionString)
+    aboutTab = AboutTexts()
     innerdiv = aboutTab.getMainDiv()
     return innerdiv
 
@@ -355,13 +354,13 @@ def create_allDivs():
 
 # ----------------------------------------------------------------------------------------------------
 def create_introduction():
-    text = dcc.Markdown('''**SLEXIL** is software for creating animated HTML files from texts prepared 
+    explanatoryText = '''**SLEXIL** (version %s) is software for creating animated HTML files from texts prepared 
                         in [ELAN](https://tla.mpi.nl/tools/tla-tools/elan/). Users can access this site to upload the 
                         .eaf and .wav portions of ELAN projects and download an HTML file and accompanying CSS, JavaScript, 
                         and parsed audio files that can be embedded on a webpage or viewed in a browser on any computer. 
                         You can find a [video tutorial] (https://youtu.be/7b99pkhQibs) on using SLEXIL on YouTube 
-                        or download a demo project to practice with by clicking on the **Download Demo** button.''')
-
+                        or download a demo project to practice with by clicking on the **Download Demo** button.''' % slexil.__version__
+    text = dcc.Markdown(explanatoryText)
     button = html.Button('DOWNLOAD DEMO', className='demoButton')
     contents = [html.A(button, href='demos/infernoDemo.zip', className="buttonCell"),
                 html.Div(id="intro", children=[text], className="introText")]
@@ -949,4 +948,4 @@ def createZipFile(projectDir, projectTitle):
 
 # ----------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port=8009)
+    app.run(host='0.0.0.0', debug=True, port=80)
