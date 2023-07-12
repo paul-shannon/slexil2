@@ -1,4 +1,4 @@
-VERSION = v237
+VERSION = v239
 PORT = 1003
 
 default:
@@ -15,6 +15,7 @@ default:
 	@echo run
 	@echo stop
 	@echo clean
+	@echo logs
 
 venv:
 	source ~/github/slexil2/py3105/bin/activate
@@ -52,3 +53,6 @@ clean:
 
 push:
 	docker push pshannon/slexil2:$(VERSION)
+
+logs:
+	docker logs slexil2Container
