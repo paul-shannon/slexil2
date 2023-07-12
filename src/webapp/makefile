@@ -1,16 +1,20 @@
+VERSION = v237
+PORT = 1003
+
 default:
 	@echo venv
 	@echo pkgs
 	@echo install
 	@echo run
 	@echo run-minimal
-	@echo dockerBuild
-	@echo dockerBuild-noCache
-	@echo dockerBash
-	@echo dockerRun
-	@echo dockerStop
-	@echo dockerClean
-	@echo dockerHelloBuild
+	@echo build
+	@echo build-noCache
+	@echo push
+	@echo bash
+	@echo bashIn
+	@echo run
+	@echo stop
+	@echo clean
 
 venv:
 	source ~/github/slexil2/py3105/bin/activate
@@ -21,31 +25,30 @@ pkgs:
 install:
 	(cd ../..; make install)
 
+build:
+	docker build -t pshannon/slexil2:$(VERSION) .
+
+build-noCache:
+	docker build --rm --no-cache -t pshannon/slexil2:$(VERSION) .
+
+bash:
+	docker run -ti --rm -p $(PORT):80 pshannon/slexil2:$(VERSION) bash
+
+bashIn:
+	docker exec -it slexil2Container bash
+
 run:
-	python main.py
+	docker run -d --name slexil2Container -p $(PORT):80 pshannon/slexil2:$(VERSION)
 
-run-minimal:
-	python main-minimal.py
+curl:
+	curl http://localhost:$(PORT)
 
-dockerHelloBuild:
-	docker build -t pshannon/slexil2:v236 -f Dockerfile-helloWorld .
-
-dockerBuild:
-	docker build -t pshannon/slexil2:v236 .
-
-dockerBuild-noCache:
-	docker build --rm --no-cache -t pshannon/slexil2:v236 .
-
-dockerBash:
-	docker run -ti --rm -p 10004:80 pshannon/slexil2:v236 bash
-
-dockerRun:
-	docker run -d --name slexil2Container -p 10004:80 pshannon/slexil2:v236
-
-dockerStop:
+stop:
 	docker stop slexil2Container
 	docker rm slexil2Container
 
-dockerClean:
+clean:
 	docker rmi $$(docker images -f "dangling=true" -q)
 
+push:
+	docker push pshannon/slexil2:$(VERSION)

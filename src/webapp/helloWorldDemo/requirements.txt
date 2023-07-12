@@ -1,0 +1,7 @@
+xmlschema
+lxml
+dash
+pandas
+dash_table
+pyyaml
+dash_bootstrap_components
