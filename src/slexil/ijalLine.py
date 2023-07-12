@@ -127,7 +127,7 @@ class IjalLine:
 
         canonicalTierName = "morpheme"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(not self.verbose):
+           if(self.verbose):
               print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
@@ -148,7 +148,7 @@ class IjalLine:
 
         canonicalTierName = "morphemeGloss"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(not self.verbose):
+           if(self.verbose):
               print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
@@ -226,7 +226,7 @@ class IjalLine:
                   glossSize = len(newGloss)
                else:
                   glossSize = len(glosses[i])
-            self.morphemeSpacing.append(max(morphemeSize, glossSize) + 2)
+            self.morphemeSpacing.append(max(morphemeSize, glossSize) + 3)
 
     # ----------------------------------------------------------------------------------------------------
     def getMorphemeSpacing(self):
@@ -345,7 +345,7 @@ def standardizeTable(tbl, tierGuide, verbose):
     tbl_trimmed = [tbl[tbl["tierID"].isin(keepers)]][0]
 
     # subset the tbl to only include rows with a canonical tier name 
-    if(not verbose):
+    if(verbose):
        print("shared, recongized tierNames, keys: %s" % recognized)
 
     canonicalTier = []
@@ -355,7 +355,7 @@ def standardizeTable(tbl, tierGuide, verbose):
     # morphemeGloss
 
     revGuide = {v: k for k, v in tierGuide.items()}
-    if(not verbose):
+    if(verbose):
         print("revGuide: %s" % revGuide)
         print("userTierNames: %s" % userTierNames)
     canonicalTierNames = [revGuide[key] for key in userTierNames]

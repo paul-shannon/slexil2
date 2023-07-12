@@ -109,7 +109,7 @@ def test_calculateMorphemeSpacing():
 	glosses = il.getMorphemeGlosses()
 	spacing = il.getMorphemeSpacing()
 	#print(spacing)
-	assert(spacing == [16, 16, 16, 17, 4, 12, 10])
+	assert(spacing == [17, 17, 17, 18, 5, 13, 11])
 	
 	
 #----------------------------------------------------------------------------------------------------
@@ -128,8 +128,8 @@ def test_toHTML_speechOnly():
 	   #------------------------------------------------------------
 
 	il = IjalLine(tbl, 1, speechOnlyTierGuide, grammaticalTerms=[], verbose=False)
-	extractMorphemes()
-	extractMorphemeGlosses()
+	il.extractMorphemes()
+	il.extractMorphemeGlosses()
 
 	x = il.getSpokenText()
 	assert(len(x) == 35)
@@ -925,11 +925,11 @@ def test_featherSnake_toHTML(displayPage=False):
 def runTests():
 
 	test_calculateMorphemeSpacing()
-	#test_toHTML_speechOnly()
-	#test_toHTML_speechAndTranslation()
-	#test_toHTML_speechAndMorphemes()
-	#test_toHTML_speechAndMorphemesAndGlosses()
-	#test_toHTML_speechAndMorphemesAndGlossesAndTranslation()
+	test_toHTML_speechOnly()
+	test_toHTML_speechAndTranslation()
+	test_toHTML_speechAndMorphemes()
+	test_toHTML_speechAndMorphemesAndGlosses()
+	test_toHTML_speechAndMorphemesAndGlossesAndTranslation()
 	
 #----------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

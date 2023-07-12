@@ -33,6 +33,7 @@ src/slexil_package.egg-info/requires.txt
 src/slexil_package.egg-info/top_level.txt
 src/webapp/__init__.py
 src/webapp/explore-redirect.py
+src/webapp/helloWorld-main.py
 src/webapp/main-dbeck.py
 src/webapp/main-minimal.py
 src/webapp/main-newBug.py
