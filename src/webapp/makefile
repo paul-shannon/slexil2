@@ -1,4 +1,4 @@
-VERSION = v239
+VERSION = v2312
 PORT = 1003
 
 default:
@@ -13,6 +13,7 @@ default:
 	@echo bash
 	@echo bashIn
 	@echo run
+	@echo push
 	@echo stop
 	@echo clean
 	@echo logs

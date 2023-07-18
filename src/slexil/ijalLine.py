@@ -91,7 +91,10 @@ class IjalLine:
 
         canonicalTierName = "speech"
         row = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-        return(self.tbl.loc[row, "text"])
+        spokenText = self.tbl.loc[row, "text"]
+        if(spokenText == None):
+           spokenText = ""
+        return(spokenText)
 
     # ----------------------------------------------------------------------------------------------------
     def getTranslation(self):
@@ -363,7 +366,7 @@ def standardizeTable(tbl, tierGuide, verbose):
         print("userTierNames: %s" % userTierNames)
     canonicalTierNames = [revGuide[key] for key in userTierNames]
     if(not "speech" in canonicalTierNames):
-       printf("no tier designated as the spoken line ('speech' tier)")
+       print("no tier designated as the spoken line ('speech' tier)")
        return(None)
 
       # add a new column to the table.  we will use this later to assemble the html
