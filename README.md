@@ -79,15 +79,15 @@ kbFilename = None
 linguisticsFilename = None
 
 text = Text(elanXmlFilename,
-			grammaticalTermsFile=grammaticalTermsFile,
-			tierGuideFile=tierGuideFile,
-			projectDirectory=projectDirectory,
-			verbose=False,
-			fontSizeControls = fontSizeControls,
-			startLine = startLine,
-			endLine = endLine,
-			kbFilename = kbFilename,
-			linguisticsFilename = linguisticsFilename)
+            grammaticalTermsFile=grammaticalTermsFile,
+            tierGuideFile=tierGuideFile,
+            projectDirectory=projectDirectory,
+            verbose=False,
+            fontSizeControls = fontSizeControls,
+            startLine = startLine,
+            endLine = endLine,
+            kbFilename = kbFilename,
+            linguisticsFilename = linguisticsFilename)
 
 htmlText = text.toHTML() 
 filename = "inferno.html"
