@@ -1,5 +1,0 @@
-dash
-pandas
-git+https://github.com/paul-shannon/slexil2.git@twoSpeakers
-
-

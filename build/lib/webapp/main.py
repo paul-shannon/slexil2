@@ -892,7 +892,7 @@ def createWebPage(eafFileName, projectDirectory, grammaticalTermsFileName, tierG
                 tierGuideFileName,
                 projectDirectory,
                 verbose=True,
-                fontSizeControls=False,
+                fontSizeControls=True,
                 startLine=None,
                 endLine=None,
                 kbFilename=None,

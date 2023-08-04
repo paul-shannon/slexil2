@@ -27,6 +27,7 @@ david.beck at ualberta.ca.
 # import re
 # import sys
 import os, sys
+from pathlib import Path
 from yattag import *
 import yaml
 from eafParser import *
@@ -85,7 +86,9 @@ class Text:
 		self.speechTierList = identifyLines.getList(self.xmlDoc,self.tierGuide)
 		self.lineCount = len(self.speechTierList)
 		if(self.lineCount == 0):
-			print("no lines found, disagreement between tierGuide and eaf?")
+			print("no lines found, disagreement between tierGuide and eaf? ")
+			print("perhaps case disagreement?")
+			print(self.tierGuide)
 			sys.exit(1)
 		if(startLine != None):
 			self.lineNumbers = range(startLine, endLine)
@@ -274,10 +277,15 @@ class Text:
 		except:
 			sys.exit(1)
 		url = self.getMediaInfo()["url"]
-		if(mimeType in ["audio/x-wav", "audio/mp3"]):
+		suffix = Path(url).suffix
+		if(suffix in [".wav", ".mp3"]):
 			playerDiv = '<audio class="player" id="mediaPlayer" src="%s" controls></audio>' % url
-		if(mimeType in ["video/m4v", "video/quicktime", "video/mp4"]):
+		elif(suffix in [".m4v", ".mov", ".mp4"]):
 			playerDiv = '<video class="player" id="mediaPlayer" src="%s" controls></video>' % url
+		else:
+			print("unrecognized media file suffix in url: %s" % suffix)
+			print("full url: %s" % url)
+			playerDiv = ""
 		return playerDiv
 
 	#--------------------------------------------------------------------------------	

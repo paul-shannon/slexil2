@@ -91,7 +91,10 @@ class IjalLine:
 
         canonicalTierName = "speech"
         row = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-        return(self.tbl.loc[row, "text"])
+        spokenText = self.tbl.loc[row, "text"]
+        if(spokenText == None):
+           spokenText = ""
+        return(spokenText)
 
     # ----------------------------------------------------------------------------------------------------
     def getTranslation(self):
@@ -133,14 +136,15 @@ class IjalLine:
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
         rawMorphemeText = self.tbl.loc[morphemeRow, "text"]
-        if "\t" in rawMorphemeText:
-            rawMorphemeList = rawMorphemeText.split('\t')
-        elif " " in rawMorphemeText:
-            rawMorphemeList = rawMorphemeText.split(' ')
-        else:  # neither tab nor space separators
-            rawMorphemeList = rawMorphemeText
-#        pdb.set_trace()
-        self.morphemes = replaceHyphensWithNDashes(rawMorphemeList)
+        self.morphemes = []
+        if(rawMorphemeText):
+           if "\t" in rawMorphemeText:
+               rawMorphemeList = rawMorphemeText.split('\t')
+           elif " " in rawMorphemeText:
+               rawMorphemeList = rawMorphemeText.split(' ')
+           else:  # neither tab nor space separators
+               rawMorphemeList = rawMorphemeText
+           self.morphemes = replaceHyphensWithNDashes(rawMorphemeList)
         return (self.morphemes)
 
     # ----------------------------------------------------------------------------------------------------
@@ -154,13 +158,15 @@ class IjalLine:
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
         rawMorphemeGlossText = self.tbl.loc[morphemeGlossRow, "text"]
-        if "\t" in rawMorphemeGlossText:
-            rawMorphemeGlossList = rawMorphemeGlossText.split('\t')
-        elif (" " in rawMorphemeGlossText):
-            rawMorphemeGlossList = rawMorphemeGlossText.split(' ')
-        else:  # neither space nor tab separators found
-            rawMorphemeGlossList = rawMorphemeGlossText
-        self.morphemeGlosses = replaceHyphensWithNDashes(rawMorphemeGlossList)
+        self.morphemeGlosses = []
+        if(rawMorphemeGlossText):
+           if "\t" in rawMorphemeGlossText:
+               rawMorphemeGlossList = rawMorphemeGlossText.split('\t')
+           elif (" " in rawMorphemeGlossText):
+               rawMorphemeGlossList = rawMorphemeGlossText.split(' ')
+           else:  # neither space nor tab separators found
+               rawMorphemeGlossList = rawMorphemeGlossText
+           self.morphemeGlosses = replaceHyphensWithNDashes(rawMorphemeGlossList)
         return (self.morphemeGlosses)
 
     # ----------------------------------------------------------------------------------------------------
@@ -360,7 +366,7 @@ def standardizeTable(tbl, tierGuide, verbose):
         print("userTierNames: %s" % userTierNames)
     canonicalTierNames = [revGuide[key] for key in userTierNames]
     if(not "speech" in canonicalTierNames):
-       printf("no tier designated as the spoken line ('speech' tier)")
+       print("no tier designated as the spoken line ('speech' tier)")
        return(None)
 
       # add a new column to the table.  we will use this later to assemble the html
@@ -373,6 +379,8 @@ def replaceHyphensWithNDashes(list):
     ''' replace hyphens with n-dashes
         '''
     newList = []
+    if(isinstance(list, str)):  # account for single string 
+        list = [list]
     for text in list:
         text = text.replace('-', '–')
         newList.append(text)
