@@ -46,7 +46,7 @@ The source EAF XML looks like this:
 pip install update git+https://github.com/paul-shannon/slexil2
 </pre>
    
-### Get short and simple examples files
+### Get short simple examples files
 
 - create and enter a temporary test directory
 - if you have cloned this github repo, data files and script are in *demos/* directory.
