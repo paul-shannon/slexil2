@@ -51,9 +51,11 @@ pip install update git+https://github.com/paul-shannon/slexil2
 - create and enter a temporary test directory
 - if you have cloned this github repo, data files and script are in *demos/* directory.
 - otherwise, you can download the three files you need like this:
-    - curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/inferno-threeLines.eaf
-    - curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/grammaticalTerms.txt
-    - curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/tierGuide.yaml
+<pre>
+ curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/inferno-threeLines.eaf
+ curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/grammaticalTerms.txt
+ curl -O https://raw.githubusercontent.com/paul-shannon/slexil2/main/testData/inferno/tierGuide.yaml
+</pre>
 
 Note that the audio for this small project is hosted independently, at a url written
 into the eaf file.
