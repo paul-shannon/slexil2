@@ -539,6 +539,21 @@ _ _gʷəč'-əd_: look for someone or something [patient oriented stem]
 - alternative construction: tu=gʷaʔxʷ uʔxʷ, LD 95, 22: eventually, soon go (_soon went_)
 `,
 
+"tu=sə–gʷaʔxʷ":
+`
+**tu=sə–gʷaʔxʷ**
+
+- _tu_: past
+- _sə_: progressive
+- _gʷax̌ʷ_:
+    - stroll, go for a walk
+    - LD 97
+    - the agent is always plural
+    - see also _ʔux̌ʷ_  go
+    - _ƛ'ubəxʷ čəɬ ʔugʷax̌ʷ_ We had better go for a walk.
+    - _red2_ _gʷax̌ʷ + √gʷax̌ʷ_ walk to and fro.
+`,
+    
 "gʷax̌ʷ":   
 `
 stroll, go for a walk
@@ -1299,6 +1314,8 @@ _back there (then)_
 
 "tux̌ʷ":
 `
+**tux̌ʷ**
+
 - merely, just (in contrast to usual or expected), simply, contrary to expectation, instead, conversely, but.  LD 231
 - predicate adverb, sentential particle
 - its distribution and significance give it sometimes the characteristics of a predicate adverb, sometimes  of a

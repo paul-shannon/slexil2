@@ -42,15 +42,9 @@ refresh-js:
 
 
 publish:
-	scp index.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
-	scp slexil.css paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
-	scp slexil.js paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
-
-
-publish-all:
-	scp index.html paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
-	scp slexil.css paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
-	scp slexil.js paulshannnon@pshannon.net:public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/
+	scp index.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 
 open-local:
 	open index.html
