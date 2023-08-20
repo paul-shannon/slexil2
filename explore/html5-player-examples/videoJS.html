@@ -1,0 +1,85 @@
+<head>
+  <link href="https://vjs.zencdn.net/8.5.2/video-js.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+</head>
+
+<body>
+  <div id="leftSideDiv" style="width:50%; float: left">
+     <div id="movieDiv" style="margin-left: 40px;">
+
+  <video
+    id="videoPlayer"
+    class="video-js"
+    controls
+    preload="auto"
+    width="640"
+    height="264"
+    data-setup="{}">
+
+    <source src="https://slexildata.artsrn.ualberta.ca/tlingit/37AtlinSrprizLk.mp4" type="video/mp4" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+    <div style="margin-left: 100px; margin-top: 20px; margin-bottom: 10px;">
+      <br><button onclick="playVideoSegment(58, 62)"> mov 58-62</button>
+      <br><button onclick="playVideo2Segment(58, 62)"> mp4 58-62</button>
+    </div>
+
+  </div id="movieDiv">
+  </div id="leftSideDiv">
+
+  <div id="rightSideDiv" style="margin-left: 50%; height: 600px;">
+	 <div id="stdoutDiv" style="height: 90%; padding: 40px; margin:100px;
+										 flex-direction: column-reverse;
+										 overflow: scroll;
+										 margin-top:10px; border:
+										 1px solid black; border-radius:10px;">
+	 </div>
+  </div id="rightSideDiv">
+
+  <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
+<script>
+// from https://stackoverflow.com/questions/5932412/html5-audio-how-to-play-only-a-selected-portion-of-an-audio-file-audio-sprite
+//----------------------------------------------------------------------------------------------------
+var videoPlayer = document.getElementById("videoPlayer");
+var videoSegmentEnd;
+var videoContinuousPlay = true;
+
+videoPlayer.addEventListener("canplay", function(){
+   console.log("video can now play");
+   })
+
+
+videoPlayer.addEventListener("timeupdate", function (){
+    $("#stdoutDiv").append(videoPlayer.currentTime + "<br>")
+    $("#stdoutDiv").scrollTop($("#stdoutDiv")[0].scrollHeight);
+    if (!videoContinuousPlay && videoSegmentEnd && videoPlayer.currentTime >= videoSegmentEnd){
+      videoPlayer.pause();
+      videoContinuousPlay = true;	
+      }   
+    //console.log(videoPlayer.currentTime);
+    }, false);
+
+function playVideoSegment(startTime, endTime){
+    $("#stdoutDiv").text("");
+    //console.log("--- playVideoSegment(" + startTime + ", " + endTime + ")");
+    videoContinuousPlay = false;
+    videoSegmentEnd = endTime;
+    videoPlayer.pause()
+    videoPlayer.currentTime = 0;
+    videoPlayer.currentTime = startTime;
+    videoPlayer.play();
+}
+
+</script>
+
+
+</body>

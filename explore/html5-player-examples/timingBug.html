@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	 <style>
+		button {
+		 font-size: 24px;
+		 }
+		</style>
+  </head>
+
+  <body>
+
+    <div id="leftSideDiv" style="width:50%; float: left">
+
+<!-- source src="https://slexildata.artsrn.ualberta.ca/tlingit/20NoraFred.mp4" type="video/mp4" -->
+<!-- source src="https://slexildata.artsrn.ualberta.ca/tlingit/37AtlinSrprizLk.mov" -->
+
+  <div id="movieDiv" style="margin-left: 40px;">
+    <video id="videoPlayer"  controls height="400" preload="auto">
+		<source src="https://slexildata.artsrn.ualberta.ca/tlingit/37AtlinSrprizLk.mov">
+    </video>
+    <video id="videoPlayer2"  controls height="400" preload="auto">
+		<source src="https://slexildata.artsrn.ualberta.ca/tlingit/37AtlinSrprizLk.mp4">
+    </video>
+  </div id="movieDiv">
+    <div style="margin-left: 100px; margin-top: 20px; margin-bottom: 10px;">
+      <br><button onclick="playVideoSegment(58, 62)"> mov 58-62</button>
+      <br><button onclick="playVideo2Segment(58, 62)"> mp4 58-62</button>
+    </div>
+
+  </div>
+
+  <div id="rightSideDiv" style="margin-left: 50%; height: 600px;">
+	 <div id="stdoutDiv" style="height: 90%; padding: 40px; margin:100px;
+										 flex-direction: column-reverse;
+										 overflow: scroll;
+										 margin-top:10px; border:
+										 1px solid black; border-radius:10px;">
+	 </div>
+  </div>
+  
+
+
+<script>
+// from https://stackoverflow.com/questions/5932412/html5-audio-how-to-play-only-a-selected-portion-of-an-audio-file-audio-sprite
+//----------------------------------------------------------------------------------------------------
+var videoPlayer = document.getElementById("videoPlayer");
+var videoPlayer2 = document.getElementById("videoPlayer2");
+var videoSegmentEnd;
+var video2SegmentEnd;
+var videoContinuousPlay = true;
+
+videoPlayer.addEventListener("canplay", function(){
+   console.log("video can now play");
+   })
+
+videoPlayer.addEventListener("timeupdate", function (){
+    $("#stdoutDiv").append(videoPlayer.currentTime + "<br>")
+    $("#stdoutDiv").scrollTop($("#stdoutDiv")[0].scrollHeight);
+    if (!videoContinuousPlay && videoSegmentEnd && videoPlayer.currentTime >= videoSegmentEnd){
+      videoPlayer.pause();
+      videoContinuousPlay = true;	
+      }   
+    //console.log(videoPlayer.currentTime);
+    }, false);
+
+videoPlayer2.addEventListener("timeupdate", function (){
+    $("#stdoutDiv").append(videoPlayer2.currentTime + "<br>")
+    $("#stdoutDiv").scrollTop($("#stdoutDiv")[0].scrollHeight);
+    if (!videoContinuousPlay && video2SegmentEnd && videoPlayer2.currentTime >= video2SegmentEnd){
+      videoPlayer2.pause();
+      videoContinuousPlay = true;	
+      }   
+    //console.log(videoPlayer.currentTime);
+    }, false);
+
+function playVideoSegment(startTime, endTime){
+    $("#stdoutDiv").text("");
+    //console.log("--- playVideoSegment(" + startTime + ", " + endTime + ")");
+    videoContinuousPlay = false;
+    videoSegmentEnd = endTime;
+    videoPlayer.pause()
+    videoPlayer.currentTime = 0;
+    videoPlayer.currentTime = startTime;
+    videoPlayer.play();
+}
+function playVideo2Segment(startTime, endTime){
+    $("#stdoutDiv").text("");
+    console.log("--- playVideoSegment(" + startTime + ", " + endTime + ")");
+    
+    videoContinuousPlay = false;
+    video2SegmentEnd = endTime;
+    videoPlayer2.pause()
+    videoPlayer2.currentTime = 0;
+    videoPlayer2.currentTime = startTime;
+    videoPlayer2.play();
+}
+
+</script>
+
+
+
+  </body>
+</html>
+
+    

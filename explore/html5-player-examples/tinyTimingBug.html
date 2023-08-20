@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	 <style>
+		button {
+		 font-size: 24px;
+		 }
+		</style>
+  </head>
+  <body>
+  <div id="movieDiv" style="margin-left: 40px;">
+    <video id="videoPlayer"  controls height="400" preload="auto">
+		<source src="https://slexildata.artsrn.ualberta.ca/tlingit/37AtlinSrprizLk.mov">
+    </video>
+  </div id="movieDiv">
+
+  <div id="buttonDiv" style="margin-left: 100px; margin-top: 20px; margin-bottom: 10px;">
+      <br><button onclick="playVideoSegment(58, 62)"> mov 58-62</button>
+  </div id="buttonDiv">
+
+<script>
+//----------------------------------------------------------------------------------------------------
+var videoPlayer = document.getElementById("videoPlayer");
+var videoSegmentEnd;
+var videoContinuousPlay = true;
+
+videoPlayer.addEventListener("canplay", function(){
+   console.log("video can now play");
+   })
+
+videoPlayer.addEventListener("timeupdate", function (){
+    console.log(videoPlayer.currentTime)
+    if (!videoContinuousPlay && videoSegmentEnd && videoPlayer.currentTime >= videoSegmentEnd){
+      videoPlayer.pause();
+      videoContinuousPlay = true;	
+      }   
+    }, false);
+
+function playVideoSegment(startTime, endTime){
+    videoContinuousPlay = false;
+    videoSegmentEnd = endTime;
+    videoPlayer.pause()
+    videoPlayer.currentTime = 0;
+    videoPlayer.currentTime = startTime;
+    videoPlayer.play();
+}
+</script>
+</body>
+</html>
+
+    
