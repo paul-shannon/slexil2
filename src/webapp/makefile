@@ -13,7 +13,6 @@ default:
 	@echo bash
 	@echo bashIn
 	@echo run
-	@echo push
 	@echo stop
 	@echo clean
 	@echo logs

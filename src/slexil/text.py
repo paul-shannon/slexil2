@@ -42,6 +42,7 @@ import identifyLines
 class Text:
 
 	xmlFilename = ''
+	pageTitle = ''
 	grammaticalTermsFile = None
 	kbFilename = None
 	linguisticsFilename = None
@@ -58,21 +59,27 @@ class Text:
 	lineTables = None
 
 	def __init__(self,
-				 xmlFilename,
-				 grammaticalTermsFile,
-				 tierGuideFile,
-				 projectDirectory,
-				 verbose,
-				 fontSizeControls,
-				 startLine,
-				 endLine,
-				 kbFilename,
-				 linguisticsFilename):
+		     xmlFilename,
+		     grammaticalTermsFile,
+		     tierGuideFile,
+		     projectDirectory,
+		     verbose,
+		     fontSizeControls,
+		     startLine,
+		     endLine,
+		     pageTitle,
+		     helpFilename,
+		     kbFilename,
+		     linguisticsFilename):
 		self.xmlFilename = xmlFilename
+		if(len(pageTitle) == 0):
+			pageTitle = "slexil2"
+		self.pageTitle = pageTitle
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
 		self.projectDirectory = projectDirectory
 		self.fontSizeControls = fontSizeControls
+		self.helpFilename = helpFilename
 		self.kbFilename = kbFilename
 		self.linguisticsFilename = linguisticsFilename
 		self.validInputs()
@@ -271,13 +278,13 @@ class Text:
 
 	#--------------------------------------------------------------------------------	
 	def getPlayer(self):
-		mimeType = self.getMediaInfo()["mimeType"]
-		try:
-			mimeType in ["audio/x-wav", "video/m4v", "video/mp4", "video/quicktime"]
-		except:
-			sys.exit(1)
+		#mimeType = self.getMediaInfo()["mimeType"]
+		#try:
+		#	mimeType in ["audio/x-wav", "video/m4v", "video/mp4", "video/quicktime"]
+		#except:
+		#	sys.exit(1)
 		url = self.getMediaInfo()["url"]
-		suffix = Path(url).suffix
+		suffix = Path(url).suffix.lower()
 		if(suffix in [".wav", ".mp3"]):
 			playerDiv = '<audio class="player" id="mediaPlayer" src="%s" controls></audio>' % url
 		elif(suffix in [".m4v", ".mov", ".mp4"]):
@@ -313,30 +320,32 @@ class Text:
 		with htmlDoc.tag('html', lang="en"):
 			with htmlDoc.tag('head'):
 				htmlDoc.asis('<meta charset="UTF-8"/>')
-				htmlDoc.asis('<title>slexil2</title>')
+				htmlDoc.asis('<title>%s</title>' % self.pageTitle)
 				htmlDoc.asis(webPacker.getCSSText())
 				htmlDoc.asis(startStopTimesJSText)
 				htmlDoc.asis(annotationLinks)
 				htmlDoc.asis("<!-- headCustomizationHook -->")
 			with htmlDoc.tag('body'):
-				aboutBoxNeeded = False
+				aboutBoxNeeded = self.helpFilename != None
 				with htmlDoc.tag("div", id="infoDiv"):
-					with htmlDoc.tag("div", id="titleRow", klass="row"):
-						with htmlDoc.tag("div", klass="col-md-10 col-12"):
-							if ("Title" in self.metadata.keys()):
-								with htmlDoc.tag("h3", id="h3Title"):
-									title = self.metadata["Title"]
-									htmlDoc.asis(title)
-						aboutBoxNeeded = optionallyAddAboutButton(htmlDoc,
-																  self.metadata)
+					#with htmlDoc.tag("div", id="titleRow", klass="row"):
+					#	with htmlDoc.tag("div", klass="col-md-10 col-12"):
+							#if (self.pageTitle != "slexil2"):
+							#	with htmlDoc.tag("h3", id="h3Title"):
+							#		htmlDoc.asis(self.pageTitle)
 					if(aboutBoxNeeded):
-						addAboutBox(htmlDoc, self.metadata)
+						addAboutBox(htmlDoc, self.helpFilename)
 
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
 				if(self.fontSizeControls):
 					addVideoSizeSlider(htmlDoc)
-				with htmlDoc.tag("div", id="mediaPlayerDiv"):
-					htmlDoc.asis(self.getPlayer())
+				with htmlDoc.tag("div", id="mediaAndButtonDiv"):
+					with htmlDoc.tag("div", id="mediaPlayerDiv"):
+						htmlDoc.asis(self.getPlayer())
+					#if(self.helpFilename != None):
+					with htmlDoc.tag("div", id="aboutBoxButtonDiv"):
+						addAboutBoxButton(htmlDoc)
+
 				if(self.fontSizeControls):
 					addFontSizeControls(htmlDoc)
 				if(self.kbFilename != None):
@@ -392,21 +401,13 @@ class Text:
 					line.toHTML(htmlDoc)
 
 #-------------------------------------------------------------------------------
-def optionallyAddAboutButton(htmlDoc, metadata):
+def addAboutBoxButton(htmlDoc):
 
-	if(not "Title" in metadata.keys()):
-		return(False)
-
-	if("Title" in metadata.keys()):  # no metadata beyond Title: skip
-		if(len(metadata) == 1):
-			return(False)
-
-	with htmlDoc.tag("div", klass="col-md-2 col-12"):
-		with htmlDoc.tag("button",
-							  ('data-bs-toggle','modal'),
-							  ('data-bs-target', '#aboutModalDialog'),
-							  klass="btn btn-primary"):
-			htmlDoc.text('About')
+	with htmlDoc.tag("button",
+			  ('data-bs-toggle','modal'),
+			  ('data-bs-target', '#aboutModalDialog'),
+			  klass="btn btn-primary"):
+		htmlDoc.text('How To...')
 
 	return(True)
 
@@ -428,7 +429,9 @@ def getLinguisticsTopics(filename, verbose):
 	return(topics)
 
 #-------------------------------------------------------------------------------
-def addAboutBox(htmlDoc, metadata):
+def addAboutBox(htmlDoc, helpFilename):
+
+	helpText = open(helpFilename).read()
 
 	with htmlDoc.tag("div",
 		('tabindex', "-1"),
@@ -438,14 +441,7 @@ def addAboutBox(htmlDoc, metadata):
 			with htmlDoc.tag("div", klass="modal-dialog modal-lg"):
 				with htmlDoc.tag("div", klass="modal-content"):
 					with htmlDoc.tag("div", klass="modal-body"):
-						if(len(metadata.keys()) > 0):
-							for topic in metadata.keys():
-								with htmlDoc.tag("h1"):
-									htmlDoc.text("%s:" % topic)
-								htmlDoc.text(metadata[topic])
-								htmlDoc.tag("p")
-								htmlDoc.tag("br")
-								htmlDoc.tag("br")
+						htmlDoc.asis(helpText)
 
 #---------------------------------------------------------------
 def addVideoSizeSlider(htmlDoc):
@@ -478,7 +474,6 @@ def addFontSizeControls(htmlDoc):
 		htmlDoc.input(name="fontSizeSlider", type="range",
 					  min="0.2", max="4.0", value="1.4", step="0.1",
 					  id="fontSizeSlider")
-		htmlDoc.stag("br")
 
 
 #---------------------------------------------------------------

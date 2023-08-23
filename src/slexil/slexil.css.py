@@ -4,6 +4,20 @@ body, html {
 	height: 100%;
 	}
 
+#mediaAndButtsonDiv{
+       float: left;
+       }
+#mediaPlayerDiv{
+       margin-left: 10px;
+       display: inline-block;
+       }
+
+#aboutBoxButtonDiv{
+       float: right;
+       margin-right: 100px;
+       display: inline-block;
+       }
+
 #controlsDiv{
 	height: 30vh;
 	overflow-y: scroll;

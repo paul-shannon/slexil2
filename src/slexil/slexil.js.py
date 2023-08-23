@@ -5,18 +5,29 @@ var mediaContinuousPlay = true;
 mediaPlayer.addEventListener("timeupdate", function (){
 
    tCurrent = Math.round(mediaPlayer.currentTime * 1000)
-   //console.log("timeupdate " + tCurrent + " continuous? " + mediaContinuousPlay)
+   verbose = true;
+   if(verbose){
+       console.log("--- timeupdate " + tCurrent + " continuous? " + mediaContinuousPlay)
+       console.log("    raw: " + mediaPlayer.currentTime)
+       }
 
    for(lineTimes of timeStamps){
       if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
          var lineNumber = parseInt(lineTimes.id)
-         //console.log("lineTimes.start: " + lineTimes.start + "  lineTimes.end: " + lineTimes.end);
+         if(verbose){
+            console.log("   line " + lineNumber + "  start: " + lineTimes.start.toFixed(2) +
+                        "  lineTimes.end: " + lineTimes.end.toFixed(2));
+            }
          scrollAndHighlight(lineNumber)
          break;
          }
       } // for lineTimes
 
    if (!mediaContinuousPlay && mediaSegmentEnd && mediaPlayer.currentTime >= mediaSegmentEnd){
+      if(verbose){
+         console.log("--- stopping play, because currentTime (" + mediaPlayer.currentTime.toFixed(2) +
+                      ") is >= mediaSegmentEnd (" + mediaSegmentEnd.toFixed(2) + ")");
+         }
       mediaPlayer.pause();
       mediaContinuousPlay=true;
       }   
