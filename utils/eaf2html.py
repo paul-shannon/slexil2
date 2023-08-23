@@ -22,6 +22,7 @@ argParser.add_argument("--startLine", help="optional start line")
 argParser.add_argument("--endLine", help="optional end line")
 argParser.add_argument("--addFontSizeControls", help="text font size +/-",
 					   action="store_true")
+argParser.add_argument("--helpFile", help="optional info for about box")
 argParser.add_argument("--kb", help="a knowledge base file")
 argParser.add_argument("--linguistics",
 					   help="a linguistics knowledge base file")
@@ -34,6 +35,7 @@ tierGuideFile = vars(args)["tierGuide"]
 projectDirectory = vars(args)["projectDirectory"]
 verbose = vars(args)["verbose"]
 startLine = vars(args)["startLine"]
+helpFilename = vars(args)["helpFile"]
 endLine = vars(args)["endLine"]
 kbFilename = vars(args)["kb"]
 linguisticsFilename = vars(args)["linguistics"]
@@ -45,8 +47,8 @@ if(endLine != None):
 fontSizeControls = vars(args)["addFontSizeControls"]
 
 text = Text(elanXmlFilename, grammaticalTermsFile, tierGuideFile,
-			projectDirectory, verbose, fontSizeControls, startLine, endLine,
-			kbFilename, linguisticsFilename)
+            projectDirectory, verbose, fontSizeControls, startLine, endLine,
+            helpFilename, kbFilename, linguisticsFilename)
 
 print(text.getTierSummary())
 htmlText = text.toHTML()
