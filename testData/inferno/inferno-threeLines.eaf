@@ -6,7 +6,7 @@
 			  xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="https://pshannon.net/inferno/audio/inferno-threeLines.wav"
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav"
             MIME_TYPE="audio/x-wav"/>
         <PROPERTY NAME="lastUsedAnnotationId">3</PROPERTY>
     </HEADER>
