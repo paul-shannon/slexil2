@@ -1,6 +1,5 @@
 default:
-	@echo targets: venv dev test install
-	@echo install pipgit check infernoDemo
+	@echo targets: venv all install
 	@echo webPacker
 	@echo eafParser
 	@echo ijalLine
@@ -14,7 +13,7 @@ venv:
 dev:
 	python -m unittest test_eafParser.py
 
-test: webPacker eafParser ijalLine text morphemeGloss
+all: webPacker eafParser ijalLine text morphemeGloss
 
 webPacker:
 	python -m unittest test_webPacker.py 
@@ -22,7 +21,7 @@ webPacker:
 eafParser:
 	python test_eafParser.py
 
-ijlaLine:
+ijalLine:
 	python test_IjalLine.py
 
 text:
