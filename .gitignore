@@ -5,7 +5,7 @@
 *.eaf
 src/slexil_package.egg-info/
 src/slexil_package.egg-info/PKG-INFO
-build/
+build/lib/slexil
 build/lib/
 dot-git-hidden/
 explore/
