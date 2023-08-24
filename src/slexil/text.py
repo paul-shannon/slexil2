@@ -69,6 +69,7 @@ class Text:
 		     endLine,
 		     pageTitle,
 		     helpFilename,
+		     helpButtonLabel,
 		     kbFilename,
 		     linguisticsFilename):
 		self.xmlFilename = xmlFilename
@@ -80,6 +81,7 @@ class Text:
 		self.projectDirectory = projectDirectory
 		self.fontSizeControls = fontSizeControls
 		self.helpFilename = helpFilename
+		self.helpButtonLabel = helpButtonLabel
 		self.kbFilename = kbFilename
 		self.linguisticsFilename = linguisticsFilename
 		self.validInputs()
@@ -342,9 +344,9 @@ class Text:
 				with htmlDoc.tag("div", id="mediaAndButtonDiv"):
 					with htmlDoc.tag("div", id="mediaPlayerDiv"):
 						htmlDoc.asis(self.getPlayer())
-					#if(self.helpFilename != None):
 					with htmlDoc.tag("div", id="aboutBoxButtonDiv"):
-						addAboutBoxButton(htmlDoc)
+						if(aboutBoxNeeded):
+							addAboutBoxButton(htmlDoc, self.helpButtonLabel)
 
 				if(self.fontSizeControls):
 					addFontSizeControls(htmlDoc)
@@ -401,13 +403,13 @@ class Text:
 					line.toHTML(htmlDoc)
 
 #-------------------------------------------------------------------------------
-def addAboutBoxButton(htmlDoc):
+def addAboutBoxButton(htmlDoc, buttonLabel):
 
 	with htmlDoc.tag("button",
 			  ('data-bs-toggle','modal'),
 			  ('data-bs-target', '#aboutModalDialog'),
 			  klass="btn btn-primary"):
-		htmlDoc.text('How To...')
+		htmlDoc.text(buttonLabel)
 
 	return(True)
 
@@ -449,7 +451,7 @@ def addVideoSizeSlider(htmlDoc):
 	with htmlDoc.tag("div", id="videoSizeSliderDiv", klass="sliderControlDiv"):
 
 		with htmlDoc.tag("label"):
-				htmlDoc.asis("Media Player Size")
+				htmlDoc.asis("Media Player Size &nbsp;")
 		htmlDoc.input(name="videoSizeSelector", type="range",
 					  min="100", max="800", value="400", step="100",
 					  id="videoSizeSelector")
@@ -461,7 +463,7 @@ def addFontSizeControls(htmlDoc):
 	with htmlDoc.tag("div", id="fontSizeControlsDiv", klass="sliderControlDiv"):
 
 		with htmlDoc.tag("label"):
-			htmlDoc.asis("Playback Speed")
+			htmlDoc.asis("Playback Speed &nbsp;")
 		htmlDoc.input(name="speedSelector", type="range",
 					  min="0.5", max="1.25", value="0.8",
 					  step="0.25", id="speedSelector")
@@ -470,7 +472,7 @@ def addFontSizeControls(htmlDoc):
 		htmlDoc.stag("br")
 
 		with htmlDoc.tag("label"):
-			htmlDoc.asis("Print Size")
+			htmlDoc.asis("Print Size &nbsp;")
 		htmlDoc.input(name="fontSizeSlider", type="range",
 					  min="0.2", max="4.0", value="1.4", step="0.1",
 					  id="fontSizeSlider")

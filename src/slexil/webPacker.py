@@ -1,5 +1,7 @@
 import os, pdb
+#import importlib
 import slexil
+from importlib import resources as rezReader
 
 class WebPacker:
 
@@ -15,14 +17,14 @@ class WebPacker:
        self.jsFiles = []
        self.verbose = verbose
 
-       self.cssFiles.append(os.path.join(baseDir, "bootstrap.min.css.py"))
-       self.cssFiles.append(os.path.join(baseDir, "slexil.css.py"))
+       self.cssFiles.append("bootstrap.min.css")
+       self.cssFiles.append("slexil.css")
 
-       self.jsFiles.append(os.path.join(baseDir, "showdown.js.py"))
-       self.jsFiles.append(os.path.join(baseDir, "jquery-3.6.3.min.js.py"))
-       self.jsFiles.append(os.path.join(baseDir, "slexil.js.py"))
-       self.jsFiles.append(os.path.join(baseDir, "bootstrap.bundle.min.js.py"))
-       self.jsFiles.append(os.path.join(baseDir, "annotations.js.py"))
+       self.jsFiles.append("showdown.min.js")
+       self.jsFiles.append("jquery-3.6.3.min.js")
+       self.jsFiles.append("slexil.js")
+       self.jsFiles.append("bootstrap.bundle.min.js")
+       self.jsFiles.append("annotations.js")
 
        if (self.verbose):
           for path in self.cssFiles:
@@ -43,19 +45,15 @@ class WebPacker:
     def readCSS(self):
         cssText = ""
         for file in self.cssFiles:
-           f = open(file)
-           newText = f.read()
+           newText = rezReader.read_text("slexil", file)
            cssText = cssText + "\n<style>\n" + newText + "\n</style>\n"
-           f.close()
         self.cssText = cssText
 
     def readJS(self):
         jsText = ""
         for file in self.jsFiles:
-           f = open(file)
-           newText = f.read()
+           newText = rezReader.read_text("slexil", file)
            jsText = jsText + "\n<script>\n" +  newText + "\n</script>\n";
-           f.close()
         self.jsText = jsText
 
     def getCSSText(self):

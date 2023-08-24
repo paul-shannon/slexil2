@@ -146,7 +146,7 @@ lines:
   - lineNumber: 18
     startTime: 94400
     endTime: 103558
-    lushootseed: (20) tu=gʷaʔxʷ ʔux̌ʷ tiʔəʔ diʔəʔ tuʔuluɬəxʷ tiʔəʔ diʔəʔ bibščəb ʔi tiʔəʔ diʔəʔ ʔi tiʔəʔ qaw'qs
+    lushootseed: tu=gʷaʔxʷ ʔux̌ʷ tiʔəʔ diʔəʔ tuʔuluɬəxʷ tiʔəʔ diʔəʔ bibščəb ʔi tiʔəʔ diʔəʔ ʔi tiʔəʔ qaw'qs
     morphemes: [tu=gʷaʔxʷ,ʔux̌ʷ,tiʔəʔ,diʔəʔ,tu=ʔuluɬ=əxʷ,tiʔəʔ,diʔəʔ,bi–bəščəb,ʔi,tiʔəʔ,diʔəʔ,ʔi,tiʔəʔ,qaw'qs]
     morphemeGloss: [past=walk,go,PROX,here,past=travel.by.water=now,PROX,here,ATTN–mink,CONJ,PROX,here,CONJ,PROX,raven]
     english: They soon went, this here, traveled by water this here mink, and this here, and this raven.
@@ -154,35 +154,35 @@ lines:
   - lineNumber: 19
     startTime: 105180
     endTime: 108783
-    lushootseed: (21) tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q’xʷul’gʷədxʷ
+    lushootseed:  tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q’xʷul’gʷədxʷ
     morphemes: [tu=sə-gʷaʔxʷ,ʔux̌ʷ,tux̌ʷ,xʷiʔ,uʔxʷ,kʷi,sləx̌il,tux̌ʷ,kʷi,q’xʷul’gʷədxʷ]
     morphemeGloss: [past=PROG–walk,go,but,not,yet,rem,daylight,unknown,rem,upstream•land]
     english: Walking went but not yet, that daylight (unknown) that upstream.land.
 
   - lineNumber: 20
     startTime: 111638
-    endTime: 119617
-    lushootseed: (22) x̌ʷul’əxʷ əlgʷəʔ tuləč’itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il ləx̌iličəxʷ əlgʷəʔ
+    endTime: 119616
+    lushootseed:  x̌ʷul’əxʷ əlgʷəʔ tuləč’itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il ləx̌iličəxʷ əlgʷəʔ
     morphemes: [x̌ʷul’=əxʷ,əlgʷəʔ,tu=lə=č’it–il,dxʷ–ʔal,tiʔəʔ,dəxʷʔa,ʔə,kʷi,sləx̌il,ləx̌–il•ič=əxʷ,əlgʷəʔ]
     morphemeGloss: [only=now,pl,past=prog=near–inch,cntrpt–at,prox,adnm=be.there,pr,rem,daylight,light–inch•covering=now,pl]
     english: As they drew near this place of daylight, light enveloped them.
-#
-#  - lineNumber: 23
-#    startTime: 119617
-#    endTime: 123638
-#    lushootseed: ƛ’uhagʷəxʷ kʷi ƛ’usləx̌ils gʷəl ƛ’ubələbəsad
-#    morphemes: [ƛ’u=hagʷ=əxʷ,kʷi,ƛ’u=s=ləx̌–il=s,gʷəl,ƛ’u=bə=lə=bəsad]
-#    morphemeGloss: [hab=long.time=now,rem,hab=nm=light–inch=3po,sconj,hab=add=prog=dark]
-#    english: For a long time it would be day then it would again be dark.
-#
-#  - lineNumber: 24
-#    startTime: 125234
-#    endTime: 127862
-#    lushootseed: diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ ləč’itiləxʷ čəɬ
-#    morphemes: [diɬ,tu=dəxʷ=ʔəs–hay–dxʷ=s=əxʷ,əlgʷəʔ,lə=č’it–il=əxʷ,čəɬ]
-#    morphemeGloss: [foc,past=adnm=stat–known–dc=3po=now,pl,prog=near–inch=now,1pl.sub]
-#    english: That is how they knew. We are getting near.
-#
+
+  - lineNumber: 21
+    startTime: 119617
+    endTime: 123638
+    lushootseed: ƛ’uhagʷəxʷ kʷi ƛ’usləx̌ils gʷəl ƛ’ubələbəsad
+    morphemes: [ƛ’u=hagʷ=əxʷ,kʷi,ƛ’u=s=ləx̌–il=s,gʷəl,ƛ’u=bə=lə=bəsad]
+    morphemeGloss: [hab=long.time=now,rem,hab=nm=light–inch=3po,sconj,hab=add=prog=dark]
+    english: For a long time it would be day then it would again be dark.
+
+  - lineNumber: 22
+    startTime: 124700 # 125234
+    endTime: 127862
+    lushootseed: diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ ləč’itiləxʷ čəɬ
+    morphemes: [diɬ,tu=dəxʷ=ʔəs–hay–dxʷ=s=əxʷ,əlgʷəʔ,lə=č’it–il=əxʷ,čəɬ]
+    morphemeGloss: [foc,past=adnm=stat–known–dc=3po=now,pl,prog=near–inch=now,1pl.sub]
+    english: That is how they knew. We are getting near.
+
 #
 #  - lineNumber: 28
 #    startTime: 144827

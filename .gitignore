@@ -5,7 +5,8 @@
 *.eaf
 src/slexil_package.egg-info/
 src/slexil_package.egg-info/PKG-INFO
-build/*
+build/
+build/lib/
 dot-git-hidden/
 explore/
 py3105/

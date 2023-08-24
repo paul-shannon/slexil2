@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slexil"
+version = "2.3.21"
+
+[tool.setuptools]
+#package-dir = {"" = "."}
+packages = ["slexil"]
+include-package-data = true
+ 
+[tool.setuptools.package-data]
+'slexil' = ['*.css', '*.js']
+

@@ -1,6 +1,12 @@
 default:
 	@echo targets: venv dev test install
 	@echo install pipgit check infernoDemo
+	@echo webPacker
+	@echo eafParser
+	@echo ijalLine
+	@echo text
+	@echo morphemeGloss
+	@echo listTiers
 
 venv:
 	@echo source ~/github/slexil2/py3105/bin/activate
@@ -8,13 +14,27 @@ venv:
 dev:
 	python -m unittest test_eafParser.py
 
-test:
+test: webPacker eafParser ijalLine text morphemeGloss
+
+webPacker:
 	python -m unittest test_webPacker.py 
+
+eafParser:
 	python test_eafParser.py
+
+ijlaLine:
 	python test_IjalLine.py
+
+text:
 	python test_Text.py
+
+morphemeGloss:
+
 	python -m unittest test_MorphemeGloss.py
+
+listTiers:
 	python -m unittest test_listTiers.py
+
 #	python -m unittest test_infernoDemo.py
 #	python -m unittest test_infernoDemo_toHTML.py
 
