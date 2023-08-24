@@ -5,14 +5,16 @@ from importlib import resources as rezReader
 
 class WebPacker:
 
-    baseDir = None
     cssFiles = []
     jsFiles = []
     cssText = None
     jsText = None
+    fullText = True
     verbose = False
-	
-    def __init__(self, baseDir, verbose=False):
+    baseUrl = "https://slexilData.artsrn.ualberta.ca/includes"
+
+    def __init__(self, fullText=True, verbose=False):
+       self.fullText = fullText
        self.cssFiles = []
        self.jsFiles = []
        self.verbose = verbose
@@ -57,22 +59,20 @@ class WebPacker:
         self.jsText = jsText
 
     def getCSSText(self):
-        return(self.cssText)
+        if(self.fullText):
+           return(self.cssText)
+        else:
+           urlText = ""
+           for file in self.cssFiles:
+               urlText += "%s/%s\n" % (self.baseUrl, file)
+           return(urlText)
 
     def getJSText(self):
-        return(self.jsText)
-
-
-#
-#	def getSlexiljs(self):
-#		fulljsText = "".join(["<script>", self.slexiljsText, "</script>"])
-#		return(fulljsText)
-#
-#	def getShowdownjs(self):
-#		fulljsText = "".join(["<script>", self.showdownjsText, "</script>"])
-#		return(fulljsText)
-#
-#	def getAnnotationjs(self):
-#		fulljsText = "".join(["<script>", self.annotationsjsText, "</script>"])
-#		return(fulljsText)
+        if(self.fullText):
+           return(self.jsText)
+        else:
+           urlText = ""
+           for file in self.jsFiles:
+               urlText += "%s/%s\n" % (self.baseUrl, file)
+           return(urlText)
 

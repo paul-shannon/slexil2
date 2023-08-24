@@ -5,13 +5,13 @@ import pdb
 import slexil
 from slexil.webPacker import WebPacker
 
-baseDir = os.path.dirname(slexil.__file__)
+# baseDir = os.path.dirname(slexil.__file__)
 
 class TestWebPacker(unittest.TestCase):
 
 	def test_ctor(self):
 		print("--- running TestWebPacker.test_ctor")
-		packer = WebPacker(baseDir)
+		packer = WebPacker()
 		cssFiles = packer.getCSSFilenames()
 		assert(len(cssFiles) == 2)
 		jsFiles = packer.getJSFilenames()
@@ -19,7 +19,7 @@ class TestWebPacker(unittest.TestCase):
 
 	def test_readCSS(self):
 		print("--- running TestWebPacker.test_readCSS")
-		packer = WebPacker(baseDir)
+		packer = WebPacker()
 		packer.readCSS()
 		cssText = packer.getCSSText()
 		assert(len(cssText) > 20000)
@@ -30,7 +30,7 @@ class TestWebPacker(unittest.TestCase):
 
 	def test_readJS(self):
 		print("--- running TestWebPacker.test_readJS")
-		packer = WebPacker(baseDir)
+		packer = WebPacker()
 		packer.readJS()
 		jsText = packer.getJSText()
 		len(jsText)
@@ -38,6 +38,14 @@ class TestWebPacker(unittest.TestCase):
 		closeTags = [m.start() for m in re.finditer("</script>", jsText)]
 		assert(len(openTags) >= 5)
 		assert(len(closeTags) >= 5)
+
+	def test_noTextJustURLs(self):
+		print("--- running TestWebPacker.test_noTextJustURLs")
+		packer = WebPacker(fullText=False)
+		expected = "https://slexilData.artsrn.ualberta.ca/includes/bootstrap.min.css\nhttps://slexilData.artsrn.ualberta.ca/includes/slexil.css\n"
+		assert(packer.getCSSText() == expected)
+		expected = "https://slexilData.artsrn.ualberta.ca/includes/showdown.min.js\nhttps://slexilData.artsrn.ualberta.ca/includes/jquery-3.6.3.min.js\nhttps://slexilData.artsrn.ualberta.ca/includes/slexil.js\nhttps://slexilData.artsrn.ualberta.ca/includes/bootstrap.bundle.min.js\nhttps://slexilData.artsrn.ualberta.ca/includes/annotations.js\n"
+		assert(packer.getJSText() == expected)
 
 if __name__ == '__main__':
 		unittest.main()
