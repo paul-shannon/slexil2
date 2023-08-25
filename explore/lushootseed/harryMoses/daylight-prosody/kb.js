@@ -273,7 +273,9 @@ _they, theirs_
     
 "tu=dəxʷ=ʔəs–hay–dxʷ=s=əxʷ":
 `
-_past manner state of knowing with.difficulty they now_
+_tu=dəxʷ=ʔəs–hay–dxʷ=s=əxʷ_ <br>
+_past (means of knowing LC) 3PO now_
+
 - _tu=_:
     - past time, especially the remote past.
     - inflectional past prefix, appearing on any lexical category functioning as predicate or complement.
@@ -299,8 +301,9 @@ _past manner state of knowing with.difficulty they now_
     
 "diɬ":
 `
-_that_
-- the one who, the thing that, that which, the aforementioned. LD 83 <button id="refButton" onclick="ref('anaphor');">anaphor</button>
+_diɬ_
+
+- the one who, the thing that, that which, the aforementioned. LD 83. (anaphor)
 - pronoun; often used as a one-word predicate followed by a subordinate clause.
   One would expect a demonstrative to introduce a following clause when it serves
   as the complement of the _diɬ_ predicate.  However, all speakers omit this
@@ -311,6 +314,7 @@ _that_
 "diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ ləč’itiləxʷ čəɬ":
 `
 _that manner-of-knowing they. getting.nearer we_
+
 the cyles of dark and light (described in the previous) line is how they knew: we are getting near.
 - <audio id="weAreGettingNear"><source src="audio/weAreGettingNear-24-25.wav"/></audio><button onclick="playSample('weAreGettingNear')">half-speed</button>
 - <audio id="howTheyKnew"><source src="audio/howTheyKnew.wav"/></audio><button onclick="playSample('howTheyKnew')">how they knew</button>

@@ -27,7 +27,10 @@ html:
                --projectDirectory ./ \
                --addFontSizeControls \
                --kb kb.js \
-               --linguistics linguisticTerms.js 
+               --linguistics linguisticTerms.js \
+               --helpFile help.html \
+               --helpButtonLabel  About \
+               --pageTitle Daylight
 #               --verbose 
 #               --startLine 121 \
 #               --endLine 126

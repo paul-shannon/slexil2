@@ -71,11 +71,13 @@ class Text:
 		     helpFilename,
 		     helpButtonLabel,
 		     kbFilename,
-		     linguisticsFilename):
+		     linguisticsFilename,
+		     webpackLinksOnly=False):
 		self.xmlFilename = xmlFilename
 		if(len(pageTitle) == 0):
 			pageTitle = "slexil2"
 		self.pageTitle = pageTitle
+		self.webpackLinksOnly = webpackLinksOnly
 		self.grammaticalTermsFile = grammaticalTermsFile
 		self.tierGuideFile = tierGuideFile
 		self.projectDirectory = projectDirectory
@@ -307,8 +309,8 @@ class Text:
 			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
 
 		htmlDoc.asis('<!DOCTYPE html>\n')
-		baseDir = os.path.dirname(__file__) # find the js and css files 
-		webPacker = WebPacker(baseDir)
+		#baseDir = os.path.dirname(__file__) # find the js and css files 
+		webPacker = WebPacker(fullText = (not self.webpackLinksOnly))
 		webPacker.readCSS()
 		webPacker.readJS()
 		self.startStopTable = self.extractTimeCodes()

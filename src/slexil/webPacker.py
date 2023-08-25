@@ -64,7 +64,8 @@ class WebPacker:
         else:
            urlText = ""
            for file in self.cssFiles:
-               urlText += "%s/%s\n" % (self.baseUrl, file)
+               urlText += "<link rel='stylesheet' href='%s/%s'>" % \
+                   (self.baseUrl, file)
            return(urlText)
 
     def getJSText(self):
@@ -73,6 +74,6 @@ class WebPacker:
         else:
            urlText = ""
            for file in self.jsFiles:
-               urlText += "%s/%s\n" % (self.baseUrl, file)
+               urlText += "<script src='%s/%s'></script>" % (self.baseUrl, file)
            return(urlText)
 
