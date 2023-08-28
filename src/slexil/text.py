@@ -1,3 +1,4 @@
+# -*- tab-width: 4 -*-
 '''
 ******************************************************************
 SLEXIL—Software Linking Elan XML to Illuminated Language
@@ -42,43 +43,43 @@ import identifyLines
 class Text:
 
 	xmlFilename = ''
+	eafParser = None
 	pageTitle = ''
 	grammaticalTermsFile = None
 	kbFilename = None
 	linguisticsFilename = None
-	mediaURL = None   # almost always read from the eaf, can be set
-	mediaMimeType = None
+	mediaInfo = {"url": None, "mimetype": None}
 	grammaticalTerms = []
-	xmlDoc = None
 	htmlDoc = None
 	lineCount = 0
 	verbose = False
 	timeCodesForText = []
 	startStopTable = None
-	eafParser = None
 	lineTables = None
 
 	def __init__(self,
-		     xmlFilename,
-		     grammaticalTermsFile,
-		     tierGuideFile,
-		     projectDirectory,
-		     verbose,
-		     fontSizeControls,
-		     startLine,
-		     endLine,
-		     pageTitle,
-		     helpFilename,
-		     helpButtonLabel,
-		     kbFilename,
-		     linguisticsFilename,
-		     webpackLinksOnly=False):
+                 xmlFilename,
+		         grammaticalTermsFile,
+		         tierGuideFile,
+		         projectDirectory,
+		         verbose,
+		         fontSizeControls,
+		         startLine,
+		         endLine,
+		         pageTitle,
+		         helpFilename,
+		         helpButtonLabel,
+		         kbFilename,
+		         linguisticsFilename,
+		         fixOverlappingTimeSegments,
+		         webpackLinksOnly=False):
+
 		self.xmlFilename = xmlFilename
 		if(len(pageTitle) == 0):
 			pageTitle = "slexil2"
 		self.pageTitle = pageTitle
 		self.webpackLinksOnly = webpackLinksOnly
-		self.grammaticalTermsFile = grammaticalTermsFile
+		self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
 		self.tierGuideFile = tierGuideFile
 		self.projectDirectory = projectDirectory
 		self.fontSizeControls = fontSizeControls
@@ -88,14 +89,14 @@ class Text:
 		self.linguisticsFilename = linguisticsFilename
 		self.validInputs()
 		self.verbose = verbose
-		self.xmlDoc = etree.parse(self.xmlFilename)
-		self.metadata = self.extractMetadata()
-		self.extractMediaInfo()
+
+		parser = EafParser(xmlFilename, self.verbose, self.fixOverlappingTimeSegments)
+		self.eafParser = parser
+		parser.parseAllLines()
+
 		with open(tierGuideFile, 'r') as f:
 			self.tierGuide = yaml.safe_load(f)
-		self.speechTier = self.tierGuide['speech']
-		self.speechTierList = identifyLines.getList(self.xmlDoc,self.tierGuide)
-		self.lineCount = len(self.speechTierList)
+		self.lineCount = parser.getLineCount()
 		if(self.lineCount == 0):
 			print("no lines found, disagreement between tierGuide and eaf? ")
 			print("perhaps case disagreement?")
@@ -108,111 +109,16 @@ class Text:
 		if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
 			os.remove(os.path.join(projectDirectory,"ERRORS.log"))
 		f = os.path.join(projectDirectory, "ERRORS.log")
-		targetDirectory = os.path.join(projectDirectory,"audio")
-		self.eafParser = EafParser(xmlFilename)
-		  # read all the lines, possibly from multiple speakers, sort by start time 
-		self.eafParser.parseAllLines()
-		  # this is a list of dataframes
-		self.lineTables = self.eafParser.getAllLinesTable() 
-
-	#--------------------------------------------------------------------------------	
-	def extractMetadata(self):
-		if (self.verbose):
-			print("--- entering extractMetadata")
-		properties = self.xmlDoc.findall("HEADER")[0].findall("PROPERTY")
-		metadata = {}
-		for prop in properties:
-			name = prop.attrib["NAME"]
-			if("metadata:" in name):
-				name = name.replace("metadata:","")
-				value = prop.text
-				metadata[name] = value
-		return(metadata)
-
-	#--------------------------------------------------------------------------------	
-	def extractMediaInfo(self):
-		if(self.verbose):
-			print("--- entering extractMediaInfo")
-		# todo: test for the presence of these elements and the attributes
-		x = self.xmlDoc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
-		self.mediaURL = x.attrib["MEDIA_URL"]
-		self.mediaMimeType = x.attrib["MIME_TYPE"]
-		#print("media url: %s" % self.mediaURL)
-		#print("mimeType:  %s" % self.mediaMimeType)
-
-	#--------------------------------------------------------------------------------	
-	def setMediaURL(self, newURL, mimeType):
-
-		self.mediaURL = newURL
-		self.mediaMimeType = mimeType
+		self.metadata = parser.getMetadata()
+		self.mediaInfo = parser.getMediaInfo()
+		self.lineTables = parser.getAllLinesTable() 
+		self.startStopTable = parser.getTimeTable()
+		self.eafParser = parser
 
 	#--------------------------------------------------------------------------------	
 	def getMediaInfo(self):
-		return({"url": self.mediaURL,  "mimeType": self.mediaMimeType})
 
-	#--------------------------------------------------------------------------------	
-	def getTierSummary(self):
-		if(self.verbose):
-			print("--- entering getTierSummary")
-		tmpDoc = etree.parse(self.xmlFilename)
-		tierIDs = [tier.attrib["TIER_ID"] for tier in tmpDoc.findall("TIER")]
-		tiers = tmpDoc.findall("TIER")
-		#print(self.tierGuide)
-		itemList = pd.DataFrame(list(self.tierGuide.items()), columns=['key', 'value'])
-		tbl = itemList[:-1].copy()
-		#print(tbl)
-		#tbl = pd.DataFrame(list(self.tierGuide.items()), columns=['key', 'value']).ix[0:3]
-		tierValues = tbl["value"].tolist()
-		tblSize = len(tierValues)
-		countList = []
-		for i in range(0,tblSize):
-			countList.append(0)
-		tbl['count'] = countList
-		#tbl['count'] = [0, 0, 0, 0]
-		for i in range(tblSize):
-			try:
-				#exception raised by None tiers
-				tier = tiers[i]
-				tierValue = tierValues[i]
-				tierID = tier.attrib["TIER_ID"]
-				count = len(tier.findall("ANNOTATION"))
-				rowNumber = tbl[tbl['value']==tierValue].index
-				#tbl.ix[rowNumber, 'count'] = count
-				tbl.iloc[rowNumber, tbl.columns.values.tolist().index('count')] = count
-			#print(" %30s: %4d" % (tierID, count))
-			except IndexError:
-				break
-		self.tierTable = tbl
-		return(tbl)
-
-	#--------------------------------------------------------------------------------	
-	def extractTimeCodes(self):
-		if(self.verbose):
-			print("--- entering determineStartAndEndTimes")
-		# print("entering determine start and end times")
-		xmlDoc = etree.parse(self.xmlFilename)
-		timeSlotElements = xmlDoc.findall("TIME_ORDER/TIME_SLOT")
-		timeIDs = [x.attrib["TIME_SLOT_ID"] for x in timeSlotElements]
-		times = [int(x.attrib["TIME_VALUE"]) for x in timeSlotElements]
-		audioTiers = xmlDoc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION")
-		audioIDs = [x.attrib["ANNOTATION_ID"] for x in audioTiers]
-		tsRef1 = [x.attrib["TIME_SLOT_REF1"] for x in audioTiers]
-		tsRef2 = [x.attrib["TIME_SLOT_REF2"] for x in audioTiers]
-		d = {"id": audioIDs, "t1": tsRef1, "t2": tsRef2}
-		tbl_t1 = pd.DataFrame({"id": audioIDs, "t1": tsRef1})
-		tbl_t2 = pd.DataFrame({"id": audioIDs, "t2": tsRef2})
-		tbl_times = pd.DataFrame({"id": timeIDs, "timeValue": times})
-		tbl_t1m = pd.merge(tbl_t1, tbl_times, left_on="t1", right_on="id")
-		tbl_t2m = pd.merge(tbl_t2, tbl_times, left_on="t2", right_on="id")
-		tbl_raw = pd.merge(tbl_t1m, tbl_t2m, on="id_x")
-		tbl = tbl_raw.drop(["id_y_x", "id_y_y"], axis=1)
-		# still need to rename, maybe also reorder columns
-		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
-		list(tbl.columns)
-		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
-		#        tbl = tbl.sort('start')
-		self.startStopTable = tbl
-		return (tbl)
+		return(self.mediaInfo)
 
 	#--------------------------------------------------------------------------------	
 	def makeJavascriptStartStopObject(self, tbl):
@@ -260,33 +166,8 @@ class Text:
 		return(True)
 
 	#--------------------------------------------------------------------------------	
-	def getLineAsTable(self, lineNumber):
-		if(self.verbose):
-			print("--- entering getLineAsTable")
-		audioData = lineNumber+1 #self.audioTable[int(lineNumber)]
-		print("audio data: %s" % audioData)
-		x = IjalLine(self.xmlDoc, lineNumber, self.tierGuide, audioData, quiet=(not self.verbose))
-		x.parse()
-		return(x.getTable())
-
-	#--------------------------------------------------------------------------------	
-	def traverseStructure(self):
-		if(self.verbose):
-			print("--- entering traverseStructure")
-		for i in self.lineNumbers:
-			x = IjalLine(self.xmlDoc, i, self.tierGuide, quiet=(not self.verbose))
-			x.parse()
-			tbl = x.getTable()
-			print("%d: %d tiers" % (i, tbl.shape[0]))
-
-
-	#--------------------------------------------------------------------------------	
 	def getPlayer(self):
-		#mimeType = self.getMediaInfo()["mimeType"]
-		#try:
-		#	mimeType in ["audio/x-wav", "video/m4v", "video/mp4", "video/quicktime"]
-		#except:
-		#	sys.exit(1)
+
 		url = self.getMediaInfo()["url"]
 		suffix = Path(url).suffix.lower()
 		if(suffix in [".wav", ".mp3"]):
@@ -309,11 +190,9 @@ class Text:
 			print("toHTML, lineNumber count: %d" % len(self.lineNumbers))
 
 		htmlDoc.asis('<!DOCTYPE html>\n')
-		#baseDir = os.path.dirname(__file__) # find the js and css files 
 		webPacker = WebPacker(fullText = (not self.webpackLinksOnly))
 		webPacker.readCSS()
 		webPacker.readJS()
-		self.startStopTable = self.extractTimeCodes()
 		startStopTimesJSText = self.makeJavascriptStartStopObject(self.startStopTable)
 
 		annotationLinks = ""

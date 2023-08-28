@@ -1,3 +1,4 @@
+# -*- tab-width: 4 -*-
 #-------------------------------------------------------------------------------
 import os, sys
 import xmlschema
@@ -19,12 +20,21 @@ class EafParser:
 	timeTable = None
 	lineTable = None
 	linesAll = list()
+	verbose = False
+	metadata = None
+	mediaURL = None
+	mediaMimeType = None
+	fixOverlappingTimeSegments = False
 
-	def __init__(self, xmlFilename):
+	def __init__(self, xmlFilename, verbose, fixOverlappingTimeSegments):
 
 		self.xmlFilename = xmlFilename
+		self.verbose = verbose
+		self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
 		assert(self.xmlValid())
 		self.doc = etree.parse(xmlFilename)
+		self.extractMetadata()
+		self.extractMediaInfo()
 		self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
 		self.constructTierTable()
 		self.constructTimeTable()
@@ -53,6 +63,10 @@ class EafParser:
 		return(self.xmlFilename)
 	def getLineCount(self):
 		return(self.lineCount)
+	def getMetadata(self):
+		return(self.metadata)
+	def getMediaInfo(self):
+		return({"url": self.mediaURL, "mimetype": self.mediaMimeType})
 	def getTierTable(self):
 		return(self.tierTable)
 	def getTimeTable(self):
@@ -61,6 +75,29 @@ class EafParser:
 		return(self.linesAll)
 
 	#----------------------------------------------------------------------------------
+	def extractMetadata(self):
+		if (self.verbose):
+			print("--- entering extractMetadata")
+		properties = self.doc.findall("HEADER")[0].findall("PROPERTY")
+		metadata = {}
+		for prop in properties:
+			name = prop.attrib["NAME"]
+			if("metadata:" in name):
+				name = name.replace("metadata:","")
+				value = prop.text
+				metadata[name] = value
+		self.metadata = metadata
+
+	#--------------------------------------------------------------------------------	
+	def extractMediaInfo(self):
+		if(self.verbose):
+			print("--- entering extractMediaInfo")
+		# todo: test for the presence of these elements and the attributes
+		x = self.doc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")[0]
+		self.mediaURL = x.attrib["MEDIA_URL"]
+		self.mediaMimeType = x.attrib["MIME_TYPE"]
+
+	#--------------------------------------------------------------------------------	
 	def constructTierTable(self):
 
 		   # first get the possible LINGUISTIC_TYPE_REFS.  each tier must have this
@@ -125,8 +162,29 @@ class EafParser:
 		   # now to rename, then reorder columns
 		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
+
+
+			# to ensure clean single line playback, the start time of the
+            # n+1 line must be larger than the end time of the nth line.
+            # find offenders here and fix them
+
+		if(self.fixOverlappingTimeSegments):
+			starts = list(tbl["start"])
+			ends = list(tbl["end"])
+			rowCount = tbl.shape[0]
+			for i in range(0,rowCount-1):
+				if (ends[i] >= starts[i+1]):
+					ends[i] = starts[i+1] - 1
+			tbl["end"] = ends
+
 		self.timeTable = tbl
-		
+
+
+	#----------------------------------------------------------------------------------
+	def fixOverlappingTimeSegments(self):
+
+		self.timeTable["end"] = ends
+
 	#----------------------------------------------------------------------------------
 	   # a hack: recursive, it works but only via visitList, at surrounding
 	   # function scope.  to be improved.
