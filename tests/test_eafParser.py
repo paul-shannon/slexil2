@@ -1,3 +1,4 @@
+# -*- tab-width: 4 -*-
 import unittest
 import pdb
 import os, sys
@@ -25,6 +26,7 @@ def runTests():
 	test_depthFirstTierTraversal()
 	test_getLineTable()
 	test_parseAllLines()
+	test_fixOverlappingTimes()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -172,5 +174,28 @@ def test_parseAllLines():
 
 
 #---------------------------------------------------------------------------------------------------
+# we usually want disjoint times, so that only one is selected at a time
+# in manual playback.  test that optional capability here
+def test_fixOverlappingTimes():
+
+	print("--- test_fixOverlappingTimes")
+	f = "../testData/overlappingTimes.eaf"
+	parser = EafParser(f)
+	rowCount = parser.getLineCount()
+	assert(rowCount == 1132)
+	tbl = parser.getTimeTable()
+	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
+	   # 1131 check, not 1132, since the first line has no previous 
+	   # line with which it can overlap
+	assert(pd.DataFrame(overlaps).groupby(0).size()[True]  == 1024)
+	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 107)
+
+	   # now decrement the end of each of those overlapping lines by 1 msec
+	parser.fixOverlappingTimeSegments()
+	tbl = parser.getTimeTable()
+	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
+	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 1131)
+
+#---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
-    runTests()
+	runTests()
