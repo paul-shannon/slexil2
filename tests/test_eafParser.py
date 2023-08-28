@@ -33,7 +33,7 @@ def test_ctor():
 
 	print("--- test_ctor")
 	f = eafFiles[3]
-	parser = EafParser(f)
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	assert(parser.getFilename() == f)
 	assert(parser.xmlValid())
 
@@ -42,8 +42,7 @@ def test_tierTable():
 
 	print("--- test_tierTable")
 	f = eafFiles[3]
-	parser = EafParser(f)
-	#parser.constructTierTable()
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	tbl = parser.getTierTable()
 
 	   # this is the table we expect: 
@@ -76,8 +75,7 @@ def test_timeTable():
 
 	print("--- test_timeTable")
 	f = eafFiles[3]
-	parser = EafParser(f)
-	#parser.constructTimeTable()
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	tbl = parser.getTimeTable()
 	assert(tbl.shape == (170,5))
 	   # looks like this:
@@ -103,7 +101,7 @@ def test_depthFirstTierTraversal():
 
 	print("--- test_depthFirstTierTraversal")
 	f = eafFiles[0]
-	parser = EafParser(f)
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 
 	nestedAnnotationIDs = parser.depthFirstTierTraversal("a2")
 	assert(nestedAnnotationIDs == ['a6', 'a10', 'a14'])
@@ -125,7 +123,7 @@ def test_depthFirstTierTraversal():
 	  # '../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf'
 
 	f = eafFiles[12]  # ../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf
-	parser = EafParser(f)
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	nestedAnnotationIDs = parser.depthFirstTierTraversal("a1")
 	assert(nestedAnnotationIDs == ['a365'])
 
@@ -137,7 +135,7 @@ def test_getLineTable():
 	print("--- test_getLineTable")
 
 	f = eafFiles[0]
-	parser = EafParser(f)
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	assert(parser.getLineCount() == 3)
 
 	tbl = parser.getTierTable()
@@ -163,7 +161,7 @@ def test_parseAllLines():
 
 	print("--- test_parseAllLines")
 	f = eafFiles[0]
-	parser = EafParser(f)
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	assert(parser.getLineCount() == 3)
 	#parser.constructTierTable()
 	#parser.constructTimeTable()
@@ -180,7 +178,7 @@ def test_fixOverlappingTimes():
 
 	print("--- test_fixOverlappingTimes")
 	f = "../testData/overlappingTimes.eaf"
-	parser = EafParser(f)
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	rowCount = parser.getLineCount()
 	assert(rowCount == 1132)
 	tbl = parser.getTimeTable()
@@ -191,7 +189,7 @@ def test_fixOverlappingTimes():
 	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 107)
 
 	   # now decrement the end of each of those overlapping lines by 1 msec
-	parser.fixOverlappingTimeSegments()
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=True)
 	tbl = parser.getTimeTable()
 	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
 	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 1131)
