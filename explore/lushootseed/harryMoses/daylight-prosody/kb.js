@@ -311,14 +311,15 @@ _diɬ_
 - compare _cədiɬ_: the particular one, he, she, that fellow, 3p sg emphatic pronoun. LD 44.
 `,    
 
-"diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ ləč’itiləxʷ čəɬ":
+"diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ":
 `
-_that manner-of-knowing they. getting.nearer we_
+_diɬ tu(dəxʷəs)hayd(x)ʷs(əxʷ) əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ_
 
-the cyles of dark and light (described in the previous) line is how they knew: we are getting near.
-- <audio id="weAreGettingNear"><source src="audio/weAreGettingNear-24-25.wav"/></audio><button onclick="playSample('weAreGettingNear')">half-speed</button>
-- <audio id="howTheyKnew"><source src="audio/howTheyKnew.wav"/></audio><button onclick="playSample('howTheyKnew')">how they knew</button>
+what I hear: deet too HIDE sulgwah gwuh duff AICH eel uff chush
+Interpreted as two slightly different lines by Beck & Hess 2015:
 
+27. diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ 
+28. ləč’itiləxʷ čəɬ
 `,
 
 "ƛ’uhagʷəxʷ kʷi ƛ’usləx̌ils gʷəl ƛ’ubələbəsad":

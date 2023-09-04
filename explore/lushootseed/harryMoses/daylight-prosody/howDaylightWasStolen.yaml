@@ -178,10 +178,10 @@ lines:
   - lineNumber: 22
     startTime: 124700 # 125234
     endTime: 127862
-    lushootseed: diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ ləč’itiləxʷ čəɬ
-    morphemes: [diɬ,tu=dəxʷ=ʔəs–hay–dxʷ=s=əxʷ,əlgʷəʔ,lə=č’it–il=əxʷ,čəɬ]
-    morphemeGloss: [foc,past=adnm=stat–known–dc=3po=now,pl,prog=near–inch=now,1pl.sub]
-    english: That is how they knew. We are getting near.
+    lushootseed: diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ
+    morphemes: [diɬ,tu=ʔəs–hay–dxʷ,əlgʷəʔ, gʷə=dəxʷ=č'it-il-əxʷlə=č’it–il=əxʷ,čəɬ]
+    morphemeGloss: [FOC,PAST=STAT–know–DC,PL,SBJ-ADMN-near–INCH=NOW,1PL.SUB]
+    english: That (was how) knew they becoming near they.
 
 #
 #  - lineNumber: 28

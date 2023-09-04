@@ -3,10 +3,12 @@ NAME = howDaylightWasStolen
 
 default:
 	@echo targets:
-	@echo   venv eaf http refresh-js html
-	@echo   tailor open-local
-	@echo   mkdir testdir 
-	@echo   publish open
+	@echo  venv eaf http refresh-js html
+	@echo  eaf
+	@echo  html
+	@echo  view
+	@echo  publish
+	@echo  viewRemote
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105/bin/activate
@@ -19,21 +21,38 @@ http:
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
 
-html: 
+html.old: 
 	python ~/github/slexil2/utils/eaf2html.py \
                --eaf $(NAME).eaf \
                --terms grammaticalTerms.txt \
                --tierGuide tierGuide.yaml \
                --projectDirectory ./ \
-               --addFontSizeControls \
-               --kb kb.js \
+               --fontSizeControls \
+               --kbFilename kb.js \
                --linguistics linguisticTerms.js \
-               --helpFile help.html \
+               --helpFilename help.html \
                --helpButtonLabel  About \
-               --pageTitle Daylight
-#               --verbose 
-#               --startLine 121 \
-#               --endLine 126
+               --pageTitle Daylight \
+               --verbose \
+               --startLine None \
+               --endLine None \
+               -webpackLinksOnly False
+	            fixOverlappingTimeSegments=True)
+
+
+html:
+	python ../../../../utils/eaf2html.py  --eaf $(NAME).eaf \
+                       --tierGuide tierGuide.yaml \
+                       --terms grammaticalTerms.txt \
+                       --pageTitle "Harry Moses - How Daylight Was Stolen" \
+                       --fontSizeControls \
+                       --kbFilename kb.js \
+                       --linguistics linguistics.js \
+                       --helpFile about.html \
+                       --helpButtonLabel About \
+                       --webpackLinksOnly
+
+
 
 tailor:
 	sed -f insertCustomCode.sed index.html  > index0.html
@@ -49,14 +68,6 @@ publish:
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 
-open-local:
+view:
 	open index.html
 
-open:
-	open https://pshannon.net/tlingit-demos/$(PROJECT_NUMBER)/index.html
-
-mkdir:
-	ssh paulshannnon@pshannon.net mkdir public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)
-
-testdir:
-	ssh paulshannnon@pshannon.net ls -l public_html/pshannon.net/tlingit-demos/$(PROJECT_NUMBER)
