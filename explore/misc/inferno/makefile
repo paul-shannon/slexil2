@@ -8,6 +8,7 @@ default:
 	@echo eaf
 	@echo html
 	@echo publish
+	@echo view
 	@echo viewRemote
 
 venv:
@@ -23,16 +24,22 @@ eaf:
 	python ~/github/yamlToEAF/toEAF.py  inferno-threeLines.yaml 
 
 html:
-	python ./toHTML.py  --eaf $(EAF) \
+	python ../../../utils/eaf2html.py  --eaf $(EAF) \
                        --tierGuide tierGuide.yaml \
-                       --pageTitle Inferno \
+                       --terms grammaticalTerms.txt \
+                       --pageTitle "Dante's Inferno" \
                        --helpFile about.html \
                        --helpButtonLabel About \
-                       --webpackLinksOnly
+                       --webpackLinksOnly \
+                       --fontSizeControls
+#                       --verbose
 #			   --start 31 --end 33
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/misc/$(HTML.FILE)
+
+view:
+	open index.html
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/misc/$(HTML.FILE)

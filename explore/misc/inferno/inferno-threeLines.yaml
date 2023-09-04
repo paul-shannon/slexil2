@@ -7,7 +7,7 @@ lines:
   - lineNumber: 1
     startTime: 0
     endTime: 3093
-    italianSpeech: Nel MEZZO del cammin di nostra vita
+    italianSpeech: Nel mezzo del cammin di nostra vita
     morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
     morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
     english: Midway upon the journey of our life
