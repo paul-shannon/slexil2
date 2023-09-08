@@ -1,5 +1,6 @@
-EAF = 24LenaNellie2230714Slexil.eaf
-HTML.FILE = 24LenaNellie.html
+EAF = 9IdaCalmegane230503Slexil.eaf
+MEDIA = 9IdaCalmagne.m4v
+HTML.FILE = 9IdaCalmagne.html
 
 default:
 	@echo movieCurl
@@ -17,7 +18,7 @@ valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
 
 movieCurl:
-	curl -I https://slexildata.artsrn.ualberta.ca/tlingit/1RuthNora2Wide.m4v
+	curl -I https://slexildata.artsrn.ualberta.ca/tlingit/$(MEDIA)
 
 html:
 	python ../../../utils/eaf2html.py  \
@@ -25,9 +26,10 @@ html:
                         --tierGuide tierGuide.yaml \
                         --helpFile ../help.html \
                         --helpButtonLabel "How To" \
-                        --pageTitle "Tlingit Conversation #24" \
+                        --pageTitle "Tlingit Conversation #9" \
                         --fixOverlappingTimeSegments \
                         --fontSizeControls
+
 view:
 	open index.html
 

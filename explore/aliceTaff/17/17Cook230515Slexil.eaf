@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-05-15T12:13:36-09:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/CookIt.m4v"
+            MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./CookIt.m4v"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:689ee722-310a-4449-aa0d-0d2928e1b6bd</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">130</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="43"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="204"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="219"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="2500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="2558"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="5166"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="5166"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="7921"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="7921"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="9038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="9038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="10458"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="11120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="13320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="13320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="15431"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="15431"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="16486"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="16486"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="19640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="19640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="22560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="22560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="24006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="24006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="24560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="28456"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="30031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="30031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="30761"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="31611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="32171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="32171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="32691"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="33573"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="34543"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="34543"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="36663"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="40391"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="42211"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="42211"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="43911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="43911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="49530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="49530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="54086"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="54458"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="57525"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Speakers are Kaaxwaan Éesh George Davis, Kaachkoo.aakw Helen Sarabia, and Naakil.aan Mark Hans Chester. Recorded June, 2009 at Egan Library, University of Alaska Southeast, in Juneau, Alaska by Ljáaḵkʼ Alice Taff.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a100"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>Recorded by Ljáaḵkʼ Alice Taff. Tlingit transcription by Naakil.aan Mark Hans Chester. English translation by Shakwsháani Margaret Dutson and Ljáaḵkʼ Alice Taff. Edited by X̱ʼaaki Sháawu Keri Eggleston and Kaachkoo.aakw Helen Sarabia. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a95"
+                TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Yaa kanajúx áwé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Daa sá yisi.ée nisdaat?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Hél daa sá.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Eesháan!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Tlél gé eex̱áa? [probably meant: tlél gé at yix̱á?] </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>A káx̱ x̱at x̱'akawdudligéiḵ ách áwé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Aáa. Wé doctor-ch.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>Mmm.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>Wa.é ḵu.aa?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>Daa sáwé yisi.ée nisdaat?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>Nisdaat.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Éis'k'.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>Laaḵ'ásk tsú</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>aan.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Éis'k'.    Wow.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Ḵa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>I eenxʼ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a69"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>sakwnéin.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>K'idéin áwé wutoox̱áa. [Probably meant: K'idéin áwé at wutuwax̱áa.]</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a71"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>Yak'éi x̱aawé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>Ax̱ tuwáa sigóo x̱wasa.eeyí wé ts'ootaat gaawú atx̱aayí.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>Ch'as McDonald's-déi wutuwaḵúx̱.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a101"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>[At shooḵ]</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="Translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a99">
+                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant 0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator, and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a100">
+                <ANNOTATION_VALUE>SYMBOLS: {false start}, (added for clarity), [translator/transcriber's note]. ??? = can’t understand, «Lingít quotation marks»   Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a95">
+                <ANNOTATION_VALUE>The camera is rolling.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>What did you cook last night?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>Nothing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>Poor thing!</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>Didnʼt you eat?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a57">
+                <ANNOTATION_VALUE>I was forbidden to eat, thatʼs why.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>Yes. By the doctor.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a60">
+                <ANNOTATION_VALUE>What about you?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>What did you cook last night?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>Last night.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>Yum.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a64">
+                <ANNOTATION_VALUE>Seaweed too</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a65">
+                <ANNOTATION_VALUE>with it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>Yum.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a67">
+                <ANNOTATION_VALUE>and</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a68">
+                <ANNOTATION_VALUE>With you</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a69">
+                <ANNOTATION_VALUE>bread.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a70">
+                <ANNOTATION_VALUE>We ate well.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a71">
+                <ANNOTATION_VALUE>Thatʼs good.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a72">
+                <ANNOTATION_VALUE>I like to cook breakfast.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a73">
+                <ANNOTATION_VALUE>We just went to McDonald's.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a101">
+                <ANNOTATION_VALUE>[Laughter]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="Speaker Initials">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a99">
+                <ANNOTATION_VALUE>KÉGD = Kaaxwaan Éesh George Davis. KHS = Kaachkoo.aakw Helen Sarabia. NMHC = Naakil.aan Mark Hans Chester.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a100">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a108" ANNOTATION_REF="a95">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a110" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE> KHS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a112" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a57">
+                <ANNOTATION_VALUE>KHS </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>NMHC, KHS </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a60">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>KÉGD</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>KHS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a64">
+                <ANNOTATION_VALUE>KÉGD</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a65">
+                <ANNOTATION_VALUE>KÉGD</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>NMHC, KHS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a67">
+                <ANNOTATION_VALUE>KÉGD</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a68">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a69">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a126" ANNOTATION_REF="a70">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a71">
+                <ANNOTATION_VALUE>KHS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a128" ANNOTATION_REF="a72">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a129" ANNOTATION_REF="a73">
+                <ANNOTATION_VALUE>NMHC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a130" ANNOTATION_REF="a101">
+                <ANNOTATION_VALUE>All</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

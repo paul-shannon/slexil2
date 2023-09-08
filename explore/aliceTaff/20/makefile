@@ -1,5 +1,5 @@
-EAF = 24LenaNellie2230714Slexil.eaf
-HTML.FILE = 24LenaNellie.html
+EAF = 20NoraFred230714Slexil.eaf
+HTML.FILE = 20NoraFred.html
 
 default:
 	@echo movieCurl
@@ -25,7 +25,7 @@ html:
                         --tierGuide tierGuide.yaml \
                         --helpFile ../help.html \
                         --helpButtonLabel "How To" \
-                        --pageTitle "Tlingit Conversation #24" \
+                        --pageTitle "Tlingit Conversation #20" \
                         --fixOverlappingTimeSegments \
                         --fontSizeControls
 view:
