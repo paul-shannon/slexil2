@@ -316,7 +316,12 @@ _diɬ_
 _diɬ tu(dəxʷəs)hayd(x)ʷs(əxʷ) əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ_
 
 what I hear: deet too HIDE sulgwah gwuh duff AICH eel uff chush
-Interpreted as two slightly different lines by Beck & Hess 2015:
+
+"AICH" sounds a lot like _ič_ (covering) from line 20 above,
+but context and prior analysis strongly suggeste _č'it_ (near) with
+in-the-moment sound modifications by the speaker.
+<p> 
+This line is interpreted as two slightly different lines by Beck & Hess 2015:
 
 27. diɬ tudəxʷəshaydxʷsəxʷ əlgʷəʔ 
 28. ləč’itiləxʷ čəɬ

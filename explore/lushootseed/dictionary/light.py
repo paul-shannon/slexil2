@@ -1,6 +1,7 @@
 from lxml import etree
 import xmltodict
 import pprint
+import pandas
 import pdb
 pp = pprint.PrettyPrinter(indent=2)
 

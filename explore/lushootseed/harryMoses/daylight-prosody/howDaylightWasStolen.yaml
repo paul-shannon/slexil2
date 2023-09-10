@@ -176,15 +176,22 @@ lines:
     english: For a long time it would be day then it would again be dark.
 
   - lineNumber: 22
-    startTime: 124700 # 125234
+    startTime: 124700
     endTime: 127862
     lushootseed: diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ
-    morphemes: [diɬ,tu=ʔəs–hay–dxʷ,əlgʷəʔ, gʷə=dəxʷ=č'it-il-əxʷlə=č’it–il=əxʷ,čəɬ]
-    morphemeGloss: [FOC,PAST=STAT–know–DC,PL,SBJ-ADMN-near–INCH=NOW,1PL.SUB]
+    morphemes: [diɬ,tu=ʔəs–hay–dxʷ,əlgʷəʔ, gʷə=dəxʷ=č'it-il-əxʷ,čəɬ]
+    morphemeGloss: [FOC,PAST=STAT–know–DC,PL,SBJ-ADMN-near–INCH=now,1PL.SUB]
     english: That (was how) knew they becoming near they.
 
-#
-#  - lineNumber: 28
+  - lineNumber: 23
+    startTime: 127865
+    endTime: 131346
+    lushootseed: gʷəl tuɬəgʷɬ əlgʷəʔ tiʔəʔ q’il’bids gʷəl tugʷax̌ʷ
+    morphemes: [gʷəl,tu=ɬəgʷɬ,əlgʷəʔ,tiʔəʔ,q’il’bid–s,gʷəl,tu=gʷax̌ʷ]
+    morphemeGloss: [sconj,past=leave,pl,prox,canoe–3po,sconj,past=walk]
+    english: Then they left their canoe and walked.
+
+#  - lineNumber: 23
 #    startTime: 144827
 #    endTime: 149367
 #    lushootseed: (28)-(29) ɬudxʷʔiʷədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il

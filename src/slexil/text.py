@@ -81,6 +81,7 @@ class Text:
 		self.webpackLinksOnly = webpackLinksOnly
 		self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
 		self.tierGuideFile = tierGuideFile
+		self.grammaticalTermsFile = grammaticalTermsFile
 		self.projectDirectory = projectDirectory
 		self.fontSizeControls = fontSizeControls
 		self.helpFilename = helpFilename
@@ -211,11 +212,6 @@ class Text:
 			with htmlDoc.tag('body'):
 				aboutBoxNeeded = self.helpFilename != None
 				with htmlDoc.tag("div", id="infoDiv"):
-					#with htmlDoc.tag("div", id="titleRow", klass="row"):
-					#	with htmlDoc.tag("div", klass="col-md-10 col-12"):
-							#if (self.pageTitle != "slexil2"):
-							#	with htmlDoc.tag("h3", id="h3Title"):
-							#		htmlDoc.asis(self.pageTitle)
 					if(aboutBoxNeeded):
 						addAboutBox(htmlDoc, self.helpFilename)
 
@@ -226,6 +222,8 @@ class Text:
 					with htmlDoc.tag("div", id="mediaPlayerDiv"):
 						htmlDoc.asis(self.getPlayer())
 					with htmlDoc.tag("div", id="aboutBoxButtonDiv"):
+						with htmlDoc.tag("h5", id="titleHeader"):
+							htmlDoc.asis(self.pageTitle)
 						if(aboutBoxNeeded):
 							addAboutBoxButton(htmlDoc, self.helpButtonLabel)
 
@@ -346,7 +344,7 @@ def addFontSizeControls(htmlDoc):
 		with htmlDoc.tag("label"):
 			htmlDoc.asis("Playback Speed &nbsp;")
 		htmlDoc.input(name="speedSelector", type="range",
-					  min="0.5", max="1.25", value="0.8",
+					  min="0.25", max="1.25", value="1.0",
 					  step="0.25", id="speedSelector")
 		with htmlDoc.tag("div", id="playbackSpeedReadout"):
 				htmlDoc.asis("1.0")
