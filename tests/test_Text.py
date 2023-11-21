@@ -13,6 +13,14 @@ import pandas as pd
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
 #--------------------------------------------------------------------------------
+def runTests():
+
+	test_inferno_speechOnly()
+	test_inferno_speechAndTranslation()
+	test_inferno_speechTranslationMorphemes()
+	test_inferno_speechTranslationMorphemesAndGloss()
+
+#--------------------------------------------------------------------------------
 def test_inferno_speechOnly():
 
 	print("--- text_inferno_speechOnly")
@@ -35,22 +43,26 @@ def test_inferno_speechOnly():
 	linguisticsFilename = None
 	
 	text = Text(elanXmlFilename,
-				grammaticalTermsFile=grammaticalTermsFile,
-				tierGuideFile=tierGuideFile,
-				projectDirectory=projectDirectory,
-				verbose=False,
-				fontSizeControls = fontSizeControls,
-				startLine = startLine,
-				endLine = endLine,
-				kbFilename = kbFilename,
-				linguisticsFilename = linguisticsFilename)
+		    grammaticalTermsFile=grammaticalTermsFile,
+		    tierGuideFile=tierGuideFile,
+		    projectDirectory=projectDirectory,
+		    verbose=False,
+		    fontSizeControls = fontSizeControls,
+		    startLine = startLine,
+		    endLine = endLine,
+		    kbFilename = kbFilename,
+		    linguisticsFilename = linguisticsFilename,
+                    pageTitle = "inferno",
+		    helpFilename = None,
+		    helpButtonLabel = None,
+                    fixOverlappingTimeSegments=True)
 
 	# print(text.getTierSummary())
 	htmlText = text.toHTML()
 	htmlText_indented = yattag.indent(htmlText)
 
 	   # 3 lines, speech only
-	pattern = re.compile('speech-tier">')
+	pattern = re.compile('speech-tier"')
 	assert(len(pattern.findall(htmlText)) == 3)
 
 	   # should be no other tiers
@@ -61,7 +73,7 @@ def test_inferno_speechOnly():
 	f = open(filename, "wb")
 	f.write(bytes(htmlText_indented, "utf-8"))
 	f.close()
-	print("wrote %s" % f.name)
+	print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
 def test_inferno_speechAndTranslation():
@@ -87,15 +99,19 @@ def test_inferno_speechAndTranslation():
 	linguisticsFilename = None
 	
 	text = Text(elanXmlFilename,
-				grammaticalTermsFile=grammaticalTermsFile,
-				tierGuideFile=tierGuideFile,
-				projectDirectory=projectDirectory,
-				verbose=False,
-				fontSizeControls = fontSizeControls,
-				startLine = startLine,
-				endLine = endLine,
-				kbFilename = kbFilename,
-				linguisticsFilename = linguisticsFilename)
+		    grammaticalTermsFile=grammaticalTermsFile,
+		    tierGuideFile=tierGuideFile,
+		    projectDirectory=projectDirectory,
+		    verbose=False,
+		    fontSizeControls = fontSizeControls,
+		    startLine = startLine,
+		    endLine = endLine,
+		    kbFilename = kbFilename,
+		    linguisticsFilename = linguisticsFilename,
+                    pageTitle = "inferno",
+		    helpFilename = None,
+		    helpButtonLabel = None,
+                    fixOverlappingTimeSegments=True)
 
 	# print(text.getTierSummary())
 	htmlText = text.toHTML()
@@ -117,7 +133,7 @@ def test_inferno_speechAndTranslation():
 	f = open(filename, "wb")
 	f.write(bytes(htmlText_indented, "utf-8"))
 	f.close()
-	print("wrote %s" % f.name)
+	print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
 def test_inferno_speechTranslationMorphemes():
@@ -145,26 +161,30 @@ def test_inferno_speechTranslationMorphemes():
 	linguisticsFilename = None
 	
 	text = Text(elanXmlFilename,
-				grammaticalTermsFile=grammaticalTermsFile,
-				tierGuideFile=tierGuideFile,
-				projectDirectory=projectDirectory,
-				verbose=False,
-				fontSizeControls = fontSizeControls,
-				startLine = startLine,
-				endLine = endLine,
-				kbFilename = kbFilename,
-				linguisticsFilename = linguisticsFilename)
+		    grammaticalTermsFile=grammaticalTermsFile,
+		    tierGuideFile=tierGuideFile,
+		    projectDirectory=projectDirectory,
+		    verbose=False,
+		    fontSizeControls = fontSizeControls,
+		    startLine = startLine,
+                    pageTitle = "inferno",
+		    helpFilename = None,
+		    helpButtonLabel = None,
+		    endLine = endLine,
+		    kbFilename = kbFilename,
+		    linguisticsFilename = linguisticsFilename,
+                    fixOverlappingTimeSegments=True)
 
 	# print(text.getTierSummary())
 	htmlText = text.toHTML()
 	htmlText_indented = yattag.indent(htmlText)
 
-	   # 3 speech tiers
-	pattern = re.compile('speech-tier">')
+	   # 3 speech tiers, but avoid two ".speech-tier" strings
+	pattern = re.compile('"speech-tier"')
 	assert(len(pattern.findall(htmlText)) == 3)
 
 	   # 3 translation tiers
-	pattern = re.compile('freeTranslation-tier">')
+	pattern = re.compile('"freeTranslation-tier"')
 	assert(len(pattern.findall(htmlText)) == 3)
 	
 	   # 3 translation tiers
@@ -175,7 +195,7 @@ def test_inferno_speechTranslationMorphemes():
 	f = open(filename, "wb")
 	f.write(bytes(htmlText_indented, "utf-8"))
 	f.close()
-	print("wrote %s" % f.name)
+	print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
 def test_inferno_speechTranslationMorphemesAndGloss():
@@ -204,26 +224,30 @@ def test_inferno_speechTranslationMorphemesAndGloss():
 	linguisticsFilename = None
 	
 	text = Text(elanXmlFilename,
-				grammaticalTermsFile=grammaticalTermsFile,
-				tierGuideFile=tierGuideFile,
-				projectDirectory=projectDirectory,
-				verbose=False,
-				fontSizeControls = fontSizeControls,
-				startLine = startLine,
-				endLine = endLine,
-				kbFilename = kbFilename,
-				linguisticsFilename = linguisticsFilename)
+		    grammaticalTermsFile=grammaticalTermsFile,
+		    tierGuideFile=tierGuideFile,
+		    projectDirectory=projectDirectory,
+		    verbose=False,
+		    fontSizeControls = fontSizeControls,
+		    startLine = startLine,
+		    endLine = endLine,
+		    kbFilename = kbFilename,
+		    linguisticsFilename = linguisticsFilename,
+                    pageTitle = "inferno",
+		    helpFilename = None,
+		    helpButtonLabel = None,
+                    fixOverlappingTimeSegments=True)
 
 	# print(text.getTierSummary())
 	htmlText = text.toHTML()
 	htmlText_indented = yattag.indent(htmlText)
 
 	   # 3 speech tiers
-	pattern = re.compile('speech-tier">')
+	pattern = re.compile('"speech-tier">')
 	assert(len(pattern.findall(htmlText)) == 3)
 
 	   # 3 translation tiers
-	pattern = re.compile('freeTranslation-tier">')
+	pattern = re.compile('"freeTranslation-tier"')
 	assert(len(pattern.findall(htmlText)) == 3)
 	
 	   # 3 morpheme tiers, 3 morphemeGloss tiers
@@ -234,15 +258,7 @@ def test_inferno_speechTranslationMorphemesAndGloss():
 	f = open(filename, "wb")
 	f.write(bytes(htmlText_indented, "utf-8"))
 	f.close()
-	print("wrote %s" % f.name)
-
-#--------------------------------------------------------------------------------
-def runTests():
-
-	test_inferno_speechOnly()
-	test_inferno_speechAndTranslation()
-	test_inferno_speechTranslationMorphemes()
-	test_inferno_speechTranslationMorphemesAndGloss()
+	print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
 if __name__ == '__main__':

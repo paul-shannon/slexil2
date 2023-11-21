@@ -141,6 +141,18 @@ class EafParser:
 		self.tierTable = tbl.drop(columns=["LINGUISTIC_TYPE_ID"]) # redundant after merge
 
 	#----------------------------------------------------------------------------------
+    # def testParentTierReferences(self):
+    #   # get the unique ids of supposed parents.  the first tier has no parent
+    #
+    #    allFound = True
+    #
+    #    for ref in parentReferences:
+    #
+    #       if not found:
+    #
+    #          missing.append(ref)#
+    #        
+
 	def constructTimeTable(self):
 
 		timeSlotElements = self.doc.findall("TIME_ORDER/TIME_SLOT")

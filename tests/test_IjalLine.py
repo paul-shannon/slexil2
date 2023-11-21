@@ -93,7 +93,8 @@ def test_calculateMorphemeSpacing():
 	print("--- test_calculateMorphemeSpacing")
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
-	parser = EafParser(f)
+	parser = EafParser(xmlFilename=f, verbose=False,
+                           fixOverlappingTimeSegments=True)
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes",
@@ -118,7 +119,9 @@ def test_toHTML_speechOnly():
 	print("--- test_toHTML_speechOnly")
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
-	parser = EafParser(f)
+	parser = EafParser(xmlFilename=f, verbose=False,
+                           fixOverlappingTimeSegments=True)
+
 	tbl = parser.getLineTable(1)
 	speechOnlyTierGuide = {"speech": "italianSpeech"}
 
@@ -163,7 +166,9 @@ def test_toHTML_speechAndTranslation():
 	print("--- test_toHTML_speechAndTranslation")
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
-	parser = EafParser(f)
+	parser = EafParser(xmlFilename=f, verbose=False,
+                           fixOverlappingTimeSegments=True)
+
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "translation": "english"}
@@ -202,7 +207,9 @@ def test_toHTML_speechAndMorphemes():
 	print("--- test_toHTML_speechAndMorphemes")
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
-	parser = EafParser(f)
+	parser = EafParser(xmlFilename=f, verbose=False,
+                           fixOverlappingTimeSegments=True)
+
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes"}
@@ -247,7 +254,9 @@ def test_toHTML_speechAndMorphemesAndGlosses():
 	print("--- test_toHTML_speechAndMorphemesAndGlosses")
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
-	parser = EafParser(f)
+	parser = EafParser(xmlFilename=f, verbose=False,
+                           fixOverlappingTimeSegments=True)
+
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes",
@@ -296,7 +305,9 @@ def test_toHTML_speechAndMorphemesAndGlossesAndTranslation():
 	print("--- test_toHTML_speechAndMorphemesAndGlossesAndTranslation")
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
-	parser = EafParser(f)
+	parser = EafParser(xmlFilename=f, verbose=False,
+                           fixOverlappingTimeSegments=True)
+
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes",

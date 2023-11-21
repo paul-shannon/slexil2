@@ -12,37 +12,49 @@ pd.set_option('display.max_columns', None)
 from pathlib import Path
 path = Path(".")
 
-eafFiles = open("../testData/eafFileList.txt").read().split('\n')
-if(eafFiles[-1] == ""):
-	del eafFiles[-1]
-print("eaf file count: %d" % len(eafFiles))
-
+eafFile = "../testData/inferno/inferno-threeLines.eaf"
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
 	test_ctor()
-	test_tierTable()
-	test_timeTable()
+	test_getMetadata()
+	test_getTierTable()
+	test_getTimeTable()
+	test_getTimeTable_fixOverlappingTimes()
 	test_depthFirstTierTraversal()
 	test_getLineTable()
 	test_parseAllLines()
-	test_fixOverlappingTimes()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
 
 	print("--- test_ctor")
-	f = eafFiles[3]
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-	assert(parser.getFilename() == f)
+	parser = EafParser(eafFile)
+	assert(parser.getFilename() == eafFile)
 	assert(parser.xmlValid())
 
 #---------------------------------------------------------------------------------------------------
-def test_tierTable():
+def test_getMetadata():
 
-	print("--- test_tierTable")
-	f = eafFiles[3]
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+	parser = EafParser(eafFile)
+	md = parser.getMetadata()
+	assert(md == {})  # not currently used
+
+#---------------------------------------------------------------------------------------------------
+def test_getMediaInfo():
+
+	print("--- test_getMediaInfo")
+
+	parser = EafParser(eafFile)
+	x = parser.getMediaInfo()
+	assert(x["url"] == "https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav")
+	assert(x["mimetype"] == "audio/x-wav")
+
+#---------------------------------------------------------------------------------------------------
+def test_getTierTable():
+
+	print("--- test_getTierTable")
+	parser = EafParser(eafFile)
 	tbl = parser.getTierTable()
 
 	   # this is the table we expect: 
@@ -58,40 +70,60 @@ def test_tierTable():
 				'CONSTRAINTS', 'GRAPHIC_REFERENCES', 'TIME_ALIGNABLE']
 	assert(tbl.columns.values.tolist() == expected)
 	   # check 1st column 
-	assert(tbl["TIER_ID"].tolist() ==
-					 ['utterance', 'translation', 'verb form', 'Speaker Initials'])
-	assert(tbl["TIME_ALIGNABLE"].tolist() ==
-					  ['true', 'false', 'false', 'false'])
+	assert(tbl["TIER_ID"].tolist() == ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
+	assert(tbl["TIME_ALIGNABLE"].tolist() == ['true', 'false', 'false', 'false'])
 
 	  # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
 	  # must use 2 steps to handle nan
 	assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
-	assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
-					 ['utterance', 'utterance', 'utterance'])
-
+	assert(tbl.loc[1:3, "PARENT_REF"].tolist() == ['italianSpeech', 'italianSpeech', 'italianSpeech'])
 
 #---------------------------------------------------------------------------------------------------
-def test_timeTable():
+def test_getTimeTable():
 
-	print("--- test_timeTable")
-	f = eafFiles[3]
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+	print("--- test_getTimeTable")
+	parser = EafParser(eafFile)
 	tbl = parser.getTimeTable()
-	assert(tbl.shape == (170,5))
-	   # looks like this:
-	   # tbl.loc[1:3]
-	   #   lineID  start   end   t1   t2
-	   # 1  a1358   1400  2475  ts3  ts4
-	   # 2  a1376   2665  5090  ts5  ts6
-	   # 3  a1377   5090  7530  ts7  ts8
+	assert(tbl.shape == (3,5))
+        #   lineID  start   end   t1   t2
+        # 0     a1      0  3093  ts1  ts2
+        # 1     a2   3093  5624  ts2  ts3
+        # 2     a3   5624  8033  ts3  ts4
 
-	assert(tbl.columns.values.tolist() ==
-					 ['lineID', 'start', 'end', 't1', 't2'])
+	assert(tbl.columns.values.tolist() == ['lineID', 'start', 'end', 't1', 't2'])
 	startTimes = tbl["start"].tolist()
 	endTimes = tbl["end"].tolist()
-	assert(startTimes[0:3] == [116,  1400, 2665])
-	assert(endTimes[0:3] ==   [1380, 2475, 5090])
+
+	assert(startTimes[0:3] == [0,    3093, 5624])
+	assert(endTimes[0:3]   == [3093, 5624, 8033])
 	
+#---------------------------------------------------------------------------------------------------
+# we usually want disjoint times, so that only one is selected at a time
+# in manual playback.  test that optional capability here
+def test_getTimeTable_fixOverlappingTimes():
+
+	print("--- test_fixOverlappingTimes")
+
+	f = "../testData/overlappingTimes.eaf"
+	parser = EafParser(f, fixOverlappingTimeSegments=False)
+	rowCount = parser.getLineCount()
+	tbl = parser.getTimeTable()
+	    # compare end (column 2) to the start (column 1) of the next line       
+	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
+	   # 1131 check, not 1132, since the first line has no previous 
+	   # line with which it can overlap
+	assert(pd.DataFrame(overlaps).groupby(0).size()[True]  == 1024)
+	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 107)
+
+	parser = EafParser(f, fixOverlappingTimeSegments=True)
+	rowCount = parser.getLineCount()
+	assert(rowCount == 1132)
+	tbl = parser.getTimeTable()
+	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
+	   # 1131 check, not 1132, since the first line has no previous 
+	   # line with which it can overlap
+	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 1131)
+
 #---------------------------------------------------------------------------------------------------
 # lines from typically all tiers are grouped with a time-aligned spoken tier
 # we need to recover all of those lines, some of which may be nested > 1 level
@@ -100,8 +132,7 @@ def test_timeTable():
 def test_depthFirstTierTraversal():
 
 	print("--- test_depthFirstTierTraversal")
-	f = eafFiles[0]
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+	parser = EafParser(eafFile)
 
 	nestedAnnotationIDs = parser.depthFirstTierTraversal("a2")
 	assert(nestedAnnotationIDs == ['a6', 'a10', 'a14'])
@@ -122,11 +153,10 @@ def test_depthFirstTierTraversal():
 	  # now a tlingit eaf
 	  # '../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf'
 
-	f = eafFiles[12]  # ../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+	f = "../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf"
+	parser = EafParser(f)
 	nestedAnnotationIDs = parser.depthFirstTierTraversal("a1")
 	assert(nestedAnnotationIDs == ['a365'])
-
 
 #---------------------------------------------------------------------------------------------------
 # a "line" is the parent time-aligned tier, and all of its associated child tiers
@@ -134,8 +164,7 @@ def test_getLineTable():
 
 	print("--- test_getLineTable")
 
-	f = eafFiles[0]
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+	parser = EafParser(eafFile)
 	assert(parser.getLineCount() == 3)
 
 	tbl = parser.getTierTable()
@@ -160,8 +189,7 @@ def test_getLineTable():
 def test_parseAllLines():
 
 	print("--- test_parseAllLines")
-	f = eafFiles[0]
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+	parser = EafParser(eafFile)
 	assert(parser.getLineCount() == 3)
 	#parser.constructTierTable()
 	#parser.constructTimeTable()
@@ -172,29 +200,6 @@ def test_parseAllLines():
 
 
 #---------------------------------------------------------------------------------------------------
-# we usually want disjoint times, so that only one is selected at a time
-# in manual playback.  test that optional capability here
-def test_fixOverlappingTimes():
-
-	print("--- test_fixOverlappingTimes")
-	f = "../testData/overlappingTimes.eaf"
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-	rowCount = parser.getLineCount()
-	assert(rowCount == 1132)
-	tbl = parser.getTimeTable()
-	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
-	   # 1131 check, not 1132, since the first line has no previous 
-	   # line with which it can overlap
-	assert(pd.DataFrame(overlaps).groupby(0).size()[True]  == 1024)
-	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 107)
-
-	   # now decrement the end of each of those overlapping lines by 1 msec
-	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=True)
-	tbl = parser.getTimeTable()
-	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
-	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 1131)
-	print("    leaving test_fixOverlappingTimes")
-
 #---------------------------------------------------------------------------------------------------
-if __name__ == '__main__':
-	runTests()
+# if __name__ == '__main__':
+#	runTests()

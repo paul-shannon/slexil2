@@ -22,6 +22,7 @@ david.beck at ualberta.ca.
 '''
 
 import pandas as pd
+pd.set_option('display.max_columns', None)
 from xml.etree import ElementTree as etree
 from morphemeGloss import *
 from pprint import pprint
@@ -315,8 +316,6 @@ def findChildren(doc, rootElement):
 
 
 # ------------------------------------------------------------------------------------------------------------------------
-
-# ------------------------------------------------------------------------------------------------------------------------
 # every line in the text is transformed from ELAN xml to a pandas table.
 # each row in the table corresponds to a tier in the xml.  Here we
 # aassociate canonical IJAL tiers (e.g., speech, morpheme, morphemeGloss, translation)
@@ -332,11 +331,20 @@ def findChildren(doc, rootElement):
 def standardizeTable(tbl, tierGuide, verbose):
 
     tierNames = tbl["tierID"].tolist()
+    userValues = list(tierGuide.values())
+    recognizedUserValues = list(set(userValues).intersection(set(tierNames)))
+    if(len(recognizedUserValues) == 0):
+       msg = "error in IjalLine standardizeTable: tier names not in tierGuide"
+       raise Exception(msg)
+    
     allCanonicalNames = ('speech', 'morpheme', 'morphemeGloss', 'translation', 'translation2')
     userCanonicalNames = list(tierGuide.keys())
+    #pdb.set_trace()
+    
     userIllegals = list(set(userCanonicalNames).difference(set(allCanonicalNames)))
     if(len(userIllegals) > 0):
        print("tierGuide uses unknown canonical IJAL categories: %s" % userIllegals)
+    
     recognized = [tierName for tierName in allCanonicalNames if tierName in userCanonicalNames]
     if(len(recognized) == 0):
        print("error no valid canonical tier names in your tierGuide")

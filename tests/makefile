@@ -6,9 +6,11 @@ default:
 	@echo text
 	@echo morphemeGloss
 	@echo listTiers
+	@echo tierNamingBug
+	@echo standardizeIjalTierTable
 
 venv:
-	@echo source ~/github/slexil2/py3105/bin/activate
+	@echo source source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 dev:
 	python -m unittest test_eafParser.py
@@ -49,3 +51,14 @@ check:
 infernoDemo:
 	python demoInferno.py
 	open inferno.html
+
+# BUG.eaf = ../testData/validButBreaksSlexil-small.eaf
+EAF = ../testData/inferno/inferno-threeLines.eaf
+TG = ../testData/inferno/tierGuide.yaml
+
+tierNamingBug:
+	python ../utils/validXML.py ../testData/EAFv3.0.xsd $(EAF)
+	python ../utils/eaf2html.py --eaf $(EAF) --tierGuide $(TG) --pageTitle bug
+
+standardizeIjalTierTable:
+	python test_standardizeIjalTierTable.py
