@@ -86,7 +86,7 @@ class StandardizeIjalTierTable:
       canonicalNames = [tierGuideReversed[key] for key in self.tbl["tierID"]]
          # some weird & fancy footwork to avoid "SettingWithCopyWarning"
       tbl = self.tbl.copy()
-      tbl.loc[:, "canonicalName"] = canonicalNames
+      tbl.loc[:, "canonicalTier"] = canonicalNames
       self.tbl = tbl
 
    def getTable(self):

@@ -169,7 +169,7 @@ def test_addCanonicalTierNameColumn():
 
    assert(list(tbl2["tierID"]) ==
           ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
-   assert(list(tbl2["canonicalName"]) ==
+   assert(list(tbl2["canonicalTier"]) ==
           ['speech', 'morpheme', 'morphemeGloss', 'translation'])
 
 
@@ -187,7 +187,7 @@ def test_addCanonicalTierNameColumn():
 
    assert(tbl2.shape == (1, 8))
    assert(list(tbl2["tierID"]) == ['italianSpeech'])
-   assert(list(tbl2["canonicalName"]) ==  ['speech'])
+   assert(list(tbl2["canonicalTier"]) ==  ['speech'])
 
 #------------------------------------------------------------------------------------------
 if __name__ == '__main__':

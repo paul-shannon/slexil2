@@ -30,6 +30,7 @@ from yattag import *
 import pdb
 import formatting
 from translationLine import *
+from slexil.standardizeIjalTierTable import StandardizeIjalTierTable
 
 # ------------------------------------------------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -50,7 +51,11 @@ class IjalLine:
     morphemeSpacing = None
 
     def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[], verbose=True):
-        self.tbl = standardizeTable(lineTable, tierGuide, verbose)
+        # self.tbl = standardizeTable(lineTable, tierGuide, verbose)
+        std = StandardizeIjalTierTable(lineTable, tierGuide, verbose)
+        std.guideAndLinesAgree()
+        std.addCanonicalTierNameColumn()
+        self.tbl = std.getTable()
         # print("ijalLine ctor, self.tbl has been standardized")
         # print(lineTable)
         # print(self.tbl)
@@ -331,7 +336,7 @@ def findChildren(doc, rootElement):
 #                            'translation2': None}
 # futhermore, since a speech tier is a mandatory minimum, we chack for that,
 # return None if insufficient information is provided.
-def standardizeTable(tbl, tierGuide, verbose):
+def obsolete_standardizeTable(tbl, tierGuide, verbose):
 
     tierNames = tbl["tierID"].tolist()
     userValues = list(tierGuide.values())
