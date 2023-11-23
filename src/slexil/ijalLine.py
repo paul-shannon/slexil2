@@ -51,6 +51,9 @@ class IjalLine:
 
     def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[], verbose=True):
         self.tbl = standardizeTable(lineTable, tierGuide, verbose)
+        # print("ijalLine ctor, self.tbl has been standardized")
+        # print(lineTable)
+        # print(self.tbl)
         self.lineNumber = lineNumber
         self.tierGuide = tierGuide
         self.grammaticalTerms = grammaticalTerms

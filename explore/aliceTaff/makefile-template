@@ -1,6 +1,6 @@
-EAF = 31RamosChester230715Slexil.eaf
-HTML.FILE = 31RamosChester.html
-VID=31RamosChester.m4v
-TITLE = "Tlingit Conversation \#31"
+EAF = 
+HTML.FILE = 
+VID = 
+TITLE = "Tlingit Conversation \#999"
 
 include ../makefile-shared

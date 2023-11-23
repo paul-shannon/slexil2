@@ -8,7 +8,7 @@ default:
 	@echo wheel
 
 venv:
-	@echo source ~/github/slexil2/py3105/bin/activate
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 install:
 	pip install . --upgrade

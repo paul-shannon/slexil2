@@ -1,5 +1,6 @@
 import os
 import slexil
+import pdb
 import pandas as pd
 
 packageRoot = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,6 +15,7 @@ def runTests():
 
    test_ctor()
    test_tierGuideAndLinesAgreement()
+   test_addCanonicalTierNameColumn()
    
 #------------------------------------------------------------------------------------------
 # we create a pandas dataframe from the tiers of an ELAN eaf file
@@ -44,43 +46,149 @@ def test_ctor():
     print("--- test_ctor")
 
     tierGuide = {'speech': 'italianSpeech',
-                 'transcription2': None,
                  'morpheme': 'morphemes',
                  'morphemeGloss': 'morpheme-gloss',
-                 'translation': 'english',
-                 'translation2': None}
+                 'translation': 'english'}
 
     tbl = createLinesTable()
     std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+    tbl2 = std.getTable()
+    assert(tbl2.shape == (4,7))  # all four tiers
+
+    tierGuide = {'speech': 'italianSpeech'}
+    std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+    tbl2 = std.getTable()
+    assert(tbl2.shape == (1,7))
+    
+    tierGuide = {'speech': 'italianSpeech',
+                 'translation': 'english'}
+    std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+    tbl2 = std.getTable()
+    assert(tbl2.shape == (2,7))
+
+    tierGuide = {"speech": "esperanto"}
+    try:
+       std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+    except Exception as ex:
+        assert(True)
+        msg = str(ex)
+        expected = "none of the tbl tier names are in the tierGuide"
+        assert(msg == expected)
+
+    tierGuide = {'spooch': 'italianSpeech',
+                 'translation': 'english'}
+    try:
+       std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+    except Exception as ex:
+        assert(True)
+        msg = str(ex)
+        expected = "required 'speech' tier not found in the tierGuide"
+        assert(msg == expected)
+
+
+    tbl2 = std.getTable()
+    
+
 #------------------------------------------------------------------------------------------
 # all tierIDs in the tbl must be also in the tierGuide
 def test_tierGuideAndLinesAgreement():
 
     print("--- test_tierGuideAndLinesAgreement")
     tierGuide = {'speech': 'italianSpeech',
-                 #'transcription2': None,
                  'morpheme': 'morphemes',
                  'morphemeGloss': 'morpheme-gloss',
                  'translation': 'english',
-                 #'translation2': None
                  }
 
     tbl = createLinesTable()
     std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
     assert(std.guideAndLinesAgree())
 
-       #-------------------
-       # should fail
-       #--------------------
+       #---------------------------------------------------
+       # should fail: the eaf (and therefore the lines tbl) 
+       # has "italianSpeech"  for the canonical tier
+       # name "speech"
+       #---------------------------------------------------
 
     tierGuide["speech"] = "ItalianSpeach"  #
+
     try:
        std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
        assert(std.guideAndLinesAgree())
     except Exception as ex:
         assert(True)
-        print(ex)
+        msg = str(ex)
+        expected = 'error in IjalLine standardizeTable. tier name/s not found in tierGuide:  ItalianSpeach'
+        assert(msg == expected)
+
+       #---------------------------------------------------------
+       # the other kind of failure:  the keys of the tierGuide
+       # are not a proper subset of the IJAL canonical tier names
+       #---------------------------------------------------
+
+    tierGuide = {'speech': 'italianSpeech',
+                 'morphemeGliss': 'morpheme-gloss',
+                 'translation': 'english',
+                 }
+
+    try:
+       std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+       assert(std.guideAndLinesAgree())
+    except Exception as ex:
+        assert(True)
+        msg = str(ex)
+        assert("error in IjalLine standardizeTable. tier name keys not IJAL canonicals: " in msg)
+        assert("morphemeGliss" in msg)
+
+      # speech is the only required tier
+    tierGuide = {'speech': 'italianSpeech'}
+    std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+    assert(std.guideAndLinesAgree())
     
+#------------------------------------------------------------------------------------------
+def test_addCanonicalTierNameColumn():
+
+   print("--- test_addCanonicalTierNameColumn")
+
+   tbl = createLinesTable()
+
+      #--------------------------------------------------
+      # first, with a 4-tier table and a 4-tier tierGuide
+      #--------------------------------------------------
+     
+   tierGuide = {'speech': 'italianSpeech',
+                'morpheme': 'morphemes',
+                'morphemeGloss': 'morpheme-gloss',
+                'translation': 'english',
+                }
+
+   std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+   assert(std.guideAndLinesAgree())
+   std.addCanonicalTierNameColumn()
+   tbl2 = std.getTable()
+
+   assert(list(tbl2["tierID"]) ==
+          ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
+   assert(list(tbl2["canonicalName"]) ==
+          ['speech', 'morpheme', 'morphemeGloss', 'translation'])
+
+
+      #--------------------------------------------------
+      # second, with a 4-tier table and a 1-tier tierGuide
+      # the table should be trimmed to only 1 row
+      #--------------------------------------------------
+     
+   tierGuide = {'speech': 'italianSpeech'}
+
+   std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+   assert(std.guideAndLinesAgree())
+   std.addCanonicalTierNameColumn()
+   tbl2 = std.getTable()
+
+   assert(tbl2.shape == (1, 8))
+   assert(list(tbl2["tierID"]) == ['italianSpeech'])
+   assert(list(tbl2["canonicalName"]) ==  ['speech'])
+
 #------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     runTests()

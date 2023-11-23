@@ -2,7 +2,6 @@
 default:
 	@echo movieCurl
 	@echo scp
-	@echo valid
 	@echo venv
 	@echo html
 	@echo publish

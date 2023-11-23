@@ -1,3 +1,4 @@
+# -*- tab-width: 3 -*-
 import re
 import sys, os
 
@@ -11,6 +12,16 @@ import pandas as pd
 
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
+#----------------------------------------------------------------------------------------------------
+def runTests():
+
+	test_calculateMorphemeSpacing()
+	test_toHTML_speechOnly()
+	test_toHTML_speechAndTranslation()
+	test_toHTML_speechAndMorphemes()
+	test_toHTML_speechAndMorphemesAndGlosses()
+	test_toHTML_speechAndMorphemesAndGlossesAndTranslation()
+	
 #----------------------------------------------------------------------------------------------------
 # this function checks for proper use of the tierGuide:
 #    user tier names are mapped to canonical tier names
@@ -932,16 +943,6 @@ def test_featherSnake_toHTML(displayPage=False):
         os.system("open %s" % filename)
 
 
-#----------------------------------------------------------------------------------------------------
-def runTests():
-
-	test_calculateMorphemeSpacing()
-	test_toHTML_speechOnly()
-	test_toHTML_speechAndTranslation()
-	test_toHTML_speechAndMorphemes()
-	test_toHTML_speechAndMorphemesAndGlosses()
-	test_toHTML_speechAndMorphemesAndGlossesAndTranslation()
-	
 #----------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     runTests()
