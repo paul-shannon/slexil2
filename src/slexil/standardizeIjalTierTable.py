@@ -61,11 +61,12 @@ class StandardizeIjalTierTable:
       guideTierNames = set(list(self.tierGuide.values())) 
       matchingTierNames = list(guideTierNames.intersection(eafTierNames))
       illegalTierNames = list(guideTierNames.difference(eafTierNames))
-      if(len(illegalTierNames) > 0):
-         msg = "error in IjalLine standardizeTable. tier name/s not found in tierGuide: "
-         for unmatchedTierName in illegalTierNames:
-             msg += " %s" % unmatchedTierName
-         raise Exception(msg)
+      if(illegalTierNames != [None]):
+         if(len(illegalTierNames) > 0):
+            msg = "error in IjalLine standardizeTable. tier name/s not found in tierGuide: "
+            for unmatchedTierName in illegalTierNames:
+                msg += " %s" % unmatchedTierName
+            raise Exception(msg)
          #-------------------------------------------------------
          # tierGuide keys should be IJAL canonical tier names not
          # all IJAL tiers are required, but all tierGuide keys

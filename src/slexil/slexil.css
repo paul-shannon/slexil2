@@ -23,6 +23,33 @@ body, html {
 	overflow-y: scroll;
 	}
 
+.tierToggleCheckbox{
+	 margin-right: 10px;
+    }
+
+#tierControlsDiv{
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 22px;
+    }
+
+#tierControlsSubDiv{
+    width: fit-content;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 0px;
+	 padding-bottom: 3px;
+	 display: none;
+    font-size: 22px;
+    }
+
 #textAndAnnoDiv{
 	margin-top: 5px;
 	margin-left: 5px;
@@ -58,7 +85,7 @@ body, html {
 .sliderControlDiv{
 	margin: 10px;
 	margin-left: 100px;
-}
+   }
 
 #infoDiv{
 	margin-top: 15px;
@@ -66,13 +93,18 @@ body, html {
 	font-size: 24px;
 	}
 
-	#mediaPlayer{
+#mediaPlayer{
 	width: 400px;
 	}
 #mediaPlayerDiv{
 	margin-top: 10px;
 	margin-left: 100px;
-}
+   }
+
+#tierVisibilityCardDiv{
+	margin-top: 10px;
+	margin-left: 100px;
+   }
 
 #playbackSpeedReadout{
 	width: 35px;
@@ -82,7 +114,7 @@ body, html {
 	border: 1px solid green;
 	font-size: 14px;
 	display: inline-block;
-}
+   }
 
 #h3Title{
 	display: inline-block;
@@ -93,7 +125,7 @@ body, html {
 	grid-template-columns: 1fr 20fr;
 	margin: 20px;
 	background: white;
-}
+   }
 
 .line-sidebar{
 	background: white;
@@ -105,7 +137,7 @@ body, html {
 	font-size: 24px;
 	}
 	
-	.line-content{
+.line-content{
 	height: 100%;
 	margin: 0px;
 	margin-bottom: 2px;
@@ -113,40 +145,42 @@ body, html {
 	}
 	
 	
-	.line {
+.line {
 	background-color: transparent;
 	font-weight: bold;
 	padding-left: 20px;
 	padding: 0px;
 	margin-top:  0px;
-	margin-bottom:  10px;
+	margin-bottom:  2px;
 	}
 	
-	.speech-tier{
+.speech-tier{
 	background-color: transparent;
 	grid-template-columns: none;
 	padding: 0px;
 	text-align: left;
 	vertical-align: bottom;
 	margin-left: 5px;
+	line-height: 80%;
 	word-spacing: 20px;
 	}
 	
-	.freeTranslation-tier{
+.freeTranslation-tier{
 	grid-template-columns: auto;
 	padding: 0px;
 	text-align: left;
 	margin-left: 5px;
+	line-height; 50%;
 	}
 	
-	.secondTranscription-tier{
+.secondTranscription-tier{
 	padding: 0px;
 	text-align: left;
 	margin-left: 5px;
 	word-spacing: 20px;
 	}
 	
-	.gloss-tier{
+.gloss-tier{
 	background-color: transparent;
 	grid-template-columns: auto;
 	padding: 10px;
@@ -155,7 +189,7 @@ body, html {
 	word-spacing: 20px;
 	}
 	
-	.morpheme-tier {
+.morpheme-tier {
 	display: grid;
 	border: 0px solid rgba(0, 0, 0, 0.8);
 	grid-template-columns: 4ch 5ch 5ch 4ch 5ch 12ch 7ch 5ch 16ch;
@@ -166,46 +200,46 @@ body, html {
 	overflow-wrap: word-wrap;
 	}
 	
-	.morpheme-cell {
+.morpheme-cell {
 	margin-bottom: 2px;
 	padding: 3px;
 	text-align: left;
 	}
 	
-	.focusedGrammaticalElement{
+.focusedGrammaticalElement{
 	background-color: lightgray;
 	}
 	
-	#annoButtonsDiv{
+#annoButtonsDiv{
 	margin-left: 80px;
 	margin-bottom: 10px;
 	}
 	
-	#toggleAnnotationsButton{
+#toggleAnnotationsButton{
 	margin-top: 10px;
 	}
 	
 	
-	#linguisticTopicController{
+#linguisticTopicController{
 	   margin-top: 10px;
 	   display: none; 
        }
 	
-	#linguisticTopicSelectorLabel{
+#linguisticTopicSelectorLabel{
 	margin: 20px;
 	}
 	
-	.dropdown{
+.dropdown{
 	display: inline-block;
 	}
 	
 	
-	button{
+button{
 	background-color: white;
 	border: 0px;
 	}
 	
-	.grammatical-term {
+.grammatical-term {
 	font-variant: small-caps;
 	color: blue;
 	}
@@ -219,7 +253,7 @@ body, html {
 	font-size:75%; 
 	}
 	
-	.playerxx {
+.playerxx {
 	width: 100%;
 	height: 22px;
 	background: #0101DF;
@@ -233,24 +267,24 @@ body, html {
 	left: -5px;
 	}
 	
-	.current-line {
+.current-line {
 	background: #B6E8FF;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	}
 	
-	.mouseEntered{
+.mouseEntered{
 	background: lightgrey;
 	}
 	
-	.audio-wrapper {
+.audio-wrapper {
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
 	}
 	
-	.audio-wrapper audio {
+.audio-wrapper audio {
 	position: absolute;
 	top:4px;
 	left:0px;

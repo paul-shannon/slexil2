@@ -10,12 +10,12 @@ default:
 	@echo standardizeIjalTierTable
 
 venv:
-	@echo source source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 dev:
 	python -m unittest test_eafParser.py
 
-all: webPacker eafParser ijalLine text morphemeGloss
+all: webPacker eafParser ijalLine text morphemeGloss standardizeIjalTierTable
 
 webPacker:
 	python -m unittest test_webPacker.py 

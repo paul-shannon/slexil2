@@ -1,4 +1,4 @@
-# -*- tab-width: 4 -*-
+# -*- tab-width: 3 -*-
 '''
 ******************************************************************
 SLEXIL—Software Linking Elan XML to Illuminated Language
@@ -30,6 +30,7 @@ david.beck at ualberta.ca.
 import os, sys
 from pathlib import Path
 from yattag import *
+from yattag import Doc
 import yaml
 from eafParser import *
 from ijalLine import *
@@ -37,6 +38,7 @@ from webPacker import WebPacker
 pd.set_option('display.width', 1000)
 import pdb
 import identifyLines
+doc, tag, text, line = Doc().ttl()
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
@@ -218,6 +220,7 @@ class Text:
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
 				if(self.fontSizeControls):
 					addVideoSizeSlider(htmlDoc)
+				addTierVisibilityControls(htmlDoc)
 				with htmlDoc.tag("div", id="mediaAndButtonDiv"):
 					with htmlDoc.tag("div", id="mediaPlayerDiv"):
 						htmlDoc.asis(self.getPlayer())
@@ -336,6 +339,39 @@ def addVideoSizeSlider(htmlDoc):
 					  id="videoSizeSelector")
 
 #-------------------------------------------------------------------------------
+def addTierVisibilityControls(htmlDoc):
+
+	with htmlDoc.tag('div', id="tierControlsDiv"):
+		with htmlDoc.tag("button", id="showHideTiersButton",
+                       klass="btn btn-outline-dark"):
+			htmlDoc.text('Show/Hide Tiers...')
+
+		with htmlDoc.tag('div', id='tierControlsSubDiv'):
+			with htmlDoc.tag('form', action = ""):
+				with htmlDoc.tag('div'):
+					for tier in ('speech', 'morphemes', 'translation'):
+						with htmlDoc.tag('div'):
+							id = "%s-toggle" % tier
+							htmlDoc.input(name=id, klass="tierToggleCheckbox", id=id,
+                                   type='checkbox', value=tier, checked=True)
+							htmlDoc.asis(tier)
+
+#----------------------------------------------------------------------------------------------------        
+def addTierVisibilityControls_v1(htmlDoc):
+
+	with htmlDoc.tag('div', id="tierControlsDiv"):
+		with htmlDoc.tag('form', action = ""):
+			with htmlDoc.tag('div'):
+				with htmlDoc.tag('p'):
+					htmlDoc.asis("Tier visibility:")
+					for tier in ('speech', 'morphemes', 'morpheme glosses', 'translation'):
+						with htmlDoc.tag('div'):
+							id = "%s-toggle" % tier
+							htmlDoc.input(name=id, klass="tierToggleCheckbox", id=id,
+                                   type='checkbox', value=tier)
+							htmlDoc.asis(tier)
+
+#----------------------------------------------------------------------------------------------------        
 def addFontSizeControls(htmlDoc):
 
 	print("--- addFontSizeControls new klass")

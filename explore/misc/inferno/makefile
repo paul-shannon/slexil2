@@ -7,6 +7,7 @@ default:
 	@echo venv
 	@echo eaf
 	@echo html
+	@echo css      # read local slexil.css, for experimentation
 	@echo publish
 	@echo view
 	@echo viewRemote
@@ -30,10 +31,14 @@ html:
                        --pageTitle "Dante's Inferno" \
                        --helpFile about.html \
                        --helpButtonLabel About \
-                       --webpackLinksOnly \
-                       --fontSizeControls
+                       --fontSizeControls \
+                       --webpackLinksOnly 
 #                       --verbose
 #			   --start 31 --end 33
+
+css:
+	cat index.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.css,slexil.css, > index2.html
+	cat index2.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.js,slexil.js, > index3.html
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/misc/$(HTML.FILE)

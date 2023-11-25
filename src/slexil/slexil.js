@@ -2,6 +2,7 @@ var mediaPlayer = document.getElementById("mediaPlayer");
 var mediaSegmentEnd;
 var mediaContinuousPlay = true;
 //--------------------------------------------------------------------------------
+console.log("entering inferno's private copy of slexil.js")
 mediaPlayer.addEventListener("timeupdate", function (){
 
    tCurrent = Math.round(mediaPlayer.currentTime * 1000)
@@ -105,5 +106,47 @@ $('#speedSelector').on('input', function() {
 	$("#playbackSpeedReadout").text(v);
     });
 
+
+$("#showHideTiersButton").click(function(){
+   var hidden =  $("#tierControlsSubDiv").is(":hidden")
+   console.log("show/hide, div is hidden? " + hidden)
+	if(hidden){
+	   $("#tierControlsSubDiv").show()
+		}
+	else{
+	   $("#tierControlsSubDiv").hide()
+      }		
+   })
+
+$("#speech-toggle").click(function(){
+    console.log("speech now on? " + $("#speech-toggle").prop("checked"))
+    var visible = $(".speech-tier").is(":visible")
+	 if(visible){
+       $(".speech-tier").hide()
+    	 }
+	 else{
+       $(".speech-tier").show()
+    	 }
+    })
+
+$("#morphemes-toggle").click(function(){
+    var visible = $(".morpheme-tier").is(":visible")
+	 if(visible){
+       $(".morpheme-tier").hide()
+    	 }
+	 else{
+       $(".morpheme-tier").show()
+    	 }
+    })
+
+$("#translation-toggle").click(function(){
+    var visible = $(".freeTranslation-tier").is(":visible")
+	 if(visible){
+       $(".freeTranslation-tier").hide()
+    	 }
+	 else{
+       $(".freeTranslation-tier").show()
+    	 }
+    })
 
 
