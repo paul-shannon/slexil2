@@ -218,9 +218,11 @@ class Text:
 						addAboutBox(htmlDoc, self.helpFilename)
 
 				htmlDoc.asis("<!-- bodyTopCustomizationHook -->")
-				if(self.fontSizeControls):
-					addVideoSizeSlider(htmlDoc)
-				addTierVisibilityControls(htmlDoc)
+				with htmlDoc.tag("div", id="controlsDiv"):
+					if(self.fontSizeControls):
+						addVideoSizeSlider(htmlDoc)
+						addFontSizeControls(htmlDoc)
+						addTierVisibilityControls(htmlDoc)
 				with htmlDoc.tag("div", id="mediaAndButtonDiv"):
 					with htmlDoc.tag("div", id="mediaPlayerDiv"):
 						htmlDoc.asis(self.getPlayer())
@@ -230,8 +232,6 @@ class Text:
 						if(aboutBoxNeeded):
 							addAboutBoxButton(htmlDoc, self.helpButtonLabel)
 
-				if(self.fontSizeControls):
-					addFontSizeControls(htmlDoc)
 				if(self.kbFilename != None):
 					if(self.verbose):
 						print("kbFilename triggered")
@@ -330,11 +330,11 @@ def addAboutBox(htmlDoc, helpFilename):
 #---------------------------------------------------------------
 def addVideoSizeSlider(htmlDoc):
 
-	with htmlDoc.tag("div", id="videoSizeSliderDiv", klass="sliderControlDiv"):
+	#with htmlDoc.tag("div", id="videoSizeSliderDiv", klass="sliderControlDiv"):
 
-		with htmlDoc.tag("label"):
-				htmlDoc.asis("Media Player Size &nbsp;")
-		htmlDoc.input(name="videoSizeSelector", type="range",
+	with htmlDoc.tag("label"):
+		htmlDoc.asis("Media Player Size &nbsp;")
+	htmlDoc.input(name="videoSizeSelector", type="range",
 					  min="100", max="800", value="400", step="100",
 					  id="videoSizeSelector")
 
@@ -342,18 +342,19 @@ def addVideoSizeSlider(htmlDoc):
 def addTierVisibilityControls(htmlDoc):
 
 	with htmlDoc.tag('div', id="tierControlsDiv"):
-		with htmlDoc.tag("button", id="showHideTiersButton",
-                       klass="btn btn-outline-dark"):
-			htmlDoc.text('Show/Hide Tiers...')
-
+		#with htmlDoc.tag("button", id="showHideTiersButton",
+		#                 klass="btn btn-outline-dark"):
+		#	htmlDoc.text('Show/Hide Tiers...')
 		with htmlDoc.tag('div', id='tierControlsSubDiv'):
-			with htmlDoc.tag('form', action = ""):
-				with htmlDoc.tag('div'):
-					for tier in ('speech', 'morphemes', 'translation'):
-						with htmlDoc.tag('div'):
+			with htmlDoc.tag('div', id="tiersLabelDiv"):
+				htmlDoc.asis("Tiers: ")
+			with htmlDoc.tag('div', id="tiersCheckBoxesDiv"):
+				with htmlDoc.tag('form', action = ""):
+					with htmlDoc.tag('div'):
+						for tier in ('speech', 'morphemes', 'translation'):
 							id = "%s-toggle" % tier
 							htmlDoc.input(name=id, klass="tierToggleCheckbox", id=id,
-                                   type='checkbox', value=tier, checked=True)
+	                                  type='checkbox', value=tier, checked=True)
 							htmlDoc.asis(tier)
 
 #----------------------------------------------------------------------------------------------------        
@@ -376,17 +377,14 @@ def addFontSizeControls(htmlDoc):
 
 	print("--- addFontSizeControls new klass")
 	with htmlDoc.tag("div", id="fontSizeControlsDiv", klass="sliderControlDiv"):
-
-		with htmlDoc.tag("label"):
+		with htmlDoc.tag("label", id="playbackSpeedLabel"):
 			htmlDoc.asis("Playback Speed &nbsp;")
 		htmlDoc.input(name="speedSelector", type="range",
 					  min="0.25", max="1.25", value="1.0",
 					  step="0.25", id="speedSelector")
 		with htmlDoc.tag("div", id="playbackSpeedReadout"):
 				htmlDoc.asis("1.0")
-		htmlDoc.stag("br")
-
-		with htmlDoc.tag("label"):
+		with htmlDoc.tag("label", id="printSizeLabel"):
 			htmlDoc.asis("Print Size &nbsp;")
 		htmlDoc.input(name="fontSizeSlider", type="range",
 					  min="0.2", max="4.0", value="1.4", step="0.1",
