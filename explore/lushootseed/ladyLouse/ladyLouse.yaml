@@ -1,0 +1,84 @@
+title: Lady Louse
+narrator: Vi Hilbert
+textEntry: Paul Shannon
+#mediaFile: ladyLouse.mp4
+mediaFile: https://ia902506.us.archive.org/4/items/wauem_vi-hilbert_voices-of-the-first-people-av/2005-1.1538LL.mp4
+mimeType: video/mp4
+
+lines:
+  - lineNumber: 1
+    startTime: 0
+    endTime: 11000
+    lushootseed: ʔəsɬaɬlil kʷsi bšč’ad ʔal tə hiˑkʷ ʔalʔal
+    morphemes: [ʔas–ɬaɬlil, kʷsi, bšč’ad, ʔal, tə, hikʷ, ʔalʔal]
+    morphemeGloss: [stat–live, rem:fem,louse,at,nspec,big,house]
+    english:  Louse lives in a big house.
+  
+  - lineNumber: 2
+    startTime: 11500
+    endTime: 14000
+    lushootseed: day’ay’          
+    morphemes: [day’–ay’]
+    morphemeGloss: [dstr–uniquely]
+    english: Alone.
+  
+  - lineNumber: 3
+    startTime: 14050
+    endTime: 18500
+    lushootseed: xʷiʔ kʷi gʷəʔiʔiišəds              
+    morphemes: [xʷiʔ,kʷi,gʷə=ʔi–ʔiišəd–s]
+    morphemeGloss: [neg,rem,sbj=rdp–relatives–3po]
+    english: She has no relatives.
+  
+  - lineNumber: 4
+    startTime: 19000
+    endTime: 22000
+    lushootseed: huy kʷədadəxʷ 
+    morphemes: [huy,kʷəda–t=axʷ]
+    morphemeGloss: [sconj,taken–ics=now]
+    english: And then she takes it.
+  
+  - lineNumber: 5
+    startTime: 22050
+    endTime: 27500
+    lushootseed: gʷəl ʔiq’ʷidəxʷ tiʔəʔ hikʷ ʔalʔal
+    morphemes: [gʷəl,ʔiq’ʷi–t=axʷ,tiʔəʔ,hikʷ,ʔalʔal]
+    morphemeGloss: [sconj,sweep–ics=now,prox,big,house]
+    english: And she sweeps the big house.
+   
+  - lineNumber: 6
+    startTime: 28000
+    endTime: 31500
+    lushootseed: qa sč’iq’ʷil
+    morphemes: [qa,s=č’iq’ʷ–il]
+    morphemeGloss: [many,nm=dirty–inch]
+    english: It is really dirty.
+  
+  - lineNumber: 7
+    startTime: 31600
+    endTime: 35300
+    lushootseed: x̌ʷul’əxʷ ʔuʔudəgʷiǰiləxʷ ʔal tiʔiɬ ʔalʔal
+    morphemes: [x̌ʷul’=axʷ,ʔu–ʔudəgʷ•ič–il=axʷ,ʔal,tiʔiɬ,ʔalʔal]
+    morphemeGloss: [only=now,pfv–centre•covering–inch=now,at,dist,house]
+    english: She gets only to the middle of the house.
+  
+  - lineNumber: 8
+    startTime: 35500
+    endTime:   37800
+    lushootseed: huy x̌ʷil’əxʷ
+    morphemes: [huy,x̌ʷil’=axʷ]
+    morphemeGloss: [sconj,lost=now]
+    english: ‘She gets lost.’
+ 
+  - lineNumber: 9
+    startTime: 38000
+    endTime: 42000
+    lushootseed: šəbšuˑb bšč’aˑd
+    morphemes: [šəb–šub,bšč’ad]
+    morphemeGloss: [dstr–disappear,louse]
+    english: Louse disappears.
+  
+
+
+
+
