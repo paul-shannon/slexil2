@@ -299,16 +299,28 @@ _past (means of knowing LC) 3PO now_
 
 `,
     
-"diɬ":
-`
-_diɬ_
+"gʷə=dəxʷ=č'it–il–əxʷ":
+	 `
+_gʷə=dəxʷ=č'it–il–əxʷ_
 
-- the one who, the thing that, that which, the aforementioned. LD 83. (anaphor)
-- pronoun; often used as a one-word predicate followed by a subordinate clause.
-  One would expect a demonstrative to introduce a following clause when it serves
-  as the complement of the _diɬ_ predicate.  However, all speakers omit this
-  demonstrative sometimes, and some usually do.
-- compare _cədiɬ_: the particular one, he, she, that fellow, 3p sg emphatic pronoun. LD 44.
+- _č'it_: near
+- contrast _lil_ far, far away; go far
+- examples
+     - _ɬuhúyud č'ìt tiʔəʔ ɬudəxʷʔux̌ʷ čəɬ_  He will make our journey near (i.e., short).
+     - _č'it syaʔyaʔ_  close relation
+     - č'it kʷ(i) adsuqə́p̕, č'it. Nearby you alight, nearby.
+- seems to be a modifier (adjective or adverb) rather than a verb.
+- all derived lexemes:
+      - _č'ítcut_: come *close, draw self near
+      - _č'ítil_: draw *near
+      - _č'itis_: approach someone or something	 
+      - _č'ítbid_: (on the) *near (side of) someone or something 
+      - _č'ítsqà_: older sibling next to ego
+      - _č'ítsùqʼʷaʔ_: younger sibling next to ego_diɬ_
+      - _č'ítabac_: Saturday
+      - _č'itálap_:  the one who, the thing that, that which, the aforementioned. LD 83. (anaphor)
+      - _č'ítalus_: surprised, pronoun; often used as a one-word predicate followed by a subordinate clause.
+      - _č'ič'it_: a bit nearer.    One would expect a demonstrative to introduce a following clause when it serves
 `,    
 
 "diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ":

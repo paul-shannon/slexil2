@@ -11,7 +11,7 @@ default:
 	@echo  viewRemote
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105/bin/activate
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 PORT = 8009
 
