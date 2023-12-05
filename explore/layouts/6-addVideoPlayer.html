@@ -26,7 +26,7 @@
 #tierControlsDiv{
    display: inline-block;
    }
-	 
+    
 #tierControlsSubDiv{
    width: fit-content;
    margin: 0px;
@@ -64,6 +64,7 @@
 
 #videoSizeControllerDiv{
    border: 2px solid darkGreen;
+   padding-bottom: 5px;
    height: fit-content;
    }
     
@@ -213,6 +214,7 @@
           <label id="videoSizeSelectorLabel">Video Size &nbsp;</label>
           <input type="range" min="200" max="800" value="250"
                  step="10" id="videoSizeSelector" name="videoSizeSelector" />
+          <button id="showHideOtherControlsButton">Show Other Controls</button>
           </div id="videoSizeControllerDiv">
        <video class="player" id="mediaPlayer"
               src="https://slexildata.artsrn.ualberta.ca/tlingit/48Carcross.m4v"
@@ -1151,6 +1153,16 @@ $(document).ready(function(){
    $("#textDiv").height(docHeight - (50 + 300 + slop))
     refreshLayout(270);
     
+   $("#showHideOtherControlsButton").on('click', function() {
+      console.log("--- showOtherControls")
+      visible = $("#controlsDiv").is(":visible")
+      if(visible){
+         $("#controlsDiv").hide()
+         }
+		 else{
+          $("#controlsDiv").show()
+          }
+      }); // showHideOtherControlsButton
     
     $('#videoSizeSelector').on('input', function() {
        var videoRequestedSize = Number($(this).val());
