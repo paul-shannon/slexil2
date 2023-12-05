@@ -191,6 +191,31 @@ lines:
     morphemeGloss: [sconj,past=leave,pl,prox,canoe–3po,sconj,past=walk]
     english: Then they left their canoe and walked.
 
+  - lineNumber: 27
+    startTime: 133983
+    endTime:   143494
+    lushootseed: tugʷax̌ʷəxʷ əlgʷəʔ gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ ʔaciɬtalbixʷ ʔəsɬaɬlil dəxʷʔa ʔə tiʔəʔ sləx̌il
+    morphemes: [tu=gʷax̌ʷ=əxʷ,əlgʷəʔ,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,ʔaciɬtalbixʷ,ʔəs–ɬaɬlil,dəxʷ=ʔa,ʔə,tiʔəʔ,sləx̌il]
+    morphemeGloss: [past=walk=now,pl,sconj,past=arrive,cntrpt–at,prox,here,people,stat–live,adnm=be.there,pr,prox,daylight]
+    english: They walked now and arrived at these people who dwelled at the place of light.
+
+  - lineNumber: 28
+    startTime: 144964
+    endTime:   149232
+    lushootseed: ɬudxʷʔiʷədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il
+    morphemes: [ɬu=dxʷ–ʔiʷəd=əxʷ,əlgʷəʔ,gʷat=əxʷ,ʔə,dibəɬ,kʷi,ɬu=ʔux̌ʷ–txʷ,kʷi,sləx̌il]
+    morphemeGloss: [irr=ctd–decide=now,pl,who=now,pr,we,rem,irr=go–ecs,rem,daylight]
+    english: They will decide. “Which of us will take the light?"
+
+  - lineNumber: 29
+    startTime: 149278
+    endTime: 154705
+    lushootseed: gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il
+    morphemes: [gʷə=s=dukʷ,gʷə=bək’ʷ=aɬi,gʷə=ʔux̌ʷ,yəx̌i,čəɬ,gʷə=hay–dxʷ–b,lə=ʔux̌ʷ–c,čəɬ,tiʔəʔ,sləx̌il]
+    morphemeGloss: [sbj=nm=anormal,sbj=all=1pl.sbj,sbj=go,because,1pl.sub,sbj=known–dc–pass,prog=go–altv,1pl.sub,prox,daylight]
+    english: It would be bad if we both were to go, because we would be known to be going after this light.
+
+
 #  - lineNumber: 23
 #    startTime: 144827
 #    endTime: 149367
