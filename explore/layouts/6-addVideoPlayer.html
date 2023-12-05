@@ -5,44 +5,98 @@
   <title>6-addVideoPlayer</title>
   <script src='https://slexilData.artsrn.ualberta.ca/includes/jquery-3.6.3.min.js'>
   </script>
-  <style>
-    #mainDiv{
-       display: block;
-       padding: 10px;
-       height: calc(100svh - 60px);
-       border: 1px solid magenta;
-       overflow-y: scroll;
-       }
-    #controlsDiv{
-       background-color: Cornsilk;
-       padding: 10px;
-       height: 100px;
-       border: 2px solid orange;
-       margin-bottom: 5px;
-       }
-    #mediaPlayerDiv{
-       background-color: lightcyan;
-       height: fit-content;
-       padding: 0px;
-       border: 2px solid blue;
-       margin-bottom: 5px;
-       }
-    #mediaPlayer{
-       height: 300px;
-       }
-    #videoSizeSelector{
-      position: relative;
-      transform: scale(4); /* Or however big you want it */
-      transform-origin: 0 0;
-      }
-    #textDiv{
-       background-color: Khaki;
-       border: 2px solid brown;
-       padding: 10px;
-       height: calc(100vh - 550px);
-       overflow-y: scroll;
-       font-size: 24px;
-       }
+<style>
+
+#mainDiv{
+   display: block;
+   padding: 10px;
+   height: calc(100svh - 60px);
+   border: 1px solid magenta;
+   overflow-y: scroll;
+   }
+
+#controlsDiv{
+   background-color: Cornsilk;
+   padding: 10px;
+   height: fit-content;
+   border: 2px solid orange;
+   margin-bottom: 5px;
+   }
+
+#tierControlsDiv{
+   display: inline-block;
+   }
+	 
+#tierControlsSubDiv{
+   width: fit-content;
+   margin: 0px;
+   border: 1px solid blue;
+   border-radius: 10px;
+   padding: 20px;
+   padding-top: 0px;
+   padding-bottom: 3px;
+   display: none;
+   font-size: 22px;
+   display: inline-block;
+   }
+
+#tiersLabelDiv{
+    display: inline-block;
+    }
+
+#tiersCheckBoxesDiv{
+    display: inline-block;
+    }
+
+.tierToggleCheckbox{
+    margin-left: 20px;
+    }
+
+#playbackSpeedReadout{
+   width: 35px;
+   height: 24px;
+   padding-left: 5px;
+   margin: 5px;
+   border: 1px solid green;
+   font-size: 14px;
+   display: inline-block;
+   }
+
+#videoSizeControllerDiv{
+   border: 2px solid darkGreen;
+   height: fit-content;
+   }
+    
+#videoSizeSelector{
+   position: relative;
+   transform: scale(1); /* Or however big you want it */
+   transform-origin: 0 0;
+   }
+
+#videoSizeSelectorLabel{
+   font-size: 24px;
+   }
+
+#mediaPlayerDiv{
+   background-color: lightcyan;
+   height: fit-content;
+   padding: 5px;
+   border: 2px solid blue;
+   margin-bottom: 5px;
+   }
+
+#mediaPlayer{
+   height: 300px;
+   }
+    
+#textDiv{
+   background-color: Khaki;
+   border: 2px solid brown;
+   padding: 10px;
+   height: calc(100vh - 550px);
+   overflow-y: scroll;
+   font-size: 24px;
+   }
 
 .line-wrapper {
   display: grid;
@@ -153,18 +207,42 @@
 </head>
 <body>
   <div id="mainDiv">
-    <div id="controlsDiv">
-       <label>Media Player Size &nbsp;</label>
-       <input type="range" min="200" max="800" value="250"
-              step="10" id="videoSizeSelector" name="videoSizeSelector" />
-    </div id="controlsDiv">
-
+    
     <div id="mediaPlayerDiv">
-      <video class="player" id="mediaPlayer"
-             src="https://slexildata.artsrn.ualberta.ca/tlingit/48Carcross.m4v"
-             controls>
-      </video>
-    </div id="mediaPlayerDiv">
+       <div id="videoSizeControllerDiv">
+          <label id="videoSizeSelectorLabel">Video Size &nbsp;</label>
+          <input type="range" min="200" max="800" value="250"
+                 step="10" id="videoSizeSelector" name="videoSizeSelector" />
+          </div id="videoSizeControllerDiv">
+       <video class="player" id="mediaPlayer"
+              src="https://slexildata.artsrn.ualberta.ca/tlingit/48Carcross.m4v"
+              controls>
+              </video>
+       </div id="mediaPlayerDiv">
+
+    <div id="controlsDiv">
+      
+       <label id="playbackSpeedLabel">Playback Speed &nbsp;</label>
+       <input type="range" min="0.25" max="1.25" value="1.0" step="0.25" id="speedSelector" name="speedSelector" />
+       <div id="playbackSpeedReadout">1.0</div>
+       <label id="printSizeLabel">Print Size &nbsp;</label>
+       <input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" />
+
+       <div id="tierControlsDiv">
+          <div id="tierControlsSubDiv">
+             <div id="tiersLabelDiv">Tiers: </div>
+             <div id="tiersCheckBoxesDiv">
+                <form action="">
+                   <div>
+                      <input type="checkbox" class="tierToggleCheckbox" id="speech-toggle" value="speech" checked="True" name="speech-toggle" />speech
+                      <input type="checkbox" class="tierToggleCheckbox" id="morphemes-toggle" value="morphemes" checked="True" name="morphemes-toggle" />morphemes
+                      <input type="checkbox" class="tierToggleCheckbox" id="translation-toggle" value="translation" checked="True" name="translation-toggle" />translation
+                      </div>
+                   </form>
+                </div id="tiersCheckBoxesDiv">
+             </div id="tiersControlsSubDiv">
+          </div id="tiersControlDiv">
+    </div id="controlsDiv">
 
     <div id="textDiv">
        <div class="line-wrapper" id="1">
@@ -1041,38 +1119,43 @@
               </div>
             </div>
           </div>
-            </div>
-          </div>
+            </div id="textDiv">
+          </div id="mainDiv">
 <script>
-$(document).ready(function(){
 
+function refreshLayout(videoRequestedSize){
+   console.log("requested videoSize: " + videoRequestedSize)
+   $("#mediaPlayer").height(videoRequestedSize);
+   mediaDivHeight = videoRequestedSize  + $("#videoSizeControllerDiv").height()
+   $("#mediaPlayerDiv").height(mediaDivHeight)
+   docHeight = $(document).height()
+   textDivHeight = $("#textDiv").height()
+   videoDivHeight = $("#mediaPlayerDiv").height()
+   controlsDivHeight = $("#controlsDiv").height()
+   console.log("controlsDivHeight: " + controlsDivHeight);
+   margins = 130;
+   newTextHeight = docHeight - (controlsDivHeight + videoDivHeight + margins)
+   console.log("  doc: " + docHeight)
+   console.log("video: " + videoDivHeight);
+   console.log(" ctls: " + controlsDivHeight)
+   console.log(" new text: " + newTextHeight)
+   $("#textDiv").height(newTextHeight);
+   } // refreshLayout
+
+$(document).ready(function(){
+   
    docHeight =  $(document).height()
-   $("#controlsDiv").height(50)
+   // $("#controlsDiv").height(100)
    $("#mediaPlayerDiv").height(300)
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
+    refreshLayout(270);
     
-   $('#videoSizeSelector').on('input', function() {
-      var v = Number($(this).val());
-      console.log("videoSize: " + v)
-      console.log(v);
-  
-      $("#mediaPlayer").height(v);
-      $("#mediaPlayerDiv").height(v);
-      docHeight = $(document).height()
-      textDivHeight = $("#textDiv").height()
-      videoDivHeight = $("#mediaPlayerDiv").height()
-      controlsDivHeight = $("#controlsDiv").height()
-      margins = 130;
-
-    newTextHeight = docHeight - (controlsDivHeight + videoDivHeight + margins)
-    console.log("  doc: " + docHeight)
-    console.log("video: " + videoDivHeight);
-    console.log(" ctls: " + controlsDivHeight)
-    console.log(" new text: " + newTextHeight)
     
-    $("#textDiv").height(newTextHeight);
-    }); // videoSizeSelector
+    $('#videoSizeSelector').on('input', function() {
+       var videoRequestedSize = Number($(this).val());
+       refreshLayout(videoRequestedSize)
+       }); // videoSizeSelector
 
     var $window = $(window);
     var width = $window.width();
@@ -1080,10 +1163,12 @@ $(document).ready(function(){
 
     setInterval(function () {
       if ((width != $window.width()) || (height != $window.height())) {
-           width = $window.width();
-           height = $window.height();
-           console.log("resized!");
-           }
+         width = $window.width();
+         height = $window.height();
+         console.log("resized!");
+         videoSize = $("#mediaPlayer").height()
+         refreshLayout(videoSize)
+         }
        }, 300);
 
 
@@ -1093,7 +1178,7 @@ $(document).ready(function(){
     //$(window).on( "resize", function(){
     //   console.log("window resize event: " + $(document).height)
     //   })
-	 
+    
 }) // ready
 
 </script>
