@@ -44,21 +44,14 @@ $(document).ready(function(){
     
    $("#showHideOtherControlsButton").on('click', function() {
       console.log("--- showOtherControls")
-      var visible = $("#controlsDiv").is(":visible")
-      console.log("  controls visible? " + visible)
+      visible = $("#controlsDiv").is(":visible")
       if(visible){
-          console.log("  hiding other controls");
-          setInterval(function(){
-             $("#controlsDiv").hide()
-             }, 0)
+         $("#controlsDiv").hide()
          $("#showHideOtherControlsButton").text("Show Other Controls")
          }
        else{
-          console.log("  showing other controls");
-           setInterval(function(){
-					$("#controlsDiv").show()
-			      }, 0)
-           $("#showHideOtherControlsButton").text("Hide Other Controls")
+          $("#controlsDiv").show()
+          $("#showHideOtherControlsButton").text("Hide Other Controls")
           }
       }); // showHideOtherControlsButton
     
@@ -68,21 +61,19 @@ $(document).ready(function(){
        refreshLayout(videoRequestedSize)
        }); // videoSizeSelector
 
-    $window = $(window);
-    window.width = $window.width();
-    window.height = $window.height();
+    var $window = $(window);
+    var width = $window.width();
+    var height = $window.height();
 
     setInterval(function () {
-        console.log("auto refresh")
-      if ((window.width != $window.width()) || (window.height != $window.height())) {
-         console.log(" window dimensions changed")
-         window.width = $window.width();
-         window.height = $window.height();
+      if ((width != $window.width()) || (height != $window.height())) {
+         width = $window.width();
+         height = $window.height();
          console.log("resized!");
          videoSize = $("#mediaPlayer").height()
          refreshLayout(videoSize)
          }
-       }, 1000);
+       }, 300);
 
 
     //$(window).resize(function(){
