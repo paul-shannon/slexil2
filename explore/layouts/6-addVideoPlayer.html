@@ -17,11 +17,16 @@
 
 #controlsDiv{
    background-color: Cornsilk;
-   padding: 10px;
    height: fit-content;
    border: 2px solid orange;
    margin-bottom: 5px;
+   display: none;
    }
+
+#showHideControlsButtonDiv{
+	 display: inline-block;
+	 margin-left: 100px;
+    } 
 
 #tierControlsDiv{
    display: inline-block;
@@ -64,30 +69,42 @@
 
 #videoSizeControllerDiv{
    border: 2px solid darkGreen;
-   padding-bottom: 5px;
+   padding: 5px;
    height: fit-content;
    }
     
 #videoSizeSelector{
    position: relative;
-   transform: scale(1); /* Or however big you want it */
+   transform: scale(1.5); /* Or however big you want it */
    transform-origin: 0 0;
+	margin-right: 250;
+   width: 100;
    }
 
 #videoSizeSelectorLabel{
    font-size: 24px;
    }
 
-#mediaPlayerDiv{
+#mediaPlayerAndControlsDiv{
    background-color: lightcyan;
    height: fit-content;
    padding: 5px;
    border: 2px solid blue;
-   margin-bottom: 5px;
+   margin-bottom: 10px;
+   }
+
+#playerDiv{
+   height: fit-content;
+   border: 4px solid red;
+   margin: 5px;
+   margin-left: 0px;
+
    }
 
 #mediaPlayer{
-   height: 300px;
+   height: 50px;
+   //margin-bottom: 1px;
+   //margin-top: 1px;
    }
     
 #textDiv{
@@ -209,18 +226,22 @@
 <body>
   <div id="mainDiv">
     
-    <div id="mediaPlayerDiv">
+    <div id="mediaPlayerAndControlsDiv">
        <div id="videoSizeControllerDiv">
           <label id="videoSizeSelectorLabel">Video Size &nbsp;</label>
-          <input type="range" min="200" max="800" value="250"
+          <input type="range" min="50" max="800" value="50"
                  step="10" id="videoSizeSelector" name="videoSizeSelector" />
-          <button id="showHideOtherControlsButton">Show Other Controls</button>
+          <div id="showHideControlsButtonDiv">
+             <button id="showHideOtherControlsButton">Show Other Controls</button>
+             </div id="showHideControlsButtonDiv">
           </div id="videoSizeControllerDiv">
-       <video class="player" id="mediaPlayer"
-              src="https://slexildata.artsrn.ualberta.ca/tlingit/48Carcross.m4v"
-              controls>
-              </video>
-       </div id="mediaPlayerDiv">
+       <div id="playerDiv">
+          <video class="player" id="mediaPlayer"
+                 src="https://slexildata.artsrn.ualberta.ca/tlingit/48Carcross.m4v"
+                 controls>
+          </video>
+			</div id="playerDiv">
+       </div id="mediaPlayerAndControlsDiv">
 
     <div id="controlsDiv">
       
@@ -236,9 +257,9 @@
              <div id="tiersCheckBoxesDiv">
                 <form action="">
                    <div>
-                      <input type="checkbox" class="tierToggleCheckbox" id="speech-toggle" value="speech" checked="True" name="speech-toggle" />speech
-                      <input type="checkbox" class="tierToggleCheckbox" id="morphemes-toggle" value="morphemes" checked="True" name="morphemes-toggle" />morphemes
-                      <input type="checkbox" class="tierToggleCheckbox" id="translation-toggle" value="translation" checked="True" name="translation-toggle" />translation
+                      <input type="checkbox" class="tierToggleCheckbox" id="speech-toggle" value="speech" checked name="speech-toggle" />speech
+                      <input type="checkbox" class="tierToggleCheckbox" id="morphemes-toggle" value="morphemes"  name="morphemes-toggle" />analysis
+                      <input type="checkbox" class="tierToggleCheckbox" id="translation-toggle" value="translation" checked name="translation-toggle" />translation
                       </div>
                    </form>
                 </div id="tiersCheckBoxesDiv">
@@ -1127,19 +1148,43 @@
 
 function refreshLayout(videoRequestedSize){
    console.log("requested videoSize: " + videoRequestedSize)
-   $("#mediaPlayer").height(videoRequestedSize);
-   mediaDivHeight = videoRequestedSize  + $("#videoSizeControllerDiv").height()
-   $("#mediaPlayerDiv").height(mediaDivHeight)
+   oldVideoSize = $("#mediaPlayer").height()
+   videoSizeDelta = videoRequestedSize - oldVideoSize;
+	$("#mediaPlayer").height(videoRequestedSize);
+   hvscd = $("#mediaPlayerAndControlsDiv").height() + videoSizeDelta;
+   //h = videoRequestedSize + $("#videoSizeControllerDiv").height() + 10;  // mediaPlayer margin * 2
+   //hvscd = $("#videoSizeControllerDiv").height() + 
+   //        parseInt($("#videoSizeControllerDiv").css("margin-top")) +
+   //        parseInt($("#videoSizeControllerDiv").css("margin-bottom")) +
+   //        $("#playerDiv").height() +
+	//	     parseInt($("#playerDiv").css("margin-top")) +
+   //     parseInt($("#playerDiv").css("margin-bottom")) +
+   //     $("#mediaPlayerAndControlsDiv").css("padding-top") +
+   //     $("#mediaPlayerAndControlsDiv").css("padding-bottom")
+		  
+   $("#mediaPlayerAndControlsDiv").height(hvscd)
    docHeight = $(document).height()
    textDivHeight = $("#textDiv").height()
-   videoDivHeight = $("#mediaPlayerDiv").height()
-   controlsDivHeight = $("#controlsDiv").height()
+   videoDivHeight = $("#mediaPlayerAndControlsDiv").height()
+   controlsDivHeight = 0
+   if($("#controlsDiv").is(":visible")){
+      controlsDivHeight = $("#controlsDiv").height()
+      }
    console.log("controlsDivHeight: " + controlsDivHeight);
-   margins = 130;
+   var margins =  parseInt($("#mainDiv").css("margin-top")) +
+                  parseInt($("#mediaPlayerAndControlsDiv").css("margin-top")) + 
+                  parseInt($("#mediaPlayerAndControlsDiv").css("margin-bottom")) +
+                  parseInt($("#controlsDiv").css("margin-top")) +
+                  parseInt($("#controlsDiv").css("margin-bottom")) +
+                  parseInt($("#textDiv").css("margin-top")) +
+                  parseInt($("#textDiv").css("margin-bottom"));
+        
+   // margins = 130;
    newTextHeight = docHeight - (controlsDivHeight + videoDivHeight + margins)
    console.log("  doc: " + docHeight)
    console.log("video: " + videoDivHeight);
    console.log(" ctls: " + controlsDivHeight)
+   console.log(" margins: " + margins)
    console.log(" new text: " + newTextHeight)
    $("#textDiv").height(newTextHeight);
    } // refreshLayout
@@ -1147,25 +1192,29 @@ function refreshLayout(videoRequestedSize){
 $(document).ready(function(){
    
    docHeight =  $(document).height()
-   // $("#controlsDiv").height(100)
-   $("#mediaPlayerDiv").height(300)
+  // $("#mediaPlayerAndControlsDiv").height(100)
+   var initialMediaPlayerHeight = 100;
+   $("#mediaPlayer").height(initialMediaPlayerHeight)
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
-    refreshLayout(270);
+   refreshLayout(initialMediaPlayerHeight);
     
    $("#showHideOtherControlsButton").on('click', function() {
       console.log("--- showOtherControls")
       visible = $("#controlsDiv").is(":visible")
       if(visible){
          $("#controlsDiv").hide()
+         $("#showHideOtherControlsButton").text("Show Other Controls")
          }
-		 else{
+       else{
           $("#controlsDiv").show()
+          $("#showHideOtherControlsButton").text("Hide Other Controls")
           }
       }); // showHideOtherControlsButton
     
     $('#videoSizeSelector').on('input', function() {
        var videoRequestedSize = Number($(this).val());
+       console.log("videoRequestedSize: " + videoRequestedSize);
        refreshLayout(videoRequestedSize)
        }); // videoSizeSelector
 
