@@ -10,19 +10,23 @@
 </head>
 <body>
   <div id="mainDiv">
-    
+
+	 <!-- for audio, the showOtherControls button is placed to its right -->
+	 <!-- for video, that button is placed above, right of  the size controller -->
+	 
     <div id="mediaPlayerAndControlsDiv">
-       <div id="videoSizeControllerDiv">
-			 <audio class="player" id="mediaPlayer" src="daylight-restoration_V03.wav" controls></audio>'
-          <div id="showHideControlsButtonDiv">
-             <button id="showHideOtherControlsButton">Show Other Controls</button>
-             </div id="showHideControlsButtonDiv">
-          </div id="videoSizeControllerDiv">
-       <div id="playerDiv">
-			</div id="playerDiv">
+       <div id="videoSizeControllerDiv"> </div id="videoSizeControllerDiv">
+       <div id="playerDivWithOptionalButton">
+             <audio class="player" id="audioPlayer" src="daylight-restoration_V03.wav" controls></audio>'
+          <!-- div id="showHideControlsButtonDiv" -->
+            <span id="test99Span">
+				 <button id="showHideOtherControlsButton">Show Other Controls</button>
+ 			 </span>
+              <!-- /div id="showHideControlsButtonDiv" -->
+          </div id="playerDivWithOptionalButton">
        </div id="mediaPlayerAndControlsDiv">
 
-    <div id="controlsDiv">
+    <div id="otherControlsDiv">
       
        <label id="playbackSpeedLabel">Playback Speed &nbsp;</label>
        <input type="range" min="0.25" max="1.25" value="1.0" step="0.25" id="speedSelector" name="speedSelector" />
@@ -30,21 +34,19 @@
        <label id="printSizeLabel">Print Size &nbsp;</label>
        <input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" />
 
-       <div id="tierControlsDiv">
-          <div id="tierControlsSubDiv">
-             <div id="tiersLabelDiv">Tiers: </div>
+       <div id="tierControlsDiv" >
+         <div id="tiersLabelDiv">Tiers: </div>
              <div id="tiersCheckBoxesDiv">
                 <form action="">
                    <div>
                       <input type="checkbox" class="tierToggleCheckbox" id="speech-toggle" value="speech" checked name="speech-toggle" />speech
-                      <input type="checkbox" class="tierToggleCheckbox" id="morphemes-toggle" value="morphemes"  name="morphemes-toggle" />analysis
                       <input type="checkbox" class="tierToggleCheckbox" id="translation-toggle" value="translation" checked name="translation-toggle" />translation
+                      <input type="checkbox" class="tierToggleCheckbox" id="morphemes-toggle" value="morphemes"  name="morphemes-toggle" />analysis
                       </div>
                    </form>
                 </div id="tiersCheckBoxesDiv">
-             </div id="tiersControlsSubDiv">
           </div id="tiersControlDiv">
-    </div id="controlsDiv">
+    </div id="otherControlsDiv">
 
     <div id="textDiv">
        <div class="line-wrapper" id="1">

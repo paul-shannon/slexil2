@@ -1,4 +1,4 @@
-HTML = 6-addVideoPlayer.html
+HTML = 8-audioPlayer.html
 
 default:
 	@echo view
@@ -8,6 +8,7 @@ default:
 
 publish:
 	scp $(HTML) paulshannnon@pshannon.net:public_html/pshannon.net/demos/layout/index.html
+	scp slexilNew.* paulshannnon@pshannon.net:public_html/pshannon.net/demos/layout/
 
 viewRemote:
 	open https://pshannon.net/demos/layout/

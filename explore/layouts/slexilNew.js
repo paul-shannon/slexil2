@@ -1,32 +1,36 @@
 function refreshLayout(videoRequestedSize){
+
    console.log("requested videoSize: " + videoRequestedSize)
-   var oldVideoSize = $("#mediaPlayer").height()
-   var videoSizeDelta = videoRequestedSize - oldVideoSize;
-	$("#mediaPlayer").height(videoRequestedSize);
-   var hvscd = $("#mediaPlayerAndControlsDiv").height() + videoSizeDelta;
-   $("#mediaPlayerAndControlsDiv").height(hvscd)
+
+   if(document.getElementById('videoPlayer') != null){
+      var oldVideoSize = $("#videoPlayer").height()
+      var videoSizeDelta = videoRequestedSize - oldVideoSize;
+   	$("#videoPlayer").height(videoRequestedSize);
+      var hvscd = $("#mediaPlayerAndControlsDiv").height() + videoSizeDelta;
+      $("#mediaPlayerAndControlsDiv").height(hvscd)
+    	}
 
    var docHeight = $(document).height()
    var textDivHeight = $("#textDiv").height()
    var videoDivHeight = $("#mediaPlayerAndControlsDiv").height()
-   var controlsDivHeight = 0
-   if($("#controlsDiv").is(":visible")){
-      controlsDivHeight = $("#controlsDiv").height()
+   var otherControlsDivHeight = 0
+   if($("#otherControlsDiv").is(":visible")){
+      otherControlsDivHeight = $("#otherControlsDiv").height()
       }
-   console.log("controlsDivHeight: " + controlsDivHeight);
+   console.log("otherControlsDivHeight: " + otherControlsDivHeight);
    var margins =  parseInt($("#mainDiv").css("margin-top")) +
                   parseInt($("#mediaPlayerAndControlsDiv").css("margin-top")) + 
                   parseInt($("#mediaPlayerAndControlsDiv").css("margin-bottom")) +
-                  parseInt($("#controlsDiv").css("margin-top")) +
-                  parseInt($("#controlsDiv").css("margin-bottom")) +
+                  parseInt($("#otherControlsDiv").css("margin-top")) +
+                  parseInt($("#otherControlsDiv").css("margin-bottom")) +
                   parseInt($("#textDiv").css("margin-top")) +
                   parseInt($("#textDiv").css("margin-bottom"));
         
    // margins = 130;
-   var newTextHeight = docHeight - (controlsDivHeight + videoDivHeight + margins)
+   var newTextHeight = docHeight - (otherControlsDivHeight + videoDivHeight + margins)
    console.log("  doc: " + docHeight)
    console.log("video: " + videoDivHeight);
-   console.log(" ctls: " + controlsDivHeight)
+   console.log(" ctls: " + otherControlsDivHeight)
    console.log(" margins: " + margins)
    console.log(" new text: " + newTextHeight)
    $("#textDiv").height(newTextHeight);
@@ -35,8 +39,10 @@ function refreshLayout(videoRequestedSize){
 $(document).ready(function(){
    
    docHeight =  $(document).height()
-  // $("#mediaPlayerAndControlsDiv").height(100)
-   var initialMediaPlayerHeight = 100;
+   var initialMediaPlayerHeight = 50;
+   if(document.getElementById('videoPlayer') != null){
+      initialMediaPlayerHeight = 150;
+      }
    $("#mediaPlayer").height(initialMediaPlayerHeight)
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
@@ -44,13 +50,13 @@ $(document).ready(function(){
     
    $("#showHideOtherControlsButton").on('click', function() {
       console.log("--- showOtherControls")
-      visible = $("#controlsDiv").is(":visible")
+      visible = $("#otherControlsDiv").is(":visible")
       if(visible){
-         $("#controlsDiv").hide()
+         $("#otherControlsDiv").hide()
          $("#showHideOtherControlsButton").text("Show Other Controls")
          }
        else{
-          $("#controlsDiv").show()
+          $("#otherControlsDiv").show()
           $("#showHideOtherControlsButton").text("Hide Other Controls")
           }
       }); // showHideOtherControlsButton
@@ -70,7 +76,7 @@ $(document).ready(function(){
          width = $window.width();
          height = $window.height();
          console.log("resized!");
-         videoSize = $("#mediaPlayer").height()
+         videoSize = $("#videoPlayer").height()
          refreshLayout(videoSize)
          }
        }, 300);

@@ -7,26 +7,34 @@
    overflow-y: scroll;
    }
 
-#controlsDiv{
+#showHideOtherControlsButton{
+   margin-bottom: 30px;
+   float: right;
+   }
+
+#test99Span{
+	 border: 1px dashed brown;
+}
+
+#otherControlsDiv{
    background-color: Cornsilk;
    height: fit-content;
    border: 2px solid orange;
+   padding-left: 5px;
    margin-bottom: 5px;
    display: none;
    }
 
-#showHideControlsButtonDiv{
-	 display: inline-block;
-	 margin-left: 100px;
+#showHideOtherControlsButton{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: 18px;
     } 
 
 #tierControlsDiv{
-   display: inline-block;
-   }
-    
-#tierControlsSubDiv{
    width: fit-content;
-   margin: 0px;
+   margin: 5px;
    border: 1px solid blue;
    border-radius: 10px;
    padding: 20px;
@@ -60,9 +68,12 @@
    }
 
 #videoSizeControllerDiv{
+   // display: flex;
    border: 2px solid darkGreen;
    padding: 5px;
    height: fit-content;
+   margin-left: 20px;
+   margin-right: 20px;
    }
     
 #videoSizeSelector{
@@ -82,15 +93,25 @@
    height: fit-content;
    padding: 5px;
    border: 2px solid blue;
-   margin-bottom: 10px;
+   margin: 10px;
+   }
+
+#showHideControlsButtonDiv{
+   float: right;
+   }
+
+#playerDivWithOptionalButton{
+   border: 2px dashed orange;
+   margin-left: 20px;
+   margin-right: 20px;
    }
 
 #playerDiv{
+   display: inline-block;
    height: fit-content;
    border: 4px solid red;
    margin: 5px;
    margin-left: 0px;
-
    }
 
 #mediaPlayer{
@@ -104,6 +125,7 @@
    border: 2px solid brown;
    padding: 10px;
    height: calc(100vh - 550px);
+   width: 95%;
    overflow-y: scroll;
    font-size: 24px;
    }
@@ -130,7 +152,18 @@
   }
 
 .line-content{
+  //width: fit-content;
+  width: 100%;
+  height: 100%;
+  border: 3px solid red;
+  margin: 0px;
+  margin-bottom: 2px;
+  overflow-wrap: word-wrap;
+  }
+
+.line-content{
   width: fit-content;
+  //width: 100%;
   height: 100%;
   border: 3px solid red;
   margin: 0px;
@@ -139,15 +172,9 @@
   }
 
 
-.line {
-  width: fit-content;
-  background-color: transparent;
-  font-weight: bold;
-  border: 1px solid gray;
-  padding-left: 20px;
-  padding: 0px;
-  margin-top:  0px;
-  margin-bottom:  10px;
+.line-wrapper {
+  width: 90%;
+  overflow-x: auto;
   }
 
 .speech-tier{
