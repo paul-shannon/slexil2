@@ -1,3 +1,4 @@
+HTML = 7-videoPlayer.html
 HTML = 8-audioPlayer.html
 
 default:

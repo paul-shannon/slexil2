@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>A Dialog element example </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            dialog{
+                border-radius: 10px;
+					 width: 60%;
+               }
+            dialog::backdrop{
+               animation: fade 0.5s ease forwards;
+               }
+            button{
+               height: 40px;
+               padding: 5px 10px;
+               }
+            button:focus{
+               outline: 2px solid #f90;
+               }
+            @keyframes fade{
+                0%{
+                    background-color: transparent;
+                }
+                100%{
+                    background-color: rgb(0 57 24 / 0.6);
+                }
+            }
+        </style>
+    </head>
+    <body>
+      <button id="launchDialog">Where is the dialog?
+		</button>
+      <p id="formResult">
+		</p>
+
+        <p> In the years leading up to the outbreak of the 1905
+        revolution in Russia, Eduard Bernstein—the spirited German
+        advocate of socialist revisionism—warned his Marxist
+        colleagues about the dangers of an “almost mythical faith in
+        the nameless masses.” More skeptic than firebrand, Bernstein
+        worried that Karl Kautsky and other leaders of the
+        international socialist movement placed too much confidence in
+        the spontaneous emergence of an organized and disciplined
+        working class: “The mob, the assembled crowd, the ‘people on
+        the street’…is a power that can be everything—revolutionary
+        and reactionary, heroic and cowardly, human and bestial.” Just
+        as the French Revolution had descended into terror, the masses
+        could once again combust into a violent flame. “We should pay
+        them heed,” Bernstein warned, “but if we are supposed to
+        idolize them, we must just as well become fire worshippers.”
+
+        <dialog id="dialogEle">
+            <form method="dialog">
+              <h1>Some Tips </h1>
+               <ul>
+					  <li> Close this "tips" window by clicking on the background.
+					  <li> Start and stop continuous playback with the media player's controls.
+					  <li>Play a single line by clicking on that line's "speaker" icon.
+					  <li> Use Command+F on a Mac, Control+F on windows, to search for words in the conversation.
+						 
+					  <li> For video conversations, picture-in-picture can be useful. This
+						 puts the video in a separate window, after which you can shrink the
+						 originating window in your web browser, allowing more text to be seen
+						 on-screen.  Safari on a Mac laptop, iPhone or iPad sometimes produces
+						 odd results in single line mode.
+					</ul>
+					<button value="Dismissed!">Dismiss Dialog
+					</button>
+				</form>
+        </dialog>
+		  
+		  <p>Among the votaries of European socialism, Bernstein has
+			 seldom enjoyed much acclaim, not least because he symbolized
+			 the spirit of pragmatism and parliamentary reform that ended
+			 up on the losing side of the debates that roiled the socialist
+			 movement in the decades preceding the Bolsheviks’ victory in
+			 1917. For historians who are less partisan, however, the time
+			 may well seem ripe for a new appraisal—a revision of
+			 revisionism—that casts Bernstein and his reformist wing in a
+			 more favorable light.
+			 
+			 <script>
+            const dialogEle = document.getElementById("dialogEle");
+            const launchBtn = document.getElementById("launchDialog");
+            const formResult = document.getElementById("formResult");
+            launchBtn.addEventListener("click", () => dialogEle.showModal());
+            dialogEle.addEventListener("close", () => {
+                formResult.textContent = dialogEle.returnValue;
+            });
+			 </script>
+    </body>
+</html>
