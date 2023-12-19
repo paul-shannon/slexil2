@@ -1,10 +1,18 @@
+/* Unit svh reflects the smallest possible viewport height that is visible
+ * to the user. The smallest possible viewport height excludes all interface
+ * elements by the user agent.
+ * By default, the vh unit includes the address bar that comes with a mobile browser.
+ * The svh represents the viewport height when the address bar UI hasn’t shrunk
+ * its size yet.
+ * "100svh" means 100% of this small viewport height
+ */
 
 #mainDiv{
    display: block;
    padding: 10px;
    height: calc(100svh - 60px);
    border: 1px solid magenta;
-   overflow-y: scroll;
+   overflow-y: hidden; //scroll;
    }
 
 #mediaPlayerAndControlsDiv{
@@ -68,6 +76,18 @@
    font-size: 24px;
    }
 
+#playbackSpeedReadout{
+   width: 35px;
+   height: 24px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 2px;
+   margin: 3px;
+   border: 1px solid green;
+   font-size: 20px;
+   display: inline-block;
+   }
+
 
 #tierControlsDiv{
    width: 100%
@@ -102,21 +122,10 @@
     margin-left: 20px;
     }
 
-#playbackSpeedReadout{
-   width: 35px;
-   height: 24px;
-   padding-left: 5px;
-   margin: 5px;
-   border: 1px solid green;
-   font-size: 14px;
-   display: inline-block;
-   }
-
-
 #textDiv{
    background-color: Khaki;
    border: 2px solid brown;
-   padding: 10px;
+   padding: 0px;
    height: calc(100vh - 550px);
    width: 95%;
    overflow-y: scroll;
@@ -125,11 +134,11 @@
 
 .line-wrapper {
   display: grid;
-  width: fit-content;
+  width: 100% //fit-content;
   grid-template-columns: 60px 1fr;
   grid-column-gap: 10px;
   border: 3px solid green;
-  margin: 20px;
+  margin: 5px;
   background: white;
 }
 
