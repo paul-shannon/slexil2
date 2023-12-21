@@ -1,4 +1,4 @@
-var globals = {
+var state = {
    mediaplayer: null,  // will be either <audio> or <video>
    videoSize: 150      // initial size, adjusted by slider
    }
@@ -56,15 +56,24 @@ $(document).ready(function(){
    var initialMediaPlayerHeight = 50;
    if(document.getElementById('videoPlayer') != null){
       initialMediaPlayerHeight = 150;
-      globals.mediaPlayer = document.getElementById("videoPlayer")
+      state.mediaPlayer = document.getElementById("videoPlayer")
       }
     else{
-      globals.mediaPlayer = document.getElementById("audioPlayer")
+      state.mediaPlayer = document.getElementById("audioPlayer")
       }
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
    refreshLayout(initialMediaPlayerHeight);
     
+   $("#aboutBoxButton").on('click', function(){
+      console.log("show aboutBox")
+      state.aboutBoxDialog = $("#aboutBox")[0]
+      state.aboutBoxDialog.showModal()
+      })
+	$("#aboutBoxDismissButton").on('click', function(){
+	   state.aboutBoxDialog.close()
+		})
+
    $("#showHideOtherControlsButton").on('click', function() {
       console.log("--- showOtherControls")
       visible = $("#otherControlsDiv").is(":visible")
@@ -73,11 +82,11 @@ $(document).ready(function(){
          $("#showHideOtherControlsButton").text("Show Other Controls")
          }
        else{
-          globals.videoSize = $("#videoPlayer").height();          
+          state.videoSize = $("#videoPlayer").height();          
           $("#otherControlsDiv").show()
           $("#showHideOtherControlsButton").text("Hide Other Controls")
           }
-      refreshLayout(globals.videoSize);
+      refreshLayout(state.videoSize);
       }); // showHideOtherControlsButton
     
     $('#videoSizeSelector').on('input', function() {
@@ -94,7 +103,7 @@ $(document).ready(function(){
 
     $('#speedSelector').on('input', function() {
        var v = $(this).val();
-       globals.mediaPlayer.playbackRate = v;
+       state.mediaPlayer.playbackRate = v;
        $("#playbackSpeedReadout").text(v);
        });
 

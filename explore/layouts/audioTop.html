@@ -12,15 +12,36 @@
 <body>
   <div id="mainDiv">
     
+
 	 <!-- for audio, the showOtherControls button is placed to its right -->
 	 <!-- for video, that button is placed above, right of  the size controller -->
 	 
+        <dialog id="aboutBox">
+                <h1>Some Tips</h1>
+					 <ul>
+						<p><li>Close this "tips" window by clicking on the background.
+                  <p><li>Start and stop continuous playback with the media player's controls.
+                  <p><li> Play a single line by clicking on that line's number button.
+                  <p><li> Use Command+F on a Mac, Control+F on windows, to search for words in the conversation.
+                  <p><li>For video conversations, picture-in-picture can be useful. This puts the video in a separate
+						  window, after which you can shrink the originating window in your web browser, allowing more
+						  text to be seen on-screen.
+                  <p><li>Safari on a Mac laptop, iPhone or iPad sometimes produces odd results in single line mode.
+                  <p>
+                    <button id="aboutBoxDismissButton">Dismiss Dialog</button>
+					 </ul>
+        </dialog>
+
     <div id="mediaPlayerAndControlsDiv">
        <div id="videoSizeControllerDiv" style="display: none;"> </div id="videoSizeControllerDiv">
-       <div id="playerDivWithOptionalButton">
+       <div id="playerDivWithOptionalButtons">
          <audio class="player" id="audioPlayer" src="daylight-restoration_V03.wav" controls></audio>'
-         <button id="showHideOtherControlsButton">Show Other Controls</button>
-			</div id="playerDivWithOptionalButton">
+         <div id="optionalButtonsDiv">
+            <button id="aboutBoxButton" class="extraInfoButtons">About</button>
+            <button id="showHideOtherControlsButton" class="extraInfoButtons" >Show Other Controls</button>
+            <button id="showAnnotationsButton" class="extraInfoButtons">Show Annotations</button>
+				</div id="optionalButtonsDiv">
+			</div id="playerDivWithOptionalButtons">
        </div id="mediaPlayerAndControlsDiv">
 
     <div id="otherControlsDiv" style="display: none">
@@ -53,11 +74,10 @@
 
     <div id="textDiv">
        <div class="line-wrapper" id="1">
-       <div class="line-sidebar">   1)
-              <button onclick="playSample(1, 0, 5942)">🔈
-              </button>
-            </div>
-            <div class="line-content" id="1">
+       <div class="line-sidebar">
+          <button class="playAudioSegmentButton" onclick="playSample(1, 0, 5942)">1</button>
+          </div>
+       <div class="line-content" id="1">
               <div class="line">
                 <span class="speech-tier">ʔal kʷi tu, ʔal kʷi tuhaʔkʷ
                   gʷəl xʷiʔ gʷətusləx̌il.
@@ -147,9 +167,8 @@
             </div>
           </div>
           <div class="line-wrapper" id="2">
-            <div class="line-sidebar">   2)
-              <button onclick="playSample(2, 5943, 10469)">🔈
-              </button>
+            <div class="line-sidebar">
+              <button class="playAudioSegmentButton" onclick="playSample(2, 5943, 10469)">2002</button>
               <!-- sidebarHookLine_2 -->
             </div>
             <div class="line-content" id="2">

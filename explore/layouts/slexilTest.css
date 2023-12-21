@@ -34,7 +34,7 @@
    padding: 5px;
    }
 
-#playerDivWithOptionalButton{
+#playerDivWithOptionalButtons{
    display: flex;
    align-items: center;
    background: white;
@@ -52,14 +52,16 @@
    font-size: 32px;
    }
 
+#optionalButtonsDiv{
+    margin-left: auto;
+   }
 
-#showHideOtherControlsButton{
+.extraInfoButtons{
    margin-bottom: 0px;
    margin-left: auto;
    height: 35px;
    font-size: 18px;
    }
-
 
 #otherControlsDiv{
    background-color: Cornsilk;
@@ -153,12 +155,18 @@
   background: white;
 }
 
+.playAudioSegmentButton{
+   font-size: 20px;
+   margin:0 auto;
+   display:block;
+   }
+
 .line-sidebar{
   //border: 1px solid gray;
   background: white;
-  padding: 10px;
+  padding: 0px;
   padding-top: 4px;
-  width: 40px;
+  width: 50px;
   margin-top: 0px;
   margin-right: 10px;
   font-size: 24px;
@@ -235,3 +243,15 @@
   padding: 3px;
   text-align: left;
   }
+
+#aboutBox{
+   border-radius: 10px;
+   width: 60%;
+	font-size: 24px;
+   }
+#aboutBoxDismissButton{
+   margin-bottom: 0px;
+   margin-left: auto;
+   height: 35px;
+   font-size: 24px;
+   }
