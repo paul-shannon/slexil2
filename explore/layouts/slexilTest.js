@@ -1,6 +1,11 @@
-var mediaPlayer = document.getElementById("mediaPlayer");
+var globals = {
+   mediaplayer: null,  // will be either <audio> or <video>
+   videoSize: 150      // initial size, adjusted by slider
+   }
+//var mediaPlayer = document.getElementById("mediaPlayer");
 var mediaSegmentEnd;
 var mediaContinuousPlay = true;
+var currentVideoSize = 150;  // to start
 //--------------------------------------------------------------------------------
 function refreshLayout(videoRequestedSize)
 {
@@ -51,10 +56,10 @@ $(document).ready(function(){
    var initialMediaPlayerHeight = 50;
    if(document.getElementById('videoPlayer') != null){
       initialMediaPlayerHeight = 150;
-      mediaPlayer = document.getElementById("videoPlayer")
+      globals.mediaPlayer = document.getElementById("videoPlayer")
       }
     else{
-      mediaPlayer = document.getElementById("audioPlayer")
+      globals.mediaPlayer = document.getElementById("audioPlayer")
       }
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
@@ -68,9 +73,11 @@ $(document).ready(function(){
          $("#showHideOtherControlsButton").text("Show Other Controls")
          }
        else{
+          globals.videoSize = $("#videoPlayer").height();          
           $("#otherControlsDiv").show()
           $("#showHideOtherControlsButton").text("Hide Other Controls")
           }
+      refreshLayout(globals.videoSize);
       }); // showHideOtherControlsButton
     
     $('#videoSizeSelector').on('input', function() {
@@ -87,7 +94,7 @@ $(document).ready(function(){
 
     $('#speedSelector').on('input', function() {
        var v = $(this).val();
-       mediaPlayer.playbackRate = v;
+       globals.mediaPlayer.playbackRate = v;
        $("#playbackSpeedReadout").text(v);
        });
 

@@ -11,22 +11,25 @@
    display: block;
    padding: 10px;
    height: calc(100svh - 60px);
-   border: 1px solid magenta;
-   overflow-y: hidden; //scroll;
+   //border: 1px solid magenta;
+	margin-right: 5px;
+   overflow-y: hidden;
+   overflow-x: hidden;
    }
 
 #mediaPlayerAndControlsDiv{
-   background-color: lightcyan;
+   background-color: white;
    height: fit-content;
+   width: 99%;
    padding: 5px;
-   border: 2px solid blue;
-   margin: 10px;
+   border: 1px solid blue;
+   margin: 2px;
    }
 
 #videoSizeControllerDiv{
    display: flex;
-   background: red;
-   border: 5px  dotted darkGreen;
+   background: white;
+   border: 1px  solid black;
 	height: fit-content;
    padding: 5px;
    }
@@ -36,11 +39,11 @@
    align-items: center;
    background: white;
 	padding: 5px;
-   border: 2px dashed orange;
+   //border: 2px dashed orange;
    }
 
 #videoSizeSelectorForm{
-	background-color: yellow;
+	//background-color: yellow;
    height: fit-content;
 	width: 300px;
    }
@@ -61,12 +64,27 @@
 #otherControlsDiv{
    background-color: Cornsilk;
    height: fit-content;
-   border: 2px solid orange;
+   border: 1px solid orange;
    border-radius: 5px;
    padding: 10px;
    margin: 5px;
-   display: show;
+   display: none;
    }
+
+
+#textDiv{
+   background-color: white;
+   border: 1px solid black;
+	border-radius: 5px;
+   padding: 0px;
+   margin: 2px;
+   height: calc(100vh - 550px);
+   width: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   font-size: 24px;
+   }
+
 
 #topControlsDiv{
 	display: block;
@@ -83,7 +101,7 @@
    padding-right: 5px;
    padding-bottom: 2px;
    margin: 3px;
-   border: 1px solid green;
+   //border: 1px solid green;
    font-size: 20px;
    display: inline-block;
    }
@@ -92,8 +110,8 @@
 #tierControlsDiv{
    width: 100%
    margin: 5px;
-   // border: 3px dotted  blue;
-   border-radius: 10px;
+   // //border: 3px dotted  blue;
+   //border-radius: 10px;
    padding: 20px;
    padding-top: 0px;
    padding-bottom: 3px;
@@ -110,8 +128,8 @@
    margin: 20px;
 	padding: 5px;
 	font-size: 24px;
-	border: 1px gray solid;
-	border-radius: 10px;
+	//border: 1px gray solid;
+	//border-radius: 10px;
    }
 
 #tiersCheckBoxesDiv{
@@ -122,28 +140,21 @@
     margin-left: 20px;
     }
 
-#textDiv{
-   background-color: Khaki;
-   border: 2px solid brown;
-   padding: 0px;
-   height: calc(100vh - 550px);
-   width: 95%;
-   overflow-y: scroll;
-   font-size: 24px;
-   }
-
 .line-wrapper {
   display: grid;
   width: 100% //fit-content;
+  height: fit-content;
+  overflow-x: auto;
   grid-template-columns: 60px 1fr;
   grid-column-gap: 10px;
-  border: 3px solid green;
+  //border: 3px dotted green;
   margin: 5px;
+  margin-bottom: 25px;
   background: white;
 }
 
 .line-sidebar{
-  border: 1px solid gray;
+  //border: 1px solid gray;
   background: white;
   padding: 10px;
   padding-top: 4px;
@@ -154,35 +165,20 @@
   }
 
 .line-content{
-  //width: fit-content;
-  width: 100%;
-  height: 100%;
-  border: 3px solid red;
-  margin: 0px;
-  margin-bottom: 2px;
-  overflow-wrap: word-wrap;
-  }
-
-.line-content{
   width: fit-content;
   //width: 100%;
-  height: 100%;
-  border: 3px solid red;
+  height: 90%;
+  //border: 3px solid red;
   margin: 0px;
   margin-bottom: 2px;
   overflow-wrap: word-wrap;
   }
 
-
-.line-wrapper {
-  width: 90%;
-  overflow-x: auto;
-  }
 
 .speech-tier{
   background-color: transparent;
   grid-template-columns: none;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   // font-size: 30px;
   text-align: left;
@@ -194,7 +190,7 @@
 .freeTranslation-tier{
   //background-color: lightyellow;
   grid-template-columns: auto;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   //font-size: 30px;
   text-align: left;
@@ -205,7 +201,7 @@
 .secondTranscription-tier{
   //background-color: lightyellow;
   //grid-template-columns: auto;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   //font-size: 24px;
   text-align: left;
@@ -216,7 +212,7 @@
 .gloss-tier{
   background-color: transparent;
   grid-template-columns: auto;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   //font-size: 20px;
   text-align: left;
@@ -227,14 +223,14 @@
 .morpheme-tier {
   display: grid;
   width: fit-content;
-  border: 0px solid rgba(0, 0, 0, 0.8);
+  //border: 0px solid rgba(0, 0, 0, 0.8);
   margin: 5px;
   justify-content: flex-start;
   overflow-wrap: word-wrap;
   }
 
 .morpheme-cell {
-  border: 1px solid lightgray;
+  //border: 1px solid lightgray;
   margin-bottom: 2px;
   padding: 3px;
   text-align: left;

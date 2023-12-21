@@ -1,6 +1,7 @@
 HTML = 7-videoPlayer.html
 HTML = 8-audioPlayer.html
 HTML = videoTop.html
+HTML = audioTop.html
 
 default:
 	@echo view
