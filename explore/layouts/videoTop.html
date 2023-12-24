@@ -15,6 +15,22 @@
 	 <!-- for audio, the showOtherControls button is placed to its right -->
 	 <!-- for video, that button is placed above, right of  the size controller -->
 	 
+        <dialog id="aboutBox">
+                <h1>Some Tips</h1>
+					 <ul>
+						<p><li>Close this "tips" window by clicking on the background.
+                  <p><li>Start and stop continuous playback with the media player's controls.
+                  <p><li> Play a single line by clicking on that line's number button.
+                  <p><li> Use Command+F on a Mac, Control+F on windows, to search for words in the conversation.
+                  <p><li>For video conversations, picture-in-picture can be useful. This puts the video in a separate
+						  window, after which you can shrink the originating window in your web browser, allowing more
+						  text to be seen on-screen.
+                  <p><li>Safari on a Mac laptop, iPhone or iPad sometimes produces odd results in single line mode.
+                  <p>
+                    <button id="aboutBoxDismissButton">Dismiss Dialog</button>
+					 </ul>
+        </dialog>
+
     <div id="mediaPlayerAndControlsDiv">
        <div id="videoSizeControllerDiv">
           <form id="videoSizeSelectorForm">
@@ -22,7 +38,7 @@
              <input type="range" min="50" max="800" value="150"
                     step="10" id="videoSizeSelector" name="videoSizeSelector" />
               </form>
-          <button id="showHideOtherControlsButton">Show Other Controls</button>
+          <button id="showHideOtherControlsButton" class="extraInfoButtons">Other Controls...</button>
           </div id="videoSizeControllerDiv">
 
        <div id="playerDivWithOptionalButton">
@@ -58,15 +74,19 @@
                    </form>
                 </div id="tiersCheckBoxesDiv">
           </div id="tiersControlDiv">
+        <div id="annoButtonDiv">
+          <button id="showAnnotationsButton" class="extraInfoButtons">Show Annotations</button>
+        </div id="annoButtonDiv">
     </div id="otherControlsDiv">
 
 
+    <div id="textAndAnnoDiv">
+
     <div id="textDiv">
        <div class="line-wrapper" id="1">
-       <div class="line-sidebar">   1)
-              <button onclick="playSample(1, 0, 5942)">🔈
-              </button>
-            </div>
+       <div class="line-sidebar">
+          <button class="playAudioSegmentButton" onclick="playSample(1, 0, 5942)">1</button>
+           </div>
             <div class="line-content" id="1">
               <div class="line">
                 <span class="speech-tier">ʔal kʷi tu, ʔal kʷi tuhaʔkʷ
@@ -157,9 +177,8 @@
             </div>
           </div>
           <div class="line-wrapper" id="2">
-            <div class="line-sidebar">   2)
-              <button onclick="playSample(2, 5943, 10469)">🔈
-              </button>
+            <div class="line-sidebar">
+					<button class="playAudioSegmentButton" onclick="playSample(2, 5493, 10469)">2002</button>
               <!-- sidebarHookLine_2 -->
             </div>
             <div class="line-content" id="2">
@@ -937,6 +956,11 @@
             </div>
           </div>
             </div id="textDiv">
+    <div id="annoDiv">
+       anno
+      </div id="annoDiv">
+	 </div id="textAndAnnoDiv">
+
   </div id="mainDiv">
   <script src="slexilTest.js"></script>
 

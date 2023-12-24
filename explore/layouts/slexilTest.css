@@ -49,7 +49,7 @@
    }
 
 #videoSizeSelectorLabel{
-   font-size: 32px;
+   font-size: 24px;
    }
 
 #optionalButtonsDiv{
@@ -74,6 +74,10 @@
    }
 
 
+#textAndAnnoDiv{
+   display: flex;
+   }
+
 #textDiv{
    background-color: white;
    border: 1px solid black;
@@ -81,12 +85,21 @@
    padding: 0px;
    margin: 2px;
    height: calc(100vh - 550px);
-   width: 100%;
+   width: 90%;
    overflow-y: scroll;
    overflow-x: hidden;
    font-size: 24px;
+   flex: 3;
+   //border: 2px solid brown;
    }
 
+#annoDiv{
+   width: 10%;
+   display: inline-block;
+   flex: 2;
+   border: 2px solid orange;
+	display: none;
+   }
 
 #topControlsDiv{
 	display: block;

@@ -79,7 +79,7 @@ $(document).ready(function(){
       visible = $("#otherControlsDiv").is(":visible")
       if(visible){
          $("#otherControlsDiv").hide()
-         $("#showHideOtherControlsButton").text("Show Other Controls")
+         $("#showHideOtherControlsButton").text("Other Controls ...")
          }
        else{
           state.videoSize = $("#videoPlayer").height();          
@@ -89,6 +89,18 @@ $(document).ready(function(){
       refreshLayout(state.videoSize);
       }); // showHideOtherControlsButton
     
+   $("#showAnnotationsButton").on('click', function() {
+      visible = $("#annoDiv").is(":visible")
+      if(visible){
+         $("#annoDiv").hide()
+         $("#showAnnotationsButton").text("Show Annotations")
+         }
+       else{
+          $("#annoDiv").show()
+          $("#showAnnotationsButton").text("Hide Annotations")
+          }
+       }) // showAnnotationsButton
+
     $('#videoSizeSelector').on('input', function() {
        var videoRequestedSize = Number($(this).val());
        console.log("videoRequestedSize: " + videoRequestedSize);
