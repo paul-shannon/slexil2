@@ -251,12 +251,12 @@ class IjalLine:
     # ----------------------------------------------------------------------------------------------------
     def htmlLeadIn(self, htmlDoc): # , audioDirectory, audioFileType):
 
-        text = "%4d) " % (self.lineNumber + 1)
-        htmlDoc.text(text)
-        lineID = self.rootID
-        onError = "this.style.display=\'none\'"
-        buttonTag = '<button onclick="playSample(%d, %d, %d)">🔈</button>' % (self.lineNumber+1, self.getStartTime(), self.getEndTime())
-        htmlDoc.asis(buttonTag)
+        buttonLabelNumber = self.lineNumber + 1
+        clickActionString = "playSample(%d, %d, %d)" % \
+                            (self.lineNumber+1, self.getStartTime(), self.getEndTime())
+        with htmlDoc.tag("button", onclick=clickActionString,
+                         klass="playAudioSegmentButton"):
+           htmlDoc.text(buttonLabelNumber)
 
     # ----------------------------------------------------------------------------------------------------
     def toHTML(self, htmlDoc):
@@ -265,11 +265,6 @@ class IjalLine:
             with htmlDoc.tag("div", klass="line"):
                 with htmlDoc.tag("span", klass="speech-tier"):
                     htmlDoc.asis(self.getSpokenText())
-
-            #transcription2 = self.getTranscription2()
-            #if transcription2 != None:
-            #    with htmlDoc.tag("div", klass="secondTranscription-tier"):
-            #       htmlDoc.asis(self.getTranscription2())
 
             morphemes = self.getMorphemes()
             morphemeSpacingStyleString = ""

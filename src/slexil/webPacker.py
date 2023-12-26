@@ -20,11 +20,11 @@ class WebPacker:
        self.verbose = verbose
 
        self.cssFiles.append("bootstrap.min.css")
-       self.cssFiles.append("slexil.css")
+       self.cssFiles.append("slexilTest.css")
 
        self.jsFiles.append("showdown.min.js")
        self.jsFiles.append("jquery-3.6.3.min.js")
-       self.jsFiles.append("slexil.js")
+       self.jsFiles.append("slexilTest.js")
        self.jsFiles.append("bootstrap.bundle.min.js")
        self.jsFiles.append("annotations.js")
 
