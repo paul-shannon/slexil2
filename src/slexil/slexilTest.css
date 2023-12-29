@@ -7,6 +7,12 @@
  * "100svh" means 100% of this small viewport height
  */
 
+body, html {
+	font-family: "New York Times-Roman";
+	font-size: 22px;
+	height: 100%;
+	}
+
 #mainDiv{
    display: block;
    padding: 10px;
@@ -16,6 +22,19 @@
    overflow-y: hidden;
    overflow-x: hidden;
    }
+
+#aboutBoxDialog{
+   border-radius: 10px;
+   width: 70%;
+   }
+#aboutBoxDialog::backdrop {
+   animation: aboutBoxDialogBackgroundFade 1s ease forwards;
+   }
+@keyframes aboutBoxDialogBackgroundFade{
+    0%{background-color: transparent;}
+  100%{background-color: rgb(0 57 24 / 0.6);}
+  }
+
 
 #mediaPlayerAndControlsDiv{
    background-color: white;
@@ -48,23 +67,24 @@
 	width: 300px;
    }
 
-#videoSizeSelectorLabel{
+#videoSizeLabel{
    font-size: 24px;
+   margin-right: 5px;
    }
 
 #optionalButtonsDiv{
-   margin-left: auto;
+    margin-left: auto;
    }
 
-#title{
-  //margin-left: auto;
+#pageTitle{
   font-size: 24px;
   padding-right: 20px;
   }
-				  
+
 
 .extraInfoButtons{
    margin-bottom: 0px;
+   margin-right: 10px;
    margin-left: auto;
    height: 35px;
    font-size: 18px;
@@ -145,18 +165,18 @@
 #tiersLabelDiv{
    font-size: 24px;
    display: inline-block;
+	padding: 5px;
+	//border: 1px solid red;
+	//border-radius: 5px;
    }
 #tiersCheckBoxesDiv{
    margin: 20px;
 	padding: 5px;
 	font-size: 24px;
+   display: inline-block;
 	//border: 1px gray solid;
 	//border-radius: 10px;
    }
-
-#tiersCheckBoxesDiv{
-    display: inline-block;
-    }
 
 .tierToggleCheckbox{
     margin-left: 20px;
@@ -166,7 +186,7 @@
   display: grid;
   width: 100% //fit-content;
   height: fit-content;
-  overflow-x: auto;
+  //overflow-x: auto;
   grid-template-columns: 60px 1fr;
   grid-column-gap: 10px;
   //border: 3px dotted green;
@@ -200,8 +220,15 @@
   margin: 0px;
   margin-bottom: 2px;
   overflow-wrap: word-wrap;
+  //overflow-x: auto;
   }
 
+.current-line {
+	background: #B6E8FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	}
 
 .speech-tier{
   background-color: transparent;

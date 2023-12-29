@@ -32,6 +32,7 @@ from pathlib import Path
 from yattag import *
 from yattag import Doc
 import yaml
+from tierGuide import TierGuide
 from eafParser import *
 from ijalLine import *
 from webPacker import WebPacker
@@ -47,10 +48,13 @@ class Text:
    xmlFilename = ''
    eafParser = None
    pageTitle = ''
+   aboutBoxNeeded = None
    grammaticalTermsFile = None
    kbFilename = None
    linguisticsFilename = None
    mediaInfo = {"url": None, "mimetype": None}
+   mediaType = None
+   mediaUrl = None
    grammaticalTerms = []
    htmlDoc = None
    lineCount = 0
@@ -77,9 +81,12 @@ class Text:
                 webpackLinksOnly=False):
 
       self.xmlFilename = xmlFilename
-      if(len(pageTitle) == 0):
-         pageTitle = "slexil2"
-      self.pageTitle = pageTitle
+      if(pageTitle == None):
+         self.pageTitle = "slexil2"
+         self.displayTitle = None
+      else:
+         self.pageTitle = pageTitle
+         self.displayTitle = pageTitle
       self.webpackLinksOnly = webpackLinksOnly
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
       self.tierGuideFile = tierGuideFile
@@ -90,6 +97,9 @@ class Text:
       self.helpButtonLabel = helpButtonLabel
       self.kbFilename = kbFilename
       self.linguisticsFilename = linguisticsFilename
+      with open(tierGuideFile, 'r') as f:
+         self.tierGuide = yaml.safe_load(f)
+
       self.validInputs()
       self.verbose = verbose
 
@@ -97,8 +107,6 @@ class Text:
       self.eafParser = parser
       parser.parseAllLines()
 
-      with open(tierGuideFile, 'r') as f:
-         self.tierGuide = yaml.safe_load(f)
       self.lineCount = parser.getLineCount()
       if(self.lineCount == 0):
          print("no lines found, disagreement between tierGuide and eaf? ")
@@ -146,6 +154,7 @@ class Text:
 
    #--------------------------------------------------------------------------------   
    def validInputs(self):
+
       if(self.verbose):
          print("--- entering validInputs")
       try:
@@ -156,7 +165,7 @@ class Text:
          assert(os.path.isfile(self.tierGuideFile))
       except AssertionError as e:
          raise Exception(tierGuideFile)from e
-         # skip it for now
+
       if(not self.grammaticalTermsFile == None):
          try:
             assert(os.path.isfile(self.grammaticalTermsFile))
@@ -169,17 +178,31 @@ class Text:
       return(True)
 
    #--------------------------------------------------------------------------------   
-   def getPlayer(self):
+   def determineAudioOrVideo(self):
 
       url = self.getMediaInfo()["url"]
+      self.mediaType = "unrecognized"
+      self.mediaUrl = url
+
       suffix = Path(url).suffix.lower()
+      
       if(suffix in [".wav", ".mp3"]):
-         playerDiv = '<audio class="player" id="audioPlayer" src="%s" controls></audio>' % url
+         self.mediaType = "audio"
       elif(suffix in [".m4v", ".mov", ".mp4"]):
-         playerDiv = '<video class="player" id="videoPlayer" src="%s" controls></video>' % url
-      else:
+         self.mediaType = "video"
+      else:  # todo: raise exception here
          print("unrecognized media file suffix in url: %s" % suffix)
          print("full url: %s" % url)
+         
+
+   #--------------------------------------------------------------------------------   
+   def getPlayer(self):
+
+      if(self.mediaType == "audio"):
+         playerDiv = '<audio class="player" id="audioPlayer" src="%s" controls></audio>' % self.mediaUrl
+      elif(self.mediaType == "video"):
+         playerDiv = '<video class="player" id="videoPlayer" src="%s" controls></video>' % self.mediaUrl
+      else:
          playerDiv = ""
       return playerDiv
 
@@ -210,26 +233,42 @@ class Text:
             htmlDoc.asis(webPacker.getCSSText())
             htmlDoc.asis(startStopTimesJSText)
             htmlDoc.asis(annotationLinks)
+
+         self.aboutBoxNeeded = self.helpFilename != None
+         self.determineAudioOrVideo()
+
          with htmlDoc.tag('body'):
-            aboutBoxNeeded = self.helpFilename != None
             with htmlDoc.tag("div", id="mainDiv"):
-               if(aboutBoxNeeded):
+               if(self.aboutBoxNeeded): # initially invisible, displayed on demand
                   addAboutBox(htmlDoc, self.helpFilename)
-               with htmlDoc.tag("div", id="mediaPlayerAndControlsDiv"):
-                  with htmlDoc.tag("div", id="videoSizeControllerDiv",
-                                   style="display: none"):
-                     pass;
-                  with htmlDoc.tag("div", id="playerDivWithOptionalButtons"):
-                     htmlDoc.asis(self.getPlayer())
-                     with htmlDoc.tag("div", id="optionalButtonsDiv"):
-                        if(aboutBoxNeeded):
-                           with htmlDoc.tag("button", id="aboutBoxButton",
-                                            klass="extraInfoButtons"):
-                              htmlDoc.text("About")
-                        with htmlDoc.tag("button", id="showHideOtherControlsButton",
-                                         klass="extraInfoButtons"):
-                          htmlDoc.text("Other Controls ...")
-   
+
+                  #-------------------------------------------------------------------------
+                  # if audio:  player, title, about and other controls button all in top div
+                  #-------------------------------------------------------------------------
+               if(self.mediaType == "audio"):
+                  with htmlDoc.tag("div", id="mediaPlayerAndControlsDiv"):
+                     htmlDoc.tag("div", id="videoSizeControllerDiv", style="display: none")
+                     with htmlDoc.tag("div", id="playerDivWithOptionalButtons"):
+                        htmlDoc.asis(self.getPlayer())
+                        self.addTitleAndButtons(htmlDoc)
+
+                  #-------------------------------------------------------------------------
+                  # if vidoe:  size slider, title, about and other controls button in top.
+                  # video player in the next div
+                  #-------------------------------------------------------------------------
+               if(self.mediaType == "video"):
+                  with htmlDoc.tag("div", id="mediaPlayerAndControlsDiv"):
+                     with htmlDoc.tag("div", id="videoSizeControllerDiv"):
+                        with htmlDoc.tag("span", id="videoSizeLabel"):
+                           htmlDoc.text("Video Size ")
+                        htmlDoc.stag("input",  type="range",
+                                     min="50", max="800", value="150",
+                                     step="10", id="videoSizeSelector",
+                                     name="videoSizeSelector")
+                        self.addTitleAndButtons(htmlDoc)
+                     with htmlDoc.tag("div", id="playerDivWithOptionalButtons"):
+                        htmlDoc.asis(self.getPlayer())
+
                if(self.kbFilename != None):
                   if(self.verbose):
                      print("kbFilename triggered")
@@ -241,6 +280,10 @@ class Text:
                         print(topic)
                   addAnnotationControls(htmlDoc, linguisticsTopics)
    
+
+                  #-------------------------------------------------------------------------
+                  # both audio and video have this initially hidden "other controls" div
+                  #-------------------------------------------------------------------------
                with htmlDoc.tag("div", id="otherControlsDiv", style="display: none"):
                   self.createOtherControlsDiv(htmlDoc)
                  
@@ -254,6 +297,21 @@ class Text:
       self.htmlDoc = htmlDoc
       self.htmlText = htmlDoc.getvalue()
       return(self.htmlText)
+
+   #-------------------------------------------------------------------------------
+   def addTitleAndButtons(self, htmlDoc):
+      
+      with htmlDoc.tag("div", id="optionalButtonsDiv"):
+         if(self.displayTitle != None):
+            with htmlDoc.tag("span", id="pageTitle"):
+               htmlDoc.text(self.displayTitle)
+         if(self.aboutBoxNeeded):
+            with htmlDoc.tag("button", id="aboutBoxButton", klass="extraInfoButtons"):
+               htmlDoc.text("About")
+         with htmlDoc.tag("button", id="showHideOtherControlsButton",
+                          klass="extraInfoButtons"):
+            htmlDoc.text("Other Controls ...")
+
 
    #-------------------------------------------------------------------------------
    def createOtherControlsDiv(self, htmlDoc):
@@ -278,11 +336,18 @@ class Text:
          htmlDoc.stag("input",  type="range", min="0.2", max="4.0", value="1.4",
 					       step="0.1", id="fontSizeSlider", name="fontSizeSlider")
 
-      
           #-----------------
           # tier visibility
           #-----------------
 
+      tg = TierGuide(self.tierGuideFile)
+      pdb.set_trace()
+      if(not tg.valid()["valid"]):
+         print("--- text.py finds invalid tierGuide")
+         print(tg.valid())
+         sys.exit()
+         
+      
       with htmlDoc.tag("div", id="tierControlsDiv"):
          with htmlDoc.tag("span", id="tiersLabelDiv"):
             htmlDoc.text("Tiers: ")
@@ -293,16 +358,20 @@ class Text:
                           value=tierName, klass="tierToggleCheckbox",
                           id="tierToggle-%s" % tierName)
             htmlDoc.text(" %s" % tierName)
-            tierName = "translation"
-            htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                          value=tierName, klass="tierToggleCheckbox",
-                          id="tierToggle-%s" % tierName)
-            htmlDoc.text(" %s" % tierName)
-            tierName = "analysis"
-            htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                          value=tierName, klass="tierToggleCheckbox",
-                          id="tierToggle-%s" % tierName)
-            htmlDoc.text(" %s" % tierName)
+
+            if("translation" in tg.getTierNames()):
+               tierName = "translation"
+               htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                             value=tierName, klass="tierToggleCheckbox",
+                             id="tierToggle-%s" % tierName)
+               htmlDoc.text(" %s" % tierName)
+
+            if("morpheme" in tg.getTierNames()):
+               tierName = "analysis"
+               htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                             value=tierName, klass="tierToggleCheckbox",
+                             id="tierToggle-%s" % tierName)
+               htmlDoc.text(" %s" % tierName)
 
    #-------------------------------------------------------------------------------
    def createTextDiv(self, htmlDoc):
