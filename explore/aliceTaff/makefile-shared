@@ -7,6 +7,7 @@ default:
 	@echo publish
 	@echo view
 	@echo viewRemote
+	@echo eafscp
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105/bin/activate
@@ -36,3 +37,5 @@ view:
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/tlingit/$(HTML.FILE)
 
+eafscp:
+	scp $(EAF) pshannon@206.12.95.4:www/tlingit/eaf/

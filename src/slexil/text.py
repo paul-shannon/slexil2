@@ -269,18 +269,6 @@ class Text:
                      with htmlDoc.tag("div", id="playerDivWithOptionalButtons"):
                         htmlDoc.asis(self.getPlayer())
 
-               if(self.kbFilename != None):
-                  if(self.verbose):
-                     print("kbFilename triggered")
-                  linguisticsTopics = []
-                  if(self.linguisticsFilename != None):
-                     linguisticsTopics = getLinguisticsTopics(self.linguisticsFilename, self.verbose)
-                     print("--- linguisticsTopics")
-                     for topic in linguisticsTopics:
-                        print(topic)
-                  addAnnotationControls(htmlDoc, linguisticsTopics)
-   
-
                   #-------------------------------------------------------------------------
                   # both audio and video have this initially hidden "other controls" div
                   #-------------------------------------------------------------------------
@@ -307,7 +295,7 @@ class Text:
                htmlDoc.text(self.displayTitle)
          if(self.aboutBoxNeeded):
             with htmlDoc.tag("button", id="aboutBoxButton", klass="extraInfoButtons"):
-               htmlDoc.text("About")
+               htmlDoc.text(self.helpButtonLabel)
          with htmlDoc.tag("button", id="showHideOtherControlsButton",
                           klass="extraInfoButtons"):
             htmlDoc.text("Other Controls ...")
@@ -341,7 +329,6 @@ class Text:
           #-----------------
 
       tg = TierGuide(self.tierGuideFile)
-      pdb.set_trace()
       if(not tg.valid()["valid"]):
          print("--- text.py finds invalid tierGuide")
          print(tg.valid())
@@ -372,6 +359,16 @@ class Text:
                              value=tierName, klass="tierToggleCheckbox",
                              id="tierToggle-%s" % tierName)
                htmlDoc.text(" %s" % tierName)
+
+          #-------------------------
+          # show annotations button
+          #-------------------------
+
+      if(self.kbFilename != None):
+         with htmlDoc.tag("div", id="annoButtonDiv"):
+            with htmlDoc.tag("button", id="toggleAnnotationsButton",
+                             klass="extraInfoButtons"):
+               htmlDoc.text("Show Annotations")
 
    #-------------------------------------------------------------------------------
    def createTextDiv(self, htmlDoc):

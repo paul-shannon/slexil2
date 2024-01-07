@@ -21,24 +21,6 @@ http:
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
 
-html.old: 
-	python ~/github/slexil2/utils/eaf2html.py \
-               --eaf $(NAME).eaf \
-               --terms grammaticalTerms.txt \
-               --tierGuide tierGuide.yaml \
-               --projectDirectory ./ \
-               --fontSizeControls \
-               --kbFilename kb.js \
-               --linguistics linguisticTerms.js \
-               --helpFilename help.html \
-               --helpButtonLabel  About \
-               --pageTitle Daylight \
-               --verbose \
-               --startLine None \
-               --endLine None \
-               -webpackLinksOnly False
-	            fixOverlappingTimeSegments=True)
-
 
 html:
 	python ../../../../utils/eaf2html.py  --eaf $(NAME).eaf \
@@ -49,8 +31,8 @@ html:
                        --kbFilename kb.js \
                        --linguistics linguistics.js \
                        --helpFile about.html \
-                       --helpButtonLabel About \
-                       --webpackLinksOnly
+                       --helpButtonLabel About 
+#                       --webpackLinksOnly
 
 
 

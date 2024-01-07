@@ -15,7 +15,7 @@ $(function() {
     $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
             var currentElement = $(this);
-            //console.log("--- mouseenter " + currentElement.html());
+            console.log("--- mouseenter " + currentElement.html());
             if(showAnno){
                 if(timer != null){clearTimeout(timer);}
                 timer = setTimeout(function(){
