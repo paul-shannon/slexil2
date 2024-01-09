@@ -166,12 +166,21 @@ _will steal (it)_
      - _-d_ before -əb and other suffixes. LD 76
 `,
 
+"ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
+`
+_ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il_
+
+**tooth kʷə HAY duff helgwah [sha] gwahtuff ə day bush kweeze doke kwi sləxil**
+`,
+
+
+
 "(30)-(31) gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":
 `
 30-31: _lə=ʔux̌ʷ–c_
 `,    
 
-"(28)-(29) ɬudxʷʔiʷədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
+"(28)-(29) ɬudxʷʔiwədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
 `
 _decide now they, who of us will go after the light?_
 <audio id="line28-29-halfSpeed"><source src="audio/line28-29-halfSpeed.wav"/></audio><button onclick="playSample('line28-29-halfSpeed')">half-speed</button>
@@ -179,9 +188,17 @@ _decide now they, who of us will go after the light?_
 
 "ɬu=ʔux̌ʷ–txʷ":
 `
+_ɬuʔux̌ʷtxʷ_
+
 _will take_
 
--  ɬu: anticipated, expected or possible event  LD 147
+- I hear **day bush kweeze doke**
+- ɬu: anticipated, expected or possible event  LD 147
+     - IRR: irrealis moods, indicating that a certain situation or action is not known to have happened at the moment 
+       the speaker is talking. This contrasts with the realis moods (which in most languages is only the indicative).
+     - Bates and Hess (2001) give similar examples from Lushootseed, and argue that _ɬu_ is a relative future tense marker
+       which places the topic time after an evaluation time (by default, the utterance time)
+     -  compare gʷ- if, maybe, might [inflectional subjunctive prefix expressing doubt, events contrary to fact]  LD 95
 - _ʔux̌ʷ_: go, be, exist.  LD 22
 - _-txʷ_ :  external causative (ECS), make someone do something  LD 231 
 - Thom Hess grammar volume 1 starts with 
@@ -209,46 +226,34 @@ _will take_
     
 "gʷat=əxʷ":
 `
+_gʷatəxʷ_
+
 _who now_
 - _gʷat_: who, whom [interrogative pronoun] LD 97
 - _=əxʷ_, _axʷ_ : now, at the particular time. LD 30
 
 `,
     
-"ɬu=dxʷ–ʔiʷəd=əxʷ":
+"ɬu=dxʷ–ʔiwəd=əxʷ":
 `
+_ɬudxʷʔiwədəxʷ_
+
 _tried to decide_
-<audio id="theyWillDecideNow"><source src="audio/theyWillDecideNow.wav"/></audio><button onclick="playSample('theyWillDecideNow')">half-speed</button>
+
+- I hear **tooth kʷə HAY duff**
 - _ɬu_: anticipated, expected or possible event  LD 147
      - IRR: irrealis moods, indicating that a certain situation or action is not known to have happened at the moment 
        the speaker is talking. This contrasts with the realis moods (which in most languages is only the indicative).
      - Bates and Hess (2001) give similar examples from Lushootseed, and argue that _ɬu_ is a relative future tense marker
        which places the topic time after an evaluation time (by default, the utterance time)
-     - grammatical mood (also mode)
-     - In linguistics and philosophy, **modality** is the phenomenon whereby language is used to discuss possible
-       situations.  A modal expression may convey that something is likely, desirable, or permissible.
-     - TAM: the expression of three major components of words which lead to or assist with a correct
-       understanding of the speaker's meaning:
-          - Tense, the location in time relative to the speaker, to the time of utterance, to the time of action
-	    or requested action, or stated exactly.
-          - Aspect, whether the action is complete (perfect) or continuous (imperfect) and repetitive.
-          - Mood or Modality, the degree of obligation. Was the part of speech intended to be informative, to be a
-            request, a demand, or an expectation.
-          - For example in English the word "walk" would be used in different ways for the different
-            combinations of TAM:
-               - Tense: He will walk tomorrow, He walked yesterday, He walks or is walking now.
-               - Aspect: He walks (every day), will walk tomorrow, he'll be walking (around noontime
-	         tomorrow), is still walking (now) and has been walking (earlier).
-               - Mode: I can walk. You there! Walk!
-               - In the last example, there is no difference in the articulation of the word although it
-	         is being used in a different way, one for conveying information, the other for instructing.
-          - Some authors extend this term as tense–aspect–mood–evidentiality (tame in short).[3] In some languages, 
-            evidentiality (whether evidence exists for the statement, and if so what kind) and mirativity (surprise)
-	    may also be included.
-- _dxʷ<sup>2</sup>_ : lack of control, accidentally, accomplish with difficulty.  LD 86
-     - DC: diminished control
-- _ʔiʷ_: decide.  LD 19.
-- _ʔdxʷ√iʷədəxʷəlgʷəʔ_: they tried to decide.  LD 19, this line as example.
+- _dxʷ_ : CTD (contained) LD 85
+    - permeate, throughout, filled with, covered with
+    - derivational prefix which marks stems as serving to contain, to hold within
+    - also designates a proclivity: what one has "inside"
+    - also carrying this prefix are a number of stems referring to matters of the mind, the _x̌əč_. 
+- _ʔiw_: decide.  LD 19.
+- _ʔdxʷʔiwədəxʷəlgʷəʔ_: they tried to decide.  LD 19, this line as example.
+- _əd_: not sure what role this plays
 - _=əxʷ_, _axʷ_ : now, at the particular time. LD 30
 `,
 
