@@ -5,502 +5,461 @@ mediaFile: owlLivesThere-min-aLaw.wav
 mimeType: audio/x-wav
 
 lines:
-  - lineNumber: 1
-    startTime: 200
-    endTime: 7586
-    lushootseed: ﻿ʔəsɬaɬlil tiʔiɬ tiʔiɬ təkʷtəkʷəlus
-    morphemes: [ʔas–ɬaɬlil,tiʔiɬ,tiʔiɬ,təkʷtəkʷəlus]
-    morphemeGloss: [stat–live,dist,dist,owl]
-    english: Owl lives there.
+ - lineNumber: 1
+   startTime: 200
+   endTime: 7586
+   lushootseed: ﻿ʔəsɬaɬlil tiʔiɬ tiʔiɬ təkʷtəkʷəlus
+   morphemes: [ʔas–ɬaɬlil,tiʔiɬ,tiʔiɬ,təkʷtəkʷəlus]
+   morphemeGloss: [stat–live,dist,dist,owl]
+   english: Owl lives there.
 
-  - lineNumber: 2
-    startTime: 8801
-    endTime: 13273
-    lushootseed: gʷəl ʔəbsčəgʷas tiʔiɬ təkʷtəkʷəlus ʔə tsiʔiɬ waq’waq’
-    morphemes: [gʷəl,ʔas–bəs–čəgʷas,tiʔiɬ,təkʷtəkʷəlus,ʔə,tsiʔiɬ,waq’waq’]
-    morphemeGloss: [sconj,stat–prop–wife,dist,owl,Pr,dist:fem,frog]
-    english: And Owl has Frog as a wife.
+ - lineNumber: 2
+   startTime: 8801
+   endTime: 13273
+   lushootseed: gʷəl ʔəbsčəgʷas tiʔiɬ təkʷtəkʷəlus ʔə tsiʔiɬ waq’waq’
+   morphemes: [gʷəl,ʔas–bəs–čəgʷas,tiʔiɬ,təkʷtəkʷəlus,ʔə,tsiʔiɬ,waq’waq’]
+   morphemeGloss: [sconj,stat–prop–wife,dist,owl,Pr,dist:fem,frog]
+   english: And Owl has Frog as a wife.
 
-  - lineNumber: 3
-    startTime: 14568
-    endTime: 17500
-    lushootseed: tsiʔəʔ waq’waq’ ƛ’uʔal tə sc’p’alič
-    morphemes: [tsiʔəʔ,waq’waq’,ƛ’u=ʔal,tə,sc’p’alič]
-    morphemeGloss: [prox:fem,frog,hab=at,nspec,swamp]
-    english: Frog who is always in the swamp.
+ - lineNumber: 3
+   startTime: 14568
+   endTime: 17500
+   lushootseed: tsiʔəʔ waq’waq’ ƛ’uʔal tə sc’p’alič
+   morphemes: [tsiʔəʔ,waq’waq’,ƛ’u=ʔal,tə,sc’p’alič]
+   morphemeGloss: [prox:fem,frog,hab=at,nspec,swamp]
+   english: Frog who is always in the swamp.
 
-  - lineNumber: 4
-    startTime: 17808
-    endTime: 20097
-    lushootseed: ƛ’uƛ’əladiʔ ƛ’ucut
-    morphemes: [ƛ’u=ƛ’əladiʔ, ƛ’ucut]
-    morphemeGloss: [hab=make.noise, hab=say]
-    english: She always makes noise. She always talks.
+ - lineNumber: 4
+   startTime: 17808
+   endTime: 20097
+   lushootseed: ƛ’uƛ’əladiʔ ƛ’ucut
+   morphemes: [ƛ’u=ƛ’əladiʔ, ƛ’ucut]
+   morphemeGloss: [hab=make.noise, hab=say]
+   english: She always makes noise. She always talks.
 
-  - lineNumber: 5
-    startTime: 22755
-    endTime: 24685
-    lushootseed: xʷiʔ ləhaʔkʷ tiʔəʔ səsɬaɬlils
-    morphemes: [xʷiʔ,lə=haʔkʷ,tiʔəʔ,s=ʔas–ɬaɬlil=s]
-    morphemeGloss: [neg,negp=long.time,prox,nm=stat–live=3po]
-    english: Not for long have they been living there.
+ - lineNumber: 5
+   startTime: 22755
+   endTime: 24685
+   lushootseed: xʷiʔ ləhaʔkʷ tiʔəʔ səsɬaɬlils
+   morphemes: [xʷiʔ,lə=haʔkʷ,tiʔəʔ,s=ʔas–ɬaɬlil=s]
+   morphemeGloss: [neg,negp=long.time,prox,nm=stat–live=3po]
+   english: Not for long have they been living there.
 
-  - lineNumber: 6
-    startTime: 24732
-    endTime: 31361
-    lushootseed: ʔəshuygʷəs ʔə tiʔəʔ təkʷtəkʷəlus ʔi waq’waq’
-    morphemes: [ʔas–huyu•gʷəs,ʔə,tiʔəʔ,təkʷtəkʷəlus,ʔi,waq’waq’]
-    morphemeGloss: [stat–made•pair,Pr,prox,owl,conj,frog]
-    english: Owl and Frog are married.
+ - lineNumber: 6
+   startTime: 24732
+   endTime: 31361
+   lushootseed: ʔəshuygʷəs ʔə tiʔəʔ təkʷtəkʷəlus ʔi waq’waq’
+   morphemes: [ʔas–huyu•gʷəs,ʔə,tiʔəʔ,təkʷtəkʷəlus,ʔi,waq’waq’]
+   morphemeGloss: [stat–made•pair,Pr,prox,owl,conj,frog]
+   english: Owl and Frog are married.
 
-  - lineNumber: 7
-    startTime: 31469
-    endTime: 36547
-    lushootseed: huy dᶻidᶻihiʔəxʷ tsiʔəʔ waq’waq’
-    morphemes: [huy,dᶻidᶻihiʔ=axʷ,tsiʔəʔ,waq’waq’]
-    morphemeGloss: [sconj,pregnant=now,prox:fem,frog]
-    english: Then, Frog is pregnant.
+ - lineNumber: 7
+   startTime: 31469
+   endTime: 36547
+   lushootseed: huy dᶻidᶻihiʔəxʷ tsiʔəʔ waq’waq’
+   morphemes: [huy,dᶻidᶻihiʔ=axʷ,tsiʔəʔ,waq’waq’]
+   morphemeGloss: [sconj,pregnant=now,prox:fem,frog]
+   english: Then, Frog is pregnant.
 
-  - lineNumber: 8
-    startTime: 36917
-    endTime: 43833
-    lushootseed: huy gʷəl tubədaʔəbəxʷ əlgʷəʔ ʔi tiʔəʔ ʔacəc təkʷtəkʷəlus
-    morphemes: [huy,gʷəl,tu=bədaʔ–b=axʷ,əlgʷəʔ,ʔi,tiʔəʔ,ʔacəc təkʷtəkʷəlus]
-    morphemeGloss: [sconj,sconj,past=offspring–md=now,pl,conj,prox,be.in.place owl]
-    english: And then, she and Owl had a baby.
+ - lineNumber: 8
+   startTime: 36917
+   endTime: 43833
+   lushootseed: huy gʷəl tubədaʔəbəxʷ əlgʷəʔ ʔi tiʔəʔ ʔacəc təkʷtəkʷəlus
+   morphemes: [huy,gʷəl,tu=bədaʔ–b=axʷ,əlgʷəʔ,ʔi,tiʔəʔ,ʔacəc təkʷtəkʷəlus]
+   morphemeGloss: [sconj,sconj,past=offspring–md=now,pl,conj,prox,be.in.place owl]
+   english: And then, she and Owl had a baby.
 
-  - lineNumber: 9
-    startTime: 43900
-    endTime: 49150
-    lushootseed: bədaʔəbəxʷ əlgʷəʔ ʔi tiʔəʔ təkʷtəkʷəlus ʔə tiʔəʔ baby miʔman’ č’ač’as
-    morphemes: [bədaʔ–b=axʷ,əlgʷəʔ,ʔi,tiʔəʔ,təkʷtəkʷəlus,ʔə,tiʔəʔ,baby miʔ–man’,č’ač’as]
-    morphemeGloss: [offspring–md=now,pl,conj,prox,owl,Pr,prox,baby attn–small,child]
-    english: She and Owl have a little baby boy.
+ - lineNumber: 9
+   startTime: 43900
+   endTime: 49150
+   lushootseed: bədaʔəbəxʷ əlgʷəʔ ʔi tiʔəʔ təkʷtəkʷəlus ʔə tiʔəʔ baby miʔman’ č’ač’as
+   morphemes: [bədaʔ–b=axʷ,əlgʷəʔ,ʔi,tiʔəʔ,təkʷtəkʷəlus,ʔə,tiʔəʔ,baby miʔ–man’,č’ač’as]
+   morphemeGloss: [offspring–md=now,pl,conj,prox,owl,Pr,prox,baby attn–small,child]
+   english: She and Owl have a little baby boy.
 
-  - lineNumber: 10
-    startTime: 49341
-    endTime: 52058
-    lushootseed: bədaʔəbəxʷ tsiʔəʔ waq’waq’
-    morphemes: [bədaʔ–b=axʷ,tsiʔəʔ,waq’waq’]
-    morphemeGloss: [offspring–md=now,prox:fem,frog]
-    english: Frog has a baby.
+ - lineNumber: 10
+   startTime: 49341
+   endTime: 52058
+   lushootseed: bədaʔəbəxʷ tsiʔəʔ waq’waq’
+   morphemes: [bədaʔ–b=axʷ,tsiʔəʔ,waq’waq’]
+   morphemeGloss: [offspring–md=now,prox:fem,frog]
+   english: Frog has a baby.
 
-  - lineNumber: 11
-    startTime: 54272
-    endTime: 59741
-    lushootseed: huy gʷəl ƛ’ux̌aabiʔɬəxʷ tsiʔəʔ waq’waq’
-    morphemes: [huy,gʷəl,ƛ’u=x̌aab•iʔɬ=axʷ,tsiʔəʔ,waq’waq’]
-    morphemeGloss: [sconj,sconj,hab=cry•child=now,prox:fem,frog]
-    english: And then Frogs baby always cries.
+ - lineNumber: 11
+   startTime: 54272
+   endTime: 59741
+   lushootseed: huy gʷəl ƛ’ux̌aabiʔɬəxʷ tsiʔəʔ waq’waq’
+   morphemes: [huy,gʷəl,ƛ’u=x̌aab•iʔɬ=axʷ,tsiʔəʔ,waq’waq’]
+   morphemeGloss: [sconj,sconj,hab=cry•child=now,prox:fem,frog]
+   english: And then Frogs baby always cries.
 
-  - lineNumber: 12
-    startTime: 62172
-    endTime: 63583
-    lushootseed: ƛ’ux̌aabiʔɬəxʷ
-    morphemes: [ƛ’u=x̌aab•iʔɬ=axʷ]
-    morphemeGloss: [hab=cry•child=now]
-    english: Her baby always cries.
+ - lineNumber: 12
+   startTime: 62172
+   endTime: 63583
+   lushootseed: ƛ’ux̌aabiʔɬəxʷ
+   morphemes: [ƛ’u=x̌aab•iʔɬ=axʷ]
+   morphemeGloss: [hab=cry•child=now]
+   english: Her baby always cries.
 
-  - lineNumber: 13
-    startTime: 63915
-    endTime: 69820
-    lushootseed: huy gʷəl xʷiʔəxʷ gʷəsuʔitut ʔə tiʔəʔ bək’ʷ gʷat ʔal ti (s)əsɬaɬlil(s)
-    morphemes: [huy,gʷəl,xʷiʔ=axʷ,gʷə=s=ʔu–ʔitut,ʔə,tiʔəʔ,bək’ʷ,gʷat,ʔal,ti s=ʔas–ɬaɬlil=s]
-    morphemeGloss: [sconj,sconj,neg=now,sbj=nm=pfv–sleep,Pr,prox,all,who,at,spec nm=stat–live=3po]
-    english: And then, no one can sleep while they live there.
+ - lineNumber: 13
+   startTime: 63915
+   endTime: 69820
+   lushootseed: huy gʷəl xʷiʔəxʷ gʷəsuʔitut ʔə tiʔəʔ bək’ʷ gʷat ʔal ti (s)əsɬaɬlil(s)
+   morphemes: [huy,gʷəl,xʷiʔ=axʷ,gʷə=s=ʔu–ʔitut,ʔə,tiʔəʔ,bək’ʷ,gʷat,ʔal,ti s=ʔas–ɬaɬlil=s]
+   morphemeGloss: [sconj,sconj,neg=now,sbj=nm=pfv–sleep,Pr,prox,all,who,at,spec nm=stat–live=3po]
+   english: And then, no one can sleep while they live there.
 
-  - lineNumber: 14
-    startTime: 69972
-    endTime: 73234
-    lushootseed: huy ƛ’ux̌aax̌aabiʔɬəxʷ tsiʔəʔ waq’waq’
-    morphemes: [huy,ƛ’u=x̌aa–x̌aab•iʔɬ=axʷ,tsiʔəʔ ,waq’waq’]
-    morphemeGloss: [sconj,hab=dstr–cry•child=now,prox:fem,frog]
-    english: Frogs baby always cries and cries.
+ - lineNumber: 14
+   startTime: 69972
+   endTime: 73234
+   lushootseed: huy ƛ’ux̌aax̌aabiʔɬəxʷ tsiʔəʔ waq’waq’
+   morphemes: [huy,ƛ’u=x̌aa–x̌aab•iʔɬ=axʷ,tsiʔəʔ ,waq’waq’]
+   morphemeGloss: [sconj,hab=dstr–cry•child=now,prox:fem,frog]
+   english: Frogs baby always cries and cries.
 
-  - lineNumber: 15
-    startTime: 73563
-    endTime: 77981
-    lushootseed: xʷiʔəxʷ gʷəsx̌ʷubil ʔə tiʔacəc biʔbədaʔs
-    morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tiʔacəc,biʔ–bədaʔ–s]
-    morphemeGloss: [neg=now,sbj=nm=quiet,Pr,unq,attn–offspring–3po]
-    english: Her little baby is never quiet.
+ - lineNumber: 15
+   startTime: 73563
+   endTime: 77981
+   lushootseed: xʷiʔəxʷ gʷəsx̌ʷubil ʔə tiʔacəc biʔbədaʔs
+   morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tiʔacəc,biʔ–bədaʔ–s]
+   morphemeGloss: [neg=now,sbj=nm=quiet,Pr,unq,attn–offspring–3po]
+   english: Her little baby is never quiet.
 
-  - lineNumber: 16
-    startTime: 80036
-    endTime: 83965
-    lushootseed: xʷiʔ gʷəƛ’usuʔidigʷat ʔə tsiʔəʔ waq’waq’
-    morphemes: [xʷiʔ,gʷə=ƛ’u=s=ʔu–ʔidigʷat,ʔə,tsiʔəʔ,waq’waq’]
-    morphemeGloss: [neg,sbj=hab=nm=pfv–say.what,Pr,prox:fem,frog]
-    english: Frog never says anything.
+ - lineNumber: 16
+   startTime: 80036
+   endTime: 83965
+   lushootseed: xʷiʔ gʷəƛ’usuʔidigʷat ʔə tsiʔəʔ waq’waq’
+   morphemes: [xʷiʔ,gʷə=ƛ’u=s=ʔu–ʔidigʷat,ʔə,tsiʔəʔ,waq’waq’]
+   morphemeGloss: [neg,sbj=hab=nm=pfv–say.what,Pr,prox:fem,frog]
+   english: Frog never says anything.
 
-  - lineNumber: 17
-    startTime: 83975
-    endTime: 85159
-    lushootseed: x̌ʷul’ ʔəsgʷədil
-    morphemes: [x̌ʷul’,ʔas–gʷəd–il]
-    morphemeGloss: [only,stat–down–inch]
-    english: She just sits there.
+ - lineNumber: 17
+   startTime: 83975
+   endTime: 85159
+   lushootseed: x̌ʷul’ ʔəsgʷədil
+   morphemes: [x̌ʷul’,ʔas–gʷəd–il]
+   morphemeGloss: [only,stat–down–inch]
+   english: She just sits there.
 
-  - lineNumber: 18
-    startTime: 85259
-    endTime: 0
-    lushootseed: x̌ʷul’ ʔubədᶻqəb tiʔəʔ qədxʷs
-    morphemes: [x̌ʷul’,ʔu–bədᶻqəb,tiʔəʔ,qədxʷ–s]
-    morphemeGloss: [only,pfv–flutter,prox,mouth–3po]
-    english: Her mouth just flaps.
+ - lineNumber: 18
+   startTime: 85259
+   endTime: 0
+   lushootseed: x̌ʷul’ ʔubədᶻqəb tiʔəʔ qədxʷs
+   morphemes: [x̌ʷul’,ʔu–bədᶻqəb,tiʔəʔ,qədxʷ–s]
+   morphemeGloss: [only,pfv–flutter,prox,mouth–3po]
+   english: Her mouth just flaps.
 
-  - lineNumber: 19
-    startTime: 87410
-    endTime: 89600
-    lushootseed: x̌ʷul’ ʔubədᶻqəb tiʔəʔ qədxʷs
-    morphemes: [x̌ʷul’,ʔu–bədᶻqəb,tiʔəʔ,qədxʷ–s]
-    morphemeGloss: [only,pfv–flutter,prox,mouth–3po]
-    english: Her mouth just flaps.
+ - lineNumber: 19
+   startTime: 87410
+   endTime: 89600
+   lushootseed: x̌ʷul’ ʔubədᶻqəb tiʔəʔ qədxʷs
+   morphemes: [x̌ʷul’,ʔu–bədᶻqəb,tiʔəʔ,qədxʷ–s]
+   morphemeGloss: [only,pfv–flutter,prox,mouth–3po]
+   english: Her mouth just flaps.
 
-  - lineNumber: 20
-    startTime: 89648
-    endTime: 0
-    lushootseed: x̌ʷul’ ʔubak’ʷacut tiʔəʔ qədxʷs
-    morphemes: [x̌ʷul’,ʔu–bak’ʷa–t–sut,tiʔəʔ,qədxʷ–s]
-    morphemeGloss: [only,pfv–move.quickly–ics–refl,prox,mouth–3po]
-    english: Her mouth is just moving fast.
+ - lineNumber: 20
+   startTime: 89648
+   endTime: 0
+   lushootseed: x̌ʷul’ ʔubak’ʷacut tiʔəʔ qədxʷs
+   morphemes: [x̌ʷul’,ʔu–bak’ʷa–t–sut,tiʔəʔ,qədxʷ–s]
+   morphemeGloss: [only,pfv–move.quickly–ics–refl,prox,mouth–3po]
+   english: Her mouth is just moving fast.
 
-  - lineNumber: 21
-    startTime: 93853
-    endTime:   100897
-    lushootseed: huy cutəbəxʷ ʔəsʔəx̌id əw’ə tsiʔəʔ adčəgʷas dəx̌ʷul’s ʔubak’ʷacut tiʔəʔ qədxʷs ʔəsʔəx̌id
-    morphemes: [huy,cut–t–b=axʷ,ʔas–ʔəx̌id,əw’ə,tsiʔəʔ,ad–čəgʷas,dəxʷ=x̌ʷul’=s ʔu–bak’ʷa–t–sut,tiʔəʔ,qədxʷ–s,ʔas–ʔəx̌id]
-    morphemeGloss: [sconj,say–ics–pass=now,stat–what.happen,ptcl,prox:fem,2sg.po–wife,adnm=only=3po pfv–move.quickly–ics–refl,prox,mouth–3po,stat–what.happen]
-    english: Then he is spoken to,  “What is the matter with your wife that her mouth is just moving? What is the matter?” 
+ - lineNumber: 21
+   startTime: 93853
+   endTime:   100897
+   lushootseed: huy cutəbəxʷ ʔəsʔəx̌id əw’ə tsiʔəʔ adčəgʷas dəx̌ʷul’s ʔubak’ʷacut tiʔəʔ qədxʷs ʔəsʔəx̌id
+   morphemes: [huy,cut–t–b=axʷ,ʔas–ʔəx̌id,əw’ə,tsiʔəʔ,ad–čəgʷas,dəxʷ=x̌ʷul’=s ʔu–bak’ʷa–t–sut,tiʔəʔ,qədxʷ–s,ʔas–ʔəx̌id]
+   morphemeGloss: [sconj,say–ics–pass=now,stat–what.happen,ptcl,prox:fem,2sg.po–wife,adnm=only=3po pfv–move.quickly–ics–refl,prox,mouth–3po,stat–what.happen]
+   english: Then he is spoken to,  “What is the matter with your wife that her mouth is just moving? What is the matter?” 
 
-  - lineNumber: 22
-    startTime: 101678
-    endTime: 108097
-    lushootseed: huy xʷuʔələʔ cutəbəxʷ ʔə tiʔəʔ təkʷtəkʷəlus tsiʔəʔ čəgʷas gʷəƛ’uhaʔliʔɬəxʷəs
-    morphemes: [huy,xʷuʔələʔ,cut–t–b=axʷ,ʔə,tiʔəʔ,təkʷtəkʷəlus,tsiʔəʔ čəgʷas–s,gʷə=ƛ’u=haʔl•iʔɬ=axʷ=as]
-    morphemeGloss: [sconj,maybe,say–ics–pass=now,Pr,prox,owl,prox:fem wife–3po,sbj=hab=stop.crying•child=now=3sbrd]
-    english: Then I guess Frog is told by Owl that she should soothe the baby.
+ - lineNumber: 22
+   startTime: 101678
+   endTime: 108097
+   lushootseed: huy xʷuʔələʔ cutəbəxʷ ʔə tiʔəʔ təkʷtəkʷəlus tsiʔəʔ čəgʷas gʷəƛ’uhaʔliʔɬəxʷəs
+   morphemes: [huy,xʷuʔələʔ,cut–t–b=axʷ,ʔə,tiʔəʔ,təkʷtəkʷəlus,tsiʔəʔ čəgʷas–s,gʷə=ƛ’u=haʔl•iʔɬ=axʷ=as]
+   morphemeGloss: [sconj,maybe,say–ics–pass=now,Pr,prox,owl,prox:fem wife–3po,sbj=hab=stop.crying•child=now=3sbrd]
+   english: Then I guess Frog is told by Owl that she should soothe the baby.
 
-  - lineNumber: 23
-    startTime: 108526
-    endTime: 116618
-    lushootseed: huy kʷədatəbəxʷ ʔə tsiʔəʔ waq’waq’ tiʔacəc biʔbədaʔs səsx̌qiʔɬs
-    morphemes: [huy,kʷəda–t–b=axʷ,ʔə,tsiʔəʔ,waq’waq’,tiʔacəc biʔ–bədaʔ–s,s=ʔas–x̌q•iʔɬ=s]
-    morphemeGloss: [sconj,taken–ics–pass=now,Pr,prox:fem,frog,unq attn–offspring–3po,nm=stat–wrapped•child=3po]
-    english: Then Frog takes her little swaddled baby.
+ - lineNumber: 23
+   startTime: 108526
+   endTime: 116618
+   lushootseed: huy kʷədatəbəxʷ ʔə tsiʔəʔ waq’waq’ tiʔacəc biʔbədaʔs səsx̌qiʔɬs
+   morphemes: [huy,kʷəda–t–b=axʷ,ʔə,tsiʔəʔ,waq’waq’,tiʔacəc biʔ–bədaʔ–s,s=ʔas–x̌q•iʔɬ=s]
+   morphemeGloss: [sconj,taken–ics–pass=now,Pr,prox:fem,frog,unq attn–offspring–3po,nm=stat–wrapped•child=3po]
+   english: Then Frog takes her little swaddled baby.
 
-  - lineNumber: 24
-    startTime: 116664
-    endTime: 118736
-    lushootseed: ʔəskəkiʔtxʷ
-    morphemes: [ʔas–kəkiʔ–txʷ]
-    morphemeGloss: [stat–cradleboard–ecs]
-    english: She has him in a cradle board.
+ - lineNumber: 24
+   startTime: 116664
+   endTime: 118736
+   lushootseed: ʔəskəkiʔtxʷ
+   morphemes: [ʔas–kəkiʔ–txʷ]
+   morphemeGloss: [stat–cradleboard–ecs]
+   english: She has him in a cradle board.
 
-  - lineNumber: 25
-    startTime: 119320
-    endTime: 122100
-    lushootseed: huy gʷəl dᶻakʷadəxʷ
-    morphemes: [huy,gʷəl,dᶻakʷa–t=axʷ]
-    morphemeGloss: [sconj,sconj,rock–ics=now]
-    english: And then, she rocks him.
+ - lineNumber: 25
+   startTime: 119320
+   endTime: 122100
+   lushootseed: huy gʷəl dᶻakʷadəxʷ
+   morphemes: [huy,gʷəl,dᶻakʷa–t=axʷ]
+   morphemeGloss: [sconj,sconj,rock–ics=now]
+   english: And then, she rocks him.
 
-  - lineNumber: 26
-    startTime: 122589
-    endTime: 124418
-    lushootseed: cutcuucəxʷ
-    morphemes: [cut–cut–c=axʷ]
-    morphemeGloss: [dstr–say–altv=now]
-    english: She says to him over and over,
+ - lineNumber: 26
+   startTime: 122589
+   endTime: 124418
+   lushootseed: cutcuucəxʷ
+   morphemes: [cut–cut–c=axʷ]
+   morphemeGloss: [dstr–say–altv=now]
+   english: She says to him over and over,
 
-  - lineNumber: 27
-    startTime: 124600
-    endTime: 129646
-    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’
-    morphemes: []
-    morphemeGloss: []
-    english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
+ - lineNumber: 27
+   startTime: 124600
+   endTime: 129646
+   lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’
+   morphemes: []
+   morphemeGloss: []
+   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
 
-  - lineNumber: 28
-    startTime: 129823
-    endTime: 138800
-    lushootseed: (And she was just saying that) ʔucucutəxʷ tsiʔəʔ k’aʔk’aʔ ʔi stab waq’waq’ ʔucucutəxʷ
-    morphemes: [ʔu–cut–cut=axʷ,tsiʔəʔ,k’aʔk’aʔ,ʔi,stab,waq’waq’,ʔu–cut–cut=axʷ]
-    morphemeGloss: [pfv–dstr–say=now,prox:fem,crow,intj,what,frog,pfv–dstr–say=now]
-    english: Crow …, or what …, Frog says over and over, She says over and over,
+ - lineNumber: 28
+   startTime: 129823
+   endTime: 138800
+   lushootseed: (And she was just saying that) ʔucucutəxʷ tsiʔəʔ k’aʔk’aʔ ʔi stab waq’waq’ ʔucucutəxʷ
+   morphemes: [ʔu–cut–cut=axʷ,tsiʔəʔ,k’aʔk’aʔ,ʔi,stab,waq’waq’,ʔu–cut–cut=axʷ]
+   morphemeGloss: [pfv–dstr–say=now,prox:fem,crow,intj,what,frog,pfv–dstr–say=now]
+   english: Crow …, or what …, Frog says over and over, She says over and over,
 
-  - lineNumber: 29
-    startTime: 138860
-    endTime: 141418
-    lushootseed: sswələq’ sswələq’ sswələq’
-    morphemes: []
-    morphemeGloss: []
-    english:  “Shuwooluk, shuwooluk, shuwooluk.” 
+ - lineNumber: 29
+   startTime: 138860
+   endTime: 141418
+   lushootseed: sswələq’ sswələq’ sswələq’
+   morphemes: []
+   morphemeGloss: []
+   english:  “Shuwooluk, shuwooluk, shuwooluk.” 
 
-  - lineNumber: 30
-    startTime: 142125
-    endTime: 147300
-    lushootseed: (she was) ʔudᶻakʷadəxʷ tiʔiɬ biʔbədaʔs ʔudᶻakʷadəxʷ gʷəl ʔucucutəxʷ
-    morphemes: [ʔu–dᶻakʷa–t=axʷ,tiʔiɬ,biʔ–bədaʔ–s,ʔu–dᶻakʷa–t=axʷ,gʷəl,ʔu–cut–cut=axʷ]
-    morphemeGloss: [pfv–rock–ics=now,dist,attn–offspring–3po,pfv–rock–ics=now,sconj,pfv–dstr–say=now]
-    english: She rocks her little baby, she rocks him. And she says over and over.
+ - lineNumber: 30
+   startTime: 142125
+   endTime: 147300
+   lushootseed: (she was) ʔudᶻakʷadəxʷ tiʔiɬ biʔbədaʔs ʔudᶻakʷadəxʷ gʷəl ʔucucutəxʷ
+   morphemes: [ʔu–dᶻakʷa–t=axʷ,tiʔiɬ,biʔ–bədaʔ–s,ʔu–dᶻakʷa–t=axʷ,gʷəl,ʔu–cut–cut=axʷ]
+   morphemeGloss: [pfv–rock–ics=now,dist,attn–offspring–3po,pfv–rock–ics=now,sconj,pfv–dstr–say=now]
+   english: She rocks her little baby, she rocks him. And she says over and over.
 
-  - lineNumber: 31
-    startTime: 147412
-    endTime: 149945
-    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’
-    morphemes: []
-    morphemeGloss: []
-    english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
+ - lineNumber: 31
+   startTime: 147412
+   endTime: 149945
+   lushootseed: sswələq’ sswələq’ sswələq’ sswələq’
+   morphemes: []
+   morphemeGloss: []
+   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
 
-  - lineNumber: 38
-    startTime: 150710
-    endTime: 154822
-    lushootseed: ʔup’aʔcutəxʷ dxʷʔal kʷi gʷəsgʷəƛ’əbək’ʷtxʷs tiʔəʔ cədiɬ
-    morphemes: [ʔu–p’aʔcut=axʷ,dxʷ–ʔal,kʷi,gʷə=s=gʷəƛ’əbək’ʷ–txʷ=s,tiʔəʔ,cədiɬ]
-    morphemeGloss: [pfv–try=now,cntrpt–at,rem,sbj=nm=quiet–ecs=3po,prox,s/he]
-    english: She tries to quiet him.
+ - lineNumber: 38
+   startTime: 150710
+   endTime: 154822
+   lushootseed: ʔup’aʔcutəxʷ dxʷʔal kʷi gʷəsgʷəƛ’əbək’ʷtxʷs tiʔəʔ cədiɬ
+   morphemes: [ʔu–p’aʔcut=axʷ,dxʷ–ʔal,kʷi,gʷə=s=gʷəƛ’əbək’ʷ–txʷ=s,tiʔəʔ,cədiɬ]
+   morphemeGloss: [pfv–try=now,cntrpt–at,rem,sbj=nm=quiet–ecs=3po,prox,s/he]
+   english: She tries to quiet him.
 
-  - lineNumber: 39
-    startTime: 154850
-    endTime: 157968
-    lushootseed: gʷəl ƛ’al’əxʷ bəcucutəxʷ tsiʔəʔ waq’waq’
-    morphemes: [gʷəl,ƛ’al’=axʷ,bə=cut–cut=axʷ,tsiʔəʔ,waq’waq’]
-    morphemeGloss: [sconj,also=now,add=dstr–say=now,prox:fem,frog]
-    english: And Frog talks on and on too.
+ - lineNumber: 39
+   startTime: 154850
+   endTime: 157968
+   lushootseed: gʷəl ƛ’al’əxʷ bəcucutəxʷ tsiʔəʔ waq’waq’
+   morphemes: [gʷəl,ƛ’al’=axʷ,bə=cut–cut=axʷ,tsiʔəʔ,waq’waq’]
+   morphemeGloss: [sconj,also=now,add=dstr–say=now,prox:fem,frog]
+   english: And Frog talks on and on too.
 
-  - lineNumber: 40
-    startTime: 158066
-    endTime: 161306
-    lushootseed: təbəwihəxʷ sgʷəgʷadads dxʷʔal tiʔəʔ biʔbədaʔs
-    morphemes: [təbəwih=axʷ,s=gʷəgʷadad=s,dxʷ–ʔal,tiʔəʔ,biʔ–bədaʔ–s]
-    morphemeGloss: [energetically=now,nm=converse=3po,cntrpt–at,prox,attn–offspring–3po]
-    english: She speaks energetically to her little baby.
+ - lineNumber: 40
+   startTime: 158066
+   endTime: 161306
+   lushootseed: təbəwihəxʷ sgʷəgʷadads dxʷʔal tiʔəʔ biʔbədaʔs
+   morphemes: [təbəwih=axʷ,s=gʷəgʷadad=s,dxʷ–ʔal,tiʔəʔ,biʔ–bədaʔ–s]
+   morphemeGloss: [energetically=now,nm=converse=3po,cntrpt–at,prox,attn–offspring–3po]
+   english: She speaks energetically to her little baby.
 
-  - lineNumber: 41
-    startTime: 161728
-    endTime: 164787
-    lushootseed: huy gʷəl bəcucutəxʷ tsiʔəʔ waq’waq’
-    morphemes: [huy,gʷəl,bə=cut–cut=axʷ,tsiʔəʔ,waq’waq’]
-    morphemeGloss: [sconj,sconj,add=dstr–say=now,prox:fem,frog]
-    english: And then Frog always says over and over,
+ - lineNumber: 41
+   startTime: 161728
+   endTime: 164787
+   lushootseed: huy gʷəl bəcucutəxʷ tsiʔəʔ waq’waq’
+   morphemes: [huy,gʷəl,bə=cut–cut=axʷ,tsiʔəʔ,waq’waq’]
+   morphemeGloss: [sconj,sconj,add=dstr–say=now,prox:fem,frog]
+   english: And then Frog always says over and over,
 
-  - lineNumber: 42
-    startTime: 165388
-    endTime: 169967
-    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’
-    morphemes: []
-    morphemeGloss: []
-    english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk shuwooluk, shuwooluk, shuwooluk.” 
+ - lineNumber: 42
+   startTime: 165388
+   endTime: 169967
+   lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’
+   morphemes: []
+   morphemeGloss: []
+   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk shuwooluk, shuwooluk, shuwooluk.” 
 
-  - lineNumber: 43
-    startTime: 170036
-    endTime: 175724
-    lushootseed: xʷiˑʔəxʷ gʷəsx̌ʷubil ʔə tsiʔacəc waq’waq’ ʔucucut
-    morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tsiʔacəc,waq’waq’,ʔu–cut–cut]
-    morphemeGloss: [neg=now,sbj=nm=quiet,Pr,unq:fem,frog,pfv–dstr–say]
-    english: Frog never keeps quiet.  She talks on and on.
+ - lineNumber: 43
+   startTime: 170036
+   endTime: 175724
+   lushootseed: xʷiˑʔəxʷ gʷəsx̌ʷubil ʔə tsiʔacəc waq’waq’ ʔucucut
+   morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tsiʔacəc,waq’waq’,ʔu–cut–cut]
+   morphemeGloss: [neg=now,sbj=nm=quiet,Pr,unq:fem,frog,pfv–dstr–say]
+   english: Frog never keeps quiet.  She talks on and on.
 
-  - lineNumber: 45
-    startTime: 175650
-    endTime: 181126
-    lushootseed: ʔux̌aax̌aabiʔɬ huy gʷəl bəcucutəxʷ xʷiʔəxʷ gʷəbəsx̌ʷubils
-    morphemes: [ʔu–x̌aa–x̌aab•iʔɬ,huy,gʷəl,bə=cut–cut=axʷ,xʷiʔ=axʷ,gʷə=bə=s=x̌ʷubil=s]
-    morphemeGloss: [pfv–dstr–cry•child,sconj,sconj,add=dstr–say=now,neg=now,sbj=add=nm=quiet=3po]
-    english: Her baby cries and cries. And then she talks some more. She will not keep quiet...
+ - lineNumber: 45
+   startTime: 175650
+   endTime: 181126
+   lushootseed: ʔux̌aax̌aabiʔɬ huy gʷəl bəcucutəxʷ xʷiʔəxʷ gʷəbəsx̌ʷubils
+   morphemes: [ʔu–x̌aa–x̌aab•iʔɬ,huy,gʷəl,bə=cut–cut=axʷ,xʷiʔ=axʷ,gʷə=bə=s=x̌ʷubil=s]
+   morphemeGloss: [pfv–dstr–cry•child,sconj,sconj,add=dstr–say=now,neg=now,sbj=add=nm=quiet=3po]
+   english: Her baby cries and cries. And then she talks some more. She will not keep quiet...
 
-  - lineNumber: 47
-    startTime: 181176
-    endTime: 185221
-    lushootseed: dxʷʔaləxʷ sbiɬaʔiləxʷ ʔə tiʔəʔ təkʷtəkʷəlus
-    morphemes: [dxʷ–ʔal=axʷ,s=biɬaʔ–il=axʷ ʔə,tiʔəʔ,təkʷtəkʷəlus]
-    morphemeGloss: [ncntrpt–at=now,nm=have.too.much–inch=now Pr,prox,owl]
-    english:  until Owl gets fed up.
+ - lineNumber: 47
+   startTime: 181176
+   endTime: 185221
+   lushootseed: dxʷʔaləxʷ sbiɬaʔiləxʷ ʔə tiʔəʔ təkʷtəkʷəlus
+   morphemes: [dxʷ–ʔal=axʷ,s=biɬaʔ–il=axʷ ʔə,tiʔəʔ,təkʷtəkʷəlus]
+   morphemeGloss: [ncntrpt–at=now,nm=have.too.much–inch=now Pr,prox,owl]
+   english:  until Owl gets fed up.
 
+ - lineNumber: 48
+   startTime: 185377
+   endTime: 188080
+   lushootseed: huy šuucəxʷ tsiʔəʔ cədiɬ tučəgʷas
+   morphemes: [huy,šuɬ–c=axʷ,tsiʔəʔ,cədiɬ,tu=čəgʷas–s]
+   morphemeGloss: [sconj,see–altv=now,prox:fem,s/he,past=wife–3po]
+   english: He looks at his wife.
 
-  - lineNumber: 48
-    startTime: 185377
-    endTime: 188080
-    lushootseed: huy šuucəxʷ tsiʔəʔ cədiɬ tučəgʷas
-    morphemes: [huy,šuɬ–c=axʷ,tsiʔəʔ,cədiɬ,tu=čəgʷas–s]
-    morphemeGloss: [sconj,see–altv=now,prox:fem,s/he,past=wife–3po]
-    english: He looks at his wife.
+ - lineNumber: 49
+   startTime: 188298
+   endTime: 0
+   lushootseed: x̌ʷul’əxʷ ʔucucut
+   morphemes: [x̌ʷul’=axʷ,ʔu–cut–cut]
+   morphemeGloss: [only=now,pfv–dstr–say]
+   english: She just talks on and on,
 
-#  - lineNumber: 49
-#    startTime: 188298
-#    endTime: 0
-#    lushootseed: x̌ʷul’əxʷ ʔucucut
-#    morphemes: [x̌ʷul’=axʷ,ʔu–cut–cut]
-#    morphemeGloss: [only=now,pfv–dstr–say]
-#    english: She just talks on and on,
-#
-#  - lineNumber: 50
-#    startTime: 190075
-#    endTime: 0
-#    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’
-#    morphemes: []
-#    morphemeGloss: []
-#    english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
-#
-#  - lineNumber: 51
-#    startTime: 191755
-#    endTime: 0
-#    lushootseed: ʔuʔuliʔɬəxʷ
-#    morphemes: [ʔu–ʔul•iʔɬ=axʷ]
-#    morphemeGloss: [pfv–sing•child=now]
-#    english: She sings a lullaby to the baby.
-#
-#  - lineNumber: 52
-#    startTime: 192626
-#    endTime: 193784
-#    lushootseed: ʔuʔəx̌id
-#    morphemes: [ʔu–ʔəx̌id]
-#    morphemeGloss: [pfv–what happened]
-#    english: What happened?
-#
-#   - lineNumber: 53
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔuʔulud tiʔəʔ bədaʔs baby biʔbədaʔs baby
-#     morphemes: [ʔu–ʔulu–t,tiʔəʔ,bədaʔ–s,baby,biʔ–bədaʔ–s,baby]
-#     morphemeGloss: [pfv–sing–ics,prox,offspring–3po,baby,attn–offspring–3po,baby]
-#     english: She sings to her baby, her little baby.
-#
-#   - lineNumber: 54
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy šudubəxʷ ʔə tiʔacəc qaw’qs huyəxʷ … qaw’qs …
-#     morphemes: [huy,šuɬ–dxʷ–b=axʷ,ʔə,tiʔəʔ,qaw’qs,huy=axʷ,qaw’qs]
-#     morphemeGloss: [sconj,see–dc–pass=now,Pr,prox,raven,sconj=now,raven]
-#     english: Then Raven, well now, she is seen by Raven … .
-#
-#   - lineNumber: 55
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: šudxʷəxʷ tiʔəʔ …
-#     morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ]
-#     morphemeGloss: [see–dc=now,prox]
-#     english: He sees her.
-#
-#   - lineNumber: 56
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: šudxʷəxʷ tiʔəʔ čəgʷas
-#     morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ,čəgʷas–s]
-#     morphemeGloss: [see–dc=now,prox,wife–3po]
-#     english: He sees his wife.
-#
-#   - lineNumber: 57
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: təkʷtəkʷəlus
-#     morphemes: [təkʷtəkʷəlus]
-#     morphemeGloss: [owl]
-#     english: Owl.
-#
-#   - lineNumber: 58
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: šudxʷəxʷ tiʔəʔ čəgʷas
-#     morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ,čəgʷas–s]
-#     morphemeGloss: [see–dc=now,prox,wife–3po]
-#     english: He sees his wife.
-#
-#   - lineNumber: 59
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy dᶻalqʷusəxʷ
-#     morphemes: [huy,dᶻalq•us=axʷ]
-#     morphemeGloss: [sconj,turn•face=now]
-#     english: Then he turns his face away.
-#
-#   - lineNumber: 60
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy gʷəl kiisəxʷ dxʷʔal tiʔəʔ dəxʷup’aʔcuts dəxʷuhaʔlids tiʔəʔ tusbədaʔəbs əlgʷəʔ
-#     morphemes: [huy,gʷəl,kiis=axʷ,dxʷ–ʔal,tiʔəʔ,dəxʷ=ʔu–p’aʔcut=s dəxʷ=ʔu–haʔɬ–i–t=s,tiʔəʔ,tu=s=bədaʔ–b=s,əlgʷəʔ]
-#     morphemeGloss: [sconj,sconj,stand=now,cntrpt–at,prox,adnm=pfv–try=3po adnm=pfv–good–ss–ics=3po,prox,past=nm=offspring–md=3po,pl]
-#     english: And then she stands up in order to try to tend to the baby they had,
-#
-#   - lineNumber: 61
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: biʔbədaʔs əlgʷəʔ tusbədaʔəbs
-#     morphemes: [biʔ–bədaʔ–s,əlgʷəʔ,tu=s=bədaʔ–b=s]
-#     morphemeGloss: [attn–offspring–3po,pl,past=nm=offspring–md=3po]
-#     english: Their little baby whom she had born.
-#
-#   - lineNumber: 62
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: waw’q’waq’ tiʔəʔ biʔbədaʔs
-#     morphemes: [wa–w’q’waq’,tiʔəʔ,biʔ–bədaʔ–s]
-#     morphemeGloss: [attn–frog,prox,attn–offspring–3po]
-#     english: The little baby is a little frog.
-#
-#   - lineNumber: 63
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: waw’q’waq’
-#     morphemes: [wa–w’q’waq’]
-#     morphemeGloss: [attn–frog]
-#     english: It is a little frog.
-#
-#   - lineNumber: 64
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: hay ʔux̌ʷəxʷ təkʷtəkʷəlus
-#     morphemes: [hay,ʔux̌ʷ=axʷ,təkʷtəkʷəlus]
-#     morphemeGloss: [sconj,go=now,owl]
-#     english: So, Owl goes.
-#
-#   - lineNumber: 65
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: x̌ədᶻaxʷ
-#     morphemes: [x̌ədᶻ=axʷ]
-#     morphemeGloss: [afraid=now]
-#     english: He is afraid.
-#
-#   - lineNumber: 66
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔubiɬaʔiləxʷ
-#     morphemes: [ʔu–biɬaʔ–il=axʷ]
-#     morphemeGloss: [pfv–have.too.much–inch=now]
-#     english: He is fed up.
-#
-#   - lineNumber: 67
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔux̌ədᶻaxʷ ʔə tiʔiɬ
-#     morphemes: [ʔu–x̌ədᶻ=axʷ,ʔə,tiʔiɬ]
-#     morphemeGloss: [pfv–scared=now,Pr,dist]
-#     english: He gets scared of him (Little Frog).
-#
-#   - lineNumber: 68
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: xʷiʔəxʷ gʷəsx̌ʷubil ʔə tsiʔəʔ čəgʷas
-#     morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tsiʔəʔ,čəgʷas–s]
-#     morphemeGloss: [neg=now,sbj=nm=quiet,Pr,prox:fem,wife–3po]
-#     english: His wife does not keep quiet.
-#
-#   - lineNumber: 69
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: qəliˑltxʷəxʷ čəxʷ ts(i) adčəgʷas
-#     morphemes: [qəl–il–txʷ=axʷ,čəxʷ,tsi,ad–čəgʷas]
-#     morphemeGloss: [bad–inch–ecs=now,2sg.sub,spec:fem,2sg.po–wife]
-#     english:  “Make your wife stop!
-#
-#   - lineNumber: 70
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔuʔəx̌id əw’ə (ʔə) tiʔəʔ dəxʷcucuts
-#     morphemes: [ʔu–ʔəx̌id,əw’ə,ʔə,tiʔəʔ,dəx’=cut–cut=s]
-#     morphemeGloss: [pfv–what.happen,ptcl,Pr,prox,adnm=dstr–say=3po]
-#     english:  “Why is she talking like that?” 
+ - lineNumber: 50
+   startTime: 190075
+   endTime: 193506
+   lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ ʔuʔuliʔɬəxʷ ʔuʔəx̌id
+   morphemes: [ʔu–ʔul•iʔɬ=axʷ,ʔu–ʔəx̌id]
+   morphemeGloss: [pfv–sing•child=now,pfv–what happened]
+   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.”  She sings a lullaby to the baby. What happened?
+
+ - lineNumber: 53
+   startTime: 193720
+   endTime: 198000
+   lushootseed: ʔuʔulud tiʔəʔ bədaʔs baby biʔbədaʔs baby
+   morphemes: [ʔu–ʔulu–t,tiʔəʔ,bədaʔ–s,baby,biʔ–bədaʔ–s,baby]
+   morphemeGloss: [pfv–sing–ics,prox,offspring–3po,baby,attn–offspring–3po,baby]
+   english: She sings to her baby, her little baby.
+
+ - lineNumber: 54
+   startTime: 199350
+   endTime: 204638
+   lushootseed: huy šudubəxʷ ʔə tiʔacəc qaw’qs huyəxʷ … qaw’qs …
+   morphemes: [huy,šuɬ–dxʷ–b=axʷ,ʔə,tiʔəʔ,qaw’qs,huy=axʷ,qaw’qs]
+   morphemeGloss: [sconj,see–dc–pass=now,Pr,prox,raven,sconj=now,raven]
+   english: Then Raven, well now, she is seen by Raven … .
+
+ - lineNumber: 55
+   startTime: 205457
+   endTime: 205306
+   lushootseed: šudxʷəxʷ tiʔəʔ …
+   morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ]
+   morphemeGloss: [see–dc=now,prox]
+   english: He sees her.
+
+ - lineNumber: 56
+   startTime: 207700
+   endTime: 210608
+   lushootseed: šudxʷəxʷ tiʔəʔ čəgʷas
+   morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ,čəgʷas–s]
+   morphemeGloss: [see–dc=now,prox,wife–3po]
+   english: He sees his wife.
+
+ - lineNumber: 57
+   startTime: 213000
+   endTime: 214089
+   lushootseed: təkʷtəkʷəlus
+   morphemes: [təkʷtəkʷəlus]
+   morphemeGloss: [owl]
+   english: Owl.
+
+ - lineNumber: 58
+   startTime: 214350
+   endTime: 218500
+   lushootseed: šudxʷəxʷ tiʔəʔ čəgʷas huy dᶻalqʷusəxʷ huy
+   morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ,čəgʷas–s,huy,dᶻalq•us=axʷ,huy]
+   morphemeGloss: [see–dc=now,prox,wife–3po,sconj,turn•face=now,sconj]
+   english: He sees his wife. Then he turns his face away. Then
+
+ - lineNumber: 60
+   startTime: 218800
+   endTime: 224923
+   lushootseed: kiisəxʷ dxʷʔal tiʔəʔ dəxʷup’aʔcuts dəxʷuhaʔlids tiʔəʔ tusbədaʔəbs əlgʷəʔ
+   morphemes: [kiis=axʷ,dxʷ–ʔal,tiʔəʔ,dəxʷ=ʔu–p’aʔcut=s dəxʷ=ʔu–haʔɬ–i–t=s,tiʔəʔ,tu=s=bədaʔ–b=s,əlgʷəʔ]
+   morphemeGloss: [stand=now,cntrpt–at,prox,adnm=pfv–try=3po adnm=pfv–good–ss–ics=3po,prox,past=nm=offspring–md=3po,pl]
+   english: She stands up in order to try to tend to the baby they had,
+
+ - lineNumber: 61
+   startTime: 225318
+   endTime: 227402
+   lushootseed: biʔbədaʔs əlgʷəʔ tusbədaʔəbs
+   morphemes: [biʔ–bədaʔ–s,əlgʷəʔ,tu=s=bədaʔ–b=s]
+   morphemeGloss: [attn–offspring–3po,pl,past=nm=offspring–md=3po]
+   english: Their little baby whom she had born.
+
+ - lineNumber: 62
+   startTime: 227697
+   endTime: 230746
+   lushootseed: waw’q’waq’ tiʔəʔ biʔbədaʔs
+   morphemes: [wa–w’q’waq’,tiʔəʔ,biʔ–bədaʔ–s]
+   morphemeGloss: [attn–frog,prox,attn–offspring–3po]
+   english: The little baby is a little frog.
+
+ - lineNumber: 63
+   startTime: 231352
+   endTime: 232850
+   lushootseed: waw’q’waq’
+   morphemes: [wa–w’q’waq’]
+   morphemeGloss: [attn–frog]
+   english: It is a little frog.
+
+ - lineNumber: 64
+   startTime: 233520
+   endTime: 239239
+   lushootseed: hay ʔux̌ʷəxʷ təkʷtəkʷəlus
+   morphemes: [hay,ʔux̌ʷ=axʷ,təkʷtəkʷəlus]
+   morphemeGloss: [sconj,go=now,owl]
+   english: So, Owl goes.
+
+ - lineNumber: 65
+   startTime: 239475
+   endTime: 242880
+   lushootseed: x̌ədᶻaxʷ ʔubiɬaʔiləxʷ ʔux̌ədᶻaxʷ ʔə tiʔiɬ
+   morphemes: [x̌ədᶻ=axʷ,ʔu–biɬaʔ–il=axʷ,ʔu–x̌ədᶻ=axʷ,ʔə,tiʔiɬ]
+   morphemeGloss: [afraid=now,pfv–have.too.much–inch=now,pfv–scared=now,Pr,dist]
+   english: He is afraid. He is fed up. He gets scared of him (Little Frog).
+
+ - lineNumber: 68
+   startTime: 242936
+   endTime: 245575
+   lushootseed: xʷiʔəxʷ gʷəsx̌ʷubil ʔə tsiʔəʔ čəgʷas
+   morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tsiʔəʔ,čəgʷas–s]
+   morphemeGloss: [neg=now,sbj=nm=quiet,Pr,prox:fem,wife–3po]
+   english: His wife does not keep quiet.
+
+ - lineNumber: 69
+   startTime: 245737
+   endTime: 250796
+   lushootseed: qəliˑltxʷəxʷ čəxʷ ts(i) adčəgʷas.  ʔuʔəx̌id əw’ə (ʔə) tiʔəʔ dəxʷcucuts
+   morphemes: [qəl–il–txʷ=axʷ,čəxʷ,tsi,ad–čəgʷas,ʔu–ʔəx̌id,əw’ə,ʔə,tiʔəʔ,dəx’=cut–cut=s]
+   morphemeGloss: [bad–inch–ecs=now,2sg.sub,spec:fem,2sg.po–wife,pfv–what.happen,ptcl,Pr,prox,adnm=dstr–say=3po]
+   english:  “Make your wife stop! Why is she talking like that?” 
+
+# - lineNumber: 70
+#   startTime: 0
+#   endTime: 0
+#   lushootseed: ʔuʔəx̌id əw’ə (ʔə) tiʔəʔ dəxʷcucuts
+#   morphemes: [ʔu–ʔəx̌id,əw’ə,ʔə,tiʔəʔ,dəx’=cut–cut=s]
+#   morphemeGloss: [pfv–what.happen,ptcl,Pr,prox,adnm=dstr–say=3po]
+#   english:  “Why is she talking like that?” 
 #
 #   - lineNumber: 71
 #     startTime: 0
