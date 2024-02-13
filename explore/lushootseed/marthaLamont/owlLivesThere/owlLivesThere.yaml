@@ -741,29 +741,29 @@ lines:
 #     morphemeGloss: [always=now,pfv–dstr–say]
 #     english: She is always talking.
 #
-#   - lineNumber: 108
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: xʷiʔəxʷ gʷəsx̌ʷubils dxʷʔal tu(s)cutəbsəxʷ ʔə tiʔəʔ cədiɬ dukʷibəɬ
-#     morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil=s,dxʷ–ʔal,tu=s=cut–t–b=s=axʷ,ʔə tiʔəʔ,cədiɬ,dukʷibəɬ]
-#     morphemeGloss: [neg=now,sbj=nm=quiet=3po,cntrpt–at,past=nm=say–ics–pass=3po=now,Pr prox,s/he,Changer]
-#     english: She did not shut up until Changer spoke,
-#
-#   - lineNumber: 109
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ƛ’ubəxʷ čəd x̌ʷul’əxʷ ɬuʔix̌ʷid tsiʔacəc waq’waq’ dxʷʔal t(i ʔ)asc’p’alič
-#     morphemes: [ƛ’ub=axʷ,čəd,x̌ʷul’=axʷ,ɬu=ʔix̌ʷi–t,tsiʔacəc,waq’waq’ dxʷ–ʔal,ti,ʔas–c’p’•alič]
-#     morphemeGloss: [well=now,1sg.sub,only=now,irr=thrown.at–ics,unq:fem,frog cntrpt–at,spec,stat–stagnant•bundle]
-#     english:  “I ought to just toss this Frog into the swamp.” 
-#
-#   - lineNumber: 110
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy kʷədatəbəxʷ ʔə tiʔəʔ dukʷibəɬ tsiʔəʔ čəgʷas ʔə tiʔəʔ təkʷtəkʷəlus
-#     morphemes: [huy,kʷəda–t–b=axʷ,ʔə,tiʔəʔ,dukʷibəɬ,tsiʔəʔ,čəgʷas,ʔə tiʔəʔ,təkʷtəkʷəlus]
-#     morphemeGloss: [sconj,taken–ics–pass=now,Pr,prox,Changer,prox:fem,wife,Pr prox,owl]
-#     english: Then Changer grabs Owls wife,
+ - lineNumber: 108
+   startTime: 331531
+   endTime: 339550
+   lushootseed: xʷiʔəxʷ gʷəsx̌ʷubils dxʷʔal tu(s)cutəbsəxʷ ʔə tiʔəʔ cədiɬ dukʷibəɬ
+   morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil=s,dxʷ–ʔal,tu=s=cut–t–b=s=axʷ,ʔə tiʔəʔ,cədiɬ,dukʷibəɬ]
+   morphemeGloss: [neg=now,sbj=nm=quiet=3po,cntrpt–at,past=nm=say–ics–pass=3po=now,Pr prox,s/he,Changer]
+   english: She did not shut up until Changer spoke
+
+ - lineNumber: 109
+   startTime: 340377
+   endTime: 347476
+   lushootseed: ƛ’ubəxʷ čəd x̌ʷul’əxʷ ɬuʔix̌ʷid tsiʔacəc waq’waq’ dxʷʔal t(i)(ʔ)asc’p’alič
+   morphemes: [ƛ’ub=axʷ,čəd,x̌ʷul’=axʷ,ɬu=ʔix̌ʷi–t,tsiʔacəc,waq’waq’ dxʷ–ʔal,ti,ʔas–c’p’•alič]
+   morphemeGloss: [well=now,1sg.sub,only=now,irr=thrown.at–ics,unq:fem,frog cntrpt–at,spec,stat–stagnant•bundle]
+   english:  “I ought to just toss this Frog into the swamp.” 
+
+ - lineNumber: 110
+   startTime: 348193
+   endTime: 353769
+   lushootseed: huy kʷədatəbəxʷ ʔə tiʔəʔ dukʷibəɬ tsiʔəʔ čəgʷas ʔə tiʔəʔ təkʷtəkʷəlus ʔəsbədaʔəb
+   morphemes: [huy,kʷəda–t–b=axʷ,ʔə,tiʔəʔ,dukʷibəɬ,tsiʔəʔ,čəgʷas,ʔə tiʔəʔ,təkʷtəkʷəlus,ʔas–bədaʔ–b]
+   morphemeGloss: [sconj,taken–ics–pass=now,Pr,prox,Changer,prox:fem,wife,Pr prox,owl,stat–offspring–md]
+   english: Then Changer grabs Owls wife, she has a baby,
 #
 #   - lineNumber: 111
 #     startTime: 0
@@ -781,21 +781,21 @@ lines:
 #     morphemeGloss: [stat–prop–attn–offspring]
 #     english: She has a little baby.
 #
-#   - lineNumber: 113
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: gʷəl (h)uy ʔix̌ʷitəbəxʷ dxʷʔal tə ʔa ʔəsc’p’alič
-#     morphemes: [gʷəl,huy,ʔix̌ʷi–t–b=axʷ,dxʷ–ʔal,tə,ʔa ʔas–c’p’•alič]
-#     morphemeGloss: [sconj,sconj,thrown.at–ics–pass=now,cntrpt–at,nspec,be.there stat–stagnant•bundle]
-#     english: And then he throws her there where the water is stagnant.
-#
-#   - lineNumber: 114
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: x̌əɬ ti ʔulʔulal
-#     morphemes: [x̌əɬ‿ti,ʔul–ʔulal]
-#     morphemeGloss: [seemingly,dstr–bullrush]
-#     english: It seems there are bullrushes.
+ - lineNumber: 113
+   startTime: 354091
+   endTime: 357859
+   lushootseed: ʔəbsbiʔbədaʔ gʷəl (h)uy ʔix̌ʷitəbəxʷ dxʷʔal tə ʔa ʔəsc’p’alič
+   morphemes: [ʔas–bəs–biʔ–bədaʔ,gʷəl,huy,ʔix̌ʷi–t–b=axʷ,dxʷ–ʔal,tə,ʔa ʔas–c’p’•alič]
+   morphemeGloss: [stat–prop–attn–offspring,sconj,sconj,thrown.at–ics–pass=now,cntrpt–at,nspec,be.there stat–stagnant•bundle]
+   english: She has a little baby. And then he throws her there where the water is stagnant.
+
+ - lineNumber: 114
+   startTime: 358461
+   endTime: 361056
+   lushootseed: x̌əɬ ti ʔulʔulal. qa ʔəsɬəqʷ
+   morphemes: [x̌əɬ‿ti,ʔul–ʔulal,qa,ʔas–ɬəqʷ]
+   morphemeGloss: [seemingly,dstr–bullrush,many,stat–wet]
+   english: It seems there are bullrushes. It is very wet.
 #
 #   - lineNumber: 115
 #     startTime: 0
@@ -805,21 +805,21 @@ lines:
 #     morphemeGloss: [many,stat–wet]
 #     english: It is very wet.
 #
-#   - lineNumber: 116
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: qʷuʔ ƛ’asc’əp’ x̌əɬ ti swaq’as
-#     morphemes: [qʷuʔ,ƛ’u=ʔas–c’əp’,x̌əɬ‿ti,s=waq’=as]
-#     morphemeGloss: [water,hab=stat–stagnant,seemingly,nm=frog=3sbrd]
-#     english: There is stagnant water, and it seems that there are frogs.
-#
-#   - lineNumber: 117
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: tiʔiɬ ʔəsgʷaldup
-#     morphemes: [tiʔiɬ,ʔas–gʷal•dup]
-#     morphemeGloss: [dist,stat–capsize•land]
-#     english: That over-turned place.
+ - lineNumber: 116
+   startTime: 361705
+   endTime: 364775
+   lushootseed: qʷuʔ ƛ’asc’əp’ x̌əɬ ti swaq’as
+   morphemes: [qʷuʔ,ƛ’u=ʔas–c’əp’,x̌əɬ‿ti,s=waq’=as]
+   morphemeGloss: [water,hab=stat–stagnant,seemingly,nm=frog=3sbrd]
+   english: There is stagnant water, and it seems that there are frogs.
+
+ - lineNumber: 117
+   startTime: 365070
+   endTime: 370070
+   lushootseed: tiʔiɬ ʔəsgʷaldup ʔəsʔəx̌id gʷəscutəbs. ʔəsc’əp’dup
+   morphemes: [tiʔiɬ,ʔas–gʷal•dup, ʔas–ʔəx̌id,gʷə=s=cut–t–b=s,ʔas–c’əp’•dup]
+   morphemeGloss: [dist,stat–capsize•land,stat–what.happen,sbj=nm=say–ics–pass=3po,stat–stagnant•land]
+   english: That over-turned place. What would it be called? It is a swampy place. bug?  "baby" at the end?
 #
 #   - lineNumber: 118
 #     startTime: 0
@@ -837,13 +837,13 @@ lines:
 #     morphemeGloss: [stat–stagnant•land]
 #     english: It is a swampy place.
 #
-#   - lineNumber: 120
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔix̌ʷitəbəxʷ tsiʔiɬ waq’waq’ dxʷʔa
-#     morphemes: [ʔix̌ʷi–t–b=axʷ,tsiʔiɬ,waq’waq’,dxʷ–ʔa]
-#     morphemeGloss: [thrown.at–ics–pass=now,dist:fem,frog,cntrpt–be.there]
-#     english: Frog is thrown there.
+ - lineNumber: 120
+   startTime: 371252
+   endTime: 374092
+   lushootseed: ʔix̌ʷitəbəxʷ tsiʔiɬ waq’waq’ dxʷʔa
+   morphemes: [ʔix̌ʷi–t–b=axʷ,tsiʔiɬ,waq’waq’,dxʷ–ʔa]
+   morphemeGloss: [thrown.at–ics–pass=now,dist:fem,frog,cntrpt–be.there]
+   english: Frog is thrown there.
 #
 #   - lineNumber: 121
 #     startTime: 0
