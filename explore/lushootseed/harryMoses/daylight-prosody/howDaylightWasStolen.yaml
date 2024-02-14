@@ -1,7 +1,7 @@
 title: How Daylight Was Stolen
 narrator: Harry Moses
 textEntry: Paul Shannon
-mediaFile: daylight-restoration_V03.wav
+mediaFile: daylight-restoration_V03-22k-aLaw.wav
 mimeType: audio/x-wav
 
 lines:
@@ -161,11 +161,19 @@ lines:
 
   - lineNumber: 20
     startTime: 111638
+    endTime: 116800
+    lushootseed:  x̌ʷul’əxʷ əlgʷəʔ tuləč’itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il
+    morphemes: [x̌ʷul’=əxʷ,əlgʷəʔ,tu=lə=č’it–il,dxʷ–ʔal,tiʔəʔ,dəxʷʔa,ʔə,kʷi,sləx̌il]
+    morphemeGloss: [only=now,pl,past=prog=near–inch,cntrpt–at,prox,adnm=be.there,pr,rem,daylight]
+    english: As they drew near this place of daylight,
+
+  - lineNumber: 21
+    startTime: 117000
     endTime: 119616
-    lushootseed:  x̌ʷul’əxʷ əlgʷəʔ tuləč’itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il ləx̌iličəxʷ əlgʷəʔ
-    morphemes: [x̌ʷul’=əxʷ,əlgʷəʔ,tu=lə=č’it–il,dxʷ–ʔal,tiʔəʔ,dəxʷʔa,ʔə,kʷi,sləx̌il,ləx̌–il•ič=əxʷ,əlgʷəʔ]
-    morphemeGloss: [only=now,pl,past=prog=near–inch,cntrpt–at,prox,adnm=be.there,pr,rem,daylight,light–inch•covering=now,pl]
-    english: As they drew near this place of daylight, light enveloped them.
+    lushootseed:  ləx̌iličəxʷ əlgʷəʔ
+    morphemes: [ləx̌–il•ič=əxʷ,əlgʷəʔ]
+    morphemeGloss: [light–inch•covering=now,pl]
+    english: light enveloped them.
 
   - lineNumber: 21
     startTime: 119617
@@ -193,26 +201,34 @@ lines:
 
   - lineNumber: 27
     startTime: 133983
+    endTime:   138000
+    lushootseed: tugʷax̌ʷəxʷ əlgʷəʔ gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ 
+    morphemes: [tu=gʷax̌ʷ=əxʷ,əlgʷəʔ,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ]
+    morphemeGloss: [past=walk=now,pl,sconj,past=arrive,cntrpt–at,prox,here]
+    english: They walked now and arrived at these ...
+
+  - lineNumber: 28
+    startTime: 140000
     endTime:   143494
-    lushootseed: tugʷax̌ʷəxʷ əlgʷəʔ gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ ʔaciɬtalbixʷ ʔəsɬaɬlil dəxʷʔa ʔə tiʔəʔ sləx̌il
-    morphemes: [tu=gʷax̌ʷ=əxʷ,əlgʷəʔ,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,ʔaciɬtalbixʷ,ʔəs–ɬaɬlil,dəxʷ=ʔa,ʔə,tiʔəʔ,sləx̌il]
-    morphemeGloss: [past=walk=now,pl,sconj,past=arrive,cntrpt–at,prox,here,people,stat–live,adnm=be.there,pr,prox,daylight]
-    english: They walked now and arrived at these people who dwelled at the place of light.
+    lushootseed: ʔaciɬtalbixʷ ʔəsɬaɬlil dəxʷʔa ʔə tiʔəʔ sləx̌il
+    morphemes: [ʔaciɬtalbixʷ,ʔəs–ɬaɬlil,dəxʷ=ʔa,ʔə,tiʔəʔ,sləx̌il]
+    morphemeGloss: [people,stat–live,adnm=be.there,pr,prox,daylight]
+    english: ... people who dwelled at the place of light.
 
   - lineNumber: 28
     startTime: 144400
-    endTime:   149232
-    lushootseed: ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il
-    morphemes: [ɬu=dxʷ–ʔiwəd=əxʷ,əlgʷəʔ,gʷat=əxʷ,ʔə,dibəɬ,kʷi,ɬu=ʔux̌ʷ–txʷ,kʷi,sləx̌il]
-    morphemeGloss: [irr=ctd–decide=now,pl,who=now,pr,we,rem,irr=go–ecs,rem,daylight]
+    endTime:   149000
+    lushootseed: ɬudxʷʔiwədəxʷ əlgʷəʔ ša gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il
+    morphemes: [ɬu=dxʷ–ʔiwəd=əxʷ,əlgʷəʔ,ša,gʷat=əxʷ,ʔə,dibəɬ,kʷi,ɬu=ʔux̌ʷ–txʷ,kʷi,sləx̌il]
+    morphemeGloss: [irr=ctd–decide=now,pl,intj,who=now,pr,we,rem,irr=go–ecs,rem,daylight]
     english: They will decide. “Which of us will take the light?"
 
   - lineNumber: 29
     startTime: 149278
-    endTime: 154705
+    endTime: 154153
     lushootseed: gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il
     morphemes: [gʷə=s=dukʷ,gʷə=bək’ʷ=aɬi,gʷə=ʔux̌ʷ,yəx̌i,čəɬ,gʷə=hay–dxʷ–b,lə=ʔux̌ʷ–c,čəɬ,tiʔəʔ,sləx̌il]
-    morphemeGloss: [sbj=nm=anormal,sbj=all=1pl.sbj,sbj=go,because,1pl.sub,sbj=known–dc–pass,prog=go–altv,1pl.sub,prox,daylight]
+    morphemeGloss: [sbj=nm=anormal,sbj=all=1pl.sbrd,sbj=go,because,1pl.sub,sbj=known–dc–pass,prog=go–altv,1pl.sub,prox,daylight]
     english: It would be bad if we both were to go, because we would be known to be going after this light.
 
 

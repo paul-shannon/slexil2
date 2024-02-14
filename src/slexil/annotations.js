@@ -15,14 +15,14 @@ $(function() {
     $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
             var currentElement = $(this);
-            console.log("--- mouseenter " + currentElement.html());
+            //console.log("--- mouseenter " + currentElement.html());
             if(showAnno){
                 if(timer != null){clearTimeout(timer);}
                 timer = setTimeout(function(){
-                   console.log("mouseenter delay");
+                   //console.log("mouseenter delay");
                    currentElement.addClass("focusedGrammaticalElement")
                    var key = currentElement.html();
-                   var annoBox = $("#annoDiv");
+                   var annoBox = $("#annoNotesDiv");
                    var annoText = lookup(key)
                    annoBox.html(annoText);
                    }, 1000) // setTimeout function
@@ -38,17 +38,17 @@ $(function() {
             }) // mouseleave
 
   $("#toggleAnnotationsButton").click(function(){
-     var annoDivVisible = $("#annoDiv").is(":visible")
-     console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
+     var annoDivVisible = $("#annoNotesDiv").is(":visible")
+     //console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
      if (annoDivVisible){
-        console.log("hiding annoDiv");
+        //console.log("hiding annoDiv");
         showAnno = false;
         $("#annoDiv").removeClass("col-4").hide()
         $("#textLeftColumn").removeClass("col-7").addClass("col-12")
         $("#toggleAnnotationsButton").text("Show Annotations")
         $("#linguisticTopicController").css("display", "none")
      } else {
-        console.log("showing annoDiv");
+        //console.log("showing annoDiv");
         $("#annoDiv").addClass("col-4").show()
         $("#textLeftColumn").removeClass("col-12").addClass("col-8")
         $("#toggleAnnotationsButton").text("Hide Annotations")
@@ -57,6 +57,7 @@ $(function() {
         }
      }); // toggleAnnotationsButton click
 
+    /***************
     $("#languageTopicsSelector").on("change", function(){
         var key = this.value;
         if(key != "Linguistic Topic?"){ // the title
@@ -67,17 +68,25 @@ $(function() {
            // show the blank (first) option in the selector
         $("#languageTopicsSelector option")[0].selected = true;
       }); // languageTopicsSelector change
-        
+    ***********/
 
     }); // on ready
 
+//------------------------------------------------------------------------------------------------------------------------
+function displayAnnotation(topic)
+{
+  var annoBox = $("#annoDiv");
+  var annoText = lookup(topic)
+  annoBox.html(text);
+   
+} 
 //------------------------------------------------------------------------------------------------------------------------
 function lookup(morpheme)
 {
    var index = Object.keys(kb).indexOf(morpheme);
    var found = index >= 0
-   console.log("---- lookup, using kb: '" + morpheme + "', found? " + found)
-   console.log("    index: " + index);
+   //console.log("---- lookup, using kb: '" + morpheme + "', found? " + found)
+   //console.log("    index: " + index);
 
    if(index < 0)
        return("")

@@ -35,6 +35,8 @@ import yaml
 from tierGuide import TierGuide
 from eafParser import *
 from ijalLine import *
+from dropDownMenu import DropDownMenu
+ 
 from webPacker import WebPacker
 pd.set_option('display.width', 1000)
 import pdb
@@ -253,7 +255,7 @@ class Text:
                         self.addTitleAndButtons(htmlDoc)
 
                   #-------------------------------------------------------------------------
-                  # if vidoe:  size slider, title, about and other controls button in top.
+                  # if video:  size slider, title, about and other controls button in top.
                   # video player in the next div
                   #-------------------------------------------------------------------------
                if(self.mediaType == "video"):
@@ -278,7 +280,17 @@ class Text:
                with htmlDoc.tag("div", id="textAndAnnoDiv"):
                   self.createTextDiv(htmlDoc);
                   with htmlDoc.tag("div", id="annoDiv"):
-                     htmlDoc.asis("anno")
+                     with htmlDoc.tag("div", id="annoAndTopicsDiv"):
+                        if(self.linguisticsFilename != None):
+                           topics = getLinguisticsTopics(self.linguisticsFilename,
+                                                         self.verbose)
+                           with htmlDoc.tag("div", id="topicsMenuDiv"):
+                              menu = DropDownMenu(menuTitle = "Linguistic Topics",
+                                                  menuID="topics",
+                                                  menuOptions=topics)
+                              menu.toHTML(htmlDoc)
+                        with htmlDoc.tag("div", id="annoNotesDiv"):
+                           htmlDoc.asis("")
 
             htmlDoc.asis(webPacker.getJSText())
 
@@ -294,11 +306,18 @@ class Text:
             with htmlDoc.tag("span", id="pageTitle"):
                htmlDoc.text(self.displayTitle)
          if(self.aboutBoxNeeded):
-            with htmlDoc.tag("button", id="aboutBoxButton", klass="extraInfoButtons"):
+            with htmlDoc.tag("button", id="aboutBoxButton",
+                             klass="standardSlexilButton"):
                htmlDoc.text(self.helpButtonLabel)
+         if(self.kbFilename != None):
+            #with htmlDoc.tag("div", id="annoButtonDiv"):
+            with htmlDoc.tag("button", id="toggleAnnotationsButton",
+                             klass="standardSlexilButton"):
+               htmlDoc.text("Show Annotations")
+
          with htmlDoc.tag("button", id="showHideOtherControlsButton",
-                          klass="extraInfoButtons"):
-            htmlDoc.text("Other Controls ...")
+                          klass="standardSlexilButton"):
+            htmlDoc.text("Other Controls")
 
 
    #-------------------------------------------------------------------------------
@@ -337,7 +356,7 @@ class Text:
       
       with htmlDoc.tag("div", id="tierControlsDiv"):
          with htmlDoc.tag("span", id="tiersLabelDiv"):
-            htmlDoc.text("Tiers: ")
+            htmlDoc.text("Visible Tiers: ")
       with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
          with tag('form', action = ""):
             tierName = "transcription"
@@ -359,16 +378,6 @@ class Text:
                              value=tierName, klass="tierToggleCheckbox",
                              id="tierToggle-%s" % tierName)
                htmlDoc.text(" %s" % tierName)
-
-          #-------------------------
-          # show annotations button
-          #-------------------------
-
-      if(self.kbFilename != None):
-         with htmlDoc.tag("div", id="annoButtonDiv"):
-            with htmlDoc.tag("button", id="toggleAnnotationsButton",
-                             klass="extraInfoButtons"):
-               htmlDoc.text("Show Annotations")
 
    #-------------------------------------------------------------------------------
    def createTextDiv(self, htmlDoc):

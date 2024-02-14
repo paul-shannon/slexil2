@@ -29,7 +29,7 @@ html:
                        --pageTitle "Harry Moses - How Daylight Was Stolen" \
                        --fontSizeControls \
                        --kbFilename kb.js \
-                       --linguistics linguistics.js \
+                       --linguistics linguisticTerms.js \
                        --helpFile about.html \
                        --helpButtonLabel About 
 #                       --webpackLinksOnly
@@ -49,7 +49,12 @@ publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+
 
 view:
 	open index.html
+
+viewRemote:
+	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/
 

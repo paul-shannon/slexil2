@@ -166,11 +166,44 @@ _will steal (it)_
      - _-d_ before -əb and other suffixes. LD 76
 `,
 
+"gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":
+    `
+_gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il_
+
+I hear:
+
+**gwuhs.doke gwuh. kʷaɬi gwuh.oke yay cəɬ  gwhu hi dub
+
+`,
+    
 "ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
 `
 _ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il_
 
-**tooth kʷə HAY duff helgwah [sha] gwahtuff ə day bush kweeze doke kwi sləxil**
+What I hear:
+
+**tooth kʷə HAY duff helgwah [sha] gwahtuff ə DAY bush kwi sloke-txʷ kwi sləxil**
+
+David (email 27jan2004) says:
+
+My guess about the ša that is missing from the transcription in LINe
+25 (on the screen) is that it is an interjection of some kind. The LD
+lists ša ’shoo!, oh my’ attributed to Martha Lamont, which is
+Snohomish and so not exactly the same Lushootseed. The meaning doesn’t
+necessarily work here, but I could see an interjection with the import
+of English “well now”, or “okay so” fitting the context. Either it is
+the same as Martha’s ša and that has a wider range of functions than
+found in the LD or it is a Skagit interjection, maybe or maybe cognate
+with Martha’s.
+
+I’d be inclined to add it to the sentence as ša with INTJ on the
+glossing line.
+
+Line 26 is spoken very quickly with lots of reduction and vowels
+dropped. It took me a couple of listens but I think that the
+transcription is correct. If you slow it down to 3/4 speed, you can
+hear the words better.
+
 `,
 
 
@@ -234,11 +267,105 @@ _who now_
 
 `,
     
+"lə=ʔux̌ʷ–c":
+    `
+_lə=ʔux̌ʷ–c_
+
+- _lə_ progessive
+- _ʔux̌ʷ_: go
+- _c_: ALTV (allative applicative): Adds a new argument (tiʔəʔ
+sləx̌il) to the valency of _ʔux̌ʷ_, here a goal, the direct object of the derived verb.  
+`,
+    
+
+"gʷə=hay–dxʷ–b":
+`
+_gʷəhaydxʷb_
+
+what I hear:  gʷə HI dub
+
+- gʷə: subjunctive
+- haydxʷ: know, find out
+      - dxʷ: DC (diminished control)
+- b: PASS (passive?)
+- compare _tu(ə)shaydxʷ_ in line 23
+`,
+
+
+"yəx̌i":
+`
+_yəx̌i_
+
+- because, for what reason
+- **x̌**: sounds like **h**, but much more raspy. The tongue is in approximately
+  the same position as for making **q**.  voiceless uvular fricative.
+`,
+
+"gʷə=ʔux̌ʷ":
+`
+_gʷəʔuxʷ_
+
+- gʷəʷ: subjunctive
+- ʔuxʷ: go
+`,
+
+
+"gʷə=bək’ʷ=aɬi":
+`
+_gʷəbək’ʷaɬi_
+
+- what I hear: gʷəb kwawzee
+- gʷə: subjunctive
+- bək’ʷ: all
+      - bəkʼʷ: all 
+      - bəkʼʷaʔkʷbixʷ: all nations, everyone 
+      - bəkʼʷ(u) take what one finds 
+      - bəkʼʷúd:  pick up various edible items (such as apples) ... 
+      - bəkʼʷəb: plunder gotten in a raid 
+      - bəkʼʷálps                                                    
+      - bəkʼʷúcid:                       help one's self (to edibles) 
+      - bəkʼʷaʔkʷbixʷ: everyone 
+- aɬi: we, us
+      - first person plural subordinate subject suffix
+      - see Dawn Bates, 1997, "Person Marking in Lushootseed Subordinate Clauses"
+      - https://www.jstor.org/stable/1265718
+
+
+
+
+`,
+
+
+"gʷə=s=dukʷ":
+`
+_gʷəsdukʷ_
+
+- gʷə: subjunctive
+- =s: nominalizer
+- dukʷ: strange, bad, worthless, unsatisfying
+     - ʔəsdúkʷ tə dʔàlʔal, yáwʼəxʷ čəd ɬuqʷìbid  My house is not right, now I'll have to repair... 
+     - ʔəsdúkʷ: is bad (in health)
+     - ʔəsdúkʷ: not right
+     - ʔəsdúkʷ: does not fit, is something else
+     - gʷəl tux̌ʷ ʔəsdúkʷ:  (h)əliʔ.  But there is something wrong with him (his lif... 
+     - sdukʷ: strange thing
+     - ɬusdúkʷ: will be riff-raff
+     - ɬusdúkʷəxʷ:                    (You) will be just like nothing.
+`,
+
+"ša":
+`
+_ša_
+
+interjection, appears in LD as "_ša:_"
+(I am not sure what the colon signifies - pshannon.)
+`
+,
 "ɬu=dxʷ–ʔiwəd=əxʷ":
 `
 _ɬudxʷʔiwədəxʷ_
 
-_tried to decide_
+_will decide now_
 
 - I hear **tooth kʷə HAY duff**
 - _ɬu_: anticipated, expected or possible event  LD 147
@@ -1713,6 +1840,8 @@ _daylight_
 
 "čəɬ":
 `
+_čəɬ_
+
 - we, us, 1p. pl. predicate particle
 - our: 1p. pl. possessive particle
 `,

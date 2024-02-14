@@ -207,7 +207,7 @@ class EafParser:
 			rowCount = tbl.shape[0]
 			for i in range(0,rowCount-1):
 				if (ends[i] >= starts[i+1]):
-					ends[i] = starts[i+1] - 1
+					ends[i] = starts[i+1] - 100
 			tbl["end"] = ends
 
 		self.timeTable = tbl

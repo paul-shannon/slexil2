@@ -91,6 +91,7 @@ body, html {
    margin-right: 10px;
    margin-left: auto;
    height: 35px;
+   border-radius: 10px;
    font-size: 18px;
    }
 
@@ -126,11 +127,13 @@ body, html {
 
 #annoDiv{
    width: 10%;
+   //height: fit-content;
    display: inline-block;
    flex: 2;
 	padding: 10px;
    border: 2px solid blue;
 	display: none;
+   overflow-y: auto;
    }
 
 #topControlsDiv{
@@ -192,19 +195,15 @@ body, html {
   width: 100% //fit-content;
   height: fit-content;
   overflow-x: auto;
+  overflow-y: clip;
   grid-template-columns: 60px 1fr;
   grid-column-gap: 10px;
   //border: 3px dotted green;
-  margin: 5px;
-  margin-bottom: 25px;
+  margin: 20px;
+  margin-bottom: 10px;
   background: white;
 }
 
-.playAudioSegmentButton{
-   font-size: 20px;
-   margin:0 auto;
-   display:block;
-   }
 
 .line-sidebar{
   //border: 1px solid gray;
@@ -321,3 +320,93 @@ sub {
    height: 35px;
    font-size: 24px;
    }
+
+.playAudioSegmentButtonOld{
+   font-size: 20px;
+   margin:0 auto;
+   display:block;
+   }
+
+.playAudioSegmentButton:hover{
+    background-color: lightcyan;
+    }
+
+.playAudioSegmentButton{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid;
+    border-radius: 8px;
+    text-decoration: none;
+
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    }
+
+.slexilTooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+
+.slexilTooltip .slexilTooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  border: 1px solid gray;
+  position: absolute;
+  z-index: 1;
+}
+
+.slexilTooltip:hover .slexilTooltipText {
+   visibility: visible;
+   top: 20px;
+   left: 70%;
+   transition-delay: 1s;
+   transition-property: visibility;
+   }
+
+.standardSlexilButton{
+    display: inline-block;
+    padding: 2px 6px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    }
+
+.standardSlexilButton:hover{
+    background-color: #DDDDDD;
+    }

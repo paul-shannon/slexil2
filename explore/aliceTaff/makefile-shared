@@ -10,7 +10,7 @@ default:
 	@echo eafscp
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105/bin/activate
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 movieCurl:
 	curl -I https://slexildata.artsrn.ualberta.ca/tlingit/$(VID)

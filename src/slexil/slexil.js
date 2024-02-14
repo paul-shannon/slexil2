@@ -52,8 +52,9 @@ function refreshLayout(videoRequestedSize)
    console.log("   player: " + playerDivHeight);
    console.log("     ctls: " + otherControlsDivHeight)
    console.log("  margins: " + margins)
-   console.log(" new tExt: " + newTextHeight)
+   console.log(" new text: " + newTextHeight)
    $("#textDiv").height(newTextHeight);
+   $("#annoDiv").height(newTextHeight);
    } // refreshLayout
 
 //--------------------------------------------------------------------------------
@@ -212,13 +213,6 @@ $(document).ready(function(){
           } // reached end
        })  // addEventListener timeupdate
 
-    //$(window).resize(function(){
-    //   console.log("window resized: " + $(document).height)
-    //   })
-    //$(window).on( "resize", function(){
-    //   console.log("window resize event: " + $(document).height)
-    //   })
-    
 }) // ready
 
 var mediaSegmentEnd;
@@ -249,7 +243,7 @@ function scrollAndHighlight(lineNumber){
 //--------------------------------------------------------------------------------
 function playSample(mediaID, startTime, endTime)
 {
-   state.mediaPlayer = document.getElementById("audioPlayer")
+   // state.mediaPlayer = document.getElementById("audioPlayer")
    playMediaSegment(mediaID, startTime, endTime)
 
 } // playSample
@@ -262,7 +256,7 @@ function playMediaSegment(mediaID, startTime, endTime)
    mediaContinuousPlay = false;
    startTime = startTime/1000;
 
-      // subtract half a second so playback does not run over
+      // subtract "earlyCathch" seconds so playback does not run over
       // this is dodgy, works only if the supplied intervals (stop and
       // start times) have the expected padding.  which are the elan 
       // user's choices
@@ -280,7 +274,6 @@ function playMediaSegment(mediaID, startTime, endTime)
        console.log(" *** NOT safari, using currentTime")
        state.mediaPlayer.currentTime = startTime
        }
-    //debugger;
    state.mediaPlayer.play();
 
 } // playMediaSegment

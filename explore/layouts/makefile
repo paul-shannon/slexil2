@@ -4,9 +4,14 @@ HTML = videoTop.html
 HTML = audioTop.html
 
 default:
+	@echo venv
 	@echo view
 	@echo publish
 	@echo viewRemote
+	@echo menu
+
+venv:
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 
 publish:
@@ -19,3 +24,7 @@ viewRemote:
 
 view:
 	open $(HTML)
+
+menu:
+	python test_DropDown.py
+	open test_DropDownMenu.html

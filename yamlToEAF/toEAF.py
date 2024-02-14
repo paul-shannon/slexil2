@@ -48,6 +48,7 @@ schema = xmlschema.XMLSchema(schemaXSD)
 refMap = []
 
 x = yaml.load(open(yamlFile), Loader=yaml.FullLoader)
+pdb.set_trace()
 
 tierMap = yaml.load(open("tierGuide.yaml"), Loader=yaml.FullLoader)
 print(tierMap)

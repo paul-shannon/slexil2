@@ -255,8 +255,12 @@ class IjalLine:
         clickActionString = "playSample(%d, %d, %d)" % \
                             (self.lineNumber+1, self.getStartTime(), self.getEndTime())
         with htmlDoc.tag("button", onclick=clickActionString,
-                         klass="playAudioSegmentButton"):
+                         #klass="playAudioSegmentButton"):
+                         #klass="standardSlexilButton tooltip"):
+                         klass="standardSlexilButton slexilTooltip"):
            htmlDoc.text(buttonLabelNumber)
+           with htmlDoc.tag("span", klass="slexilTooltipText"):
+               htmlDoc.text("Play Line %d" % buttonLabelNumber)
 
     # ----------------------------------------------------------------------------------------------------
     def toHTML(self, htmlDoc):
