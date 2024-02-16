@@ -1,6 +1,7 @@
 default:
 	@echo targets: venv all install
 	@echo webPacker
+	@echo tierGuide
 	@echo eafParser
 	@echo ijalLine
 	@echo text
@@ -19,6 +20,9 @@ all: webPacker eafParser ijalLine text morphemeGloss standardizeIjalTierTable
 
 webPacker:
 	python -m unittest test_webPacker.py 
+
+tierGuide:
+	python test_tierGuide.py
 
 eafParser:
 	python test_eafParser.py

@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head>
+  <title>Title of the document</title>
+  <script src='https://slexilData.artsrn.ualberta.ca/includes/jquery-3.6.3.min.js'></script>
+  <style>
+    html,
+    body {
+        height: 95vh;
+		  overflow: hidden;
+      }
+    #mainDiv {
+      display: flex;
+      flex-flow: column;
+      height: 97vh;
+		margin: 10px;
+		margin-top: 0px;
+      }
+    #controlsDiv {
+        border: 1px dotted lightcyan;
+      }
+    #mediaPlayerDiv {
+      flex: 1 1 auto;
+    }
+    #textDiv {
+      flex: 1 1 auto;
+      }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="box-container">
+      <div class="row header" id="photoDiv">
+        <p>header (sized to content)</p>
+        <img id="img" src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" height="150px" width="150px" />
+      </div>
+      <div class="row content">
+        <p>content (fills remaining space)</p>
+      </div>
+      <div class="row footer">
+        <p>footer (fixed height)</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

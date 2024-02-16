@@ -6,14 +6,14 @@ mimeType: audio/x-wav
 lines:
   - lineNumber: 1
     startTime: 0
-    endTime: 3093
+    endTime: 2828
     italianSpeech: Nel mezzo del cammin di nostra vita
     morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
     morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
     english: Midway upon the journey of our life
   - lineNumber: 2
     startTime: 3095
-    endTime: 5620
+    endTime: 5500
     italianSpeech: mi ritrovai per una selva oscura
     morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
     morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]

@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head>
+  <title>grid exploration</title>
+  <script src='https://slexilData.artsrn.ualberta.ca/includes/jquery-3.6.3.min.js'></script>
+  <style>
+    #mainDiv{
+
+        }
+	 #gridContainer{
+       display: grid;
+		 grid-gap: 10px;
+		 grid-template-columns: 6ch 6ch 7ch 6ch 6ch 17ch 8ch 7ch 20ch;
+		 background-color: #fff;
+		 color: #444;
+       height: 100px;
+	    width: fit-content;
+       border: 3px solid brown;
+    	 }
+    .morpheme-cell{
+        border: 1px solid red;
+       }
+  </style>
+</head>
+<body>
+  <div id="mainDiv">
+    <h3> mainDiv</h3>
+	 <div id="gridContainer">
+		  <div class="morpheme-cell">ʔal</div>
+		  <div class="morpheme-cell">kʷi </div>
+		  <div class="morpheme-cell">tu= </div>
+		  <div class="morpheme-cell">ʔal </div>
+		  <div class="morpheme-cell">kʷi </div>
+		  <div class="morpheme-cell">tu=haʔkʷ </div>
+		  <div class="morpheme-cell">gʷəl </div>
+		  <div class="morpheme-cell">xʷiʔ </div>
+		  <div class="morpheme-cell">gʷə=tu=s–ləx̌–il </div>
+		</div id="morpheme-tier"> 
+		</div id="gridContainer">
+  </div id="mainDiv">
+</body>
+</html>
