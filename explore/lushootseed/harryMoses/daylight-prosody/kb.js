@@ -166,12 +166,54 @@ _will steal (it)_
      - _-d_ before -əb and other suffixes. LD 76
 `,
 
+"gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":
+    `
+_gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il_
+
+I hear:
+
+**gwuhs.doke gwuh. kʷaɬi gwuh.oke yay cəɬ  gwhu hi dub
+
+`,
+    
+"ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
+`
+_ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il_
+
+What I hear:
+
+**tooth kʷə HAY duff helgwah [sha] gwahtuff ə DAY bush kwi sloke-txʷ kwi sləxil**
+
+David (email 27jan2004) says:
+
+My guess about the ša that is missing from the transcription in LINe
+25 (on the screen) is that it is an interjection of some kind. The LD
+lists ša ’shoo!, oh my’ attributed to Martha Lamont, which is
+Snohomish and so not exactly the same Lushootseed. The meaning doesn’t
+necessarily work here, but I could see an interjection with the import
+of English “well now”, or “okay so” fitting the context. Either it is
+the same as Martha’s ša and that has a wider range of functions than
+found in the LD or it is a Skagit interjection, maybe or maybe cognate
+with Martha’s.
+
+I’d be inclined to add it to the sentence as ša with INTJ on the
+glossing line.
+
+Line 26 is spoken very quickly with lots of reduction and vowels
+dropped. It took me a couple of listens but I think that the
+transcription is correct. If you slow it down to 3/4 speed, you can
+hear the words better.
+
+`,
+
+
+
 "(30)-(31) gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":
 `
 30-31: _lə=ʔux̌ʷ–c_
 `,    
 
-"(28)-(29) ɬudxʷʔiʷədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
+"(28)-(29) ɬudxʷʔiwədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
 `
 _decide now they, who of us will go after the light?_
 <audio id="line28-29-halfSpeed"><source src="audio/line28-29-halfSpeed.wav"/></audio><button onclick="playSample('line28-29-halfSpeed')">half-speed</button>
@@ -179,9 +221,17 @@ _decide now they, who of us will go after the light?_
 
 "ɬu=ʔux̌ʷ–txʷ":
 `
+_ɬuʔux̌ʷtxʷ_
+
 _will take_
 
--  ɬu: anticipated, expected or possible event  LD 147
+- I hear **day bush kweeze doke**
+- ɬu: anticipated, expected or possible event  LD 147
+     - IRR: irrealis moods, indicating that a certain situation or action is not known to have happened at the moment 
+       the speaker is talking. This contrasts with the realis moods (which in most languages is only the indicative).
+     - Bates and Hess (2001) give similar examples from Lushootseed, and argue that _ɬu_ is a relative future tense marker
+       which places the topic time after an evaluation time (by default, the utterance time)
+     -  compare gʷ- if, maybe, might [inflectional subjunctive prefix expressing doubt, events contrary to fact]  LD 95
 - _ʔux̌ʷ_: go, be, exist.  LD 22
 - _-txʷ_ :  external causative (ECS), make someone do something  LD 231 
 - Thom Hess grammar volume 1 starts with 
@@ -209,46 +259,128 @@ _will take_
     
 "gʷat=əxʷ":
 `
+_gʷatəxʷ_
+
 _who now_
 - _gʷat_: who, whom [interrogative pronoun] LD 97
 - _=əxʷ_, _axʷ_ : now, at the particular time. LD 30
 
 `,
     
-"ɬu=dxʷ–ʔiʷəd=əxʷ":
+"lə=ʔux̌ʷ–c":
+    `
+_lə=ʔux̌ʷ–c_
+
+- _lə_ progessive
+- _ʔux̌ʷ_: go
+- _c_: ALTV (allative applicative): Adds a new argument (tiʔəʔ
+sləx̌il) to the valency of _ʔux̌ʷ_, here a goal, the direct object of the derived verb.  
+`,
+    
+
+"gʷə=hay–dxʷ–b":
 `
-_tried to decide_
-<audio id="theyWillDecideNow"><source src="audio/theyWillDecideNow.wav"/></audio><button onclick="playSample('theyWillDecideNow')">half-speed</button>
+_gʷəhaydxʷb_
+
+what I hear:  gʷə HI dub
+
+- gʷə: subjunctive
+- haydxʷ: know, find out
+      - dxʷ: DC (diminished control)
+- b: PASS (passive?)
+- compare _tu(ə)shaydxʷ_ in line 23
+`,
+
+
+"yəx̌i":
+`
+_yəx̌i_
+
+- because, for what reason
+- **x̌**: sounds like **h**, but much more raspy. The tongue is in approximately
+  the same position as for making **q**.  voiceless uvular fricative.
+`,
+
+"gʷə=ʔux̌ʷ":
+`
+_gʷəʔuxʷ_
+
+- gʷəʷ: subjunctive
+- ʔuxʷ: go
+`,
+
+
+"gʷə=bək’ʷ=aɬi":
+`
+_gʷəbək’ʷaɬi_
+
+- what I hear: gʷəb kwawzee
+- gʷə: subjunctive
+- bək’ʷ: all
+      - bəkʼʷ: all 
+      - bəkʼʷaʔkʷbixʷ: all nations, everyone 
+      - bəkʼʷ(u) take what one finds 
+      - bəkʼʷúd:  pick up various edible items (such as apples) ... 
+      - bəkʼʷəb: plunder gotten in a raid 
+      - bəkʼʷálps                                                    
+      - bəkʼʷúcid:                       help one's self (to edibles) 
+      - bəkʼʷaʔkʷbixʷ: everyone 
+- aɬi: we, us
+      - first person plural subordinate subject suffix
+      - see Dawn Bates, 1997, "Person Marking in Lushootseed Subordinate Clauses"
+      - https://www.jstor.org/stable/1265718
+
+
+
+
+`,
+
+
+"gʷə=s=dukʷ":
+`
+_gʷəsdukʷ_
+
+- gʷə: subjunctive
+- =s: nominalizer
+- dukʷ: strange, bad, worthless, unsatisfying
+     - ʔəsdúkʷ tə dʔàlʔal, yáwʼəxʷ čəd ɬuqʷìbid  My house is not right, now I'll have to repair... 
+     - ʔəsdúkʷ: is bad (in health)
+     - ʔəsdúkʷ: not right
+     - ʔəsdúkʷ: does not fit, is something else
+     - gʷəl tux̌ʷ ʔəsdúkʷ:  (h)əliʔ.  But there is something wrong with him (his lif... 
+     - sdukʷ: strange thing
+     - ɬusdúkʷ: will be riff-raff
+     - ɬusdúkʷəxʷ:                    (You) will be just like nothing.
+`,
+
+"ša":
+`
+_ša_
+
+interjection, appears in LD as "_ša:_"
+(I am not sure what the colon signifies - pshannon.)
+`
+,
+"ɬu=dxʷ–ʔiwəd=əxʷ":
+`
+_ɬudxʷʔiwədəxʷ_
+
+_will decide now_
+
+- I hear **tooth kʷə HAY duff**
 - _ɬu_: anticipated, expected or possible event  LD 147
      - IRR: irrealis moods, indicating that a certain situation or action is not known to have happened at the moment 
        the speaker is talking. This contrasts with the realis moods (which in most languages is only the indicative).
      - Bates and Hess (2001) give similar examples from Lushootseed, and argue that _ɬu_ is a relative future tense marker
        which places the topic time after an evaluation time (by default, the utterance time)
-     - grammatical mood (also mode)
-     - In linguistics and philosophy, **modality** is the phenomenon whereby language is used to discuss possible
-       situations.  A modal expression may convey that something is likely, desirable, or permissible.
-     - TAM: the expression of three major components of words which lead to or assist with a correct
-       understanding of the speaker's meaning:
-          - Tense, the location in time relative to the speaker, to the time of utterance, to the time of action
-	    or requested action, or stated exactly.
-          - Aspect, whether the action is complete (perfect) or continuous (imperfect) and repetitive.
-          - Mood or Modality, the degree of obligation. Was the part of speech intended to be informative, to be a
-            request, a demand, or an expectation.
-          - For example in English the word "walk" would be used in different ways for the different
-            combinations of TAM:
-               - Tense: He will walk tomorrow, He walked yesterday, He walks or is walking now.
-               - Aspect: He walks (every day), will walk tomorrow, he'll be walking (around noontime
-	         tomorrow), is still walking (now) and has been walking (earlier).
-               - Mode: I can walk. You there! Walk!
-               - In the last example, there is no difference in the articulation of the word although it
-	         is being used in a different way, one for conveying information, the other for instructing.
-          - Some authors extend this term as tense–aspect–mood–evidentiality (tame in short).[3] In some languages, 
-            evidentiality (whether evidence exists for the statement, and if so what kind) and mirativity (surprise)
-	    may also be included.
-- _dxʷ<sup>2</sup>_ : lack of control, accidentally, accomplish with difficulty.  LD 86
-     - DC: diminished control
-- _ʔiʷ_: decide.  LD 19.
-- _ʔdxʷ√iʷədəxʷəlgʷəʔ_: they tried to decide.  LD 19, this line as example.
+- _dxʷ_ : CTD (contained) LD 85
+    - permeate, throughout, filled with, covered with
+    - derivational prefix which marks stems as serving to contain, to hold within
+    - also designates a proclivity: what one has "inside"
+    - also carrying this prefix are a number of stems referring to matters of the mind, the _x̌əč_. 
+- _ʔiw_: decide.  LD 19.
+- _ʔdxʷʔiwədəxʷəlgʷəʔ_: they tried to decide.  LD 19, this line as example.
+- _əd_: not sure what role this plays
 - _=əxʷ_, _axʷ_ : now, at the particular time. LD 30
 `,
 
@@ -299,16 +431,28 @@ _past (means of knowing LC) 3PO now_
 
 `,
     
-"diɬ":
-`
-_diɬ_
+"gʷə=dəxʷ=č'it–il–əxʷ":
+	 `
+_gʷə=dəxʷ=č'it–il–əxʷ_
 
-- the one who, the thing that, that which, the aforementioned. LD 83. (anaphor)
-- pronoun; often used as a one-word predicate followed by a subordinate clause.
-  One would expect a demonstrative to introduce a following clause when it serves
-  as the complement of the _diɬ_ predicate.  However, all speakers omit this
-  demonstrative sometimes, and some usually do.
-- compare _cədiɬ_: the particular one, he, she, that fellow, 3p sg emphatic pronoun. LD 44.
+- _č'it_: near
+- contrast _lil_ far, far away; go far
+- examples
+     - _ɬuhúyud č'ìt tiʔəʔ ɬudəxʷʔux̌ʷ čəɬ_  He will make our journey near (i.e., short).
+     - _č'it syaʔyaʔ_  close relation
+     - č'it kʷ(i) adsuqə́p̕, č'it. Nearby you alight, nearby.
+- seems to be a modifier (adjective or adverb) rather than a verb.
+- all derived lexemes:
+      - _č'ítcut_: come *close, draw self near
+      - _č'ítil_: draw *near
+      - _č'itis_: approach someone or something	 
+      - _č'ítbid_: (on the) *near (side of) someone or something 
+      - _č'ítsqà_: older sibling next to ego
+      - _č'ítsùqʼʷaʔ_: younger sibling next to ego_diɬ_
+      - _č'ítabac_: Saturday
+      - _č'itálap_:  the one who, the thing that, that which, the aforementioned. LD 83. (anaphor)
+      - _č'ítalus_: surprised, pronoun; often used as a one-word predicate followed by a subordinate clause.
+      - _č'ič'it_: a bit nearer.    One would expect a demonstrative to introduce a following clause when it serves
 `,    
 
 "diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ":
@@ -1696,6 +1840,8 @@ _daylight_
 
 "čəɬ":
 `
+_čəɬ_
+
 - we, us, 1p. pl. predicate particle
 - our: 1p. pl. possessive particle
 `,

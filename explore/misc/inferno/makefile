@@ -13,7 +13,7 @@ default:
 	@echo viewRemote
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105/bin/activate
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
@@ -30,9 +30,9 @@ html:
                        --terms grammaticalTerms.txt \
                        --pageTitle "Dante's Inferno" \
                        --helpFile about.html \
-                       --helpButtonLabel About \
-                       --fontSizeControls \
-                       --webpackLinksOnly 
+                       --helpButtonLabel About
+#                       --fontSizeControls \
+#                       --webpackLinksOnly 
 #                       --verbose
 #			   --start 31 --end 33
 

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://slexilData.artsrn.ualberta.ca/includes/jquery-3.6.3.min.js'></script>
+<style>
+
+.dropdownMenu {
+  position: relative;
+  display: inline-block;
+  }
+
+.dropdownMenuMainButton {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  }
+
+.dropdownMenuMainButton:hover{
+   background-color: #2980B9;
+   }
+.dropdownMenuMainButton:focus {
+   background-color: #2980B9;
+   }
+
+.dropdownMenuItemsDiv {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+
+.dropdownItem {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+
+
+.dropdownMenu a:hover {background-color: #ddd;}
+.dropdownItem:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+</style>
+</head>
+<body style="background-color:white;">
+
+<h2>Clickable Dropdown</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdownMenu">
+  <button onclick="showDropdownMenu()" class="dropdownMenuMainButton">Topics</button>
+  <div id="topicMenu" class="dropdownMenuItemsDiv">
+    <div class="dropdownItem">IRR</div>
+    <div class="dropdownItem">CTD</div>
+    <div class="dropdownItem">CNTRPT</div>
+  </div>
+</div>
+
+<script>
+
+
+function showDropdownMenu() {
+   console.log("show dropdown menu")
+   document.getElementById("topicMenu").classList.toggle("show");
+   }
+
+$(".dropdownMenuItemsDiv").on("click", function(event){
+  console.log("click: " + event.target.innerHTML)
+  window.x = event
+  })
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  window.x = event
+  if (!event.target.matches('.dropdownMenuMainButton')) {
+    var dropdowns = document.getElementsByClassName("dropdownMenuItemsDiv");
+	 console.log("window click, dropdowns count: " + dropdowns.length)
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@ default:
 	@echo  viewRemote
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105/bin/activate
+	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 PORT = 8009
 
@@ -21,24 +21,6 @@ http:
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
 
-html.old: 
-	python ~/github/slexil2/utils/eaf2html.py \
-               --eaf $(NAME).eaf \
-               --terms grammaticalTerms.txt \
-               --tierGuide tierGuide.yaml \
-               --projectDirectory ./ \
-               --fontSizeControls \
-               --kbFilename kb.js \
-               --linguistics linguisticTerms.js \
-               --helpFilename help.html \
-               --helpButtonLabel  About \
-               --pageTitle Daylight \
-               --verbose \
-               --startLine None \
-               --endLine None \
-               -webpackLinksOnly False
-	            fixOverlappingTimeSegments=True)
-
 
 html:
 	python ../../../../utils/eaf2html.py  --eaf $(NAME).eaf \
@@ -47,10 +29,10 @@ html:
                        --pageTitle "Harry Moses - How Daylight Was Stolen" \
                        --fontSizeControls \
                        --kbFilename kb.js \
-                       --linguistics linguistics.js \
+                       --linguistics linguisticTerms.js \
                        --helpFile about.html \
-                       --helpButtonLabel About \
-                       --webpackLinksOnly
+                       --helpButtonLabel About 
+#                       --webpackLinksOnly
 
 
 
@@ -67,7 +49,12 @@ publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+
 
 view:
 	open index.html
+
+viewRemote:
+	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/
 

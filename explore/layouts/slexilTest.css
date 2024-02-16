@@ -1,0 +1,310 @@
+/* Unit svh reflects the smallest possible viewport height that is visible
+ * to the user. The smallest possible viewport height excludes all interface
+ * elements by the user agent.
+ * By default, the vh unit includes the address bar that comes with a mobile browser.
+ * The svh represents the viewport height when the address bar UI hasn’t shrunk
+ * its size yet.
+ * "100svh" means 100% of this small viewport height
+ */
+
+#mainDiv{
+   display: block;
+   padding: 10px;
+   height: calc(100svh - 60px);
+   //border: 1px solid magenta;
+	margin-right: 5px;
+   overflow-y: hidden;
+   overflow-x: hidden;
+   }
+
+#mediaPlayerAndControlsDiv{
+   background-color: white;
+   height: fit-content;
+   width: 99%;
+   padding: 5px;
+   border: 1px solid blue;
+   margin: 2px;
+   }
+
+#videoSizeControllerDiv{
+   display: flex;
+   background: white;
+   border: 1px  solid black;
+	height: fit-content;
+   padding: 5px;
+   }
+
+#playerDivWithOptionalButtons{
+   display: flex;
+   align-items: center;
+   background: white;
+	padding: 5px;
+   //border: 2px dashed orange;
+   }
+
+#videoSizeSelectorForm{
+	//background-color: yellow;
+   height: fit-content;
+	width: 300px;
+   }
+
+#videoSizeSelectorLabel{
+   font-size: 24px;
+   }
+
+#optionalButtonsDiv{
+   margin-left: auto;
+   }
+
+#title{
+  //margin-left: auto;
+  font-size: 24px;
+  padding-right: 20px;
+  }
+				  
+
+.extraInfoButtons{
+   margin-bottom: 0px;
+   margin-left: auto;
+   height: 35px;
+   font-size: 18px;
+   }
+
+#otherControlsDiv{
+   background-color: Cornsilk;
+   height: fit-content;
+   border: 1px solid orange;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 5px;
+   display: none;
+   }
+
+
+#textAndAnnoDiv{
+   display: flex;
+   }
+
+#textDiv{
+   background-color: white;
+   border: 1px solid black;
+	border-radius: 5px;
+   padding: 0px;
+   margin: 2px;
+   height: calc(100vh - 550px);
+   width: 90%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   font-size: 24px;
+   flex: 3;
+   //border: 2px solid brown;
+   }
+
+#annoDiv{
+   width: 10%;
+   display: inline-block;
+   flex: 2;
+   border: 2px solid orange;
+	display: none;
+   }
+
+#topControlsDiv{
+	display: block;
+   }
+
+#playbackSpeedLabel, #printSizeLabel{
+   font-size: 24px;
+   }
+
+#playbackSpeedReadout{
+   width: 35px;
+   height: 24px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 2px;
+   margin: 3px;
+   //border: 1px solid green;
+   font-size: 20px;
+   display: inline-block;
+   }
+
+
+#tierControlsDiv{
+   width: 100%
+   margin: 5px;
+   // //border: 3px dotted  blue;
+   //border-radius: 10px;
+   padding: 20px;
+   padding-top: 0px;
+   padding-bottom: 3px;
+   display: none;
+   font-size: 32px;
+   display: inline-block;
+   }
+
+#tiersLabelDiv{
+   font-size: 24px;
+   display: inline-block;
+   }
+#tiersCheckBoxesDiv{
+   margin: 20px;
+	padding: 5px;
+	font-size: 24px;
+	//border: 1px gray solid;
+	//border-radius: 10px;
+   }
+
+#tiersCheckBoxesDiv{
+    display: inline-block;
+    }
+
+.tierToggleCheckbox{
+    margin-left: 20px;
+    }
+
+.line-wrapper {
+  display: grid;
+  width: 100% //fit-content;
+  height: fit-content;
+  overflow-x: auto;
+  grid-template-columns: 60px 1fr;
+  grid-column-gap: 10px;
+  //border: 3px dotted green;
+  margin: 5px;
+  margin-bottom: 25px;
+  background: white;
+}
+
+.playAudioSegmentButton{
+   font-size: 20px;
+   margin:0 auto;
+   display:block;
+   }
+
+.line-sidebar{
+  //border: 1px solid gray;
+  background: white;
+  padding: 0px;
+  padding-top: 4px;
+  width: 50px;
+  margin-top: 0px;
+  margin-right: 10px;
+  font-size: 24px;
+  }
+
+.line-content{
+  width: fit-content;
+  //width: 100%;
+  height: 90%;
+  //border: 3px solid red;
+  margin: 0px;
+  margin-bottom: 2px;
+  overflow-wrap: word-wrap;
+  }
+
+
+.speech-tier{
+  background-color: transparent;
+  grid-template-columns: none;
+  //border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  // font-size: 30px;
+  text-align: left;
+  vertical-align: bottom;
+  margin-left: 5px;
+  word-spacing: 20px;
+  }
+
+.freeTranslation-tier{
+  //background-color: lightyellow;
+  grid-template-columns: auto;
+  //border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  //font-size: 30px;
+  text-align: left;
+  margin-left: 5px;
+  //word-spacing: 20px;
+  }
+
+.secondTranscription-tier{
+  //background-color: lightyellow;
+  //grid-template-columns: auto;
+  //border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  //font-size: 24px;
+  text-align: left;
+  margin-left: 5px;
+  word-spacing: 20px;
+  }
+
+.gloss-tier{
+  background-color: transparent;
+  grid-template-columns: auto;
+  //border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  //font-size: 20px;
+  text-align: left;
+  margin-left: 30px;
+  word-spacing: 20px;
+  }
+
+.morpheme-tier {
+  display: grid;
+  width: fit-content;
+  //border: 0px solid rgba(0, 0, 0, 0.8);
+  margin: 5px;
+  justify-content: flex-start;
+  overflow-wrap: word-wrap;
+  }
+
+.morpheme-cell {
+  //border: 1px solid lightgray;
+  margin-bottom: 2px;
+  padding: 3px;
+  text-align: left;
+  }
+
+#aboutBox{
+   border-radius: 10px;
+   width: 60%;
+	font-size: 24px;
+   }
+#aboutBoxDismissButton{
+   margin-bottom: 0px;
+   margin-left: auto;
+   height: 35px;
+   font-size: 24px;
+   }
+
+.dropbtn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  }
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  }
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+
+.dropdown-content a:hover{background-color: #ddd;}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown:hover .dropbtn{background-color: #3e8e41;}

@@ -64,6 +64,7 @@ class StandardizeIjalTierTable:
       if(illegalTierNames != [None]):
          if(len(illegalTierNames) > 0):
             msg = "error in IjalLine standardizeTable. tier name/s not found in tierGuide: "
+            pdb.set_trace()
             for unmatchedTierName in illegalTierNames:
                 msg += " %s" % unmatchedTierName
             raise Exception(msg)

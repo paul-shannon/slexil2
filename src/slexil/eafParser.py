@@ -1,4 +1,4 @@
-# -*- tab-width: 4 -*-
+# -*- tab-width: 3 -*-
 #-------------------------------------------------------------------------------
 import os, sys
 import xmlschema
@@ -38,7 +38,7 @@ class EafParser:
 		self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
 		self.constructTierTable()
 		self.constructTimeTable()
-		self.parseAllLines()
+		# self.parseAllLines()
 
 	#----------------------------------------------------------------------------------
 	def xmlValid(self):
@@ -74,6 +74,27 @@ class EafParser:
 	def getAllLinesTable(self):
 		return(self.linesAll)
 
+	#----------------------------------------------------------------------------------
+	def checkAgainstTierGuide(self, tierGuideFile):
+
+		tierElements = self.doc.findall("TIER")
+		tierIDs = [tier.attrib["TIER_ID"] for tier in tierElements]
+		with open(tierGuideFile, 'r') as f:
+			tierGuide = yaml.safe_load(f)
+		documentedTierIDs = list(tierGuide.values())
+		undocumentedInXmlFile = list(set(documentedTierIDs).difference(set(tierIDs)))
+		valid = (undocumentedInXmlFile == [])
+		return ({"valid": valid, "failures": undocumentedInXmlFile})
+
+#		try:
+#		assert(len(undocumentedInXmlFile) == 0)
+#	      except AssertionError as e:
+#		msg = "unrecognized tierIDs in eaf file: "
+#	         for unknown in undocumentedInXmlFile:
+#            unknowns = "%s %s" % (unknowns, unknown)
+#         msg = "%s %s" % (msg, unknowns)
+#         raise Exception(msg)
+            
 	#----------------------------------------------------------------------------------
 	def extractMetadata(self):
 		if (self.verbose):
@@ -186,7 +207,7 @@ class EafParser:
 			rowCount = tbl.shape[0]
 			for i in range(0,rowCount-1):
 				if (ends[i] >= starts[i+1]):
-					ends[i] = starts[i+1] - 1
+					ends[i] = starts[i+1] - 100
 			tbl["end"] = ends
 
 		self.timeTable = tbl

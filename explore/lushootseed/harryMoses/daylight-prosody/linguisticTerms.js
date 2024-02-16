@@ -1,5 +1,211 @@
 linguistics = {
 
+"ALTV":
+`
+#####Allative Applicative
+
+Adds a new argument to the valency of its base, most frequently a
+GOAL, which is realized as the direct object of the derived verb:
+
+<pre>
+gʷəl ɬuʔəƛ’cbuɬ əlgʷəʔ …
+gʷəl ɬu=ʔəƛ’–c–buɬ əlgʷəʔ
+then IRR=come–ALTV–1PL.OBJ PL
+‘then they will come for us’
+</pre>
+
+(Hess 2006: 72, line 712)
+
+<details><summary>Applicative affix</summary>
+<p>
+
+In contrast to causative affixes, applicatives add a non-agentive
+object to the valency of their bases. Lushootseed has four affixes
+that fit this definition:
+
+<ul>
+
+<li> the allative applicative -c/-s
+
+<li> three secondary suffixes — -yi- ‘dative’, -bi- ‘middle
+applicative’, and -di-/-i- ‘secondary suffix’— which combine with one
+of the other valency-increasers to add an new object to the valency of
+the stem
+
+</ul>
+
+[David Beck, A taxonomy of Lushootseed valency-increasing affixes]
+</details>
+
+<details><summary>
+Allative: a type of locative grammatical case.</summary>
+<p>
+A case used to indicate movement onto, or to the adjacency of
+something. In English, this is usually expressed by the prepositions
+to or onto, as in "to the house," "onto the house." Languages that use
+the allative case include Basque, Dyirbal, Estonian, Finnish,
+Hungarian, and Lithuanian.
+
+
+<p><b>Example (Harry Moses Daylight, line 25) </b><br>
+<pre>
+lə=ʔux̌ʷ–c
+PROG=go-ALTV
+going-after
+</pre>
+</details>
+
+`,
+
+"Suffixes":
+`
+###### Suffixes
+
+Some mark the verb as operating on an agent or patient noun.  LG1-p13.
+
+<ul>
+    <li> <b>-txʷ</b>:  ʔəsx̌ək’ʷtxʷ, stative.overturn.external causative (ECS), make someone do something  
+    <li> <b>-d</b>: ʔugʷeč'əd tsi č'ač'as:  [someone] looked for the girl; goal, experience.
+    <li> <b>-b</b>: ʔugʷeč'əb tsi č'ač'as:  the girl looked for [something/someone] (agent)
+    <li> <b>-s</b>:
+      <ul>
+         <li> ʔutelawil ti sqʷəbayʔ: dog ran
+         <li> ʔutelawis ti sqigʷac:  ran after a deer
+      </ul>
+    <li> <b>-c</b>: like s, conveys *goal* 
+    <li> <b>-dxʷ</b>: like -d but with loss of control
+    <li> note contrast between <b>-txʷ</b> and <b>-c</b>:
+    <ul>
+       <li> ʔuʔux̌ʷ tsi luƛ'. The old woman went.
+       <li> ʔuʔux̌ʷtxʷ tsi luƛ'. [Someone] took the old woman somewhere.
+       <li> ʔuʔux̌ʷc tsi luƛ'. [Someone] went after the old woman.
+     </ul>       
+</ul>
+`,
+
+
+"Prefixes":
+`
+#####Prefixes
+
+These five Lushootseed prefixes of wide distribution can be added, not
+only to verbs, but to most other words types as well, including nouns,
+prepositions, and any other class of word, so long as it functions as
+the main word in a predicate or complement.
+
+<br>
+Predicate adverbs can also bear these prefixes.
+
+
+<details>
+  <summary>əs- stative STAT</summary>
+  <p>
+   makes stative verbs out of roots that are not already stative in their core meaning.
+   <ul>
+       <li> intrinsically stative: hikʷ (big), haʔɬ (good)
+       <li> stative by prefix inflection:  ʔəsx̌ək’ʷtxʷ (stative overturn ECS)(is overturned)
+   </ul>
+  </details>
+  
+<details>
+  <summary>u- perfective PFV</summary>
+  <p>
+  Action is viewed as a simple whole, that is, without interior composition.
+  <ul>
+     <li> gʷə=s=ʔu–təlawil=s: sbj=nm=pfv–run=3po
+     <li> gʷə=s=ʔu–ʔux̌ʷ–c: sbj=nm=pfv–go–altv
+  </details>
+  
+<details>
+<summary> gʷə- subjunctive SBJ</summary>
+<p>
+
+doubtful, conjectured
+<p>
+
+wikipedia: The subjunctive (also known as conjunctive in some languages) is a
+grammatical mood, a feature of an utterance that indicates the
+speaker's attitude toward it. Subjunctive forms of verbs are typically
+used to express various states of unreality such as wish, emotion,
+possibility, judgment, opinion, obligation, or action that has not yet
+occurred; the precise situations in which they are used vary from
+language to language. The subjunctive is one of the irrealis moods,
+which refer to what is not necessarily real. It is often contrasted
+with the indicative, a realis mood which principally indicates that
+something is a statement of fact.
+
+<p>
+The subjunctive indicates the speaker's attitude toward the irrealis
+state or action's existance: imagined? wished for? possible? not yet
+occurred?
+
+<p>
+
+Used when questioning, denying, or doubting.  With nouns, speakers
+often omit it because <b>kʷi</b> expresses much the same idea.  With
+verbs, some speakers usually omit <b>kʷi</b>, others tend to omit
+<b>gʷ-</b>.
+
+<br>
+<h5>Examples</h5>
+  line ~28 of Harry Moses How Daylight Was Stonen: _gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ_
+
+<ul>
+  <li> _gʷəsdukʷ_   sbj=nm=anormal    (would not be normal)
+  <li> _gʷəbək’ʷaɬi_ sbj=all=1pl.sbj  (if we all)
+  <li> _gʷəʔux̌ʷ_  sbj=go              (were to go)
+</ul>
+
+<p>
+The irrealis <b>ɬu</b> and the subjunctive <b>gʷ-</b> have a somewhat
+similar meaning from the English speaker's perspective.  On occasion
+they are both glossed as *might*.  However, <b>gʷ-</b> marks a situation
+as doubtful (when not simply contrary to fact) whereas <b>ɬu-/</b> imparts
+the idea of expectation.
+</p>
+
+</details>
+
+<details>
+<summary> ƛu- habitual HAB</summary>
+<p>
+Marks an act or state as being habitual.  It is usually rendered
+in English with the words <i>used to</i> or <i>would</i> if the time is
+past, or by <i>generally</i> or <i>usually</i> when discussing events
+and states not bound by temporal considerations.  For the future, however,
+there is of no concise way of expressing ƛu- in English.
+</details>
+
+<details>
+<summary>ɬu- irrealis IRR</summary>
+<p>
+Shows that an event or state is expected in the future or, at least,
+that it might occur.  At the moment of speaking, however, the event or state
+has not become a reality.  
+</details>
+
+
+<details>
+<summary>tu- past PAST </summary>
+<p>
+Designates past, often remote, time
+</details>
+
+<details>
+<summary>bə- additive ADD</summary>
+<p>
+Marks an act or state as occuring <i>again, anew, once more</i>, or
+a noun as beeing <i>additional, another</i>.
+
+<h5>Examples</h5>
+ _ƛ’u=bə=lə=bəsad_: hab=add=prog=dark
+
+</details>
+
+
+
+`,
+    
 "Lexical Suffix":
 `
 

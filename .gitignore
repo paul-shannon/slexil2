@@ -12,5 +12,7 @@ explore/
 py3105/
 vpy363/
 src/slexil/__pycache__
+explore/layouts/dropDownMenu/__pycache__/
+__pycache__/
 *.pyc
 

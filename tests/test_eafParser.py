@@ -20,13 +20,14 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-	test_ctor()
-	test_tierTable()
-	test_timeTable()
-	test_depthFirstTierTraversal()
-	test_getLineTable()
-	test_parseAllLines()
-	test_fixOverlappingTimes()
+	#test_ctor()
+	#test_tierTable()
+	#test_timeTable()
+	test_checkAgainstTierGuide()
+	#test_depthFirstTierTraversal()
+	#test_getLineTable()
+	#test_parseAllLines()
+	#test_fixOverlappingTimes()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -92,6 +93,25 @@ def test_timeTable():
 	assert(startTimes[0:3] == [116,  1400, 2665])
 	assert(endTimes[0:3] ==   [1380, 2475, 5090])
 	
+#---------------------------------------------------------------------------------------------------
+# tierGuide.yaml 
+def test_checkAgainstTierGuide():
+
+   eaf = "../testData/inferno/inferno-threeLines.eaf"
+   goodTierGuide = "../testData/inferno/tierGuide.yaml"
+   badTierGuide = "../testData/inferno/tierGuide-broken.yaml"
+
+   parser = EafParser(eaf, verbose=False, fixOverlappingTimeSegments=False)
+   result = parser.checkAgainstTierGuide(goodTierGuide)
+   pdb.set_trace()
+   assert(result == {'valid': True, 'failures': []})
+
+   result = parser.checkAgainstTierGuide(badTierGuide)
+   assert(not result["valid"])
+   assert("EyetalianSpeech" in result["failures"])
+   assert("scottish" in result["failures"])
+   assert(None in result["failures"])
+
 #---------------------------------------------------------------------------------------------------
 # lines from typically all tiers are grouped with a time-aligned spoken tier
 # we need to recover all of those lines, some of which may be nested > 1 level

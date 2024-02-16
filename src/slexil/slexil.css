@@ -21,11 +21,14 @@ body, html {
 	margin-right: 5px;
    overflow-y: hidden;
    overflow-x: hidden;
+<<<<<<< HEAD
+=======
    }
 
 #aboutBoxDialog{
    border-radius: 10px;
    width: 70%;
+>>>>>>> 204d3ffe15126ed9650bd983595a779b24129ea1
    }
 #aboutBoxDialog::backdrop {
    animation: aboutBoxDialogBackgroundFade 1s ease forwards;
@@ -36,6 +39,49 @@ body, html {
   }
 
 
+<<<<<<< HEAD
+#aboutBoxDialog{
+   border-radius: 10px;
+   width: 70%;
+   }
+#aboutBoxDialog::backdrop {
+   animation: aboutBoxDialogBackgroundFade 1s ease forwards;
+=======
+#mediaPlayerAndControlsDiv{
+   background-color: white;
+   height: fit-content;
+   width: 99%;
+   padding: 5px;
+   border: 1px solid blue;
+   margin: 2px;
+   }
+
+#videoPlayer{
+  height: 150;
+  }
+
+#videoSizeControllerDiv{
+   display: flex;
+   background: white;
+   border: 1px  solid black;
+	height: fit-content;
+   padding: 5px;
+>>>>>>> 204d3ffe15126ed9650bd983595a779b24129ea1
+   }
+@keyframes aboutBoxDialogBackgroundFade{
+    0%{background-color: transparent;}
+  100%{background-color: rgb(0 57 24 / 0.6);}
+  }
+
+#playerDivWithOptionalButtons{
+   display: flex;
+   align-items: center;
+   background: white;
+	padding: 5px;
+   //border: 2px dashed orange;
+   }
+
+<<<<<<< HEAD
 #mediaPlayerAndControlsDiv{
    background-color: white;
    height: fit-content;
@@ -112,6 +158,48 @@ body, html {
    display: none;
    }
 
+=======
+#videoSizeSelectorForm{
+	//background-color: yellow;
+   height: fit-content;
+	width: 300px;
+   }
+
+#videoSizeLabel{
+   font-size: 24px;
+   margin-right: 5px;
+   }
+
+#optionalButtonsDiv{
+    margin-left: auto;
+   }
+
+#pageTitle{
+  font-size: 24px;
+  padding-right: 20px;
+  }
+
+
+.extraInfoButtons{
+   margin-bottom: 0px;
+   margin-right: 10px;
+   margin-left: auto;
+   height: 35px;
+   border-radius: 10px;
+   font-size: 18px;
+   }
+
+#otherControlsDiv{
+   background-color: Cornsilk;
+   height: fit-content;
+   border: 1px solid orange;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 5px;
+   display: none;
+   }
+
+>>>>>>> 204d3ffe15126ed9650bd983595a779b24129ea1
 
 #textAndAnnoDiv{
    display: flex;
@@ -327,6 +415,7 @@ sub {
    height: 35px;
    font-size: 24px;
    }
+<<<<<<< HEAD
 
 .playAudioSegmentButtonOld{
    font-size: 20px;
@@ -334,6 +423,15 @@ sub {
    display:block;
    }
 
+=======
+
+.playAudioSegmentButtonOld{
+   font-size: 20px;
+   margin:0 auto;
+   display:block;
+   }
+
+>>>>>>> 204d3ffe15126ed9650bd983595a779b24129ea1
 .playAudioSegmentButton:hover{
     background-color: lightcyan;
     }
@@ -388,12 +486,6 @@ sub {
    left: 70%;
    transition-delay: 1s;
    transition-property: visibility;
-   }
-
-.slexilToolitp:hover:after{
-   transition-property: visibility;
-   visibility: hidden;
-   transition-delay: 1s;
    }
 
 .standardSlexilButton{
