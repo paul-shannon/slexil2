@@ -251,7 +251,8 @@ class Text:
                   with htmlDoc.tag("div", id="mediaPlayerAndControlsDiv"):
                      htmlDoc.tag("div", id="videoSizeControllerDiv", style="display: none")
                      with htmlDoc.tag("div", id="playerDivWithOptionalButtons"):
-                        htmlDoc.asis(self.getPlayer())
+                        with htmlDoc.tag("div", id="audioPlayerDiv"):
+                           htmlDoc.asis(self.getPlayer())
                         self.addTitleAndButtons(htmlDoc)
 
                   #-------------------------------------------------------------------------

@@ -59,10 +59,17 @@ body, html {
 
 #playerDivWithOptionalButtons{
    display: flex;
-   align-items: center;
+   align-items: start;
+   //align-items: center;
    background: white;
 	padding: 5px;
    //border: 2px dashed orange;
+   }
+
+#audioPlayerDiv{
+    margin-right: 10px;
+    margin-top: 5px;
+   //border: 2px dashed green;
    }
 
 #videoSizeSelectorForm{
@@ -381,6 +388,12 @@ sub {
    left: 70%;
    transition-delay: 1s;
    transition-property: visibility;
+   }
+
+.slexilToolitp:hover:after{
+   transition-property: visibility;
+   visibility: hidden;
+   transition-delay: 1s;
    }
 
 .standardSlexilButton{
