@@ -20,14 +20,15 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-	#test_ctor()
-	#test_tierTable()
-	#test_timeTable()
+	test_tedsBlueJay()
+	test_ctor()
+	test_tierTable()
+	test_timeTable()
 	test_checkAgainstTierGuide()
-	#test_depthFirstTierTraversal()
-	#test_getLineTable()
-	#test_parseAllLines()
-	#test_fixOverlappingTimes()
+	test_depthFirstTierTraversal()
+	test_getLineTable()
+	test_parseAllLines()
+	test_fixOverlappingTimes()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -214,6 +215,23 @@ def test_fixOverlappingTimes():
 	overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
 	assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 1131)
 	print("    leaving test_fixOverlappingTimes")
+
+#---------------------------------------------------------------------------------------------------
+# we usually want disjoint times, so that only one is selected at a time
+# in manual playback.  test that optional capability here
+def test_tedsBlueJay():
+
+	print("--- test_tedsBlueJay")
+	f = "../testData/Metcalf7ab_BLUEJAY_ch1.eaf"
+	parser = EafParser(f, verbose=True, fixOverlappingTimeSegments=False)
+	parser.parseAllLines()
+	rowCount = parser.getLineCount()
+	tbl = parser.getTimeTable()
+	x = parser.getAllLinesTable()  # a list of time-ordered line tables
+	pdb.set_trace()
+	startTimes = [tbl.loc[0, "startTime"] for tbl in x]
+	assert(startTimes == [0.0, 3093.0, 5624.0])
+    
 
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

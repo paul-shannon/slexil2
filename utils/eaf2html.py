@@ -24,6 +24,7 @@ parser.add_argument('--fontSizeControls',  action="store_true")
 parser.add_argument('--kbFilename', required=False, default=None)
 parser.add_argument('--linguisticsFilename', required=False, default=None)
 parser.add_argument('--fixOverlappingTimeSegments', action="store_true")
+parser.add_argument('--toolTips', action="store_true")
 
 
 args = parser.parse_args()
@@ -42,6 +43,7 @@ fontSizeControls = args.fontSizeControls
 kbFilename = args.kbFilename
 linguisticsFilename = args.linguisticsFilename
 fixOverlappingTimeSegments = args.fixOverlappingTimeSegments
+useTooltips = args.toolTips
 #----------------------------------------------------------------------------------------------------
 if(not os.path.isfile(eaf)):
     print("eaf2html.py error: eaf file '%s' not found" % eaf)
@@ -74,7 +76,8 @@ text = Text(xmlFilename=eaf,
             kbFilename = kbFilename,
             linguisticsFilename = linguisticsFilename,
             webpackLinksOnly = webpackLinksOnly,
-            fixOverlappingTimeSegments = fixOverlappingTimeSegments)
+            fixOverlappingTimeSegments = fixOverlappingTimeSegments,
+            useTooltips=useTooltips)
 	
 htmlText = text.toHTML()
 filename = "index.html"

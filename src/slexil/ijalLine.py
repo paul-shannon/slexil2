@@ -49,8 +49,10 @@ class IjalLine:
     morphemes =  None
     morphemeGlosses = None
     morphemeSpacing = None
+    useTooltips = False   
 
-    def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[], verbose=True):
+    def __init__(self, lineTable, lineNumber, tierGuide, grammaticalTerms=[],
+                 useTooltips=False,verbose=True):
         # self.tbl = standardizeTable(lineTable, tierGuide, verbose)
         std = StandardizeIjalTierTable(lineTable, tierGuide, verbose)
         std.guideAndLinesAgree()
@@ -62,6 +64,7 @@ class IjalLine:
         self.lineNumber = lineNumber
         self.tierGuide = tierGuide
         self.grammaticalTerms = grammaticalTerms
+        self.useTooltips = useTooltips
         self.verbose = verbose
         if(self.verbose):
            print(self.tbl)
@@ -254,13 +257,15 @@ class IjalLine:
         buttonLabelNumber = self.lineNumber + 1
         clickActionString = "playSample(%d, %d, %d)" % \
                             (self.lineNumber+1, self.getStartTime(), self.getEndTime())
-        with htmlDoc.tag("button", onclick=clickActionString,
-                         #klass="playAudioSegmentButton"):
-                         #klass="standardSlexilButton tooltip"):
-                         klass="standardSlexilButton slexilTooltip"):
+        buttonTag = htmlDoc.tag("button", onclick=clickActionString,
+                                klass="standardSlexilButton slexilTooltip")
+        if(self.useTooltips):
+            buttonTag.attrs["class"] = "standardSlexilButton slexilTooltip"
+        with buttonTag:
            htmlDoc.text(buttonLabelNumber)
-           with htmlDoc.tag("span", klass="slexilTooltipText"):
-               htmlDoc.text("Play Line %d" % buttonLabelNumber)
+           if(self.useTooltips):
+              with htmlDoc.tag("span", klass="slexilTooltipText"):
+                  htmlDoc.text("Play Line %d" % buttonLabelNumber)
 
     # ----------------------------------------------------------------------------------------------------
     def toHTML(self, htmlDoc):

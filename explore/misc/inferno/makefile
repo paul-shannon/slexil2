@@ -31,6 +31,7 @@ html:
                        --pageTitle "Dante's Inferno" \
                        --helpFile about.html \
                        --helpButtonLabel About
+#                       --toolTips
 #                       --fontSizeControls \
 #                       --webpackLinksOnly 
 #                       --verbose

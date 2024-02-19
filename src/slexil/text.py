@@ -64,6 +64,7 @@ class Text:
    timeCodesForText = []
    startStopTable = None
    lineTables = None
+   useTooltips = False
 
    def __init__(self,
                 xmlFilename,
@@ -80,7 +81,8 @@ class Text:
                 kbFilename,
                 linguisticsFilename,
                 fixOverlappingTimeSegments,
-                webpackLinksOnly=False):
+                webpackLinksOnly=False,
+                useTooltips=False):
 
       self.xmlFilename = xmlFilename
       if(pageTitle == None):
@@ -97,10 +99,15 @@ class Text:
       self.fontSizeControls = fontSizeControls
       self.helpFilename = helpFilename
       self.helpButtonLabel = helpButtonLabel
+      self.useTooltips = useTooltips
       self.kbFilename = kbFilename
       self.linguisticsFilename = linguisticsFilename
       with open(tierGuideFile, 'r') as f:
          self.tierGuide = yaml.safe_load(f)
+
+      if(verbose):
+         print("--- freshly loaded tierGuide yaml file")
+         print(self.tierGuide)
 
       self.validInputs()
       self.verbose = verbose
@@ -391,7 +398,8 @@ class Text:
                print("line %d/%d" % (i, self.lineCount))
             lineTable = self.lineTables[i]   
             line = IjalLine(lineTable, i, self.tierGuide,
-                           self.grammaticalTerms, self.verbose)
+                            self.grammaticalTerms, self.useTooltips,
+                            self.verbose)
             line.extractMorphemes()
             line.extractMorphemeGlosses()
             line.calculateMorphemeSpacing()
