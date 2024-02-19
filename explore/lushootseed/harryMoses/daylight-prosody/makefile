@@ -4,6 +4,7 @@ NAME = howDaylightWasStolen
 default:
 	@echo targets:
 	@echo  venv eaf http refresh-js html
+	@echo  curl
 	@echo  eaf
 	@echo  html
 	@echo  view
@@ -14,6 +15,9 @@ venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 PORT = 8009
+
+curl:
+	curl -I https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
 
 http:
 	python -m http.server $(PORT) &
