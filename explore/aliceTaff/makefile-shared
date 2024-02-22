@@ -3,6 +3,7 @@ default:
 	@echo movieCurl
 	@echo scp
 	@echo venv
+	@echo times
 	@echo html
 	@echo publish
 	@echo view
@@ -18,6 +19,9 @@ movieCurl:
 scp:
 	scp $(VID) pshannon@206.12.95.4:www/tlingit
 	
+times:
+	python  ../../../utils/eafCheck.py --eaf $(EAF) --times
+
 html:
 	python ../../../utils/eaf2html.py  \
 	                     --eaf $(EAF) \

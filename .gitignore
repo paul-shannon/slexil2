@@ -5,11 +5,16 @@
 *.eaf
 src/slexil_package.egg-info/
 src/slexil_package.egg-info/PKG-INFO
+src/slexil.egg-info
+demos/ERRORS.log
+dictionary/incoming
 build/lib/slexil
 build/lib/
 dot-git-hidden/
+dist/
 explore/
 py3105/
+py3105slexil/
 vpy363/
 src/slexil/__pycache__
 explore/layouts/dropDownMenu/__pycache__/

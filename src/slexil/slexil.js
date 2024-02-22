@@ -227,7 +227,8 @@ function scrollAndHighlight(lineNumber){
    console.log("--- scrollAndHighlight to line " + lineNumber);
    var lineDivTop = document.getElementById(lineNumber).offsetTop - scrollingDivTop;
     //lineDivTop -= 100;
-    lineDivTop -= 10;
+    //lineDivTop -= 10;
+    lineDivTop -= 80;
 
    var options = {top: lineDivTop, left: 0, behavior: "smooth"}
    document.getElementById("textDiv").scrollTo(options)

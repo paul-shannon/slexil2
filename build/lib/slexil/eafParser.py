@@ -196,10 +196,9 @@ class EafParser:
 		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 
-
 			# to ensure clean single line playback, the start time of the
-            # n+1 line must be larger than the end time of the nth line.
-            # find offenders here and fix them
+         # n+1 line must be larger than the end time of the nth line.
+         # find offenders here and fix them
 
 		if(self.fixOverlappingTimeSegments):
 			starts = list(tbl["start"])
