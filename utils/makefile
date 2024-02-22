@@ -4,7 +4,7 @@ default:
 	@echo inferno-broken
 
 venv:
-	@echo source ~/github/slexil2/py3105/bin/activate
+	@echo source ~/github/slexil2/py3105slexil/bin/activate
 
 inferno:
 	python validXML.py ../testData/EAFv3.0.xsd \
