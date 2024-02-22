@@ -423,11 +423,11 @@ def getLinguisticsTopics(filename, verbose):
    lines = f.readlines()
    topics = []
    for line in lines:
-      if(verbose):
-         print(line)
+      #if(verbose):
+      #   print(line)
       if line.find('":') > 0:
          cleanLine = line.strip().replace('"', '').replace(':', '')
-         print(cleanLine)
+         #print(cleanLine)
          topics.append(cleanLine)
 
    topics.sort()

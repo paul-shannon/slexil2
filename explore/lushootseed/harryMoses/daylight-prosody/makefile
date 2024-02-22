@@ -35,6 +35,7 @@ html:
                        --kbFilename kb.js \
                        --linguistics linguisticTerms.js \
                        --helpFile about.html \
+                       --verbose \
                        --helpButtonLabel About 
 #                       --webpackLinksOnly
 
