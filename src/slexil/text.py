@@ -309,23 +309,23 @@ class Text:
    #-------------------------------------------------------------------------------
    def addTitleAndButtons(self, htmlDoc):
       
-      with htmlDoc.tag("div", id="optionalButtonsDiv"):
+      with htmlDoc.tag("div", id="titleAndOptionalButtonsDiv"):
          if(self.displayTitle != None):
             with htmlDoc.tag("span", id="pageTitle"):
                htmlDoc.text(self.displayTitle)
-         if(self.aboutBoxNeeded):
-            with htmlDoc.tag("button", id="aboutBoxButton",
-                             klass="standardSlexilButton"):
-               htmlDoc.text(self.helpButtonLabel)
-         if(self.kbFilename != None):
-            #with htmlDoc.tag("div", id="annoButtonDiv"):
-            with htmlDoc.tag("button", id="toggleAnnotationsButton",
-                             klass="standardSlexilButton"):
-               htmlDoc.text("Show Annotations")
-
-         with htmlDoc.tag("button", id="showHideOtherControlsButton",
+         with htmlDoc.tag("div", id="optionalButtonsDiv"):
+            if(self.aboutBoxNeeded):
+               with htmlDoc.tag("button", id="aboutBoxButton",
+                                klass="standardSlexilButton"):
+                  htmlDoc.text(self.helpButtonLabel)
+            if(self.kbFilename != None):
+               #with htmlDoc.tag("div", id="annoButtonDiv"):
+               with htmlDoc.tag("button", id="toggleAnnotationsButton",
+                                klass="standardSlexilButton"):
+                  htmlDoc.text("Show Annotations")
+            with htmlDoc.tag("button", id="showHideOtherControlsButton",
                           klass="standardSlexilButton"):
-            htmlDoc.text("Other Controls")
+               htmlDoc.text("Other Controls")
 
 
    #-------------------------------------------------------------------------------

@@ -83,8 +83,13 @@ body, html {
    margin-right: 5px;
    }
 
+#titleAndOptionalButtonsDiv{
+   margin-left: auto;
+   }
+
 #optionalButtonsDiv{
-    margin-left: auto;
+   margin-left: auto;
+   display: inline-block;
    }
 
 #pageTitle{
@@ -246,6 +251,7 @@ body, html {
   grid-template-columns: none;
   //border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
+  font-weight: bold;
   // font-size: 30px;
   text-align: left;
   vertical-align: bottom;
