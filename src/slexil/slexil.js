@@ -44,16 +44,15 @@ function refreshLayout(videoRequestedSize)
                   parseInt($("#textDiv").css("margin-top")) +
                   parseInt($("#textDiv").css("margin-bottom"));
         
-   var slop = 0
    var fixedHeights = otherControlsDivHeight + playerDivHeight + margins;
-   var newTextHeight = docHeight - (fixedHeights + slop)
+   var newTextHeight = docHeight - (fixedHeights)
    
    console.log("      doc: " + docHeight)
    console.log("   player: " + playerDivHeight);
    console.log("     ctls: " + otherControlsDivHeight)
    console.log("  margins: " + margins)
    console.log(" new text: " + newTextHeight)
-   $("#textDiv").height(newTextHeight);
+   $("#textDiv").height(newTextHeight + 20);
    $("#annoDiv").height(newTextHeight);
    } // refreshLayout
 

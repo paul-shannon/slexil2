@@ -30,10 +30,11 @@ html:
                        --terms grammaticalTerms.txt \
                        --pageTitle "Dante's Inferno" \
                        --helpFile about.html \
-                       --helpButtonLabel About
+                       --helpButtonLabel About \
+                       --kbFilename kb.js \
+                       --linguistics linguisticTerms.js \
+                       --webpackLinksOnly 
 #                       --toolTips
-#                       --fontSizeControls \
-#                       --webpackLinksOnly 
 #                       --verbose
 #			   --start 31 --end 33
 
