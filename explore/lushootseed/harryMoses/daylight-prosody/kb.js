@@ -143,9 +143,10 @@ to past and male.
 `,
 
 "ɬu=qada–bi–d":
-`
+    `
+_u=qada–bi–d_
+
 _will steal (it)_
-<audio id="luqadabid-line32"><source src="audio/luqadabid-line32.wav"/></audio><button onclick="playSample('luqadabid-line32')">half-speed</button>
 
 
 - _ɬu_: anticipated, expected or possible event  LD 147
@@ -166,6 +167,30 @@ _will steal (it)_
      - _-d_ before -əb and other suffixes. LD 76
 `,
 
+"ɬuqadabid":
+    `
+   - ɬu: irrealis, happening in a future time
+   - qada[?]:   steal
+       - _qádadid_:                   steal from someone    
+       - _qádaditəb_:     have something stolen by someone    
+       - _qádadyid_:
+       - _qádadyitəb_:
+       - _dxʷsqáda_: thief
+       - _ƛ'áʔdəxʷ tiʔiɬ su^qáda ʔə ti pástəd_: Now he noticed that the Caucasian was stealing.      
+       - _qáda čəxʷ ʔu ʔə tə s^dùukʷ_: Did you steal the knife?
+       - _diɬ əwʼə tiʔəʔ cədiɬ gəduʔ tiʔəʔ ʔu^qadaʔilbəx..._  it was that guy who had been stealing their food. 
+       - _xʷúʔələʔ ƛ'ub čəd bə^qádadid ʔə tiʔíɬ səs^qʼʷ..._  I guess I should steal from him what he is roasting
+       - _ʔəxʷs^qádadicəb_: He wants to steal it from me.      
+`
+,
+
+"ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc":
+`
+    _ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc_
+    
+I do not recognize an explicit direct object.
+`,
+    
 "gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":
     `
 _gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il_

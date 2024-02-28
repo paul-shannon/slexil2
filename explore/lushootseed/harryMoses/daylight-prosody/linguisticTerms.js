@@ -1,5 +1,15 @@
 linguistics = {
 
+"SS":
+    `
+secondary suffix
+`,
+
+"ICS":
+`
+internal causative: approximately, the transitive, event-internal
+`,
+
 "ALTV":
 `
 #####Allative Applicative

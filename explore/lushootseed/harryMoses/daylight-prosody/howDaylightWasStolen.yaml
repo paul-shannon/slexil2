@@ -29,7 +29,7 @@ lines:
     morphemeGloss: [PAST=CTD–DSTR–discuss=now, PROX, people,STAT–how=now,REM,SBJ=ADNM=take–DC,1PL.PO,REM,daylight]
     english: The people talked it over. How can we manage to obtain the daylight?
 
-   - lineNumber: 4
+  - lineNumber: 4
     startTime: 17746
     endTime: 23000
     lushootseed: ʔaʔ kʷi sləx̌il ʔal kʷi q’xʷul’gʷədxʷ gʷəl ʔəsčal kʷi gʷədəxʷkʷədxʷ čəɬ
@@ -130,9 +130,9 @@ lines:
   - lineNumber: 16
     startTime: 81245
     endTime: 87863
-    lushootseed: gʷəl tu (həbuʔ)  ʔa gʷəl tudxʷcutəb ʔuˑ xʷiʔəxʷ kʷi ʔahəxʷ gʷəčaldubuɬ
-    morphemes: [gʷəl,tu=,(həbuʔ),ʔa,gʷəl,tu=dxʷ–cut–əb,də-,ʔuˑ,xʷi=ʔəxʷ,kʷi,ʔa=əxʷ,gʷə=čal(a)-dxʷ-buɬʔ]
-    morphemeGloss: [SCONJ,PAST,HORT,be.there,SCONJ,CTD-speak-DSD,UNKNOWN,INTJ,NEG=now,REM,be.there=now,SBJ=catch–DC–1PL.OBJ]
+    lushootseed: gʷəl tu (həbuʔ)  ʔa gʷəl tudxʷcutəb həlgʷa ʔuˑ xʷiʔəxʷ kʷi ʔahəxʷ gʷəčaldubuɬ
+    morphemes: [gʷəl,tu=,(həbuʔ),ʔa,gʷəl,tu=dxʷ–cut–əb,pl,ʔuˑ,xʷi=ʔəxʷ,kʷi,ʔa=əxʷ,gʷə=čal(a)-dxʷ-buɬʔ]
+    morphemeGloss: [SCONJ,PAST,HORT,be.there,SCONJ,PAST-CTD-speak-DSD,they,INTJ,NEG=now,REM,be.there=now,SBJ=catch–DC–1PL.OBJ]
     english: And then they thought, nothing now can catch us.
 
   - lineNumber: 17
@@ -231,30 +231,13 @@ lines:
     morphemeGloss: [sbj=nm=anormal,sbj=all=1pl.sbrd,sbj=go,because,1pl.sub,sbj=known–dc–pass,prog=go–altv,1pl.sub,prox,daylight]
     english: It would be bad if we both were to go, because we would be known to be going after this light.
 
-
-#  - lineNumber: 23
-#    startTime: 144827
-#    endTime: 149367
-#    lushootseed: (28)-(29) ɬudxʷʔiʷədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il
-#    morphemes: [ɬu=dxʷ–ʔiʷəd=əxʷ,əlgʷəʔ,gʷat=əxʷ,ʔə,dibəɬ,kʷi,ɬu=ʔux̌ʷ–txʷ,kʷi,sləx̌il]
-#    morphemeGloss: [irr=ctd–decide=now,pl,who=now,pr,we,rem,irr=go–ecs,rem,daylight]
-#    english: They will decide.  Which of us will take the light?
-#
-#  - lineNumber: 30
-#    startTime: 149278
-#    endTime: 154705
-#    lushootseed: (30)-(31) gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il
-#    morphemes: [gʷə=s=dukʷ,gʷə=bək’ʷ=aɬi,gʷə=ʔux̌ʷ,yəx̌i,čəɬ,gʷə=hay–dxʷ–b,lə=ʔux̌ʷ–c,čəɬ,tiʔəʔ,sləx̌il]
-#    morphemeGloss: [sbj=nm=anormal,sbj=all=1pl.sbj,sbj=go,because,1pl.sub,sbj=known–dc–pass,prog=go–altv,1pl.sub,prox,daylight]
-#    english: It would be bad if we both were to go, because we would be known to be going after this light.
-#
-#  - lineNumber: 32
-#    startTime: 154750
-#    endTime: 157690
-#    lushootseed: (32) ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc
-#    morphemes: [ɬu=qada–bi–d,čəɬ,ʔal,kʷi,ɬu=dəxʷ=ʔacəc]
-#    morphemeGloss: [irr=steal–ss–ics,1pl.sub,at,rem,irr=adnm=be.in.place]
-#    english: We will steal it from where it is.
+  - lineNumber: 32
+    startTime: 154750
+    endTime: 157690
+    lushootseed: (32) ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc
+    morphemes: [ɬu=qada–bi–d,čəɬ,ʔal,kʷi,ɬu=dəxʷ=ʔacəc]
+    morphemeGloss: [irr=steal–ss–ics,1pl.sub,at,rem,irr=adnm=be.in.place]
+    english: We will steal it from where it is.
 #
 #  - lineNumber: 37
 #    startTime: 0
