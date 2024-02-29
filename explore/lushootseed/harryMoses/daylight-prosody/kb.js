@@ -144,51 +144,55 @@ to past and male.
 
 "ɬu=qada–bi–d":
     `
-_u=qada–bi–d_
+_ɬu=qada–bi–d_
 
-_will steal (it)_
+_will steal (it)_ [where the object (patient) is emphasized via the secondary suffix (SS)  _bi_  and the internal causative (ICS) _-d_
 
 
 - _ɬu_: anticipated, expected or possible event  LD 147
 - _qadaʔ_: steal, LD 172.
-     - _bəqada tiʔəʔ bəščəb_ Mink stole again
-     - _ʔə tiʔəʔ səsq'ʷəlb ʔə til luƛ' ʔə tiʔəʔ sʔuladxʷ tiʔiɬ bəščəb_: as was typical, Mink stole the salmon 
+     -  _ʔuqáda tiʔəʔ luƛ' ʔə tə sʔuladxʷ_: The old man stole the salmon.
+     - _bəqada tiʔəʔ bəščəb_:  Mink stole again (agent-oriented verb)
+     - _bəqadadidəxʷ ʔə tiʔəʔ səsq'ʷəlb ʔə til luƛ' ʔə tiʔəʔ sʔuladxʷ tiʔiɬ bəščəb_: as was typical, Mink stole the salmon 
         which the old fellow was roasting. (Martha Lamont)
+     - _qáda čəxʷ ʔu ʔə tə sdùukʷ_:     Did you steal the knife?
+     - _qádadid_:                   steal from someone    
+     - _qádaditəb_:     have something stolen by someone    
+     - _qádadyid_:
+     - _qádadyitəb_:
+     - _dxʷsqáda_: thief
+     - _ƛ'áʔdəxʷ tiʔiɬ suqáda ʔə ti pástəd_: Now he noticed that the Caucasian was stealing.      
+     - _diɬ əwʼə tiʔəʔ cədiɬ gəduʔ tiʔəʔ ʔuqadaʔilbəx..._  it was that guy who had been stealing their food. 
+     - _xʷúʔələʔ ƛ'ub čəd bəqádadid ʔə tiʔíɬ səsqʼʷ..._  I guess I should steal from him what he is roasting
+     - _ʔəxʷsqádadicəb_: He wants to steal it from me.      
 - _-bi-_: secondary derivational suffix. LD 39.  compare _-i_.
-- _-i-_: secondary stem extender; allows transitive _-d_ forms to be derived from roots which normally 
-        lack a patient. LD 114
+     - _-i-_: secondary stem extender; allows transitive _-d_ forms to be derived
+       from roots which normally lack a patient. LD 114
           - _saxʷ-əb-i-d_ ran after something.  transitive.
           - _dᶻakʷ=šad-i-d_: shake someone by the foot. transitive.
           - _haʔl-i-d_: make something nice
+     - _b_ for phonemic reasons?
+     - implied that _qadaʔ_ "normally lacks a patient", and that _-bi-_ supports the transitive form
+     - creating patient-oriented verb, where the light is the patient
+     - LRI p93 argues that sentences can focus on agent or patient, conveying identical information:
+          - The youngsters chased the dog.  _ʔučalatəb ʔə tiʔiɬ wiw'su tiʔəʔ sqʷəbayʔ._
+          - The dog is what the youngsters chased.  _sqʷəbayʔ ti ʔučalatəb ʔə tiʔiɬ wiw'su._
+          - Lushootseed, as in many other languages, indicates focus by stating it first.
 - _-d-_ :  ICS, internal causative, transitive suffix. LD 76.
      - action performed on someone or something else
-     - [transitive suffix, allows for a direct complement patient, creating a patient-oriented verb]
+     - [transitive suffix, allows for a direct complement patient,
+        creating a patient-oriented verb]
      - _əd_ and _-t-_ are variants.
      - _-d_ before -əb and other suffixes. LD 76
+     - compare _-txʷ_, make someone do something (causitive transitive suffix
+       creating patient-oriented verb stems].
 `,
-
-"ɬuqadabid":
-    `
-   - ɬu: irrealis, happening in a future time
-   - qada[?]:   steal
-       - _qádadid_:                   steal from someone    
-       - _qádaditəb_:     have something stolen by someone    
-       - _qádadyid_:
-       - _qádadyitəb_:
-       - _dxʷsqáda_: thief
-       - _ƛ'áʔdəxʷ tiʔiɬ su^qáda ʔə ti pástəd_: Now he noticed that the Caucasian was stealing.      
-       - _qáda čəxʷ ʔu ʔə tə s^dùukʷ_: Did you steal the knife?
-       - _diɬ əwʼə tiʔəʔ cədiɬ gəduʔ tiʔəʔ ʔu^qadaʔilbəx..._  it was that guy who had been stealing their food. 
-       - _xʷúʔələʔ ƛ'ub čəd bə^qádadid ʔə tiʔíɬ səs^qʼʷ..._  I guess I should steal from him what he is roasting
-       - _ʔəxʷs^qádadicəb_: He wants to steal it from me.      
-`
-,
 
 "ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc":
 `
     _ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc_
     
-I do not recognize an explicit direct object.
+I do not recognize an explicit direct object, implicit is the light from the preceeding line.
 `,
     
 "gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":
@@ -2713,26 +2717,26 @@ _just now_  (or maybe _near now_)
 `
 - only, merely, simply, just, just that and nothing else, predicate adverb. LD 73.
 - _x̌ʷulʼ čəɬ yələlʔac_:  There are only six of us.
-- x̌ʷulʼ čəd ɬu^t'ábəd: Let me guess.
+- x̌ʷulʼ čəd ɬut'ábəd: Let me guess.
 - x̌ʷulʼ páƛ'aƛ' tiʔəʔ ɬudšʔàbyid: I'll just give him junk. 
-- x̌ʷùlʼ čəxʷ ʔəxʷ^líligʷədbid: Don't pay any attention to it.
-- x̌ʷúlʼ čəxʷ ʔu^kʷàd:  Just let it go (like that).
+- x̌ʷùlʼ čəxʷ ʔəxʷlíligʷədbid: Don't pay any attention to it.
+- x̌ʷúlʼ čəxʷ ʔukʷàd:  Just let it go (like that).
 - x̌ʷul-b
     * x̌ʷulb kʷaʔ ...:  Just let it be ... 
     * x̌ʷulʼ-ab ʔə: similar to, alike, as, just as.
     * compare   x̌əɬ$2 
     * x̌ʷúlʼəb ʔə ʔəcà:  He's just like me.
-    * xʷìʔ lə^x̌ʷúlʼəb ʔə dəgʷì:  He is not like you. 
+    * xʷìʔ ləx̌ʷúlʼəb ʔə dəgʷì:  He is not like you. 
     * x̌ʷúlʼəb ʔə tə bùʔqʷ tiʔiɬ qyuuqs:  A seagull is just like a waterfowl.
-    * x̌ʷúlʼəb ʔə s^qʷəbàyʔ tiʔiɬ s^tiqàyuʔ:  A wolf is like a dog.
+    * x̌ʷúlʼəb ʔə sqʷəbàyʔ tiʔiɬ stiqàyuʔ:  A wolf is like a dog.
     * x̌ʷulʼ-áb-il:  come to be *like
-    * x̌ə́ɬəxʷ əlgʷəʔ ti ƛ'u^x̌ʷulʼábil əlgʷəʔ ƛ'u^táʤ:  They sort of become like (people) who dance.
-    * x̌ʷúlʼ+ulʼ (red3): x̌ʷulʼulʼ bəc̕ác tiʔəʔ diʔəʔ basket ʔəs^hùytub ʔə tsiʔəʔ diʔəʔ s^ƛ'àlqəb 
+    * x̌ə́ɬəxʷ əlgʷəʔ ti ƛ'ux̌ʷulʼábil əlgʷəʔ ƛ'utáʤ:  They sort of become like (people) who dance.
+    * x̌ʷúlʼ+ulʼ (red3): x̌ʷulʼulʼ bəc̕ác tiʔəʔ diʔəʔ basket ʔəshùytub ʔə tsiʔəʔ diʔəʔ sƛ'àlqəb 
          Basket Woman had made the basket all out of snakes. 
     * x̌ʷúlʼulʼ kʼʷástədùlic̕aʔ:  nothing other than a ceremonial blanket
-    * x̌ʷúlʼulʼ čəd ʔuqʷìqʷəb^qʷəbáyʔcut x̌ʷul:
+    * x̌ʷúlʼulʼ čəd ʔuqʷìqʷəbqʷəbáyʔcut x̌ʷul:
       I simply made myself (sound) like a dog, just so.
-    * x̌ʷúlʼulʼəxʷ s^c̕əlíč, x̌ʷúlʼulʼəxʷ s^x̌əyʼús ti tuxʷ^(h)údadləp:
+    * x̌ʷúlʼulʼəxʷ sc̕əlíč, x̌ʷúlʼulʼəxʷ sx̌əyʼús ti tuxʷ(h)údadləp:
        Nothing but backbones, nothing but heads (were there at) your former fireplaces (houses).
 `,
 
