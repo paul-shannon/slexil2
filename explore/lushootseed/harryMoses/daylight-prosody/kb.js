@@ -137,17 +137,13 @@ to past and male.
 37: _ʔas–bəs–sləx̌il_
 `,
     
-"(32) ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc":
-`
-32: _ɬu=qada–bi–d_
-`,
 
 "ɬu=qada–bi–d":
     `
 _ɬu=qada–bi–d_
 
-_will steal (it)_ [where the object (patient) is emphasized via the secondary suffix (SS)  _bi_  and the internal causative (ICS) _-d_
-
+_will steal (it)_ [where the object (patient) is emphasized via the
+secondary suffix (SS) _bi_ and the internal causative (ICS) _-d_
 
 - _ɬu_: anticipated, expected or possible event  LD 147
 - _qadaʔ_: steal, LD 172.
@@ -188,11 +184,16 @@ _will steal (it)_ [where the object (patient) is emphasized via the secondary su
        creating patient-oriented verb stems].
 `,
 
-"ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc":
+"ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc":
 `
-    _ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc_
+_ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc_
     
-I do not recognize an explicit direct object, implicit is the light from the preceeding line.
+Beck and Hess (2015) transcribe _ɬudəxʷʔacəc_.  I do not hear the irrealis prefix,
+and finding a similar expression in line 17, along with not grasping the need for
+future tense, I omit it here.
+
+I do not detect here an explicit direct object, so figure that the
+direct object is the implicit _tiʔəʔ sləx̌il_ from the preceeding line.
 `,
     
 "gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il":

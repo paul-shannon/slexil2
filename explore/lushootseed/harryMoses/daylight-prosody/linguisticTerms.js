@@ -1,5 +1,165 @@
 linguistics = {
 
+"DC":
+`
+**DC**: diminished control causative _-dxʷ_
+
+Another frequent valency-increasing suffix is _-dxʷ_. This causative
+transitive affix is added to intransitive stems and, like -t and -txʷ,
+adds an AGENT/subject to the expression. However, in _-dxʷ_ forms the
+AGENT is in less than complete control of the situation.
+
+(from David Beck's draft grammar, p87, section 2.1.2.3)
+
+     - gʷədəxʷkʷədxʷ
+       gʷə=dəxʷ=kʷəd–dxʷ
+       sbj=adnm=take–dc
+       "how can we manage to obtain"
+
+     - gʷəčaldxʷbuɬ
+       gʷə=čal(a)–dxʷ–buɬʔ
+       sbj=catch–dc–1pl.obj
+       "can catch us"
+
+     - tu(ə)shaydxʷ
+       tu=ʔəs–hay–dxʷ
+       past=stat–know–dc
+       "knew"
+`,
+
+"ADNM":
+`
+ADNM: adjunctive nominalizer
+
+(from David Beck's DRAFT Grammar)
+
+7.4.2.2 dəxʷ=nominals
+
+The second nominalizing proclitic, dəxʷ=, is used primarily for the
+nominalization of adjunct and circumstantial expressions, particularly
+(but not exclusively), instruments, locations, motivations, and
+manners, and will be referred to here as an adjunctive
+nominalizer. Like s=nominals, dəxʷ= creates nominal expressions with
+the same distribution as relative and headless relative clauses. The
+following examples illustrate adjunctive nominals referring to
+instruments in the syntactic roles of predicate complement (519a) and
+relative clause (519b):
+
+519:
+
+      - a. gwəl diɬ dəxʷšəɬtəbiɬədtubs
+           gwəl diɬ dəxʷ=šəɬ–təbiɬəd–txʷ–b=s
+           then FOC ADNM=make–rope–ECS–PASS=3PO
+           ‘then these were made into rope’
+           (Hess 1998: 80, line 81)
+
+      - b. kwədad tiʔəʔ qwuʔ dəxʷuc’agwačiʔbs ʔə tiʔəʔ sbaɬs
+           kwəda–d tiʔəʔ qwuʔ dəxʷ=ʔu–c’agw–ačiʔ–b=s
+           taken–ICS PROX water ADNM=PFV–wash–hand–MD=3PO PR PROX NM=cure=3PO
+           ‘he took some water that he washed his hands with for the curing ceremony’143
+           (Hess 1998: 57, line 36) 
+
+The examples in (520) show adjunctive nominals expressing locations,
+used as an argument and the object of a preposition, respectively:
+
+520:
+
+      - a. hay gwəl ɬuhuyutəbəxʷ č’it tiʔiɬ dəxʷʔibəš čəɬ
+           hay gwəl ɬu=huyu–t–əb=əxʷ č’it tiʔiɬ  dəxʷ=ʔibəš čəɬ
+           INTJ then IRR=be.done–ICS–PASS=now nearby DIST ADNM=travel 1PL.PO 
+           ‘and then where we are traveling [to] will be made near’
+           (Hess 1995: 147, line 10)
+
+      - b. hay gwəl bəɬčiləxʷ dxʷʔal tiʔiɬ bədəxʷɬčils
+          hay gwəl bə=ɬčil=əxʷ dxʷ–ʔal tiʔiɬ bə=dəxʷ=ɬčil=s
+          INTJ then ADD=arrive=now CNTRPT–at DIST ADD=ADNM=arrive=3PO 
+          ‘and then he arrived at where he arrived’
+          (Hess 1998: 66, line 22)
+
+These last two types of adjunctive nominals are the most noun-like in
+the sense that their referents are physical entities (objects and
+locations). However, dəxʷ= is also used to form a wide variety of
+other expressions, one of the most common being expressions of motive:
+
+(521)
+
+     - a. sɬild čəɬ ti dəgwi tiʔiɬ dəxʷuwiliq’wid čəɬ
+          s=ɬil–d čəɬ ti dəgwi tiʔiɬ dəxʷ=ʔu–wiliq’wi–d čəɬ
+          NM=give.food–ICS 1PL.PO SPEC you DIST ADNM=question–ICS 1PL.PO 
+          ‘the reason that we questioned you [is] that we are giving you this food’144
+          (Hess 1998: 80, line 69)
+
+     - b. ʔa tiʔiɬ adəxʷx̌əɬ, x̌ənimulicaʔ
+          ʔa tiʔiɬ ad=dəxʷ=x̌əɬ x̌ənimulicaʔ
+          be.there DIST 2SG.PO=ADNM=sick x̌ənimulicaʔ
+          ‘there is a reason that you are sick, x̌ənimulicaʔ’
+           (Hess 1998: 57, line 26)
+
+In both of these sentences, the adjunctive nominal serves as the syntactic subject.
+Another type of adjunctive nominal expresses manner:
+
+(522)
+
+      - a. gwəl diɬ tiʔəʔ cəxʷkwədxʷ tiʔəʔ dsʔəɬəd
+           gwəl diɬ tiʔəʔ d=dəxʷ=kwəd–dxʷ tiʔəʔ d=s=ʔəɬəd
+           then FOC PROX 1SG.PO=ADNM=take–DC PROX 1SG.PO=NM=eat
+           ‘than how I managed to get my food was that [way]’
+           (Hess 1998: 83, line 164)
+
+      - b. hay, diɬ dəxʷhuyuds ʔušəbabdxʷ tsiʔə ʔalš ʔə tiʔəʔ suʔəɬadəps
+           hay diɬ dəxʷ=huyu–d=s ʔušəbabdxʷ tsiʔə ʔalš ʔə tiʔəʔ s=ʔu–ʔəɬadəp=s
+           INTJ FOC ADNM=be.done–ICS=3PO poor.dear PROX:FEM cross.sex.sibling PR PROX NM=PFV–give.feast=3PO
+           ‘so, that is how he made his sister poor when she gave a feast’
+           (Hess 1998: 63, line 66)
+
+In the first sentence here, the clausal nominal serves as the
+syntactic subject of the copula diɬ, while in the second it serves as
+the complement of the same element (see Sections 8.2.5 and 11.2 below
+for discussion of these structures).  A less commonly-attested use of
+adjunctive nominals is to indicate purpose:
+
+(523)
+
+      - a. huˑy, huyudəxʷ tiʔiɬ sxə̌ ɬ dxʷʔal kwi dəxʷx̌əɬ ʔə tsiʔəʔ ʔalšs
+           huy huyu–d–əxʷ tiʔiɬ s–x̌əɬ ʔə tsiʔəʔ ʔalš–s
+          INTJ be.done–ICS–now DIST NP–sickPR PROX:FEM cross.sex.sibling–3PO
+          ‘then he made a sickness so his sister got sick’
+
+      - b. ɬuacəxʷɬčiltxʷ dxʷʔal kwsi adčəgwas ʔi kwi adbədbədaʔ
+           ɬu=ad=dəxʷ=ɬčil–txʷ dxʷ–ʔal kwsi ʔi kwi ad–bəd–bədaʔ
+           IRR=2SG.PO=ADNM–arrive–ECS CNTRPT–at REM:FEM 2SG.PO–wifeand REM 2SG.PO–DSTR–offspring
+          ‘[you will pack it] so that you can bring it to your wife and children’
+           (Hess 1998: 86, line 237)
+
+In such expressions, the adjunctive nominal is accompanied by the
+preposition dxʷʔal, whose meaning ‘towards, motion to’ undoubtedly
+contributes to the purposive reading. Even less frequent are
+adjunctive nominals that have a temporal reading:
+
+(524)
+
+      - hay, gwəl, diɬəxʷ tudəxʷkwədatəbsəxʷ tiʔəʔ cədiɬ č’ətx̌
+        hay gwəl diɬ=əxʷ tu=dəxʷ=kwəda–t–əb=s=əxʷ tiʔəʔ cədiɬ č’ətx̌
+        INTJ then FOC=now PAST=ADNM=take–ICS–PASS=3PO=now PROX he kingfisher
+        ‘well and then that is when they [almost] caught Kingfisher
+        (Hess 2006: 20, line 207)
+
+The temporal aspect of such expressions may be as much as artefact of
+translation as the semantics of the expression (cf. the alternate
+translations as locatives “ ... where they caught Kingfisher,”
+“... the point at which they caught Kingfisher”). Alternatively, the
+few uses of dəxʷ= in temporal contexts may represent a metaphorical
+extension from the more common locative spatial usage into time. There
+are no more than a handful of such expression in the texts and so the
+temporal uses of adjunctive nominals appears to be a marginal function
+at best.
+
+
+
+
+`,
+
+
 "SS":
     `
 secondary suffix

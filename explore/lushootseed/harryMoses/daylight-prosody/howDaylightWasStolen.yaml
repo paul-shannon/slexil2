@@ -232,11 +232,11 @@ lines:
     english: It would be bad if we both were to go, because we would be known to be going after this light.
 
   - lineNumber: 32
-    startTime: 154750
+    startTime: 154416
     endTime: 157690
-    lushootseed: ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc
-    morphemes: [ɬu=qada–bi–d,čəɬ,ʔal,kʷi,ɬu=dəxʷ=ʔacəc]
-    morphemeGloss: [irr=steal–ss–ics,1pl.sub,at,rem,irr=adnm=be.in.place]
+    lushootseed: ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc
+    morphemes: [ɬu=qada–bi–d,čəɬ,ʔal,kʷi,dəxʷ=ʔacəc]
+    morphemeGloss: [irr=steal–ss–ics,1pl.sub,at,rem,adnm=be.in.place]
     english: We will steal it from where it is.
 #
 #  - lineNumber: 37
