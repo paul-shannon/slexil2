@@ -156,8 +156,8 @@ lines:
     endTime: 108783
     lushootseed:  tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q’xʷul’gʷədxʷ
     morphemes: [tu=sə-gʷaʔxʷ,ʔux̌ʷ,tux̌ʷ,xʷiʔ,uʔxʷ,kʷi,sləx̌il,tux̌ʷ,kʷi,q’xʷul’gʷədxʷ]
-    morphemeGloss: [past=PROG–walk,go,but,not,yet,rem,daylight,unknown,rem,upstream•land]
-    english: Walking went but not yet, that daylight (unknown) that upstream.land.
+    morphemeGloss: [past=PROG–walk,go,but,not,yet,rem,daylight,but,rem,upstream•land]
+    english: Walking went but not yet, that daylight  that upstream.land.
 
   - lineNumber: 20
     startTime: 111638
@@ -231,13 +231,23 @@ lines:
     morphemeGloss: [sbj=nm=anormal,sbj=all=1pl.sbrd,sbj=go,because,1pl.sub,sbj=known–dc–pass,prog=go–altv,1pl.sub,prox,daylight]
     english: It would be bad if we both were to go, because we would be known to be going after this light.
 
-  - lineNumber: 32
+  - lineNumber: 30
     startTime: 154416
     endTime: 157690
     lushootseed: ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc
     morphemes: [ɬu=qada–bi–d,čəɬ,ʔal,kʷi,dəxʷ=ʔacəc]
     morphemeGloss: [irr=steal–ss–ics,1pl.sub,at,rem,adnm=be.in.place]
     english: We will steal it from where it is.
+
+  - lineNumber: 31
+    startTime: 158828
+    endTime: 164178
+    lushootseed: tucutəxʷ tiʔəʔ diʔəʔ ... tiʔəʔ  bibščəb ʔəca kʷi ɬuhədʔiw’b
+    morphemes: [tu=cut=axʷ,tiʔəʔ,diʔəʔ,tiʔəʔ,bəščəb,ʔəca,kʷi,ɬu=hədʔiw’–b]
+    morphemeGloss: [past=say=now,prox,here,prox,attn–mink,I,rem,irr=indoors–pass]
+    english: Little Mink said,  I am the one who will enter the building.
+
+  
 #
 #  - lineNumber: 37
 #    startTime: 0

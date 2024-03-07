@@ -1,5 +1,95 @@
 linguistics = {
 
+"-b":
+`
+- _-b_: -LD 32
+- be involved in doing something
+- A suffix occuring on several levels of Lushootseed morphology.
+       It forms a very large class of agent-oriented intransitive verb
+       stems and a number of ambient stems such as *qəl-b* 'rain'.
+- With lexial stems it designates middle voice and in construction
+       with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
+- _desiderative_: (of a verb derived from another verb) expressing desire to perform
+        the action denoted by the underlying verb, as Sanskrit pi-patiṣ-ati “he wishes to fly”
+        from pát-ati, “he flies.”
+- This *-b* is a component in a number of derivational suffixes
+       as well, and combines with transitive suffixes to form a passive
+       construction: *-təb*,  *-du-b*, *-tu-b*, *c-əb*, and *-s-əb*
+
+
+`,
+
+"Abbreviations":
+`
+- ADV       adverb
+- BENEF     benefactive suffix
+- CAUS      causative suffix
+- CLASSIF   classificatory prefix
+- CST       continuous state prefix
+- DEP 3     suffix marking a dependent clause involving third person "subject"
+- DIM       diminutive/attenuative reduplicative prefix
+- FR        formative
+- IMPF      imperfective
+- LC        lack of control suffix
+- MIDDLE    middle voice suffix
+- OBI       oblique clause
+- PART      partitive prefix
+- PASS      passive suffix
+- PERF      perfective
+- POSS      possessive
+- PR        pronoun
+- PUR       purposive
+- R         reduplication for distributive
+- RESUL     resultative prefix                                       
+- ST        stative prefix                                           
+- TR        transitive prefix                                        
+- 1 pl      first person plural                                      
+- 1 sg      first person singular                                    
+- 3         suffix for third person in either of the absolute clauses
+  `,
+
+"VOICE":
+
+`Voice describes the relationship between the action (or
+state) that the verb expresses and the participants identified by its
+arguments (subject, object, etc.).
+
+When the subject is the agent or doer of the action, the verb is in
+the active voice. When the subject is the patient, target or undergoer
+of the action, the verb is said to be in the passive voice.
+
+When the subject both performs and receives the action expressed by
+the verb, the verb is in the middle voice.
+`,
+
+
+"PASS":
+`
+PASS
+
+passive suffix, indicates passive voice: the subject is the patient,
+target, or undergoer of the action.
+
+
+
+`,
+
+"DSD":
+`
+**DSD**: desiderative
+- see also DES, DESI
+-  a desiderative (abbreviated desi or des) form is one that has the
+   meaning of "wanting to X". Desiderative forms are often verbs, derived
+   from a more basic verb through a process of morphological derivation.
+   Desiderative mood is a kind of volitive mood.
+-  In Lushootseed (LD 32) _-b_ or _-əb_: b, be involved in doing something.
+   This forms a very large class of agent-oriented intransitive verb
+   stems and a number of ambient stems such as _qəl-b_ (rain).  With lexical
+   stems it designates middle voice and in construction with dxʷ(s) and ʔəxʷ
+   it creates a desiderative stem.
+-  _tu=dxʷ–cut–əb_ (past–ctd–speak–dsd) "thought".
+`,
+
 "DC":
 `
 **DC**: diminished control causative _-dxʷ_

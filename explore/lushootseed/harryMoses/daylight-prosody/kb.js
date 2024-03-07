@@ -3,6 +3,53 @@ kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
 
+"ʔəca":
+`_ʔəca_
+- I am (the one who); me
+- ʔəcá kʷi ɬu^kʷədátəb: I am the one who will be taken. 
+- ʔəcá ti hədi: It's me, Henry. 
+- diɬ ʔəcá t(i) (h)aydxʷ: I am the one who knows it. 
+- dəb ʔəcá tiʔiɬ ƛ'ə^x̌əɬqid:   I'm the one who gets the headache (not you). 
+- ʔəcá gʷəl sduhùbš:I am Snohomish.
+
+`,
+
+
+"ɬu=hədʔiw’–b":
+`
+_ɬu=hədʔiw’–b_
+
+will enter the house
+
+- ɬu:
+- (hə)dʔiw’:
+     - be inside a house
+     - also recorded (hə)dʔiwʔ
+     - _hədʔíwʼd_: bring someone or something into a house    
+     - _hədʔiwʼdubut_: get one's self inside (the cave)    
+     - _hədʔíwʼc_: go in for someone or something    
+     - _hədʔíwʼtxʷ_: cause someone to enter a house, take something inside a house
+     - _hədʔíwʼb_: enter a room or house    
+     - _hədʔìwʼáʔkʷčup_: Bring the wood in.      
+- -b
+`,
+
+"tu=cut=axʷ":
+`
+_tucutaxʷ_
+
+- _cut_: speak, say, talk, tell: any sort of verbal utterance.  LD 48
+- _tu=_:
+    - past time, especially the remote past.
+    - inflectional past prefix, appearing on any lexical category functioning as predicate or complement.
+    - also _tə-_
+    - LD 22
+    - _=_: clitic boundary
+- _=əxʷ_, _axʷ_ : now, at the particular time. LD 30
+- see also:
+    - _tudxʷcutəb_: past contained speak DSD - thought
+`,
+
 "ʔuʔuxʷ tiʔəʔ sbiaw":
 `
 [<small>**Rh**</small>_ʔuʔuxʷ_] [<small>**Th**</small> _tiʔəʔ sbiaw"_]
