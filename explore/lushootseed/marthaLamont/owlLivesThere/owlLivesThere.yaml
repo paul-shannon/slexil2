@@ -844,39 +844,39 @@ lines:
    morphemes: [ʔix̌ʷi–t–b=axʷ,tsiʔiɬ,waq’waq’,dxʷ–ʔa]
    morphemeGloss: [thrown.at–ics–pass=now,dist:fem,frog,cntrpt–be.there]
    english: Frog is thrown there.
-#
-#   - lineNumber: 121
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔaˑhəxʷ x̌ʷul’əxʷ čəxʷ
-#     morphemes: [x̌ʷul’=axʷ,ʔa=axʷ,čəxʷ]
-#     morphemeGloss: [only=now,be.there=now,2sg.sub]
-#     english:  “You are just there now.
-#
-#   - lineNumber: 122
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ɬuʔa kʷi ɬadsucucut ʔal kʷi ɬuč’itəxʷ ɬuʔaciɬtalbixʷ
-#     morphemes: [ɬu=ʔa,kʷi,ɬu=ad=s=ʔu–cut–cut,ʔal,kʷi,ɬu=č’it=axʷ ɬu=ʔaciɬtalbixʷ]
-#     morphemeGloss: [irr=be.there,rem,irr=2sg.po=nm=pfv–dstr–say,at,rem,irr=near=now irr=people]
-#     english:  “What you are saying over and over will be there when the future people arrive.
-#
-#   - lineNumber: 123
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ɬucucut čəxʷ ʔə tiʔiɬ
-#     morphemes: [ɬu=cut–cut,čəxʷ,ʔə,tiʔiɬ]
-#     morphemeGloss: [irr=dstr–say,2sg.sub,Pr,dist]
-#     english:  “You will be saying that.
-#
-#   - lineNumber: 124
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: xʷiʔəxʷ kʷi ɬadsux̌ʷubil
-#     morphemes: [xʷiʔ=axʷ,kʷi,ɬu=ad=s=ʔu–x̌ʷubil]
-#     morphemeGloss: [neg=now,rem,irr=2sg.po=nm=pfv–be.quiet]
-#     english:  “You will not be quiet.
-#
+
+ - lineNumber: 121
+   startTime: 374570
+   endTime: 381264
+   lushootseed: ʔaˑhəxʷ x̌ʷul’əxʷ čəxʷ. ɬuʔa kʷi ɬadsucucut ʔal kʷi ɬuč’itəxʷ ɬuʔaciɬtalbixʷ
+   morphemes: [x̌ʷul’=axʷ,ʔa=axʷ,čəxʷ,ɬu=ʔa,kʷi,ɬu=ad=s=ʔu–cut–cut,ʔal,kʷi,ɬu=č’it=axʷ,ɬu=ʔaciɬtalbixʷ]
+   morphemeGloss: [only=now,be.there=now,2sg.sub,irr=be.there,rem,irr=2sg.po=nm=pfv–dstr–say,at,rem,irr=near=now,irr=people] 
+   english:  “You are just there now. What you are saying over and over will be there when the future people arrive.
+
+#    - lineNumber: 122
+#      startTime: 0
+#      endTime: 0
+#      lushootseed: ɬuʔa kʷi ɬadsucucut ʔal kʷi ɬuč’itəxʷ ɬuʔaciɬtalbixʷ
+#      morphemes: [ɬu=ʔa,kʷi,ɬu=ad=s=ʔu–cut–cut,ʔal,kʷi,ɬu=č’it=axʷ ɬu=ʔaciɬtalbixʷ]
+#      morphemeGloss: [irr=be.there,rem,irr=2sg.po=nm=pfv–dstr–say,at,rem,irr=near=now irr=people]
+#      english:  “What you are saying over and over will be there when the future people arrive.
+
+ - lineNumber: 123
+   startTime: 381543
+   endTime: 383861
+   lushootseed: ɬucucut čəxʷ ʔə tiʔiɬ
+   morphemes: [ɬu=cut–cut,čəxʷ,ʔə,tiʔiɬ]
+   morphemeGloss: [irr=dstr–say,2sg.sub,Pr,dist]
+   english:  “You will be saying that.
+
+ - lineNumber: 124
+   startTime: 384448
+   endTime: 389387
+   lushootseed: xʷiʔəxʷ kʷi ɬadsux̌ʷubil. ɬucucut čəxʷ ɬuƛ’əladiʔəxʷ ɬugʷaadgʷadəxʷ
+   morphemes: [xʷiʔ=axʷ,kʷi,ɬu=ad=s=ʔu–x̌ʷubil,ɬu=cut–cut,čəxʷ,ɬu=ƛ’əladiʔ=axʷ,ɬu=gʷaadgʷad=axʷ]
+   morphemeGloss: [neg=now,rem,irr=2sg.po=nm=pfv–be.quiet,irr=dstr–say,2sg.sub,irr=make.noise=now,irr=converse=now]
+   english:  “You will not be quiet. You will talk on and on making noise when you converse.
+
 #   - lineNumber: 125
 #     startTime: 0
 #     endTime: 0
@@ -884,48 +884,48 @@ lines:
 #     morphemes: [ɬu=cut–cut,čəxʷ,ɬu=ƛ’əladiʔ=axʷ,ɬu=gʷaadgʷad=axʷ]
 #     morphemeGloss: [irr=dstr–say,2sg.sub,irr=make.noise=now,irr=converse=now]
 #     english:  “You will talk on and on making noise when you converse.
-#
-#   - lineNumber: 126
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ kʷi ɬadsucucutəxʷ č’itəxʷ kʷi ʔaciɬtalbixʷ
-#     morphemes: [sswələq’,sswələq’,sswələq’,sswələq’,sswələq’,kʷi ɬu=ad=s=ʔu–cut–cut=axʷ,č’it=axʷ,kʷi,ʔaciɬtalbixʷ]
-#     morphemeGloss: [croak,croak,croak,croak,croak,rem irr=2sg.po=nm=pfv–dstr–say=now,near=now,rem,people]
-#     english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, you will be saying when the people are near.
-#
-#   - lineNumber: 127
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: gʷəl diɬ ɬadəxʷəsluutəb
-#     morphemes: [gʷəl,diɬ,ɬu=ad=dəxʷ=ʔas–lu–t–b]
-#     morphemeGloss: [sconj,foc,irr=2sg.po=adnm=stat–heard–ics–pass]
-#     english:  “This is how you will be heard.
-#
-#   - lineNumber: 128
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ɬuʔal čəxʷ c’álič kʷi ɬadəxʷʔa
-#     morphemes: [ɬu=ʔal,čəxʷ,c’álič,kʷi,ɬu=ad=dəxʷ=ʔa]
-#     morphemeGloss: [irr=at,2sg.sub,swamp,rem,irr=2sg.po=adnm=be.there]
-#     english:  “You will be in the swamp which is where you will be.” 
-#
-#   - lineNumber: 129
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: xʷəbtəbaxʷ ʔəsq’ʷuʔ ʔə tiʔacəc bibədaʔs miʔman’ səsbədaʔəbs tsiʔiɬ cədiɬ waq’waq’
-#     morphemes: [xʷəb–t–b=axʷ,ʔas–q’ʷuʔ,ʔə,tiʔacəc,bi–bədaʔ–s miʔ–man’,s=ʔas–bədaʔ–b=s,tsiʔiɬ,cədiɬ,waq’waq’]
-#     morphemeGloss: [thrown–ics–pass=now,stat–gathered,Pr,unq,attn–offspring–3po attn–small,nm=stat–offspring–md=3po,dist:fem,s/he,frog]
-#     english: Frog along with her little baby, the little one she had born, is thrown away.
-#
-#   - lineNumber: 130
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy ʔix̌ʷitəbəxʷ dxʷʔa
-#     morphemes: [huy,ʔix̌ʷi–t–b=axʷ,dxʷ–ʔa]
-#     morphemeGloss: [sconj,thrown.at–ics–pass=now,cntrpt–be.there]
-#     english: Then they are tossed there.
-#
-#   - lineNumber: 131
+
+ - lineNumber: 126
+   startTime: 389922
+   endTime:  394975
+   lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ kʷi ɬadsucucutəxʷ
+   morphemes: [sswələq’,sswələq’,sswələq’,sswələq’,sswələq’,kʷi,ɬu=ad=s=ʔu–cut–cut=axʷ]
+   morphemeGloss: [croak,croak,croak,croak,croak,rem,irr=2sg.po=nm=pfv–dstr–say=now]
+   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, you will be saying when the people are near.
+
+ - lineNumber: 127
+   startTime: 395632
+   endTime: 401138
+   lushootseed:  č’itəxʷ kʷi ʔaciɬtalbixʷ gʷəl diɬ ɬadəxʷəsluutəb
+   morphemes: [č’it=axʷ,kʷi,ʔaciɬtalbixʷ,gʷəl,diɬ,ɬu=ad=dəxʷ=ʔas–lu–t–b]
+   morphemeGloss: [near=now,rem,people,sconj,foc,irr=2sg.po=adnm=stat–heard–ics–pass]
+   english:  “This is how you will be heard.
+
+ - lineNumber: 128
+   startTime: 401313
+   endTime: 404242
+   lushootseed: ɬuʔal čəxʷ c’álič kʷi ɬadəxʷʔa
+   morphemes: [ɬu=ʔal,čəxʷ,c’álič,kʷi,ɬu=ad=dəxʷ=ʔa]
+   morphemeGloss: [irr=at,2sg.sub,swamp,rem,irr=2sg.po=adnm=be.there]
+   english:  “You will be in the swamp which is where you will be.” 
+
+ - lineNumber: 129
+   startTime: 404507
+   endTime: 412371
+   lushootseed: xʷəbtəbaxʷ ʔəsq’ʷuʔ ʔə tiʔacəc bibədaʔs miʔman’ səsbədaʔəbs tsiʔiɬ cədiɬ waq’waq’
+   morphemes: [xʷəb–t–b=axʷ,ʔas–q’ʷuʔ,ʔə,tiʔacəc,bi–bədaʔ–s miʔ–man’,s=ʔas–bədaʔ–b=s,tsiʔiɬ,cədiɬ,waq’waq’]
+   morphemeGloss: [thrown–ics–pass=now,stat–gathered,Pr,unq,attn–offspring–3po attn–small,nm=stat–offspring–md=3po,dist:fem,s/he,frog]
+   english: Frog along with her little baby, the little one she had born, is thrown away.
+
+ - lineNumber: 130
+   startTime: 412532
+   endTime: 417900
+   lushootseed: huy ʔix̌ʷitəbəxʷ dxʷʔa, huˑy kʷaʔ ʔahəxʷ, gʷəl tucucutəxʷ tsiʔiɬ waq’waq’
+   morphemes: [huy,ʔix̌ʷi–t–b=axʷ,dxʷ–ʔa,huy,kʷaʔ,ʔa=axʷ,gʷəl,tu=cut–cut=axʷ,tsiʔiɬ,waq’waq’]
+   morphemeGloss: [sconj,thrown.at–ics–pass=now,cntrpt–be.there,sconj,ptcl,be.there=now,sconj,past=dstr–say=now,dist:fem,frog]
+   english: Then they are tossed there. Then there they are. And Frog talked and talked.
+
+# - lineNumber: 131
 #     startTime: 0
 #     endTime: 0
 #     lushootseed: huˑy kʷaʔ ʔahəxʷ
@@ -941,13 +941,13 @@ lines:
 #     morphemeGloss: [sconj,past=dstr–say=now,dist:fem,frog]
 #     english: And Frog talked and talked.
 #
-#   - lineNumber: 133
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: cucutəxʷ gʷəl cucutəxʷ
-#     morphemes: [cut–cut=axʷ,gʷəl,cut–cut=axʷ]
-#     morphemeGloss: [dstr–say=now,sconj,dstr–say=now]
-#     english: She talks on and on, on and on.
+ - lineNumber: 133
+   startTime: 417870
+   endTime: 424165
+   lushootseed: cucutəxʷ gʷəl cucutəxʷ gʷəl ƛ’əladiʔəxʷ ʔal ti sc’p’alič saʔ qʷuʔ
+   morphemes: [cut–cut=axʷ,gʷəl,cut–cut=axʷ,gʷəl,ƛ’əladiʔ=axʷ,ʔal,ti,sc’p’alič,saʔ,qʷuʔ]
+   morphemeGloss: [dstr–say=now,sconj,dstr–say=now,sconj,make.noise=now,at,spec,swamp,bad,water]
+   english: She talks on and on, on and on. And she makes noise in the swamp, in the bad water.
 #
 #   - lineNumber: 134
 #     startTime: 0
