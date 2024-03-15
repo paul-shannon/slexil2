@@ -31,7 +31,7 @@ class EafParser:
 		self.xmlFilename = xmlFilename
 		self.verbose = verbose
 		self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
-		assert(self.xmlValid())
+		valid = self.xmlValid()
 		self.doc = etree.parse(xmlFilename)
 		self.extractMetadata()
 		self.extractMediaInfo()
@@ -47,15 +47,17 @@ class EafParser:
 		#schemaFile = os.path.join(baseDir, "EAFv3.0.xsd")
 		#assert(os.path.isfile(schemaFile))
 		schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
-		
 		valid = False
-		try:
-			result = xmlschema.validate(self.xmlFilename, schemaFile)
-			valid = True
-		except xmlschema.validators.exceptions.XMLSchemaValidationError as e:
-			print("error")
-			print(e)
-		return(valid)
+		#try:
+		print("--- about to call xmlschema.validate")
+		xmlschema.validate(self.xmlFilename, schemaFile)
+		print("--- after call xmlschema.validate")
+		return(True)
+		#valid = True
+		#except xmlschema.validators.exceptions.XMLSchemaValidationError as e:
+	   #	print("error")
+		#	print(e)
+		#return(valid)
 
 		
 	#----------------------------------------------------------------------------------

@@ -337,7 +337,7 @@ class Text:
       with htmlDoc.tag("span", id="playbackSpeedLabel"):
          htmlDoc.text("Playback speed ")
       with htmlDoc.tag("form", action=""):
-         htmlDoc.stag("input",  type="range", min="0.25", max="1.25", value="1.0",
+         htmlDoc.stag("input",  type="range", min="0.25", max="2.0", value="1.0",
                      step="0.25", id="speedSelector", name="speedSelector")
          with htmlDoc.tag("div", id="playbackSpeedReadout"):
             htmlDoc.text("1.0")
@@ -495,7 +495,7 @@ def addFontSizeControls(htmlDoc):
       with htmlDoc.tag("label", id="playbackSpeedLabel"):
          htmlDoc.asis("Playback Speed &nbsp;")
       htmlDoc.input(name="speedSelector", type="range",
-                 min="0.25", max="1.25", value="1.0",
+                 min="0.25", max="2.0", value="1.0",
                  step="0.25", id="speedSelector")
       with htmlDoc.tag("div", id="playbackSpeedReadout"):
             htmlDoc.asis("1.0")

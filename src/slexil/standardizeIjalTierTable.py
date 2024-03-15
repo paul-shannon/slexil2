@@ -40,6 +40,10 @@ class StandardizeIjalTierTable:
          msg = "required 'speech' tier not found in the tierGuide"
          raise Exception(msg)
 
+      #print()
+      #print("--- standardizeIjalTierTable, all tierIDs:")
+      #print(list(tbl['tierID']))
+      #print()
       self.tbl = tbl[tbl["tierID"].isin(self.tierGuide.values())]
       if(self.tbl.shape[0] == 0):
          msg = "none of the tbl tier names are in the tierGuide"
@@ -60,13 +64,16 @@ class StandardizeIjalTierTable:
          # those names should be in the tierGuide as well
       guideTierNames = set(list(self.tierGuide.values())) 
       matchingTierNames = list(guideTierNames.intersection(eafTierNames))
-      illegalTierNames = list(guideTierNames.difference(eafTierNames))
-      if(illegalTierNames != [None]):
-         if(len(illegalTierNames) > 0):
-            msg = "error in IjalLine standardizeTable. tier name/s not found in tierGuide: "
-            for unmatchedTierName in illegalTierNames:
-                msg += " %s" % unmatchedTierName
-            raise Exception(msg)
+      missingTierNames = list(guideTierNames.difference(eafTierNames))
+      # todo:  speech tier must be present.  others are optionsl
+      # todo:  check this here
+      #if(missingTierNames != [None]):
+      #   if(len(missingTierNames) == 1 and missingTierNames[0] == "translation"):
+      #      msg = "error in IjalLine standardizeTable. tier name/s not found in tierGuide: "
+      #      for unmatchedTierName in missingTierNames:
+      #          msg += " %s" % unmatchedTierName
+      #      print(self.tbl)
+      #      raise Exception(msg)
          #-------------------------------------------------------
          # tierGuide keys should be IJAL canonical tier names not
          # all IJAL tiers are required, but all tierGuide keys

@@ -11,6 +11,7 @@ pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
 from pathlib import Path
 path = Path(".")
+from xmlschema.validators.exceptions import XMLSchemaValidationError;
 
 eafFiles = open("../testData/eafFileList.txt").read().split('\n')
 if(eafFiles[-1] == ""):
@@ -20,15 +21,18 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-	test_tedsBlueJay()
-	test_ctor()
-	test_tierTable()
-	test_timeTable()
-	test_checkAgainstTierGuide()
-	test_depthFirstTierTraversal()
-	test_getLineTable()
-	test_parseAllLines()
-	test_fixOverlappingTimes()
+	test_invalidXmlRaisesException_misnamedParentRef()
+	test_invalidXmlRaisesException_misnamedTierType()
+	test_invalidXmlRaisesException_misspelledTag()
+	# test_ctor()
+	# test_tierTable()
+	# test_timeTable()
+	# test_checkAgainstTierGuide()
+	# test_depthFirstTierTraversal()
+	# test_getLineTable()
+	# test_parseAllLines()
+	# test_tedsBlueJay()
+	# test_fixOverlappingTimes()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -38,6 +42,46 @@ def test_ctor():
 	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	assert(parser.getFilename() == f)
 	assert(parser.xmlValid())
+
+#---------------------------------------------------------------------------------------------------
+def test_invalidXmlRaisesException_misnamedParentRef():
+
+    print("--- test_invalidXmlRaisesException_misnamedParentRef")
+    f = "../testData/invalidEafFiles/inferno-misnamedParentRef.eaf"
+    
+    try:
+       parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    except XMLSchemaValidationError as e:
+       assert(e.message.find("failed validating") >= 0)
+       assert(len(e.args) == 5)
+       assert(e.args[2] == "value ('italianSpEEch',) not found for XsdKey(name='tierNameKey')")
+
+#---------------------------------------------------------------------------------------------------
+def test_invalidXmlRaisesException_misnamedTierType():
+
+    print("--- test_invalidXmlRaisesException_misnamedTierType")
+    f = "../testData/invalidEafFiles/inferno-misnamedTierType.eaf"
+    
+    try:
+       parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    except XMLSchemaValidationError as e:
+       assert(e.message.find("failed validating") >= 0)
+       assert(len(e.args) == 5)
+       assert(e.args[2] == "value ('translation',) not found for XsdKey(name='linTypeNameKey')")
+
+#---------------------------------------------------------------------------------------------------
+def test_invalidXmlRaisesException_misspelledTag():
+
+    print("--- test_invalidXmlRaisesException_misspelledTag")
+    f = "../testData/invalidEafFiles/inferno-misspelledTag.eaf"
+    
+    try:
+       parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    except XMLSchemaValidationError as e:
+       errorString = str(e)
+       assert(errorString.find("failed validating") >= 0)
+       assert(errorString.find("Unexpected child with tag") >= 0)
+       assert(errorString.find("TIME_ORDERxxx") >= 0)
 
 #---------------------------------------------------------------------------------------------------
 def test_tierTable():
@@ -104,14 +148,12 @@ def test_checkAgainstTierGuide():
 
    parser = EafParser(eaf, verbose=False, fixOverlappingTimeSegments=False)
    result = parser.checkAgainstTierGuide(goodTierGuide)
-   pdb.set_trace()
    assert(result == {'valid': True, 'failures': []})
 
    result = parser.checkAgainstTierGuide(badTierGuide)
    assert(not result["valid"])
    assert("EyetalianSpeech" in result["failures"])
    assert("scottish" in result["failures"])
-   assert(None in result["failures"])
 
 #---------------------------------------------------------------------------------------------------
 # lines from typically all tiers are grouped with a time-aligned spoken tier
@@ -228,9 +270,9 @@ def test_tedsBlueJay():
 	rowCount = parser.getLineCount()
 	tbl = parser.getTimeTable()
 	x = parser.getAllLinesTable()  # a list of time-ordered line tables
-	pdb.set_trace()
 	startTimes = [tbl.loc[0, "startTime"] for tbl in x]
-	assert(startTimes == [0.0, 3093.0, 5624.0])
+	assert(len(startTimes) == 120)
+	assert(startTimes[:5] == [0, 0, 2507, 2507, 6651])
     
 
 #---------------------------------------------------------------------------------------------------

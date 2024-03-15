@@ -14,10 +14,10 @@ venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 movieCurl:
-	curl -I https://slexildata.artsrn.ualberta.ca/tlingit/$(VID)
+	curl -I https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(VID)
 
 scp:
-	scp $(VID) pshannon@206.12.95.4:www/tlingit
+	scp $(VID) pshannon@206.12.95.4:www/$(LANGUAGE)
 	
 times:
 	python  ../../../utils/eafCheck.py --eaf $(EAF) --times
@@ -33,13 +33,13 @@ html:
 	                     --fontSizeControls
 
 publish:
-	scp index.html pshannon@206.12.95.4:www/tlingit/$(HTML.FILE)
+	scp index.html pshannon@206.12.95.4:www/$(LANGUAGE)/$(HTML.FILE)
 
 view:
 	open index.html
 
 viewRemote:
-	open https://slexildata.artsrn.ualberta.ca/tlingit/$(HTML.FILE)
+	open https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(HTML.FILE)
 
 eafscp:
-	scp $(EAF) pshannon@206.12.95.4:www/tlingit/eaf/
+	scp $(EAF) pshannon@206.12.95.4:www/$(LANGUAGE)/eaf/

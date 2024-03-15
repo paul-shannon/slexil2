@@ -16,6 +16,7 @@ default:
 	@echo stop
 	@echo clean
 	@echo logs
+	@echo checkAlberta
 
 venv:
 	source ~/github/slexil2/py3105/bin/activate
@@ -56,3 +57,7 @@ push:
 
 logs:
 	docker logs slexil2Container
+
+checkAlberta:
+	curl -L slexil.artsrn.ualberta.ca  | grep -i "<title>"
+	curl -L slexiltest.artsrn.ualberta.ca  | grep -i "<title>"
