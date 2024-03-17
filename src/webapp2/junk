@@ -1,0 +1,7 @@
+git add Dockerfile
+git add app/
+git add assets/
+git add junk
+git add makefile
+git add makefile-old
+git add requirements-versioned.txt
