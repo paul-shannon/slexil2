@@ -49,9 +49,11 @@ class EafParser:
 		schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
 		valid = False
 		#try:
-		print("--- about to call xmlschema.validate")
+		if(self.verbose):
+			print("--- about to call xmlschema.validate")
 		xmlschema.validate(self.xmlFilename, schemaFile)
-		print("--- after call xmlschema.validate")
+		if(self.verbose):
+			print("--- after call xmlschema.validate")
 		return(True)
 		#valid = True
 		#except xmlschema.validators.exceptions.XMLSchemaValidationError as e:

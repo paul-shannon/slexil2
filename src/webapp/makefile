@@ -16,7 +16,7 @@ default:
 	@echo stop
 	@echo clean
 	@echo logs
-	@echo checkAlberta
+#	@echo checkAlberta
 
 venv:
 	source ~/github/slexil2/py3105/bin/activate
