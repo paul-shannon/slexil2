@@ -4063,7 +4063,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation1"
-        PARENT_REF="utterance" TIER_ID="Translation">
+        PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2770" ANNOTATION_REF="a2766">
                 <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.</ANNOTATION_VALUE>

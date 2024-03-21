@@ -191,10 +191,14 @@ $(document).ready(function(){
 
     state.mediaPlayer.addEventListener("timeupdate", function (){
        tCurrent = Math.round(state.mediaPlayer.currentTime * 1000)
-       //console.log("    " + state.mediaPlayer.currentTime)
+       console.log("    " + state.mediaPlayer.currentTime)
+       console.log("     tCurrent: " + tCurrent)
+       console.log("    state.currentLine: " + state.currentLine)
        for(lineTimes of timeStamps){
           if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
-             var lineNumber = parseInt(lineTimes.id)
+              var lineNumber = parseInt(lineTimes.id)
+              console.log("         currentLine: " + lineNumber)
+              console.log("         lineNumber: " + lineNumber)
              if (lineNumber != state.currentLine){ // only if new line
                  state.currentLine = lineNumber;
                  scrollAndHighlight(lineNumber)

@@ -12,6 +12,10 @@ class TierGuide:
      self.filename = filename
      with open(filename, 'r') as f:
          self.tg = yaml.safe_load(f)
+     for key in self.tg.keys():
+        valueList = self.tg[key].split(",")
+        if(len(valueList)) > 1:
+           self.tg[key] =  [x.strip() for x in valueList]
 
   def getGuide(self):
      return self.tg

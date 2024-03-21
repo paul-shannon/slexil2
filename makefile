@@ -1,5 +1,6 @@
 default:
 	@echo venv
+	@echo requirements
 	@echo install
 	@echo install-via-setup
 	@echo check
@@ -9,6 +10,9 @@ default:
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+
+requirements:
+	pip install -r requirements.txt
 
 install:
 	pip install . --upgrade

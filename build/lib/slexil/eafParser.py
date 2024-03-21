@@ -31,14 +31,14 @@ class EafParser:
 		self.xmlFilename = xmlFilename
 		self.verbose = verbose
 		self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
-		assert(self.xmlValid())
+		valid = self.xmlValid()
 		self.doc = etree.parse(xmlFilename)
 		self.extractMetadata()
 		self.extractMediaInfo()
 		self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
 		self.constructTierTable()
 		self.constructTimeTable()
-		# self.parseAllLines()
+		self.parseAndSortAllLines()
 
 	#----------------------------------------------------------------------------------
 	def xmlValid(self):
@@ -47,15 +47,19 @@ class EafParser:
 		#schemaFile = os.path.join(baseDir, "EAFv3.0.xsd")
 		#assert(os.path.isfile(schemaFile))
 		schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
-		
 		valid = False
-		try:
-			result = xmlschema.validate(self.xmlFilename, schemaFile)
-			valid = True
-		except xmlschema.validators.exceptions.XMLSchemaValidationError as e:
-			print("error")
-			print(e)
-		return(valid)
+		#try:
+		if(self.verbose): 
+ 			print("--- about to call xmlschema.validate")
+		xmlschema.validate(self.xmlFilename, schemaFile)
+		if(self.verbose): 
+ 			print("--- after call to xmlschema.validate")
+		return(True)
+		#valid = True
+		#except xmlschema.validators.exceptions.XMLSchemaValidationError as e:
+	   #	print("error")
+		#	print(e)
+		#return(valid)
 
 		
 	#----------------------------------------------------------------------------------
@@ -196,6 +200,10 @@ class EafParser:
 		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 
+         # sort these times, and the row numbers (indices)
+		tbl = tbl.sort_values(by="start")
+		tbl.reset_index(inplace=True, drop=True)
+
 			# to ensure clean single line playback, the start time of the
          # n+1 line must be larger than the end time of the nth line.
          # find offenders here and fix them
@@ -250,16 +258,14 @@ class EafParser:
 		endTime = self.timeTable[self.timeTable['t2'] == timeSlotRefEnd]["end"].tolist()[0]
 		contents = xValue.text
 		tbl = pd.DataFrame({"id": alignedID,
-							"parent": "",
-							"startTime": startTime,
-							"endTime": endTime,
-							"tierID": tierID,
-							"tierType": tierType,
-							"text": contents}, index=[0])
+                          "parent": "",
+                          "startTime": startTime,
+							     "endTime": endTime,
+							     "tierID": tierID,
+							     "tierType": tierType,
+							     "text": contents}, index=[0])
 		
 		childIDs = self.depthFirstTierTraversal(parentID)
-		#pattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF='%s']" % alignedID
-		#children = self.doc.findall(pattern)
 		for childID in childIDs:
 			searchPattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID='%s']" %  childID
 			#print("childID: %s  searchPattern: %s" % (childID, searchPattern))
@@ -273,8 +279,6 @@ class EafParser:
 			nextRow = tbl.shape[0]
 			tbl.loc[nextRow] = {"id": childID,
 								"parent": parentID,
-#								"startTime": "",
-#								"endTime": "",
 								"tierType": tierType,
 								"tierID": tierID,
 								"text": childContents}
@@ -283,7 +287,7 @@ class EafParser:
 		return(tbl)
 		
 	#----------------------------------------------------------------------------------
-	def parseAllLines(self):
+	def parseAndSortAllLines(self):
 
 		self.linesAll = list()
 
@@ -296,6 +300,7 @@ class EafParser:
 			return(tbl.loc[0].startTime)
 
 		self.linesAll.sort(reverse=False, key=sortFunction)
+
 		
 	#----------------------------------------------------------------------------------
 
