@@ -247,16 +247,75 @@ lines:
     morphemeGloss: [past=say=now,prox,here,prox,attn–mink,I,rem,irr=indoors–pass]
     english: Little Mink said,  I am the one who will enter the building.
 
-  
-#
-#  - lineNumber: 37
-#    startTime: 0
-#    endTime: 0
-#    lushootseed: (37) ɬuləʔux̌w čəd dxwʔal kwi siʔab ʔabsləx̌il
+  - lineNumber: 32
+    startTime: 165000
+    endTime: 168480
+    lushootseed: kayiɬ čəd ɬuləluluƛ’ ɬasqʷəlubus
+    morphemes: [kayiɬ,čəd,ɬu=lə=lu–luƛ’,ɬu=ʔas–qʷəlub•us]
+    morphemeGloss: [pretend,1sg.sub,irr=prog=attn–old,irr=stat–grey.hair•head]
+    english: I will pretend to be old and grey.
+
+  - lineNumber: 33
+    startTime: 169080
+    endTime: 172445
+    lushootseed: ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd
+    morphemes: [ɬu=ʔas–x̌ʷal’,ɬu=ʔas–ck’usəd,ɬu=hədʔiw’–b=ad]
+    morphemeGloss: [irr=stat–fail,irr=stat–walking.stick,irr=indoors–md=1sg.sbrd]
+    english: Feebly, using a cane I will go in.
+
+
+  - lineNumber: 33
+    startTime: 173888
+    endTime: 178872
+    lushootseed: ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ
+    morphemes: [ɬu=lə=ʔux̌ʷ,čəd,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il,dəxʷ=ʔaʔ,kʷi,ɬu=d=s=ʔaʔ]
+    morphemeGloss: [irr=prog=go,1sg.sub,cntrpt–at,rem,noble,stat–prop–daylight,adnm=be.there,rem,irr=1sg.po=nm=be.there]
+    english: I will go to the nobleman who has the daylight. There is where I will be.
+
+  - lineNumber: 34
+    startTime: 180422
+    endTime: 184118
+    lushootseed: cuuc tiʔəʔ qaw’qs ɬuʔal tiʔəʔ diʔəʔ kʷi ɬudsʔacəc
+    morphemes: [cut–c,tiʔəʔ,qaw’qs,ɬu=ʔal,tiʔəʔ,diʔəʔ,kʷi,ɬu=d=s=ʔacəc]
+    morphemeGloss: [say–altv,prox,raven,irr=at,prox,here,rem,irr=1sg.po=nm=be.in.place]
+    english: Raven says to him, I will be at this place here.
+
+
+#   - lineNumber: 
+#     startTime: 
+#     endTime: 
+#     lushootseed: 
+#     morphemes: 
+#     morphemeGloss: 
+#     english: 
+# 
+#   - lineNumber: 
+#     startTime: 
+#     endTime: 
+#     lushootseed: 
+#     morphemes: 
+#     morphemeGloss: 
+#     english: 
+# 
+#   - lineNumber: 
+#     startTime: 
+#     endTime: 
+#     lushootseed: 
+#     morphemes: 
+#     morphemeGloss: 
+#     english: 
+
+
+
+
+
+
+
+#    lushootseed:  ɬuləʔux̌w čəd dxwʔal kwi siʔab ʔabsləx̌il
 #    morphemes: [ɬu=lə=ʔux̌w čəd dxw–ʔal kwi siʔab ʔas–bəs–sləx̌il]
 #    morphemeGloss: [irr=prog=go 1sg.sub cntrpt–at rem noble stat–prop–daylight]
 #    english: I will go to the nobleman who has the daylight.
-#
+
 #
 #  - lineNumber: 44
 #    startTime: 0

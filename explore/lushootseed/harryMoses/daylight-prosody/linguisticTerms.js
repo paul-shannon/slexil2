@@ -276,6 +276,14 @@ then IRR=come–ALTV–1PL.OBJ PL
 
 (Hess 2006: 72, line 712)
 
+<pre>
+cuuc tiʔəʔ qaw’qs
+[cut–c,tiʔəʔ,qaw’qs]
+[say–altv,prox,raven]
+Raven says to him
+</pre>
+(Harry Moses, Daylight, pshannon line 34)
+
 <details><summary>Applicative affix</summary>
 <p>
 
