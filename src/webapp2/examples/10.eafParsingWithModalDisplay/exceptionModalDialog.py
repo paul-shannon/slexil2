@@ -1,6 +1,7 @@
 from dash import html, Dash, callback, dcc, Input, Output
 import io, traceback
 import dash_bootstrap_components as dbc
+from slexil.eafParser import EafParser
 
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
@@ -13,7 +14,7 @@ modalDiv = html.Div(
     [dbc.Modal([
          dbc.ModalHeader(dbc.ModalTitle("SLEXIL Notification"), close_button=True),
          #dbc.ModalBody("Hi, i'm a modal", id='mainBody'),
-         dbc.ModalBody("", id='placeholderModal'),
+         dbc.ModalBody("", id='modalContents'),
                        #style={"overflow": "auto", "width":"800px"}),
          dbc.ModalFooter(
              dbc.Button("Close", id="closeButton", className="ms-auto",n_clicks=0,))],
@@ -23,12 +24,8 @@ modalDiv = html.Div(
          size="lg",
          fullscreen=False,
          scrollable=True,
-         ),
-     ],
-    )
+         )])
 #-------------------------------------------------------
-
-
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 buttonStyle={"margin": "10px", "padding": "20px"}
@@ -37,15 +34,12 @@ app.layout = html.Div([
     html.Button("Modulo zero", id="moduloZeroButton", n_clicks=0, style=buttonStyle),
     html.Button("Good EAF",   id="goodEafButton", n_clicks=0, style=buttonStyle),
     html.Button("Broken EAF", id="brokenEafButton", n_clicks=0, style=buttonStyle),
-    modalDiv
-    ],
-                      style={"margin": "50px"})
-
-
+    modalDiv],
+    style={"margin": "50px"})
 #----------------------------------------------------------------------
 @callback(
    Output('slexilModal', 'is_open', allow_duplicate=True),
-   Output('placeholderModal', 'children', allow_duplicate=True),
+   Output('modalContents', 'children', allow_duplicate=True),
    Input('moduloZeroButton', 'n_clicks'),
    prevent_initial_call=True
    )
@@ -57,7 +51,7 @@ def trigger_dynamic_modal(n_clicks):
       x = 5 / divisor
    except Exception as e:
       modalOpen = True
-      modalContents = get_exception_traceback_str(e)
+      modalContents = html.Pre(get_exception_traceback_str(e))
    return modalOpen, modalContents
 #----------------------------------------------------------------------
 @callback(
@@ -70,22 +64,41 @@ def close_modal(_):
 #----------------------------------------------------------------------
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
-    Output('placeholderModal', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
     Input('goodEafButton', 'n_clicks'),
     prevent_initial_call=True
     )
 def handleGoodEAF(n_clicks):
-    return False, ""
+    success = True
+    f = "inferno-threeLines.eaf"
+    try:
+       parser = EafParser(f, verbose=True, fixOverlappingTimeSegments=False)
+       tbl = parser.getTierTable()
+       #dashTable = dash_table.DataTable(tbl.to_dict('records'),
+       #                                 [{"name": i, "id": i} for i in tbl.columns])
+       return True, "good eaf? %s %s" % (success, f)
+    except BaseException as e:
+       success = False
+       print("--- exception caught")
+       print(e.args[2])
 
 #----------------------------------------------------------------------
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
-    Output('placeholderModal', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
     Input('brokenEafButton', 'n_clicks'),
     prevent_initial_call=True
     )
 def handleGoodEAF(n_clicks):
-    return True, "this is a broken eaf"
+    success = True
+    f = "inferno-misnamedParentRef.eaf"
+    try:
+       parser = EafParser(f, verbose=True, fixOverlappingTimeSegments=False)
+       return True, "%s is a legal eaf" % f
+    except BaseException as e:
+       success = False
+       modalContents = get_exception_traceback_str(e)
+       return True, html.Pre(modalContents)
 
 #----------------------------------------------------------------------
 if __name__ == '__main__':
