@@ -948,6 +948,6 @@ def createZipFile(projectDir, projectTitle):
 
 # ----------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    port = 80
+    port = 8080
     print("starting main.py on port %d" % port)
     app.run(host='0.0.0.0', debug=True, port=port)
