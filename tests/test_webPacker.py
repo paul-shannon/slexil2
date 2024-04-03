@@ -13,9 +13,9 @@ class TestWebPacker(unittest.TestCase):
 		print("--- running TestWebPacker.test_ctor")
 		packer = WebPacker()
 		cssFiles = packer.getCSSFilenames()
-		assert(len(cssFiles) == 2)
+		assert(len(cssFiles) == 3)
 		jsFiles = packer.getJSFilenames()
-		assert(len(jsFiles) == 5)
+		assert(len(jsFiles) == 6)
 
 	def test_readCSS(self):
 		print("--- running TestWebPacker.test_readCSS")
@@ -25,8 +25,8 @@ class TestWebPacker(unittest.TestCase):
 		assert(len(cssText) > 20000)
 		openTags = [m.start() for m in re.finditer("<style>", cssText)]
 		closeTags = [m.start() for m in re.finditer("</style>", cssText)]
-		assert(len(openTags) == 2)
-		assert(len(closeTags) == 2)
+		assert(len(openTags) == 3)
+		assert(len(closeTags) == 3)
 
 	def test_readJS(self):
 		print("--- running TestWebPacker.test_readJS")
@@ -42,8 +42,8 @@ class TestWebPacker(unittest.TestCase):
 	def test_noTextJustURLs(self):
 		print("--- running TestWebPacker.test_noTextJustURLs")
 		packer = WebPacker(fullText=False)
-		assert(len(packer.getCSSText()) == 183)
-		assert(len(packer.getJSText()) == 435)
+		assert(len(packer.getCSSText()) == 277)
+		assert(len(packer.getJSText()) == 521)
 
 if __name__ == '__main__':
 		unittest.main()

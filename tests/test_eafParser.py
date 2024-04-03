@@ -22,23 +22,23 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-    test_parsingSpeed()
+	test_parsingSpeed()
     # test_lineToYAML()
     # test_toYAML()
-	# test_invalidXmlRaisesException_misnamedParentRef()
-	# test_invalidXmlRaisesException_misnamedTierType()
-	# test_invalidXmlRaisesException_misspelledTag()
-	# test_ctor()
-	# test_tierTable()
-	# test_timeTable()
-	# test_checkAgainstTierGuide()
-	# test_depthFirstTierTraversal()
-	# test_getLineTable()
-	#test_parseAllLines()
-	# test_sortLinesByTime_inferno()
-	# test_sortLinesByTime_natalia()
-	# test_tedsBlueJay()
-	# # test_fixOverlappingTimes()  # very slow
+	test_invalidXmlRaisesException_misnamedParentRef()
+	test_invalidXmlRaisesException_misnamedTierType()
+	test_invalidXmlRaisesException_misspelledTag()
+	test_ctor()
+	test_tierTable()
+	test_timeTable()
+	test_checkAgainstTierGuide()
+	test_depthFirstTierTraversal()
+	test_getLineTable()
+	test_parseAllLines()
+	test_sortLinesByTime_inferno()
+	test_sortLinesByTime_natalia()
+	test_tedsBlueJay()
+	 # test_fixOverlappingTimes()  # very slow
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -53,7 +53,7 @@ def test_ctor():
 def test_parsingSpeed():
 
     print("--- test_parsingSpeed")
-    f = "../testData/invalidEafFiles/doreco_arap1274_20_Crawford.eaf"
+    f = "../testData/validEafFiles/084_TheWomanOfTheWater-DonkeyTiger.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
     
 
@@ -242,7 +242,6 @@ def test_parseAllLines():
 	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	assert(parser.getLineCount() == 3)
 	x = parser.getAllLinesTable()  # a list of time-ordered line tables
-	pdb.set_trace()
 	startTimes = [tbl.loc[0, "startTime"] for tbl in x]
 	assert(startTimes == [0.0, 3093.0, 5624.0])
 

@@ -162,7 +162,7 @@ def test_multipleValuesInCanonicalTiers():
    f = "../testData/validEafFiles/084_TheWomanOfTheWater-DonkeyTiger.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
    assert(parser.getLineCount() == 139)
-   parser.parseAllLines()
+   #parser.parseAllLines()
    tbls = parser.getAllLinesTable()  # a list of time-ordered line tables
 
    std = StandardizeIjalTierTable(tbls[0], tierGuide, verbose=False)

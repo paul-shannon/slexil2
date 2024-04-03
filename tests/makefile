@@ -7,8 +7,8 @@ default:
 	@echo text
 	@echo morphemeGloss
 	@echo listTiers
-	@echo tierNamingBug
 	@echo standardizeIjalTierTable
+	@echo xmlFileUtils
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
@@ -16,7 +16,7 @@ venv:
 dev:
 	python -m unittest test_eafParser.py
 
-all: webPacker eafParser ijalLine text morphemeGloss standardizeIjalTierTable
+all: webPacker eafParser ijalLine text morphemeGloss standardizeIjalTierTable xmlFileUtils
 
 webPacker:
 	python -m unittest test_webPacker.py 
@@ -66,3 +66,6 @@ tierNamingBug:
 
 standardizeIjalTierTable:
 	python test_standardizeIjalTierTable.py
+
+xmlFileUtils:
+	python test_XmlFileUtils.py

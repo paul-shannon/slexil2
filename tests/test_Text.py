@@ -61,9 +61,9 @@ def test_inferno_speechOnly():
 	htmlText = text.toHTML()
 	htmlText_indented = yattag.indent(htmlText)
 
-	   # 3 lines, speech only
+	   # 3 lines of speech, one jquery pattern
 	pattern = re.compile('speech-tier"')
-	assert(len(pattern.findall(htmlText)) == 3)
+	assert(len(pattern.findall(htmlText)) == 4)
 
 	   # should be no other tiers
 	pattern = re.compile('-tier">')
