@@ -22,7 +22,6 @@ eafDir = "eafs"
 files = os.listdir(eafDir)
 eafFiles = [f for f in files if f.endswith("eaf")]
 eafFiles.sort()
-print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
@@ -49,7 +48,7 @@ dashApp.layout = html.Div(id="mainDiv",
                          dcc.Dropdown(eafFiles,
                                       # 'inferno-threeLines.eaf',
                                       id='eafChooser',
-                                      style={"width": "400px", "font-size": "18px"}),
+                                      style={"width": "400px"}),
                          html.Button("Summarize EAF", id="summarizeEafButton", n_clicks=0, style=buttonStyle),
                          dcc.Loading(
                              id="modalLoadWatcher",
@@ -111,5 +110,5 @@ def close_modal(_):
     return False
 #----------------------------------------------------------------------
 if __name__ == '__main__':
-    port = 9018
+    port = 80
     dashApp.run(host='0.0.0.0', debug=True, port=port)

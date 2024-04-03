@@ -191,14 +191,14 @@ $(document).ready(function(){
 
     state.mediaPlayer.addEventListener("timeupdate", function (){
        tCurrent = Math.round(state.mediaPlayer.currentTime * 1000)
-       console.log("    " + state.mediaPlayer.currentTime)
-       console.log("     tCurrent: " + tCurrent)
-       console.log("    state.currentLine: " + state.currentLine)
+       //console.log("    " + state.mediaPlayer.currentTime)
+       //console.log("     tCurrent: " + tCurrent)
+       //console.log("    state.currentLine: " + state.currentLine)
        for(lineTimes of timeStamps){
           if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
               var lineNumber = parseInt(lineTimes.id)
-              console.log("         currentLine: " + lineNumber)
-              console.log("         lineNumber: " + lineNumber)
+              //console.log("         currentLine: " + lineNumber)
+              //console.log("         lineNumber: " + lineNumber)
              if (lineNumber != state.currentLine){ // only if new line
                  state.currentLine = lineNumber;
                  scrollAndHighlight(lineNumber)
@@ -209,8 +209,8 @@ $(document).ready(function(){
         if (!mediaContinuousPlay &&
                mediaSegmentEnd &&
                state.mediaPlayer.currentTime >= mediaSegmentEnd){
-          console.log("stop: "  + state.mediaPlayer.currentTime.toFixed(4) +
-                       " >= " + mediaSegmentEnd.toFixed(4))
+          //console.log("stop: "  + state.mediaPlayer.currentTime.toFixed(4) +
+          //             " >= " + mediaSegmentEnd.toFixed(4))
           state.mediaPlayer.pause();
           mediaContinuousPlay=true;
           } // reached end
@@ -271,11 +271,11 @@ function playMediaSegment(mediaID, startTime, endTime)
 
    mediaSegmentEnd = endTime;
     if (!!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)){
-       console.log(" *** safari using fastSeek")
+       //console.log(" *** safari using fastSeek")
        state.mediaPlayer.fastSeek(startTime)
     	 }
 	 else{
-       console.log(" *** NOT safari, using currentTime")
+       //console.log(" *** NOT safari, using currentTime")
        state.mediaPlayer.currentTime = startTime
        }
    state.mediaPlayer.play();

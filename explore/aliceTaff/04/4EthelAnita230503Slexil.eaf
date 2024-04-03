@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/4EthelAnita.mov"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./4EthelAnita.mov"/>
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/4EthelAnita.m4v"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./4EthelAnita.m4v"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:59ffb1b8-9736-4c3d-b0c9-ea876ac8d120</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">2192</PROPERTY>
     </HEADER>
@@ -887,7 +887,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts875" TIME_VALUE="1718633"/>
         <TIME_SLOT TIME_SLOT_ID="ts876" TIME_VALUE="1723169"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Utterance">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a624"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -3518,7 +3518,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="Utterance" TIER_ID="Translation">
+        PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1438" ANNOTATION_REF="a624">
                 <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities. </ANNOTATION_VALUE>
@@ -5711,7 +5711,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="Utterance" TIER_ID="Speaker Initials">
+        PARENT_REF="utterance" TIER_ID="Speaker Initials">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1739" ANNOTATION_REF="a624">
                 <ANNOTATION_VALUE>ḴʼSAW = Ḵʼasa See Anita Wright. DEM = Daasdiyáa Ethel Makinen. KRL = Koolyéik Roberta Littlefield</ANNOTATION_VALUE>

@@ -135,7 +135,6 @@ class Text:
       self.mediaInfo = parser.getMediaInfo()
       self.lineTables = parser.getAllLinesTable() 
       self.startStopTable = parser.getTimeTable()
-      pdb.set_trace()
       self.eafParser = parser
 
    #--------------------------------------------------------------------------------   

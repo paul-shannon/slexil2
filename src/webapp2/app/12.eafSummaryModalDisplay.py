@@ -4,13 +4,16 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from slexil.eafParser import EafParser
 dbcStyle = dbc.themes.BOOTSTRAP
-styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
+#styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
+styleSheets = [dbcStyle]
 
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
-                external_stylesheets=styleSheets)
+                external_stylesheets=external_stylesheets)
 dashApp.title = "input with button"
 
+app = Dash(external_stylesheets=styleSheets)
+app.title = "EAF Summaries"   
 #buttonStyle={"margin": "10px", "padding": "20px"}
 buttonStyle = {"margin": "20px",
               "font-size": "20px",
@@ -22,7 +25,6 @@ eafDir = "eafs"
 files = os.listdir(eafDir)
 eafFiles = [f for f in files if f.endswith("eaf")]
 eafFiles.sort()
-print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
@@ -49,7 +51,7 @@ dashApp.layout = html.Div(id="mainDiv",
                          dcc.Dropdown(eafFiles,
                                       # 'inferno-threeLines.eaf',
                                       id='eafChooser',
-                                      style={"width": "400px", "font-size": "18px"}),
+                                      style={"width": "400px"}),
                          html.Button("Summarize EAF", id="summarizeEafButton", n_clicks=0, style=buttonStyle),
                          dcc.Loading(
                              id="modalLoadWatcher",
@@ -111,5 +113,5 @@ def close_modal(_):
     return False
 #----------------------------------------------------------------------
 if __name__ == '__main__':
-    port = 9018
+    port = 80
     dashApp.run(host='0.0.0.0', debug=True, port=port)

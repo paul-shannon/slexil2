@@ -303,5 +303,46 @@ class EafParser:
 
 		
 	#----------------------------------------------------------------------------------
+	def lineToYAML(self, tbl, lineNumber):
 
+		rowCount = tbl.shape[0]
+		textOut = []
+		textOut.append("  - lineNumber: %d" % lineNumber)
+		textOut.append("    startTime: %d"  % tbl.loc[0]['startTime'])
+		textOut.append("    endTime: %d"  % tbl.loc[0]['endTime'])
+		#tierName = tbl.loc[0]['tierID']
+		#textOut.append("    %s: %s"  % (tierName, tbl.loc[0]['text']))
+		for row in range(0, rowCount):
+			tierName = tbl.loc[row]['tierID']
+			rawText = tbl.loc[row]['text']
+			tabsFound = rawText.find("\t") > 0
+			if tabsFound:
+				text = str(rawText.split("\t"))
+				text = text.replace("'", "")
+				text = text.replace(" ", "")
+			else:
+				text = rawText
+			textOut.append("    %s: %s" % (tierName, text))
+		return textOut
+        
 
+	#----------------------------------------------------------------------------------
+	def toYAML(self, title, narrator, textEntry, outputFilename):
+
+		textOut = []
+		textOut.append("title: %s" % title)
+		textOut.append("narrator: %s" % narrator)
+		textOut.append("textEntry: %s" % textEntry)
+		textOut.append("mediaFile: %s" % self.mediaURL)
+		textOut.append("mimeType: %s" % self.mediaMimeType)
+		textOut.append("lines:")
+		lineNumber = 1
+		for tbl in self.getAllLinesTable():
+			newLines = self.lineToYAML(tbl, lineNumber)
+			textOut.extend(newLines)
+			lineNumber += 1
+      
+		print("--- writing %d lines to %s" % (len(textOut), outputFilename))
+		with open(outputFilename, 'w') as f:
+			f.writelines(s + '\n' for s in textOut)
+     

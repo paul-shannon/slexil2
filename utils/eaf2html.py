@@ -6,7 +6,7 @@ import yattag  # only for indent method
 import pdb
     
 #----------------------------------------------------------------------------------------------------
-parser = argparse.ArgumentParser(prog='toHTML.py',
+parser = argparse.ArgumentParser(prog='eaf2html.py',
           description='creates interactive webpage from eaf xml')
 
 #parser.add_argument('-f', '--eaf')
