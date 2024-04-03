@@ -1,5 +1,47 @@
 linguistics = {
 
+"ATTN":
+`
+ATTN: attenuative, reduced degree of a quality
+
+<p>
+From <a href="https://typologyatcrossroads.unibo.it/article/view/13427" target="_blank">Small Events</a>:
+<p>
+
+Diminutives are typically nouns. However, verbs can also be
+diminutivised, i.e. marked for reduced intensity, duration,
+seriousness or success of the action or event. This paper is a first
+attempt at a typology of verbal diminutives, based on a balanced
+sample of 248 languages. We discuss the analytical and terminological
+challenges that arise from the study of a category that is not widely
+recognised and does not have an established place in grammatical
+descriptions. Our sample shows that verbal diminutives occur across
+the world, with a slightly higher predominance in the Americas and
+somewhat fewer cases in Africa. Among the language families,
+Austronesian has the highest percentage of verbal diminutives in our
+sample. We present our results for the various formal exponents of
+verbal diminution on the one hand and the array of semantic effects on
+the other. Meanings are separated into three categories: attenuation
+in quantity, attenuation in quality and affective meanings. In many
+cases, markers of verbal diminution encode additional meanings, some
+of which contradict the core meaning of attenuation by expressing
+intensity, durativity or iteration. Such apparent paradoxes have
+parallels in nominal diminutives.
+
+
+From [LA Basket Ogress, line 121]
+- ʔuɬəgʷəɬ čəɬ ti kikəwič
+- ʔu–ɬəgʷəɬ čəɬ ti kikəwič
+- PFV–leave.behind 1PL.SUB DEF ATTN–hunchback
+- ‘we left Little Hunchback behind’
+
+Another attenuative morpheme? _kik_:
+-  _kíkəwìč_  &nbsp; Little Hunchback
+-  _ʔəskíksəč_ &nbsp; small crest
+-  compare _ʔəskísəč_  &nbsp; hair *standing on end
+
+`,
+
 "-b":
 `
 - _-b_: -LD 32
@@ -275,6 +317,14 @@ then IRR=come–ALTV–1PL.OBJ PL
 </pre>
 
 (Hess 2006: 72, line 712)
+
+<pre>
+cuuc tiʔəʔ qaw’qs
+[cut–c,tiʔəʔ,qaw’qs]
+[say–altv,prox,raven]
+Raven says to him
+</pre>
+(Harry Moses, Daylight, pshannon line 34)
 
 <details><summary>Applicative affix</summary>
 <p>

@@ -38,7 +38,7 @@ class EafParser:
 		self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
 		self.constructTierTable()
 		self.constructTimeTable()
-		# self.parseAllLines()
+		self.parseAndSortAllLines()
 
 	#----------------------------------------------------------------------------------
 	def xmlValid(self):
@@ -49,11 +49,11 @@ class EafParser:
 		schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
 		valid = False
 		#try:
-		if(self.verbose):
-			print("--- about to call xmlschema.validate")
+		if(self.verbose): 
+ 			print("--- about to call xmlschema.validate")
 		xmlschema.validate(self.xmlFilename, schemaFile)
-		if(self.verbose):
-			print("--- after call xmlschema.validate")
+		if(self.verbose): 
+ 			print("--- after call to xmlschema.validate")
 		return(True)
 		#valid = True
 		#except xmlschema.validators.exceptions.XMLSchemaValidationError as e:
@@ -200,6 +200,10 @@ class EafParser:
 		tbl.columns = ["lineID", "t1", "start", "t2", "end"]
 		tbl = tbl[["lineID", "start", "end", "t1", "t2"]]
 
+         # sort these times, and the row numbers (indices)
+		tbl = tbl.sort_values(by="start")
+		tbl.reset_index(inplace=True, drop=True)
+
 			# to ensure clean single line playback, the start time of the
          # n+1 line must be larger than the end time of the nth line.
          # find offenders here and fix them
@@ -254,16 +258,14 @@ class EafParser:
 		endTime = self.timeTable[self.timeTable['t2'] == timeSlotRefEnd]["end"].tolist()[0]
 		contents = xValue.text
 		tbl = pd.DataFrame({"id": alignedID,
-							"parent": "",
-							"startTime": startTime,
-							"endTime": endTime,
-							"tierID": tierID,
-							"tierType": tierType,
-							"text": contents}, index=[0])
+                          "parent": "",
+                          "startTime": startTime,
+							     "endTime": endTime,
+							     "tierID": tierID,
+							     "tierType": tierType,
+							     "text": contents}, index=[0])
 		
 		childIDs = self.depthFirstTierTraversal(parentID)
-		#pattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_REF='%s']" % alignedID
-		#children = self.doc.findall(pattern)
 		for childID in childIDs:
 			searchPattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID='%s']" %  childID
 			#print("childID: %s  searchPattern: %s" % (childID, searchPattern))
@@ -277,8 +279,6 @@ class EafParser:
 			nextRow = tbl.shape[0]
 			tbl.loc[nextRow] = {"id": childID,
 								"parent": parentID,
-#								"startTime": "",
-#								"endTime": "",
 								"tierType": tierType,
 								"tierID": tierID,
 								"text": childContents}
@@ -287,7 +287,7 @@ class EafParser:
 		return(tbl)
 		
 	#----------------------------------------------------------------------------------
-	def parseAllLines(self):
+	def parseAndSortAllLines(self):
 
 		self.linesAll = list()
 
@@ -300,7 +300,49 @@ class EafParser:
 			return(tbl.loc[0].startTime)
 
 		self.linesAll.sort(reverse=False, key=sortFunction)
+
 		
 	#----------------------------------------------------------------------------------
+	def lineToYAML(self, tbl, lineNumber):
 
+		rowCount = tbl.shape[0]
+		textOut = []
+		textOut.append("  - lineNumber: %d" % lineNumber)
+		textOut.append("    startTime: %d"  % tbl.loc[0]['startTime'])
+		textOut.append("    endTime: %d"  % tbl.loc[0]['endTime'])
+		#tierName = tbl.loc[0]['tierID']
+		#textOut.append("    %s: %s"  % (tierName, tbl.loc[0]['text']))
+		for row in range(0, rowCount):
+			tierName = tbl.loc[row]['tierID']
+			rawText = tbl.loc[row]['text']
+			tabsFound = rawText.find("\t") > 0
+			if tabsFound:
+				text = str(rawText.split("\t"))
+				text = text.replace("'", "")
+				text = text.replace(" ", "")
+			else:
+				text = rawText
+			textOut.append("    %s: %s" % (tierName, text))
+		return textOut
+        
 
+	#----------------------------------------------------------------------------------
+	def toYAML(self, title, narrator, textEntry, outputFilename):
+
+		textOut = []
+		textOut.append("title: %s" % title)
+		textOut.append("narrator: %s" % narrator)
+		textOut.append("textEntry: %s" % textEntry)
+		textOut.append("mediaFile: %s" % self.mediaURL)
+		textOut.append("mimeType: %s" % self.mediaMimeType)
+		textOut.append("lines:")
+		lineNumber = 1
+		for tbl in self.getAllLinesTable():
+			newLines = self.lineToYAML(tbl, lineNumber)
+			textOut.extend(newLines)
+			lineNumber += 1
+      
+		print("--- writing %d lines to %s" % (len(textOut), outputFilename))
+		with open(outputFilename, 'w') as f:
+			f.writelines(s + '\n' for s in textOut)
+     

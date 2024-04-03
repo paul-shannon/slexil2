@@ -33,9 +33,9 @@ html:
                        --helpButtonLabel About \
                        --kbFilename kb.js \
                        --linguistics linguisticTerms.js \
-                       --webpackLinksOnly 
+                       --webpackLinksOnly \
+                       --verbose
 #                       --toolTips
-#                       --verbose
 #			   --start 31 --end 33
 
 css:

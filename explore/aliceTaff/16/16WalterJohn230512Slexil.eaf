@@ -6128,7 +6128,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="utterance" TIER_ID="tanslation">
+        PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5784" ANNOTATION_REF="a5783">
                 <ANNOTATION_VALUE/>

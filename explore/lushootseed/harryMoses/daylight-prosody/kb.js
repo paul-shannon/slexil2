@@ -2,6 +2,60 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ɬu=ʔas–qʷəlub•us":
+`
+_ɬu=ʔas–qʷəlub•us_
+
+I hear: luck qwuh LOBE us
+
+- _ɬu=_ &nbsp; IRR 
+- _ʔas_ &nbsp; STAT
+- _qʷəlub_ &nbsp;  grey hair
+- _us_ &nbsp; head (lexical suffix?)
+`,
+
+"ɬu=lə=lu–luƛ’":
+`
+_ɬu=lə=lu–luƛ’_
+irr=prog=attn–old
+
+I hear: too-loak
+
+- ɬu: IRR (irrealis)
+- lə: PROG (progressive)
+- lu: ATTN (attenuative)
+- luƛ’: old, old person
+
+Examples:
+
+- ʔiɬlúƛ' &nbsp; older, oldest
+- luƛ' &nbsp; old, old person
+- ʔiɬlúƛ' &nbsp; (the) *older, oldest
+- luƛ'əb &nbsp; grow old
+- luƛ'il &nbsp; grow up
+- lúƛ'luƛ' &nbsp; elders; adults; ancestors
+- sləlúƛ'təd &nbsp; (our) elders
+`,
+
+"kayiɬ":
+`
+_kayiɬ_
+
+Dictionary has _kʼayíɬ_.
+- k' Lushootseed _k_ can combine with a glottal stop to make a popping sound called a "glottalized k". LD xiii
+
+Examples:
+- _kʼayíɬ čəd dìɬ tiʔiɬ stùbš_  &nbsp; I pretended I was that man.
+- _x̌ʷulʼab ʔə tiʔiɬ kʼayiɬəxʷ gʷəsʔatəbədəs_  &nbsp; So as to pretend as if he were dead.  ML 12.122
+`,
+
+
+"kayiɬ čəd ɬuləluluƛ’ ɬasqʷəlubus":
+`
+_kayiɬ čəd ɬuləluluƛ’ ɬasqʷəlubus_
+
+I hear:  kyAISH chud too-loak luck-qwuh-LOBE-us     
+`,
 
 "ʔəca":
 `_ʔəca_

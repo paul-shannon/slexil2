@@ -1,20 +1,24 @@
-NAME = pshannon/slexilwebapp2
-PORT = 8009
+IMAGE = pshannon/slexilwebapp2
+NAME = slexilwebapp2
+PORT = 9002
 VERSION = 262
 
 default:
 	@echo venv
-	@echo runNC
-	@echo openNC
-	@echo killNC
+	@echo runNoDocker
+	@echo openNoDocker
+	@echo killNoDocker
+	@echo setDockerPlatform
 	@echo build
 	@echo run
+	@echo push
 	@echo test
 	@echo ps
 	@echo start
 	@echo bash
 	@echo stop
 	@echo logs
+	@echo clean
 	@echo rm
 	@echo open
 	@echo checkAlberta
@@ -23,21 +27,24 @@ default:
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
-build:
-	docker build -q -t $(NAME):$(VERSION) .
+setDockerPlatform:
+	@echo export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
-runNC:
-	@echo change later restore port number
+build:
+	docker build -q -t $(IMAGE) .
+
+runNoDocker:
+	@echo no-docker version needs port other than 80
 	python app/main.py &
 
-openNC:
-	open http://localhost:8001
+openNoDocker:
+	open http://localhost:$(PORT)
 
-killNC:
-	kill `netstat | grep 8001 | awk '{print $2}'`
+killNoDocker:
+	kill `netstat | grep $(PORT) | awk '{print $$2}'`
 
 run:
-	docker run -d --name $(NAME) -p $(PORT):80 $(NAME):$(VERSION)
+	docker run --rm --name $(NAME) -p $(PORT):80 $(IMAGE)
 
 ps:
 	docker ps -a   # running and stopped containers
@@ -68,7 +75,7 @@ clean:
 	docker rmi $$(docker images -f "dangling=true" -q)
 
 push:
-	docker push $(NAME):$(VERSION)
+	docker push $(IMAGE)
 
 checkAlberta:
 	curl -L slexil.artsrn.ualberta.ca  | grep -i "<title>"

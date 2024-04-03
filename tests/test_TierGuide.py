@@ -7,6 +7,7 @@ def runTests():
    test_speechOnly()
    test_detectUnsupportedTierNames()
    test_speechTierMissingOrMisname()
+   test_pluralValues()
    
 #--------------------------------------------------------------------------------
 def test_basic():
@@ -77,6 +78,20 @@ def test_detectUnsupportedTierNames():
    assert("morphemeXGloss" in badTierNames)
    assert("translationnnn" in badTierNames)
    
+#--------------------------------------------------------------------------------
+def test_pluralValues():
+
+   print("--- test_pluralValues")
+   x = TierGuide("../testData/tierGuides/pluralValues.yaml")
+   assert(x.getTierNames() == ['speech', 'translation', 'morpheme', 'morphemeGloss'])
+   tg = x.getGuide()
+
+   assert(len(tg) == 4)
+   assert(tg["speech"] == ['ref@VG', 'ref@AM'])
+   assert(tg["translation"] == ['ft@VG', 'ft@AM'])
+   assert(tg["morpheme"] == ['to@VG', 'to@AM'])
+   assert(tg["morphemeGloss"] == ['ot@VG', 'ot@AM'])
+
 #--------------------------------------------------------------------------------
 if __name__ == '__main__':
 	runTests()

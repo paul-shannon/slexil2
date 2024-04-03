@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
 from pathlib import Path
 path = Path(".")
 from xmlschema.validators.exceptions import XMLSchemaValidationError;
@@ -21,18 +22,23 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-	test_invalidXmlRaisesException_misnamedParentRef()
-	test_invalidXmlRaisesException_misnamedTierType()
-	test_invalidXmlRaisesException_misspelledTag()
+    test_parsingSpeed()
+    # test_lineToYAML()
+    # test_toYAML()
+	# test_invalidXmlRaisesException_misnamedParentRef()
+	# test_invalidXmlRaisesException_misnamedTierType()
+	# test_invalidXmlRaisesException_misspelledTag()
 	# test_ctor()
 	# test_tierTable()
 	# test_timeTable()
 	# test_checkAgainstTierGuide()
 	# test_depthFirstTierTraversal()
 	# test_getLineTable()
-	# test_parseAllLines()
+	#test_parseAllLines()
+	# test_sortLinesByTime_inferno()
+	# test_sortLinesByTime_natalia()
 	# test_tedsBlueJay()
-	# test_fixOverlappingTimes()
+	# # test_fixOverlappingTimes()  # very slow
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -43,6 +49,15 @@ def test_ctor():
 	assert(parser.getFilename() == f)
 	assert(parser.xmlValid())
 
+#---------------------------------------------------------------------------------------------------
+def test_parsingSpeed():
+
+    print("--- test_parsingSpeed")
+    f = "../testData/invalidEafFiles/doreco_arap1274_20_Crawford.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    
+
+        
 #---------------------------------------------------------------------------------------------------
 def test_invalidXmlRaisesException_misnamedParentRef():
 
@@ -226,17 +241,73 @@ def test_parseAllLines():
 	f = eafFiles[0]
 	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	assert(parser.getLineCount() == 3)
-	#parser.constructTierTable()
-	#parser.constructTimeTable()
-	parser.parseAllLines()
 	x = parser.getAllLinesTable()  # a list of time-ordered line tables
+	pdb.set_trace()
 	startTimes = [tbl.loc[0, "startTime"] for tbl in x]
 	assert(startTimes == [0.0, 3093.0, 5624.0])
 
 
 #---------------------------------------------------------------------------------------------------
-# we usually want disjoint times, so that only one is selected at a time
-# in manual playback.  test that optional capability here
+# eaf lines may come out of order.  this is especially likely when multiple
+# speakers are annotated, since the linguist is likely to put them in separate tiers
+# we, howerver, need one time-aligned sort list of lines
+def test_sortLinesByTime_inferno():
+
+   print("--- test_sortLinesByTime_inferno")
+   f = "../testData/validEafFiles/inferno-threeLines-outOfTimeOrder.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   tiers = parser.getTierTable()
+   lines = parser.getAllLinesTable()
+   times = parser.getTimeTable()
+      # ensure that, in addition to times table rows being sorted
+      # by the start column, that the indices (row numbers) are
+      # also sorted.  this is essential.  in the browser, lines
+      # are identified by these indices, scrolled to and highlighted
+      # and if these do not follow time order, crazy bad scrolling occurs
+   assert(times.index.tolist() == [0,1,2])
+
+   startTimesFromTimes = times["start"].tolist()
+
+       # make sure the times are sorted
+       # test for actual sort order by calling the sort function
+       # I don't know the evaluation order within "assert" so
+       # I make a copy of the original to check against a list
+       # we explicitly sort here.  
+
+   startTimesFromTimes_copy = startTimesFromTimes
+   startTimesFromTimes.sort()
+   assert(startTimesFromTimes_copy == startTimesFromTimes)
+
+   startTimesFromLines = [line["startTime"].tolist()[0] for line in lines]
+   startTimesFromLines_copy = startTimesFromLines
+   startTimesFromLines.sort()
+   assert(startTimesFromLines_copy == startTimesFromLines)
+
+   assert(startTimesFromTimes == startTimesFromLines)
+
+#--------------------------------------------------------------------------------
+# natalia presents eaf files with multiple speakers, two in the case
+# examined here.  
+def test_sortLinesByTime_natalia():
+
+   print("--- test_sortLinesByTime_natalia")
+   f = "../testData/validEafFiles/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   tiers = parser.getTierTable()
+   lines = parser.getAllLinesTable()
+   times = parser.getTimeTable()
+
+     # ensure that not only times, but row numbers (indices)
+     # are sorted
+   assert(times.index.tolist() == list(range(0, times.shape[0])))
+
+
+   startTimesFromTimes = times["start"].tolist()
+   startTimesFromLines = [line["startTime"].tolist()[0] for line in lines]
+   assert(startTimesFromTimes == startTimesFromLines)
+
+
+#---------------------------------------------------------------------------------------------------
 def test_fixOverlappingTimes():
 
 	print("--- test_fixOverlappingTimes")
@@ -265,8 +336,7 @@ def test_tedsBlueJay():
 
 	print("--- test_tedsBlueJay")
 	f = "../testData/Metcalf7ab_BLUEJAY_ch1.eaf"
-	parser = EafParser(f, verbose=True, fixOverlappingTimeSegments=False)
-	parser.parseAllLines()
+	parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
 	rowCount = parser.getLineCount()
 	tbl = parser.getTimeTable()
 	x = parser.getAllLinesTable()  # a list of time-ordered line tables
@@ -275,6 +345,31 @@ def test_tedsBlueJay():
 	assert(startTimes[:5] == [0, 0, 2507, 2507, 6651])
     
 
+#---------------------------------------------------------------------------------------------------
+def test_lineToYAML():
+
+    print("--- test_lineToYAML")
+    f = "../testData/validEafFiles/inferno-threeLines.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    line = parser.getAllLinesTable()[0]
+    x = parser.lineToYAML(line, 1)
+    assert(x[0] == '  - lineNumber: 1')
+    assert(x[1] == '    startTime: 0')
+    assert(x[2] == '    endTime: 2828')
+    assert(x[3] == '    italianSpeech: Nel mezzo del cammin di nostra vita')
+    assert(x[4] == '    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]')
+    assert(x[5] == '    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]')
+    assert(x[6] == '    english: Midway upon the journey of our life')
+    
+#---------------------------------------------------------------------------------------------------
+def test_toYAML():
+
+    print("--- test_toYAML")
+    f = "../testData/validEafFiles/inferno-threeLines.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    yaml = parser.toYAML("Dante's Inferno", "Roberto Benigni", "Paul Shannon",
+                         "inferno.yaml")
+    
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
 	runTests()

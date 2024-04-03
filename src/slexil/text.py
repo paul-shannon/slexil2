@@ -102,8 +102,10 @@ class Text:
       self.useTooltips = useTooltips
       self.kbFilename = kbFilename
       self.linguisticsFilename = linguisticsFilename
-      with open(tierGuideFile, 'r') as f:
-         self.tierGuide = yaml.safe_load(f)
+      tgReader = TierGuide(tierGuideFile)
+      self.tierGuide = tgReader.getGuide()
+      #with open(tierGuideFile, 'r') as f:
+      #   self.tierGuide = yaml.safe_load(f)
 
       if(verbose):
          print("--- freshly loaded tierGuide yaml file")
@@ -114,7 +116,7 @@ class Text:
 
       parser = EafParser(xmlFilename, self.verbose, self.fixOverlappingTimeSegments)
       self.eafParser = parser
-      parser.parseAllLines()
+      # parser.parseAllLines()
 
       self.lineCount = parser.getLineCount()
       if(self.lineCount == 0):

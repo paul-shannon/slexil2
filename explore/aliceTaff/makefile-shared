@@ -1,5 +1,6 @@
 
 default:
+	@echo eafStructure
 	@echo movieCurl
 	@echo scp
 	@echo venv
@@ -12,6 +13,9 @@ default:
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+
+eafStructure:
+	python -i ../../../utils/eafStructure.py --eaf $(EAF)
 
 movieCurl:
 	curl -I https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(VID)

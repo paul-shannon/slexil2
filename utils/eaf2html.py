@@ -6,14 +6,14 @@ import yattag  # only for indent method
 import pdb
     
 #----------------------------------------------------------------------------------------------------
-parser = argparse.ArgumentParser(prog='toHTML.py',
+parser = argparse.ArgumentParser(prog='eaf2html.py',
           description='creates interactive webpage from eaf xml')
 
 #parser.add_argument('-f', '--eaf')
 parser.add_argument('--eaf', type=str, required=True)
 parser.add_argument('--tierGuide', type=str, required=True)
 parser.add_argument('--terms', type=str, required=False)
-parser.add_argument('--verbose', action="store_true")
+parser.add_argument("--verbose", action="store_true")
 parser.add_argument("--helpFile", help="optional info for about box")
 parser.add_argument("--helpButtonLabel", help="optional button label")
 parser.add_argument("--pageTitle", help="optional html title")
@@ -61,6 +61,7 @@ if(linguisticsFilename and not os.path.isfile(linguisticsFilename)):
     print("eaf2html.py error:  file '%s' not found" % linguisticsFilename)
     sys.exit()
     
+print("verbose? %s" % verbose)
 projectDirectory = "./"
 text = Text(xmlFilename=eaf,
             grammaticalTermsFile=terms,
