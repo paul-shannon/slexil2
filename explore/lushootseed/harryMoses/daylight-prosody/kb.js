@@ -11,12 +11,18 @@ I hear: luck qwuh LOBE us
 - _ɬu=_ &nbsp; IRR 
 - _ʔas_ &nbsp; STAT
 - _qʷəlub_ &nbsp;  grey hair
-- _us_ &nbsp; head (lexical suffix?)
+     - _qʷəlubáyqs_ &nbsp; gray beard, gray whiskers
+     - _qʷəlúbqid_
+     - _ʔəsqʷəlúbqidəxʷ tsiʔiɬ_ &nbsp;  She's gray now
+- _us_ &nbsp; face, head, upper part (lexical suffix)
+     - compare _=qid_, _=alus_, _=əlus_
+
+
 `,
 
 "ɬu=lə=lu–luƛ’":
 `
-_ɬu=lə=lu–luƛ’_
+_ɬu=lə=lu–luƛ’_ <br>
 irr=prog=attn–old
 
 I hear: too-loak
@@ -54,7 +60,9 @@ Examples:
 `
 _kayiɬ čəd ɬuləluluƛ’ ɬasqʷəlubus_
 
-I hear:  kyAISH chud too-loak luck-qwuh-LOBE-us     
+I hear:  kyAISH chud too-loak luck-qwuh-LOBE-us
+
+My proposed translation:  pretend I diminishing.getting.old gray-haired.
 `,
 
 "ʔəca":
