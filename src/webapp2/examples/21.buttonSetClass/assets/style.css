@@ -1,0 +1,25 @@
+.liveButton{margin: 20px;
+            font-size: 24px;
+            padding: 10px;
+            border: 1px solid brown;
+            border-radius: 10px;
+            transition-duration: 0.4s;
+           }
+
+.liveButton:hover{
+  background-color: lightgreen; /* Green */
+  }
+
+
+.disabledButton{margin: 20px;
+                cursor: not-allowed;
+                font-size: 24px;
+                padding: 10px;
+                border: 1px solid gray;
+                border-radius: 10px;
+                opacity: 0.2;
+                color: red;
+                }
+
+
+
