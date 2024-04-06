@@ -1,3 +1,15 @@
+
+button.btn-close { /* dbc.Modal close button "X" */
+  float: right;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: red;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1;
+}
+
 .eafUploader{width: 400px;
              height: 60px;
              font-size: 24px;

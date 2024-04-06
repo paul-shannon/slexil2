@@ -28,6 +28,7 @@ def createProjectDirectory(projectName):
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
                external_stylesheets=styleSheets)
+ #              suppress_callback_exceptions=True)
 dashApp.title = "webapp2"
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
