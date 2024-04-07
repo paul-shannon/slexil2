@@ -1,0 +1,118 @@
+#navbar{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+   
+.navbar-brand{
+   font-size: 24px;
+   }
+
+div#projectTitleHelp{
+   display: inline-block;
+   }
+div#projectTitleHelp:hover{
+   background-color: #E1EDDD;
+   border: 1px solid: #D1DCCC;
+   border-radius: 5px;
+   }
+
+button.btn-close { /* dbc.Modal close button "X" */
+  float: right;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: red;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1;
+}
+
+.eafUploader{width: 400px;
+             height: 60px;
+             font-size: 24px;
+	          font-family: New York Times-Roman;
+             font-weight: normal;
+             line-height: 60px;
+             border: 1px solid black;
+             border-radius: 10px;
+             text-align: center;
+             margin: 20px;
+             background-color: #F5FAF3;
+             }
+.eafUploader:hover{
+    background-color: #E1EDDD;
+    }
+
+#examineStateButton{
+    margin: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: New York Times-Roman;
+    font-weight: normal;
+    color: black;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    }
+#examineStateButton:hover{
+    background-color: #E1EDDD;
+    }
+
+.enabledButton {
+    margin: 20px;
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: New York Times-Roman;
+    font-weight: normal;
+    color: black;
+    background-color: #F5FAF3;
+    border: 1px solid black;
+    border-radius: 8px;
+    }
+
+.enabledButton:hover{
+    background-color: #E1EDDD;
+    }
+
+
+a[href] {
+  text-decoration: underline;
+  }
+
+buttonStyle {margin: 20px;
+             font-size: 24px;
+             border: 1px solid black;
+             border-radius: 10px;
+             }
+
+dynamicDivStyle {width: 400;
+                 border: 1px solid darkblue;
+                 border-radius: 5;
+                 margin: 10;
+                 padding: 10;
+                }
+
+.bodyStyle {
+    font-family: New York Times-Roman;
+    font-size: 24px;
+    margin: 10px;
+    margin-top: 5px;
+            
+    }
+
+
+.disabledButton{margin: 20px;
+               margin-top: 5px;
+               font-size: 24px;
+               color: lightgray;
+               border: 1px solid darkgray;
+               border-radius: 8px;
+               cursor: not-allowed;
+               }
+
+
+#modalDiv, m{font-family : New York Times-Roman;
+          font-size: 24px;
+          margin: 30px;
+          }
