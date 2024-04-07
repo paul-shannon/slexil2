@@ -1,0 +1,6 @@
+m4_include(../app/shared.py)
+m4_include(23.analyzeEAF.py)
+
+if __name__ == '__main__':
+    port = 8083
+    dashApp.run(host='0.0.0.0', debug=True, port=port)
