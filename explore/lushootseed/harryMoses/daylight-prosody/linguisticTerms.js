@@ -1,5 +1,93 @@
 linguistics = {
 
+"SBRD":
+`
+Subordinate.
+
+In linguistics, subordination (abbreviated variously subord, sbrd,
+subr or sr) is a principle of the hierarchical organization of
+linguistic units. While the principle is applicable in semantics,
+morphology, and phonology, most work in linguistics employs the term
+"subordination" in the context of syntax, and that is the context in
+which it is considered here. The syntactic units of sentences are
+often either subordinate or coordinate to each other. Hence an
+understanding of subordination is promoted by an understanding of
+coordination, and vice versa.[1]
+
+###Subordinate clauses
+
+Subordination as a concept of syntactic organization is associated
+closely with the distinction between coordinate and subordinate
+clauses.[2] One clause is subordinate to another if it depends on
+it. The dependent clause is called a subordinate clause and the
+independent clause is called the main clause (= matrix
+clause). Subordinate clauses are usually introduced by subordinators
+(= subordinate conjunctions) such as after, because, before, if, so
+that, that, when, while, etc. For example:
+
+**Before we play again**, we should do our homework.
+We are doing our homework now **because we want to play again**.
+
+The strings in bold are subordinate clauses, and the strings in
+non-bold are the main clauses. Sentences must consist of at least one
+main clause, whereas the number of subordinate clauses is
+hypothetically without limitation. Long sentences that contain many
+subordinate clauses are characterized in terms of hypotaxis, the Greek
+term meaning the grammatical arrangement of "unequal" constructs
+(hypo="beneath", taxis="arrangement"). Sentences that contain few or
+no subordinate clauses but that may contain coordinated clauses are
+characterized in terms of parataxis.
+`,
+
+"IRR":
+
+`Expressing unreality, non-factuality, extreme unlikelihood,
+potentiality, etc.  Grammatical moods that indicate that a certain
+situation or action is not known to have happened at the moment the
+speaker is talking.  Contrast realis mood, indicating that something
+is a matter of fact.
+
+The Lushootseed Dictionary states simply:
+
+  _ɬu_: anticipated, expected or possible event; future
+
+Every language has grammatical ways of expressing unreality. Linguists
+tend to reserve the term "irrealis" for particular morphological
+markers or clause types. Many languages with irrealis mood make
+further subdivisions between kinds of irrealis moods. This is
+especially so among Algonquian languages such as Blackfoot.
+
+Some such moods:
+   - subjunctive: If I were to love you...
+   - conditional: I would love you
+   - optative: May I be loved!
+   - jussive: Everyone should be loved
+   - potential: she probably loves me
+   - imperative: Love me!
+   - prohibitive: Do not love me
+   - desiderative: I wish he loved me
+   - dubitative: I think she loves me
+   - hypothetical: I might love you if...
+   - presumptive: Assuming he loves you...
+   - permissive: You may [not] love me
+   - admirative: Wow! They love me
+   - hortative: Let us love!
+   - eventive: I would probably love you if ...
+   - precative: Will you love me?
+   - volitive: Would that you loved me.
+   - inferential: she is said to love me.
+   - necessitative: It is necessary that you love me.
+   - interrogative: Does he love me?
+   - benedictive: Would you please be so kind as to love me?
+   - concessive: Even if she loves me...
+   - prescriptive:  Please [do not] love me
+   - admonitive: Beware loving me.
+
+
+
+`,
+
+
 "ATTN":
 `
 ATTN: attenuative, reduced degree of a quality

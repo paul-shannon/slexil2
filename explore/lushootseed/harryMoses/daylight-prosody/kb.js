@@ -2,6 +2,21 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd":
+`
+_ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd_
+
+luss.kwawg lus.KO.sud sloo.hay.bud
+
+irr-state.lackControl irr.state.cane irr.indoors.middle
+
+Being feeble, using a cane, I will go in.
+
+Beck and Hess place "being feeble" with the preceding line.
+
+`,
+
+
 "ɬu=ʔas–qʷəlub•us":
 `
 _ɬu=ʔas–qʷəlub•us_
@@ -15,9 +30,28 @@ I hear: luck qwuh LOBE us
      - _qʷəlúbqid_
      - _ʔəsqʷəlúbqidəxʷ tsiʔiɬ_ &nbsp;  She's gray now
 - _us_ &nbsp; face, head, upper part (lexical suffix)
-     - compare _=qid_, _=alus_, _=əlus_
-
-
+     - compare _=qid_ (brain, skull), _=alus_ (eye), _=əlus_
+     - _š(ə)qús_ up hill
+     - _š(ə)qúsəb_ lift head
+     - _qʼílus_ reach the top of
+     - _slaʔus_ set up as goal
+     - _xʷəbəbúsəd_ turn head (face away and deliberately not listen)
+     - _sx̌əy(ʔ)ús_ head    
+     - _qələbús_ gray hair  
+     - _dxʷqʷqʼʷús_ white face  
+     - _xʷqʷqʼʷús_ bluff of clay or sand (not rock)  
+     - _dxʷsáx̌us_ shave    
+     - _ʔəxʷpáqʼʷus_ face blackened by smoke  
+     - _dxʷlíqʼʷusəb_ paint one's own face red  
+     - _ɬíč'us_ cut hair    
+     - _pt'úsəb_ brush hair out of face    
+     - _qʼígʷusəb_ stick head out of door or window to see what i...  
+     - _tágʷusəb_ put one's face in water to drink  
+     - _t'álus_ cooked fish heads, dried king salmon  
+     - _xʷəlkʼʷusəb_ has face covered  
+     - _x̌áʔx̌alus_ raccoon      
+     - _ʔəxʷx̌ɬús_ sore face, infected face    
+     - _udxʷtúʔustubuɬ_ (They) spit in our faces.  
 `,
 
 "ɬu=lə=lu–luƛ’":
