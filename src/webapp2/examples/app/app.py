@@ -43,9 +43,7 @@ modalDiv = html.Div(
                                         id="modalTitle"),
                          close_button=True),
          dbc.ModalBody("", id='modalContents', className="bodyStyle"),
-         dbc.ModalFooter(
-             dbc.Button("Close", id="modalCloseButton",
-                        className="ms-auto",n_clicks=0))],
+         ],
          id="slexilModal",
          centered=True,
          is_open=False,
