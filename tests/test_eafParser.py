@@ -39,6 +39,8 @@ def runTests():
     # test_sortLinesByTime_natalia()
     # test_tedsBlueJay()
     # test_fixOverlappingTimes()  # very slow
+    test_getTimeAlignedTiers()
+    test_variousGetters()
     test_getSummary()
 
 #---------------------------------------------------------------------------------------------------
@@ -347,6 +349,69 @@ def test_tedsBlueJay():
     assert(startTimes[:5] == [0, 0, 2507, 2507, 6651])
     
 
+#---------------------------------------------------------------------------------------------------
+def test_getTimeAlignedTiers():
+
+   print("--- test_getTimeAlignedTiers")
+
+     #---------------------------------------------------------------
+     # first, an eaf with just one time-aligned tier, just one child
+     #---------------------------------------------------------------
+
+   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   taTiers = parser.getTimeAlignedTiers()
+   assert(taTiers == ['utterance'])
+   family = parser.getTimeAlignedTierFamily("utterance")
+   assert(family == ['utterance', 'translation'])
+
+     #---------------------------------------------------------------
+     # second, the standard IJAL 4-tier line, one time-aligned
+     #---------------------------------------------------------------
+
+   f = "../explore/misc/inferno/inferno-threeLines.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   taTiers = parser.getTimeAlignedTiers()
+   assert(taTiers == ['italianSpeech'])
+   family = parser.getTimeAlignedTierFamily("italianSpeech")
+   assert(family == ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
+
+     #---------------------------------------------------------------
+     # third, two time-aligned tiers, each with full IJAL set of children
+     #---------------------------------------------------------------
+
+   f = "../explore/nataliaCaceres/085-motherOfTheFish/085_TheMotherOfTheFishAndThePrankster.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   taTiers = parser.getTimeAlignedTiers()
+   assert(taTiers == ['ref@VG', 'ref@AM'])
+   family = parser.getTimeAlignedTierFamily("ref@VG")
+   assert(family == ['ref@VG', 'to@VG', 'ot@VG', 'ft@VG'])
+   family = parser.getTimeAlignedTierFamily("ref@AM")
+   assert(family == ['ref@AM', 'to@AM', 'ot@AM', 'ft@AM'])
+
+#---------------------------------------------------------------------------------------------------
+def test_variousGetters():
+
+   print("--- test_variousGetters")
+     #---------------------------------------------------------------
+     # use an eaf with just one time-aligned tier, just one child
+     #---------------------------------------------------------------
+
+   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
+   p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   assert(p.getFilename() == '../explore/aliceTaff/01/01RuthNora230503Slexil.eaf')
+   assert(p.getLineCount() == 170)
+   assert(p.getTierTable().shape == (2,7))
+   assert(p.getAudioURL() ==
+          'file:///Users/ataff/Documents/266286-19NEH/1RuthNora/1RuthNora2Wide.wav')
+   assert(p.getAudioMimeType() == 'audio/x-wav')
+   assert(p.getVideoURL() ==
+          'https://slexildata.artsrn.ualberta.ca/tlingit/1RuthNora2Wide.m4v')
+   assert(p.getVideoMimeType() == "unknown")
+      # p.getMetadata()  # todo.  currently does nothing
+   assert(p.getTimeTable().shape == (170,5))
+   assert(len(p.getAllLinesTable()) == 170)
+    
 #---------------------------------------------------------------------------------------------------
 def test_getSummary():
 

@@ -68,18 +68,62 @@ class EafParser:
    #----------------------------------------------------------------------------------
    def getFilename(self):
       return(self.xmlFilename)
+
    def getLineCount(self):
       return(self.lineCount)
+
+   def getTierTable(self):
+      return self.tierTable
+   
+   def getAudioURL(self):
+      return self.audioURL
+
+   def getAudioMimeType(self):
+      return self.audioMimeType
+
+   def getVideoURL(self):
+      return self.videoURL
+
+   def getVideoMimeType(self):
+      return self.videoMimeType
+
+   def getTimeAlignedTiers(self):
+      tbl = self.tierTable
+      timeAlignedTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "true"]["TIER_ID"])
+      return timeAlignedTiers
+
+   def getTimeAlignedTierFamily(self, timeAlignedTierID):
+           # find a line whose 0th tierID is timeAlignedTierID
+           # these relationships are figured out above in
+           # depthFirstTierTraversal, and used to assemble tiered lines
+           # pandas data table extracted from the eaf xml
+     found = False
+     line = 0
+     while not found:
+        parent = list(self.getLineTable(line)["tierID"])[0]
+        if parent == timeAlignedTierID:
+               #print("found parent tier %s at line %d" % (tier, line))
+           found = True
+        else:
+           line += 1
+     tierFamily = list(self.getLineTable(line)["tierID"])
+     return tierFamily
+
    def getMetadata(self):
       return(self.metadata)
+
    def getAudioInfo(self):
       return({"url": self.audioURL, "mimetype": self.mediaMimeType})
+
    def getVideoInfo(self):
       return({"url": self.videoURL, "mimetype": self.mediaMimeType})
+
    def getTierTable(self):
       return(self.tierTable)
+
    def getTimeTable(self):
       return(self.timeTable)
+
    def getAllLinesTable(self):
       return(self.linesAll)
 
@@ -346,34 +390,19 @@ class EafParser:
    def getSummary(self):
 
       x = {}
-      x['lineCount'] = self.lineCount
-      x['tierTable'] = self.tierTable
-      x['audioURL'] = self.audioURL
-      x['videoURL'] = self.videoURL
-      x['audioMimeType'] = self.audioMimeType
-      x['videoMimeType'] = self.videoMimeType
-      tbl = self.tierTable
-      timeAlignedTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "true"]["TIER_ID"])
+      x['lineCount'] = self.getLineCount()
+      x['tierTable'] = self.getTierTable()
+      x['audioURL'] = self.getAudioURL()
+      x['videoURL'] = self.getVideoURL()
+      x['audioMimeType'] = self.getAudioMimeType()
+      x['videoMimeType'] = self.getVideoMimeType()
+      tbl = self.getTierTable()
+      timeAlignedTiers = self.getTimeAlignedTiers()
       x['timeAlignedTiers'] = timeAlignedTiers
-      t = 1
+      i = 1
       for tier in timeAlignedTiers:
-           # find a line whose 0th tierID is this timeAlignedTier ID
-           # these relationships are figured out above in
-           # depthFirstTierTraversal, and used to assemble tiered lines
-           # pandas data table extracted from the eaf xml
-         tierDescent = list(self.getLineTable(2)["tierID"])
-         found = False
-         line = 0
-         while not found:
-            parent = list(self.getLineTable(line)["tierID"])[0]
-            if parent == tier:
-               #print("found parent tier %s at line %d" % (tier, line))
-               found = True
-            else:
-               line += 1
-         tierDescent = parent = list(self.getLineTable(line)["tierID"])
-         x['timeAlignedTierFamily.%d' % t] =  tierDescent
-         t += 1
+         x["timeAlignedTierFamily.%d" % i] = self.getTimeAlignedTierFamily(tier)
+         i += 1
 
       return(x)
 
