@@ -1,0 +1,68 @@
+import flask
+import os, io, traceback
+from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
+import dash_bootstrap_components as dbc
+from slexil.eafParser import EafParser
+dbcStyle = dbc.themes.BOOTSTRAP
+styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
+
+app = flask.Flask(__name__)
+dashApp = Dash(__name__, server=app, url_base_pathname='/',
+                external_stylesheets=styleSheets)
+dashApp.title = "input with button"
+
+#buttonStyle={"margin": "10px", "padding": "20px"}
+buttonStyle = {"margin": "20px",
+              "font-size": "20px",
+              "border": "1px solid brown",
+              "border-radius": "10px"
+              }
+
+eafDir = "eafs"
+files = os.listdir(eafDir)
+eafFiles = [f for f in files if f.endswith("eaf")]
+eafFiles.sort()
+print("eaf count: %d" % len(eafFiles))
+#-------------------------------------------------------
+def get_exception_traceback_str(exc: Exception) -> str:
+    # Ref: https://stackoverflow.com/a/76584117/
+    file = io.StringIO()
+    traceback.print_exception(exc, file=file)
+    return file.getvalue().rstrip()
+#-------------------------------------------------------
+modalDiv = html.Div(
+    [dbc.Modal([
+         dbc.ModalHeader(dbc.ModalTitle("SLEXIL Notification"), close_button=True),
+         dbc.ModalBody("", id='modalContents'),
+         dbc.ModalFooter(
+             dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))],
+         id="slexilModal",
+         centered=True,
+         is_open=False,
+         size="xl",    # sm, lg, xl
+         fullscreen=False,
+         scrollable=True,
+         )])
+#-------------------------------------------------------
+dashApp.layout = html.Div(id="mainDiv",
+               children=[html.H1('SLEXIL EAF Parsing Demo'), 
+                         dcc.Loading(
+                             id="modalLoadWatcher",
+                             type="default",
+                             children=modalDiv)
+                         ],
+                      style={"margin": "50px"})
+#----------------------------------------------------------------------
+m4_include(12.eafSummaryModalDisplay.py)
+#----------------------------------------------------------------------
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Input('modalCloseButton', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def close_modal(_):
+    return False
+#----------------------------------------------------------------------
+if __name__ == '__main__':
+    port = 9018
+    dashApp.run(host='0.0.0.0', debug=True, port=port)
