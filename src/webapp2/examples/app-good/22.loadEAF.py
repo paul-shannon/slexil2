@@ -8,7 +8,7 @@ eafLoaderDiv = html.Div(id="eafLoaderDiv",
                                 ], className="fubar"),
                             className="eafUploader",
                             multiple=False
-                            )])
+                            )], hidden=True)
 
 dashApp.layout.children.append(eafLoaderDiv)
 #--------------------------------------------------------------------------------

@@ -1,13 +1,3 @@
-import flask
-import os, io, traceback
-from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
-import dash_bootstrap_components as dbc
-from slexil.eafParser import EafParser
-from dash_iconify import DashIconify
-
-dbcStyle = dbc.themes.BOOTSTRAP
-styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
-
 #--------------------------------------------------------------------------------
 def createProjectDirectory(projectName):
 
@@ -69,6 +59,7 @@ def displayProjectTitleHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
     Output('memoryStore', 'data'),
+    Output('eafLoaderDiv', 'hidden'),
     Input('setProjectNameButton', 'n_clicks'),
     State('projectNameInput', 'value'),
     State('memoryStore', 'data'),
@@ -84,5 +75,5 @@ def handleSetProjectNameButton(n_clicks, userEnteredString, data):
     data['title'] = title
     data['projectName'] = newProjectName
     data['projectPath'] = projectPath
-    return(data)
+    return(data, False)
 #--------------------------------------------------------------------------------

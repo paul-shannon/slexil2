@@ -1,8 +1,11 @@
 import flask
+import base64
 import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
+from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
+
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
@@ -88,8 +91,6 @@ dashApp.layout = html.Div(id="mainDiv",
     prevent_initial_call=True
     )
 def displayStateAsList(n_clicks, data):
-    print("sleeping in display state")
-    time.sleep(3)
     if data is None:
        return(True, "State Variables",
               html.P("state is empty, no variables yet assigned"))
@@ -99,8 +100,8 @@ def displayStateAsList(n_clicks, data):
     return True, "State Variables", el
 #--------------------------------------------------------------------------------
 m4_include(20.setTitle.py)
+m4_include(22.loadEAF.py)
 #m4_include(12.eafSummaryModalDisplay.py)
-#m4_include(22.loadEAF.py)
 
 #----------------------------------------------------------------------
 @callback(
