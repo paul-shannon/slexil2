@@ -59,7 +59,8 @@ modalDiv = html.Div(
          )])
 #-------------------------------------------------------
 dashApp.layout = html.Div(id="mainDiv",
-               children=[createNavBar(),
+               children=[dcc.Store(id='memoryStore', storage_type='memory'),
+                         createNavBar(),
                          dcc.Loading(
                              id="modalLoadWatcher",
                              type="default",

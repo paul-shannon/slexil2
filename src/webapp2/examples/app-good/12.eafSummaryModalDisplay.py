@@ -11,10 +11,14 @@ dashApp.layout.children.append(myDiv)
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalContents', 'children', allow_duplicate=True),
+    Output('memoryStore', 'data', allow_duplicate=True),
     Input('eafChooser', 'value'),
+    State('memoryStore', 'data'),
     prevent_initial_call=True
     )
-def summarizeEaf(eafFilename):
+def summarizeEaf(eafFilename, data):
+    if data is None:
+        data = {}
     print("--- %s" % eafFilename)
     eafFilePath = "%s/%s" % (eafDir, eafFilename)
     try:
@@ -42,11 +46,11 @@ def summarizeEaf(eafFilename):
                                         "overflow": "auto",
                                         "border": "1px solid gray",
                                         "border-radius": "10px"})
-       return True, [tierTableDiv] #, lineTableDiv]
+       return True, [tierTableDiv], data
     except BaseException as e:
        success = False
        modalContents = get_exception_traceback_str(e)
-       return True, html.Pre(modalContents)
+       return True, html.Pre(modalContents), data
 
 
     
