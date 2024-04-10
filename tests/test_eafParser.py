@@ -25,24 +25,25 @@ def runTests():
     #test_parsingSpeed()
     # test_lineToYAML()
     # test_toYAML()
-    test_invalidXmlRaisesException_misnamedParentRef()
-    test_invalidXmlRaisesException_misnamedTierType()
-    test_invalidXmlRaisesException_misspelledTag()
-    test_ctor()
-    test_tierTable()
-    test_timeTable()
-    test_checkAgainstTierGuide()
-    test_depthFirstTierTraversal()
-    test_getLineTable()
-    test_parseAllLines()
-    test_sortLinesByTime_inferno()
-    test_sortLinesByTime_natalia()
-    test_tedsBlueJay()
-    test_fixOverlappingTimes()  # very slow
-    test_getTokenizedTierPairs()
-    test_getTimeAlignedTiers()
-    test_variousGetters()
-    test_getSummary()
+    # test_invalidXmlRaisesException_misnamedParentRef()
+    # test_invalidXmlRaisesException_misnamedTierType()
+    # test_invalidXmlRaisesException_misspelledTag()
+    # test_ctor()
+    # test_tierTable()
+    # test_timeTable()
+    # test_checkAgainstTierGuide()
+    # test_depthFirstTierTraversal()
+    # test_getLineTable()
+    # test_parseAllLines()
+    # test_sortLinesByTime_inferno()
+    # test_sortLinesByTime_natalia()
+    # test_tedsBlueJay()
+    # test_fixOverlappingTimes()  # very slow
+    # test_getTokenizedTierPairs()
+    test_learnTierGuide()
+    # test_getTimeAlignedTiers()
+    # test_variousGetters()
+    # test_getSummary()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
@@ -385,6 +386,45 @@ def test_getTokenizedTierPairs():
    assert(possiblePairs == {'to@VG': 209, 'ot@VG': 209})
 
    
+#---------------------------------------------------------------------------------------------------
+def test_learnTierGuide():
+
+   print("--- test_learnTierGuide")
+    
+     #---------------------------------------------------------------
+     # first the standard IJAL 4-tier line, one time-aligned
+     #---------------------------------------------------------------
+
+   f = "../explore/misc/inferno/inferno-threeLines.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   x = parser.learnTierGuide()
+   assert(x['speech'] == 'italianSpeech')
+   assert(x['morpheme'] == 'morphemes')
+   assert(x['morphemeGloss'] == 'morpheme-gloss')
+   assert(x['translation'] == 'english')
+    
+     #---------------------------------------------------------------
+     # second, an eaf with just one time-aligned tier, just one child
+     #---------------------------------------------------------------
+
+   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   x = parser.learnTierGuide()
+   assert(x['speech'] == 'utterance')
+   assert(x['translation'] == 'translation')
+
+     #---------------------------------------------------------------
+     # third, two time-aligned tiers, each with full IJAL set of children
+     #---------------------------------------------------------------
+
+   f = "../explore/nataliaCaceres/085-motherOfTheFish/085_TheMotherOfTheFishAndThePrankster.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   try:
+       x = parser.learnTierGuide()
+   except AssertionError:
+      pass
+       
+
 #---------------------------------------------------------------------------------------------------
 def test_getTimeAlignedTiers():
 

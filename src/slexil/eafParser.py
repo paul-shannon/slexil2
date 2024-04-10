@@ -151,6 +151,28 @@ class EafParser:
       return(self.linesAll)
 
    #----------------------------------------------------------------------------------
+   def learnTierGuide(self):
+
+     officialTierNames = ['speech', 'morpheme', 'morphemeGloss', 'translation']
+
+     timeAlignedTiers = self.getTimeAlignedTiers()
+     assert(len(timeAlignedTiers) == 1)  # support later for > 1
+     timeAlignedTier = timeAlignedTiers[0]
+     tierFamily = self.getTimeAlignedTierFamily(timeAlignedTier)
+     pairedTokenTiers = self.getTokenizedTierPairs()
+     x={}
+     x["speech"] = timeAlignedTier
+     if(len(pairedTokenTiers) == 2):
+        x["morpheme"] = list(pairedTokenTiers.keys())[0]
+        x["morphemeGloss"] = list(pairedTokenTiers.keys())[1]
+     claimedTiers = [v for k,v in x.items()]
+     remainingTiers = [x for x in tierFamily if x not in claimedTiers]
+
+     assert(len(remainingTiers) == 1)
+     x["translation"] = remainingTiers[0]
+     return x
+      
+   #----------------------------------------------------------------------------------
    def checkAgainstTierGuide(self, tierGuideFile):
 
       tierElements = self.doc.findall("TIER")
