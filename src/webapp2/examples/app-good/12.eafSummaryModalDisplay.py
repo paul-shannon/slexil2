@@ -4,8 +4,6 @@ myDiv = html.Div(id="myDiv",
                                       # 'inferno-threeLines.eaf',
                                       id='eafChooser',
                                       style={"width": "400px", "font-size": "18px"}),
-                         html.Button("Summarize EAF", id="summarizeEafButton",
-                                     n_clicks=0, style=buttonStyle)
                            ])
 
 dashApp.layout.children.append(myDiv)
@@ -13,11 +11,10 @@ dashApp.layout.children.append(myDiv)
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalContents', 'children', allow_duplicate=True),
-    Input('summarizeEafButton', 'n_clicks'),
-    State('eafChooser', 'value'),
+    Input('eafChooser', 'value'),
     prevent_initial_call=True
     )
-def summarizeEaf(n_clicks, eafFilename):
+def summarizeEaf(eafFilename):
     print("--- %s" % eafFilename)
     eafFilePath = "%s/%s" % (eafDir, eafFilename)
     try:

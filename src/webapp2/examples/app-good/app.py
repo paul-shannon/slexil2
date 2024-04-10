@@ -24,6 +24,20 @@ eafFiles = [f for f in files if f.endswith("eaf")]
 eafFiles.sort()
 print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
+def createNavBar():
+
+   navbar = dbc.NavbarSimple(
+      id="navbar",
+      children=[
+        dbc.NavItem(html.Button("Examine State", id="examineStateButton", n_clicks=0,
+                                className="enabledButton"))],
+       brand="SLEXIL Webapp 2",
+       color="#F5FAF3",
+       dark=False,
+       )
+
+   return navbar
+#-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
     file = io.StringIO()
@@ -45,13 +59,13 @@ modalDiv = html.Div(
          )])
 #-------------------------------------------------------
 dashApp.layout = html.Div(id="mainDiv",
-               children=[html.H1('SLEXIL EAF Parsing Demo'), 
+               children=[createNavBar(),
                          dcc.Loading(
                              id="modalLoadWatcher",
                              type="default",
                              children=modalDiv)
                          ],
-                      style={"margin": "50px"})
+                      style={"margin": "5px"})
 #----------------------------------------------------------------------
 
 myDiv = html.Div(id="myDiv",
@@ -59,8 +73,6 @@ myDiv = html.Div(id="myDiv",
                                       # 'inferno-threeLines.eaf',
                                       id='eafChooser',
                                       style={"width": "400px", "font-size": "18px"}),
-                         html.Button("Summarize EAF", id="summarizeEafButton",
-                                     n_clicks=0, style=buttonStyle)
                            ])
 
 dashApp.layout.children.append(myDiv)
@@ -68,11 +80,12 @@ dashApp.layout.children.append(myDiv)
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalContents', 'children', allow_duplicate=True),
-    Input('summarizeEafButton', 'n_clicks'),
-    State('eafChooser', 'value'),
+    #Input('summarizeEafButton', 'n_clicks'),
+    Input('eafChooser', 'value'),
+    #State('eafChooser', 'value'),
     prevent_initial_call=True
     )
-def summarizeEaf(n_clicks, eafFilename):
+def summarizeEaf(eafFilename):
     print("--- %s" % eafFilename)
     eafFilePath = "%s/%s" % (eafDir, eafFilename)
     try:
