@@ -1,8 +1,0 @@
-m4_include(shared.py)
-m4_include(setTitle.py)
-m4_include(loadEaf.py)
-
-
-if __name__ == '__main__':
-    port = 8081
-    dashApp.run(host='0.0.0.0', debug=False, port=port)

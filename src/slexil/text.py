@@ -132,7 +132,13 @@ class Text:
          os.remove(os.path.join(projectDirectory,"ERRORS.log"))
       f = os.path.join(projectDirectory, "ERRORS.log")
       self.metadata = parser.getMetadata()
-      self.mediaInfo = parser.getMediaInfo()
+      audioURL = parser.getAudioURL()
+      videoURL = parser.getVideoURL()
+         # we give preference to video
+      if not videoURL is None:
+         self.mediaInfo = {"url": videoURL, "mimeType": "unspecified"}
+      else:
+         self.mediaInfo = {"url": audioURL, "mimeType": "unspecified"}
       self.lineTables = parser.getAllLinesTable() 
       self.startStopTable = parser.getTimeTable()
       self.eafParser = parser

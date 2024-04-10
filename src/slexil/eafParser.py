@@ -87,6 +87,29 @@ class EafParser:
    def getVideoMimeType(self):
       return self.videoMimeType
 
+   def getTokenizedTierPairs(self):
+      tbl = self.tierTable
+      lines = self.linesAll
+      candidateTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "false"]["TIER_ID"])
+      tabCounts = {k: 0 for k in candidateTiers}
+      pd.set_option('display.max_colwidth', None)
+      for line in lines:
+         for tier in candidateTiers:
+            text = str(line[line["tierID"] == tier]["text"])
+            tabCount = text.count("\\t")
+            tabCounts[tier] += tabCount
+            
+      numericCounts = [value for key, value in tabCounts.items()]
+        #-----------------------------------------------------------
+        # a conservative guess: we should find at least 3 delimited
+        # tokens per line
+        #-----------------------------------------------------------
+
+      highCount = len(lines) * 3
+        # allow for a few mistaken
+      possiblePairs = {k:tabCounts[k] for k,v in tabCounts.items() if v > highCount}
+      return possiblePairs
+
    def getTimeAlignedTiers(self):
       tbl = self.tierTable
       timeAlignedTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "true"]["TIER_ID"])

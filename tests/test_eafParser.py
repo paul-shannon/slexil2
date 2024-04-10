@@ -25,20 +25,21 @@ def runTests():
     #test_parsingSpeed()
     # test_lineToYAML()
     # test_toYAML()
-    # test_invalidXmlRaisesException_misnamedParentRef()
-    # test_invalidXmlRaisesException_misnamedTierType()
-    # test_invalidXmlRaisesException_misspelledTag()
-    # test_ctor()
-    # test_tierTable()
-    # test_timeTable()
-    # test_checkAgainstTierGuide()
-    # test_depthFirstTierTraversal()
-    # test_getLineTable()
-    # test_parseAllLines()
-    # test_sortLinesByTime_inferno()
-    # test_sortLinesByTime_natalia()
-    # test_tedsBlueJay()
-    # test_fixOverlappingTimes()  # very slow
+    test_invalidXmlRaisesException_misnamedParentRef()
+    test_invalidXmlRaisesException_misnamedTierType()
+    test_invalidXmlRaisesException_misspelledTag()
+    test_ctor()
+    test_tierTable()
+    test_timeTable()
+    test_checkAgainstTierGuide()
+    test_depthFirstTierTraversal()
+    test_getLineTable()
+    test_parseAllLines()
+    test_sortLinesByTime_inferno()
+    test_sortLinesByTime_natalia()
+    test_tedsBlueJay()
+    test_fixOverlappingTimes()  # very slow
+    test_getTokenizedTierPairs()
     test_getTimeAlignedTiers()
     test_variousGetters()
     test_getSummary()
@@ -349,6 +350,41 @@ def test_tedsBlueJay():
     assert(startTimes[:5] == [0, 0, 2507, 2507, 6651])
     
 
+#---------------------------------------------------------------------------------------------------
+def test_getTokenizedTierPairs():
+
+   print("--- test_getTokenizedTierPairs")
+
+     #---------------------------------------------------------------
+     # first the standard IJAL 4-tier line, one time-aligned
+     #---------------------------------------------------------------
+
+   f = "../explore/misc/inferno/inferno-threeLines.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   possiblePairs = parser.getTokenizedTierPairs()
+   assert(possiblePairs == {'morphemes': 16, 'morpheme-gloss': 16})
+
+     #---------------------------------------------------------------
+     # second, an eaf with just one time-aligned tier, just one child
+     # no tokenized tier pairs
+     #---------------------------------------------------------------
+
+   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   possiblePairs = parser.getTokenizedTierPairs()
+   assert(possiblePairs == {})
+
+
+     #---------------------------------------------------------------
+     # third, two time-aligned tiers, each with full IJAL set of children
+     #---------------------------------------------------------------
+
+   f = "../explore/nataliaCaceres/085-motherOfTheFish/085_TheMotherOfTheFishAndThePrankster.eaf"
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   possiblePairs = parser.getTokenizedTierPairs()
+   assert(possiblePairs == {'to@VG': 209, 'ot@VG': 209})
+
+   
 #---------------------------------------------------------------------------------------------------
 def test_getTimeAlignedTiers():
 
