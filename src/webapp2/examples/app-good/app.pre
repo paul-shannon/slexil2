@@ -18,6 +18,15 @@ buttonStyle = {"margin": "20px",
               "border-radius": "10px"
               }
 
+#--------------------------------------------------------------------------------
+# the webapp requires a PROJECTS_DIRECTORY in the current working directory
+# each individual project, one for each text, is created as a subdirectory here
+PROJECTS_DIRECTORY = "PROJECTS"
+try:
+    assert(os.path.exists(PROJECTS_DIRECTORY))
+except AssertionError:
+    os.mkdir(PROJECTS_DIRECTORY)
+#--------------------------------------------------------------------------------
 eafDir = "eafs"
 files = os.listdir(eafDir)
 eafFiles = [f for f in files if f.endswith("eaf")]
@@ -89,7 +98,10 @@ def displayStateAsList(n_clicks, data):
        el.children.append(html.Li("%s: %s" % (key, data[key])))
     return True, "State Variables", el
 #--------------------------------------------------------------------------------
-m4_include(12.eafSummaryModalDisplay.py)
+m4_include(20.setTitle.py)
+#m4_include(12.eafSummaryModalDisplay.py)
+#m4_include(22.loadEAF.py)
+
 #----------------------------------------------------------------------
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),

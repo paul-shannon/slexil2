@@ -18,6 +18,15 @@ buttonStyle = {"margin": "20px",
               "border-radius": "10px"
               }
 
+#--------------------------------------------------------------------------------
+# the webapp requires a PROJECTS_DIRECTORY in the current working directory
+# each individual project, one for each text, is created as a subdirectory here
+PROJECTS_DIRECTORY = "PROJECTS"
+try:
+    assert(os.path.exists(PROJECTS_DIRECTORY))
+except AssertionError:
+    os.mkdir(PROJECTS_DIRECTORY)
+#--------------------------------------------------------------------------------
 eafDir = "eafs"
 files = os.listdir(eafDir)
 eafFiles = [f for f in files if f.endswith("eaf")]
@@ -89,66 +98,97 @@ def displayStateAsList(n_clicks, data):
        el.children.append(html.Li("%s: %s" % (key, data[key])))
     return True, "State Variables", el
 #--------------------------------------------------------------------------------
+import flask
+import os, io, traceback
+from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
+import dash_bootstrap_components as dbc
+from slexil.eafParser import EafParser
+from dash_iconify import DashIconify
 
-myDiv = html.Div(id="myDiv",
-                 children=[dcc.Dropdown(eafFiles,
-                                      # 'inferno-threeLines.eaf',
-                                      id='eafChooser',
-                                      style={"width": "400px", "font-size": "18px"}),
-                           ])
+dbcStyle = dbc.themes.BOOTSTRAP
+styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
-dashApp.layout.children.append(myDiv)
+#--------------------------------------------------------------------------------
+def createProjectDirectory(projectName):
+
+   path = os.path.join(PROJECTS_DIRECTORY, projectName)
+   if not os.path.exists(path):
+      os.mkdir(path)
+   return path
+      
+#--------------------------------------------------------------------------------
+setTitleDiv = html.Div(id="setTitleDiv",
+          children=[
+              html.H2('Project Title: ',
+                      style={'display':'inline-block', 'marginRight': "20px",
+                             "fontSize": "24px"}),
+              dcc.Input(id='projectNameInput',type='text',
+                        placeholder='',
+                        style={'display':'inline-block', 'fontSize': "24px",
+                               'width': '400px'}),
+              html.Button("Submit", id="setProjectNameButton", n_clicks=0,
+                          disabled=True, className="disabledButton"),
+              html.Div(id="projectTitleHelp", children=[
+                  DashIconify(icon="feather:info", color="blue",width=30),
+              ], style={"display": "inline-block"})
+          ],className="bodyStyle")
+#----------------------------------------------------------------------
+dashApp.layout.children.append(setTitleDiv)
+#----------------------------------------------------------------------
+@callback(
+    Output('setProjectNameButton', 'className'),
+    Output('setProjectNameButton', 'disabled'),
+    Input('projectNameInput', 'value'),
+    prevent_initial_call=True)
+def handleProjectNameInputChars(userEnteredString):
+    characterCount = len(userEnteredString)
+    print("string size: %d" % characterCount)
+    minCharacterCount = 3
+    if(characterCount >= minCharacterCount):
+        return "enabledButton", False
+    else:
+        return "disabledButton", True
 
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
     Output('modalContents', 'children', allow_duplicate=True),
-    Output('memoryStore', 'data', allow_duplicate=True),
-    Input('eafChooser', 'value'),
-    State('memoryStore', 'data'),
+    Input('projectTitleHelp', 'n_clicks'),
     prevent_initial_call=True
     )
-def summarizeEaf(eafFilename, data):
-    if data is None:
-        data = {}
-    print("--- %s" % eafFilename)
-    eafFilePath = "%s/%s" % (eafDir, eafFilename)
-    data['eafDir'] = eafDir
-    data['eafFilename'] = eafFilename
-    data['eafPath'] = eafFilePath
-    try:
-       parser = EafParser(eafFilePath, verbose=True, fixOverlappingTimeSegments=False)
-       tbl_tiers = parser.getTierTable()
-       dashTable_tiers = dash_table.DataTable(tbl_tiers.to_dict('records'),
-                                              [{"name": i, "id": i} for i in tbl_tiers.columns],
-                                              style_cell={'fontSize':20, 'font-family':'courier'})
-       tierTableDiv = html.Div(id="tierTable",
-                               children=[dashTable_tiers],
-                               style = {"width": "95%", "margin": "20",
-                                        "overflow": "auto",
-                                        "padding": "6px",
-                                        "border": "1px solid gray",
-                                        "border-radius": "10px"})
-       tbl_line0 = parser.getAllLinesTable()[0]
-       dashTable_lines = dash_table.DataTable(tbl_line0.to_dict('records'),
-                                              [{"name": i, "id": i} for i in tbl_line0.columns],
-                                              style_cell={'fontSize':18, 'font-family':'courier'})
-       lineTableDiv = html.Div(id="lineTable",
-                               children=[dashTable_lines],
-                               style = {"width": "95%", "margin": "20",
-                                        "margin-top": "40px",
-                                        "padding": "6px",
-                                        "overflow": "auto",
-                                        "border": "1px solid gray",
-                                        "border-radius": "10px"})
-       return True, [tierTableDiv], data
-    except BaseException as e:
-       success = False
-       modalContents = get_exception_traceback_str(e)
-       return True, html.Pre(modalContents), data
-
-
+def displayProjectTitleHelp(n_clicks):
+    contents = html.Ul(id="list",
+       children=[html.Li("Your title will be displayed prominently at the top of the web page we create from your text."),
+                 html.Li("We recommend a concise and descriptive name, 3-40 characters long."),
+                 html.Li("It can include spaces and upper and lower case characters."),
+                 html.Li("For instance: How Daylight Was Stolen - Harry Moses.")
+                 ])
     
+    return True, "Help for Project Title Input", contents
+
 #----------------------------------------------------------------------
+@callback(
+    Output('memoryStore', 'data'),
+    Input('setProjectNameButton', 'n_clicks'),
+    State('projectNameInput', 'value'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True)
+def handleSetProjectNameButton(n_clicks, userEnteredString, data):
+    print("--- handleSetProjectNameButton: %d, %s" % (n_clicks, userEnteredString))
+    title = userEnteredString.strip()
+    newProjectName = title.replace(" ", "_")
+    projectPath = createProjectDirectory(newProjectName)
+    if data is None:
+       print("initializing None data")
+       data = {}
+    data['title'] = title
+    data['projectName'] = newProjectName
+    data['projectPath'] = projectPath
+    return(data)
+#--------------------------------------------------------------------------------
+
+#m4_include(12.eafSummaryModalDisplay.py)
+#m4_include(22.loadEAF.py)
 
 #----------------------------------------------------------------------
 @callback(
