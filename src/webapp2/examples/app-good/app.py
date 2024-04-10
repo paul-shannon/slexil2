@@ -1,5 +1,5 @@
 import flask
-import os, io, traceback
+import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from slexil.eafParser import EafParser
@@ -46,7 +46,8 @@ def get_exception_traceback_str(exc: Exception) -> str:
 #-------------------------------------------------------
 modalDiv = html.Div(
     [dbc.Modal([
-         dbc.ModalHeader(dbc.ModalTitle("SLEXIL Notification"), close_button=True),
+         dbc.ModalHeader(
+            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
          dbc.ModalBody("", id='modalContents'),
          dbc.ModalFooter(
              dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))],
@@ -59,7 +60,8 @@ modalDiv = html.Div(
          )])
 #-------------------------------------------------------
 dashApp.layout = html.Div(id="mainDiv",
-               children=[createNavBar(),
+               children=[dcc.Store(id='memoryStore', storage_type='memory'),
+                         createNavBar(),
                          dcc.Loading(
                              id="modalLoadWatcher",
                              type="default",
@@ -67,6 +69,26 @@ dashApp.layout = html.Div(id="mainDiv",
                          ],
                       style={"margin": "5px"})
 #----------------------------------------------------------------------
+# navbar button displays state in a modal dialog
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('examineStateButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    print("sleeping in display state")
+    time.sleep(3)
+    if data is None:
+       return(True, "State Variables",
+              html.P("state is empty, no variables yet assigned"))
+    el = html.Ul(id="list", children=[])
+    for key in data.keys():
+       el.children.append(html.Li("%s: %s" % (key, data[key])))
+    return True, "State Variables", el
+#--------------------------------------------------------------------------------
 
 myDiv = html.Div(id="myDiv",
                  children=[dcc.Dropdown(eafFiles,
@@ -80,14 +102,19 @@ dashApp.layout.children.append(myDiv)
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalContents', 'children', allow_duplicate=True),
-    #Input('summarizeEafButton', 'n_clicks'),
+    Output('memoryStore', 'data', allow_duplicate=True),
     Input('eafChooser', 'value'),
-    #State('eafChooser', 'value'),
+    State('memoryStore', 'data'),
     prevent_initial_call=True
     )
-def summarizeEaf(eafFilename):
+def summarizeEaf(eafFilename, data):
+    if data is None:
+        data = {}
     print("--- %s" % eafFilename)
     eafFilePath = "%s/%s" % (eafDir, eafFilename)
+    data['eafDir'] = eafDir
+    data['eafFilename'] = eafFilename
+    data['eafPath'] = eafFilePath
     try:
        parser = EafParser(eafFilePath, verbose=True, fixOverlappingTimeSegments=False)
        tbl_tiers = parser.getTierTable()
@@ -113,11 +140,11 @@ def summarizeEaf(eafFilename):
                                         "overflow": "auto",
                                         "border": "1px solid gray",
                                         "border-radius": "10px"})
-       return True, [tierTableDiv] #, lineTableDiv]
+       return True, [tierTableDiv], data
     except BaseException as e:
        success = False
        modalContents = get_exception_traceback_str(e)
-       return True, html.Pre(modalContents)
+       return True, html.Pre(modalContents), data
 
 
     

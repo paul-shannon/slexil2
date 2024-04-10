@@ -21,6 +21,9 @@ def summarizeEaf(eafFilename, data):
         data = {}
     print("--- %s" % eafFilename)
     eafFilePath = "%s/%s" % (eafDir, eafFilename)
+    data['eafDir'] = eafDir
+    data['eafFilename'] = eafFilename
+    data['eafPath'] = eafFilePath
     try:
        parser = EafParser(eafFilePath, verbose=True, fixOverlappingTimeSegments=False)
        tbl_tiers = parser.getTierTable()
