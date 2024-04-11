@@ -1,4 +1,5 @@
 import flask
+from datetime import datetime
 import base64
 import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
@@ -101,8 +102,7 @@ def displayStateAsList(n_clicks, data):
 #--------------------------------------------------------------------------------
 m4_include(20.setTitle.py)
 m4_include(22.loadEAF.py)
-#m4_include(12.eafSummaryModalDisplay.py)
-
+m4_include(23.makeHtml.py)
 #----------------------------------------------------------------------
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),

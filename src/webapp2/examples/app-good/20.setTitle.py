@@ -65,7 +65,6 @@ def displayProjectTitleHelp(n_clicks):
     State('memoryStore', 'data'),
     prevent_initial_call=True)
 def handleSetProjectNameButton(n_clicks, userEnteredString, data):
-    print("--- handleSetProjectNameButton: %d, %s" % (n_clicks, userEnteredString))
     title = userEnteredString.strip()
     newProjectName = title.replace(" ", "_")
     projectPath = createProjectDirectory(newProjectName)

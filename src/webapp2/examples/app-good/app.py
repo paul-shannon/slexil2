@@ -1,4 +1,5 @@
 import flask
+from datetime import datetime
 import base64
 import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
@@ -166,7 +167,6 @@ def displayProjectTitleHelp(n_clicks):
     State('memoryStore', 'data'),
     prevent_initial_call=True)
 def handleSetProjectNameButton(n_clicks, userEnteredString, data):
-    print("--- handleSetProjectNameButton: %d, %s" % (n_clicks, userEnteredString))
     title = userEnteredString.strip()
     newProjectName = title.replace(" ", "_")
     projectPath = createProjectDirectory(newProjectName)
@@ -194,9 +194,10 @@ eafLoaderDiv = html.Div(id="eafLoaderDiv",
 dashApp.layout.children.append(eafLoaderDiv)
 #--------------------------------------------------------------------------------
 @callback(
-   Output('slexilModal',   'is_open',  allow_duplicate=True),
-   Output('modalContents', 'children', allow_duplicate=True),
-   Output('memoryStore',   'data',     allow_duplicate=True),
+   Output('slexilModal',      'is_open',  allow_duplicate=True),
+   Output('modalContents',    'children', allow_duplicate=True),
+   Output('memoryStore',      'data',     allow_duplicate=True),
+   Output('createWebpageDiv', 'hidden'),
    Input('eafUploader',    'contents'),
    State('eafUploader',    'filename'),
    State('memoryStore',    'data'),
@@ -206,10 +207,8 @@ def eafUploadHandler(fileContents, filename, data):
    if data is None:
       data = {}
 
-   data['projectName'] = "fubar"
-   data['projectPath'] = "PROJECTS/fubar"
-
    data['eafFileName'] = filename
+
    try:
       fileData = fileContents.encode("utf8").split(b";base64,")[1]
       fullPath = os.path.join(data['projectPath'], filename)
@@ -238,15 +237,57 @@ def eafUploadHandler(fileContents, filename, data):
       modalOpen = True
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
+      hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-   return modalOpen, modalContents, data
+      hideCreateWebpageButton = True
+   return modalOpen, modalContents, data, hideCreateWebpageButton
       
 
 
-#m4_include(12.eafSummaryModalDisplay.py)
+#--------------------------------------------------------------------------------
+createWebpageDiv = html.Div(id="createWebpageDiv",
+          children=[
+              html.Button("Create Webpage", id="createWebpageButton", n_clicks=0,
+                          disabled=False, className="enabledButton"),
+              html.Div(id="createWebpageHelp", children=[
+                  DashIconify(icon="feather:info", color="blue",width=30),
+              ], style={"display": "inline-block"})
+          ],className="bodyStyle", hidden=True)
+#----------------------------------------------------------------------
+dashApp.layout.children.append(createWebpageDiv)
+#----------------------------------------------------------------------
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('createWebpageHelp', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def displayCreateWebpageHelp(n_clicks):
+    contents = html.Ul(id="list",
+       children=[html.Li("explanation for createWebpage coming soon")
+                 ])
+    
+    return True, "Help for Create Webpage", contents
+
+#----------------------------------------------------------------------
+@callback(
+    Output('memoryStore', 'data', allow_duplicate=True),
+    Input('createWebpageButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True)
+def createWebpage(n_clicks, data):
+    if data is None:
+       print("initializing None data")
+       data = {}
+    now = datetime.now()
+    currentTime = now.strftime("%H:%M:%S")
+    data['webpage creation time'] = currentTime
+    return(data)
+#--------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------
 @callback(
