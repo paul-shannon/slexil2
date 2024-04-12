@@ -12,17 +12,28 @@ styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
-                external_stylesheets=styleSheets)
-dashApp.title = "Slexil2"
+               external_stylesheets=styleSheets)
+dashApp.title = "Slexil 2"
 
-#buttonStyle={"margin": "10px", "padding": "20px"}
+#--------------------------------------------------------------------------------
+@app.route('/PROJECTS/<path:urlpath>')
+def serveFile(urlpath):
+    print("=== entering serveFile app.server.route: %s" % urlpath)
+    fullPath = os.path.join("PROJECTS", urlpath)
+    dirname = os.path.dirname(fullPath)
+    filename = os.path.basename(fullPath)
+    print("---- %s" % fullPath)
+
+    if urlpath[-4:] == "html":
+        print("=== populate textArea from %s" % urlpath)
+        return flask.send_file(os.path.join(fullPath))
+    return None
+#--------------------------------------------------------------------------------
 buttonStyle = {"margin": "20px",
               "font-size": "20px",
               "border": "1px solid brown",
               "border-radius": "10px"
               }
-
-
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
 # each individual project, one for each text, is created as a subdirectory here
@@ -105,6 +116,7 @@ m4_include(20.setTitle.py)
 m4_include(22.loadEAF.py)
 m4_include(createWebPage.py)
 m4_include(23.makeHtml.py)
+m4_include(24.displayAndDownload.py)
 #----------------------------------------------------------------------
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),

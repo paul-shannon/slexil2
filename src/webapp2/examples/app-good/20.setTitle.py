@@ -32,7 +32,6 @@ dashApp.layout.children.append(setTitleDiv)
     prevent_initial_call=True)
 def handleProjectNameInputChars(userEnteredString):
     characterCount = len(userEnteredString)
-    print("string size: %d" % characterCount)
     minCharacterCount = 3
     if(characterCount >= minCharacterCount):
         return "enabledButton", False

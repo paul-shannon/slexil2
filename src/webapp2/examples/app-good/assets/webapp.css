@@ -84,7 +84,8 @@ a[href] {
   text-decoration: underline;
   }
 
-buttonStyle {margin: 20px;
+              "borderRadius": "10px"
+#displayStaticHTMLButton, #downloadWebPageButton {margin: 20px;
              font-size: 24px;
              border: 1px solid black;
              border-radius: 10px;

@@ -12,37 +12,28 @@ styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
-                external_stylesheets=styleSheets)
-dashApp.title = "Slexil2"
+               external_stylesheets=styleSheets)
+dashApp.title = "Slexil 2"
 
-#buttonStyle={"margin": "10px", "padding": "20px"}
-buttonStyle = {"margin": "20px",
-              "font-size": "20px",
-              "border": "1px solid brown",
-              "border-radius": "10px"
-              }
-
-
+#--------------------------------------------------------------------------------
 @app.route('/PROJECTS/<path:urlpath>')
 def serveFile(urlpath):
-    print("=== entering serveFile app.server.route")
+    print("=== entering serveFile app.server.route: %s" % urlpath)
     fullPath = os.path.join("PROJECTS", urlpath)
     dirname = os.path.dirname(fullPath)
     filename = os.path.basename(fullPath)
     print("---- %s" % fullPath)
 
-    if urlpath[-4:] == "html" or urlpath[-3:] == "css" or urlpath[-17:] == '.html-forDownload':
+    if urlpath[-4:] == "html":
         print("=== populate textArea from %s" % urlpath)
         return flask.send_file(os.path.join(fullPath))
-    if urlpath[-3:] == 'zip':
-        print("=== serve_static_file")
-        print("urlpath:  %s" % urlpath)
-        print("about to send %s, %s" % (dirname, filename))
-        return flask.send_file(fullPath,
-                               mimetype='application/zip',
-                               as_attachment=True)
-
-
+    return None
+#--------------------------------------------------------------------------------
+buttonStyle = {"margin": "20px",
+              "font-size": "20px",
+              "border": "1px solid brown",
+              "border-radius": "10px"
+              }
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
 # each individual project, one for each text, is created as a subdirectory here
@@ -155,7 +146,6 @@ dashApp.layout.children.append(setTitleDiv)
     prevent_initial_call=True)
 def handleProjectNameInputChars(userEnteredString):
     characterCount = len(userEnteredString)
-    print("string size: %d" % characterCount)
     minCharacterCount = 3
     if(characterCount >= minCharacterCount):
         return "enabledButton", False
@@ -319,9 +309,9 @@ createWebpageDiv = html.Div(id="createWebpageDiv",
               html.Div(id="createWebpageHelp", children=[
                   DashIconify(icon="feather:info", color="blue",width=30),
                ], style={"display": "inline-block"}),
-             html.Iframe(id="htmlPreviewDiv",
-                      style={"width": "95%", "height": "400px",
-                             "border": "1px solid blue"})
+             #html.Iframe(id="htmlPreviewDiv",
+             #         style={"width": "95%", "height": "400px",
+             #                "border": "1px solid blue"})
           ],className="bodyStyle", hidden=True)
 #----------------------------------------------------------------------
 dashApp.layout.children.append(createWebpageDiv)
@@ -343,13 +333,13 @@ def displayCreateWebpageHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
     Output('memoryStore', 'data', allow_duplicate=True),
-    Output('htmlPreviewDiv', 'src'),
+    #Output('htmlPreviewDiv', 'src'),
     Input('createWebpageButton', 'n_clicks'),
     State('memoryStore', 'data'),
     prevent_initial_call=True)
 def createWebpageCallback(n_clicks, data):
     if data is None:
-       print("initializing None data")
+       print("initializing None data in 23.makeHtml.py")
        data = {}
     htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
     now = datetime.now()
@@ -357,8 +347,42 @@ def createWebpageCallback(n_clicks, data):
     data['webpage creation time'] = currentTime
     print("htmlFilePath: %s" % htmlFilePath)
     
-    return data, "foo"
+    return data
 #--------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------
+downloadAndDisplayDiv = html.Div(id="downloadAndDisplayDiv",
+          children=[html.Button("Display", id="displayStaticHTMLButton",
+                                n_clicks=0),
+                    html.Button("Download Web Page", id="downloadWebPageButton",
+                                n_clicks=0),
+                    dcc.Download(id="downloader"),
+                    html.Iframe(id="displayIFrame",
+                                style={"width": "95%", "height": "800px",
+                                       "overflow": "auto"})
+                    ])
+dashApp.layout.children.append(downloadAndDisplayDiv)
+#--------------------------------------------------------------------------------
+@callback(
+    Output('displayIFrame', 'src'),
+    Input('displayStaticHTMLButton', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def displayPage(n_clicks):
+    return "http://127.0.0.1:9020/PROJECTS/example/index.html"
+
+@callback(
+    Output('downloader', 'data'),
+    Input('downloadWebPageButton', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def downloadWebPage(n_clicks):
+    return dcc.send_file("PROJECTS/example/index.html")
+
+#--------------------------------------------------------------------------------
+if __name__ == '__main__':
+    port = 9020
+    dashApp.run(host='0.0.0.0', debug=True, port=port)
 
 #----------------------------------------------------------------------
 @callback(
