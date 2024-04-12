@@ -13,7 +13,7 @@ styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
                 external_stylesheets=styleSheets)
-dashApp.title = "input with button"
+dashApp.title = "Slexil2"
 
 #buttonStyle={"margin": "10px", "padding": "20px"}
 buttonStyle = {"margin": "20px",
@@ -21,6 +21,27 @@ buttonStyle = {"margin": "20px",
               "border": "1px solid brown",
               "border-radius": "10px"
               }
+
+
+@app.route('/PROJECTS/<path:urlpath>')
+def serveFile(urlpath):
+    print("=== entering serveFile app.server.route")
+    fullPath = os.path.join("PROJECTS", urlpath)
+    dirname = os.path.dirname(fullPath)
+    filename = os.path.basename(fullPath)
+    print("---- %s" % fullPath)
+
+    if urlpath[-4:] == "html" or urlpath[-3:] == "css" or urlpath[-17:] == '.html-forDownload':
+        print("=== populate textArea from %s" % urlpath)
+        return flask.send_file(os.path.join(fullPath))
+    if urlpath[-3:] == 'zip':
+        print("=== serve_static_file")
+        print("urlpath:  %s" % urlpath)
+        print("about to send %s, %s" % (dirname, filename))
+        return flask.send_file(fullPath,
+                               mimetype='application/zip',
+                               as_attachment=True)
+
 
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
@@ -111,7 +132,7 @@ def createProjectDirectory(projectName):
 #--------------------------------------------------------------------------------
 setTitleDiv = html.Div(id="setTitleDiv",
           children=[
-              html.H2('Project Title: ',
+              html.H2('Enter Project Title: ',
                       style={'display':'inline-block', 'marginRight': "20px",
                              "fontSize": "24px"}),
               dcc.Input(id='projectNameInput',type='text',
@@ -247,6 +268,49 @@ def eafUploadHandler(fileContents, filename, data):
       
 
 
+from slexil.eafParser import EafParser
+from slexil.text import Text
+import os, yaml
+
+def createWebPage(eafFullPath, projectPath, title):
+
+   parser = EafParser(eafFullPath, verbose=False, fixOverlappingTimeSegments=False)
+   x = parser.learnTierGuide()
+   print(x)
+   tierGuideYamlFile = os.path.join(projectPath, "tierGuide.yaml")
+   with open(tierGuideYamlFile, 'w') as outfile:
+      yaml.dump(x, outfile, default_flow_style=False)
+   
+   text = Text(xmlFilename=eafFullPath,
+               grammaticalTermsFile=None,
+               tierGuideFile=tierGuideYamlFile,
+               projectDirectory=projectPath,
+               verbose=True,
+               fontSizeControls = False,
+               startLine = None,
+               endLine = None,
+               pageTitle = title,
+               helpFilename = None,
+               helpButtonLabel = "",
+               kbFilename = None,
+               linguisticsFilename = None,
+               webpackLinksOnly = False ,
+               fixOverlappingTimeSegments = False,
+               useTooltips=False)
+	
+   htmlText = text.toHTML()
+   filename = "index.html"
+   filePath = os.path.join(projectPath, "index.html")
+
+   f = open(filePath, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   f.close()
+   return filePath
+
+#--------------------------------------------------------------------------------
+# createWebPage("PROJECTS/x33/inferno-threeLines-outOfTimeOrder.eaf", "PROJECTS/x33", "test")
+   
+
 #--------------------------------------------------------------------------------
 createWebpageDiv = html.Div(id="createWebpageDiv",
           children=[
@@ -254,7 +318,10 @@ createWebpageDiv = html.Div(id="createWebpageDiv",
                           disabled=False, className="enabledButton"),
               html.Div(id="createWebpageHelp", children=[
                   DashIconify(icon="feather:info", color="blue",width=30),
-              ], style={"display": "inline-block"})
+               ], style={"display": "inline-block"}),
+             html.Iframe(id="htmlPreviewDiv",
+                      style={"width": "95%", "height": "400px",
+                             "border": "1px solid blue"})
           ],className="bodyStyle", hidden=True)
 #----------------------------------------------------------------------
 dashApp.layout.children.append(createWebpageDiv)
@@ -276,17 +343,21 @@ def displayCreateWebpageHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
     Output('memoryStore', 'data', allow_duplicate=True),
+    Output('htmlPreviewDiv', 'src'),
     Input('createWebpageButton', 'n_clicks'),
     State('memoryStore', 'data'),
     prevent_initial_call=True)
-def createWebpage(n_clicks, data):
+def createWebpageCallback(n_clicks, data):
     if data is None:
        print("initializing None data")
        data = {}
+    htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
     now = datetime.now()
     currentTime = now.strftime("%H:%M:%S")
     data['webpage creation time'] = currentTime
-    return(data)
+    print("htmlFilePath: %s" % htmlFilePath)
+    
+    return data, "foo"
 #--------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------

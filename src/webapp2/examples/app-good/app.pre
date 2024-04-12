@@ -13,7 +13,7 @@ styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
                 external_stylesheets=styleSheets)
-dashApp.title = "input with button"
+dashApp.title = "Slexil2"
 
 #buttonStyle={"margin": "10px", "padding": "20px"}
 buttonStyle = {"margin": "20px",
@@ -21,6 +21,7 @@ buttonStyle = {"margin": "20px",
               "border": "1px solid brown",
               "border-radius": "10px"
               }
+
 
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
@@ -102,6 +103,7 @@ def displayStateAsList(n_clicks, data):
 #--------------------------------------------------------------------------------
 m4_include(20.setTitle.py)
 m4_include(22.loadEAF.py)
+m4_include(createWebPage.py)
 m4_include(23.makeHtml.py)
 #----------------------------------------------------------------------
 @callback(

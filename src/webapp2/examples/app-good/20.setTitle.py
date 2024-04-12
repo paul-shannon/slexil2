@@ -9,7 +9,7 @@ def createProjectDirectory(projectName):
 #--------------------------------------------------------------------------------
 setTitleDiv = html.Div(id="setTitleDiv",
           children=[
-              html.H2('Project Title: ',
+              html.H2('Enter Project Title: ',
                       style={'display':'inline-block', 'marginRight': "20px",
                              "fontSize": "24px"}),
               dcc.Input(id='projectNameInput',type='text',
