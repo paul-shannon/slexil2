@@ -245,7 +245,8 @@ def eafUploadHandler(fileContents, filename, data):
                                            "border": "1px solid gray",
                                            "border-radius": "10px"})
 
-      modalOpen = True
+      data['tiers'] = tierTableDiv
+      modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
       hideCreateWebpageButton = False
@@ -288,10 +289,11 @@ def createWebPage(eafFullPath, projectPath, title):
                fixOverlappingTimeSegments = False,
                useTooltips=False)
 	
+   filename = title.replace(" ", "_")
+   filename = "%s.html" % filename
    htmlText = text.toHTML()
-   filename = "index.html"
-   filePath = os.path.join(projectPath, "index.html")
-
+   filePath = os.path.join(projectPath, filename)
+   print ("writing html to '%s'" % filePath)
    f = open(filePath, "wb")
    f.write(bytes(htmlText, "utf-8"))
    f.close()
@@ -304,7 +306,7 @@ def createWebPage(eafFullPath, projectPath, title):
 #--------------------------------------------------------------------------------
 createWebpageDiv = html.Div(id="createWebpageDiv",
           children=[
-              html.Button("Create Webpage", id="createWebpageButton", n_clicks=0,
+              html.Button("Create Web Page", id="createWebpageButton", n_clicks=0,
                           disabled=False, className="enabledButton"),
               html.Div(id="createWebpageHelp", children=[
                   DashIconify(icon="feather:info", color="blue",width=30),
@@ -333,7 +335,10 @@ def displayCreateWebpageHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
     Output('memoryStore', 'data', allow_duplicate=True),
-    #Output('htmlPreviewDiv', 'src'),
+    Output('displayStaticHTMLButton', 'hidden'),
+    Output('displayStaticHTMLButton', 'className'),
+    Output('downloadWebPageButton', 'hidden'),
+    Output('downloadWebPageButton', 'className'),
     Input('createWebpageButton', 'n_clicks'),
     State('memoryStore', 'data'),
     prevent_initial_call=True)
@@ -347,15 +352,15 @@ def createWebpageCallback(n_clicks, data):
     data['webpage creation time'] = currentTime
     print("htmlFilePath: %s" % htmlFilePath)
     
-    return data
+    return data, False, "enabledButton", False, "enabledButton"
 #--------------------------------------------------------------------------------
 
 #--------------------------------------------------------------------------------
 downloadAndDisplayDiv = html.Div(id="downloadAndDisplayDiv",
           children=[html.Button("Display", id="displayStaticHTMLButton",
-                                n_clicks=0),
+                                n_clicks=0, hidden=True, className="disabledButton"),
                     html.Button("Download Web Page", id="downloadWebPageButton",
-                                n_clicks=0),
+                                n_clicks=0, hidden=True, className="disabledButton"),
                     dcc.Download(id="downloader"),
                     html.Iframe(id="displayIFrame",
                                 style={"width": "95%", "height": "800px",
@@ -366,18 +371,27 @@ dashApp.layout.children.append(downloadAndDisplayDiv)
 @callback(
     Output('displayIFrame', 'src'),
     Input('displayStaticHTMLButton', 'n_clicks'),
+    State('memoryStore', 'data'),
     prevent_initial_call=True
     )
-def displayPage(n_clicks):
-    return "http://127.0.0.1:9020/PROJECTS/example/index.html"
+def displayPage(n_clicks, data):
+    projectName = data["projectName"]
+    htmlFileName = "%s.html" % projectName
+    htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
+    url = "http://127.0.0.1:9020/%s" % htmlFileFullPath
+    return url
 
 @callback(
     Output('downloader', 'data'),
     Input('downloadWebPageButton', 'n_clicks'),
+    State('memoryStore', 'data'),
     prevent_initial_call=True
     )
-def downloadWebPage(n_clicks):
-    return dcc.send_file("PROJECTS/example/index.html")
+def downloadWebPage(n_clicks, data):
+    projectName = data["projectName"]
+    htmlFileName = "%s.html" % projectName
+    htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
+    return dcc.send_file(htmlFileFullPath)
 
 #--------------------------------------------------------------------------------
 if __name__ == '__main__':

@@ -53,7 +53,8 @@ def eafUploadHandler(fileContents, filename, data):
                                            "border": "1px solid gray",
                                            "border-radius": "10px"})
 
-      modalOpen = True
+      data['tiers'] = tierTableDiv
+      modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
       hideCreateWebpageButton = False

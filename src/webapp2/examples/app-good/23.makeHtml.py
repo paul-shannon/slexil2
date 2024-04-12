@@ -1,7 +1,7 @@
 #--------------------------------------------------------------------------------
 createWebpageDiv = html.Div(id="createWebpageDiv",
           children=[
-              html.Button("Create Webpage", id="createWebpageButton", n_clicks=0,
+              html.Button("Create Web Page", id="createWebpageButton", n_clicks=0,
                           disabled=False, className="enabledButton"),
               html.Div(id="createWebpageHelp", children=[
                   DashIconify(icon="feather:info", color="blue",width=30),
@@ -30,7 +30,10 @@ def displayCreateWebpageHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
     Output('memoryStore', 'data', allow_duplicate=True),
-    #Output('htmlPreviewDiv', 'src'),
+    Output('displayStaticHTMLButton', 'hidden'),
+    Output('displayStaticHTMLButton', 'className'),
+    Output('downloadWebPageButton', 'hidden'),
+    Output('downloadWebPageButton', 'className'),
     Input('createWebpageButton', 'n_clicks'),
     State('memoryStore', 'data'),
     prevent_initial_call=True)
@@ -44,5 +47,5 @@ def createWebpageCallback(n_clicks, data):
     data['webpage creation time'] = currentTime
     print("htmlFilePath: %s" % htmlFilePath)
     
-    return data
+    return data, False, "enabledButton", False, "enabledButton"
 #--------------------------------------------------------------------------------

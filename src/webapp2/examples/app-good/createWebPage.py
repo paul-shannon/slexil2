@@ -28,10 +28,11 @@ def createWebPage(eafFullPath, projectPath, title):
                fixOverlappingTimeSegments = False,
                useTooltips=False)
 	
+   filename = title.replace(" ", "_")
+   filename = "%s.html" % filename
    htmlText = text.toHTML()
-   filename = "index.html"
-   filePath = os.path.join(projectPath, "index.html")
-
+   filePath = os.path.join(projectPath, filename)
+   print ("writing html to '%s'" % filePath)
    f = open(filePath, "wb")
    f.write(bytes(htmlText, "utf-8"))
    f.close()
