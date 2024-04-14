@@ -5,6 +5,7 @@ VERSION = 262
 
 default:
 	@echo venv
+	@echo assemble
 	@echo runNoDocker
 	@echo openNoDocker
 	@echo killNoDocker
@@ -26,6 +27,9 @@ default:
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+
+assemble:
+	(cd parts; make assemble)
 
 setDockerPlatform:
 	@echo export DOCKER_DEFAULT_PLATFORM=linux/amd64

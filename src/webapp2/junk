@@ -1,7 +1,11 @@
 git add Dockerfile
-git add app/
-git add assets/
+git add app/main.py
+git add assets/webapp.css
+git add examples/app-good/24.displayAndDownload.py
+git add examples/app-good/app.py
 git add junk
 git add makefile
-git add makefile-old
 git add requirements-versioned.txt
+git add main.py
+git add parts/
+git add requirements-versioned-old.txt

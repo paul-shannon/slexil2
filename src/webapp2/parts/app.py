@@ -72,13 +72,12 @@ def createNavBar():
    navbar = dbc.NavbarSimple(
       id="navbar",
       children=[dropdown],
-      brand="SLEXIL Webapp 2",
-      color="#F5FAF3",
-      dark=False,
-      )
+       brand="SLEXIL Webapp 2",
+       color="#F5FAF3",
+       dark=False,
+       )
 
    return navbar
-
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
@@ -447,7 +446,7 @@ def displayPage(n_clicks, data):
     projectName = data["projectName"]
     htmlFileName = "%s.html" % projectName
     htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
-    url = "%s" % htmlFileFullPath
+    url = "http://127.0.0.1:9020/%s" % htmlFileFullPath
     return url
 
 @callback(
