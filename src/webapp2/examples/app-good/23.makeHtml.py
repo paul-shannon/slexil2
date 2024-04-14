@@ -29,23 +29,41 @@ def displayCreateWebpageHelp(n_clicks):
 
 #----------------------------------------------------------------------
 @callback(
-    Output('memoryStore', 'data', allow_duplicate=True),
-    Output('displayStaticHTMLButton', 'hidden'),
-    Output('displayStaticHTMLButton', 'className'),
-    Output('downloadWebPageButton', 'hidden'),
-    Output('downloadWebPageButton', 'className'),
-    Input('createWebpageButton', 'n_clicks'),
-    State('memoryStore', 'data'),
-    prevent_initial_call=True)
+   Output('memoryStore', 'data', allow_duplicate=True),
+   Output('displayStaticHTMLButton', 'hidden'),
+   Output('displayStaticHTMLButton', 'className'),
+   Output('downloadWebPageButton', 'hidden'),
+   Output('downloadWebPageButton', 'className'),
+   Output('loadTrackerDiv', 'children', allow_duplicate=True),
+   Output('slexilModal',      'is_open',  allow_duplicate=True),
+   Output('modalContents',    'children', allow_duplicate=True),
+   Input('createWebpageButton', 'n_clicks'),
+   State('memoryStore', 'data'),
+   prevent_initial_call=True)
 def createWebpageCallback(n_clicks, data):
-    if data is None:
-       print("initializing None data in 23.makeHtml.py")
-       data = {}
-    htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
-    now = datetime.now()
-    currentTime = now.strftime("%H:%M:%S")
-    data['webpage creation time'] = currentTime
-    print("htmlFilePath: %s" % htmlFilePath)
+   if data is None:
+      print("initializing None data in 23.makeHtml.py")
+      data = {}
+      data['webpage creation time'] = currentTime
+   try:
+      htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
+      now = datetime.now()
+      currentTime = now.strftime("%H:%M:%S")
+      modalOpen = False
+      modalContents = ""
+      nextStepButtonHidden = False
+      nextStepButtonClass = "enabledButton"
+   except BaseException as e:
+      modalOpen = True
+      #modalTitle = "create webpage error"
+      modalContents = html.Pre(get_exception_traceback_str(e))
+      nextStepButtonHidden = True
+      nextStepButtonClass = "disabledButton"
     
-    return data, False, "enabledButton", False, "enabledButton"
+   return data, nextStepButtonHidden, nextStepButtonClass, nextStepButtonHidden, nextStepButtonClass, "", modalOpen, modalContents
 #--------------------------------------------------------------------------------
+
+
+
+
+

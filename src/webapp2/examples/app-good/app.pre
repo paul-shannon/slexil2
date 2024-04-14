@@ -84,13 +84,14 @@ modalDiv = html.Div(
          scrollable=True,
          )])
 #-------------------------------------------------------
+loadTrackerDiv = html.Div(id="loadTrackerDiv")
 dashApp.layout = html.Div(id="mainDiv",
                children=[dcc.Store(id='memoryStore', storage_type='memory'),
                          createNavBar(),
                          dcc.Loading(
                              id="modalLoadWatcher",
                              type="default",
-                             children=modalDiv)
+                             children=[modalDiv, loadTrackerDiv])
                          ],
                       style={"margin": "5px"})
 #----------------------------------------------------------------------
