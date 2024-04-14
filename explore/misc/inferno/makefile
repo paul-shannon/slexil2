@@ -2,9 +2,9 @@ EAF = inferno-threeLines.eaf
 HTML.FILE = inferno.html
 
 default:
-	@echo mediaTest
 	@echo valid
 	@echo venv
+	@echo curl
 	@echo eaf
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
@@ -18,7 +18,7 @@ venv:
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
 
-mediaTest:
+curl:
 	curl -I https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
 
 eaf:

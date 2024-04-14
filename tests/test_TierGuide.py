@@ -8,6 +8,8 @@ def runTests():
    test_detectUnsupportedTierNames()
    test_speechTierMissingOrMisname()
    test_pluralValues()
+
+   test_deduceTierGuideFromEAF()
    
 #--------------------------------------------------------------------------------
 def test_basic():

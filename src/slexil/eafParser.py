@@ -156,7 +156,8 @@ class EafParser:
      officialTierNames = ['speech', 'morpheme', 'morphemeGloss', 'translation']
 
      timeAlignedTiers = self.getTimeAlignedTiers()
-     assert(len(timeAlignedTiers) == 1)  # support later for > 1
+     if(len(timeAlignedTiers) > 1):
+         raise Exception("no support yet for multiple speakers")
      timeAlignedTier = timeAlignedTiers[0]
      tierFamily = self.getTimeAlignedTierFamily(timeAlignedTier)
      pairedTokenTiers = self.getTokenizedTierPairs()
@@ -168,7 +169,7 @@ class EafParser:
      claimedTiers = [v for k,v in x.items()]
      remainingTiers = [x for x in tierFamily if x not in claimedTiers]
 
-     assert(len(remainingTiers) == 1)
+     assert(len(remainingTiers) >= 1)
      x["translation"] = remainingTiers[0]
      return x
       

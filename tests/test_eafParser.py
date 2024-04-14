@@ -1,5 +1,5 @@
 # -*- tab-width: 4 -*-
-import unittest
+import yaml
 import pdb
 import os, sys
 from slexil.eafParser import EafParser
@@ -402,7 +402,16 @@ def test_learnTierGuide():
    assert(x['morpheme'] == 'morphemes')
    assert(x['morphemeGloss'] == 'morpheme-gloss')
    assert(x['translation'] == 'english')
-    
+   with open('tierGuide.yaml', 'w') as outfile:
+      yaml.dump(x, outfile, default_flow_style=False)
+   x2 = yaml.safe_load(open("tierGuide.yaml"))
+   xKeys = list(x.keys())
+   xKeys.sort()
+   x2Keys = list(x2.keys())
+   x2Keys.sort()
+   assert(xKeys == x2Keys)
+   os.remove("tierGuide.yaml")
+   
      #---------------------------------------------------------------
      # second, an eaf with just one time-aligned tier, just one child
      #---------------------------------------------------------------
