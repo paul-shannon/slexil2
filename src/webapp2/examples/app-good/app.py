@@ -51,11 +51,27 @@ print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
 def createNavBar():
 
+   dropdown = dbc.DropdownMenu(
+      label="Options",
+      in_navbar=True,
+      align_end=True,
+      size="lg",
+      children=[
+         dbc.DropdownMenuItem("Media URLs",
+                              id="explainMediaURLsButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Glossing Abbreviations",
+                              id="explainGlossingAbbreviationsButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Examine State",
+                              id="examineStateButton",
+                              class_name="menuItemClass"),
+         ])
+
+
    navbar = dbc.NavbarSimple(
       id="navbar",
-      children=[
-        dbc.NavItem(html.Button("Examine State", id="examineStateButton", n_clicks=0,
-                                className="enabledButton"))],
+      children=[dropdown],
        brand="SLEXIL Webapp 2",
        color="#F5FAF3",
        dark=False,
@@ -74,8 +90,9 @@ modalDiv = html.Div(
          dbc.ModalHeader(
             dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
          dbc.ModalBody("", id='modalContents'),
-         dbc.ModalFooter(
-             dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))],
+         #dbc.ModalFooter(
+         #    dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))
+             ],
          id="slexilModal",
          centered=True,
          is_open=False,
@@ -112,6 +129,38 @@ def displayStateAsList(n_clicks, data):
     for key in data.keys():
        el.children.append(html.Li("%s: %s" % (key, data[key])))
     return True, "State Variables", el
+#--------------------------------------------------------------------------------
+# explain how media URLs work, how and why you might change them
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('explainMediaURLsButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    el = html.Ul(id="list", children=[])
+    items = ["In most ELAN files, your media URL points to an audio or video file on your computer.",
+             "In that case, these media will only be playable for you in the web page we create here.",
+             "Alternatively, you can host your media file on the internet.",
+             "todo: explain more..."]
+    for item in items:
+       el.children.append(html.Li(item))
+    return True, "Media URLs", el
+#--------------------------------------------------------------------------------
+# explain how morpheme gloss capitaliation & fonts can be handled
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('explainGlossingAbbreviationsButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    el = html.Div(children=["Nothing yet ready on this topic."])
+    return True, "Glossing Abbreviations", el
 #--------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------
 def createProjectDirectory(projectName):

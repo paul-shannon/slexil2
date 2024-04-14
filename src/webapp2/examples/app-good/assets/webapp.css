@@ -48,7 +48,9 @@ button.btn-close { /* dbc.Modal close button "X" */
     background-color: #E1EDDD;
     }
 
-#examineStateButton{
+#examineStateButton,
+#explainGlossingAbbreviationsButton,
+#explainMediaURLsButton{
     margin: 5px;
     margin-top: 5px;
     font-size: 20px;
@@ -56,8 +58,8 @@ button.btn-close { /* dbc.Modal close button "X" */
     font-weight: normal;
     color: black;
     background-color: white;
-    border: 1px solid darkgray;
-    border-radius: 8px;
+    //border: 1px solid darkgray;
+    //border-radius: 8px;
     }
 #examineStateButton:hover{
     background-color: #E1EDDD;
@@ -89,6 +91,23 @@ a[href] {
              border: 1px solid black;
              border-radius: 10px;
              }
+
+.dropdown-toggle{
+   font-size: 20px;
+   font-family: New York Times-Roman;
+   background-color: white;
+   color: black;
+   border: 1 px solid black;
+   border-radius: 10px;
+   margin-top: 1px;
+   margin-bottom: 10px;
+   }
+
+//.menuItemClass{
+//    font-size: 24px;
+//    margin: 10px;
+//    background-color: yellow;
+//    }
 
 dynamicDivStyle {width: 400;
                  border: 1px solid darkblue;
