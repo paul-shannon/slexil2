@@ -8,6 +8,10 @@ COPY ./app /app
 COPY assets/ /app/assets/
 RUN mkdir /app/eafs
 COPY eafs/ /app/eafs
+#COPY /etc/nginx/nginx.conf /etc/nginx/nginx.conf_orig
+#COPY nginxLongKeepAlive.conf /etc/nginx/nginx.conf
+#COPY nginxLongKeepAlive.conf /tmp/
+
 
 
 

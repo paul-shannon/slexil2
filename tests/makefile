@@ -3,6 +3,7 @@ default:
 	@echo webPacker
 	@echo tierGuide
 	@echo eaf
+	@echo learnTierGuide
 	@echo ijalLine
 	@echo text
 	@echo morphemeGloss
@@ -26,6 +27,9 @@ tierGuide:
 
 eaf:
 	python test_eafParser.py
+
+learnTierGuide:
+	python test_learnTierGuide.py
 
 ijalLine:
 	python test_IjalLine.py

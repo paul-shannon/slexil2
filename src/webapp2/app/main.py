@@ -72,13 +72,12 @@ def createNavBar():
    navbar = dbc.NavbarSimple(
       id="navbar",
       children=[dropdown],
-      brand="SLEXIL Webapp 2",
-      color="#F5FAF3",
-      dark=False,
-      )
+       brand="SLEXIL Webapp 2",
+       color="#F5FAF3",
+       dark=False,
+       )
 
    return navbar
-
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
@@ -89,9 +88,11 @@ def get_exception_traceback_str(exc: Exception) -> str:
 modalDiv = html.Div(
     [dbc.Modal([
          dbc.ModalHeader(
-         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
-         dbc.ModalBody("", id='modalContents')
-         ],
+            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+         dbc.ModalBody("", id='modalContents'),
+         #dbc.ModalFooter(
+         #    dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))
+             ],
          id="slexilModal",
          centered=True,
          is_open=False,
@@ -445,7 +446,7 @@ def displayPage(n_clicks, data):
     projectName = data["projectName"]
     htmlFileName = "%s.html" % projectName
     htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
-    url = "%s" % htmlFileFullPath
+    url = "http://127.0.0.1:9020/%s" % htmlFileFullPath
     return url
 
 @callback(
@@ -466,6 +467,14 @@ if __name__ == '__main__':
     dashApp.run(host='0.0.0.0', debug=True, port=port)
 
 #----------------------------------------------------------------------
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Input('modalCloseButton', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def close_modal(_):
+    return False
+#----------------------------------------------------------------------
 if __name__ == '__main__':
-    port = 9018
+    port = 80
     dashApp.run(host='0.0.0.0', debug=True, port=port)

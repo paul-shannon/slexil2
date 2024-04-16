@@ -29,26 +29,59 @@ class EafParser:
    videoMimeType = None
    fixOverlappingTimeSegments = False
 
-   def __init__(self, xmlFilename, verbose, fixOverlappingTimeSegments):
+   def __init__(self, xmlFilename, verbose=False, fixOverlappingTimeSegments=False):
 
       self.xmlFilename = xmlFilename
       self.verbose = verbose
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
-      valid = self.xmlValid()
+      #valid = self.xmlValid()
+
+      if(verbose):
+         print("EafParser etree parse")
       self.doc = etree.parse(xmlFilename)
+
+      if(verbose):
+         print("EafParser extracting metadata")
       self.extractMetadata()
+
+      if(verbose):
+         print("EafParser extracting media info")
       self.extractMediaInfo()
+
+      if(verbose):
+         print("EafParser count lines")
       self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
+
+      if(verbose):
+         print("EafParser.run, constructing tier table")
       self.constructTierTable()
+
+      if(verbose):
+         print("EafParser leaving constructor")
+
+      if(verbose):
+         print("EafParser.run, constructing time table")
       self.constructTimeTable()
+
+
+   #----------------------------------------------------------------------------------
+   def run(self):
+
+
+      if(self.verbose):
+         print("EafParser.run, parsing & sorting all lines")
       self.parseAndSortAllLines()
 
+      if(self.verbose):
+         print("EafParser.run, complete")
+      
    #----------------------------------------------------------------------------------
    def xmlValid(self):
       assert(len(self.xmlFilename) > 4)
       #baseDir = "/Users/paul/github/slexil2/testData"
       #schemaFile = os.path.join(baseDir, "EAFv3.0.xsd")
       #assert(os.path.isfile(schemaFile))
+          # takes only ~500 msecs to load the schema file
       schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
       valid = False
       #try:
@@ -87,50 +120,6 @@ class EafParser:
    def getVideoMimeType(self):
       return self.videoMimeType
 
-   def getTokenizedTierPairs(self):
-      tbl = self.tierTable
-      lines = self.linesAll
-      candidateTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "false"]["TIER_ID"])
-      tabCounts = {k: 0 for k in candidateTiers}
-      pd.set_option('display.max_colwidth', None)
-      for line in lines:
-         for tier in candidateTiers:
-            text = str(line[line["tierID"] == tier]["text"])
-            tabCount = text.count("\\t")
-            tabCounts[tier] += tabCount
-            
-      numericCounts = [value for key, value in tabCounts.items()]
-        #-----------------------------------------------------------
-        # a conservative guess: we should find at least 3 delimited
-        # tokens per line
-        #-----------------------------------------------------------
-
-      highCount = len(lines) * 3
-        # allow for a few mistaken
-      possiblePairs = {k:tabCounts[k] for k,v in tabCounts.items() if v > highCount}
-      return possiblePairs
-
-   def getTimeAlignedTiers(self):
-      tbl = self.tierTable
-      timeAlignedTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "true"]["TIER_ID"])
-      return timeAlignedTiers
-
-   def getTimeAlignedTierFamily(self, timeAlignedTierID):
-           # find a line whose 0th tierID is timeAlignedTierID
-           # these relationships are figured out above in
-           # depthFirstTierTraversal, and used to assemble tiered lines
-           # pandas data table extracted from the eaf xml
-     found = False
-     line = 0
-     while not found:
-        parent = list(self.getLineTable(line)["tierID"])[0]
-        if parent == timeAlignedTierID:
-               #print("found parent tier %s at line %d" % (tier, line))
-           found = True
-        else:
-           line += 1
-     tierFamily = list(self.getLineTable(line)["tierID"])
-     return tierFamily
 
    def getMetadata(self):
       return(self.metadata)
@@ -150,29 +139,6 @@ class EafParser:
    def getAllLinesTable(self):
       return(self.linesAll)
 
-   #----------------------------------------------------------------------------------
-   def learnTierGuide(self):
-
-     officialTierNames = ['speech', 'morpheme', 'morphemeGloss', 'translation']
-
-     timeAlignedTiers = self.getTimeAlignedTiers()
-     if(len(timeAlignedTiers) > 1):
-         raise Exception("no support yet for multiple speakers")
-     timeAlignedTier = timeAlignedTiers[0]
-     tierFamily = self.getTimeAlignedTierFamily(timeAlignedTier)
-     pairedTokenTiers = self.getTokenizedTierPairs()
-     x={}
-     x["speech"] = timeAlignedTier
-     if(len(pairedTokenTiers) == 2):
-        x["morpheme"] = list(pairedTokenTiers.keys())[0]
-        x["morphemeGloss"] = list(pairedTokenTiers.keys())[1]
-     claimedTiers = [v for k,v in x.items()]
-     remainingTiers = [x for x in tierFamily if x not in claimedTiers]
-
-     assert(len(remainingTiers) >= 1)
-     x["translation"] = remainingTiers[0]
-     return x
-      
    #----------------------------------------------------------------------------------
    def checkAgainstTierGuide(self, tierGuideFile):
 
@@ -351,6 +317,7 @@ class EafParser:
 
    #----------------------------------------------------------------------------------
    def getLineTable(self, lineNumber):
+
       rowNumber = lineNumber - 1 # rows are 0-based, lines are 1-based
       x = self.doc.findall('TIER/ANNOTATION/ALIGNABLE_ANNOTATION')[rowNumber]
       parentID = x.attrib["ANNOTATION_ID"]
@@ -433,6 +400,31 @@ class EafParser:
         
 
    #----------------------------------------------------------------------------------
+   def getTimeAlignedTiers(self):
+      tbl = self.tierTable
+      timeAlignedTiers = list(tbl[tbl["TIME_ALIGNABLE"] == "true"]["TIER_ID"])
+      return timeAlignedTiers
+
+   #----------------------------------------------------------------------------------
+   def getTimeAlignedTierChildren(self, timeAlignedTierID):
+           # find a line whose 0th tierID is timeAlignedTierID
+           # these relationships are figured out above in
+           # depthFirstTierTraversal, and used to assemble tiered lines
+           # pandas data table extracted from the eaf xml
+      found = False
+      line = 0
+      while not found:
+         parent = list(self.getLineTable(line)["tierID"])[0]
+         if parent == timeAlignedTierID:
+               #print("found parent tier %s at line %d" % (tier, line))
+            found = True
+         else:
+            line += 1
+      tierFamily = list(self.getLineTable(line)["tierID"])
+      tierFamily.pop(0)  # remove the parent
+      return tierFamily
+
+   #----------------------------------------------------------------------------------
    def getSummary(self):
 
       x = {}
@@ -447,7 +439,7 @@ class EafParser:
       x['timeAlignedTiers'] = timeAlignedTiers
       i = 1
       for tier in timeAlignedTiers:
-         x["timeAlignedTierFamily.%d" % i] = self.getTimeAlignedTierFamily(tier)
+         x["timeAlignedTierFamily.%d" % i] = self.getTimeAlignedTierChildren(tier)
          i += 1
 
       return(x)

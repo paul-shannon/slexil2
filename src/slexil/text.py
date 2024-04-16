@@ -402,8 +402,8 @@ class Text:
          print("--- entering createTextDiv")
       with htmlDoc.tag("div", id="textDiv"):
          for i in self.lineNumbers:
-            if(self.verbose):
-               print("line %d/%d" % (i, self.lineCount))
+            #if(self.verbose):
+            #   print("line %d/%d" % (i, self.lineCount))
             lineTable = self.lineTables[i]   
             line = IjalLine(lineTable, i, self.tierGuide,
                             self.grammaticalTerms, self.useTooltips,
