@@ -72,12 +72,13 @@ def createNavBar():
    navbar = dbc.NavbarSimple(
       id="navbar",
       children=[dropdown],
-       brand="SLEXIL Webapp 2",
-       color="#F5FAF3",
-       dark=False,
-       )
+      brand="SLEXIL Webapp 2",
+      color="#F5FAF3",
+      dark=False,
+      )
 
    return navbar
+
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
@@ -88,11 +89,9 @@ def get_exception_traceback_str(exc: Exception) -> str:
 modalDiv = html.Div(
     [dbc.Modal([
          dbc.ModalHeader(
-            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
-         dbc.ModalBody("", id='modalContents'),
-         #dbc.ModalFooter(
-         #    dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))
-             ],
+         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+         dbc.ModalBody("", id='modalContents')
+         ],
          id="slexilModal",
          centered=True,
          is_open=False,
@@ -310,13 +309,14 @@ def eafUploadHandler(fileContents, filename, data):
 
 
 from slexil.eafParser import EafParser
+from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text
 import os, yaml
 
 def createWebPage(eafFullPath, projectPath, title):
 
-   parser = EafParser(eafFullPath, verbose=False, fixOverlappingTimeSegments=False)
-   x = parser.learnTierGuide()
+   ltg = LearnTierGuide(eafFullPath, verbose=False)
+   x = ltg.learnTierGuide()
    print(x)
    tierGuideYamlFile = os.path.join(projectPath, "tierGuide.yaml")
    with open(tierGuideYamlFile, 'w') as outfile:
@@ -446,7 +446,7 @@ def displayPage(n_clicks, data):
     projectName = data["projectName"]
     htmlFileName = "%s.html" % projectName
     htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
-    url = "http://127.0.0.1:9020/%s" % htmlFileFullPath
+    url = "%s" % htmlFileFullPath
     return url
 
 @callback(
@@ -462,19 +462,8 @@ def downloadWebPage(n_clicks, data):
     return dcc.send_file(htmlFileFullPath)
 
 #--------------------------------------------------------------------------------
-if __name__ == '__main__':
-    port = 9020
-    dashApp.run(host='0.0.0.0', debug=True, port=port)
 
 #----------------------------------------------------------------------
-@callback(
-    Output('slexilModal', 'is_open', allow_duplicate=True),
-    Input('modalCloseButton', 'n_clicks'),
-    prevent_initial_call=True
-    )
-def close_modal(_):
-    return False
-#----------------------------------------------------------------------
 if __name__ == '__main__':
-    port = 80
+    port = 9002
     dashApp.run(host='0.0.0.0', debug=True, port=port)

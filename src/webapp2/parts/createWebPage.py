@@ -1,11 +1,12 @@
 from slexil.eafParser import EafParser
+from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text
 import os, yaml
 
 def createWebPage(eafFullPath, projectPath, title):
 
-   parser = EafParser(eafFullPath, verbose=False, fixOverlappingTimeSegments=False)
-   x = parser.learnTierGuide()
+   ltg = LearnTierGuide(eafFullPath, verbose=False)
+   x = ltg.learnTierGuide()
    print(x)
    tierGuideYamlFile = os.path.join(projectPath, "tierGuide.yaml")
    with open(tierGuideYamlFile, 'w') as outfile:

@@ -168,5 +168,5 @@ m4_include(23.makeHtml.py)
 m4_include(24.displayAndDownload.py)
 #----------------------------------------------------------------------
 if __name__ == '__main__':
-    port = 9018
+    port = 9002
     dashApp.run(host='0.0.0.0', debug=True, port=port)

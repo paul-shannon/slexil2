@@ -309,13 +309,14 @@ def eafUploadHandler(fileContents, filename, data):
 
 
 from slexil.eafParser import EafParser
+from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text
 import os, yaml
 
 def createWebPage(eafFullPath, projectPath, title):
 
-   parser = EafParser(eafFullPath, verbose=False, fixOverlappingTimeSegments=False)
-   x = parser.learnTierGuide()
+   ltg = LearnTierGuide(eafFullPath, verbose=False)
+   x = ltg.learnTierGuide()
    print(x)
    tierGuideYamlFile = os.path.join(projectPath, "tierGuide.yaml")
    with open(tierGuideYamlFile, 'w') as outfile:
@@ -461,11 +462,8 @@ def downloadWebPage(n_clicks, data):
     return dcc.send_file(htmlFileFullPath)
 
 #--------------------------------------------------------------------------------
-if __name__ == '__main__':
-    port = 9020
-    dashApp.run(host='0.0.0.0', debug=True, port=port)
 
 #----------------------------------------------------------------------
 if __name__ == '__main__':
-    port = 80
+    port = 9002
     dashApp.run(host='0.0.0.0', debug=True, port=port)

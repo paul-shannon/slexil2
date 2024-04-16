@@ -1,4 +1,4 @@
-morpheme: ''
-morphemeGloss: ''
-speech: utterance
-translation: translation
+morpheme: morphemes
+morphemeGloss: morpheme-gloss
+speech: italianSpeech
+translation: english

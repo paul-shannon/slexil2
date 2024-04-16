@@ -37,6 +37,3 @@ def downloadWebPage(n_clicks, data):
     return dcc.send_file(htmlFileFullPath)
 
 #--------------------------------------------------------------------------------
-if __name__ == '__main__':
-    port = 9020
-    dashApp.run(host='0.0.0.0', debug=True, port=port)

@@ -115,6 +115,7 @@ class Text:
       self.verbose = verbose
 
       parser = EafParser(xmlFilename, self.verbose, self.fixOverlappingTimeSegments)
+      parser.run()
       self.eafParser = parser
       # parser.parseAllLines()
 

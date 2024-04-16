@@ -30,7 +30,7 @@ venv:
 
 assemble:
 	(cd parts; make assemble)
-	cp parts/app.py app/main.py
+	cp parts/app.py main.py
 
 setDockerPlatform:
 	@echo export DOCKER_DEFAULT_PLATFORM=linux/amd64
@@ -40,7 +40,7 @@ build:
 
 runNoDocker:
 	@echo no-docker version needs port other than 80
-	python app/main.py &
+	python main.py
 
 openNoDocker:
 	open http://localhost:$(PORT)
