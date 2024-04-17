@@ -38,6 +38,7 @@ def eafUploadHandler(fileContents, filename, data):
       data['eafFullPath'] = fullPath
       data['fileSize'] = fileSize
       parser = EafParser(fullPath, verbose=True, fixOverlappingTimeSegments=False)
+      parser.xmlValid()
       tbl_tiers = parser.getTierTable()
         # discard the DEFAULT_LOCALE column
       tbl_tiers = tbl_tiers[["TIER_ID", "LINGUISTIC_TYPE_REF", "PARENT_REF", "TIME_ALIGNABLE"]]

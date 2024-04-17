@@ -31,6 +31,7 @@ venv:
 assemble:
 	(cd parts; make assemble)
 	cp parts/app.py main.py
+	cp parts/app.py app/main.py
 
 setDockerPlatform:
 	@echo export DOCKER_DEFAULT_PLATFORM=linux/amd64

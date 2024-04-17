@@ -34,7 +34,6 @@ class EafParser:
       self.xmlFilename = xmlFilename
       self.verbose = verbose
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
-      #valid = self.xmlValid()
 
       if(verbose):
          print("EafParser etree parse")
@@ -66,7 +65,6 @@ class EafParser:
 
    #----------------------------------------------------------------------------------
    def run(self):
-
 
       if(self.verbose):
          print("EafParser.run, parsing & sorting all lines")

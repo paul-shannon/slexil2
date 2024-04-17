@@ -1,4 +1,4 @@
-from slexil.eafParser import EafParser
+# from slexil.eafParser import EafParser
 from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text
 import os, yaml

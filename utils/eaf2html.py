@@ -86,4 +86,3 @@ f = open(filename, "wb")
 f.write(bytes(htmlText, "utf-8"))
 f.close()
 print("wrote %s" % f.name)
-
