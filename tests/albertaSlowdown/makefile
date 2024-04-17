@@ -11,5 +11,8 @@ run:
 	python ../../utils/eaf2html.py  \
       --eaf $(EAF) \
       --tierGuide tierGuide.yaml \
-      --pageTitle slow 
+      --pageTitle slow \
+      --verbose
+
+
 
