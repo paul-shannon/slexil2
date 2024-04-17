@@ -143,7 +143,6 @@ class IjalLine:
         canonicalTierName = "morpheme"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
            if(self.verbose):
-              pdb.set_trace()
               print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
