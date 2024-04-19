@@ -1,14 +1,16 @@
 import flask
+import time
 import slexil
 from datetime import datetime
 import base64
+import zipfile
 import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.1"
-
+appVersion = "2.5.2"
+versionString = "version: %s, %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
@@ -16,6 +18,23 @@ app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
                external_stylesheets=styleSheets)
 dashApp.title = "Slexil 2"
+
+#--------------------------------------------------------------------------------
+def runBigDemo():
+
+  projectPath = os.path.join("PROJECTS", "timingTest")
+  fullPath = os.path.join(projectPath, "4EthelAnita230503Slexil.eaf")
+  htmlFile = createWebPage(fullPath, projectPath, "timingTest")
+  
+#--------------------------------------------------------------------------------
+@app.route('/test')
+def runTest():
+
+   startTime = time.time()
+   runBigDemo()
+   endTime = time.time()
+   elapsedTime = endTime - startTime
+   return "ran slexil webapp2 demo in %s seconds\n" % round(elapsedTime, 2)
 
 #--------------------------------------------------------------------------------
 @app.route('/PROJECTS/<path:urlpath>')
@@ -27,9 +46,17 @@ def serveFile(urlpath):
     print("---- %s" % fullPath)
 
     if urlpath[-4:] == "html":
-        print("=== populate textArea from %s" % urlpath)
-        return flask.send_file(os.path.join(fullPath))
-    return None
+       print("=== populate textArea from %s" % urlpath)
+       return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "wav":
+       print("flask route returning %s" % fullPath)
+       return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "zip":
+       print("flask route returning %s" % fullPath)
+       return flask.send_file(os.path.join(fullPath))
+    else:
+       return None
+    
 #--------------------------------------------------------------------------------
 buttonStyle = {"margin": "20px",
               "font-size": "20px",
@@ -59,7 +86,7 @@ def createNavBar():
       align_end=True,
       size="lg",
       children=[
-         dbc.DropdownMenuItem("version: %s, %s" % (slexil.__version__, appVersion),
+         dbc.DropdownMenuItem(versionString,
                               id="versionLabelPseudoButton",
                               class_name="menuItemClass"),
          dbc.DropdownMenuItem("Media URLs",
@@ -314,12 +341,106 @@ def eafUploadHandler(fileContents, filename, data):
       
 
 
+#--------------------------------------------------------------------------------
+audioLoaderDiv = html.Div(id="audioLoaderDiv",
+                          children=[
+                              dcc.Upload(
+                                  id='audioUploader',
+                                  accept=".wav",
+                                  children=html.Div([
+                                      'Drag and Drop or ',
+                                      html.A('Select Audio file')
+                                  ], className="fubar"),
+                                  className="eafUploader",
+                                  multiple=False
+                              )], hidden=False)
+
+dashApp.layout.children.append(audioLoaderDiv)
+#--------------------------------------------------------------------------------
+@callback(
+   Output('slexilModal',      'is_open',  allow_duplicate=True),
+   Output('modalContents',    'children', allow_duplicate=True),
+   Output('memoryStore',      'data',     allow_duplicate=True),
+   #Output('createWebpageDiv', 'hidden'),
+   Input('audioUploader',    'contents'),
+   State('audioUploader',    'filename'),
+   State('memoryStore',      'data'),
+   prevent_initial_call=True)
+def audioUploadHandler(fileContents, filename, data):
+
+   print("=== soundUploadHandler")
+
+   if filename is None:
+       return("","",1)
+
+   if data is None:
+      data = {}
+
+   data['audioFileName'] = filename;
+   modalOpen = False
+   modalContents = ""
+   
+   try:
+      fileData = fileContents.encode("utf8").split(b";base64,")[1]
+      fullPath = os.path.join(data['projectPath'], filename)
+      with open(fullPath, "wb") as fp:
+         fp.write(base64.decodebytes(fileData))
+
+      assert(os.path.isfile(fullPath))
+      fileSize = os.path.getsize(fullPath)
+      data['audioFullPath'] = fullPath
+      data['audioFileSize'] = fileSize
+      #rate, mtx = wavfile.read(fullPath)
+      #data["audioSamplingRate"] = rate
+      #print(mtx)
+
+   except BaseException as e:
+      modalOpen = True
+      modalTitle = "audio upload error"
+      modalContents = html.Pre(get_exception_traceback_str(e))
+
+   return modalOpen, modalContents, data
+
+
+
+
+
+ # data = contents.encode("utf8").split(b";base64,")[1]
+    # filename = os.path.join(projectDirectory, name)
+    # if not filename[-4:] == ".wav" and not filename[-4:] == ".WAV":
+    # 	sound_validationMessage = "Please select a WAVE (.wav) file."
+    # 	return sound_validationMessage, "", 1
+    # with open(filename, "wb") as fp:
+    #    fp.write(base64.decodebytes(data))
+    #    fileSize = os.path.getsize(filename)
+    #    errorMessage = ""
+    #    validSound = True
+    #    try:
+    #       rate, mtx = wavfile.read(filename)
+    #    except ValueError as e:
+    #       print("exeption in wavfile: %s" % e)
+    #       rate = -1
+    #       validSound = False
+    #       errorMessage = str(e)
+    #    print("sound file size: %d, rate: %d" % (fileSize, rate))
+    #    if validSound:
+    #    	  sound_validationMessage = "Sound file: %s (%d bytes)" % (name, fileSize)
+    #    	  newButtonState = 0
+    #    	  return sound_validationMessage, filename, newButtonState
+    #    else:
+    #    	  if "Unsupported bit depth: the wav file has 24-bit data" in errorMessage:
+    #            sound_validationMessage = "File %s (%d byes) has 24-bit data, must be minimum 32-bit."  % (name, fileSize)
+    #    	  else:
+    #            sound_validationMessage = "ERROR: %s [File: %s (%d bytes)]" % (errorMessage, name, fileSize)
+    #    	  newButtonState = 1
+    
+
 # from slexil.eafParser import EafParser
 from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text
 import os, yaml
 
-def createWebPage(eafFullPath, projectPath, title):
+def createWebPage(eafFullPath, projectPath, title, preferredMediaURL=None):
 
    ltg = LearnTierGuide(eafFullPath, verbose=False)
    x = ltg.learnTierGuide()
@@ -345,6 +466,9 @@ def createWebPage(eafFullPath, projectPath, title):
                fixOverlappingTimeSegments = False,
                useTooltips=False)
 	
+   if preferredMediaURL:
+       text.setPreferredMediaURL(preferredMediaURL)
+       
    filename = title.replace(" ", "_")
    filename = "%s.html" % filename
    htmlText = text.toHTML()
@@ -391,10 +515,12 @@ def displayCreateWebpageHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
    Output('memoryStore', 'data', allow_duplicate=True),
-   Output('displayStaticHTMLButton', 'hidden'),
-   Output('displayStaticHTMLButton', 'className'),
-   Output('downloadWebPageButton', 'hidden'),
-   Output('downloadWebPageButton', 'className'),
+   Output('previewButton', 'hidden'),
+   Output('previewButton', 'className'),
+   Output('downloadHtmlButton', 'hidden'),
+   Output('downloadHtmlButton', 'className'),
+   Output('downloadZipFileButton', 'hidden'),
+   Output('downloadZipFileButton', 'className'),
    Output('loadTrackerDiv', 'children', allow_duplicate=True),
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
@@ -406,22 +532,37 @@ def createWebpageCallback(n_clicks, data):
       print("initializing None data in 23.makeHtml.py")
       data = {}
       data['webpage creation time'] = currentTime
+   previewButtonHidden = False
+   previewButtonClass = "enabledButton"
+   downloadZipButtonHidden = True
+   downloadZipButtonClass = "disabledButton"
    try:
-      htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
+      preferredMediaURL = None
+      if "audioFileName" in data.keys():
+          preferredMediaURL = data["audioFileName"]
+      htmlFilePath = createWebPage(data["eafFullPath"],
+                                   data["projectPath"],
+                                   data["title"],
+                                   preferredMediaURL)
       now = datetime.now()
       currentTime = now.strftime("%H:%M:%S")
       modalOpen = False
       modalContents = ""
-      nextStepButtonHidden = False
-      nextStepButtonClass = "enabledButton"
+      downloadHtmlButtonHidden = False
+      downloadHtmlButtonClass = "enabledButton"
+      if "audioFileName" in data.keys():
+         downloadZipButtonHidden = False
+         downloadZipButtonClass = "enabledButton"
    except BaseException as e:
       modalOpen = True
       #modalTitle = "create webpage error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      nextStepButtonHidden = True
-      nextStepButtonClass = "disabledButton"
-    
-   return data, nextStepButtonHidden, nextStepButtonClass, nextStepButtonHidden, nextStepButtonClass, "", modalOpen, modalContents
+   results = [data, previewButtonHidden,
+              previewButtonClass,
+              downloadHtmlButtonHidden, downloadHtmlButtonClass,
+              downloadZipButtonHidden, downloadZipButtonClass, "",
+              modalOpen, modalContents]
+   return results
 #--------------------------------------------------------------------------------
 
 
@@ -431,20 +572,45 @@ def createWebpageCallback(n_clicks, data):
 
 #--------------------------------------------------------------------------------
 downloadAndDisplayDiv = html.Div(id="downloadAndDisplayDiv",
-          children=[html.Button("Display", id="displayStaticHTMLButton",
+          children=[html.Button("Preview", id="previewButton",
                                 n_clicks=0, hidden=True, className="disabledButton"),
-                    html.Button("Download Web Page", id="downloadWebPageButton",
+                    html.Button("Download Web Page", id="downloadHtmlButton",
                                 n_clicks=0, hidden=True, className="disabledButton"),
-                    dcc.Download(id="downloader"),
+                    html.Button("Download Web Page with Audio",
+                                id="downloadZipFileButton",
+                                n_clicks=0, hidden=True, className="disabledButton"),
+                    dcc.Download(id="htmlDownloader"),
+                    dcc.Download(id="zipDownloader"),
                     html.Iframe(id="displayIFrame",
                                 style={"width": "95%", "height": "800px",
                                        "overflow": "auto"})
                     ])
 dashApp.layout.children.append(downloadAndDisplayDiv)
 #--------------------------------------------------------------------------------
+def createZipFile(projectDir, projectTitle, audioFile):
+    print("=== entering createZipFile")
+    currentDirectoryOnEntry = os.getcwd()
+    os.chdir(projectDir)
+    print(projectDir)
+    filesToSave = []
+    filesToSave.insert(0, "%s.html" % projectTitle)
+    filesToSave.append(audioFile)
+
+    # zipfile is named for project
+    zipFilename = "%s.zip" % projectTitle
+    zipFilenameFullPath = os.path.join(currentDirectoryOnEntry, projectDir, zipFilename)
+    zipHandle = zipfile.ZipFile(zipFilename, 'w')
+    for file in filesToSave:
+        zipHandle.write(file)
+
+    zipHandle.close()
+
+    return zipFilenameFullPath
+
+#--------------------------------------------------------------------------------
 @callback(
     Output('displayIFrame', 'src'),
-    Input('displayStaticHTMLButton', 'n_clicks'),
+    Input('previewButton', 'n_clicks'),
     State('memoryStore', 'data'),
     prevent_initial_call=True
     )
@@ -456,8 +622,8 @@ def displayPage(n_clicks, data):
     return url
 
 @callback(
-    Output('downloader', 'data'),
-    Input('downloadWebPageButton', 'n_clicks'),
+    Output('htmlDownloader', 'data'),
+    Input('downloadHtmlButton', 'n_clicks'),
     State('memoryStore', 'data'),
     prevent_initial_call=True
     )
@@ -466,6 +632,19 @@ def downloadWebPage(n_clicks, data):
     htmlFileName = "%s.html" % projectName
     htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
     return dcc.send_file(htmlFileFullPath)
+
+@callback(
+    Output('zipDownloader', 'data'),
+    Input('downloadZipFileButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def downloadZip(n_clicks, data):
+    projectName = data["projectName"]
+    projectDir =  "PROJECTS/%s" % projectName
+    audioFile = data["audioFileName"]
+    zipFilePath = createZipFile(projectDir, projectName, audioFile)
+    return dcc.send_file(zipFilePath)
 
 #--------------------------------------------------------------------------------
 

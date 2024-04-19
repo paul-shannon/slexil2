@@ -164,8 +164,8 @@ class IjalLine:
 
         canonicalTierName = "morphemeGloss"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(self.verbose):
-              print("=== found no tier named '%s'" % canonicalTierName)
+           #if(self.verbose):
+           #   print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 

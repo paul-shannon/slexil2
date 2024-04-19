@@ -145,6 +145,12 @@ class Text:
       self.eafParser = parser
 
    #--------------------------------------------------------------------------------   
+   def setPreferredMediaURL(self, url):
+
+      self.mediaType = "not used"
+      self.mediaUrl = url
+
+   #--------------------------------------------------------------------------------   
    def getMediaInfo(self):
 
       return(self.mediaInfo)

@@ -106,6 +106,9 @@ class EafParser:
    def getTierTable(self):
       return self.tierTable
    
+   def setAudioURL(self, newURL):
+      self.audioURL = newURL
+
    def getAudioURL(self):
       return self.audioURL
 

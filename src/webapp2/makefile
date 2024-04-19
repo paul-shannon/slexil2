@@ -13,6 +13,8 @@ default:
 	@echo build
 	@echo run
 	@echo push
+	@echo timingTestLocal
+	@echo timingTestAlberta
 	@echo test
 	@echo ps
 	@echo start
@@ -70,6 +72,12 @@ rm:
 test:
 	curl http://localhost:$(PORT)
 	@echo
+
+timingTestLocal:
+	curl http://127.0.0.1:9002/test
+
+timingTestAlberta:
+	for i in 1 2 3 4 5; do 	curl https://slexiltest.artsrn.ualberta.ca/test& done
 
 logs:
 	docker logs $(NAME)

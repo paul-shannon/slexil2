@@ -1,14 +1,16 @@
 import flask
+import time
 import slexil
 from datetime import datetime
 import base64
+import zipfile
 import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.1"
-
+appVersion = "2.5.3"
+versionString = "version: %s, %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
@@ -16,6 +18,23 @@ app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
                external_stylesheets=styleSheets)
 dashApp.title = "Slexil 2"
+
+#--------------------------------------------------------------------------------
+def runBigDemo():
+
+  projectPath = os.path.join("PROJECTS", "timingTest")
+  fullPath = os.path.join(projectPath, "4EthelAnita230503Slexil.eaf")
+  htmlFile = createWebPage(fullPath, projectPath, "timingTest")
+  
+#--------------------------------------------------------------------------------
+@app.route('/test')
+def runTest():
+
+   startTime = time.time()
+   runBigDemo()
+   endTime = time.time()
+   elapsedTime = endTime - startTime
+   return "ran slexil webapp2 demo in %s seconds\n" % round(elapsedTime, 2)
 
 #--------------------------------------------------------------------------------
 @app.route('/PROJECTS/<path:urlpath>')
@@ -27,9 +46,17 @@ def serveFile(urlpath):
     print("---- %s" % fullPath)
 
     if urlpath[-4:] == "html":
-        print("=== populate textArea from %s" % urlpath)
-        return flask.send_file(os.path.join(fullPath))
-    return None
+       print("=== populate textArea from %s" % urlpath)
+       return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "wav":
+       print("flask route returning %s" % fullPath)
+       return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "zip":
+       print("flask route returning %s" % fullPath)
+       return flask.send_file(os.path.join(fullPath))
+    else:
+       return None
+    
 #--------------------------------------------------------------------------------
 buttonStyle = {"margin": "20px",
               "font-size": "20px",
@@ -59,7 +86,7 @@ def createNavBar():
       align_end=True,
       size="lg",
       children=[
-         dbc.DropdownMenuItem("version: %s, %s" % (slexil.__version__, appVersion),
+         dbc.DropdownMenuItem(versionString,
                               id="versionLabelPseudoButton",
                               class_name="menuItemClass"),
          dbc.DropdownMenuItem("Media URLs",
@@ -168,6 +195,7 @@ def displayStateAsList(n_clicks, data):
 #--------------------------------------------------------------------------------
 m4_include(20.setTitle.py)
 m4_include(22.loadEAF.py)
+m4_include(25.loadAudio.py)
 m4_include(createWebPage.py)
 m4_include(23.makeHtml.py)
 m4_include(24.displayAndDownload.py)

@@ -3,7 +3,7 @@ from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text
 import os, yaml
 
-def createWebPage(eafFullPath, projectPath, title):
+def createWebPage(eafFullPath, projectPath, title, preferredMediaURL=None):
 
    ltg = LearnTierGuide(eafFullPath, verbose=False)
    x = ltg.learnTierGuide()
@@ -29,6 +29,9 @@ def createWebPage(eafFullPath, projectPath, title):
                fixOverlappingTimeSegments = False,
                useTooltips=False)
 	
+   if preferredMediaURL:
+       text.setPreferredMediaURL(preferredMediaURL)
+       
    filename = title.replace(" ", "_")
    filename = "%s.html" % filename
    htmlText = text.toHTML()

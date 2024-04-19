@@ -30,10 +30,12 @@ def displayCreateWebpageHelp(n_clicks):
 #----------------------------------------------------------------------
 @callback(
    Output('memoryStore', 'data', allow_duplicate=True),
-   Output('displayStaticHTMLButton', 'hidden'),
-   Output('displayStaticHTMLButton', 'className'),
-   Output('downloadWebPageButton', 'hidden'),
-   Output('downloadWebPageButton', 'className'),
+   Output('previewButton', 'hidden'),
+   Output('previewButton', 'className'),
+   Output('downloadHtmlButton', 'hidden'),
+   Output('downloadHtmlButton', 'className'),
+   Output('downloadZipFileButton', 'hidden'),
+   Output('downloadZipFileButton', 'className'),
    Output('loadTrackerDiv', 'children', allow_duplicate=True),
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
@@ -45,22 +47,37 @@ def createWebpageCallback(n_clicks, data):
       print("initializing None data in 23.makeHtml.py")
       data = {}
       data['webpage creation time'] = currentTime
+   previewButtonHidden = False
+   previewButtonClass = "enabledButton"
+   downloadZipButtonHidden = True
+   downloadZipButtonClass = "disabledButton"
    try:
-      htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
+      preferredMediaURL = None
+      if "audioFileName" in data.keys():
+          preferredMediaURL = data["audioFileName"]
+      htmlFilePath = createWebPage(data["eafFullPath"],
+                                   data["projectPath"],
+                                   data["title"],
+                                   preferredMediaURL)
       now = datetime.now()
       currentTime = now.strftime("%H:%M:%S")
       modalOpen = False
       modalContents = ""
-      nextStepButtonHidden = False
-      nextStepButtonClass = "enabledButton"
+      downloadHtmlButtonHidden = False
+      downloadHtmlButtonClass = "enabledButton"
+      if "audioFileName" in data.keys():
+         downloadZipButtonHidden = False
+         downloadZipButtonClass = "enabledButton"
    except BaseException as e:
       modalOpen = True
       #modalTitle = "create webpage error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      nextStepButtonHidden = True
-      nextStepButtonClass = "disabledButton"
-    
-   return data, nextStepButtonHidden, nextStepButtonClass, nextStepButtonHidden, nextStepButtonClass, "", modalOpen, modalContents
+   results = [data, previewButtonHidden,
+              previewButtonClass,
+              downloadHtmlButtonHidden, downloadHtmlButtonClass,
+              downloadZipButtonHidden, downloadZipButtonClass, "",
+              modalOpen, modalContents]
+   return results
 #--------------------------------------------------------------------------------
 
 
