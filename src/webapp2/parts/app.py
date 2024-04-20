@@ -9,7 +9,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.3"
+appVersion = "2.5.4"
 versionString = "version: %s, %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -504,6 +504,12 @@ import os, yaml
 
 def createWebPage(eafFullPath, projectPath, title, preferredMediaURL=None):
 
+   print("--- createWebPage")
+   print("      eafFullPath: %s" % eafFullPath)
+   print("      projectPath: %s" % projectPath)
+   print("            title: %s" % title)
+   print("preferredMediaUrl: %s" % preferredMediaURL)
+   
    ltg = LearnTierGuide(eafFullPath, verbose=False)
    x = ltg.learnTierGuide()
    print(x)

@@ -147,8 +147,10 @@ class Text:
    #--------------------------------------------------------------------------------   
    def setPreferredMediaURL(self, url):
 
-      self.mediaType = "not used"
       self.mediaUrl = url
+      self.mediaType = "not used"
+      self.mediaInfo = {"url": url, "mimeType": self.mediaType}
+
 
    #--------------------------------------------------------------------------------   
    def getMediaInfo(self):
@@ -222,6 +224,7 @@ class Text:
    #--------------------------------------------------------------------------------   
    def getPlayer(self):
 
+      print("--- text.getPlayer, mediaUrl: %s" % self.mediaUrl)
       if(self.mediaType == "audio"):
          playerDiv = '<audio class="player" id="audioPlayer" src="%s" controls></audio>' % self.mediaUrl
       elif(self.mediaType == "video"):

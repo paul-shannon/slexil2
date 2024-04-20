@@ -5,6 +5,12 @@ import os, yaml
 
 def createWebPage(eafFullPath, projectPath, title, preferredMediaURL=None):
 
+   print("--- createWebPage")
+   print("      eafFullPath: %s" % eafFullPath)
+   print("      projectPath: %s" % projectPath)
+   print("            title: %s" % title)
+   print("preferredMediaUrl: %s" % preferredMediaURL)
+   
    ltg = LearnTierGuide(eafFullPath, verbose=False)
    x = ltg.learnTierGuide()
    print(x)
