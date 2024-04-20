@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------
-createWebpageDiv = html.Div(id="createWebpageDiv",
+createWebpageDiv = html.Div(id="createWebPageDiv",
           children=[
               html.Button("Create Web Page", id="createWebpageButton", n_clicks=0,
                           disabled=False, className="enabledButton"),

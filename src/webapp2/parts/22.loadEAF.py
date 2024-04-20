@@ -16,10 +16,12 @@ dashApp.layout.children.append(eafLoaderDiv)
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
    Output('memoryStore',      'data',     allow_duplicate=True),
-   Output('createWebpageDiv', 'hidden'),
-   Input('eafUploader',    'contents'),
-   State('eafUploader',    'filename'),
-   State('memoryStore',    'data'),
+   #Output('audioUploadDiv',   'hidden'),
+   Output('audioUploadYesNoDiv', 'hidden'),
+   Output('createWebPageDiv', 'hidden'),
+   Input('eafUploader',       'contents'),
+   State('eafUploader',       'filename'),
+   State('memoryStore',       'data'),
    prevent_initial_call=True)
 def eafUploadHandler(fileContents, filename, data):
 
@@ -38,6 +40,22 @@ def eafUploadHandler(fileContents, filename, data):
       data['eafFullPath'] = fullPath
       data['fileSize'] = fileSize
       parser = EafParser(fullPath, verbose=True, fixOverlappingTimeSegments=False)
+      taTierCount = len(parser.getTimeAlignedTiers())
+      if taTierCount > 1:
+         msg = "Found %d time-aligned tiers.  slexil currently supports only one." % taTierCount
+         raise ValueError(msg)
+      data['audioURL'] = parser.getAudioURL()
+      data['videoURL'] = parser.getVideoURL()
+      #audioUploadDivHidden = True
+      if data['videoURL']:
+         data['mediaType'] = "video"
+         hideCreateWebPageDiv = False
+         hideAudioUploadYesNo = True
+      else:
+         data['mediaType'] = "audio"
+         hideCreateWebPageDiv = True
+         hideAudioUploadYesNo = False
+         #audioUploadDivHidden = False
       parser.xmlValid()
       tbl_tiers = parser.getTierTable()
         # discard the DEFAULT_LOCALE column
@@ -47,7 +65,7 @@ def eafUploadHandler(fileContents, filename, data):
                                              style_cell={'fontSize':20, 'font-family':'courier'})
       print("--- build tier table")
       tierTableDiv = html.Div(id="tierTable",
-                               children=[dashTable_tiers],
+                              children=[dashTable_tiers],
                                   style = {"width": "95%", "margin": "20",
                                            "overflow": "auto",
                                            "padding": "6px",
@@ -58,12 +76,13 @@ def eafUploadHandler(fileContents, filename, data):
       modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
-      hideCreateWebpageButton = False
+      #hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      hideCreateWebpageButton = True
-   return modalOpen, modalContents, data, hideCreateWebpageButton
+      hideAudioUploadYesNo = False
+      #hideCreateWebpageButton = True
+   return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
       
 

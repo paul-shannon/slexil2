@@ -9,7 +9,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.3"
+appVersion = "2.5.4"
 versionString = "version: %s, %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
