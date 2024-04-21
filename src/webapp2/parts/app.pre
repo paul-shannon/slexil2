@@ -9,7 +9,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.5"
+appVersion = "2.5.6"
 versionString = "version: %s, %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -195,7 +195,7 @@ def displayStateAsList(n_clicks, data):
 #--------------------------------------------------------------------------------
 m4_include(20.setTitle.py)
 m4_include(22.loadEAF.py)
-m4_include(25.loadAudio.py)
+m4_include(26.loadAudio.py)
 m4_include(createWebPage.py)
 m4_include(23.makeHtml.py)
 m4_include(24.displayAndDownload.py)

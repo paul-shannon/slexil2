@@ -42,6 +42,18 @@ button.btn-close { /* dbc.Modal close button "X" */
    height: 20px;
    }
 
+#audioUploadDiv{width: 400px;
+               height: 105px;
+               font-size: 24px;
+	            font-family: New York Times-Roman;
+               font-weight: normal;
+               line-height: 60px;
+               border: 1px solid black;
+               border-radius: 10px;
+               text-align: center;
+               margin: 20px;
+               background-color: #F5FAF3;
+               }
 .eafUploader{width: 400px;
              height: 60px;
              font-size: 24px;

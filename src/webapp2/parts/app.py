@@ -360,6 +360,13 @@ def eafUploadHandler(fileContents, filename, data):
       
 
 
+# good example here:
+#  https://community.plotly.com/t/show-and-tell-dash-uploader-upload-large-files/38451/51?page=3
+#  https://stackoverflow.com/questions/75194431/dash-dcc-upload-component-for-large-file
+
+import dash_uploader as du
+import shutil
+
 audioFileUploadYesNoDiv = html.Div(id="audioUploadYesNoDiv",
               style={"margin-left": "20px", "display": "inline-block",
                      "padding-bottom": "0px"},
@@ -380,29 +387,24 @@ audioFileUploadYesNoDiv = html.Div(id="audioUploadYesNoDiv",
                                                   "font-family": "New York Times-Roman"}),
                           style={"display": "inline-block"}),
                  ], hidden=True)
-
+dashApp.layout.children.append(audioFileUploadYesNoDiv)
 #---------------------------------------------------------------------
-audioLoaderDiv = html.Div(id="audioUploadDiv",
-                          children=[
-                              audioFileUploadYesNoDiv,
-                              html.Div(id="uploaderDiv",
-                                       children=[
-                                       dcc.Upload(
-                                           id='audioUploader',
-                                           accept=".wav",
-                                           children=html.Div([
-                                               'Drag and Drop or ',
-                                               html.A('Select Audio file')
-                                        ], className="fubar"),
-                                           className="eafUploader",
-                                           multiple=False
-                                       )],hidden=True)
-                          ], hidden=False)
+du.configure_upload(dashApp, "/tmp")
 
+audioLoaderDiv = html.Div(id="audioUploadDiv",
+                          children=[du.Upload(
+                              id='audioUploader',
+                              filetypes=["wav", "WAV"],
+                              text='Drag and Drop or Select Audio File',
+                              text_completed='Uploaded: ',
+                              default_style={"height": "80px", "border": "0px"},
+                              cancel_button=True
+                              )
+                              ],hidden=True)
 dashApp.layout.children.append(audioLoaderDiv)
 #--------------------------------------------------------------------------------
 @callback(
-   Output('uploaderDiv',    'hidden', allow_duplicate=True),
+   Output('audioUploadDiv',    'hidden', allow_duplicate=True),
    Output('createWebPageDiv', 'hidden', allow_duplicate=True),
    Input('audioUploadYesNoButton', "value"),
    prevent_initial_call=True)
@@ -422,39 +424,30 @@ def audioUploadHandler(uploadYesNo):
    Output('modalContents',    'children', allow_duplicate=True),
    Output('memoryStore',      'data',     allow_duplicate=True),
    Output('createWebPageDiv', 'hidden',   allow_duplicate=True),
-   Input('audioUploader',    'contents'),
-   State('audioUploader',    'filename'),
-   State('memoryStore',      'data'),
+   Input('audioUploader',     'isCompleted'),
+   State('audioUploader',     'fileNames'),
+   State('audioUploader',     'upload_id'),
+   State('memoryStore',       'data'),
    prevent_initial_call=True)
-def audioUploadHandler(fileContents, filename, data):
+def audioUploadHandler(isCompleted, fileNames, upload_id, data):
 
    print("=== soundUploadHandler")
-
+   filename = fileNames[0]
    if filename is None:
        return("","",1)
 
    if data is None:
       data = {}
 
-   data['audioFileName'] = filename;
-   modalOpen = False
-   modalContents = ""
-   
    try:
-      fileData = fileContents.encode("utf8").split(b";base64,")[1]
-      fullPath = os.path.join(data['projectPath'], filename)
-      with open(fullPath, "wb") as fp:
-         fp.write(base64.decodebytes(fileData))
-
-      assert(os.path.isfile(fullPath))
-      fileSize = os.path.getsize(fullPath)
-      data['audioFullPath'] = fullPath
-      data['audioFileSize'] = fileSize
+      data['audioFileName'] = filename;
+      temporaryPath = "/tmp/%s/%s" % (upload_id, filename)
+      projectPath = data['projectPath']
+      shutil.copy2(temporaryPath, projectPath)
+      modalOpen = False
+      modalContents = ""
       createWebPageDivHidden = False
-      #rate, mtx = wavfile.read(fullPath)
-      #data["audioSamplingRate"] = rate
-      #print(mtx)
-
+   
    except BaseException as e:
       modalOpen = True
       modalTitle = "audio upload error"
@@ -462,6 +455,22 @@ def audioUploadHandler(fileContents, filename, data):
       createWebPageDivHidden = True
 
    return modalOpen, modalContents, data, createWebPageDivHidden
+
+   #try:
+   #   fileData = fileContents.encode("utf8").split(b";base64,")[1]
+   #   fullPath = os.path.join(data['projectPath'], filename)
+   #   with open(fullPath, "wb") as fp:
+   #      fp.write(base64.decodebytes(fileData))
+#
+#      assert(os.path.isfile(fullPath))
+#      fileSize = os.path.getsize(fullPath)
+#      data['audioFullPath'] = fullPath
+#      data['audioFileSize'] = fileSize
+#      createWebPageDivHidden = False
+#      #rate, mtx = wavfile.read(fullPath)
+#      #data["audioSamplingRate"] = rate
+#      #print(mtx)
+#
 
 
 
