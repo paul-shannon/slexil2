@@ -16,7 +16,6 @@ dashApp.layout.children.append(eafLoaderDiv)
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
    Output('memoryStore',      'data',     allow_duplicate=True),
-   #Output('audioUploadDiv',   'hidden'),
    Output('audioUploadYesNoDiv', 'hidden'),
    Output('createWebPageDiv', 'hidden'),
    Input('eafUploader',       'contents'),
@@ -46,7 +45,8 @@ def eafUploadHandler(fileContents, filename, data):
          raise ValueError(msg)
       data['audioURL'] = parser.getAudioURL()
       data['videoURL'] = parser.getVideoURL()
-      #audioUploadDivHidden = True
+      hideCreateWebPageDiv = True
+      hideAudioUploadYesNo = True
       if data['videoURL']:
          data['mediaType'] = "video"
          hideCreateWebPageDiv = False
@@ -81,8 +81,8 @@ def eafUploadHandler(fileContents, filename, data):
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      hideAudioUploadYesNo = False
-      #hideCreateWebpageButton = True
+      hideAudioUploadYesNo = True
+      hideCreateWebPageDiv = True
    return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
       
 

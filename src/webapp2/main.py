@@ -9,7 +9,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.5"
+appVersion = "2.5.6"
 versionString = "version: %s, %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -319,7 +319,8 @@ def eafUploadHandler(fileContents, filename, data):
          raise ValueError(msg)
       data['audioURL'] = parser.getAudioURL()
       data['videoURL'] = parser.getVideoURL()
-      #audioUploadDivHidden = True
+      hideCreateWebPageDiv = False
+      hideAudioUploadYesNo = False
       if data['videoURL']:
          data['mediaType'] = "video"
          hideCreateWebPageDiv = False
@@ -354,8 +355,8 @@ def eafUploadHandler(fileContents, filename, data):
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      hideAudioUploadYesNo = False
-      #hideCreateWebpageButton = True
+      hideAudioUploadYesNo = True
+      hideCreateWebPageDiv = True
    return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
       
 

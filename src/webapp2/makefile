@@ -77,6 +77,9 @@ timingTestLocal:
 	curl http://127.0.0.1:9002/test
 
 timingTestAlberta:
+	curl https://slexiltest.artsrn.ualberta.ca/test
+
+timingTestAlberta5:
 	for i in 1 2 3 4 5; do 	curl https://slexiltest.artsrn.ualberta.ca/test& done
 
 logs:
