@@ -51,6 +51,9 @@ def createWebpageCallback(n_clicks, data):
    previewButtonClass = "enabledButton"
    downloadZipButtonHidden = True
    downloadZipButtonClass = "disabledButton"
+   downloadHtmlButtonHidden = True
+   downloadHtmlButtonClass = "disabledButton"
+   loadTrackerDivChildren = ""
    try:
       preferredMediaURL = None
       if "audioFileName" in data.keys():
@@ -70,13 +73,15 @@ def createWebpageCallback(n_clicks, data):
          downloadZipButtonClass = "enabledButton"
    except BaseException as e:
       modalOpen = True
-      #modalTitle = "create webpage error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-   results = [data, previewButtonHidden,
-              previewButtonClass,
+
+   results = [data,
+              previewButtonHidden, previewButtonClass,
               downloadHtmlButtonHidden, downloadHtmlButtonClass,
-              downloadZipButtonHidden, downloadZipButtonClass, "",
+              downloadZipButtonHidden, downloadZipButtonClass,
+              loadTrackerDivChildren,
               modalOpen, modalContents]
+
    return results
 #--------------------------------------------------------------------------------
 

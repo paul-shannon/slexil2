@@ -9,8 +9,8 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.6"
-versionString = "version: %s, %s" % (slexil.__version__, appVersion)
+appVersion = "2.5.11"
+versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
@@ -53,15 +53,15 @@ def serveFile(urlpath):
        return flask.send_file(os.path.join(fullPath))
     elif urlpath[-3:] == "zip":
        print("flask route returning %s" % fullPath)
-       return flask.send_file(os.path.join(fullPath))
+       return flask.send_file(os.path.join(fullPath), mimetype='application/zip')
     else:
-       return None
+       return ""
     
 #--------------------------------------------------------------------------------
 buttonStyle = {"margin": "20px",
-              "font-size": "20px",
+              "fontSize": "20px",
               "border": "1px solid brown",
-              "border-radius": "10px"
+              "borderRadius": "10px"
               }
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
@@ -78,10 +78,29 @@ eafFiles = [f for f in files if f.endswith("eaf")]
 eafFiles.sort()
 print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
+modalDiv = html.Div(
+    [dbc.Modal([
+         dbc.ModalHeader(
+         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+         dbc.ModalBody("", id='modalContents')
+         ],
+         id="slexilModal",
+         centered=True,
+         is_open=False,
+         size="xl",    # sm, lg, xl
+         fullscreen=False,
+         scrollable=True,
+         )])
+#-------------------------------------------------------
+loadTrackerDiv = html.Div(id="loadTrackerDiv")
+modalLoadSpinnerWatcher = dcc.Loading(id="modalLoadWatcher",
+                                      type="default",
+                                      children=[modalDiv])
+#-------------------------------------------------------
 def createNavBar():
 
    dropdown = dbc.DropdownMenu(
-      label="Options",
+      label="About",
       in_navbar=True,
       align_end=True,
       size="lg",
@@ -103,8 +122,8 @@ def createNavBar():
 
    navbar = dbc.NavbarSimple(
       id="navbar",
-      children=[dropdown],
-      brand="SLEXIL Webapp 2", 
+      children=[loadTrackerDiv, dropdown],
+      brand=html.Img(src='assets/slexil2banner.jpg'),
       color="#F5FAF3",
       dark=False,
       )
@@ -118,29 +137,12 @@ def get_exception_traceback_str(exc: Exception) -> str:
     traceback.print_exception(exc, file=file)
     return file.getvalue().rstrip()
 #-------------------------------------------------------
-modalDiv = html.Div(
-    [dbc.Modal([
-         dbc.ModalHeader(
-         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
-         dbc.ModalBody("", id='modalContents')
-         ],
-         id="slexilModal",
-         centered=True,
-         is_open=False,
-         size="xl",    # sm, lg, xl
-         fullscreen=False,
-         scrollable=True,
-         )])
-#-------------------------------------------------------
-loadTrackerDiv = html.Div(id="loadTrackerDiv")
 dashApp.layout = html.Div(id="mainDiv",
                children=[dcc.Store(id='memoryStore', storage_type='memory'),
+                         #html.Img(src='assets/slexil2banner.jpg', alt='image'),
+                         #html.H4("", className="banner", id='pageTitleH4'),
                          createNavBar(),
-                         dcc.Loading(
-                             id="modalLoadWatcher",
-                             type="default",
-                             children=[modalDiv, loadTrackerDiv])
-                         ],
+                         modalLoadSpinnerWatcher],
                       style={"margin": "5px"})
 #----------------------------------------------------------------------
 # navbar button displays state in a modal dialog
@@ -289,7 +291,6 @@ dashApp.layout.children.append(eafLoaderDiv)
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
    Output('memoryStore',      'data',     allow_duplicate=True),
-   #Output('audioUploadDiv',   'hidden'),
    Output('audioUploadYesNoDiv', 'hidden'),
    Output('createWebPageDiv', 'hidden'),
    Input('eafUploader',       'contents'),
@@ -319,8 +320,8 @@ def eafUploadHandler(fileContents, filename, data):
          raise ValueError(msg)
       data['audioURL'] = parser.getAudioURL()
       data['videoURL'] = parser.getVideoURL()
-      hideCreateWebPageDiv = False
-      hideAudioUploadYesNo = False
+      hideCreateWebPageDiv = True
+      hideAudioUploadYesNo = True
       if data['videoURL']:
          data['mediaType'] = "video"
          hideCreateWebPageDiv = False
@@ -399,6 +400,7 @@ audioLoaderDiv = html.Div(id="audioUploadDiv",
                               text='Drag and Drop or Select Audio File',
                               text_completed='Uploaded: ',
                               default_style={"height": "80px", "border": "0px"},
+                              chunk_size=10,
                               cancel_button=True
                               )
                               ],hidden=True)
@@ -614,6 +616,9 @@ def createWebpageCallback(n_clicks, data):
    previewButtonClass = "enabledButton"
    downloadZipButtonHidden = True
    downloadZipButtonClass = "disabledButton"
+   downloadHtmlButtonHidden = True
+   downloadHtmlButtonClass = "disabledButton"
+   loadTrackerDivChildren = ""
    try:
       preferredMediaURL = None
       if "audioFileName" in data.keys():
@@ -633,13 +638,15 @@ def createWebpageCallback(n_clicks, data):
          downloadZipButtonClass = "enabledButton"
    except BaseException as e:
       modalOpen = True
-      #modalTitle = "create webpage error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-   results = [data, previewButtonHidden,
-              previewButtonClass,
+
+   results = [data,
+              previewButtonHidden, previewButtonClass,
               downloadHtmlButtonHidden, downloadHtmlButtonClass,
-              downloadZipButtonHidden, downloadZipButtonClass, "",
+              downloadZipButtonHidden, downloadZipButtonClass,
+              loadTrackerDivChildren,
               modalOpen, modalContents]
+
    return results
 #--------------------------------------------------------------------------------
 
@@ -668,6 +675,8 @@ dashApp.layout.children.append(downloadAndDisplayDiv)
 def createZipFile(projectDir, projectTitle, audioFile):
     print("=== entering createZipFile")
     currentDirectoryOnEntry = os.getcwd()
+    print("    currentDirectoryOnEntry: %s" % currentDirectoryOnEntry)
+    print("    projectDir: %s" % projectDir)
     os.chdir(projectDir)
     print(projectDir)
     filesToSave = []
@@ -679,9 +688,12 @@ def createZipFile(projectDir, projectTitle, audioFile):
     zipFilenameFullPath = os.path.join(currentDirectoryOnEntry, projectDir, zipFilename)
     zipHandle = zipfile.ZipFile(zipFilename, 'w')
     for file in filesToSave:
+        print("   adding %s" % file)
         zipHandle.write(file)
 
     zipHandle.close()
+    os.chdir(currentDirectoryOnEntry)
+    print("=== leaving createZipFile")
 
     return zipFilenameFullPath
 
@@ -722,6 +734,7 @@ def downloadZip(n_clicks, data):
     projectDir =  "PROJECTS/%s" % projectName
     audioFile = data["audioFileName"]
     zipFilePath = createZipFile(projectDir, projectName, audioFile)
+    print("=== calling dcc.send_file: %s" % zipFilePath)
     return dcc.send_file(zipFilePath)
 
 #--------------------------------------------------------------------------------

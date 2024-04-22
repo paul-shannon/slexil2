@@ -18,6 +18,8 @@ dashApp.layout.children.append(downloadAndDisplayDiv)
 def createZipFile(projectDir, projectTitle, audioFile):
     print("=== entering createZipFile")
     currentDirectoryOnEntry = os.getcwd()
+    print("    currentDirectoryOnEntry: %s" % currentDirectoryOnEntry)
+    print("    projectDir: %s" % projectDir)
     os.chdir(projectDir)
     print(projectDir)
     filesToSave = []
@@ -29,9 +31,12 @@ def createZipFile(projectDir, projectTitle, audioFile):
     zipFilenameFullPath = os.path.join(currentDirectoryOnEntry, projectDir, zipFilename)
     zipHandle = zipfile.ZipFile(zipFilename, 'w')
     for file in filesToSave:
+        print("   adding %s" % file)
         zipHandle.write(file)
 
     zipHandle.close()
+    os.chdir(currentDirectoryOnEntry)
+    print("=== leaving createZipFile")
 
     return zipFilenameFullPath
 
@@ -72,6 +77,7 @@ def downloadZip(n_clicks, data):
     projectDir =  "PROJECTS/%s" % projectName
     audioFile = data["audioFileName"]
     zipFilePath = createZipFile(projectDir, projectName, audioFile)
+    print("=== calling dcc.send_file: %s" % zipFilePath)
     return dcc.send_file(zipFilePath)
 
 #--------------------------------------------------------------------------------

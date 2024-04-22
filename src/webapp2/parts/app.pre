@@ -9,8 +9,8 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.5.7"
-versionString = "version: %s, %s" % (slexil.__version__, appVersion)
+appVersion = "2.5.11"
+versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
@@ -53,15 +53,15 @@ def serveFile(urlpath):
        return flask.send_file(os.path.join(fullPath))
     elif urlpath[-3:] == "zip":
        print("flask route returning %s" % fullPath)
-       return flask.send_file(os.path.join(fullPath))
+       return flask.send_file(os.path.join(fullPath), mimetype='application/zip')
     else:
-       return None
+       return ""
     
 #--------------------------------------------------------------------------------
 buttonStyle = {"margin": "20px",
-              "font-size": "20px",
+              "fontSize": "20px",
               "border": "1px solid brown",
-              "border-radius": "10px"
+              "borderRadius": "10px"
               }
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
@@ -78,10 +78,29 @@ eafFiles = [f for f in files if f.endswith("eaf")]
 eafFiles.sort()
 print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
+modalDiv = html.Div(
+    [dbc.Modal([
+         dbc.ModalHeader(
+         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+         dbc.ModalBody("", id='modalContents')
+         ],
+         id="slexilModal",
+         centered=True,
+         is_open=False,
+         size="xl",    # sm, lg, xl
+         fullscreen=False,
+         scrollable=True,
+         )])
+#-------------------------------------------------------
+loadTrackerDiv = html.Div(id="loadTrackerDiv")
+modalLoadSpinnerWatcher = dcc.Loading(id="modalLoadWatcher",
+                                      type="default",
+                                      children=[modalDiv])
+#-------------------------------------------------------
 def createNavBar():
 
    dropdown = dbc.DropdownMenu(
-      label="Options",
+      label="About",
       in_navbar=True,
       align_end=True,
       size="lg",
@@ -103,8 +122,8 @@ def createNavBar():
 
    navbar = dbc.NavbarSimple(
       id="navbar",
-      children=[dropdown],
-      brand="SLEXIL Webapp 2", 
+      children=[loadTrackerDiv, dropdown],
+      brand=html.Img(src='assets/slexil2banner.jpg'),
       color="#F5FAF3",
       dark=False,
       )
@@ -118,29 +137,12 @@ def get_exception_traceback_str(exc: Exception) -> str:
     traceback.print_exception(exc, file=file)
     return file.getvalue().rstrip()
 #-------------------------------------------------------
-modalDiv = html.Div(
-    [dbc.Modal([
-         dbc.ModalHeader(
-         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
-         dbc.ModalBody("", id='modalContents')
-         ],
-         id="slexilModal",
-         centered=True,
-         is_open=False,
-         size="xl",    # sm, lg, xl
-         fullscreen=False,
-         scrollable=True,
-         )])
-#-------------------------------------------------------
-loadTrackerDiv = html.Div(id="loadTrackerDiv")
 dashApp.layout = html.Div(id="mainDiv",
                children=[dcc.Store(id='memoryStore', storage_type='memory'),
+                         #html.Img(src='assets/slexil2banner.jpg', alt='image'),
+                         #html.H4("", className="banner", id='pageTitleH4'),
                          createNavBar(),
-                         dcc.Loading(
-                             id="modalLoadWatcher",
-                             type="default",
-                             children=[modalDiv, loadTrackerDiv])
-                         ],
+                         modalLoadSpinnerWatcher],
                       style={"margin": "5px"})
 #----------------------------------------------------------------------
 # navbar button displays state in a modal dialog

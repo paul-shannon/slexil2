@@ -15,6 +15,7 @@ default:
 	@echo push
 	@echo timingTestLocal
 	@echo timingTestAlberta
+	@echo timingTestOverTime
 	@echo test
 	@echo ps
 	@echo start
@@ -51,8 +52,18 @@ openNoDocker:
 killNoDocker:
 	kill `netstat | grep $(PORT) | awk '{print $$2}'`
 
+
 run:
-	docker run --rm --name $(NAME) -p $(PORT):80 $(IMAGE)
+	docker run --rm \
+           -v /Users/paul/github/slexil2/docker/TEXTS2:/app/texts \
+           -v /Users/paul/github/slexil2/docker/PROJECTS2:/app/PROJECTS \
+           --name $(NAME) -p $(PORT):80 $(IMAGE)
+
+runDetached:
+	docker run --detach \
+           -v /Users/paul/github/slexil2/docker/TEXTS2:/app/texts \
+           -v /Users/paul/github/slexil2/docker/PROJECTS2:/app/PROJECTS \
+           --name $(NAME) -p $(PORT):80 $(IMAGE)
 
 ps:
 	docker ps -a   # running and stopped containers
@@ -79,8 +90,8 @@ timingTestLocal:
 timingTestAlberta:
 	curl https://slexiltest.artsrn.ualberta.ca/test
 
-timingTestAlberta5:
-	for i in 1 2 3 4 5; do 	curl https://slexiltest.artsrn.ualberta.ca/test& done
+timingTestOverTime:
+	while [ 1 ]; do curl https://slexiltest.artsrn.ualberta.ca/test; sleep 120; done
 
 logs:
 	docker logs $(NAME)

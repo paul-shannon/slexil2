@@ -36,6 +36,7 @@ audioLoaderDiv = html.Div(id="audioUploadDiv",
                               text='Drag and Drop or Select Audio File',
                               text_completed='Uploaded: ',
                               default_style={"height": "80px", "border": "0px"},
+                              chunk_size=10,
                               cancel_button=True
                               )
                               ],hidden=True)
