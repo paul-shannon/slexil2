@@ -60,6 +60,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbc.themes
 
 app = flask.Flask(__name__)
 dashApp = dash.Dash(__name__, server = app, url_base_pathname = '/', external_stylesheets=external_stylesheets)
+dashApp.title = "slexil"
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 #flaskApp.config['suppress_callback_exceptions'] = True
 #flaskApp.title = "SLEXIL"
@@ -957,5 +958,5 @@ def createZipFile(projectDir, projectTitle):
 
 # ----------------------------------------------------------------------------------------------------
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port=80)
+    app.run(host='0.0.0.0', debug=True, port=8009)
 
