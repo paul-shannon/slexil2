@@ -5,12 +5,12 @@
 }
    
 .dropdown .dropdown-toggle{
-    font-size: 20px;
+    font-size: 16px;
     background-color: white;
     color: black;
     border-radius: 10px;
-    height: 50px;
-}
+    height: 35px;
+    }
 .navbar-brand{
    font-size: 24px;
    text-align: left;
@@ -65,7 +65,8 @@ button.btn-close { /* dbc.Modal close button "X" */
    height: 20px;
    }
 
-#audioUploadDiv{width: 400px;
+#audioUploadDiv,
+#termsUploadDiv{width: 400px;
                height: 130px;
                font-size: 24px;
 	            font-family: New York Times-Roman;
@@ -131,6 +132,22 @@ button.btn-close { /* dbc.Modal close button "X" */
 .enabledButton:hover{
     background-color: #E1EDDD;
     }
+
+#bannerDiv{
+    background-image: url("slexilbanner2rnd.jpg");
+    background-size: 980px 230px;
+    vertical-align: middle;
+    width: 980px;
+    height: 230px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    }
+
+#aboutDropdownMenu{
+   float: right;
+   margin-right: 6px;
+   margin-top: 6px;
+   }
 
 
 a[href] {

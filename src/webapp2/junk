@@ -1,11 +1,14 @@
-git add Dockerfile
-git add app/main.py
-git add assets/webapp.css
-git add examples/app-good/24.displayAndDownload.py
-git add examples/app-good/app.py
-git add junk
-git add makefile
-git add requirements-versioned.txt
-git add main.py
-git add parts/
-git add requirements-versioned-old.txt
+	git add  Dockerfile
+	git add  app/main.py
+	git add  assets/slexil2banner.jpg
+	git add  assets/webapp.css
+	git add  junk
+	git add  main.py
+	git add  makefile
+	git add  parts/22.loadEAF.py
+	git add  parts/app.pre
+	git add  parts/app.py
+git add	assets/slexil2banner-small.jpg
+git add	assets/slexilbanner2rnd.jpg
+git add	parts/28.loadAbbreviations.py
+

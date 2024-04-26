@@ -1,7 +1,7 @@
 eafLoaderDiv = html.Div(id="eafLoaderDiv",
                         children = [dcc.Upload(
                             id='eafUploader',
-                            accept=".eaf",
+                            #accept=".eaf",
                             children=html.Div([
                                 'Drag and Drop or ',
                                 html.A('Select EAF File')
@@ -26,6 +26,18 @@ def eafUploadHandler(fileContents, filename, data):
 
    if data is None:
       data = {}
+
+   if not filename[-4:] == '.eaf':
+      modalOpen = True
+      modalTitle = "Incorrect file type"
+      unorderedList = html.Ul(id="list", children=[
+         html.Li("Expected a file with an .eaf extension"),
+         html.Li("Instead got %s" % filename)
+         ])
+      modalContents = unorderedList
+      hideAudioUploadYesNo = True
+      hideCreateWebPageDiv = True
+      return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
 
    data['eafFileName'] = filename
 

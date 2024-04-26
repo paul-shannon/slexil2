@@ -1,7 +1,7 @@
-IMAGE = pshannon/slexilwebapp2
-NAME = slexilwebapp2
+NAME = slexiltestwebapp2
 PORT = 9002
-VERSION = 262
+VERSION = 260
+IMAGE = pshannon/slexilwebapp$(VERSION)
 
 default:
 	@echo venv
@@ -91,7 +91,7 @@ timingTestAlberta:
 	curl https://slexiltest.artsrn.ualberta.ca/test
 
 timingTestOverTime:
-	while [ 1 ]; do curl https://slexiltest.artsrn.ualberta.ca/test; sleep 120; done
+	while [ 1 ]; do curl https://slexiltest.artsrn.ualberta.ca/test; sleep 600; done
 
 logs:
 	docker logs $(NAME)
