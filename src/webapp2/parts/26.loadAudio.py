@@ -16,7 +16,6 @@ audioFileUploadYesNoDiv = html.Div(id="audioUploadYesNoDiv",
                  html.Div(
                      dcc.RadioItems(id="audioUploadYesNoButton",
                                     options=[' Yes', ' No'],
-                                    #value=' No',
                                     className="radioButtonsClass",
                                     labelStyle = {'display': 'inline',
                                                   'cursor': 'pointer',

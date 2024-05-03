@@ -27,51 +27,58 @@ termsFileUploadYesNoDiv = html.Div(id="termsUploadYesNoDiv",
                  ], hidden=True)
 dashApp.layout.children.append(termsFileUploadYesNoDiv)
 #---------------------------------------------------------------------
-# du.configure_upload(dashApp, "/tmp")
-
 termsLoaderDiv = html.Div(id="termsUploadDiv",
-                          children=[du.Upload(
+                          children=[dcc.Upload(
                               id='termsUploader',
-                              filetypes=["wav", "WAV"],
-                              text='Drag and Drop or Select Terms File',
-                              text_completed='Uploaded: ',
-                              default_style={"height": "80px", "border": "0px"},
-                              chunk_size=10,
-                              cancel_button=True
-                              )
-                                    ],hidden=True)
+                              #filetypes=["wav", "WAV"],
+                            children=html.Div([
+                                'Drag and Drop or ',
+                                html.A('Select Abbreviations File')
+                                ], className="fubar"),
+                            className="eafUploader",
+                            multiple=False
+                            )],hidden=True)
+
 dashApp.layout.children.append(termsLoaderDiv)
 #--------------------------------------------------------------------------------
 @callback(
-   Output('termsUploadDiv',    'hidden', allow_duplicate=True),
-   Output('createWebPageDiv', 'hidden', allow_duplicate=True),
-   Input('termsUploadYesNoButton', "value"),
+   Output('termsUploadDiv',        'hidden', allow_duplicate=True),
+   Output('createWebPageDiv',      'hidden', allow_duplicate=True),
+   Output('audioUploadYesNoDiv',   'hidden', allow_duplicate=True),
+   Input('termsUploadYesNoButton', 'value'),
+   State('memoryStore',            'data'),
    prevent_initial_call=True)
-def termsUploadHandler(uploadYesNo):
+def termsYesNoHandler(uploadYesNo, data):
     print("uploadYesNo: %s" % uploadYesNo)
     if uploadYesNo == ' Yes':
        createWebPageDivHidden = True
        termsUploaderDivHidden = False
+       createWebPageDivHidden = True
+       audioUploadYesNoHidden = True
     else:
-       createWebPageDivHidden = False
        termsUploaderDivHidden = True
-    return termsUploaderDivHidden, createWebPageDivHidden
+       if data['mediaType'] == "audio":
+          createWebPageDivHidden = True
+          audioUploadYesNoHidden = False
+       else:
+          audioUploadYesNoHidden = True
+          createWebPageDivHidden = False
+    return termsUploaderDivHidden, createWebPageDivHidden, audioUploadYesNoHidden
 
 #--------------------------------------------------------------------------------
 @callback(
-   Output('slexilModal',      'is_open',  allow_duplicate=True),
-   Output('modalContents',    'children', allow_duplicate=True),
-   Output('memoryStore',      'data',     allow_duplicate=True),
-   Output('createWebPageDiv', 'hidden',   allow_duplicate=True),
-   Input('termsUploader',     'isCompleted'),
-   State('termsUploader',     'fileNames'),
-   State('termsUploader',     'upload_id'),
-   State('memoryStore',       'data'),
+   Output('slexilModal',         'is_open',  allow_duplicate=True),
+   Output('modalContents',       'children', allow_duplicate=True),
+   Output('memoryStore',         'data',     allow_duplicate=True),
+   Output('audioUploadYesNoDiv', 'hidden',   allow_duplicate=True),
+   Output('createWebPageDiv',    'hidden',   allow_duplicate=True),
+   Input('termsUploader',        'contents'),
+   State('termsUploader',        'filename'),
+   State('memoryStore',          'data'),
    prevent_initial_call=True)
-def termsUploadHandler(isCompleted, fileNames, upload_id, data):
+def termsUploadHandler(fileContents, filename, data):
 
    print("=== soundUploadHandler")
-   filename = fileNames[0]
    if filename is None:
        return("","",1)
 
@@ -80,12 +87,23 @@ def termsUploadHandler(isCompleted, fileNames, upload_id, data):
 
    try:
       data['termsFileName'] = filename;
-      temporaryPath = "/tmp/%s/%s" % (upload_id, filename)
-      projectPath = data['projectPath']
-      shutil.copy2(temporaryPath, projectPath)
+      fileData = fileContents.encode("utf8").split(b";base64,")[1]
+      fullPath = os.path.join(data['projectPath'], filename)
+      with open(fullPath, "wb") as fp:
+         fp.write(base64.decodebytes(fileData))
+      assert(os.path.isfile(fullPath))
+      fileSize = os.path.getsize(fullPath)
+      data['termsFullPath'] = fullPath
+      data['termsFileSize'] = fileSize
+
       modalOpen = False
       modalContents = ""
       createWebPageDivHidden = False
+      audioUploadYesNoHidden = True
+      if data['mediaType'] == "audio":
+         print("audio, hiding cwp, showing auyn")
+         createWebPageDivHidden = True
+         audioUploadYesNoHidden = False
    
    except BaseException as e:
       modalOpen = True
@@ -93,54 +111,5 @@ def termsUploadHandler(isCompleted, fileNames, upload_id, data):
       modalContents = html.Pre(get_exception_traceback_str(e))
       createWebPageDivHidden = True
 
-   return modalOpen, modalContents, data, createWebPageDivHidden
+   return modalOpen, modalContents, data, audioUploadYesNoHidden, createWebPageDivHidden
 
-   #try:
-   #   fileData = fileContents.encode("utf8").split(b";base64,")[1]
-   #   fullPath = os.path.join(data['projectPath'], filename)
-   #   with open(fullPath, "wb") as fp:
-   #      fp.write(base64.decodebytes(fileData))
-#
-#      assert(os.path.isfile(fullPath))
-#      fileSize = os.path.getsize(fullPath)
-#      data['termsFullPath'] = fullPath
-#      data['termsFileSize'] = fileSize
-#      createWebPageDivHidden = False
-#      #rate, mtx = wavfile.read(fullPath)
-#      #data["termsSamplingRate"] = rate
-#      #print(mtx)
-#
-
-
-
-
-
- # data = contents.encode("utf8").split(b";base64,")[1]
-    # filename = os.path.join(projectDirectory, name)
-    # if not filename[-4:] == ".wav" and not filename[-4:] == ".WAV":
-    # 	sound_validationMessage = "Please select a WAVE (.wav) file."
-    # 	return sound_validationMessage, "", 1
-    # with open(filename, "wb") as fp:
-    #    fp.write(base64.decodebytes(data))
-    #    fileSize = os.path.getsize(filename)
-    #    errorMessage = ""
-    #    validSound = True
-    #    try:
-    #       rate, mtx = wavfile.read(filename)
-    #    except ValueError as e:
-    #       print("exeption in wavfile: %s" % e)
-    #       rate = -1
-    #       validSound = False
-    #       errorMessage = str(e)
-    #    print("sound file size: %d, rate: %d" % (fileSize, rate))
-    #    if validSound:
-    #    	  sound_validationMessage = "Sound file: %s (%d bytes)" % (name, fileSize)
-    #    	  newButtonState = 0
-    #    	  return sound_validationMessage, filename, newButtonState
-    #    else:
-    #    	  if "Unsupported bit depth: the wav file has 24-bit data" in errorMessage:
-    #            sound_validationMessage = "File %s (%d byes) has 24-bit data, must be minimum 32-bit."  % (name, fileSize)
-    #    	  else:
-    #            sound_validationMessage = "ERROR: %s [File: %s (%d bytes)]" % (errorMessage, name, fileSize)
-    #    	  newButtonState = 1
-    

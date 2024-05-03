@@ -65,8 +65,7 @@ button.btn-close { /* dbc.Modal close button "X" */
    height: 20px;
    }
 
-#audioUploadDiv,
-#termsUploadDiv{width: 400px;
+#audioUploadDiv{width: 400px;
                height: 130px;
                font-size: 24px;
 	            font-family: New York Times-Roman;
@@ -83,7 +82,7 @@ button.btn-close { /* dbc.Modal close button "X" */
     font-size: 24px;
 }
 
-.eafUploader{width: 400px;
+.eafUploader{width: 500px;
              height: 60px;
              font-size: 24px;
 	          font-family: New York Times-Roman;

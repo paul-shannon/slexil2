@@ -36,7 +36,11 @@ def runTest():
    runBigDemo()
    endTime = time.time()
    elapsedTime = endTime - startTime
-   return "ran slexil webapp2 demo in %s seconds\n" % round(elapsedTime, 2)
+   currentTime = time.ctime()
+   msg = "[%s] ran slexil webapp2 demo in %s seconds\n" % \
+       (time.ctime(), round(elapsedTime, 2))
+   print(msg)
+   return msg
 
 #--------------------------------------------------------------------------------
 @app.route('/PROJECTS/<path:urlpath>')
@@ -285,8 +289,7 @@ dashApp.layout.children.append(eafLoaderDiv)
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
    Output('memoryStore',      'data',     allow_duplicate=True),
-   Output('audioUploadYesNoDiv', 'hidden'),
-   Output('createWebPageDiv', 'hidden'),
+   Output('termsUploadYesNoDiv', 'hidden'),
    Input('eafUploader',       'contents'),
    State('eafUploader',       'filename'),
    State('memoryStore',       'data'),
@@ -304,9 +307,10 @@ def eafUploadHandler(fileContents, filename, data):
          html.Li("Instead got %s" % filename)
          ])
       modalContents = unorderedList
-      hideAudioUploadYesNo = True
-      hideCreateWebPageDiv = True
-      return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
+      termsUploadYesNoDivHidden = True
+      #hideAudioUploadYesNo = True
+      #hideCreateWebPageDiv = True
+      return modalOpen, modalContents, data, termsUploadYesNoDivHidden
 
    data['eafFileName'] = filename
 
@@ -326,17 +330,10 @@ def eafUploadHandler(fileContents, filename, data):
          raise ValueError(msg)
       data['audioURL'] = parser.getAudioURL()
       data['videoURL'] = parser.getVideoURL()
-      hideCreateWebPageDiv = True
-      hideAudioUploadYesNo = True
-      if data['videoURL']:
-         data['mediaType'] = "video"
-         hideCreateWebPageDiv = False
-         hideAudioUploadYesNo = True
-      else:
+      if data['videoURL'] is None:
          data['mediaType'] = "audio"
-         hideCreateWebPageDiv = True
-         hideAudioUploadYesNo = False
-         #audioUploadDivHidden = False
+      else:
+         data['mediaType'] = "video"
       parser.xmlValid()
       tbl_tiers = parser.getTierTable()
         # discard the DEFAULT_LOCALE column
@@ -357,15 +354,131 @@ def eafUploadHandler(fileContents, filename, data):
       modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
+      termsUploadYesNoDivHidden = False
       #hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      hideAudioUploadYesNo = True
-      hideCreateWebPageDiv = True
-   return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
+      termsUploadYesNoDivHidden = True
+   return modalOpen, modalContents, data, termsUploadYesNoDivHidden
       
+
+
+# good example here:
+#  https://community.plotly.com/t/show-and-tell-dash-uploader-upload-large-files/38451/51?page=3
+#  https://stackoverflow.com/questions/75194431/dash-dcc-upload-component-for-large-file
+
+import dash_uploader as du
+import shutil
+
+termsFileUploadYesNoDiv = html.Div(id="termsUploadYesNoDiv",
+              style={"margin-left": "20px", "display": "inline-block",
+                     "padding-bottom": "0px"},
+              children=[
+                 html.Div(html.Label("Upload grammatical abbreviations file?",
+                            style={"font-size": "24px",
+                                   "font-family": "New York Times-Roman"}),
+                          style={"display": "inline-block"}),
+                 html.Div(
+                     dcc.RadioItems(id="termsUploadYesNoButton",
+                                    options=[' Yes', ' No'],
+                                    #value=' No',
+                                    className="radioButtonsClass",
+                                    labelStyle = {'display': 'inline',
+                                                  'cursor': 'pointer',
+                                                  'margin-left':'20px',
+                                                  "font-size": "24px",
+                                                  "font-family": "New York Times-Roman"}),
+                          style={"display": "inline-block"}),
+                 ], hidden=True)
+dashApp.layout.children.append(termsFileUploadYesNoDiv)
+#---------------------------------------------------------------------
+termsLoaderDiv = html.Div(id="termsUploadDiv",
+                          children=[dcc.Upload(
+                              id='termsUploader',
+                              #filetypes=["wav", "WAV"],
+                            children=html.Div([
+                                'Drag and Drop or ',
+                                html.A('Select Abbreviations File')
+                                ], className="fubar"),
+                            className="eafUploader",
+                            multiple=False
+                            )],hidden=True)
+
+dashApp.layout.children.append(termsLoaderDiv)
+#--------------------------------------------------------------------------------
+@callback(
+   Output('termsUploadDiv',        'hidden', allow_duplicate=True),
+   Output('createWebPageDiv',      'hidden', allow_duplicate=True),
+   Output('audioUploadYesNoDiv',   'hidden', allow_duplicate=True),
+   Input('termsUploadYesNoButton', 'value'),
+   State('memoryStore',            'data'),
+   prevent_initial_call=True)
+def termsYesNoHandler(uploadYesNo, data):
+    print("uploadYesNo: %s" % uploadYesNo)
+    if uploadYesNo == ' Yes':
+       createWebPageDivHidden = True
+       termsUploaderDivHidden = False
+       createWebPageDivHidden = True
+       audioUploadYesNoHidden = True
+    else:
+       termsUploaderDivHidden = True
+       if data['mediaType'] == "audio":
+          createWebPageDivHidden = True
+          audioUploadYesNoHidden = False
+       else:
+          audioUploadYesNoHidden = True
+          createWebPageDivHidden = False
+    return termsUploaderDivHidden, createWebPageDivHidden, audioUploadYesNoHidden
+
+#--------------------------------------------------------------------------------
+@callback(
+   Output('slexilModal',         'is_open',  allow_duplicate=True),
+   Output('modalContents',       'children', allow_duplicate=True),
+   Output('memoryStore',         'data',     allow_duplicate=True),
+   Output('audioUploadYesNoDiv', 'hidden',   allow_duplicate=True),
+   Output('createWebPageDiv',    'hidden',   allow_duplicate=True),
+   Input('termsUploader',        'contents'),
+   State('termsUploader',        'filename'),
+   State('memoryStore',          'data'),
+   prevent_initial_call=True)
+def termsUploadHandler(fileContents, filename, data):
+
+   print("=== soundUploadHandler")
+   if filename is None:
+       return("","",1)
+
+   if data is None:
+      data = {}
+
+   try:
+      data['termsFileName'] = filename;
+      fileData = fileContents.encode("utf8").split(b";base64,")[1]
+      fullPath = os.path.join(data['projectPath'], filename)
+      with open(fullPath, "wb") as fp:
+         fp.write(base64.decodebytes(fileData))
+      assert(os.path.isfile(fullPath))
+      fileSize = os.path.getsize(fullPath)
+      data['termsFullPath'] = fullPath
+      data['termsFileSize'] = fileSize
+
+      modalOpen = False
+      modalContents = ""
+      createWebPageDivHidden = False
+      audioUploadYesNoHidden = True
+      if data['mediaType'] == "audio":
+         print("audio, hiding cwp, showing auyn")
+         createWebPageDivHidden = True
+         audioUploadYesNoHidden = False
+   
+   except BaseException as e:
+      modalOpen = True
+      modalTitle = "terms upload error"
+      modalContents = html.Pre(get_exception_traceback_str(e))
+      createWebPageDivHidden = True
+
+   return modalOpen, modalContents, data, audioUploadYesNoHidden, createWebPageDivHidden
 
 
 # good example here:
@@ -386,7 +499,6 @@ audioFileUploadYesNoDiv = html.Div(id="audioUploadYesNoDiv",
                  html.Div(
                      dcc.RadioItems(id="audioUploadYesNoButton",
                                     options=[' Yes', ' No'],
-                                    #value=' No',
                                     className="radioButtonsClass",
                                     labelStyle = {'display': 'inline',
                                                   'cursor': 'pointer',
@@ -515,7 +627,6 @@ def audioUploadHandler(isCompleted, fileNames, upload_id, data):
     #    	  newButtonState = 1
     
 
-#m4_include(28.loadAbbreviations.py)
 # from slexil.eafParser import EafParser
 from slexil.learnTierGuide import LearnTierGuide
 from slexil.text import Text

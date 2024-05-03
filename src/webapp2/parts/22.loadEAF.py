@@ -16,8 +16,7 @@ dashApp.layout.children.append(eafLoaderDiv)
    Output('slexilModal',      'is_open',  allow_duplicate=True),
    Output('modalContents',    'children', allow_duplicate=True),
    Output('memoryStore',      'data',     allow_duplicate=True),
-   Output('audioUploadYesNoDiv', 'hidden'),
-   Output('createWebPageDiv', 'hidden'),
+   Output('termsUploadYesNoDiv', 'hidden'),
    Input('eafUploader',       'contents'),
    State('eafUploader',       'filename'),
    State('memoryStore',       'data'),
@@ -35,9 +34,10 @@ def eafUploadHandler(fileContents, filename, data):
          html.Li("Instead got %s" % filename)
          ])
       modalContents = unorderedList
-      hideAudioUploadYesNo = True
-      hideCreateWebPageDiv = True
-      return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
+      termsUploadYesNoDivHidden = True
+      #hideAudioUploadYesNo = True
+      #hideCreateWebPageDiv = True
+      return modalOpen, modalContents, data, termsUploadYesNoDivHidden
 
    data['eafFileName'] = filename
 
@@ -57,17 +57,10 @@ def eafUploadHandler(fileContents, filename, data):
          raise ValueError(msg)
       data['audioURL'] = parser.getAudioURL()
       data['videoURL'] = parser.getVideoURL()
-      hideCreateWebPageDiv = True
-      hideAudioUploadYesNo = True
-      if data['videoURL']:
-         data['mediaType'] = "video"
-         hideCreateWebPageDiv = False
-         hideAudioUploadYesNo = True
-      else:
+      if data['videoURL'] is None:
          data['mediaType'] = "audio"
-         hideCreateWebPageDiv = True
-         hideAudioUploadYesNo = False
-         #audioUploadDivHidden = False
+      else:
+         data['mediaType'] = "video"
       parser.xmlValid()
       tbl_tiers = parser.getTierTable()
         # discard the DEFAULT_LOCALE column
@@ -88,13 +81,13 @@ def eafUploadHandler(fileContents, filename, data):
       modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
+      termsUploadYesNoDivHidden = False
       #hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-      hideAudioUploadYesNo = True
-      hideCreateWebPageDiv = True
-   return modalOpen, modalContents, data, hideAudioUploadYesNo, hideCreateWebPageDiv
+      termsUploadYesNoDivHidden = True
+   return modalOpen, modalContents, data, termsUploadYesNoDivHidden
       
 
