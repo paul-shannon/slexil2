@@ -3,6 +3,7 @@
 *.wav
 *.m4v
 *.eaf
+*.aup3
 src/slexil_package.egg-info/
 src/slexil_package.egg-info/PKG-INFO
 src/slexil.egg-info
