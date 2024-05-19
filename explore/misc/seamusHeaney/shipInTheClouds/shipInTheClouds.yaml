@@ -1,0 +1,80 @@
+title: Listenings viiDante's Inferno
+narrator: Seamus Heaney
+textEntry: Paul Shannon
+#mediaFile: https://slexildata.artsrn.ualberta.ca/poets/seamusHeaneyListenings7.wav
+#mediaFile: seamusHeaneyListenings7-kellyPerdue.wav
+mediaFile: seamusHeaneyListenings7-perdue-Kimble.wav
+mimeType: audio/x-wav
+
+ 
+lines:
+  - lineNumber: 1
+    startTime: 614
+    endTime: 5051
+    speech: "The annals say: when the monks of Clonmacnoise"
+
+  - lineNumber: 2
+    startTime: 5380
+    endTime: 8100
+    speech: Were all at prayers inside the oratory
+
+  - lineNumber: 3
+    startTime: 8511
+    endTime: 11457
+    speech: A ship appeared above them in the air.
+
+  - lineNumber: 4
+    startTime: 12535
+    endTime: 15143
+    speech: The anchor dragged along behind so deep
+ 
+  - lineNumber: 5
+    startTime: 15276
+    endTime: 18069
+    speech: It hooked itself into the altar rails
+ 
+  - lineNumber: 6
+    startTime: 18284
+    endTime: 21970
+    speech: And then, as the big hull rocked to a standstill,
+ 
+  - lineNumber: 7
+    startTime: 22350
+    endTime: 25112
+    speech: A crewman shinned and grappled down the rope
+ 
+  - lineNumber: 8
+    startTime: 25430
+    endTime: 28387
+    speech: And struggled to release it. But in vain.
+  
+  - lineNumber: 9
+    startTime: 30327
+    endTime: 33533
+    speech: "'This man can't bear our life here and will drown,'"
+ 
+  - lineNumber: 10
+    startTime: 33879
+    endTime: 37832
+    speech: The abbot said, 'unless we help him.' So
+ 
+  - lineNumber: 11
+    startTime: 38488
+    endTime: 44587
+    speech: They did, the freed ship sailed, and the man climbed back
+ 
+  - lineNumber: 12
+    startTime: 45080
+    endTime: 47944
+    speech: Out of the marvellous as he had known it.
+
+  - lineNumber: 13
+    startTime: 49156
+    endTime:  106370
+    speech: "Kelly Perdue, mandolin:  Ship in The Clouds"
+
+  - lineNumber: 14
+    startTime: 106586
+    endTime:  205236
+    speech: "Marcus Taylor Kimble (1892-1979), fiddle: Ship in The Clouds"
+
