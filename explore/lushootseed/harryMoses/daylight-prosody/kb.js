@@ -2,6 +2,15 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ":
+`
+_ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ_
+
+luhOAK chud dwal kwi seeAB abs.slexil (duff)HWAH kwi soods ah
+
+`,
+
+
 "ɬu=hədʔiw’–b=ad":
 `
 _ɬu=hədʔiw’–b=ad_
@@ -72,7 +81,7 @@ _ɬasx̌ʷal’_
 `
 _ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd_
 
-luss.hwawg lus.KO.sud sloo.hay.bud
+luss.hwawg lus.KO.sud sloo.huh.DAY.bud
 
 irr-state.lackControl irr.state.cane irr.indoors.middle
 
