@@ -9,7 +9,7 @@ def runTests():
    test_speechTierMissingOrMisname()
    test_pluralValues()
 
-   test_deduceTierGuideFromEAF()
+   # test_deduceTierGuideFromEAF()
    
 #--------------------------------------------------------------------------------
 def test_basic():

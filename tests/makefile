@@ -14,8 +14,6 @@ default:
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
-dev:
-	python -m unittest test_eafParser.py
 
 all: webPacker eaf ijalLine text morphemeGloss standardizeIjalTierTable xmlFileUtils
 
@@ -27,6 +25,7 @@ tierGuide:
 
 eaf:
 	python test_eafParser.py
+	python test_eafParserInferno.py
 
 learnTierGuide:
 	python test_learnTierGuide.py
