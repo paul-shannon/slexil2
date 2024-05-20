@@ -4,56 +4,56 @@ HTML.FILE = 4EthelAnitaTest.html
 VID = 4EthelAnita-orig.mov
 TITLE = "Tlingit Conversation \#4"
 
-# include ../makefile-shared
+include ../makefile-shared
 
-CODE_ROOT=/Users/paul/github/slexil2
-
-default:
-	@echo eafStructure
-	@echo movieCurl
-	@echo scp
-	@echo venv
-	@echo times
-	@echo html
-	@echo publish
-	@echo view
-	@echo viewRemote
-	@echo eafscp
-
-venv:
-	@echo source $(CODE_ROOT)/py3105slexil/bin/activate
-
-eafStructure:
-	python -i $(CODE_ROOT)/utils/eafStructure.py --eaf $(EAF)
-
-movieCurl:
-	curl -I https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(VID)
-
-scp:
-	scp $(VID) pshannon@206.12.95.4:www/$(LANGUAGE)
-
-times:
-	python  $(CODE_ROOT)/utils/eafCheck.py --eaf $(EAF) --times
-
-html:
-	python $(CODE_ROOT)/utils/eaf2html.py  \
-	                     --eaf $(EAF) \
-                        --tierGuide ../tierGuide.yaml \
-                        --helpFile help.html \
-                        --helpButtonLabel "How To" \
-                        --pageTitle $(TITLE) \
-                        --fixOverlappingTimeSegments \
-	                     --fontSizeControls
-
-publish:
-	scp index.html pshannon@206.12.95.4:www/$(LANGUAGE)/$(HTML.FILE)
-
-view:
-	open index.html
-
-viewRemote:
-	open https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(HTML.FILE)
-
-eafscp:
-	scp $(EAF) pshannon@206.12.95.4:www/$(LANGUAGE)/eaf/
-
+# CODE_ROOT=/Users/paul/github/slexil2
+# 
+# default:
+# 	@echo eafStructure
+# 	@echo movieCurl
+# 	@echo scp
+# 	@echo venv
+# 	@echo times
+# 	@echo html
+# 	@echo publish
+# 	@echo view
+# 	@echo viewRemote
+# 	@echo eafscp
+# 
+# venv:
+# 	@echo source $(CODE_ROOT)/py3105slexil/bin/activate
+# 
+# eafStructure:
+# 	python -i $(CODE_ROOT)/utils/eafStructure.py --eaf $(EAF)
+# 
+# movieCurl:
+# 	curl -I https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(VID)
+# 
+# scp:
+# 	scp $(VID) pshannon@206.12.95.4:www/$(LANGUAGE)
+# 
+# times:
+# 	python  $(CODE_ROOT)/utils/eafCheck.py --eaf $(EAF) --times
+# 
+# html:
+# 	python $(CODE_ROOT)/utils/eaf2html.py  \
+# 	                     --eaf $(EAF) \
+#                         --tierGuide ../tierGuide.yaml \
+#                         --helpFile help.html \
+#                         --helpButtonLabel "How To" \
+#                         --pageTitle $(TITLE) \
+#                         --fixOverlappingTimeSegments \
+# 	                     --fontSizeControls
+# 
+# publish:
+# 	scp index.html pshannon@206.12.95.4:www/$(LANGUAGE)/$(HTML.FILE)
+# 
+# view:
+# 	open index.html
+# 
+# viewRemote:
+# 	open https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(HTML.FILE)
+# 
+# eafscp:
+# 	scp $(EAF) pshannon@206.12.95.4:www/$(LANGUAGE)/eaf/
+# 

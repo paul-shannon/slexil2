@@ -290,7 +290,7 @@ class Text:
                         with htmlDoc.tag("span", id="videoSizeLabel"):
                            htmlDoc.text("Video Size ")
                         htmlDoc.stag("input",  type="range",
-                                     min="50", max="800", value="150",
+                                     min="50", max="350", value="250",
                                      step="10", id="videoSizeSelector",
                                      name="videoSizeSelector")
                         self.addTitleAndButtons(htmlDoc)

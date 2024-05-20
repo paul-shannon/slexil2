@@ -1,6 +1,6 @@
 var state = {
    mediaPlayer: null,          // will be either <audio> or <video>
-   videoHeight: 150,           // initial size, adjusted by slider
+   videoHeight: 250,           // initial size, adjusted by slider
    mediaPlayerInterval: 100,   // query media current time this often, msecs
    currentLine: 0
    }
@@ -13,14 +13,13 @@ var slexilJSdate = "2024-jan-02"
 function refreshLayout(videoRequestedSize)
 {
    if(document.getElementById('videoPlayer') != null){
-      console.log("requested videoSize: " + videoRequestedSize)
       var oldVideoSize = $("#videoPlayer").height()
-      console.log("old video size: " + oldVideoSize);
+      if(videoRequestedSize > 350){
+         return
+         }
       var videoSizeDelta = videoRequestedSize - oldVideoSize;
-      console.log("videoSizeDelta: " + videoSizeDelta)
       $("#videoPlayer").height(videoRequestedSize);
       var hvscd = $("#mediaPlayerAndControlsDiv").height() + videoSizeDelta;
-      console.log("video player present, mpacd height setting to " + hvscd)
       $("#mediaPlayerAndControlsDiv").height(hvscd)
       }
 
