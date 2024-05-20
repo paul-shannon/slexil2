@@ -489,7 +489,7 @@ import dash_uploader as du
 import shutil
 
 audioFileUploadYesNoDiv = html.Div(id="audioUploadYesNoDiv",
-              style={"margin-left": "20px", "display": "inline-block",
+              style={"margin-left": "20px", #"display": "inline-block",
                      "padding-bottom": "0px"},
               children=[
                  html.Div(html.Label("Upload an audio file?",
