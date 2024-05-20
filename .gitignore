@@ -8,6 +8,7 @@ src/slexil_package.egg-info/PKG-INFO
 src/slexil.egg-info
 demos/ERRORS.log
 dictionary/incoming
+build/
 build/lib/slexil
 build/lib/
 dot-git-hidden/
