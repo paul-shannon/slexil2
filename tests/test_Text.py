@@ -26,7 +26,7 @@ def test_inferno_speechOnly():
 	print("--- text_inferno_speechOnly")
 
 	tierGuide = {"speech": "italianSpeech"}
-	with open("tmp.yaml", "w") as outfile:
+	with open("/tmp/tmp.yaml", "w") as outfile:
 		yaml.dump(tierGuide, outfile)
 	packageRoot = os.path.dirname(os.path.dirname(os.path.abspath("explore_text-inferno.py")))
 	dataDir = os.path.join(packageRoot, "testData", "inferno")
@@ -34,7 +34,7 @@ def test_inferno_speechOnly():
 
 	elanXmlFilename =      os.path.join(dataDir, "inferno-threeLines.eaf")
 	projectDirectory =     projectDir
-	tierGuideFile =        "tmp.yaml"
+	tierGuideFile =        "/tmp/tmp.yaml"
 	grammaticalTermsFile = os.path.join(dataDir, "grammaticalTerms.txt")
 	fontSizeControls = False
 	startLine = None
@@ -82,7 +82,7 @@ def test_inferno_speechAndTranslation():
 
 	tierGuide = {"speech": "italianSpeech",
 	             "translation": "english"}
-	with open("tmp.yaml", "w") as outfile:
+	with open("/tmp/tmp.yaml", "w") as outfile:
 		yaml.dump(tierGuide, outfile)
 	packageRoot = os.path.dirname(os.path.dirname(os.path.abspath("explore_text-inferno.py")))
 	dataDir = os.path.join(packageRoot, "testData", "inferno")
@@ -90,7 +90,7 @@ def test_inferno_speechAndTranslation():
 
 	elanXmlFilename =      os.path.join(dataDir, "inferno-threeLines.eaf")
 	projectDirectory =     projectDir
-	tierGuideFile =        "tmp.yaml"
+	tierGuideFile =        "/tmp/tmp.yaml"
 	grammaticalTermsFile = os.path.join(dataDir, "grammaticalTerms.txt")
 	fontSizeControls = False
 	startLine = None
@@ -144,7 +144,7 @@ def test_inferno_speechTranslationMorphemes():
 	             "translation": "english",
 	             "morpheme": "morphemes"}
 	
-	with open("tmp.yaml", "w") as outfile:
+	with open("/tmp/tmp.yaml", "w") as outfile:
 		yaml.dump(tierGuide, outfile)
 	packageRoot = os.path.dirname(os.path.dirname(os.path.abspath("explore_text-inferno.py")))
 	dataDir = os.path.join(packageRoot, "testData", "inferno")
@@ -152,7 +152,7 @@ def test_inferno_speechTranslationMorphemes():
 
 	elanXmlFilename =      os.path.join(dataDir, "inferno-threeLines.eaf")
 	projectDirectory =     projectDir
-	tierGuideFile =        "tmp.yaml"
+	tierGuideFile =        "/tmp/tmp.yaml"
 	grammaticalTermsFile = os.path.join(dataDir, "grammaticalTerms.txt")
 	fontSizeControls = False
 	startLine = None
@@ -207,7 +207,7 @@ def test_inferno_speechTranslationMorphemesAndGloss():
 	             "morpheme": "morphemes",
 				 "morphemeGloss": "morpheme-gloss"}
 	
-	with open("tmp.yaml", "w") as outfile:
+	with open("/tmp/tmp.yaml", "w") as outfile:
 		yaml.dump(tierGuide, outfile)
 	packageRoot = os.path.dirname(os.path.dirname(os.path.abspath("explore_text-inferno.py")))
 	dataDir = os.path.join(packageRoot, "testData", "inferno")
@@ -215,7 +215,7 @@ def test_inferno_speechTranslationMorphemesAndGloss():
 
 	elanXmlFilename =      os.path.join(dataDir, "inferno-threeLines.eaf")
 	projectDirectory =     projectDir
-	tierGuideFile =        "tmp.yaml"
+	tierGuideFile =        "/tmp/tmp.yaml"
 	grammaticalTermsFile = os.path.join(dataDir, "grammaticalTerms.txt")
 	fontSizeControls = False
 	startLine = None
