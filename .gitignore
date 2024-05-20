@@ -5,6 +5,7 @@
 *.eaf
 *.aup3
 *.whl
+build/
 wheels/*
 src/slexil_package.egg-info/
 src/slexil_package.egg-info/PKG-INFO
