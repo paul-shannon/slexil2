@@ -349,6 +349,65 @@ class Text:
    #-------------------------------------------------------------------------------
    def createOtherControlsDiv(self, htmlDoc):
 
+      with htmlDoc.tag("div", id="otherControlsGridDiv", klass="otherControlsGridWrapper"):
+         with htmlDoc.tag("div", id="playbackSpeedDiv", klass="otherControlsGridCell"):
+            with htmlDoc.tag("div", id="playbackSpeedLabel"):
+               htmlDoc.text("Playback speed ")
+            with htmlDoc.tag("button", id="slowerPlaybackButton",
+                             klass="playbackSpeedButton"):
+               htmlDoc.text(" - ")
+            htmlDoc.stag("input",  type="range", min="0.25", max="2.0", value="1.0",
+                     step="0.25", id="speedSelector", name="speedSelector")
+            with htmlDoc.tag("button", id="fasterPlaybackButton",
+                             klass="playbackSpeedButton"):
+               htmlDoc.text(" + ")
+            with htmlDoc.tag("div", id="playbackSpeedReadout"):
+               htmlDoc.text("1.0")
+
+         with htmlDoc.tag("div", id="playbackSpeedDiv", klass="otherControlsGridCell"):
+            with htmlDoc.tag("div", id="printSizeLabel"):
+               htmlDoc.text("Print Size ")
+            with htmlDoc.tag("form", action=""):
+               htmlDoc.stag("input",  type="range", min="0.2", max="4.0", value="1.4",
+                            step="0.1", id="fontSizeSlider", name="fontSizeSlider")
+
+         tg = TierGuide(self.tierGuideFile)
+         if(not tg.valid()["valid"]):
+            print("--- text.py finds invalid tierGuide")
+            print(tg.valid())
+         
+      
+         with htmlDoc.tag("div", id="tierControlsDiv"):
+            with htmlDoc.tag("div"):            
+               with htmlDoc.tag("span", id="tiersLabelDiv"):
+                  htmlDoc.text("Visible Tiers: ")
+            with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
+              with tag('form', action = ""):
+                tierName = "transcription"
+                htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                              value=tierName, klass="tierToggleCheckbox",
+                              id="tierToggle-%s" % tierName)
+                htmlDoc.text(" %s" % tierName)
+
+                if("translation" in tg.getTierNames()):
+                  tierName = "translation"
+                  htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                                value=tierName, klass="tierToggleCheckbox",
+                                id="tierToggle-%s" % tierName)
+                  htmlDoc.text(" %s" % tierName)
+
+                if("morpheme" in tg.getTierNames()):
+                  tierName = "analysis"
+                  htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                                value=tierName, klass="tierToggleCheckbox",
+                                id="tierToggle-%s" % tierName)
+                  htmlDoc.text(" %s" % tierName)
+
+               
+
+   #-------------------------------------------------------------------------------
+   def oldCreateOtherControlsDiv(self, htmlDoc):
+
           #-----------------
           # playback speed 
           #-----------------

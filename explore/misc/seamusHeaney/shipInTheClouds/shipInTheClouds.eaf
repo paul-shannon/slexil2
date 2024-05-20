@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<ANNOTATION_DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERSION="2.8" FORMAT="2.8" AUTHOR="Paul Shannon" DATE="2024-05-19T13:10:08" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+<ANNOTATION_DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERSION="2.8" FORMAT="2.8" AUTHOR="Paul Shannon" DATE="2024-05-19T13:21:54" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-      <MEDIA_DESCRIPTOR MEDIA_URL="seamusHeaneyListenings7-perdue-Kimble.wav" MIME_TYPE="audio/x-wav"/>
+      <MEDIA_DESCRIPTOR MEDIA_URL="https://slexildata.artsrn.ualberta.ca/misc/seamusHeaney/seamusHeaneyListenings7-perdue-Kimble.wav" MIME_TYPE="audio/x-wav"/>
    </HEADER>
    <TIME_ORDER>
       <TIME_SLOT TIME_SLOT_ID="ts0" TIME_VALUE="614"/>

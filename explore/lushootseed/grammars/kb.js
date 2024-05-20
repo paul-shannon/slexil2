@@ -12,6 +12,18 @@ Imitate whatever pronunciation the teacher uses regardless of how it is written 
 The ' over the w indicates a slight tightening of the throat while the
 word is being said.  However, this is one of the few places where such
 tightening may be omitted without causing misunderstanding.
+
+Lushootseed, unlike most languages in the world, has no word for _is_.  This absence may
+seem strange at first, but the student quickly learns how unnecessary it is.
+
+English has no word exaclty like _əw'ə_ (_haw'əʔ_).  It often adds a feeling
+of wonder, and sometimes surprise, to a question.  The English words _could ...be_
+are not an exact translation, but only an attempt to express the flavor of the
+Lushootseed sentecne.
+
+It is possible to omit the _əw'ə_ and say simply _stab tiʔiɬ_.
+
+In later lessons (18.1) it will be learned that _əw'ə_can add still other feelings to a sentence.
 `,
 
 "spaʔc tiʔiɬ":

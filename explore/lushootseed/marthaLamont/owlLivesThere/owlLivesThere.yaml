@@ -1,7 +1,8 @@
 title: Owl Lives There
 narrator: Martha Lamont
 textEntry: Paul Shannon
-mediaFile: owlLivesThere-min-aLaw.wav
+mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav
+#owlLivesThere-min-aLaw.wav
 mimeType: audio/x-wav
 
 lines:
@@ -171,7 +172,7 @@ lines:
    lushootseed: huy cutəbəxʷ ʔəsʔəx̌id əw’ə tsiʔəʔ adčəgʷas dəx̌ʷul’s ʔubak’ʷacut tiʔəʔ qədxʷs ʔəsʔəx̌id
    morphemes: [huy,cut–t–b=axʷ,ʔas–ʔəx̌id,əw’ə,tsiʔəʔ,ad–čəgʷas,dəxʷ=x̌ʷul’=s ʔu–bak’ʷa–t–sut,tiʔəʔ,qədxʷ–s,ʔas–ʔəx̌id]
    morphemeGloss: [sconj,say–ics–pass=now,stat–what.happen,ptcl,prox:fem,2sg.po–wife,adnm=only=3po pfv–move.quickly–ics–refl,prox,mouth–3po,stat–what.happen]
-   english: Then he is spoken to,  “What is the matter with your wife that her mouth is just moving? What is the matter?” 
+   english: Then he is spoken to,  "What is the matter with your wife that her mouth is just moving? What is the matter?" 
 
  - lineNumber: 22
    startTime: 101678
@@ -219,7 +220,7 @@ lines:
    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’
    morphemes: []
    morphemeGloss: []
-   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
+   english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk." 
 
  - lineNumber: 28
    startTime: 129823
@@ -235,7 +236,7 @@ lines:
    lushootseed: sswələq’ sswələq’ sswələq’
    morphemes: []
    morphemeGloss: []
-   english:  “Shuwooluk, shuwooluk, shuwooluk.” 
+   english:  "Shuwooluk, shuwooluk, shuwooluk." 
 
  - lineNumber: 30
    startTime: 142125
@@ -251,7 +252,7 @@ lines:
    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’
    morphemes: []
    morphemeGloss: []
-   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
+   english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk." 
 
  - lineNumber: 38
    startTime: 150710
@@ -291,11 +292,11 @@ lines:
    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ sswələq’
    morphemes: []
    morphemeGloss: []
-   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk shuwooluk, shuwooluk, shuwooluk.” 
+   english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk shuwooluk, shuwooluk, shuwooluk." 
 
  - lineNumber: 43
    startTime: 170036
-   endTime: 175724
+   endTime: 175310
    lushootseed: xʷiˑʔəxʷ gʷəsx̌ʷubil ʔə tsiʔacəc waq’waq’ ʔucucut
    morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil,ʔə,tsiʔacəc,waq’waq’,ʔu–cut–cut]
    morphemeGloss: [neg=now,sbj=nm=quiet,Pr,unq:fem,frog,pfv–dstr–say]
@@ -311,14 +312,14 @@ lines:
 
  - lineNumber: 47
    startTime: 181176
-   endTime: 185221
+   endTime: 185171
    lushootseed: dxʷʔaləxʷ sbiɬaʔiləxʷ ʔə tiʔəʔ təkʷtəkʷəlus
    morphemes: [dxʷ–ʔal=axʷ,s=biɬaʔ–il=axʷ ʔə,tiʔəʔ,təkʷtəkʷəlus]
    morphemeGloss: [ncntrpt–at=now,nm=have.too.much–inch=now Pr,prox,owl]
    english:  until Owl gets fed up.
 
  - lineNumber: 48
-   startTime: 185377
+   startTime: 185439
    endTime: 188080
    lushootseed: huy šuucəxʷ tsiʔəʔ cədiɬ tučəgʷas
    morphemes: [huy,šuɬ–c=axʷ,tsiʔəʔ,cədiɬ,tu=čəgʷas–s]
@@ -339,7 +340,7 @@ lines:
    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ ʔuʔuliʔɬəxʷ ʔuʔəx̌id
    morphemes: [ʔu–ʔul•iʔɬ=axʷ,ʔu–ʔəx̌id]
    morphemeGloss: [pfv–sing•child=now,pfv–what happened]
-   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.”  She sings a lullaby to the baby. What happened?
+   english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk."  She sings a lullaby to the baby. What happened?
 
  - lineNumber: 53
    startTime: 193720
@@ -359,7 +360,7 @@ lines:
 
  - lineNumber: 55
    startTime: 205457
-   endTime: 205306
+   endTime: 207306
    lushootseed: šudxʷəxʷ tiʔəʔ …
    morphemes: [šuɬ–dxʷ=axʷ,tiʔəʔ]
    morphemeGloss: [see–dc=now,prox]
@@ -451,7 +452,7 @@ lines:
    lushootseed: qəliˑltxʷəxʷ čəxʷ ts(i) adčəgʷas.  ʔuʔəx̌id əw’ə (ʔə) tiʔəʔ dəxʷcucuts
    morphemes: [qəl–il–txʷ=axʷ,čəxʷ,tsi,ad–čəgʷas,ʔu–ʔəx̌id,əw’ə,ʔə,tiʔəʔ,dəx’=cut–cut=s]
    morphemeGloss: [bad–inch–ecs=now,2sg.sub,spec:fem,2sg.po–wife,pfv–what.happen,ptcl,Pr,prox,adnm=dstr–say=3po]
-   english:  “Make your wife stop! Why is she talking like that?” 
+   english:  "Make your wife stop! Why is she talking like that?" 
 
  - lineNumber: 72
    startTime: 251109
@@ -459,7 +460,7 @@ lines:
    lushootseed: xʷiʔ sswələq’  sswələq’ sswələq’ sswələq’ sswələq’ sswəɬəq’  ʔudᶻakʷiʔɬ tsiʔiɬ waq’waq’
    morphemes: [xʷiʔ,sswələq',...,ʔu–dᶻakʷ•iʔɬ,tsiʔiɬ,waq’waq’]
    morphemeGloss: [neg,sswələq',...,pfv–rock•child,dist:fem,frog]
-   english:  “No. Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk.”  Frog rocks the baby.
+   english:  "No. Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk."  Frog rocks the baby.
 #
 #   - lineNumber: 73
 #     startTime: 0
@@ -499,7 +500,7 @@ lines:
    lushootseed: ʔuhaʔliʔɬ
    morphemes: [ʔu–haʔl•iʔɬ]
    morphemeGloss: [pfv–stop.crying•child]
-   english:  “Tend to the baby!” 
+   english:  "Tend to the baby!" 
 
  - lineNumber: 78
    startTime: 266183
@@ -635,7 +636,7 @@ lines:
    lushootseed: gʷəl ləcutəb ʔuʔəx̌id əw’ə tsiʔəʔ waq’waq’. ʔuʔəx̌id
    morphemes: [gʷəl,lə=cut–t–b,ʔu–ʔəx̌id,əw’ə,tsiʔəʔ,waq’waq’,ʔu–ʔəx̌id]
    morphemeGloss: [sconj,prog=say–ics–pass,pfv–what.happen,ptcl,prox:fem,frog,pfv–what.happen]
-   english:  And it is said, “Whats the matter with Frog? Whats the matter?"
+   english:  And it is said, "Whats the matter with Frog? Whats the matter?"
 #
 #   - lineNumber: 95
 #     startTime: 0
@@ -643,7 +644,7 @@ lines:
 #     lushootseed: ʔuʔəx̌id
 #     morphemes: [ʔu–ʔəx̌id]
 #     morphemeGloss: [pfv–what.happen]
-#     english:  “Whats the matter?
+#     english:  "Whats the matter?
 #
  - lineNumber: 96
    startTime: 304299
@@ -651,7 +652,7 @@ lines:
    lushootseed: ʔuhaʔliʔɬ gʷəl tux̌ʷ xʷiʔəxʷ gʷəsx̌ʷubils
    morphemes: [ʔu–haʔl•iʔɬ,gʷəl,tux̌ʷ,xʷiʔ=axʷ,gʷə=s=x̌ʷubil=s]
    morphemeGloss: [pfv–stop.crying•child,sconj,just,neg=now,sbj=nm=quiet=3po]
-   english:  “She tends to the baby.  “And (the baby) just doesnt quiet down.” 
+   english:  "She tends to the baby. And (the baby) just doesnt quiet down." 
 #
 #   - lineNumber: 97
 #     startTime: 0
@@ -659,7 +660,7 @@ lines:
 #     lushootseed: gʷəl tux̌ʷ xʷiʔəxʷ gʷəsx̌ʷubils
 #     morphemes: [gʷəl,tux̌ʷ,xʷiʔ=axʷ,gʷə=s=x̌ʷubil=s]
 #     morphemeGloss: [sconj,just,neg=now,sbj=nm=quiet=3po]
-#     english:  “And (the baby) just doesnt quiet down.” 
+#     english:  "And (the baby) just doesnt quiet down." 
 #
  - lineNumber: 98
    startTime: 307644
@@ -755,7 +756,7 @@ lines:
    lushootseed: ƛ’ubəxʷ čəd x̌ʷul’əxʷ ɬuʔix̌ʷid tsiʔacəc waq’waq’ dxʷʔal t(i)(ʔ)asc’p’alič
    morphemes: [ƛ’ub=axʷ,čəd,x̌ʷul’=axʷ,ɬu=ʔix̌ʷi–t,tsiʔacəc,waq’waq’ dxʷ–ʔal,ti,ʔas–c’p’•alič]
    morphemeGloss: [well=now,1sg.sub,only=now,irr=thrown.at–ics,unq:fem,frog cntrpt–at,spec,stat–stagnant•bundle]
-   english:  “I ought to just toss this Frog into the swamp.” 
+   english:  "I ought to just toss this Frog into the swamp." 
 
  - lineNumber: 110
    startTime: 348193
@@ -819,7 +820,7 @@ lines:
    lushootseed: tiʔiɬ ʔəsgʷaldup ʔəsʔəx̌id gʷəscutəbs. ʔəsc’əp’dup
    morphemes: [tiʔiɬ,ʔas–gʷal•dup, ʔas–ʔəx̌id,gʷə=s=cut–t–b=s,ʔas–c’əp’•dup]
    morphemeGloss: [dist,stat–capsize•land,stat–what.happen,sbj=nm=say–ics–pass=3po,stat–stagnant•land]
-   english: That over-turned place. What would it be called? It is a swampy place. bug?  "baby" at the end?
+   english: That over-turned place. What would it be called? It is a swampy place.
 #
 #   - lineNumber: 118
 #     startTime: 0
@@ -851,7 +852,7 @@ lines:
    lushootseed: ʔaˑhəxʷ x̌ʷul’əxʷ čəxʷ. ɬuʔa kʷi ɬadsucucut ʔal kʷi ɬuč’itəxʷ ɬuʔaciɬtalbixʷ
    morphemes: [x̌ʷul’=axʷ,ʔa=axʷ,čəxʷ,ɬu=ʔa,kʷi,ɬu=ad=s=ʔu–cut–cut,ʔal,kʷi,ɬu=č’it=axʷ,ɬu=ʔaciɬtalbixʷ]
    morphemeGloss: [only=now,be.there=now,2sg.sub,irr=be.there,rem,irr=2sg.po=nm=pfv–dstr–say,at,rem,irr=near=now,irr=people] 
-   english:  “You are just there now. What you are saying over and over will be there when the future people arrive.
+   english:  "You are just there now. What you are saying over and over will be there when the future people arrive."
 
 #    - lineNumber: 122
 #      startTime: 0
@@ -859,7 +860,7 @@ lines:
 #      lushootseed: ɬuʔa kʷi ɬadsucucut ʔal kʷi ɬuč’itəxʷ ɬuʔaciɬtalbixʷ
 #      morphemes: [ɬu=ʔa,kʷi,ɬu=ad=s=ʔu–cut–cut,ʔal,kʷi,ɬu=č’it=axʷ ɬu=ʔaciɬtalbixʷ]
 #      morphemeGloss: [irr=be.there,rem,irr=2sg.po=nm=pfv–dstr–say,at,rem,irr=near=now irr=people]
-#      english:  “What you are saying over and over will be there when the future people arrive.
+#      english:  "What you are saying over and over will be there when the future people arrive.
 
  - lineNumber: 123
    startTime: 381543
@@ -867,7 +868,7 @@ lines:
    lushootseed: ɬucucut čəxʷ ʔə tiʔiɬ
    morphemes: [ɬu=cut–cut,čəxʷ,ʔə,tiʔiɬ]
    morphemeGloss: [irr=dstr–say,2sg.sub,Pr,dist]
-   english:  “You will be saying that.
+   english:  "You will be saying that."
 
  - lineNumber: 124
    startTime: 384448
@@ -875,7 +876,7 @@ lines:
    lushootseed: xʷiʔəxʷ kʷi ɬadsux̌ʷubil. ɬucucut čəxʷ ɬuƛ’əladiʔəxʷ ɬugʷaadgʷadəxʷ
    morphemes: [xʷiʔ=axʷ,kʷi,ɬu=ad=s=ʔu–x̌ʷubil,ɬu=cut–cut,čəxʷ,ɬu=ƛ’əladiʔ=axʷ,ɬu=gʷaadgʷad=axʷ]
    morphemeGloss: [neg=now,rem,irr=2sg.po=nm=pfv–be.quiet,irr=dstr–say,2sg.sub,irr=make.noise=now,irr=converse=now]
-   english:  “You will not be quiet. You will talk on and on making noise when you converse.
+   english:  "You will not be quiet. You will talk on and on making noise when you converse."
 
 #   - lineNumber: 125
 #     startTime: 0
@@ -883,7 +884,7 @@ lines:
 #     lushootseed: ɬucucut čəxʷ ɬuƛ’əladiʔəxʷ ɬugʷaadgʷadəxʷ
 #     morphemes: [ɬu=cut–cut,čəxʷ,ɬu=ƛ’əladiʔ=axʷ,ɬu=gʷaadgʷad=axʷ]
 #     morphemeGloss: [irr=dstr–say,2sg.sub,irr=make.noise=now,irr=converse=now]
-#     english:  “You will talk on and on making noise when you converse.
+#     english:  "You will talk on and on making noise when you converse.
 
  - lineNumber: 126
    startTime: 389922
@@ -891,7 +892,7 @@ lines:
    lushootseed: sswələq’ sswələq’ sswələq’ sswələq’ sswələq’ kʷi ɬadsucucutəxʷ
    morphemes: [sswələq’,sswələq’,sswələq’,sswələq’,sswələq’,kʷi,ɬu=ad=s=ʔu–cut–cut=axʷ]
    morphemeGloss: [croak,croak,croak,croak,croak,rem,irr=2sg.po=nm=pfv–dstr–say=now]
-   english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, you will be saying when the people are near.
+   english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, you will be saying when the people are near."
 
  - lineNumber: 127
    startTime: 395632
@@ -899,7 +900,7 @@ lines:
    lushootseed:  č’itəxʷ kʷi ʔaciɬtalbixʷ gʷəl diɬ ɬadəxʷəsluutəb
    morphemes: [č’it=axʷ,kʷi,ʔaciɬtalbixʷ,gʷəl,diɬ,ɬu=ad=dəxʷ=ʔas–lu–t–b]
    morphemeGloss: [near=now,rem,people,sconj,foc,irr=2sg.po=adnm=stat–heard–ics–pass]
-   english:  “This is how you will be heard.
+   english:  "This is how you will be heard."
 
  - lineNumber: 128
    startTime: 401313
@@ -907,7 +908,7 @@ lines:
    lushootseed: ɬuʔal čəxʷ c’álič kʷi ɬadəxʷʔa
    morphemes: [ɬu=ʔal,čəxʷ,c’álič,kʷi,ɬu=ad=dəxʷ=ʔa]
    morphemeGloss: [irr=at,2sg.sub,swamp,rem,irr=2sg.po=adnm=be.there]
-   english:  “You will be in the swamp which is where you will be.” 
+   english:  "You will be in the swamp which is where you will be." 
 
  - lineNumber: 129
    startTime: 404507
@@ -963,7 +964,7 @@ lines:
    lushootseed: hay kʷaʔ diɬ sƛ’ubilsəxʷ waq’waq’əxʷ cucutəxʷ x̌ʷul’əxʷ čəxʷ ɬuwaq’waq’
    morphemes: [hay,kʷaʔ,diɬ,s=ƛ’ub–il=s=axʷ,waq’waq’=axʷ,cut–cut=axʷ,x̌ʷul’=axʷ,čəxʷ,ɬu=waq’waq’]
    morphemeGloss: [sconj,ptcl,foc,nm=well–inch=3po=now,frog=now,dstr–say=now,only=now,2sg.sub,irr=frog]
-   english: And so that one is all right now. Frog talks and talks. “You will just be a frog."
+   english: And so that one is all right now. Frog talks and talks. "You will just be a frog."
 
 #   - lineNumber: 136
 #     startTime: 0
@@ -979,7 +980,7 @@ lines:
 #     lushootseed: x̌ʷul’əxʷ čəxʷ ɬuwaq’waq’
 #     morphemes: [x̌ʷul’=axʷ,čəxʷ,ɬu=waq’waq’]
 #     morphemeGloss: [only=now,2sg.sub,irr=frog]
-#     english:  “You will just be a frog.
+#     english:  "You will just be a frog.
 #
  - lineNumber: 138
    startTime: 429856
@@ -987,7 +988,7 @@ lines:
    lushootseed: ɬucucutəxʷ (čəxʷ) ʔal kʷi bək’ʷ čad tiʔəʔ ʔəsɬəqʷdup swatixʷtəd ʔulʔulaldup
    morphemes: [ɬu=cut–cut=axʷ,čəxʷ,ʔal,kʷi,bək’ʷ,čad,tiʔəʔ,ʔas–ɬəqʷ•du, swatixʷtəd,ʔul–ʔulal•dup]
    morphemeGloss: [irr=dstr–say=now,2sg.sub,at,rem,all,where,prox,stat–wet•land,land,dstr–bullrush•land]
-   english:  “You will talk and talk everywhere the ground is wet, a bullrush place."
+   english:  "You will talk and talk everywhere the ground is wet, a bullrush place."
 
  - lineNumber: 139
    startTime: 435952
@@ -995,7 +996,7 @@ lines:
    lushootseed: ʔa kʷi ɬadsʔa
    morphemes: [ʔa,kʷi,ɬu=ad=s=ʔa]
    morphemeGloss: [be.there,rem,irr=2sg.po=nm=be.there]
-   english:  “There is where you will be.
+   english:  "There is where you will be."
 
  - lineNumber: 140
    startTime: 438117
@@ -1003,7 +1004,7 @@ lines:
    lushootseed: ɬusaʔ ɬustitčul’bixʷ čəxʷ xʷiʔəxʷ kʷi stab ɬadəxʷaʔɬ
    morphemes: [ɬu=saʔ,ɬu=s–titčul’bixʷ,čəxʷ,xʷiʔ=axʷ,kʷi,stab,ɬu=ad=dəxʷ=haʔɬ]
    morphemeGloss: [irr=bad,irr=np–small.animal,2sg.sub,neg=now,rem,what,irr=2sg.po=adnm=good]
-   english:  “It will be bad. You will be a little animal. You will be good for nothing."
+   english:  "It will be bad. You will be a little animal. You will be good for nothing."
 #
 #   - lineNumber: 141
 #     startTime: 0
@@ -1011,7 +1012,7 @@ lines:
 #     lushootseed: ɬustitčul’bixʷ čəxʷ
 #     morphemes: [ɬu=s–titčul’bixʷ,čəxʷ]
 #     morphemeGloss: [irr=np–small.animal,2sg.sub]
-#     english:  “You will be a little animal.
+#     english:  "You will be a little animal.
 #
 #   - lineNumber: 142
 #     startTime: 0
@@ -1019,7 +1020,7 @@ lines:
 #     lushootseed: xʷiʔəxʷ kʷi stab ɬadəxʷaʔɬ
 #     morphemes: [xʷiʔ=axʷ,kʷi,stab,ɬu=ad=dəxʷ=haʔɬ]
 #     morphemeGloss: [neg=now,rem,what,irr=2sg.po=adnm=good]
-#     english:  “You will be good for nothing.
+#     english:  "You will be good for nothing.
 #
  - lineNumber: 143
    startTime: 443537
@@ -1027,7 +1028,7 @@ lines:
    lushootseed: ɬucucutəxʷ čəxʷ dəgʷi ɬadsugʷadgʷad (xʷiʔəxʷ) gʷəɬadsux̌ʷubil
    morphemes: [ɬu=cut–cut=axʷ,čəxʷ,dəgʷi,ɬu=ad=s=ʔu–gʷad–gʷad,xʷiʔ=axʷ,gʷə=ɬu=ad=s=ʔu–x̌ʷubil]
    morphemeGloss: [irr=dstr–say=now,2sg.sub,you,irr=2sg.po=nm=pfv–dstr–talk,neg=now,sbj=irr=2sg.po=nm=pfv–be.quiet]
-   english:  “You will talk on and on. You are the one who will be speaking all the time.  No longer be quiet ...
+   english:  "You will talk on and on. You are the one who will be speaking all the time.  No longer be quiet ..."
 #
 #   - lineNumber: 144
 #     startTime: 0
@@ -1035,7 +1036,7 @@ lines:
 #     lushootseed: dəgʷi ɬadsugʷadgʷad
 #     morphemes: [dəgʷi,ɬu=ad=s=ʔu–gʷad–gʷad]
 #     morphemeGloss: [you,irr=2sg.po=nm=pfv–dstr–talk]
-#     english:  “You are the one who will be speaking all the time.
+#     english:  "You are the one who will be speaking all the time.
 #
 #   - lineNumber: 145
 #     startTime: 0
@@ -1043,7 +1044,7 @@ lines:
 #     lushootseed: (xʷiʔəxʷ) gʷəɬadsux̌ʷubil ʔi tiʔəʔ biʔbədaʔs
 #     morphemes: [xʷiʔ=axʷ,gʷə=ɬu=ad=s=ʔu–x̌ʷubil,ʔi,tiʔəʔ,biʔ–bədaʔ–s]
 #     morphemeGloss: [neg=now,sbj=irr=2sg.po=nm=pfv–be.quiet,conj,prox,attn–offspring–3po]
-#     english:  “You and your little baby will never be quiet.” 
+#     english:  "You and your little baby will never be quiet." 
 #
  - lineNumber: 146
    startTime: 448738
@@ -1051,7 +1052,7 @@ lines:
    lushootseed: ʔi tiʔəʔ biʔbədaʔs xʷəbtəb
    morphemes: [ʔi,tiʔəʔ,biʔ–bədaʔ–s,xʷəb–t–b]
    morphemeGloss: [conj,prox,attn–offspring–3po,thrown–ics–pass]
-   english: ...and your little baby. They are thrown.
+   english: '"And your little baby." They are thrown.'
 
  - lineNumber: 147
    startTime: 451882
@@ -1107,7 +1108,7 @@ lines:
    lushootseed: dxʷʔaləxʷ tušubtubsexʷ
    morphemes: [dxʷ–ʔal=axʷ,tu=šubu–txʷ–b=s=axʷ]
    morphemeGloss: [cntrpt–at=now,past= nom=disappear–ecs–pass=3po=now]
-   english:  “Until he was made to disappear.
+   english:  "Until he was made to disappear."
 
  - lineNumber: 154
    startTime: 463805
@@ -1115,7 +1116,7 @@ lines:
    lushootseed: xʷiʔ ƛ’ubəxʷ ʔuhuyəxʷ təkʷtəkʷəlus tiʔiɬ təkʷtəkʷəlus
    morphemes: [xʷiʔ,ƛ’ub=axʷ,ʔu–huyu=axʷ,təkʷtəkʷəlus,tiʔiɬ,təkʷtəkʷəlus]
    morphemeGloss: [neg,well=now,pfv–made=now,owl,dist,owl]
-   english:  “No, it is better that he just become an owl, this owl.
+   english:  "No, it is better that he just become an owl, this owl."
 
  - lineNumber: 155
    startTime: 467378
@@ -1123,7 +1124,7 @@ lines:
    lushootseed: xʷiʔəxʷ kʷi ɬubəsəshuys ʔaciɬtalbixʷ
    morphemes: [xʷiʔ=axʷ,kʷi,ɬu=bə=s=ʔas–huyu–s,ʔaciɬtalbixʷ]
    morphemeGloss: [neg=now,rem,irr=add=nm=stat–made–3po,people]
-   english:  “He will not be a person any more.
+   english:  "He will not be a person any more."
 
  - lineNumber: 156
    startTime: 470229
@@ -1131,7 +1132,7 @@ lines:
    lushootseed: x̌ʷul’əxʷ ɬutitčul’bixʷ ɬuɬax̌ kʷi (s)cut(s) (kʷi s)ƛ’əladiʔs
    morphemes: [x̌ʷul’=axʷ,ɬu=titčul’bixʷ,ɬu=ɬax̌,kʷi,s=cut=s,kʷi,s=ƛ’əladiʔ=s]
    morphemeGloss: [only=now,irr=small.animal,irr=dark,rem,nm=say=3po,rem,nm=make.noise=3po]
-   english:  “He will be just a little animal. It will be night when he talks, when he makes noise.
+   english:  "He will be just a little animal. It will be night when he talks, when he makes noise."
 #
 #   - lineNumber: 157
 #     startTime: 0
@@ -1139,7 +1140,7 @@ lines:
 #     lushootseed: ɬuɬax̌ kʷi (s)cut(s) (kʷi s)ƛ’əladiʔs
 #     morphemes: [ɬu=ɬax̌,kʷi,s=cut=s,kʷi,s=ƛ’əladiʔ=s]
 #     morphemeGloss: [irr=dark,rem,nm=say=3po,rem,nm=make.noise=3po]
-#     english:  “It will be night when he talks, when he makes noise.
+#     english:  "It will be night when he talks, when he makes noise.
 #
  - lineNumber: 158
    startTime: 474247
@@ -1147,7 +1148,7 @@ lines:
    lushootseed: ʔəbil’əxʷ ɬask’ʷədadəxʷ ʔəbil’əxʷ ɬuʔəƛ’ kʷi saʔɬil(s) gʷəl ɬucucut
    morphemes: [ʔəbil’=axʷ,ɬu=ʔas–k’ʷədad=axʷ,ʔəbil’=axʷ,ɬu=ʔəƛ’,kʷi,s=haʔɬ–il=s,gʷəl,ɬu=cut–cut]
    morphemeGloss: [perhaps=now,irr=stat–predict.weather=now,perhaps=now,irr=come,rem,nm=good–inch=3po,sconj,irr=dstr–say]
-   english:  “Perhaps he will forecast the weather. Perhaps good weather will come. And he will speak and speak,
+   english:  "Perhaps he will forecast the weather. Perhaps good weather will come. And he will speak and speak"
 #
 #   - lineNumber: 159
 #     startTime: 0
@@ -1155,7 +1156,7 @@ lines:
 #     lushootseed: ʔəbil’əxʷ ɬuʔəƛ’ kʷi saʔɬil(s)
 #     morphemes: [ʔəbil’=axʷ,ɬu=ʔəƛ’,kʷi,s=haʔɬ–il=s]
 #     morphemeGloss: [perhaps=now,irr=come,rem,nm=good–inch=3po]
-#     english:  “Perhaps good weather will come.
+#     english:  "Perhaps good weather will come.
 #
 #   - lineNumber: 160
 #     startTime: 0
@@ -1163,7 +1164,7 @@ lines:
 #     lushootseed: gʷəl ɬucucut
 #     morphemes: [gʷəl,ɬu=cut–cut]
 #     morphemeGloss: [sconj,irr=dstr–say]
-#     english:  “And he will speak and speak,
+#     english:  "And he will speak and speak,
 #
  - lineNumber: 161
    startTime: 478500
@@ -1171,7 +1172,7 @@ lines:
    lushootseed: ɬugʷadgʷəd tiʔiɬ təkʷtəkʷəlus
    morphemes: [ɬu=gʷad–gʷəd,tiʔiɬ,təkʷtəkʷəlus]
    morphemeGloss: [irr=dstr–talk,dist,owl]
-   english:  “Owl will speak.
+   english:  "Owl will speak."
 
  - lineNumber: 162
    startTime: 481268
@@ -1179,7 +1180,7 @@ lines:
    lushootseed: diɬəxʷ ɬusgʷaʔs ɬusəsyayus
    morphemes: [diɬ=axʷ,ɬu=s=gʷaʔ=s,ɬu=s=ʔas–yayus]
    morphemeGloss: [foc=now,irr=nm=ones.own=3po,irr=nm=stat–work]
-   english:  “That will be his work.” 
+   english:  "That will be his work." 
 
  - lineNumber: 163
    startTime: 484147
@@ -1196,22 +1197,22 @@ lines:
    morphemes: [dxʷ–ʔal,tiʔəʔ ti,x̌aƛ’,x̌aƛ’,stab,čəb–čəbid•ac]
    morphemeGloss: [cntrpt–at,prox spec,brush,brush,what,dstr–Douglas.fir•tree]
    english: ...into the brush, brush and things, the Douglas fir.
-#
-#   - lineNumber: 165
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: hay tuʔahəxʷ kʷaʔ tsiʔəʔ tučəgʷas
-#     morphemes: [hay,tu=ʔa=axʷ,kʷaʔ,tsiʔəʔ,tu=čəgʷas–s]
-#     morphemeGloss: [sconj,past=be.there=now,ptcl,prox:fem,past=wife–3po]
-#     english: So there was his former wife.
-#
-#   - lineNumber: 166
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy ƛ’ubiləxʷ tiʔəʔ ʔaciɬtalbixʷ
-#     morphemes: [huy,ƛ’ub–il=axʷ,tiʔəʔ,ʔaciɬtalbixʷ]
-#     morphemeGloss: [sconj,well–inch=now,prox,people]
-#     english: Then the people are fine now.
+
+ - lineNumber: 165
+   startTime: 494598
+   endTime: 497698
+   lushootseed: hay tuʔahəxʷ kʷaʔ tsiʔəʔ tučəgʷas
+   morphemes: [hay,tu=ʔa=axʷ,kʷaʔ,tsiʔəʔ,tu=čəgʷas–s]
+   morphemeGloss: [sconj,past=be.there=now,ptcl,prox:fem,past=wife–3po]
+   english: So there was his former wife.
+
+ - lineNumber: 166
+   startTime: 498021
+   endTime: 501778
+   lushootseed: huy ƛ’ubiləxʷ tiʔəʔ ʔaciɬtalbixʷ. ƛ’ubildubutəxʷ
+   morphemes: [huy,ƛ’ub–il=axʷ,tiʔəʔ,ʔaciɬtalbixʷ,ƛ’ub–il–dxʷ–but=axʷ]
+   morphemeGloss: [sconj,well–inch=now,prox,people,well–inch–dc–refl=now]
+   english: Then the people are fine now.  They managed to better themselves.
 #
 #   - lineNumber: 167
 #     startTime: 0
@@ -1221,21 +1222,21 @@ lines:
 #     morphemeGloss: [well–inch–dc–refl=now]
 #     english: They managed to better themselves.
 #
-#   - lineNumber: 168
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy ʔuc’adᶻax̌bitəbəxʷ tsiʔəʔ čəgʷas ʔə tiʔiɬ təkʷtəkʷəlus
-#     morphemes: [huy,ʔu–c’adᶻax̌–bi–t–b=axʷ,tsiʔəʔ,čəgʷas,ʔə,tiʔiɬ təkʷtəkʷəlus]
-#     morphemeGloss: [sconj,pfv–bothered–map–ics–pass=now,prox:fem,wife,Pr,dist owl]
-#     english: Then they have become sick and tired of the wife of Owl.
-#
-#   - lineNumber: 169
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ƛ’al’əxʷ tubasʔistaʔ tiʔiɬ təkʷtəkʷəlus
-#     morphemes: [ƛ’al’=axʷ,tu=bə=ʔas–ʔistaʔ,tiʔiɬ,təkʷtəkʷəlus]
-#     morphemeGloss: [also=now,past=add=stat–be.like,dist,owl]
-#     english: It was the same with Owl.
+ - lineNumber: 168
+   startTime: 502025
+   endTime: 507429
+   lushootseed: huy ʔuc’adᶻax̌bitəbəxʷ tsiʔəʔ čəgʷas ʔə tiʔiɬ təkʷtəkʷəlus
+   morphemes: [huy,ʔu–c’adᶻax̌–bi–t–b=axʷ,tsiʔəʔ,čəgʷas,ʔə,tiʔiɬ təkʷtəkʷəlus]
+   morphemeGloss: [sconj,pfv–bothered–map–ics–pass=now,prox:fem,wife,Pr,dist owl]
+   english: Then they have become sick and tired of the wife of Owl.
+
+ - lineNumber: 169
+   startTime: 507705
+   endTime: 511892
+   lushootseed: ƛ’al’əxʷ tubasʔistaʔ tiʔiɬ təkʷtəkʷəlus. ʔuƛ’əladiʔəxʷ. ʔuƛ’əladiʔəxʷ
+   morphemes: [ƛ’al’=axʷ,tu=bə=ʔas–ʔistaʔ,tiʔiɬ,təkʷtəkʷəlus,ʔu–ƛ’əladiʔ=axʷ,ʔu–ƛ’əladiʔ=axʷ]
+   morphemeGloss: [also=now,past=add=stat–be.like,dist,owl,pfv–make.noise=now,pfv–make.noise=now]
+   english: It was the same with Owl.  He makes noise.  He makes noise.
 #
 #   - lineNumber: 170
 #     startTime: 0
@@ -1253,93 +1254,93 @@ lines:
 #     morphemeGloss: [pfv–make.noise=now]
 #     english: He makes noise.
 #
-#   - lineNumber: 172
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ɬəgʷɬəgʷəlub tə wiw’suˑ ɬəgʷɬəgʷəlub tə wiw’suˑ 
-#     morphemes: [ɬəgʷ–ɬəgʷəl–b,tə,wiw’su,ɬəgʷ–ɬəgʷəl–b,tə,wiw’su]
-#     morphemeGloss: [dstr–leave–pass,nspec,children,dstr–leave–pass,nspec,children]
-#     english:  “Children are left behind, Children are left behind.” 
-#
-#   - lineNumber: 173
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔəscut kʷədiʔ ƛ’usucucuts tiʔiɬ təkʷtəkʷəlus
-#     morphemes: [ʔas–cut,kʷədiʔ,ƛ’u=s=ʔu–cut–cut=s,tiʔiɬ,təkʷtəkʷəlus]
-#     morphemeGloss: [stat–say,rem.dma,irr=nm=pfv–dstr–say=3po,dist,owl]
-#     english: The way Owl always talks there is spoken (like that).
-#
-#   - lineNumber: 174
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: xʷgʷədgʷatəds ʔal kʷədiʔ diʔ dəxʷəsʔix̌ʷitəbsəxʷ
-#     morphemes: [xʷ–gʷədgʷatəd–s,ʔal,kʷədiʔ,diʔ dəxʷ=ʔas–ʔix̌ʷi–t–b=s=axʷ]
-#     morphemeGloss: [ctd–converse–3po,at,rem.dma,other.side adnm=stat–thrown.at–ics–pass=3po=now]
-#     english: That is his language over there where he has been thrown.
-#
-#   - lineNumber: 175
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: haˑy gʷəl tuʔahəxʷ tsiʔəʔ cədiɬ
-#     morphemes: [hay,gʷəl,tu=ʔa=axʷ,tsiʔəʔ,cədiɬ]
-#     morphemeGloss: [sconj,sconj,past=be.there=now,prox:fem,s/he]
-#     english: So then, there she (Frog) was.
+ - lineNumber: 172
+   startTime: 512046
+   endTime: 517600
+   lushootseed: ɬəgʷɬəgʷəlub tə wiw’suˑ ɬəgʷɬəgʷəlub tə wiw’suˑ 
+   morphemes: [ɬəgʷ–ɬəgʷəl–b,tə,wiw’su,ɬəgʷ–ɬəgʷəl–b,tə,wiw’su]
+   morphemeGloss: [dstr–leave–pass,nspec,children,dstr–leave–pass,nspec,children]
+   english:  "Children are left behind, Children are left behind." 
+
+ - lineNumber: 173
+   startTime: 517885
+   endTime: 521914
+   lushootseed: ʔəscut kʷədiʔ ƛ’usucucuts tiʔiɬ təkʷtəkʷəlus
+   morphemes: [ʔas–cut,kʷədiʔ,ƛ’u=s=ʔu–cut–cut=s,tiʔiɬ,təkʷtəkʷəlus]
+   morphemeGloss: [stat–say,rem.dma,irr=nm=pfv–dstr–say=3po,dist,owl]
+   english: The way Owl always talks there is spoken (like that).
+
+ - lineNumber: 174
+   startTime: 522470
+   endTime: 525903
+   lushootseed: xʷgʷədgʷatəds ʔal kʷədiʔ diʔ dəxʷəsʔix̌ʷitəbsəxʷ
+   morphemes: [xʷ–gʷədgʷatəd–s,ʔal,kʷədiʔ,diʔ dəxʷ=ʔas–ʔix̌ʷi–t–b=s=axʷ]
+   morphemeGloss: [ctd–converse–3po,at,rem.dma,other.side adnm=stat–thrown.at–ics–pass=3po=now]
+   english: That is his language over there where he has been thrown.
+
+ - lineNumber: 175
+   startTime: 526129
+   endTime: 532762
+   lushootseed: haˑy gʷəl tuʔahəxʷ tsiʔəʔ cədiɬ. sswələq’ sswələq’ sswələq’ sswələq’. ʔal tiʔiɬ qʷuʔ
+   morphemes: [hay,gʷəl,tu=ʔa=axʷ,tsiʔəʔ,cədiɬ,ʔal,tiʔiɬ,qʷuʔ]
+   morphemeGloss: [sconj,sconj,past=be.there=now,prox:fem,s/he,at,dist,water]
+   english: So then, there she (Frog) was. Shuwooluk, shuwooluk, shuwooluk, shuwooluk. It is in the water.
 #
 #   - lineNumber: 176
 #     startTime: 0
 #     endTime: 0
-#     lushootseed: sswələq’ sswələq’ sswələq’ sswələq’
+#     lushootseed: 
 #     morphemes: []
 #     morphemeGloss: []
-#     english:  “Shuwooluk, shuwooluk, shuwooluk, shuwooluk.” 
+#     english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk." 
 #
-#   - lineNumber: 177
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ʔal tiʔiɬ qʷuʔ ʔal tiʔiɬ ʔulʔulaldup dxʷʔaˑl kʷədiʔ (ɬ)učadəxʷ
-#     morphemes: [ʔal,tiʔiɬ,qʷuʔ,ʔal,tiʔiɬ,ʔul–ʔulal•dup,dxʷ–ʔal,kʷədiʔ ɬu=čad=axʷ]
-#     morphemeGloss: [at,dist,water,at,dist,dstr–bullrush•land,cntrpt–at,rem.dma irr=where=now]
-#     english: It is in the water, in the bullrush places where she will be.
-#
-#   - lineNumber: 178
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: diˑɬ tushuy ʔə tiʔiɬ təkʷtəkʷəlus dxʷʔal tušac’s
-#     morphemes: [diɬ,tu=s=huyu,ʔə,tiʔiɬ,təkʷtəkʷəlus,dxʷ–ʔal,tu=šac’=s]
-#     morphemeGloss: [foc,past=nm=made,Pr,dist,owl,cntrpt–at,past=end=3po]
-#     english: That is what Owl was doing until the end.
-#
-#   - lineNumber: 179
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: x̌ʷul’əxʷ tux̌ʷil’ tsiʔəʔ čəgʷas
-#     morphemes: [x̌ʷul’=axʷ,tu=x̌ʷil’,tsiʔəʔ,čəgʷas–s]
-#     morphemeGloss: [only=now,past=lost,prox:fem,wife–3po]
-#     english: He simply lost his wife.
-#
-#   - lineNumber: 180
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: xʷiʔəxʷ gʷəsəsaydxʷs gʷəʔəx̌ids gʷəbəʔəƛ’txʷas
-#     morphemes: [xʷiʔ=axʷ,gʷə=s=ʔas–hay–dxʷ=s,gʷə=ʔəx̌id=s gʷə=bə=ʔəƛ’–txʷ=as]
-#     morphemeGloss: [neg=now,sbj=nm=stat–known–dc=3po,sbj=what.happen=3po sbj=add=come–ecs=3sbrd]
-#     english: He does not know what to do to bring her back again.
-#
-#   - lineNumber: 181
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: huy ʔəsc’adᶻəxʷbitəbəxʷ ʔə tiʔəʔ ʔaciɬtalbixʷ ʔəsɬaɬlil
-#     morphemes: [huy,ʔas–c’adᶻəxʷ–bi–t–b=axʷ,tsiʔəʔ,čəgʷas–s,ʔə,tiʔəʔ ʔaciɬtalbixʷ,ʔas–ɬaɬlil]
-#     morphemeGloss: [sconj,stat–bothered–map–ics–pass=now,prox:fem,wife–3po,Pr,prox people,stat–live]
-#     english: Then the people who live there are sick and tired of her.
-#
-#   - lineNumber: 182
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: hiqəbəxʷ dxʷscucut
-#     morphemes: [hiqəb=axʷ,dxʷs–cut–cut]
-#     morphemeGloss: [excessively=now,proc–dstr–say]
-#     english: She is too talkative.
+ - lineNumber: 177
+   startTime: 533164
+   endTime: 537721
+   lushootseed: ʔal tiʔiɬ ʔulʔulaldup dxʷʔaˑl kʷədiʔ (ɬ)učadəxʷ
+   morphemes: [ʔal,tiʔiɬ,ʔul–ʔulal•dup,dxʷ–ʔal,kʷədiʔ ɬu=čad=axʷ]
+   morphemeGloss: [at,dist,dstr–bullrush•land,cntrpt–at,rem.dma irr=where=now]
+   english: In the bullrush places where she will be.
+
+ - lineNumber: 178
+   startTime: 537996
+   endTime: 543679
+   lushootseed: diˑɬ tushuy ʔə tiʔiɬ təkʷtəkʷəlus dxʷʔal tušac’s
+   morphemes: [diɬ,tu=s=huyu,ʔə,tiʔiɬ,təkʷtəkʷəlus,dxʷ–ʔal,tu=šac’=s]
+   morphemeGloss: [foc,past=nm=made,Pr,dist,owl,cntrpt–at,past=end=3po]
+   english: That is what Owl was doing until the end.
+
+ - lineNumber: 179
+   startTime: 544926
+   endTime: 547766
+   lushootseed: x̌ʷul’əxʷ tux̌ʷil’ tsiʔəʔ čəgʷas xʷiʔəxʷ gʷəsəsaydxʷs 
+   morphemes: [x̌ʷul’=axʷ,tu=x̌ʷil’,tsiʔəʔ,čəgʷas–s,xʷiʔ=axʷ,gʷə=s=ʔas–hay–dxʷ=s]
+   morphemeGloss: [only=now,past=lost,prox:fem,wife–3po,neg=now,sbj=nm=stat–known–dc=3po]
+   english: He simply lost his wife. He does not know...
+
+ - lineNumber: 180
+   startTime: 547781
+   endTime: 550442
+   lushootseed: gʷəʔəx̌ids gʷəbəʔəƛ’txʷas
+   morphemes: [gʷə=ʔəx̌id=s gʷə=bə=ʔəƛ’–txʷ=as]
+   morphemeGloss: [sbj=what.happen=3po sbj=add=come–ecs=3sbrd]
+   english: ...what to do to bring her back again.
+
+ - lineNumber: 181
+   startTime: 550661
+   endTime: 555300
+   lushootseed: huy ʔəsc’adᶻəxʷbitəbəxʷ ʔə tiʔəʔ ʔaciɬtalbixʷ ʔəsɬaɬlil
+   morphemes: [huy,ʔas–c’adᶻəxʷ–bi–t–b=axʷ,tsiʔəʔ,čəgʷas–s,ʔə,tiʔəʔ ʔaciɬtalbixʷ,ʔas–ɬaɬlil]
+   morphemeGloss: [sconj,stat–bothered–map–ics–pass=now,prox:fem,wife–3po,Pr,prox people,stat–live]
+   english: Then the people who live there are sick and tired of her.
+
+ - lineNumber: 182
+   startTime: 556000
+   endTime: 560618
+   lushootseed: hiqəbəxʷ dxʷscucut xʷiʔəxʷ gʷəsuʔitut ʔə tiʔəʔ ʔaciɬtalbixʷ
+   morphemes: [hiqəb=axʷ,dxʷs–cut–cut,xʷiʔ=axʷ,gʷə=s=ʔu–ʔitut,ʔə,tiʔəʔ,ʔaciɬtalbixʷ]
+   morphemeGloss: [excessively=now,proc–dstr–say,neg=now,sbj=nm=pfv–sleep,Pr,prox,people]
+   english: She is too talkative. The people could not sleep.
 #
 #   - lineNumber: 183
 #     startTime: 0
@@ -1349,13 +1350,13 @@ lines:
 #     morphemeGloss: [neg=now,sbj=nm=pfv–sleep,Pr,prox,people]
 #     english: The people could not sleep.
 #
-#   - lineNumber: 184
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: tiʔəʔ dəxʷəshuyəxʷ ʔə tsiʔəʔ waq’waq’
-#     morphemes: [tiʔəʔ,dəxʷ=ʔas–huyu=axʷ,ʔə,tsiʔəʔ,waq’waq’]
-#     morphemeGloss: [prox,adnm=stat–made=now,Pr,prox:fem,frog]
-#     english: This is why Frog is the way she is now.
+ - lineNumber: 184
+   startTime: 561238
+   endTime: 566000
+   lushootseed: tiʔəʔ dəxʷəshuyəxʷ ʔə tsiʔəʔ waq’waq’ x̌ʷul’əxʷ ʔal taʔaʔ ʔulʔulaldup saʔ
+   morphemes: [tiʔəʔ,dəxʷ=ʔas–huyu=axʷ,ʔə,tsiʔəʔ,waq’waq’,x̌ʷul’əxʷ,ʔal,taʔaʔ,ʔul–ʔulal•dup,saʔ]
+   morphemeGloss: [prox,adnm=stat–made=now,Pr,prox:fem,frog,only=now,at,dist:unq,dstr–bullrush•land,bad]
+   english: This is why Frog is the way she is now. Only in that bad bullrush place.
 #
 #   - lineNumber: 185
 #     startTime: 0
@@ -1365,29 +1366,29 @@ lines:
 #     morphemeGloss: [only=now,at,dist:unq,dstr–bullrush•land,bad]
 #     english: Only in that bad bullrush place.
 #
-#   - lineNumber: 186
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: (ʔa) tiʔiɬ ƛ’usuƛ’əladiʔs ʔə tsiʔiɬ waq’waq’ ƛ’usugʷadgʷads ʔal ti ƛ’usʔalils kʷi dəxʷgʷadgʷads
-#     morphemes: [ʔa,tiʔiɬ,ƛ’u=s=ʔu–ƛ’əladiʔ=s,ʔə,tsiʔiɬ,waq’waq’ ƛ’u=s=ʔu–gʷad–gʷad=s,kʷi,ƛ’u=s=ʔalil=s,ʔal,ti dəxʷ=gʷad–gʷad=s]
-#     morphemeGloss: [be.there,dist,hab=nm=pfv–make.noise=3po,Pr,dist:fem,frog hab=nm=pfv–dstr–talk=3po,rem,hab=nm=get.to.place=3po,at,spec adnm=dstr–talk=3po]
-#     english: There are the noises that Frog makes, her chatter when she is in the place where she chatters.
-#
-#   - lineNumber: 187
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ɬucucut ɬucucut ɬucucut
-#     morphemes: [ɬu=cut–cut,ɬu=cut–cut,ɬu=cut–cut]
-#     morphemeGloss: [irr=dstr–say,irr=dstr–say,irr=dstr–say]
-#     english: She will talk and talk and talk and talk!
-#
-#   - lineNumber: 188
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: ɬux̌ʷisid əlgʷəʔ bək’ʷ čad ʔal tiʔiɬ x̌aƛ’ čad ʔəsɬəqʷdup dəxʷʔal tiʔiɬ ʔulʔal saʔsaʔdup
-#     morphemes: [ɬu=x̌ʷisid,əlgʷəʔ,bək’ʷ,čad,ʔal,tiʔiɬ,x̌aƛ’,čad ʔas–ɬəqʷ•dup,dəxʷ=ʔal,tiʔiɬ,ʔulʔal,saʔ–saʔ•dup]
-#     morphemeGloss: [irr=make.noise,pl,all,where,at,dist,brush,where stat–wet•land,adnm=at,dist,bullrush,dstr–bad•land]
-#     english: They will make noise everywhere, in the brush, where the land is wet, where the bullrush are in the bad lands.
+ - lineNumber: 186
+   startTime: 566300
+   endTime: 574890
+   lushootseed: (ʔa) tiʔiɬ ƛ’usuƛ’əladiʔs ʔə tsiʔiɬ waq’waq’ ƛ’usugʷadgʷads ʔal ti ƛ’usʔalils kʷi dəxʷgʷadgʷads
+   morphemes: [ʔa,tiʔiɬ,ƛ’u=s=ʔu–ƛ’əladiʔ=s,ʔə,tsiʔiɬ,waq’waq’ ƛ’u=s=ʔu–gʷad–gʷad=s,kʷi,ƛ’u=s=ʔalil=s,ʔal,ti dəxʷ=gʷad–gʷad=s]
+   morphemeGloss: [be.there,dist,hab=nm=pfv–make.noise=3po,Pr,dist:fem,frog hab=nm=pfv–dstr–talk=3po,rem,hab=nm=get.to.place=3po,at,spec adnm=dstr–talk=3po]
+   english: There are the noises that Frog makes, her chatter when she is in the place where she chatters.
+
+ - lineNumber: 187
+   startTime: 575205
+   endTime: 579800
+   lushootseed: ɬucucut ɬucucut ɬucucut ɬux̌ʷisid əlgʷəʔ bək’ʷ čad 
+   morphemes: [ɬu=cut–cut,ɬu=cut–cut,ɬu=cut–cut,ɬu=x̌ʷisid,əlgʷəʔ,bək’ʷ,čad]
+   morphemeGloss: [irr=dstr–say,irr=dstr–say,irr=dstr–say,irr=make.noise,pl,all,where]
+   english: She will talk and talk and talk and talk! They will make noise everywhere
+
+ - lineNumber: 188
+   startTime: 579970
+   endTime: 588601
+   lushootseed: ʔal tiʔiɬ x̌aƛ’ čad ʔəsɬəqʷdup dəxʷʔal tiʔiɬ ʔulʔal saʔsaʔdup
+   morphemes: [ʔal,tiʔiɬ,x̌aƛ’,čad,ʔas–ɬəqʷ•dup,dəxʷ=ʔal,tiʔiɬ,ʔulʔal,saʔ–saʔ•dup]
+   morphemeGloss: [at,dist,brush,where,stat–wet•land,adnm=at,dist,bullrush,dstr–bad•land]
+   english:  in the brush, where the land is wet, where the bullrush are in the bad lands.
 #
 #   - lineNumber: 189
 #     startTime: 0
@@ -1397,21 +1398,21 @@ lines:
 #     morphemeGloss: [foc,past=nm=made=3po]
 #     english: That is the end.
 #
-#   - lineNumber: 190
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: gʷəl tuhuy tiʔiɬ syəyəhub dxʷʔal ʔadad tiʔiɬ waq’waq’ ʔi tiʔiɬ təkʷtəkʷəlus sč’istxʷs
-#     morphemes: [gʷəl,tu=huyu,tiʔiɬ,syəyəhub,dxʷ–ʔal,ʔadad,tiʔiɬ,waq’waq’ ʔi,tiʔiɬ,təkʷtəkʷəlus,sč’istxʷ–s]
-#     morphemeGloss: [sconj,past=made,dist,legend,cntrpt–at,the.matter.of,dist,frog conj,dist,owl,husband–3po]
-#     english: That is the end of the traditional story about Frog and Owl, her husband.
-#
-#   - lineNumber: 191
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: təkʷtəkʷəlus tiʔəʔ sč’istxʷs
-#     morphemes: [təkʷtəkʷəlus,tiʔəʔ,sč’istxʷ–s]
-#     morphemeGloss: [owl,prox,husband–3po]
-#     english: Her husband was Owl.
+ - lineNumber: 190
+   startTime: 589086
+   endTime: 598759
+   lushootseed: diˑɬ tushuys gʷəl tuhuy tiʔiɬ syəyəhub dxʷʔal ʔadad tiʔiɬ waq’waq’ ʔi tiʔiɬ təkʷtəkʷəlus sč’istxʷs
+   morphemes: [diɬ,tu=s=huyu=s,gʷəl,tu=huyu,tiʔiɬ,syəyəhub,dxʷ–ʔal,ʔadad,tiʔiɬ,waq’waq’ ʔi,tiʔiɬ,təkʷtəkʷəlus,sč’istxʷ–s]
+   morphemeGloss: [foc,past=nm=made=3po,sconj,past=made,dist,legend,cntrpt–at,the.matter.of,dist,frog conj,dist,owl,husband–3po]
+   english: That is the end. That is the end of the traditional story about Frog and Owl, her husband.
+
+ - lineNumber: 191
+   startTime: 599735
+   endTime: 602172
+   lushootseed: təkʷtəkʷəlus tiʔəʔ sč’istxʷs
+   morphemes: [təkʷtəkʷəlus,tiʔəʔ,sč’istxʷ–s]
+   morphemeGloss: [owl,prox,husband–3po]
+   english: Her husband was Owl.
 #
 #  - lineNumber: 45
 #    startTime: 175650
