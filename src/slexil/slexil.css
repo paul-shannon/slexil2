@@ -36,6 +36,35 @@ body, html {
   }
 
 
+.otherControlsGridWrapper{
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: auto auto auto;
+   gap: 10px;
+   }
+
+.otherControlsGridCell{
+   //border: 1px solid black;
+   padding: 10px;
+   font-size: 24px;
+   }
+
+.playbackSpeedButton{
+   border: 1px solid gray;
+   border-radius: 10px;
+   font-size: 24px;
+   width: 40px;
+   height: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+   }
+
+.playbackSpeedButton:hover{
+   background-color: lightgray;
+   }
+                          
+
+
 #mediaPlayerAndControlsDiv{
    background-color: white;
    height: fit-content;
@@ -109,12 +138,14 @@ body, html {
    }
 
 #otherControlsDiv{
-   background-color: Cornsilk;
+    background-color: #F1F6EF;
    height: fit-content;
-   border: 1px solid orange;
+   border: 1px solid gray;
    border-radius: 5px;
-   padding: 10px;
-   margin: 5px;
+   padding: 0px;
+   margin: 0px;
+   margin-right: 3px;
+   margin-left: 2px;
    display: none;
    }
 
@@ -188,12 +219,13 @@ body, html {
    font-size: 24px;
    display: inline-block;
 	padding: 5px;
+   padding-bottom: 0px;
 	//border: 1px solid red;
 	//border-radius: 5px;
    }
 #tiersCheckBoxesDiv{
-   margin: 20px;
-	padding: 5px;
+   margin: 0px;
+	padding: 0px;
 	font-size: 24px;
    display: inline-block;
 	//border: 1px gray solid;

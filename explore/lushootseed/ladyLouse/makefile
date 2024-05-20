@@ -25,8 +25,9 @@ html:
                        --pageTitle "Lady Louse" \
                        --fontSizeControls \
                        --helpFile about.html \
-                       --helpButtonLabel About \
-                       --webpackLinksOnly
+                       --helpButtonLabel About
+#                       --webpackLinksOnly
+
 css:
 	cat index.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.css,slexil.css, > index2.html
 	cat index2.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.js,slexil.js, > index3.html

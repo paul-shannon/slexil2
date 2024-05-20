@@ -1,10 +1,11 @@
-IMAGE = pshannon/slexilwebapp2
-NAME = slexilwebapp2
+NAME = slexiltestwebapp2
 PORT = 9002
-VERSION = 262
+VERSION = 260
+IMAGE = pshannon/slexilwebapp$(VERSION)
 
 default:
 	@echo venv
+	@echo assemble
 	@echo runNoDocker
 	@echo openNoDocker
 	@echo killNoDocker
@@ -12,6 +13,9 @@ default:
 	@echo build
 	@echo run
 	@echo push
+	@echo timingTestLocal
+	@echo timingTestAlberta
+	@echo timingTestOverTime
 	@echo test
 	@echo ps
 	@echo start
@@ -27,6 +31,11 @@ default:
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
+assemble:
+	(cd parts; make assemble)
+	cp parts/app.py main.py
+	cp parts/app.py app/main.py
+
 setDockerPlatform:
 	@echo export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
@@ -35,7 +44,7 @@ build:
 
 runNoDocker:
 	@echo no-docker version needs port other than 80
-	python app/main.py &
+	python main.py
 
 openNoDocker:
 	open http://localhost:$(PORT)
@@ -43,8 +52,18 @@ openNoDocker:
 killNoDocker:
 	kill `netstat | grep $(PORT) | awk '{print $$2}'`
 
+
 run:
-	docker run --rm --name $(NAME) -p $(PORT):80 $(IMAGE)
+	docker run --rm \
+           -v /Users/paul/github/slexil2/docker/TEXTS2:/app/texts \
+           -v /Users/paul/github/slexil2/docker/PROJECTS2:/app/PROJECTS \
+           --name $(NAME) -p $(PORT):80 $(IMAGE)
+
+runDetached:
+	docker run --detach \
+           -v /Users/paul/github/slexil2/docker/TEXTS2:/app/texts \
+           -v /Users/paul/github/slexil2/docker/PROJECTS2:/app/PROJECTS \
+           --name $(NAME) -p $(PORT):80 $(IMAGE)
 
 ps:
 	docker ps -a   # running and stopped containers
@@ -64,6 +83,15 @@ rm:
 test:
 	curl http://localhost:$(PORT)
 	@echo
+
+timingTestLocal:
+	curl http://127.0.0.1:9002/test
+
+timingTestAlberta:
+	curl https://slexiltest.artsrn.ualberta.ca/test
+
+timingTestOverTime:
+	while [ 1 ]; do curl https://slexiltest.artsrn.ualberta.ca/test; sleep 600; done
 
 logs:
 	docker logs $(NAME)

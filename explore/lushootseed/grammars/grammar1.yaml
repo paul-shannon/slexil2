@@ -1,0 +1,75 @@
+title: Lushootseed Book1
+narrator: Thom Hess
+textEntry: Paul Shannon
+mediaFile: grammar1.wav
+mimeType: audio/wav
+lines:
+  - lineNumber: 1
+    startTime: 0
+    endTime: 3313
+    lushootseed: stab əw'ə tiʔiɬ
+    english:  What is that? (What could that be?)
+  - lineNumber: 2
+    startTime: 3837
+    endTime: 6643
+    lushootseed: spaʔc tiʔiɬ
+    english: That is a bear.
+  - lineNumber: 3
+    startTime: 7519
+    endTime: 10687
+    lushootseed: sqigʷəc tiʔiɬ
+    english: That is a deer.
+  - lineNumber: 4
+    startTime: 11305
+    endTime:   14986
+    lushootseed: sʔuladxʷ tiʔiɬ
+    english: That is a salmon.
+
+  - lineNumber: 5
+    startTime: 15147
+    endTime:   18196
+    lushootseed: bəščəb tiʔiɬ
+    english: That is a mink.
+
+  - lineNumber: 5
+    startTime: 18719
+    endTime:   25661
+    lushootseed: ɬ  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.
+    english: That girl and I will live over there.
+
+  - lineNumber: 6
+    startTime: 27298
+    endTime:   31525
+    lushootseed: q   ?uqada tə dqəqsuʔ ʔə tə qəlx̌.
+    english: My favorite uncle stole the salmon eggs.
+
+  - lineNumber: 7
+    startTime: 33209
+    endTime:   37375
+    lushootseed: xʷ  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad. 
+    english: The thrush fell into the ashes.
+
+  - lineNumber: 8
+    startTime: 39625
+    endTime:   41869
+    lushootseed: xʷuyub
+    english: sell
+
+  - lineNumber: 9
+    startTime: 43928
+    endTime:   45542
+    lushootseed: huyud
+    english: make it
+
+  - lineNumber: 10
+    startTime: 47207
+    endTime:   48316
+    lushootseed: xʷudad
+    english: ashes
+
+  - lineNumber: 11
+    startTime: 49897
+    endTime:   51271
+    lushootseed: hudud
+    english: burn it
+

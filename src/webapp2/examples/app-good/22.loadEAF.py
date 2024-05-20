@@ -13,9 +13,10 @@ eafLoaderDiv = html.Div(id="eafLoaderDiv",
 dashApp.layout.children.append(eafLoaderDiv)
 #--------------------------------------------------------------------------------
 @callback(
-   Output('slexilModal',   'is_open',  allow_duplicate=True),
-   Output('modalContents', 'children', allow_duplicate=True),
-   Output('memoryStore',   'data',     allow_duplicate=True),
+   Output('slexilModal',      'is_open',  allow_duplicate=True),
+   Output('modalContents',    'children', allow_duplicate=True),
+   Output('memoryStore',      'data',     allow_duplicate=True),
+   Output('createWebpageDiv', 'hidden'),
    Input('eafUploader',    'contents'),
    State('eafUploader',    'filename'),
    State('memoryStore',    'data'),
@@ -25,10 +26,8 @@ def eafUploadHandler(fileContents, filename, data):
    if data is None:
       data = {}
 
-   data['projectName'] = "fubar"
-   data['projectPath'] = "PROJECTS/fubar"
-
    data['eafFileName'] = filename
+
    try:
       fileData = fileContents.encode("utf8").split(b";base64,")[1]
       fullPath = os.path.join(data['projectPath'], filename)
@@ -54,13 +53,16 @@ def eafUploadHandler(fileContents, filename, data):
                                            "border": "1px solid gray",
                                            "border-radius": "10px"})
 
-      modalOpen = True
+      data['tiers'] = tierTableDiv
+      modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
+      hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-   return modalOpen, modalContents, data
+      hideCreateWebpageButton = True
+   return modalOpen, modalContents, data, hideCreateWebpageButton
       
 

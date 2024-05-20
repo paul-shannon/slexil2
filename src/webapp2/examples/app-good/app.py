@@ -1,4 +1,5 @@
 import flask
+from datetime import datetime
 import base64
 import os, io, traceback, time
 from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
@@ -11,16 +12,28 @@ styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
-                external_stylesheets=styleSheets)
-dashApp.title = "input with button"
+               external_stylesheets=styleSheets)
+dashApp.title = "Slexil 2"
 
-#buttonStyle={"margin": "10px", "padding": "20px"}
+#--------------------------------------------------------------------------------
+@app.route('/PROJECTS/<path:urlpath>')
+def serveFile(urlpath):
+    print("=== entering serveFile app.server.route: %s" % urlpath)
+    fullPath = os.path.join("PROJECTS", urlpath)
+    dirname = os.path.dirname(fullPath)
+    filename = os.path.basename(fullPath)
+    print("---- %s" % fullPath)
+
+    if urlpath[-4:] == "html":
+        print("=== populate textArea from %s" % urlpath)
+        return flask.send_file(os.path.join(fullPath))
+    return None
+#--------------------------------------------------------------------------------
 buttonStyle = {"margin": "20px",
               "font-size": "20px",
               "border": "1px solid brown",
               "border-radius": "10px"
               }
-
 #--------------------------------------------------------------------------------
 # the webapp requires a PROJECTS_DIRECTORY in the current working directory
 # each individual project, one for each text, is created as a subdirectory here
@@ -38,17 +51,34 @@ print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
 def createNavBar():
 
+   dropdown = dbc.DropdownMenu(
+      label="Options",
+      in_navbar=True,
+      align_end=True,
+      size="lg",
+      children=[
+         dbc.DropdownMenuItem("Media URLs",
+                              id="explainMediaURLsButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Glossing Abbreviations",
+                              id="explainGlossingAbbreviationsButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Examine State",
+                              id="examineStateButton",
+                              class_name="menuItemClass"),
+         ])
+
+
    navbar = dbc.NavbarSimple(
       id="navbar",
-      children=[
-        dbc.NavItem(html.Button("Examine State", id="examineStateButton", n_clicks=0,
-                                className="enabledButton"))],
-       brand="SLEXIL Webapp 2",
-       color="#F5FAF3",
-       dark=False,
-       )
+      children=[dropdown],
+      brand="SLEXIL Webapp 2",
+      color="#F5FAF3",
+      dark=False,
+      )
 
    return navbar
+
 #-------------------------------------------------------
 def get_exception_traceback_str(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
@@ -61,8 +91,9 @@ modalDiv = html.Div(
          dbc.ModalHeader(
             dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
          dbc.ModalBody("", id='modalContents'),
-         dbc.ModalFooter(
-             dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))],
+         #dbc.ModalFooter(
+         #    dbc.Button("Close", id="modalCloseButton", className="ms-auto",n_clicks=0,))
+             ],
          id="slexilModal",
          centered=True,
          is_open=False,
@@ -71,13 +102,14 @@ modalDiv = html.Div(
          scrollable=True,
          )])
 #-------------------------------------------------------
+loadTrackerDiv = html.Div(id="loadTrackerDiv")
 dashApp.layout = html.Div(id="mainDiv",
                children=[dcc.Store(id='memoryStore', storage_type='memory'),
                          createNavBar(),
                          dcc.Loading(
                              id="modalLoadWatcher",
                              type="default",
-                             children=modalDiv)
+                             children=[modalDiv, loadTrackerDiv])
                          ],
                       style={"margin": "5px"})
 #----------------------------------------------------------------------
@@ -99,6 +131,38 @@ def displayStateAsList(n_clicks, data):
        el.children.append(html.Li("%s: %s" % (key, data[key])))
     return True, "State Variables", el
 #--------------------------------------------------------------------------------
+# explain how media URLs work, how and why you might change them
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('explainMediaURLsButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    el = html.Ul(id="list", children=[])
+    items = ["In most ELAN files, your media URL points to an audio or video file on your computer.",
+             "In that case, these media will only be playable for you in the web page we create here.",
+             "Alternatively, you can host your media file on the internet.",
+             "todo: explain more..."]
+    for item in items:
+       el.children.append(html.Li(item))
+    return True, "Media URLs", el
+#--------------------------------------------------------------------------------
+# explain how morpheme gloss capitaliation & fonts can be handled
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('explainGlossingAbbreviationsButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    el = html.Div(children=["Nothing yet ready on this topic."])
+    return True, "Glossing Abbreviations", el
+#--------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------
 def createProjectDirectory(projectName):
 
@@ -110,7 +174,7 @@ def createProjectDirectory(projectName):
 #--------------------------------------------------------------------------------
 setTitleDiv = html.Div(id="setTitleDiv",
           children=[
-              html.H2('Project Title: ',
+              html.H2('Enter Project Title: ',
                       style={'display':'inline-block', 'marginRight': "20px",
                              "fontSize": "24px"}),
               dcc.Input(id='projectNameInput',type='text',
@@ -133,7 +197,6 @@ dashApp.layout.children.append(setTitleDiv)
     prevent_initial_call=True)
 def handleProjectNameInputChars(userEnteredString):
     characterCount = len(userEnteredString)
-    print("string size: %d" % characterCount)
     minCharacterCount = 3
     if(characterCount >= minCharacterCount):
         return "enabledButton", False
@@ -166,7 +229,6 @@ def displayProjectTitleHelp(n_clicks):
     State('memoryStore', 'data'),
     prevent_initial_call=True)
 def handleSetProjectNameButton(n_clicks, userEnteredString, data):
-    print("--- handleSetProjectNameButton: %d, %s" % (n_clicks, userEnteredString))
     title = userEnteredString.strip()
     newProjectName = title.replace(" ", "_")
     projectPath = createProjectDirectory(newProjectName)
@@ -194,9 +256,10 @@ eafLoaderDiv = html.Div(id="eafLoaderDiv",
 dashApp.layout.children.append(eafLoaderDiv)
 #--------------------------------------------------------------------------------
 @callback(
-   Output('slexilModal',   'is_open',  allow_duplicate=True),
-   Output('modalContents', 'children', allow_duplicate=True),
-   Output('memoryStore',   'data',     allow_duplicate=True),
+   Output('slexilModal',      'is_open',  allow_duplicate=True),
+   Output('modalContents',    'children', allow_duplicate=True),
+   Output('memoryStore',      'data',     allow_duplicate=True),
+   Output('createWebpageDiv', 'hidden'),
    Input('eafUploader',    'contents'),
    State('eafUploader',    'filename'),
    State('memoryStore',    'data'),
@@ -206,10 +269,8 @@ def eafUploadHandler(fileContents, filename, data):
    if data is None:
       data = {}
 
-   data['projectName'] = "fubar"
-   data['projectPath'] = "PROJECTS/fubar"
-
    data['eafFileName'] = filename
+
    try:
       fileData = fileContents.encode("utf8").split(b";base64,")[1]
       fullPath = os.path.join(data['projectPath'], filename)
@@ -235,18 +296,176 @@ def eafUploadHandler(fileContents, filename, data):
                                            "border": "1px solid gray",
                                            "border-radius": "10px"})
 
-      modalOpen = True
+      data['tiers'] = tierTableDiv
+      modalOpen = False
       modalContents = tierTableDiv
       modalTitle = "EAF Tiers"
+      hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
       modalContents = html.Pre(get_exception_traceback_str(e))
-   return modalOpen, modalContents, data
+      hideCreateWebpageButton = True
+   return modalOpen, modalContents, data, hideCreateWebpageButton
       
 
 
-#m4_include(12.eafSummaryModalDisplay.py)
+from slexil.eafParser import EafParser
+from slexil.text import Text
+import os, yaml
+
+def createWebPage(eafFullPath, projectPath, title):
+
+   parser = EafParser(eafFullPath, verbose=False, fixOverlappingTimeSegments=False)
+   x = parser.learnTierGuide()
+   print(x)
+   tierGuideYamlFile = os.path.join(projectPath, "tierGuide.yaml")
+   with open(tierGuideYamlFile, 'w') as outfile:
+      yaml.dump(x, outfile, default_flow_style=False)
+   
+   text = Text(xmlFilename=eafFullPath,
+               grammaticalTermsFile=None,
+               tierGuideFile=tierGuideYamlFile,
+               projectDirectory=projectPath,
+               verbose=True,
+               fontSizeControls = False,
+               startLine = None,
+               endLine = None,
+               pageTitle = title,
+               helpFilename = None,
+               helpButtonLabel = "",
+               kbFilename = None,
+               linguisticsFilename = None,
+               webpackLinksOnly = False ,
+               fixOverlappingTimeSegments = False,
+               useTooltips=False)
+	
+   filename = title.replace(" ", "_")
+   filename = "%s.html" % filename
+   htmlText = text.toHTML()
+   filePath = os.path.join(projectPath, filename)
+   print ("writing html to '%s'" % filePath)
+   f = open(filePath, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   f.close()
+   return filePath
+
+#--------------------------------------------------------------------------------
+# createWebPage("PROJECTS/x33/inferno-threeLines-outOfTimeOrder.eaf", "PROJECTS/x33", "test")
+   
+
+#--------------------------------------------------------------------------------
+createWebpageDiv = html.Div(id="createWebpageDiv",
+          children=[
+              html.Button("Create Web Page", id="createWebpageButton", n_clicks=0,
+                          disabled=False, className="enabledButton"),
+              html.Div(id="createWebpageHelp", children=[
+                  DashIconify(icon="feather:info", color="blue",width=30),
+               ], style={"display": "inline-block"}),
+             #html.Iframe(id="htmlPreviewDiv",
+             #         style={"width": "95%", "height": "400px",
+             #                "border": "1px solid blue"})
+          ],className="bodyStyle", hidden=True)
+#----------------------------------------------------------------------
+dashApp.layout.children.append(createWebpageDiv)
+#----------------------------------------------------------------------
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('createWebpageHelp', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def displayCreateWebpageHelp(n_clicks):
+    contents = html.Ul(id="list",
+       children=[html.Li("explanation for createWebpage coming soon")
+                 ])
+    
+    return True, "Help for Create Webpage", contents
+
+#----------------------------------------------------------------------
+@callback(
+   Output('memoryStore', 'data', allow_duplicate=True),
+   Output('displayStaticHTMLButton', 'hidden'),
+   Output('displayStaticHTMLButton', 'className'),
+   Output('downloadWebPageButton', 'hidden'),
+   Output('downloadWebPageButton', 'className'),
+   Output('loadTrackerDiv', 'children', allow_duplicate=True),
+   Output('slexilModal',      'is_open',  allow_duplicate=True),
+   Output('modalContents',    'children', allow_duplicate=True),
+   Input('createWebpageButton', 'n_clicks'),
+   State('memoryStore', 'data'),
+   prevent_initial_call=True)
+def createWebpageCallback(n_clicks, data):
+   if data is None:
+      print("initializing None data in 23.makeHtml.py")
+      data = {}
+      data['webpage creation time'] = currentTime
+   try:
+      htmlFilePath = createWebPage(data["eafFullPath"], data["projectPath"], data["title"])
+      now = datetime.now()
+      currentTime = now.strftime("%H:%M:%S")
+      modalOpen = False
+      modalContents = ""
+      nextStepButtonHidden = False
+      nextStepButtonClass = "enabledButton"
+   except BaseException as e:
+      modalOpen = True
+      #modalTitle = "create webpage error"
+      modalContents = html.Pre(get_exception_traceback_str(e))
+      nextStepButtonHidden = True
+      nextStepButtonClass = "disabledButton"
+    
+   return data, nextStepButtonHidden, nextStepButtonClass, nextStepButtonHidden, nextStepButtonClass, "", modalOpen, modalContents
+#--------------------------------------------------------------------------------
+
+
+
+
+
+
+#--------------------------------------------------------------------------------
+downloadAndDisplayDiv = html.Div(id="downloadAndDisplayDiv",
+          children=[html.Button("Display", id="displayStaticHTMLButton",
+                                n_clicks=0, hidden=True, className="disabledButton"),
+                    html.Button("Download Web Page", id="downloadWebPageButton",
+                                n_clicks=0, hidden=True, className="disabledButton"),
+                    dcc.Download(id="downloader"),
+                    html.Iframe(id="displayIFrame",
+                                style={"width": "95%", "height": "800px",
+                                       "overflow": "auto"})
+                    ])
+dashApp.layout.children.append(downloadAndDisplayDiv)
+#--------------------------------------------------------------------------------
+@callback(
+    Output('displayIFrame', 'src'),
+    Input('displayStaticHTMLButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayPage(n_clicks, data):
+    projectName = data["projectName"]
+    htmlFileName = "%s.html" % projectName
+    htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
+    url = "%s" % htmlFileFullPath
+    return url
+
+@callback(
+    Output('downloader', 'data'),
+    Input('downloadWebPageButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def downloadWebPage(n_clicks, data):
+    projectName = data["projectName"]
+    htmlFileName = "%s.html" % projectName
+    htmlFileFullPath = "PROJECTS/%s/%s" % (projectName, htmlFileName)
+    return dcc.send_file(htmlFileFullPath)
+
+#--------------------------------------------------------------------------------
+if __name__ == '__main__':
+    port = 9020
+    dashApp.run(host='0.0.0.0', debug=True, port=port)
 
 #----------------------------------------------------------------------
 @callback(

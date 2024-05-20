@@ -66,8 +66,8 @@ class IjalLine:
         self.grammaticalTerms = grammaticalTerms
         self.useTooltips = useTooltips
         self.verbose = verbose
-        if(self.verbose):
-           print(self.tbl)
+        #if(self.verbose):
+        #   print(self.tbl)
 
 
     def getTierCount(self):
@@ -142,8 +142,8 @@ class IjalLine:
 
         canonicalTierName = "morpheme"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(self.verbose):
-              print("=== found no tier named '%s'" % canonicalTierName)
+           #if(self.verbose):
+           #   print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
@@ -164,8 +164,8 @@ class IjalLine:
 
         canonicalTierName = "morphemeGloss"
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-           if(self.verbose):
-              print("=== found no tier named '%s'" % canonicalTierName)
+           #if(self.verbose):
+           #   print("=== found no tier named '%s'" % canonicalTierName)
            return(None)
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 

@@ -1,0 +1,206 @@
+import flask
+import time
+import pdb
+import slexil
+from datetime import datetime
+import base64
+import json
+import zipfile
+import os, io, traceback, time
+from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
+import dash_bootstrap_components as dbc
+from dash_iconify import DashIconify
+from slexil.eafParser import EafParser
+appVersion = "2.6.0"
+versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
+dbcStyle = dbc.themes.BOOTSTRAP
+styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
+
+app = flask.Flask(__name__)
+dashApp = Dash(__name__, server=app, url_base_pathname='/',
+               external_stylesheets=styleSheets)
+dashApp.title = "Slexil 2"
+
+#--------------------------------------------------------------------------------
+def runBigDemo():
+
+  projectPath = os.path.join("PROJECTS", "timingTest")
+  fullPath = os.path.join(projectPath, "4EthelAnita230503Slexil.eaf")
+  htmlFile = createWebPage(fullPath, projectPath, "timingTest")
+  
+#--------------------------------------------------------------------------------
+@app.route('/test')
+def runTest():
+
+   startTime = time.time()
+   runBigDemo()
+   endTime = time.time()
+   elapsedTime = endTime - startTime
+   currentTime = time.ctime()
+   msg = "[%s] ran slexil webapp2 demo in %s seconds\n" % \
+       (time.ctime(), round(elapsedTime, 2))
+   print(msg)
+   return msg
+
+#--------------------------------------------------------------------------------
+@app.route('/PROJECTS/<path:urlpath>')
+def serveFile(urlpath):
+    print("=== entering serveFile app.server.route: %s" % urlpath)
+    fullPath = os.path.join("PROJECTS", urlpath)
+    dirname = os.path.dirname(fullPath)
+    filename = os.path.basename(fullPath)
+    print("---- %s" % fullPath)
+
+    if urlpath[-4:] == "html":
+       print("=== populate textArea from %s" % urlpath)
+       return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "wav":
+       print("flask route returning %s" % fullPath)
+       return flask.send_file(os.path.join(fullPath))
+    elif urlpath[-3:] == "zip":
+       print("flask route returning %s" % fullPath)
+       return flask.send_file(os.path.join(fullPath), mimetype='application/zip')
+    else:
+       return ""
+    
+#--------------------------------------------------------------------------------
+buttonStyle = {"margin": "20px",
+              "fontSize": "20px",
+              "border": "1px solid brown",
+              "borderRadius": "10px"
+              }
+#--------------------------------------------------------------------------------
+# the webapp requires a PROJECTS_DIRECTORY in the current working directory
+# each individual project, one for each text, is created as a subdirectory here
+PROJECTS_DIRECTORY = "PROJECTS"
+try:
+    assert(os.path.exists(PROJECTS_DIRECTORY))
+except AssertionError:
+    os.mkdir(PROJECTS_DIRECTORY)
+#--------------------------------------------------------------------------------
+eafDir = "eafs"
+files = os.listdir(eafDir)
+eafFiles = [f for f in files if f.endswith("eaf")]
+eafFiles.sort()
+print("eaf count: %d" % len(eafFiles))
+#-------------------------------------------------------
+modalDiv = html.Div(
+    [dbc.Modal([
+         dbc.ModalHeader(
+         dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+         dbc.ModalBody("", id='modalContents')
+         ],
+         id="slexilModal",
+         centered=True,
+         is_open=False,
+         size="xl",    # sm, lg, xl
+         fullscreen=False,
+         scrollable=True,
+         )])
+#-------------------------------------------------------
+loadTrackerDiv = html.Div(id="loadTrackerDiv")
+modalLoadSpinnerWatcher = dcc.Loading(id="modalLoadWatcher",
+                                      type="default",
+                                      children=[modalDiv])
+#-------------------------------------------------------
+def createDropdownMenu():
+
+   dropdown = dbc.DropdownMenu(
+      label="About",
+      id="aboutDropdownMenu",
+      align_end=True,
+      size="sm",
+      children=[
+         dbc.DropdownMenuItem(versionString,
+                              id="versionLabelPseudoButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Media URLs",
+                              id="explainMediaURLsButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Glossing Abbreviations",
+                              id="explainGlossingAbbreviationsButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Examine State",
+                              id="examineStateButton",
+                              class_name="menuItemClass"),
+         ])
+
+   return dropdown
+
+#-------------------------------------------------------
+def get_exception_traceback_str(exc: Exception) -> str:
+    # Ref: https://stackoverflow.com/a/76584117/
+    file = io.StringIO()
+    traceback.print_exception(exc, file=file)
+    return file.getvalue().rstrip()
+#-------------------------------------------------------
+dashApp.layout = html.Div(id="mainDiv",
+               children=[dcc.Store(id='memoryStore', storage_type='memory'),
+                         html.Div(id="bannerDiv", 
+                                  children=createDropdownMenu(),
+                                  ),
+                         loadTrackerDiv,
+                         modalLoadSpinnerWatcher],
+                      style={"margin": "5px"})
+#----------------------------------------------------------------------
+# navbar button displays state in a modal dialog
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('examineStateButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    if data is None:
+       return(True, "State Variables",
+              html.P("state is empty, no variables yet assigned"))
+    el = html.Ul(id="list", children=[])
+    for key in data.keys():
+       el.children.append(html.Li("%s: %s" % (key, data[key])))
+    return True, "State Variables", el
+#--------------------------------------------------------------------------------
+# explain how media URLs work, how and why you might change them
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('explainMediaURLsButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    el = html.Ul(id="list", children=[])
+    items = ["In most ELAN files, your media URL points to an audio or video file on your computer.",
+             "In that case, these media will only be playable for you in the web page we create here.",
+             "Alternatively, you can host your media file on the internet.",
+             "todo: explain more..."]
+    for item in items:
+       el.children.append(html.Li(item))
+    return True, "Media URLs", el
+#--------------------------------------------------------------------------------
+# explain how morpheme gloss capitaliation & fonts can be handled
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalContents', 'children', allow_duplicate=True),
+    Input('explainGlossingAbbreviationsButton', 'n_clicks'),
+    State('memoryStore', 'data'),
+    prevent_initial_call=True
+    )
+def displayStateAsList(n_clicks, data):
+    el = html.Div(children=["Nothing yet ready on this topic."])
+    return True, "Glossing Abbreviations", el
+#--------------------------------------------------------------------------------
+m4_include(20.setTitle.py)
+m4_include(22.loadEAF.py)
+m4_include(28.loadAbbreviations.py)
+m4_include(26.loadAudio.py)
+m4_include(createWebPage.py)
+m4_include(23.makeHtml.py)
+m4_include(24.displayAndDownload.py)
+#----------------------------------------------------------------------
+if __name__ == '__main__':
+    port = 9002
+    dashApp.run(host='0.0.0.0', debug=True, port=port)

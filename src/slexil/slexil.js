@@ -106,6 +106,30 @@ $(document).ready(function(){
       refreshLayout(state.videoHeight);
       }); // showHideOtherControlsButton
     
+   $("#fasterPlaybackButton").on('click', function(){
+       var currentSpeed = parseFloat($("#speedSelector").val())
+      console.log("faster")
+      if(currentSpeed <= 1.75){
+         currentSpeed = currentSpeed + 0.25
+         }
+      $("#speedSelector").val(currentSpeed)
+      $("#playbackSpeedReadout").text(currentSpeed)
+      state.mediaPlayer.playbackRate = currentSpeed;
+      })
+
+   $("#slowerPlaybackButton").on('click', function(){
+      console.log("slower")
+      var currentSpeed = parseFloat($("#speedSelector").val())
+      console.log("faster")
+      if(currentSpeed >  0.25){
+         currentSpeed = currentSpeed - 0.25
+         }
+      $("#speedSelector").val(currentSpeed)
+      $("#playbackSpeedReadout").text(currentSpeed)
+      state.mediaPlayer.playbackRate = currentSpeed;
+      })
+
+
    $("#showAnnotationsButton").on('click', function() {
       visible = $("#annoDiv").is(":visible")
       if(visible){

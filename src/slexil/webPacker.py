@@ -19,16 +19,20 @@ class WebPacker:
        self.jsFiles = []
        self.verbose = verbose
 
-       self.cssFiles.append("bootstrap.min.css")
+       self.cssFiles.append("bootstrap.css")
        self.cssFiles.append("slexil.css")
        self.cssFiles.append("dropDownMenu.css")
 
        self.jsFiles.append("showdown.min.js")
        self.jsFiles.append("jquery-3.6.3.min.js")
        self.jsFiles.append("slexil.js")
-       self.jsFiles.append("bootstrap.bundle.min.js")
+       self.jsFiles.append("bootstrap.bundle.js")
+
        self.jsFiles.append("annotations.js")
        self.jsFiles.append("DropDownMenu.js")
+
+
+
 
        if (self.verbose):
           for path in self.cssFiles:

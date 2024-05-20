@@ -115,6 +115,7 @@ class Text:
       self.verbose = verbose
 
       parser = EafParser(xmlFilename, self.verbose, self.fixOverlappingTimeSegments)
+      parser.run()
       self.eafParser = parser
       # parser.parseAllLines()
 
@@ -142,6 +143,14 @@ class Text:
       self.lineTables = parser.getAllLinesTable() 
       self.startStopTable = parser.getTimeTable()
       self.eafParser = parser
+
+   #--------------------------------------------------------------------------------   
+   def setPreferredMediaURL(self, url):
+
+      self.mediaUrl = url
+      self.mediaType = "not used"
+      self.mediaInfo = {"url": url, "mimeType": self.mediaType}
+
 
    #--------------------------------------------------------------------------------   
    def getMediaInfo(self):
@@ -215,6 +224,7 @@ class Text:
    #--------------------------------------------------------------------------------   
    def getPlayer(self):
 
+      print("--- text.getPlayer, mediaUrl: %s" % self.mediaUrl)
       if(self.mediaType == "audio"):
          playerDiv = '<audio class="player" id="audioPlayer" src="%s" controls></audio>' % self.mediaUrl
       elif(self.mediaType == "video"):
@@ -339,6 +349,65 @@ class Text:
    #-------------------------------------------------------------------------------
    def createOtherControlsDiv(self, htmlDoc):
 
+      with htmlDoc.tag("div", id="otherControlsGridDiv", klass="otherControlsGridWrapper"):
+         with htmlDoc.tag("div", id="playbackSpeedDiv", klass="otherControlsGridCell"):
+            with htmlDoc.tag("div", id="playbackSpeedLabel"):
+               htmlDoc.text("Playback speed ")
+            with htmlDoc.tag("button", id="slowerPlaybackButton",
+                             klass="playbackSpeedButton"):
+               htmlDoc.text(" - ")
+            htmlDoc.stag("input",  type="range", min="0.25", max="2.0", value="1.0",
+                     step="0.25", id="speedSelector", name="speedSelector")
+            with htmlDoc.tag("button", id="fasterPlaybackButton",
+                             klass="playbackSpeedButton"):
+               htmlDoc.text(" + ")
+            with htmlDoc.tag("div", id="playbackSpeedReadout"):
+               htmlDoc.text("1.0")
+
+         with htmlDoc.tag("div", id="playbackSpeedDiv", klass="otherControlsGridCell"):
+            with htmlDoc.tag("div", id="printSizeLabel"):
+               htmlDoc.text("Print Size ")
+            with htmlDoc.tag("form", action=""):
+               htmlDoc.stag("input",  type="range", min="0.2", max="4.0", value="1.4",
+                            step="0.1", id="fontSizeSlider", name="fontSizeSlider")
+
+         tg = TierGuide(self.tierGuideFile)
+         if(not tg.valid()["valid"]):
+            print("--- text.py finds invalid tierGuide")
+            print(tg.valid())
+         
+      
+         with htmlDoc.tag("div", id="tierControlsDiv"):
+            with htmlDoc.tag("div"):            
+               with htmlDoc.tag("span", id="tiersLabelDiv"):
+                  htmlDoc.text("Visible Tiers: ")
+            with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
+              with tag('form', action = ""):
+                tierName = "transcription"
+                htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                              value=tierName, klass="tierToggleCheckbox",
+                              id="tierToggle-%s" % tierName)
+                htmlDoc.text(" %s" % tierName)
+
+                if("translation" in tg.getTierNames()):
+                  tierName = "translation"
+                  htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                                value=tierName, klass="tierToggleCheckbox",
+                                id="tierToggle-%s" % tierName)
+                  htmlDoc.text(" %s" % tierName)
+
+                if("morpheme" in tg.getTierNames()):
+                  tierName = "analysis"
+                  htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                                value=tierName, klass="tierToggleCheckbox",
+                                id="tierToggle-%s" % tierName)
+                  htmlDoc.text(" %s" % tierName)
+
+               
+
+   #-------------------------------------------------------------------------------
+   def oldCreateOtherControlsDiv(self, htmlDoc):
+
           #-----------------
           # playback speed 
           #-----------------
@@ -402,8 +471,8 @@ class Text:
          print("--- entering createTextDiv")
       with htmlDoc.tag("div", id="textDiv"):
          for i in self.lineNumbers:
-            if(self.verbose):
-               print("line %d/%d" % (i, self.lineCount))
+            #if(self.verbose):
+            #   print("line %d/%d" % (i, self.lineCount))
             lineTable = self.lineTables[i]   
             line = IjalLine(lineTable, i, self.tierGuide,
                             self.grammaticalTerms, self.useTooltips,

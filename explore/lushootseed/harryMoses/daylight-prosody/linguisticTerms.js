@@ -1,4 +1,11 @@
 linguistics = {
+"PROP":
+`
+PROP
+
+proprietive case (quality of having X)
+
+`,
 
 "SBRD":
 `

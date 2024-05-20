@@ -1,7 +1,11 @@
-git add Dockerfile
-git add app/
-git add assets/
-git add junk
-git add makefile
-git add makefile-old
-git add requirements-versioned.txt
+	git add  app/main.py
+	git add  assets/webapp.css
+	git add  junk
+	git add  main.py
+	git add  parts/22.loadEAF.py
+	git rm    parts/25.loadAudio.py
+	git add  parts/26.loadAudio.py
+	git add  parts/28.loadAbbreviations.py
+	git add  parts/app.pre
+	git add  parts/app.py
+

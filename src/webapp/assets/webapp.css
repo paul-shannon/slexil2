@@ -2,6 +2,7 @@
 	text-align: center;
 }
 
+/******
 .banner {
 	background-image: url('slexilBanner.jpg');
 	background-repeat: no-repeat;
@@ -11,11 +12,11 @@
 	min-height: 220px;
 	width: 100%;
 	border-style: solid;
-	border-width: 1px 6px 15px 1px;
+	border-width: 1px 6px 6px 1px;
 	border-radius: 5px;
 	border-color: #00BFFF;
 }
-
+*********/
 .aboutbanner {
 	max-width: 975px;
 	min-height: 220px;

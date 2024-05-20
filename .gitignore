@@ -3,9 +3,14 @@
 *.wav
 *.m4v
 *.eaf
+*.aup3
+*.whl
+build/
+wheels/*
 src/slexil_package.egg-info/
 src/slexil_package.egg-info/PKG-INFO
 src/slexil.egg-info
+src/webapp2/PROJECTS/
 demos/ERRORS.log
 dictionary/incoming
 build/

@@ -16,7 +16,9 @@ app.layout = html.Div(
         dcc.Loading(
             id="loading-1",
             type="default",
-            children=html.Div(id="loading-output-1")
+            children=html.Div(id="loading-output-1",
+                              style={"border": "1px solid red",
+                                     "height": "100px"})
             )
         ],
     style = {"font-size": "24px"}

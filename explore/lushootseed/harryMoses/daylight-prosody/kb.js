@@ -2,11 +2,86 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ":
+`
+_ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ_
+
+luhOAK chud dwal kwi seeAB abs.slexil (duff)HWAH kwi soods ah
+
+`,
+
+
+"ɬu=hədʔiw’–b=ad":
+`
+_ɬu=hədʔiw’–b=ad_
+
+- _ɬu_: irrealis: anticipated, expected or possible event; future
+- (hə)dʔiw’:
+     - be inside a house
+     - also recorded (hə)dʔiwʔ
+     - _hədʔíwʼd_: bring someone or something into a house    
+     - _hədʔiwʼdubut_: get one's self inside (the cave)    
+     - _hədʔíwʼc_: go in for someone or something    
+     - _hədʔíwʼtxʷ_: cause someone to enter a house, take something inside a house
+     - _hədʔíwʼb_: enter a room or house    
+     - _hədʔìwʼáʔkʷčup_: Bring the wood in.      
+- -b: middle
+     - be involved in doing something
+     - A suffix occuring on several levels of Lushootseed morphology.
+       It forms a very large class of agent-oriented intransitive verb
+       stems and a number of ambient stems such as *qəl-b* 'rain'.
+     - With lexial stems it designates middle voice and in construction
+       with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
+     - _desiderative_: (of a verb derived from another verb) expressing desire to perform
+        the action denoted by the underlying verb, as Sanskrit pi-patiṣ-ati “he wishes to fly”
+        from pát-ati, “he flies.”
+     - This *-b* is a component in a number of derivational suffixes
+       as well, and combines with transitive suffixes to form a passive
+       construction: *-təb*,  *-du-b*, *-tu-b*, *c-əb*, and *-s-əb*
+
+
+- =ad: first person singular subordinate
+
+
+`,
+
+"ɬu=ʔas–ck’usəd":
+`
+_ɬu=ʔas–ck’usəd_
+
+- _ɬu_: irrealis: anticipated, expected or possible event; future
+- _ʔas_:
+    - variant of _?a_ (be there, be in existence) LD 1
+    - stative affix
+- _ck'usəd_: cane, walking stick
+- _cickʼusəd_: little walking stick
+
+`,
+
+"ɬu=ʔas–x̌ʷal’":
+`
+_ɬasx̌ʷal’_
+
+ɬu=ʔas–x̌ʷal’
+
+- _ɬu_: irrealis: anticipated, expected or possible event; future
+- _ʔas_:
+    - variant of _?a_ (be there, be in existence) LD 1
+    - stative affix
+- _x̌ʷal’_:
+    - lack control
+    - _x̌ʷálitut_:  snore
+    - _dxʷtəx̌ʷtx̌ʷálačədəb_:  A man who drags his testicles on the ground.
+    - _x̌ʷálʼdxʷ_:  get the better of, overcome someone
+    - _ʔəsx̌ʷalʼbicut_: give_up
+    -_^x̌ʷalʼ=ílc čəd_:  I can't manage my legs (from knees down)
+`,
+
 "ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd":
 `
 _ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd_
 
-luss.kwawg lus.KO.sud sloo.hay.bud
+luss.hwawg lus.KO.sud sloo.huh.DAY.bud
 
 irr-state.lackControl irr.state.cane irr.indoors.middle
 

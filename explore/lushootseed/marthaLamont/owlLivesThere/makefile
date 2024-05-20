@@ -23,7 +23,7 @@ html:
                        --pageTitle "Martha Lamont - Owl Lives There" \
                        --fontSizeControls \
                        --helpFile about.html \
-                       --helpButtonLabel About 
+                       --helpButtonLabel About
 #                       --webpackLinksOnly
 
 
@@ -31,6 +31,7 @@ html:
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/marthaLamont/owlLivesThere/
+	scp owlLivesThere-mono-8k.wav pshannon@206.12.95.4:www/lushootseed/marthaLamont/owlLivesThere/
 
 view:
 	open index.html

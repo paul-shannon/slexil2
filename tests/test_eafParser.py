@@ -1,10 +1,11 @@
-# -*- tab-width: 4 -*-
-import unittest
+# -*- tab-width: 3 -*-
+import yaml
 import pdb
 import os, sys
 from slexil.eafParser import EafParser
 import xmlschema
 from xml.etree import ElementTree as etree
+from time import time
 import pandas as pd
 import numpy as np
 pd.set_option('display.width', 1000)
@@ -22,37 +23,77 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-    #test_parsingSpeed()
-    # test_lineToYAML()
-    # test_toYAML()
-    test_invalidXmlRaisesException_misnamedParentRef()
-    test_invalidXmlRaisesException_misnamedTierType()
-    test_invalidXmlRaisesException_misspelledTag()
-    test_ctor()
-    test_tierTable()
-    test_timeTable()
-    test_checkAgainstTierGuide()
-    test_depthFirstTierTraversal()
-    test_getLineTable()
-    test_parseAllLines()
-    test_sortLinesByTime_inferno()
-    test_sortLinesByTime_natalia()
-    test_tedsBlueJay()
-    test_fixOverlappingTimes()  # very slow
-    test_getTokenizedTierPairs()
-    test_getTimeAlignedTiers()
-    test_variousGetters()
-    test_getSummary()
+   test_parsingSpeed()
+   test_invalidXmlRaisesException_misnamedParentRef()
+   test_invalidXmlRaisesException_misnamedTierType()
+   test_invalidXmlRaisesException_misspelledTag()
+   test_ctor()
+   test_tierTable_0()
+   test_timeTable()
+   test_checkAgainstTierGuide()
+   test_depthFirstTierTraversal()
+   test_getLineTable()
+   test_parseAllLines()
+   test_sortLinesByTime_inferno()
+   test_sortLinesByTime_natalia()
+   test_tedsBlueJay()
+   test_fixOverlappingTimes()  # very slow
+   test_variousGetters()
+   test_getSummary()
 
 #---------------------------------------------------------------------------------------------------
 def test_ctor():
 
     print("--- test_ctor")
-    f = eafFiles[3]
+    f = eafFiles[0]
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     assert(parser.getFilename() == f)
     assert(parser.xmlValid())
 
+#---------------------------------------------------------------------------------------------------
+def test_parsingSpeed(slowVersion=False):
+
+   print("--- test_parsingSpeed")
+
+   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
+   print("    01RuthNora230503Slexil.eaf")
+   t0 = time() * 1000
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   t1 = time() * 1000
+   parser.run()
+   t2 = time() * 1000
+   parser.xmlValid()
+   t3 = time() * 1000
+
+   lineCount = parser.getLineCount()
+
+   print("lines: %d" % lineCount)
+   print(" ctor: %d" % round(t1 - t0))
+   print("  run: %d" % round(t2 - t1))
+   print("valid: %d" % round(t3 - t2))
+
+   if not slowVersion:
+       return
+   
+   f = "../explore/aliceTaff/04/4EthelAnita230503Slexil.eaf"
+   print("    4EthelAnita230503Slexil")
+   t0 = time() * 1000
+   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   t1 = time() * 1000
+   parser.run()
+   t2 = time() * 1000
+   parser.xmlValid()
+   t3 = time() * 1000
+
+   lineCount = parser.getLineCount()
+
+   print("lines: %d" % lineCount)
+   print(" ctor: %d" % round(t1 - t0))
+   print("  run: %d" % round(t2 - t1))
+   print("valid: %d" % round(t3 - t2))
+
+   
 #---------------------------------------------------------------------------------------------------
 def test_mediaUrlExtraction():
 
@@ -71,11 +112,16 @@ def test_invalidXmlRaisesException_misnamedParentRef():
     
     try:
        parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+       parser.xmlValid()
+       success = True
     except XMLSchemaValidationError as e:
        assert(e.message.find("failed validating") >= 0)
        assert(len(e.args) == 5)
        assert(e.args[2] == "value ('italianSpEEch',) not found for XsdKey(name='tierNameKey')")
+       success = False
 
+    assert(not success)
+    
 #---------------------------------------------------------------------------------------------------
 def test_invalidXmlRaisesException_misnamedTierType():
 
@@ -84,10 +130,15 @@ def test_invalidXmlRaisesException_misnamedTierType():
     
     try:
        parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+       parser.xmlValid()
+       success = True
     except XMLSchemaValidationError as e:
        assert(e.message.find("failed validating") >= 0)
        assert(len(e.args) == 5)
        assert(e.args[2] == "value ('translation',) not found for XsdKey(name='linTypeNameKey')")
+       success = False
+
+    assert(not success)
 
 #---------------------------------------------------------------------------------------------------
 def test_invalidXmlRaisesException_misspelledTag():
@@ -97,27 +148,32 @@ def test_invalidXmlRaisesException_misspelledTag():
     
     try:
        parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+       parser.xmlValid()
+       success = True
     except XMLSchemaValidationError as e:
        errorString = str(e)
        assert(errorString.find("failed validating") >= 0)
        assert(errorString.find("Unexpected child with tag") >= 0)
        assert(errorString.find("TIME_ORDERxxx") >= 0)
+       success = False
+
+    assert(not success)
 
 #---------------------------------------------------------------------------------------------------
-def test_tierTable():
+def test_tierTable_0():
 
-    print("--- test_tierTable")
-    f = eafFiles[3]
-    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    print("--- test_tierTable_0")
+
+    f0 = "../testData/inferno/inferno-threeLines.eaf"
+    f1 = "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf"
+    f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+    f4 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    
+    parser = EafParser(f0, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+
     tbl = parser.getTierTable()
-
-       # this is the table we expect: 
-       # TIER_ID LINGUISTIC_TYPE_REF PARENT_REF DEFAULT_LOCALE           CONSTRAINTS GRAPHIC_REFERENCES TIME_ALIGNABLE
-       # 0         utterance          default-lt        NaN            NaN                   NaN              false           true
-       # 1       translation         translation  utterance             en  Symbolic_Association              false          false
-       # 2         verb form         translation  utterance             en  Symbolic_Association              false          false
-       # 3  Speaker Initials           utterance  utterance            NaN  Symbolic_Association              false          false
-
     assert(tbl.shape == (4,7))
        # check column names
     expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE',
@@ -125,25 +181,166 @@ def test_tierTable():
     assert(tbl.columns.values.tolist() == expected)
        # check 1st column 
     assert(tbl["TIER_ID"].tolist() ==
-                     ['utterance', 'translation', 'verb form', 'Speaker Initials'])
+                     ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
     assert(tbl["TIME_ALIGNABLE"].tolist() ==
                       ['true', 'false', 'false', 'false'])
 
       # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
       # must use 2 steps to handle nan
     assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
+      # the morpehmeGloss tier is the child of morphemes
+      # it could also, and perhaps more commonly, be a child of the time-aligned
+      # tier, lushootseed
     assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
-                     ['utterance', 'utterance', 'utterance'])
+                     ['italianSpeech', 'italianSpeech', 'italianSpeech'])
 
+#--------------------------------------------------------------------------------
+def test_tierTable():
+
+    print("--- test_tierTable")
+
+    f0 = "../testData/inferno/inferno-threeLines.eaf"
+    f1 = "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf"
+    f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+    f4 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    tbl = parser.getTierTable()
+    assert(tbl.shape == (4,5))
+       # check column names
+    expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE', 'TIME_ALIGNABLE']
+    assert(tbl.columns.values.tolist() == expected)
+       # check 1st column 
+    assert(tbl["TIER_ID"].tolist() ==
+                     ['lushootseed', 'morphemes', 'morphemeGloss', 'english'])
+    assert(tbl["TIME_ALIGNABLE"].tolist() ==
+                      ['true', 'false', 'false', 'false'])
+
+      # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
+      # must use 2 steps to handle nan
+    assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
+      # the morpehmeGloss tier is the child of morphemes
+      # it could also, and perhaps more commonly, be a child of the time-aligned
+      # tier, lushootseed
+    assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
+                     ['lushootseed', 'morphemes', 'lushootseed'])
+
+#---------------------------------------------------------------------------------------------------
+def test_tierTable_1():
+
+    print("--- test_tierTable")
+
+    f0 = "../testData/inferno/inferno-threeLines.eaf"
+    f1 = "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf"
+    f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+    f4 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    tbl = parser.getTierTable()
+    assert(tbl.shape == (4,5))
+       # check column names
+    expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE', 'TIME_ALIGNABLE']
+    assert(tbl.columns.values.tolist() == expected)
+       # check 1st column 
+    assert(tbl["TIER_ID"].tolist() ==
+                     ['lushootseed', 'morphemes', 'morphemeGloss', 'english'])
+    assert(tbl["TIME_ALIGNABLE"].tolist() ==
+                      ['true', 'false', 'false', 'false'])
+
+      # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
+      # must use 2 steps to handle nan
+    assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
+      # the morpehmeGloss tier is the child of morphemes
+      # it could also, and perhaps more commonly, be a child of the time-aligned
+      # tier, lushootseed
+    assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
+                     ['lushootseed', 'morphemes', 'lushootseed'])
+
+#---------------------------------------------------------------------------------------------------
+def test_tierTable_2():
+
+    print("--- test_tierTable_2")
+
+    f0 = "../testData/inferno/inferno-threeLines.eaf"
+    f1 = "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf"
+    f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+    f4 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    tbl = parser.getTierTable()
+    assert(tbl.shape == (4,5))
+       # check column names
+    expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE', 'TIME_ALIGNABLE']
+    assert(tbl.columns.values.tolist() == expected)
+       # check 1st column 
+    assert(tbl["TIER_ID"].tolist() ==
+                     ['lushootseed', 'morphemes', 'morphemeGloss', 'english'])
+    assert(tbl["TIME_ALIGNABLE"].tolist() ==
+                      ['true', 'false', 'false', 'false'])
+
+      # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
+      # must use 2 steps to handle nan
+    assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
+      # the morpehmeGloss tier is the child of morphemes
+      # it could also, and perhaps more commonly, be a child of the time-aligned
+      # tier, lushootseed
+    assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
+                     ['lushootseed', 'morphemes', 'lushootseed'])
+
+#---------------------------------------------------------------------------------------------------
+def test_tierTable_3():
+
+    print("--- test_tierTable_3")
+
+    f0 = "../testData/inferno/inferno-threeLines.eaf"
+    f1 = "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf"
+    f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+    f4 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    tbl = parser.getTierTable()
+    assert(tbl.shape == (4,5))
+       # check column names
+    expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE', 'TIME_ALIGNABLE']
+    assert(tbl.columns.values.tolist() == expected)
+       # check 1st column 
+    assert(tbl["TIER_ID"].tolist() ==
+                     ['lushootseed', 'morphemes', 'morphemeGloss', 'english'])
+    assert(tbl["TIME_ALIGNABLE"].tolist() ==
+                      ['true', 'false', 'false', 'false'])
+
+      # parent_ref column values: [nan, 'utterance', 'utterance', 'utterance'])
+      # must use 2 steps to handle nan
+    assert(np.isnan(tbl.loc[0, "PARENT_REF"]))
+      # the morpehmeGloss tier is the child of morphemes
+      # it could also, and perhaps more commonly, be a child of the time-aligned
+      # tier, lushootseed
+    assert(tbl.loc[1:3, "PARENT_REF"].tolist() ==
+                     ['lushootseed', 'morphemes', 'lushootseed'])
 
 #---------------------------------------------------------------------------------------------------
 def test_timeTable():
 
     print("--- test_timeTable")
     f = eafFiles[3]
+      # dependent tier are direct 
+    f0 = "../testData/inferno/inferno-threeLines.eaf"
+    f1 = "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf"
+    f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
+    f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
+
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     tbl = parser.getTimeTable()
-    assert(tbl.shape == (170,5))
+    assert(tbl.shape == (737,5))
        # looks like this:
        # tbl.loc[1:3]
        #   lineID  start   end   t1   t2
@@ -155,8 +352,8 @@ def test_timeTable():
                      ['lineID', 'start', 'end', 't1', 't2'])
     startTimes = tbl["start"].tolist()
     endTimes = tbl["end"].tolist()
-    assert(startTimes[0:3] == [116,  1400, 2665])
-    assert(endTimes[0:3] ==   [1380, 2475, 5090])
+    assert(startTimes[0:3] == [0, 484, 1134])
+    assert(endTimes[0:3] == [484, 1134, 2460])
     
 #---------------------------------------------------------------------------------------------------
 # tierGuide.yaml 
@@ -185,7 +382,9 @@ def test_depthFirstTierTraversal():
 
     print("--- test_depthFirstTierTraversal")
     f = eafFiles[0]
+    f = "../testData/inferno/inferno-threeLines.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
 
     nestedAnnotationIDs = parser.depthFirstTierTraversal("a2")
     assert(nestedAnnotationIDs == ['a6', 'a10', 'a14'])
@@ -204,10 +403,10 @@ def test_depthFirstTierTraversal():
     assert(nestedAnnotationIDs == ['a5', 'a9', 'a13'])
 
       # now a tlingit eaf
-      # '../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf'
 
-    f = eafFiles[12]  # ../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf
+    f =  "../explore/aliceTaff/incoming/eafs/12HelenFloBaby230503Slexil.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     nestedAnnotationIDs = parser.depthFirstTierTraversal("a1")
     assert(nestedAnnotationIDs == ['a365'])
 
@@ -246,11 +445,11 @@ def test_parseAllLines():
     print("--- test_parseAllLines")
     f = eafFiles[0]
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     assert(parser.getLineCount() == 3)
     x = parser.getAllLinesTable()  # a list of time-ordered line tables
     startTimes = [tbl.loc[0, "startTime"] for tbl in x]
     assert(startTimes == [0.0, 3093.0, 5624.0])
-
 
 #---------------------------------------------------------------------------------------------------
 # eaf lines may come out of order.  this is especially likely when multiple
@@ -261,6 +460,8 @@ def test_sortLinesByTime_inferno():
    print("--- test_sortLinesByTime_inferno")
    f = "../testData/validEafFiles/inferno-threeLines-outOfTimeOrder.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
+
    tiers = parser.getTierTable()
    lines = parser.getAllLinesTable()
    times = parser.getTimeTable()
@@ -298,6 +499,7 @@ def test_sortLinesByTime_natalia():
    print("--- test_sortLinesByTime_natalia")
    f = "../testData/validEafFiles/084_TheWomanOfTheWater-DonkeyTiger.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
    tiers = parser.getTierTable()
    lines = parser.getAllLinesTable()
    times = parser.getTimeTable()
@@ -318,6 +520,8 @@ def test_fixOverlappingTimes():
     print("--- test_fixOverlappingTimes")
     f = "../testData/overlappingTimes.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+
     rowCount = parser.getLineCount()
     assert(rowCount == 1132)
     tbl = parser.getTimeTable()
@@ -329,6 +533,8 @@ def test_fixOverlappingTimes():
 
        # now decrement the end of each of those overlapping lines by 1 msec
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=True)
+    parser.run()
+
     tbl = parser.getTimeTable()
     overlaps = [tbl.iloc[i,2] >= tbl.iloc[i+1,1] for i in range(0,rowCount-1)]
     assert(pd.DataFrame(overlaps).groupby(0).size()[False] == 1131)
@@ -342,6 +548,8 @@ def test_tedsBlueJay():
     print("--- test_tedsBlueJay")
     f = "../testData/Metcalf7ab_BLUEJAY_ch1.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    
     rowCount = parser.getLineCount()
     tbl = parser.getTimeTable()
     x = parser.getAllLinesTable()  # a list of time-ordered line tables
@@ -349,81 +557,6 @@ def test_tedsBlueJay():
     assert(len(startTimes) == 120)
     assert(startTimes[:5] == [0, 0, 2507, 2507, 6651])
     
-
-#---------------------------------------------------------------------------------------------------
-def test_getTokenizedTierPairs():
-
-   print("--- test_getTokenizedTierPairs")
-
-     #---------------------------------------------------------------
-     # first the standard IJAL 4-tier line, one time-aligned
-     #---------------------------------------------------------------
-
-   f = "../explore/misc/inferno/inferno-threeLines.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   possiblePairs = parser.getTokenizedTierPairs()
-   assert(possiblePairs == {'morphemes': 16, 'morpheme-gloss': 16})
-
-     #---------------------------------------------------------------
-     # second, an eaf with just one time-aligned tier, just one child
-     # no tokenized tier pairs
-     #---------------------------------------------------------------
-
-   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   possiblePairs = parser.getTokenizedTierPairs()
-   assert(possiblePairs == {})
-
-
-     #---------------------------------------------------------------
-     # third, two time-aligned tiers, each with full IJAL set of children
-     #---------------------------------------------------------------
-
-   f = "../explore/nataliaCaceres/085-motherOfTheFish/085_TheMotherOfTheFishAndThePrankster.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   possiblePairs = parser.getTokenizedTierPairs()
-   assert(possiblePairs == {'to@VG': 209, 'ot@VG': 209})
-
-   
-#---------------------------------------------------------------------------------------------------
-def test_getTimeAlignedTiers():
-
-   print("--- test_getTimeAlignedTiers")
-
-     #---------------------------------------------------------------
-     # first, an eaf with just one time-aligned tier, just one child
-     #---------------------------------------------------------------
-
-   f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   taTiers = parser.getTimeAlignedTiers()
-   assert(taTiers == ['utterance'])
-   family = parser.getTimeAlignedTierFamily("utterance")
-   assert(family == ['utterance', 'translation'])
-
-     #---------------------------------------------------------------
-     # second, the standard IJAL 4-tier line, one time-aligned
-     #---------------------------------------------------------------
-
-   f = "../explore/misc/inferno/inferno-threeLines.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   taTiers = parser.getTimeAlignedTiers()
-   assert(taTiers == ['italianSpeech'])
-   family = parser.getTimeAlignedTierFamily("italianSpeech")
-   assert(family == ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
-
-     #---------------------------------------------------------------
-     # third, two time-aligned tiers, each with full IJAL set of children
-     #---------------------------------------------------------------
-
-   f = "../explore/nataliaCaceres/085-motherOfTheFish/085_TheMotherOfTheFishAndThePrankster.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   taTiers = parser.getTimeAlignedTiers()
-   assert(taTiers == ['ref@VG', 'ref@AM'])
-   family = parser.getTimeAlignedTierFamily("ref@VG")
-   assert(family == ['ref@VG', 'to@VG', 'ot@VG', 'ft@VG'])
-   family = parser.getTimeAlignedTierFamily("ref@AM")
-   assert(family == ['ref@AM', 'to@AM', 'ot@AM', 'ft@AM'])
 
 #---------------------------------------------------------------------------------------------------
 def test_variousGetters():
@@ -435,6 +568,7 @@ def test_variousGetters():
 
    f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
    p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   p.run()
    assert(p.getFilename() == '../explore/aliceTaff/01/01RuthNora230503Slexil.eaf')
    assert(p.getLineCount() == 170)
    assert(p.getTierTable().shape == (2,7))
@@ -459,6 +593,7 @@ def test_getSummary():
 
    f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
    x =  parser.getSummary()
    keys = list(x)
    keys.sort()
@@ -475,7 +610,7 @@ def test_getSummary():
    assert(x["videoMimeType"] == 'unknown')
    assert(x["videoURL"] == 
           'https://slexildata.artsrn.ualberta.ca/tlingit/1RuthNora2Wide.m4v')
-   assert(x["timeAlignedTierFamily.1"] == ['utterance', 'translation'])
+   assert(x["timeAlignedTierFamily.1"] == ['translation'])
           
      #---------------------------------------------------------------
      # second, the standard IJAL 4-tier line, one time-aligned
@@ -499,59 +634,8 @@ def test_getSummary():
    assert(x["videoMimeType"] is None)
    assert(x["videoURL"] is None)
 
-   assert(x["timeAlignedTierFamily.1"] == ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
+   assert(x["timeAlignedTierFamily.1"] == ['morphemes', 'morpheme-gloss', 'english'])
 
-
-     #---------------------------------------------------------------
-     # third, two time-aligned tiers, each with full IJAL set of children
-     #---------------------------------------------------------------
-
-   f = "../explore/nataliaCaceres/085-motherOfTheFish/085_TheMotherOfTheFishAndThePrankster.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   x =  parser.getSummary()
-   keys = list(x)
-   keys.sort()
-   assert(keys == ['audioMimeType', 'audioURL', 
-                   'lineCount', 'tierTable',
-                   'timeAlignedTierFamily.1',
-                   'timeAlignedTierFamily.2',
-                   'timeAlignedTiers',
-                   'videoMimeType', 'videoURL'])
-   assert(x["lineCount"] == 54)
-   assert(x["tierTable"].shape == (8, 7))
-   assert(x["audioMimeType"] == 'audio/x-wav')
-   assert(x["audioURL"] == 'https://slexildata.artsrn.ualberta.ca/pesh/085_Pesh.wav')
-   assert(x["videoMimeType"] is None)
-   assert(x["videoURL"] is None)
-
-   assert(x["timeAlignedTierFamily.1"] == ['ref@VG', 'to@VG', 'ot@VG', 'ft@VG'])
-   assert(x["timeAlignedTierFamily.2"] == ['ref@AM', 'to@AM', 'ot@AM', 'ft@AM'])
-
-     #-------------------------------------------------------------------
-     # fourth, the eaf from Ted Kye, straight out of praat, with
-     # Line and Translation both time-aligned, no parent/child relation
-     #-------------------------------------------------------------------
-
-   f = "../explore/southernLushootseed/stellarsJay/Metcalf7ab_BLUEJAY_ch1.eaf"
-   parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-   x =  parser.getSummary()
-   keys = list(x)
-   keys.sort()
-   assert(keys == ['audioMimeType', 'audioURL', 
-                   'lineCount', 'tierTable',
-                   'timeAlignedTierFamily.1',
-                   'timeAlignedTierFamily.2',
-                   'timeAlignedTiers',
-                   'videoMimeType', 'videoURL'])
-   assert(x["lineCount"] == 120)
-   assert(x["tierTable"].shape == (2, 6))
-   assert(x["audioMimeType"] == 'audio/x-wav')
-   assert(x["audioURL"] == 'Metcalf7ab_BLUEJAY_ch1.wav')
-   assert(x["videoMimeType"] is None)
-   assert(x["videoURL"] is None)
-   assert(x["timeAlignedTiers"] == ['Line', 'Translation'])
-   assert(x["timeAlignedTierFamily.1"] == ['Line'])
-   assert(x["timeAlignedTierFamily.2"] == ['Translation'])
 
 
 #---------------------------------------------------------------------------------------------------
