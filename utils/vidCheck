@@ -1,0 +1,18 @@
+#!/bin/bash
+audioFile=$1
+if [ ! -f $audioFile ]; then
+    echo "File not found: $audioFile"
+    exit 1
+fi
+
+basename=`echo $audioFile | sed "s/.*\///"`
+ffprobe  -show_format -show_streams $audioFile 2>&1 | sort | uniq > /tmp/$basename
+errorTextSize=`egrep -i '(not found|error|invalid)' /tmp/$basename | wc -c`
+if [ $errorTextSize != "0" ]; then
+    echo "ERROR in $audioFile"
+    exit 2
+else
+    egrep '(^width|^height|sample_rate|^size|^duration=|^nb_frames)' /tmp/$basename
+fi
+
+
