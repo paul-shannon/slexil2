@@ -891,7 +891,10 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a624"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>Speakers are Ḵʼasa See Anita Wright,Daasdiyáa Ethel Makinen and Koolyéik Roberta Littlefield. Recorded November 29, 2007 at Blatchly Middle School in Sitka, Alaska, by LjáaḵkʼAlice Taff and Koolyéik Roberta Littlefield.  </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Speakers are Ḵʼasa See Anita
+                Wright,Daasdiyáa Ethel Makinen and Koolyéik Roberta
+                Littlefield. Recorded November 29, 2007 at Blatchly
+                Middle School in Sitka, Alaska, by Ljáaḵkʼ Alice Taff and Koolyéik Roberta Littlefield.  </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3521,12 +3524,12 @@
         PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1438" ANNOTATION_REF="a624">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities. </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1684" ANNOTATION_REF="a1682">
-                <ANNOTATION_VALUE>SYMBOLS: {false start}, (added for clarity), [translator/transcriber's note]. ??? = can’t understand, «Lingít quotation marks»     Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>

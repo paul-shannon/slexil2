@@ -994,17 +994,17 @@
         <TIME_SLOT TIME_SLOT_ID="ts979" TIME_VALUE="1955346"/>
         <TIME_SLOT TIME_SLOT_ID="ts980" TIME_VALUE="1959282"/>
     </TIME_ORDER>
-    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Utterance">
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5110"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities. </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Speakers are Gax̱daakashú Joe Hotch, Sháayi Éesh Smith Katzeek, and G̱uneiwtí Marsha Hotch.  Recorded on October 31, 2007, at the Alaska Native Sisterhood Hall, Klukwan, AK, by Ljáaḵkʼ Alice Taff and Katrina Hotch.</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5111"
                 TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
-                <ANNOTATION_VALUE>SYMBOLS: {false start}, (added for clarity), [translator/transcriber's note]. ??? = can’t understand, «Lingít quotation marks»     Time-aligned text entry was accomplished using the software, ELAN (Versions 6.0 (2020) and 6.1 (2021)). Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Tlingit transcription by Shaag̱aw Éesh Devlin Anderstrom. English translation by Sháayi Éesh Smith Katzeek, Gax̱daakashú Joe Hotch, Shakʼsháani Marge Dutson, Kaséix̱ Selina Everson, with Ljáaḵkʼ Alice Taff. X̱ʼaagi Sháawu Keri Edwards and Ḵaachkoo.aaḵw Helen Sarabia. Edited by X̱ʼaagi Sháawu Keri Eggleston.</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -3936,15 +3936,15 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="utterance" PARENT_REF="Utterance" TIER_ID="translation">
+    <TIER LINGUISTIC_TYPE_REF="utterance" PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5600" ANNOTATION_REF="a5110">
-                <ANNOTATION_VALUE>Speakers are Gax̱daakashú Joe Hotch, Sháayi Éesh Smith Katzeek, and G̱uneiwtí Marsha Hotch.  Recorded on October 31, 2007, at the Alaska Native Sisterhood Hall, Klukwan, AK, by Ljáaḵkʼ Alice Taff and Katrina Hotch. </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5601" ANNOTATION_REF="a5111">
-                <ANNOTATION_VALUE>Tlingit transcription by Shaag̱aw Éesh Devlin Anderstrom. English translation by Sháayi Éesh Smith Katzeek, Gax̱daakashú Joe Hotch, Shakʼsháani Marge Dutson, Kaséix̱ Selina Everson, with Ljáaḵkʼ Alice Taff. X̱ʼaagi Sháawu Keri Edwards and Ḵaachkoo.aaḵw Helen Sarabia. Edited by X̱ʼaagi Sháawu Keri Eggleston.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -6390,7 +6390,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="utterance" PARENT_REF="Utterance" TIER_ID="Speaker Initials">
+    <TIER LINGUISTIC_TYPE_REF="utterance" PARENT_REF="utterance" TIER_ID="Speaker Initials">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a6090" ANNOTATION_REF="a5110">
                 <ANNOTATION_VALUE>JH = Gax̱daakashú Joe Hotch. SK = Sháayi Éesh Smith Katzeek. MH = G̱uneiwtí Marsha Hotch.</ANNOTATION_VALUE>

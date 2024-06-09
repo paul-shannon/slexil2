@@ -1675,7 +1675,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts1663" TIME_VALUE="2515986"/>
         <TIME_SLOT TIME_SLOT_ID="ts1664" TIME_VALUE="2517777"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utteranceALL">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6597"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -6670,15 +6670,15 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="utteranceALL" TIER_ID="translationALL">
+        PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a8168" ANNOTATION_REF="a6597">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.  Foundation or National Endowment for the Humanities.  </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a8225" ANNOTATION_REF="a8222">
-                <ANNOTATION_VALUE>SYMBOLS: Brackets = {false start}, (added for clarity), [translator/transcriber's note]. ??? = canʼt understand. «quotation marks for Tlingit text (so as not to be confused with Tlingit ʼ)»        [Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan]</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>

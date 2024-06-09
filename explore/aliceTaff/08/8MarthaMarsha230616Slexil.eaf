@@ -1413,7 +1413,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts1401" TIME_VALUE="2171621"/>
         <TIME_SLOT TIME_SLOT_ID="ts1402" TIME_VALUE="2174045"/>
     </TIME_ORDER>
-    <TIER ANNOTATOR="Marsha" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Utterance">
+    <TIER ANNOTATOR="Marsha" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2442"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -5624,10 +5624,10 @@
         </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="Marsha" DEFAULT_LOCALE="en"
-        LINGUISTIC_TYPE_REF="Translation" PARENT_REF="Utterance" TIER_ID="Translation">
+        LINGUISTIC_TYPE_REF="translation" PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2465" ANNOTATION_REF="a2442">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5637,7 +5637,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2466" ANNOTATION_REF="a2462">
-                <ANNOTATION_VALUE>SYMBOLS: {false start}. [translator/transcriber's note]. (added for clarity). ??? = canʼt understand. «quotation marks for Tlingit text».     Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -9137,8 +9137,8 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Translation"
-        PARENT_REF="Utterance" TIER_ID="Speaker Initials">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="Speaker Initials">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2549" ANNOTATION_REF="a2442">
                 <ANNOTATION_VALUE>ḴMVH = Ḵaajisti Martha VanHeel. G̱MH = G̱uneiwtí Marsha Hotch. LTIC = La.óos Tláa Ida Calmegane.     KDS = Kóox̱ʼ David Strong. ḴHS = Ḵaachkoo.aaḵw Helen Sarabia.</ANNOTATION_VALUE>
@@ -12649,9 +12649,9 @@
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
-        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Utterance" TIME_ALIGNABLE="true"/>
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
-        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Translation" TIME_ALIGNABLE="false"/>
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
     <CONSTRAINT
         DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
