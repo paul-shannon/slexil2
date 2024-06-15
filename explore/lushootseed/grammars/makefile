@@ -1,4 +1,4 @@
-PROJECT = grammar1
+PROJECT = grammar2
 EAF = $(PROJECT).eaf
 HTML.FILE = $(PROJECT).html
 
