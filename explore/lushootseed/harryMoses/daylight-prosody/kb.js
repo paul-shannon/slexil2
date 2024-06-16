@@ -2,6 +2,30 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ɬu=ad=s=ʔəƛ’–txʷ":
+`_ɬu=ad=s=ʔəƛ’–txʷ_:
+- IRR=2SG.PO=NM=come–ECS
+- will bring [it]
+
+Thom's "Lushootseed Reader with Introductory Grammar", Volume 1, p3 addresses
+this verb.  I returned to that treatment with a question:  this word
+sounds to me like <b><i>SLAWDS.oat</i></b> - with _ʔux̌ʷ_ as (it seems to me)
+the most common morpheme to express went/took-to-destination,
+with _ʔəƛ'_ variably expressing brought/came.   I am confused, unable to
+distinguish a clear contrast in this set of overlapping meanings.
+
+In any case, perhaps this difference is elided
+in Harry Moses's Upper Skagit dialect, either generally, or in this instance.
+
+- _ʔuʔux̌ʷ ti č'ač'as_  &nbsp; &nbsp; The boy went.
+- _ʔuʔux̌ʷtxʷ ti č'ač'as_  &nbsp; &nbsp; [Someone] took the boy somewhere.
+- _ʔuʔəƛ'ʷtxʷ ti č'ač'as_ &nbsp; &nbsp; [Someone] brought the boy.
+- _ʔut'uk'ʷ ti č'ač'as_  &nbsp; &nbsp;  The boy went home.
+- _ʔut'uk'ʷtxʷ ti č'ač'as_ &nbsp; &nbsp;  [Someone] took the boy home.
+- _ʔuʔəƛ' ti č'ač'as_ &nbsp; &nbsp; The boy came.
+
+`,
+
 "ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ":
 `
 _ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ_
