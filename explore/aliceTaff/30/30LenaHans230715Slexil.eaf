@@ -1632,12 +1632,12 @@
     <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="translation" TIER_ID="utterance">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a535" ANNOTATION_REF="a364">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant 0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator, and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities. </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a536" ANNOTATION_REF="a365">
-                <ANNOTATION_VALUE>SYMBOLS: {false start}. [translator/transcriber's note]. (added for clarity). ??? = canʼt understand. «quotation marks for Tlingit text». </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
