@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-05-15T12:13:36-09:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-01-09T14:22:52-09:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/CookIt.m4v"
-            MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./CookIt.m4v"/>
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/CookIt.m4v" MIME_TYPE="unknown"/>
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/ataff/Documents/266286-19NEH/17Cook/Cook.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./Cook.wav"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:689ee722-310a-4449-aa0d-0d2928e1b6bd</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">130</PROPERTY>
     </HEADER>
@@ -14,51 +16,51 @@
         <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="204"/>
         <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="219"/>
         <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="390"/>
-        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="430"/>
         <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="2500"/>
         <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="2558"/>
-        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="5166"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="4980"/>
         <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="5166"/>
-        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="7921"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="7780"/>
         <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="7921"/>
-        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="9038"/>
-        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="9038"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="9140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="9180"/>
         <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="10458"/>
         <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="11120"/>
-        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="13320"/>
-        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="13320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="13440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="13510"/>
         <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="15431"/>
-        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="15431"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="15750"/>
         <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="16486"/>
-        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="16486"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="17400"/>
         <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="19640"/>
-        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="19640"/>
-        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="22560"/>
-        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="22560"/>
-        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="24006"/>
-        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="24006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="20150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="22790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="22970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="24008"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="24100"/>
         <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="24560"/>
         <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="28456"/>
         <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="30031"/>
-        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="30031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="30284"/>
         <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="30761"/>
         <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="31611"/>
-        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="32171"/>
-        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="32171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="32260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="32260"/>
         <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="32691"/>
         <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="33573"/>
         <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="34543"/>
-        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="34543"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="34758"/>
         <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="36663"/>
         <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="40391"/>
         <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="42211"/>
-        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="42211"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="42449"/>
         <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="43911"/>
-        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="43911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="44329"/>
         <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="49530"/>
-        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="49530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="51569"/>
         <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="54086"/>
-        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="54458"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="54208"/>
         <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="57525"/>
     </TIME_ORDER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
@@ -70,13 +72,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a100"
-                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
                 <ANNOTATION_VALUE>Recorded by Ljáaḵkʼ Alice Taff. Tlingit transcription by Naakil.aan Mark Hans Chester. English translation by Shakwsháani Margaret Dutson and Ljáaḵkʼ Alice Taff. Edited by X̱ʼaaki Sháawu Keri Eggleston and Kaachkoo.aakw Helen Sarabia. </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a95"
-                TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
                 <ANNOTATION_VALUE>Yaa kanajúx áwé.</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -185,7 +187,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70"
                 TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
-                <ANNOTATION_VALUE>K'idéin áwé wutoox̱áa. [Probably meant: K'idéin áwé at wutuwax̱áa.]</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>K'idéin áwé wutoox̱áa. [Or: K'idéin áwé at wutuwax̱áa.]</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -217,12 +219,12 @@
         PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a99">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant 0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator, and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a100">
-                <ANNOTATION_VALUE>SYMBOLS: {false start}, (added for clarity), [translator/transcriber's note]. ??? = can’t understand, «Lingít quotation marks»   Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -302,7 +304,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a67">
-                <ANNOTATION_VALUE>and</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>And</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
