@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-07-13T21:14:59-09:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-12-20T10:59:28-08:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/15LillianAnita.m4v"
-            MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./15LillianAnita.m4v"/>
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/15LillianAnita.m4v" MIME_TYPE="unknown"/>
         <MEDIA_DESCRIPTOR
             MEDIA_URL="file:///Users/ataff/Documents/266286-19NEH/15LillianAnita/15LillianAnita.wav"
             MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./15LillianAnita.wav"/>
@@ -1284,7 +1283,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3014"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>Speakers are Saḵaayí Anita Lafferty and Yaxduláx̱tʼ Lillian Austin, two sisters. Recorded May 18, 2010, by Ljáaḵkʼ Alice Taff and Liana Wallace at the Lafferty home in Juneau, Alaska.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Speakers are Saḵaayí Anita Lafferty and Yax̱duláktʼ Lillian Austin, two sisters. Recorded May 18, 2010, by Ljáaḵkʼ Alice Taff and Liana Wallace at the Lafferty home in Juneau, Alaska.</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1326,7 +1325,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1620"
                 TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
-                <ANNOTATION_VALUE>Yaxduláx̱ktʼ yóo x̱at duwasáakw,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yax̱duláktʼ yóo x̱at duwasáakw,</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1368,7 +1367,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1627"
                 TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
-                <ANNOTATION_VALUE>Ax̱ shátx̱ix̱ áyá sitee yáat'aa, Yaxduláx̱tʼ ḵu.aa.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Ax̱ shátx̱ix̱ áyá sitee yáat'aa, Yax̱duláktʼ ḵu.aa.</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1404,7 +1403,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1633"
                 TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
-                <ANNOTATION_VALUE>Yaxduláx̱tʼ ḵa x̱át, Saḵaayí,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yax̱duláktʼ ḵa x̱át, Saḵaayí,</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5084,7 +5083,7 @@
         PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3021" ANNOTATION_REF="a3014">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5094,7 +5093,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3019" ANNOTATION_REF="a3016">
-                <ANNOTATION_VALUE>SYMBOLS: Brackets = {false start}, (added for clarity), [translator/transcriber's note]. ??? = canʼt understand. «quotation marks for Tlingit text (so as not to be confused with Tlingit ʼ)»     Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5119,7 +5118,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2296" ANNOTATION_REF="a1620">
-                <ANNOTATION_VALUE>My name is Yaxduláx̱ktʼ,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>My name is Yax̱duláktʼ,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5154,7 +5153,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2303" ANNOTATION_REF="a1627">
-                <ANNOTATION_VALUE>This one is my older sister, Yaxduláx̱tʼ. </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>This one is my older sister, Yax̱duláktʼ. </ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -5184,7 +5183,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2309" ANNOTATION_REF="a1633">
-                <ANNOTATION_VALUE>Yaxduláx̱tʼ and I, Saḵaayí,</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Yax̱duláktʼ and I, Saḵaayí,</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -8252,7 +8251,7 @@
         PARENT_REF="utterance" TIER_ID="Speaker Initials">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3022" ANNOTATION_REF="a3014">
-                <ANNOTATION_VALUE>SAL = Saḵaayí Anita Lafferty.    YLA = Yaxduláx̱ktʼ Lillian Austin. LAT = Ljáaḵkʼ Alice Taff.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>SAL = Saḵaayí Anita Lafferty.    YLA = Yax̱duláktʼ Lillian Austin. LAT = Ljáaḵkʼ Alice Taff.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
