@@ -661,7 +661,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts649" TIME_VALUE="1074848"/>
         <TIME_SLOT TIME_SLOT_ID="ts650" TIME_VALUE="1083590"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Utterance">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1422"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -2614,7 +2614,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="Utterance" TIER_ID="Translation">
+        PARENT_REF="utterance" TIER_ID="translation">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1424" ANNOTATION_REF="a1422">
                 <ANNOTATION_VALUE/>
@@ -2627,12 +2627,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a691" ANNOTATION_REF="a462">
-                <ANNOTATION_VALUE>This material is based on work supported by National Science Foundation grant BCS-0853788 to the University of Alaska Southeast with Ljáaḵkʼ Alice Taff as Principal Investigator and by National Endowment for the Humanities fellowship 266286-19 to Ljáaḵkʼ Alice Taff. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or National Endowment for the Humanities.    </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a922" ANNOTATION_REF="a919">
-                <ANNOTATION_VALUE>SYMBOLS: {false start}. (added for clarity). [translator/transcriber's note]. ??? = can’t understand. «Lingít quotation marks».    Time-aligned text entry was accomplished using the software, ELAN (Versions 6.0 (2020) and 6.1 (2021)). Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -4242,7 +4242,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="Utterance" TIER_ID="Speaker Initials">
+        PARENT_REF="utterance" TIER_ID="Speaker Initials">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1426" ANNOTATION_REF="a1422">
                 <ANNOTATION_VALUE>ShÉSK</ANNOTATION_VALUE>
@@ -5870,7 +5870,7 @@
         </ANNOTATION>
     </TIER>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
-        PARENT_REF="Utterance" TIER_ID="My Notes-cp">
+        PARENT_REF="utterance" TIER_ID="My Notes-cp">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a1467" ANNOTATION_REF="a472">
                 <ANNOTATION_VALUE/>
