@@ -419,13 +419,13 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a364"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>Speakers are Achkwéi  Lena Farkas and Naakil.aan Mark Hans Chester. Recorded July 20, 2010 at the home of Achkwéi  in Yakutat, Alaska, by Ljáaḵkʼ Alice Taff.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a365"
                 TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
-                <ANNOTATION_VALUE>Transcription by Shag̱áaw Éesh Devlin Anderstrom. English translation by Shák’sháani Margaret Dutson with Ljáaḵkʼ Alice Taff. Edited by X̱’aagi Sháawu Keri Eggleston.</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1632,12 +1632,12 @@
     <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="translation" TIER_ID="utterance">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a535" ANNOTATION_REF="a364">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Speakers are Achkwéi  Lena Farkas and Naakil.aan Mark Hans Chester. Recorded July 20, 2010 at the home of Achkwéi  in Yakutat, Alaska, by Ljáaḵkʼ Alice Taff.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a536" ANNOTATION_REF="a365">
-                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Transcription by Shag̱áaw Éesh Devlin Anderstrom. English translation by Shák’sháani Margaret Dutson with Ljáaḵkʼ Alice Taff. Edited by X̱’aagi Sháawu Keri Eggleston.</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
