@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-05-05T14:06:06-09:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/83VanRescue.m4v"
+            MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./83VanRescue.m4v"/>
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/ataff/Documents/266286-19NEH/83bVanRescue/83VanRescue.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./83VanRescue.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:8aad354a-434e-4d48-8974-6cc84ca448b3</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">42</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="30"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="8010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="8140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="13573"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="13573"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="19080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="19080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="24590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="24720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="30646"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="30646"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="38540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="38540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="45220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="45220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="51686"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="51800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="67880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="67880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="69026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="69026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="75820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="75820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="82780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="82780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="89200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="89200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="105740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="105740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="106962"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="106962"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="112800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="112800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="118555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="118555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="124560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="124560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="146040"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>wjiḵaak wé kaa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Lʼéiw tóode wjiḵaak wé kaa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Singers are Ḵudeik Joe Thomas, K’aanáḵ Ruth Demmert, L’eiwtu Éesh Herman Davis and Kawduk’eit Tláa Vida Davis. Video recorded July 11, 2012 on the beach in Yakutat by Ljáaḵkʼ Alice Taff. Audio recorded July 11, 2012 at Alaska Native Brotherhood Hall in Yakutat, AK,  by Ljáaḵkʼ Alice Taff.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>He, he, hei, heiyaa, aa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>He, he, hei, heiyaa, aa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Hásch áwé a daa yéi has jeewanei.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Hásch áwé adaa yéi has jeewanei. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Hásch áwé adaa yéi has jeewanei. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Hásch áwé adaa yéi has jeewanei. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>He, he, hei, hiyaa, aa.  Hey, come on you guys. Everybody...  He, he, hei, hiyaa, aa. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>Yaakwdáat Ḵwáan,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>Yaakwdáat Ḵwáan ḵa Jóonu ḵu.oo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>Yaakwdáat Ḵwáan ḵa Jóonu ḵu.oo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Yaakwdáat Ḵwáan ḵa Jóonu ḵu.oo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>He, he, hei, hiyaa, aa.  He, he, hei, hiyaa, aa.  He, he, hei, hiyaa, aa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>Wéi táaxʼaa,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Wéi táaxʼaa naytʼácht yee daadáx̱.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Wéi táaxʼaa naytʼácht yee daadáx̱.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>Wéi táaxʼaa naytʼácht yee daadáx̱.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>He, he, hei, hiyaa, aa.  He, he, hei, hiyaa, aa.  He, he, hei, hiyaa, aa.  He, he, hei, hiyaa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>the car sank.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>The car sank into the sand.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>Tlingit transcription by Ḵaanáḵ Ruth Demmert. English translation by the singers. Edited by Shag̱aaw Éesh Devlin Anderstrom.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Theyʼre the ones who worked on it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Theyʼre the ones who worked on it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Thatʼs why they were working on it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Theyʼre the ones who worked on it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Yakutat people and Juneau residents.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Yakutat people and Juneau residents.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Yakutat people and Juneau residents.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Yakutat people and Juneau residents.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Those mosquitoes,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>slap those mosquitoes from your bodies.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Slap those mosquitoes from your bodies.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Slap those mosquitoes from your body.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
