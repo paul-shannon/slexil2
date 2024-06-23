@@ -1,40 +1,8 @@
+LANGUAGE = tlingit
 EAF = 13-14MargaretMarsha230503Slexil.eaf
 VID = 13-14MargaretMarsha.m4v
 HTML.FILE = 13-14MargaretMarsha.html
+TITLE = "Tlingit Conversation \#13-14"
 
-default:
-	@echo movieCurl
-	@echo valid
-	@echo venv
-	@echo html
-	@echo publish
-	@echo view
-	@echo viewRemote
 
-venv:
-	@echo source /Users/paul/github/slexil2/py3105/bin/activate
-
-valid:
-	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
-
-movieCurl:
-	curl -I https://slexildata.artsrn.ualberta.ca/tlingit/$(VID)
-
-html:
-	python ../../../utils/eaf2html.py  \
-	                     --eaf $(EAF) \
-                        --tierGuide tierGuide.yaml \
-                        --helpFile ../help.html \
-                        --helpButtonLabel "How To" \
-                        --pageTitle "Tlingit Conversation #13-14" \
-                        --fixOverlappingTimeSegments \
-	                     --fontSizeControls
-
-publish:
-	scp index.html pshannon@206.12.95.4:www/tlingit/$(HTML.FILE)
-
-view:
-	open index.html
-
-viewRemote:
-	open https://slexildata.artsrn.ualberta.ca/tlingit/$(HTML.FILE)
+include ../makefile-shared
