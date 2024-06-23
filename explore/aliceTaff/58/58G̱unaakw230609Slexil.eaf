@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-06-09T10:25:34-09:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="https://slexildata.artsrn.ualberta.ca/tlingit/58G̱unaakw1008.m4v"
+            MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./58G̱unaakw1008.m4v"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:8f29a48c-d9c6-4c6b-8643-6c827a1ace7e</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">351</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="2130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="2130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="5690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="7510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="7510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="13440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="13440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="21000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="21000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="28120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="28120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="36690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="36690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="43250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="43250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="47110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="47110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="52130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="52130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="53990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="53990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="56381"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="56381"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="60449"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="60449"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="63074"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="63074"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="66119"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="66119"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="71430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="71430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="75414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="75414"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="79340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="79340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="86280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="86280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="90940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="90940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="96120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="96120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="99816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="99816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="102554"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="102554"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="106885"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="106885"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="110580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="110580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="115170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="115170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="118225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="118225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="121554"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="121554"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="128290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="128290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="136420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="136420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="142220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="142220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="147920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="147920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="155140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="155140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="159590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="159590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="163226"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="163226"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="172517"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="172517"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="175241"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="175241"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="179679"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="179679"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="184470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="184470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="187690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="187690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="191280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="191280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="193700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="193700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="196945"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="196945"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="204542"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="204542"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="207380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="207380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="211083"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="211083"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="216650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="216650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="221880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="221880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="224750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="224750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="229804"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="229807"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="237550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="237550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="241500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="241500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="243705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="243705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="246553"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="246553"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="249969"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a228"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>(Yoo x̱at) duwasáakw Lingít x̱ʼeinax̱.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a109"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Iʼm called, uh, G̱unaakʼw in Tlingit.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>My name is Fred White.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Aa yáatʼát áyáa ax̱ tuwáa sigóo a daat yóo x̱ʼax̱wataanée yáa x̱wsiteeni át.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Yáa déex̱ táakw shoowaxeex de, yáa Yaakwdáatxʼ ḵúnáx̱ ḵuyawutʼaayée.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a113"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Yóo Sʼitáḵxʼ ḵa Aan Tleinxʼ áyá ax̱asg̱eiwú nuch. Am.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a114"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>At Gadax̱íttʼ Dísi kát áwé kootlʼéetʼaa haax̱ kalyeech.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a115"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Yóo naaliyéidáx̱ yáa, lingitʼaaní tayeedáx̱ haax̱ kalyeech.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Dleit ḵáa x'éináx̱ Antarctica yóo duwasáakw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a117"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>Áwé has x̱wusiteen, ah,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a232"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>ḵutaan kaanáx̱.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a257"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>Ḵuyaawatʼáa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a118"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>Á áwé kootl'éetʼaa kʼwátʼig̱áa wtuwa.aat Sʼitáḵde.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a258"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>Aan Tleinx' tlákw áx̱ too.aat</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a259"
+                TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts31">
+                <ANNOTATION_VALUE>katoodatxʼu nuch.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a119"
+                TIME_SLOT_REF1="ts30" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>Áwé wáa sáyóo wé kootlʼéetʼaa s awsikóo ḵuyakg̱watʼaayée?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a120"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Tle yóo naakéexʼ áwé has awdlikʼwátʼ wé chookán x̱ooxʼ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a260"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Tsʼootaatxʼ áwé yaklahéen nuch.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a121"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>Á áwé átx̱ has awliyéx̱ wéi chookán daatx̱ wé héen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a262"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>Wé hasdu kʼwátʼi hél kakg̱washtóok.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a122"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>Am, ax̱ léelkʼwch áwé ax̱ een kaawaneek</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a264"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>wéi ḵutaanx'</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a123"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>ch'a yákʼwdáx̱ séew daak wustaaní,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a265"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>kéidladee k'wátʼi kakg̱washtóok yís.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a266"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>Kang̱ashtóogu yís áwé daak ustaanch.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a124"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>Ách áwé yawx̱aatín wé aadé yaa naneen yé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a125"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>Wáa sá s awsikóo wé kootl'éet'aa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a268"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>ḵuyakg̱watʼaayée wé ḵutaan ḵaanáx̱?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a126"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>Á áwé hasdu ah, kúdee naakéexʼ yéi s awsinee wé chookán x̱ooxʼ.   </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a127"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>Ḵa {wéi} yá Dís Yádi yawux̱eeyée áwé,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a270"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>cháasʼ atoosg̱eiwú yú naakéexʼ. [naatéexʼ?]</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a128"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>Á áwé wtusiteen wé atgutóodáx̱ daak uwagut xóots, du yádi teen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a129"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>De Dís Yádi áwé, September yát áwé, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a272"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>ch'oo yéi has kudzigéink' wé {a yá} wé xóots yádi.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a130"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>At Gadax̱íttʼ Dísi kát ḵug̱asteech át áwé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a131"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>De {chʼa yeis de násʼk táakw} nás'k dís áwé shoowaxeex      </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a350"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>ag̱aa has ḵugasteech yé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a273"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>á áwé ch'oo yéi has kudzigéi.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a133"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>Á áwé tsóo haa yáa ḵut woonee, chʼa yeisóos ḵuwdzitiyi át áwé de</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a275"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>Dís Yádi, dleit ḵáa x̱ʼéináx̱ September yéi duwasáakw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a276"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>Aag̱áa áwé daak uwa.át wé xóots du yádi teen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a134"
+                TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>Ḵa wéi a,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a277"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>shákwg̱aa áyá tsóo wtuwaḵoox̱ yáa ḵutaan.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a135"
+                TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>De am, Shaaxʼw Xeiyí Dísi kát áwé, August,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a278"
+                TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>wutusiteen g̱uwakaan.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a136"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>Wé ax̱ keidlí áwé a kát wujikʼén wé a yádi.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a279"
+                TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>Á áwé át wujixíx. Wé a yádi ḵwaawé chʼa yeisú ḵuwdzitiyéyáx̱ áwé duwatéen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a137"
+                TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>Wéi dleit yáx̱ kayateeyi át áwé du daakáa wootee, chʼa yeisú ḵuwdzitee.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a138"
+                TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>Ch'a August ḵu.aa áyá.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a282"
+                TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>Hás tsú June yát áwé has kustee nuch.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a139"
+                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>Yéi áwé at wutusiteen yá, yá taakw, yáa haa ḵutí teen aadé yaa naneen yé.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a348"
+                TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>Yáa haa aanée kát woo.aadée atgutu.ádi.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a141"
+                TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>Yéi áwé sh kakḵwalneek. Gunalchéesh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a344"
+                TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
+                <ANNOTATION_VALUE>Speaker is G̱unaakʼw Fred White. Recorded Oct 8, 2008, in Yakutat, Alaska, by Ḵaa Saayí Tláa Amanda Porter.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a345"
+                TIME_SLOT_REF1="ts109" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>Tlingit transcription and English translation by Ḵaa Saayí Tláa Amanda Porter.  Edited by Shag̱aaw Éesh Devlin Anderstrom.        Time-aligned text for this video was accomplished using ELAN ((Versions 6.0 (2020), 6.1 (2021), and 6.3 (2022) [Computer software].  Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="symbolic association"
+        PARENT_REF="utterance" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a229" ANNOTATION_REF="a228">
+                <ANNOTATION_VALUE>(I) am called in Lingít.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a109">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a153" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a154" ANNOTATION_REF="a111">
+                <ANNOTATION_VALUE>So, I would like to talk about what I have seen.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a155" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>Two years have passed now, since the weather here in Yakutat got very hot.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a113">
+                <ANNOTATION_VALUE>I setnet fish in the Situk and Ahrnklin rivers. Um.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a157" ANNOTATION_REF="a114">
+                <ANNOTATION_VALUE>In May [breeding month], the arctic terns usually fly up here.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a158" ANNOTATION_REF="a115">
+                <ANNOTATION_VALUE>From very far away, they fly here from the underside of the Earth.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a159" ANNOTATION_REF="a116">
+                <ANNOTATION_VALUE>In English it's called Antarctica.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a160" ANNOTATION_REF="a117">
+                <ANNOTATION_VALUE>Well I saw them, uh,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a316" ANNOTATION_REF="a232">
+                <ANNOTATION_VALUE>throughout the summer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a317" ANNOTATION_REF="a257">
+                <ANNOTATION_VALUE>The weather was hot.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a161" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>So we went out to Situk to gather tern eggs.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a318" ANNOTATION_REF="a258">
+                <ANNOTATION_VALUE>We always walk around over at Ahrnklin</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a319" ANNOTATION_REF="a259">
+                <ANNOTATION_VALUE>???</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a119">
+                <ANNOTATION_VALUE>Now how did the terns know that the weather was going to be hot?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a163" ANNOTATION_REF="a120">
+                <ANNOTATION_VALUE>They nested further up the river where all the beach grass was growing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a320" ANNOTATION_REF="a260">
+                <ANNOTATION_VALUE>In the morning, the surface (of the grass) would  have dew on it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a164" ANNOTATION_REF="a121">
+                <ANNOTATION_VALUE>So they used the water that was on the beach grass.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a322" ANNOTATION_REF="a262">
+                <ANNOTATION_VALUE>Their eggs wouldnʼt crack.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a165" ANNOTATION_REF="a122">
+                <ANNOTATION_VALUE>Um, my grandfather told me</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a324" ANNOTATION_REF="a264">
+                <ANNOTATION_VALUE>that in the summer</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a166" ANNOTATION_REF="a123">
+                <ANNOTATION_VALUE>when we have a sudden downpour of rain,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a325" ANNOTATION_REF="a265">
+                <ANNOTATION_VALUE>itʼs so the seagull eggs can crack.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a326" ANNOTATION_REF="a266">
+                <ANNOTATION_VALUE>It rains so that they can crack.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a167" ANNOTATION_REF="a124">
+                <ANNOTATION_VALUE>Thatʼs why I recognized what was happening.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a168" ANNOTATION_REF="a125">
+                <ANNOTATION_VALUE>How did those terns know</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a328" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>that we were going to have a hot summer?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a169" ANNOTATION_REF="a126">
+                <ANNOTATION_VALUE>So they uh, made their nests farther up among the beach grass.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a170" ANNOTATION_REF="a127">
+                <ANNOTATION_VALUE>And as the month of September [child moon] goes by,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a330" ANNOTATION_REF="a270">
+                <ANNOTATION_VALUE>we fish humpies upriver.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a171" ANNOTATION_REF="a128">
+                <ANNOTATION_VALUE>Thatʼs when we saw this bear that came down out of the woods with her cubs.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a172" ANNOTATION_REF="a129">
+                <ANNOTATION_VALUE>It was September at that time, it was during September,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a332" ANNOTATION_REF="a272">
+                <ANNOTATION_VALUE>those bear cubs were still pretty small.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a173" ANNOTATION_REF="a130">
+                <ANNOTATION_VALUE>They're usually born in the month of May.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a174" ANNOTATION_REF="a131">
+                <ANNOTATION_VALUE>Three months had all ready gone by</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a351" ANNOTATION_REF="a350">
+                <ANNOTATION_VALUE>since they should have been born.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a333" ANNOTATION_REF="a273">
+                <ANNOTATION_VALUE>but they were still small. [They should have been bigger.]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a133">
+                <ANNOTATION_VALUE>That really shocked us too, that they were tiny cubs yet.  [That they were things that had just been born.]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a335" ANNOTATION_REF="a275">
+                <ANNOTATION_VALUE>in September, what they call September in English.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a336" ANNOTATION_REF="a276">
+                <ANNOTATION_VALUE>Thatʼs when that bear walked down with her cubs.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a134">
+                <ANNOTATION_VALUE>And the um,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a337" ANNOTATION_REF="a277">
+                <ANNOTATION_VALUE>we went out on the boat for strawberries in the summer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a135">
+                <ANNOTATION_VALUE>It was um, Mountain Shadow Moon [when the mountains cast shadows on Tlingit Country], August,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a338" ANNOTATION_REF="a278">
+                <ANNOTATION_VALUE>we saw deer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a179" ANNOTATION_REF="a136">
+                <ANNOTATION_VALUE>My dog jumped on its fawn.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a339" ANNOTATION_REF="a279">
+                <ANNOTATION_VALUE>Then it took off running. Itʼs fawn though, it looked like it had just been born.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a180" ANNOTATION_REF="a137">
+                <ANNOTATION_VALUE>Those little round white things were covering itʼs body, it had just been born.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a181" ANNOTATION_REF="a138">
+                <ANNOTATION_VALUE>But it was in August.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a342" ANNOTATION_REF="a282">
+                <ANNOTATION_VALUE>They are also usually born in June.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a139">
+                <ANNOTATION_VALUE>This is what we have seen this year (2008) with what is happening with our weather here.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a349" ANNOTATION_REF="a348">
+                <ANNOTATION_VALUE>The animals that live on our land.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a184" ANNOTATION_REF="a141">
+                <ANNOTATION_VALUE>That is all of the story I am going to tell. Thank you.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a346" ANNOTATION_REF="a344">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a347" ANNOTATION_REF="a345">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="text" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="unit" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="symbolic association" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
