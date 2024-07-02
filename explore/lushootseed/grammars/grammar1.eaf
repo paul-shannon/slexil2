@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<ANNOTATION_DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERSION="2.8" FORMAT="2.8" AUTHOR="Paul Shannon" DATE="2024-05-01T13:54:54" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+<ANNOTATION_DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERSION="2.8" FORMAT="2.8" AUTHOR="Paul Shannon" DATE="2024-05-29T15:11:36" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
       <MEDIA_DESCRIPTOR MEDIA_URL="grammar1.wav" MIME_TYPE="audio/wav"/>
    </HEADER>
@@ -57,17 +57,17 @@
       </ANNOTATION>
       <ANNOTATION>
          <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts11">
-            <ANNOTATION_VALUE>ɬ  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.</ANNOTATION_VALUE>
+            <ANNOTATION_VALUE>ɬ:  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.</ANNOTATION_VALUE>
          </ALIGNABLE_ANNOTATION>
       </ANNOTATION>
       <ANNOTATION>
          <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts13">
-            <ANNOTATION_VALUE>q   ?uqada tə dqəqsuʔ ʔə tə qəlx̌.</ANNOTATION_VALUE>
+            <ANNOTATION_VALUE>q:   ?uqada tə dqəqsuʔ ʔə tə qəlx̌.</ANNOTATION_VALUE>
          </ALIGNABLE_ANNOTATION>
       </ANNOTATION>
       <ANNOTATION>
          <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts14" TIME_SLOT_REF2="ts15">
-            <ANNOTATION_VALUE>xʷ  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad.</ANNOTATION_VALUE>
+            <ANNOTATION_VALUE>xʷ:  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad.</ANNOTATION_VALUE>
          </ALIGNABLE_ANNOTATION>
       </ANNOTATION>
       <ANNOTATION>
@@ -153,8 +153,71 @@
          </REF_ANNOTATION>
       </ANNOTATION>
    </TIER>
+   <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="soundsLike" PARENT_REF="lushootseed" TIER_ID="soundsLike">
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a1">
+            <ANNOTATION_VALUE>stahb u-wu tee?eeɬ</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a2">
+            <ANNOTATION_VALUE>(spahts)</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a3">
+            <ANNOTATION_VALUE>(sqa-gwuts)</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a4">
+            <ANNOTATION_VALUE>(s-ʔo-lay-dwh)</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a5">
+            <ANNOTATION_VALUE>(bush-chub)</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a6">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a7">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a8">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a9">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a10">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a11">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a12">
+            <ANNOTATION_VALUE/>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+   </TIER>
    <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="speech" TIME_ALIGNABLE="true"/>
    <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="english" TIME_ALIGNABLE="false"/>
+   <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="soundsLike" TIME_ALIGNABLE="false"/>
    <LOCALE LANGUAGE_CODE="tr" VARIANT="STANDARD"/>
    <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
 </ANNOTATION_DOCUMENT>

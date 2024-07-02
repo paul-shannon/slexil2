@@ -1,0 +1,86 @@
+title: Lushootseed Book 1, Lesson 2
+narrator: Thom Hess
+textEntry: Paul Shannon
+mediaFile: grammar02.wav
+mimeType: audio/wav
+
+lines:
+  - lineNumber: 1
+    startTime: 4549
+    endTime: 8081
+    lushootseed: 1. stab əw'ə tiʔiɬ ʔal tə stuləkʷ
+    english:  What is that in the river?
+    soundsLike: (ʔahl tu stō-lukw)
+
+  - lineNumber: 2
+    startTime: 13450
+    endTime: 16431
+    lushootseed: sʔuladxʷ tiʔiɬ
+    english:  That is a salmon.
+    soundsLike:
+
+  - lineNumber: 3
+    startTime: 22659
+    endTime: 25938
+    lushootseed: 2. stab əw'ə tiʔiɬ ʔal tə šəgʷɬ.
+    english:  What is that in/on the road?
+    soundsLike: (shugwɬ)
+
+  - lineNumber: 4
+    startTime: 30266
+    endTime: 32739
+    lushootseed: sqigʷəc tiʔiɬ.
+    english:  That is a deer.
+    soundsLike: 
+
+  - lineNumber: 5
+    startTime: 39728
+    endTime: 44430
+    lushootseed: 3. stab əw'ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
+    english:  What is that on the other side of the river?
+    soundsLike: (dee-ʔō-tseed)
+
+
+  - lineNumber: 6
+    startTime: 49733
+    endTime: 52674
+    lushootseed: bəščəb tiʔiɬ.
+    english:  That is a mink.
+    soundsLike: 
+
+  - lineNumber: 7
+    startTime: 58423
+    endTime:   62844
+    lushootseed: 4. stab əw'ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
+    english:  What is that on the other side of the road?
+    soundsLike: (dee-ʔī-ō-tseed)
+ 
+  - lineNumber: 8
+    startTime: 69095
+    endTime: 71928
+    lushootseed: spaʔc tiʔiɬ.
+    english:  That is a bear.
+    soundsLike: 
+# 
+#   - lineNumber: 
+#     startTime:
+#     endTime: 
+#     lushootseed: 
+#     english:  
+#     soundsLike: 
+# 
+#   - lineNumber: 
+#     startTime:
+#     endTime: 
+#     lushootseed: 
+#     english:  
+#     soundsLike: 
+# 
+#   - lineNumber: 
+#     startTime:
+#     endTime: 
+#     lushootseed: 
+#     english:  
+#     soundsLike: 
+# 
+# 

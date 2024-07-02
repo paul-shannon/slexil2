@@ -23,7 +23,7 @@ Lushootseed sentecne.
 
 It is possible to omit the _əw'ə_ and say simply _stab tiʔiɬ_.
 
-In later lessons (18.1) it will be learned that _əw'ə_can add still other feelings to a sentence.
+In later lessons (18.1) it will be learned that _əw'ə_ can add still other feelings to a sentence.
 `,
 
 "spaʔc tiʔiɬ":
