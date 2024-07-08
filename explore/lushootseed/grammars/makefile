@@ -1,6 +1,6 @@
-PROJECT = grammar02
+PROJECT = grammar
 EAF = $(PROJECT).eaf
-HTML.FILE = $(PROJECT).html
+HTML.FILE = hessAndHilbert.html
 
 default:
 	@echo valid
@@ -19,8 +19,6 @@ venv:
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
 
-curl:
-	curl -I https://slexildata.artsrn.ualberta.ca/lushootseed/$(PROJECT).wav
 
 eaf:
 	python ~/github/yamlToEAF/toEAF.py  $(PROJECT).yaml 
@@ -42,12 +40,13 @@ css:
 	cat index2.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.js,slexil.js, > index3.html
 
 publish:
-	scp index.html pshannon@206.12.95.4:www/misc/$(PROJECT)/
-	scp kb.js pshannon@206.12.95.4:www/misc/$(PROJECT)/
-	scp grammar1.wav pshannon@206.12.95.4:www/misc/$(PROJECT)/
+	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
+	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	scp *.jpg pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	scp grammar-01-02.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
 	open index.html
 
 viewRemote:
-	open https://slexildata.artsrn.ualberta.ca/misc/$(PROJECT)
+	open https://slexildata.artsrn.ualberta.ca/lushootseed/$(PROJECT)/$(HTML.FILE)

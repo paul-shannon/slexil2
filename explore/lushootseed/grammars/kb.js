@@ -1,8 +1,46 @@
 kb = {
 
+"xʷ:  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad.":
+`
+___xʷ___
+
+is something like _wh_ in English _where_ and _who_ but it has a slightly
+more raspy quality.
+`,
+
+
+"q:   ?uqada tə dqəqsuʔ ʔə tə qəlx̌.":
+`
+___q___
+
+The sound representeed by this letter is not known in English.
+It is something like the English __k__ but pronounced rather back in the mouth.
+Listen to the teacher (or recording) carefully.  The following may help the student
+master this sound: With finger against the top of the tongue, gently push it back
+while trying to say __Kay__.  This should produced the sound ___qi___ (_qa_), the first part
+of the word for __deer__.
+`,
+
+
+"ɬ:  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.":
+`
+___ɬ___
+
+
+There is no sound similar to ___ɬ___ in English.  It is made by placing the tongue
+in the same places as if to say __la__ but the vocal cords do not move.  The air
+passes around the side(s) of the tongue.
+
+If the English word __clay__is draw out at the beginning, ___ɬ___ is heard between the ___c-___
+and the ___-lay___.  It sounds something like a lateral lisp.  Some students find it helpful
+to think of it as being ___lh___pronounced together.
+`,
+
 "stab əw'ə tiʔiɬ":
 `
-__stab əw'ə tiʔiɬ__
+___stab əw'ə tiʔiɬ___
+
+Footnote 2.
 
 In slow, deliberate speech, _əw'ə_ is prononoucned _haw'əʔ_ (howʔ-wuʔ).  It is spelled
 here to represent the way it is often said in relaxed talking.
@@ -28,13 +66,25 @@ In later lessons (18.1) it will be learned that _əw'ə_ can add still other fee
 
 "spaʔc tiʔiɬ":
 `
-__spaʔc tiʔiɬ__
+___spaʔc tiʔiɬ___
 
-Notice that the a literal translation  is
+Footnote 3.
+
+Notice that the a literal translation is
 
 "(A) bear that (is)."
 
 Only the Skagit say _spaʔc_.  All other Puget Sound groups say ___sčətxʷəd___ (schut-whud) for bear.
+`,
+
+"sqigʷəc tiʔiɬ":
+`
+___sqigʷəc tiʔiɬ___
+
+Footnote 4.
+
+The teacher may wish to substitute the word __kʷagʷičə__ (_kwah-gwee-chud_)
+_elk_ for __sqigʷəc__ _deer_ thereby avoiding till a later lesson the sound "q".
 `,
 
 "sʔuladxʷ tiʔiɬ":
