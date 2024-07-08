@@ -6,7 +6,8 @@ class TierGuide:
 
   filename = None
   tg = None
-  officialTierNames = ['speech', 'morpheme', 'morphemeGloss', 'translation']
+  officialTierNames = ['speech', 'morpheme', 'morphemeGloss', 'translation',
+                         'translation2', 'soundsLike']
 
   def __init__(self, filename):
      self.filename = filename

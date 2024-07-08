@@ -10,35 +10,30 @@ lines:
     endTime: 17867
     lushootseed: stab əw'ə tiʔiɬ
     english:  What is that? (What could that be?)
-    soundsLike: (stahb u-wu tee?eeɬ)
 
   - lineNumber: 2
     startTime: 21740
     endTime: 23776
     lushootseed: spaʔc tiʔiɬ
     english: That is a bear.
-    soundsLike: (spahts)
 
   - lineNumber: 3
     startTime: 39196
     endTime: 41894
     lushootseed: sqigʷəc tiʔiɬ
     english: That is a deer.
-    soundsLike: (sqa-gwuts)
 
   - lineNumber: 4
     startTime: 56046
     endTime:   59197
     lushootseed: sʔuladxʷ tiʔiɬ
     english: That is a salmon.
-    soundsLike: (s-ʔo-lay-dwh)
 
   - lineNumber: 5
     startTime: 77876
     endTime:   80979
     lushootseed: bəščəb tiʔiɬ
     english: That is a mink.
-    soundsLike: (bush-chub)
 
 
   - lineNumber: 5
@@ -46,48 +41,41 @@ lines:
     endTime:   95902
     lushootseed: "ɬ:  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ."
     english: That girl and I will live over there.
-    soundsLike: 
 
   - lineNumber: 6
     startTime: 107136
     endTime:   111717
     lushootseed: "q:   ?uqada tə dqəqsuʔ ʔə tə qəlx̌."
     english: My favorite uncle stole the salmon eggs.
-    soundsLike: 
 
   - lineNumber: 7
     startTime: 120886
     endTime:   125198
     lushootseed: "xʷ:  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad."
-    soundsLike: 
     english: The thrush fell into the ashes.
 
   - lineNumber: 8
     startTime: 137520
     endTime:   139265
     lushootseed: xʷuyub
-    soundsLike:
     english: sell
 
   - lineNumber: 9
     startTime: 141454
     endTime:   142976
     lushootseed: huyud
-    soundsLike:
     english: make it
 
   - lineNumber: 10
     startTime: 148721
     endTime:   150202
     lushootseed: xʷudad
-    soundsLike:
     english: ashes
 
   - lineNumber: 11
     startTime: 151804
     endTime:   153263
     lushootseed: hudud
-    soundsLike:
     english: burn it
 
   - lineNumber: 1
@@ -95,35 +83,30 @@ lines:
     endTime: 170657
     lushootseed: stab əw'ə tiʔiɬ ʔal tə stuləkʷ
     english:  What is that in the river?
-    soundsLike: (ʔahl tu stō-lukw)
 
   - lineNumber: 2
     startTime: 175840
     endTime: 178935
     lushootseed: sʔuladxʷ tiʔiɬ
     english:  That is a salmon.
-    soundsLike:
 
   - lineNumber: 3
     startTime: 184941
     endTime: 188514
     lushootseed: stab əw'ə tiʔiɬ ʔal tə šəgʷɬ.
     english:  What is that in/on the road?
-    soundsLike: (shugwɬ)
 
   - lineNumber: 4
     startTime: 192962
     endTime: 195452
     lushootseed: sqigʷəc tiʔiɬ.
     english:  That is a deer.
-    soundsLike: 
 
   - lineNumber: 5
     startTime: 202212
     endTime: 206463
     lushootseed: stab əw'ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
     english:  What is that on the other side of the river?
-    soundsLike: (dee-ʔō-tseed)
 
 
   - lineNumber: 6
@@ -131,42 +114,36 @@ lines:
     endTime: 214946
     lushootseed: bəščəb tiʔiɬ.
     english:  That is a mink.
-    soundsLike: 
 
   - lineNumber: 7
     startTime: 221088
     endTime:   225562
     lushootseed: stab əw'ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
     english:  What is that on the other side of the road?
-    soundsLike: (dee-ʔī-ō-tseed)
  
   - lineNumber: 8
     startTime: 231738
     endTime: 234160
     lushootseed: spaʔc tiʔiɬ.
     english:  That is a bear.
-    soundsLike: 
 ## 
 ##   - lineNumber: 
 ##     startTime:
 ##     endTime: 
 ##     lushootseed: 
 ##     english:  
-##     soundsLike: 
 ## 
 ##   - lineNumber: 
 ##     startTime:
 ##     endTime: 
 ##     lushootseed: 
 ##     english:  
-##     soundsLike: 
 ## 
 ##   - lineNumber: 
 ##     startTime:
 ##     endTime: 
 ##     lushootseed: 
 ##     english:  
-##     soundsLike: 
 ## 
 ## 
 #

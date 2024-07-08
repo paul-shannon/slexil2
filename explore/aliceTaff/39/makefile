@@ -1,3 +1,4 @@
+LANGUAGE = tlingit
 EAF = 39Atlin230601Slexil.eaf
 HTML.FILE = 39Atlin.html
 VID=39Atlin.m4v

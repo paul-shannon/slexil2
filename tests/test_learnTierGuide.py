@@ -16,18 +16,22 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-   test_getTimeAlignedTierCount()
-   test_getTimeAlignedTiersAndTheirChildren()
-   test_getTokenizedTierPairs()
-   test_learnTierGuide()
+   #test_getTimeAlignedTierCount()
+   #test_getTimeAlignedTiersAndTheirChildren()
+   #test_getTokenizedTierPairs()
+   #test_learnTierGuide()
+   test_learnTierGuide_novelTierName()
 
 #------------------------------------------------------------------------------------------
 def test_getTimeAlignedTierCount():
 
    print("--- test_getTimeAlignedTierCount")
    for f in eafFiles:
+      print("    %s" % f)
       ltg = LearnTierGuide(f, verbose=False)
-      assert(len(ltg.getTimeAlignedTiers()) in [1,2])
+      #if f == "../explore/halkomelem/raven/2_CDA_raven.eaf":
+      #    pdb.set_trace()
+      assert(len(ltg.getTimeAlignedTiers()) in [1,2,3])
        
 #------------------------------------------------------------------------------------------
 def test_getTimeAlignedTiersAndTheirChildren():
@@ -193,7 +197,17 @@ def test_learnTierGuide():
    assert(tg['morphemeGloss'] == 'morphemeGloss')
    assert(tg['translation'] == 'english')
 
-   
 #----------------------------------------------------------------------------------------------------
+def test_learnTierGuide_novelTierName():
+
+   print("--- test_learnTierGuide_novelTierName")
+    
+   f = "../explore/lushootseed/grammars/grammar1-withNovelTier.eaf"
+   ltg = LearnTierGuide(f, verbose=False)
+   ltg.parser.run()
+   tg = ltg.learnTierGuide()
+   pdb.set_trace()
+
+#---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     runTests()

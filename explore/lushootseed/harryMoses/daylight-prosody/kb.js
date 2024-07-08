@@ -6,12 +6,13 @@ kb = {
 `_ɬu=ad=s=ʔəƛ’–txʷ_:
 - IRR=2SG.PO=NM=come–ECS
 - will bring [it]
+- sounds like: SLAWDS-oatxʷ
 
 Thom's "Lushootseed Reader with Introductory Grammar", Volume 1, p3 addresses
 this verb.  I returned to that treatment with a question:  this word
 sounds to me like <b><i>SLAWDS.oat</i></b> - with _ʔux̌ʷ_ as (it seems to me)
 the most common morpheme to express went/took-to-destination,
-with _ʔəƛ'_ variably expressing brought/came.   I am confused, unable to
+with _ʔəƛ'_ variably expressing brought/came.   I am unable to
 distinguish a clear contrast in this set of overlapping meanings.
 
 In any case, perhaps this difference is elided

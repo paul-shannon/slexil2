@@ -1,4 +1,5 @@
 CODE_ROOT=/Users/paul/github/slexil2
+LANGUAGE = tlingit
 
 default:
 	@echo eafStructure

@@ -2,8 +2,9 @@
 *.mp3
 *.wav
 *.m4v
-*.eaf
-*.aup3
+explore/misc/seamusHeaney/shipInTheClouds/seamusHeaneyListenings7.aup3
+explore/misc/seamusHeaney/shipInTheClouds/seamusHeaneyListenings7.aup3-shm
+explore/misc/seamusHeaney/shipInTheClouds/seamusHeaneyListenings7.aup3-wal
 *.whl
 build/
 wheels/*

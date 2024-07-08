@@ -300,7 +300,7 @@ lines:
     startTime: 173888
     endTime: 178872
     lushootseed: ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ
-    soundsLike: (luhOAK chud dwal kwi seeAB abs.slexil (duff)HWAH kwi soods ah)
+    soundsLike: (luhOAK chud dwal kwi seeAB abs.slexil (duff)HWAH kwi soods.ah)
     morphemes: [ɬu=lə=ʔux̌ʷ,čəd,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il,dəxʷ=ʔaʔ,kʷi,ɬu=d=s=ʔaʔ]
     morphemeGloss: [irr=prog=go,1sg.sub,cntrpt–at,rem,noble,stat–prop–daylight,adnm=be.there,rem,irr=1sg.po=nm=be.there]
     english: I will go to the nobleman who has the daylight. There is where I will be.
@@ -319,18 +319,19 @@ lines:
     startTime: 184350
     endTime: 187135
     lushootseed: ɬasʔaciɬ čəd dxʷʔal kʷi ɬadsʔəƛ’txʷ
-    soundsLike: los.AH.cheesh chud dwal kwi SLAWDS.oot
+    soundsLike: las.AH.cheeɬ chud dwal kwi SLAWDS.oatxʷ
     morphemes: [ɬu=ʔas–ʔaciɬ,čəd,dxʷ–ʔal,kʷi,ɬu=ad=s=ʔəƛ’–txʷ]
     morphemeGloss: [irr=stat–pause,1sg.sub,cntrpt–at,rem,irr=2sg.po=nm=come–ecs]
     english: I will wait for you to bring it.
-# 
-#   - lineNumber: 
-#     startTime: 
-#     endTime: 
-#     lushootseed: 
-#     morphemes: 
-#     morphemeGloss: 
-#     english: 
+
+  - lineNumber: 36
+    startTime: 188135
+    endTime: 195697
+    lushootseed: siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ gʷəl ʔəcahəxʷ kʷi ɬubəkʷədad, ɬukʷədadxʷaxʷ
+    soundsLike: see tlobe saw(f).wuff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD boo.kwed.kwawf 
+    morphemes: [siʔ,ƛ’ub,ɬu=ad=s=ʔas–ƛ’ip’–aɬ–t,čəxʷa,ɬu=ɬčil,dxʷ–diʔaʔ,gʷəl,ʔəca=axʷ,kʷi,ɬu=bə=kʷəda–t,ɬu=kʷəda–dxʷ=axʷ]
+    morphemeGloss: [right.there,well,irr=2sg.po=nm=stat–squeeze–incrp–ics,2sg.coord,irr=arrive,cntrpt–prox.dma,sconj,I=now,rem,irr=add=taken–ics,irr=taken–dc=now]
+    english: “Just so will you be clutching it and you will arrive here, and I am the one who will take it anew.”
 # 
 #   - lineNumber: 
 #     startTime: 

@@ -137,6 +137,22 @@ class IjalLine:
         return (translationLine.getStandardized())
 
     # ----------------------------------------------------------------------------------------------------
+    def getSoundsLike(self):
+
+        canonicalTierName = "soundsLike"
+        if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
+           return(None)
+        rowNumbers = self.tbl.index
+        whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
+        rowNumber = rowNumbers[whichRowNumber]
+        rawText = self.tbl.loc[rowNumber, "text"]
+        if(rawText == None):
+           return("")
+        if(len(rawText) == 0):
+           return("")
+        return ("<i>%s</i>" % rawText)
+    
+    # ----------------------------------------------------------------------------------------------------
         # may be separated by spaces or tabs, tabs preferred 
     def extractMorphemes(self):
 
@@ -274,6 +290,11 @@ class IjalLine:
             with htmlDoc.tag("div", klass="line"):
                 with htmlDoc.tag("span", klass="speech-tier"):
                     htmlDoc.asis(self.getSpokenText())
+
+            soundsLike = self.getSoundsLike()
+            if soundsLike:
+               with htmlDoc.tag("div", klass="freeTranslation-tier"):
+                   htmlDoc.asis(soundsLike)
 
             morphemes = self.getMorphemes()
             morphemeSpacingStyleString = ""

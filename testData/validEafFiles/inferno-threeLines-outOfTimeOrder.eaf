@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<ANNOTATION_DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" VERSION="2.8" FORMAT="2.8" AUTHOR="Paul Shannon" DATE="2024-03-21T07:42:23" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+   <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+      <MEDIA_DESCRIPTOR MEDIA_URL="https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav" MIME_TYPE="audio/x-wav"/>
+   </HEADER>
+   <TIME_ORDER>
+      <TIME_SLOT TIME_SLOT_ID="ts0" TIME_VALUE="0"/>
+      <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="2828"/>
+      <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3095"/>
+      <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="5500"/>
+      <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5624"/>
+      <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="8033"/>
+   </TIME_ORDER>
+   <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="speech" TIER_ID="italianSpeech">
+      <ANNOTATION>
+         <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts0" TIME_SLOT_REF2="ts1">
+            <ANNOTATION_VALUE>Nel mezzo del cammin di nostra vita</ANNOTATION_VALUE>
+         </ALIGNABLE_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts5">
+            <ANNOTATION_VALUE>ché la diritta via era smarrita.</ANNOTATION_VALUE>
+         </ALIGNABLE_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
+            <ANNOTATION_VALUE>mi ritrovai per una selva oscura</ANNOTATION_VALUE>
+         </ALIGNABLE_ANNOTATION>
+      </ANNOTATION>
+   </TIER>
+   <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="morphemes" PARENT_REF="italianSpeech" TIER_ID="morphemes">
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a1">
+            <ANNOTATION_VALUE>en=il	mezz–o	de=il	cammin–Ø	di	nostr–a	vit–a</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a2">
+            <ANNOTATION_VALUE>ché	la	diritt–a	vi–a	era	smarr–it–a</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a3">
+            <ANNOTATION_VALUE>mi	ritrov–ai	per	una	selv–a	oscur–a</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+   </TIER>
+   <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="morphemeGloss" PARENT_REF="morphemes" TIER_ID="morpheme-gloss">
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a4">
+            <ANNOTATION_VALUE>in=DEF:MASC:SG	middle-MASC:SG	of=DEF:MASC:SG	journey–MASC:SG	of	our-FEM:SG	life-FEM</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a5">
+            <ANNOTATION_VALUE>that	def:FEM:SG	straight-FEM:SG	path-FEM	be:3SG:IMPF	lose–PARTIC–FEM:SG</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a6">
+            <ANNOTATION_VALUE>I:DAT	found–1SG:INDEF:REM:PAST	for	INDEF:FEM:SG	forest-FEM	dark–FEM:SG</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+   </TIER>
+   <TIER DEFAULT_LOCALE="tr" LINGUISTIC_TYPE_REF="english" PARENT_REF="italianSpeech" TIER_ID="english">
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a1">
+            <ANNOTATION_VALUE>Midway upon the journey of our life</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a2">
+            <ANNOTATION_VALUE>For the straightforward pathway had been lost.</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+      <ANNOTATION>
+         <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a3">
+            <ANNOTATION_VALUE>I found myself within a forest dark</ANNOTATION_VALUE>
+         </REF_ANNOTATION>
+      </ANNOTATION>
+   </TIER>
+   <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="speech" TIME_ALIGNABLE="true"/>
+   <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="morphemes" TIME_ALIGNABLE="false"/>
+   <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="morphemeGloss" TIME_ALIGNABLE="false"/>
+   <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="english" TIME_ALIGNABLE="false"/>
+   <LOCALE LANGUAGE_CODE="tr" VARIANT="STANDARD"/>
+   <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
+</ANNOTATION_DOCUMENT>

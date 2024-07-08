@@ -29,7 +29,7 @@ class StandardizeIjalTierTable:
    userTiersAreMultiple = False   # i.e., speech may be in 2 tiers, for 2 speakers
    verbose = True
    ijalCanonicalTierNames = ('speech', 'morpheme', 'morphemeGloss',
-                               'translation', 'translation2')
+                               'translation', 'translation2', 'soundsLike')
 
    def __init__(self, tbl, tierGuide, verbose):
 

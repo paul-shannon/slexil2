@@ -1,3 +1,4 @@
+LANGUAGE = tlingit
 EAF = 38AtlinGrotto230531Slexil.eaf
 HTML.FILE = 38AtlinGrotto.html
 VID=38AtlinGrotto.m4v
