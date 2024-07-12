@@ -19,18 +19,21 @@ lines:
     english: Midway upon the journey of our life
 
   - lineType: ijal
-    startTime: 5624
-    endTime: 8033
-    italianSpeech: ché la diritta via era smarrita.
-    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
-    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
-    english: For the straightforward pathway had been lost.
-
-  - lineType: ijal
     startTime: 3095
     endTime: 5500
     italianSpeech: mi ritrovai per una selva oscura
     morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
     morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
     english: I found myself within a forest dark
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+
+  - lineType: ijal
+    startTime: 5624
+    endTime: 8033
+    italianSpeech: ché la diritta via era smarrita.
+    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
+    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
+    english: For the straightforward pathway had been lost.
 

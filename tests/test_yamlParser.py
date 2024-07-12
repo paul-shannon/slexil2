@@ -87,6 +87,66 @@ def test_getHtmlLine():
    assert(content == '<h3> Read by Roberto Begnini</h3> taken from youtube')
     
 #----------------------------------------------------------------------------------------------------
+def test_getTimeTable():
+
+   print("--- test_getTimeTable")
+
+   f = "../testData/validYamlFiles/inferno.yaml"
+   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   yp = YamlParser(f, ftg)
+
+   tbl = yp.getTimeTable()
+   assert(tbl.shape == (3, 2))
+   assert(tbl['start'].tolist() == [0,3095,5624])
+   assert(tbl['end'].tolist() == [2828, 5500, 8033])
+
+#----------------------------------------------------------------------------------------------------
+def test_lineDictToTable():
+
+   print("--- test_lineDictToTable")
+   f = "../testData/validYamlFiles/inferno.yaml"
+   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   yp = YamlParser(f, ftg)
+   yp.parseAndSortAllLines()
+   lineDict = yp.getAllLines()[1]
+   assert(isinstance(lineDict, dict))
+   tbl = yp.lineDictToTable(lineDict, 1)
+   
+#----------------------------------------------------------------------------------------------------
+def test_getAllLines():
+
+   print("--- test_getAllLines")
+
+   f = "../testData/validYamlFiles/inferno.yaml"
+   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   yp = YamlParser(f, ftg)
+   yp.parseAndSortAllLines()
+   pl = yp.getAllLines()
+
+   assert(len(pl) == 4)
+
+   assert(isinstance(pl[0], str))
+   assert(isinstance(pl[1], dict))
+   assert(isinstance(pl[2], dict))
+   assert(isinstance(pl[3], dict))
+
+   assert(pl[0] == '<h3> Read by Roberto Begnini</h3> taken from youtube')
+
+   assert(pl[1]['speech'] == 'Nel mezzo del cammin di nostra vita')
+   assert(pl[2]['speech'] ==  'mi ritrovai per una selva oscura')
+   assert(pl[3]['speech'] == 'ché la diritta via era smarrita.')
+
+#----------------------------------------------------------------------------------------------------
+def test_run():
+
+   print("--- test_run")
+
+   f = "../testData/validYamlFiles/inferno.yaml"
+   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   yp = YamlParser(f, ftg)
+   yp.run()
+    
+#----------------------------------------------------------------------------------------------------
 def runTests():
 
   test_ctor()
@@ -94,6 +154,10 @@ def runTests():
   test_getTierInfo()
   test_getIjalLine()
   test_getHtmlLine()  
+  # test_lineDictToTable()
+  test_getTimeTable()
+  test_getAllLines()
+  test_run()
 
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

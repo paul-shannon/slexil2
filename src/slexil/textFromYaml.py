@@ -32,8 +32,8 @@ from yattag import *
 from yattag import Doc
 import yaml
 from tierGuide import TierGuide
-from yamlParser import *
-from ijalLine import *
+from slexil.yamlParser import YamlParser
+from ijalLineFromDict import *
 from dropDownMenu import DropDownMenu
  
 from webPacker import WebPacker
@@ -44,7 +44,7 @@ doc, tag, text, line = Doc().ttl()
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
-class Text:
+class TextFromYaml:
 
    yamlFile = ''
    tierGuideFile = ''
@@ -84,6 +84,7 @@ class Text:
                webpackLinksOnly=False,
                useTooltips=False):
 
+      print("--- textFromYaml.py, ctor")
       self.yamlFile = yamlFile
       if(pageTitle == None):
          self.pageTitle = "slexil2"
@@ -110,13 +111,13 @@ class Text:
       if(verbose):
          print("--- freshly loaded tierGuide yaml file")
          print(self.tierGuide)
-
       self.validInputs()
       self.verbose = verbose
 
-      parser = YamlParser(yamlFile, self.verbose, self.fixOverlappingTimeSegments)
-      parser.run()
+      parser = YamlParser(yamlFile, self.tierGuideFile,
+                         self.verbose, self.fixOverlappingTimeSegments)
       self.yamlParser = parser
+      parser.run()
 
       self.lineCount = parser.getLineCount()
       if(self.lineCount == 0):
@@ -131,7 +132,7 @@ class Text:
       if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
          os.remove(os.path.join(projectDirectory,"ERRORS.log"))
       f = os.path.join(projectDirectory, "ERRORS.log")
-      self.metadata = parser.getMetadata()
+      # self.metadata = parser.getMetadata()
       audioURL = parser.getAudioURL()
       videoURL = parser.getVideoURL()
          # we give preference to video
@@ -139,9 +140,9 @@ class Text:
          self.mediaInfo = {"url": videoURL, "mimeType": "unspecified"}
       else:
          self.mediaInfo = {"url": audioURL, "mimeType": "unspecified"}
-      self.lineTables = parser.getAllLinesTable() 
+      self.lines = parser.getAllLines() 
       self.startStopTable = parser.getTimeTable()
-      self.eafParser = parser
+      self.parser = parser
 
    #--------------------------------------------------------------------------------   
    def setPreferredMediaURL(self, url):
@@ -183,9 +184,9 @@ class Text:
       if(self.verbose):
          print("--- entering validInputs")
       try:
-         assert(os.path.isfile(self.xmlFilename))
+         assert(os.path.isfile(self.yamlFile))
       except AssertionError as e:
-         raise Exception(self.xmlFilename) from e
+         raise Exception(self.yamlFile) from e
       try:
          assert(os.path.isfile(self.tierGuideFile))
       except AssertionError as e:
@@ -469,28 +470,31 @@ class Text:
       if(self.verbose) :
          print("--- entering createTextDiv")
       with htmlDoc.tag("div", id="textDiv"):
+         ijalLineCount = 0
          for i in self.lineNumbers:
-            #if(self.verbose):
-            #   print("line %d/%d" % (i, self.lineCount))
-            lineTable = self.lineTables[i]   
-            line = IjalLine(lineTable, i, self.tierGuide,
-                            self.grammaticalTerms, self.useTooltips,
-                            self.verbose)
-            line.extractMorphemes()
-            line.extractMorphemeGlosses()
-            line.calculateMorphemeSpacing()
-            start = line.getStartTime()
-            end = line.getEndTime()
-            timeCodesForLine = [start,end]
-            self.timeCodesForText.append(timeCodesForLine)
-            id = line.getAnnotationID()
-            with htmlDoc.tag("div",  klass="line-wrapper", id=i+1):
-               tbl = line.getTable()
-               with htmlDoc.tag("div", klass="line-sidebar"):
-                  line.htmlLeadIn(htmlDoc)
-                  s = f"<!-- sidebarHookLine_{i+1} -->"
-                  htmlDoc.asis(s)
-               line.toHTML(htmlDoc)
+            print("--- createTextDiv, iterating through self.lineNumbers")
+            line = self.lines[i]
+            if(isinstance(line, str)):
+                print("adding this to htmlDoc: %s", line)
+                htmlDoc.asis(line)
+            if(isinstance(line, dict)):
+               line = IjalLineFromDict(line, ijalLineCount, self.tierGuide,
+                                     self.grammaticalTerms, self.useTooltips,
+                                     self.verbose)
+               line.calculateMorphemeSpacing()
+               start = line.getStartTime()
+               end = line.getEndTime()
+               timeCodesForLine = [start,end]
+               self.timeCodesForText.append(timeCodesForLine)
+               id = line.getAnnotationID()
+               with htmlDoc.tag("div",  klass="line-wrapper", id=i):
+                  # tbl = line.getTable()
+                  with htmlDoc.tag("div", klass="line-sidebar"):
+                     line.htmlLeadIn(htmlDoc)
+                     s = f"<!-- sidebarHookLine_{i+1} -->"
+                     htmlDoc.asis(s)
+                  line.toHTML(htmlDoc)
+               ijalLineCount = ijalLineCount + 1
 
 #-------------------------------------------------------------------------------
 def getLinguisticsTopics(filename, verbose):

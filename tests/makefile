@@ -10,6 +10,10 @@ default:
 	@echo listTiers
 	@echo standardizeIjalTierTable
 	@echo xmlFileUtils
+	@echo ijal
+	@echo yaml [yamlTextParser, yamlToWebPage]
+
+yamlTextCreator:
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
@@ -72,3 +76,15 @@ standardizeIjalTierTable:
 
 xmlFileUtils:
 	python test_XmlFileUtils.py
+
+yaml:  yamlTextParser  yamlToWebPage
+
+yamlTextParser:
+	python test_yamlParser.py
+
+yamlToWebPage:
+	python test_TextFromYaml.py
+
+ijal:
+	python test_IjalLineFromDict.py
+

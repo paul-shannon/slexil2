@@ -48,25 +48,29 @@ class YamlParser:
      path = x['mediaFile']
      urlSuffix = os.path.splitext(path)[1].lower()
      assert(urlSuffix in videoExtensions + audioExtensions)
+
      if(urlSuffix in videoExtensions):
        self.videoURL = path
      if(urlSuffix in audioExtensions):
        self.audioURL = path
+
      self.mediaFile = x['mediaFile']
      self.mimeType = x['mimeType']
      self.textEntry = x['textEntry']
 
      self.lines = x["lines"]
      lineCount = len(self.lines)
+
      for i in range(0, lineCount):
         self.lines[i]['number'] = i
         
+
      self.htmlLines = [line for line in x['lines'] if line['lineType']=='html']
      self.ijalLines = [line for line in x['lines'] if line['lineType']=='ijal']
 
 
    def getLineCount(self):
-      return length(self.lines)
+      return len(self.lines)
 
    def getAudioURL(self):
       return self.audioURL
@@ -114,14 +118,33 @@ class YamlParser:
       assert('content' in list(line.keys()))
       return(line['content'])
       
-   def getAllLinesTable(self):
-      return self.allLines
+   def getAllLines(self):
+      return self.linesAll
    
+
    def getTierInfo(self):
       return self.tierInfo
 
    def getTimeTable(self):
+      startTimes = [line['startTime'] for line in self.ijalLines]
+      endTimes = [line['endTime'] for line in self.ijalLines]
+      self.timeTable = pd.DataFrame({"start": startTimes, "end": endTimes})
       return self.timeTable
 
+   def parseAndSortAllLines(self):
+
+      self.linesAll = list()
+      for i in range(self.getLineCount()):
+         if(self.lines[i]['lineType'] == "html"):
+            newLine = self.getHtmlLine(i)
+         else:
+            newLine = self.getIjalLine(i)
+         self.linesAll.append(newLine)
+      
+   def run(self):
+
+      if(self.verbose):
+         print("yamlParser.run, parsing & sorting all lines")
+      self.parseAndSortAllLines()
    
    
