@@ -1,131 +1,205 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-mediaFile: grammar-01-02.wav
+#mediaFile: grammar-01-02.wav
+mediaFile: 01-05.wav
 mimeType: audio/wav
 
 lines:
-  - lineNumber: 1
+  - lineType: html
+    content: "<div style='margin: 30px; font-size: 32px'>Lesson One: dəčuʔ</div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: ijal
     startTime: 15057
     endTime: 17867
-    lushootseed: stab əw'ə tiʔiɬ
+    lushootseed: stab əw'ə tiʔiɬ.
     english:  What is that? (What could that be?)
 
-  - lineNumber: 2
+  - lineType: ijal
     startTime: 21740
     endTime: 23776
-    lushootseed: spaʔc tiʔiɬ
+    lushootseed: spaʔc tiʔiɬ.
     english: That is a bear.
 
-  - lineNumber: 3
+  - lineType: ijal
     startTime: 39196
     endTime: 41894
-    lushootseed: sqigʷəc tiʔiɬ
+    lushootseed: sqigʷəc tiʔiɬ.
     english: That is a deer.
 
-  - lineNumber: 4
+  - lineType: ijal
     startTime: 56046
     endTime:   59197
-    lushootseed: sʔuladxʷ tiʔiɬ
+    lushootseed: sʔuladxʷ tiʔiɬ.
     english: That is a salmon.
 
-  - lineNumber: 5
-    startTime: 77876
-    endTime:   80979
-    lushootseed: bəščəb tiʔiɬ
+  - lineType: ijal
+    startTime: 73740
+    endTime:   77205
+    lushootseed: bəščəb tiʔiɬ.
     english: That is a mink.
 
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill 1<h5></div>"
 
-  - lineNumber: 5
+  - lineType: ijal
     startTime: 89729
     endTime:   95902
-    lushootseed: "ɬ:  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ."
+    lushootseed: "ɬ: ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ."
     english: That girl and I will live over there.
 
-  - lineNumber: 6
+  - lineType: ijal
     startTime: 107136
     endTime:   111717
-    lushootseed: "q:   ?uqada tə dqəqsuʔ ʔə tə qəlx̌."
+    lushootseed: "q: ?uqada tə dqəqsiʔ ʔə tə qəlx̌."
     english: My favorite uncle stole the salmon eggs.
 
-  - lineNumber: 7
+  - lineType: ijal
     startTime: 120886
     endTime:   125198
-    lushootseed: "xʷ:  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad."
+    lushootseed: "xʷ: ʔuxʷit'il tə sxʷət dxʷal tə xʷudad."
     english: The thrush fell into the ashes.
 
-  - lineNumber: 8
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Contrasts</h5></div>"
+  
+  - lineType: ijal
     startTime: 137520
     endTime:   139265
     lushootseed: xʷuyub
     english: sell
 
-  - lineNumber: 9
+  - lineType: ijal
     startTime: 141454
     endTime:   142976
     lushootseed: huyud
     english: make it
 
-  - lineNumber: 10
+  - lineType: ijal
     startTime: 148721
     endTime:   150202
     lushootseed: xʷudad
     english: ashes
 
-  - lineNumber: 11
+  - lineType: ijal
     startTime: 151804
     endTime:   153263
     lushootseed: hudud
     english: burn it
 
-  - lineNumber: 1
+  - lineType: html
+    content: "<div style='margin: 30px; font-size: 32px'>Lesson Two: saliʔ</div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: ijal
     startTime: 166737
     endTime: 170657
-    lushootseed: stab əw'ə tiʔiɬ ʔal tə stuləkʷ
+    lushootseed: stab əw'ə tiʔiɬ ʔal tə stuləkʷ.
     english:  What is that in the river?
 
-  - lineNumber: 2
+  - lineType: ijal
     startTime: 175840
     endTime: 178935
-    lushootseed: sʔuladxʷ tiʔiɬ
+    lushootseed: sʔuladxʷ tiʔiɬ.
     english:  That is a salmon.
 
-  - lineNumber: 3
+  - lineType: ijal
     startTime: 184941
     endTime: 188514
     lushootseed: stab əw'ə tiʔiɬ ʔal tə šəgʷɬ.
     english:  What is that in/on the road?
 
-  - lineNumber: 4
+  - lineType: ijal
     startTime: 192962
     endTime: 195452
     lushootseed: sqigʷəc tiʔiɬ.
     english:  That is a deer.
 
-  - lineNumber: 5
+  - lineType: ijal
     startTime: 202212
     endTime: 206463
     lushootseed: stab əw'ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
     english:  What is that on the other side of the river?
 
 
-  - lineNumber: 6
+  - lineType: ijal
     startTime: 212462
     endTime: 214946
     lushootseed: bəščəb tiʔiɬ.
     english:  That is a mink.
 
-  - lineNumber: 7
+  - lineType: ijal
     startTime: 221088
     endTime:   225562
     lushootseed: stab əw'ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
     english:  What is that on the other side of the road?
  
-  - lineNumber: 8
+  - lineType: ijal
     startTime: 231738
     endTime: 234160
     lushootseed: spaʔc tiʔiɬ.
     english:  That is a bear.
+
+  - lineType: html
+    content: "<div style='margin: 30px; font-size: 32px'>Lesson Three: ɬixʷ</div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: ijal
+    startTime: 249865
+    endTime: 254294
+    lushootseed: gʷat əw'ə tiʔiɬ stubš ʔal tudiʔ.
+    english:  Who is that man over there?
+
+  - lineType: ijal
+    startTime: 259883
+    endTime: 262870
+    lushootseed: diɬ dbad tiʔiɬ.
+    english:  That is my father.  (Literally, He is my father, that (one).)
+
+  - lineType: ijal
+    startTime: 269513
+    endTime:  273568
+    lushootseed:  gʷat əw'ə tiʔiɬ sɬadəy ʔal tudiʔ.
+    english:  Who is that woman over there?
+
+  - lineType: ijal
+    startTime: 279406
+    endTime: 282493
+    lushootseed: diɬ dsk'ʷuy tsiʔiɬ.
+    english:  That woman is my mother.
+
+  - lineType: ijal
+    startTime: 289787
+    endTime:  293645
+    lushootseed: gʷat əw'ə tiʔiɬ č'ač'as ʔal tudiʔ.
+    english:  Who is that child over there?
+
+  - lineType: ijal
+    startTime: 299238
+    endTime: 302108
+    lushootseed: diɬ dbadaʔ tiʔiɬ.
+    english:  That child is my son.
+
+  - lineType: ijal
+    startTime: 310162
+    endTime: 313968
+    lushootseed: gʷat əw'ə tsiʔiɬ č'ač'as ʔal tudiʔ.
+    english:  Who is that child over there?
+
+  - lineType: ijal
+    startTime: 319313
+    endTime: 322107
+    lushootseed: diɬ dbadaʔ tsiʔiɬ.
+    english:  That child is my daugher.
+
+
 ## 
 ##   - lineNumber: 
 ##     startTime:

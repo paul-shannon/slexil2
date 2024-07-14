@@ -1,6 +1,136 @@
 kb = {
 
-"xʷ:  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad.":
+"gʷat əw'ə tsiʔiɬ č'ač'as ʔal tudiʔ.":
+`
+Grammar Note 3.6: ___tsiʔiɬ___
+
+When the person (or animal) talked about is female, an ___s___ is added
+right after the ___t___ of
+  - tiʔiɬ
+  - ti
+  - tə
+
+giving
+
+  - tsiʔiɬ
+  - tsi
+  - tsə
+`,
+
+
+"diɬ dbadaʔ tiʔiɬ.":
+`
+Grammar Note 3.7
+
+___d-___
+
+at the beginning of a word means ___my___.
+`,
+
+
+"diɬ dsk'ʷuy tsiʔiɬ.":
+`
+Grammar Note 3.5: ___diɬ___
+
+means 'he, she, or it is' and refers to any previously
+mentioned entity of concept.
+`,
+
+
+"gʷat əw'ə tiʔiɬ stubš ʔal tudiʔ.":
+`
+Grammar Note 3.4a
+
+___tiʔiɬ___
+
+In English the word _that_ can either stand on its own as in
+
+  - _Give me that_
+
+or it can MODIFY (that is, go with) the name for a
+person of thing as in
+
+  - _Give me that book_.
+
+The word ___tiʔiɬ___ in Lushootseed functions the same way.
+When it modifies (goes with) the word or person, it proceeds as in English, e.g.,
+
+  - tiʔiɬ stubš (that man)
+
+Sentences like
+
+  - sqigʷəc tiʔiɬ
+  - diɬ dbad tiʔiɬ
+
+are literally translated as
+
+  - It is a deer, that
+  - He is my father, that (one)
+
+In the sentences where _tiʔiɬ_ follows, it is NOT modifying
+_sqigʷəc_ or _dbad_ but rather adding more emphasis to the statement.
+
+It is possible to reply by omitting _tiʔiɬ_ saying
+
+  - sqigʷəc.  It is a deer.
+  - dbad.  He is my father.
+`,
+
+
+"diɬ dbad tiʔiɬ.":
+`
+Some people prefer to say
+  - _dbad tiʔiɬ stubš_
+  - (He is) my father, that man,
+  - i.e., 'He is my father'.
+
+Such a sentence is parallel to the type already
+learned, e.g.,
+  - _sqigʷəc tiʔiɬ_: It is a deer, that.
+
+The student should use which sentence the teacher prefers,
+   - _diɬ dbad tiʔiɬ_ or
+   - _dbad tiʔiɬ stubš_
+`,
+
+
+"stab əw'ə tiʔiɬ ʔal tə stuləkʷ.":
+`
+___ʔal___ refers to _location_ in a general way.  It is
+commonly translated by _in_, _on_, _at_ or _of_.
+`,
+
+"stab əw'ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.":
+`
+___ay___ sounds like _i_ in the English word _mind_.
+`,
+
+
+"stab əw'ə tiʔiɬ ʔal tə šəgʷɬ.":
+`
+___š___ is like _sh_ in _shoe_.
+`,
+
+"gʷat əw'ə tiʔiɬ č'ač'as ʔal tudiʔ.":
+`
+Sound and Symbol 3.1   
+
+___č'___ is something like saying __ch__ (as in __ch__ur__ch__) with
+a catch in the throat at the same time.  It is sort of a combination
+of ___č___ and ___ʔ___.  There is no sound like it in English.
+`,
+
+
+"xʷudad":
+`
+_xʷudad_
+
+Actually, this word is spelled _xʷ(h)udad_, bu the __h__ (in this particular
+cse to be explained later) is silent and can be omitted for
+purposes of sound drill' (___šxʷ(h)udad___ in Southern Lushootseed means _firepit_.)
+`,
+
+"xʷ: ʔuxʷit'il tə sxʷət dxʷal tə xʷudad.":
 `
 ___xʷ___
 
@@ -9,7 +139,7 @@ more raspy quality.
 `,
 
 
-"q:   ?uqada tə dqəqsuʔ ʔə tə qəlx̌.":
+"q: ?uqada tə dqəqsiʔ ʔə tə qəlx̌.":
 `
 ___q___
 
@@ -22,7 +152,7 @@ of the word for __deer__.
 `,
 
 
-"ɬ:  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.":
+"ɬ: ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.":
 `
 ___ɬ___
 
@@ -36,7 +166,7 @@ and the ___-lay___.  It sounds something like a lateral lisp.  Some students fin
 to think of it as being ___lh___pronounced together.
 `,
 
-"stab əw'ə tiʔiɬ":
+"stab əw'ə tiʔiɬ.":
 `
 ___stab əw'ə tiʔiɬ___
 
@@ -77,7 +207,7 @@ Notice that the a literal translation is
 Only the Skagit say _spaʔc_.  All other Puget Sound groups say ___sčətxʷəd___ (schut-whud) for bear.
 `,
 
-"sqigʷəc tiʔiɬ":
+"sqigʷəc tiʔiɬ.":
 `
 ___sqigʷəc tiʔiɬ___
 
@@ -87,11 +217,11 @@ The teacher may wish to substitute the word __kʷagʷičə__ (_kwah-gwee-chud_)
 _elk_ for __sqigʷəc__ _deer_ thereby avoiding till a later lesson the sound "q".
 `,
 
-"sʔuladxʷ tiʔiɬ":
+"sʔuladxʷ tiʔiɬ.":
 `
 __sʔuladxʷ tiʔiɬ__
 
-__sʔuladxʷ__ is used by the Skagit and Snohomis.  The other groups say __sčədadxʷ__
+__sʔuladxʷ__ is used by the Skagit and Snohomish.  The other groups say __sčədadxʷ__
 (scyu-day-dwh) for salmon (and seagoing trout - both anadromous fish):
 
 __Note__: five species of Northwest anadramous fish (salmon, steelhead, and certain
@@ -111,7 +241,7 @@ nitrogen and phosphorus to PNW forests, lakes, rivers and streams.
 
 `,
 
-"bəščəb tiʔiɬ":
+"bəščəb tiʔiɬ.":
 `
 __bəščəb tiʔiɬ__
 

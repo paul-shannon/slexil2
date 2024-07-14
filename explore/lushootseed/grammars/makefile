@@ -1,11 +1,13 @@
 PROJECT = grammar
 EAF = $(PROJECT).eaf
 HTML.FILE = hessAndHilbert.html
+BASEDIR=~/github/slexil2
 
 default:
 	@echo valid
 	@echo venv
 	@echo curl
+	@echo yaml2html
 	@echo eaf
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
@@ -19,6 +21,15 @@ venv:
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
 
+
+yaml2html:
+	python $(BASEDIR)/utils/yaml2html.py \
+        --yaml grammar.yaml \
+        --tierGuide tierGuide.yaml \
+        --kbFilename kb.js \
+        --pageTitle "Lushootseed Grammar" \
+        --helpButtonLabel About \
+        --helpFile about.html
 
 eaf:
 	python ~/github/yamlToEAF/toEAF.py  $(PROJECT).yaml 
