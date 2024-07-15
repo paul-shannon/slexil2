@@ -43,7 +43,7 @@ lines:
     english: That is a mink.
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill 1<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill I<h5></div>"
 
   - lineType: ijal
     startTime: 89729
@@ -197,7 +197,83 @@ lines:
     startTime: 319313
     endTime: 322107
     lushootseed: diɬ dbadaʔ tsiʔiɬ.
-    english:  That child is my daugher.
+    english:  That child is my daughter.
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - lineType: ijal
+    startTime: 332351
+    endTime: 335713
+    lushootseed: gʷat əw'ə ti stubš ʔal tiʔaʔ.
+    english:  Who is the man right here?
+    
+  - lineType: ijal
+    startTime: 340186
+    endTime: 343136
+    lushootseed: diɬ dbad tiʔəʔ
+    english:  He is my father, (this one).
+    
+  - lineType: ijal
+    startTime: 349613
+    endTime: 352351
+    lushootseed: gʷat əw'ə tsi sɬadəyʔ ʔal tiʔaʔ.
+    english:  Who is the woman right here?
+
+  - lineType: ijal
+    startTime: 356414
+    endTime: 359253
+    lushootseed: diɬ dsk'ʷuy tsiʔəʔ.
+    english: She is my mother, (this one).
+
+  - lineType: ijal
+    startTime: 367154
+    endTime: 370736
+    lushootseed: gʷat əw'ə ti č'ač'as ʔal tiʔaʔ.
+    english:  Who is the child right here?
+
+  - lineType: ijal
+    startTime: 374716
+    endTime: 377382
+    lushootseed: diɬ dbəda tiʔəʔ.
+    english:  He is my son, (this one).
+
+  - lineType: ijal
+    startTime: 386339
+    endTime: 389634
+    lushootseed: gʷat əw'ə tsi č'ač'as ʔal tiʔaʔ.
+    english:  Who is the child right here?
+
+  - lineType: ijal
+    startTime: 393705
+    endTime: 396671
+    lushootseed: diɬ dbəda tsiʔəʔ.
+    english:  She is my daughter, (this one).
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill II<h5></div>"
+
+
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english:  
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english:  
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english:  
+#
+#
 
 
 ## 
