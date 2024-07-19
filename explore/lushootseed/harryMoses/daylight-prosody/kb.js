@@ -2,15 +2,53 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ɬu=ʔas–ʔaciɬ":
+`
+ɬu=ʔas–ʔaciɬ
+
+IRR=STAT-(pause|wait)
+I will be waiting.
+`,
+
+
+"ɬu=d=s=ʔacəc":
+`
+ɬu=d=s=ʔacəc
+
+IRR 1SG.PO NM be.in.place
+
+   - __ʔacəc__
+      - be there, specifically there
+      - there exists
+      - If someone is looking for something, I say ___ʔacəc__
+`,
+
+
+"ɬu=d=s=ʔaʔ":
+`
+_ɬu=d=s=ʔaʔ_
+
+IRR 1SG.PO NM be.there
+
+   - IRR: future
+   - 1SG.PO: this is a subordinate clause, so ___d___ indicates
+     first person agent
+   - NM be.there:  nominalizes be.there to mean being.there.
+   - summarized: I will be there.
+`,
+
+
 "ɬu=ad=s=ʔəƛ’–txʷ":
 `_ɬu=ad=s=ʔəƛ’–txʷ_:
 - IRR=2SG.PO=NM=come–ECS
 - will bring [it]
 - sounds like: SLAWDS-oatxʷ
+- ___ad___: subordinate phrase, 2SG.PO indicates agent, not possessive.
+  (see PO linguistic term)
 
 Thom's "Lushootseed Reader with Introductory Grammar", Volume 1, p3 addresses
 this verb.  I returned to that treatment with a question:  this word
-sounds to me like <b><i>SLAWDS.oat</i></b> - with _ʔux̌ʷ_ as (it seems to me)
+sounds to me like <b><i>SLAWDS.oatxʷ</i></b> - with _ʔux̌ʷ_ as (it seems to me)
 the most common morpheme to express went/took-to-destination,
 with _ʔəƛ'_ variably expressing brought/came.   I am unable to
 distinguish a clear contrast in this set of overlapping meanings.
