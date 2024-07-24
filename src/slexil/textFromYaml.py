@@ -65,6 +65,7 @@ class TextFromYaml:
    startStopTable = None
    lineTables = None
    useTooltips = False
+   showAnnotations = False  # when true, open that div, auto display
 
    def __init__(self,
                yamlFile,
@@ -82,7 +83,8 @@ class TextFromYaml:
                linguisticsFilename,
                fixOverlappingTimeSegments,
                webpackLinksOnly=False,
-               useTooltips=False):
+               useTooltips=False,
+               showAnnotations=False):
 
       print("--- textFromYaml.py, ctor")
       self.yamlFile = yamlFile
@@ -103,6 +105,7 @@ class TextFromYaml:
       self.useTooltips = useTooltips
       self.kbFilename = kbFilename
       self.linguisticsFilename = linguisticsFilename
+      self.showAnnotations = showAnnotations
       tgReader = TierGuide(tierGuideFile)
       self.tierGuide = tgReader.getGuide()
       #with open(tierGuideFile, 'r') as f:
@@ -487,7 +490,7 @@ class TextFromYaml:
                timeCodesForLine = [start,end]
                self.timeCodesForText.append(timeCodesForLine)
                id = line.getAnnotationID()
-               with htmlDoc.tag("div",  klass="line-wrapper", id=i):
+               with htmlDoc.tag("div",  klass="line-wrapper", id=ijalLineCount):
                   # tbl = line.getTable()
                   with htmlDoc.tag("div", klass="line-sidebar"):
                      line.htmlLeadIn(htmlDoc)

@@ -1,5 +1,21 @@
 kb = {
 
+"gʷat əw'ə ti stubš ʔal tiʔaʔ.":
+`
+Grammar Notes 3.8 - 3.10
+
+__3.8__ ___ti___ has a different range of meanings in accord with the
+variety of Lushootseed being spoken.  In the north it means _the particular (one)_,
+a sort of strong form of ___te__ (the).  In Southern Lushootseed ___ti___ means _this_.
+
+__3.9__ ___tiʔəʔ___ (_this_) is spoken only in Northern Lushootseed.   The
+southern groups say ___ti___ in place of ___tiʔəʔ___.
+
+__3.10___ The uses of tiʔəʔ parallel ___tiʔiɬ.
+
+`,
+
+
 "gʷat əw'ə tsiʔiɬ č'ač'as ʔal tudiʔ.":
 `
 Grammar Note 3.6: ___tsiʔiɬ___
@@ -126,7 +142,7 @@ of ___č___ and ___ʔ___.  There is no sound like it in English.
 _xʷudad_
 
 Actually, this word is spelled _xʷ(h)udad_, bu the __h__ (in this particular
-cse to be explained later) is silent and can be omitted for
+case, to be explained later) is silent and can be omitted for
 purposes of sound drill' (___šxʷ(h)udad___ in Southern Lushootseed means _firepit_.)
 `,
 
@@ -172,7 +188,7 @@ ___stab əw'ə tiʔiɬ___
 
 Footnote 2.
 
-In slow, deliberate speech, _əw'ə_ is prononoucned _haw'əʔ_ (howʔ-wuʔ).  It is spelled
+In slow, deliberate speech, _əw'ə_ is prononoucned _haw'əʔ_.  It is spelled
 here to represent the way it is often said in relaxed talking.
 
 Imitate whatever pronunciation the teacher uses regardless of how it is written here.
@@ -204,7 +220,7 @@ Notice that the a literal translation is
 
 "(A) bear that (is)."
 
-Only the Skagit say _spaʔc_.  All other Puget Sound groups say ___sčətxʷəd___ (schut-whud) for bear.
+Only the Skagit say _spaʔc_.  All other Puget Sound groups say ___sčətxʷəd___  for bear.
 `,
 
 "sqigʷəc tiʔiɬ.":
@@ -213,7 +229,7 @@ ___sqigʷəc tiʔiɬ___
 
 Footnote 4.
 
-The teacher may wish to substitute the word __kʷagʷičə__ (_kwah-gwee-chud_)
+The teacher may wish to substitute the word __kʷagʷičəd__ 
 _elk_ for __sqigʷəc__ _deer_ thereby avoiding till a later lesson the sound "q".
 `,
 
@@ -222,7 +238,7 @@ _elk_ for __sqigʷəc__ _deer_ thereby avoiding till a later lesson the sound "q
 __sʔuladxʷ tiʔiɬ__
 
 __sʔuladxʷ__ is used by the Skagit and Snohomish.  The other groups say __sčədadxʷ__
-(scyu-day-dwh) for salmon (and seagoing trout - both anadromous fish):
+ for salmon (and seagoing trout - both anadromous fish):
 
 __Note__: five species of Northwest anadramous fish (salmon, steelhead, and certain
 bull trout)  migrate from
@@ -247,7 +263,7 @@ __bəščəb tiʔiɬ__
 
 
 __bəščəb__ is used by the Skagit and Snohomish while the Suquamish and
-the more southerly groups say __c'əbalqid__ (_tsu-bahlʔ-qad_) for mink.
+the more southerly groups say __c'əbalqid__ for mink.
 `,
 
 }

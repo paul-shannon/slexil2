@@ -40,7 +40,7 @@ def test_infernoWithInterspersedHtmlLines():
 
       # 3 lines of speech, one jquery pattern
    pattern = re.compile('speech-tier"')
-   assert(len(pattern.findall(htmlText)) == 4)
+   assert(len(pattern.findall(htmlText)) == 5)
 
       # should be no other tiers
    pattern = re.compile('-tier">')

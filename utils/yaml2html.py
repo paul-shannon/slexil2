@@ -65,29 +65,30 @@ projectDirectory = "./"
 
 
 text = TextFromYaml(yaml, terms, tierGuide,
-                  projectDirectory="inferno",
-                  verbose = True,
-                  fontSizeControls = True,
-                  startLine = None,
-                  endLine = None,
-                  pageTitle = "inferno with markup",
-                  helpFilename = None,
-                  helpButtonLabel = None,
+                  projectDirectory=projectDirectory,
+                  verbose = verbose,
+                  fontSizeControls = fontSizeControls,
+                  startLine = startLine,
+                  endLine = endLine,
+                  pageTitle = pageTitle,
+                  helpFilename = helpFile,
+                  helpButtonLabel = helpButtonLabel,
                   kbFilename = kbFilename,
-                  linguisticsFilename = None,
-                  fixOverlappingTimeSegments = False,
-                  webpackLinksOnly=False,
-                  useTooltips=False)
+                  linguisticsFilename = linguisticsFilename,
+                  fixOverlappingTimeSegments = fixOverlappingTimeSegments,
+                  webpackLinksOnly=webpackLinksOnly,
+                  useTooltips=useTooltips)
 
 
 # print(text.getTierSummary())
 htmlText = text.toHTML()
-htmlText_indented = yattag.indent(htmlText)
+#htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
 
-filename = "fromYaml.html"
+filename = "index.html"
 f = open(filename, "wb")
-f.write(bytes(htmlText_indented, "utf-8"))
+f.write(bytes(htmlText, "utf-8"))
+#f.write(bytes(htmlText_indented, "utf-8"))
 f.close()
 print("    wrote %s" % f.name)

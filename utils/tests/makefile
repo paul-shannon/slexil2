@@ -13,4 +13,4 @@ yaml2html:
         --terms $(BASEDIR)/testData/validYamlFiles/infernoTerms.txt \
         --kbFilename $(BASEDIR)/testData/validYamlFiles/inferno-kb.js \
         --fontSizeControls
-	open fromYaml.html
+	open index.html

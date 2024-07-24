@@ -66,8 +66,9 @@ def test_getIjalLine():
    f = "../testData/validYamlFiles/inferno.yaml"
    ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
    yp = YamlParser(f, ftg)
-   x = yp.getIjalLine(1)
-   assert(x['lineNumber'] ==1)
+   lineNumber = 2
+   x = yp.getIjalLine(lineNumber)
+   assert(x['lineNumber'] == lineNumber)
    assert(x['startTime'] == 0)
    assert(x['endTime'] == 2828)
    assert(x['speech'] == 'Nel mezzo del cammin di nostra vita')
@@ -123,18 +124,29 @@ def test_getAllLines():
    yp.parseAndSortAllLines()
    pl = yp.getAllLines()
 
-   assert(len(pl) == 4)
+   assert(len(pl) == 9)
+
+     # lines (0-based)
+     #  html: 0,1, 4-7
+     #  ijal: 2,3,8
+     # [type(line) for line in pl]
 
    assert(isinstance(pl[0], str))
-   assert(isinstance(pl[1], dict))
+   assert(isinstance(pl[1], str))
    assert(isinstance(pl[2], dict))
    assert(isinstance(pl[3], dict))
+   assert(isinstance(pl[4], str))
+   assert(isinstance(pl[5], str))
+   assert(isinstance(pl[6], str))
+   assert(isinstance(pl[7], str))
+   assert(isinstance(pl[8], dict))
+   
 
    assert(pl[0] == '<h3> Read by Roberto Begnini</h3> taken from youtube')
 
-   assert(pl[1]['speech'] == 'Nel mezzo del cammin di nostra vita')
-   assert(pl[2]['speech'] ==  'mi ritrovai per una selva oscura')
-   assert(pl[3]['speech'] == 'ché la diritta via era smarrita.')
+   assert(pl[2]['speech'] == 'Nel mezzo del cammin di nostra vita')
+   assert(pl[3]['speech'] ==  'mi ritrovai per una selva oscura')
+   assert(pl[8]['speech'] == 'ché la diritta via era smarrita.')
 
 #----------------------------------------------------------------------------------------------------
 def test_run():

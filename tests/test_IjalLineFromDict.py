@@ -22,11 +22,12 @@ def test_basic():
 
    yp = YamlParser(f, ftg)
    yp.parseAndSortAllLines()
-   lineDict = yp.getAllLines()[1]
+     # the inferno demo now has some html lines
+     # first line of the classic inferno is the third, #2
+   lineDict = yp.getAllLines()[2]
    assert(isinstance(lineDict, dict))
     
-   ijalLine = IjalLineFromDict(lineDict, 1, tierGuide, grammaticalTerms=[],
-                             useTooltips=False, verbose=True)
+   ijalLine = IjalLineFromDict(lineDict, 2, tierGuide)
    
    assert(ijalLine.getTierCount() == 4)
    assert(ijalLine.getStartTime() == 0)

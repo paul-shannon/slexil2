@@ -129,12 +129,10 @@ class IjalLineFromDict:
         self.morphemeSpacing = []
         if(glosses):
            if (len(morphemes) > len(glosses)):
-               #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
                theDifference = len(morphemes) - len(glosses)
                for i in range(0, theDifference):
                    glosses.append("⚠️")
            elif (len(morphemes) < len(glosses)):
-               #logging.warning("EAF error - There are more glosses (%d) than morphs (%d) in line %s." % (len(glosses), len(morphemes), int(self.lineNumber) + 1))
                theDifference = len(glosses) - len(morphemes)
                for i in range(0, theDifference):
                    morphemes.append("⚠️")

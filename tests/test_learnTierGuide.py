@@ -206,7 +206,6 @@ def test_learnTierGuide_novelTierName():
    ltg = LearnTierGuide(f, verbose=False)
    ltg.parser.run()
    tg = ltg.learnTierGuide()
-   pdb.set_trace()
 
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

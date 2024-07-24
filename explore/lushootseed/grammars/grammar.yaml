@@ -254,12 +254,75 @@ lines:
     content: "<div style='margin: 30px'><h5>Sound Drill II<h5></div>"
 
 
+  - lineType: ijal
+    startTime: 407740
+    endTime: 409111
+    lushootseed: "č': č'əɬ"
+    english:  tear, pull from
+
+  - lineType: ijal
+    startTime: 409637
+    endTime: 410763
+    lushootseed: "č: čəɬ"
+    english: we
+
+  - lineType: ijal
+    startTime: 419212
+    endTime: 420588
+    lushootseed: "k'ʷ: k'ʷədad"
+    english:  forecast weather
+
+  - lineType: ijal
+    startTime: 421250
+    endTime: 422284
+    lushootseed:  "kʷ: kʷədad"
+    english:  take it
+
+  - lineType: ijal
+    startTime: 432845
+    endTime: 437753
+    lushootseed: "č': ʔuč'axʷč'axʷatəb ʔə tə č'ač'as ʔə tə sč'asč'asəd."
+    english:  The boy repeatedly hit it with branches.
+
+
+  - lineType: ijal
+    startTime: 449695
+    endTime: 454468
+    lushootseed: "k'ʷ: ʔuk'ʷaɬatəb ʔə tsi dsk'ʷuy tsi k'ʷak'ʷt'ad."
+    english:  My mother examined the tiny mouse.
+
+#
+
 #
 #  - lineType: ijal
 #    startTime: 
 #    endTime: 
 #    lushootseed: 
 #    english:  
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english:  
+#
+#
+
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english:  
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english:  
+#
+#
+
 #
 #  - lineType: ijal
 #    startTime: 

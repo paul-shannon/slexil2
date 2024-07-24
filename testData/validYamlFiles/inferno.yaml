@@ -10,6 +10,9 @@ lines:
     content: <h3> Read by Roberto Begnini</h3>
       taken from youtube
 
+  - lineType: html
+    content: taken from youtube
+
   - lineType: ijal
     startTime: 0
     endTime: 2828
@@ -26,6 +29,12 @@ lines:
     morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
     english: I found myself within a forest dark
 
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
   - lineType: html
     content: "<div style='margin: 30px'><h6> another line</h6></div>"
 

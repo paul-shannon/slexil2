@@ -1,5 +1,5 @@
 NAME = howDaylightWasStolen
-
+BASEDIR=~/github/slexil2
 
 default:
 	@echo targets:
@@ -7,7 +7,7 @@ default:
 	@echo  curl
 	@echo  eaf
 	@echo  html
-	@echo  view
+	@echo  yaml2html
 	@echo  publish
 	@echo  viewRemote
 
@@ -21,6 +21,17 @@ curl:
 
 http:
 	python -m http.server $(PORT) &
+
+yaml2html:
+	python $(BASEDIR)/utils/yaml2html.py \
+        --yaml howDaylightWasStolen.yaml \
+        --tierGuide tierGuide.yaml \
+        --kbFilename kb.js \
+        --linguistics linguisticTerms.js \
+        --pageTitle "Lushootseed Grammar" \
+        --helpButtonLabel About \
+        --helpFile about.html
+
 
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml

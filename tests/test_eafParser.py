@@ -337,10 +337,11 @@ def test_timeTable():
     f2 = "../explore/daylight/beckAndHess/beckAndHess.eaf"
     f3 = "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf"
 
+    assert(f == '../testData/validEafFiles/inferno-threeLines.eaf')
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
     parser.run()
     tbl = parser.getTimeTable()
-    assert(tbl.shape == (737,5))
+    assert(tbl.shape == (3,5))
        # looks like this:
        # tbl.loc[1:3]
        #   lineID  start   end   t1   t2
@@ -352,8 +353,8 @@ def test_timeTable():
                      ['lineID', 'start', 'end', 't1', 't2'])
     startTimes = tbl["start"].tolist()
     endTimes = tbl["end"].tolist()
-    assert(startTimes[0:3] == [0, 484, 1134])
-    assert(endTimes[0:3] == [484, 1134, 2460])
+    assert(startTimes == [0, 3095, 5624])
+    assert(endTimes == [2828, 5500, 8033])
     
 #---------------------------------------------------------------------------------------------------
 # tierGuide.yaml 

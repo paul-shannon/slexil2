@@ -172,6 +172,7 @@ def test_toHTML_speechOnly():
 	assert(html == expected)
 
 #----------------------------------------------------------------------------------------------------
+# omit morpheme and morhemeGloss tiers
 def test_toHTML_speechAndTranslation():
 
 	print("--- test_toHTML_speechAndTranslation")

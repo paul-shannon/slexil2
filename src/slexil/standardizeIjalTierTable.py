@@ -100,6 +100,7 @@ class StandardizeIjalTierTable:
   
       # the table comes with user tier names, associated via tierGuide.yaml
       # with cannonical names. look up the canonical names, add them in a column.
+
    def addCanonicalTierNameColumn(self):
       assert(self.guideAndLinesAgree())
       if(self.userTiersAreMultiple):
@@ -121,6 +122,13 @@ class StandardizeIjalTierTable:
       tbl.loc[:, "canonicalTier"] = canonicalNames
       self.tbl = tbl
 
+      # row numbers and ids need to be in simple ascending order from 0
+   def normalizeRowNumber(self):
+      self.tbl = self.tbl.reset_index(drop=True)
+      newIDs = list(self.tbl.index)
+      self.tbl["id"] = newIDs
+      
    def getTable(self):
+      self.normalizeRowNumber()
       return(self.tbl)
       

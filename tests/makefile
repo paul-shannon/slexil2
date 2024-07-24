@@ -1,5 +1,7 @@
 default:
-	@echo targets: venv all install
+	@echo venv
+	@echo all
+	@echo install
 	@echo webPacker
 	@echo tierGuide
 	@echo eaf
@@ -10,8 +12,9 @@ default:
 	@echo listTiers
 	@echo standardizeIjalTierTable
 	@echo xmlFileUtils
-	@echo ijal
-	@echo yaml [yamlTextParser, yamlToWebPage]
+	@echo ijalFromDict
+	@echo yamlParser
+	@echo textFromYaml
 
 yamlTextCreator:
 
@@ -19,7 +22,20 @@ venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
 
 
-all: webPacker eaf ijalLine text morphemeGloss standardizeIjalTierTable xmlFileUtils
+all: install \
+     webPacker \
+     tierGuide \
+     eaf \
+     learnTierGuide \
+     ijalLine \
+     text \
+     morphemeGloss \
+     listTiers \
+     standardizeIjalTierTable \
+     xmlFileUtils \
+     ijalFromDict \
+     yamlParser \
+     textFromYaml
 
 webPacker:
 	python -m unittest test_webPacker.py 
@@ -77,14 +93,14 @@ standardizeIjalTierTable:
 xmlFileUtils:
 	python test_XmlFileUtils.py
 
-yaml:  yamlTextParser  yamlToWebPage
+yaml:  yamlParser  textFromYaml
 
-yamlTextParser:
+yamlParser:
 	python test_yamlParser.py
 
-yamlToWebPage:
+textFromYaml:
 	python test_TextFromYaml.py
 
-ijal:
+ijalFromDict:
 	python test_IjalLineFromDict.py
 

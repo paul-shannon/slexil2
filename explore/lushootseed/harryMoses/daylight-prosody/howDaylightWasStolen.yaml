@@ -6,6 +6,7 @@ mimeType: audio/x-wav
 
 lines:
   - lineNumber: 1
+    lineType: ijal
     startTime: 0
     endTime: 5942
     lushootseed: ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.
@@ -15,6 +16,7 @@ lines:
     english: In the distant past, there was no daylight.
 
   - lineNumber: 2
+    lineType: ijal
     startTime: 5943
     endTime: 10469
     lushootseed: tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ
@@ -24,6 +26,7 @@ lines:
     english: The land, it was dark in the distant past.
 
   - lineNumber: 3
+    lineType: ijal
     startTime: 12407
     endTime: 17351
     lushootseed: tudxʷadhadəxʷ tiʔəʔ ʔaciɬtalbixʷ.  gʷʔəsčaləxʷ kʷi gʷədəxʷkʷədxʷ čəɬ kʷi sləx̌il.
@@ -33,6 +36,7 @@ lines:
     english: The people talked it over. How can we manage to obtain the daylight?
 
   - lineNumber: 4
+    lineType: ijal
     startTime: 17746
     endTime: 23000
     lushootseed: ʔaʔ kʷi sləx̌il ʔal kʷi q’xʷul’gʷədxʷ gʷəl ʔəsčal kʷi gʷədəxʷkʷədxʷ čəɬ
@@ -42,6 +46,7 @@ lines:
     english: Daylight is up there in the upriver country but how can we manage to get it?
 
   - lineNumber: 5
+    lineType: ijal
     startTime: 24006
     endTime: 26917
     lushootseed: tuhuyucutəxʷ tiʔəʔ səsaliʔ ləgʷləgʷəb
@@ -51,6 +56,7 @@ lines:
     english: These two youths prepared themselves.
 
   - lineNumber: 6
+    lineType: ijal
     startTime: 27192
     endTime: 28928
     lushootseed: "tuc’agʷacutəxʷ"
@@ -60,6 +66,7 @@ lines:
     english: They bathed.
 
   - lineNumber: 7
+    lineType: ijal
     startTime: 29715
     endTime: 35245
     lushootseed: tuhuyucut həlgʷəʔ dxʷʔal sxʷəxʷaʔxʷəʔs gʷəsutəlawils əlgʷəʔ
@@ -69,6 +76,7 @@ lines:
     english: They prepared themselves in order to be swift as they run.
 
   - lineNumber: 8
+    lineType: ijal
     startTime: 35246
     endTime: 40990
     lushootseed: tiʔəʔ qaw'qs ʔi tiʔəʔ bibščəb kʷi tuhuyucut
@@ -79,6 +87,7 @@ lines:
 
 
   - lineNumber: 9
+    lineType: ijal
     startTime: 41000
     endTime:   47686
     lushootseed: "tut’ədalgʷiɬ gʷəl tux̌ʷ xʷiʔ uʔxʷ, tuʔaʔ tux̌ʷ xʷiʔ uʔxʷ ƛ’əlayʔ ʔə huyu gʷəsəsaxʷəbabac"
@@ -89,6 +98,7 @@ lines:
 
 
   - lineNumber: 10
+    lineType: ijal
     startTime: 48461
     endTime:   53237
     lushootseed: ʔal kʷi sxʷəʔaʔxʷəʔils (lə)ləcəbagʷiɬil tiʔəʔ ʔəsx̌ək’ʷtxʷ əlgʷəʔ ƛ’əlayʔ
@@ -98,6 +108,7 @@ lines:
     english: To become swift they had two canoes overturned.
 
   - lineNumber: 11
+    lineType: ijal
     startTime: 53961
     endTime: 56789
     lushootseed: cəbagʷiɬəxʷ kʷi ƛ’udəxʷsaxʷəbabacəds əlgʷəʔ
@@ -107,6 +118,7 @@ lines:
     english: Now what they would jump over were two canoes.
 
   - lineNumber: 12
+    lineType: ijal
     startTime: 57806
     endTime:   62938
     lushootseed: tuhaʔkʷ tuhuyucut əlgʷəʔ dxʷʔal kʷi gʷədəxʷxʷəʔaʔxʷəʔils ləƛ’əlayʔ
@@ -116,6 +128,7 @@ lines:
     english: For a long time they trained to become swift as they run.
 
   - lineNumber: 13
+    lineType: ijal
     startTime: 63889
     endTime: 70548
     lushootseed: ləɬixʷalgʷiɬil tiʔəʔ tasx̌ək’ʷtxʷ həlgʷəʔ ƛ’əlayʔ dəxʷəsaxʷəbabacs əlgʷəʔ (həbuʔ)
@@ -125,6 +138,7 @@ lines:
     english: It came to where they had three canoes overturned which they were jumping.
 
   - lineNumber: 14
+    lineType: ijal
     startTime: 70461
     endTime:   77678
     lushootseed: ʔaləxʷ kʷi čəɬ, ʔaləxʷ kʷi čəɬ tubuus, tubuusalgʷiɬil kʷi tuasx̌əʷk’ʷ ƛ’əlayʔ
@@ -134,6 +148,7 @@ lines:
     english: Now prepared, now prepared four, four canoes turned over shovel nose canoe
 
   - lineNumber: 15
+    lineType: ijal
     startTime: 77755
     endTime: 81022
     lushootseed: gʷəl tusaxʷəbabacəd həlgʷa tiʔəʔ buusalgʷiɬ ƛ’əlayʔ
@@ -143,6 +158,7 @@ lines:
     english:  And they jumped over these four canoes
 
   - lineNumber: 16
+    lineType: ijal
     startTime: 81245
     endTime: 87863
     lushootseed: gʷəl tu (həbuʔ)  ʔa gʷəl tudxʷcutəb həlgʷa ʔuˑ xʷiʔəxʷ kʷi ʔahəxʷ gʷəčaldubuɬ
@@ -152,6 +168,7 @@ lines:
     english: And then they thought, nothing now can catch us.
 
   - lineNumber: 17
+    lineType: ijal
     startTime: 88075
     endTime: 93611
     lushootseed: siʔəxʷ čəɬ ƛ’ubəxʷ dxʷʔal kʷi gʷəsʔuʔux̌ʷc čəɬ kʷi sləx̌il ʔal kʷi dəxʷʔacəc
@@ -161,6 +178,7 @@ lines:
     english: We are good enough to go after daylight where it is.
 
   - lineNumber: 18
+    lineType: ijal
     startTime: 94400
     endTime: 103558
     lushootseed: tu=gʷaʔxʷ ʔux̌ʷ tiʔəʔ diʔəʔ tuʔuluɬəxʷ tiʔəʔ diʔəʔ bibščəb ʔi tiʔəʔ diʔəʔ ʔi tiʔəʔ qaw'qs
@@ -170,6 +188,7 @@ lines:
     english: They soon went, this here, traveled by water this here mink, and this here, and this raven.
 
   - lineNumber: 19
+    lineType: ijal
     startTime: 105180
     endTime: 108783
     lushootseed:  tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q’xʷul’gʷədxʷ
@@ -179,6 +198,7 @@ lines:
     english: Walking went but not yet, that daylight  that upstream.land.
 
   - lineNumber: 20
+    lineType: ijal
     startTime: 111638
     endTime: 116800
     lushootseed:  x̌ʷul’əxʷ əlgʷəʔ tuləč’itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il
@@ -188,6 +208,7 @@ lines:
     english: As they drew near this place of daylight,
 
   - lineNumber: 21
+    lineType: ijal
     startTime: 117000
     endTime: 119616
     lushootseed:  ləx̌iličəxʷ əlgʷəʔ
@@ -197,6 +218,7 @@ lines:
     english: light enveloped them.
 
   - lineNumber: 21
+    lineType: ijal
     startTime: 119617
     endTime: 123638
     lushootseed: ƛ’uhagʷəxʷ kʷi ƛ’usləx̌ils gʷəl ƛ’ubələbəsad
@@ -206,6 +228,7 @@ lines:
     english: For a long time it would be day then it would again be dark.
 
   - lineNumber: 22
+    lineType: ijal
     startTime: 124700
     endTime: 127862
     lushootseed: diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ
@@ -215,6 +238,7 @@ lines:
     english: That (was how) knew they becoming near they.
 
   - lineNumber: 23
+    lineType: ijal
     startTime: 127865
     endTime: 131346
     lushootseed: gʷəl tuɬəgʷɬ əlgʷəʔ tiʔəʔ q’il’bids gʷəl tugʷax̌ʷ
@@ -224,6 +248,7 @@ lines:
     english: Then they left their canoe and walked.
 
   - lineNumber: 27
+    lineType: ijal
     startTime: 133983
     endTime:   138000
     lushootseed: tugʷax̌ʷəxʷ əlgʷəʔ gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ 
@@ -233,6 +258,7 @@ lines:
     english: They walked now and arrived at these ...
 
   - lineNumber: 28
+    lineType: ijal
     startTime: 140000
     endTime:   143494
     lushootseed: ʔaciɬtalbixʷ ʔəsɬaɬlil dəxʷʔa ʔə tiʔəʔ sləx̌il
@@ -242,6 +268,7 @@ lines:
     english: ... people who dwelled at the place of light.
 
   - lineNumber: 28
+    lineType: ijal
     startTime: 144400
     endTime:   149000
     lushootseed: ɬudxʷʔiwədəxʷ əlgʷəʔ ša gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il
@@ -251,6 +278,7 @@ lines:
     english: They will decide. “Which of us will take the light?"
 
   - lineNumber: 29
+    lineType: ijal
     startTime: 149278
     endTime: 154153
     lushootseed: gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il
@@ -260,6 +288,7 @@ lines:
     english: It would be bad if we both were to go, because we would be known to be going after this light.
 
   - lineNumber: 30
+    lineType: ijal
     startTime: 154416
     endTime: 157690
     lushootseed: ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc
@@ -269,6 +298,7 @@ lines:
     english: We will steal it from where it is.
 
   - lineNumber: 31
+    lineType: ijal
     startTime: 158828
     endTime: 164178
     lushootseed: tucutəxʷ tiʔəʔ diʔəʔ ... tiʔəʔ  bibščəb ʔəca kʷi ɬuhədʔiw’b
@@ -278,6 +308,7 @@ lines:
     english: Little Mink said,  I am the one who will enter the building.
 
   - lineNumber: 32
+    lineType: ijal
     startTime: 165000
     endTime: 168480
     lushootseed: kayiɬ čəd ɬuləluluƛ’ ɬasqʷəlubus
@@ -287,6 +318,7 @@ lines:
     english: I will pretend to be old and grey.
 
   - lineNumber: 33
+    lineType: ijal
     startTime: 169080
     endTime: 172445
     lushootseed: ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd
@@ -297,6 +329,7 @@ lines:
 
 
   - lineNumber: 33
+    lineType: ijal
     startTime: 173888
     endTime: 178872
     lushootseed: ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ
@@ -306,6 +339,7 @@ lines:
     english: I will go to the nobleman who has the daylight. There is where I will be.
 
   - lineNumber: 34
+    lineType: ijal
     startTime: 180422
     endTime: 183942
     lushootseed: cuuc tiʔəʔ qaw’qs ɬuʔal tiʔəʔ diʔəʔ kʷi ɬudsʔacəc
@@ -316,6 +350,7 @@ lines:
 
 
   - lineNumber: 35
+    lineType: ijal
     startTime: 184350
     endTime: 187135
     lushootseed: ɬasʔaciɬ čəd dxʷʔal kʷi ɬadsʔəƛ’txʷ
@@ -325,13 +360,37 @@ lines:
     english: I will wait for you to bring it.
 
   - lineNumber: 36
+    lineType: ijal
     startTime: 188135
-    endTime: 195697
+    endTime: 193790
     lushootseed: siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ gʷəl ʔəcahəxʷ kʷi ɬubəkʷədad, ɬukʷədadxʷaxʷ
-    soundsLike: see tlobe saw(f).wuff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD boo.kwed.kwawf 
+    soundsLike: see tlobe slawds.suff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD boo.kwed.kwawf 
     morphemes: [siʔ,ƛ’ub,ɬu=ad=s=ʔas–ƛ’ip’–aɬ–t,čəxʷa,ɬu=ɬčil,dxʷ–diʔaʔ,gʷəl,ʔəca=axʷ,kʷi,ɬu=bə=kʷəda–t,ɬu=kʷəda–dxʷ=axʷ]
     morphemeGloss: [right.there,well,irr=2sg.po=nm=stat–squeeze–incrp–ics,2sg.coord,irr=arrive,cntrpt–prox.dma,sconj,I=now,rem,irr=add=taken–ics,irr=taken–dc=now]
     english: “Just so will you be clutching it and you will arrive here, and I am the one who will take it anew.”
+
+  - lineNumber: 36
+    lineType: ijal
+    startTime: 194000
+    endTime: 195697
+    lushootseed: ɬukʷədadxʷaxʷ
+    soundsLike: slew.kwed.hwawf 
+    morphemes: [ɬu=kʷəda–dxʷ=axʷ]
+    morphemeGloss: [irr=taken–dc=now]
+    english: I will take it.
+ 
+ 
+#  - lineNumber: 37
+#    lineType: ijal
+#    startTime: 198016
+#    endTime: 204603
+#    lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
+#    soundsLike:
+#    morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
+#    morphemeGloss: [past=run=now,prox,past=go=now,prox,attn–mink,sconj,past=arrive,cntrpt–at,prox,here,noble,stat–prop–daylight]
+#    english: He ran. Little Mink went and he came to the nobleman who had daylight. 
+
+
 # 
 #   - lineNumber: 
 #     startTime: 

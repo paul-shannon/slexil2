@@ -18,11 +18,12 @@ def runTests():
    test_tierGuideAndLinesAgreement()
    test_addCanonicalTierNameColumn()
    test_multipleValuesInCanonicalTiers()
+   test_omitTiers()
    
 #------------------------------------------------------------------------------------------
 # we create a pandas dataframe from the tiers of an ELAN eaf file
 # simulate that here
-def createLinesTable():
+def createInfernoLinesTable():
 
    tbl = pd.DataFrame(columns=["id","parent","startTime","endTime","tierID","tierType","text"])
    tbl["id"] = (0, 1, 2, 3)
@@ -52,7 +53,7 @@ def test_ctor():
                  'morphemeGloss': 'morpheme-gloss',
                  'translation': 'english'}
 
-    tbl = createLinesTable()
+    tbl = createInfernoLinesTable()
     std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
     tbl2 = std.getTable()
     assert(tbl2.shape == (4,7))  # all four tiers
@@ -102,7 +103,7 @@ def test_tierGuideAndLinesAgreement():
                  'translation': 'english',
                  }
 
-    tbl = createLinesTable()
+    tbl = createInfernoLinesTable()
     std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
     assert(std.guideAndLinesAgree())
 
@@ -175,7 +176,7 @@ def test_addCanonicalTierNameColumn():
 
    print("--- test_addCanonicalTierNameColumn")
 
-   tbl = createLinesTable()
+   tbl = createInfernoLinesTable()
 
       #--------------------------------------------------
       # first, with a 4-tier table and a 4-tier tierGuide
@@ -215,6 +216,29 @@ def test_addCanonicalTierNameColumn():
    assert(list(tbl2["canonicalTier"]) ==  ['speech'])
 
 #------------------------------------------------------------------------------------------
+def test_omitTiers():
+
+   print("--- test_omitTiers")
+
+   tbl = createInfernoLinesTable()
+   tierGuide = {'speech': 'italianSpeech',
+                #'morpheme': 'morphemes',
+                #'morphemeGloss': 'morpheme-gloss',
+                'translation': 'english'}
+
+   std = StandardizeIjalTierTable(tbl, tierGuide, verbose=False)
+   tbl2 = std.getTable()
+   assert(tbl2.shape == (2, 7))
+
+      # with two tiers omitted, ensure that nonetheless the row indices
+      # and ids are in 0..n order
+
+   assert(list(tbl2.index) == [0, 1])
+   assert(list(tbl2["id"]) == [0, 1])
+
+
+#------------------------------------------------------------------------------------------
+   
 if __name__ == '__main__':
     runTests()
     
