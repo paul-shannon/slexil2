@@ -284,14 +284,18 @@ lines:
     lushootseed: "č': ʔuč'axʷč'axʷatəb ʔə tə č'ač'as ʔə tə sč'asč'asəd."
     english:  The boy repeatedly hit it with branches.
 
-
   - lineType: ijal
     startTime: 449695
     endTime: 454468
     lushootseed: "k'ʷ: ʔuk'ʷaɬatəb ʔə tsi dsk'ʷuy tsi k'ʷak'ʷt'ad."
     english:  My mother examined the tiny mouse.
 
-#
+  - lineType: html
+    content: "<div style='margin: 30px; font-size: 32px'>Lesson Four: buus</div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
 
 #
 #  - lineType: ijal

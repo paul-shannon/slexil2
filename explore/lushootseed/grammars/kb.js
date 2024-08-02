@@ -1,24 +1,56 @@
 kb = {
 
+"k'ʷ: k'ʷədad":
+`
+**Grammar Note 3.2, page 11**
+
+_k'ʷ_ is something like saying _qu_ (of _queen_) with a catch in the
+throat simultaneously.  As with _č'_, _k'ʷ_ is a combination of _kʷ_
+and _ʔ_.  There is no sound like it in English.
+
+`,
+
+
+
+"gʷat əw'ə tiʔiɬ sɬadəy ʔal tudiʔ.":
+`
+**Grammar Note 3.3, page 11**
+
+_əy_ sounds like _i_ in the English word _bite_ as pronounced by
+Canadians.  The difference in sound between _ay_ and _əy_ is very
+slight and of no importance in Lushootseed.  The student may
+pronounce both in the same way.
+`,
+
+
+"č': č'əɬ":
+`
+___č'___ is something like saying __ch__ (as in __ch__ur__ch__) with
+a catch in the throat at the same time.  It is sort of a combination
+of ___č___ and ___ʔ___.  There is no sound like it in English.
+`,
+
 "gʷat əw'ə ti stubš ʔal tiʔaʔ.":
 `
-Grammar Notes 3.8 - 3.10
+**Grammar Notes 3.8 - 3.10**
 
-__3.8__ ___ti___ has a different range of meanings in accord with the
+__3.8__ _ti_ has a different range of meanings in accord with the
 variety of Lushootseed being spoken.  In the north it means _the particular (one)_,
-a sort of strong form of ___te__ (the).  In Southern Lushootseed ___ti___ means _this_.
+a sort of strong form of __te__ (the).  In Southern Lushootseed _ti_ means _this_.
 
-__3.9__ ___tiʔəʔ___ (_this_) is spoken only in Northern Lushootseed.   The
-southern groups say ___ti___ in place of ___tiʔəʔ___.
+__3.9__ _tiʔəʔ_ (_this_) is spoken only in Northern Lushootseed.   The
+southern groups say _ti_ in place of _tiʔəʔ_.
 
-__3.10___ The uses of tiʔəʔ parallel ___tiʔiɬ.
+__3.10__ The uses of _tiʔəʔ_ parallel _tiʔiɬ_.
 
 `,
 
 
 "gʷat əw'ə tsiʔiɬ č'ač'as ʔal tudiʔ.":
 `
-Grammar Note 3.6: ___tsiʔiɬ___
+**Grammar Note 3.6**
+
+___tsiʔiɬ___
 
 When the person (or animal) talked about is female, an ___s___ is added
 right after the ___t___ of
@@ -36,26 +68,35 @@ giving
 
 "diɬ dbadaʔ tiʔiɬ.":
 `
-Grammar Note 3.7
 
-___d-___
+**Grammar Note 3.7**
 
-at the beginning of a word means ___my___.
+_d-_ at the beginning of a word means ___my___.
 `,
 
 
 "diɬ dsk'ʷuy tsiʔiɬ.":
 `
-Grammar Note 3.5: ___diɬ___
+**Grammar Note 3.2, page 11**
 
-means 'he, she, or it is' and refers to any previously
+_k'ʷ_ is something like saying _qu_ (of _queen_) with a catch in the
+throat simultaneously.  As with _č'_, _k'ʷ_ is a combination of _kʷ_
+and _ʔ_.  There is no sound like it in English.
+
+
+**Grammar Note 3.5, page 11**
+
+_diɬ_ means 'he, she, or it is' and refers to any previously
 mentioned entity of concept.
 `,
 
 
 "gʷat əw'ə tiʔiɬ stubš ʔal tudiʔ.":
 `
-Grammar Note 3.4a
+_gʷat əw'ə tiʔiɬ stubš ʔal tudiʔ._
+
+
+**Grammar Note 3.4a**
 
 ___tiʔiɬ___
 
@@ -95,6 +136,8 @@ It is possible to reply by omitting _tiʔiɬ_ saying
 
 "diɬ dbad tiʔiɬ.":
 `
+**footnote 1, page 10**: <br>
+
 Some people prefer to say
   - _dbad tiʔiɬ stubš_
   - (He is) my father, that man,
@@ -129,7 +172,7 @@ ___š___ is like _sh_ in _shoe_.
 
 "gʷat əw'ə tiʔiɬ č'ač'as ʔal tudiʔ.":
 `
-Sound and Symbol 3.1   
+**Sound and Symbol 3.1, page 10**
 
 ___č'___ is something like saying __ch__ (as in __ch__ur__ch__) with
 a catch in the throat at the same time.  It is sort of a combination
