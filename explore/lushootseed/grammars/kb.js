@@ -1,5 +1,69 @@
 kb = {
 
+"ʔuyayus ʔal tudiʔ.":
+`
+**Grammar Note 4.5**
+
+As in many American Indian languages, there is no word in Lushootseed quite like _he_ or _she_.
+(See footnote 1 just below).  
+However, if the speaker does not choose to name specifically the person spoken about,
+there really is no need to use any word such as _he_ or _she_.
+
+There never is any confusion because words for _I_, _we_, and _you_ do exist.  So if the
+person referred to is not _me_, _us_, or _you_, it has to be _he_ or _she_.
+
+(The situation makes clear wheter a man or woman is referred to.  The way of saying
+_they_ is presented in a later lesson.)
+
+**Footnote 1 page 18**
+
+The apparent exception to this statement is _diɬ_: _he_, _she_, or _it is (the one)_,
+line 3.5.  However, _diɬ_ is used only when singling out the person (or thing) for special
+emphasis and is never used in neutral statements such as those in Choral Repetition of
+Lesson Four.  More information on the use of _diɬ_ is presented in a later lesson.
+
+`,
+
+"ʔuyayus ti dbad ʔal tudiʔ.":
+`
+**Grammar Note 4.4**
+
+In Lushootseed, the action word usually comes before the actor - just the
+opposite of English word order.
+`,
+
+"čad t(i) abad.":
+`
+**Footnote 1**
+
+In the sentences of this lesson, Southern Lushootseed speakers say _šə_
+and _sə_ in place of _ti_ and _tsi_, e.g., _čad š(i) abad__, "where is your father?".
+
+**Grammar Note 4.1**
+
+_ad_ at the beginning of a word means _your_.
+
+**Grammar Note 4.2**
+
+When talking at a relaxed and not over careful rate, _ti_ and _ad-_ usually flow together and sould like
+one word, _tad_.  The reason they are separated by a space is because another word can be added between.
+For example, it is possible to say _čad ti siʔab adbad_, "Where is your esteemed father?".
+
+**Grammar Note 4.3**
+
+A letter written within parentheses, ___()___, is NOT pronounced.
+Thus, _i_ is lost before _a_ in the first question of #1.  However,
+this _i-sound_ returns when _a_ does not follow it.  See the second sentence,
+the answer, in #1.
+
+(Compare English spelling which often keeps letters for sounds that sometimes drop, e.g., the _n_ in _hymn_
+and _hymnal_.)
+
+
+`,
+
+
+
 "k'ʷ: k'ʷədad":
 `
 **Grammar Note 3.2, page 11**

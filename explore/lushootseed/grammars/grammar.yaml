@@ -296,36 +296,40 @@ lines:
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.1</h6></div>"
 
-#
-#  - lineType: ijal
-#    startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english:  
-#
-#  - lineType: ijal
-#    startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english:  
-#
-#
 
-#
-#  - lineType: ijal
-#    startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english:  
-#
-#  - lineType: ijal
-#    startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english:  
-#
-#
+
+  - lineType: ijal
+    startTime: 473928
+    endTime: 476455
+    lushootseed: čad t(i) abad.
+    english:  Where is your father?
+
+  - lineType: ijal
+    startTime: 482623
+    endTime: 486623
+    lushootseed: ʔuyayus ti dbad ʔal tudiʔ.
+    english:  My father is working over there.
+
+
+  - lineType: ijal
+    startTime: 487162
+    endTime: 489712
+    lushootseed: ʔuyayus ʔal tudiʔ.
+    english: He is working over there.
+
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.2</h6></div>"
+
+
+  - lineType: ijal
+    startTime: 499789
+    endTime: 502097
+    lushootseed: čad ts(i) ask'ʷuy.
+    english:  Where is your mother?
+
 
 #
 #  - lineType: ijal
