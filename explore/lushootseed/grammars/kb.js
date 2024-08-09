@@ -1,17 +1,37 @@
 kb = {
 
+"lətəyil ʔal tə stuləkʷ.":
+`
+**Footnote 1, page 22**
+
+Many words that end in _-il_ lose the _l_ in Southern Lushootseed when (as here)
+a vowel does not immediately follow.
+`,
+
+
+"ʔuʔukʷʔukʷ tsi dbəda ʔal ti ʔalʔal.":
+`
+**Footnote 2, page 16**
+
+The Southern Lushootseed equivalent to _ʔuʔukʷʔukʷ_ (English "play") is
+_ʔuč'aʔa_. <p>
+The _ʔu-_ at the beginning of these action words is explained
+in Lesson Nineteen.
+`,
+
+
 "ʔuyayus ʔal tudiʔ.":
 `
 **Grammar Note 4.5**
 
-As in many American Indian languages, there is no word in Lushootseed quite like _he_ or _she_.
-(See footnote 1 just below).  
-However, if the speaker does not choose to name specifically the person spoken about,
-there really is no need to use any word such as _he_ or _she_.
-
+As in many American Indian languages, there is no word in Lushootseed
+quite like _he_ or _she_.  (See footnote 1 just below).  However, if
+the speaker does not choose to name specifically the person spoken
+about, there really is no need to use any word such as _he_ or _she_.
+<p>
 There never is any confusion because words for _I_, _we_, and _you_ do exist.  So if the
 person referred to is not _me_, _us_, or _you_, it has to be _he_ or _she_.
-
+<p>
 (The situation makes clear wheter a man or woman is referred to.  The way of saying
 _they_ is presented in a later lesson.)
 
@@ -36,12 +56,17 @@ opposite of English word order.
 `
 **Footnote 1**
 
-In the sentences of this lesson, Southern Lushootseed speakers say _šə_
-and _sə_ in place of _ti_ and _tsi_, e.g., _čad š(i) abad__, "where is your father?".
+In the se
+ntences of this lesson, Southern Lushootseed speakers say _šə_
+and _sə_ in place of _ti_ and _tsi_, e.g., _čad š(i) abad__,
+"where is your father?".
+<p>
+See **4.2** and **4.3** for an explanation of the parentheses.  See **3.6** and **4.6** for
+the distinction between _ti_ and _tsi_, _šə_ and _sə_.
 
 **Grammar Note 4.1**
 
-_ad_ at the beginning of a word means _your_.
+_ad-_ at the beginning of a word means _your_.
 
 **Grammar Note 4.2**
 

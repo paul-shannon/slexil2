@@ -1,7 +1,6 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-#mediaFile: grammar-01-02.wav
 mediaFile: 01-05.wav
 mimeType: audio/wav
 
@@ -323,12 +322,130 @@ lines:
   - lineType: html
     content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.2</h6></div>"
 
-
   - lineType: ijal
     startTime: 499789
     endTime: 502097
-    lushootseed: čad ts(i) ask'ʷuy.
+    lushootseed: čad ts(i) adsk'ʷuy.
     english:  Where is your mother?
+
+  - lineType: ijal
+    startTime: 508086
+    endTime: 511642
+    lushootseed: ʔuyayus tsi dsk'ʷuy ʔal ti ʔalʔal.
+    english: My mother is working at the house.
+
+  - lineType: ijal
+    startTime: 519762
+    endTime: 522772
+    lushootseed: ʔuyayus ʔal ti ʔalʔal.
+    english: She is working at the house.
+
+
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.3</h6></div>"
+
+  - lineType: ijal
+    startTime: 529554
+    endTime: 531956
+    lushootseed:  čad ts(i) adbədaʔ
+    english: Where is your daughter?
+
+  - lineType: ijal
+    startTime: 533439
+    endTime: 537453
+    lushootseed:  ʔuʔukʷʔukʷ tsi dbəda ʔal ti ʔalʔal.
+    english: My daughter is playing at the housee.
+
+  - lineType: ijal
+    startTime: 537945
+    endTime: 540869
+    lushootseed:  ʔuʔukʷʔukʷ ʔal ti ʔalʔal.
+    english: She is playing at the house.
+
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.4</h6></div>"
+
+  - lineType: ijal
+    startTime: 552576
+    endTime: 555145
+    lushootseed: čad t(i) adbədaʔ.
+    english: Where is your son?
+
+  - lineType: ijal
+    startTime: 558512
+    endTime: 562761
+    lushootseed: ʔuʔukʷʔukʷ ti dbəda č'it ʔal ti ʔalʔal.
+    english: My son is playing close to the house.
+
+  - lineType: ijal
+    startTime: 564031
+    endTime: 567369
+    lushootseed: ʔuʔukʷʔukʷ č'it ʔal ti ʔalʔal.
+    english: He is playing close to the house.
+
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.5</h6></div>"
+
+  - lineType: ijal
+    startTime: 582081
+    endTime: 585133
+    lushootseed: čad t(i) adsč'istxʷ
+    english: Where is your husband?
+
+  - lineType: ijal
+    startTime: 588873
+    endTime: 593361
+    lushootseed: ʔəsʔitut ti dsč'istxʷ diʔadiʔ.
+    english: My husband is sleeping in the other room
+
+  - lineType: ijal
+    startTime: 593919
+    endTime: 596676
+    lushootseed: ʔəsʔitut diʔadiʔ.
+    english: He is sleeping in the other room.
+
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>4.6</h6></div>"
+
+  - lineType: ijal
+    startTime: 607326
+    endTime: 609809
+    lushootseed: čad ts(i) adčəgʷas.
+    english: Where is your wife?
+
+  - lineType: ijal
+    startTime: 613657
+    endTime: 616969
+    lushootseed: ʔəsʔitut tsi dčəgʷas diʔadiʔ.
+    english: My wife is sleeping in the other room.
+
+  - lineType: ijal
+    startTime: 617397
+    endTime: 619981
+    lushootseed: ʔəsʔitut diʔadiʔ.
+    english: She is sleeping in the other room.
+
+  - lineType: html
+    content: "<div style='margin: 30px; font-size: 32px'>Lesson Five: cəlac</div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 25px; width:35px; padding-left: 5px; background: lightgray'><h6>5.1</h6></div>"
+
+  - lineType: ijal
+    startTime: 642009
+    endTime: 644542
+    lushootseed: čad kʷi sʔuladxʷ.
+    english:  Where are the salmon?
+
+  - lineType: ijal
+    startTime: 648271
+    endTime: 651235
+    lushootseed: lətəyil ʔal tə stuləkʷ.
+    english:  They are going up (stream in) the river.
+
 
 
 #
