@@ -33,6 +33,9 @@ yaml2html:
         --helpFile about.html
 
 
+bug:
+	python ~/github/yamlToEAF/toEAF.py tiny.yaml
+
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
 

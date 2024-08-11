@@ -324,7 +324,7 @@ lines:
     lushootseed: ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd
     soundsLike: 
     morphemes: [ɬu=ʔas–x̌ʷal’,ɬu=ʔas–ck’usəd,ɬu=hədʔiw’–b=ad]
-    morphemeGloss: [irr=stat–fail,irr=stat–walking.stick,irr=indoors–md=1sg.sbrd]
+    morphemeGloss: [irr=stat–fail,irr=stat–use.walking.stick,irr=indoors–md=1sg.sbrd]
     english: Feebly, using a cane I will go in.
 
 
@@ -379,26 +379,26 @@ lines:
     morphemeGloss: [irr=taken–dc=now]
     english: I will take it.
  
+  - lineNumber: 37
+    lineType: ijal
+    startTime: 198016
+    endTime: 204603
+    lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
+    soundsLike:
+    morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
+    morphemeGloss: [past=run=now,prox,past=go=now,prox,attn–mink,sconj,past=arrive,cntrpt–at,prox,here,noble,stat–prop–daylight]
+    english: (Little Mink) ran. Little Mink went and he came to the nobleman who had daylight. 
  
-#  - lineNumber: 37
-#    lineType: ijal
-#    startTime: 198016
-#    endTime: 204603
-#    lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
-#    soundsLike:
-#    morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
-#    morphemeGloss: [past=run=now,prox,past=go=now,prox,attn–mink,sconj,past=arrive,cntrpt–at,prox,here,noble,stat–prop–daylight]
-#    english: He ran. Little Mink went and he came to the nobleman who had daylight. 
 
-
-# 
-#   - lineNumber: 
-#     startTime: 
-#     endTime: 
-#     lushootseed: 
-#     morphemes: 
-#     morphemeGloss: 
-#     english: 
+  - lineNumber: 38
+    lineType: ijal
+    startTime: 205009 
+    endTime: 210767
+    lushootseed: ləluƛ’ ʔəsqwəlubus ləsck’usəd
+    soundsLike: luh-oooootluff kwuh.lobe.us luss.k'o.sud
+    morphemes: [lə=luƛ’,ʔəs–qwəlub•us,ləs–ck’usəd]
+    morphemeGloss: [prog=old,stat–grey.hair•head,prog.stat–use.walking.stick]
+    english: He was old with grey hair and used a cane
 
 
 
