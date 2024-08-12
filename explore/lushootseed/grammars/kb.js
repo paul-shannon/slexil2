@@ -1,5 +1,64 @@
 kb = {
 
+"čad kʷi sʔuladxʷ.":
+`
+**Note 5.2, page 23**
+
+___kʷi___ belongs to the same class of words presented in 5.6 that
+point out or paticularlize items under discussions.  ___kʷi___ is said
+when referring to something vague and/or remote in time or place,
+or when there is some doubt as to its existence.  Comprare __5.7__ and __5.9__.
+<p>
+___kʷi___ belongs to Set I (4.6).  The Set II ("feminine")
+counterpart is ___kʷsi___ (throughout the entire Lushootseed language area).
+
+`,
+
+
+"čad kʷi sqʷəbayʔ.":
+`
+**Footnote 1, page 23**
+
+_sqʷubay_ in some parts of the Southern Lushootseed area, e.g., Muckleshoot
+
+**Note 5.1, page 23**
+
+___qʷ___ is similar to ___kʷ___ except that ___qʷ___ is made with the
+tongue further back in the mouth.
+
+<p>As with ___q___, it may help to try
+pushing the finger against the tip of the tounge while saying _quart_.
+
+<p> Just as ___kʷ___ is like ___k___ except that the lips are rounded for
+the former sound, so ___qʷ___ is like ___q___ but with the added lip rounding.
+.
+`,
+
+"ʔuʔəɬəd diʔabac ʔal tə hikʷ qʷəɬayʔ.":
+`
+**Footnote 2, page 22**
+
+The Southern Lushootseed equivalent is _st'ək'ʷab_.
+`,
+
+
+"ʔəsʔitut diʔabac ʔal tə səxʷgʷədil.":
+`
+**Footnote 2, page 22**
+
+All groups use _səxʷgʷədil_ "chair" except some Skagit who instead say
+_xʷt'agʷtap_.
+`,
+
+
+"lətəlawil diʔayucid ʔal tə šəgʷɬ.":
+`
+**Footnote 1, page 22**
+
+Many words that end in _-il_ lose the _l_ in Southern Lushootseed when (as here)
+a vowel does not immediately follow.
+`,
+
 "lətəyil ʔal tə stuləkʷ.":
 `
 **Footnote 1, page 22**

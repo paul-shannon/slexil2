@@ -620,6 +620,20 @@ lines:
     lushootseed: ʔəʔistut diʔalətxʷ ʔal tə ʔalʔal.
     english:  It is sleeping on the other side of the house.
 
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill III<h5></div>"
+
+  - lineType: ijal
+    startTime: 816148
+    endTime:   818247
+    lushootseed: "qʷ: qʷataš"
+    english:  lay it down
+
+  - lineType: ijal
+    startTime: 818740
+    endTime: 820467
+    lushootseed: "kʷ: kʷatač̌"
+    english:  climb
 
 #
 #  - lineType: ijal
