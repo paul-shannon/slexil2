@@ -56,6 +56,15 @@ lines:
     lushootseed: bəščəb tiʔiɬ.
     english: That is a mink.
 
+
+  - lineType: html
+    content: "<div style='margin: 30px; font-size: 32px;'>
+       <details style='font-size: 24px;'>
+         <summary>New Vocabulary</summary>
+         <ul><li>one</li><li>two</li></ul>
+         </details>
+       </div>"
+
   - lineType: html
     content: "<div style='margin: 30px'><h5>Sound Drill I<h5></div>"
 
@@ -173,6 +182,46 @@ lines:
 
   - lineType: html
     content: "<div style='margin: 30px; font-size: 32px'>Lesson Three: ɬixʷ</div>"
+
+  - lineType: html
+    content: "<div
+              style='margin: 30px;  font-size: 24px;
+                     padding: 10px;
+                     width: 50%;
+                     background-color: #FCF5E5;
+                     border: 1px gray solid;
+                     border-radius: 5px;'>
+                 <details style=''>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>bad</td> <td>father</td></tr>
+                     <tr><td>bədaʔ (NL)</td> <td>one's own child</td></tr>
+                     <tr><td>bədəʔ (SL)</td> <td>one's own child</td></tr>
+                     <tr><td>č'ač'as (NL)</td> <td>child, youngster</td></tr>
+                     <tr><td>č'ač'aš (SL)</td> <td>child, youngster</td></tr>
+                     <tr><td>č'it</td> <td>near</td></tr>
+                     <tr><td>d-</td> <td>my</td></tr>
+                     <tr><td>diɬ</td> <td>he, she, it is</td></tr>
+                     <tr><td>gʷat</td> <td>who</td></tr>
+                     <tr><td>skʷ'uy</td> <td>mother</td></tr>
+                     <tr><td>sɬadəyʔ</td> <td>woman</td></tr>
+                     <tr><td>ti</td> <td>the particular (one)</td></tr>
+                     <tr><td>tiʔaʔ</td> <td>here, close by</td></tr>
+                     <tr><td>tiʔəʔ (NL)</td> <td>this</td></tr>
+                     <tr><td>tiʔiɬ</td> <td>that</td></tr>
+                     <tr><td>tsi</td> <td>the particular (one)(feminie)</td></tr>
+                     <tr><td>tsiʔiɬ</td> <td>that (feminine)</td></tr>
+                     <tr><td>stubš</td> <td>man</td></tr>
+                     <tr><td>tudiʔ</td> <td>over there</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
 
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
@@ -556,7 +605,6 @@ lines:
     endTime: 722273
     lushootseed: ʔəsʔitut diʔabac ʔal tə səxʷgʷədil.
     english:  It is sleeping on the other side of the chair.
-
 
   - lineType: html
     content: "<div class='sectionNumber'>5.6</div>"

@@ -1,5 +1,15 @@
 kb = {
 
+"stab əw'ə tiʔiɬ diʔucid ʔal tə stuləkʷ.":
+`
+**Vocabulary, page 8**
+
+___diʔucid___  &nbsp; &nbsp;(NL) the other side (of a river/lake)   
+___stuləkʷ___  &nbsp; &nbsp; river
+`,
+
+
+
 "čad kʷi sʔuladxʷ.":
 `
 **Note 5.2, page 23**
@@ -36,7 +46,7 @@ the former sound, so ___qʷ___ is like ___q___ but with the added lip rounding.
 
 "ʔuʔəɬəd diʔabac ʔal tə hikʷ qʷəɬayʔ.":
 `
-**Footnote 2, page 22**
+**Footnote 3, page 22**
 
 The Southern Lushootseed equivalent is _st'ək'ʷab_.
 `,
@@ -48,6 +58,10 @@ The Southern Lushootseed equivalent is _st'ək'ʷab_.
 
 All groups use _səxʷgʷədil_ "chair" except some Skagit who instead say
 _xʷt'agʷtap_.
+<p>
+
+___səxʷ-gʷədil___: means.by.which-sit<br>
+___xʷ-t'agʷt-ap___: buttocks-on.top.of-bottom (_what you put your bottom on_)
 `,
 
 
@@ -310,12 +324,20 @@ commonly translated by _in_, _on_, _at_ or _of_.
 "stab əw'ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.":
 `
 ___ay___ sounds like _i_ in the English word _mind_.
+
+**Vocabulary page 8**
+
+___diʔayucid___ &nbsp; &nbsp; (NL) the other side (of a road/path)
 `,
 
 
 "stab əw'ə tiʔiɬ ʔal tə šəgʷɬ.":
 `
 ___š___ is like _sh_ in _shoe_.
+
+**Vocabulary page 8**
+
+___šəgʷɬ___: road, path; door
 `,
 
 "gʷat əw'ə tiʔiɬ č'ač'as ʔal tudiʔ.":
