@@ -129,8 +129,7 @@ opposite of English word order.
 `
 **Footnote 1**
 
-In the se
-ntences of this lesson, Southern Lushootseed speakers say _šə_
+In the sentences of this lesson, Southern Lushootseed speakers say _šə_
 and _sə_ in place of _ti_ and _tsi_, e.g., _čad š(i) abad__,
 "where is your father?".
 <p>
@@ -267,7 +266,7 @@ In English the word _that_ can either stand on its own as in
   - _Give me that_
 
 or it can MODIFY (that is, go with) the name for a
-person of thing as in
+person or thing as in
 
   - _Give me that book_.
 

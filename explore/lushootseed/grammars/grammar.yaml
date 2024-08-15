@@ -6,7 +6,7 @@ mimeType: audio/wav
 
 lines:
   - lineType: html
-    content: "<div style='margin: 30px; font-size: 32px'>Lesson One: dəčuʔ</div>"
+    content: "<div class='lessonTitle'>Lesson One: dəčuʔ</div>"
 
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
@@ -58,14 +58,6 @@ lines:
 
 
   - lineType: html
-    content: "<div style='margin: 30px; font-size: 32px;'>
-       <details style='font-size: 24px;'>
-         <summary>New Vocabulary</summary>
-         <ul><li>one</li><li>two</li></ul>
-         </details>
-       </div>"
-
-  - lineType: html
     content: "<div style='margin: 30px'><h5>Sound Drill I<h5></div>"
 
   - lineType: ijal
@@ -114,7 +106,7 @@ lines:
     english: burn it
 
   - lineType: html
-    content: "<div style='margin: 30px; font-size: 32px'>Lesson Two: saliʔ</div>"
+    content: "<div class='lessonTitle'>Lesson Two: saliʔ</div>"
 
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
@@ -181,19 +173,13 @@ lines:
     english:  That is a bear.
 
   - lineType: html
-    content: "<div style='margin: 30px; font-size: 32px'>Lesson Three: ɬixʷ</div>"
+    content: "<div class='lessonTitle'>Lesson Three: ɬixʷ</div>"
 
   - lineType: html
-    content: "<div
-              style='margin: 30px;  font-size: 24px;
-                     padding: 10px;
-                     width: 50%;
-                     background-color: #FCF5E5;
-                     border: 1px gray solid;
-                     border-radius: 5px;'>
-                 <details style=''>
+    content: "<div class='detailsDiv'>
+                 <details>
                    <summary>New Vocabulary</summary>
-                   <div style='height: 300px; overflow-y: scroll'>
+                   <div style='height: 300px; overflow-y: scroll;'>
                    <table style='border: 1;'>
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
@@ -391,7 +377,35 @@ lines:
     english:  My mother examined the tiny mouse.
 
   - lineType: html
-    content: "<div style='margin: 30px; font-size: 32px'>Lesson Four: buus</div>"
+    content: "<div class='lessonTitle'>Lesson Four: buus</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>ad- </td><td> your  </td></tr>
+                     <tr><td>čad </td><td> where  </td></tr>
+                     <tr><td>čəgʷas (NL) </td><td> wife  </td></tr>
+                     <tr><td>čəgʷaš (SL) </td><td> wife  </td></tr>
+                     <tr><td>ʔuč'aʔa</td><td> play(ing)  </td></tr>
+                     <tr><td>sč'istxʷ</td><td>husband</td></tr>
+                     <tr><td>diʔadiʔ</td><td>other room, other end of the room </td></tr>
+                     <tr><td>sə (NL)</td><td>particular one</td></tr>
+                     <tr><td>šə (SL)</td><td>particular one</td</tr>
+                     <tr><td>ʔuyayus </td><td>work(ing) </td></tr>
+                     <tr><td>ʔalʔal </td><td>house   </td></tr>
+                     <tr><td>ʔəsʔitut </td><td>sleep(ing)</td></tr>
+                     <tr><td>ʔuʔukʷukʷ (NL) </td><td>play(ing)</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
 
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
@@ -524,7 +538,7 @@ lines:
     english: She is sleeping in the other room.
 
   - lineType: html
-    content: "<div style='margin: 30px; font-size: 32px'>Lesson Five: cəlac</div>"
+    content: "<div class='lessonTitle'>Lesson Five: cəlac</div>"
 
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
