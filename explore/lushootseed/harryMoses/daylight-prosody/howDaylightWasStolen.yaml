@@ -363,10 +363,10 @@ lines:
     lineType: ijal
     startTime: 188135
     endTime: 193790
-    lushootseed: siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ gʷəl ʔəcahəxʷ kʷi ɬubəkʷədad, ɬukʷədadxʷaxʷ
-    soundsLike: see tlobe slawds.suff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD boo.kwed.kwawf 
-    morphemes: [siʔ,ƛ’ub,ɬu=ad=s=ʔas–ƛ’ip’–aɬ–t,čəxʷa,ɬu=ɬčil,dxʷ–diʔaʔ,gʷəl,ʔəca=axʷ,kʷi,ɬu=bə=kʷəda–t,ɬu=kʷəda–dxʷ=axʷ]
-    morphemeGloss: [right.there,well,irr=2sg.po=nm=stat–squeeze–incrp–ics,2sg.coord,irr=arrive,cntrpt–prox.dma,sconj,I=now,rem,irr=add=taken–ics,irr=taken–dc=now]
+    lushootseed: siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ gʷəl ʔəcahəxʷ kʷi ɬubəkʷədad
+    soundsLike: see tlobe slawds.suff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD
+    morphemes: [siʔ,ƛ’ub,ɬu=ad=s=ʔas–ƛ’ip’–aɬ–t,čəxʷa,ɬu=ɬčil,dxʷ–diʔaʔ,gʷəl,ʔəca=axʷ,kʷi,ɬu=bə=kʷəda–t]
+    morphemeGloss: [right.there,well,irr=2sg.po=nm=stat–squeeze–incrp–ics,2sg.coord,irr=arrive,cntrpt–prox.dma,sconj,I=now,rem,irr=add=taken–ics]
     english: “Just so will you be clutching it and you will arrive here, and I am the one who will take it anew.”
 
   - lineNumber: 36
@@ -399,6 +399,16 @@ lines:
     morphemes: [lə=luƛ’,ʔəs–qwəlub•us,ləs–ck’usəd]
     morphemeGloss: [prog=old,stat–grey.hair•head,prog.stat–use.walking.stick]
     english: He was old with grey hair and used a cane
+
+  - lineNumber: 39
+    lineType: ijal
+    startTime: 211055
+    endTime: 216136
+    lushootseed: šudub ʔə tiʔəʔ ʔaciɬtabixʷ. ʔuˑ dč’aʔkʷbixʷ ʔaciɬtalbixʷ tiʔəʔ ʔuɬčil.
+    soundsLike: too sew dub.uh tee.ah aci gwel bee code socks a bee kwah see if node chail
+    morphemes: [šuɬ–dxʷ–b,ʔə,tiʔəʔ,ʔaciɬtabixʷ,ʔu,dč’aʔkʷbixʷ,ʔaciɬtalbixʷ,tiʔəʔ,ʔu–ɬčil]
+    morphemeGloss: [see–dc–pass,Pr,prox,people,intj,different.tribe,people,prox,pfv–arrive]
+    english: He is seen by these people. “Oh, a person of a different tribe has arrived.” 
 
 
 
