@@ -1,5 +1,63 @@
 kb = {
 
+"<u>mali</u> tsi sdaʔs.":
+`
+**Note 6.4, page 28**
+
+If the name referred to belongs to a woman, many Lushootseed
+speakers say ___tsi sdaʔs___ instead of ___ti sdaʔs___; but some people
+use ___ti sdaʔs___ with either men's or women's names.   Of those women
+who say ___tsi sdaʔs___ with other women's names, most nevertheles say
+___tə dsdaʔ___ with their own names and not ___tsə dsdaʔ___.  A few, however,
+do say ___tsə dsdaʔ___.  The student should follow the teacher's preference;
+and if in doubt, omit the ___s___. 
+`,
+
+
+
+"<u>h</u>ədli ti sdaʔs.":
+`
+**Note 6.4, page 28**
+
+Capitalization is achieved in Lushootseed by underlining
+the letter rather than by making it bigger.  Only names of
+people and places are capitalized - not the first word in a sentence
+as in English writing.
+
+**Note 6.5, page 28**
+
+The ___-s___ ending can mean _his, her_ or _its_.   The situation
+makes clear wheter a man, woman or object/animal is referred to just
+as in English "their" can refer to either sex and to animals and objects
+as well as humans.
+<p>
+
+By adding the word ___(h)əlgʷəʔ___ after the ___-s___, the speaker
+makes definite that he is talking about someone or something
+possessed by more than one person (or animal/object).   Thus,
+___ti sqʷəbay (h)əlgʷəʔ___ means "their dog".  However, if it is already
+known that more than one owner is involved ___(h)əlgʷəʔ___ is usually
+omitted.
+
+`,
+
+
+"gʷat kʷ(i) adsaʔ.":
+`
+**Note 6.2, page 28**
+
+The word ___gʷat___ is most often equivalent to _who_ (as in Lesson Three).
+However, when asking for someone's name, ___gʷat___ is translated by "what".
+Thus, Lushootseed speakers say, "Who is your name?" or "Who are you called?"
+when in English people say "What is your name?".
+
+**Note 6.3, page 28**
+
+In addition to the meanings give in __5.2__, ___kʷi___ is also used when
+asking about something totally new or unknow to the questioner.
+`,
+
+
 "stab əw'ə tiʔiɬ diʔucid ʔal tə stuləkʷ.":
 `
 **Vocabulary, page 8**
@@ -266,7 +324,7 @@ In English the word _that_ can either stand on its own as in
   - _Give me that_
 
 or it can MODIFY (that is, go with) the name for a
-person or thing as in
+person o thing as in
 
   - _Give me that book_.
 
