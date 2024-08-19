@@ -1,6 +1,6 @@
 kb = {
 
-"<u>mali</u> tsi sdaʔs.":
+"<u>m</u>ali tsi sdaʔs.":
 `
 **Note 6.4, page 28**
 
