@@ -838,8 +838,166 @@ lines:
     english:  Mary she is called.
 
 
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Seven: c̓ukʷs</div>"
+
+  - lineType: ijal
+    startTime:  923818
+    endTime: 926956
+    lushootseed: <u>m</u>ali tsi sdaʔs.
+    english:  Mary she is called.
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+
+                     <tr><td>čəd</td>             <td>I, me</td></tr>
+                     <tr><td>čəxʷ</td>            <td>you</td></tr>
+                     <tr><td><u>də</u>wʔabš</td>  <td>Duwamish</td></tr>
+                     <tr><td>dxʷ<u>l</u>iləp</td> <td>Tulalip</td></tr>
+                     <tr><td><u>p</u>uyaləp</td>  <td>Puyallup</td></tr>
+                     <tr><td>s<u>qʷ</u>aliʔ</td>  <td>Nisqually</td></tr>
+                     <tr><td>tul̓-</td>            <td>from</td></tr>
+                     <tr><td>tul̓čad</td>          <td>from where</td></tr>
+                     <tr><td>tul̓ʔal</td>          <td>be from</td></tr>
+                     <tr><td>s<u>w</u>ədəbš</td>  <td>Swinomish</td></tr>
+
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.1</div>"
+
+  - lineType: ijal
+    startTime:  939180
+    endTime:  941481
+    lushootseed: tul̓čad čəxʷ.
+    english:  Where are you from?
+
+  - lineType: ijal
+    startTime:  945411
+    endTime:  948678
+    lushootseed: tul̓ʔal čəd s<u>w</u>ədəbš.
+    english:  I am from Swinomish.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.2</div>"
+
+  - lineType: ijal
+    startTime:  954812
+    endTime:  957597
+    lushootseed: tul̓čad tiʔiɬ stubš.
+    english:  Where is that man from?
+
+  - lineType: ijal
+    startTime: 961858
+    endTime:  964689
+    lushootseed: tul̓ʔal dxʷ<u>l</u>iləp.
+    english:  He is from Tulalip.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.3</div>"
+
+  - lineType: ijal
+    startTime: 971938
+    endTime: 974507
+    lushootseed: tul̓čad tsiʔiɬ sɬadəyʔ.
+    english: Where is that woman from?
+
+  - lineType: ijal
+    startTime: 977826
+    endTime: 980343
+    lushootseed: tul̓ʔal <u>d</u>əwʔabš.
+    english: She is from Duwamish.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.4</div>"
+
+  - lineType: ijal
+    startTime: 987531
+    endTime: 990594
+    lushootseed: tul̓čad ts(i) adčəgʷas.
+    english: Where is your wife from?
+
+  - lineType: ijal
+    startTime: 993916
+    endTime: 996615
+    lushootseed: tul̓ʔal <u>p</u>uyaləp.
+    english: She is from Puyallup.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.5</div>"
+
+  - lineType: ijal
+    startTime: 1004497
+    endTime: 1007373
+    lushootseed: tul̓čad t(i) adsč̓istxʷ.
+    english: Where is your husband from?
+
+  - lineType: ijal
+    startTime: 1010850
+    endTime: 1013877
+    lushootseed: tul̓ʔal s<u>qʷ</u>aliʔ.
+    english: He is from Nisqually.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill IV<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.4</div>"
+
+  - lineType: ijal
+    startTime: 1027817
+    endTime:   1029819
+    lushootseed: "c̓: sc̓apac"
+    english:  willow tree
+
+  - lineType: ijal
+    startTime: 1032783
+    endTime:   1034684
+    lushootseed: "c: scapaʔ"
+    english:  grandfather
+
+  - lineType: ijal
+    startTime: 1037316
+    endTime:   1040130
+    lushootseed: "c̓: c̓əlalikʷ"
+    english:  win
+
+  - lineType: ijal
+    startTime: 1040278
+    endTime:   1042175
+    lushootseed: "c: celak"
+    english:  five
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.5</div>"
+
+  - lineType: ijal
+    startTime: 1049632
+    endTime:   1056675
+    lushootseed: ʔəsc̓əx̌c̓əx̌ tiʔəʔ c̓ukʷs sʔic̓əb gʷəɬ tiʔəʔ ʔəsc̓ud stubš.
+    english:  The seven blankets of this weak fellow are all worn out.
+
+
+
 #  - lineType: ijal
-#    startTime: 
+#    startTime:   
 #    endTime: 
 #    lushootseed: 
 #    english:  

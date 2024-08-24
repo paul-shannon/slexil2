@@ -1,5 +1,133 @@
 kb = {
 
+"tul̓ʔal s<u>qʷ</u>aliʔ.":
+`
+**Vocabulary Comment 7.6.4**
+
+***s<u>qʷ</u>aliʔ*** "grass", "hay" refers to the large prairie in much of
+the Nisqually territory. (The Skagit equivalent for ***sqʷaliʔ*** is ***sax̌ʷil***.
+The Snohomish and all Southern Lushootseed groups use ***sqʷaliʔ***.)
+`,
+
+
+
+"tul̓ʔal <u>p</u>uyaləp.":
+`
+**Vocabulary Comment 7.6.3**
+
+***<u>p</u>uyaləp*** like <b>dxʷ<u>l</u>iləp</b> is  also made up of three parts:
+
+   - ***puy*** "curve", "bend"
+   - ***al*** refers to location in a general way
+   - ***-əp*** from an old suffix (in an earlier period of the language) meaning "river".
+     (Compare ***apš*** "river" in the related language Upper Chehalis.)
+
+Thus the name means "river of bends" i.e., "winding river"
+`,
+
+
+"tul̓ʔal dxʷ<u>l</u>iləp.":
+`
+**Vocabulary Comment 7.6.2**
+
+***dxʷ<u>l</u>iləp*** is composed of three parts:
+
+   -  ***lil*** "far", "distant"
+   -  ***-əp*** (from **-ap**) "bottom", "end"
+   -  ***dxʷ-*** "to", "toward"
+
+
+Thus, the names means "far to the end (of the bay)" which describes the length of Tulalip Bay.
+`,
+
+
+"tul̓ʔal <u>d</u>əwʔabš.":
+`
+**Vocabulary Comment 7.6.1**
+
+***<u>d</u>əwʔabš*** means "the people of the inside".
+
+***<u>d</u>əwʔ***,  a variant of the word ***dəkʷ/dəgʷa-***
+"inside", is the name for the Cedar, Black and Duwamish River Drainage.  It
+designates the region inside as opposed to the open area along the shores
+of the Sound.  (see map for the river courses before they were changed in
+the present century.)  The ending ***-abš*** means "people of".
+
+**Vocabulary Comment 7.7**
+
+The student will observe that many Indian names are rendered in English with <u>m</u>
+and <u>n</u> whereas the people themsleves use a <u>b</u> and <u>d</u>, as with
+
+For example:
+
+   - ***-(a)bš***: <u>d</u>əwʔabš.
+   - ***-(a)mish***: Duwamish.
+
+The reason is that when the ***pastəd*** "whiteman" first arrived in the
+area, the languages used <u>m</u>'s and <u>n</u>'s so Indian names were
+borrowed into English with those sounds.
+
+Within the last one hundred years of so the language has changed from
+<u>m</u> and <u>n</u> to the use of <u>b</u> and <u>d</u>.
+
+Even today, however, <u>m</u> and <u>n</u> are heard in special
+vocabularies as some proper names and religious ters, and in certain
+styles of speaking and singing.  This is especially true in prayer,
+talking endearingly to children, and quoting the speech of certain
+animals and other supernatural beings.
+
+`,
+
+
+"tul̓ʔal čəd s<u>w</u>ədəbš.":
+`
+**Vocabulary Comment 7.6**
+
+Many Lushootseed proper names are so old that their original
+meaning is lost in history.  However, some names are composed of
+words that are still part of the modern language.
+
+The meaning of ***s<u>w</u>əbəš*** is not readily apparent.
+The ending ***-əbš*** (from ***-abš**, "people of") is the only part of the
+word that is easily interpreted today.
+
+`,
+
+
+"tul̓čad čəxʷ.":
+`
+**Grammar Note 7.3, Sound Note 7.2 page 32**
+
+The student has already learned the words ***čad*** "where"
+(Lesson Four) and ***ʔal*** "location" (2.3).
+
+***tul̓-*** "from"
+combines with these words making ***tul̓čad*** "from where" and ***tul̓ʔal***
+"be from".
+
+
+The sentence ***tul̓čad čəxʷ*** is a general question and can be used
+in many situations.  However, when asking specifically about a person's
+home village or lineage, it is possible to say ***sčads čəxʷ***.
+
+In answering either question, the same replay may be said, ***tul̓ʔal čəd ____***.
+For the beginning student only the first phrasing should be used.
+
+***l̓*** is usually pronounced as a sequence of ***l*** plus ***ʔ***
+or ***ʔ*** plus ***l***.  When ***l*** is followed by ***a**, ***ə***,
+***i*** or ***u***, it sounds like ***ʔl***.
+
+When followed by any other letter or when at the end of a word, it sounds
+like ***lʔ***.
+
+Thus _tul̓čad_ is pronounced as though it were spelled ***tulʔad***.
+
+In the case of ***tul̓ʔal***, however, the expected pronunciation
+***tulʔal** is not used.  Instead, the Luhsootseed say it ias
+if it were spelled ***tuʔal***.
+`,
+
+
 "<u>m</u>ali tsi sdaʔs.":
 `
 **Note 6.4, page 28**
