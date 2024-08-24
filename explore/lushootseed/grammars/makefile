@@ -11,7 +11,8 @@ default:
 	@echo eaf
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
-	@echo publish
+	@echo publish  # all
+	@echo publish-text  # just html and kb.js
 	@echo view
 	@echo viewRemote
 
@@ -55,6 +56,10 @@ publish:
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp *.jpg pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp volume1.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+
+publish-text:
+	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
+	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
 	open index.html

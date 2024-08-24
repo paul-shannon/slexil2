@@ -17,7 +17,7 @@ lines:
   - lineType: ijal
     startTime: 15057
     endTime: 17867
-    lushootseed: stab əw’ə tiʔiɬ.
+    lushootseed: stab əw̓ə tiʔiɬ.
     english:  What is that? (What could that be?)
 
   - lineType: ijal
@@ -75,7 +75,7 @@ lines:
   - lineType: ijal
     startTime: 120886
     endTime:   125198
-    lushootseed: "xʷ: ʔuxʷit’il tə sxʷət dxʷal tə xʷudad."
+    lushootseed: "xʷ: ʔuxʷit̓il tə sxʷət dxʷal tə xʷudad."
     english: The thrush fell into the ashes.
 
   - lineType: html
@@ -117,7 +117,7 @@ lines:
   - lineType: ijal
     startTime: 166737
     endTime: 170657
-    lushootseed: stab əw’ə tiʔiɬ ʔal tə stuləkʷ.
+    lushootseed: stab əw̓ə tiʔiɬ ʔal tə stuləkʷ.
     english:  What is that in the river?
 
   - lineType: ijal
@@ -132,7 +132,7 @@ lines:
   - lineType: ijal
     startTime: 184941
     endTime: 188514
-    lushootseed: stab əw’ə tiʔiɬ ʔal tə šəgʷɬ.
+    lushootseed: stab əw̓ə tiʔiɬ ʔal tə šəgʷɬ.
     english:  What is that in/on the road?
 
   - lineType: ijal
@@ -147,7 +147,7 @@ lines:
   - lineType: ijal
     startTime: 202212
     endTime: 206463
-    lushootseed: stab əw’ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
+    lushootseed: stab əw̓ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
     english:  What is that on the other side of the river?
 
 
@@ -163,7 +163,7 @@ lines:
   - lineType: ijal
     startTime: 221088
     endTime:   225562
-    lushootseed: stab əw’ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
+    lushootseed: stab əw̓ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
     english:  What is that on the other side of the road?
  
   - lineType: ijal
@@ -187,13 +187,13 @@ lines:
                      <tr><td>bad</td> <td>father</td></tr>
                      <tr><td>bədaʔ (NL)</td> <td>one's own child</td></tr>
                      <tr><td>bədəʔ (SL)</td> <td>one's own child</td></tr>
-                     <tr><td>č’ač’as (NL)</td> <td>child, youngster</td></tr>
-                     <tr><td>č’ač’aš (SL)</td> <td>child, youngster</td></tr>
-                     <tr><td>č’it</td> <td>near</td></tr>
+                     <tr><td>č̓ač̓as (NL)</td> <td>child, youngster</td></tr>
+                     <tr><td>č̓ač̓aš (SL)</td> <td>child, youngster</td></tr>
+                     <tr><td>č̓it</td> <td>near</td></tr>
                      <tr><td>d-</td> <td>my</td></tr>
                      <tr><td>diɬ</td> <td>he, she, it is</td></tr>
                      <tr><td>gʷat</td> <td>who</td></tr>
-                     <tr><td>skʷ’uy</td> <td>mother</td></tr>
+                     <tr><td>sk̓ʷuy</td> <td>mother</td></tr>
                      <tr><td>sɬadəyʔ</td> <td>woman</td></tr>
                      <tr><td>ti</td> <td>the particular (one)</td></tr>
                      <tr><td>tiʔaʔ</td> <td>here, close by</td></tr>
@@ -218,7 +218,7 @@ lines:
   - lineType: ijal
     startTime: 249865
     endTime: 254294
-    lushootseed: gʷat əw’ə tiʔiɬ stubš ʔal tudiʔ.
+    lushootseed: gʷat əw̓ə tiʔiɬ stubš ʔal tudiʔ.
     english:  Who is that man over there?
 
   - lineType: ijal
@@ -233,13 +233,13 @@ lines:
   - lineType: ijal
     startTime: 269513
     endTime:  273568
-    lushootseed:  gʷat əw’ə tiʔiɬ sɬadəy ʔal tudiʔ.
+    lushootseed:  gʷat əw̓ə tiʔiɬ sɬadəy ʔal tudiʔ.
     english:  Who is that woman over there?
 
   - lineType: ijal
     startTime: 279406
     endTime: 282493
-    lushootseed: diɬ dsk’ʷuy tsiʔiɬ.
+    lushootseed: diɬ dsk̓ʷuy tsiʔiɬ.
     english:  That woman is my mother.
 
   - lineType: html
@@ -248,13 +248,13 @@ lines:
   - lineType: ijal
     startTime: 289787
     endTime:  293645
-    lushootseed: gʷat əw’ə tiʔiɬ č’ač’as ʔal tudiʔ.
+    lushootseed: gʷat əw̓ə tiʔiɬ č̓ač̓as ʔal tudiʔ.
     english:  Who is that child over there?
 
   - lineType: ijal
     startTime: 299238
     endTime: 302108
-    lushootseed: diɬ dbadaʔ tiʔiɬ.
+    lushootseed: diɬ dbədaʔ tiʔiɬ.
     english:  That child is my son.
 
   - lineType: html
@@ -263,13 +263,13 @@ lines:
   - lineType: ijal
     startTime: 310162
     endTime: 313968
-    lushootseed: gʷat əw’ə tsiʔiɬ č’ač’as ʔal tudiʔ.
+    lushootseed: gʷat əw̓ə tsiʔiɬ č̓ač̓as ʔal tudiʔ.
     english:  Who is that child over there?
 
   - lineType: ijal
     startTime: 319313
     endTime: 322107
-    lushootseed: diɬ dbadaʔ tsiʔiɬ.
+    lushootseed: diɬ dbədaʔ tsiʔiɬ.
     english:  That child is my daughter.
 
   - lineType: html
@@ -282,7 +282,7 @@ lines:
   - lineType: ijal
     startTime: 332351
     endTime: 335713
-    lushootseed: gʷat əw’ə ti stubš ʔal tiʔaʔ.
+    lushootseed: gʷat əw̓ə ti stubš ʔal tiʔaʔ.
     english:  Who is the man right here?
     
   - lineType: ijal
@@ -297,13 +297,13 @@ lines:
   - lineType: ijal
     startTime: 349613
     endTime: 352351
-    lushootseed: gʷat əw’ə tsi sɬadəyʔ ʔal tiʔaʔ.
+    lushootseed: gʷat əw̓ə tsi sɬadəyʔ ʔal tiʔaʔ.
     english:  Who is the woman right here?
 
   - lineType: ijal
     startTime: 356414
     endTime: 359253
-    lushootseed: diɬ dsk’ʷuy tsiʔəʔ.
+    lushootseed: diɬ dsk̓ʷuy tsiʔəʔ.
     english: She is my mother, (this one).
 
   - lineType: html
@@ -312,19 +312,19 @@ lines:
   - lineType: ijal
     startTime: 367154
     endTime: 370736
-    lushootseed: gʷat əw’ə ti č’ač’as ʔal tiʔaʔ.
+    lushootseed: gʷat əw̓ə ti č̓ač̓as ʔal tiʔaʔ.
     english:  Who is the child right here?
 
   - lineType: ijal
     startTime: 374716
     endTime: 377382
-    lushootseed: diɬ dbəda tiʔəʔ.
+    lushootseed: diɬ dbədaʔ tiʔəʔ.
     english:  He is my son, (this one).
 
   - lineType: ijal
     startTime: 386339
     endTime: 389634
-    lushootseed: gʷat əw’ə tsi č’ač’as ʔal tiʔaʔ.
+    lushootseed: gʷat əw̓ə tsi č̓ač̓as ʔal tiʔaʔ.
     english:  Who is the child right here?
 
   - lineType: html
@@ -333,7 +333,7 @@ lines:
   - lineType: ijal
     startTime: 393705
     endTime: 396671
-    lushootseed: diɬ dbəda tsiʔəʔ.
+    lushootseed: diɬ dbədaʔ tsiʔəʔ.
     english:  She is my daughter, (this one).
 
   - lineType: html
@@ -343,7 +343,7 @@ lines:
   - lineType: ijal
     startTime: 407740
     endTime: 409111
-    lushootseed: "č’: č’əɬ"
+    lushootseed: "č̓: č̓əɬ"
     english:  tear, pull from
 
   - lineType: ijal
@@ -355,7 +355,7 @@ lines:
   - lineType: ijal
     startTime: 419212
     endTime: 420588
-    lushootseed: "k’ʷ: k’ʷədad"
+    lushootseed: "k̓ʷ: k̓ʷədad"
     english:  forecast weather
 
   - lineType: ijal
@@ -367,13 +367,13 @@ lines:
   - lineType: ijal
     startTime: 432845
     endTime: 437753
-    lushootseed: "č’: ʔuč’axʷč’axʷatəb ʔə tə č’ač’as ʔə tə sč’asč’asəd."
+    lushootseed: "č̓: ʔuč̓axʷč̓axʷatəb ʔə tə č̓ač̓as ʔə tə sč̓asč̓asəd."
     english:  The boy repeatedly hit it with branches.
 
   - lineType: ijal
     startTime: 449695
     endTime: 454468
-    lushootseed: "k’ʷ: ʔuk’ʷaɬatəb ʔə tsi dsk’ʷuy tsi k’ʷak’ʷt’ad."
+    lushootseed: "k̓ʷ: ʔuk̓ʷaɬatəb ʔə tsi dsk̓ʷuy tsi k̓ʷak̓ʷt̓ad."
     english:  My mother examined the tiny mouse.
 
   - lineType: html
@@ -392,8 +392,8 @@ lines:
                      <tr><td>čad </td><td> where  </td></tr>
                      <tr><td>čəgʷas (NL) </td><td> wife  </td></tr>
                      <tr><td>čəgʷaš (SL) </td><td> wife  </td></tr>
-                     <tr><td>ʔuč’aʔa</td><td> play(ing)  </td></tr>
-                     <tr><td>sč’istxʷ</td><td>husband</td></tr>
+                     <tr><td>ʔuč̓aʔa</td><td> play(ing)  </td></tr>
+                     <tr><td>sč̓istxʷ</td><td>husband</td></tr>
                      <tr><td>diʔadiʔ</td><td>other room, other end of the room </td></tr>
                      <tr><td>sə (NL)</td><td>particular one</td></tr>
                      <tr><td>šə (SL)</td><td>particular one</td</tr>
@@ -416,7 +416,7 @@ lines:
   - lineType: ijal
     startTime: 473928
     endTime: 476455
-    lushootseed: čad t(i) abad.
+    lushootseed: čad t(i) adbad.
     english:  Where is your father?
 
   - lineType: ijal
@@ -438,13 +438,13 @@ lines:
   - lineType: ijal
     startTime: 499789
     endTime: 502097
-    lushootseed: čad ts(i) adsk’ʷuy.
+    lushootseed: čad ts(i) adsk̓ʷuy.
     english:  Where is your mother?
 
   - lineType: ijal
     startTime: 508086
     endTime: 511642
-    lushootseed: ʔuyayus tsi dsk’ʷuy ʔal ti ʔalʔal.
+    lushootseed: ʔuyayus tsi dsk̓ʷuy ʔal ti ʔalʔal.
     english: My mother is working at the house.
 
   - lineType: ijal
@@ -465,8 +465,8 @@ lines:
   - lineType: ijal
     startTime: 533439
     endTime: 537453
-    lushootseed:  ʔuʔukʷʔukʷ tsi dbəda ʔal ti ʔalʔal.
-    english: My daughter is playing at the housee.
+    lushootseed:  ʔuʔukʷʔukʷ tsi dbədaʔ ʔal ti ʔalʔal.
+    english: My daughter is playing at the house.
 
   - lineType: ijal
     startTime: 537945
@@ -486,13 +486,13 @@ lines:
   - lineType: ijal
     startTime: 558512
     endTime: 562761
-    lushootseed: ʔuʔukʷʔukʷ ti dbəda č’it ʔal ti ʔalʔal.
+    lushootseed: ʔuʔukʷʔukʷ ti dbədaʔ č̓it ʔal ti ʔalʔal.
     english: My son is playing close to the house.
 
   - lineType: ijal
     startTime: 564031
     endTime: 567369
-    lushootseed: ʔuʔukʷʔukʷ č’it ʔal ti ʔalʔal.
+    lushootseed: ʔuʔukʷʔukʷ č̓it ʔal ti ʔalʔal.
     english: He is playing close to the house.
 
   - lineType: html
@@ -501,13 +501,13 @@ lines:
   - lineType: ijal
     startTime: 582081
     endTime: 585133
-    lushootseed: čad t(i) adsč’istxʷ
+    lushootseed: čad t(i) adsč̓istxʷ
     english: Where is your husband?
 
   - lineType: ijal
     startTime: 588873
     endTime: 593361
-    lushootseed: ʔəsʔitut ti dsč’istxʷ diʔadiʔ.
+    lushootseed: ʔəsʔitut ti dsč̓istxʷ diʔadiʔ.
     english: My husband is sleeping in the other room
 
   - lineType: ijal
@@ -560,7 +560,7 @@ lines:
                      <tr><td>qʷəɬayʔ (NL)</td><td> log, stick  </td></tr>
                      <tr><td>lətəyil (NL)</td><td>going upstream</td></tr>
                      <tr><td>lətayil (SL)</td><td>other room, other end of the room </td></tr>
-                     <tr><td>st’əkʷ’ab (SL)</td><td>log, stick</td></tr>
+                     <tr><td>st̓əkʷ̓ab (SL)</td><td>log, stick</td></tr>
                      <tr><td>ʔuʔəɬəd</td><td>eat(ing)</td</tr>
                    </table>
                  <div>
@@ -677,7 +677,7 @@ lines:
   - lineType: ijal
     startTime: 757055
     endTime: 760938
-    lushootseed: ʔəʔistut diʔalətxʷ ʔal tə ʔalʔal.
+    lushootseed: ʔəsʔitut diʔalətxʷ ʔal tə ʔalʔal.
     english:  It is sleeping on the other side of the house.
 
   - lineType: html
@@ -707,7 +707,7 @@ lines:
   - lineType: ijal
     startTime: 794129
     endTime: 798248
-    lushootseed: ʔəʔistut diʔalətxʷ ʔal tə ʔalʔal.
+    lushootseed: ʔəsʔitut diʔalətxʷ ʔal tə ʔalʔal.
     english:  It is sleeping on the other side of the house.
 
   - lineType: html
@@ -766,13 +766,13 @@ lines:
   - lineType: ijal
     startTime: 847382
     endTime: 849900
-    lushootseed: gʷat kʷ(i) adsaʔ.
+    lushootseed: gʷat kʷ(i) adsdaʔ.
     english:  Who are you called? (i.e., What is your name?)
 
   - lineType: ijal
     startTime: 853322
     endTime: 855816
-    lushootseed: Helen tə dsdaʔ
+    lushootseed: <u>h</u>elen tə dsdaʔ
     english:  Helen I am called. (i.e., Helen is my name.)
 
   - lineType: html
@@ -812,7 +812,7 @@ lines:
   - lineType: ijal
     startTime:  898741
     endTime: 901792
-    lushootseed: gʷat kʷi sdaʔ ʔə t(i) adsč’istxʷ.
+    lushootseed: gʷat kʷi sdaʔ ʔə t(i) adsč̓istxʷ.
     english:  Who is your husband called?
 
   - lineType: ijal
