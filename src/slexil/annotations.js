@@ -23,6 +23,7 @@ $(function() {
                    currentElement.addClass("focusedGrammaticalElement")
                    var key = currentElement.html();
                    var annoBox = $("#annoNotesDiv");
+                   console.log("kb key lookup: " + key);
                    var annoText = lookup(key)
                    annoBox.html(annoText);
                    }, 1000) // setTimeout function
