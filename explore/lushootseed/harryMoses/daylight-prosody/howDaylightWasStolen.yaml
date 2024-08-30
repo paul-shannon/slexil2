@@ -343,7 +343,7 @@ lines:
     startTime: 180422
     endTime: 183942
     lushootseed: cuuc tiʔəʔ qaw’qs ɬuʔal tiʔəʔ diʔəʔ kʷi ɬudsʔacəc
-    soundsLike: (tsooOATS tiah coaks los tiahdyuh kwi slewdz.AWDS.utz)
+    soundsLike: (tsOATS tee.uh coaks los tee.AH dyuh kwi slewdz.AWDS.utz)
     morphemes: [cut–c,tiʔəʔ,qaw’qs,ɬu=ʔal,tiʔəʔ,diʔəʔ,kʷi,ɬu=d=s=ʔacəc]
     morphemeGloss: [say–altv,prox,raven,irr=at,prox,here,rem,irr=1sg.po=nm=be.in.place]
     english: Raven says to him, I will be at this place here.
@@ -384,7 +384,7 @@ lines:
     startTime: 198016
     endTime: 204603
     lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
-    soundsLike:
+    soundsLike: too tuh.law.wheel.uff tee.uh tofe.hwuf tee.ub BABES.chub gwel tooth.chail dwal tee.ah dyuh see.abs slux.ail
     morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
     morphemeGloss: [past=run=now,prox,past=go=now,prox,attn–mink,sconj,past=arrive,cntrpt–at,prox,here,noble,stat–prop–daylight]
     english: (Little Mink) ran. Little Mink went and he came to the nobleman who had daylight. 
@@ -405,12 +405,21 @@ lines:
     startTime: 211055
     endTime: 216136
     lushootseed: šudub ʔə tiʔəʔ ʔaciɬtabixʷ. ʔuˑ dč’aʔkʷbixʷ ʔaciɬtalbixʷ tiʔəʔ ʔuɬčil.
-    soundsLike: too sew dub.uh tee.ah aci gwel bee code socks a bee kwah see if node chail
+    soundsLike: too show dub.uh tee.ah aci tal bee code socks a bee kwah see tif node chail
     morphemes: [šuɬ–dxʷ–b,ʔə,tiʔəʔ,ʔaciɬtabixʷ,ʔu,dč’aʔkʷbixʷ,ʔaciɬtalbixʷ,tiʔəʔ,ʔu–ɬčil]
     morphemeGloss: [see–dc–pass,Pr,prox,people,intj,different.tribe,people,prox,pfv–arrive]
     english: He is seen by these people. “Oh, a person of a different tribe has arrived.” 
 
 
+  - lineNumber: 40
+    lineType: ijal
+    startTime: 216727
+    endTime: 219899
+    lushootseed: ʔuˑ cutəxʷ bibščəb, ʔuˑ sʔušəbabdxʷ čəd.
+    soundsLike: oh soot.uff babes.chub, oh shub shuh.BAWBS chud
+    morphemes: [ʔu,cut=axʷ,bi–bəščəb,ʔu,sʔušəbabdxʷ,čəd]
+    morphemeGloss: [intj,say=now,attn–mink,intj,poor.guy,1sg.sub]
+    english: Little Mink says. “Oh, I am poor."
 
 
 
