@@ -994,35 +994,77 @@ lines:
     lushootseed: ʔəsc̓əx̌c̓əx̌ tiʔəʔ c̓ukʷs sʔic̓əb gʷəɬ tiʔəʔ ʔəsc̓ud stubš.
     english:  The seven blankets of this weak fellow are all worn out.
 
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Eight: təqačiʔ</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> -ac   </td><td> tree, bush   </td></tr>
+                     <tr><td> čələp </td><td> you folks  </td></tr>
+                     <tr><td> čəlqʷubəʔac   </td><td> blackcap bush </td></tr>
+                     <tr><td> čəɬ   </td><td> we, us    </td></tr>
+                     <tr><td> dᶻətgʷadac (Sk)   </td><td>  salmonberry bush   </td></tr>
+                     <tr><td> skʷagʷičəd   </td><td>  elk   </td></tr>
+                     <tr><td> skʷəxʷic (SL)   </td><td> silver salmon    </td></tr>
+                     <tr><td> skʷxʷic (Snoh.)   </td><td> silver salmon   </td></tr>
+                     <tr><td> dxʷ<u>l</u>əbiʔ   </td><td> Lummi    </td></tr>
+                     <tr><td> pastəd   </td><td> white person, Caucasian    </td></tr>
+                     <tr><td> sq̓əčqs (Sk)   </td><td> silver salmon   </td></tr>
+                     <tr><td> sac̓əb (SL)   </td><td> king salmon    </td></tr>
+                     <tr><td> stəgʷadac (Snoh., SL)   </td><td> salmonberry bush    </td></tr>
+                     <tr><td> tudiʔ diʔi   </td><td> way over there     </td></tr>
+                     <tr><td> xʷiʔ   </td><td> no, not    </td></tr>
+                     <tr><td> xʷiʔ lə-   </td><td> be not    </td></tr>
+                     <tr><td> yubəč (NL)   </td><td> king salmon    </td></tr>
+                     <tr><td> ʔaciɬtalbixʷ   </td><td> Indian    </td></tr>
+                     <tr><td> ʔi   </td><td> yes    </td></tr>
+                     <tr><td> ʔu   </td><td>  question   </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
 
-#  - lineType: ijal
-#    startTime:   
-#    endTime: 
-#    lushootseed: 
-#    english:  
-#
-#
+  - lineType: html
+    content: "<div class='sectionNumber'>8.1</div>"
+
+  - lineType: ijal
+    startTime:  1079574
+    endTime:  1082380
+    lushootseed: ʔaciɬtalbixʷ čəxʷ (ʔ)u.
+    english:  Are you Indian?
+
+  - lineType: ijal
+    startTime:  1086908
+    endTime:  1090432
+    lushootseed: ʔi. ʔaciɬtalbixʷ čəd.
+    english:  Yes.  I am Indian.
 
 
-## 
-##   - lineNumber: 
-##     startTime:
-##     endTime: 
-##     lushootseed: 
-##     english:  
-## 
-##   - lineNumber: 
-##     startTime:
-##     endTime: 
-##     lushootseed: 
-##     english:  
-## 
-##   - lineNumber: 
-##     startTime:
-##     endTime: 
-##     lushootseed: 
-##     english:  
-## 
-## 
-#
+  - lineType: html
+    content: "<div class='sectionNumber'>8.2</div>"
+
+  - lineType: ijal
+    startTime: 1098769
+    endTime:  1101229
+    lushootseed: ʔaciɬtalbixʷ čələp (ʔ)u.
+    english:  Are you folks Indian?
+
+  - lineType: ijal
+    startTime:  1104586
+    endTime:  1107934
+    lushootseed:  ʔi. ʔaciɬtalbixʷ čəɬ.
+    english:  Yes.  We are Indian.
+
+
+
