@@ -1157,3 +1157,110 @@ lines:
     english:  I am Indian.
 
 
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.2</div>"
+
+  - lineType: ijal
+    startTime: 1219744
+    endTime:  1221671
+    lushootseed: dxʷ<u>l</u>əbiʔ čəxʷ (ʔ)u.
+    english:  Are you Lummi?
+
+
+  - lineType: ijal
+    startTime: 1232703
+    endTime:  1235369
+    lushootseed: xʷiʔ čəd lədxʷ<u>l</u>əbiʔ.
+    english: I am not Lummi.
+
+
+  - lineType: ijal
+    startTime: 1235457
+    endTime:  1237081
+    lushootseed: s<u>w</u>ədəbš čəd.
+    english:  I am Swinomish.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.3</div>"
+
+  - lineType: ijal
+    startTime: 1240501
+    endTime:  1243642
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u t(i) adsč̓istxʷ.
+    english:  Is your husband Indian?
+
+
+  - lineType: ijal
+    startTime: 1247940
+    endTime:  1251917
+    lushootseed: xʷi ləʔaciɬtalbixʷ.  pastəd tiʔiɬ.
+    english:  He is not an Indian.  He is a whiteman.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.4</div>"
+
+  - lineType: ijal
+    startTime: 1260176
+    endTime:  1263035
+    lushootseed: dʷ<u>l</u>əbiʔ (ʔu) ts(i) adčəgʷas.
+    english:  Is your wife Lummi?
+
+  - lineType: ijal
+    startTime: 1267961
+    endTime:  1272408
+    lushootseed: xʷi ʔlədxʷ<u>l</u>əbiʔ. s<u>w</u>ədəbš tsiʔiɬ.
+    english:  She is not Lummi.  She is Swinomish.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.5</div>"
+
+  - lineType: ijal
+    startTime: 1282040
+    endTime:  1285866
+    lushootseed: sqigʷəc ʔu tiʔiɬ ʔal tudiʔ diʔi.
+    english: Is that a deer over there?
+
+  - lineType: ijal
+    startTime: 1290986
+    endTime:  1295397
+    lushootseed: xʷiʔ ləsqigʷəc.  kʷagʷičəd tiʔiɬ.
+    english:  That is not a deer.  That is an elk.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.6</div>"
+
+  - lineType: ijal
+    startTime: 1308978
+    endTime:  1312569
+    lushootseed: sq̓əčqs ʔu tiʔiɬ ʔal tə stuləkʷ.
+    english: Is that a silve salmon in the river?
+
+  - lineType: ijal
+    startTime: 1317509
+    endTime:  1321865
+    lushootseed: xʷiʔ ləsq̓əčqs.  yubəč tiʔiɬ.
+    english:  It is not a silver salmon.  That is a king salmon.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.7</div>"
+
+  - lineType: ijal
+    startTime: 1329244
+    endTime:  1332257
+    lushootseed: dᶻətgʷadac ʔu tiʔiɬ ʔal tudiʔ.
+    english: Is that a salmonberry bush over there?
+
+  - lineType: ijal
+    startTime: 1336524 
+    endTime:  1342021
+    lushootseed: xʷi lədᶻətgʷadac.  čəlqʷubəʔac tiʔiɬ.
+    english:  It is not a salmonberry bush.  That is a blackcap bush.
+
+
+
+
+
+
+
