@@ -1066,5 +1066,94 @@ lines:
     lushootseed:  ʔi. ʔaciɬtalbixʷ čəɬ.
     english:  Yes.  We are Indian.
 
+  - lineType: html
+    content: "<div class='sectionNumber'>8.3</div>"
+
+  - lineType: ijal
+    startTime: 1115492
+    endTime:  1119019
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u t(i) adsč̓istxʷ.
+    english:  Is your husband Indian?
+
+
+  - lineType: ijal
+    startTime: 1123545
+    endTime:  1128093
+    lushootseed: ʔi. ʔaciɬtalbixʷ ti dsč̓istxʷ.
+    english:  Yes.  My husband is Indian.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.4</div>"
+
+  - lineType: ijal
+    startTime: 1137356
+    endTime:  1140704
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u ts(i) adčəgʷas.
+    english:  Is your wife Indian?
+
+
+  - lineType: ijal
+    startTime: 1144002
+    endTime:  1148297
+    lushootseed: ʔi. ʔaciɬtalbixʷ tsi dčəgʷas.
+    english:  Yes.  My wife is Indian.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.5</div>"
+
+  - lineType: ijal
+    startTime: 1156898
+    endTime:  1161490
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u tiʔiɬ stubš ʔal tudiʔ diʔi.
+    english:  Is that man way over there Indian?
+
+  - lineType: ijal
+    startTime: 1166542 
+    endTime:  1169624
+    lushootseed: ʔi. ʔaciɬtalbixʷ.
+    english:  Yes.  He is Indian.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.6</div>"
+
+  - lineType: ijal
+    startTime:  1176707
+    endTime:  1180954
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u tisʔiɬ sɬadəyʔ ʔal tudiʔ diʔi.
+    english:  Is that woman way over there Indian?
+
+  - lineType: ijal
+    startTime: 1185754
+    endTime:  1188592
+    lushootseed: ʔi. ʔaciɬtalbixʷ.
+    english:  Yes.  She is Indian.
+
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.1</div>"
+
+  - lineType: ijal
+    startTime: 1201261  
+    endTime:  1203385 
+    lushootseed: pastəd čəxʷ (ʔ)u.
+    english:  Are you a whiteman?
+
+  - lineType: ijal
+    startTime:  1206918
+    endTime:  1208973
+    lushootseed: xʷiʔ čəd ləpastəd.
+    english:  I am not a whiteman.
+
+  - lineType: ijal
+    startTime:  1209121
+    endTime:  1210806
+    lushootseed: ʔaciɬtalbixʷ čəd.
+    english:  I am Indian.
 
 

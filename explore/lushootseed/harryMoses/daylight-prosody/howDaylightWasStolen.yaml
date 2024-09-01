@@ -422,6 +422,28 @@ lines:
     english: Little Mink says. “Oh, I am poor."
 
 
+  - lineNumber: 41
+    lineType: ijal
+    startTime: 220271
+    endTime: 225199
+    lushootseed: xʷiʔ kʷi stab, kʷi gʷəstabəxʷ gʷubəq̓əd čəd gʷəsuʔəɬəds
+    soundsLike: we kwee stawb, kwuh gwuh.stawb.uff gwuh.soo.buck.sud chud gwuh.soo.us.uds
+    morphemes: [xʷiʔ,kʷi,stab,kʷi,gʷə=stab=axʷ,gʷə=ʔu–bəq̓–t,čəd,gʷə=s=ʔu–ʔəɬəd=s]
+    morphemeGloss: [neg,rem,what,rem,sbj=what=now,sbj=pfv–have.in.mouth–ics,1sg.sub,sbj=nm=pfv–feed.on=3po]
+    english: “I have nothing, nothing to put in my mouth to eat."
+
+
+  - lineNumber: 42
+    lineType: ijal
+    startTime: 225680
+    endTime: 229284
+    lushootseed: xʷiʔəxʷ kʷi gʷatəxʷ ʔal cəxʷʔaʔ gʷəƛ’ashuyuc haʔɬ
+    soundsLike: wah kwee gwah.tuff waht duff.ah gwuht bah tloe.dus hawss
+    morphemes: [xʷiʔ=axʷ,kʷi,gʷat=axʷ,ʔal,d=dəxʷ=ʔaʔ,gʷə=ƛ’u=ʔas–huyu–t–s,haʔɬ]
+    morphemeGloss: [neg=now,rem,who=now,at,1sg.po=adnm=be.there,sbj=hab=stat–made–ics–1sg.obj]
+    english: “There is no one where I am who treats me well..."
+
+
 
 
 
