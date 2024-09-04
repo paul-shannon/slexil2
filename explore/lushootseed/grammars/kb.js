@@ -1,4 +1,154 @@
 kb = {
+"sq̓əčqs ʔu tiʔiɬ ʔal tə stuləkʷ.":
+`
+**Vocabulary Comment 8.10, page 39**
+
+__sq̓əčqs__, the Skagit word for silver salmon, consists of
+
+  - __q̓əč__:  curve, bend
+  - __-qs__:  nose, point
+
+and the nominalizer __s__ mentioned at the end of the new vocabulary of section two.
+Thus, the name literally means _bent nose_.
+
+`,
+
+
+"pastəd čəxʷ (ʔ)u.":
+`
+**Vocabulary Comment 8.9, page 39**:
+
+The word for whiteman derives from the English name "Boston"
+reflecting the fact that the first group of white people
+to settle permanently in the area came from Boston.  Originally,
+__pastəd__ referred only  to English speaking Americans and not to
+the men of the Hudson Bay Company, not to the French nor to any
+other group of whites.
+
+For whiteman in general __xʷəltəb__ was used.
+Today some Lushootseed speaking Indians still maintain the distinction.
+Others used __pastəd__ and __xʷəltəb__ interchangeably.
+`,
+
+
+"ʔaciɬtalbixʷ (ʔ)u tiʔiɬ stubš ʔal tudiʔ diʔi.":
+`
+**Vocabulary Comment 8.8, page 39**:
+
+Both words in the phrase __tudiʔ diʔi__ "way over there" are built
+upon the same element __diʔ__.
+
+`,
+
+"xʷiʔ čəd ləpastəd.":
+`
+**Grammar Note 8.4**
+
+Lushootseed has too ways of saying "is not".  In this lesson, one
+of them is presented.
+
+The word __xʷi__ "no" is said first followed by __lə-__ fixed to the beginning
+of the negated word.  (See, for example, the answering sentence in B8.3.)
+The same order is used to express "am not" except that __čəd__ is put in between
+__xʷi__ and __lə-__.  (See the answering sentence in B8.1.)
+
+Since __čəxʷ__, __čəɬ_, and __čələp__ are all the same type of word as
+__čəd__, they too come bgetween __xʷi__ and __lə-__, e.g.,
+
+  - __xʷi čəxʷ lədxʷ<u>l</u>əbiʔ__ "You are not Lummi"
+  - __xʷi čəɬ lədxʷ<u>l</u>əbiʔ__ "We are not Lummi"
+  - __xʷi čəɬəp lədxʷ<u>l</u>əbiʔ__ "You folks are not Lummi"
+`,
+
+"ʔaciɬtalbixʷ čələp (ʔ)u.":
+`
+**Grammar Note 8.3**
+
+Lushootseed has two words for "you" whereas English has but one.
+The two are __čəxʷ__ and __čələp__.  The first is used when talking to only
+one person, the second when talking to two or more people.
+
+`,
+
+"ʔaciɬtalbixʷ čəxʷ (ʔ)u.":
+`
+**Section 8 Note, Vocabulary Comment 8.7**
+
+__təgqčiʔ__, the word for eight, means literally "close hand(s)"
+and may derived from an ancient way of counting on the fingers
+whereby all the fingers are brought down against the palm, one
+by one, leaving closed hands except for the thumbs, which presumably
+were counted last for nine and ten.
+
+This hypothesis, however, does not jibe with the Southern Lushootseed
+word for six, __dᶻəlačiʔ__.  Possibly there used be two different methods
+of counting on the fngers, both of which left their influence on the
+number words.
+
+**Grammar Note 8.2**:
+
+When specific question words such as __stab__, __čad__, __gʷat__ are not
+used, questions are formed with the word __ʔu__.  This little word
+turns a statement into a question:
+
+   -  __sqigʷəc tiʔiɬ__:  "That is a deer."
+   - __sqigʷəc ʔu tiʔiɬ__:  "Is that a deer?"
+   
+Note that __ʔu__ comes after worlds like __čəxʷ__ and __čələp__ but before
+__ti__, __tiʔiɬ__, etc.:
+
+   - ... __čəxʷ (ʔ)u__ "Are you ...?"
+   - __ʔu tiʔiɬ ...__ "Is that ...?"
+
+(Very often __ʔ__ is ommited from __ʔu__ in relaxed speech
+so that this little question word sounds like a part of the preceeding
+word.  Some people pronounce it __(ʔ)o̅__ while others say __(ʔ)oo__
+(as in the English word "boot").)
+
+`,
+
+"dᶻətgʷadac ʔu tiʔiɬ ʔal tudiʔ.":
+`
+**Footnote 3, page 37***
+
+___dᶻətgʷadac___ is the Skagit word for salmonberry bush.  The
+Snohomish equivalent is ___stəgʷadac___.  Some Southern Lushootseed
+groups say ___dᶻətgʷadac___, e.g., some Snoqualmie people.  Other groups use
+___stəgʷadac___.
+
+**Vocabulary Comment 8.11, page 40**
+
+The ending __-ac__ (often pronounced as though spelled __-əc__) means tree
+or bush.  Thus __dᶻətgʷad__ is "salmonberry"  but __dᶻətgʷadac__ is
+"salmonberry bush", and __x̌payʔ__ means "red cedar" while __x̌payʔac__ means
+"red cedar tree".
+
+`,
+
+"xʷiʔ ləsq̓əčqs. yubəč tiʔiɬ.":
+`
+**Footnote 2, page 37***
+
+___yubəč___ is Northern Lushootseed.  The Southern Lushootseed word for
+king salmon is ___sac̓əb.
+`,
+
+"sq̓əčqs ʔu tiʔiɬ ʔal tə stuləkʷ.":
+`
+**Sound and Symbol, page 37, note 8.1:**
+
+___q̓___ is like ___q___ plus a cath in the throat at the same time.
+
+**Footnote 1, page 37**
+
+___sq̓əčqs___ is the Skagit word for silver salmon.  (It means literally
+"bent nose".)  The Snohomish equivalent terms is ___skʷxʷic___ while the
+Southern Lushootseed say ___skʷəxʷic___.  (The difference between the
+Snohomish and Souther Lushootseed terms is only a matter of where the
+stress (accent) falls.  The Snohomis stress the end of the word while the
+Southern Lushootseed speakers stress the beginning.  Compare 3.16)
+`,
+
 
 "tul̓ʔal s<u>qʷ</u>aliʔ.":
 `

@@ -109,6 +109,26 @@ lines:
     content: "<div class='lessonTitle'>Lesson Two: saliʔ</div>"
 
   - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> diʔayucid (NL)  </td><td>  the other side (of a road/path)  </td></tr>
+                     <tr><td> diʔucid (NL)  </td><td> the other side (or a river/lake)</td></tr>
+                     <tr><td>  šəgʷɬ  </td><td> road, path; door  </td></tr>
+                     <tr><td>  tə  </td><td> the, a   </td></tr>
+                     <tr><td> stuləkʷ   </td><td> river   </td></tr>
+                     <tr><td> ʔal   </td><td>located in, on, at; of    </td></tr>
+                    </table>
+                 </div>
+               </details>
+            </div>"
+
+  - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
   - lineType: html
@@ -204,7 +224,7 @@ lines:
                      <tr><td>stubš</td> <td>man</td></tr>
                      <tr><td>tudiʔ</td> <td>over there</td></tr>
                    </table>
-                 <div>
+                 </div>
                  </details>
                </div>"
 
@@ -841,12 +861,6 @@ lines:
   - lineType: html
     content: "<div class='lessonTitle'>Lesson Seven: c̓ukʷs</div>"
 
-  - lineType: ijal
-    startTime:  923818
-    endTime: 926956
-    lushootseed: <u>m</u>ali tsi sdaʔs.
-    english:  Mary she is called.
-
   - lineType: html
     content: "<div class='detailsDiv'>
                  <details>
@@ -1258,9 +1272,39 @@ lines:
     lushootseed: xʷi lədᶻətgʷadac.  čəlqʷubəʔac tiʔiɬ.
     english:  It is not a salmonberry bush.  That is a blackcap bush.
 
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill V<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.5</div>"
+
+  - lineType: ijal
+    startTime: 1360538
+    endTime: 1362110
+    lushootseed: "q̓:  q̓əlb"
+    english:  camp/stay over night
+
+  - lineType: ijal
+    startTime: 1362557
+    endTime:   1363813
+    lushootseed: "q:  qəlb"
+    english:  rain
+    
+  - lineType: ijal
+    startTime: 1369188
+    endTime:  1370776
+    lushootseed: "q̓:  sq̓ədᶻuʔ"
+    english:  hair
+
+  - lineType: ijal
+    startTime: 1371236
+    endTime:   1372813
+    lushootseed: "q: sqədᶻuʔ"
+    english:  squirrel
 
 
-
-
-
-
+  - lineType: ijal
+    startTime: 1382231
+    endTime:   1387550
+    lushootseed: ʔuq̓ilid tə q̓ič sa̓axʷ dxʷʔal tə q̓il̓bid.
+    english:  He loaded the expensive ice into the car.
