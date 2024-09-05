@@ -7,7 +7,7 @@ default:
 	@echo  curl
 	@echo  eaf
 	@echo  html
-	@echo  yaml2html
+	@echo  y2h    # yaml2html
 	@echo  publish
 	@echo  viewRemote
 
@@ -22,7 +22,7 @@ curl:
 http:
 	python -m http.server $(PORT) &
 
-yaml2html:
+y2h:
 	python $(BASEDIR)/utils/yaml2html.py \
         --yaml howDaylightWasStolen.yaml \
         --tierGuide tierGuide.yaml \
