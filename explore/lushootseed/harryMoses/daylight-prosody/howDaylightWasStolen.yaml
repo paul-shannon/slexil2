@@ -438,24 +438,34 @@ lines:
     startTime: 225680
     endTime: 229284
     lushootseed: xʷiʔəxʷ kʷi gʷatəxʷ ʔal cəxʷʔaʔ gʷəƛ’ashuyuc haʔɬ
-    soundsLike: wah kwee gwah.tuff wut duff.ah gwuht bah tloe.dus hawss
+    soundsLike: wah kwee gwah.tuff wut chuff.ah gwuht bah tloe.dus hawss
     morphemes: [xʷiʔ=axʷ,kʷi,gʷat=axʷ,ʔal,d=dəxʷ=ʔaʔ,gʷə=ƛ’u=ʔas–huyu–t–s,haʔɬ]
     morphemeGloss: [neg=now,rem,who=now,at,1sg.po=adnm=be.there,sbj=hab=stat–made–ics–1sg.obj,good]
     english: “There is no one where I am who treats me well..."
 
+  - lineNumber: 43
+    lineType: ijal
+    startTime: 229484
+    endTime: 235296
+    lushootseed: čəda ləʔəƛ’ ləgwəč’alikw dxwʔal kwi siʔab ʔabsləx̌il ʔaʔ kʷi ɬudsəsɬaq’
+    soundsLike: 
+    morphemes: [ʔaʔ,kʷi,ɬu=d=s=ʔəs–ɬaq’]
+    morphemeGloss: [be.there,rem,irr=1sg.po=nm=stat–fallen]
+    english: so I am coming, looking for the nobleman who possesses daylight. There I will lie down.
+
   - lineNumber: 52
     lineType: ijal
-    startTime: 234045
-    endTime:   240531
-    lushootseed: ʔaʔ kʷi ɬudsəsɬaq’ gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
-    soundsLike: 
-    morphemes: [ʔaʔ,kʷi,ɬu=d=s=ʔəs–ɬaq’,gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
-    morphemeGloss: [be.there,rem,irr=1sg.po=nm=stat–fallen,sconj,irr=good,rem,sbj=1sg.po=nm=stat–made]
-    english: “There I will lie down and I will be treated well.”
+    startTime: 235833
+    endTime:   240433
+    lushootseed:  gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
+    soundsLike: guh.set.soo luhs toss too gwuhs.duss.hoy
+    morphemes: [gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
+    morphemeGloss: [sconj,irr=good,rem,sbj=1sg.po=nm=stat–made]
+    english: “(There I will lie down) and I will be treated well.”
 
   - lineNumber: 53
     lineType: ijal
-    startTime: 241516
+    startTime: 240975
     endTime:   244730
     lushootseed: tukʷədatəbəxʷ ʔə tiʔəʔ siʔab tiʔəʔ diʔəʔ luƛ’ gʷəl tucutəb
     soundsLike: too.kwud.ah.boke.ah tiah see.ab tiah diah loke gwul too.tsootub
@@ -468,35 +478,25 @@ lines:
     startTime: 244880 
     endTime:   248195
     lushootseed: ɬuʔal tudiʔ ʔalq’ʷ kʷi ɬadsəstədzil ɬadsɬagʷid
-    soundsLike: lohse toodia algwi kwee slads.uh.date slads.slalgwayed
+    soundsLike: lohse toodai alk' kwee slads.uh.date slads.slalgwayed
     morphemes: [ɬu=ʔal,tudiʔ,ʔalq’ʷ,kʷi,ɬu=ad=s=ʔəs–tədzil,ɬu=ad–sɬagʷid]
     morphemeGloss: [irr=at,dist.dma,away.from.fire,rem,irr=2sg.po=nm=stat–lie.in.bed,irr=2sg.po–sleeping.mat]
     english: “There at the back you will lie down, you will have your mat.”
 
-  - lineNumber: 55
-    lineType: ijal
-    startTime: 248762
-    endTime:   249615
-    lushootseed: tucutəxʷ
-    soundsLike: 
-    morphemes: [tu=cut=əxʷ]
-    morphemeGloss: [past=say=now]
-    english: (Little Mink) spoke,
-
   - lineNumber: 56
     lineType: ijal
-    startTime:  248432
+    startTime:  248403
     endTime:   251623
-    lushootseed: xʷiʔ, ƛ’ušišədzal čəd ʔal ti ɬax̌
+    lushootseed: tucutəxʷ. xʷiʔ, ƛ’ušišədzal čəd ʔal ti ɬax̌
     soundsLike: 
-    morphemes: [xʷiʔ,ƛ’u=ši–šədzal,čəd,ʔal,ti,ɬax̌]
-    morphemeGloss: [neg,hab=attn–go.outdoors,1sg.sub,at,spec,dark]
-    english: “No, I need to go outside a bit during the night.”
+    morphemes: [tu=cut=əxʷ,xʷiʔ,ƛ’u=ši–šədzal,čəd,ʔal,ti,ɬax̌]
+    morphemeGloss: [past=say=now, neg,hab=attn–go.outdoors,1sg.sub,at,spec,dark]
+    english: (Little Mink) spoke, “No, I need to go outside a bit during the night.”
 
   - lineNumber: 570
     lineType: ijal
-    startTime: 252256
-    endTime:   254337
+    startTime: 251930
+    endTime:   254225
     lushootseed: ƛ’ub ləq’aɬucid kʷi ɬudsʔaʔ
     soundsLike: 
     morphemes: [ƛ’ub,ləq’aɬ•ucid,kʷi,ɬu=d=s=ʔaʔ]
@@ -505,7 +505,7 @@ lines:
 
   - lineNumber: 580
     lineType: ijal
-    startTime: 254856
+    startTime: 254913 
     endTime:   258186
     lushootseed: tuhuyutəbəxʷ ʔə tiʔəʔ dəxʷəsɬaq’s ləq’aɬucid
     soundsLike: 
