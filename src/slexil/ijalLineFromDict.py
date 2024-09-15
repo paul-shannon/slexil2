@@ -168,7 +168,7 @@ class IjalLineFromDict:
     def htmlLeadIn(self, htmlDoc): # , audioDirectory, audioFileType):
 
         buttonLabelNumber = self.lineNumber + 1
-        print("buttonLabelNumber: %d" % buttonLabelNumber)
+        #print("buttonLabelNumber: %d" % buttonLabelNumber)
         clickActionString = "playSample(%d, %d, %d)" % \
                             (self.lineNumber+1, self.getStartTime(), self.getEndTime())
         buttonTag = htmlDoc.tag("button", onclick=clickActionString,

@@ -475,10 +475,10 @@ class TextFromYaml:
       with htmlDoc.tag("div", id="textDiv"):
          ijalLineCount = 0
          for i in self.lineNumbers:
-            print("--- createTextDiv, iterating through self.lineNumbers")
+            #print("--- createTextDiv, iterating through self.lineNumbers")
             line = self.lines[i]
             if(isinstance(line, str)):
-                print("adding this to htmlDoc: %s", line)
+                # print("adding this to htmlDoc: %s", line)
                 htmlDoc.asis(line)
             if(isinstance(line, dict)):
                line = IjalLineFromDict(line, ijalLineCount, self.tierGuide,
