@@ -1302,9 +1302,62 @@ lines:
     lushootseed: "q: sqədᶻuʔ"
     english:  squirrel
 
+  - lineType: html
+    content: "<div class='sectionNumber'>8.5</div>"
 
   - lineType: ijal
     startTime: 1382231
     endTime:   1387550
     lushootseed: ʔuq̓ilid tə q̓ič sa̓axʷ dxʷʔal tə q̓il̓bid.
     english:  He loaded the expensive ice into the car.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Nine: x̌ʷəl</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> -a </td><td> and (added only to čəd, čəxʷ, čəɬ čələp)</td></tr>
+                     <tr><td> -axʷ </td><td> See 9.5</td></tr>
+                     <tr><td> bəčgʷil </td><td> lie down</td></tr>
+                     <tr><td> čal (NL) </td><td>how </td></tr>
+                     <tr><td> cay (SL) </td><td> very </td></tr>
+                     <tr><td> cəwəɬ (SL) </td><td>hunger </td></tr>
+                     <tr><td> čələpa </td><td>and you folks </td></tr>
+                     <tr><td> čəxʷa </td><td>and you </td></tr>
+                     <tr><td> cick̓ʷ (NL) </td><td> very</td></tr>
+                     <tr><td> -əxʷ </td><td> See 9.5</td></tr>
+                     <tr><td> haʔkʷ </td><td>long (time); ago </td></tr>
+                     <tr><td> -həxʷ </td><td> See 9.5</td></tr>
+                     <tr><td> hiqab </td><td> excessively, too </td></tr>
+                     <tr><td> hiwil </td><td>go ahead </td></tr>
+                     <tr><td> hudabac </td><td> warm (body)</td></tr>
+                     <tr><td> ɬi </td><td> This word often replaces čələp when telling a group of people to do something. </td></tr>
+                     <tr><td> ɬu- </td><td> See 11.7</td></tr>
+                     <tr><td> ƛ̓ax̌ </td><td>(feel) cold </td></tr>
+                     <tr><td> ƛ̓ubil </td><td> well, fine, OK, good</td></tr>
+                     <tr><td> ƛ̓uxʷil </td><td>cold object; (feel) cold (SL) </td></tr>
+                     <tr><td> piit </td><td>bed, modern kind </td></tr>
+                     <tr><td> qa </td><td> a lot, much, many</td></tr>
+                     <tr><td> qaʔkʷ </td><td>rest </td></tr>
+                     <tr><td> qʷu(ʔ)qʷaʔ </td><td>drik </td></tr>
+                     <tr><td> tagʷəxʷ (NL) </td><td>hungry </td></tr>
+                     <tr><td> taqʷuʔ </td><td>thirst </td></tr>
+                     <tr><td> təqad </td><td>close it </td></tr>
+                     <tr><td> xʷak̓ʷil </td><td> tired</td></tr>
+                     <tr><td> x̌əɬ </td><td>sick </td></tr>
+                     <tr><td> x̌id (SL) </td><td>how </td></tr>
+                     <tr><td> ʔəɬəd </td><td>eat </td></tr>
+                     <tr><td> ʔəƛ̓a(həxʷ) </td><td> come on (now) </td></tr>
+                     <tr><td> ʔəs- </td><td> See 9.4 </td></tr>
+                     <tr><td> ʔəx̌id (NL) </td><td>how </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
