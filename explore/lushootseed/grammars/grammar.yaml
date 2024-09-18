@@ -1249,7 +1249,7 @@ lines:
     startTime: 1308978
     endTime:  1312569
     lushootseed: sq̓əčqs ʔu tiʔiɬ ʔal tə stuləkʷ.
-    english: Is that a silve salmon in the river?
+    english: Is that a silver salmon in the river?
 
   - lineType: ijal
     startTime: 1317509
@@ -1450,7 +1450,7 @@ lines:
   - lineType: ijal
     startTime: 1500621
     endTime:   1505301
-    lushootseed: ʔəƛ̓ax̌ čəd.  cick̓ʷ čəd ʔəsƛ̓ax̌.
+    lushootseed: ʔəsƛ̓ax̌ čəd.  cick̓ʷ čəd ʔəsƛ̓ax̌.
     english:  I'm cold.  I'm very cold.
 
   - lineType: ijal
@@ -1512,9 +1512,8 @@ lines:
   - lineType: ijal
     startTime: 1577537
     endTime:   1582699
-    lushootseed: əsx̌əɬ čəɬ.  hiqab čəɬ ʔuqʷu(ʔ)qʷu(ʔ)qʷaʔ.
+    lushootseed: əsx̌əɬ čəɬ. hiqab čəɬ ʔuqʷu(ʔ)qʷu(ʔ)qʷaʔ.
     english:  We are sick.  We drank too much.
-
 
   - lineType: html
     content: "<div class='sectionNumber'>9.3b</div>"
@@ -1592,7 +1591,7 @@ lines:
     startTime: 1680652
     endTime:   1684169
     lushootseed: ʔəƛ̓a(hə)xʷ ɬi. ɬuqʷu(ʔ)qʷaʔ čəɬ.
-    english:  Come on you fokls.  Let's drink.
+    english:  Come on you folks.  Let's drink.
 
   - lineType: html
     content: "<div style='margin: 30px'><h5>Sound Drill VI<h5></div>"

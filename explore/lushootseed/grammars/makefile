@@ -7,6 +7,7 @@ default:
 	@echo valid
 	@echo venv
 	@echo curl
+	@echo server
 	@echo yaml2html
 	@echo eaf
 	@echo html
@@ -22,6 +23,8 @@ venv:
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
 
+server:
+	python -m http.server 8008
 
 yaml2html:
 	python $(BASEDIR)/utils/yaml2html.py \
@@ -62,7 +65,9 @@ publish-text:
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
+	#open http://localhost:8008/index.html#151
 	open index.html
+
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/$(PROJECT)/$(HTML.FILE)

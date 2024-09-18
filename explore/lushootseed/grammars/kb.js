@@ -1,4 +1,175 @@
 kb = {
+
+"əstaqʷuʔ čəd.  cick̓ʷ čəd ʔəstaqʷuʔ.":
+`
+**Vocabulary Comment 9.12**
+
+Both __taqʷuʔ__ "thirst" and __qʷu(ʔ)qʷaʔ__ "drink" have
+the element __qʷuʔ__ "water, fresh water".
+`,
+
+
+"ʔəsčaləxʷ čəxʷ.":
+`
+The very common ending __-(h)axʷ/-(h)əxʷ__ is often translated
+as "now", "at that particular time".  It means that the action
+or situation is different from what it was.
+
+This ending has four possible pronunciations depending upon
+the preceeding sounds:
+
+   - __-haxʷ__ or __-həxʷ__ follows voweles a, i, ə, u
+   - __-axʷ__ or __-əxʷ__ follows consonants in Northern Lushootseed.
+   - when all preceding vowels in a word (excluding prefixes) are __ə__,
+     then __-axʷ__ (or __-haxʷ__) is said
+   - otherwise, the ending is __-əxʷ__ (or __-həxʷ__)
+
+`,
+
+"bəčagʷil čəxʷa qaʔkʷ ʔal t(ə) adpiit.":
+`
+Many people omit final the __-a__ completely when saying __čəxʷa__.
+`,
+
+
+
+"ʔəƛ̓ahəxʷ ɬi.  ɬuʔəɬəd čəɬ.":
+`
+**Footnote 1, page 44**
+
+In SL, the word is __ʔəƛ̓əhəxʷ__.  Frequently ʔəƛ̓ahəxʷ is
+shortened to ʔəƛ̓axʷ.  Lower Skagit prefer __ʔədaʔ__ here
+in place of __ʔəƛ̓ahəxʷ__.
+
+**Footnote 2, page 44**
+
+(which refers us to grammar note 11.7 on page 59):
+
+__ɬu__ often corresponds to the English future but it also
+has the idea of anticipation, expectation, or intention.
+Like __tu-__, __ɬu-__ can be used both with action words and
+with words naming people or things, e.g.
+
+   - __ɬuyayus čəd__ "I will work"
+   - __kʷsi ɬudčəgʷ__ "my future wife"
+
+`,
+
+
+"əsx̌əɬ čəɬ. hiqab čəɬ ʔuqʷu(ʔ)qʷu(ʔ)qʷaʔ.":
+`
+**Footnote 3, page 43 refers us to Grammar Note 13.5, page 70**
+
+One way of indicating more than one is to repeat the
+first three sounds of the word - but NOT the prefixes.  Thus
+__stiqiw__ means "horse" while __stiqtiqiw__ is "horses".
+
+(Following this scheme, prepending  __qʷu__ to __qʷuqʷa__
+would mean something like "drink plural", i.e., "drink lots".)
+
+`,
+  
+"hiwiləxʷ čəxʷa təqad tə šəgʷɬ.":
+`
+**Footnote 2, page 43**
+
+Many people omit final the __-a__ completely when saying __čəxʷa__.
+
+`,
+
+"ʔəsƛ̓ax̌ čəd.  cick̓ʷ čəd ʔəsƛ̓ax̌.":
+`
+**Vocabulary Comment 9.13, page 46**
+
+__ƛ̓ax̌__ "(feel) cold" is NL.  The SL equivalent is __ƛ̓uxʷi(l).__
+
+In NL there are three words translated by _cold_:
+
+   - __ƛ̓ax̌__ "(person) fells cold"
+   - __ƛ̓uxʷil__ "(something such as food) is cold"
+   - __t̓əx__ "weather is cold"
+
+In SL there are only two words:
+
+   - __ƛ̓uxʷi(l)__ which encompasses both NL  __ƛ̓ax̌__ and __ƛ̓uxʷil__
+   - __t̓əs__ refers to weather just as in NL
+
+`,
+
+"ʔəstagʷəxʷ čəd. cick̓ʷ čəd ʔəstagʷəxʷ.":
+`
+**Vocabulary Comment 9.11, page 46**
+
+__tagʷəxʷ__ "hungry" is NL.  The SL equivalent is **cəwəɬ**.
+
+`,
+
+
+"ʔəsƛ̓ubil čəd. cick̓ʷ čəd ʔəsƛ̓ubil.":
+`
+**From Footnote 1, page 22**
+
+Many words that end in __-il__, lose the __l__ in Southern
+Lushootseed when (as here) a vowel does not immediately follow.
+
+**Sound and Symbol, page 44**
+
+__ƛ̓__:  The sound that this letter represents is made by
+pronouncing __t__ and __l__ at the same time accompanied by
+an abrupt closure of the vocal cords, a catch in the throat.
+
+This sound occurs in all languages in the Northwest, but there
+is nothing like it in English.  Do not say __kl__.
+
+`,
+
+
+"ʔəsx̌əɬ čəd. cick̓ʷ čəd ʔəsx̌əɬ.":
+`
+**Vocabulary Comment 9.10, page 46**
+
+__cick̓ʷ__ "very" is NL.  The SL equivalent is __cay__.
+
+__cick̓ʷ__ originates from __cək̓ʷ__ "straight".
+
+__cay__ might be a shortened from of __cick̓ʷ__.
+
+The alternation between __i__ and __ay__ is common in Lushootseed.
+
+**Sound and Symbol 9.2, page 45**
+
+__x̌__ The sound is something like gargling (although softer).
+It resembles the __r__ in French.
+
+
+**Grammar Note 9.3, page 45**
+
+The four words __čəd__, __čəxʷ__, __čəɬ__ and __čələp__ usually come after the
+first word in a sentence.
+
+**Grammar Note 9.4, page 45**
+
+Words expressing a condition or state often begin with __ʔəs-__
+fixed to the beginning.
+
+
+`,
+
+
+"ʔəsčal čəxʷ.":
+`
+**Vocabulary Comment 9.9, page 46**
+
+__čal__ "how" is a Northern Lushootseed word.  The Southern
+equivalent is __x̌id__, e.g., __ʔəsx̌id čəxʷ__ "How are you?".
+
+In NL __ʔəx̌id__ is a synonym for __čal__.  It is possible to
+say __ʔəsʔəx̌id čəxʷ__ in place of __ʔəsčal čəx̌__.  However,
+in this particular case, the former would be a bit brusk.
+`,
+
+
+
 "sq̓əčqs ʔu tiʔiɬ ʔal tə stuləkʷ.":
 `
 **Vocabulary Comment 8.10, page 39**
@@ -137,7 +308,7 @@ king salmon is ___sac̓əb.
 `
 **Sound and Symbol, page 37, note 8.1:**
 
-___q̓___ is like ___q___ plus a cath in the throat at the same time.
+___q̓___ is like ___q___ plus a catch in the throat at the same time.
 
 **Footnote 1, page 37**
 
