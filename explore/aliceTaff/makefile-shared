@@ -1,12 +1,14 @@
 CODE_ROOT=/Users/paul/github/slexil2
 LANGUAGE = tlingit
+HELP_FILE = ../help.html
+HELP_BUTTON_LABEL = "How To"
 
 default:
 	@echo eafStructure
 	@echo movieCurl
 	@echo scp
 	@echo venv
-	@echo times
+	@echo checkTimes
 	@echo html
 	@echo publish
 	@echo view
@@ -25,15 +27,15 @@ movieCurl:
 scp:
 	scp $(VID) pshannon@206.12.95.4:www/$(LANGUAGE)
 	
-times:
+checkTimes:
 	python  $(CODE_ROOT)/utils/eafCheck.py --eaf $(EAF) --times
 
 html:
 	python $(CODE_ROOT)/utils/eaf2html.py  \
 	                     --eaf $(EAF) \
                         --tierGuide ../tierGuide.yaml \
-                        --helpFile ../help.html \
-                        --helpButtonLabel "How To" \
+                        --helpFile $(HELP_FILE) \
+                        --helpButtonLabel $(HELP_BUTTON_LABEL) \
                         --pageTitle $(TITLE) \
                         --fixOverlappingTimeSegments \
 	                     --fontSizeControls

@@ -10,7 +10,7 @@
 #mainDiv{
    display: block;
    padding: 10px;
-   height: calc(100svh - 60px);
+   height: calc(100svh - 20px);
    //border: 1px solid magenta;
 	margin-right: 5px;
    overflow-y: hidden;
