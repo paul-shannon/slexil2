@@ -23,7 +23,8 @@ function refreshLayout(videoRequestedSize)
       $("#mediaPlayerAndControlsDiv").height(hvscd)
       }
 
-   var docHeight = $("#mainDiv").outerHeight(true); // $(document).height()
+   //var docHeight = $("#mainDiv").outerHeight(true) - 10;
+   var docHeight = document.body.scrollHeight;
    var textDivHeight = $("#textDiv").outerHeight(true)
    var playerDivHeight = $("#mediaPlayerAndControlsDiv").outerHeight(true)
    var otherControlsDivHeight = 0
@@ -33,26 +34,26 @@ function refreshLayout(videoRequestedSize)
       }
    console.log("otherControlsDivHeight: " + otherControlsDivHeight);
    var margins =  parseInt($("#mainDiv").css("margin-top")) +
-                  parseInt($("#mainDiv").css("margin-bottom")) +
-                  parseInt($("#mainDiv").css("padding-top")) +
-                  parseInt($("#mainDiv").css("padding-bottom")) +
-                  parseInt($("#mediaPlayerAndControlsDiv").css("margin-top")) + 
-                  parseInt($("#mediaPlayerAndControlsDiv").css("margin-bottom")) +
-                  parseInt($("#otherControlsDiv").css("margin-top")) +
-                  parseInt($("#otherControlsDiv").css("margin-bottom")) +
-                  parseInt($("#textDiv").css("margin-top")) +
-                  parseInt($("#textDiv").css("margin-bottom"));
+                 parseInt($("#mainDiv").css("margin-bottom")) +
+                 parseInt($("#mainDiv").css("padding-top")) +
+                 parseInt($("#mainDiv").css("padding-bottom")) +
+                 parseInt($("#mediaPlayerAndControlsDiv").css("margin-top")) + 
+                 parseInt($("#mediaPlayerAndControlsDiv").css("margin-bottom")) +
+                 parseInt($("#otherControlsDiv").css("margin-top")) +
+                 parseInt($("#otherControlsDiv").css("margin-bottom")) +
+                 parseInt($("#textDiv").css("margin-top")) +
+                 parseInt($("#textDiv").css("margin-bottom"));
         
    var fixedHeights = otherControlsDivHeight + playerDivHeight + margins;
-   var newTextHeight = docHeight - (fixedHeights)
+   var newTextHeight = docHeight - (fixedHeights) - 50;
    
    console.log("      doc: " + docHeight)
    console.log("   player: " + playerDivHeight);
    console.log("     ctls: " + otherControlsDivHeight)
    console.log("  margins: " + margins)
    console.log(" new text: " + newTextHeight)
-   $("#textDiv").height(newTextHeight + 20);
-   $("#annoDiv").height(newTextHeight);
+   $("#textDiv").height(newTextHeight);
+   $("#annoDiv").height(newTextHeight-20);
    } // refreshLayout
 
 //--------------------------------------------------------------------------------
@@ -271,7 +272,19 @@ function scrollAndHighlight(lineNumber){
 function playSample(mediaID, startTime, endTime)
 {
    // state.mediaPlayer = document.getElementById("audioPlayer")
+   console.log("playSample: " + mediaID);
    playMediaSegment(mediaID, startTime, endTime)
+   //console.log("currentLine: " + state.currentLine)
+   let lineNumber = mediaID - 1;
+   //console.log("lineNumber: " + lineNumber)
+   let spokenText = ""
+   if(lineNumber >= 0){
+      spokenText = $(".speech-tier").get(lineNumber).innerHTML
+      //console.log("spokenText: " + spokenText)
+      noteText = lookup(spokenText)
+      $("#annoNotesDiv").html(noteText)
+      }
+
 
 } // playSample
 //--------------------------------------------------------------------------------
@@ -283,7 +296,7 @@ function playMediaSegment(mediaID, startTime, endTime)
    mediaContinuousPlay = false;
    startTime = startTime/1000;
 
-      // subtract "earlyCathch" seconds so playback does not run over
+      // subtract "earlyCatch" seconds so playback does not run over
       // this is dodgy, works only if the supplied intervals (stop and
       // start times) have the expected padding.  which are the elan 
       // user's choices

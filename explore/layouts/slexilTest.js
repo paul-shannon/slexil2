@@ -18,7 +18,7 @@ function refreshLayout(videoRequestedSize)
       $("#mediaPlayerAndControlsDiv").height(hvscd)
       }
 
-   var docHeight = $("#mainDiv").outerHeight(true); // $(document).height()
+   var docHeight = $(window).height(); //$("#mainDiv").outerHeight(true); // $(document).height()
    var textDivHeight = $("#textDiv").outerHeight(true)
    var playerDivHeight = $("#mediaPlayerAndControlsDiv").outerHeight(true)
    var otherControlsDivHeight = 0
@@ -28,20 +28,21 @@ function refreshLayout(videoRequestedSize)
       }
    console.log("otherControlsDivHeight: " + otherControlsDivHeight);
    var margins =  parseInt($("#mainDiv").css("margin-top")) +
-	               parseInt($("#mainDiv").css("margin-bottom")) +
-	               parseInt($("#mainDiv").css("padding-top")) +
-	               parseInt($("#mainDiv").css("padding-bottom")) +
-                  parseInt($("#mediaPlayerAndControlsDiv").css("margin-top")) + 
-                  parseInt($("#mediaPlayerAndControlsDiv").css("margin-bottom")) +
-                  parseInt($("#otherControlsDiv").css("margin-top")) +
-                  parseInt($("#otherControlsDiv").css("margin-bottom")) +
-                  parseInt($("#textDiv").css("margin-top")) +
-                  parseInt($("#textDiv").css("margin-bottom"));
+                 parseInt($("#mainDiv").css("margin-bottom")) +
+                 parseInt($("#mainDiv").css("padding-top")) +
+                 parseInt($("#mainDiv").css("padding-bottom")) +
+                 parseInt($("#mediaPlayerAndControlsDiv").css("margin-top")) + 
+                 parseInt($("#mediaPlayerAndControlsDiv").css("margin-bottom")) +
+                 parseInt($("#otherControlsDiv").css("margin-top")) +
+                 parseInt($("#otherControlsDiv").css("margin-bottom")) +
+                 parseInt($("#textDiv").css("margin-top")) +
+                 parseInt($("#textDiv").css("margin-bottom"));
         
    var slop = 0
    var fixedHeights = otherControlsDivHeight + playerDivHeight + margins;
    var newTextHeight = docHeight - (fixedHeights + slop)
-	
+   
+   console.log("   window: " + $(window).height());
    console.log("      doc: " + docHeight)
    console.log("   player: " + playerDivHeight);
    console.log("     ctls: " + otherControlsDivHeight)
@@ -63,16 +64,16 @@ $(document).ready(function(){
       }
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
-   refreshLayout(initialMediaPlayerHeight);
+   //refreshLayout(initialMediaPlayerHeight);
     
    $("#aboutBoxButton").on('click', function(){
       console.log("show aboutBox")
       state.aboutBoxDialog = $("#aboutBox")[0]
       state.aboutBoxDialog.showModal()
       })
-	$("#aboutBoxDismissButton").on('click', function(){
-	   state.aboutBoxDialog.close()
-		})
+   $("#aboutBoxDismissButton").on('click', function(){
+      state.aboutBoxDialog.close()
+      })
 
    $("#showHideOtherControlsButton").on('click', function() {
       console.log("--- showOtherControls")

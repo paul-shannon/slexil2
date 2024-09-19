@@ -1,15 +1,19 @@
 PROJECT = grammar
 EAF = $(PROJECT).eaf
 HTML.FILE = hessAndHilbert.html
+BASEDIR=~/github/slexil2
 
 default:
 	@echo valid
 	@echo venv
 	@echo curl
+	@echo server
+	@echo yaml2html
 	@echo eaf
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
-	@echo publish
+	@echo publish  # all
+	@echo publish-text  # just html and kb.js
 	@echo view
 	@echo viewRemote
 
@@ -19,6 +23,17 @@ venv:
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more
 
+server:
+	python -m http.server 8008
+
+yaml2html:
+	python $(BASEDIR)/utils/yaml2html.py \
+        --yaml grammar.yaml \
+        --tierGuide tierGuide.yaml \
+        --kbFilename kb.js \
+        --pageTitle "Lushootseed Grammar" \
+        --helpButtonLabel About \
+        --helpFile about.html
 
 eaf:
 	python ~/github/yamlToEAF/toEAF.py  $(PROJECT).yaml 
@@ -43,10 +58,16 @@ publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp *.jpg pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
-	scp grammar-01-02.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	scp volume1.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+
+publish-text:
+	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
+	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
+	#open http://localhost:8008/index.html#151
 	open index.html
+
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/$(PROJECT)/$(HTML.FILE)

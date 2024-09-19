@@ -1,4 +1,5 @@
 import argparse
+import pdb
 parser = argparse.ArgumentParser(prog='eafStructure.py',
                                  description='access to the parsed eaf tables')
 

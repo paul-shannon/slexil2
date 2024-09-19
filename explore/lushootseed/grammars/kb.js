@@ -66,7 +66,6 @@ __stiqiw__ means "horse" while __stiqtiqiw__ is "horses".
 
 In like fashion, prepending __qʷu__ transforms  __qʷuqʷa__ "drink" to
 __qʷuqʷuqʷa__:  "multiple people drink".
-
 `,
   
 "hiwiləxʷ čəxʷa təqad tə šəgʷɬ.":

@@ -1,4 +1,57 @@
 linguistics = {
+"PO":
+`
+PO: Possessive
+
+
+<b>d-</b>: my, I, me.  First person singular possessive prefix. LD p 72.
+
+This prefix forms a set with affixes:
+   - <i>-lap</i>
+   - <i>-s</i>
+   - <i>ad-</i>
+   
+and predicate particles
+   - <i>čəd</i>
+   - <i>čəɬ</i>
+
+This set signals possession, and in subordinate clauses can
+express agent and patient like main clause person-marking
+predicate particles (cf. <i>čəd</i>).
+
+Each of the possessive markers is given a subentry here, with
+an example of its possessive use and its use in subordinate clauses.
+
+<b>d-</b>
+   - <i>x̌ʷubt</i> canoe paddle
+   - <i>dx̌ʷubt</i> my paddle
+   - <i>ʔibəš</i> walk, travel or journey over land by any means
+   - <i>dsuʔibəš</i> I walked
+
+<b>čəd</b>
+   - <i>x̌ʷubt čəd</i> my paddle
+   - <i>x̌ʷubt čəɬ</i> our paddle
+   - <i>ləʔibəš čəd</i> I'm walking(right now).
+   - <i>suʔibəš čəɬ</i> We walked. [s- u-: nominalizer, perfective aspect]
+
+<b>ad-</b>
+   - <i>ad-</i>: you or your (singular), second person singular possessive suffix
+   - <i>adx̌ʷubt</i> your paddle
+   - <i>adsuʔibəš</i> you walked
+
+<b>-lap</b> variant <b>-ləp</b>
+   - you, your (plural).
+   - second person plural possessive suffix
+   - <i>x̌ʷubtlap</i> the paddle of you folks
+   - <i>suʔibəšlap</i> You folks walked.
+
+<b>-s</b>
+   - he, him, his, she, her, hers, it, its, they, them, their, theirs
+   - third person possessive suffix
+   - <i>x̌ʷubts</i> his paddle, her paddle
+   - <i>suʔibəšs</i> (someone walked)
+`,
+
 "PROP":
 `
 PROP

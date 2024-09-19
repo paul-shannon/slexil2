@@ -1,0 +1,48 @@
+title: Dante's Inferno
+narrator: Roberto Benigni
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
+mimeType: audio/x-wav
+
+
+lines:
+  - lineType: html
+    content: <h3> Read by Roberto Begnini</h3>
+      taken from youtube
+
+  - lineType: html
+    content: taken from youtube
+
+  - lineType: ijal
+    startTime: 0
+    endTime: 2828
+    italianSpeech: Nel mezzo del cammin di nostra vita
+    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
+    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
+    english: Midway upon the journey of our life
+
+  - lineType: ijal
+    startTime: 3095
+    endTime: 5500
+    italianSpeech: mi ritrovai per una selva oscura
+    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
+    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
+    english: I found myself within a forest dark
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+  - lineType: html
+    content: "<div style='margin: 30px'><h6> another line</h6></div>"
+
+  - lineType: ijal
+    startTime: 5624
+    endTime: 8033
+    italianSpeech: ché la diritta via era smarrita.
+    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
+    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
+    english: For the straightforward pathway had been lost.
+

@@ -1,11 +1,13 @@
 title: How Daylight Was Stolen
 narrator: Harry Moses
 textEntry: Paul Shannon
-mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
+mediaFile: daylight-restoration_V03-22k-aLaw.wav
 mimeType: audio/x-wav
 
 lines:
   - lineNumber: 1
+    lineType: ijal
     startTime: 0
     endTime: 5942
     lushootseed: ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.
@@ -15,6 +17,7 @@ lines:
     english: In the distant past, there was no daylight.
 
   - lineNumber: 2
+    lineType: ijal
     startTime: 5943
     endTime: 10469
     lushootseed: tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ
@@ -24,6 +27,7 @@ lines:
     english: The land, it was dark in the distant past.
 
   - lineNumber: 3
+    lineType: ijal
     startTime: 12407
     endTime: 17351
     lushootseed: tudxʷadhadəxʷ tiʔəʔ ʔaciɬtalbixʷ.  gʷʔəsčaləxʷ kʷi gʷədəxʷkʷədxʷ čəɬ kʷi sləx̌il.
@@ -33,6 +37,7 @@ lines:
     english: The people talked it over. How can we manage to obtain the daylight?
 
   - lineNumber: 4
+    lineType: ijal
     startTime: 17746
     endTime: 23000
     lushootseed: ʔaʔ kʷi sləx̌il ʔal kʷi q’xʷul’gʷədxʷ gʷəl ʔəsčal kʷi gʷədəxʷkʷədxʷ čəɬ
@@ -42,6 +47,7 @@ lines:
     english: Daylight is up there in the upriver country but how can we manage to get it?
 
   - lineNumber: 5
+    lineType: ijal
     startTime: 24006
     endTime: 26917
     lushootseed: tuhuyucutəxʷ tiʔəʔ səsaliʔ ləgʷləgʷəb
@@ -51,6 +57,7 @@ lines:
     english: These two youths prepared themselves.
 
   - lineNumber: 6
+    lineType: ijal
     startTime: 27192
     endTime: 28928
     lushootseed: "tuc’agʷacutəxʷ"
@@ -60,6 +67,7 @@ lines:
     english: They bathed.
 
   - lineNumber: 7
+    lineType: ijal
     startTime: 29715
     endTime: 35245
     lushootseed: tuhuyucut həlgʷəʔ dxʷʔal sxʷəxʷaʔxʷəʔs gʷəsutəlawils əlgʷəʔ
@@ -69,6 +77,7 @@ lines:
     english: They prepared themselves in order to be swift as they run.
 
   - lineNumber: 8
+    lineType: ijal
     startTime: 35246
     endTime: 40990
     lushootseed: tiʔəʔ qaw'qs ʔi tiʔəʔ bibščəb kʷi tuhuyucut
@@ -79,6 +88,7 @@ lines:
 
 
   - lineNumber: 9
+    lineType: ijal
     startTime: 41000
     endTime:   47686
     lushootseed: "tut’ədalgʷiɬ gʷəl tux̌ʷ xʷiʔ uʔxʷ, tuʔaʔ tux̌ʷ xʷiʔ uʔxʷ ƛ’əlayʔ ʔə huyu gʷəsəsaxʷəbabac"
@@ -89,6 +99,7 @@ lines:
 
 
   - lineNumber: 10
+    lineType: ijal
     startTime: 48461
     endTime:   53237
     lushootseed: ʔal kʷi sxʷəʔaʔxʷəʔils (lə)ləcəbagʷiɬil tiʔəʔ ʔəsx̌ək’ʷtxʷ əlgʷəʔ ƛ’əlayʔ
@@ -98,6 +109,7 @@ lines:
     english: To become swift they had two canoes overturned.
 
   - lineNumber: 11
+    lineType: ijal
     startTime: 53961
     endTime: 56789
     lushootseed: cəbagʷiɬəxʷ kʷi ƛ’udəxʷsaxʷəbabacəds əlgʷəʔ
@@ -107,6 +119,7 @@ lines:
     english: Now what they would jump over were two canoes.
 
   - lineNumber: 12
+    lineType: ijal
     startTime: 57806
     endTime:   62938
     lushootseed: tuhaʔkʷ tuhuyucut əlgʷəʔ dxʷʔal kʷi gʷədəxʷxʷəʔaʔxʷəʔils ləƛ’əlayʔ
@@ -116,6 +129,7 @@ lines:
     english: For a long time they trained to become swift as they run.
 
   - lineNumber: 13
+    lineType: ijal
     startTime: 63889
     endTime: 70548
     lushootseed: ləɬixʷalgʷiɬil tiʔəʔ tasx̌ək’ʷtxʷ həlgʷəʔ ƛ’əlayʔ dəxʷəsaxʷəbabacs əlgʷəʔ (həbuʔ)
@@ -125,6 +139,7 @@ lines:
     english: It came to where they had three canoes overturned which they were jumping.
 
   - lineNumber: 14
+    lineType: ijal
     startTime: 70461
     endTime:   77678
     lushootseed: ʔaləxʷ kʷi čəɬ, ʔaləxʷ kʷi čəɬ tubuus, tubuusalgʷiɬil kʷi tuasx̌əʷk’ʷ ƛ’əlayʔ
@@ -134,6 +149,7 @@ lines:
     english: Now prepared, now prepared four, four canoes turned over shovel nose canoe
 
   - lineNumber: 15
+    lineType: ijal
     startTime: 77755
     endTime: 81022
     lushootseed: gʷəl tusaxʷəbabacəd həlgʷa tiʔəʔ buusalgʷiɬ ƛ’əlayʔ
@@ -143,6 +159,7 @@ lines:
     english:  And they jumped over these four canoes
 
   - lineNumber: 16
+    lineType: ijal
     startTime: 81245
     endTime: 87863
     lushootseed: gʷəl tu (həbuʔ)  ʔa gʷəl tudxʷcutəb həlgʷa ʔuˑ xʷiʔəxʷ kʷi ʔahəxʷ gʷəčaldubuɬ
@@ -152,6 +169,7 @@ lines:
     english: And then they thought, nothing now can catch us.
 
   - lineNumber: 17
+    lineType: ijal
     startTime: 88075
     endTime: 93611
     lushootseed: siʔəxʷ čəɬ ƛ’ubəxʷ dxʷʔal kʷi gʷəsʔuʔux̌ʷc čəɬ kʷi sləx̌il ʔal kʷi dəxʷʔacəc
@@ -161,6 +179,7 @@ lines:
     english: We are good enough to go after daylight where it is.
 
   - lineNumber: 18
+    lineType: ijal
     startTime: 94400
     endTime: 103558
     lushootseed: tu=gʷaʔxʷ ʔux̌ʷ tiʔəʔ diʔəʔ tuʔuluɬəxʷ tiʔəʔ diʔəʔ bibščəb ʔi tiʔəʔ diʔəʔ ʔi tiʔəʔ qaw'qs
@@ -170,6 +189,7 @@ lines:
     english: They soon went, this here, traveled by water this here mink, and this here, and this raven.
 
   - lineNumber: 19
+    lineType: ijal
     startTime: 105180
     endTime: 108783
     lushootseed:  tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q’xʷul’gʷədxʷ
@@ -179,6 +199,7 @@ lines:
     english: Walking went but not yet, that daylight  that upstream.land.
 
   - lineNumber: 20
+    lineType: ijal
     startTime: 111638
     endTime: 116800
     lushootseed:  x̌ʷul’əxʷ əlgʷəʔ tuləč’itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il
@@ -188,6 +209,7 @@ lines:
     english: As they drew near this place of daylight,
 
   - lineNumber: 21
+    lineType: ijal
     startTime: 117000
     endTime: 119616
     lushootseed:  ləx̌iličəxʷ əlgʷəʔ
@@ -197,6 +219,7 @@ lines:
     english: light enveloped them.
 
   - lineNumber: 21
+    lineType: ijal
     startTime: 119617
     endTime: 123638
     lushootseed: ƛ’uhagʷəxʷ kʷi ƛ’usləx̌ils gʷəl ƛ’ubələbəsad
@@ -206,6 +229,7 @@ lines:
     english: For a long time it would be day then it would again be dark.
 
   - lineNumber: 22
+    lineType: ijal
     startTime: 124700
     endTime: 127862
     lushootseed: diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ
@@ -215,6 +239,7 @@ lines:
     english: That (was how) knew they becoming near they.
 
   - lineNumber: 23
+    lineType: ijal
     startTime: 127865
     endTime: 131346
     lushootseed: gʷəl tuɬəgʷɬ əlgʷəʔ tiʔəʔ q’il’bids gʷəl tugʷax̌ʷ
@@ -224,6 +249,7 @@ lines:
     english: Then they left their canoe and walked.
 
   - lineNumber: 27
+    lineType: ijal
     startTime: 133983
     endTime:   138000
     lushootseed: tugʷax̌ʷəxʷ əlgʷəʔ gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ 
@@ -233,6 +259,7 @@ lines:
     english: They walked now and arrived at these ...
 
   - lineNumber: 28
+    lineType: ijal
     startTime: 140000
     endTime:   143494
     lushootseed: ʔaciɬtalbixʷ ʔəsɬaɬlil dəxʷʔa ʔə tiʔəʔ sləx̌il
@@ -242,6 +269,7 @@ lines:
     english: ... people who dwelled at the place of light.
 
   - lineNumber: 28
+    lineType: ijal
     startTime: 144400
     endTime:   149000
     lushootseed: ɬudxʷʔiwədəxʷ əlgʷəʔ ša gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il
@@ -251,6 +279,7 @@ lines:
     english: They will decide. “Which of us will take the light?"
 
   - lineNumber: 29
+    lineType: ijal
     startTime: 149278
     endTime: 154153
     lushootseed: gʷəsdukʷ gʷəbək’ʷaɬi gʷəʔux̌ʷ yəx̌i čəɬ gʷəhaydub ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il
@@ -260,6 +289,7 @@ lines:
     english: It would be bad if we both were to go, because we would be known to be going after this light.
 
   - lineNumber: 30
+    lineType: ijal
     startTime: 154416
     endTime: 157690
     lushootseed: ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc
@@ -269,6 +299,7 @@ lines:
     english: We will steal it from where it is.
 
   - lineNumber: 31
+    lineType: ijal
     startTime: 158828
     endTime: 164178
     lushootseed: tucutəxʷ tiʔəʔ diʔəʔ ... tiʔəʔ  bibščəb ʔəca kʷi ɬuhədʔiw’b
@@ -278,6 +309,7 @@ lines:
     english: Little Mink said,  I am the one who will enter the building.
 
   - lineNumber: 32
+    lineType: ijal
     startTime: 165000
     endTime: 168480
     lushootseed: kayiɬ čəd ɬuləluluƛ’ ɬasqʷəlubus
@@ -287,16 +319,18 @@ lines:
     english: I will pretend to be old and grey.
 
   - lineNumber: 33
+    lineType: ijal
     startTime: 169080
     endTime: 172445
     lushootseed: ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd
     soundsLike: 
     morphemes: [ɬu=ʔas–x̌ʷal’,ɬu=ʔas–ck’usəd,ɬu=hədʔiw’–b=ad]
-    morphemeGloss: [irr=stat–fail,irr=stat–walking.stick,irr=indoors–md=1sg.sbrd]
+    morphemeGloss: [irr=stat–fail,irr=stat–use.walking.stick,irr=indoors–md=1sg.sbrd]
     english: Feebly, using a cane I will go in.
 
 
   - lineNumber: 33
+    lineType: ijal
     startTime: 173888
     endTime: 178872
     lushootseed: ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ
@@ -306,16 +340,18 @@ lines:
     english: I will go to the nobleman who has the daylight. There is where I will be.
 
   - lineNumber: 34
+    lineType: ijal
     startTime: 180422
     endTime: 183942
     lushootseed: cuuc tiʔəʔ qaw’qs ɬuʔal tiʔəʔ diʔəʔ kʷi ɬudsʔacəc
-    soundsLike: (tsooOATS tiah coaks los tiahdyuh kwi slewdz.AWDS.utz)
+    soundsLike: (tsOATS tee.uh coaks los tee.AH dyuh kwi slewdz.AWDS.utz)
     morphemes: [cut–c,tiʔəʔ,qaw’qs,ɬu=ʔal,tiʔəʔ,diʔəʔ,kʷi,ɬu=d=s=ʔacəc]
     morphemeGloss: [say–altv,prox,raven,irr=at,prox,here,rem,irr=1sg.po=nm=be.in.place]
     english: Raven says to him, I will be at this place here.
 
 
   - lineNumber: 35
+    lineType: ijal
     startTime: 184350
     endTime: 187135
     lushootseed: ɬasʔaciɬ čəd dxʷʔal kʷi ɬadsʔəƛ’txʷ
@@ -325,339 +361,833 @@ lines:
     english: I will wait for you to bring it.
 
   - lineNumber: 36
+    lineType: ijal
     startTime: 188135
-    endTime: 195697
-    lushootseed: siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ gʷəl ʔəcahəxʷ kʷi ɬubəkʷədad, ɬukʷədadxʷaxʷ
-    soundsLike: see tlobe saw(f).wuff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD boo.kwed.kwawf 
-    morphemes: [siʔ,ƛ’ub,ɬu=ad=s=ʔas–ƛ’ip’–aɬ–t,čəxʷa,ɬu=ɬčil,dxʷ–diʔaʔ,gʷəl,ʔəca=axʷ,kʷi,ɬu=bə=kʷəda–t,ɬu=kʷəda–dxʷ=axʷ]
-    morphemeGloss: [right.there,well,irr=2sg.po=nm=stat–squeeze–incrp–ics,2sg.coord,irr=arrive,cntrpt–prox.dma,sconj,I=now,rem,irr=add=taken–ics,irr=taken–dc=now]
+    endTime: 193790
+    lushootseed: siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ gʷəl ʔəcahəxʷ kʷi ɬubəkʷədad
+    soundsLike: see tlobe slawds.suff kwaw.suff tloo.duff.paid dee kwawsed bay.seet lee kwasee.ud DAH kwi bub.beDAWD
+    morphemes: [siʔ,ƛ’ub,ɬu=ad=s=ʔas–ƛ’ip’–aɬ–t,čəxʷa,ɬu=ɬčil,dxʷ–diʔaʔ,gʷəl,ʔəca=axʷ,kʷi,ɬu=bə=kʷəda–t]
+    morphemeGloss: [right.there,well,irr=2sg.po=nm=stat–squeeze–incrp–ics,2sg.coord,irr=arrive,cntrpt–prox.dma,sconj,I=now,rem,irr=add=taken–ics]
     english: “Just so will you be clutching it and you will arrive here, and I am the one who will take it anew.”
-# 
-#   - lineNumber: 
-#     startTime: 
-#     endTime: 
-#     lushootseed: 
-#     morphemes: 
-#     morphemeGloss: 
-#     english: 
+
+  - lineNumber: 36
+    lineType: ijal
+    startTime: 194000
+    endTime: 195697
+    lushootseed: ɬukʷədadxʷaxʷ
+    soundsLike: slew.kwed.hwawf 
+    morphemes: [ɬu=kʷəda–dxʷ=axʷ]
+    morphemeGloss: [irr=taken–dc=now]
+    english: I will take it.
+ 
+  - lineNumber: 37
+    lineType: ijal
+    startTime: 198016
+    endTime: 204603
+    lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
+    soundsLike: too tuh.law.wheel.uff tee.uh tofe.hwuf tee.ub BABES.chub gwel tooth.chail dwal tee.ah dyuh see.abs slux.ail
+    morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
+    morphemeGloss: [past=run=now,prox,past=go=now,prox,attn–mink,sconj,past=arrive,cntrpt–at,prox,here,noble,stat–prop–daylight]
+    english: (Little Mink) ran. Little Mink went and he came to the nobleman who had daylight. 
+ 
+
+  - lineNumber: 38
+    lineType: ijal
+    startTime: 205009 
+    endTime: 210767
+    lushootseed: ləluƛ’ ʔəsqwəlubus ləsck’usəd
+    soundsLike: luh-oooootluff kwuh.lobe.us luss.k'o.sud
+    morphemes: [lə=luƛ’,ʔəs–qwəlub•us,ləs–ck’usəd]
+    morphemeGloss: [prog=old,stat–grey.hair•head,prog.stat–use.walking.stick]
+    english: He was old with grey hair and used a cane
+
+  - lineNumber: 39
+    lineType: ijal
+    startTime: 211055
+    endTime: 216136
+    lushootseed: šudub ʔə tiʔəʔ ʔaciɬtabixʷ. ʔuˑ dč’aʔkʷbixʷ ʔaciɬtalbixʷ tiʔəʔ ʔuɬčil.
+    soundsLike: too show dub.uh tee.ah aci tal bee code socks a bee kwah see tif node chail
+    morphemes: [šuɬ–dxʷ–b,ʔə,tiʔəʔ,ʔaciɬtabixʷ,ʔu,dč’aʔkʷbixʷ,ʔaciɬtalbixʷ,tiʔəʔ,ʔu–ɬčil]
+    morphemeGloss: [see–dc–pass,Pr,prox,people,intj,different.tribe,people,prox,pfv–arrive]
+    english: He is seen by these people. “Oh, a person of a different tribe has arrived.” 
 
 
+  - lineNumber: 40
+    lineType: ijal
+    startTime: 216727
+    endTime: 219899
+    lushootseed: ʔuˑ cutəxʷ bibščəb, ʔuˑ sʔušəbabdxʷ čəd.
+    soundsLike: oh soot.uff babes.chub, oh shub shuh.BAWBS chud
+    morphemes: [ʔu,cut=axʷ,bi–bəščəb,ʔu,sʔušəbabdxʷ,čəd]
+    morphemeGloss: [intj,say=now,attn–mink,intj,poor.guy,1sg.sub]
+    english: Little Mink says. “Oh, I am poor."
 
 
+  - lineNumber: 41
+    lineType: ijal
+    startTime: 220271
+    endTime: 225199
+    lushootseed: xʷiʔ kʷi stab, kʷi gʷəstabəxʷ gʷubəq̓əd čəd gʷəsuʔəɬəds
+    soundsLike: we kwee stawb, kwuh gwuh.stawb.uff gwuh.soo.buck.sud chud gwuh.soo.us.uds
+    morphemes: [xʷiʔ,kʷi,stab,kʷi,gʷə=stab=axʷ,gʷə=ʔu–bəq̓–t,čəd,gʷə=s=ʔu–ʔəɬəd=s]
+    morphemeGloss: [neg,rem,what,rem,sbj=what=now,sbj=pfv–have.in.mouth–ics,1sg.sub,sbj=nm=pfv–feed.on=3po]
+    english: “I have nothing, nothing to put in my mouth to eat."
 
 
+  - lineNumber: 42
+    lineType: ijal
+    startTime: 225680
+    endTime: 229284
+    lushootseed: xʷiʔəxʷ kʷi gʷatəxʷ ʔal cəxʷʔaʔ gʷəƛ’ashuyuc haʔɬ
+    soundsLike: wah kwee gwah.tuff wut chuff.ah gwuht bah tloe.dus hawss
+    morphemes: [xʷiʔ=axʷ,kʷi,gʷat=axʷ,ʔal,d=dəxʷ=ʔaʔ,gʷə=ƛ’u=ʔas–huyu–t–s,haʔɬ]
+    morphemeGloss: [neg=now,rem,who=now,at,1sg.po=adnm=be.there,sbj=hab=stat–made–ics–1sg.obj,good]
+    english: “There is no one where I am who treats me well..."
 
-#    lushootseed:  ɬuləʔux̌w čəd dxwʔal kwi siʔab ʔabsləx̌il
-#    morphemes: [ɬu=lə=ʔux̌w čəd dxw–ʔal kwi siʔab ʔas–bəs–sləx̌il]
-#    morphemeGloss: [irr=prog=go 1sg.sub cntrpt–at rem noble stat–prop–daylight]
-#    english: I will go to the nobleman who has the daylight.
+  - lineNumber: 43
+    lineType: ijal
+    startTime: 229484
+    endTime: 235296
+    lushootseed: čəda ləʔəƛ’ ləgwəč’alikw dxwʔal kwi siʔab ʔabsləx̌il ʔaʔ kʷi ɬudsəsɬaq’
+    soundsLike: 
+    morphemes: [ʔaʔ,kʷi,ɬu=d=s=ʔəs–ɬaq’]
+    morphemeGloss: [be.there,rem,irr=1sg.po=nm=stat–fallen]
+    english: so I am coming, looking for the nobleman who possesses daylight. There I will lie down.
 
-#
-#  - lineNumber: 44
-#    startTime: 0
-#    endTime: 0
-#    lushootseed: (44) tuʔux̌wəxw tiʔəʔ bibščəb gwəl tuɬčil dxwʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
-#    morphemes: [tu=ʔux̌w=əxw tiʔəʔ bi–bəščəb gwəl tu=ɬčil dxw–ʔal tiʔəʔ diʔəʔ siʔab ʔas–bəs–sləx̌il]
-#    morphemeGloss: [past=go=now prox attn–mink sconj past=arrive cntrpt–at prox here noble stat–prop–daylight]
-#    english: Little Mink went and he came to the nobleman who had daylight.
-#
-#
-#
-#  - lineNumber: 51
-#    startTime: 0
-#    endTime: 0
-#    lushootseed: (51) xʷiʔəxʷ kʷi gʷatəxʷ ʔal cəxʷʔaʔ gʷəƛ’ashuyuc haʔɬ, čəda ləʔəƛ’ ləgʷəč’alikʷ dxʷʔal kʷi siʔab ʔabsləx̌il
-#    morphemes: [xʷiʔ=əxʷ,kʷi,gʷat=əxʷ,ʔal,d=dəxʷ=ʔaʔ,gʷə=ƛ’u=ʔas–huyu–t–s,haʔɬ,čəda,lə=ʔəƛ’,lə=gʷəč’–alikʷ,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il]
-#    morphemeGloss: [neg=now,rem,who=now,at,1sg.po=adnm=be.there,sbj=hab=stat–made–ics–1sg.obj,good,1sg.coord,prog=come,prog=search–act,cntrpt–at,rem,noble,stat–prop–daylight]
-#    english: There is no one where I am who treats me well, so I am coming, looking for the nobleman who possesses daylight.
-#
-#
-#  - lineNumber: 66
-#    startTime: 0
-#    endTime: 0
-#    lushootseed: (66) ʔaləxʷ sɬixʷəɬdacuts kʷi sʔaʔs bibščəb gʷəl ʔux̌ʷc tiʔəʔ sləx̌il
-#    morphemes: [al=əxʷ,s=ɬixʷ•əɬ•dat–t–sut=s,kʷi,s=ʔaʔ=s,bi–bəščəb,gʷəl,ʔux̌ʷ–c,tiʔəʔ,sləx̌il]
-#    morphemeGloss: [at=now,nm=three•cls•day–ics–refl=3po,rem,nm=be.there=3po,attn–mink,sconj,go–altv,prox,daylight]
-#    english: When it was three days that Little Mink was there, then he went after the daylight
-#
-#  - lineNumber: 77
-#    startTime: 0 
-#    endTime: 0
-#    lushootseed: (77) diɬ tuspəkʷibids tiʔəʔ sləx̌il gʷəl tusaxʷəbtxʷ
-#    morphemes: [diɬ,tu=s=pəkʷib–bi–d=s,tiʔəʔ,sləx̌il,gʷəl,tu=saxʷəb–txʷ]
-#    morphemeGloss: [loc,past=nm=snatch–map–ics=3po,prox,daylight,sconj,past=jump–ecs]
-#    english: He snatched the daylight and ran off with it.
-#
-#  - lineNumber: 109
-#    startTime: 0 
-#    endTime: 0
-#    lushootseed: (109) ʔuˑ, ʔuʔəƛ’axʷ ti stububš tugʷəč’əd tiʔiɬ sləx̌il
-#    morphemes: [ʔu,ʔu–ʔəƛ’=axʷ,ti,stub–ubš,tu=gʷəč’–d,tiʔiɬ,sləx̌il]
-#    morphemeGloss: [intj,pfv–come=now,spec,pl–man,past=search–ics,dist,daylight]
-#    english: Oh, the men who sought the daylight have come.
-#
-#  - lineNumber: 112
-#    startTime: 0 
-#    endTime: 0
-#    lushootseed: (112) tuʔəƛ’txʷ əlgʷəʔ tiʔəʔ sləx̌il gʷəl tuɬčil dxʷʔal tiʔəʔ sʷatixʷtəd dəxʷtul’ʔaʔs əlgʷəʔ
-#    morphemes: [tu=ʔəƛ’–txʷ,əlgʷəʔ,tiʔəʔ,sləx̌il,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,sʷatixʷtəd,dəxʷ=tul’–ʔaʔ=s,əlgʷəʔ]
-#    morphemeGloss: [past=come–ecs,pl,prox,daylight,sconj,past=arrive,cntrpt–at,prox,land,adnm=cntrfg–be.there=3po,pl]
-#    english: They brought the daylight and came to the land they were from.
-#
-#  - lineNumber: 113
-#    startTime: 0
-#    endTime: 0
-#    lushootseed: (113) gʷəl qaʷ’qs kʷi dᶻixʷ tukʷədad tiʔəʔ sləx̌il
-#    morphemes: [gʷəl,qaʷ’qs,kʷi,dᶻixʷ,tu=kʷəda–d,tiʔəʔ,sləx̌il]
-#    morphemeGloss: [sconj,raven,rem,first,past=taken–ics,prox,daylight]
-#    english: And Raven took the daylight first.
-#
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-##  - lineNumber
-##    startTime: 
-##    endTime: 
-##    lushootseed: 
-##    morphemes: []
-##    morphemeGloss: []
-##    english: 
-##
-#
+  - lineNumber: 52
+    lineType: ijal
+    startTime: 235833
+    endTime:   240433
+    lushootseed:  gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
+    soundsLike: guh.set.soo luhs toss too gwuhs.duss.hoy
+    morphemes: [gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
+    morphemeGloss: [sconj,irr=good,rem,sbj=1sg.po=nm=stat–made]
+    english: “(There I will lie down) and I will be treated well.”
+
+  - lineNumber: 53
+    lineType: ijal
+    startTime: 240975
+    endTime:   244730
+    lushootseed: tukʷədatəbəxʷ ʔə tiʔəʔ siʔab tiʔəʔ diʔəʔ luƛ’ gʷəl tucutəb
+    soundsLike: too.kwud.ah.boke.ah tiah see.ab tiah diah loke gwul too.tsootub
+    morphemes: [tu=kʷəda–t–b=əxʷ,ʔə,tiʔəʔ,siʔab,tiʔəʔ,diʔəʔ,luƛ’,gʷəl,tu=cut–t–b]
+    morphemeGloss: [past=taken–ics–pass=now,pr,prox,noble,prox,here,old,sconj,past=say–ics–pass]
+    english: The old man was taken by the nobleman and spoken to,
+
+  - lineNumber: 54
+    lineType: ijal
+    startTime: 244880 
+    endTime:   248195
+    lushootseed: ɬuʔal tudiʔ ʔalq’ʷ kʷi ɬadsəstədzil ɬadsɬagʷid
+    soundsLike: lohse toodai alk' kwee slads.uh.date slads.slalgwayed
+    morphemes: [ɬu=ʔal,tudiʔ,ʔalq’ʷ,kʷi,ɬu=ad=s=ʔəs–tədzil,ɬu=ad–sɬagʷid]
+    morphemeGloss: [irr=at,dist.dma,away.from.fire,rem,irr=2sg.po=nm=stat–lie.in.bed,irr=2sg.po–sleeping.mat]
+    english: “There at the back you will lie down, you will have your mat.”
+
+  - lineNumber: 56
+    lineType: ijal
+    startTime:  248403
+    endTime:   251623
+    lushootseed: tucutəxʷ. xʷiʔ, ƛ’ušišədzal čəd ʔal ti ɬax̌
+    soundsLike: 
+    morphemes: [tu=cut=əxʷ,xʷiʔ,ƛ’u=ši–šədzal,čəd,ʔal,ti,ɬax̌]
+    morphemeGloss: [past=say=now, neg,hab=attn–go.outdoors,1sg.sub,at,spec,dark]
+    english: (Little Mink) spoke, “No, I need to go outside a bit during the night.”
+
+  - lineNumber: 570
+    lineType: ijal
+    startTime: 251930
+    endTime:   254225
+    lushootseed: ƛ’ub ləq’aɬucid kʷi ɬudsʔaʔ
+    soundsLike: 
+    morphemes: [ƛ’ub,ləq’aɬ•ucid,kʷi,ɬu=d=s=ʔaʔ]
+    morphemeGloss: [well,be.in.right.place•mouth,rem,irr=1sg.po=nm=be.there]
+    english: “It is better that I be by the door.”
+
+  - lineNumber: 580
+    lineType: ijal
+    startTime: 254913 
+    endTime:   258186
+    lushootseed: tuhuyutəbəxʷ ʔə tiʔəʔ dəxʷəsɬaq’s ləq’aɬucid
+    soundsLike: 
+    morphemes: [tu=huyu–t–b=əxʷ,ʔə,tiʔəʔ,dəxʷ=ʔəs–ɬaq’=s,ləq’aɬ•ucid]
+    morphemeGloss: [past=made–ics–pass=now,pr,prox,adnm=stat–fallen=3po,be.in.right.place•mouth]
+    english: His place was made by the door.
+
+  - lineNumber: 590
+    lineType: ijal
+    startTime: 259821
+    endTime:   264823
+    lushootseed: ƛ’uʔaʔ x̌ʷul’ ƛ’asʷačbid tiʔiɬ ƛ’ashuyutid kʷi sləx̌il
+    soundsLike: 
+    morphemes: [ƛ’u=ʔaʔ,x̌ʷul’,ƛ’u=ʔas–ʷač–bi–d,tiʔiɬ,ƛ’u=ʔas–huyu–t–id]
+    morphemeGloss: [hab=be.there,only,hab=stat–watch–map–ics,dist,hab=stat–made–ics–pass.sbrd]
+    english: He would be there just watching what was done with it.
+
+  - lineNumber: 600
+    lineType: ijal
+    startTime: 264970
+    endTime:   266590
+    lushootseed: x̌ʷul’ ʔəsačbid
+    soundsLike: 
+    morphemes: [x̌ʷul’,ʔəs–wač–bi–d]
+    morphemeGloss: [only,stat–watch–map–ics]
+    english: He just watched it.
+
+  - lineNumber: 610
+    lineType: ijal
+    startTime: 267240
+    endTime:   272095
+    lushootseed: x̌ʷul’ ƛ’ulədiʔiʔil tiʔiɬ ɬukʷaɬ gʷəl ƛ’uləƛ’ip’usitəb tiʔəʔ sləx̌il
+    soundsLike: 
+    morphemes: [x̌ʷul’,ƛ’u=lə=diʔ–iʔ–il,tiʔiɬ,ɬukʷaɬ,gʷəl,ƛ’u=lə=ƛ’ip’•us–i–t–b,tiʔəʔ,sləx̌il]
+    morphemeGloss: [only,hab=prog=exc–other.side–inch,dist,sun,sconj,hab=prog=squeeze•face–ss–ics–pass,prox,daylight]
+    english: As the sun would move to the other side, then the daylight would gradually get its face squeezed shut.
+
+  - lineNumber: 620
+    lineType: ijal
+    startTime: 272188
+    endTime:   274507 
+    lushootseed: diɬ səɬaˑx̌il
+    soundsLike: 
+    morphemes: [diɬ,s=lə=ɬax̌–il]
+    morphemeGloss: [foc,nm=prog=dark–inch]
+    english: It gradually became night.
+
+  - lineNumber: 63
+    lineType: ijal
+    startTime: 275250
+    endTime:   276514
+    lushootseed: ƛ’uləƛ’uc’usitəb
+    soundsLike: 
+    morphemes: [ƛ’u=lə=ƛ’uc’•us–i–t–b]
+    morphemeGloss: [hab=prog=tied.in.bunch•face–ss–ics–pass]
+    english: It would gradually get its face tied shut.
+
+  - lineNumber: 64
+    lineType: ijal
+    startTime: 276514
+    endTime:   277403
+    lushootseed: diɬ sbəsads
+    soundsLike: 
+    morphemes: [diɬ,s=bəsad=s]
+    morphemeGloss: [foc,nm=dark=3po]
+    english: It was then that it was dark.
+
+  - lineNumber: 65
+    lineType: ijal
+    startTime: 278617
+    endTime:   280761
+    lushootseed: ʔəswačbitəb ʔə bibščəb
+    soundsLike: 
+    morphemes: [ʔəs–wač–bi–t–b,ʔə,bi–bəščəb]
+    morphemeGloss: [stat–watch–map–ics–pass,pr,attn–mink]
+    english: It was watched by Little Mink.
+
+  - lineNumber: 66
+    lineType: ijal
+    startTime: 283576
+    endTime:   290061
+    lushootseed: ʔaləxʷ sɬixʷəɬdacuts kʷi sʔaʔs bibščəb gʷəl ʔux̌ʷc tiʔəʔ sləx̌il 
+    soundsLike: 
+    morphemes: [ʔal=əxʷ,s=ɬixʷ•əɬ•dat–t–sut=s,kʷi,s=ʔaʔ=s,bi–bəščəb,gʷəl,ʔux̌ʷ–c,tiʔəʔ,sləx̌il]
+    morphemeGloss: [at=now,nm=three•cls•day–ics–refl=3po,rem,nm=be.there=3po,attn–mink,sconj,go–altv,prox,daylight]
+    english: When it was three days that Little Mink was there, then he went after the daylight.
+
+  - lineNumber: 67
+    lineType: ijal
+    startTime: 290206
+    endTime:   292477
+    lushootseed: xʷiʔ uʔxʷ gʷəsɬaʔ ʔə tiʔəʔ čaləs
+    soundsLike: 
+    morphemes: [xʷiʔ,uʔxʷ,gʷə=s=ɬaʔ,ʔə,tiʔəʔ,čalə-s]
+    morphemeGloss: [neg,ptcl,sbj=nm=arrive,pr,prox,hand-3PO]
+    english: He can not reach it with his hand.
+
+  - lineNumber: 68
+    lineType: ijal
+    startTime: 292423
+    endTime:   293838
+    lushootseed: ƛ’al’ lil gʷəl ləx̌
+    soundsLike: 
+    morphemes: [ƛ’al’,lil,gʷəl,ləx̌]
+    morphemeGloss: [also,far,sconj,light]
+    english: It was still far away when it lit up.
+
+  - lineNumber: 69
+    lineType: ijal
+    startTime: 294880
+    endTime:   299721
+    lushootseed: tiləb ʔusaxʷəb bibščəb gʷəl tədᶻil ʔal tiʔiɬ dəxʷəstədᶻils
+    soundsLike: 
+    morphemes: [tiləb,ʔu–saxʷəb,bi–bəščəb,gʷəl,tədᶻil,ʔal,tiʔiɬ,dəxʷ=ʔəs–tədᶻil=s]
+    morphemeGloss: [immediately,pfv–jump,attn–mink,sconj,lie.in.bed,at,dist,adnm=stat–lie.in.bed=3po]
+    english: Quickly Little Mink jumped back and lay where he lay down.
+
+  - lineNumber: 70
+    lineType: ijal
+    startTime: 298110
+    endTime:   301155
+    lushootseed: ʔəstədᶻilič ʔə diʔ q’ʷaɬčup
+    soundsLike: 
+    morphemes: [ʔəs–tədᶻil•ič,ʔə,diʔ,q’ʷaɬ•čup]
+    morphemeGloss: [stat–lie.in.bed•covering,pr,other.side,ash•fire]
+    english: He went to bed covered by fine ash powder.
+
+  - lineNumber: 71
+    lineType: ijal
+    startTime: 301151
+    endTime:   303103
+    lushootseed: puʔud tiʔəʔ q’ʷaɬčup gʷəl pədič
+    soundsLike: 
+    morphemes: [puʔu–d,tiʔəʔ,q’ʷaɬ•čup,gʷəl,pəd•ič]
+    morphemeGloss: [blow–ics,prox,ash•fire,sconj,buried•covering]
+    english: He blew on this fine ash powder and is buried.
+
+  - lineNumber: 72
+    lineType: ijal
+    startTime: 305208
+    endTime:   307270
+    lushootseed: dəb kʷədiʔ ʔiɬlilalʔtxʷ kʷi ʔuƛ’aʔad 
+    soundsLike: 
+    morphemes: [dəb,kʷədiʔ,ʔiɬ–lil•alʔtxʷ,kʷi,ʔu–ƛ’aʔa–d]
+    morphemeGloss: [instead,rem.dma,prtv–far•room,rem,pfv–notice–ics]
+    english: The others at the far part of the house noticed it.
+
+
+  - lineNumber: 73
+    lineType: ijal
+    startTime: 307218
+    endTime:   309084
+    lushootseed: buʔəx̌idəxʷ kʷi [s]ləx̌il kʷi dəxʷwəq’wəq’s
+    soundsLike: 
+    morphemes: [bə=ʔu–ʔəx̌id=əxʷ,kʷi,sləx̌il,kʷi,dəxʷ=wəq’–wəq’=s]
+    morphemeGloss: [add=pfv–what.happen=now,rem,daylight,rem,adnm=dstr–blink=3po]
+    english: “Why is the daylight blinking?”
+
+  - lineNumber: 74
+    lineType: ijal
+    startTime: 312634
+    endTime:   317797
+    lushootseed: ʔəšuucəb ʔə ti luƛ’ ʔəsbəč ləq’aɬucid ʔəspədpədič ʔə ti q’ʷaɬčup
+    soundsLike: 
+    morphemes: [ʔəs–šuɬ–c–b,ʔə,ti,luƛ’,ʔəs–bəč,ləq’aɬ•ucid,ʔəs–pəd–pəd•ič,ʔə,ti,q’ʷaɬ•čup]
+    morphemeGloss: [stat–see–altv–pass,pr,spec,old,stat–fall,in.place•mouth,stat–dstr–buried•covering,pr,spec,ash•fire]
+    english: The old fellow lying by the door covered in fine ash watched it.
+
+  - lineNumber: 75
+    lineType: ijal
+    startTime: 319698
+    endTime:   323341
+    lushootseed: ʔal bəƛ’uɬax̌ gʷəl bəʔux̌ʷcəb ʔə bibščəb
+    soundsLike: 
+    morphemes: [ʔal,bə=ƛ’u=ɬax̌,gʷəl,bə=ʔux̌ʷ–c–b,ʔə,bi–bəščəb]
+    morphemeGloss: [at,add=hab=dark,sconj,add=go–altv–pass,pr,attn–mink]
+    english: When it would again be night, Little Mink went after it again.
+
+  - lineNumber: 76
+    lineType: ijal
+    startTime: 324722
+    endTime:   332256
+    lushootseed: buusəɬdat kʷi suʔux̌ʷcs tiʔəʔ sləx̌il gʷəl tuɬaʔačiʔbid
+    soundsLike: 
+    morphemes: [buus•əɬ•dat,kʷi,s=ʔu–ʔux̌ʷ–c=s,tiʔəʔ,sləx̌il,gʷəl,tu=ɬaʔ•ačiʔ–bi–d]
+    morphemeGloss: [four•cls•day,rem,nm=pfv–go–altv=3po,prox,daylight,sconj,past=arrive•hand–map–ics]
+    english: For four days he went after the daylight, then his hand reached it.
+
+  - lineNumber: 77
+    lineType: ijal
+    startTime: 332257
+    endTime: 336189
+    lushootseed: diɬ tuspəkʷibids tiʔəʔ sləx̌il gʷəl tusaxʷəbtxʷ
+    soundsLike: 
+    morphemes: [diɬ,tu=s=pəkʷib–bi–d=s,tiʔəʔ,sləx̌il,gʷəl,tu=saxʷəb–txʷ]
+    morphemeGloss: [loc,past=nm=snatch–map–ics=3po,prox,daylight,sconj,past=jump–ecs]
+    english: He snatched the daylight and ran off with it.
+
+  - lineNumber: 78
+    lineType: ijal
+    startTime: 336653
+    endTime: 339598
+    lushootseed: tučalatəb bibščəb
+    soundsLike: 
+    morphemes: [tu=čala–t–b,bi–bəščəb]
+    morphemeGloss: [past=chased–ics–pass,attn–mink]
+    english: Little Mink was chased.
+
+  - lineNumber: 79
+    lineType: ijal
+    startTime: 340365
+    endTime: 345286
+    lushootseed: tudiʔ ƛ’uləgʷədabac ʔə ti qʷəɬqʷɬayʔ tiʔiɬ səšulagʷils
+    soundsLike: 
+    morphemes: [tudiʔ,ƛ’u=lə=gʷəd•abac,ʔə,ti,qʷəɬ–qʷɬayʔ,tiʔiɬ,s=lə=šul–agʷil=s]
+    morphemeGloss: [dist.dma,hab=prog=down•body,pr,spec,dstr–log,dist,nm=prog=go.under–auto=3po]
+    english: He kept below the logs he was going beneath over there.
+
+  - lineNumber: 80
+    lineType: ijal
+    startTime: 345816
+    endTime: 349008
+    lushootseed: xʷiʔ gʷəsučals yəx̌i huy xʷəxʷaʔxʷəʔ
+    soundsLike: 
+    morphemes: [xʷiʔ,gʷə=s=ʔu–čal=s,yəx̌i,huy,xʷəxʷaʔxʷəʔ]
+    morphemeGloss: [neg,sbj=nm=pfv–chased=3po,because,sconj,swift]
+    english: He was not overtaken because he is swift.
+
+  - lineNumber: 81
+    lineType: ijal
+    startTime: 349192
+    endTime:   356015
+    lushootseed: ləsaxʷəbabac ʔə tiʔəʔ qʷɬaʔy dxʷʔal tiʔiɬ sɬčis tiʔəʔ ʔaʔyəds qaw’qs
+    soundsLike: 
+    morphemes: [lə=saxʷəb•abac,ʔə,tiʔəʔ,qʷɬaʔy,dxʷ–ʔal,tiʔiɬ,s=ɬčil–s=s,tiʔəʔ,ʔaʔyəd–s,qaw’qs]
+    morphemeGloss: [prog=jump•body,pr,prox,log,cntrpt–at,dist,nm=arrive–altv=3po,prox,companion–3po,raven]
+    english: He jumped over the logs until he arrived at his friend, Raven.
+
+  - lineNumber: 82
+    lineType: ijal
+    startTime: 356383
+    endTime:   358381
+    lushootseed: gʷəl tuʔix̌ʷyid ʔə tiʔəʔ sləx̌il
+    soundsLike: 
+    morphemes: [gʷəl,tu=ʔix̌ʷ–yi–d,ʔə,tiʔəʔ,sləx̌il]
+    morphemeGloss: [sconj,past=thrown.at–dat–ics,pr,prox,daylight]
+    english: And he threw him the daylight.
+
+  - lineNumber: 83
+    lineType: ijal
+    startTime: 358764
+    endTime:   360179
+    lushootseed: kʷədatəb ʔə qaw’qs
+    soundsLike: 
+    morphemes: [kʷəda–t–b,ʔə,qaw’qs]
+    morphemeGloss: [taken–ics–pass,pr,raven]
+    english: It was taken by Raven.
+
+  - lineNumber: 84
+    lineType: ijal
+    startTime: 360208
+    endTime:   363036
+    lushootseed: tudiʔ liɬšəq tiʔiɬ ləč’əlč’əlp ʔə qaw’qs
+    soundsLike: 
+    morphemes: [tudiʔ,liɬ–šəq,tiʔiɬ,lə=č’əl–č’əlp,ʔə,qaw’qs]
+    morphemeGloss: [dist.dma,prlv–high,dist,prog=dstr–turned,pr,raven]
+    english: Way up high Raven was twisting and turning.
+
+  - lineNumber: 85
+    lineType: ijal
+    startTime: 363437
+    endTime:   365601
+    lushootseed: qʷaʔ! qʷaʔ! qʷaʔ! qʷaʔ!
+    soundsLike: 
+    morphemes: []
+    morphemeGloss: []
+    english: “Caw! Caw! Caw! Caw!”
+
+  - lineNumber: 86
+    lineType: ijal
+    startTime: 365622
+    endTime:   368167
+    lushootseed: xʷiʔ kʷi gʷat gʷukʷədxʷ yəx̌i huy xʷəxʷaʔxʷəʔ
+    soundsLike: 
+    morphemes: [xʷiʔ,kʷi,gʷat,gʷə=ʔu–kʷəd–dxʷ,yəx̌i,huy,xʷəxʷaʔxʷəʔ]
+    morphemeGloss: [neg,rem,who,sbj=pfv–taken–dc,because,sconj,swift]
+    english: There was no one who could catch him because he is swift.
+
+  - lineNumber: 87
+    lineType: ijal
+    startTime: 368743
+    endTime:   369530
+    lushootseed: qʷiq’ʷ
+    soundsLike: 
+    morphemes: [qʷiq’ʷ]
+    morphemeGloss: [strong]
+    english: He is strong.
+
+  - lineNumber: 88
+    lineType: ijal
+    startTime: 369672
+    endTime:   372480
+    lushootseed: tiʔəʔ liɬʔal tiʔəʔ swatixʷtəd ƛ’udəxʷusaxʷəbs
+    soundsLike: 
+    morphemes: [tiʔəʔ,liɬ–ʔal,tiʔəʔ,swatixʷtəd,ƛ’u=dəxʷ=ʔu–saxʷəb=s]
+    morphemeGloss: [prox,prlv–at,prox,land,hab=nm=pfv–jump=3po]
+    english: Here on the ground was where (Little Mink) ran.
+
+  - lineNumber: 89
+    lineType: ijal
+    startTime: 372544
+    endTime:   374747
+    lushootseed: tudiʔ liɬšəq dəxʷusaq’ʷs
+    soundsLike: 
+    morphemes: [tudiʔ,liɬ–šəq,dəxʷ=ʔu–saq’ʷ=s]
+    morphemeGloss: [dist.dma,prlv–high,nm=pfv–fly=3po]
+    english: Way up high was where (Raven) flew.
+
+  - lineNumber: 90
+    lineType: ijal
+    startTime: 375193
+    endTime:   377374
+    lushootseed: xʷiʔ kʷi gʷat gʷələkʷədxʷ tiʔəʔ qaw’qs
+    soundsLike: 
+    morphemes: [xʷiʔ,kʷi,gʷat,gʷə=lə=kʷəd–dxʷ,tiʔəʔ,qaw’qs]
+    morphemeGloss: [neg,rem,who,sbj=prog=taken–dc,prox,raven]
+    english: There was no one who could manage to catch Raven.
+
+  - lineNumber: 91
+    lineType: ijal
+    startTime: 378505
+    endTime:   381960
+    lushootseed: x̌ʷul’ ƛ’uləq’ʷəɬəb gʷəl ləʔix̌ʷyid tiʔəʔ ʔayʔəds
+    soundsLike: 
+    morphemes: [x̌ʷul’,ƛ’u=lə=q’ʷəɬəb,gʷəl,lə=ʔix̌ʷ–yi–d,tiʔəʔ,ʔayʔəds–s]
+    morphemeGloss: [only,hab=prog=tired,sconj,prog=thrown.at–dat–ics,prox,companion–3po]
+    english: When he would tire, he would throw it to his friend.
+
+  - lineNumber: 92
+    lineType: ijal
+    startTime: 382215
+    endTime:   384016
+    lushootseed: čalatəb bibščəb
+    soundsLike: 
+    morphemes: [čala–t–b,bi–bəščəb]
+    morphemeGloss: [chased–ics–pass,attn–mink]
+    english: Little Mink as chased.
+
+  - lineNumber: 93
+    lineType: ijal
+    startTime: 384017
+    endTime:   386844
+    lushootseed: tudiʔ lil gʷədabac ʔə ti qʷəɬqʷɬayʔ
+    soundsLike: 
+    morphemes: [tudiʔ,lil,gʷəd•abac,ʔə,ti,qʷəɬ–qʷɬayʔ]
+    morphemeGloss: [dist.dma,far,down•body,pr,spec,dstr–log]
+    english: He was way over there beneath the logs.
+
+  - lineNumber: 94
+    lineType: ijal
+    startTime: 386939
+    endTime:   393168
+    lushootseed: tudiʔ ləsaxʷəbabac ʔə ti šqabac tiʔiɬ sətəlaʷil ʔə bibščəb
+    soundsLike: 
+    morphemes: [tudiʔ,lə=saxʷəb•abac,ʔə,ti,šq•abac,tiʔiɬ,s=lə=təlaʷil,ʔə,bi–bəščəb]
+    morphemeGloss: [dist.dma,prog=jump•body,pr,spec,high•body,dist,nm=prog=run,pr,attn–mink]
+    english: Little Mink was way over there jumping over the high mass where he was running.
+
+  - lineNumber: 95
+    lineType: ijal
+    startTime: 393168
+    endTime:   396913  
+    lushootseed: xʷiʔ kʷi stab gʷələčaldxʷ tiʔəʔ xʷəxʷaʔxʷəʔ titčul’bixʷ
+    soundsLike: 
+    morphemes: [xʷiʔ,kʷi,stab,gʷə=lə=čal–dxʷ,tiʔəʔ,xʷəxʷaʔxʷəʔ,titčul’bixʷ]
+    morphemeGloss: [neg,rem,what,sbj=prog=chased–dc,prox,swift,small.animal]
+    english: Therewasis nothing able to overtake this swift little animal.
+
+  - lineNumber: 96
+    lineType: ijal
+    startTime: 396986
+    endTime:   399460
+    lushootseed: stiqayuʔ, swəwaʔ tučalad
+    soundsLike: 
+    morphemes: [stiqayuʔ,swəwaʔ,tu=čala–d]
+    morphemeGloss: [wolf,cougar,past=chased–ics]
+    english: It was Wolf and Cougar who chased him.
+
+  - lineNumber: 97
+    lineType: ijal
+    startTime: 399626
+    endTime:   402702
+    lushootseed: xʷiʔ kʷi gʷat gʷučaladxʷ ti bibščəb yəx̌i huy xʷəxʷaʔxʷəʔ
+    soundsLike: 
+    morphemes: [xʷiʔ,kʷi,gʷat,gʷə=ʔu–čala–dxʷ,ti,bi–bəščəb,yəx̌i,huy,xʷəxʷaʔxʷəʔ]
+    morphemeGloss: [neg,rem,who,sbj=pfv–chased–dc,spec,attn–mink,because,sconj,swift]
+    english: No one could overtake Little Mink because he is swift.
+
+  - lineNumber: 98
+    lineType: ijal
+    startTime: 403520
+    endTime:   407918
+    lushootseed: dxʷʔal tusɬčils əlgʷəʔ dxʷʔal tiʔəʔ q’il’bids əlgʷəʔ gʷəl tuq’ilagʷil gʷəl tuʔuluɬ
+    soundsLike: 
+    morphemes: [dxʷ–ʔal,tu=s=ɬčil=s,əlgʷəʔ,dxʷ–ʔal,tiʔəʔ,q’il’bid–s,əlgʷəʔ,gʷəl,tu=q’il–agʷil,gʷəl,tu=ʔuluɬ]
+    morphemeGloss: [cntrpt–at,past=nm=arrive=3po,pl,cntrpt–at,prox,canoe–3po,pl,sconj,past=aboard–auto,sconj,past=travel.by.water]
+    english: When they got to their canoe, they got in and set off.
+
+  - lineNumber: 99
+    lineType: ijal
+    startTime: 408143
+    endTime:   413320
+    lushootseed: x̌ʷul’əxʷ tuʔuluɬ əlgʷəʔ gʷəl tuqʷšabəxʷ
+    soundsLike: 
+    morphemes: [x̌ʷul’=əxʷ,tu=ʔuluɬ,əlgʷəʔ,gʷəl,tu=qʷšab=əxʷ]
+    morphemeGloss: [only=now,past=travel.by.water,pl,sconj,past=foggy=now]
+    english: Just as they set out it became foggy.
+
+  - lineNumber: 100
+    lineType: ijal
+    startTime: 413439
+    endTime:   414850
+    lushootseed: cutəxʷ ʔə tiʔəʔ bibščəb
+    soundsLike: 
+    morphemes: [cut=əxʷ,ʔə,tiʔəʔ,bi-bəščəb]
+    morphemeGloss: [say=now,pr,prox,attn–mink]
+    english: Little Mink said,
+
+  - lineNumber: 101
+    lineType: ijal
+    startTime: 414842
+    endTime:   420110
+    lushootseed: ʔaʔ tiʔiɬ dsqəlalitut ɬulaʔ čəd gʷəl ɬuqʷšab tiʔəʔ swatixʷtəd
+    soundsLike: 
+    morphemes: [ʔaʔ,tiʔiɬ,d–sqəlalitut,ɬu=laʔ,čəd,gʷəl,ɬu=qʷšab,tiʔəʔ,swatixʷtəd]
+    morphemeGloss: [be.there,dist,1sg.po–spirit.power,irr=localize,1sg.sub,sconj,irr=foggy,prox,land]
+    english: “I have a spirit power that I’ll locate and the land will be foggy.”
+
+
+  - lineNumber: 102
+    lineType: ijal
+    startTime: 420266
+    endTime:   425363
+    lushootseed: tuqʷšabičəxʷ əlgʷəʔ gʷəl tux̌ʷilx̌ʷiləxʷ tiʔəʔ ʔaciɬtalbixʷ tuləčalad həlgʷəʔ
+    soundsLike: 
+    morphemes: [tu=qʷšab•ič=əxʷ,əlgʷəʔ,gʷəl,tu=x̌ʷil–x̌ʷil=əxʷ,tiʔəʔ,ʔaciɬtalbixʷ,tu=lə=čala–d,həlgʷəʔ]
+    morphemeGloss: [past=foggy•covering=now,pl,sconj,past=dstr–lost=now,prox,people,past=prog=chased–ics,pl]
+    english: The fog covered them and the people who chased them got lost.
+
+
+  - lineNumber: 103
+    lineType: ijal
+    startTime: 425396
+    endTime:   426415
+    lushootseed: gʷəl tuʔux̌ʷəxʷ
+    soundsLike: 
+    morphemes: [gʷəl,tu=ʔux̌ʷ=əxʷ]
+    morphemeGloss: [sconj,past=go=now]
+    english: And they went.
+
+  - lineNumber: 104
+    lineType: ijal
+    startTime: 426415
+    endTime:   429763
+    lushootseed: tut’uk’ʷtxʷəxʷ tiʔəʔ sləx̌il
+    soundsLike: 
+    morphemes: [tu=t’uk’ʷ–txʷ=əxʷ,tiʔəʔ,sləx̌il]
+    morphemeGloss: [past=go.home–ecs=now,prox,daylight]
+    english: They took this daylight home.
+
+
+  - lineNumber: 105
+    lineType: ijal
+    startTime: 430980
+    endTime:   433193
+    lushootseed: x̌ʷul’əxʷ əlgʷəʔ tuləɬčildxʷ tiʔəʔ
+    soundsLike: 
+    morphemes: [x̌ʷul’=əxʷ,əlgʷəʔ,tu=lə=ɬčil–dxʷ,tiʔəʔ]
+    morphemeGloss: [only=now,pl,past=prog=arrive–dc,prox]
+    english: They were just managing to arrive with it.
+
+  - lineNumber: 106
+    lineType: ijal
+    startTime: 433249
+    endTime:   436531
+    lushootseed: tuləč’itil dxʷʔal tiʔəʔ swatixʷtəd dəxʷtul’ʔaʔs əlgʷəʔ
+    soundsLike: 
+    morphemes: [tu=lə=ɬčil,dxʷ-ʔal,tiʔəʔ,swatixʷtəd,dəxʷ=tul’–ʔaʔ=s,əlgʷəʔ]
+    morphemeGloss: [past=prog=arrive,cntrpt-at,prox,land,adnm=cntrfg–be.there=3po,pl]
+    english: They were drawing near to this land where they were from.
+
+  - lineNumber: 107
+    lineType: ijal
+    startTime: 436624
+    endTime:   439882
+    lushootseed: gʷəl diɬəxʷ kʷi ƛ’ugʷəqilič ʔə tiʔəʔ ʔaciɬtalbixʷ
+    soundsLike: 
+    morphemes: [gʷəl,diɬ=əxʷ,kʷi,ƛ’u=gʷəq–il•ič,ʔə,tiʔəʔ,ʔaciɬtalbixʷ]
+    morphemeGloss: [sconj,foc=now,rem,hab=bright–inch•covering,pr,prox,people]
+    english: And sunshine would envelope the people.
+
+  - lineNumber: 108
+    lineType: ijal
+    startTime: 440271
+    endTime:   440985
+    lushootseed: tucut
+    soundsLike: 
+    morphemes: [tu=cut]
+    morphemeGloss: [past=say]
+    english: They said,
+
+  - lineNumber: 109
+    lineType: ijal
+    startTime: 440989
+    endTime:   443819
+    lushootseed: ʔuˑ, ʔuʔəƛ’axʷ ti stububš tugʷəč’əd tiʔiɬ sləx̌il
+    soundsLike: 
+    morphemes: [ʔu,ʔu–ʔəƛ’=axʷ,ti,stub–ubš,tu=gʷəč’–d,tiʔiɬ,sləx̌il]
+    morphemeGloss: [intj,pfv–come=now,spec,pl–man,past=search–ics,dist,daylight]
+    english: “Oh, the men who sought the daylight have come.”
+
+
+  - lineNumber: 110
+    lineType: ijal
+    startTime: 443819
+    endTime:   444706
+    lushootseed: ʔiɬč’itəxʷ
+    soundsLike: 
+    morphemes: [ʔiɬ–č’it=əxʷ]
+    morphemeGloss: [prtv–near=now]
+    english: “They are coming nearer.”
+
+  - lineNumber: 111
+    lineType: ijal
+    startTime: 444706
+    endTime:   446247
+    lushootseed: ləx̌iličəxʷ čəɬ
+    soundsLike: 
+    morphemes: [ləx̌–il•ič=əxʷ,čəɬ]
+    morphemeGloss: [light–inch•covering=now,1pl.sub]
+    english: “Light is covering us.”
+
+  - lineNumber: 112
+    lineType: ijal
+    startTime: 448189
+    endTime:   453649
+    lushootseed: tuʔəƛ’txʷ əlgʷəʔ tiʔəʔ sləx̌il gʷəl tuɬčil dxʷʔal tiʔəʔ sʷatixʷtəd dəxʷtul’ʔaʔs əlgʷəʔ
+    soundsLike: 
+    morphemes: [tu=ʔəƛ’–txʷ,əlgʷəʔ,tiʔəʔ,sləx̌il,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,sʷatixʷtəd,dəxʷ=tul’–ʔaʔ=s,əlgʷəʔ]
+    morphemeGloss: [past=come–ecs,pl,prox,daylight,sconj,past=arrive,cntrpt–at,prox,land,adnm=cntrfg–be.there=3po,pl]
+    english: They brought the daylight and came to the land they were from.
+
+
+  - lineNumber: 113
+    lineType: ijal
+    startTime: 455188
+    endTime:   459066
+    lushootseed: gʷəl qaw’qs kʷi dᶻixʷ tukʷədad tiʔəʔ sləx̌il
+    soundsLike: 
+    morphemes: [gʷəl,qaw’qs,kʷi,dᶻixʷ,tu=kʷəda–d,tiʔəʔ,sləx̌il]
+    morphemeGloss: [sconj,raven,rem,first,past=taken–ics,prox,daylight]
+    english: And Raven took the daylight first.
+
+  - lineNumber: 114
+    lineType: ijal
+    startTime: 459065
+    endTime:   460528
+    lushootseed: cədiɬ kʷi tuʷačbid
+    soundsLike: 
+    morphemes: [cədiɬ,kʷi,tu=ʷač–bi–d]
+    morphemeGloss: [s/he,rem,past=watch–map–ics]
+    english: The one who watched it was he.
+
+  - lineNumber: 115
+    lineType: ijal
+    startTime: 461587
+    endTime:   464040
+    lushootseed: daʔxʷ ƛ’uləɬax̌il gʷəl bələx̌il
+    soundsLike: 
+    morphemes: [daʔxʷ,ƛ’u=lə=ɬax̌–il,gʷəl,bə=ləx̌–il]
+    morphemeGloss: [just.now,hab=prog=dark–inch,sconj,add=light–inch]
+    english: No sooner it would become night than it became light again.
+
+  - lineNumber: 116
+    lineType: ijal
+    startTime: 464478
+    endTime:   466805
+    lushootseed: ʔəsʔəx̌idəxʷ kʷi ʔaciɬtalbixʷ gʷasʔitutəs
+    soundsLike: 
+    morphemes: [ʔəs–ʔəx̌id=əxʷ,kʷi,ʔaciɬtalbixʷ,gʷə=ʔas–ʔitut=əs]
+    morphemeGloss: [stat–what.happen=now,rem,people,sbj=stat–sleep=3sbj]
+    english: Why were the people asleep?
+
+  - lineNumber: 117
+    lineType: ijal
+    startTime: 466855
+    endTime:   468314
+    lushootseed: ƛ’al’ uʔxʷ bələx̌il
+    soundsLike: 
+    morphemes: [ƛ’al’,uʔxʷ,bə=ləx̌–il]
+    morphemeGloss: [also,ptcl,add=light–inch]
+    english: It had also become light again.
+
+  - lineNumber: 118
+    lineType: ijal
+    startTime: 468463
+    endTime:   469579
+    lushootseed: x̌ʷul’ ʔaɬ
+    soundsLike: 
+    morphemes: [x̌ʷul’,ʔaɬ]
+    morphemeGloss: [only,fast]
+    english: It was too fast.
+
+  - lineNumber: 119
+    lineType: ijal
+    startTime: 472395
+    endTime:   479975
+    lushootseed: ʔabyitəb bibščəb gʷəl haʔkʷ tiʔiɬ ƛ’uləɬax̌ils gʷəl ƛ’usləx̌iˑl ʔə kʷi taʔtəbac
+    soundsLike: 
+    morphemes: [ʔab–yi–t–b,bi–bəščəb,gʷəl,haʔkʷ,tiʔiɬ,ƛ’u=lə=ɬax̌–il–s,gʷəl,ƛ’u=s=ləx̌–il,ʔə,kʷi,taʔtəbac]
+    morphemeGloss: [extend–dat–ics–pass,attn–mink,sconj,long.time,dist,hab=prog=dark–inch–3po,sconj,hab=nm=light–inch,pr,rem,slow]
+    english: It was given to Little Mink and for a long time it would be night and grow light slowly.
+
+  - lineNumber: 120
+    lineType: ijal
+    startTime: 479976
+    endTime:   483829
+    lushootseed: huy ʔəsaydxʷ tašəɬyačiʔbid tiʔiɬ suhuyuds
+    soundsLike: 
+    morphemes: [huy,ʔəs–hay–dxʷ,tu=ʔas–šəɬ•y•ačiʔ–bi–d,tiʔiɬ,s=ʔu–huyu–d=s]
+    morphemeGloss: [sconj,stat–known–dc,past=stat–make•cnn•hand–map–ics,dist,nm=pfv–made–ics=3po]
+    english: Because he knew how it is done with the hands.
+
+  - lineNumber: 121
+    lineType: ijal
+    startTime: 484086
+    endTime:   485964
+    lushootseed: gʷəl qaw’qs gʷəl x̌ʷul’ ʔaɬ
+    soundsLike: 
+    morphemes: [gʷəl,qaw’qs,gʷəl,x̌ʷul’,ʔaɬ]
+    morphemeGloss: [sconj,raven,sconj,only,fast]
+    english: But Raven, he was too fast.
+
+  - lineNumber: 122
+    lineType: ijal
+    startTime: 486116
+    endTime:   488777
+    lushootseed: x̌ʷul’ ʔaʔ tiʔiɬ sɬax̌ils gʷəl bələx̌il
+    soundsLike: 
+    morphemes: [x̌ʷul’,ʔaʔ,tiʔiɬ,s=ɬax̌–il=s,gʷəl,bə=ləx̌–il]
+    morphemeGloss: [only,be.there,dist,nm=dark–inch=3po,sconj,add=light–inch]
+    english: Just when it became night then it became day again.
+
+  - lineNumber: 123
+    lineType: ijal
+    startTime: 488785
+    endTime:   492996
+    lushootseed: ʔəsʔəx̌idəxʷ kʷi ʔaciɬtalbixʷ gʷastədziləs gʷəl ƛ’al’ uʔxʷ basləx̌il
+    soundsLike: 
+    morphemes: [ʔəs–ʔəx̌id=əxʷ,kʷi,ʔaciɬtalbixʷ,gʷə=ʔas–tədzil=əs,gʷəl,ƛ’al’,uʔxʷ,bə=ʔas–ləx̌–il]
+    morphemeGloss: [stat–what.happen=now,rem,people,sbj=stat–lie.in.bed=3sbj,sconj,also,ptcl,add=stat–light–inch]
+    english: Why were the people in bed when it had become light again?
+
+  - lineNumber: 124
+    lineType: ijal
+    startTime: 494414
+    endTime:   496050
+    lushootseed: šac’əxʷ tiʔiɬ dsgʷəgʷadgʷəd
+    soundsLike: 
+    morphemes: [šac’=əxʷ,tiʔiɬ,d=s=gʷəgʷadgʷəd]
+    morphemeGloss: [finished=now,dist,1sg.po=nm=converse]
+    english: My talking is finished now.
+
+
+  - lineNumber: 125
+    lineType: ijal
+    startTime: 496058
+    endTime:   497983
+    lushootseed: dəč’uʔ haʔɬ syəyəhub
+    soundsLike: 
+    morphemes: [dəč’uʔ,haʔɬ,syəyəhub]
+    morphemeGloss: [one,good,legend]
+    english: It is a good story.
+

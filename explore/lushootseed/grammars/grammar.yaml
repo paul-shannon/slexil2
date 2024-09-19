@@ -1,149 +1,1647 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-mediaFile: grammar-01-02.wav
+mediaFile: volume1.wav
 mimeType: audio/wav
 
 lines:
-  - lineNumber: 1
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson One: dəčuʔ</div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>1.1</div>"
+
+  - lineType: ijal
     startTime: 15057
     endTime: 17867
-    lushootseed: stab əw'ə tiʔiɬ
+    lushootseed: stab əw̓ə tiʔiɬ.
     english:  What is that? (What could that be?)
 
-  - lineNumber: 2
+  - lineType: ijal
     startTime: 21740
     endTime: 23776
-    lushootseed: spaʔc tiʔiɬ
+    lushootseed: spaʔc tiʔiɬ.
     english: That is a bear.
 
-  - lineNumber: 3
+  - lineType: html
+    content: "<div class='sectionNumber'>1.2</div>"
+
+
+  - lineType: ijal
     startTime: 39196
     endTime: 41894
-    lushootseed: sqigʷəc tiʔiɬ
+    lushootseed: sqigʷəc tiʔiɬ.
     english: That is a deer.
 
-  - lineNumber: 4
+  - lineType: html
+    content: "<div class='sectionNumber'>1.3</div>"
+
+
+  - lineType: ijal
     startTime: 56046
     endTime:   59197
-    lushootseed: sʔuladxʷ tiʔiɬ
+    lushootseed: sʔuladxʷ tiʔiɬ.
     english: That is a salmon.
 
-  - lineNumber: 5
-    startTime: 77876
-    endTime:   80979
-    lushootseed: bəščəb tiʔiɬ
+  - lineType: html
+    content: "<div class='sectionNumber'>1.4</div>"
+
+
+  - lineType: ijal
+    startTime: 73740
+    endTime:   77205
+    lushootseed: bəščəb tiʔiɬ.
     english: That is a mink.
 
 
-  - lineNumber: 5
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill I<h5></div>"
+
+  - lineType: ijal
     startTime: 89729
     endTime:   95902
-    lushootseed: "ɬ:  ɬyɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ."
+    lushootseed: "ɬ: ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ."
     english: That girl and I will live over there.
 
-  - lineNumber: 6
+  - lineType: ijal
     startTime: 107136
     endTime:   111717
-    lushootseed: "q:   ?uqada tə dqəqsuʔ ʔə tə qəlx̌."
+    lushootseed: "q: ʔuqada tə dqəqsiʔ ʔə tə qəlx̌."
     english: My favorite uncle stole the salmon eggs.
 
-  - lineNumber: 7
+  - lineType: ijal
     startTime: 120886
     endTime:   125198
-    lushootseed: "xʷ:  ʔuxʷit'il tə sxʷət dxʷal tə xʷudad."
+    lushootseed: "xʷ: ʔuxʷit̓il tə sxʷət dxʷal tə xʷudad."
     english: The thrush fell into the ashes.
 
-  - lineNumber: 8
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Contrasts</h5></div>"
+  
+  - lineType: ijal
     startTime: 137520
     endTime:   139265
     lushootseed: xʷuyub
     english: sell
 
-  - lineNumber: 9
+  - lineType: ijal
     startTime: 141454
     endTime:   142976
     lushootseed: huyud
     english: make it
 
-  - lineNumber: 10
+  - lineType: ijal
     startTime: 148721
     endTime:   150202
     lushootseed: xʷudad
     english: ashes
 
-  - lineNumber: 11
+  - lineType: ijal
     startTime: 151804
     endTime:   153263
     lushootseed: hudud
     english: burn it
 
-  - lineNumber: 1
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Two: saliʔ</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> diʔayucid (NL)  </td><td>  the other side (of a road/path)  </td></tr>
+                     <tr><td> diʔucid (NL)  </td><td> the other side (or a river/lake)</td></tr>
+                     <tr><td>  šəgʷɬ  </td><td> road, path; door  </td></tr>
+                     <tr><td>  tə  </td><td> the, a   </td></tr>
+                     <tr><td> stuləkʷ   </td><td> river   </td></tr>
+                     <tr><td> ʔal   </td><td>located in, on, at; of    </td></tr>
+                    </table>
+                 </div>
+               </details>
+            </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>2.1</div>"
+
+  - lineType: ijal
     startTime: 166737
     endTime: 170657
-    lushootseed: stab əw'ə tiʔiɬ ʔal tə stuləkʷ
+    lushootseed: stab əw̓ə tiʔiɬ ʔal tə stuləkʷ.
     english:  What is that in the river?
 
-  - lineNumber: 2
+  - lineType: ijal
     startTime: 175840
     endTime: 178935
-    lushootseed: sʔuladxʷ tiʔiɬ
+    lushootseed: sʔuladxʷ tiʔiɬ.
     english:  That is a salmon.
 
-  - lineNumber: 3
+  - lineType: html
+    content: "<div class='sectionNumber'>2.2</div>"
+
+  - lineType: ijal
     startTime: 184941
     endTime: 188514
-    lushootseed: stab əw'ə tiʔiɬ ʔal tə šəgʷɬ.
+    lushootseed: stab əw̓ə tiʔiɬ ʔal tə šəgʷɬ.
     english:  What is that in/on the road?
 
-  - lineNumber: 4
+  - lineType: ijal
     startTime: 192962
     endTime: 195452
     lushootseed: sqigʷəc tiʔiɬ.
     english:  That is a deer.
 
-  - lineNumber: 5
+  - lineType: html
+    content: "<div class='sectionNumber'>2.3</div>"
+
+  - lineType: ijal
     startTime: 202212
     endTime: 206463
-    lushootseed: stab əw'ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
+    lushootseed: stab əw̓ə tiʔiɬ diʔucid ʔal tə stuləkʷ.
     english:  What is that on the other side of the river?
 
 
-  - lineNumber: 6
+  - lineType: ijal
     startTime: 212462
     endTime: 214946
     lushootseed: bəščəb tiʔiɬ.
     english:  That is a mink.
 
-  - lineNumber: 7
+  - lineType: html
+    content: "<div class='sectionNumber'>2.4</div>"
+
+  - lineType: ijal
     startTime: 221088
     endTime:   225562
-    lushootseed: stab əw'ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
+    lushootseed: stab əw̓ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
     english:  What is that on the other side of the road?
  
-  - lineNumber: 8
+  - lineType: ijal
     startTime: 231738
     endTime: 234160
     lushootseed: spaʔc tiʔiɬ.
     english:  That is a bear.
-## 
-##   - lineNumber: 
-##     startTime:
-##     endTime: 
-##     lushootseed: 
-##     english:  
-## 
-##   - lineNumber: 
-##     startTime:
-##     endTime: 
-##     lushootseed: 
-##     english:  
-## 
-##   - lineNumber: 
-##     startTime:
-##     endTime: 
-##     lushootseed: 
-##     english:  
-## 
-## 
-#
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Three: ɬixʷ</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll;'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>bad</td> <td>father</td></tr>
+                     <tr><td>bədaʔ (NL)</td> <td>one's own child</td></tr>
+                     <tr><td>bədəʔ (SL)</td> <td>one's own child</td></tr>
+                     <tr><td>č̓ač̓as (NL)</td> <td>child, youngster</td></tr>
+                     <tr><td>č̓ač̓aš (SL)</td> <td>child, youngster</td></tr>
+                     <tr><td>č̓it</td> <td>near</td></tr>
+                     <tr><td>d-</td> <td>my</td></tr>
+                     <tr><td>diɬ</td> <td>he, she, it is</td></tr>
+                     <tr><td>gʷat</td> <td>who</td></tr>
+                     <tr><td>sk̓ʷuy</td> <td>mother</td></tr>
+                     <tr><td>sɬadəyʔ</td> <td>woman</td></tr>
+                     <tr><td>ti</td> <td>the particular (one)</td></tr>
+                     <tr><td>tiʔaʔ</td> <td>here, close by</td></tr>
+                     <tr><td>tiʔəʔ (NL)</td> <td>this</td></tr>
+                     <tr><td>tiʔiɬ</td> <td>that</td></tr>
+                     <tr><td>tsi</td> <td>the particular (one)(feminie)</td></tr>
+                     <tr><td>tsiʔiɬ</td> <td>that (feminine)</td></tr>
+                     <tr><td>stubš</td> <td>man</td></tr>
+                     <tr><td>tudiʔ</td> <td>over there</td></tr>
+                   </table>
+                 </div>
+                 </details>
+               </div>"
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>3.1</div>"
+
+  - lineType: ijal
+    startTime: 249865
+    endTime: 254294
+    lushootseed: gʷat əw̓ə tiʔiɬ stubš ʔal tudiʔ.
+    english:  Who is that man over there?
+
+  - lineType: ijal
+    startTime: 259883
+    endTime: 262870
+    lushootseed: diɬ dbad tiʔiɬ.
+    english:  That is my father.  (Literally, He is my father, that (one).)
+
+  - lineType: html
+    content: "<div class='sectionNumber'>3.2</div>"
+
+  - lineType: ijal
+    startTime: 269513
+    endTime:  273568
+    lushootseed:  gʷat əw̓ə tiʔiɬ sɬadəy ʔal tudiʔ.
+    english:  Who is that woman over there?
+
+  - lineType: ijal
+    startTime: 279406
+    endTime: 282493
+    lushootseed: diɬ dsk̓ʷuy tsiʔiɬ.
+    english:  That woman is my mother.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>3.3</div>"
+
+  - lineType: ijal
+    startTime: 289787
+    endTime:  293645
+    lushootseed: gʷat əw̓ə tiʔiɬ č̓ač̓as ʔal tudiʔ.
+    english:  Who is that child over there?
+
+  - lineType: ijal
+    startTime: 299238
+    endTime: 302108
+    lushootseed: diɬ dbədaʔ tiʔiɬ.
+    english:  That child is my son.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>3.4</div>"
+
+  - lineType: ijal
+    startTime: 310162
+    endTime: 313968
+    lushootseed: gʷat əw̓ə tsiʔiɬ č̓ač̓as ʔal tudiʔ.
+    english:  Who is that child over there?
+
+  - lineType: ijal
+    startTime: 319313
+    endTime: 322107
+    lushootseed: diɬ dbədaʔ tsiʔiɬ.
+    english:  That child is my daughter.
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B3.1</div>"
+
+
+  - lineType: ijal
+    startTime: 332351
+    endTime: 335713
+    lushootseed: gʷat əw̓ə ti stubš ʔal tiʔaʔ.
+    english:  Who is the man right here?
+    
+  - lineType: ijal
+    startTime: 340186
+    endTime: 343136
+    lushootseed: diɬ dbad tiʔəʔ
+    english:  He is my father, (this one).
+    
+  - lineType: html
+    content: "<div class='sectionNumber'>B3.2</div>"
+
+  - lineType: ijal
+    startTime: 349613
+    endTime: 352351
+    lushootseed: gʷat əw̓ə tsi sɬadəyʔ ʔal tiʔaʔ.
+    english:  Who is the woman right here?
+
+  - lineType: ijal
+    startTime: 356414
+    endTime: 359253
+    lushootseed: diɬ dsk̓ʷuy tsiʔəʔ.
+    english: She is my mother, (this one).
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B3.3</div>"
+
+  - lineType: ijal
+    startTime: 367154
+    endTime: 370736
+    lushootseed: gʷat əw̓ə ti č̓ač̓as ʔal tiʔaʔ.
+    english:  Who is the child right here?
+
+  - lineType: ijal
+    startTime: 374716
+    endTime: 377382
+    lushootseed: diɬ dbədaʔ tiʔəʔ.
+    english:  He is my son, (this one).
+
+  - lineType: ijal
+    startTime: 386339
+    endTime: 389634
+    lushootseed: gʷat əw̓ə tsi č̓ač̓as ʔal tiʔaʔ.
+    english:  Who is the child right here?
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B3.4</div>"
+
+  - lineType: ijal
+    startTime: 393705
+    endTime: 396671
+    lushootseed: diɬ dbədaʔ tsiʔəʔ.
+    english:  She is my daughter, (this one).
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill II<h5></div>"
+
+
+  - lineType: ijal
+    startTime: 407740
+    endTime: 409111
+    lushootseed: "č̓: č̓əɬ"
+    english:  tear, pull from
+
+  - lineType: ijal
+    startTime: 409637
+    endTime: 410763
+    lushootseed: "č: čəɬ"
+    english: we
+
+  - lineType: ijal
+    startTime: 419212
+    endTime: 420588
+    lushootseed: "k̓ʷ: k̓ʷədad"
+    english:  forecast weather
+
+  - lineType: ijal
+    startTime: 421250
+    endTime: 422284
+    lushootseed:  "kʷ: kʷədad"
+    english:  take it
+
+  - lineType: ijal
+    startTime: 432845
+    endTime: 437753
+    lushootseed: "č̓: ʔuč̓axʷč̓axʷatəb ʔə tə č̓ač̓as ʔə tə sč̓asč̓asəd."
+    english:  The boy repeatedly hit it with branches.
+
+  - lineType: ijal
+    startTime: 449695
+    endTime: 454468
+    lushootseed: "k̓ʷ: ʔuk̓ʷaɬatəb ʔə tsi dsk̓ʷuy tsi k̓ʷak̓ʷt̓ad."
+    english:  My mother examined the tiny mouse.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Four: buus</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>ad- </td><td> your  </td></tr>
+                     <tr><td>čad </td><td> where  </td></tr>
+                     <tr><td>čəgʷas (NL) </td><td> wife  </td></tr>
+                     <tr><td>čəgʷaš (SL) </td><td> wife  </td></tr>
+                     <tr><td>ʔuč̓aʔa</td><td> play(ing)  </td></tr>
+                     <tr><td>sč̓istxʷ</td><td>husband</td></tr>
+                     <tr><td>diʔadiʔ</td><td>other room, other end of the room </td></tr>
+                     <tr><td>sə (NL)</td><td>particular one</td></tr>
+                     <tr><td>šə (SL)</td><td>particular one</td</tr>
+                     <tr><td>ʔuyayus </td><td>work(ing) </td></tr>
+                     <tr><td>ʔalʔal </td><td>house   </td></tr>
+                     <tr><td>ʔəsʔitut </td><td>sleep(ing)</td></tr>
+                     <tr><td>ʔuʔukʷukʷ (NL) </td><td>play(ing)</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>4.1</div>"
+
+  - lineType: ijal
+    startTime: 473928
+    endTime: 476455
+    lushootseed: čad t(i) adbad.
+    english:  Where is your father?
+
+  - lineType: ijal
+    startTime: 482623
+    endTime: 486623
+    lushootseed: ʔuyayus ti dbad ʔal tudiʔ.
+    english:  My father is working over there.
+
+
+  - lineType: ijal
+    startTime: 487162
+    endTime: 489712
+    lushootseed: ʔuyayus ʔal tudiʔ.
+    english: He is working over there.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>4.2</div>"
+
+  - lineType: ijal
+    startTime: 499789
+    endTime: 502097
+    lushootseed: čad ts(i) adsk̓ʷuy.
+    english:  Where is your mother?
+
+  - lineType: ijal
+    startTime: 508086
+    endTime: 511642
+    lushootseed: ʔuyayus tsi dsk̓ʷuy ʔal ti ʔalʔal.
+    english: My mother is working at the house.
+
+  - lineType: ijal
+    startTime: 519762
+    endTime: 522772
+    lushootseed: ʔuyayus ʔal ti ʔalʔal.
+    english: She is working at the house.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>4.3</div>"
+
+  - lineType: ijal
+    startTime: 529554
+    endTime: 531956
+    lushootseed:  čad ts(i) adbədaʔ
+    english: Where is your daughter?
+
+  - lineType: ijal
+    startTime: 533439
+    endTime: 537453
+    lushootseed:  ʔuʔukʷʔukʷ tsi dbədaʔ ʔal ti ʔalʔal.
+    english: My daughter is playing at the house.
+
+  - lineType: ijal
+    startTime: 537945
+    endTime: 540869
+    lushootseed:  ʔuʔukʷʔukʷ ʔal ti ʔalʔal.
+    english: She is playing at the house.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>4.4</div>"
+
+  - lineType: ijal
+    startTime: 552576
+    endTime: 555145
+    lushootseed: čad t(i) adbədaʔ.
+    english: Where is your son?
+
+  - lineType: ijal
+    startTime: 558512
+    endTime: 562761
+    lushootseed: ʔuʔukʷʔukʷ ti dbədaʔ č̓it ʔal ti ʔalʔal.
+    english: My son is playing close to the house.
+
+  - lineType: ijal
+    startTime: 564031
+    endTime: 567369
+    lushootseed: ʔuʔukʷʔukʷ č̓it ʔal ti ʔalʔal.
+    english: He is playing close to the house.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>4.5</div>"
+
+  - lineType: ijal
+    startTime: 582081
+    endTime: 585133
+    lushootseed: čad t(i) adsč̓istxʷ
+    english: Where is your husband?
+
+  - lineType: ijal
+    startTime: 588873
+    endTime: 593361
+    lushootseed: ʔəsʔitut ti dsč̓istxʷ diʔadiʔ.
+    english: My husband is sleeping in the other room
+
+  - lineType: ijal
+    startTime: 593919
+    endTime: 596676
+    lushootseed: ʔəsʔitut diʔadiʔ.
+    english: He is sleeping in the other room.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>4.6</div>"
+
+  - lineType: ijal
+    startTime: 607326
+    endTime: 609809
+    lushootseed: čad ts(i) adčəgʷas.
+    english: Where is your wife?
+
+  - lineType: ijal
+    startTime: 613657
+    endTime: 616969
+    lushootseed: ʔəsʔitut tsi dčəgʷas diʔadiʔ.
+    english: My wife is sleeping in the other room.
+
+  - lineType: ijal
+    startTime: 617397
+    endTime: 619981
+    lushootseed: ʔəsʔitut diʔadiʔ.
+    english: She is sleeping in the other room.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Five: cəlac</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> diʔabac </td>   <td> other side of a solid object  </td></tr>
+                     <tr><td> diʔalətxʷ </td> <td> other side of a house or building (outside it) </td></tr>
+                     <tr><td> səxʷgʷədil </td>      <td>chair   </td></tr>
+                     <tr><td> ʔəsgʷədil </td>      <td>sit(ting)   </td></tr>
+                     <tr><td>hikʷ </td><td> big  </td></tr>
+                     <tr><td>kʷi </td><td> remote, doubtful  </td></tr>
+                     <tr><td>pišpiš </td><td> cat </td></tr>
+                     <tr><td> sqʷəbayʔ </td><td> dog  </td></tr>
+                     <tr><td>qʷəɬayʔ (NL)</td><td> log, stick  </td></tr>
+                     <tr><td>lətəyil (NL)</td><td>going upstream</td></tr>
+                     <tr><td>lətayil (SL)</td><td>other room, other end of the room </td></tr>
+                     <tr><td>st̓əkʷ̓ab (SL)</td><td>log, stick</td></tr>
+                     <tr><td>ʔuʔəɬəd</td><td>eat(ing)</td</tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.1</div>"
+
+  - lineType: ijal
+    startTime: 642009
+    endTime: 644542
+    lushootseed: čad kʷi sʔuladxʷ.
+    english:  Where are the salmon?
+
+  - lineType: ijal
+    startTime: 648271
+    endTime: 651235
+    lushootseed: lətəyil ʔal tə stuləkʷ.
+    english:  They are going up (stream in) the river.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.4</div>"
+
+  - lineType: ijal
+    startTime: 659473
+    endTime: 661840
+    lushootseed: čad kʷi sqigʷəc.
+    english:  Where is a deer?
+
+  - lineType: ijal
+    startTime: 664911
+    endTime: 669256
+    lushootseed: lətəlawil diʔayucid ʔal tə šəgʷɬ.
+    english:  It is running on the other side of the road.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.3</div>"
+
+  - lineType: ijal
+    startTime: 677667
+    endTime: 680123
+    lushootseed: čad kʷi spaʔc.
+    english:  Where is a bear?
+
+  - lineType: ijal
+    startTime: 683346
+    endTime: 687342
+    lushootseed: ʔuʔəɬəd diʔayucid ʔal tə šəgʷɬ.
+    english:  It is eating on the other side of the road.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.4</div>"
+
+  - lineType: ijal
+    startTime: 694747
+    endTime: 697261
+    lushootseed: čad kʷi bəščəb.
+    english:  Where is a mink?
+
+  - lineType: ijal
+    startTime: 700256
+    endTime: 704041
+    lushootseed: ʔuʔəɬəd diʔayucid ʔal tə stuləkʷ.
+    english:  It is eating on the other side of the river.
+
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.5</div>"
+
+  - lineType: ijal
+    startTime: 712164
+    endTime: 714494
+    lushootseed: čad kʷi pišpiš.
+    english:  Where is a (tom)cat?
+
+  - lineType: ijal
+    startTime: 718547
+    endTime: 722273
+    lushootseed: ʔəsʔitut diʔabac ʔal tə səxʷgʷədil.
+    english:  It is sleeping on the other side of the chair.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.6</div>"
+
+  - lineType: ijal
+    startTime: 730418
+    endTime: 732616
+    lushootseed: čad kʷi spaʔc.
+    english:  Where is a bear?
+
+  - lineType: ijal
+    startTime: 735573
+    endTime: 739715
+    lushootseed: ʔuʔəɬəd diʔabac ʔal tə hikʷ qʷəɬayʔ.
+    english:  It is eating on the other side of the big log.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.7</div>"
+
+  - lineType: ijal
+    startTime: 750879
+    endTime: 753292
+    lushootseed: čad kʷi sqʷəbayʔ.
+    english:  Where is a dog?
+
+  - lineType: ijal
+    startTime: 757055
+    endTime: 760938
+    lushootseed: ʔəsʔitut diʔalətxʷ ʔal tə ʔalʔal.
+    english:  It is sleeping on the other side of the house.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.8</div>"
+
+  - lineType: ijal
+    startTime: 770173
+    endTime: 772761
+    lushootseed: čad ti dbədaʔ.
+    english:  Where is my son?
+
+  - lineType: ijal
+    startTime: 776020
+    endTime: 780899
+    lushootseed: ʔuʔukʷukʷ diʔalətxʷ ʔal tə ʔalʔal.
+    english:  He is playing on the other side of the house.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.9</div>"
+
+  - lineType: ijal
+    startTime: 788836
+    endTime: 791005
+    lushootseed: čad ti dsqʷəbayʔ.
+    english:  Where is my dog?
+
+  - lineType: ijal
+    startTime: 794129
+    endTime: 798248
+    lushootseed: ʔəsʔitut diʔalətxʷ ʔal tə ʔalʔal.
+    english:  It is sleeping on the other side of the house.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill III<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.3</div>"
+
+  - lineType: ijal
+    startTime: 816148
+    endTime:   818247
+    lushootseed: "qʷ: qʷataš"
+    english:  lay it down
+
+  - lineType: ijal
+    startTime: 818740
+    endTime: 820467
+    lushootseed: "kʷ: kʷatač"
+    english:  climb
+
+  - lineType: html
+    content: "<div class='sectionNumber'>5.4</div>"
+
+  - lineType: ijal
+    startTime: 830024
+    endTime:   835999
+    lushootseed: ʔuqʷəqʷutəb ʔə tə sqʷiqʷiqʷəbayʔ.
+    english:  The puppies burst it.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Six: yəlaʔc</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> sdaʔ </td>   <td> name  </td></tr>
+                     <tr><td> -s </td>   <td> his, her, its, (their) </td></tr>
+                     <tr><td> ʔə </td>   <td> of, by </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>6.1</div>"
+
+  - lineType: ijal
+    startTime: 847382
+    endTime: 849900
+    lushootseed: gʷat kʷ(i) adsdaʔ.
+    english:  Who are you called? (i.e., What is your name?)
+
+  - lineType: ijal
+    startTime: 853322
+    endTime: 855816
+    lushootseed: <u>h</u>elen tə dsdaʔ
+    english:  Helen I am called. (i.e., Helen is my name.)
+
+  - lineType: html
+    content: "<div class='sectionNumber'>6.2</div>"
+
+  - lineType: ijal
+    startTime: 862907
+    endTime: 866233
+    lushootseed: gʷat kʷi sdaʔ ʔə tiʔiɬ stubš.
+    english:  What is that man called?
+
+  - lineType: ijal
+    startTime: 871337
+    endTime: 874379
+    lushootseed: <u>h</u>ədli ti sdaʔs.
+    english:  Henry he is called.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>6.2</div>"
+
+  - lineType: ijal
+    startTime:  881142
+    endTime: 884523
+    lushootseed: gʷat kʷi sdaʔ ʔə tsiʔiɬ sɬadəyʔ.
+    english:  What is that woman called?
+
+  - lineType: ijal
+    startTime:  888960
+    endTime: 891879
+    lushootseed: <u>m</u>ali tsi sdaʔs.
+    english:  Mary she is called.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>6.4</div>"
+
+  - lineType: ijal
+    startTime:  898741
+    endTime: 901792
+    lushootseed: gʷat kʷi sdaʔ ʔə t(i) adsč̓istxʷ.
+    english:  Who is your husband called?
+
+  - lineType: ijal
+    startTime:  906747
+    endTime: 909279
+    lushootseed: <u>h</u>ədli ti sdaʔs.
+    english:  Henry he is called.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>6.4</div>"
+
+  - lineType: ijal
+    startTime:  916685
+    endTime:  919747
+    lushootseed: gʷat kʷi sdaʔ ʔə ts(i) adčəgʷas.
+    english:  Who is your wife called?
+
+  - lineType: ijal
+    startTime:  923818
+    endTime: 926956
+    lushootseed: <u>m</u>ali tsi sdaʔs.
+    english:  Mary she is called.
+
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Seven: c̓ukʷs</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+
+                     <tr><td>čəd</td>             <td>I, me</td></tr>
+                     <tr><td>čəxʷ</td>            <td>you</td></tr>
+                     <tr><td><u>də</u>wʔabš</td>  <td>Duwamish</td></tr>
+                     <tr><td>dxʷ<u>l</u>iləp</td> <td>Tulalip</td></tr>
+                     <tr><td><u>p</u>uyaləp</td>  <td>Puyallup</td></tr>
+                     <tr><td>s<u>qʷ</u>aliʔ</td>  <td>Nisqually</td></tr>
+                     <tr><td>tul̓-</td>            <td>from</td></tr>
+                     <tr><td>tul̓čad</td>          <td>from where</td></tr>
+                     <tr><td>tul̓ʔal</td>          <td>be from</td></tr>
+                     <tr><td>s<u>w</u>ədəbš</td>  <td>Swinomish</td></tr>
+
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.1</div>"
+
+  - lineType: ijal
+    startTime:  939180
+    endTime:  941481
+    lushootseed: tul̓čad čəxʷ.
+    english:  Where are you from?
+
+  - lineType: ijal
+    startTime:  945411
+    endTime:  948678
+    lushootseed: tul̓ʔal čəd s<u>w</u>ədəbš.
+    english:  I am from Swinomish.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.2</div>"
+
+  - lineType: ijal
+    startTime:  954812
+    endTime:  957597
+    lushootseed: tul̓čad tiʔiɬ stubš.
+    english:  Where is that man from?
+
+  - lineType: ijal
+    startTime: 961858
+    endTime:  964689
+    lushootseed: tul̓ʔal dxʷ<u>l</u>iləp.
+    english:  He is from Tulalip.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.3</div>"
+
+  - lineType: ijal
+    startTime: 971938
+    endTime: 974507
+    lushootseed: tul̓čad tsiʔiɬ sɬadəyʔ.
+    english: Where is that woman from?
+
+  - lineType: ijal
+    startTime: 977826
+    endTime: 980343
+    lushootseed: tul̓ʔal <u>d</u>əwʔabš.
+    english: She is from Duwamish.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.4</div>"
+
+  - lineType: ijal
+    startTime: 987531
+    endTime: 990594
+    lushootseed: tul̓čad ts(i) adčəgʷas.
+    english: Where is your wife from?
+
+  - lineType: ijal
+    startTime: 993916
+    endTime: 996615
+    lushootseed: tul̓ʔal <u>p</u>uyaləp.
+    english: She is from Puyallup.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.5</div>"
+
+  - lineType: ijal
+    startTime: 1004497
+    endTime: 1007373
+    lushootseed: tul̓čad t(i) adsč̓istxʷ.
+    english: Where is your husband from?
+
+  - lineType: ijal
+    startTime: 1010850
+    endTime: 1013877
+    lushootseed: tul̓ʔal s<u>qʷ</u>aliʔ.
+    english: He is from Nisqually.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill IV<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.4</div>"
+
+  - lineType: ijal
+    startTime: 1027817
+    endTime:   1029819
+    lushootseed: "c̓: sc̓apac"
+    english:  willow tree
+
+  - lineType: ijal
+    startTime: 1032783
+    endTime:   1034684
+    lushootseed: "c: scapaʔ"
+    english:  grandfather
+
+  - lineType: ijal
+    startTime: 1037316
+    endTime:   1040130
+    lushootseed: "c̓: c̓əlalikʷ"
+    english:  win
+
+  - lineType: ijal
+    startTime: 1040278
+    endTime:   1042175
+    lushootseed: "c: celak"
+    english:  five
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>7.5</div>"
+
+  - lineType: ijal
+    startTime: 1049632
+    endTime:   1056675
+    lushootseed: ʔəsc̓əx̌c̓əx̌ tiʔəʔ c̓ukʷs sʔic̓əb gʷəɬ tiʔəʔ ʔəsc̓ud stubš.
+    english:  The seven blankets of this weak fellow are all worn out.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Eight: təqačiʔ</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> -ac   </td><td> tree, bush   </td></tr>
+                     <tr><td> čələp </td><td> you folks  </td></tr>
+                     <tr><td> čəlqʷubəʔac   </td><td> blackcap bush </td></tr>
+                     <tr><td> čəɬ   </td><td> we, us    </td></tr>
+                     <tr><td> dᶻətgʷadac (Sk)   </td><td>  salmonberry bush   </td></tr>
+                     <tr><td> skʷagʷičəd   </td><td>  elk   </td></tr>
+                     <tr><td> skʷəxʷic (SL)   </td><td> silver salmon    </td></tr>
+                     <tr><td> skʷxʷic (Snoh.)   </td><td> silver salmon   </td></tr>
+                     <tr><td> dxʷ<u>l</u>əbiʔ   </td><td> Lummi    </td></tr>
+                     <tr><td> pastəd   </td><td> white person, Caucasian    </td></tr>
+                     <tr><td> sq̓əčqs (Sk)   </td><td> silver salmon   </td></tr>
+                     <tr><td> sac̓əb (SL)   </td><td> king salmon    </td></tr>
+                     <tr><td> stəgʷadac (Snoh., SL)   </td><td> salmonberry bush    </td></tr>
+                     <tr><td> tudiʔ diʔi   </td><td> way over there     </td></tr>
+                     <tr><td> xʷiʔ   </td><td> no, not    </td></tr>
+                     <tr><td> xʷiʔ lə-   </td><td> be not    </td></tr>
+                     <tr><td> yubəč (NL)   </td><td> king salmon    </td></tr>
+                     <tr><td> ʔaciɬtalbixʷ   </td><td> Indian    </td></tr>
+                     <tr><td> ʔi   </td><td> yes    </td></tr>
+                     <tr><td> ʔu   </td><td>  question   </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.1</div>"
+
+  - lineType: ijal
+    startTime:  1079574
+    endTime:  1082380
+    lushootseed: ʔaciɬtalbixʷ čəxʷ (ʔ)u.
+    english:  Are you Indian?
+
+  - lineType: ijal
+    startTime:  1086908
+    endTime:  1090432
+    lushootseed: ʔi. ʔaciɬtalbixʷ čəd.
+    english:  Yes.  I am Indian.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.2</div>"
+
+  - lineType: ijal
+    startTime: 1098769
+    endTime:  1101229
+    lushootseed: ʔaciɬtalbixʷ čələp (ʔ)u.
+    english:  Are you folks Indian?
+
+  - lineType: ijal
+    startTime:  1104586
+    endTime:  1107934
+    lushootseed:  ʔi. ʔaciɬtalbixʷ čəɬ.
+    english:  Yes.  We are Indian.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.3</div>"
+
+  - lineType: ijal
+    startTime: 1115492
+    endTime:  1119019
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u t(i) adsč̓istxʷ.
+    english:  Is your husband Indian?
+
+
+  - lineType: ijal
+    startTime: 1123545
+    endTime:  1128093
+    lushootseed: ʔi. ʔaciɬtalbixʷ ti dsč̓istxʷ.
+    english:  Yes.  My husband is Indian.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.4</div>"
+
+  - lineType: ijal
+    startTime: 1137356
+    endTime:  1140704
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u ts(i) adčəgʷas.
+    english:  Is your wife Indian?
+
+
+  - lineType: ijal
+    startTime: 1144002
+    endTime:  1148297
+    lushootseed: ʔi. ʔaciɬtalbixʷ tsi dčəgʷas.
+    english:  Yes.  My wife is Indian.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.5</div>"
+
+  - lineType: ijal
+    startTime: 1156898
+    endTime:  1161490
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u tiʔiɬ stubš ʔal tudiʔ diʔi.
+    english:  Is that man way over there Indian?
+
+  - lineType: ijal
+    startTime: 1166542 
+    endTime:  1169624
+    lushootseed: ʔi. ʔaciɬtalbixʷ.
+    english:  Yes.  He is Indian.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.6</div>"
+
+  - lineType: ijal
+    startTime:  1176707
+    endTime:  1180954
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u tisʔiɬ sɬadəyʔ ʔal tudiʔ diʔi.
+    english:  Is that woman way over there Indian?
+
+  - lineType: ijal
+    startTime: 1185754
+    endTime:  1188592
+    lushootseed: ʔi. ʔaciɬtalbixʷ.
+    english:  Yes.  She is Indian.
+
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.1</div>"
+
+  - lineType: ijal
+    startTime: 1201261  
+    endTime:  1203385 
+    lushootseed: pastəd čəxʷ (ʔ)u.
+    english:  Are you a whiteman?
+
+  - lineType: ijal
+    startTime:  1206918
+    endTime:  1208973
+    lushootseed: xʷiʔ čəd ləpastəd.
+    english:  I am not a whiteman.
+
+  - lineType: ijal
+    startTime:  1209121
+    endTime:  1210806
+    lushootseed: ʔaciɬtalbixʷ čəd.
+    english:  I am Indian.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.2</div>"
+
+  - lineType: ijal
+    startTime: 1219744
+    endTime:  1221671
+    lushootseed: dxʷ<u>l</u>əbiʔ čəxʷ (ʔ)u.
+    english:  Are you Lummi?
+
+
+  - lineType: ijal
+    startTime: 1232703
+    endTime:  1235369
+    lushootseed: xʷiʔ čəd lədxʷ<u>l</u>əbiʔ.
+    english: I am not Lummi.
+
+
+  - lineType: ijal
+    startTime: 1235457
+    endTime:  1237081
+    lushootseed: s<u>w</u>ədəbš čəd.
+    english:  I am Swinomish.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.3</div>"
+
+  - lineType: ijal
+    startTime: 1240501
+    endTime:  1243642
+    lushootseed: ʔaciɬtalbixʷ (ʔ)u t(i) adsč̓istxʷ.
+    english:  Is your husband Indian?
+
+
+  - lineType: ijal
+    startTime: 1247940
+    endTime:  1251917
+    lushootseed: xʷi ləʔaciɬtalbixʷ.  pastəd tiʔiɬ.
+    english:  He is not an Indian.  He is a whiteman.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.4</div>"
+
+  - lineType: ijal
+    startTime: 1260176
+    endTime:  1263035
+    lushootseed: dʷ<u>l</u>əbiʔ (ʔu) ts(i) adčəgʷas.
+    english:  Is your wife Lummi?
+
+  - lineType: ijal
+    startTime: 1267961
+    endTime:  1272408
+    lushootseed: xʷi ʔlədxʷ<u>l</u>əbiʔ. s<u>w</u>ədəbš tsiʔiɬ.
+    english:  She is not Lummi.  She is Swinomish.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.5</div>"
+
+  - lineType: ijal
+    startTime: 1282040
+    endTime:  1285866
+    lushootseed: sqigʷəc ʔu tiʔiɬ ʔal tudiʔ diʔi.
+    english: Is that a deer over there?
+
+  - lineType: ijal
+    startTime: 1290986
+    endTime:  1295397
+    lushootseed: xʷiʔ ləsqigʷəc.  kʷagʷičəd tiʔiɬ.
+    english:  That is not a deer.  That is an elk.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.6</div>"
+
+  - lineType: ijal
+    startTime: 1308978
+    endTime:  1312569
+    lushootseed: sq̓əčqs ʔu tiʔiɬ ʔal tə stuləkʷ.
+    english: Is that a silver salmon in the river?
+
+  - lineType: ijal
+    startTime: 1317509
+    endTime:  1321865
+    lushootseed: xʷiʔ ləsq̓əčqs.  yubəč tiʔiɬ.
+    english:  It is not a silver salmon.  That is a king salmon.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B8.7</div>"
+
+  - lineType: ijal
+    startTime: 1329244
+    endTime:  1332257
+    lushootseed: dᶻətgʷadac ʔu tiʔiɬ ʔal tudiʔ.
+    english: Is that a salmonberry bush over there?
+
+  - lineType: ijal
+    startTime: 1336524 
+    endTime:  1342021
+    lushootseed: xʷi lədᶻətgʷadac.  čəlqʷubəʔac tiʔiɬ.
+    english:  It is not a salmonberry bush.  That is a blackcap bush.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill V<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.5</div>"
+
+  - lineType: ijal
+    startTime: 1360538
+    endTime: 1362110
+    lushootseed: "q̓:  q̓əlb"
+    english:  camp/stay over night
+
+  - lineType: ijal
+    startTime: 1362557
+    endTime:   1363813
+    lushootseed: "q:  qəlb"
+    english:  rain
+    
+  - lineType: ijal
+    startTime: 1369188
+    endTime:  1370776
+    lushootseed: "q̓:  sq̓ədᶻuʔ"
+    english:  hair
+
+  - lineType: ijal
+    startTime: 1371236
+    endTime:   1372813
+    lushootseed: "q: sqədᶻuʔ"
+    english:  squirrel
+
+  - lineType: html
+    content: "<div class='sectionNumber'>8.5</div>"
+
+  - lineType: ijal
+    startTime: 1382231
+    endTime:   1387550
+    lushootseed: ʔuq̓ilid tə q̓ič sa̓axʷ dxʷʔal tə q̓il̓bid.
+    english:  He loaded the expensive ice into the car.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Nine: x̌ʷəl</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> -a </td><td> and (added only to čəd, čəxʷ, čəɬ čələp)</td></tr>
+                     <tr><td> -axʷ </td><td> See 9.5</td></tr>
+                     <tr><td> bəčgʷil </td><td> lie down</td></tr>
+                     <tr><td> čal (NL) </td><td>how </td></tr>
+                     <tr><td> cay (SL) </td><td> very </td></tr>
+                     <tr><td> cəwəɬ (SL) </td><td>hunger </td></tr>
+                     <tr><td> čələpa </td><td>and you folks </td></tr>
+                     <tr><td> čəxʷa </td><td>and you </td></tr>
+                     <tr><td> cick̓ʷ (NL) </td><td> very</td></tr>
+                     <tr><td> -əxʷ </td><td> See 9.5</td></tr>
+                     <tr><td> haʔkʷ </td><td>long (time); ago </td></tr>
+                     <tr><td> -həxʷ </td><td> See 9.5</td></tr>
+                     <tr><td> hiqab </td><td> excessively, too </td></tr>
+                     <tr><td> hiwil </td><td>go ahead </td></tr>
+                     <tr><td> hudabac </td><td> warm (body)</td></tr>
+                     <tr><td> ɬi </td><td> This word often replaces čələp when telling a group of people to do something. </td></tr>
+                     <tr><td> ɬu- </td><td> See 11.7</td></tr>
+                     <tr><td> ƛ̓ax̌ </td><td>(feel) cold </td></tr>
+                     <tr><td> ƛ̓ubil </td><td> well, fine, OK, good</td></tr>
+                     <tr><td> ƛ̓uxʷil </td><td>cold object; (feel) cold (SL) </td></tr>
+                     <tr><td> piit </td><td>bed, modern kind </td></tr>
+                     <tr><td> qa </td><td> a lot, much, many</td></tr>
+                     <tr><td> qaʔkʷ </td><td>rest </td></tr>
+                     <tr><td> qʷu(ʔ)qʷaʔ </td><td>drik </td></tr>
+                     <tr><td> tagʷəxʷ (NL) </td><td>hungry </td></tr>
+                     <tr><td> taqʷuʔ </td><td>thirst </td></tr>
+                     <tr><td> təqad </td><td>close it </td></tr>
+                     <tr><td> xʷak̓ʷil </td><td> tired</td></tr>
+                     <tr><td> x̌əɬ </td><td>sick </td></tr>
+                     <tr><td> x̌id (SL) </td><td>how </td></tr>
+                     <tr><td> ʔəɬəd </td><td>eat </td></tr>
+                     <tr><td> ʔəƛ̓a(həxʷ) </td><td> come on (now) </td></tr>
+                     <tr><td> ʔəs- </td><td> See 9.4 </td></tr>
+                     <tr><td> ʔəx̌id (NL) </td><td>how </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.1</div>"
+    
+  - lineType: ijal
+    startTime: 1407431
+    endTime:   1409510
+    lushootseed: ʔəsčal čəxʷ.
+    english:  How are you?
+
+  - lineType: ijal
+    startTime: 1412886
+    endTime:   1417578
+    lushootseed: ʔəsx̌əɬ čəd. cick̓ʷ čəd ʔəsx̌əɬ.
+    english:  I'm sick. I'm very sick.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.2</div>"
+    
+  - lineType: ijal
+    startTime: 1426445
+    endTime:   1428351
+    lushootseed: ʔəsčal čəxʷ.
+    english:  How are you?
+
+  - lineType: ijal
+    startTime: 1430949
+    endTime:   1436829
+    lushootseed: ʔəsƛ̓ubil čəd. cick̓ʷ čəd ʔəsƛ̓ubil.
+    english:  I'm fine.  I'm very well.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.3</div>"
+    
+  - lineType: ijal
+    startTime: 1445312
+    endTime:   1447475
+    lushootseed: ʔəsčaləxʷ čəxʷ.
+    english:  How are you?
+
+  - lineType: ijal
+    startTime: 1450818
+    endTime:   1455343
+    lushootseed: ʔəstagʷəxʷ čəd. cick̓ʷ čəd ʔəstagʷəxʷ.
+    english:  I'm hungry.  I'm very hungry.
+
+  - lineType: ijal
+    startTime: 1461848
+    endTime:   1464164
+    lushootseed: hiwil, ʔəɬədaxʷ.
+    english:  Go, eat.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.4</div>"
+    
+  - lineType: ijal
+    startTime:  1470032
+    endTime:   1471934
+    lushootseed: ʔəsčaləxʷ čəxʷ.
+    english:  How are you?
+
+  - lineType: ijal
+    startTime: 1475180
+    endTime:   1480173
+    lushootseed: əstaqʷuʔ čəd.  cick̓ʷ čəd ʔəstaqʷuʔ.
+    english:  I'm thirsty.  I'm very thirsty.
+
+  - lineType: ijal
+    startTime: 1486002
+    endTime:   1488337
+    lushootseed: hiwil, qʷu(ʔ)qʷaʔəxʷ.
+    english:  Go, drink.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.5</div>"
+    
+  - lineType: ijal
+    startTime: 1495256
+    endTime:   1497162
+    lushootseed: ʔəsčaləxʷ čəxʷ.
+    english:  How are you?
+
+  - lineType: ijal
+    startTime: 1500621
+    endTime:   1505301
+    lushootseed: ʔəsƛ̓ax̌ čəd.  cick̓ʷ čəd ʔəsƛ̓ax̌.
+    english:  I'm cold.  I'm very cold.
+
+  - lineType: ijal
+    startTime: 1515288
+    endTime:   1518830
+    lushootseed: hiwiləxʷ čəxʷa təqad tə šəgʷɬ.
+    english:  Go (ahead) and (you) close the door.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.6</div>"
+    
+  - lineType: ijal
+    startTime: 1522489
+    endTime:   1524525
+    lushootseed: ʔəsčaləxʷ čəxʷ.
+    english:  How are you now?
+
+  - lineType: ijal
+    startTime: 1528085
+    endTime:   1532516
+    lushootseed: ʔəsxʷak̓ʷil čəd.  cick̓ʷ čəd ʔəsxʷak̓ʷil.
+    english:  I'm tired.  I'm very tired.
+
+  - lineType: ijal
+    startTime: 1539846
+    endTime:   1543641
+    lushootseed: bəčagʷil čəxʷa qaʔkʷ ʔal t(ə) adpiit.
+    english:  Lie down and rest on your bed.
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.1b</div>"
+    
+  - lineType: ijal
+    startTime: 1553455
+    endTime:   1555410
+    lushootseed: ʔəsčal čələp.
+    english:  How are you folks?
+
+  - lineType: ijal
+    startTime: 1559209
+    endTime: 1563662
+    lushootseed: ʔəsx̌əɬ čəɬ.  hiqab čəɬ ʔuʔəɬəd.
+    english:  We are sick.  We ate too much.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.2b</div>"
+    
+  - lineType: ijal
+    startTime: 1572972
+    endTime:   1575181
+    lushootseed: ʔəsčal čələp.
+    english:  How are you folks?
+
+  - lineType: ijal
+    startTime: 1577537
+    endTime:   1582699
+    lushootseed: əsx̌əɬ čəɬ. hiqab čəɬ ʔuqʷu(ʔ)qʷu(ʔ)qʷaʔ.
+    english:  We are sick.  We drank too much.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.3b</div>"
+    
+  - lineType: ijal
+    startTime: 1594424
+    endTime:   1596606
+    lushootseed: ʔəsčal čələp.
+    english:  How are you folks?
+
+  - lineType: ijal
+    startTime: 1599938
+    endTime:   1605195
+    lushootseed: ʔəsƛ̓ubil čəɬ. cick̓ʷ čəɬ ʔəsƛ̓ubil.
+    english:  We are fine.  We are very well.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.4</div>"
+    
+  - lineType: ijal
+    startTime: 1613563
+    endTime:   1615425
+    lushootseed: ʔəsčaləx̌ čələp.
+    english:  How are you folks now?
+
+  - lineType: ijal
+    startTime: 1618746
+    endTime:   1623883
+    lushootseed: ʔəsxʷak̓il čəɬ. hiqab čəɬ ʔuyayus.
+    english:  We are tired.  We worked too much.
+
+  - lineType: ijal
+    startTime: 1629147
+    endTime:   1632041
+    lushootseed: bəčagʷil čələpa qaʔkʷ. 
+    english:  You folks lie down and rest.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.5</div>"
+    
+  - lineType: ijal
+    startTime: 1637397
+    endTime:   1639547
+    lushootseed: ʔəsčaləx̌ čələp.
+    english:  How are you folks now?
+
+  - lineType: ijal
+    startTime: 1642773
+    endTime:   1646930
+    lushootseed: ʔəstagʷəxʷ čəɬ.  cick̓ʷ čəɬ ʔəstagʷəxʷ. 
+    english:  We are hungry.  We are very hungry.
+
+  - lineType: ijal
+    startTime: 1654326 
+    endTime:   1657629
+    lushootseed: ʔəƛ̓ahəxʷ ɬi.  ɬuʔəɬəd čəɬ.
+    english:  Come on you folks.  Let's eat.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.6</div>"
+    
+  - lineType: ijal
+    startTime: 1664739
+    endTime:   1666737
+    lushootseed: ʔəsčaləx̌ čələp.
+    english:  How are you folks now?
+
+  - lineType: ijal
+    startTime: 1670132
+    endTime:   1674202
+    lushootseed: ʔəstaqʷuʔ čəɬ.  cick̓ʷ čəɬ ʔəstaqʷuʔ.
+    english:  We are thirsty.  We are very thirsty.
+
+  - lineType: ijal
+    startTime: 1680652
+    endTime:   1684169
+    lushootseed: ʔəƛ̓a(hə)xʷ ɬi. ɬuqʷu(ʔ)qʷaʔ čəɬ.
+    english:  Come on you folks.  Let's drink.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill VI<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.6</div>"
+
+  - lineType: ijal
+    startTime: 1698116
+    endTime:   1701447
+    lushootseed: ƛ̓al̓ čəd b(ə)asƛ̓ubil.
+    english:  I'm fine too.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>9.7</div>"
+
+  - lineType: ijal
+    startTime: 1711518
+    endTime:   1715290
+    lushootseed: ʔux̌ibx̌ibic ti x̌ik̓ʷ x̌ibx̌ib.
+    english:  The mean hawk clawed me.
+    
+  - lineType: html
+    content: "<div class='sectionNumber'>9.8</div>"
+    
+  - lineType: ijal
+    startTime: 1725861
+    endTime:   1727700
+    lushootseed: "x̌: x̌ədx̌ədačiʔ"
+    english:  push hands away
+
+
+  - lineType: ijal
+    startTime:   1728330
+    endTime:   1730015
+    lushootseed: "h: hədhədačiʔ"
+    english:  warming hands
+
+  - lineType: ijal
+    startTime: 1734874
+    endTime:   1736174
+    lushootseed: "x̌: x̌ik̓ʷ"
+    english:  mean, ugly
+
+  - lineType: ijal
+    startTime: 1736531
+    endTime:   1737756
+    lushootseed: "h: hikʷ"
+    english:  big
+
+
+

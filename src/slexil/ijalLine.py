@@ -81,13 +81,13 @@ class IjalLine:
     aligned translation tier (not sure we can save a file that has neither)'''
 
     def getStartTime(self):
-        return(self.tbl.loc[0, "startTime"])
+        return(self.tbl.iloc[0]["startTime"])
 
     def getEndTime(self):
-        return(self.tbl.loc[0, "endTime"])
+        return(self.tbl.iloc[0]["endTime"])
 
     def getAnnotationID(self):
-        return(self.tbl.loc[0, "id"])
+        return(self.tbl.iloc[0]["id"])
         if self.speechRow != None:
             return (self.tbl.iloc[self.speechRow][self.tbl.columns.values.tolist().index("ANNOTATION_ID")])
         else:
@@ -103,7 +103,7 @@ class IjalLine:
 
         canonicalTierName = "speech"
         row = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-        spokenText = self.tbl.loc[row, "text"]
+        spokenText = self.tbl.iloc[row]["text"]
         if(spokenText == None):
            spokenText = ""
         return(spokenText)
@@ -117,7 +117,7 @@ class IjalLine:
         rowNumbers = self.tbl.index
         whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
         rowNumber = rowNumbers[whichRowNumber]
-        rawTranslation = self.tbl.loc[rowNumber, "text"]
+        rawTranslation = self.tbl.iloc[rowNumber]["text"]
         if(rawTranslation == None):
            return("")
         if(len(rawTranslation) == 0):
@@ -132,7 +132,7 @@ class IjalLine:
         if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
            return(None)
         row = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-        rawTranslation = self.tbl.loc[row, "text"]
+        rawTranslation = self.tbl.iloc[row]["text"]
         translationLine = TranslationLine(rawTranslation)
         return (translationLine.getStandardized())
 
@@ -145,7 +145,7 @@ class IjalLine:
         rowNumbers = self.tbl.index
         whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
         rowNumber = rowNumbers[whichRowNumber]
-        rawText = self.tbl.loc[rowNumber, "text"]
+        rawText = self.tbl.iloc[rowNumber]["text"]
         if(rawText == None):
            return("")
         if(len(rawText) == 0):
@@ -163,7 +163,9 @@ class IjalLine:
            return(None)
         morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
-        rawMorphemeText = self.tbl.loc[morphemeRow, "text"]
+        #pdb.set_trace()
+        #rawMorphemeText = self.tbl.iloc[morphemeRow, "text"]
+        rawMorphemeText = self.tbl.iloc[morphemeRow]["text"]
         self.morphemes = []
         if(rawMorphemeText):
            if "\t" in rawMorphemeText:
@@ -185,7 +187,7 @@ class IjalLine:
            return(None)
         morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
 
-        rawMorphemeGlossText = self.tbl.loc[morphemeGlossRow, "text"]
+        rawMorphemeGlossText = self.tbl.iloc[morphemeGlossRow]["text"]
         self.morphemeGlosses = []
         if(rawMorphemeGlossText):
            if "\t" in rawMorphemeGlossText:
