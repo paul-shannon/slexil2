@@ -25,6 +25,7 @@ $(function() {
                    var annoBox = $("#annoNotesDiv");
                    console.log("kb key lookup: " + key);
                    var annoText = lookup(key)
+                   console.log("chars retrieved: " + annoText.length);
                    annoBox.html(annoText);
                    }, 1000) // setTimeout function
                 } // if showAnno
