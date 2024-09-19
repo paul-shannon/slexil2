@@ -64,8 +64,8 @@ One way of indicating more than one is to repeat the
 first three sounds of the word - but NOT the prefixes.  Thus
 __stiqiw__ means "horse" while __stiqtiqiw__ is "horses".
 
-(Following this scheme, prepending  __qʷu__ to __qʷuqʷa__
-would mean something like "drink plural", i.e., "drink lots".)
+In like fashion, prepending __qʷu__ transforms  __qʷuqʷa__ "drink" to
+__qʷuqʷuqʷa__:  "multiple people drink".
 
 `,
   
