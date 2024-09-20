@@ -1643,5 +1643,134 @@ lines:
     lushootseed: "h: hikʷ"
     english:  big
 
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Ten: x̌ʷəl</div>"
 
 
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>-ač</td><td>head (in SL); crest (or topknot of a bird), hackles (of a dog) (in both NL and SL)</td></tr>
+                     <tr><td>-ačiʔ</td><td>had(s), forearm(s)</td></tr>
+                     <tr><td>gʷəl</td><td>and, then, next</td></tr>
+                     <tr><td>ǰiq̓aladᶻəd (NL)</td><td>set nets</td></tr>
+                     <tr><td>lil</td><td>far</td></tr>
+                     <tr><td>ɬax̌</td><td>night</td></tr>
+                     <tr><td>ɬičaʔalikʷ (SL)</td><td>set nets</td></tr>
+                     <tr><td>sqa</td><td>older brother or older sister; son or daughter of a parent's older brother of older sister</td></tr>
+                     <tr><td>-qid</td><td>head (in NL); tp, summit (in both NL and SL)</td></tr>
+                     <tr><td>suq̓ʷaʔ</td><td>younger brother or younger sister; son or daughter of a parent's younger brother or younger sister</td></tr>
+                     <tr><td>-šad</td><td>foot/feet, lower leg(s)</td></tr>
+                     <tr><td>tib</td><td>strong; much physical effort</td></tr>
+                     <tr><td>tu-</td><td>past, distant past</td></tr>
+                     <tr><td>-ulč</td><td>container; belly</td></tr>
+                     <tr><td>ʔibəš</td><td>walk, travel by land (versus ʔuluɬ 'travel by water')</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.1</div>"
+
+  - lineType: ijal
+    startTime: 1751564
+    endTime:   1754285
+    lushootseed: ʔəsčaləx̌ t(i) adsqa.
+    english: How is your older brother (now)?
+
+  - lineType: ijal
+    startTime: 1758809
+    endTime:   1761957
+    lushootseed: cick̓ʷəxʷ (ʔ)əxʷsʔitutəb.
+    english: He is very sleepy (now).
+
+  - lineType: ijal
+    startTime: 1762161
+    endTime:   1765630
+    lushootseed: ǰiq̓aladᶻəd [ʔal ti] tuɬax̌.
+    english: He set nets last night.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.2</div>"
+
+  - lineType: ijal
+    startTime: 1776415
+    endTime:   1778999
+    lushootseed: ʔəsčaləxʷ ts(i) adsqa.
+    english: How is your older sister (now)?
+
+  - lineType: ijal
+    startTime: 1783413
+    endTime:   1786356
+    lushootseed: cick̓ʷəxʷ (ʔ)əxʷsʔitutəb.
+    english: She is very sleepy (now).
+
+  - lineType: ijal
+    startTime: 1786443
+    endTime:   1788639
+    lushootseed: ʔuyayus [ʔal ti] tuɬax̌.
+    english: She worked last night.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.3</div>"
+
+  - lineType: ijal
+    startTime: 1796562
+    endTime:   1799059
+    lushootseed: ʔəsčaləxʷ t(i) adsuq̓ʷaʔ.
+    english: How is your younger brother (now)?
+
+  - lineType: ijal
+    startTime: 1802946
+    endTime:   1805831
+    lushootseed: cick̓əxʷ (ʔ)əsxʷak̓ʷil.
+    english: He is very tired (now).
+
+  - lineType: ijal
+    startTime: 1806215
+    endTime:   1810866
+    lushootseed: ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.
+    english: He played hard and evening came.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.4</div>"
+
+  - lineType: ijal
+    startTime: 1820412
+    endTime:   1823123
+    lushootseed: ʔəsčaləxʷ ts(i) adsuq̓ʷaʔ.
+    english: How is your younger sister (now)?
+
+  - lineType: ijal
+    startTime: 1826515
+    endTime:   1829083
+    lushootseed: cick̓ʷ (ʔ)əsxʷak̓ʷil.
+    english: She is very tired.
+
+  - lineType: ijal
+    startTime: 1829401
+    endTime:   1832839
+    lushootseed: ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.
+    english: She played hard and evening came.
+
+
+#  - lineType: html
+#    content: "<div class='sectionNumber'>10.1</div>"
+#
+#  - lineType: ijal
+#    startTime: 
+#    endTime:   
+#    lushootseed: 
+#    english: 
+
+    
