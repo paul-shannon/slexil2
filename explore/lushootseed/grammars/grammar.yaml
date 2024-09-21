@@ -1763,6 +1763,147 @@ lines:
     lushootseed: ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.
     english: She played hard and evening came.
 
+  - lineType: html
+    content: "<div class='sectionNumber'>10.1b</div>"
+
+  - lineType: ijal
+    startTime: 1849307
+    endTime:   1851455
+    lushootseed: ʔəsčaləx̌ čəx̌.
+    english: How are you (now)?
+
+  - lineType: ijal
+    startTime: 1855363
+    endTime:   1857182
+    lushootseed: ʔəsx̌(ə)ɬadač čəd.
+    english: I have a stomach ache.
+
+  - lineType: ijal
+    startTime: 1857403
+    endTime:   1859196
+    lushootseed: hiqab čəd ʔuʔəɬəd.
+    english: I ate too much.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.2b</div>"
+
+  - lineType: ijal
+    startTime: 1867501
+    endTime:   1869129
+    lushootseed: ʔəsčaləx̌ čəx̌.
+    english: How are you (now)?
+
+  - lineType: ijal
+    startTime: 1873407
+    endTime:   1875134
+    lushootseed: əsx̌əɬqid čəd.
+    english: I have a headache.
+
+  - lineType: ijal
+    startTime: 1875289
+    endTime:   1877211
+    lushootseed: hiqab čəd ʔuqʷu(ʔ)qʷaʔ.
+    english: I drank too much.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.3b</div>"
+
+  - lineType: ijal
+    startTime: 1885808
+    endTime:   1887267
+    lushootseed: ʔəsčaləx̌ čəx̌.
+    english: How are you (now)?
+
+  - lineType: ijal
+    startTime: 1890660
+    endTime:   1892694
+    lushootseed: ʔəsx̌əɬx̌(ə)ɬačiʔ čəd.
+    english: "I have sore hands. [Or: My hands hurt.]"
+
+  - lineType: ijal
+    startTime: 1893179
+    endTime:   1896040
+    lushootseed: hiqab čəd ʔuyayus ʔə tə haʔkʷ.
+    english: I worked too long.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.4b</div>"
+
+  - lineType: ijal
+    startTime: 1905179
+    endTime:   1906795
+    lushootseed: ʔəsčaləx̌ čəx̌.
+    english: How are you (now)?
+
+  - lineType: ijal
+    startTime: 1910429
+    endTime:   1912543
+    lushootseed: ʔəsx̌əɬx̌əɬšad čəd.
+    english: "I have sore feet. [Or: My feet hurt.]"
+
+  - lineType: ijal
+    startTime: 1912924
+    endTime:   1915858
+    lushootseed: hiqab čəd ʔuʔibəš ʔə tə lil.
+    english: I walked too far.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill VII<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.11</div>"
+
+  - lineType: ijal
+    startTime: 1933708
+    endTime:   1934973
+    lushootseed: "q̓ʷ: q̓ʷuʔ"
+    english: gather
+
+  - lineType: ijal
+    startTime: 1935657
+    endTime:   1936643
+    lushootseed: "k̓ʷ: k̓ʷuʔ"
+    english: endearing way of addressing girl or younger woman (in SL)
+
+  - lineType: html
+    content: "<div class='sectionNumber'>10.12</div>"
+
+  - lineType: ijal
+    startTime: 1945896
+    endTime:   1947100
+    lushootseed: "q̓ʷ: q̓ʷuʔ"
+    english: gather
+
+  - lineType: ijal
+    startTime: 1947551
+    endTime:   1948901
+    lushootseed: "qʷ: qʷu"
+    english: (fresh) water
+    
+  - lineType: ijal
+    startTime: 1953475
+    endTime:   1955136
+    lushootseed: "q̓ʷ: q̓ʷibid"
+    english: unload it
+    
+  - lineType: ijal
+    startTime: 1956020
+    endTime:   1957261
+    lushootseed: "qʷ: qʷibid"
+    english: fix it
+    
+  - lineType: html
+    content: "<div class='sectionNumber'>10.13</div>"
+
+  - lineType: ijal
+    startTime: 1966026
+    endTime:   1970888
+    lushootseed: ʔəsq̓ʷq̓ʷuʔadbid čəd ti sq̓ʷix̌ʷ.
+    english: I room with the Negro.
+    
+
+
 
 #  - lineType: html
 #    content: "<div class='sectionNumber'>10.1</div>"
