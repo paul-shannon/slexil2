@@ -1,5 +1,122 @@
 kb = {
 
+"ʔəsčaləx̌ t(i) adsqa.":
+`
+**Grammar Note 10.3, page 52**:
+
+Choral Repetition A of Lesson Ten is much like the previous lesson
+except the sentences talk about someone else, some third person, rather
+than about me and you.
+
+Remember that in Lushootseed it is not necessary to use words
+corresponding to English _he_ and _she_.
+`,
+
+
+"q̓ʷ: q̓ʷuʔ":
+`
+_q̓ʷ_ represents a sound somewhat like _qu_ in the English word "queen"
+but it is pronounced rhter back in the mouth and the vocal cords are
+closed abruptly at the same time creating a hollow popping sound.
+
+_q̓ʷ_ is like _q̓_ (sections 8.1 and 8.6) except that the lips are rounded as though trying
+to say "oo" at the same time.
+
+See also _qʷ_ compared to _kʷ_ section 5.7.
+
+
+`,
+
+"ʔəsx̌əɬx̌əɬšad čəd.":
+`
+**Footnote 3, page 51**
+
+_x̌əɬ_ is said twice because both hands and feet hurt.
+`,
+
+
+"ʔəsx̌əɬx̌(ə)ɬačiʔ čəd.":
+`
+**Footnote 3, page 51**
+
+_x̌əɬ_ is said twice because both hands and feet hurt.
+`,
+
+
+"əsx̌əɬqid čəd.":
+`
+**Footnote 2, page 51**
+
+The SL equivalent is _ʔəsx̌(ə)ɬač_.
+`,
+
+"hiqab čəd ʔuʔəɬəd.":
+`
+**Footnote 1, page 51**
+
+Some people would prefer to say _ʔuhiqabil ti dsuʔəɬəd_ "Excessive (was) my eating".
+Sentencs of this type are presented in Lesson Fifteen.  See also section 25.3,
+page 135.
+
+`,
+
+"ǰiq̓aladᶻəd [ʔal ti] tuɬax̌.":
+`
+**Footnote 3, page 51**
+
+_ǰiq̓aladᶻəd_ "set nets" is NL.  The SL equivalent is _ɬičaʔalikʷ_.
+
+**Sound and Symbol, page 52**
+
+_ǰ_ is like _j_ in the English word _jump_ and _g_ in the English word _general_.
+
+**Grammar Note 10.5, page 52**
+
+Words placed in brackets, [], are optional.  They are frequently omitted
+especially in relaxed, rapdi speech.
+
+**Grammar Note 10.7, page 52**
+
+_tu-_ fied to the beginning of a word puts that word in the past,
+especially (but not always, as seen here), the distant past.
+
+This prefix _tu-_ can be added to both action words and to words that
+name persons and things.
+
+For example:
+
+   - _tyyayus čəd_ "I worked"
+   - _kʷi tudbad_ "my former father" or "my father who died (some time ago)"
+    
+`,
+
+
+"cick̓ʷəxʷ (ʔ)əxʷsʔitutəb.":
+`
+**Vocabulary Comment, page 54**
+
+_(ʔ)əxʷsʔitutəb_ "sleepy" is made from _(ʔəs)ʔitut_ "asleep" by the
+addition of the prefix _ʔəxʷ-_ and suffix _-(ə)b_.  These are studied in
+section 20.1b, page 109 (and section 15.4, page 82).  In Southern
+Lushootseed the people say _ʔəsʔiʔtut_ for "sleepy" instead of _(ʔ)əxʷsʔitutəb_.
+
+
+**Grammar Note 10.4, page 52**
+
+The ending _-əxʷ_ is often attached to words describing how, rathen than
+being added to the action word itslef.  (Sometimes _-əxʷ_ is suffixed to both
+types of words in the same sentence.)
+
+**Grammar note 10.6, page 52**
+
+In Lesson Two it was learned that _ʔal_ mean "location in space". (See Section 2.3)
+In 10.1a and 10.b of this lesson it is seen that _ʔal_ also can indicate "location
+in time".  It tells __when__ an event happened:
+
+  _ʔal ti tuɬax̌_: "in the (last) night."
+
+`,
+    
 "əstaqʷuʔ čəd.  cick̓ʷ čəd ʔəstaqʷuʔ.":
 `
 **Vocabulary Comment 9.12**
