@@ -1,4 +1,28 @@
 kb = {
+"ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.":
+`
+Note the similarity between _ɬax̌_ "night" (section 10.2) and _ləɬax̌il_ "evening".
+The latter is made from the former by fixing _lə-_ to the beginning, and _-il_ to the
+ending.  The prefix _-lə-_ indicates an ongoing action or condition (see Lession Nineteen)
+while the suffix _-il_ has the meaning of beginning or becoming (more so).
+
+Thus _ləɬax̌il_ "evening" means literally "becoming night" and has the added
+flavor of deepening darkness moving over the earth.
+
+Lushootseed words are often much more descriptive than their English translations.
+This is but the first of thousands of examples where it is seen that Lushootseed
+talks in terms of actions and changes while English manipulates things.
+
+`,
+
+"hiqab čəd ʔuʔibəš ʔə tə lil.":
+`
+
+For some speakers it is redundant to include both _hiqab_ and phrases like
+_ʔə tə haʔkʷ_ or _ʔə tə lil_.
+
+They prefer either just _hiqab_ or just the phrase _ʔə tə haʔkʷ_ or _ʔə tə lil_.
+`,
 
 "ʔəsčaləx̌ t(i) adsqa.":
 `
@@ -10,6 +34,17 @@ than about me and you.
 
 Remember that in Lushootseed it is not necessary to use words
 corresponding to English _he_ and _she_.
+
+**Vocabulary Comment 10.15, page 54**
+
+_sqa_ refers not only to older brothers and sisters but also to
+cousins who are the children of aunts and uncles older than your
+parents (regardless of whether or not the cousin is actually older than
+you).
+
+_suq̓ʷa_ is the opposite of _sqa_.  It includes brothers and sisters who are
+younger and also cousins who are the childen of your parents' younger
+brothers and sisters.
 `,
 
 
@@ -32,6 +67,8 @@ See also _qʷ_ compared to _kʷ_ section 5.7.
 **Footnote 3, page 51**
 
 _x̌əɬ_ is said twice because both hands and feet hurt.
+
+
 `,
 
 
@@ -40,6 +77,34 @@ _x̌əɬ_ is said twice because both hands and feet hurt.
 **Footnote 3, page 51**
 
 _x̌əɬ_ is said twice because both hands and feet hurt.
+
+**Grammar Note 10.10, page 53**
+
+Lushootseed has two quite different ways of talking about parts of the body
+(and many other things).
+
+One way is similar to English and involves the use of a separate word for
+the body part. For example, in the sentence
+
+  _ʔəsx̌əɬ ti dčaləs_  "my hand hurts"
+
+there is the word _čaləs_, "hand".
+
+However, instead of using a separate word, an ending (or suffix) referring to
+that part of the body can be added directly to the action or condition, as
+we see here.
+
+The ending (suffix) _-ačiʔ_ means "hand" just as _čaləs_ does.
+
+(SL equivalent is _čaləš_.)
+
+The use of such endings is very, very much more frequent than the use of
+separate words; therefore, this type of sentence is presented in early lessons.
+
+Note that it is not necessary to distinguish between on thing or
+more than one.  The situation makes clear whether on or more is being
+discussed.  In a later lesson, ways of stating the difference will be learned.
+
 `,
 
 
@@ -48,6 +113,23 @@ _x̌əɬ_ is said twice because both hands and feet hurt.
 **Footnote 2, page 51**
 
 The SL equivalent is _ʔəsx̌(ə)ɬač_.
+
+
+**Grammar Note 10.18, page 55**
+
+Although _-ač_ is the usual suffix for "head" in Southern Lushootseed,
+_-qid_ is sometimes used with this meaning in certain expressions.  For example,
+the SL word for "mink", _c̓əbalqid_, means literally "sheared head".
+
+It is made up of three parts:
+
+   - _c̓əb_ "clear off" (e.g., "log over land")
+   - _-al_ from _ʔal "location" (see section 2.3)
+   - _-qid_ "head"
+
+According to the old stories, Mink, who was always getting into trouble, lost
+his hair in one of his many adventures.
+
 `,
 
 "hiqab čəd ʔuʔəɬəd.":
@@ -73,11 +155,11 @@ _ǰ_ is like _j_ in the English word _jump_ and _g_ in the English word _genera
 **Grammar Note 10.5, page 52**
 
 Words placed in brackets, [], are optional.  They are frequently omitted
-especially in relaxed, rapdi speech.
+especially in relaxed, rapid speech.
 
 **Grammar Note 10.7, page 52**
 
-_tu-_ fied to the beginning of a word puts that word in the past,
+_tu-_ tied to the beginning of a word puts that word in the past,
 especially (but not always, as seen here), the distant past.
 
 This prefix _tu-_ can be added to both action words and to words that
@@ -88,6 +170,31 @@ For example:
    - _tyyayus čəd_ "I worked"
    - _kʷi tudbad_ "my former father" or "my father who died (some time ago)"
     
+**Grammar Note 10.9, page 53**
+
+In Lesson Nine the words _cick̓ʷ_ "very" and _hiqab_ "excessively, too"
+were learned.  These are just two of many such words that explain how
+an action is done or how a condition is.
+
+Another way of expressing "how of action or condition" is by the use of
+
+  _ʔə tə_
+
+plus a descriptive word such as
+
+  _tib, qa, haʔkʷ, lil_
+
+and others.  Note the similarity between the sentence parts:
+
+   - _ʔal ti tuɬax̌_ "in the (last) night
+   - _ʔə tə lil_ "in the distance"
+   - _ʔə tə haʔkʷ_ in the 'ago'
+
+Often it is possible to interchange _ʔal_ and _ʔə_ with only a very slight
+difference in meaning - a difference so slight that English cannot
+express it.  For the present, however, us _ʔal_ with expressions and place, and
+_ʔə_ when telling how.
+
 `,
 
 
