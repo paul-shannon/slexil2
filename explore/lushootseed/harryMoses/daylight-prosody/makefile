@@ -50,8 +50,9 @@ html:
                        --linguistics linguisticTerms.js \
                        --helpFile about.html \
                        --helpButtonLabel About \
+                       --verbose \
+                       --practiceFile practice.yaml 
 #                       --webpackLinksOnly
-#                       --verbose \
 
 
 

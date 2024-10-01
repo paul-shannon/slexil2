@@ -71,7 +71,7 @@ td, th {
     margin-bottom: 1px;
     padding-bottom: 0px;
     margin-right: 10px;
-    width:35px;
+    width:40px;
     padding-left: 7px;
     padding-right: 3px;
     background: #eeeeee;
@@ -103,8 +103,24 @@ td, th {
    margin-right: 10px;
    }
 
-.playbackSpeedButton:hover{
+.playbackSpeedButton{
+   border: 1px solid gray;
+   border-radius: 10px;
+   font-size: 24px;
+   width: 40px;
+   height: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+   }
+
+.showPracticeDialogButton{
    background-color: lightgray;
+   border-radius: 10px;
+   font-size: 24px;
+   width: 120px;
+   height: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
    }
                           
 

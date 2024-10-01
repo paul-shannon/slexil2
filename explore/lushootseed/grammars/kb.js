@@ -1,6 +1,8 @@
 kb = {
 "ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.":
 `
+**Vocabulary Note 10.17, page 54**
+
 Note the similarity between _ɬax̌_ "night" (section 10.2) and _ləɬax̌il_ "evening".
 The latter is made from the former by fixing _lə-_ to the beginning, and _-il_ to the
 ending.  The prefix _-lə-_ indicates an ongoing action or condition (see Lession Nineteen)
@@ -41,6 +43,8 @@ _sqa_ refers not only to older brothers and sisters but also to
 cousins who are the children of aunts and uncles older than your
 parents (regardless of whether or not the cousin is actually older than
 you).
+
+**Vocabulary Comment 10.16, page 54**
 
 _suq̓ʷa_ is the opposite of _sqa_.  It includes brothers and sisters who are
 younger and also cousins who are the childen of your parents' younger

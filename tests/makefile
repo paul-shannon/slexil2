@@ -15,6 +15,10 @@ default:
 	@echo ijalFromDict
 	@echo yamlParser
 	@echo textFromYaml
+	@echo practiceLists
+
+practiceLists:
+	python test_PracticeLists.py 
 
 yamlTextCreator:
 
