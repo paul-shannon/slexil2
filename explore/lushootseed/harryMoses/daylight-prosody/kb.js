@@ -2,6 +2,41 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"bi–bəščəb":
+`
+The morphemic analysis is __ATTN-mink__: attenuative indicates "reduced degree of a quality".
+
+LD 39:
+The __bibščəb__ entry redirects to __bəščəb__, "mink", which with diminutive reduplication ___red1___
+(bi+√bščəb) means small mink, a pet way of referring to Mink.
+
+LD xvii describes ___red1___: CV becomes Ci+, CVʔ, or Ciʔ,
+   - smallness
+   - diminished action
+   - endearment
+   - diminutive reduplication
+   - the root vowel is often lost or reduced to _ə_
+   - several stems irregularly have Cə+ for the diminutive
+
+LD xiii: Lushootseed ___i___ can be pronounced like the vowels in _beet_ or _bait_.
+`,
+
+
+"tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il":
+`
+___tuʔux̌ʷəxʷ___:
+
+   - xʷ: sounds vaguely like someone
+         blowing out a candle;  a bit like _wh_ in _which_, but more raspy.
+         the lips are pursed, and the toungue is approximately the
+         same position as for making _k_.
+   - x̌:  sounds like _h_ but much more raspy. the tongue is in approximately
+         the same position as for making _q_.
+   - x̌ʷ: the "rounded x-wedge" purses the lips during _x̌_.
+
+`,
+
+    
 "ɬu=ʔas–ʔaciɬ":
 `
 ɬu=ʔas–ʔaciɬ
