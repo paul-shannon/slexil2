@@ -1,4 +1,45 @@
 linguistics = {
+"PROG":
+`
+PROG; progressive
+
+From wikipedia:
+
+The continuous and progressive aspects (abbreviated CONT and PROG) are
+grammatical aspects that express incomplete action ("to do") or state
+("to be") in progress at a specific time: they are non-habitual,
+imperfective aspects.
+
+In the grammars of many languages the two terms are used
+interchangeably. This is also the case with English: a construction
+such as "He is washing" may be described either as present continuous
+or as present progressive. However, there are certain languages for
+which two different aspects are distinguished. In Chinese, for
+example, progressive aspect denotes a current action, as in "he is
+getting dressed", while continuous aspect denotes a current state, as
+in "he is wearing fine clothes".
+
+As with other grammatical categories, the precise semantics of the
+aspects vary from language to language, and from grammarian to
+grammarian. For example, some grammars of Turkish count the -iyor form
+as a present tense; some as a progressive tense; and some as
+both a continuous (nonhabitual imperfective) and a progressive
+(continuous non-stative) aspect.
+
+**Continuous versus progressive**
+
+The progressive aspect expresses the dynamic quality of actions that
+are in progress while the continuous aspect expresses the state of the
+subject that is continuing the action. For instance, "Tom is reading"
+can express dynamic activity: "Tom is reading a book" – i.e. right now
+(progressive aspect), or Tom's current state: "Tom is reading for a
+degree" – i.e. Tom is a student (continuous aspect). The aspect can
+often be ambiguous; "Tom is reading Ulysses" may describe his current
+activity (it's in his hand), or the state of having started, but not
+yet finished, the book (it's in his bag).
+
+`,
+
 "PO":
 `
 PO: Possessive

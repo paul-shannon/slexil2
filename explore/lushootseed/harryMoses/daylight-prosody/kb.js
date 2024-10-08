@@ -2,6 +2,15 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ʔəs–qʷəlub•us":
+`
+- ___ʔəsqʷəlúbqidəxʷ tsiʔiɬ__:  She's gray now.
+- __ʔəsqʷəlubáyqsəxʷ__:  His beard is gray now.
+- __qʷəlubáyqs__:  gray *beard, gray whiskers
+- __qʷəlúb__:  gray hair 
+`,
+
+
 "bi–bəščəb":
 `
 The morphemic analysis is __ATTN-mink__: attenuative indicates "reduced degree of a quality".
