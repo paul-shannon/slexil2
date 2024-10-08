@@ -1902,6 +1902,42 @@ lines:
     lushootseed: ʔəsq̓ʷq̓ʷuʔadbid čəd ti sq̓ʷix̌ʷ.
     english: I room with the Negro.
     
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Eleven: ʔulub ʔi ti d(ə)č̓uʔ</div>"
+    
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.1</div>"
+
+  - lineType: ijal
+    startTime: 1989467
+    endTime:   1991796
+    lushootseed: ʔa ʔu kʷ(i) adbiac.
+    english: Do you have (any) meat?
+
+
+  - lineType: ijal
+    startTime: 1996257
+    endTime:   1998015
+    lushootseed: ʔi.  ʔa ti dbiac.
+    english: Yes.  I have (some) meat.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.2</div>"
+
+  - lineType: ijal
+    startTime: 2006033
+    endTime:   2008227
+    lushootseed: ʔa ʔu kʷ(i) adsʔuladxʷ.
+    english: Do you have (any) salmon?
+
+  - lineType: ijal
+    startTime: 2011865
+    endTime:   2014358
+    lushootseed: ʔi.  ʔa ti dsʔuladxʷ.
+    english: Yes.  I have (some) salmon.
 
 
 
