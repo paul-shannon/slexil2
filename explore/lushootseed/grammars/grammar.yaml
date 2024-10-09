@@ -1919,7 +1919,7 @@ lines:
 
 
   - lineType: ijal
-    startTime: 1996257
+    startTime: 1995067
     endTime:   1998015
     lushootseed: ʔi.  ʔa ti dbiac.
     english: Yes.  I have (some) meat.
@@ -1939,6 +1939,63 @@ lines:
     lushootseed: ʔi.  ʔa ti dsʔuladxʷ.
     english: Yes.  I have (some) salmon.
 
+  - lineType: html
+    content: "<div class='sectionNumber'>11.3</div>"
+
+  - lineType: ijal
+    startTime: 2022468
+    endTime:   2024728
+    lushootseed: ʔa ʔu kʷ(i) adsʔax̌ʷuʔ.
+    english: Do you have (any) clams?
+
+  - lineType: ijal
+    startTime: 2028179
+    endTime:   2030475
+    lushootseed: ʔi. ʔa ti dsʔax̌ʷuʔ.
+    english: Yes. I have (some) clams.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.4</div>"
+
+  - lineType: ijal
+    startTime: 2038030
+    endTime:   2040628
+    lushootseed: ʔa ʔu kʷ(i) adsq̓ʷəlaɬəd.
+    english: Do you have (any) berries.
+
+  - lineType: ijal
+    startTime: 2043964
+    endTime:   2046736
+    lushootseed: ʔi. ʔa ti dsq̓ʷəlaɬəd.
+    english: Yes. I have (some) berries.
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.5</div>"
+
+  - lineType: ijal
+    startTime: 2055284
+    endTime:   2057653
+    lushootseed: ʔa ʔu kʷ(i) adtalə.
+    english: Do you have (any) money?
+
+  - lineType: ijal
+    startTime: 2060966
+    endTime:   2064375
+    lushootseed: ʔi. ʔa ti dtaʔtalə.
+    english: Yes. I have (some) money.
+
+  - lineType: ijal
+    startTime: 2070456
+    endTime:   2072709
+    lushootseed: ʔabyic ə kʷi ɬixʷilc.
+    english: Give me $3.00.
+
+  - lineType: ijal
+    startTime: 2077577
+    endTime:   2079255
+    lushootseed: xʷiʔ!
+    english: No!
 
 
 #  - lineType: html
