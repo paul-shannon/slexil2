@@ -1,4 +1,34 @@
 linguistics = {
+"STAT":
+`
+STAT: stative
+
+
+`,
+
+"SCONJ":
+`
+SCONJ: sentential conjunction
+
+A sentential conjunction, also known as a logical connective,
+sentential operator, or logical operator, is a word or symbol used to
+connect propositions in logical formulas. Examples of sentential
+connectives include "and," "or," "not," and "if and only if".
+
+Sentential conjunction can also refer to the relationship between noun
+phrases in a sentence.
+
+In **phrasal conjunction** the verb phrase denotes an action shared by the noun phrases.
+
+For example, in the sentence "John and Mary conferred," the act of conferring is
+shared by both John and Mary.
+
+In **sentential conjunction**, each noun phrase denotes its own
+act. For example, in the sentence "John and Mary know the answer,"
+each person has their own act.
+
+`,
+
 "PROG":
 `
 PROG; progressive

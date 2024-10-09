@@ -2,9 +2,27 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"lə=luƛ̓":
+`
+__lə=luƛ̓__
+
+- __lə__: PROG, the progressive aspect expresses the dynamic quality of actions that
+  are in progress, while CONT, continuous, expresses the state of the the subject
+  that is continuing the action.
+- __luƛ̓__: be old
+
+From David's draft grammar, page 27:
+
+ ...stative verbs expressing property concepts such as _luƛ̓_ ‘be old’
+ and _qwiq̓w_ ‘be strong’ do not have transitive forms at all.
+
+
+`,
+
+
 "ʔəs–qʷəlub•us":
 `
-- ___ʔəsqʷəlúbqidəxʷ tsiʔiɬ__:  She's gray now.
+- __ʔəsqʷəlúbqidəxʷ tsiʔiɬ__:  She's gray now.
 - __ʔəsqʷəlubáyqsəxʷ__:  His beard is gray now.
 - __qʷəlubáyqs__:  gray *beard, gray whiskers
 - __qʷəlúb__:  gray hair 
