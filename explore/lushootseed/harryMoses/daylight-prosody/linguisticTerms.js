@@ -1,8 +1,14 @@
 linguistics = {
 "STAT":
 `
-STAT: stative
+STAT: stative, constant, non-dynamic, unchanging throughout its duration
 
+According to some linguistics theories, a stative verb is a verb that
+describes a state of being, in contrast to a dynamic verb, which
+describes an action. The difference can be categorized by saying that
+stative verbs describe situations that are static, or unchanging
+throughout their entire duration, whereas dynamic verbs describe
+processes that entail change over time
 
 `,
 

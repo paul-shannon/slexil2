@@ -2,6 +2,24 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"ləs–ck̓usəd":
+`
+__ləs–ck̓usəd__
+
+PROG.STAT: ongoing state (condition)
+
+__using a cane__
+
+- _ləs_: progressive and stative aspectual prefixes combined
+- LD 55 entry: _c̓k̓ʷusəd_, "cane", "walking stick"
+- var: _c̓q̓ʷusəd_
+- red1 (diminuitive reduplication): _c̓ic̓k̓ʷusəd_ "little walking stick"
+- Hess and Beck, 2007, have the same gloss
+- Hess and Hilbert, 1977, gloss this word as "cst-cane", where
+- __CST__ is "continuous state prefix"
+
+`,
+
 "lə=luƛ̓":
 `
 __lə=luƛ̓__
