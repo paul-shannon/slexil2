@@ -58,7 +58,7 @@ lines:
 
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill I<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill I: ɬ q xʷ<h5></div>"
 
   - lineType: ijal
     startTime: 89729
@@ -357,7 +357,7 @@ lines:
     english:  She is my daughter, (this one).
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill II<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill II: č̓ k̓ʷ<h5></div>"
 
 
   - lineType: ijal
@@ -731,7 +731,7 @@ lines:
     english:  It is sleeping on the other side of the house.
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill III<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill III: qʷ <h5></div>"
 
   - lineType: html
     content: "<div class='sectionNumber'>5.3</div>"
@@ -969,7 +969,7 @@ lines:
     english: He is from Nisqually.
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill IV<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill IV: c̓ <h5></div>"
 
   - lineType: html
     content: "<div class='sectionNumber'>7.4</div>"
@@ -1273,7 +1273,7 @@ lines:
     english:  It is not a salmonberry bush.  That is a blackcap bush.
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill V<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill V: q̓<h5></div>"
 
   - lineType: html
     content: "<div class='sectionNumber'>8.5</div>"
@@ -1594,7 +1594,7 @@ lines:
     english:  Come on you folks.  Let's drink.
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill VI<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill VI: ƛ̓ x̌ <h5></div>"
 
   - lineType: html
     content: "<div class='sectionNumber'>9.6</div>"
@@ -1849,7 +1849,7 @@ lines:
     english: I walked too far.
 
   - lineType: html
-    content: "<div style='margin: 30px'><h5>Sound Drill VII<h5></div>"
+    content: "<div style='margin: 30px'><h5>Sound Drill VII: q̓ʷ <h5></div>"
 
   - lineType: html
     content: "<div class='sectionNumber'>10.11</div>"
@@ -1869,11 +1869,11 @@ lines:
   - lineType: html
     content: "<div class='sectionNumber'>10.12</div>"
 
-  - lineType: ijal
-    startTime: 1945896
-    endTime:   1947100
-    lushootseed: "q̓ʷ: q̓ʷuʔ"
-    english: gather
+#  - lineType: ijal
+#    startTime: 1945896
+#    endTime:   1947100
+#    lushootseed: "q̓ʷ: q̓ʷuʔ"
+#    english: gather
 
   - lineType: ijal
     startTime: 1947551
@@ -1905,6 +1905,33 @@ lines:
   - lineType: html
     content: "<div class='lessonTitle'>Lesson Eleven: ʔulub ʔi ti d(ə)č̓uʔ</div>"
     
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>bayac (SL) </td><td> meat</td></tr>
+                     <tr><td>biac (NL) </td><td> meat</td></tr>
+                     <tr><td>čadᶻ </td><td>hide </td></tr>
+                     <tr><td>ɬixʷilc </td><td>three dollars </td></tr>
+                     <tr><td>ɬu- </td><td>anticipated, expected or possible (event)</td></tr>
+                     <tr><td>sq̓ʷəlaɬəd </td><td>berry, fruit </td></tr>
+                     <tr><td>šabalikʷ </td><td>dry(ing) </td></tr>
+                     <tr><td>talə </td><td>money </td></tr>
+                     <tr><td>xʷiʔ </td><td>no, not </td></tr>
+                     <tr><td>ʔa </td><td>there exists </td></tr>
+                     <tr><td>ʔabšic (SL) </td><td>give me </td></tr>
+                     <tr><td>ʔabyic (NL) </td><td>give me </td></tr>
+                     <tr><td>sʔax̌uʔ </td><td>butter clam, clam in general </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
   - lineType: html
     content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
@@ -1983,12 +2010,12 @@ lines:
     startTime: 2060966
     endTime:   2064375
     lushootseed: ʔi. ʔa ti dtaʔtalə.
-    english: Yes. I have (some) money.
+    english: Yes. I have a little money.
 
   - lineType: ijal
     startTime: 2070456
     endTime:   2072709
-    lushootseed: ʔabyic ə kʷi ɬixʷilc.
+    lushootseed: ʔabyic ʔə kʷi ɬixʷilc.
     english: Give me $3.00.
 
   - lineType: ijal
@@ -1996,6 +2023,121 @@ lines:
     endTime:   2079255
     lushootseed: xʷiʔ!
     english: No!
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.1b</div>"
+
+  - lineType: ijal
+    startTime: 2089726
+    endTime:   2091875
+    lushootseed: ʔa ʔu kʷ(i) adbiac.
+    english: Do you have (any) meat?
+
+  - lineType: ijal
+    startTime: 2095181
+    endTime:   2101110
+    lushootseed: ʔi.  qa ti dbiac. ɬušabalikʷ čəd.
+    english:  Yes.  I have a lot of meat.  I'll (have to) dry it.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.2b</div>"
+
+  - lineType: ijal
+    startTime: 2109656
+    endTime:   2112000
+    lushootseed: ʔa ʔu kʷ(i) adsʔuladxʷ.
+    english: Do you have (any) salmon?
+
+  - lineType: ijal
+    startTime: 2114616
+    endTime:   2119001
+    lushootseed: ʔi.  qa ti dsʔulaxʷ. ɬušabalikʷ čəd.
+    english:  Yes.  I have a lot of salmon.  I'll (have to) dry it.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.3b</div>"
+
+  - lineType: ijal
+    startTime: 2127565
+    endTime:   2129777
+    lushootseed: ʔa ʔu kʷ(i) adsʔax̌ʷuʔ.
+    english: Do you have (any) clams?
+
+  - lineType: ijal
+    startTime: 2132677
+    endTime:   2137110
+    lushootseed: ʔi.  qa ti dsʔax̌uʔ. ɬušabalikʷ čəd.
+    english:  Yes.  I have a lot of clams.  I'll (have to) dry them.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.4b</div>"
+
+  - lineType: ijal
+    startTime: 2145486
+    endTime:   2148181
+    lushootseed: ʔa ʔu kʷ(i) adsq̓ʷəlaɬəd.
+    english: Do you have (any) berries?
+
+  - lineType: ijal
+    startTime: 2150642
+    endTime:   2154997
+    lushootseed: ʔi.  qa ti dsq̓ʷəlaɬəd. ɬušabalikʷ čəd.
+    english:  Yes.  I have a lot of berries.  I'll (have to) dry them.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.5b</div>"
+
+  - lineType: ijal
+    startTime: 2163793
+    endTime:   2166061
+    lushootseed: ʔa ʔu kʷ(i) adtalə.
+    english: Do you have (any) money?
+
+  - lineType: ijal
+    startTime: 2169424
+    endTime:   2175942
+    lushootseed: ʔi. qa ti dtalə. ɬučadᶻ čəd ti dtalə.
+    english:  Yes.  I have a lot of money.  I'll (have to) hide my money.
+
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill VIII: x̌ʷ<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>11.8</div>"
+
+  - lineType: ijal
+    startTime: 2192952
+    endTime:   2194809
+    lushootseed: "x̌ʷ: x̌ʷəcəb"
+    english: sharp, tart
+
+  - lineType: ijal
+    startTime: 2196875
+    endTime:   2198412
+    lushootseed: "xʷ: xʷəcəd"
+    english: take it off
+
+  - lineType: ijal
+    startTime: 2200525
+    endTime:   2202014
+    lushootseed: "x̌ʷ: x̌ʷəƛ̓t"
+    english: pillow
+
+  - lineType: ijal
+    startTime: 2202908
+    endTime:   2204255
+    lushootseed: "xʷ: xʷəƛ̓"
+    english: break (rigid object) in two
+
+  - lineType: ijal
+    startTime: 2211658
+    endTime:   2216154
+    lushootseed: ʔəsx̌ʷil̓ ti x̌ʷəl sx̌ʷiƛ̓əyʔ.
+    english: Nine mountain goats are lost.
+
 
 
 #  - lineType: html

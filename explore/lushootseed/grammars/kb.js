@@ -1,4 +1,179 @@
 kb = {
+"ʔa ʔu kʷ(i) adsq̓ʷəlaɬəd.":
+`
+**Vocabulary Comment 11.10, p60**
+
+_sq̓ʷəlaɬəd_ "berry/berries;fruit" comes from
+   - _q̓ʷəl_ "ripe; hot; cook"
+   - _-aɬəd_ a variant of _ʔəɬəd_ "eat" and _sʔəɬəd_ "food"
+
+Thus _sq̓ʷəlaɬəd_ means literally "ripe food".
+
+`,
+
+"ʔa ʔu kʷ(i) adsʔax̌ʷuʔ.":
+`
+**Vocabulary Comment 11.9, page 60**
+
+___sʔax̌ʷuʔ___ is used in two ways:
+   - In one sense, it refers to butter clams.
+   - In the other, it means "clam in general", the clam _par excellence_.
+
+`,
+
+
+"ʔi.  qa ti dsʔulaxʷ. ɬušabalikʷ čəd.":
+`
+**Grammar Note 11.7, page 59**
+
+__ɬu__ often corresponds to the English future but it also
+has the idea of anticipation, expectation, or intention.
+Like __tu-__, __ɬu-__ can be used both with action words and
+with words naming people or things, e.g.
+
+   - __ɬuyayus čəd__ "I will work"
+   - __kʷsi ɬudčəgʷ__ "my future wife"
+
+
+`,
+
+
+"ʔi.  qa ti dbiac. ɬušabalikʷ čəd.":
+`
+**Grammar note 11.6, page 59**
+
+Note that ___ʔa___ is not used in the answering sentences in Choral
+Repetition B.  Its place is taken by ___qa___ "much", "many".  Often,
+as in this lesson, ___ʔa___ functions merely as a "position holder"
+and adds almost no meaning to the (asking) sentence.
+
+It is always replaced by words that carry more informations (such as ___qa___
+or ___xʷi___ "not" or "none") whenever they are used.
+
+Thus, in section 11.5b,  only ___qa___ is used in Lushootseed to ask "Do you have a lot of money?"
+
+  ___qa ʔu kʷ(i) adtalə.___
+
+_[transcriber Paul Shannon admits: I am confused here.
+  The grammar 11.5b actually reads   ___ʔa ʔu kʷ(i) adtalə.___]_
+
+
+`,
+
+"ʔi. ʔa ti dtaʔtalə.":
+`
+**Vocabulary Comment 11.11, p60**
+
+___talə___ comes from the English word "dollar".
+
+
+**Grammar Note 11.4, page 59**
+
+One very common way of indicating something is small or that an
+act is performed only a little bit is to repeat the first two
+sounds of a word (excluding whatever prefixes it may have).
+
+Sometimes a ___ʔ-___ sound is said between the added part and the original word.
+
+Thus, from ___talə___ "money" is formed ___taʔtalə___ "small amount of money" or
+"little money".
+
+`,
+
+
+"ʔi. qa ti dtalə. ɬučadᶻ čəd ti dtalə.":
+`
+**Footnote 1, page 58**
+
+Many people change _čadᶻ_ to _čaǰ_ before a č-sound.
+`,
+
+
+"ʔa ʔu kʷ(i) adtalə.":
+`
+**Grammar Note 11.2, page 58**
+
+There are two principal ways to speak of "having" something in Lushootseed.
+The one presented in this lesson uses the word _ʔa_ "is there", "exists there"
+and a possessive (such as _d-_ "my", _ad- "your" (3.7, 4.2)) attached to the
+name of the object.
+
+The little words _kʷi_ (5.2), _ti_ (4.6) and the like which almost always
+occur with the words for objects, people, and animals are present here too.
+
+A literal translation for the sentences of this lesson, using 11.5 as
+an example, would be,
+
+  _Is there your money?_ or _Does exist your money?_ <br>
+  _There exists my little money._
+
+The other way to speak about "having" requires _ʔabs-_ to
+be prefixed to the word naming the object possessed followed by one
+of the _čəd_ words, e.g,
+
+  - _ʔabstalə čəxʷ (ʔ)u_ &nbsp;  "Do you have (any) money."
+  - _ʔabstalə čəd_  &nbsp; "I have (some) money."
+  - _ʔabstaʔtalə čəd_ &nbsp; "I have a little money."
+
+`,
+
+
+"xʷiʔ!":
+`
+**Sound And Symbol Note 11.1, page 58**
+
+___x̌ʷ___: The sound represented by this letter is much like that of ___x̌___
+(9.2, 9.7, 9.8) - a soft gargle - except that the lips are rounded as if to
+pronounce the English letters ___oo___ at the same time.
+`,
+
+
+"ʔabyic ʔə kʷi ɬixʷilc.":
+`
+**Footnote 3, page 57**
+
+The SL equivalent of _ʔabyic_ is _ʔabšic_.
+
+___ɬixʷilc___ "three dollars" will be studied in Lesson Thirteen
+while ___ʔabyic___ will be presented in a still later lesson.
+
+
+
+`,
+
+
+"ʔa ʔu kʷ(i) adbiac.":
+`
+**Footnote 2, page 57**
+
+_biac_ is NL.  The SL equivalent is _bayac_.
+
+
+**Grammar Note 11.3, page 59**
+
+(same as grammar note 8.2, for section 8.1)
+
+When specific question words such as __stab__, __čad__, __gʷat__ are not
+used, questions are formed with the word __ʔu__.  This little word
+turns a statement into a question:
+
+   -  __sqigʷəc tiʔiɬ__:  "That is a deer."
+   - __sqigʷəc ʔu tiʔiɬ__:  "Is that a deer?"
+   
+Note that __ʔu__ comes after worlds like __čəxʷ__ and __čələp__ but before
+__ti__, __tiʔiɬ__, etc.:
+
+   - ... __čəxʷ (ʔ)u__ "Are you ...?"
+   - __ʔu tiʔiɬ ...__ "Is that ...?"
+
+(Very often __ʔ__ is ommited from __ʔu__ in relaxed speech
+so that this little question word sounds like a part of the preceeding
+word.  Some people pronounce it __(ʔ)o̅__ while others say __(ʔ)oo__
+(as in the English word "boot").)
+
+`,
+
+
 "ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.":
 `
 **Vocabulary Note 10.17, page 54**
