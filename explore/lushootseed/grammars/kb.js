@@ -1,4 +1,107 @@
 kb = {
+"ɬuc̓əbəbiluɬ čəd ʔə kʷi dᶻətgʷad.":
+`
+**Vocabulary Comment 12.7, page 65**
+
+___c̓əbəb___ &nbsp; derives from
+   - ___c̓əb___ &nbsp; "clear(ed) off"
+   - plus ___-əb___ &nbsp; this suffix creates an action word, meaning "get" or
+     "be involved in doing something".
+
+**Grammar Note 12.3, page 64.**
+
+The ending (suffix) _iluɬ_ means "go in order to...".  It can be
+added to any action word (and many other types as well).
+
+
+`,
+
+
+"ɬuxʷiʔxʷiʔ čəd ʔə kʷi yubəč.":
+`
+**Vocabulary Comment 12.6, page 65**
+
+___xʷiʔxʷiʔ___ &nbsp; has very general meaning.  It refers to any kind of
+food gathering, from hunting elk to gathering clams.
+`,
+
+"ɬušayil čəd ʔə kʷi sqigʷəc.":
+`
+**Vocabulary Comment 12.5, page 65**
+
+___šayil___ (and ___ɬəx̌ʷub___) mean to hunt in the forest or the mountains.
+They are not used when speaking about duck hunting (___pədᶻatuɬ___) or other
+types of hunting done along rivers or the shores of the Sound.
+
+`,
+
+
+"ɬuʔax̌uʔiluɬ čəd.":
+`
+**Grammar Note 12.3, page 64.**
+
+The ending (suffix) _iluɬ_ means "go in order to...".  It can be
+added to any action word (and many other types as well).
+
+In addition to sentences in sections 12.3 and 12.4, note the following:
+
+- _ʔuʔəɬədiluɬ čəd._ &nbsp; I went in order to eat.
+- _ʔuʔəɬədɬ čəd._ &nbsp; I ate.
+- _ʔuyayusiluɬ čəd._ &nbsp; I went in order to work.
+- _ʔuyayus čəd._ &nbsp; I worked.
+
+**Grammar Note 12.3.1, page 64**
+
+If the word ends in _i(l)_, that ending is dropped before _iluɬ_
+is added.
+
+In Southern Lushootseed one says _kʷililuɬ_, not _kʷilililuɬ_.
+
+**Grammar Note 12.4, page 65**
+
+In Lesson Eleven the word _sʔax̌ʷuʔ_ "clam", "butter clam" was learned.
+In the present lesson this word turns up without the _s-_ prefix and
+means "clamming".
+
+There are many, many words in Lushootseed that can refer either to action or to
+things depending upon what prefixes or suffixes occur with them.
+
+Another example is _ʔəɬəd_ compare
+   - _ʔuʔəɬəd_ &nbsp; "(he) ate"
+   - _sʔəɬəd_  &nbsp; "food"
+   
+`,
+
+
+"xʷiʔ. xʷiʔ kʷi dbiac.":
+`
+**Grammar Note 12.1, page 64**
+
+In Lesson Eight a way of saying ___am not, is not___ was learned.
+See section 8.4.  In the present lesson we study how to express
+___have not___.
+
+This is done by using the same type of sentence arrangement
+aready learned in Lesson Eleven for ___have___.
+
+- __xʷi__ replaces __ʔa__ (or __qa__)
+- __kʷi__ replaces __ti__
+
+Contrast the following sentences:
+
+- __xʷiʔ kʷi dbiac__  &nbsp; I don't have (any) meat.
+- __ʔa ti dbiac.__ &nbsp; I have (some) meat.
+- __qa ti dbiac.__ &nbsp; I have a lot of meat.
+
+**Grammar Note 12.2, page 64**
+
+In Lesson Five it was learned that __kʷi__ is used when referring
+to something remote in time or place, or when there is some
+doubt as to its existence.  (See 5.2.)  __kʷi__ is also used
+when the thing talked about is known not to exist as in these sentences
+of Lesson Twelve.
+`,
+
 "ʔa ʔu kʷ(i) adsq̓ʷəlaɬəd.":
 `
 **Vocabulary Comment 11.10, p60**
@@ -148,6 +251,7 @@ while ___ʔabyic___ will be presented in a still later lesson.
 
 _biac_ is NL.  The SL equivalent is _bayac_.
 
+_ad-_ &nbsp; "your"
 
 **Grammar Note 11.3, page 59**
 

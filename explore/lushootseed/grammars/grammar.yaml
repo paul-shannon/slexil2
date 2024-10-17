@@ -2139,14 +2139,164 @@ lines:
     english: Nine mountain goats are lost.
 
 
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Twelve: ʔulub ʔi ti saliʔ</div>"
+    
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>c̓əbəb (NL)</td><td>pick berries/fruit</td></tr>
+                     <tr><td>-iluɬ </td><td>go in order to... </td></tr>
+                     <tr><td>kʷili(l) (SL) </td><td>pick berries/fruit </td></tr>
+                     <tr><td>ɬəx̌ʷub (Snohomish, SL) </td><td>hunt in forests or mountains </td></tr>
+                     <tr><td>šayil (Skagit) </td><td>hunt in forests of mountains </td></tr>
+                     <tr><td>xʷiʔxʷiʔ </td><td>hunt for/gather food (of any sort) </td></tr>
+                     <tr><td>syəcəb </td><td>news, report </td></tr>
+                     <tr><td>sʔušəbabdxʷ </td><td>poor </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
 
-#  - lineType: html
-#    content: "<div class='sectionNumber'>10.1</div>"
-#
-#  - lineType: ijal
-#    startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>12.1</div>"
+
+  - lineType: ijal
+    startTime: 2236567
+    endTime:   2238991
+    lushootseed: ʔa ʔu kʷ(i) adbiac.
+    english: Do you have (any) meat?
+
+  - lineType: ijal
+    startTime: 2242396
+    endTime:   2247064
+    lushootseed: xʷiʔ. xʷiʔ kʷi dbiac.
+    english: No.  I don't have (any) meat.
+    
+  - lineType: ijal
+    startTime: 2248116
+    endTime:   2251377
+    lushootseed: ɬušayil čəd ʔə kʷi sqigʷəc.
+    english: I'll (have to) go hunting for deer.
+    
+  - lineType: html
+    content: "<div class='sectionNumber'>12.2</div>"
+
+  - lineType: ijal
+    startTime: 2265326 
+    endTime:   2267928
+    lushootseed: ʔa ʔu kʷ(i) adsʔuladxʷ.
+    english: Do you have (any) salmon?
+
+  - lineType: ijal
+    startTime: 2270976
+    endTime:   2274800
+    lushootseed: xʷiʔ. xʷiʔ kʷi dsʔuladxʷ.
+    english: No.  I don't have (any) salmon.
+    
+  - lineType: ijal
+    startTime: 2275980
+    endTime:   2279411
+    lushootseed: ɬuxʷiʔxʷiʔ čəd ʔə kʷi yubəč.
+    english: I'll (have to) fish for king salmon.
+    
+    
+  - lineType: html
+    content: "<div class='sectionNumber'>12.3</div>"
+
+  - lineType: ijal
+    startTime: 2291690
+    endTime:   2294010
+    lushootseed: ʔa ʔu kʷ(i) adsʔax̌ʷuʔ.
+    english: Do you have (any) clams?
+
+  - lineType: ijal
+    startTime: 2296970
+    endTime:   2300847
+    lushootseed: xʷiʔ. xʷiʔ kʷi dsʔax̌uʔ
+    english: No.  I don't have (any) clams.
+    
+  - lineType: ijal
+    startTime: 2300961
+    endTime:   2303384
+    lushootseed: ɬuʔax̌uʔiluɬ čəd.
+    english: I'll (have to) go clamming.
+    
+  - lineType: html
+    content: "<div class='sectionNumber'>12.4</div>"
+
+  - lineType: ijal
+    startTime: 2313916
+    endTime:   2316289
+    lushootseed: ʔa ʔu kʷ(i) adsq̓ʷəlaɬəd.
+    english: Do you have (any) berries?
+
+  - lineType: ijal
+    startTime: 2319422
+    endTime:   2323273
+    lushootseed: xʷiʔ. xʷiʔ kʷi dsq̓ʷəlaɬəd.
+    english: No.  I don't have (any) berries.
+    
+  - lineType: ijal
+    startTime: 2323560
+    endTime:   2327375
+    lushootseed: ɬuc̓əbəbiluɬ čəd ʔə kʷi dᶻətgʷad.
+    english: I'll (have to) go (berry) picking for salmonberries.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>12.5</div>"
+
+  - lineType: ijal
+    startTime: 2341460
+    endTime:   2343241
+    lushootseed:  ʔa ʔu kʷ(i) adtalə.
+    english: Do you have (any) money?
+
+  - lineType: ijal
+    startTime: 2345771
+    endTime:   2348905
+    lushootseed: xʷiʔ.  xʷiʔ kʷi dtalə.
+    english: No. I don't have (any) money.
+    
+  - lineType: ijal
+    startTime: 2349122
+    endTime:   2353232
+    lushootseed: cick̓ʷ čəd sʔušəbabdxʷ.  ɬuyayus čəd.
+    english: I am very poor.  I'll (have to) work.
+
+  - lineType: html
+    content: "<div style='margin: 50px;'>This short 'conversation' is used by many groups
+    in the Puet Sound region as a kind of greeting: </div>"
+
+  - lineType: ijal
+    startTime: 2371315
+    endTime:   2373592
+    lushootseed: qa ʔu kʷ(i) adsyəcəb.
+    english: What's new?
+
+  - lineType: ijal
+    startTime: 2377494
+    endTime:   2381503
+    lushootseed: xʷi.  xʷi kʷi dsyəcəb.
+    english:  Nothing.  Nothing new.
+  
+  - lineType: ijal
+    startTime: 2382087
+    endTime:   2383778
+    lushootseed: sʔušəbabdxʷ čəd.
+    english:  I am poor.
+  
+    
+    
+    
 
     
