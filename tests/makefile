@@ -15,6 +15,7 @@ default:
 	@echo ijalFromDict
 	@echo yamlParser
 	@echo textFromYaml
+	@echo yamlFromEAF
 	@echo practiceLists
 
 practiceLists:
@@ -101,6 +102,9 @@ yaml:  yamlParser  textFromYaml
 
 yamlParser:
 	python test_yamlParser.py
+
+yamlFromEAF:
+	python test_yamlFromEAF.py
 
 textFromYaml:
 	python test_TextFromYaml.py
