@@ -25,10 +25,10 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-   #test_lineToYAML()
+   test_lineToYAML()
    test_toYAML_inferno()
-   #test_toYAML_tlingit()
-   #test_toYAML_pesh()
+   test_toYAML_tlingit()
+   test_toYAML_pesh()
 
 #---------------------------------------------------------------------------------------------------
 def test_lineToYAML():
@@ -76,7 +76,7 @@ def test_toYAML_inferno():
     ftg = "../explore/misc/inferno/grammaticalTerms.txt"
 
     pdb.set_trace()
-    text = TextFromYaml(fy, fgt, ftg)
+    #text = TextFromYaml(fy, fgt, ftg)
 
 
     
