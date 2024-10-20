@@ -35,6 +35,8 @@ import yaml
 from tierGuide import TierGuide
 from eafParser import *
 from ijalLine import *
+from practiceLists import PracticeLists
+
 from dropDownMenu import DropDownMenu
  
 from webPacker import WebPacker
@@ -65,6 +67,8 @@ class Text:
    startStopTable = None
    lineTables = None
    useTooltips = False
+   practiceFile = None
+   practiceLists = None
 
    def __init__(self,
                 xmlFilename,
@@ -82,7 +86,8 @@ class Text:
                 linguisticsFilename,
                 fixOverlappingTimeSegments,
                 webpackLinksOnly=False,
-                useTooltips=False):
+                useTooltips=False,
+                practiceFile=None):
 
       self.xmlFilename = xmlFilename
       if(pageTitle == None):
@@ -100,6 +105,9 @@ class Text:
       self.helpFilename = helpFilename
       self.helpButtonLabel = helpButtonLabel
       self.useTooltips = useTooltips
+      self.practiceFile = practiceFile
+      if(self.practiceFile):
+         self.practiceLists = PracticeLists(practiceFile, randomize=True)
       self.kbFilename = kbFilename
       self.linguisticsFilename = linguisticsFilename
       tgReader = TierGuide(tierGuideFile)
@@ -260,6 +268,8 @@ class Text:
             htmlDoc.asis(webPacker.getCSSText())
             htmlDoc.asis(startStopTimesJSText)
             htmlDoc.asis(annotationLinks)
+            if(self.practiceLists):
+               htmlDoc.asis(self.practiceLists.getJavascript())
 
          self.aboutBoxNeeded = self.helpFilename != None
          self.determineAudioOrVideo()
@@ -268,7 +278,8 @@ class Text:
             with htmlDoc.tag("div", id="mainDiv"):
                if(self.aboutBoxNeeded): # initially invisible, displayed on demand
                   addAboutBox(htmlDoc, self.helpFilename)
-
+               if(self.practiceFile):
+                  self.addPracticeDialog(htmlDoc)
                   #-------------------------------------------------------------------------
                   # if audio:  player, title, about and other controls button all in top div
                   #-------------------------------------------------------------------------
@@ -403,7 +414,8 @@ class Text:
                                 id="tierToggle-%s" % tierName)
                   htmlDoc.text(" %s" % tierName)
 
-               
+         if(self.practiceFile):
+           self. practiceLists.addHTML(htmlDoc)
 
    #-------------------------------------------------------------------------------
    def oldCreateOtherControlsDiv(self, htmlDoc):
@@ -492,6 +504,21 @@ class Text:
                   s = f"<!-- sidebarHookLine_{i+1} -->"
                   htmlDoc.asis(s)
                line.toHTML(htmlDoc)
+
+#-------------------------------------------------------------------------------
+   def addPracticeDialog(self, htmlDoc):
+
+      categories = self.practiceLists.getCategories()
+      with htmlDoc.tag("dialog", id="practiceDialog"):
+         with htmlDoc.tag('form', method="dialog"):
+            with htmlDoc.tag("ul"):
+               for category in categories:
+                  with htmlDoc.tag("li"):
+                     with htmlDoc.tag("button", klass="practiceButtonClass"):
+                        htmlDoc.text(category)
+
+          
+
 
 #-------------------------------------------------------------------------------
 def getLinguisticsTopics(filename, verbose):

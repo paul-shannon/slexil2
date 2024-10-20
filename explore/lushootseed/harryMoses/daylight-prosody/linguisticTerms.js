@@ -1,4 +1,81 @@
 linguistics = {
+"STAT":
+`
+STAT: stative, constant, non-dynamic, unchanging throughout its duration
+
+According to some linguistics theories, a stative verb is a verb that
+describes a state of being, in contrast to a dynamic verb, which
+describes an action. The difference can be categorized by saying that
+stative verbs describe situations that are static, or unchanging
+throughout their entire duration, whereas dynamic verbs describe
+processes that entail change over time
+
+`,
+
+"SCONJ":
+`
+SCONJ: sentential conjunction
+
+A sentential conjunction, also known as a logical connective,
+sentential operator, or logical operator, is a word or symbol used to
+connect propositions in logical formulas. Examples of sentential
+connectives include "and," "or," "not," and "if and only if".
+
+Sentential conjunction can also refer to the relationship between noun
+phrases in a sentence.
+
+In **phrasal conjunction** the verb phrase denotes an action shared by the noun phrases.
+
+For example, in the sentence "John and Mary conferred," the act of conferring is
+shared by both John and Mary.
+
+In **sentential conjunction**, each noun phrase denotes its own
+act. For example, in the sentence "John and Mary know the answer,"
+each person has their own act.
+
+`,
+
+"PROG":
+`
+PROG; progressive
+
+From wikipedia:
+
+The continuous and progressive aspects (abbreviated CONT and PROG) are
+grammatical aspects that express incomplete action ("to do") or state
+("to be") in progress at a specific time: they are non-habitual,
+imperfective aspects.
+
+In the grammars of many languages the two terms are used
+interchangeably. This is also the case with English: a construction
+such as "He is washing" may be described either as present continuous
+or as present progressive. However, there are certain languages for
+which two different aspects are distinguished. In Chinese, for
+example, progressive aspect denotes a current action, as in "he is
+getting dressed", while continuous aspect denotes a current state, as
+in "he is wearing fine clothes".
+
+As with other grammatical categories, the precise semantics of the
+aspects vary from language to language, and from grammarian to
+grammarian. For example, some grammars of Turkish count the -iyor form
+as a present tense; some as a progressive tense; and some as
+both a continuous (nonhabitual imperfective) and a progressive
+(continuous non-stative) aspect.
+
+**Continuous versus progressive**
+
+The progressive aspect expresses the dynamic quality of actions that
+are in progress while the continuous aspect expresses the state of the
+subject that is continuing the action. For instance, "Tom is reading"
+can express dynamic activity: "Tom is reading a book" – i.e. right now
+(progressive aspect), or Tom's current state: "Tom is reading for a
+degree" – i.e. Tom is a student (continuous aspect). The aspect can
+often be ambiguous; "Tom is reading Ulysses" may describe his current
+activity (it's in his hand), or the state of having started, but not
+yet finished, the book (it's in his bag).
+
+`,
+
 "PO":
 `
 PO: Possessive

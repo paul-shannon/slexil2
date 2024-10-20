@@ -25,6 +25,7 @@ class EafParser:
    metadata = None
    audioURL = None
    videoURL = None
+   mediaURL = None
    audioMimeType = None
    videoMimeType = None
    fixOverlappingTimeSegments = False
@@ -191,9 +192,14 @@ class EafParser:
         if(urlSuffix in videoExtensions):
            self.videoURL = url
            self.videoMimeType = el.attrib["MIME_TYPE"]
+           self.mediaURL = self.videoURL
+           self.mediaMimeType = self.videoMimeType
         else:
            self.audioURL = url
            self.audioMimeType = el.attrib["MIME_TYPE"]
+           self.mediaURL = self.audioURL
+           self.mediaMimeType = self.audioMimeType
+
 
    #--------------------------------------------------------------------------------   
    def constructTierTable(self):
@@ -389,6 +395,8 @@ class EafParser:
       for row in range(0, rowCount):
          tierName = tbl.loc[row]['tierID']
          rawText = tbl.loc[row]['text']
+         if rawText == None:
+            continue
          tabsFound = rawText.find("\t") > 0
          if tabsFound:
             text = str(rawText.split("\t"))
@@ -446,22 +454,29 @@ class EafParser:
       return(x)
 
    #----------------------------------------------------------------------------------
-   def toYAML(self, title, narrator, textEntry, outputFilename):
+   def toYAML(self, title, narrator, textEntry):
 
       textOut = []
       textOut.append("title: %s" % title)
       textOut.append("narrator: %s" % narrator)
       textOut.append("textEntry: %s" % textEntry)
-      textOut.append("mediaFile: %s" % self.audioURL)
-      textOut.append("mimeType: %s" % self.audioMimeType)
+      textOut.append("mediaFile: %s" % self.mediaURL)
+      textOut.append("mimeType: %s" % self.mediaMimeType)
+      textOut.append("")
       textOut.append("lines:")
       lineNumber = 1
       for tbl in self.getAllLinesTable():
          newLines = self.lineToYAML(tbl, lineNumber)
          textOut.extend(newLines)
+         textOut.append("")
          lineNumber += 1
-      
-      print("--- writing %d lines to %s" % (len(textOut), outputFilename))
+      return(textOut)
+     
+   #----------------------------------------------------------------------------------
+   def writeYAML(self, textOut, outputFilename):
+
+      # print("--- writing %d lines to %s" % (len(textOut), outputFilename))
       with open(outputFilename, 'w') as f:
          f.writelines(s + '\n' for s in textOut)
-     
+
+   #----------------------------------------------------------------------------------

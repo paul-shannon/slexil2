@@ -14,6 +14,7 @@ parser.add_argument('--eaf', type=str, required=True)
 parser.add_argument('--tierGuide', type=str, required=True)
 parser.add_argument('--terms', type=str, required=False)
 parser.add_argument("--verbose", action="store_true")
+parser.add_argument("--practiceFile", help="optional practice scheme")
 parser.add_argument("--helpFile", help="optional info for about box")
 parser.add_argument("--helpButtonLabel", help="optional button label")
 parser.add_argument("--pageTitle", help="optional html title")
@@ -35,6 +36,7 @@ terms = args.terms
 helpFile = args.helpFile
 helpButtonLabel = args.helpButtonLabel
 verbose = args.verbose
+practiceFile = args.practiceFile
 startLine = args.start
 endLine = args.end
 pageTitle = args.pageTitle
@@ -78,7 +80,8 @@ text = Text(xmlFilename=eaf,
             linguisticsFilename = linguisticsFilename,
             webpackLinksOnly = webpackLinksOnly,
             fixOverlappingTimeSegments = fixOverlappingTimeSegments,
-            useTooltips=useTooltips)
+            useTooltips=useTooltips,
+            practiceFile=practiceFile)
 	
 htmlText = text.toHTML()
 filename = "index.html"
