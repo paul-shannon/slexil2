@@ -1,0 +1,351 @@
+title: Pesh Shaman #186
+narrator: unknown
+textEntry: Natalia Caceres
+mediaFile: https://slexildata.artsrn.ualberta.ca/pesh/186_Pesh.wav
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    startTime: 0
+    endTime: 6920
+    ref@BM: ar ye aparakan ʃana tiʃkwa akaki atusri
+    to@BM: [ar,ye,apara=kan,ʃana,ta–iʃk–Ø–wa,a–kaki,a–tus=ri]
+    ot@BM: [HES,small,youth=SIM,sick,MID–make–S3SG–PFV,POSS3SG–mother,POSS3SG–father=COORD]
+    ft@BM: BM: ‘A teenager child gets sick, his mother and his father (call the shaman).’
+
+  - lineNumber: 2
+    startTime: 8870
+    endTime: 16338
+    ref@BM: nãi awãtaya kapaʃki aye ʃana kiwa ĩri kiwasa
+    to@BM: [nã–Ø–i,a–wãta=ya,Ø–kapaʃk–Ø–i,a–ye,ʃana,Ø–ka–i–wa,ĩ=ra,Ø–ka–i–wa=sa]
+    ot@BM: [go–S3SG–PST,POSS3SG–shaman=ERG,O3SG–speak–S3SG–PST,POSS3SG–small,disease,O3SG–make–S3SG–PFV,PROX.DEM=ABS,O3SG–make–S3SG–PFV=C.Q]
+    ft@BM: ‘He went. The shaman said that the kid got sick. What does he (the shaman) do?’
+
+  - lineNumber: 3
+    startTime: 16338
+    endTime: 21910
+    ref@BM: tis wãʃti kẽhã wãʃti kẽi a iski eka
+    to@BM: [tis,Ø–wãʃ–t–Ø–i,Ø–ʃã–Ø–i=hã,Ø–wãʃ–t–Ø–i,Ø–ʃã–Ø–i,a,Ø–isk–Ø–i,eka]
+    ot@BM: [a.little,O3SG–change–IT–S3SG–PST,O3SG–see–S3SG–PST=FOC,O3SG–change–IT–S3SG–PST,O3SG–see–S3SG–PST,HES,O3SG–make–S3SG–PST,PRO3]
+    ft@BM: ‘He cured him a bit and saw him. He cured and saw him. He did it.’
+
+  - lineNumber: 4
+    startTime: 24030
+    endTime: 37937
+    ref@BM: eka ã ĩsi kẽiri ãyo ãyo kii ayera ispakuri
+    to@BM: [eka,ã,ĩsi,Ø–ʃã–i–ri,ã=yo,ã=yo,Ø–ka–i–i,a–ye=ra,Ø–ispak–Ø–u–ri]
+    ot@BM: [PRO3,DIST.DEM,medicine,O3SG–see–S3SG–PST,DIST.DEM=INS,DIST.DEM=INS,O3SG–make–S3SG–PST,POSS3SG–small=ACC,O3SG–pick.up–S3SG–HAB–PST]
+    ft@BM: ‘Him, he saw the medicine. With that (medicine), he made the child recover.’
+
+  - lineNumber: 5
+    startTime: 38710
+    endTime: 44820
+    ref@BM: ok awena atus kaʔoyã tikirwari
+    to@BM: [ok,awena,a–tus,kaʔo=yã,tVk–Ø–ir–u–ri]
+    ot@BM: [ok,then,POSS3SG–father,house=LOC,say–O3SG–S3PL–HAB–PST]
+    ft@BM: ‘Ok then, at home they would tell his father.’
+
+  - lineNumber: 6
+    startTime: 45950
+    endTime: 57980
+    ref@BM: kitã prohi ãhã ĩhĩ wãkan prohi peʔtʃarewa
+    to@BM: [kitã,Ø–proh–Ø–i,ã̀hã̀,ĩhĩ,wã=kan,Ø–proh–Ø–i,Ø–peʔ–tʃera–i–wa]
+    ot@BM: [white.lipped.peccary,O3SG–look.for–S3SG–PST,HES,PROX.DEM,bobo.mullet=SIM,O3SG–look.for–S3SG–PST,O3SG–bring–go.down–S3SG–PFV]
+    ft@BM: ‘He looked for white-lipped peccary, he looked for bobo mullet, he brought it and brought it down.’
+
+  - lineNumber: 7
+    startTime: 59210
+    endTime: 64887
+    ref@BM: tres diyasri ekakan atʃatisk tiski
+    to@BM: [tres,días=ri,eka=kan,atʃatisk,ta–isk–Ø–i]
+    ot@BM: [three,days=TEMP,PRO3=SIM,HES,MID–make–S3SG–PST]
+    ft@BM: ‘For three days, they prepared themselves.’
+
+  - lineNumber: 8
+    startTime: 65830
+    endTime: 67670
+    ref@BM: muniakan kiri
+    to@BM: [munia=kan,Ø–ka–ir–i]
+    ot@BM: [yucca.drink=SIM,O3SG–make–S3PL–PST]
+    ft@BM: ‘They made something similar to yucca drink.’
+
+  - lineNumber: 9
+    startTime: 67670
+    endTime: 74690
+    ref@BM: ĩhĩ kakao kakao ĩkan patayãhari
+    to@BM: [ĩhĩ,cacao,cacao,ĩ=kan,pa–ta–yãh–ha=r–Ø–i]
+    ot@BM: [PROX.DEM,cacao,cacao,PROX.DEM=SIM,INCL–POSS1–say–NMLZ=COP–S3SG–PST]
+    ft@BM: ‘This, cacao, cacao, how is it in our language?’
+
+  - lineNumber: 10
+    startTime: 74130
+    endTime: 74750
+    ref@AM: kaku
+    to@AM: kaku
+    ot@AM: cacao
+    ft@AM: AM: ‘ “Cacao.” ’
+
+  - lineNumber: 11
+    startTime: 74750
+    endTime: 75325
+    ref@BM: kaku
+    to@BM: kaku
+    ot@BM: cacao
+    ft@BM: BM: ‘ “Cacao.” ’
+
+  - lineNumber: 12
+    startTime: 75550
+    endTime: 77230
+    ref@BM: kaku atya kii
+    to@BM: [kaku,a–tia,Ø–ka–i–i]
+    ot@BM: [cacao,POSS3SG–liquid,O3SG–make–S3SG–PST]
+    ft@BM: ‘He made cacao soup.’
+
+  - lineNumber: 13
+    startTime: 77600
+    endTime: 86916
+    ref@BM: ĩka aũ ĩkan taparsa pinol
+    to@BM: [ĩka,aũ,ĩ=kan,tV–Ø–par–wa=sa,pinol]
+    ot@BM: [and,corn,PROX.DEM=SIM,say–O3SG–S1PL.INCL–PFV=C.Q,pinole]
+    ft@BM: ‘And the corn, what is it called? Pinole’
+
+  - lineNumber: 14
+    startTime: 87060
+    endTime: 89171
+    ref@AM: mhm aũ oha
+    to@AM: [mhm,aũ,oh–a]
+    ot@AM: [INTERJ,corn,grind–NMLZ]
+    ft@AM: AM: ‘Ground corn.’
+
+  - lineNumber: 15
+    startTime: 89350
+    endTime: 90690
+    ref@BM: ãra kii
+    to@BM: [ã=ra,Ø–ka–i–i]
+    ot@BM: [DIST.DEM=ACC,O3SG–make–S3SG–PST]
+    ft@BM: BM: ‘He made that.’
+
+  - lineNumber: 16
+    startTime: 91830
+    endTime: 97660
+    ref@BM: aʃatiskeri ani pakwa akaki ayeyo teʔkwa
+    to@BM: [a–ʃa–tisk–er–i,ani,Ø–pak–Ø–wa,a–kaki,a–ye=yo,teʔk–Ø–wa]
+    ot@BM: [REFL–sit–almost–S3PL–PST,late,O3SG–take–S3SG–PFV,POSS3SG–mother,POSS3SG–small=COM,come–S3SG–PFV]
+    ft@BM: ‘They prepared themselves almost late. She took him, the mother came with her son.’
+
+  - lineNumber: 17
+    startTime: 99440
+    endTime: 107680
+    ref@BM: ĩhĩ ĩhĩkan awena a wãta aʃata tiski ĩkan
+    to@BM: [ĩhĩ,ĩhĩ=kan,awena,a,wãta,a–ʃa–ta,ta–isk–i–i,ĩ=kan]
+    ot@BM: [PROX.DEM,PROX.DEM=SIM,then,HES,shaman,REFL–sit–AG.NMLZ,MID–make–S3SG–PST,PROX.DEM=SIM]
+    ft@BM: ‘Then, the shaman prepared himself like that.’
+
+  - lineNumber: 18
+    startTime: 109630
+    endTime: 114110
+    ref@BM: arwãh ĩ kausi arwãh ĩ kausi arwãh ĩ kausi arwãh ĩ kiwa
+    to@BM: [arwãh,ĩ,Ø–ka–u–si,arwãh,ĩ,Ø–ka–u–si,arwãh,ĩ,Ø–ka–u–si,arwãh,ĩ,Ø–ka–i–wa]
+    ot@BM: [man,PROX.DEM,O3SG–make–S3SG–PROX.PST,man,PROX.DEM,O3SG–make–S3SG–PROX.PST,man,PROX.DEM,O3SG–make–S3SG–PROX.PST,man,PROX.DEM,O3SG–make–S3SG–PFV]
+    ft@BM: ‘The man did it, the man did it, the man did it, the man did it.’
+
+  - lineNumber: 19
+    startTime: 114770
+    endTime: 121298
+    ref@BM: a eka katũha iskwa a wãta ekayo katũha iskwa teʔkeri
+    to@BM: [a,eka,katũ–ha,Ø–isk–Ø–wa,a,wãta,eka=yo,katũ–ha,Ø–isk–Ø–wa,teʔk–er–i]
+    ot@BM: [HES,PRO3,work–NMLZ,O3SG–make–S3SG–PFV,HES,shaman,PRO3=COM,work–NMLZ,O3SG–make–S3SG–PFV,come–S3PL–PST]
+    ft@BM: ‘He, he does the work, the shaman with him (child), he does the work. They came.’
+
+  - lineNumber: 20
+    startTime: 121640
+    endTime: 123710
+    ref@BM: ĩkan kapaskerwa ãkan iskerwa
+    to@BM: [ĩ=kan,Ø–kapask–er–wa,ã=kan,Ø–isk–er–wa]
+    ot@BM: [PROX.DEM=SIM,O3SG–speak–S3PL–PFV,DIST.DEM=SIM,O3SG–make–S3PL–PFV]
+    ft@BM: ‘Like this, they speak. They do it like that.’
+
+  - lineNumber: 21
+    startTime: 124130
+    endTime: 129699
+    ref@BM: ãkan ãkan ãkan ãkan ãkan nẽi ayeski pakwa a wãtai
+    to@BM: [ã=kan,ã=kan,ã=kan,ã=kan,ã=kan,nẽ–Ø–i,Ø–ayesk–Ø–i,Ø–pak–Ø–wa,a,wãta=i]
+    ot@BM: [DIST.DEM=SIM,DIST.DEM=SIM,DIST.DEM=SIM,DIST.DEM=SIM,DIST.DEM=SIM,go–S3SG–PST,O3SG–sing–S3SG–PST,O3SG–take–S3SG–PFV,HES,shaman=COP:S3SG:PFV]
+    ft@BM: ‘Like that, like that, like that, he went, he sang, he took him. It is the shaman.’
+
+  - lineNumber: 22
+    startTime: 129699
+    endTime: 131760
+    ref@BM: ãkan ayeski ayeski ayeski
+    to@BM: [ã=kan,Ø–ayesk–Ø–i,Ø–ayesk–Ø–i,Ø–ayesk–Ø–i]
+    ot@BM: [DIST.DEM=SIM,O3SG–sing–S3SG–PST,O3SG–sing–S3SG–PST,O3SG–sing–S3SG–PST]
+    ft@BM: ‘He sang like that, he sang, he sang.’
+
+  - lineNumber: 23
+    startTime: 132650
+    endTime: 137080
+    ref@BM: nẽiwa yeha sukuhui
+    to@BM: [nẽ–i–wa,ye=ha,Ø–sukuh–Ø–u–i]
+    ot@BM: [go–S3SG–PFV,small=FOC,O3SG–grab–S3SG–HAB–PST]
+    ft@BM: ‘He went, he grabbed the child.’
+
+  - lineNumber: 24
+    startTime: 137800
+    endTime: 142038
+    ref@BM: asawayo ĩhĩ ĩkan arkĩski arkĩski arkĩski
+    to@BM: [a–sawa=yo,ĩhĩ,ĩ=kan,a–r–kĩsk–Ø–i,a–r–kĩsk–Ø–i,a–r–kĩsk–Ø–i]
+    ot@BM: [POSS3SG–hand=INS,PROX.DEM,PROX.DEM=SIM,O3SG–APPL.P–press–S3SG–PST,O3SG–APPL.P–press–S3SG–PST,O3SG–APPL.P–press–S3SG–PST]
+    ft@BM: ‘With his hand, he squeezed him like this, he squeezed him, he squeezed him.’
+
+  - lineNumber: 25
+    startTime: 142038
+    endTime: 145330
+    ref@BM: ayeski arkĩski ayeski ĩ kĩski ãkan
+    to@BM: [Ø–ayesk–Ø–i,a–r–kĩsk–Ø–i,Ø–ayesk–Ø–i,ĩ,Ø–kĩsk–Ø–i,ã=kan]
+    ot@BM: [O3SG–sing–S3SG–PST,O3SG–APPL.P–press–S3SG–PST,O3SG–sing–S3SG–PST,PROX.DEM,O3SG–press–S3SG–PST,DIST.DEM=SIM]
+    ft@BM: ‘He sang, he squeezed, he sang, he squeezed him like this.’
+
+  - lineNumber: 26
+    startTime: 146270
+    endTime: 157281
+    ref@BM: komo kwatro o sinko oras a wãtahi ãyo ayãha ĩhĩ saʔpa saʔpatahi
+    to@BM: [como,cuatro,o,cinco,horas,a,wãta=hi,ã=yo,a–yãh–ha,ĩhĩ,saʔpa,saʔpa=tVh=i]
+    ot@BM: [like,four,or,five,hours,HES,shaman=COP:S3SG:PFV,DIST.DEM=INS,POSS3SG–say–NMLZ,PROX.DEM,chichicaste,chichicaste=NEG=COP:S3SG:PST]
+    ft@BM: ‘Like four or five hours the shaman was speaking in his language. (He uses) this chichicaste, it was not a chichicaste.’
+
+  - lineNumber: 27
+    startTime: 157510
+    endTime: 162400
+    ref@BM: ĩhĩ teleʔ teleʔ ĩhĩkan sukuhi
+    to@BM: [ĩhĩ,teleʔ,teleʔ,ĩhĩ=kan,Ø–sukuh–Ø–i]
+    ot@BM: [PROX.DEM,penknife,penknife,PROX.DEM=SIM,O3SG–grab–S3SG–PST]
+    ft@BM: ‘He cut him with this, with a penknife, a penknife.’
+
+  - lineNumber: 28
+    startTime: 162850
+    endTime: 172675
+    ref@BM: ãyo ayãha ĩhĩkan taski auriri ye ĩ yãha awa awata paki ĩhĩ kruskan kiirwa
+    to@BM: [ã=yo,a–yãh–ha,ĩhĩ=kan,Ø–task–Ø–i,a–uri=ri,ye,ĩ,yãh–ha,awa,a–wata,Ø–pak–Ø–i,ĩhĩ,cruz=kan,Ø–ka–ir–wa]
+    ot@BM: [DIST.DEM=INS,POSS3SG–say–NMLZ,PROX.DEM=SIM,O3SG–cut–S3SG–PST,POSS3SG–blood=MDT,small,PROX.DEM,say–NMLZ,HES,POSS3SG–forehead,O3SG–take–S3SG–PST,PROX.DEM,cross=SIM,O3SG–make–S3PL–PFV]
+    ft@BM: ‘He (prayed) in his language, and he cut him (on) his forehead. He took the child's blood. They made the sign of the cross with it (blood).’
+
+  - lineNumber: 29
+    startTime: 164630
+    endTime: 165202
+    ref@AM: taski
+    to@AM: Ø–task–Ø–i
+    ot@AM: O3SG–cut–S3SG–PST
+    ft@AM: AM: ‘He cut him.’
+
+  - lineNumber: 30
+    startTime: 172970
+    endTime: 175430
+    ref@BM: ãyo yeri iʃtakuri
+    to@BM: [ã=yo,ye=r–Ø–i,iʃtak–Ø–u–ri]
+    ot@BM: [DIST.DEM=INS,small=COP–S3SG–PST,get.up–S3SG–HAB–PST]
+    ft@BM: BM: ‘With that, the child got up.’
+
+  - lineNumber: 31
+    startTime: 177570
+    endTime: 183560
+    ref@BM: ama tas propyo tawayo kãari ã ĩhĩ
+    to@BM: [ama,tas,propio,ta–wa=yo,Ø–ʃã–a–ri,ã,ĩhĩ]
+    ot@BM: [HES,PRO1,own,POSS1–eye=INS,O3SG–see–S1SG–PST,DIST.DEM,PROX.DEM]
+    ft@BM: ‘I saw this one with my own eyes.’
+
+  - lineNumber: 32
+    startTime: 184110
+    endTime: 188261
+    ref@BM: takawa asuwa eka wãta kortariras
+    to@BM: [ta–kawa,a–suwa,eka,wãta,korta=r–Ø–i=ras]
+    ot@BM: [POSS1–spouse,POSS3SG–old.woman,PRO3,shaman,woman=COP–S3SG–PST=REAS]
+    ft@BM: ‘Because the mother of my wife, she was the shaman woman.’
+
+  - lineNumber: 33
+    startTime: 188460
+    endTime: 189380
+    ref@AM: suwa wãta
+    to@AM: [suwa,wãta]
+    ot@AM: [old.woman,shaman]
+    ft@AM: AM: ‘The old shaman woman.’
+
+  - lineNumber: 34
+    startTime: 189430
+    endTime: 190887
+    ref@BM: oo swa wãtari
+    to@BM: [oo,swa,wãta=r–Ø–i]
+    ot@BM: [yes,old.woman,shaman=COP–S3SG–PST]
+    ft@BM: BM: ‘Yes, she was the old shaman woman.’
+
+  - lineNumber: 35
+    startTime: 191060
+    endTime: 195330
+    ref@AM: toʔ tata tasuwa taa tatʃerka doɲa María tikiri María Ramos
+    to@AM: [toʔ,tata,ta–suwa,taa,ta–tʃerka,Doña,María,tVk–Ø–ir–ri,María,Ramos]
+    ot@AM: [MED.DEM,HES,POSS1–old.woman,HES,POSS1–great.grandparent,Mrs.,Maria,say–O3SG–S3PL–PST,Maria,Ramos]
+    ft@AM: AM: ‘My grandmother, my great grandmother, called Doña María Ramos.’
+
+  - lineNumber: 36
+    startTime: 193971
+    endTime: 195307
+    ref@BM: doɲa María oo
+    to@BM: [Doña,María,oo]
+    ot@BM: [Mrs.,Maria,yes]
+    ft@BM: BM: ‘Doña María, yes.’
+
+  - lineNumber: 37
+    startTime: 195350
+    endTime: 196919
+    ref@BM: oo ãkan
+    to@BM: [oo,ã=kan]
+    ot@BM: [yes,DIST.DEM=SIM]
+    ft@BM: ‘Yes, like that.’
+
+  - lineNumber: 38
+    startTime: 196390
+    endTime: 197140
+    ref@AM: arirari tas
+    to@AM: [a–r–ir–a–ri,tas]
+    ot@AM: [O3SG–APPL.P–know–S1SG–PST,PRO1]
+    ft@AM: AM: ‘I met her.’
+
+  - lineNumber: 39
+    startTime: 197160
+    endTime: 198226
+    ref@BM: oo doɲa María
+    to@BM: [oo,Doña,María]
+    ot@BM: [yes,Mrs.,Maria]
+    ft@BM: BM: ‘Yes, Doña María.’
+
+  - lineNumber: 40
+    startTime: 198226
+    endTime: 200196
+    ref@BM: ãkan iʃkwa tas kyari
+    to@BM: [ã=kan,Ø–iʃk–Ø–wa,tas,Ø–ʃa–a–ri]
+    ot@BM: [DIST.DEM=SIM,O3SG–make–S3SG–PFV,PRO1,O3SG–see–S1SG–PST]
+    ft@BM: ‘She did it like that (like a shaman), I saw her.’
+
+  - lineNumber: 41
+    startTime: 200220
+    endTime: 200930
+    ref@AM: oo
+    to@AM: oo
+    ot@AM: yes
+    ft@AM: AM: ‘Yes.’
+
+  - lineNumber: 42
+    startTime: 200953
+    endTime: 201582
+    ref@BM: oo
+    to@BM: oo
+    ot@BM: yes
+    ft@BM: BM: ‘Yes.’
+
+  - lineNumber: 43
+    startTime: 202690
+    endTime: 206700
+    ref@AM: importante mwi bonito ẽɲei tiyo ẽɲe tisi
+    to@AM: [importante,muy,bonito,ẽɲe=i,tío,ẽɲe,tis=i]
+    ot@AM: [important,very,pretty,well=COP:S3SG:PFV,uncle,well,little=COP:S3SG:PFV]
+    ft@AM: AM: ‘It is important, very pretty, it is a quite good.’
+

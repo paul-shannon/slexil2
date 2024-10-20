@@ -2,13 +2,22 @@ var state = {
    mediaPlayer: null,          // will be either <audio> or <video>
    videoHeight: 250,           // initial size, adjusted by slider
    mediaPlayerInterval: 100,   // query media current time this often, msecs
-   currentLine: 0
+   currentLine: 0,
+   practiceLists: null
    }
 
 var mediaSegmentEnd;
 var mediaContinuousPlay = true;
 var currentVideoSize = state.videoHeight;
 var slexilJSdate = "2024-jan-02"
+//--------------------------------------------------------------------------------
+function getRandomInt(min, max)
+{
+   min = Math.ceil(min);
+   max = Math.floor(max);
+   return Math.floor(Math.random() * (max - min + 1)) + min;
+
+} // getRandomInt
 //--------------------------------------------------------------------------------
 function refreshLayout(videoRequestedSize)
 {
@@ -66,6 +75,11 @@ $(document).ready(function(){
       console.log("--- assigning state.dialogBox")
       state.aboutBoxDialog = document.getElementById("aboutBoxDialog")
       }
+   //if(document.getElementById('practiceDialog') != null){
+   //   console.log("--- assigning state.practicDialog")
+   //   state.practiceDialog = document.getElementById("practiceDialog")
+   //   }
+
    if(document.getElementById('videoPlayer') != null){
       initialMediaPlayerHeight = state.videoHeight;
       $("#videoPlayer").height(initialMediaPlayerHeight)
@@ -81,6 +95,42 @@ $(document).ready(function(){
    $("#aboutBoxButton").on('click', function(){
       console.log("show aboutBox")
       state.aboutBoxDialog.showModal()
+      })
+
+   $("#showPracticeDialogButton").on('click', function(){
+      console.log("show showPracticeDialog")
+      state.practiceDialog.showModal()
+      })
+
+    $(".practiceButton").on('click', function(event){
+       var button = $(this);
+       var buttonLabel = $(this).text(); 
+       console.log(buttonLabel);
+       console.log(practiceLists);
+       list = practiceLists[buttonLabel]
+       if(list.length > 0){
+          let lineNumber = list[0];
+          scrollAndHighlight(lineNumber);
+          practiceLists[buttonLabel] = practiceLists[buttonLabel].filter(item => item !== lineNumber)
+          } // if length
+       else{
+          button.attr("disabled", true)
+          }
+      })
+
+   $("#configurePracticeButton").on('click', function(event){
+      const lineCount = $(".line-content").length;
+      console.log("configure practice, lines: " + lineCount)
+      var arr = []
+      while(arr.length < lineCount){
+         var randomnumber=Math.ceil(Math.random()*lineCount)
+         if(arr.indexOf(randomnumber) === -1){arr.push(randomnumber)}  
+         }
+      console.log(arr)
+      i = arr[2]
+      playSample(i, timeStamps[i-1].start, timeStamps[i-1].end)
+      event.preventDefault();
+      event.stopPropagation();
       })
 
    $("#closeAboutBoxButton").on('click', function(){
