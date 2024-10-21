@@ -43,7 +43,7 @@ eaf:
 html:
 	python ../../../../utils/eaf2html.py  --eaf $(NAME).eaf \
                        --tierGuide tierGuide.yaml \
-#                       --terms grammaticalTerms.txt \
+                       --terms grammaticalTerms.txt \
                        --pageTitle "Harry Moses - How Daylight Was Stolen" \
                        --fontSizeControls \
                        --kbFilename kb.js \
