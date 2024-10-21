@@ -25,10 +25,10 @@ print("eaf file count: %d" % len(eafFiles))
 #---------------------------------------------------------------------------------------------------
 def runTests():
 
-   test_lineToYAML()
+   # test_lineToYAML()
    test_toYAML_inferno()
-   test_toYAML_tlingit()
-   test_toYAML_pesh()
+   #test_toYAML_tlingit()
+   # test_toYAML_pesh()
 
 #---------------------------------------------------------------------------------------------------
 def test_lineToYAML():
@@ -70,15 +70,22 @@ def test_toYAML_inferno():
     assert(x[18] == '    italianSpeech: mi ritrovai per una selva oscura')
     assert(x[29] == '    english: For the straightforward pathway had been lost.')
 
-    fy = "inferno.yaml"
-    parser.writeYAML(x, fy)
-    fgt = "../explore/misc/inferno/tierGuide.yaml"
-    ftg = "../explore/misc/inferno/grammaticalTerms.txt"
+    yamlFile = "../testData/validYamlFiles/inferno-withLineType.yaml"
+    parser.writeYAML(x, yamlFile)
+    tierGuideFile = "../explore/misc/inferno/tierGuide.yaml"
+    grammaticalTermsFile = "../explore/misc/inferno/grammaticalTerms.txt"
 
+    text = TextFromYaml(yamlFile, grammaticalTermsFile, tierGuideFile)
+    htmlText = text.toHTML()
+    filename = "tmp.html"
+    f = open(filename, "wb")
+    f.write(bytes(htmlText, "utf-8"))
+    #f.write(bytes(htmlText_indented, "utf-8"))
+    f.close()
+    print("    wrote %s" % f.name)
+
+    
     pdb.set_trace()
-    #text = TextFromYaml(fy, fgt, ftg)
-
-
     
 #---------------------------------------------------------------------------------------------------
 def test_toYAML_tlingit():

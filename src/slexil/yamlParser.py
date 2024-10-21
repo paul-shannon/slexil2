@@ -28,6 +28,7 @@ class YamlParser:
    audioURL = None
    videoURL = None
    mimeType = None
+   lineTypeSpecified = False
    fixOverlappingTimeSegments = False
 
    def __init__(self, yamlFile, tierGuideFile=None, verbose=False, fixOverlappingTimeSegments=False):
@@ -64,9 +65,14 @@ class YamlParser:
      for i in range(0, lineCount):
         self.lines[i]['number'] = i
         
-
-     self.htmlLines = [line for line in x['lines'] if line['lineType']=='html']
-     self.ijalLines = [line for line in x['lines'] if line['lineType']=='ijal']
+     if 'lineType' in list(x['lines'][0].keys()):
+        self.htmlLines = [line for line in x['lines'] if line['lineType']=='html']
+        self.ijalLines = [line for line in x['lines'] if line['lineType']=='ijal']
+        self.lineTypeSpecified = True
+     else:
+        self.ijalLines = x['lines']
+        self.htmlLines = []
+        self.lineTypeSpecified = False
 
 
    def getLineCount(self):
@@ -87,7 +93,7 @@ class YamlParser:
       tierValues = list(tierMap.values())
       map = {v: k for k, v in tierMap.items()}
       line = self.lines[number]
-      assert(line['lineType'] == "ijal")
+      #assert(line['lineType'] == "ijal")
       keys = list(line.keys())
       canonicalKeys = ["startTime", "endTime", "speech", "morphemes",
                       "morpheme-gloss", "translation", "number"]
@@ -114,13 +120,12 @@ class YamlParser:
       
    def getHtmlLine(self, number):
       line = self.lines[number]
-      assert(line['lineType'] == "html")
+      #assert(line['lineType'] == "html")
       assert('content' in list(line.keys()))
       return(line['content'])
       
    def getAllLines(self):
       return self.linesAll
-   
 
    def getTierInfo(self):
       return self.tierInfo
@@ -135,8 +140,11 @@ class YamlParser:
 
       self.linesAll = list()
       for i in range(self.getLineCount()):
-         if(self.lines[i]['lineType'] == "html"):
-            newLine = self.getHtmlLine(i)
+         if self.lineTypeSpecified:
+            if(self.lines[i]['lineType'] == "html"):
+               newLine = self.getHtmlLine(i)
+            else:
+               newLine = self.getIjalLine(i)
          else:
             newLine = self.getIjalLine(i)
          self.linesAll.append(newLine)

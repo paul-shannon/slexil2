@@ -47,7 +47,7 @@ doc, tag, text, line = Doc().ttl()
 class TextFromYaml:
 
    yamlFile = ''
-   tierGuideFile = ''
+   tierGuideFile = None
    yamlParser = None
    pageTitle = ''
    aboutBoxNeeded = None
@@ -69,19 +69,19 @@ class TextFromYaml:
 
    def __init__(self,
                yamlFile,
-               grammaticalTermsFile,
-               tierGuideFile,
-               projectDirectory,
-               verbose,
-               fontSizeControls,
-               startLine,
-               endLine,
-               pageTitle,
-               helpFilename,
-               helpButtonLabel,
-               kbFilename,
-               linguisticsFilename,
-               fixOverlappingTimeSegments,
+               grammaticalTermsFile = None,
+               tierGuideFile = None,
+               projectDirectory = "./",
+               verbose = False,
+               fontSizeControls = False,
+               startLine = None,
+               endLine = None,
+               pageTitle = "need title",
+               helpFilename = None,
+               helpButtonLabel = None,
+               kbFilename = None,
+               linguisticsFilename = None,
+               fixOverlappingTimeSegments = False,
                webpackLinksOnly=False,
                useTooltips=False,
                showAnnotations=False):
@@ -106,8 +106,9 @@ class TextFromYaml:
       self.kbFilename = kbFilename
       self.linguisticsFilename = linguisticsFilename
       self.showAnnotations = showAnnotations
-      tgReader = TierGuide(tierGuideFile)
-      self.tierGuide = tgReader.getGuide()
+      if(not tierGuideFile == None):
+         tgReader = TierGuide(tierGuideFile)
+         self.tierGuide = tgReader.getGuide()
       #with open(tierGuideFile, 'r') as f:
       #   self.tierGuide = yaml.safe_load(f)
 
@@ -118,7 +119,7 @@ class TextFromYaml:
       self.verbose = verbose
 
       parser = YamlParser(yamlFile, self.tierGuideFile,
-                         self.verbose, self.fixOverlappingTimeSegments)
+                          self.verbose, self.fixOverlappingTimeSegments)
       self.yamlParser = parser
       parser.run()
 
@@ -191,7 +192,8 @@ class TextFromYaml:
       except AssertionError as e:
          raise Exception(self.yamlFile) from e
       try:
-         assert(os.path.isfile(self.tierGuideFile))
+         if(not self.tierGuideFile == None):
+            assert(os.path.isfile(self.tierGuideFile))
       except AssertionError as e:
          raise Exception(tierGuideFile)from e
 
