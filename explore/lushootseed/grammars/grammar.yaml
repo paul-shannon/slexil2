@@ -2294,9 +2294,221 @@ lines:
     endTime:   2383778
     lushootseed: sʔušəbabdxʷ čəd.
     english:  I am poor.
-  
-    
-    
-    
 
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Thirteen: ʔulub ʔi ti ɬixʷ</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>-alps</td><td>animal, especially domesticated or economically important</td></tr>
+                     <tr><td>-alʔtxʷ </td><td>house, buiding (compare -alətxʷ, 'outside' or 'other side of a house' </td></tr>
+                     <tr><td>bək̓ʷ  </td><td>all </td></tr>
+                     <tr><td>cəb-  </td><td> two of ..., second (compare saliʔ).</td></tr>
+                     <tr><td>sdᶻəladəb (SL)  </td><td>year </td></tr>
+                     <tr><td>sdᶻəlč̓ (NL) </td><td> year</td></tr>
+                     <tr><td>sgʷaʔ  </td><td> own</td></tr>
+                     <tr><td>-gʷiɬ  </td><td>canoe </td></tr>
+                     <tr><td>-ilc  </td><td>money, curved objects </td></tr>
+                     <tr><td>k̓ʷid </td><td>how many?, how much? </td></tr>
+                     <tr><td>ƛəlayʔ </td><td> shovel-nose canoe</td></tr>
+                     <tr><td>spəču (Snohomish) </td><td>cedar-root basket </td></tr>
+                     <tr><td>stiqiw </td><td> horses</td></tr>
+                     <tr><td>syalt (SL)  </td><td>cedar-root basket </td></tr>
+                     <tr><td>yiq̓us (Skagit)  </td><td> cedar-root basket</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>13.1</div>"
+
+  - lineType: ijal
+    startTime: 2397829
+    endTime:   2399857
+    lushootseed: k̓ʷidilc kʷ(i) adtalə.
+    english: How much money do you have?
+
+  - lineType: ijal
+    startTime: 2403658
+    endTime:   2406437
+    lushootseed: (də)č̓əʔilc ti dtalə.
+    english: I have one dollar.
+
+  - lineType: ijal
+    startTime: 2412864
+    endTime:   2415933
+    lushootseed: s(a)liʔilc ti dtalə.
+    english: I have two dollars.
+
+  - lineType: ijal
+    startTime: 2420573
+    endTime:   2423237
+    lushootseed: ɬixʷilc ti dtalə.
+    english: I have three dollars.
+
+  - lineType: ijal
+    startTime: 2427303
+    endTime:   2429971
+    lushootseed: buusilc ti dtalə.
+    english: I have four dollars.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>13.2</div>"
+
+  - lineType: ijal
+    startTime: 2435434
+    endTime:   2438753
+    lushootseed: k̓ʷidulč kʷ(i) adsgʷaʔ adyiq̓us.
+    english: How many (cedar-root) baskets do you own?
+
+  - lineType: ijal
+    startTime: 2451029
+    endTime:   2454734
+    lushootseed: dəč̓aʔulč ti dsgʷaʔ.
+    english: I own one (container).
+
+  - lineType: ijal
+    startTime: 2456655
+    endTime:   2460516
+    lushootseed: saliʔulč ti dsgʷaʔ.
+    english: I own two (containers).
+
+  - lineType: ijal
+    startTime: 2465356
+    endTime:   2468993
+    lushootseed: ɬixʷulč ti dsgʷaʔ.
+    english: I own three (containers).
+
+  - lineType: ijal
+    startTime: 2473263
+    endTime:   2476762
+    lushootseed: buusulč ti dsgʷaʔ.
+    english: I own four (containers).
+
+  - lineType: html
+    content: "<div class='sectionNumber'>13.3</div>"
+
+  - lineType: ijal
+    startTime: 2483304
+    endTime:   2486760
+    lushootseed: k̓ʷid kʷ(i) adsgʷaʔ adstiqtiqiw.
+    english: How many horses do you own?
+
+  - lineType: ijal
+    startTime: 2492857
+    endTime:   2495821
+    lushootseed: dəč̓ʔalps ti dsgʷaʔ.
+    english: I own one (animal).
+
+  - lineType: ijal
+    startTime: 2498750
+    endTime:   2503426
+    lushootseed: saliʔalps ti dsgʷaʔ.
+    english: I own two (animals).
+
+  - lineType: ijal
+    startTime: 2507449
+    endTime:   2510155
+    lushootseed: ɬixʷalps ti dsgʷaʔ.
+    english: I own three (animals).
+
+  - lineType: ijal
+    startTime: 2513692
+    endTime:   2516312
+    lushootseed: buusalps ti dsgʷaʔ.
+    english: I own four (animals).
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>13.4</div>"
+
+  - lineType: ijal
+    startTime: 2523276
+    endTime:   2526767
+    lushootseed: k̓ʷidgʷiɬ kʷ(i) adsgʷaʔ adƛ̓̓əlayʔ.
+    english: Ho many (shovel-nose) canoes do you own?
+
+  - lineType: ijal
+    startTime: 2531175
+    endTime:   2534534
+    lushootseed: dəč̓ʔagʷiɬ ti dsgʷaʔ.
+    english: I own one (canoe).
+
+  - lineType: ijal
+    startTime: 2539927
+    endTime:   2542898
+    lushootseed: cəbagʷiɬ ti dsgʷaʔ.
+    english: I own two (canoes).
+
+  - lineType: ijal
+    startTime: 2547518
+    endTime:   2550738
+    lushootseed: ɬixʷalgʷiɬ ti dsgʷaʔ.
+    english: I own three (canoes).
+
+  - lineType: ijal
+    startTime: 2554738
+    endTime:   2557749
+    lushootseed: buusalgʷiɬ ti dsgʷaʔ.
+    english: I own four (canoes).
+
+
+  - lineType: html
+    content: "<div class='sectionNumber'>13.5</div>"
+
+  - lineType: ijal
+    startTime: 2564606
+    endTime:   2567723
+    lushootseed: k̓ʷidalʔtxʷ kʷ(i) adsgʷaʔ adʔalʔal.
+    english: How many houses do you own?
     
+  - lineType: ijal
+    startTime: 2572466
+    endTime:   2575741
+    lushootseed: dəč̓əʔalʔtxʷ ti dsgʷaʔ.
+    english: I own one (house/building)
+    
+  - lineType: ijal
+    startTime: 2580598
+    endTime:   2583804
+    lushootseed: cəbalʔtxʷ ti dsgʷaʔ.
+    english: I own two (houses/buildings).
+    
+  - lineType: ijal
+    startTime: 2587947
+    endTime:   2590552
+    lushootseed:  ɬixʷalʔtxʷ ti dsgʷaʔ.
+    english: I own three (houses/buildings).
+    
+  - lineType: ijal
+    startTime: 2594560
+    endTime:   2597627
+    lushootseed: buusalʔtxʷ ti dsgʷaʔ.
+    english: I own four (houses/buildings).
+    
+  - lineType: html
+    content: "<div style='margin: 30px'><h5>Sound Drill IX: uu<h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>13.7</div>"
+
+  - lineType: ijal
+    startTime: 2606187
+    endTime:   2607716
+    lushootseed: "uu: sduukʷ"
+    english: iron, knife
+
+  - lineType: ijal
+    startTime: 2608977
+    endTime:   2610408
+    lushootseed: "u: ʔəsdukʷ"
+    english: not right, bad; fierce
