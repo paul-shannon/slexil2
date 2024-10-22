@@ -2296,6 +2296,159 @@ lines:
     english:  I am poor.
 
   - lineType: html
+    content: "<div class='lessonTitle'>Numbers</div>"
+
+  - lineType: ijal
+    startTime: 2396928
+    endTime:   2398716
+    lushootseed: dəč̓uʔ
+    english:  one
+
+  - lineType: ijal
+    startTime: 2402766
+    endTime:   2404598
+    lushootseed: saliʔ
+    english:  two
+
+  - lineType: ijal
+    startTime: 2407391
+    endTime:   2408920
+    lushootseed: ɬixʷ
+    english:  three
+
+  - lineType: ijal
+    startTime: 2412136
+    endTime:   2414027
+    lushootseed: buus
+    english:  four
+
+  - lineType: ijal
+    startTime: 2416432
+    endTime:   2418218
+    lushootseed: cəlac
+    english:  five
+
+  - lineType: ijal
+    startTime: 2421021
+    endTime:   2422675
+    lushootseed: yəlaʔc
+    english:  six
+
+  - lineType: ijal
+    startTime: 2424936
+    endTime:   2426491
+    lushootseed: c̓ukʷs
+    english:  seven
+
+  - lineType: ijal
+    startTime: 2429839
+    endTime:   2431878
+    lushootseed:  təqačiʔ
+    english:  eight
+
+  - lineType: ijal
+    startTime: 2434551
+    endTime:   2436108
+    lushootseed: x̌ʷəl
+    english:  nine
+
+  - lineType: ijal
+    startTime: 2439300
+    endTime:   2440940
+    lushootseed: ʔulub
+    english:  ten
+
+  - lineType: ijal
+    startTime: 2444956
+    endTime:   2447143
+    lushootseed: ʔulub ʔi kʷi d(ə)č̓uʔ
+    english:  eleven
+
+  - lineType: ijal
+    startTime: 2452696
+    endTime:   2455183
+    lushootseed:  ʔulub ʔi kʷi saliʔ
+    english:  twelve
+
+  - lineType: ijal
+    startTime: 2460097
+    endTime:   2462085
+    lushootseed: saliʔači
+    english:  twenty
+
+  - lineType: ijal
+    startTime: 2465804
+    endTime:   2468986
+    lushootseed: saliʔači ʔi kʷi d(ə)č̓uʔ
+    english:  twenty-one
+
+  - lineType: ijal
+    startTime: 2474206
+    endTime:   2477696
+    lushootseed: saliʔači ʔi kʷi saliʔ
+    english:  twenty-two
+
+  - lineType: ijal
+    startTime: 2482768
+    endTime:   2484355
+    lushootseed: sɬixʷačiʔ
+    english:  thirty
+
+  - lineType: ijal
+    startTime: 2488370
+    endTime:   2490230
+    lushootseed: sbuusačiʔ
+    english:  forty
+
+  - lineType: ijal
+    startTime: 2493858
+    endTime:   2495883
+    lushootseed: scəlacačiʔ
+    english:  fifty
+
+  - lineType: ijal
+    startTime: 2499070
+    endTime:   2501182
+    lushootseed: yəlaʔcačiʔ
+    english:  sixty
+
+  - lineType: ijal
+    startTime: 2504167
+    endTime:   2505862
+    lushootseed: c̓ukʷsačiʔ
+    english:  seventy
+
+  - lineType: ijal
+    startTime: 2508843
+    endTime:   2510904
+    lushootseed: təqačiʔačiʔ
+    english:  eighty
+
+  - lineType: ijal
+    startTime: 2516008
+    endTime:   2518139
+    lushootseed: x̌ʷəlačiʔ
+    english:  ninety
+
+  - lineType: ijal
+    startTime: 2521152
+    endTime:   2523389
+    lushootseed: dəčuʔ sbək̓ačiʔ
+    english:  one hundred
+
+  - lineType: ijal
+    startTime: 2527853
+    endTime:   2531056
+    lushootseed: dəčuʔ sbək̓ačiʔi kʷi d(ə)č̓uʔ
+    english:  one hundred and one
+
+  - lineType: ijal
+    startTime: 2534594
+    endTime:   2541928
+    lushootseed: ʔulub ʔi kʷi x̌ʷəl sbək̓ʷačʔ sdᶻəlč̓ ʔi kʷi sc̓uk̓ʷsačiʔ ʔi kʷi cəlac.
+    english:  ten and nine hundred years and seventy and five (1975)
+
+  - lineType: html
     content: "<div class='lessonTitle'>Lesson Thirteen: ʔulub ʔi ti ɬixʷ</div>"
 
   - lineType: html
@@ -2332,32 +2485,32 @@ lines:
     content: "<div class='sectionNumber'>13.1</div>"
 
   - lineType: ijal
-    startTime: 2397829
-    endTime:   2399857
+    startTime: 2557803 # delta: 159974
+    endTime:   2559831 
     lushootseed: k̓ʷidilc kʷ(i) adtalə.
     english: How much money do you have?
 
   - lineType: ijal
-    startTime: 2403658
-    endTime:   2406437
+    startTime: 2563632 # 2403658
+    endTime:   2566411 # 2406437
     lushootseed: (də)č̓əʔilc ti dtalə.
     english: I have one dollar.
 
   - lineType: ijal
-    startTime: 2412864
-    endTime:   2415933
+    startTime: 2572838 # 2412864
+    endTime:   2575907 # 2415933
     lushootseed: s(a)liʔilc ti dtalə.
     english: I have two dollars.
 
   - lineType: ijal
-    startTime: 2420573
-    endTime:   2423237
+    startTime: 2580547 # 2420573
+    endTime:   2583211 # 2423237
     lushootseed: ɬixʷilc ti dtalə.
     english: I have three dollars.
 
   - lineType: ijal
-    startTime: 2427303
-    endTime:   2429971
+    startTime: 2587277 # 2427303
+    endTime:   2589945 # 2429971
     lushootseed: buusilc ti dtalə.
     english: I have four dollars.
 
@@ -2365,32 +2518,32 @@ lines:
     content: "<div class='sectionNumber'>13.2</div>"
 
   - lineType: ijal
-    startTime: 2435434
-    endTime:   2438753
+    startTime: 2595408 # 2435434
+    endTime:   2598727 # 2438753
     lushootseed: k̓ʷidulč kʷ(i) adsgʷaʔ adyiq̓us.
     english: How many (cedar-root) baskets do you own?
 
   - lineType: ijal
-    startTime: 2451029
-    endTime:   2454734
+    startTime: 2611003 # 2451029
+    endTime:   2614708 # 2454734
     lushootseed: dəč̓aʔulč ti dsgʷaʔ.
     english: I own one (container).
 
   - lineType: ijal
-    startTime: 2456655
-    endTime:   2460516
+    startTime: 2616629 # 2456655
+    endTime:   2620490 # 2460516
     lushootseed: saliʔulč ti dsgʷaʔ.
     english: I own two (containers).
 
   - lineType: ijal
-    startTime: 2465356
-    endTime:   2468993
+    startTime: 2625330 # 2465356
+    endTime:   2628967 # 2468993
     lushootseed: ɬixʷulč ti dsgʷaʔ.
     english: I own three (containers).
 
   - lineType: ijal
-    startTime: 2473263
-    endTime:   2476762
+    startTime: 2633237 # 2473263
+    endTime:   2636736 # 2476762
     lushootseed: buusulč ti dsgʷaʔ.
     english: I own four (containers).
 
@@ -2398,32 +2551,32 @@ lines:
     content: "<div class='sectionNumber'>13.3</div>"
 
   - lineType: ijal
-    startTime: 2483304
-    endTime:   2486760
+    startTime: 2643278 # 2483304
+    endTime:   2646734 # 2486760
     lushootseed: k̓ʷid kʷ(i) adsgʷaʔ adstiqtiqiw.
     english: How many horses do you own?
 
   - lineType: ijal
-    startTime: 2492857
-    endTime:   2495821
+    startTime: 2652831 # 2492857
+    endTime:   2655795 # 2495821
     lushootseed: dəč̓ʔalps ti dsgʷaʔ.
     english: I own one (animal).
 
   - lineType: ijal
-    startTime: 2498750
-    endTime:   2503426
+    startTime: 2658724 # 2498750
+    endTime:   2663400 # 2503426
     lushootseed: saliʔalps ti dsgʷaʔ.
     english: I own two (animals).
 
   - lineType: ijal
-    startTime: 2507449
-    endTime:   2510155
+    startTime: 2667423 # 2507449
+    endTime:   2670129 # 2510155
     lushootseed: ɬixʷalps ti dsgʷaʔ.
     english: I own three (animals).
 
   - lineType: ijal
-    startTime: 2513692
-    endTime:   2516312
+    startTime: 2673666 # 2513692
+    endTime:   2676286 # 2516312
     lushootseed: buusalps ti dsgʷaʔ.
     english: I own four (animals).
 
@@ -2432,32 +2585,32 @@ lines:
     content: "<div class='sectionNumber'>13.4</div>"
 
   - lineType: ijal
-    startTime: 2523276
-    endTime:   2526767
+    startTime: 2683250 # 2523276
+    endTime:   2686741 # 2526767
     lushootseed: k̓ʷidgʷiɬ kʷ(i) adsgʷaʔ adƛ̓̓əlayʔ.
     english: Ho many (shovel-nose) canoes do you own?
 
   - lineType: ijal
-    startTime: 2531175
-    endTime:   2534534
+    startTime: 2691149 # 2531175
+    endTime:   2694508 # 2534534
     lushootseed: dəč̓ʔagʷiɬ ti dsgʷaʔ.
     english: I own one (canoe).
 
   - lineType: ijal
-    startTime: 2539927
-    endTime:   2542898
+    startTime: 2699901 # 2539927
+    endTime:   2702872 # 2542898
     lushootseed: cəbagʷiɬ ti dsgʷaʔ.
     english: I own two (canoes).
 
   - lineType: ijal
-    startTime: 2547518
-    endTime:   2550738
+    startTime: 2707492 # 2547518
+    endTime:   2710712 # 2550738
     lushootseed: ɬixʷalgʷiɬ ti dsgʷaʔ.
     english: I own three (canoes).
 
   - lineType: ijal
-    startTime: 2554738
-    endTime:   2557749
+    startTime: 2714712 # 2554738
+    endTime:   2717723 # 2557749
     lushootseed: buusalgʷiɬ ti dsgʷaʔ.
     english: I own four (canoes).
 
@@ -2466,32 +2619,32 @@ lines:
     content: "<div class='sectionNumber'>13.5</div>"
 
   - lineType: ijal
-    startTime: 2564606
-    endTime:   2567723
+    startTime: 2724580 # 2564606
+    endTime:   2727697 # 2567723
     lushootseed: k̓ʷidalʔtxʷ kʷ(i) adsgʷaʔ adʔalʔal.
     english: How many houses do you own?
     
   - lineType: ijal
-    startTime: 2572466
-    endTime:   2575741
+    startTime: 2732440 # 2572466
+    endTime:   2735715 # 2575741
     lushootseed: dəč̓əʔalʔtxʷ ti dsgʷaʔ.
     english: I own one (house/building)
     
   - lineType: ijal
-    startTime: 2580598
-    endTime:   2583804
+    startTime: 2740572 # 2580598
+    endTime:   2743778 # 2583804
     lushootseed: cəbalʔtxʷ ti dsgʷaʔ.
     english: I own two (houses/buildings).
     
   - lineType: ijal
-    startTime: 2587947
-    endTime:   2590552
+    startTime: 2747921 # 2587947
+    endTime:   2750526 # 2590552
     lushootseed:  ɬixʷalʔtxʷ ti dsgʷaʔ.
     english: I own three (houses/buildings).
     
   - lineType: ijal
-    startTime: 2594560
-    endTime:   2597627
+    startTime: 2754534 # 2594560
+    endTime:   2757601 # 2597627
     lushootseed: buusalʔtxʷ ti dsgʷaʔ.
     english: I own four (houses/buildings).
     
@@ -2502,13 +2655,13 @@ lines:
     content: "<div class='sectionNumber'>13.7</div>"
 
   - lineType: ijal
-    startTime: 2606187
-    endTime:   2607716
+    startTime: 2766161 # 2606187
+    endTime:   2767690 # 2607716
     lushootseed: "uu: sduukʷ"
     english: iron, knife
 
   - lineType: ijal
-    startTime: 2608977
-    endTime:   2610408
+    startTime: 2768951 # 2608977
+    endTime:   2770382 # 2610408
     lushootseed: "u: ʔəsdukʷ"
     english: not right, bad; fierce
