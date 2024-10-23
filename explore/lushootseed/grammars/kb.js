@@ -1,4 +1,204 @@
 kb = {
+
+"dəčuʔ sbək̓ačiʔ":
+`
+**Vocabulary Comment 13.10, page 71**
+
+__dəčuʔ sbək̓ačiʔ__ &nbsp; "one hundred" means literally "one all hand(s)".
+
+__bək̓ʷ__ means "all".  (Like the words for thrity, forty, etc., the __-s__
+prefix is also used.)
+`,
+
+
+"saliʔačiʔ":
+`
+**Vocabulary Comment 13.9, page 71**
+
+__saliʔačiʔ__ &nbsp; "twenty" is composed of the number __saliʔ_
+and the suffix __-ačiʔ__ &nbsp; "hand".
+
+The other decades are formed in the same way excpet that
+most speakers also add the prefix __s-__ to the words for
+thirty through ninety.
+`,
+
+
+"k̓ʷid kʷ(i) adsgʷaʔ adstiqtiqiw.":
+`
+**Grammar Note 13.6, page 70**
+
+One way of indicating more than one is to repeat the first
+three sounds of the word - but NOT the prefixes.
+
+Thus __stiqiw__ means "horse" while __stiqtiqiw__ is horses.
+
+The __s-__ is a prefix so it does not figure in the doubling.
+See the second paragraph of section 18.4.
+
+**Grammar Note 18.4, page 95**
+
+__qəlub__ means "eye" while __qel̓qəlub__ means "eyes" (or "glasses").
+
+When part of a word with __l__, __y__,  or __w__ is repeated, one of the
+__l__'s becomes __l̓__ and similarly a __y__ becomes __y̓__ and a __w__ becomes
+__w̓__.
+
+Often, however, it is clear from the situation (or unimportant) whether
+one or more than one thing is being discussed.  In such cases,
+repeating or echoing is not bothered with.
+
+Thus the context would indicate whether one or more shoes is being asked
+about.
+
+If the spearker wished to make it absolutely clear that he had
+more than one shoe in mind, she could say
+   - __qʷəɬqʷəɬiʔšəd__ &nbsp; (Skagit)
+   - __stək̓ʷtək̓ʷabšəd__ &nbs; (Snohomish, SL)
+
+(Because the __s-__ is a prefix, it is not part of the doubling.
+
+Compare this repetition of the first three sounds for indicating
+more than one with the parts repeated to signify smallness (11.4)
+and for counting people (14.7)
+
+`,
+
+"(də)č̓əʔilc ti dtalə.":
+`
+**Grammar Note 13.3, page 70**
+The lower numbers, especially __dəč̓uʔ__ and __saliʔ__ are changed
+somewhat under the influence of the various endings.
+
+Notice how __dəč̓uʔ__ becomes __č̓əʔ-__ and __dəč̓aʔ-__.
+
+In some cases __saliʔ__ is simply replaced with an entirely new word,
+__cəb-__.  (This switching is a little like the English change between
+"two" and "second".)
+`,
+
+
+"k̓ʷidilc kʷ(i) adtalə.":
+`
+**Grammar Note 13.2, page 69**
+
+Numbers, including __k̓ʷid__ "how much/many", frequently require
+different suffixes corresponding to the type of things being counted.
+
+
+These endings - linguists call them "lexical suffixes" or
+"incorporated nouns" - are the same sort that were learned in Lesson
+Ten (although those in Ten referred to parts of the body while in the
+present lesson they designate common (and important) objects).
+
+**Grammar Note 13.4, page 70**
+
+In asking someone how much or how many of something he has,
+the same sentence arrangement is used as was learned in Lesson
+Eleven and Twelve.  __k̓ʷid__ (with its endings) follows the same
+pattern as __ʔa, qa__ and __xʷiʔ__.
+
+`,
+
+
+"k̓ʷidulč kʷ(i) adsgʷaʔ adyiq̓us.":
+`
+**Footnote 1, page 68**
+
+The Snohomish term for cedar-root basket  is ___sp(ə)čuʔ___ and in Southern Lushootseed it is
+___syalt___.
+
+The NL word for cedar-root basket is derived from ___yiq̓ib___ "make a basket"
+which in turn comes from ___yiq̓i(d)___ "work (something) into a tight
+place", the necessary type of weaving done in making a watertight basket.
+
+**Grammar Note 13.5, page 70**
+
+To express the idea of owning rather than temporarily possessing
+something, the word __sqʷaʔ__ is added to the sentence.
+
+Both __sqʷaʔ__ and the word for the item owned usually have the prefixes
+   - __d-__ &nbsp; "my"
+   - __ad-__ &nbsp; "your"
+
+These prefixes are always used with __sgʷaʔ__ but may optionall be
+omitted from the word for the specific item.
+
+`,
+
+
+"ʔulub ʔi kʷi x̌ʷəl sbək̓ʷačʔ sdᶻəlč̓ ʔi kʷi sc̓uk̓ʷsačiʔ ʔi kʷi cəlac.":
+`
+**1975**
+
+Literally this date says "ten and nine hundred years and seventy and five".
+
+The SL equivalent is
+
+   __padac &nbsp; yəxʷ &nbsp; kʷi &nbsp; x̌ʷəl &nbsp;  sbək̓ʷačiʔ &nbsp; sdᶻəladəb &nbsp; yəxʷ &nbsp; kʷi &nbsp; sc̓ukʷsači &nbsp; yexʷ &nbsp; kʷi &nbsp; cəlac__.
+`,
+
+"ʔulub ʔi kʷi d(ə)č̓uʔ":
+`
+**Footnote 4, page 67**
+
+The SL word for "eleven" is _padac yəxʷ kʷi dəč̓uʔ_.
+
+**Vocabulary Comment 13.8, page 70**
+
+Note that __ʔulub ʔi kʷi d(ə)č̓uʔ__ means literally "ten and/plus the one".
+
+It is possible to use __ti, tə__ or even __tiʔiɬ__ in place of __kʷi__.
+Most often __kʷi__ is used when simply counting for the sake of counting.
+
+Otherwise the person counting uses whichever is more appropirate, e.g., __ti__
+for things right at hand, __tiʔiɬ__ for things a ways off, etc.
+
+`,
+
+
+"ʔulub":
+`
+**Footnote 3,page 67**
+
+The SL word for "ten" is _padac_.
+
+`,
+
+"təqačiʔ":
+`
+**Vocabulary Comment 8.7, page 39**
+
+__təgqčiʔ__, the word for eight, means literally "close hand(s)"
+and may derived from an ancient way of counting on the fingers
+whereby all the fingers are brought down against the palm, one
+by one, leaving closed hands except for the thumbs, which presumably
+were counted last for nine and ten.
+
+This hypothesis, however, does not jibe with the Southern Lushootseed
+word for six, __dᶻəlačiʔ__.  Possibly there used to be two different methods
+of counting on the fingers, both of which left their influence on the
+number words.
+
+`,
+
+"yəlaʔc":
+`
+**Vocabulary Comment 6.7, page 28**
+
+The word for "six" in Southern Lushootseed, _dəlačiʔ_, consists of
+two parts:
+
+   - _dᶻəl_ &nbsp; "turn(ed), reverse side"
+   - _-ačiʔ_ &nbsp "hand, forearm"
+
+Thus, _dᶻəlačiʔ_ means literally "turned (or changed) hand".
+When someone counts on his fingers, he must change hands to continue
+beyond _cəlac_ "five", hence the word for "siz".  (The northern term,
+_yəlaʔc_, cannot be analyzed.
+
+`,
+
 "ɬuc̓əbəbiluɬ čəd ʔə kʷi dᶻətgʷad.":
 `
 **Vocabulary Comment 12.7, page 65**
@@ -373,7 +573,8 @@ the body part. For example, in the sentence
 
 there is the word _čaləs_, "hand".
 
-However, instead of using a separate word, an ending (or suffix) referring to
+However, instead of using a separate word, an ending (or suffix - a _lexical
+suffix_) referring to
 that part of the body can be added directly to the action or condition, as
 we see here.
 
@@ -758,8 +959,8 @@ by one, leaving closed hands except for the thumbs, which presumably
 were counted last for nine and ten.
 
 This hypothesis, however, does not jibe with the Southern Lushootseed
-word for six, __dᶻəlačiʔ__.  Possibly there used be two different methods
-of counting on the fngers, both of which left their influence on the
+word for six, __dᶻəlačiʔ__.  Possibly there used to be two different methods
+of counting on the fingers, both of which left their influence on the
 number words.
 
 **Grammar Note 8.2**:

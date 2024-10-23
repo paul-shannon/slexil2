@@ -2296,7 +2296,7 @@ lines:
     english:  I am poor.
 
   - lineType: html
-    content: "<div class='lessonTitle'>Numbers</div>"
+    content: "<div class='lessonTitle'><i>ʔulub ʔi ti ɬixʷ</i> - &nbsp; Numbers</div>"
 
   - lineType: ijal
     startTime: 2396928
