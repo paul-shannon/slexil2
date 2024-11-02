@@ -77,6 +77,23 @@ def test_getIjalLine():
    assert(x['translation'] == 'Midway upon the journey of our life')
 
 #----------------------------------------------------------------------------------------------------
+def test_getTieredLine():
+
+   print("--- test_getTieredLine")
+
+   f = "../testData/validYamlFiles/inferno.yaml"
+   yp = YamlParser(f)
+   lineNumber = 2
+   x = yp.getIjalLine(lineNumber)
+   assert(x['lineNumber'] == lineNumber)
+   assert(x['startTime'] == 0)
+   assert(x['endTime'] == 2828)
+   assert(x['speech'] == 'Nel mezzo del cammin di nostra vita')
+   assert(x['morphemes'] == ['en=il', 'mezz–o', 'de=il', 'cammin–Ø', 'di', 'nostr–a', 'vit–a'])
+   assert(x['morphemeGlosses'] == ['in=DEF:MASC:SG', 'middle-MASC:SG', 'of=DEF:MASC:SG', 'journey–MASC:SG', 'of', 'our-FEM:SG', 'life-FEM'])
+   assert(x['translation'] == 'Midway upon the journey of our life')
+
+#----------------------------------------------------------------------------------------------------
 def test_getHtmlLine():
 
    print("--- test_getHtmlLine")
@@ -164,6 +181,7 @@ def runTests():
   test_ctor()
   test_mediaGetters()
   test_getTierInfo()
+  test_getTieredLine
   test_getIjalLine()
   test_getHtmlLine()  
   # test_lineDictToTable()

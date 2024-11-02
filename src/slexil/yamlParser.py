@@ -34,7 +34,8 @@ class YamlParser:
    def __init__(self, yamlFile, tierGuideFile=None, verbose=False, fixOverlappingTimeSegments=False):
 
      self.yamlFile = yamlFile
-     self.tierInfo = yaml.load(open(tierGuideFile), Loader=yaml.FullLoader)
+     if(self.tierInfo):
+        self.tierInfo = yaml.load(open(tierGuideFile), Loader=yaml.FullLoader)
      x = yaml.load(open(yamlFile), Loader=yaml.FullLoader)
      self.obj = x
      expectedFields = ['title', 'narrator', 'textEntry', 'mediaFile', 'mimeType', 'lines']
@@ -87,7 +88,42 @@ class YamlParser:
    def getMimeType(self):
       return self.mimeType
 
+   def getTieredLine(self, number):
+      line = self.lines[number]
+      
    def getIjalLine(self, number):
+      tierMap = self.tierInfo
+      tierKeys = list(tierMap.keys())
+      tierValues = list(tierMap.values())
+      map = {v: k for k, v in tierMap.items()}
+      line = self.lines[number]
+      #assert(line['lineType'] == "ijal")
+      keys = list(line.keys())
+      canonicalKeys = ["startTime", "endTime", "speech", "morphemes",
+                      "morpheme-gloss", "translation", "number"]
+      lineNumber = line["number"]
+      startTime = line["startTime"]
+      endTime = line["endTime"]
+      speech = line[tierMap["speech"]]
+      morphemes = None
+      if "morpheme" in tierKeys:
+         morphemes = line[tierMap["morpheme"]]
+      morphemeGlosses = None
+      if "morphemeGloss" in tierKeys:
+         morphemeGlosses = line[tierMap["morphemeGloss"]]
+      translation = None
+      if "translation" in tierKeys:
+         translation = line[tierMap["translation"]]
+      return{"lineNumber": lineNumber,
+            "startTime": startTime,
+            "endTime": endTime,
+            "speech": speech,
+            "morphemes": morphemes,
+            "morphemeGlosses": morphemeGlosses,
+            "translation": translation}
+      
+   def getTieredLine(self, number):
+      print("--- yamlParser.getTieredLine")
       tierMap = self.tierInfo
       tierKeys = list(tierMap.keys())
       tierValues = list(tierMap.values())
@@ -124,6 +160,9 @@ class YamlParser:
       assert('content' in list(line.keys()))
       return(line['content'])
       
+   def getRawLines(self):
+      return self.lines
+
    def getAllLines(self):
       return self.linesAll
 
@@ -144,7 +183,10 @@ class YamlParser:
             if(self.lines[i]['lineType'] == "html"):
                newLine = self.getHtmlLine(i)
             else:
-               newLine = self.getIjalLine(i)
+               if self.tierGuide:
+                  newLine = self.getIjalLine(i)
+               #else:
+               #   newLine = self.getTieredLine(i)
          else:
             newLine = self.getIjalLine(i)
          self.linesAll.append(newLine)

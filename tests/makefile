@@ -13,6 +13,7 @@ default:
 	@echo standardizeIjalTierTable
 	@echo xmlFileUtils
 	@echo ijalFromDict
+	@echo inferTiers
 	@echo yamlParser
 	@echo textFromYaml
 	@echo yamlFromEAF
@@ -112,3 +113,5 @@ textFromYaml:
 ijalFromDict:
 	python test_IjalLineFromDict.py
 
+inferTiers:
+	python test_inferTierStructure.py
