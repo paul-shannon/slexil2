@@ -1,5 +1,200 @@
 kb = {
 
+"saliʔəxʷ ʔi tə ʔiɬčəx̌.":
+`
+**Vocabulary Comment 14.14, page 78**
+
+___ʔiɬčəx̌___ "half" consists of two parts:
+
+   - a prefix ___ʔiɬ___ as described in lesson 35:
+     "when comparing someone or something to someone or something else,
+     ___ʔiɬ___ is usually added to the descriptive word".
+
+   - ___čəx̌___ "split, crack"
+
+`,
+
+"p̓əɬq̓ʷ ʔə tə t̓agʷt.":
+`
+**Vocabulary Comment 14.13, page 78**
+
+The basic meaning of ___ t̓agʷt___ is "on top".
+
+Strecthing this concept to include "noon" derives from figurative speech.  The sun is said to
+be on top at this time of day.
+
+`,
+
+"səsaʔliʔ.":
+`
+**Grammar Note 14.7, page 77**
+
+For counting, most animals and objects have special (lexical) suffixes added to
+the number as described before.
+
+When counting people, however, no suffix is used.
+
+Instead, a part of the number word is said twice.
+
+Notice that ___səsaʔliʔ___ and ___bəbuʔs___ repeat the first sound and add
+an extra ___ʔ___.
+
+Most of the other number words (including ___k̓ʷid___) repeat the second and
+third sounds, but ___təqqačiʔ___ echoes only the third.
+
+___diič̓ʔ___ is irregular.
+
+
+
+`,
+
+"ʔaləxʷ k̓ʷid.":
+
+`
+**ʔaləxʷ k̓ʷid**
+
+- ___ʔal___ designages _location in time or place_ (see 10.6).
+- ___-əxʷ___ means "now"
+- ___k̓ʷid___ is "how many/how much".
+
+So the question ___ʔaləxʷ k̓ʷid___ means:
+
+"What time is it?"
+
+and literally:
+
+"at now how many [hours/numbers on the clock]?".
+`,
+
+"k̓ʷidəladxʷ(əxʷ) čəxʷ.":
+`
+**Grammar Note 14.4, page 77**
+
+The suffixes ___-əladxʷ___ "year" and ___-(əɬ)dat___ "day, twenty-four hour period"
+are the same type learned in Lessons Ten and Thirteen.  [pshannon, cribbing from various
+sources:  these are _lexical suffixes_:
+
+<blockquote>
+
+  "[These are] bound elements that appear as affixes, but function as
+  incorporated nouns within verbs and as elements of nouns. They are
+  similar to word roots/stems in function but similar to affixes in
+  form. Although similar to incorporated nouns, lexical affixes differ
+  in that they never occur as freestanding nouns, i.e. they always
+  appear as affixes."  (source unknown)
+
+</blockquote>
+
+**Grammar Note 14.5, page 77**
+
+Redirecting to grammar note 9.5, page 45:
+
+The very common ending __-(h)axʷ/-(h)əxʷ__ is often translated
+as "now", "at that particular time".  It means that the action
+or situation is different from what it was.
+
+This ending has four possible pronunciations depending upon
+the preceeding sounds:
+
+   - __-haxʷ__ or __-həxʷ__ follows voweles a, i, ə, u
+   - __-axʷ__ or __-əxʷ__ follows consonants in Northern Lushootseed.
+   - when all preceding vowels in a word (excluding prefixes) are __ə__,
+     then __-axʷ__ (or __-haxʷ__) is said
+   - otherwise, the ending is __-əxʷ__ (or __-həxʷ__)
+
+`,
+
+"diič̓uʔ.":
+`
+**Sound and Symbol Note 14.2, page 77**
+
+The double __ii__ represents a long __i__ sound (either _ee-ee_ or _a-a_ depending on
+the speaker and the influence of neighboring sounds).
+`,
+
+
+"p̓əɬq̓ʷ ʔə tə t̓agʷt.":
+`
+**Sound and Symbol Note 14.1, page 77**
+
+__p̓__ is something like saying __p__ with a catch in the throat at the same time.
+It is sort of a combination of __p__ and __ʔ__.
+
+**Sound and Symbol Note 14.2, page 77**
+
+__t̓__ is like __t__ plus a catch in the throat said at the same time.
+
+`,
+
+"ʔululub.":
+`
+**Footnote 2, page 76**
+
+___padadac___ in SL.
+`,
+
+"yələlaʔc.":
+`
+**Footnote 1, page 76**
+
+___dᶻələlačiʔ___ in SL.
+`,
+
+"sbuusəɬdat.":
+`
+**Vocabulary Comment, page 75**
+
+The other days of the week are
+
+   - __x̌aʔx̌aʔəɬdat__:  Sunday (Great/Sacred day)
+   - __č̓itabax__: &nbsp; Saturday (near side (of Sunday))
+   - __p̓əɬq̓ʷabac__: Monday (after side (of Sunday))
+   - __bəlx̌ʷəɬdat__: Monday (Skagit) (the day after)
+
+**Vocabulary Comment 14.15, page 78**
+
+The words __č̓itabac__ "Saturday" and __p̓əɬq̓ʷabac__ "Monday" are figurative
+coinages based on __x̌ax̌aʔəɬdat__ "Sunday" as a point of reference.
+
+Sunday is like a great thing to which Saturday is near, and after whicdh Monday
+is located.
+
+The suffix __-abac__ "solid object, body" is, in these two names for the days
+of the week, employed in a highly figurative way.
+
+Compare __diʔabac__ "other side of a solid object" in Lesson Five.
+
+`,
+
+"sɬixʷəɬdat.":
+`
+**Footnote 2, page 74.**
+
+Some people replace _-əɬdat_ with _-il_:
+
+   - _sɬixʷil_
+   - _sbussil_
+   - _scəlacil_
+
+Still others prefer to add _-il_ after _-əɬdat_:
+
+   - _sɬixʷəɬdatil_
+   - _sbussəɬdatil_
+   - _scəlacəɬdatil_
+
+The student should learn the form his teacher likes best.
+
+`,
+
+"scəbdat.":
+`
+**Footnote 1, page 74.**
+
+Some people say _scəbdatil_.
+
+`,
+
+
 "dəčuʔ sbək̓ačiʔ":
 `
 **Vocabulary Comment 13.10, page 71**
