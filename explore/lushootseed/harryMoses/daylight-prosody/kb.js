@@ -2,6 +2,41 @@
 kb = {
 
 //------------------------------------------------------------------------------------------------------------------------
+"tušudub ʔə tiʔəʔ ʔaciɬtabixʷ. ʔuˑ dč’aʔkʷbixʷ ʔaciɬtalbixʷ tiʔəʔ ʔuɬčil.":
+`
+David Beck helps with the sounds in this sentence:
+
+The transcription is missing the tu= ‘past’ clitic, but otherwise
+sounds okay to me. Starting with where you write “code socks” in the
+“soundsLike” tier, I think you
+
+
+- __code__: hear the glottal stop in _ʔu_ as a _k_ because it follows the
+  “missed" _xʷ_, which is pronounced with the same tongue position as
+  _k_;
+
+- break up the fearsome consonant cluster _dč’_ in _dč’aʔkʷbixʷ_ (your
+  “de” in “decode”).  sometimes speakers insert a short schwa _ə_ in
+  those contexts but I don’t hear that here;
+
+- in the same word, simplify the consonant cluster _ʔkʷb_ to “b" and
+  change _xʷ_ to “kw", which is natural for an English speaker,
+
+- __kwah__: resyllabify the _ʔa_ at the beginning of _ʔaciɬtalbixʷ_ with the
+  “kw" you heard at the end of _dčaʔkʷbixʷ_ (100% natural for English
+  to want kw at the beginning of a word)
+
+- miss the _xʷ_ at the end of _ʔaciɬtalbixʷ_ because it is very fast
+  and subtle;
+
+- __tif node chail__:what comes after (your "tif node chail”) is spoken very quickly; HM
+  may “eat” the final syllables of _ʔaciɬtalbixʷ_, and _tiʔəʔ_ is reduced
+  to tee (which is very common), but I think the substance of it is
+  there. Certainly if Vi hadn’t transcribed it for us I doubt very
+  much a non speaker could have recovered it.
+
+`,
+    
 "ləs–ck̓usəd":
 `
 __ləs–ck̓usəd__
@@ -124,8 +159,8 @@ IRR 1SG.PO NM be.there
 - will bring [it]
 - sounds like: SLAWDS-oatxʷ
 - ___ad___: subordinate phrase, 2SG.PO indicates agent, not possessive.
-  (see PO linguistic term)
-
+  (see PO linguistic term
+)
 Thom's "Lushootseed Reader with Introductory Grammar", Volume 1, p3 addresses
 this verb.  I returned to that treatment with a question:  this word
 sounds to me like <b><i>SLAWDS.oatxʷ</i></b> - with _ʔux̌ʷ_ as (it seems to me)
