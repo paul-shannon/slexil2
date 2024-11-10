@@ -2992,3 +2992,164 @@ lines:
     endTime:   3095813
     lushootseed: ƛ̓ut̓ičib ti st̓əqxʷ ʔal ti pə(d)t̓əs.
     english: The beaver would swim in the winter.
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Fifteen: ʔulub ʔi ti cəlac</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> -b </td><td> get/be involved in doing something </td></tr>
+                     <tr><td> sc̓əq (SL) </td><td> fermented salmon eggs </td></tr>
+                     <tr><td> duʔayus (NL) </td><td> fermented salmon eggs </td></tr>
+                     <tr><td> suhuy </td><td> doing/making; finishing </td></tr>
+                     <tr><td> huyəq </td><td> gill net </td></tr>
+                     <tr><td> skʷawəl̓ (SL) </td><td> steelhead </td></tr>
+                     <tr><td> -ləp </td><td> your (plural) </td></tr>
+                     <tr><td> sɬuʔəb (Skagit) </td><td> dog salmon </td></tr>
+                     <tr><td> ƛ̓əxʷayʔ (SL) </td><td> dog salmon </td></tr>
+                     <tr><td> ƛ̓xʷayʔ (Snohomish) </td><td> dog salmon </td></tr>
+                     <tr><td> ƛ̓uc̓ič </td><td> tie/knot net webbing </td></tr>
+                     <tr><td> ƛ̓ux̌ʷƛ̓ux̌ʷ </td><td> oyster </td></tr>
+                     <tr><td> p̓ayəq </td><td> hew/carve a canoe </td></tr>
+                     <tr><td> qiw̓x̌ (NL) </td><td> steelhead  </td></tr>
+                     <tr><td> sx̌əp̓ab </td><td> cockles </td></tr>
+                     <tr><td> ?uləx̌ </td><td> obtain, gather  </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>15.1</div>"
+
+  - lineType: ijal
+    startTime: 3114223 
+    endTime:   3116090
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3120346
+    endTime:   3124129
+    lushootseed: ʔušabalikʷ čəd ʔə tiʔəʔ sɬuʔəb.
+    english:  I'm drying dog salmon.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>15.2</div>"
+
+  - lineType: ijal
+    startTime: 3131710
+    endTime:   3133409
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3136732
+    endTime:   3139574
+    lushootseed: ʔuʔəɬəd čəd ʔə tiʔəʔ duʔayus.
+    english:  I'm eating fermented salmon eggs.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>15.3</div>"
+
+  - lineType: ijal
+    startTime: 3146729
+    endTime:   3148515
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3151942
+    endTime:    3154925
+    lushootseed: ʔuƛ̓uc̓ič čəd ʔə tiʔəʔ huyəq.
+    english:  I'm making a gill net.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>15.4</div>"
+
+  - lineType: ijal
+    startTime: 3162738
+    endTime:   3164484
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3167892
+    endTime:   3171144
+    lushootseed: ʔup̓ayəq čəd ʔə tiʔəʔ ƛ̓əlayʔ.
+    english:  I'm making a shovel-nose canoe.
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B15.1</div>"
+
+  - lineType: ijal
+    startTime: 3182257
+    endTime:   3184035
+    lushootseed: stab kʷ(i) suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3192635
+    endTime:   3195975
+    lushootseed: ʔušabalikʷ čəɬ ʔə tiʔəʔ sɬuʔəb.
+    english: We are drying dog salmon.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B15.2</div>"
+
+  - lineType: ijal
+    startTime: 3198690
+    endTime:   3200860
+    lushootseed: stab kʷ(i) suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3208773
+    endTime:   3212522
+    lushootseed: ʔuqʷuləčalikʷ čəɬ ʔə tiʔəʔ qiw̓x̌.
+    english: We are dip netting steelhead.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B15.3</div>"
+
+  - lineType: ijal
+    startTime: 3220099
+    endTime:   3221823
+    lushootseed: stab kʷ(i) suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3225779
+    endTime:   3228967
+    lushootseed: ʔuʔax̌u(ʔ)b čəɬ ʔə tiʔəʔ sx̌əp̓ab.
+    english: We are getting (i.e., clamming) cockles.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>B15.4</div>"
+
+  - lineType: ijal
+    startTime: 3236951
+    endTime:   3238689
+    lushootseed: stab kʷ(i) suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3242869
+    endTime:   3246026
+    lushootseed: ʔuʔuləx̌ čəɬ ʔə tiʔəʔ ƛ̓ux̌ʷƛ̓ux̌ʷ.
+    english: We are gathering oysters.
+
