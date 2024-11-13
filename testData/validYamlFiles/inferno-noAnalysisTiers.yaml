@@ -5,12 +5,13 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
 mimeType: audio/x-wav
 
 lines:
+  - html: "<h3> A bit of HTML included </h3>"
+
   - lineNumber: 1
     startTime: 0
     endTime: 2828
     italianSpeech: Nel mezzo del cammin di nostra vita
-    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
-    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
+    soundsLike: nell metzo del kuh-mean dee nostruh veeta
     english: Midway upon the journey of our life
 
   - lineNumber: 2
@@ -18,15 +19,21 @@ lines:
     endTime: 5500
     italianSpeech: mi ritrovai per una selva oscura
     soundsLike: me ritrovie per oona selva oscura
-    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
-    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
     english: I found myself within a forest dark
+    speaker: Roberto Benigni
 
   - lineNumber: 3
     startTime: 5624
     endTime: 8033
     italianSpeech: ché la diritta via era smarrita.
-    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
-    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
     english: For the straightforward pathway had been lost.
+    speaker: Roberto Benigni
+
+  - html: "<h3> A bit of HTML included </h3>"
+  - html: "<div style='margin: 50px'>note that next line has only one tier, the Italian speech.</div>"
+
+  - lineNumber: 52
+    startTime: 5624
+    endTime: 8033
+    italianSpeech: ché la diritta via era smarrita.
 

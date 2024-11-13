@@ -11,7 +11,7 @@ sounds okay to me. Starting with where you write “code socks” in the
 “soundsLike” tier, I think you
 
 
-- __code__: hear the glottal stop in _ʔu_ as a _k_ because it follows the
+- __kode__: hear the glottal stop in _ʔu_ as a _k_ because it follows the
   “missed" _xʷ_, which is pronounced with the same tongue position as
   _k_;
 
@@ -23,8 +23,8 @@ sounds okay to me. Starting with where you write “code socks” in the
   change _xʷ_ to “kw", which is natural for an English speaker,
 
 - __kwah__: resyllabify the _ʔa_ at the beginning of _ʔaciɬtalbixʷ_ with the
-  “kw" you heard at the end of _dčaʔkʷbixʷ_ (100% natural for English
-  to want kw at the beginning of a word)
+  “kʷ" you heard at the end of _dčaʔkʷbixʷ_ (100% natural for English
+  to want kʷ at the beginning of a word)
 
 - miss the _xʷ_ at the end of _ʔaciɬtalbixʷ_ because it is very fast
   and subtle;

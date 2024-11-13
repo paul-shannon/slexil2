@@ -364,6 +364,17 @@ td, th {
   //word-spacing: 20px;
   }
 
+.generic--tier{
+  //background-color: lightyellow;
+  grid-template-columns: auto;
+  //border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  //font-size: 30px;
+  text-align: left;
+  margin-left: 5px;
+  //word-spacing: 20px;
+  }
+
 .secondTranscription-tier{
   //background-color: lightyellow;
   //grid-template-columns: auto;

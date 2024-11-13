@@ -3153,3 +3153,122 @@ lines:
     lushootseed: ʔuʔuləx̌ čəɬ ʔə tiʔəʔ ƛ̓ux̌ʷƛ̓ux̌ʷ.
     english: We are gathering oysters.
 
+
+  - lineType: html
+    content: "<div class='lessonTitle'>Lesson Sixteen: ʔulub ʔi ti yəlaʔc</div>"
+
+  - lineType: html
+    content: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>dᶻix̌  </td><td>break down, collapse; mechanical breakdown  </td></tr>
+                     <tr><td>dᶻix̌gʷiɬ  </td><td> breakdown of a vehicle </td></tr>
+                     <tr><td> kʷaxʷad </td><td> help someone  </td></tr>
+                     <tr><td> k̓ʷič̓id (Snohomish, SL)  </td><td>butcher it, clean it  </td></tr>
+                     <tr><td> qʷibid </td><td> fix it, get it ready </td></tr>
+                     <tr><td> q̓il̓bid </td><td>car </td></tr>
+                     <tr><td> q̓ʷəx̌ʷəd (Skagit) </td><td> butcher it, clean it </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - lineType: html
+    content: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - lineType: html
+    content: "<div class='sectionNumber'>16.1</div>"
+
+  - lineType: ijal
+    startTime: 3376058
+    endTime:   3378206
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3381919
+    endTime:   3385897
+    lushootseed: ʔukʷaxʷad čəd tsi dsk̓ʷuy.
+    english: I am helping my mother.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>16.2</div>"
+
+  - lineType: ijal
+    startTime: 3391629
+    endTime:   3393154
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3397991
+    endTime:   3402790
+    lushootseed: ʔuqʷibid čəd tiʔə(ʔ) dq̓il̓bid.  ʔəsdᶻix̌gʷiɬ čəd.
+    english: I am fixing my car.  It is broken down.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>16.3</div>"
+
+  - lineType: ijal
+    startTime: 3412825
+    endTime:   3414473
+    lushootseed: stab kʷ(i) adsuhuy.
+    english: What are you doing?
+
+  - lineType: ijal
+    startTime: 3418265
+    endTime:   3420972
+    lushootseed: ʔuq̓ʷəx̌ʷəd čəd tiʔəʔ sqigʷəc.
+    english: I am butchering this deer.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>16.4</div>"
+
+  - lineType: ijal
+    startTime: 3428653
+    endTime:   3430309
+    lushootseed: stab kʷi suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3433853
+    endTime:   3436739
+    lushootseed: ʔukʷaxʷad čəɬ tiʔəʔ badčəɬ.
+    english: We are helping our father.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>16.5</div>"
+
+  - lineType: ijal
+    startTime: 3444564
+    endTime:   3446490
+    lushootseed: stab kʷi suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3449788
+    endTime:   3453034
+    lushootseed: ʔuqʷibid čəɬ tiʔəʔ ʔalʔalčəɬ.
+    english: We are fixing our house.
+
+  - lineType: html
+    content: "<div class='sectionNumber'>16.6</div>"
+
+  - lineType: ijal
+    startTime: 3460734
+    endTime:   3462446
+    lushootseed: stab kʷi suhuyləp.
+    english: What are you folks doing?
+
+  - lineType: ijal
+    startTime: 3469600
+    endTime:   3472936
+    lushootseed: ʔuq̓ʷəx̌əd čəɬ tiʔəʔ sʔuladxʷ.
+    english: We are cleaning salmon.
+

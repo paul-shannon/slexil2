@@ -1,6 +1,8 @@
 # -*- tab-width: 3 -*-
 #-------------------------------------------------------------------------------
 import os, sys
+from slexil.inferTierStructure import InferTierStructure
+from slexil.tieredLine import TieredLine
 import xmlschema
 from urllib.parse import urlparse
 from lxml import etree
@@ -11,18 +13,18 @@ import pdb
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
-class YamlParser:
+class NewYamlParser:
 
    yamlFile = ''
    obj = None
    tierGuideFile = None
    htmlLines = []
-   ijalLines = []
+   tieredLines = []
    lineCount = None
    tierInfo = None
    timeTable = None
    lineTable = None
-   linesAll = list()
+   lines = list()
    verbose = False
    metadata = None
    audioURL = None
@@ -31,16 +33,17 @@ class YamlParser:
    lineTypeSpecified = False
    fixOverlappingTimeSegments = False
 
-   def __init__(self, yamlFile, tierGuideFile=None, verbose=False, fixOverlappingTimeSegments=False):
+   #----------------------------------------------------------------------
+   def __init__(self, yamlFile, verbose=False, fixOverlappingTimeSegments=False):
 
      self.yamlFile = yamlFile
-     self.tierGuideFile = tierGuideFile
-     if(self.tierGuideFile):
-        self.tierInfo = yaml.load(open(tierGuideFile), Loader=yaml.FullLoader)
      x = yaml.load(open(yamlFile), Loader=yaml.FullLoader)
      self.obj = x
      expectedFields = ['title', 'narrator', 'textEntry', 'mediaFile', 'mimeType', 'lines']
      assert(list(x.keys()) == expectedFields)
+
+     self.tierGuideInferer = InferTierStructure(self.yamlFile)
+     self.tierGuide = self.tierGuideInferer.getTierGuide()
 
      self.title = x['title']
      self.narrator = x['narrator']
@@ -69,29 +72,41 @@ class YamlParser:
         
      if 'lineType' in list(x['lines'][0].keys()):
         self.htmlLines = [line for line in x['lines'] if line['lineType']=='html']
-        self.ijalLines = [line for line in x['lines'] if line['lineType']=='ijal']
+        self.tieredLines = [line for line in x['lines'] if line['lineType']=='ijal']
         self.lineTypeSpecified = True
      else:
-        self.ijalLines = x['lines']
+        self.tieredLines = x['lines']
         self.htmlLines = []
         self.lineTypeSpecified = False
 
 
+   #----------------------------------------------------------------------
    def getLineCount(self):
       return len(self.lines)
 
+   #----------------------------------------------------------------------
    def getAudioURL(self):
       return self.audioURL
 
+   #----------------------------------------------------------------------
    def getVideoURL(self):
       return self.videoURL
 
+   #----------------------------------------------------------------------
    def getMimeType(self):
       return self.mimeType
 
+   #----------------------------------------------------------------------
+   def getHtmlLines():
+      return self.htmlLines
+
+   def getTieredLines():
+      return self.tieredLines
+       
    def getTieredLine(self, number):
       line = self.lines[number]
       
+   #----------------------------------------------------------------------
    def getIjalLine(self, number):
       tierMap = self.tierInfo
       tierKeys = list(tierMap.keys())
@@ -123,62 +138,41 @@ class YamlParser:
             "morphemeGlosses": morphemeGlosses,
             "translation": translation}
       
-   def getTieredLine(self, number):
-      print("--- yamlParser.getTieredLine")
-      tierMap = self.tierInfo
-      tierKeys = list(tierMap.keys())
-      tierValues = list(tierMap.values())
-      map = {v: k for k, v in tierMap.items()}
-      line = self.lines[number]
-      #assert(line['lineType'] == "ijal")
-      keys = list(line.keys())
-      canonicalKeys = ["startTime", "endTime", "speech", "morphemes",
-                      "morpheme-gloss", "translation", "number"]
-      lineNumber = line["number"]
-      startTime = line["startTime"]
-      endTime = line["endTime"]
-      speech = line[tierMap["speech"]]
-      morphemes = None
-      if "morpheme" in tierKeys:
-         morphemes = line[tierMap["morpheme"]]
-      morphemeGlosses = None
-      if "morphemeGloss" in tierKeys:
-         morphemeGlosses = line[tierMap["morphemeGloss"]]
-      translation = None
-      if "translation" in tierKeys:
-         translation = line[tierMap["translation"]]
-      return{"lineNumber": lineNumber,
-            "startTime": startTime,
-            "endTime": endTime,
-            "speech": speech,
-            "morphemes": morphemes,
-            "morphemeGlosses": morphemeGlosses,
-            "translation": translation}
+   #----------------------------------------------------------------------
+   def getTieredLineObject(self, number):
+      tieredLine = TieredLine(self.lines, number, self.getTierGuide())
+      return (tieredLine)
       
+   #----------------------------------------------------------------------
    def getHtmlLine(self, number):
       line = self.lines[number]
       #assert(line['lineType'] == "html")
       assert('content' in list(line.keys()))
       return(line['content'])
       
+   #----------------------------------------------------------------------
    def getRawLines(self):
       return self.lines
 
-   def getAllLines(self):
-      return self.linesAll
+   #----------------------------------------------------------------------
+   def getLines(self):
+      return self.lines
 
-   def getTierInfo(self):
-      return self.tierInfo
+   #----------------------------------------------------------------------
+   def getTierGuide(self):
+      return self.tierGuide
 
+   #----------------------------------------------------------------------
    def getTimeTable(self):
-      startTimes = [line['startTime'] for line in self.ijalLines]
-      endTimes = [line['endTime'] for line in self.ijalLines]
+      startTimes = [line['startTime'] for line in self.tieredLines]
+      endTimes = [line['endTime'] for line in self.tieredLines]
       self.timeTable = pd.DataFrame({"start": startTimes, "end": endTimes})
       return self.timeTable
 
+   #----------------------------------------------------------------------
    def parseAndSortAllLines(self):
 
-      self.linesAll = list()
+      self.lines = list()
       for i in range(self.getLineCount()):
          if self.lineTypeSpecified:
             if(self.lines[i]['lineType'] == "html"):
@@ -190,7 +184,7 @@ class YamlParser:
          else:
             newLine = self.getTieredLine(i)
             #newLine = self.getIjalLine(i)
-         self.linesAll.append(newLine)
+         self.lines.append(newLine)
       
    def run(self):
 

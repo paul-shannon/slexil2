@@ -15,8 +15,11 @@ default:
 	@echo ijalFromDict
 	@echo inferTiers
 	@echo yamlParser
+	@echo newYamlParser
 	@echo textFromYaml
 	@echo yamlFromEAF
+	@echo yamlApp
+	@echo tieredLine
 	@echo practiceLists
 
 practiceLists:
@@ -104,6 +107,9 @@ yaml:  yamlParser  textFromYaml
 yamlParser:
 	python test_yamlParser.py
 
+newYamlParser:
+	python test_NewYamlParser.py
+
 yamlFromEAF:
 	python test_yamlFromEAF.py
 
@@ -115,3 +121,9 @@ ijalFromDict:
 
 inferTiers:
 	python test_inferTierStructure.py
+
+tieredLine:
+	python test_TieredLine.py
+
+yamlApp:
+	python test_yamlToTextApp.py

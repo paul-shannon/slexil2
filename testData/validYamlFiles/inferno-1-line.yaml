@@ -1,0 +1,14 @@
+title: Dante's Inferno
+narrator: Roberto Benigni
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
+mimeType: audio/x-wav
+
+
+lines:
+  - startTime: 0
+    endTime: 2828
+    italianSpeech: Nel mezzo del cammin di nostra vita
+    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
+    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
+    english: Midway upon the journey of our life
