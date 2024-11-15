@@ -1,0 +1,38 @@
+title: How Daylight Was Stolen
+narrator: Harry Moses
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
+#mediaFile: daylight-restoration_V03-22k-aLaw.wav
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    lineType: ijal
+    startTime: 0
+    endTime: 5820
+    lushootseed: ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.
+    soundsLike: 
+    morphemes: [ʔal,kʷi,tu=,ʔal,kʷi,tu=haʔkʷ,gʷəl,xʷiʔ,gʷə=tu=s-ləx̌-il]
+    morphemeGloss: [at,REM,PAST,at,REM,PAST=long.time,SCONJ,NEG,SBJ=PAST=daylight]
+    english: In the distant past, there was no daylight.
+
+  - lineNumber: 2
+    lineType: ijal
+    startTime: 6450
+    endTime: 10469
+    lushootseed: tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ
+    soundsLike: 
+    morphemes: [tiʔəʔ,swatixʷtəd,gʷəl,"tu=?as-bəsad",ʔal,kʷi,tu-haʔkʷ]
+    morphemeGloss: [PROX,land,SCONJ,PAST=STAT–dark,at,REM,PAST=long.time]
+    english: The land, it was dark in the distant past.
+
+  - lineNumber: 3
+    lineType: ijal
+    startTime: 12407
+    endTime: 17351
+    lushootseed: tudxʷadhadəxʷ tiʔəʔ ʔaciɬtalbixʷ.  gʷʔəsčaləxʷ kʷi gʷədəxʷkʷədxʷ čəɬ kʷi sləx̌il.
+    soundsLike: 
+    morphemes: [tu=dxʷ–had–had=əxʷ, tiʔəʔ, ʔaciɬtalbixʷ,gʷʔəs–čal=əxʷ,kʷi,gʷə=dəxʷ=kʷəd–dxʷ,čəɬ,kʷi,sləx̌il]
+    morphemeGloss: [PAST=CTD–DSTR–discuss=now, PROX, people,STAT–how=now,REM,SBJ=ADNM=take–DC,1PL.PO,REM,daylight]
+    english: The people talked it over. How can we manage to obtain the daylight?
+

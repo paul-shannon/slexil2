@@ -35,11 +35,12 @@ from tierGuide import TierGuide
 from slexil.newYamlParser import NewYamlParser
 from slexil.tieredLine import TieredLine
 from slexil.inferTierStructure import InferTierStructure
+
 from dropDownMenu import DropDownMenu
- 
 from webPacker import WebPacker
 import pdb
 import identifyLines
+
 doc, tag, text, line = Doc().ttl()
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -52,7 +53,6 @@ class YamlToText:
    yamlParser = None
    pageTitle = ''
    aboutBoxNeeded = None
-   grammaticalTermsFile = None
    kbFilename = None
    linguisticsFilename = None
    mediaInfo = {"url": None, "mimetype": None}
@@ -70,7 +70,7 @@ class YamlToText:
 
    def __init__(self,
                yamlFile,
-               grammaticalTermsFile = None,
+               grammaticalTerms = [],
                tierGuideFile = None,
                projectDirectory = "./",
                verbose = False,
@@ -89,6 +89,7 @@ class YamlToText:
 
       print("--- textFromYaml.py, ctor")
       self.yamlFile = yamlFile
+      self.grammaticalTerms = grammaticalTerms
       its = InferTierStructure(self.yamlFile)
       x = yaml.load(open(self.yamlFile), Loader=yaml.FullLoader)
       self.lines = its.getAllLines()
@@ -103,7 +104,6 @@ class YamlToText:
       self.webpackLinksOnly = webpackLinksOnly
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
       self.tierGuideFile = tierGuideFile
-      self.grammaticalTermsFile = grammaticalTermsFile
       self.projectDirectory = projectDirectory
       self.fontSizeControls = fontSizeControls
       self.helpFilename = helpFilename
@@ -132,17 +132,14 @@ class YamlToText:
          self.lineNumbers = range(startLine, endLine)
       else:
          self.lineNumbers = range(self.lineCount)
-      #if os.path.isfile(os.path.join(projectDirectory,"ERRORS.log")):
-      #   os.remove(os.path.join(projectDirectory,"ERRORS.log"))
-      #f = os.path.join(projectDirectory, "ERRORS.log")
-      # self.metadata = parser.getMetadata()
-      audioURL = "https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav"
-      #videoURL = parser.getVideoURL()
+      audioURL = self.yamlParser.getAudioURL()
+      videoURL = self.yamlParser.getVideoURL()
+      mimeType = self.yamlParser.getMimeType()
          # we give preference to video
-      #if not videoURL is None:
-      #   self.mediaInfo = {"url": videoURL, "mimeType": "unspecified"}
-      #else:
-      self.mediaInfo = {"url": audioURL, "mimeType": "unspecified"}
+      if not videoURL is None:
+         self.mediaInfo = {"url": videoURL, "mimeType": "unspecified"}
+      else:
+         self.mediaInfo = {"url": audioURL, "mimeType": "unspecified"}
       self.lines = self.yamlParser.getAllLines() 
       self.startStopTable = self.yamlParser.getTimeTable()
 
@@ -196,15 +193,6 @@ class YamlToText:
       except AssertionError as e:
          raise Exception(tierGuideFile)from e
 
-      if(not self.grammaticalTermsFile == None):
-         try:
-            assert(os.path.isfile(self.grammaticalTermsFile))
-         except AssertionError as e:
-            raise Exception(self.grammaticalTermsFile) from e
-         # parse the terms in _makeAbbreviations, read in a single line here
-         grammaticalTerms_raw = open(self.grammaticalTermsFile).read()
-         assert(len(grammaticalTerms_raw) > 0)
-         self.grammaticalTerms = _makeAbbreviationListLowerCase(grammaticalTerms_raw)
       return(True)
 
    #--------------------------------------------------------------------------------   
@@ -479,7 +467,6 @@ class YamlToText:
          for i in self.lineNumbers:
             line = self.lines[i]
             print(line)
-            #pdb.set_trace()
             keys = list(line.keys())
             if keys == ["html"]:
                 print("---- found html")
@@ -489,7 +476,7 @@ class YamlToText:
                print("---- tierNumber is now: %d" % tierNumber)
                tieredLine = TieredLine(self.lines, i, tierNumber,
                                        self.tierGuide,
-                                       grammaticalTerms=[],
+                                       grammaticalTerms=self.grammaticalTerms,
                                        useTooltips=False, verbose=True)
     
                analysisTierNames = tieredLine.getAnalysisTierNames()

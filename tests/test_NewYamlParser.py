@@ -22,7 +22,7 @@ def test_ctor():
 #----------------------------------------------------------------------------------------------------
 def test_mediaGetters():
 
-    print("--- test_mediaGetters")
+    print("--- test_mediaGetters: inferno audio")
 
     f = "../testData/validYamlFiles/inferno.yaml"
     yp = NewYamlParser(f)
@@ -32,7 +32,17 @@ def test_mediaGetters():
     assert(yp.getVideoURL() == None)
     assert(yp.getMimeType() == "audio/x-wav")
     
-           
+    print("--- test_mediaGetters: tlingit video")
+
+    f = "../testData/validYamlFiles/tlingitVan-2lines.yaml"
+    yp = NewYamlParser(f)
+
+    expected = "https://slexildata.artsrn.ualberta.ca/tlingit/83VanRescue.m4v"
+    assert(yp.getAudioURL() == None)
+    assert(yp.getVideoURL() == expected)
+    assert(yp.getMimeType() == "video/m4v")
+
+    
 #----------------------------------------------------------------------------------------------------
 def test_getTierGuide():
 
@@ -55,7 +65,8 @@ def test_getTieredLineObject():
    f = "../testData/validYamlFiles/inferno.yaml"
    yp = NewYamlParser(f)
    lineNumber = 2
-   tl = yp.getTieredLineObject(lineNumber)
+   tierNumber = 2
+   tl = yp.getTieredLineObject(lineNumber, tierNumber)
 
    map = tl.getTierMap()  # same as tl.getTierGuide()
 

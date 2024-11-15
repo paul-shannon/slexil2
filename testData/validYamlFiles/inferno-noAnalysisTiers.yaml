@@ -5,7 +5,7 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
 mimeType: audio/x-wav
 
 lines:
-  - html: "<h3> A bit of HTML included </h3>"
+  - html: "<div style='margin: 30px'><h5>From Roberto Benigni's Reading </h5></div>"
 
   - lineNumber: 1
     startTime: 0
@@ -29,8 +29,7 @@ lines:
     english: For the straightforward pathway had been lost.
     speaker: Roberto Benigni
 
-  - html: "<h3> A bit of HTML included </h3>"
-  - html: "<div style='margin: 50px'>note that next line has only one tier, the Italian speech.</div>"
+  - html: "<div style='margin: 50px'>(note that next line has only one tier, the Italian speech.)</div>"
 
   - lineNumber: 52
     startTime: 5624

@@ -16,6 +16,7 @@ default:
 	@echo inferTiers
 	@echo yamlParser
 	@echo newYamlParser
+	@echo grammaticalTermFormatter
 	@echo textFromYaml
 	@echo yamlFromEAF
 	@echo yamlApp
@@ -127,3 +128,7 @@ tieredLine:
 
 yamlApp:
 	python test_yamlToTextApp.py
+
+grammaticalTermFormatter:
+	python test_grammaticalTermFormatter.py
+

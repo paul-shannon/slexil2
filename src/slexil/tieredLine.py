@@ -24,7 +24,7 @@ david.beck at ualberta.ca.
 import pandas as pd
 pd.set_option('display.max_columns', None)
 from xml.etree import ElementTree as etree
-from morphemeGloss import *
+# from morphemeGloss import *
 from pprint import pprint
 from yattag import *
 import pdb
@@ -32,6 +32,8 @@ import formatting
 #from translationLine import *
 #from slexil.standardizeIjalTierTable import StandardizeIjalTierTable
 from slexil.inferTierStructure import InferTierStructure
+from slexil.grammaticalTermFormatter import GrammaticalTermFormatter
+
 
 # ------------------------------------------------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
@@ -373,35 +375,45 @@ class TieredLine:
 
             tierMap = self.getTierMap()
 
+            if len(aMap) == 2:  # not the only, but the expected common case
+               analysisTierNames = list(self.getAnalysisTierNameMap().values())
+               morphemes = self.line[analysisTierNames[0]]
+               morphemeGlosses = self.line[analysisTierNames[1]]
+               self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
+
+               morphemeSpacingStyleString = ""
+               if (morphemes):
+                  if(len(morphemes) > 0):
+                     morphemeSpacingStyleString = \
+                       "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
+                  with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+                     for morpheme in morphemes:
+                        with htmlDoc.tag("div", klass="morpheme-cell"):
+                            htmlDoc.asis(morpheme)
+
+               if (morphemes and morphemeGlosses):
+                  if(len(morphemeGlosses) > 0):
+                     with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+                        for morphemeGloss in morphemeGlosses:
+                            with htmlDoc.tag("div", klass="morpheme-cell"):
+                               mg = GrammaticalTermFormatter(morphemeGloss,
+                                                             self.grammaticalTerms)
+                               mg.parse()
+                               s = mg.format()
+                               print(s)
+                               htmlDoc.asis(s)
+
             for userTierName in list(self.getGenericTierNameMap().values()):
                if(userTierName in self.line.keys()):
-                  with htmlDoc.tag("div", klass="generic-tier"):
+                  print("--- generic tier with user name: %s" % userTierName)
+                  className = "generic-tier"
+                  if userTierName == "soundsLike":
+                     soundsLikeText = self.line[userTierName]
+                     if soundsLikeText is None:
+                        continue
+                     className = "soundsLike-tier"
+                  with htmlDoc.tag("div", klass=className):
                      htmlDoc.asis(self.line[userTierName])
-#
-#            if len(aMap) == 2:  # not the only, but the expected common case
-#               analysisTierNames = list(self.getAnalysisTierNameMap().values())
-#               morphemes = self.line[analysisTierNames[0]]
-#               morphemeGlosses = self.line[analysisTierNames[1]]
-#               self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
-#
-#               morphemeSpacingStyleString = ""
-#               if (morphemes):
-#                  if(len(morphemes) > 0):
-#                     morphemeSpacingStyleString = \
-#                       "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
-#                  with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
-#                     for morpheme in morphemes:
-#                        with htmlDoc.tag("div", klass="morpheme-cell"):
-#                            htmlDoc.asis(morpheme)
-#
-#               if (morphemes and morphemeGlosses):
-#                  if(len(morphemeGlosses) > 0):
-#                     with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
-#                        for morphemeGloss in morphemeGlosses:
-#                            with htmlDoc.tag("div", klass="morpheme-cell"):
-#                               mg = MorphemeGloss(morphemeGloss, self.grammaticalTerms)
-#                               mg.parse()
-#                               mg.toHTML(htmlDoc)
 
 #            translation = self.getTranslation()
 #            if translation:

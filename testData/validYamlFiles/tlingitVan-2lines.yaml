@@ -1,0 +1,18 @@
+title: Van Rescue
+narrator: various
+textEntry: Alice Taff
+mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/83VanRescue.m4v
+mimeType: video/m4v
+
+
+lines:
+  - startTime: 0
+    endTime: 2800
+    tlingitSpeech: wjiḵaak wé kaa.
+    english: The car sank.
+
+  - startTime: 3000
+    endTime: 9000
+    tlingitSpeech: Lʼéiw tóode wjiḵaak wé kaa.
+    english: The car sank into the sand.
+

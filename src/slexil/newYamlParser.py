@@ -68,7 +68,6 @@ class NewYamlParser:
      self.textEntry = x['textEntry']
 
      self.lines = x["lines"]
-     print("    newYamlParser ctor")
      lineCount = len(self.lines)
 
      for i in range(0, lineCount):
@@ -146,8 +145,12 @@ class NewYamlParser:
             "translation": translation}
       
    #----------------------------------------------------------------------
-   def getTieredLineObject(self, number):
-      tieredLine = TieredLine(self.lines, number, self.getTierGuide())
+   # line number and tier number, when different, accomdate the possible
+   # presence of html lines in the self.lines list
+   def getTieredLineObject(self, lineNumber, tierNumber):
+
+      tieredLine = TieredLine(self.lines, lineNumber, tierNumber,
+                              self.getTierGuide())
       return (tieredLine)
       
    #----------------------------------------------------------------------
