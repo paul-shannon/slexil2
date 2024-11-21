@@ -6,7 +6,6 @@ default:
 	@echo pkgs
 	@echo install
 	@echo run
-	@echo run-minimal
 	@echo build
 	@echo build-noCache
 	@echo push
@@ -19,10 +18,10 @@ default:
 #	@echo checkAlberta
 
 venv:
-	source ~/github/slexil2/py3105/bin/activate
+	source ~/github/slexil2/py3105slexil/bin/activate
 
 pkgs:
-	pip install -r requirements.txt
+	pip install -r requirements-versioned.txt
 
 install:
 	(cd ../..; make install)
@@ -38,6 +37,9 @@ bash:
 
 bashIn:
 	docker exec -it slexil2Container bash
+
+runNoDocker:
+	python main.py
 
 run:
 	docker run -d --name slexil2Container -p $(PORT):80 pshannon/slexil2:$(VERSION)
