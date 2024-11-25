@@ -1,0 +1,30 @@
+title: Lushootseed Book 1
+narrator: Thom Hess
+textEntry: Paul Shannon
+mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
+mimeType: audio/wav
+
+lines:
+  - html: "<div class='lessonTitle'>Lesson One: dəčuʔ</div>"
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>1.1</div>"
+
+  - startTime: 15057
+    endTime: 17867
+    lushootseed: stab əw̓ə tiʔiɬ.
+    english:  What is that? (What could that be?)
+
+  - startTime: 21740
+    endTime: 23776
+    lushootseed: spaʔc tiʔiɬ.
+    english: That is a bear.
+
+  - html: "<div class='sectionNumber'>1.2</div>"
+
+
+  - startTime: 39196
+    endTime: 41894
+    lushootseed: sqigʷəc tiʔiɬ.
+    english: That is a deer.

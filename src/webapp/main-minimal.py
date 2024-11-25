@@ -13,10 +13,16 @@ from dash import dcc, html, dash_table
 
 import pandas as pd
 slexil_webapp_version = "2.0.0"
+from slexil.yamlToText import YamlToText
 
-buttonStyle = {'font-size': '24px',
-               'color': 'red'}
 
+#--------------------------------------------------------------------------------
+PROJECTS_DIRECTORY = "PROJECTS"
+try:
+    assert (os.path.exists(PROJECTS_DIRECTORY))
+except AssertionError:
+    os.mkdir(PROJECTS_DIRECTORY)
+#--------------------------------------------------------------------------------
 uploaderStyle = {'width': '60%',
                  'height': '60px',
                  'lineHeight': '60px',
@@ -24,14 +30,14 @@ uploaderStyle = {'width': '60%',
                  'borderStyle': 'solid',
                  'borderRadius': '5px',
                  'textAlign': 'center',
-                 'font-size': '24px',
+                 'fontSize': '24px',
                  'margin': '10px',
-                 'margin-left': '100px',
+                 'marginLeft': '100px',
                  'display': 'none'
                  }
 
-simpleTextDisplayStyle = {'font-size': '32px',
-                          'margin-left': '200px'
+simpleTextDisplayStyle = {'fontSize': '32px',
+                          'marginLeft': '200px'
                           }
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -51,46 +57,46 @@ def openPreview(urlpath):
 dashApp.layout = html.Div([
     dcc.Store(id="globals", data={'slexil initialized': slexil_webapp_version}),
     html.H1("Sləxil",
-             style={"text-align": "left", "margin-left": "20px"}),
+             style={"textAlign": "left", "marginLeft": "20px"}),
     html.Div(id="titleDiv",
              children=[html.Span("Title: ",
-                                 style={"margin-left": "20px", "fontSize": "24px"}),
+                                 style={"marginLeft": "20px", "fontSize": "24px"}),
                        dcc.Input(id="titleInput",
                                  type='text',
                                  debounce=True,
-                                 placeholder='',
+                                 placeholder='<return> to assign',
                                  value="",
                                  className="titleInput",
                                  style={"fontSize": "24px", "width": "800px"})
                        ]),
     html.Div(id="fileTypeChooser",
-             style={'margin-left': '20px', 'fontSize': '24px',
-                    'display': 'inline-block', 'margin-right': '10px'},
-             children=[html.Span("Input File Type? "),
+             style={'margin': '20px', 'fontSize': '24px',
+                    'display': 'inline-block', 'marginRight': '10px'},
+             children=[html.Span("Input File Type? ",
+                                 id="inputFileTypePrompt",
+                                 style={'color': 'lightgray'}
+                                 ),
                        dcc.RadioItems(id="fileTypeRadioButtons",
-                                      options=['EAF', 'YAML'],
+                                      options=[
+                                          {'label': 'EAF', 'value': 'EAF', 'disabled': True},
+                                          {'label': 'YAML', 'value': 'YAML', 'disabled': True}
+                                         ],
                                       inline=True,
                                       style={'display': 'inline-block',
-                                             "color": "green"}), #]),
-    dcc.Upload(
-        id='eafFilename-select',
-        children=html.Div([
-            'EAF: Drag and Drop or ',
-            html.A('Select File')
-            ]),
-        style=uploaderStyle,
-        multiple=False
-        ),
-    html.Div(id='eafFilename-display',
-             style=simpleTextDisplayStyle),
-    dcc.Upload(
-        id='yamlFilename-select',
-        children=html.Div(
-            children=['YAML: Drag and Drop or ', html.A('Select File')]
-             ),
-        style=uploaderStyle,
-        multiple=False
-        )]),
+                                             "color": "lightgray"}),
+                                      # disabled=True),
+                       dcc.Upload(
+                           id='mainTextUploader',
+                           children=html.Div([
+                               'Drag and Drop or ',
+                               html.A('Select File')
+                           ]),
+                           style=uploaderStyle,
+                           multiple=False
+                       ),
+                       html.Div(id='eafFilename-display',
+                                style=simpleTextDisplayStyle),
+                       ]),
 
     dcc.Upload(
         id='grammaticalTermsFilename-select',
@@ -101,26 +107,39 @@ dashApp.layout = html.Div([
         style=uploaderStyle,
         multiple=False
         ),
-    html.Button('Create HTML', id='createHtmlButton', className="button",
-                disabled=False, style=buttonStyle),
-    html.Div(id="download-html-div",
-             children=[html.Button("Download HTML", id="downloadHtmlButton",
-                                   style={"font-size": "18px"}),
-                       dcc.Download(id="download-html")]),
-    html.Div(id="download-yaml-div",
-             children=[html.Button("Download YAML", id="btn-download-txt",
-                                   style={"font-size": "18px"}),
-                       dcc.Download(id="download-yaml")]),
-    html.Button("Display State", id='displayStateButton', className="submit",
-                style={"font-size": "18px"}),
+    html.Div(id="buttonDiv",
+             style={"margin": "20px"},
+             children=[
+                 html.Button('Create HTML',
+                             id='createHtmlButton',
+                             className="button",
+                             disabled=True), 
+                 html.Div(id="download-html-div",
+                          children=[html.Button("Download HTML",
+                                                id="downloadHtmlButton",
+                                                className="button",
+                                                disabled=True),
+                                    dcc.Download(id="download-html")],
+                          style={"display": "inline-block"}),
+                 html.Div(id="download-yaml-div",
+                          children=[html.Button("Download YAML",
+                                                id="btn-download-txt",
+                                                className="button",
+                                                disabled=True),
+                                    dcc.Download(id="download-yaml")],
+                          style={"display": "inline-block"}),
+                 html.Button("Display State",
+                             id='displayStateButton',
+                             className="button")
+                 ]),
     html.Div(id='grammaticalTermsFilename-display',
              style=simpleTextDisplayStyle),
     html.Div(id='message-div', style={'height': '400px', 'width': "90%",
                                       'border': '1px solid black',
-                                      'border-radius': '10px',
+                                      'borderRadius': '10px',
                                       'margin': '20px',
                                       'padding': '10px',
-                                      'font-size': '24px',
+                                      'fontSize': '24px',
                                       'overflow': 'auto'}),
     html.Div(id='hidden-div', style={'display':'none'})])
 
@@ -146,30 +165,18 @@ def handleDisplayStateButton(n_clicks, globals): #currentMessageContents, global
     return currentMessageContents
     
 
-@dashApp.callback(#Output('message-div', 'children', allow_duplicate=True),
-                  Output('globals', 'data', allow_duplicate=True),
-                  Output('eafFilename-select', 'style'),
-                  Output('yamlFilename-select', 'style'),
+@dashApp.callback(Output('globals', 'data', allow_duplicate=True),
+                  Output('mainTextUploader', 'style'),
                   Input('fileTypeRadioButtons', 'value'),
                   State('message-div', 'children'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
 def handleFileTypeSelection(fileType, currentMessageContents, globals):
     print("handleFileTypeSelection: %s" % fileType)
-    if currentMessageContents is None:
-        currentMessageContents = []
     newText = dcc.Markdown("- input file type: %s" % fileType)
-    currentMessageContents.append(newText)
-    if fileType == "EAF":
-       newEafStyle = {'display': 'inline-block'}
-       newYamlStyle = {'display': 'none'}
-    else:
-       newEafStyle = {'display': 'none'}
-       newYamlStyle = {'display': 'inline-block'}
-
+    mainTextUploaderStyle = {'display': 'inline-block'}
     globals['fileType'] = fileType
-    #return currentMessageContents, globals, newEafStyle, newYamlStyle
-    return globals, newEafStyle, newYamlStyle
+    return globals, mainTextUploaderStyle
 
 
 def handleFileTypeSelection(fileType, currentMessageContents):
@@ -181,6 +188,10 @@ def handleFileTypeSelection(fileType, currentMessageContents):
 
 
 @dashApp.callback(Output('globals', 'data', allow_duplicate=True),
+                  #Output('createHtmlButton', 'disabled'),
+                  Output('fileTypeRadioButtons', 'options'),
+                  Output('fileTypeRadioButtons', 'style'),
+                  Output('inputFileTypePrompt', 'style'),
                   Input('titleInput', 'value'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
@@ -190,61 +201,94 @@ def saveProjectName(projectTitle, globals):
     #pdb.set_trace()
     globals['projectTitle'] = projectTitle
     globals['projectName'] = projectName
-    return globals
+    enabledRadioButtonOptions=[
+        {'label': 'EAF', 'value': 'EAF', 'disabled': False},
+        {'label': 'YAML', 'value': 'YAML', 'disabled': False}
+        ]
+    radioButtonStyle = {'color': 'black', 'display': 'inline-block'}
+    inputFileTypePromptStyle = {'color': 'black'}
+    
+    return globals, enabledRadioButtonOptions, radioButtonStyle, inputFileTypePromptStyle
 
     
-@dashApp.callback(Output('message-div', 'children', allow_duplicate=True),
-                  Input('eafFilename-select', 'contents'),
-                  State('eafFilename-select', 'filename'),
-                  State('eafFilename-select', 'last_modified'),
-                  State('message-div', 'children'),
+
+@dashApp.callback(Output('createHtmlButton', 'disabled'),
+                  Output('globals', 'data', allow_duplicate=True),
+                  Input('mainTextUploader', 'contents'),
+                  State('mainTextUploader', 'filename'),
+                  State('mainTextUploader', 'last_modified'),
+                  State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleEafUpload(contents, filename, date, currentMessageContents):
-    if(contents is not None):
-       if currentMessageContents is None:
-           currentMessageContents = []
-       saveEAF(contents, filename)
-       newText = dcc.Markdown('''
-         - EAF: %s
-         - date: 19 nov 2024
-         ''' % (filename))
-       currentMessageContents.append(newText)
-       return currentMessageContents
+def handleMainTextUpload(contents, filename, date, globals):
+
+    globals['mainTextFilename'] = filename
+    projectName = globals['projectName']
+    projectTitle = globals['projectTitle']
+    projectDirectory = os.path.join(PROJECTS_DIRECTORY, projectName)
+    mainTextFilePath = os.path.join(projectDirectory, filename)
+    globals['mainTextFilePath'] = mainTextFilePath
+
+    saveUploadedFile(contents, projectName, filename)
+
+    fileType = globals['fileType']
+    print("%s has format %s" % (filename, fileType))
+    if fileType == "EAF":
+       p = EafParser(mainTextFilePath, verbose=False, fixOverlappingTimeSegments=False)
+       p.run()
+       title = globals['projectTitle'] = projectTitle
+       yamlText = p.toYAML(projectTitle, projectName, projectName)
+       yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
+       p.writeYAML(yamlText, yamlFileName)
+       globals['yamlFileName'] = yamlFileName
+       #pdb.set_trace()
+       tbl = p.getTierTable()
+       globals['tiers'] = list(tbl['TIER_ID'])
+       globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
+       globals['parent'] = list(tbl['PARENT_REF'])
+       globals['lineCount'] = list(tbl['LINES'])
+       print(p.getTierTable())
+    if fileType == "YAML":
+       globals['yamlFileName'] = mainTextFilePath
+       
+    return False, globals
    
 #--------------------------------------------------------------------------------
-def saveEAF(contents, filename):
+def saveUploadedFile(contents, projectName, filename):
 
-   print("--- stub for parsing and saving %s" % filename)
    data = contents.encode("utf8").split(b";base64,")[1]
    print("len(data) = %d" %len(data))
-   filepath = os.path.join("./", filename)
-   with open(filename, "wb") as fp:
-        fp.write(base64.decodebytes(data))
-   print("Filename: %s" %filename)
-   assert(os.path.isfile(filename))
 
-          
+   targetDirectory = os.path.join(PROJECTS_DIRECTORY, projectName)
+   if (not os.path.exists(targetDirectory)):
+        os.mkdir(targetDirectory)
+   newFile = os.path.join(targetDirectory, filename)
+
+   with open(newFile, "wb") as fp:
+      fp.write(base64.decodebytes(data))
+   print("Filename: %s" % newFile)
+   assert(os.path.isfile(newFile))
 
 #--------------------------------------------------------------------------------
-@dashApp.callback(Output('message-div', 'children'),
-                  Input('yamlFilename-select', 'contents'),
-                  State('yamlFilename-select', 'filename'),
-                  State('yamlFilename-select', 'last_modified'),
-                  State('message-div', 'children'),
-                  prevent_initial_call=True)
-def update_output(contents, filename, date, currentMessageContents):
-    if(contents is not None):
-       if currentMessageContents is None:
-           currentMessageContents = []
-       newText = dcc.Markdown('''
-         - YAML: %s
-         - date: 19 nov 2024
-         ''' % (filename))
-
-       currentMessageContents.append(newText)
-       return currentMessageContents
-
+# 
+# @dashApp.callback(Output('message-div', 'children'),
+#                   Input('yamlFilename-select', 'contents'),
+#                   State('yamlFilename-select', 'filename'),
+#                   State('yamlFilename-select', 'last_modified'),
+#                   State('message-div', 'children'),
+#                   prevent_initial_call=True)
+# def update_output(contents, filename, date, currentMessageContents):
+#     if(contents is not None):
+#        if currentMessageContents is None:
+#            currentMessageContents = []
+#        newText = dcc.Markdown('''
+#          - YAML: %s
+#          - date: 19 nov 2024
+#          ''' % (filename))
+# 
+#        currentMessageContents.append(newText)
+#        return currentMessageContents
+# 
 #--------------------------------------------------------------------------------
 @dashApp.callback(Output('grammaticalTermsFilename-display', 'children'),
               Input('grammaticalTermsFilename-select', 'contents'),
@@ -260,49 +304,70 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
 @dashApp.callback(
     Output("download-html", "data"),
     Input("downloadHtmlButton", "n_clicks"),
+    State("globals", "data"),
     prevent_initial_call=True,
     )
-def download_html(n_clicks):
-    return dcc.send_file("PROJECTS/fubar.html")
+def download_html(n_clicks, globals):
+    filename = os.path.join(PROJECTS_DIRECTORY,
+                            globals['projectName'],
+                            "%s.html" % globals['projectName'])
+    return dcc.send_file(filename)
 
 
 @dashApp.callback(Output('globals', 'data', allow_duplicate=True),
+                  Output('downloadHtmlButton', 'disabled'),
                   [Input('createHtmlButton', 'n_clicks')],
                   State('globals', 'data'),
                   prevent_initial_call=True)
-def runSlexil(n_clicks, globals):
-    print("--- runSlexil, n_clicks: %d" % n_clicks)
-    if(not n_clicks == None):
-       print("runSlexil: %d" % n_clicks)
-       slexil_msg = runSlexilDemo()
-       globals['htmlCreationMessage'] = slexil_msg
-       return globals
-   
-#@dashApp.callback(Output('hidden-div', 'children'),
-#                  [Input('previewHtmlButton', 'n_clicks')],
-#                  prevent_initial_call=True)
-#def previewHTML(n_clicks):
-#    print(" previewHTML callback, n_clicks: %d" % n_clicks)
-    
+def createHtml(n_clicks, globals):
+   print("--- runSlexil, n_clicks: %d" % n_clicks)
 
-#@dashApp.callback(Output('previewLink', 'href', allow_duplicate=True),
-#                  [Input('displayHTMLButton', 'n_clicks')],
-#                  prevent_initial_call=True)
-#def displayHTML(n_clicks):
-#         print("displayHTMLButton callback, n_clicks: %d" % n_clicks)
-#         return("http://localhost:8050/PROJECTS/fubar.html")
-## see https://stackoverflow.com/questions/75725718/redirect-to-a-url-in-dash
+   title = globals['projectTitle']
+   projectName = globals['projectName']
+   projectDirectory = os.path.join(PROJECTS_DIRECTORY, globals['projectName'])
+   fileType = globals['fileType']
+   if fileType == "YAML":
+      yamlFileName = globals['mainTextFilePath']
+   elif fileType == "EAF":
+      yamlFileName = globals['yamlFileName']
+   htmlFileName = createHtmlFromYaml(yamlFileName, title,
+                                     projectName, projectDirectory)
+   globals['htmlFileName'] = htmlFileName
+   return globals, False
+        
+def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
 
-#@dashApp.callback(Output('hidden-div', 'children', allow_duplicate=True),
-#                  [Input('downloadHTMLButton', 'n_clicks')],
-#                  prevent_initial_call=True)
-#def downloadHTML(n_clicks):
-#               print("downloadHTML")
+   #p = EafParser(eafFile, verbose=False, fixOverlappingTimeSegments=False)
+   #p.run()
+   #yamlText = globals['yamlText'] #p.toYAML(title, projectName, projectName)
+   #yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
+   #p.writeYAML(yamlText, yamlFileName)
+   yamlFileName = globals['yamlFileName']
+   return(createHtmlFromYaml(yamlFileName, title, projectName, projectDirectory))
 
-# html.Button("Display",   id='displayHTMLButton',  n_clicks=0, className="btn"),
-# html.Button("Download",  id="downloadHTMLButton", n_clicks=0, className="btn"),
+def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
-
+   text = YamlToText(yamlFile,
+                     grammaticalTerms=[],
+                     projectDirectory=projectDirectory,
+                     verbose = False,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = title,
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+   htmlText = text.toHTML()
+   htmlFileName = os.path.join(projectDirectory, "%s.html" % projectName)
+   print("--- writing html file for at %s" % htmlFileName)
+   with open(htmlFileName, "w") as file:
+       file.write(htmlText)
+   return htmlFileName
 
 
 def runSlexilDemo():

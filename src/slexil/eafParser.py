@@ -242,7 +242,22 @@ class EafParser:
       tbl = tbl.reindex(columns=coi)
       tbl = pd.merge(tbl, tbl_types,
                   left_on="LINGUISTIC_TYPE_REF", right_on="LINGUISTIC_TYPE_ID")
-      self.tierTable = tbl.drop(columns=["LINGUISTIC_TYPE_ID"]) # redundant after merge
+
+      kidCount = [len(tier.getchildren()) for tier in tiers]
+      tbl['LINES'] = kidCount
+
+      cDrops = ["LINGUISTIC_TYPE_ID", "DEFAULT_LOCALE",
+               "CONSTRAINTS", "GRAPHIC_REFERENCES"]
+      for cDrop in cDrops:
+         if cDrop in list(tbl.columns):
+           tbl = tbl.drop(columns=cDrop)
+
+      coi = ["TIER_ID", "PARENT_REF", "LINES", "LINGUISTIC_TYPE_REF",
+             "TIME_ALIGNABLE"]
+      self.tierTable = tbl[coi]
+      
+
+
 
    #----------------------------------------------------------------------------------
     # def testParentTierReferences(self):
@@ -390,8 +405,11 @@ class EafParser:
       textOut.append("  - lineNumber: %d" % lineNumber)
       textOut.append("    startTime: %d"  % tbl.loc[0]['startTime'])
       textOut.append("    endTime: %d"  % tbl.loc[0]['endTime'])
-      #tierName = tbl.loc[0]['tierID']
-      #textOut.append("    %s: %s"  % (tierName, tbl.loc[0]['text']))
+
+        # first tier (first row) is presumed to be time-aligned, the
+        # spoken text.  quote it, so that charcters (like curly brace),
+        # yaml reserved, are not interpreted.
+
       for row in range(0, rowCount):
          tierName = tbl.loc[row]['tierID']
          rawText = tbl.loc[row]['text']
@@ -402,9 +420,13 @@ class EafParser:
             text = str(rawText.split("\t"))
             text = text.replace("'", "")
             text = text.replace(" ", "")
+            textOut.append("    %s: %s" % (tierName, text))
          else:
-            text = rawText
-         textOut.append("    %s: %s" % (tierName, text))
+            textOut.append("    %s: |\n         %s" % (tierName, rawText))
+            #if row == 0:
+            #   text = '"%s"' % rawText
+            #else:
+            #   text = rawText
       return textOut
         
 
@@ -454,7 +476,7 @@ class EafParser:
       return(x)
 
    #----------------------------------------------------------------------------------
-   def toYAML(self, title, narrator, textEntry):
+   def getYAMLHeader(self, title, narrator, textEntry):
 
       textOut = []
       textOut.append("title: %s" % title)
@@ -463,10 +485,20 @@ class EafParser:
       textOut.append("mediaFile: %s" % self.mediaURL)
       textOut.append("mimeType: %s" % self.mediaMimeType)
       textOut.append("")
+
+      return(textOut)
+      
+   #----------------------------------------------------------------------------------
+   def toYAML(self, title, narrator, textEntry):
+
+      textOut = []
+      textOut = self.getYAMLHeader(title, narrator, textEntry)
       textOut.append("lines:")
       lineNumber = 1
+      # pdb.set_trace()
       for tbl in self.getAllLinesTable():
          newLines = self.lineToYAML(tbl, lineNumber)
+         #pdb.set_trace()
          textOut.extend(newLines)
          textOut.append("")
          lineNumber += 1

@@ -22,6 +22,7 @@ default:
 	@echo yamlApp
 	@echo tieredLine
 	@echo practiceLists
+	@echo eafyaml
 
 practiceLists:
 	python test_PracticeLists.py 
@@ -128,6 +129,9 @@ tieredLine:
 
 yamlApp:
 	python test_yamlToTextApp.py
+
+eafyaml:
+	python test_eafParser-toYAML.py
 
 grammaticalTermFormatter:
 	python test_grammaticalTermFormatter.py

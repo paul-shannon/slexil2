@@ -1,0 +1,991 @@
+--- /Users/paul/github/slexil/testData/inferno-threeLines/inferno-threeLines.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+
+--- /Users/paul/github/slexil/testData/HMDLsafe/HMDL.eaf
+  lineCount: 4
+               TIER_ID         PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    lushootseedSpeech                NaN      4          default-lt           true
+1  phonemicLushootseed  lushootseedSpeech      4            phonemic          false
+2  phonemicTranslation  lushootseedSpeech      4         translation          false
+3         englishGloss  lushootseedSpeech      4         translation          false
+
+--- /Users/paul/github/slexil/testData/praying_FaultyAuthorExamples/praying.eaf
+  lineCount: 9
+                     TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0                SZC-Chatino              NaN      9          default-lt           true
+1              SZC-presandhi      SZC-Chatino      9                 pos          false
+2            Tokenization-cp    SZC-presandhi    111                 pos          false
+3                     POS-cp  Tokenization-cp    111                 pos          false
+4  English Translation-cp-cp      SZC-Chatino     10                  en          false
+
+--- /Users/paul/github/slexil/testData/Inundación/Inundacion.eaf
+  lineCount: 112
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Ex        NaN    112                  Ex           true
+1     Line         Ex    112                Text          false
+2     Prsd       Line    548            Analysis          false
+3    Morph       Prsd    914            Analysis          false
+4     ILEG      Morph    914              MGloss          false
+5  L2Gloss         Ex      0               Gloss          false
+6  L3Gloss         Ex    112               Gloss          false
+
+--- /Users/paul/github/slexil/testData/s/praying.eaf
+  lineCount: 9
+                  TIER_ID          PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0             SZC-Chatino                 NaN      9          default-lt           true
+1      second translation         SZC-Chatino      9                 pos          false
+2         Tokenization-cp  second translation    111                 pos          false
+3                  POS-cp     Tokenization-cp    111                 pos          false
+4     English Translation         SZC-Chatino      9                  en          false
+5  phonetic transcription         SZC-Chatino      9                 pos          false
+
+--- /Users/paul/github/slexil/testData/Berrysoup/Berrysoup-test-Michelles_template_27.eaf
+  lineCount: 1
+            TIER_ID   PARENT_REF  LINES   LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Orthography          NaN      1                  Time           true
+1             Words  Orthography      1     Symbolic Division          false
+2         Morphemes        Words      1     Symbolic Division          false
+3  Morpheme glosses    Morphemes      1     Symbolic Division          false
+4       Translation  Orthography      1  Symbolic Association          false
+5             Notes  Translation      0  Symbolic Association          false
+
+--- /Users/paul/github/slexil/testData/Berrysoup/Berrysoup-test-via_atom.eaf
+  lineCount: 1
+            TIER_ID   PARENT_REF  LINES   LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Orthography          NaN      1                  Time           true
+1             Words  Orthography      1     Symbolic Division          false
+2         Morphemes        Words      1     Symbolic Division          false
+3  Morpheme glosses    Morphemes      1     Symbolic Division          false
+4       Translation  Orthography      1  Symbolic Association          false
+5             Notes  Translation      0  Symbolic Association          false
+
+--- /Users/paul/github/slexil/testData/Berrysoup/Berrysoup-test-via_atom_minus1andlast.eaf
+  lineCount: 1
+            TIER_ID   PARENT_REF  LINES   LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Orthography          NaN      1                  Time           true
+1             Words  Orthography      1     Symbolic Division          false
+2         Morphemes        Words      1     Symbolic Division          false
+3  Morpheme glosses    Morphemes      1     Symbolic Division          false
+4       Translation  Orthography      1  Symbolic Association          false
+5             Notes  Translation      0  Symbolic Association          false
+
+--- /Users/paul/github/slexil/testData/Berrysoup/Berrysoup-test-Michelles_template.eaf
+  lineCount: 1
+            TIER_ID   PARENT_REF  LINES   LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Orthography          NaN      1                  Time           true
+1             Words  Orthography      1     Symbolic Division          false
+2         Morphemes        Words      1     Symbolic Division          false
+3  Morpheme glosses    Morphemes      1     Symbolic Division          false
+4       Translation  Orthography      1  Symbolic Association          false
+5             Notes  Translation      0  Symbolic Association          false
+
+--- /Users/paul/github/slexil/testData/test_alignable/Aktzini_plus_one.eaf
+  lineCount: 17
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Ex        NaN     16                  Ex           true
+1     Line         Ex     16                Text          false
+2    Morph         Ex      0            Analysis          false
+3     ILEG         Ex      0            Analysis          false
+4  L2Gloss         Ex      0               Gloss          false
+5  L3Gloss         Ex     16               Gloss          false
+6   Second        NaN      1      second_aligned           true
+
+--- /Users/paul/github/slexil/testData/test_alignable/inferno-threeLines_plus_one.eaf
+  lineCount: 8
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+4   word-by-word  italianSpeech      5               Words           true
+
+--- /Users/paul/github/slexil/testData/test_alignable/inferno-threeLines.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+
+--- /Users/paul/github/slexil/testData/praying_2Line/20150717_Prayer_community_two.eaf
+  lineCount: 9
+                     TIER_ID   PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0                SZC-Chatino          NaN      9          default-lt           true
+1  English Translation-cp-cp  SZC-Chatino      9                  en          false
+
+--- /Users/paul/github/slexil/testData/praying_5Line/praying.eaf
+  lineCount: 9
+                     TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0                SZC-Chatino              NaN      9          default-lt           true
+1              SZC-presandhi      SZC-Chatino      9                 pos          false
+2            Tokenization-cp    SZC-presandhi    111                 pos          false
+3                     POS-cp  Tokenization-cp    111                 pos          false
+4  English Translation-cp-cp      SZC-Chatino      9                  en          false
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/inferno-threeLines_plus_sister.eaf
+  lineCount: 4
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+4         sister            NaN      1          default-lt           true
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/Aktzini_plus_one.eaf
+  lineCount: 17
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Ex        NaN     16                  Ex           true
+1     Line         Ex     16                Text          false
+2    Morph         Ex      0            Analysis          false
+3     ILEG         Ex      0            Analysis          false
+4  L2Gloss         Ex      0               Gloss          false
+5  L3Gloss         Ex     16               Gloss          false
+6   Second        NaN      1      second_aligned           true
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/Jagpossum.eaf
+  lineCount: 136
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0     ref        NaN    136          default-lt           true
+1   tx-cp        ref    136            language          false
+2     prs        ref    136            language          false
+3    intr        ref    136         translation          false
+4    trns        ref    136         translation          false
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/infernoDeep_plus_one.eaf
+  lineCount: 4
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0            ref            NaN      3          default-lt           true
+1    Orthography            ref      3                Ling          false
+2  italianSpeech    Orthography      3                Ling          false
+3        english  italianSpeech      3                Ling          false
+4     whole_text            NaN      1          default-lt           true
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/inferno-threeLines_plus_one.eaf
+  lineCount: 8
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+4   word-by-word  italianSpeech      5               Words           true
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/infernoDeep.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0            ref            NaN      3          default-lt           true
+1    Orthography            ref      3                Ling          false
+2  italianSpeech    Orthography      3                Ling          false
+3        english  italianSpeech      3                Ling          false
+
+--- /Users/paul/github/slexil/testData/findingSpeechTiers/inferno-threeLines.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+
+--- /Users/paul/github/slexil/testData/AYAMT/AYAMT.eaf
+  lineCount: 41
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0     AYA        NaN     41          default-lt           true
+1    AYA2        AYA     41            phonemic          false
+2     ENG        AYA     41         translation          false
+3      GL       AYA2     41         translation          false
+
+--- /Users/paul/github/slexil/testData/praying_6Line/praying.eaf
+  lineCount: 9
+                  TIER_ID          PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0             SZC-Chatino                 NaN      9          default-lt           true
+1      second translation         SZC-Chatino      9                 pos          false
+2         Tokenization-cp  second translation    111                 pos          false
+3                  POS-cp     Tokenization-cp    111                 pos          false
+4     English Translation         SZC-Chatino      9                  en          false
+5  phonetic transcription         SZC-Chatino      9                 pos          false
+
+--- /Users/paul/github/slexil/testData/featherSnake/featherSnake.eaf
+  lineCount: 15
+                 TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              TRS-Ortho              NaN     15          default-lt           true
+1          TRS Broad IPA        TRS-Ortho     15           TRS-Broad          false
+2       Free Translation        TRS-Ortho     15    Free Translation          false
+3        Tokenization-cp        TRS-Ortho    141      Tokenization 2          false
+4  Tokenization-Gloss-cp  Tokenization-cp    141                 POS          false
+
+--- /Users/paul/github/slexil/testData/aktzini/18-06-03Aktzini-GA.eaf
+  lineCount: 16
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Ex        NaN     16                  Ex           true
+1     Line         Ex     16                Text          false
+2    Morph         Ex      0            Analysis          false
+3     ILEG         Ex      0            Analysis          false
+4  L2Gloss         Ex      0               Gloss          false
+5  L3Gloss         Ex     16               Gloss          false
+
+--- /Users/paul/github/slexil/testData/loco/loco.eaf
+  lineCount: 344
+                      TIER_ID                  PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  Orthographic represntation                         NaN    344          default-lt           true
+1         English translation  Orthographic represntation    344         Translation          false
+2            Word division-cp  Orthographic represntation   1857                word          false
+3                    morpheme            Word division-cp   1857            Morpheme          false
+4                       gloss            Word division-cp   1857            Morpheme          false
+
+--- /Users/paul/github/slexil/testData/praying/Prayer_HTML_tags.eaf
+  lineCount: 9
+                     TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0                SZC-Chatino              NaN      9          default-lt           true
+1              SZC-presandhi      SZC-Chatino      9                 pos          false
+2            Tokenization-cp    SZC-presandhi    111                 pos          false
+3                     POS-cp  Tokenization-cp    111                 pos          false
+4  English Translation-cp-cp      SZC-Chatino      9                  en          false
+
+--- /Users/paul/github/slexil/testData/praying/praying.eaf
+  lineCount: 9
+                     TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0                SZC-Chatino              NaN      9          default-lt           true
+1              SZC-presandhi      SZC-Chatino      9                 pos          false
+2            Tokenization-cp    SZC-presandhi    111                 pos          false
+3                     POS-cp  Tokenization-cp    111                 pos          false
+4  English Translation-cp-cp      SZC-Chatino      9                  en          false
+
+--- /Users/paul/github/slexil/testTextPyData/Sanchizo/Sanchizo.eaf
+  lineCount: 102
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0     ref        NaN    102                 ref           true
+1      tx        ref    102                  tx          false
+2      ft        ref    102                  ft          false
+3      nt        ref      0                  nt          false
+4     prs         tx    102                  tx          false
+5    intr         tx    102                  tx          false
+
+--- /Users/paul/github/slexil/testTextPyData/Prayer_superscript/praying.eaf
+  lineCount: 9
+                     TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0                SZC-Chatino              NaN      9          default-lt           true
+1              SZC-presandhi      SZC-Chatino      9                 pos          false
+2            Tokenization-cp    SZC-presandhi    111                 pos          false
+3                     POS-cp  Tokenization-cp    111                 pos          false
+4  English Translation-cp-cp      SZC-Chatino      9                  en          false
+
+--- /Users/paul/github/slexil/testTextPyData/JITZ/JITZ.eaf
+  lineCount: 69
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0      ref        NaN     69                 ref           true
+1       tx        ref     69                  tx          false
+2       ft        ref     69                  ft          false
+3  intr-cp        ref     65                  ft          false
+4   prs-cp        ref     65                  tx          false
+
+--- /Users/paul/github/slexil/testTextPyData/Inferno/infernoDeep.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0            ref            NaN      3          default-lt           true
+1    Orthography            ref      3                Ling          false
+2  italianSpeech    Orthography      3                Ling          false
+3        english  italianSpeech      3                Ling          false
+
+--- /Users/paul/github/slexil/testTextPyData/Inferno/inferno-threeLines.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+
+--- /Users/paul/github/slexil/testTextPyData/GhostInWagon/GhostInWagon.eaf
+  lineCount: 55
+               TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              Klallam        NaN     55          default-lt           true
+1          Analysis-cp    Klallam     52          annotation          false
+2    Analysis gloss-cp    Klallam     52          annotation          false
+3  Free translation-cp    Klallam     52          annotation          false
+
+--- /Users/paul/github/slexil/testTextPyData/GhostInWagon/GhostInWagonTabs.eaf
+  lineCount: 55
+               TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              Klallam        NaN     55          default-lt           true
+1          Analysis-cp    Klallam     52          annotation          false
+2    Analysis gloss-cp    Klallam     52          annotation          false
+3  Free translation-cp    Klallam     52          annotation          false
+
+--- /Users/paul/github/slexil/testTextPyData/aym/aym-final.eaf
+  lineCount: 145
+               TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0        Transcription            NaN    145             Phrases           true
+1              Parsing  Transcription    682               Words          false
+2  English translation  Transcription    145                Note          false
+3             Analysis        Parsing    682               Words          false
+
+--- /Users/paul/github/slexil/testTextPyData/Jagpossum/Jagpossum.eaf
+  lineCount: 136
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0     ref        NaN    136          default-lt           true
+1   tx-cp        ref    136            language          false
+2     prs        ref    136            language          false
+3    intr        ref    136         translation          false
+4    trns        ref    136         translation          false
+
+--- /Users/paul/github/slexil/testTextPyData/Cuervo/newcuervo.eaf
+  lineCount: 207
+       TIER_ID   PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  hwulmuhwqun          NaN    207       transcription           true
+1          ENG  hwulmuhwqun    207                 eng          false
+
+--- /Users/paul/github/slexil/testTextPyData/Cuervo/newcuervo_all_errors.eaf
+  lineCount: 207
+       TIER_ID   PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  hwulmuhwqun          NaN    207       transcription           true
+1          ENG  hwulmuhwqun    202                 eng          false
+
+--- /Users/paul/github/slexil/testTextPyData/Lazybones/Lazybones.eaf
+  lineCount: 396
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0      ref        NaN    396                  rf           true
+1    tx-cp        ref    396                 txt          false
+2   prs-cp        ref    393                mrph          false
+3  intr-cp        ref    391                 gls          false
+4    ft-cp        ref    396                 eng          false
+
+--- /Users/paul/github/slexil/testTextPyData/Zelfmar/Zelfmar.eaf
+  lineCount: 109
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0     ref        NaN    109                 ref           true
+1      tx        ref    109                  tx          false
+2      ft        ref    109                  ft          false
+3      nt        ref      1                  nt          false
+4     prs         tx    109                  tx          false
+5    intr         tx    109                  tx          false
+
+--- /Users/paul/github/slexil/testTextPyData/Caterpillar/Caterpillar.eaf
+  lineCount: 112
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0      SOT        NaN    112          default-lt           true
+1    GLOSS        SOT    112               parse          false
+2     FREE        SOT    112                free          false
+3  SOT2-cp        SOT    112               parse          false
+
+--- /Users/paul/github/slexil/testTextPyData/AYAFW/AYAFW.eaf
+  lineCount: 77
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0     AYA        NaN     77          default-lt           true
+1    AYA2        AYA     77            phonemic          false
+2     ENG        AYA     77         translation          false
+3      GL       AYA2     77         translation          false
+
+--- /Users/paul/github/slexil/Dash_Tests/TempProjects/Berrysoup-test-Michelles_template_27.eaf
+  lineCount: 1
+            TIER_ID   PARENT_REF  LINES   LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Orthography          NaN      1                  Time           true
+1             Words  Orthography      1     Symbolic Division          false
+2         Morphemes        Words      1     Symbolic Division          false
+3  Morpheme glosses    Morphemes      1     Symbolic Division          false
+4       Translation  Orthography      1  Symbolic Association          false
+5             Notes  Translation      0  Symbolic Association          false
+
+--- /Users/paul/github/slexil/Dash_Tests/TempProjects/Berrysoup-test-Michelles_template.eaf
+  lineCount: 1
+            TIER_ID   PARENT_REF  LINES   LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0       Orthography          NaN      1                  Time           true
+1             Words  Orthography      1     Symbolic Division          false
+2         Morphemes        Words      1     Symbolic Division          false
+3  Morpheme glosses    Morphemes      1     Symbolic Division          false
+4       Translation  Orthography      1  Symbolic Association          false
+5             Notes  Translation      0  Symbolic Association          false
+
+--- /Users/paul/github/slexil/Dash_Tests/TempProjects/HMDL.eaf
+  lineCount: 4
+               TIER_ID         PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    lushootseedSpeech                NaN      4          default-lt           true
+1  phonemicLushootseed  lushootseedSpeech      4            phonemic          false
+2  phonemicTranslation  lushootseedSpeech      4         translation          false
+3         englishGloss  lushootseedSpeech      4         translation          false
+
+--- /Users/paul/github/slexil/infernoDemo/inferno-threeLines.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+
+--- /Users/paul/github/slexil/demos/infernoDemo/inferno-threeLines.eaf
+  lineCount: 3
+         TIER_ID     PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  italianSpeech            NaN      3          default-lt           true
+1      morphemes  italianSpeech      3            phonemic          false
+2  morphemeGloss  italianSpeech      3         translation          false
+3        english  italianSpeech      3         translation          false
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_15_speech_part_1.eaf
+  lineCount: 3710
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  ref@33        NaN    280                 ref           true
+1   tx@33     ref@33    280                  tx          false
+2   ft@33     ref@33    280                  ft          false
+3   wd@33     ref@33    554                  wd           true
+4   mb@33      wd@33    954                  mb           true
+5   gl@33      mb@33    961                  gl           true
+6   ps@33      mb@33    961                  ps           true
+parsed 3710 lines into variable x
+tier table in variable tbl, 7 rows
+time table in variable tblTimes, 3710 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_32c.eaf
+  lineCount: 1576
+             TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0             ref@45        NaN     64                 ref           true
+1              tx@45     ref@45     64                  tx          false
+2              ft@45     ref@45     64                  ft          false
+3              wd@45     ref@45    175                  wd           true
+4              mb@45      wd@45    274                  mb           true
+5              gl@45      mb@45    274                  gl          false
+6              ps@45      mb@45    274                  ps          false
+7              ph@45      mb@45   1063                  ph           true
+8  doreco-mb-algn@45      mb@45    274                cert          false
+9           notes@45     ref@45     64               notes          false
+parsed 1576 lines into variable x
+tier table in variable tbl, 10 rows
+time table in variable tblTimes, 1576 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_32b.eaf
+  lineCount: 3813
+             TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0             ref@45        NaN    160                 ref           true
+1              tx@45     ref@45    160                  tx          false
+2              ft@45     ref@45    160                  ft          false
+3              wd@45     ref@45    379                  wd           true
+4              mb@45      wd@45    652                  mb           true
+5              gl@45      mb@45    652                  gl          false
+6              ps@45      mb@45    652                  ps          false
+7              ph@45      mb@45   2622                  ph           true
+8  doreco-mb-algn@45      mb@45    652                cert          false
+9           notes@45     ref@45    160               notes          false
+parsed 3813 lines into variable x
+tier table in variable tbl, 10 rows
+time table in variable tblTimes, 3813 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_15_speech_part_2.eaf
+  lineCount: 4700
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  ref@33        NaN    326                 ref           true
+1   tx@33     ref@33    326                  tx          false
+2   ft@33     ref@33    326                  ft          false
+3   wd@33     ref@33    702                  wd           true
+4   mb@33      wd@33   1218                  mb           true
+5   gl@33      mb@33   1227                  gl           true
+6   ps@33      mb@33   1227                  ps           true
+parsed 4700 lines into variable x
+tier table in variable tbl, 7 rows
+time table in variable tblTimes, 4700 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_20_Nelson.eaf
+  lineCount: 393
+    TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    ref@56        NaN    107                 ref           true
+1     tx@56     ref@56    107                  tx          false
+2     ft@56     ref@56    107                  ft          false
+3     wd@56     ref@56    286                  wd           true
+4     mb@56      wd@56    503                  mb          false
+5     gl@56      mb@56    503                  gl          false
+6     ps@56      mb@56    503                  ps          false
+7  notes@56     ref@56    107               notes          false
+parsed 393 lines into variable x
+tier table in variable tbl, 8 rows
+time table in variable tblTimes, 393 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_15captive.eaf
+  lineCount: 5252
+    TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    ref@33        NaN    402                 ref           true
+1     tx@33     ref@33    402                  tx          false
+2     ft@33     ref@33    402                  ft          false
+3     wd@33     ref@33    755                  wd           true
+4     mb@33      wd@33   1357                  mb           true
+5     gl@33      mb@33   1369                  gl           true
+6     ps@33      mb@33   1369                  ps           true
+7  notes@33     ref@33    402               notes          false
+parsed 5252 lines into variable x
+tier table in variable tbl, 8 rows
+time table in variable tblTimes, 5252 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_35d.eaf
+  lineCount: 3872
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    ref@6        NaN    183                 ref           true
+1     tx@6      ref@6    183                  tx          false
+2     ft@6      ref@6    183                  ft          false
+3     wd@6      ref@6    630                  wd           true
+4     mb@6       wd@6   1017                  mb           true
+5     gl@6       mb@6   1021                  gl           true
+6     ps@6       mb@6   1021                  ps           true
+7  notes@6      ref@6    183               notes          false
+parsed 3872 lines into variable x
+tier table in variable tbl, 8 rows
+time table in variable tblTimes, 3872 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_6.eaf
+  lineCount: 23412
+             TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0             ref@35        NaN   1105                 ref           true
+1              tx@35     ref@35   1105                  tx          false
+2              ft@35     ref@35   1105                  ft          false
+3              wd@35     ref@35   2713                  wd           true
+4              mb@35      wd@35   4159                  mb           true
+5              gl@35      mb@35   4159                  gl          false
+6              ps@35      mb@35   4159                  ps          false
+7              ph@35      mb@35  15435                  ph           true
+8  doreco-mb-algn@35      mb@35   4159                cert          false
+9           notes@35     ref@35   1105               notes          false
+parsed 23412 lines into variable x
+tier table in variable tbl, 10 rows
+time table in variable tblTimes, 23412 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_15_secondthought.eaf
+  lineCount: 3775
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  ref@35        NaN    287                 ref           true
+1   tx@35     ref@35    287                  tx          false
+2   ft@35     ref@35    287                  ft          false
+3   wd@35     ref@35    545                  wd           true
+4   mb@35      wd@35    975                  mb           true
+5   gl@35      mb@35    984                  gl           true
+6   ps@35      mb@35    984                  ps           true
+parsed 3775 lines into variable x
+tier table in variable tbl, 7 rows
+time table in variable tblTimes, 3775 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_78a.eaf
+  lineCount: 9441
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    398                 ref           true
+1               tx@40     ref@40    398                  tx          false
+2               ft@40     ref@40    398                  ft          false
+3               wd@40     ref@40   1253                  wd           true
+4               mb@40      wd@40   1876                  mb           true
+5               gl@40      mb@40   1876                  gl          false
+6               ps@40      mb@40   1876                  ps          false
+7               ph@40      mb@40   5863                  ph           true
+8   doreco-mb-algn@40      mb@40   1876                cert          false
+9             ref@All        NaN     51                 ref           true
+10             tx@All    ref@All     51                  tx          false
+11             ft@All    ref@All     51                  ft          false
+12             wd@All    ref@All     51               assoc          false
+13           notes@40     ref@40    398               notes          false
+14          notes@All    ref@All     51               notes          false
+parsed 9441 lines into variable x
+tier table in variable tbl, 15 rows
+time table in variable tblTimes, 9441 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_35c.eaf
+  lineCount: 641
+   TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    ref@6        NaN    133                 ref           true
+1     tx@6      ref@6    133                  tx          false
+2     ft@6      ref@6    133                  ft          false
+3     wd@6      ref@6    508                  wd           true
+4     mb@6       wd@6    854                  mb          false
+5     gl@6       mb@6    854                  gl          false
+6     ps@6       mb@6    854                  ps          false
+7  notes@6      ref@6    133               notes          false
+parsed 641 lines into variable x
+tier table in variable tbl, 8 rows
+time table in variable tblTimes, 641 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_10.eaf
+  lineCount: 968
+    TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    ref@36        NaN     68                 ref           true
+1     tx@36     ref@36     68                  tx          false
+2     ft@36     ref@36     68                  ft          false
+3     wd@36     ref@36    143                  wd           true
+4     mb@36      wd@36    251                  mb           true
+5     gl@36      mb@36    253                  gl           true
+6     ps@36      mb@36    253                  ps           true
+7  notes@36     ref@36     68               notes          false
+parsed 968 lines into variable x
+tier table in variable tbl, 8 rows
+time table in variable tblTimes, 968 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_92b.eaf
+  lineCount: 5454
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    281                 ref           true
+1               tx@40     ref@40    281                  tx          false
+2               ft@40     ref@40    281                  ft          false
+3               wd@40     ref@40    633                  wd           true
+4               mb@40      wd@40   1035                  mb           true
+5               gl@40      mb@40   1035                  gl          false
+6               ps@40      mb@40   1035                  ps          false
+7               ph@40      mb@40   3490                  ph           true
+8   doreco-mb-algn@40      mb@40   1035                cert          false
+9            notes@40     ref@40    281               notes          false
+10          notes@All    ref@All     15               notes          false
+11            ref@All        NaN     15                 ref           true
+parsed 5454 lines into variable x
+tier table in variable tbl, 12 rows
+time table in variable tblTimes, 5454 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_20_Crawford.eaf
+  lineCount: 1409
+             TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0             ref@55        NaN     69                 ref           true
+1              tx@55     ref@55     69                  tx          false
+2              ft@55     ref@55     69                  ft          false
+3              wd@55     ref@55    179                  wd           true
+4              mb@55      wd@55    264                  mb           true
+5              gl@55      mb@55    264                  gl          false
+6              ps@55      mb@55    264                  ps          false
+7              ph@55      mb@55    897                  ph           true
+8  doreco-mb-algn@55      mb@55    264                cert          false
+9           notes@55     ref@55     69               notes          false
+parsed 1409 lines into variable x
+tier table in variable tbl, 10 rows
+time table in variable tblTimes, 1409 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_15_eagles.eaf
+  lineCount: 2856
+  TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0  ref@35        NaN    189                 ref           true
+1   tx@35     ref@35    189                  tx          false
+2   ft@35     ref@35    189                  ft          false
+3   wd@35     ref@35    408                  wd           true
+4   mb@35      wd@35    751                  mb           true
+5   gl@35      mb@35    754                  gl           true
+6   ps@35      mb@35    754                  ps           true
+parsed 2856 lines into variable x
+tier table in variable tbl, 7 rows
+time table in variable tblTimes, 2856 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_92c.eaf
+  lineCount: 5012
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    224                 ref           true
+1               tx@40     ref@40    224                  tx          false
+2               ft@40     ref@40    224                  ft          false
+3               wd@40     ref@40    582                  wd           true
+4               mb@40      wd@40    906                  mb           true
+5               gl@40      mb@40    906                  gl          false
+6               ps@40      mb@40    906                  ps          false
+7               ph@40      mb@40   3291                  ph           true
+8   doreco-mb-algn@40      mb@40    906                cert          false
+9            notes@40     ref@40    224               notes          false
+10          notes@All    ref@All      9               notes          false
+11            ref@All        NaN      9                 ref           true
+parsed 5012 lines into variable x
+tier table in variable tbl, 12 rows
+time table in variable tblTimes, 5012 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_92a.eaf
+  lineCount: 5279
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    217                 ref           true
+1               tx@40     ref@40    217                  tx          false
+2               ft@40     ref@40    217                  ft          false
+3               wd@40     ref@40    631                  wd           true
+4               mb@40      wd@40    944                  mb           true
+5               gl@40      mb@40    944                  gl          false
+6               ps@40      mb@40    944                  ps          false
+7               ph@40      mb@40   3472                  ph           true
+8   doreco-mb-algn@40      mb@40    944                cert          false
+9            notes@40     ref@40    217               notes          false
+10          notes@All    ref@All     15               notes          false
+11            ref@All        NaN     15                 ref           true
+parsed 5279 lines into variable x
+tier table in variable tbl, 12 rows
+time table in variable tblTimes, 5279 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_7a.eaf
+  lineCount: 17961
+    TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0    ref@35        NaN   1173                 ref           true
+1     tx@35     ref@35   1173                  tx          false
+2     ft@35     ref@35   1173                  ft          false
+3     wd@35     ref@35   2662                  wd           true
+4     mb@35      wd@35   4702                  mb           true
+5     gl@35      mb@35   4712                  gl           true
+6     ps@35      mb@35   4712                  ps           true
+7  notes@35     ref@35   1173               notes          false
+parsed 17961 lines into variable x
+tier table in variable tbl, 8 rows
+time table in variable tblTimes, 17961 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_92d.eaf
+  lineCount: 5960
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    337                 ref           true
+1               tx@40     ref@40    337                  tx          false
+2               ft@40     ref@40    337                  ft          false
+3               wd@40     ref@40    712                  wd           true
+4               mb@40      wd@40   1172                  mb           true
+5               gl@40      mb@40   1172                  gl          false
+6               ps@40      mb@40   1172                  ps          false
+7               ph@40      mb@40   3729                  ph           true
+8   doreco-mb-algn@40      mb@40   1172                cert          false
+9            notes@40     ref@40    337               notes          false
+10          notes@All    ref@All     10               notes          false
+11            ref@All        NaN     10                 ref           true
+parsed 5960 lines into variable x
+tier table in variable tbl, 12 rows
+time table in variable tblTimes, 5960 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_92e.eaf
+  lineCount: 5505
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    280                 ref           true
+1               tx@40     ref@40    280                  tx          false
+2               ft@40     ref@40    280                  ft          false
+3               wd@40     ref@40    653                  wd           true
+4               mb@40      wd@40   1022                  mb           true
+5               gl@40      mb@40   1022                  gl          false
+6               ps@40      mb@40   1022                  ps          false
+7               ph@40      mb@40   3542                  ph           true
+8   doreco-mb-algn@40      mb@40   1022                cert          false
+9            notes@40     ref@40    280               notes          false
+10          notes@All    ref@All      8               notes          false
+11            ref@All        NaN      8                 ref           true
+parsed 5505 lines into variable x
+tier table in variable tbl, 12 rows
+time table in variable tblTimes, 5505 rows
+EafParser etree parse
+EafParser extracting metadata
+--- entering extractMetadata
+EafParser extracting media info
+--- entering extractMediaInfo
+EafParser count lines
+EafParser.run, constructing tier table
+EafParser leaving constructor
+EafParser.run, constructing time table
+EafParser.run, parsing & sorting all lines
+EafParser.run, complete
+--- ../explore/trove/doreco/doreco_arap1274_extended/doreco_arap1274_92f.eaf
+  lineCount: 3471
+              TIER_ID PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
+0              ref@40        NaN    298                 ref           true
+1               tx@40     ref@40    298                  tx          false
+2               ft@40     ref@40    298                  ft          false
+3               wd@40     ref@40    557                  wd           true
+4               mb@40      wd@40    695                  mb           true
+5               gl@40      mb@40    695                  gl          false
+6               ps@40      mb@40    695                  ps          false
+7               ph@40      mb@40   1843                  ph           true
+8   doreco-mb-algn@40      mb@40    695                cert          false
+9              ref@62        NaN     31                 ref           true
+10              tx@62     ref@62     31                  tx          false
+11              ft@62     ref@62     31                  ft          false
+12              wd@62     ref@62     44                  wd           true
+13              mb@62      wd@62     61                subd          false
+14              gl@62      mb@62     61               assoc          false
+15              ps@62      mb@62     61               assoc          false
+16           notes@40     ref@40    298               notes          false
+17          notes@All    ref@All      3               notes          false
+18            ref@All        NaN      3                 ref           true
+19           notes@62     ref@62     31               notes          false
+parsed 3471 lines into variable x
+tier table in variable tbl, 20 rows
+time table in variable tblTimes, 3471 rows

@@ -1,0 +1,56 @@
+title: Ethel & Anita
+narrator: Ethel, Anita, Roberta
+textEntry: Alice Taff
+mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/4EthelAnita.m4v
+mimeType: video/mp4
+
+lines:
+  - lineNumber: 84
+    startTime: 310180
+    endTime: 313677
+    utterance: "X̱ʼanwóosʼ: « Daa sáyá? »"
+    translation: |
+       Ask her: "What is this?"
+    Speaker Initials: KRL
+
+  - lineNumber: 234
+    startTime: 996993
+    endTime: 1002446
+    utterance: "{Has du} has du yéi jineiyí áyá yá yáaxʼ yéi yatee. "
+    translation: |
+        {Their} their artwork that is right here.
+    Speaker Initials: DEM
+
+  - lineNumber: 253
+    startTime: 1069320
+    endTime: 1073953
+    utterance: "tʼukanéiyi is a"
+    translation: |
+        "tʼukanéiyi" is a
+    Speaker Initials: DEM
+
+  - lineNumber: 271
+    startTime: 1161233
+    endTime: 1173561
+    utterance: |
+        "But I learned, I donʼt know where I learned "kay," you know, instead of "okay." I used to say, "kay." And they used to get so mad at me."
+    Speaker Initials: ḴʼSAW
+
+  - lineNumber: 311
+    startTime: 1337613
+    endTime: 1338760
+    utterance: "Ḵʼwádzi,  "
+    translation: |
+        [name],
+    Speaker Initials: DEM
+
+  - lineNumber: 415
+    startTime: 1655002
+    endTime: 1657973
+    utterance: "Sawdáat Tlein huh? Aaá. "
+    translation: |
+       [name] Yes.
+    Speaker Initials: ḴʼSAW
+
+
+

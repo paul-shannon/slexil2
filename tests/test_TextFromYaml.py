@@ -53,6 +53,34 @@ def test_infernoWithInterspersedHtmlLines():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+def test_infernoWithInterspersedHtmlLines():
+
+   print("--- test_infernoWithInterspersedHtmlLines")
+
+   f = "../testData/validYamlFiles/inferno.yaml"
+   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   fgt = "../testData/validYamlFiles/infernoTerms.txt"
+   text = TextFromYaml(f, fgt, ftg,
+                     projectDirectory="inferno",
+                     verbose = True,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "inferno with markup",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+
+
+   # print(text.getTierSummary())
+   htmlText = text.toHTML()
+   htmlText_indented = yattag.indent(htmlText)
+
+#--------------------------------------------------------------------------------
 def runTests():
 
   test_infernoWithInterspersedHtmlLines()

@@ -15,7 +15,8 @@ def test_infernoSimple():
    #f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
    #f = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
    #f = "../testData/validYamlFiles/inferno-1-line.yaml"
-   f = "../testData/validYamlFiles/inferno-2-lines.yaml"
+   #f = "../testData/validYamlFiles/inferno-2-lines.yaml"
+   f = "../testData/validYamlFiles/inferno-mixedDemo.yaml"
    gtf = "../testData/validYamlFiles/infernoTerms.txt"
    with open(gtf) as file:
       grammaticalTerms = file.read().split("\n")
@@ -94,6 +95,42 @@ def test_harryMosesDaylight():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+def test_lushootseedGrammar():
+
+   print("--- test_lushootseedGrammar")
+
+   f = "../explore/lushootseed/grammars/grammar.yaml"
+   grammaticalTerms = []   
+   text = YamlToText(f, grammaticalTerms,
+                     projectDirectory="tmp",
+                     verbose = True,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "Lushootseed Grammar I",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+
+
+   # print(text.getTierSummary())
+   htmlText = text.toHTML()
+   #htmlText_indented = yattag.indent(htmlText)
+
+   # 3 lines of speech, one jquery pattern
+
+   filename = "daylight.html"
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   #f.write(bytes(htmlText_indented, "utf-8"))
+   f.close()
+   print("    wrote %s" % f.name)
+
+#--------------------------------------------------------------------------------
 def test_tlingitVideoVanRescue():
 
    print("--- test_tlingitVideoVanRescue")
@@ -140,11 +177,59 @@ def test_tlingitVideoVanRescue():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+def test_aliceFromEaf():
+
+   print("--- test_aliceFromEaf")
+
+   f = "dontWearRed.yaml"
+
+   gtf = None
+   grammaticalTerms = []
+
+   if(not gtf is None):
+      with open(gtf) as file:
+         grammaticalTerms = file.read().split("\n")
+         count = len(grammaticalTerms)
+         if grammaticalTerms[count-1] == "":
+            grammaticalTerms.pop()
+
+   text = YamlToText(f, grammaticalTerms,
+                     projectDirectory="tmp",
+                     verbose = True,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "Tlingit - Van Rescue",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+
+
+   # print(text.getTierSummary())
+   htmlText = text.toHTML()
+   #htmlText_indented = yattag.indent(htmlText)
+
+   # 3 lines of speech, one jquery pattern
+
+   filename = "dontWearRead.html"
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   #f.write(bytes(htmlText_indented, "utf-8"))
+   f.close()
+   print("    wrote %s" % f.name)
+
+#--------------------------------------------------------------------------------
 def runTests():
 
    test_infernoSimple()
    test_harryMosesDaylight()
    test_tlingitVideoVanRescue()
+   test_lushootseedGrammar()
+   test_aliceFromEaf()
 
 #--------------------------------------------------------------------------------
 if __name__ == '__main__':

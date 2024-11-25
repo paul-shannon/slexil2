@@ -377,31 +377,10 @@ class TieredLine:
 
             if len(aMap) == 2:  # not the only, but the expected common case
                analysisTierNames = list(self.getAnalysisTierNameMap().values())
-               morphemes = self.line[analysisTierNames[0]]
-               morphemeGlosses = self.line[analysisTierNames[1]]
-               self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
-
-               morphemeSpacingStyleString = ""
-               if (morphemes):
-                  if(len(morphemes) > 0):
-                     morphemeSpacingStyleString = \
-                       "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
-                  with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
-                     for morpheme in morphemes:
-                        with htmlDoc.tag("div", klass="morpheme-cell"):
-                            htmlDoc.asis(morpheme)
-
-               if (morphemes and morphemeGlosses):
-                  if(len(morphemeGlosses) > 0):
-                     with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
-                        for morphemeGloss in morphemeGlosses:
-                            with htmlDoc.tag("div", klass="morpheme-cell"):
-                               mg = GrammaticalTermFormatter(morphemeGloss,
-                                                             self.grammaticalTerms)
-                               mg.parse()
-                               s = mg.format()
-                               print(s)
-                               htmlDoc.asis(s)
+                  # does this specific line have analysis tiers?
+               if (analysisTierNames[0] in (list(self.line.keys())) and
+                   analysisTierNames[1] in (list(self.line.keys()))):
+                  self.addAnalysisTiers(htmlDoc, analysisTierNames)
 
             for userTierName in list(self.getGenericTierNameMap().values()):
                if(userTierName in self.line.keys()):
@@ -429,7 +408,36 @@ class TieredLine:
                 pass#;
 
 
-# ------------------------------------------------------------------------------------------------------------------------
+     #------------------------------------------------------------------------------------------------------------------------
+    def addAnalysisTiers(self, htmlDoc, analysisTierNames):
+     
+       morphemes = self.line[analysisTierNames[0]]
+       morphemeGlosses = self.line[analysisTierNames[1]]
+       self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
+    
+       morphemeSpacingStyleString = ""
+       if (morphemes):
+          if(len(morphemes) > 0):
+             morphemeSpacingStyleString = \
+               "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
+          with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+             for morpheme in morphemes:
+                with htmlDoc.tag("div", klass="morpheme-cell"):
+                    htmlDoc.asis(morpheme)
+    
+       if (morphemes and morphemeGlosses):
+          if(len(morphemeGlosses) > 0):
+             with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+                for morphemeGloss in morphemeGlosses:
+                    with htmlDoc.tag("div", klass="morpheme-cell"):
+                       mg = GrammaticalTermFormatter(morphemeGloss,
+                                                     self.grammaticalTerms)
+                       mg.parse()
+                       s = mg.format()
+                       print(s)
+                       htmlDoc.asis(s)
+    
+#------------------------------------------------------------------------------------------------------------------------
 #def findChildren(doc, rootElement):
 #    elementsToDo = [rootElement]
 #    elementsCompleted = []

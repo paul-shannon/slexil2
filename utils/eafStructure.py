@@ -14,11 +14,15 @@ pd.set_option('display.max_rows', None)
 
 from slexil.eafParser import EafParser
 parser = EafParser(eafFile, verbose=True, fixOverlappingTimeSegments=False)
+parser.run()
+#print("--- %s" % eafFile)
+#print("  lineCount: %d" % parser.getLineCount())
 tbl = parser.getTierTable()
-tblTimes = parser.getTimeTable()
+print(tbl)
+#tblTimes = parser.getTimeTable()
 # parser.parseAllLines()
 x = parser.getAllLinesTable()  # a list of time-ordered line tables
-print("parsed %d lines into variable x" % len(x))
-print("tier table in variable tbl, %d rows" % tbl.shape[0])
-print("time table in variable tblTimes, %d rows" % tblTimes.shape[0])
+#print("parsed %d lines into variable x" % len(x))
+#print("tier table in variable tbl, %d rows" % tbl.shape[0])
+#print("time table in variable tblTimes, %d rows" % tblTimes.shape[0])
 

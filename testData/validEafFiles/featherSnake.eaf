@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-02-22T15:40:32-07:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/David/OpenSource/github/slexil/testData/featherSnake/Chicahuaxtla Triqui - La serpiente emplumada 04-28-2016.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./Chicahuaxtla Triqui - La serpiente emplumada 04-28-2016.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:a3eac48b-cfab-43c9-a659-e0910c0261a9</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">662</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="2685"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="5290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="6553"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="7385"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="8846"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="9377"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="11275"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="12480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="15630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="16396"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="20315"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="21105"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="23086"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="23326"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="25946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="26643"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="31895"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="32765"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="36288"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="37165"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="41473"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="42088"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="45036"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="46353"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="49820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="51585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="62005"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="62925"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="70604"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="A. Raymond Elliott" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Felipe Santiago Rojas" TIER_ID="TRS-Ortho">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>R@h@@ r@ˈm@n h@@ˈó g@tsì@</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>R@h@@ r@ˈm@n h@@ˈó g@tsì@, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>g@@n@n d@h@&lt;@&gt;@&lt;/@&gt; @s&lt;@&gt;@&lt;/@&gt;j n@ </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>g@t@j n@g@&lt;@&gt;@&lt;/@&gt;nˈ g@n@nï̂n n@j y@ˈ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>n&lt;@&gt;@&lt;/@&gt; g@n@nï̂n n@j s@ˈ s@ kïj h@&lt;@&gt;@&lt;/@&gt;ˈ&lt;@&gt;@&lt;/@&gt;nj &lt;@&gt;@&lt;/@&gt;n g@h@@n nï̀nˈ g&lt;@&gt;@&lt;/@&gt;chr@ˈ kïj y@nûnˈ, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>n&lt;@&gt;@&lt;/@&gt; ût@ g@@m@n chr@n r@g@chrïïn n&lt;@&gt;@&lt;/@&gt; ût@ g@n@ch@ n@t@ nn@&lt;@&gt;@&lt;/@&gt;. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>N&lt;@&gt;@&lt;/@&gt; d@r@nˈ d@û g@m@nˈ g@mà@n, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>n&lt;@&gt;@&lt;/@&gt; r@h@@ d@h@&lt;@&gt;@&lt;/@&gt; n@nj g@@n@n Y@k@á t&lt;@&gt;@&lt;/@&gt; h@@ˈ@, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>n&lt;@&gt;@&lt;/@&gt; ng@ g@h@@n g@&lt;@&gt;ï&lt;/@&gt;n n&lt;@&gt;@&lt;/@&gt;ˈ g@@ n&lt;@&gt;@&lt;/@&gt; g@h@@ y@ˈ r@h@@ d@h@&lt;@&gt;@&lt;/@&gt; n@nj g@@nd@ g&lt;@&gt;@&lt;/@&gt;n&lt;@&gt;@&lt;/@&gt;h@@n n&lt;@&gt;@&lt;/@&gt; y@ˈ n@n,  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>n@t@j s@ g@ch@n nìchrùnˈ n@j g@@ì h@@n n&lt;@&gt;@&lt;/@&gt;n d@h@&lt;@&gt;@&lt;/@&gt; n@nj, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>d@d@nˈ ng@ g@ch@n nìchrùnˈ n@nj n&lt;@&gt;@&lt;/@&gt; g@y@m@nj g@&lt;@&gt;@&lt;/@&gt; y@k@á t&lt;@&gt;@&lt;/@&gt; h@@ˈ@ </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>d@nj n@nj g@t@j n@j s@ch@j @ ng@ g@n@nï̂n n@j s@ˈ, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>r@y@ˈ@ d@nj n&lt;@&gt;@&lt;/@&gt; ût@ g&lt;@&gt;@&lt;/@&gt;nˈ g@ch@n n@j s@ˈ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>s@n&lt;@&gt;@&lt;/@&gt; ng@ g@@y@n@nj g@@ì n&lt;@&gt;@&lt;/@&gt; g@ˈm@n r@h@@ y@ˈ d@d@nˈ g@d@r@ˈ nï̀nˈ n@j g@@ì h@@n n&lt;@&gt;@&lt;/@&gt;n y@ˈ, n&lt;@&gt;@&lt;/@&gt; g@h@@ y@ˈ n&lt;@&gt;@&lt;/@&gt; g@ˈ@nj y@ˈ @ˈng@ n@&lt;@&gt;@&lt;/@&gt;ˈ h@@ˈó@,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>h@ê d@nj n&lt;@&gt;@&lt;/@&gt; g@n@kò d@h@&lt;@&gt;@&lt;/@&gt; g@@n@n r@h@@ r@ˈm@n n@nj d@d@nˈ n@t@j s@ g@m@nˈ n@k@ g&lt;@&gt;@&lt;/@&gt;ˈ g@t@j n@j s@ch@j @ n&lt;@&gt;@&lt;/@&gt;nj @nj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="A. Raymond Elliott" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="TRS-Broad" PARENT_REF="TRS-Ortho" PARTICIPANT="Felipe Santiago Rojas" TIER_ID="TRS Broad IPA">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>r@w@&lt;s@p&gt;4&lt;/s@p&gt; r@ʔm@&lt;s@p&gt;3&lt;/s@p&gt; j@ʔ@&lt;s@p&gt;5&lt;/s@p&gt; ɡ@ts@&lt;s@p&gt;13&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>r@w@&lt;s@p&gt;4&lt;/s@p&gt; r@ʔm@&lt;s@p&gt;3&lt;/s@p&gt; j@ʔ@&lt;s@p&gt;53&lt;/s@p&gt; ɡ@ts@&lt;s@p&gt;13&lt;/s@p&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>ɡ@n@&lt;s@p&gt;3&lt;/s@p&gt; d@w@&lt;s@p&gt;2&lt;/s@p&gt; @s@&lt;s@p&gt;2&lt;/s@p&gt;h n@&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>ɡ@t@&lt;s@p&gt;3&lt;/s@p&gt;h n@ɡw@&lt;s@p&gt;2&lt;/s@p&gt;ʔ ɡ@n@n@̃&lt;s@p&gt;4&lt;/s@p&gt; n@&lt;s@p&gt;3&lt;/s@p&gt;h ʒ@ʔ&lt;s@p&gt;4&lt;/s@p&gt;, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@n@n@̃&lt;s@p&gt;4&lt;/s@p&gt; n@&lt;s@p&gt;3&lt;/s@p&gt;h s@&lt;s@p&gt;4&lt;/s@p&gt;ʔ s@&lt;s@p&gt;3&lt;/s@p&gt;–k@&lt;s@p&gt;3&lt;/s@p&gt;h  j̃@&lt;s@p&gt;2&lt;/s@p&gt;ʔ@&lt;s@p&gt;2&lt;/s@p&gt;h@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@w@&lt;s@p&gt;3&lt;/s@p&gt; n@̃&lt;s@p&gt;1&lt;/s@p&gt;ʔ ɡ@&lt;s@p&gt;2&lt;/s@p&gt;tʂ@&lt;s@p&gt;3&lt;/s@p&gt;ʔ k@&lt;s@p&gt;3&lt;/s@p&gt;h ʒ@n@&lt;s@p&gt;4&lt;/s@p&gt;ʔ,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE> n@&lt;s@p&gt;2&lt;/s@p&gt; @&lt;s@p&gt;4&lt;/s@p&gt;t@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@m@&lt;s@p&gt;4&lt;/s@p&gt; tʂ@&lt;s@p&gt;3&lt;/s@p&gt; r@ɡ@tʂ@̃&lt;s@p&gt;3&lt;/s@p&gt; n@&lt;s@p&gt;2&lt;/s@p&gt;  @&lt;s@p&gt;4&lt;/s@p&gt;t@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@n@tʃ@&lt;s@p&gt;3&lt;/s@p&gt; n@t@&lt;s@p&gt;3&lt;/s@p&gt; nː@&lt;s@p&gt;32 &lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;2&lt;/s@p&gt; d@r@&lt;s@p&gt;3&lt;/s@p&gt;ʔ d@@&lt;s@p&gt;4&lt;/s@p&gt; ɡ@m@&lt;s@p&gt;3&lt;/s@p&gt;ʔ ɡ@m@&lt;s@p&gt;13&lt;/s@p&gt;, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt; r@w@&lt;s@p&gt;43&lt;/s@p&gt; d@w@&lt;s@p&gt;2&lt;/s@p&gt; n@&lt;s@p&gt;4&lt;/s@p&gt;h ɡ@n@&lt;s@p&gt;3&lt;/s@p&gt; &lt;@&gt;ʒ@kw@&lt;s@p&gt;5&lt;/s@p&gt; t@&lt;s@p&gt;2&lt;/s@p&gt; j@ʔ@&lt;s@p&gt;3&lt;/s@p&gt;&lt;/@&gt;, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@w@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@̃&lt;s@p&gt;2&lt;/s@p&gt; n@&lt;s@p&gt;32&lt;/s@p&gt;ʔ ɡw@&lt;s@p&gt;3&lt;/s@p&gt; n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@w@&lt;s@p&gt;3&lt;/s@p&gt; ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ r@w@&lt;s@p&gt;4&lt;/s@p&gt; d@w@&lt;s@p&gt;2&lt;/s@p&gt; n@&lt;s@p&gt;4&lt;/s@p&gt;h ɡw@nd@&lt;s@p&gt;4&lt;/s@p&gt; ɡ@&lt;s@p&gt;2&lt;/s@p&gt;n@&lt;s@p&gt;2&lt;/s@p&gt;w@&lt;s@p&gt;3&lt;/s@p&gt;  n@&lt;s@p&gt;2&lt;/s@p&gt; ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ n@&lt;s@p&gt;4&lt;/s@p&gt;,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>&lt;@&gt;n@t@&lt;s@p&gt;3&lt;/s@p&gt;h s@&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt; ɡ@tʃ@&lt;s@p&gt;4&lt;/s@p&gt; n@&lt;s@p&gt;1&lt;/s@p&gt;tʂr@&lt;s@p&gt;1&lt;/s@p&gt;ʔ n@&lt;s@p&gt;3&lt;/s@p&gt;h ɡw@&lt;s@p&gt;31&lt;/s@p&gt;  j̃@&lt;s@p&gt;3&lt;/s@p&gt; n@&lt;s@p&gt;2&lt;/s@p&gt; d@w@&lt;s@p&gt;2&lt;/s@p&gt; n@&lt;s@p&gt;4&lt;/s@p&gt;h, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>d@d@&lt;s@p&gt;3&lt;/s@p&gt;ʔ ŋɡ@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@tʃ@&lt;s@p&gt;3&lt;/s@p&gt; n@&lt;s@p&gt;1&lt;/s@p&gt;tʂ@&lt;s@p&gt;1&lt;/s@p&gt;ʔ n@&lt;s@p&gt;3&lt;/s@p&gt;h n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@ʒ@m@&lt;s@p&gt;4&lt;/s@p&gt;h ɡ@&lt;s@p&gt;2&lt;/s@p&gt; &lt;@&gt;ʒ@kw@&lt;s@p&gt;5&lt;/s@p&gt; t@&lt;s@p&gt;2&lt;/s@p&gt; j@ʔ@&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>d@&lt;s@p&gt;4&lt;/s@p&gt;h n@&lt;s@p&gt;3&lt;/s@p&gt;h ɡ@t@&lt;s@p&gt;3&lt;/s@p&gt;h n@&lt;s@p&gt;3&lt;/s@p&gt;h s@tʃ@&lt;s@p&gt;3&lt;/s@p&gt;h@ ŋɡ@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@n@n@̃&lt;s@p&gt;4&lt;/s@p&gt; n@&lt;s@p&gt;3&lt;/s@p&gt;h s@&lt;s@p&gt;4&lt;/s@p&gt;ʔ, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>r@ʒ@&lt;s@p&gt;3&lt;/s@p&gt;ʔ@&lt;s@p&gt;4&lt;/s@p&gt; d@&lt;s@p&gt;4&lt;/s@p&gt;h n@&lt;s@p&gt;2&lt;/s@p&gt; @&lt;s@p&gt;4&lt;/s@p&gt;t@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@&lt;s@p&gt;2&lt;/s@p&gt;ʔ ɡ@tʃ@&lt;s@p&gt;4&lt;/s@p&gt; n@&lt;s@p&gt;3&lt;/s@p&gt;h s@&lt;s@p&gt;4&lt;/s@p&gt;ʔ, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>s@n@&lt;s@p&gt;2&lt;/s@p&gt; ŋɡ@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@ʒ@n@&lt;s@p&gt;3&lt;/s@p&gt;h ɡw@&lt;s@p&gt;31&lt;/s@p&gt; n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@ʔm@&lt;s@p&gt;3&lt;/s@p&gt;ʔ r@w@&lt;s@p&gt;4&lt;/s@p&gt; ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ d@d@&lt;s@p&gt;3&lt;/s@p&gt;ʔ ɡ@d@rə&lt;s@p&gt;3&lt;/s@p&gt;ʔ n@̃&lt;s@p&gt;1&lt;/s@p&gt;ʔ n@&lt;s@p&gt;3&lt;/s@p&gt;h ɡw@&lt;s@p&gt;31&lt;/s@p&gt; j@&lt;s@p&gt;3&lt;/s@p&gt; n@&lt;s@p&gt;2&lt;/s@p&gt; ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ, n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@w@&lt;s@p&gt;3&lt;/s@p&gt; ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@ʔ@&lt;s@p&gt;3&lt;/s@p&gt;h ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ @ʔŋɡ@&lt;s@p&gt;4&lt;/s@p&gt; n@&lt;s@p&gt;32&lt;/s@p&gt;ʔ j@ʔ@&lt;s@p&gt;53&lt;/s@p&gt;,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>&lt;@&gt;w@&lt;s@p&gt;4&lt;/s@p&gt;_d@&lt;s@p&gt;3&lt;/s@p&gt;h&lt;/@&gt; n@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@n@k@&lt;s@p&gt;1&lt;/s@p&gt; d@w@&lt;s@p&gt;2&lt;/s@p&gt; ɡ@n@&lt;s@p&gt;3&lt;/s@p&gt; r@w@&lt;s@p&gt;4&lt;/s@p&gt; r@ʔm@&lt;s@p&gt;3&lt;/s@p&gt; n@&lt;s@p&gt;4&lt;/s@p&gt;h d@d@&lt;s@p&gt;32&lt;/s@p&gt;ʔ &lt;@&gt;n@t@&lt;s@p&gt;3&lt;/s@p&gt;h s@&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt; ɡ@m@&lt;s@p&gt;3&lt;/s@p&gt;ʔ n@k@&lt;s@p&gt;3&lt;/s@p&gt; ɡ@&lt;s@p&gt;2&lt;/s@p&gt;ʔ ɡ@t@&lt;s@p&gt;3&lt;/s@p&gt;h n@&lt;s@p&gt;3&lt;/s@p&gt;h s@tʃ@&lt;s@p&gt;3&lt;/s@p&gt;h@ n@&lt;s@p&gt;2&lt;/s@p&gt;h@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="A. Raymond Elliott" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Free Translation" PARENT_REF="TRS-Ortho" PARTICIPANT="Felipe Santiago Rojas" TIER_ID="Free Translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>@n th@ H@l@ @f Wh@t@ D@rt.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Th@r@ @s @ h@l@ @f wh@t@ d@rt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a662" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>wh@r@ @ l@k@ @s@d t@ b@ l@ng l@ng @g@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a373" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>@@r @nc@st@rs t@ld @s. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>@nd th@y t@ld @s th@t @n @ll @f G@d’s m@@nt@@n @nd @n @@r r@g@@n, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a656" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>th@r@ w@r@ m@ny p@n@ tr@@s @nd m@ny w@t@r spr@ngs’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a18" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>‘@nd @t w@s @lw@ys r@@n@ng </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a657" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>@nd @n th@ l@k@ l@v@d @ f@@th@r@d s@rp@nt </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a658" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>wh@ w@@ld c@m@ @@t @n th@ w@rmth @f th@ d@y s@ h@ c@@ld s@@k @p th@ h@@t @f th@ s@n’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>b@t n@b@dy c@@ld w@lk n@@r th@ l@k@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a659" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE> b@c@@s@ wh@n th@y c@m@ n@@r, th@ pl@m@d s@rp@nt w@@ld s@rpr@s@ngly sw@ll@w th@m</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a660" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>wh@n th@y p@ss@d by, @@r @nc@st@rs t@ld @s.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a661" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>F@r th@t r@@s@n, p@@pl@ w@@ld st@y f@r @w@y fr@m th@ l@k@.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>B@t wh@n th@ p@p@l@t@@n k@pt gr@w@ng, th@ pl@m@d s@rp@nt b@c@m@ s@ @ngry b@c@@s@ th@y w@r@ d@str@y@ng @v@ryth@ng s@ h@ d@c@d@d t@ @b@nd@n th@t l@k@ t@ g@ l@v@ @n @n@th@r l@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>@nd @ft@r th@t, th@ l@k@ dr@@d @p b@c@@s@ th@ r@@n n@v@r r@t@rn@d, @@r @ld@rs t@ld @s.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="A. Raymond Elliott" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Tokenization 2" PARENT_REF="TRS-Ortho" PARTICIPANT="Felipe Santiago Rojas" TIER_ID="Tokenization-cp">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a374" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>r@w@ː&lt;s@p&gt;4&lt;/s@p&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a375" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a374">
+                <ANNOTATION_VALUE>r@ʔm@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a376" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a375">
+                <ANNOTATION_VALUE>j@̰ʔ̰@̰ː&lt;s@p&gt;5&lt;/s@p&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a377" ANNOTATION_REF="a1" PREVIOUS_ANNOTATION="a376">
+                <ANNOTATION_VALUE>ɡ@t͡s@ː&lt;s@p&gt;13&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a378" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>r@w@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a379" ANNOTATION_REF="a2" PREVIOUS_ANNOTATION="a378">
+                <ANNOTATION_VALUE>ʐ@ʔm@ː&lt;s@p&gt;3&lt;/s@p&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a380" ANNOTATION_REF="a2" PREVIOUS_ANNOTATION="a379">
+                <ANNOTATION_VALUE> j@ʔ@ː&lt;s@p&gt;53&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a381" ANNOTATION_REF="a2" PREVIOUS_ANNOTATION="a380">
+                <ANNOTATION_VALUE>ɡ@t͡s@ː&lt;s@p&gt;13&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a382" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>ɡ@–n@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a383" ANNOTATION_REF="a52" PREVIOUS_ANNOTATION="a382">
+                <ANNOTATION_VALUE>d̪@w@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a384" ANNOTATION_REF="a52" PREVIOUS_ANNOTATION="a383">
+                <ANNOTATION_VALUE>@s@&lt;s@p&gt;2&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a385" ANNOTATION_REF="a52" PREVIOUS_ANNOTATION="a384">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a386" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>ɡ@–t̪@&lt;s@p&gt;32&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a387" ANNOTATION_REF="a53" PREVIOUS_ANNOTATION="a386">
+                <ANNOTATION_VALUE>n@w@&lt;s@p&gt;2&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a388" ANNOTATION_REF="a53" PREVIOUS_ANNOTATION="a387">
+                <ANNOTATION_VALUE>ɡ@–n@n@̃ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a389" ANNOTATION_REF="a53" PREVIOUS_ANNOTATION="a388">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a390" ANNOTATION_REF="a53" PREVIOUS_ANNOTATION="a389">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a391" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a392" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a391">
+                <ANNOTATION_VALUE>ɡ@–n@n@̃ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a393" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a392">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a394" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a393">
+                <ANNOTATION_VALUE>s@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a395" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a394">
+                <ANNOTATION_VALUE>s@ː&lt;s@p&gt;3&lt;/s@p&gt;–k@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a396" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a395">
+                <ANNOTATION_VALUE>j̃@&lt;s@p&gt;2&lt;/s@p&gt;ʔ@&lt;s@p&gt;2h&lt;/s@p&gt;@&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a397" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a396">
+                <ANNOTATION_VALUE>ɡ@–w@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a398" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a397">
+                <ANNOTATION_VALUE>n@̃&lt;s@p&gt;1&lt;/s@p&gt;ʔ ɡ@&lt;s@p&gt;2&lt;/s@p&gt;t͡ʂ@&lt;s@p&gt;3&lt;/s@p&gt;ʔ&lt;/@&gt;  </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a399" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a398">
+                <ANNOTATION_VALUE>k@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a400" ANNOTATION_REF="a3" PREVIOUS_ANNOTATION="a399">
+                <ANNOTATION_VALUE>ʒ@n@&lt;s@p&gt;4&lt;/s@p&gt;–ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a401" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a402" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a401">
+                <ANNOTATION_VALUE>@&lt;s@p&gt;4&lt;/s@p&gt;t̪@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a403" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a402">
+                <ANNOTATION_VALUE> ɡ@–m@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a404" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a403">
+                <ANNOTATION_VALUE>t͡ʂ@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a405" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a404">
+                <ANNOTATION_VALUE>r@ɡ@t͡ʂ@̃ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a406" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a405">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a407" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a406">
+                <ANNOTATION_VALUE>@&lt;s@p&gt;4&lt;/s@p&gt;t̪@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a408" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a407">
+                <ANNOTATION_VALUE>ɡ@–n@t͡ʃ@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a409" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a408">
+                <ANNOTATION_VALUE>n@t̪@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a410" ANNOTATION_REF="a56" PREVIOUS_ANNOTATION="a409">
+                <ANNOTATION_VALUE>nː@ː&lt;s@p&gt;32&lt;/s@p&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a411" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a412" ANNOTATION_REF="a4" PREVIOUS_ANNOTATION="a411">
+                <ANNOTATION_VALUE>d̪’r@&lt;s@p&gt;3&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a413" ANNOTATION_REF="a4" PREVIOUS_ANNOTATION="a412">
+                <ANNOTATION_VALUE>d̪@@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a414" ANNOTATION_REF="a4" PREVIOUS_ANNOTATION="a413">
+                <ANNOTATION_VALUE>ɡ–@m@&lt;s@p&gt;3&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a415" ANNOTATION_REF="a4" PREVIOUS_ANNOTATION="a414">
+                <ANNOTATION_VALUE>ɡ@m@ː&lt;s@p&gt;13&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a416" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE> n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a417" ANNOTATION_REF="a66" PREVIOUS_ANNOTATION="a416">
+                <ANNOTATION_VALUE>r@w@ː&lt;s@p&gt;43&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a418" ANNOTATION_REF="a66" PREVIOUS_ANNOTATION="a417">
+                <ANNOTATION_VALUE>d̪@w@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a419" ANNOTATION_REF="a66" PREVIOUS_ANNOTATION="a418">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;4&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a420" ANNOTATION_REF="a66" PREVIOUS_ANNOTATION="a419">
+                <ANNOTATION_VALUE>ɡ@&lt;s@p&gt;3&lt;/s@p&gt;–n@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a421" ANNOTATION_REF="a66" PREVIOUS_ANNOTATION="a420">
+                <ANNOTATION_VALUE>&lt;@&gt;ʒ@kw@ː&lt;s@p&gt;5&lt;/s@p&gt;t̪@ː&lt;s@p&gt;2&lt;/s@p&gt;j@ʔ@ː&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a422" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a423" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a422">
+                <ANNOTATION_VALUE>ŋɡ@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a424" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a423">
+                <ANNOTATION_VALUE>ɣ@&lt;s@p&gt;3&lt;/s@p&gt;–w@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a425" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a424">
+                <ANNOTATION_VALUE>ɡ@̃ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a426" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a425">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;2&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a427" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a426">
+                <ANNOTATION_VALUE>w@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a428" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a427">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a429" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a428">
+                <ANNOTATION_VALUE>ɡ–@w@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a430" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a429">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a431" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a430">
+                <ANNOTATION_VALUE>r@w@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a432" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a431">
+                <ANNOTATION_VALUE>d̪@w@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a433" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a432">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;4&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a434" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a433">
+                <ANNOTATION_VALUE>ɡw@n̪d̪@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a435" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a434">
+                <ANNOTATION_VALUE>ɡ@&lt;s@p&gt;2&lt;/s@p&gt;–n@&lt;s@p&gt;2&lt;/s@p&gt;w@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a436" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a435">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a437" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a436">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a438" ANNOTATION_REF="a58" PREVIOUS_ANNOTATION="a437">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a439" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>&lt;@&gt;n@t̪@&lt;s@p&gt;3&lt;/s@p&gt;h s@ː&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a440" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a439">
+                <ANNOTATION_VALUE>ɡ–@t͡ʃ@̃ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a441" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a440">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;1&lt;/s@p&gt;t͡ʂr@&lt;s@p&gt;1&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a442" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a441">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a443" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a442">
+                <ANNOTATION_VALUE>ɡw@ː&lt;s@p&gt;31&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a444" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a443">
+                <ANNOTATION_VALUE> j̃@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a445" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a444">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a446" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a445">
+                <ANNOTATION_VALUE>d̪@w@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a447" ANNOTATION_REF="a5" PREVIOUS_ANNOTATION="a446">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;4&lt;/s@p&gt;h,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a448" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>d̪@d̪@&lt;s@p&gt;3&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a449" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a448">
+                <ANNOTATION_VALUE>ŋɡ@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a450" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a449">
+                <ANNOTATION_VALUE>ɡ–@t͡ʃ@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a451" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a450">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;1&lt;/s@p&gt;t͡ʂ@&lt;s@p&gt;1&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a452" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a451">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a453" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a452">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a454" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a453">
+                <ANNOTATION_VALUE>ɡ@–ʒ@m@&lt;s@p&gt;4&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a455" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a454">
+                <ANNOTATION_VALUE>ɡ@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a456" ANNOTATION_REF="a61" PREVIOUS_ANNOTATION="a455">
+                <ANNOTATION_VALUE>&lt;@&gt;ʒ@kw@ː&lt;s@p&gt;5&lt;/s@p&gt; t̪@ː&lt;s@p&gt;2&lt;/s@p&gt; j@ʔ@ː&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a457" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>d̪@&lt;s@p&gt;4&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a458" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a457">
+                <ANNOTATION_VALUE>n@̃&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a459" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a458">
+                <ANNOTATION_VALUE>ɡ–@t̪@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a460" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a459">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a461" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a460">
+                <ANNOTATION_VALUE>s@t͡ʃ@&lt;s@p&gt;3h&lt;/s@p&gt;@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a462" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a461">
+                <ANNOTATION_VALUE>ŋɡ@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a463" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a462">
+                <ANNOTATION_VALUE>ɡ@–n@n@̃ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a464" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a463">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a465" ANNOTATION_REF="a62" PREVIOUS_ANNOTATION="a464">
+                <ANNOTATION_VALUE>s@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a466" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>r@ʒ@&lt;s@p&gt;3&lt;/s@p&gt;ʔ@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a467" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a466">
+                <ANNOTATION_VALUE>d@&lt;s@p&gt;4&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a468" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a467">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a469" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a468">
+                <ANNOTATION_VALUE>@&lt;s@p&gt;4&lt;/s@p&gt;t̪@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a470" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a469">
+                <ANNOTATION_VALUE>ɡ@&lt;s@p&gt;2&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a471" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a470">
+                <ANNOTATION_VALUE>ɡ–@t͡ʃ@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a472" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a471">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a473" ANNOTATION_REF="a63" PREVIOUS_ANNOTATION="a472">
+                <ANNOTATION_VALUE>s@&lt;s@p&gt;4&lt;/s@p&gt;ʔ, </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a474" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>s@n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a475" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a474">
+                <ANNOTATION_VALUE>ŋɡ@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a476" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a475">
+                <ANNOTATION_VALUE>ɡ@–ʒ@n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a477" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a476">
+                <ANNOTATION_VALUE>&lt;s@p&gt;ɡ&lt;/s@p&gt;w@ː&lt;s@p&gt;31&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a478" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a477">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a479" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a478">
+                <ANNOTATION_VALUE>ɡ–@ʔm@&lt;s@p&gt;3&lt;/s@p&gt;ʔ r@w@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a480" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a479">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a481" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a480">
+                <ANNOTATION_VALUE>d̪@d̪@&lt;s@p&gt;3&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a482" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a481">
+                <ANNOTATION_VALUE>ɡ@–d̪@rə&lt;s@p&gt;3&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a483" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a482">
+                <ANNOTATION_VALUE>n@̃&lt;s@p&gt;1&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a484" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a483">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a485" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a484">
+                <ANNOTATION_VALUE>w@ː&lt;s@p&gt;31&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a486" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a485">
+                <ANNOTATION_VALUE>j̃@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a487" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a486">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a488" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a487">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a489" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a488">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a490" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a489">
+                <ANNOTATION_VALUE>ɡ–@w@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a491" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a490">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a492" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a491">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a493" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a492">
+                <ANNOTATION_VALUE>ɡ–@ʔ@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a494" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a493">
+                <ANNOTATION_VALUE>ʒ@&lt;s@p&gt;4&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a495" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a494">
+                <ANNOTATION_VALUE>@ʔŋɡ@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a496" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a495">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;32&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a497" ANNOTATION_REF="a6" PREVIOUS_ANNOTATION="a496">
+                <ANNOTATION_VALUE>j@ʔ̬@ː&lt;s@p&gt;53&lt;/s@p&gt;,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a498" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>&lt;@&gt;w@ː&lt;s@p&gt;4&lt;/s@p&gt;d̪@&lt;s@p&gt;3&lt;/s@p&gt;h&lt;/@&gt; </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a499" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a498">
+                <ANNOTATION_VALUE>n@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a500" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a499">
+                <ANNOTATION_VALUE>ɡ@–n@k@ː&lt;s@p&gt;1&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a501" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a500">
+                <ANNOTATION_VALUE>d̪@w@ː&lt;s@p&gt;2&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a502" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a501">
+                <ANNOTATION_VALUE>ɡ@–n@ː&lt;s@p&gt;32&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a503" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a502">
+                <ANNOTATION_VALUE>ʐ@w@ː&lt;s@p&gt;4&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a504" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a503">
+                <ANNOTATION_VALUE>ʐ@ʔm@ː&lt;s@p&gt;32&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a505" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a504">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;4&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a506" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a505">
+                <ANNOTATION_VALUE>d̪@d̪@&lt;s@p&gt;32&lt;/s@p&gt;ʔ </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a507" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a506">
+                <ANNOTATION_VALUE>&lt;@&gt;n@t̪@&lt;s@p&gt;3&lt;/s@p&gt;h s@ː&lt;/@&gt;&lt;s@p&gt;3&lt;/s@p&gt; s@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a508" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a507">
+                <ANNOTATION_VALUE>ɡ–@m@&lt;s@p&gt;3&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a509" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a508">
+                <ANNOTATION_VALUE>n@k@ː&lt;s@p&gt;3&lt;/s@p&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a510" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a509">
+                <ANNOTATION_VALUE>ɡ@&lt;s@p&gt;2&lt;/s@p&gt;ʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a511" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a510">
+                <ANNOTATION_VALUE>ɡ–@t̪@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a512" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a511">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a513" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a512">
+                <ANNOTATION_VALUE>s@t͡ʃ@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a514" ANNOTATION_REF="a7" PREVIOUS_ANNOTATION="a513">
+                <ANNOTATION_VALUE>n@&lt;s@p&gt;2&lt;/s@p&gt;h@&lt;s@p&gt;3&lt;/s@p&gt;h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="A. Raymond Elliott" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="POS" PARENT_REF="Tokenization-cp" PARTICIPANT="Felipe Santiago Rojas" TIER_ID="Tokenization-Gloss-cp">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a515" ANNOTATION_REF="a374">
+                <ANNOTATION_VALUE>@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a516" ANNOTATION_REF="a375">
+                <ANNOTATION_VALUE>h@l@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a620" ANNOTATION_REF="a376">
+                <ANNOTATION_VALUE>d@rt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a517" ANNOTATION_REF="a377">
+                <ANNOTATION_VALUE>wh@t@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a518" ANNOTATION_REF="a378">
+                <ANNOTATION_VALUE>@n	</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a519" ANNOTATION_REF="a379">
+                <ANNOTATION_VALUE>h@l@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a621" ANNOTATION_REF="a380">
+                <ANNOTATION_VALUE>wh@t@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a520" ANNOTATION_REF="a381">
+                <ANNOTATION_VALUE>d@rt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a521" ANNOTATION_REF="a382">
+                <ANNOTATION_VALUE>PST–b@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a522" ANNOTATION_REF="a383">
+                <ANNOTATION_VALUE>l@k@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a622" ANNOTATION_REF="a384">
+                <ANNOTATION_VALUE>f@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a523" ANNOTATION_REF="a385">
+                <ANNOTATION_VALUE>l@ng.@g@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a524" ANNOTATION_REF="a386">
+                <ANNOTATION_VALUE>PST–s@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a525" ANNOTATION_REF="a387">
+                <ANNOTATION_VALUE>w@rd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a526" ANNOTATION_REF="a388">
+                <ANNOTATION_VALUE>PST–t@ll</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a623" ANNOTATION_REF="a389">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a527" ANNOTATION_REF="a390">
+                <ANNOTATION_VALUE>@ld@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a528" ANNOTATION_REF="a391">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a529" ANNOTATION_REF="a392">
+                <ANNOTATION_VALUE>PST–t@ll</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a530" ANNOTATION_REF="a393">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a624" ANNOTATION_REF="a394">
+                <ANNOTATION_VALUE>h@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a531" ANNOTATION_REF="a395">
+                <ANNOTATION_VALUE>P@SS:m@@nt@@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a532" ANNOTATION_REF="a396">
+                <ANNOTATION_VALUE>g@d</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a625" ANNOTATION_REF="a397">
+                <ANNOTATION_VALUE>PST–b@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a533" ANNOTATION_REF="a398">
+                <ANNOTATION_VALUE>@v@rywh@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a626" ANNOTATION_REF="a399">
+                <ANNOTATION_VALUE>m@@nt@@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a534" ANNOTATION_REF="a400">
+                <ANNOTATION_VALUE>t@wn:@NCL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a535" ANNOTATION_REF="a401">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a536" ANNOTATION_REF="a402">
+                <ANNOTATION_VALUE>m@ny</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a537" ANNOTATION_REF="a403">
+                <ANNOTATION_VALUE>PST–b@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a538" ANNOTATION_REF="a404">
+                <ANNOTATION_VALUE>tr@@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a539" ANNOTATION_REF="a405">
+                <ANNOTATION_VALUE>p@n@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a540" ANNOTATION_REF="a406">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a627" ANNOTATION_REF="a407">
+                <ANNOTATION_VALUE>m@ny</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a541" ANNOTATION_REF="a408">
+                <ANNOTATION_VALUE>PST–fl@w</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a628" ANNOTATION_REF="a409">
+                <ANNOTATION_VALUE>f@@nt@@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a542" ANNOTATION_REF="a410">
+                <ANNOTATION_VALUE>w@t@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a543" ANNOTATION_REF="a411">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a544" ANNOTATION_REF="a412">
+                <ANNOTATION_VALUE>@ll</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a545" ANNOTATION_REF="a413">
+                <ANNOTATION_VALUE>t@m@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a629" ANNOTATION_REF="a414">
+                <ANNOTATION_VALUE>PST–r@@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a546" ANNOTATION_REF="a415">
+                <ANNOTATION_VALUE>r@@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a547" ANNOTATION_REF="a416">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a548" ANNOTATION_REF="a417">
+                <ANNOTATION_VALUE>@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a549" ANNOTATION_REF="a418">
+                <ANNOTATION_VALUE>l@k@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a550" ANNOTATION_REF="a419">
+                <ANNOTATION_VALUE>th@t</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a630" ANNOTATION_REF="a420">
+                <ANNOTATION_VALUE>PST–b@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a631" ANNOTATION_REF="a421">
+                <ANNOTATION_VALUE>&lt;@&gt;sn@k@ pl@m@d&lt;/@&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a551" ANNOTATION_REF="a422">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a552" ANNOTATION_REF="a423">
+                <ANNOTATION_VALUE>wh@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a553" ANNOTATION_REF="a424">
+                <ANNOTATION_VALUE>PST–b@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a554" ANNOTATION_REF="a425">
+                <ANNOTATION_VALUE>w@rm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a555" ANNOTATION_REF="a426">
+                <ANNOTATION_VALUE>t@w@rd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a556" ANNOTATION_REF="a427">
+                <ANNOTATION_VALUE>s@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a557" ANNOTATION_REF="a428">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a558" ANNOTATION_REF="a429">
+                <ANNOTATION_VALUE>PST–c@m@.@@t</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a632" ANNOTATION_REF="a430">
+                <ANNOTATION_VALUE>h@.@n@m@l</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a559" ANNOTATION_REF="a431">
+                <ANNOTATION_VALUE>@nt@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a560" ANNOTATION_REF="a432">
+                <ANNOTATION_VALUE>l@k@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a633" ANNOTATION_REF="a433">
+                <ANNOTATION_VALUE>th@t</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a561" ANNOTATION_REF="a434">
+                <ANNOTATION_VALUE>f@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a634" ANNOTATION_REF="a435">
+                <ANNOTATION_VALUE>F@T–b@c@m@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a562" ANNOTATION_REF="a436">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a635" ANNOTATION_REF="a437">
+                <ANNOTATION_VALUE>h@.@n@m@l</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a563" ANNOTATION_REF="a438">
+                <ANNOTATION_VALUE>h@@t.@f.s@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a564" ANNOTATION_REF="a439">
+                <ANNOTATION_VALUE>th@r@.b@.n@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a565" ANNOTATION_REF="a440">
+                <ANNOTATION_VALUE>PST–p@ss</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a566" ANNOTATION_REF="a441">
+                <ANNOTATION_VALUE>n@@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a567" ANNOTATION_REF="a442">
+                <ANNOTATION_VALUE>th@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a568" ANNOTATION_REF="a443">
+                <ANNOTATION_VALUE>p@@pl@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a636" ANNOTATION_REF="a444">
+                <ANNOTATION_VALUE>wh@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a569" ANNOTATION_REF="a445">
+                <ANNOTATION_VALUE>b@.@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a637" ANNOTATION_REF="a446">
+                <ANNOTATION_VALUE>l@k@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a570" ANNOTATION_REF="a447">
+                <ANNOTATION_VALUE>th@t</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a571" ANNOTATION_REF="a448">
+                <ANNOTATION_VALUE>b@c@@s@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a572" ANNOTATION_REF="a449">
+                <ANNOTATION_VALUE>wh@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a573" ANNOTATION_REF="a450">
+                <ANNOTATION_VALUE>PST–p@ss</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a574" ANNOTATION_REF="a451">
+                <ANNOTATION_VALUE>n@@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a639" ANNOTATION_REF="a452">
+                <ANNOTATION_VALUE>th@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a575" ANNOTATION_REF="a453">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a576" ANNOTATION_REF="a454">
+                <ANNOTATION_VALUE>PST–sw@ll@w</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a638" ANNOTATION_REF="a455">
+                <ANNOTATION_VALUE>s@rpr@s@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a640" ANNOTATION_REF="a456">
+                <ANNOTATION_VALUE>&lt;@&gt;sn@k@ pl@m@d&lt;/@&gt;</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a577" ANNOTATION_REF="a457">
+                <ANNOTATION_VALUE>th@t.@n@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a578" ANNOTATION_REF="a458">
+                <ANNOTATION_VALUE>th@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a579" ANNOTATION_REF="a459">
+                <ANNOTATION_VALUE>PST–s@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a580" ANNOTATION_REF="a460">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a581" ANNOTATION_REF="a461">
+                <ANNOTATION_VALUE>@nc@st@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a642" ANNOTATION_REF="a462">
+                <ANNOTATION_VALUE>wh@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a582" ANNOTATION_REF="a463">
+                <ANNOTATION_VALUE>PST–p@ss</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a641" ANNOTATION_REF="a464">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a583" ANNOTATION_REF="a465">
+                <ANNOTATION_VALUE>h@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a584" ANNOTATION_REF="a466">
+                <ANNOTATION_VALUE>th@r@f@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a585" ANNOTATION_REF="a467">
+                <ANNOTATION_VALUE>th@t</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a586" ANNOTATION_REF="a468">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a587" ANNOTATION_REF="a469">
+                <ANNOTATION_VALUE>v@ry</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a643" ANNOTATION_REF="a470">
+                <ANNOTATION_VALUE>f@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a588" ANNOTATION_REF="a471">
+                <ANNOTATION_VALUE>PST–p@ss</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a644" ANNOTATION_REF="a472">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a589" ANNOTATION_REF="a473">
+                <ANNOTATION_VALUE>h@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a590" ANNOTATION_REF="a474">
+                <ANNOTATION_VALUE>b@t</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a591" ANNOTATION_REF="a475">
+                <ANNOTATION_VALUE>wh@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a592" ANNOTATION_REF="a476">
+                <ANNOTATION_VALUE>PST–m@lt@ply</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a593" ANNOTATION_REF="a477">
+                <ANNOTATION_VALUE>p@@pl@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a594" ANNOTATION_REF="a478">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a595" ANNOTATION_REF="a479">
+                <ANNOTATION_VALUE>PST–h@@t.@p @ns@d@-@ng@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a596" ANNOTATION_REF="a480">
+                <ANNOTATION_VALUE>h@.@n@m@l</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a597" ANNOTATION_REF="a481">
+                <ANNOTATION_VALUE>b@c@@s@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a648" ANNOTATION_REF="a482">
+                <ANNOTATION_VALUE>PST-d@str@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a598" ANNOTATION_REF="a483">
+                <ANNOTATION_VALUE>c@mpl@t@ly</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a599" ANNOTATION_REF="a484">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a600" ANNOTATION_REF="a485">
+                <ANNOTATION_VALUE>p@@pl@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a601" ANNOTATION_REF="a486">
+                <ANNOTATION_VALUE>wh@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a649" ANNOTATION_REF="a487">
+                <ANNOTATION_VALUE>b@.@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a602" ANNOTATION_REF="a488">
+                <ANNOTATION_VALUE>h@.@n@m@l</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a650" ANNOTATION_REF="a489">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a603" ANNOTATION_REF="a490">
+                <ANNOTATION_VALUE>PST–l@@v@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a604" ANNOTATION_REF="a491">
+                <ANNOTATION_VALUE>h@.@n@m@l</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a645" ANNOTATION_REF="a492">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a605" ANNOTATION_REF="a493">
+                <ANNOTATION_VALUE>PST-g@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a646" ANNOTATION_REF="a494">
+                <ANNOTATION_VALUE>h@.@n@m@l</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a606" ANNOTATION_REF="a495">
+                <ANNOTATION_VALUE>@n@th@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a647" ANNOTATION_REF="a496">
+                <ANNOTATION_VALUE>t@w@rd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a607" ANNOTATION_REF="a497">
+                <ANNOTATION_VALUE>l@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a608" ANNOTATION_REF="a498">
+                <ANNOTATION_VALUE>th@r@f@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a609" ANNOTATION_REF="a499">
+                <ANNOTATION_VALUE>@nd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a610" ANNOTATION_REF="a500">
+                <ANNOTATION_VALUE>PST–dry.@p</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a611" ANNOTATION_REF="a501">
+                <ANNOTATION_VALUE>l@k@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a612" ANNOTATION_REF="a502">
+                <ANNOTATION_VALUE>PST-b@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a651" ANNOTATION_REF="a503">
+                <ANNOTATION_VALUE>@ns@d@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a613" ANNOTATION_REF="a504">
+                <ANNOTATION_VALUE>h@l@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a614" ANNOTATION_REF="a505">
+                <ANNOTATION_VALUE>th@s</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a615" ANNOTATION_REF="a506">
+                <ANNOTATION_VALUE>b@c@@s@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a652" ANNOTATION_REF="a507">
+                <ANNOTATION_VALUE>th@r@.b@.n@th@ng</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a616" ANNOTATION_REF="a508">
+                <ANNOTATION_VALUE>PST–r@@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a617" ANNOTATION_REF="a509">
+                <ANNOTATION_VALUE>m@ch</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a618" ANNOTATION_REF="a510">
+                <ANNOTATION_VALUE>n@w</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a653" ANNOTATION_REF="a511">
+                <ANNOTATION_VALUE>PST–s@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a654" ANNOTATION_REF="a512">
+                <ANNOTATION_VALUE>PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a619" ANNOTATION_REF="a513">
+                <ANNOTATION_VALUE>@nc@st@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a655" ANNOTATION_REF="a514">
+                <ANNOTATION_VALUE>P@RT ( . )</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRS-Ortho" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRS-Broad" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="TRS-Narrow" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Word" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Free Translation" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="POS" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Tokenization 2" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

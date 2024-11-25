@@ -21,27 +21,6 @@ if(eafFiles[-1] == ""):
 print("eaf file count: %d" % len(eafFiles))
 
 #---------------------------------------------------------------------------------------------------
-def runTests():
-
-   test_parsingSpeed()
-   test_invalidXmlRaisesException_misnamedParentRef()
-   test_invalidXmlRaisesException_misnamedTierType()
-   test_invalidXmlRaisesException_misspelledTag()
-   test_ctor()
-   test_tierTable_0()
-   test_timeTable()
-   test_checkAgainstTierGuide()
-   test_depthFirstTierTraversal()
-   test_getLineTable()
-   test_parseAllLines()
-   test_sortLinesByTime_inferno()
-   test_sortLinesByTime_natalia()
-   test_tedsBlueJay()
-   test_fixOverlappingTimes()  # very slow
-   test_variousGetters()
-   test_getSummary()
-
-#---------------------------------------------------------------------------------------------------
 def test_ctor():
 
     print("--- test_ctor")
@@ -174,10 +153,9 @@ def test_tierTable_0():
     parser.run()
 
     tbl = parser.getTierTable()
-    assert(tbl.shape == (4,7))
+    assert(tbl.shape == (4,5))
        # check column names
-    expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE',
-                'CONSTRAINTS', 'GRAPHIC_REFERENCES', 'TIME_ALIGNABLE']
+    expected = ['TIER_ID', 'PARENT_REF', 'LINES', 'LINGUISTIC_TYPE_REF', 'TIME_ALIGNABLE']
     assert(tbl.columns.values.tolist() == expected)
        # check 1st column 
     assert(tbl["TIER_ID"].tolist() ==
@@ -423,7 +401,7 @@ def test_getLineTable():
     assert(parser.getLineCount() == 3)
 
     tbl = parser.getTierTable()
-    assert(tbl.shape == (4, 7))
+    assert(tbl.shape == (4, 5))
 
     tbl = parser.getTimeTable()
     assert(tbl.shape == (3, 5))
@@ -656,14 +634,107 @@ def test_lineToYAML():
     assert(x[6] == '    english: Midway upon the journey of our life')
     
 #---------------------------------------------------------------------------------------------------
-def test_toYAML():
+# alice taff, in her eafs, somtimes
+#   - uses curly brackets for false start speech
+#   - embeds double quotes
+#   - embeds colons
+# when transformed to yaml, the yaml format breaks.  using the yaml pipe "|" character
+# promised to work around them, making the yaml loadable, for conversion to html
+def test_toYAML_tlingitFunnyCharacters():
+    
+    print("--- test_toYAML_tlingitFunnyCharacters")
+    f = "../testData/validEafFiles/4EthelAnita230503Slexil.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    yamlText = parser.toYAML("Ethel & Anita", "Ethel, Anita, Roberta", "Alice Taff")
+    pdb.set_trace()
+    fOut = "/tmp/4EthelAnita230503Slexil.yaml"
+    parser.writeYAML(yamlText, fOut)
+    x = yaml.load(open(fOut), Loader=yaml.CLoader)
 
-    print("--- test_toYAML")
+       # these all fail:
+       #
+       #  84: translation: Ask her: "What is this?"
+       # 234: translation: {Their} their artwork that is right here.
+       # 253: translation: "tʼukanéiyi" is a
+       # 271: utterance: "But I learned, I donʼt know where I learned "kay," you know, instead of "okay." I used to say, "kay." And they used to get so mad at me."
+       # 311: translation: [name],
+       # 415: translation: [name] Yes.
+    pdb.set_trace()
+
+#---------------------------------------------------------------------------------------------------
+def test_toYAML_inferno3():
+
+    print("--- test_toYAML_inferno3")
     f = "../testData/validEafFiles/inferno-threeLines.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-    yaml = parser.toYAML("Dante's Inferno", "Roberto Benigni", "Paul Shannon",
-                         "inferno.yaml")
+    parser.run()
+    yaml = parser.toYAML("Dante's Inferno", "Roberto Benigni", "Paul Shannon")
+
+    expected = ["title: Dante's Inferno",
+     'narrator: Roberto Benigni',
+     'textEntry: Paul Shannon',
+     'mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav',
+     'mimeType: audio/x-wav',
+     '',
+     'lines:',
+     '  - lineNumber: 1',
+     '    startTime: 0',
+     '    endTime: 2828',
+     '    italianSpeech: "Nel mezzo del cammin di nostra vita"',
+     '    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]',
+     '    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]',
+     '    english: Midway upon the journey of our life',
+     '',
+     '  - lineNumber: 2',
+     '    startTime: 3095',
+     '    endTime: 5500',
+     '    italianSpeech: "mi ritrovai per una selva oscura"',
+     '    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]',
+     '    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]',
+     '    english: I found myself within a forest dark',
+     '',
+     '  - lineNumber: 3',
+     '    startTime: 5624',
+     '    endTime: 8033',
+     '    italianSpeech: "ché la diritta via era smarrita."',
+     '    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]',
+     '    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]',
+     '    english: For the straightforward pathway had been lost.',
+     '']    
+
+    #for i in range(30):
+    #   print("%d): %s" % (i, yaml[i] == expected[i]))
+
+    assert(yaml == expected)
+
     
+#---------------------------------------------------------------------------------------------------
+def runTests():
+
+   test_toYAML_tlingitFunnyCharacters()
+   pdb.set_trace()
+   test_toYAML_inferno3()
+   test_toYAML_tlingitFunnyCharacters()
+#   test_parsingSpeed()
+   test_invalidXmlRaisesException_misnamedParentRef()
+#   test_invalidXmlRaisesException_misnamedTierType()
+   test_invalidXmlRaisesException_misspelledTag()
+   test_ctor()
+   test_tierTable_0()
+   test_timeTable()
+   test_checkAgainstTierGuide()
+   test_depthFirstTierTraversal()
+   test_getLineTable()
+   test_parseAllLines()
+#   test_sortLinesByTime_inferno()
+#   test_sortLinesByTime_natalia()
+#   test_tedsBlueJay()
+#   test_fixOverlappingTimes()  # very slow
+#   test_variousGetters()
+#   test_getSummary()
+
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
     runTests()
+ 

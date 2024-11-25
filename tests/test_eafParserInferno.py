@@ -64,10 +64,9 @@ def test_getTierTable():
        # 2         verb form         translation  utterance             en  Symbolic_Association              false          false
        # 3  Speaker Initials           utterance  utterance            NaN  Symbolic_Association              false          false
 
-    assert(tbl.shape == (4,7))
+    assert(tbl.shape == (4,5))
        # check column names
-    expected = ['TIER_ID', 'LINGUISTIC_TYPE_REF', 'PARENT_REF', 'DEFAULT_LOCALE',
-                'CONSTRAINTS', 'GRAPHIC_REFERENCES', 'TIME_ALIGNABLE']
+    expected = ['TIER_ID', 'PARENT_REF', 'LINES', 'LINGUISTIC_TYPE_REF', 'TIME_ALIGNABLE']
     assert(tbl.columns.values.tolist() == expected)
        # check 1st column 
     assert(tbl["TIER_ID"].tolist() == ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english'])
@@ -168,7 +167,7 @@ def test_getLineTable():
     assert(parser.getLineCount() == 3)
 
     tbl = parser.getTierTable()
-    assert(tbl.shape == (4, 7))
+    assert(tbl.shape == (4, 5))
 
     tbl = parser.getTimeTable()
     assert(tbl.shape == (3, 5))

@@ -37,6 +37,7 @@ class InferTierStructure:
       self.tieredLines = []
       self.htmlLines = []
 
+      #pdb.set_trace()
       for i in range(len(self.lines)):
          line = self.lines[i]
          if list(line.keys())[0] == "html":

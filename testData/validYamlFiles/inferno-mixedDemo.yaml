@@ -1,0 +1,41 @@
+title: Dante's Inferno (mixed demo)
+narrator: Roberto Benigni
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
+mimeType: audio/x-wav
+
+lines:
+  - html: "<div style='margin: 30px'><h5>From Roberto Benigni's Reading </h5></div>"
+
+  - lineNumber: 1
+    startTime: 0
+    endTime: 2828
+    italianSpeech: Nel mezzo del cammin di nostra vita
+    soundsLike: nell metzo del kuh-mean dee nostruh veeta
+    english: Midway upon the journey of our life
+
+  - lineNumber: 2
+    startTime: 3095
+    endTime: 5500
+    italianSpeech: mi ritrovai per una selva oscura
+    soundsLike: me ritrovie per oona selva oscura
+    english: I found myself within a forest dark
+    speaker: Roberto Benigni
+
+  - lineNumber: 3
+    startTime: 5624
+    endTime: 8033
+    italianSpeech: ché la diritta via era smarrita.
+    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
+    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
+    english: For the straightforward pathway had been lost.
+    speaker: Roberto Benigni
+
+  - html: "<div style='margin-left: 50px'>(note that next line has only transcription, and has no audio.)</div>"
+
+  - lineNumber: 52
+    startTime: 0
+    endTime: 0
+    italianSpeech: Oh cieca cupidigia e ira folle,
+    comment: A fragment from canto XII
+
