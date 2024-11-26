@@ -59,7 +59,7 @@ class TieredLine:
     useTooltips = False   
 
     def __init__(self, lineList, lineNumber, tierNumber, tierGuide, grammaticalTerms=[],
-                 useTooltips=False,verbose=True):
+                 useTooltips=False,verbose=False):
         self.lineList = lineList
         self.its = InferTierStructure(self.lineList)
         self.lineNumber = lineNumber
@@ -345,7 +345,8 @@ class TieredLine:
     # ----------------------------------------------------------------------------------------------------
     def htmlLeadIn(self, htmlDoc): # , audioDirectory, audioFileType):
 
-        print(" --- tieredLine.htmlLeadin, tierNumber is %d" % self.tierNumber)
+        if self.verbose:
+            print(" --- tieredLine.htmlLeadin, tierNumber is %d" % self.tierNumber)
         buttonLabelNumber = self.tierNumber
         clickActionString = "playSample(%d, %d, %d)" % \
                             (self.tierNumber, self.getStartTime(), self.getEndTime())
@@ -370,8 +371,9 @@ class TieredLine:
             gMap = self.getGenericTierNameMap()
             aMap = self.getAnalysisTierNameMap()
             
-            print("  create html for %d standard tiers" % len(gMap))
-            print("  create html for %d analysis tiers" % len(aMap))
+            if self.verbose:
+                print("  create html for %d standard tiers" % len(gMap))
+                print("  create html for %d analysis tiers" % len(aMap))
 
             tierMap = self.getTierMap()
 
@@ -384,7 +386,8 @@ class TieredLine:
 
             for userTierName in list(self.getGenericTierNameMap().values()):
                if(userTierName in self.line.keys()):
-                  print("--- generic tier with user name: %s" % userTierName)
+                  if self.verbose:
+                      print("--- generic tier with user name: %s" % userTierName)
                   className = "generic-tier"
                   if userTierName == "soundsLike":
                      soundsLikeText = self.line[userTierName]
@@ -434,7 +437,8 @@ class TieredLine:
                                                      self.grammaticalTerms)
                        mg.parse()
                        s = mg.format()
-                       print(s)
+                       if self.verbose:
+                           print(s)
                        htmlDoc.asis(s)
     
 #------------------------------------------------------------------------------------------------------------------------

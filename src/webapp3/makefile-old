@@ -1,0 +1,69 @@
+VERSION = v262
+PORT = 8051
+CONTAINER = slexilwebapp2
+NAME = slexilwebapp2
+
+default:
+	@echo venv
+	@echo pkgs
+	@echo install
+	@echo wheel     # build latest slexil2 package, copy it here
+	@echo run
+	@echo run-minimal
+	@echo build
+	@echo build-noCache
+	@echo push
+	@echo bash
+	@echo bashIn
+	@echo stop
+	@echo clean
+	@echo logs
+	@echo checkAlberta
+
+venv:
+	@echo source ~/github/slexil2/py3105slexil/bin/activate
+
+pkgs:
+	pip install -r requirements.txt
+
+install:
+	(cd ../..; make install)
+
+wheel:
+	(cd ~/github/slexil2; make wheel)
+	cp -p ~/github/slexil2/wheels/*.whl .
+
+build:
+	docker build -t pshannon/$(NAME):$(VERSION) .
+
+build-noCache:
+	docker build --rm --no-cache -t pshannon/$(NAME):$(VERSION) .
+
+bash:
+	docker run -ti --rm -p $(PORT):80 pshannon/$(NAME):$(VERSION) bash
+
+bashIn:
+	docker exec -it $(CONTAINER) bash
+
+run:
+	docker run -d --name $(CONTAINER) -p $(PORT):80 pshannon/$(NAME):$(VERSION)
+
+curl:
+	curl http://localhost:$(PORT)
+
+stop:
+	docker stop $(CONTAINER)
+	docker rm $(CONTAINER)
+
+clean:
+	docker rmi $$(docker images -f "dangling=true" -q)
+
+push:
+	docker push pshannon/$(NAME):$(VERSION)
+
+logs:
+	docker logs $(CONTAINER)
+
+checkAlberta:
+	curl -L slexil.artsrn.ualberta.ca  | grep -i "<title>"
+	curl -L slexiltest.artsrn.ualberta.ca  | grep -i "<title>"

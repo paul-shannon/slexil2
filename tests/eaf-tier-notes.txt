@@ -1,0 +1,25 @@
+using ~/github/slexil2/testData/validEafFiles/natalia-yekwana.eaf
+
+
+    x0 = ["ref@FcM","id@FcM", "to@FcM", "ft@FcM", "iu@FcM", "nq@FcM",
+          "nt@FcM", "ot@FcM", "ft-en@FcM",
+          ["tx@FcM", "mot@FcM", ["mb@FcM", "ge@FcM", "ps@FcM"]],
+          "tag@Fcm"]
+dfs(x0)
+
+  ref@FcM: CtoAbjPic.001
+  id@FcM:  empty
+  to@FcM: mödöje, mödö ekammajötüdü yawö
+  ft@FcM: !La historia de eso es así.
+  iu@FcM: [Mödöje,]  [mödö  ekammajötüdü  yawö,]
+  nq@FcM: Verificar qué análisis hay que hacer de tüweukuduije. Hay realmente una w? líquido se puede pronunciar ekkudu y eukudu?
+  nt@FcM: -jüdü=SUBcompletive
+  ot@FcM: V1: así, contar a ese / V2: Así, contar eso,
+  ft-en@FcM: The story of that is like that then,
+  tx@FcM: Mödöje, mödö ekammajötüdü yawö,
+     mot@FcM: Mödöje,
+     mb@FcM: mödöje
+       ge@FcM: así
+       ps@FcM: ad
+  tag@Fcm: ^tp_nominal ^wo_PredSub
+

@@ -216,7 +216,8 @@ class YamlToText:
    #--------------------------------------------------------------------------------   
    def getPlayer(self):
 
-      print("--- text.getPlayer, mediaUrl: %s" % self.mediaUrl)
+      if self.verbose:
+          print("--- text.getPlayer, mediaUrl: %s" % self.mediaUrl)
       if(self.mediaType == "audio"):
          playerDiv = '<audio class="player" id="audioPlayer" src="%s" controls></audio>' % self.mediaUrl
       elif(self.mediaType == "video"):
@@ -466,18 +467,20 @@ class YamlToText:
          tierNumber = 0
          for i in self.lineNumbers:
             line = self.lines[i]
-            print(line)
+            if self.verbose:
+                print(line)
             keys = list(line.keys())
             if keys == ["html"]:
-                print("---- found html")
+                if self.verbose: print("---- found html")
                 htmlDoc.asis(line["html"])
             else: # (isinstance(line, dict)):
                tierNumber += 1
-               print("---- tierNumber is now: %d" % tierNumber)
+               if self.verbose:
+                   print("---- tierNumber is now: %d" % tierNumber)
                tieredLine = TieredLine(self.lines, i, tierNumber,
                                        self.tierGuide,
                                        grammaticalTerms=self.grammaticalTerms,
-                                       useTooltips=False, verbose=True)
+                                       useTooltips=False, verbose=self.verbose)
     
                analysisTierNames = tieredLine.getAnalysisTierNames()
                #if(len(analysisTierNames) == 2):

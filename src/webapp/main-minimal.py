@@ -10,6 +10,7 @@ import flask
 import dash
 from dash.dependencies import Input, Output, State
 from dash import dcc, html, dash_table
+import dash_bootstrap_components as dbc
 
 import pandas as pd
 slexil_webapp_version = "2.0.0"
@@ -39,23 +40,22 @@ uploaderStyle = {'width': '60%',
 simpleTextDisplayStyle = {'fontSize': '32px',
                           'marginLeft': '200px'
                           }
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+external_stylesheets = [dbc.themes.BOOTSTRAP,
+                        'https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = flask.Flask(__name__)
 dashApp = dash.Dash(__name__, server = app, url_base_pathname = '/', 
                     external_stylesheets=external_stylesheets)
 dashApp.title = 'slexil new'
 
-@app.route('/PROJECTS/<path:urlpath>')
-def openPreview(urlpath):
-    print("--- urlpath: %s" % urlpath)
-    fullPath = os.path.join("PROJECTS", urlpath)
-    return flask.send_file(os.path.join(fullPath))
-        
-
+errorBox = dbc.Modal([
+    dbc.ModalHeader(dbc.ModalTitle("Error")),
+    dbc.ModalBody("An error occurred."),
+    ], id="errorBox", is_open=False)
 
 dashApp.layout = html.Div([
     dcc.Store(id="globals", data={'slexil initialized': slexil_webapp_version}),
+    errorBox,
     html.H1("Sləxil",
              style={"textAlign": "left", "marginLeft": "20px"}),
     html.Div(id="titleDiv",
@@ -67,7 +67,11 @@ dashApp.layout = html.Div([
                                  placeholder='<return> to assign',
                                  value="",
                                  className="titleInput",
-                                 style={"fontSize": "24px", "width": "800px"})
+                                 style={"fontSize": "24px", "width": "800px"}),
+                       html.Button('Submit',
+                             id='saveTitleButton',
+                             className="button",
+                                   disabled=False)
                        ]),
     html.Div(id="fileTypeChooser",
              style={'margin': '20px', 'fontSize': '24px',
@@ -214,13 +218,15 @@ def saveProjectName(projectTitle, globals):
 
 @dashApp.callback(Output('createHtmlButton', 'disabled'),
                   Output('globals', 'data', allow_duplicate=True),
+                  Output('errorBox', 'is_open'),
+                  Output('errorBox', 'children'),
                   Input('mainTextUploader', 'contents'),
                   State('mainTextUploader', 'filename'),
                   State('mainTextUploader', 'last_modified'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUpload(contents, filename, date, globals):
+def handleMainTextUploadAndEafParse(contents, filename, date, globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
@@ -229,29 +235,41 @@ def handleMainTextUpload(contents, filename, date, globals):
     mainTextFilePath = os.path.join(projectDirectory, filename)
     globals['mainTextFilePath'] = mainTextFilePath
 
-    saveUploadedFile(contents, projectName, filename)
+      # expected return values
+    errorBoxOpen = False
+    errorBoxChildren = None
+    createHtmlButton = True
 
-    fileType = globals['fileType']
-    print("%s has format %s" % (filename, fileType))
-    if fileType == "EAF":
-       p = EafParser(mainTextFilePath, verbose=False, fixOverlappingTimeSegments=False)
-       p.run()
-       title = globals['projectTitle'] = projectTitle
-       yamlText = p.toYAML(projectTitle, projectName, projectName)
-       yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
-       p.writeYAML(yamlText, yamlFileName)
-       globals['yamlFileName'] = yamlFileName
-       #pdb.set_trace()
-       tbl = p.getTierTable()
-       globals['tiers'] = list(tbl['TIER_ID'])
-       globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
-       globals['parent'] = list(tbl['PARENT_REF'])
-       globals['lineCount'] = list(tbl['LINES'])
-       print(p.getTierTable())
-    if fileType == "YAML":
-       globals['yamlFileName'] = mainTextFilePath
+    try: 
+        saveUploadedFile(contents, projectName, filename)
+
+        fileType = globals['fileType']
+        print("%s has format %s" % (filename, fileType))
+        if fileType == "EAF":
+            p = EafParser(mainTextFilePath, verbose=False, fixOverlappingTimeSegments=False)
+            p.run()
+            title = globals['projectTitle'] = projectTitle
+            yamlText = p.toYAML(projectTitle, projectName, projectName)
+            yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
+            p.writeYAML(yamlText, yamlFileName)
+            globals['yamlFileName'] = yamlFileName
+            #pdb.set_trace()
+            tbl = p.getTierTable()
+            globals['tiers'] = list(tbl['TIER_ID'])
+            globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
+            globals['parent'] = list(tbl['PARENT_REF'])
+            globals['lineCount'] = list(tbl['LINES'])
+            print(p.getTierTable())
+            if fileType == "YAML":
+                globals['yamlFileName'] = mainTextFilePath
+
+    except Exception as e:
+       errorBoxOpen = True
+       errorBoxChildren = dbc.ModalBody("error!")
+       createHtmlButton = False
+       return createHtmlButton, globals, errorBoxOpen, errorBoxChildren
        
-    return False, globals
+    return createHtmlButton, globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------
 def saveUploadedFile(contents, projectName, filename):

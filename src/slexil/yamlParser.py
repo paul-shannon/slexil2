@@ -33,6 +33,7 @@ class YamlParser:
 
    def __init__(self, yamlFile, tierGuideFile=None, verbose=False, fixOverlappingTimeSegments=False):
 
+     print("--- YamlParser ctor")
      self.yamlFile = yamlFile
      self.tierGuideFile = tierGuideFile
      if(self.tierGuideFile):

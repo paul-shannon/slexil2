@@ -36,6 +36,7 @@ class NewYamlParser:
    #----------------------------------------------------------------------
    def __init__(self, yamlFile, verbose=False, fixOverlappingTimeSegments=False):
 
+     print("--- NewYamlParser ctor")
      self.yamlFile = yamlFile
      x = yaml.load(open(yamlFile), Loader=yaml.FullLoader)
      self.obj = x
@@ -149,8 +150,10 @@ class NewYamlParser:
    # presence of html lines in the self.lines list
    def getTieredLineObject(self, lineNumber, tierNumber):
 
+      pdb.set_trace()
       tieredLine = TieredLine(self.lines, lineNumber, tierNumber,
-                              self.getTierGuide())
+                              self.getTierGuide(),
+                              verbose=self.verbose)
       return (tieredLine)
       
    #----------------------------------------------------------------------
