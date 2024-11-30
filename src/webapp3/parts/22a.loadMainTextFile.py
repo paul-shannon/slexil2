@@ -1,5 +1,5 @@
-uploaderStyle = {'width': '30%',
-                 'height': '60px',
+uploaderStyle = {'width': '400px',
+                 'height': '70px',
                  'lineHeight': '60px',
                  'borderWidth': '1px',
                  'borderStyle': 'solid',
@@ -8,7 +8,11 @@ uploaderStyle = {'width': '30%',
                  'fontSize': '24px',
                  'margin': '10px',
                  'marginLeft': '50px',
-                 'display': 'none'
+                 'display': 'none',
+                 'background-color': '#F5FAF3',
+                 ':hover': {
+                    'background-color': 'lightblue'
+                     }
                  }
 
 simpleTextDisplayStyle = {'fontSize': '32px',
@@ -19,10 +23,13 @@ mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
                         children = [
                            dcc.Upload(
                               id='mainTextUploader',
-                              children=html.Div([
-                                 'Drag and Drop or ',
-                                 html.A('Select File')
-                                 ]), #className="mainTextUploader"),
+                              accept=".eaf",
+                              #className='textUploader',
+                              children=html.Div(
+                                  id='fileSelectorDiv',
+                                  children = ['Drag and Drop or ',
+                                              html.A('Select File')
+                                              ]), #className="mainTextUploader"),
                               style=uploaderStyle,
                               multiple=False
                               )])
@@ -57,6 +64,7 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
       # expected return values
     errorBoxOpen = False
     errorBoxChildren = None
+    errorBoxTitle = None
     buttonDivStyle['display'] = 'inline-block' # assume success
     buttonLabel = "Create %s.html" % globals['projectTitle']
 
@@ -87,14 +95,17 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
     except Exception as e:
        errorBoxOpen = True
        errorBoxTitle = "parse error"
-       errorBoxChildren = dbc.ModalBody(e.__str__())
+       errorString = getExceptionTracebackString(e)
+       errorBoxChildren = errorString
+       #errorBoxChildren = dbc.ModalBody(e.__str__())
        buttonDivStyle['display'] = 'none'
        buttonLabel = "bug!"
        return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
                errorBoxTitle, errorBoxChildren)
        
     #pdb.set_trace()
-    return buttonDivStyle, buttonLabel, globals, errorBoxOpen, errorBoxChildren
+    return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+           errorBoxTitle, errorBoxChildren)
     #return globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------

@@ -22,7 +22,6 @@ dashApp = Dash(__name__, server=app, url_base_pathname='/',
 dashApp.title = "Slexil 3"
 
 PROJECTS_DIR = "PROJECTS"
-
 #--------------------------------------------------------------------------------
 def runBigDemo():
 
@@ -30,6 +29,14 @@ def runBigDemo():
   fullPath = os.path.join(projectPath, "4EthelAnita230503Slexil.eaf")
   htmlFile = createWebPage(fullPath, projectPath, "timingTest")
   
+#--------------------------------------------------------------------------------
+def getStateAsArray():
+
+   print('--- entering getStateAsArray')
+   keys = globals.keys()
+   print(keys)
+   print('--- leaving getStateAsArray')
+   
 #--------------------------------------------------------------------------------
 @app.route('/test')
 def runTest():
@@ -94,7 +101,9 @@ except AssertionError:
 modalDiv = html.Div(
     [dbc.Modal([
          dbc.ModalHeader(
-            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"),
+            close_button=True,
+            className="modal-title-custom"),
          dbc.ModalBody("", id='modalContents', style={"fontSize": "24px"}),
          dbc.ModalFooter(
             dbc.Button("Close", id="modalCloseButton", className="ms-auto", n_clicks=0))
@@ -138,7 +147,7 @@ def createDropdownMenu():
    return dropdown
 
 #-------------------------------------------------------
-def get_exception_traceback_str(exc: Exception) -> str:
+def getExceptionTracebackString(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
     file = io.StringIO()
     traceback.print_exception(exc, file=file)
@@ -164,7 +173,8 @@ dashApp.layout = html.Div(id="mainDiv",
     prevent_initial_call=True
     )
 def displayStateAsList(n_clicks, globals):
-    #pdb.set_trace()
+    pdb.set_trace()
+    getStateAsArray()
     if globals is None:
        return(True, "State Variables",
               html.P("state is empty, no variables yet assigned"))

@@ -22,7 +22,6 @@ dashApp = Dash(__name__, server=app, url_base_pathname='/',
 dashApp.title = "Slexil 3"
 
 PROJECTS_DIR = "PROJECTS"
-
 #--------------------------------------------------------------------------------
 def runBigDemo():
 
@@ -30,6 +29,14 @@ def runBigDemo():
   fullPath = os.path.join(projectPath, "4EthelAnita230503Slexil.eaf")
   htmlFile = createWebPage(fullPath, projectPath, "timingTest")
   
+#--------------------------------------------------------------------------------
+def getStateAsArray():
+
+   print('--- entering getStateAsArray')
+   keys = globals.keys()
+   print(keys)
+   print('--- leaving getStateAsArray')
+   
 #--------------------------------------------------------------------------------
 @app.route('/test')
 def runTest():
@@ -94,7 +101,9 @@ except AssertionError:
 modalDiv = html.Div(
     [dbc.Modal([
          dbc.ModalHeader(
-            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"), close_button=True),
+            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"),
+            close_button=True,
+            className="modal-title-custom"),
          dbc.ModalBody("", id='modalContents', style={"fontSize": "24px"}),
          dbc.ModalFooter(
             dbc.Button("Close", id="modalCloseButton", className="ms-auto", n_clicks=0))
@@ -138,7 +147,7 @@ def createDropdownMenu():
    return dropdown
 
 #-------------------------------------------------------
-def get_exception_traceback_str(exc: Exception) -> str:
+def getExceptionTracebackString(exc: Exception) -> str:
     # Ref: https://stackoverflow.com/a/76584117/
     file = io.StringIO()
     traceback.print_exception(exc, file=file)
@@ -164,7 +173,8 @@ dashApp.layout = html.Div(id="mainDiv",
     prevent_initial_call=True
     )
 def displayStateAsList(n_clicks, globals):
-    #pdb.set_trace()
+    pdb.set_trace()
+    getStateAsArray()
     if globals is None:
        return(True, "State Variables",
               html.P("state is empty, no variables yet assigned"))
@@ -330,24 +340,24 @@ def displayProjectTitleHelp(n_clicks):
 
 #--------------------------------------------------------------------------------
 fileTypeChooserDiv = html.Div(id="fileTypeChooserDiv",
-             style={'margin': '5px', 'marginLeft': '10px', 'fontSize': '24px',
-                    'display': 'none', 'marginRight': '10px'},
-             children=[html.Span("Input File Type? ",
-                                 id="inputFileTypePrompt",
-                                 style={'fontFamily': 'New York Times-Roman',
-                                        'fontSize': '24px'}
-                                 ),
-                       dcc.RadioItems(id="fileTypeRadioButtons",
-                                      options=[
-                                          {'label': '   EAF  ', 'value': 'EAF', 'disabled': False},
-                                          {'label': '   YAML  ', 'value': 'YAML', 'disabled': False}
-                                         ],
-                                      labelStyle={'display': 'inline-block', 'margin': '20px', 'margin-top': '0px'},
-                                      inline=True,
-                                      style={'display': 'inline-block',
-                                             'fontFamily': 'New York Times-Roman',
-                                             'font-size': '24px'})
-                       ])
+    style={'margin': '5px', 'marginLeft': '10px', 'fontSize': '24px',
+           'display': 'none', 'marginRight': '10px'},
+    children=[html.Span("Input File Type? ",
+                        id="inputFileTypePrompt",
+                        style={'fontFamily': 'New York Times-Roman',
+                               'fontSize': '24px'}
+                        ),
+              dcc.RadioItems(id="fileTypeRadioButtons",
+                             options=[
+                                 {'label': '   EAF  ', 'value': 'EAF', 'disabled': False},
+                                 {'label': '   YAML  ', 'value': 'YAML', 'disabled': False}
+                                ],
+                             labelStyle={'display': 'inline-block', 'margin': '20px', 'margin-top': '0px'},
+                             inline=True,
+                             style={'display': 'inline-block',
+                                    'fontFamily': 'New York Times-Roman',
+                                    'font-size': '24px'})
+              ])
 #----------------------------------------------------------------------
 dashApp.layout.children.append(fileTypeChooserDiv)
 #----------------------------------------------------------------------
@@ -359,15 +369,15 @@ dashApp.layout.children.append(fileTypeChooserDiv)
                   prevent_initial_call=True)
 def handleFileTypeSelection(fileType,  globals, uploaderStyle):
     print("handleFileTypeSelection: %s" % fileType)
-    newText = dcc.Markdown("- input file type: %s" % fileType)
     globals['fileType'] = fileType
+    #pdb.set_trace()
     uploaderStyle['display'] =  'inline-block'
     return globals, uploaderStyle
 
 
 #m4_include(22.loadEAF.py)
-uploaderStyle = {'width': '30%',
-                 'height': '60px',
+uploaderStyle = {'width': '400px',
+                 'height': '70px',
                  'lineHeight': '60px',
                  'borderWidth': '1px',
                  'borderStyle': 'solid',
@@ -376,7 +386,11 @@ uploaderStyle = {'width': '30%',
                  'fontSize': '24px',
                  'margin': '10px',
                  'marginLeft': '50px',
-                 'display': 'none'
+                 'display': 'none',
+                 'background-color': '#F5FAF3',
+                 ':hover': {
+                    'background-color': 'lightblue'
+                     }
                  }
 
 simpleTextDisplayStyle = {'fontSize': '32px',
@@ -387,10 +401,13 @@ mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
                         children = [
                            dcc.Upload(
                               id='mainTextUploader',
-                              children=html.Div([
-                                 'Drag and Drop or ',
-                                 html.A('Select File')
-                                 ]), #className="mainTextUploader"),
+                              accept=".eaf",
+                              #className='textUploader',
+                              children=html.Div(
+                                  id='fileSelectorDiv',
+                                  children = ['Drag and Drop or ',
+                                              html.A('Select File')
+                                              ]), #className="mainTextUploader"),
                               style=uploaderStyle,
                               multiple=False
                               )])
@@ -425,6 +442,7 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
       # expected return values
     errorBoxOpen = False
     errorBoxChildren = None
+    errorBoxTitle = None
     buttonDivStyle['display'] = 'inline-block' # assume success
     buttonLabel = "Create %s.html" % globals['projectTitle']
 
@@ -455,14 +473,17 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
     except Exception as e:
        errorBoxOpen = True
        errorBoxTitle = "parse error"
-       errorBoxChildren = dbc.ModalBody(e.__str__())
+       errorString = getExceptionTracebackString(e)
+       errorBoxChildren = errorString
+       #errorBoxChildren = dbc.ModalBody(e.__str__())
        buttonDivStyle['display'] = 'none'
        buttonLabel = "bug!"
        return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
                errorBoxTitle, errorBoxChildren)
        
     #pdb.set_trace()
-    return buttonDivStyle, buttonLabel, globals, errorBoxOpen, errorBoxChildren
+    return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+           errorBoxTitle, errorBoxChildren)
     #return globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------
@@ -516,6 +537,11 @@ dashApp.layout.children.append(buttonDiv)
 @dashApp.callback(Output('downloadHtmlButtonDiv', 'style'),
                   Output('downloadHtmlButton', 'children'),
                   Output('globals', 'data', allow_duplicate=True),
+
+                  Output('slexilModal',   'is_open',  allow_duplicate=True),
+                  Output('modalTitle',    'children', allow_duplicate=True),
+                  Output('modalContents', 'children', allow_duplicate=True),
+
                   [Input('createHtmlButton', 'n_clicks')],
                   State('downloadHtmlButtonDiv', 'style'),
                   State('globals', 'data'),
@@ -524,6 +550,11 @@ def createHtml(n_clicks, buttonDivStyle, globals):
 
    print("--- runSlexil, n_clicks: %d" % n_clicks)
    title = globals['projectTitle']
+
+      # expected return values
+   errorBoxOpen = False
+   errorBoxChildren = None
+   errorBoxTitle = None
 
    buttonDivStyle['display'] = 'inline-block'
    buttonLabel = "Download %s.html" % globals['projectTitle']
@@ -535,11 +566,51 @@ def createHtml(n_clicks, buttonDivStyle, globals):
       yamlFileName = globals['mainTextFilePath']
    elif fileType == "EAF":
       yamlFileName = globals['yamlFileName']
-   htmlFileName = createHtmlFromYaml(yamlFileName, title,
-                                     projectName, projectDirectory)
+
+   try:
+      htmlFileName = createHtmlFromYaml(yamlFileName, title,
+                                        projectName, projectDirectory)
+   except Exception as e:
+      errorBoxOpen = True
+      errorBoxTitle = "Slexil ERROR! in createHTML function"
+      errorString = getExceptionTracebackString(e)
+      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString)
+      errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
+      buttonDivStyle['display'] = 'none'
+      buttonLabel = "" # ignored
+      return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+              errorBoxTitle, errorBoxChildren)
+      
    globals['htmlFileName'] = htmlFileName
-   return buttonDivStyle, buttonLabel, globals
+   return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+           errorBoxTitle, errorBoxChildren)
+           
         
+#--------------------------------------------------------------------------------
+def createHtmlErrorReportWithEmailLink(globals, errorString):
+
+   sendTo = 'mailto:paul.thurmond.shannon@gmail.com'
+   subject = '?subject=slexil bug report'
+   bodyLeadIn = '&body='
+   bodyText = ""
+   for key in globals.keys():
+       bodyText += "%s: %s\n" % (key, globals[key])
+   bodyText += "\n\n%s" % errorString
+   bodyTextCRLF = bodyText.replace("\n", "%0D%0A")
+   body = "%s%s" % (bodyLeadIn, bodyTextCRLF)
+   emailHref = '%s%s%s' % (sendTo, subject, body)
+   el = html.Ul(id="list", children=[])
+   for key in globals.keys():
+       el.children.append(html.Li("%s: %s" % (key, globals[key])))
+   el.children.append(html.A(
+      [html.H1('Email Slexil Bug Report to Paul Shannon')],
+       title ='email_me',
+       href=emailHref,
+       target='_blank'))
+
+   return el
+
+#--------------------------------------------------------------------------------
 def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
 
    yamlFileName = globals['yamlFileName']
