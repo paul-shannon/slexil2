@@ -23,7 +23,7 @@ mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
                         children = [
                            dcc.Upload(
                               id='mainTextUploader',
-                              accept=".eaf",
+                              #accept=".eaf",
                               #className='textUploader',
                               children=html.Div(
                                   id='fileSelectorDiv',

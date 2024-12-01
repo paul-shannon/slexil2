@@ -23,6 +23,7 @@ dashApp.layout.children.append(fileTypeChooserDiv)
 #----------------------------------------------------------------------
 @dashApp.callback(Output('globals', 'data', allow_duplicate=True),
                   Output('mainTextUploader', 'style'),
+                  Output('mainTextUploader', 'accept'),
                   Input('fileTypeRadioButtons', 'value'),
                   State('globals', 'data'),
                   State('mainTextUploader', 'style'),
@@ -32,5 +33,6 @@ def handleFileTypeSelection(fileType,  globals, uploaderStyle):
     globals['fileType'] = fileType
     #pdb.set_trace()
     uploaderStyle['display'] =  'inline-block'
-    return globals, uploaderStyle
+    uploadFileType = ".%s" % fileType
+    return globals, uploaderStyle, uploadFileType
 
