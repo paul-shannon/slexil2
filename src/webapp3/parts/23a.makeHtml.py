@@ -69,12 +69,8 @@ def createHtml(n_clicks, buttonDivStyle, globals):
       errorBoxTitle = "Slexil ERROR! in createHTML function"
       (traceBackString, errorString) = getExceptionTracebackString(e)
       errorStringHtml = html.P(errorString)
-      #pdb.set_trace()
       htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
-      #htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString)
-      #errorBoxChildren = dbc.ModalBody(errorStringHtml)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
-      #errorBoxChildren = dbc.ModalBody("%s\n%s" % (errorStringHtml, htmlErrorMessage))
       buttonDivStyle['display'] = 'none'
       buttonLabel = "" # ignored
       return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
@@ -85,39 +81,6 @@ def createHtml(n_clicks, buttonDivStyle, globals):
            errorBoxTitle, errorBoxChildren)
            
         
-#--------------------------------------------------------------------------------
-def createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString):
-
-   sendTo = 'mailto:paul.thurmond.shannon@gmail.com'
-   subject = '?subject=slexil bug report'
-   bodyLeadIn = '&body='
-
-   bodyText = ""
-   bodyText += "%s\n\n" % errorString
-   for key in globals.keys():
-       bodyText += "%s: %s\n" % (key, globals[key])
-
-   bodyText += "\n\n"
-   bodyText += traceBackString
-   
-   bodyTextCRLF = bodyText.replace("\n", "%0D%0A")
-   body = "%s%s" % (bodyLeadIn, bodyTextCRLF)
-   emailHref = '%s%s%s' % (sendTo, subject, body)
-
-   el = html.Ul(id="list", children=[])
-   el.children.append(html.P(errorString))
-
-   for key in globals.keys():
-       el.children.append(html.Li("%s: %s" % (key, globals[key])))
-
-   el.children.append(html.A(
-      [html.H1('Email Slexil Bug Report to Paul Shannon')],
-       title ='email_me',
-       href=emailHref,
-       target='_blank'))
-
-   return el
-
 #--------------------------------------------------------------------------------
 def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
 
