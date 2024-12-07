@@ -87,7 +87,13 @@ class TieredLine:
        return([v for k, v in self.tierGuide.items()])
 
     def getSpokenText(self):
-       return(self.line[self.tierGuide['speech']])
+       # print("line: %d  tier: %d" % (self.lineNumber, self.tierNumber))
+         # some lines don't have transcribed (non-english)
+         # speech.  so return the empty string
+       if self.tierGuide['speech'] in self.line.keys():
+          return(self.line[self.tierGuide['speech']])
+       else:
+           return ""
        
     def getTier(self, tierName):
        if(tierName in self.getTierNames()):

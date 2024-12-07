@@ -5,6 +5,7 @@ IMAGE = pshannon/slexilwebapp$(VERSION)
 
 default:
 	@echo venv
+	@echo install
 	@echo assemble
 	@echo runNoDocker
 	@echo openNoDocker
@@ -30,6 +31,9 @@ default:
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+
+install:
+	(cd ../..; make install)
 
 assemble:
 	(cd parts; make assemble)

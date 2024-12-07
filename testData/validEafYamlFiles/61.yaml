@@ -1,0 +1,31 @@
+title: a
+narrator: b
+textEntry: c
+mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/61MargaretMarsha.m4v
+mimeType: unknown
+
+lines:
+  - lineNumber: 1
+    startTime: 0
+    endTime: 484
+    utterance: |
+         [This conversation is continued from #60. Speakers are Shak’sháani Margaret Dutson and G̱uneiwti Marsha Hotch. Recorded March 4, 2011, at the Dutson home in Juneau, AK, by Ljáaḵkʼ Alice Taff.
+    Speaker initials: |
+         ShMD = Shak’sháani Margaret Dutson. G̱MH = G̱uneiwti Marsha Hotch.
+
+  - lineNumber: 2
+    startTime: 484
+    endTime: 1134
+    utterance: |
+         Tlingit transcription by Naakil.aan Mark Hans Chester. English translation by Shak’sháani Margaret Dutson with Ljáaḵkʼ Alice Taff. Edited by X̱ʼaagi Sháawu Keri Eggleston and Ḵaachkoo.aaḵw Helen Sarabia. 
+
+  - lineNumber: 3
+    startTime: 1134
+    endTime: 2460
+    utterance: |
+         Kax̱ayex̱, kax̱ayex̱, kax̱ayex̱. [singing] Áyá 
+    translation: |
+         Iʼm peeling, Iʼm peeling, Iʼm peeling. This
+    Speaker initials: |
+         G̱MH, ShMD
+

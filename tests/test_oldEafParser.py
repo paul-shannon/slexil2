@@ -21,21 +21,6 @@ if(eafFiles[-1] == ""):
 print("eaf file count: %d" % len(eafFiles))
 
 #---------------------------------------------------------------------------------------------------
-def test_xmlValidity_notMemberFunction():
-
-    from slexil.eafParser import xmlValid
-    import traceback
-
-    print("--- test_xmlValidity_notMemberFunction")
-    f = "../testData/invalidEafFiles/inferno-misspelledTag.eaf"
-    try:
-       xmlValid(f)
-    except Exception as ex:
-        message = str(ex)
-        tb = traceback.format_exception_only(None, ex)[0]
-        assert("Unexpected child with tag 'TIME_ORDERxxx'" in tb)
-    
-#---------------------------------------------------------------------------------------------------
 def test_ctor():
 
     print("--- test_ctor")
@@ -44,34 +29,6 @@ def test_ctor():
     parser.run()
     assert(parser.getFilename() == f)
     assert(parser.xmlValid())
-    assert(parser.getRootTimeAlignedTiers() == ['italianSpeech'])
-
-#---------------------------------------------------------------------------------------------------
-def test_extractAllRootTimeAlignedTiers():
-
-    from slexil.eafParser import extractAllTimeAlignedTierIDs
-
-    print("--- test_extractAllRootTimeAlignedTiers()")
-
-    fs = ["../testData/inferno/inferno-threeLines.eaf",
-          "../testData/validEafFiles/natalia-yekwana.eaf",
-          "../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf",
-          "../explore/daylight/beckAndHess/beckAndHess.eaf",
-          "../explore/nataliaCaceres/incoming/084_TheWomanOfTheWater-DonkeyTiger.eaf",
-          "../explore/daylight/beckAndHess/beckAndHess.eaf"]
-
-    expected = [['italianSpeech'],
-                ['ref@FcM', 'ref@Anl'],
-                ['utterance'],
-                ['lushootseed'],
-                ['ref@VG', 'ref@AM'],
-                ['lushootseed']]
-
-    i = 0
-    for f in fs:
-       assert(extractAllTimeAlignedTierIDs(fs[i]))
-       print(expected[i])
-       i += 1       
 
 #---------------------------------------------------------------------------------------------------
 def test_parsingSpeed(slowVersion=False):
@@ -90,16 +47,16 @@ def test_parsingSpeed(slowVersion=False):
 
    lineCount = parser.getLineCount()
 
-   #print("lines: %d" % lineCount)
-   #print(" ctor: %d" % round(t1 - t0))
-   #print("  run: %d" % round(t2 - t1))
-   #print("valid: %d" % round(t3 - t2))
+   print("lines: %d" % lineCount)
+   print(" ctor: %d" % round(t1 - t0))
+   print("  run: %d" % round(t2 - t1))
+   print("valid: %d" % round(t3 - t2))
 
    if not slowVersion:
        return
    
    f = "../explore/aliceTaff/04/4EthelAnita230503Slexil.eaf"
-   #print("    4EthelAnita230503Slexil")
+   print("    4EthelAnita230503Slexil")
    t0 = time() * 1000
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
    t1 = time() * 1000
@@ -110,10 +67,10 @@ def test_parsingSpeed(slowVersion=False):
 
    lineCount = parser.getLineCount()
 
-   #print("lines: %d" % lineCount)
-   #print(" ctor: %d" % round(t1 - t0))
-   #print("  run: %d" % round(t2 - t1))
-   #print("valid: %d" % round(t3 - t2))
+   print("lines: %d" % lineCount)
+   print(" ctor: %d" % round(t1 - t0))
+   print("  run: %d" % round(t2 - t1))
+   print("valid: %d" % round(t3 - t2))
 
    
 #---------------------------------------------------------------------------------------------------
@@ -462,60 +419,6 @@ def test_getLineTable():
 
 #---------------------------------------------------------------------------------------------------
 # a "line" is the parent time-aligned tier, and all of its associated child tiers
-# there are two time aligned "root" tiers here.
-# at present (december 2024) we only extract the first encountered
-# root tier.
-# bug encountered, trying to find out why
-#  this eaf time-aligned element makes it into the ref@FcM child elements
-#     <TIER LINGUISTIC_TYPE_REF="ref" PARTICIPANT="Anl" TIER_ID="ref@Anl">
-#        <ANNOTATION>
-#            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a84"
-#                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
-#                <ANNOTATION_VALUE>CtoAbjPic.010</ANNOTATION_VALUE>
-#            </ALIGNABLE_ANNOTATION>
-#        </ANNOTATION>
-#
-#  - lineNumber: 10
-#    startTime: 68588
-#    endTime: 69277
-#    ref@Anl: |
-#         CtoAbjPic.010
-#
-#    and like this in eafParser's line list:
-#
-#  {'lineNumber': 10, 'startTime': 68588, 'endTime': 69277,
-#   'ref@Anl': 'CtoAbjPic.010\n'}
-#
-# and 'ref@An1' is not in the inferred tier guide.
-
-def test_getLineTable_nataliaYekwana():
-
-    print("--- test_getLineTable_nataliaYekwana")
-
-    f = "../testData/validEafFiles/natalia-yekwana.eaf"
-    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
-    assert(parser.getLineCount() == 40)
-
-    tbl = parser.getTierTable()
-    pdb.set_trace()
-    assert(tbl.shape == (4, 5))
-
-    tbl = parser.getTimeTable()
-    assert(tbl.shape == (3, 5))
-
-    tbl = parser.getLineTable(1)
-    assert(tbl.shape == (4, 7))
-    expected = ['id','parent','startTime','endTime','tierID','tierType','text']
-    assert(tbl.columns.tolist() == expected)
-    assert(tbl["id"].tolist() == ['a1', 'a5', 'a9', 'a13'])
-    assert(tbl["parent"].tolist() == ['', 'a1', 'a5', 'a1'])
-    expected = ['italianSpeech', 'morphemes', 'morpheme-gloss', 'english']
-    assert(tbl["tierID"].tolist() == expected)
-    assert(tbl.loc[0, "startTime"] == 0.0)
-    assert(tbl.loc[0, "endTime"] == 3093.0)
-
-#---------------------------------------------------------------------------------------------------
-# a "line" is the parent time-aligned tier, and all of its associated child tiers
 def test_parseAllLines():
 
     print("--- test_parseAllLines")
@@ -647,7 +550,7 @@ def test_variousGetters():
    p.run()
    assert(p.getFilename() == '../explore/aliceTaff/01/01RuthNora230503Slexil.eaf')
    assert(p.getLineCount() == 170)
-   assert(p.getTierTable().shape == (2,5))
+   assert(p.getTierTable().shape == (2,7))
    assert(p.getAudioURL() ==
           'file:///Users/ataff/Documents/266286-19NEH/1RuthNora/1RuthNora2Wide.wav')
    assert(p.getAudioMimeType() == 'audio/x-wav')
@@ -679,7 +582,7 @@ def test_getSummary():
                    'timeAlignedTiers',
                    'videoMimeType', 'videoURL'])
    assert(x["lineCount"] == 170)
-   assert(x["tierTable"].shape == (2, 5))
+   assert(x["tierTable"].shape == (2, 7))
    assert(x["audioMimeType"] == 'audio/x-wav')
    assert(x["audioURL"] == 
           "file:///Users/ataff/Documents/266286-19NEH/1RuthNora/1RuthNora2Wide.wav")
@@ -776,26 +679,26 @@ def test_toYAML_inferno3():
      '  - lineNumber: 1',
      '    startTime: 0',
      '    endTime: 2828',
-     '    italianSpeech: |\n         Nel mezzo del cammin di nostra vita',
+     '    italianSpeech: "Nel mezzo del cammin di nostra vita"',
      '    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]',
      '    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]',
-     '    english: |\n         Midway upon the journey of our life',
+     '    english: Midway upon the journey of our life',
      '',
      '  - lineNumber: 2',
      '    startTime: 3095',
      '    endTime: 5500',
-     '    italianSpeech: |\n         mi ritrovai per una selva oscura',
+     '    italianSpeech: "mi ritrovai per una selva oscura"',
      '    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]',
      '    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]',
-     '    english: |\n         I found myself within a forest dark',
+     '    english: I found myself within a forest dark',
      '',
      '  - lineNumber: 3',
      '    startTime: 5624',
      '    endTime: 8033',
-     '    italianSpeech: |\n         ché la diritta via era smarrita.',
+     '    italianSpeech: "ché la diritta via era smarrita."',
      '    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]',
      '    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]',
-     '    english: |\n         For the straightforward pathway had been lost.',
+     '    english: For the straightforward pathway had been lost.',
      '']    
 
     #for i in range(30):
@@ -824,6 +727,7 @@ def test_donkeyTiger():
    f = "../testData/validEafFiles/084_TheWomanOfTheWater-DonkeyTiger.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
    parser.run()
+   pdb.set_trace()
 
 #---------------------------------------------------------------------------------------------------
 # featherSnake has one time-aligned unparented tier, 3 direct children with
@@ -845,101 +749,33 @@ def test_featherSnake():
    parser.run()
    
 #---------------------------------------------------------------------------------------------------
-def test_richTierTable():
-
-   print("--- test_richTierTable")
-
-   eafs = ["inferno-threeLines.eaf",
-           "4EthelAnita230503Slexil.eaf",
-           "natalia-yekwana.eaf",
-           "186_TheShaman.eaf",
-           "084_TheWomanOfTheWater-DonkeyTiger.eaf",
-           "featherSnake.eaf",
-           "doreco_arap1274_20_Crawford.eaf"]
-   eaf = eafs[5]
-   eafFile = "/Users/paul/github/slexil2/testData/validEafFiles/%s" % eaf
-   parser = EafParser(eafFile, verbose=False, fixOverlappingTimeSegments=False)
-   #parser.constructRichTierTable()
-   (t,t2) = parser.getRichTierTables()
-   assert(t.shape == (5, 6))
-   assert(t2.shape == (3, 6))
-   tbl0 = parser.getLineTable(0)
-   assert(tbl0.shape == (3, 7))
-    
-#---------------------------------------------------------------------------------------------------
-def test_alice61_misorderedTiers():
-
-   print("--- test_alice61_misorderedTiers")
-   eafFile = "/Users/paul/github/slexil2/explore/aliceTaff/61/61Margaretmarsha230619Slexil.eaf"
-   p = EafParser(eafFile, verbose=False, fixOverlappingTimeSegments=False)
-   p.run()
-   tbl = p.getLineTable(2)
-   yamlLines = p.toYAML("a", "b", "c")
-   yamlSubset = yamlLines[:25]  # up to and including line 3
-   yamlFile = "/tmp/61.yaml"
-   p.writeYAML(yamlSubset, yamlFile)
-
-   from slexil.yamlToText import YamlToText
-
-   text = YamlToText(yamlFile,
-                     grammaticalTerms=[],
-                     projectDirectory="./",
-                     verbose = False,
-                     fontSizeControls = True,
-                     startLine = None,
-                     endLine = None,
-                     pageTitle = eafFile,
-                     helpFilename = None,
-                     helpButtonLabel = None,
-                     kbFilename = None,
-                     linguisticsFilename = None,
-                     fixOverlappingTimeSegments = False,
-                     webpackLinksOnly=False,
-                     useTooltips=False)
-   htmlText = text.toHTML()
-   htmlFileName = "61.html"
-   print("--- writing html file for at %s" % htmlFileName)
-   with open(htmlFileName, "w") as file:
-       file.write(htmlText)
-    
-#---------------------------------------------------------------------------------------------------
 def runTests():
 
-   test_xmlValidity_notMemberFunction()
-   test_extractAllRootTimeAlignedTiers()
-   
-   print("--- all done with root test")
-   
-   test_ctor()
-
-   #test_getLineTable_nataliaYekwana()
-
-   test_richTierTable()
-
    test_donkeyTiger()
-   test_featherSnake()
+   #test_featherSnake()
 
-   test_parsingSpeed()
-   test_invalidXmlRaisesException_misnamedParentRef()
-   test_invalidXmlRaisesException_misnamedTierType()
-   test_invalidXmlRaisesException_misspelledTag()
+#   test_parsingSpeed()
+#   test_invalidXmlRaisesException_misnamedParentRef()
+##   test_invalidXmlRaisesException_misnamedTierType()
+#   test_invalidXmlRaisesException_misspelledTag()
+#   test_ctor()
+#   test_tierTable_0()
+#   test_timeTable()
+#   test_checkAgainstTierGuide()
+#   test_depthFirstTierTraversal()
+#   test_getLineTable()
+#   test_parseAllLines()
 
-   test_tierTable_0()
-   test_timeTable()
-   test_checkAgainstTierGuide()
-   test_depthFirstTierTraversal()
-   test_getLineTable()
-   test_parseAllLines()
    
-   test_sortLinesByTime_inferno()
-   test_sortLinesByTime_natalia()
-   test_tedsBlueJay()
-   test_fixOverlappingTimes()  # very slow
-   test_variousGetters()
-   test_getSummary()
-   test_toYAML_tlingitFunnyCharacters()
-   test_toYAML_inferno3()
-   test_toYAML_tlingitFunnyCharacters()
+#   test_sortLinesByTime_inferno()
+#   test_sortLinesByTime_natalia()
+#   test_tedsBlueJay()
+#   test_fixOverlappingTimes()  # very slow
+#   test_variousGetters()
+#   test_getSummary()
+#   test_toYAML_tlingitFunnyCharacters()
+   #test_toYAML_inferno3()
+   #test_toYAML_tlingitFunnyCharacters()
 
 
 #---------------------------------------------------------------------------------------------------

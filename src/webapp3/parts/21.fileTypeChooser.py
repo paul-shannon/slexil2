@@ -30,8 +30,12 @@ dashApp.layout.children.append(fileTypeChooserDiv)
                   prevent_initial_call=True)
 def handleFileTypeSelection(fileType,  globals, uploaderStyle):
     print("handleFileTypeSelection: %s" % fileType)
-    globals['fileType'] = fileType
+    print("--- globals:")
+    if not globals:
+        globals = {}
+    print(globals)
     #pdb.set_trace()
+    globals['fileType'] = fileType
     uploaderStyle['display'] =  'inline-block'
     uploadFileType = ".%s" % fileType
     return globals, uploaderStyle, uploadFileType

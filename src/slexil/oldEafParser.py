@@ -34,14 +34,12 @@ class EafParser:
    def __init__(self, xmlFilename, verbose=False, fixOverlappingTimeSegments=False):
 
       self.xmlFilename = xmlFilename
-      self.xmlValid()
       self.verbose = verbose
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
 
       if(verbose):
          print("EafParser etree parse")
       self.doc = etree.parse(xmlFilename)
-      self.rootTimeAlignedTiers = extractAllTimeAlignedTierIDs(xmlFilename)
 
       if(verbose):
          print("EafParser extracting metadata")
@@ -58,7 +56,6 @@ class EafParser:
       if(verbose):
          print("EafParser.run, constructing tier table")
       self.constructTierTable()
-      self.constructRichTierTable()
 
       if(verbose):
          print("EafParser leaving constructor")
@@ -105,17 +102,11 @@ class EafParser:
    def getFilename(self):
       return(self.xmlFilename)
 
-   def getRootTimeAlignedTiers(self):
-      return(self.rootTimeAlignedTiers)
-
    def getLineCount(self):
       return(self.lineCount)
 
    def getTierTable(self):
       return self.tierTable
-   
-   def getRichTierTables(self):
-      return (self.richTierTable, self.richTierTableDistilled)
    
    def setAudioURL(self, newURL):
       self.audioURL = newURL
@@ -214,117 +205,6 @@ class EafParser:
 
 
    #--------------------------------------------------------------------------------   
-   # the rich tierTables add extra information to the historically
-   # basic one:
-   #                  TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
-   # 0              TRS-Ortho              NaN     15          default-lt           true
-   # 1          TRS Broad IPA        TRS-Ortho     15           TRS-Broad          false
-   # 2       Free Translation        TRS-Ortho     15    Free Translation          false
-   # 3        Tokenization-cp        TRS-Ortho    141      Tokenization 2          false
-   # 4  Tokenization-Gloss-cp  Tokenization-cp    141                 POS          false
-   #
-   # richTierTable:
-   #                  TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF   root                                                ids
-   # 0              TRS-Ortho              NaN     15          default-lt   True                                                 []
-   # 1          TRS Broad IPA        TRS-Ortho     15           TRS-Broad  False  [a8, a9, a67, a69, a10, a70, a11, a71, a72, a1...
-   # 2       Free Translation        TRS-Ortho     15    Free Translation  False  [a15, a16, a662, a373, a17, a656, a18, a657, a...
-   # 3        Tokenization-cp        TRS-Ortho    141      Tokenization 2  False  [a374, a375, a376, a377, a378, a379, a380, a38...
-   # 4  Tokenization-Gloss-cp  Tokenization-cp    141                 POS  False  [a515, a516, a620, a517, a518, a519, a621, a52...
-   #
-   # richTierTableTrimmed (keeps only the tiers with ~same number of lines
-   # in this example, the 141 line tiers have analyses separated out,
-   # which slexil at present cannot handle.
-   #             TIER_ID LINGUISTIC_TYPE_REF PARENT_REF   root  LINES                                                ids
-   # 0         TRS-Ortho          default-lt        NaN   True     15                                                 []
-   # 1     TRS Broad IPA           TRS-Broad  TRS-Ortho  False     15  [a8, a9, a67, a69, a10, a70, a11, a71, a72, a1...
-   # 2  Free Translation    Free Translation  TRS-Ortho  False     15  [a15, a16, a662, a373, a17, a656, a18, a657, a...
-
-   def constructRichTierTable(self):
-
-      #----------------------------------------------------
-      def getTimeAlignedTierIDs(doc):
-         tierTypes = doc.findall("LINGUISTIC_TYPE")
-         timeAlignedTierIDs = []
-         for tierType in tierTypes:
-            id = tierType.attrib['LINGUISTIC_TYPE_ID']
-            if 'TIME_ALIGNABLE' in tierType.attrib.keys():
-              value = tierType.attrib['TIME_ALIGNABLE']
-              if value == "true":
-                 timeAlignedTierIDs.append(id)
-         return(timeAlignedTierIDs)
-
-      #----------------------------------------------------
-      def findRootTiers(doc):
-         timeAlignedTiers = getTimeAlignedTierIDs(doc)
-         tiers = doc.findall("TIER")
-         rootTiers = []
-         for tier in tiers:
-            attributes = tier.attrib.keys()
-            orphan = not 'PARENT_REF' in attributes
-            tierType = tier.attrib['LINGUISTIC_TYPE_REF']
-            timeAligned = tierType in timeAlignedTiers
-            if orphan and timeAligned:
-              rootTiers.append(tier.attrib['TIER_ID'])
-         return(rootTiers)
-      #----------------------------------------------------
-      tiers = self.doc.findall("TIER")
-      attributeNamesRaw = [list(tier.attrib.keys()) for tier in tiers]
-      attributeNamesWithDups = [item for sublist in attributeNamesRaw for item in sublist]
-      attributeNames = list(set(attributeNamesWithDups)) # uniquify
-      attributeNames.sort()
-   
-      tbl = pd.DataFrame(columns=attributeNames)
-  
-      row = -1
-      for tier in tiers:
-         row = row + 1
-         attributes = tier.attrib.keys()
-         for attrib in attributes:
-            value = tier.attrib[attrib]
-            tbl.loc[row, attrib] = value
-          
-      coi = ["TIER_ID", "LINGUISTIC_TYPE_REF", "PARENT_REF", "DEFAULT_LOCALE"]
-      tbl = tbl.reindex(columns=coi)
-      isRootTier = [id in findRootTiers(self.doc) for id in tbl['TIER_ID']]
-      tbl['root'] = isRootTier
-
-      kidCount = [len(tier.getchildren()) for tier in tiers]
-      tbl['LINES'] = kidCount
-
-        # we may wish to exclude a tier's dependent  elements
-        # for example, of there more dependents than parents,
-        # 
-      kidIDs = []
-      for tier in tiers:
-        kidIDs.append([el.get("ANNOTATION_ID") for el in tier.findall("ANNOTATION/REF_ANNOTATION")])
-      tbl['ids'] = kidIDs
-          
-       # we only want tiers which have very nearly the same
-       # number of lines as the root.  this avoids trying
-       # to render descendnet tiers in which, for instance,
-       # each morpheme is a separate entry
-
-  
-      cDrops = ["LINGUISTIC_TYPE_ID", "DEFAULT_LOCALE",
-                "CONSTRAINTS", "GRAPHIC_REFERENCES"]
-      for cDrop in cDrops:
-        if cDrop in list(tbl.columns):
-           tbl = tbl.drop(columns=cDrop)
-
-
-      coi = ["TIER_ID", "PARENT_REF", "LINES", "LINGUISTIC_TYPE_REF", "root", "ids"]
-      tierTable = tbl[coi]
-
-      rootLineCount = int(tbl[tbl['root'] == True]['LINES'][0])
-      lowerBound = (rootLineCount * 0.9)
-      upperBound = (rootLineCount * 1.1)
-      tierTableDistilled = tbl[(tbl['LINES'] > lowerBound) & (tbl['LINES'] < upperBound)]
-      tierTableDistilled.reset_index(inplace=True, drop=True)
-
-      self.richTierTable = tierTable
-      self.richTierTableDistilled = tierTableDistilled
-       
-   #----------------------------------------------------------------------------------
    def constructTierTable(self):
 
          # first get the possible LINGUISTIC_TYPE_REFS.  each tier must have this
@@ -484,40 +364,9 @@ class EafParser:
                           "text": contents}, index=[0])
       
       childIDs = self.depthFirstTierTraversal(parentID)
-        # the rich tierTables add extra information to the historically
-        # basic tierTable
-        #                  TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
-        # 0              TRS-Ortho              NaN     15          default-lt           true
-        # 1          TRS Broad IPA        TRS-Ortho     15           TRS-Broad          false
-        # 2       Free Translation        TRS-Ortho     15    Free Translation          false
-        # 3        Tokenization-cp        TRS-Ortho    141      Tokenization 2          false
-        # 4  Tokenization-Gloss-cp  Tokenization-cp    141                 POS          false
-        #
-        # richTierTable:
-        #                  TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF   root                                                ids
-        # 0              TRS-Ortho              NaN     15          default-lt   True                                                 []
-        # 1          TRS Broad IPA        TRS-Ortho     15           TRS-Broad  False  [a8, a9, a67, a69, a10, a70, a11, a71, a72, a1...
-        # 2       Free Translation        TRS-Ortho     15    Free Translation  False  [a15, a16, a662, a373, a17, a656, a18, a657, a...
-        # 3        Tokenization-cp        TRS-Ortho    141      Tokenization 2  False  [a374, a375, a376, a377, a378, a379, a380, a38...
-        # 4  Tokenization-Gloss-cp  Tokenization-cp    141                 POS  False  [a515, a516, a620, a517, a518, a519, a621, a52...
-        #
-        # richTierTableTrimmed (keeps only the tiers with ~same number of lines
-        # in this example, the 141 line tiers have analyses separated out,
-        # which slexil at present cannot handle.
-        #             TIER_ID LINGUISTIC_TYPE_REF PARENT_REF   root  LINES                                                ids
-        # 0         TRS-Ortho          default-lt        NaN   True     15                                                 []
-        # 1     TRS Broad IPA           TRS-Broad  TRS-Ortho  False     15  [a8, a9, a67, a69, a10, a70, a11, a71, a72, a1...
-        # 2  Free Translation    Free Translation  TRS-Ortho  False     15  [a15, a16, a662, a373, a17, a656, a18, a657, a...
-
-      (richTierTable, richTierTableTrimmed) = self.getRichTierTables()
-      keepers = []
-      [keepers.extend(ids) for ids in richTierTableTrimmed['ids']]
+      # pdb.set_trace()
       
-      #pdb.set_trace()
-      #print("--- creating tbl in eafParser.py, getLineTable()")
       for childID in childIDs:
-         if not childID in keepers:
-             continue
          searchPattern = "TIER/ANNOTATION/REF_ANNOTATION[@ANNOTATION_ID='%s']" %  childID
          #print("childID: %s  searchPattern: %s" % (childID, searchPattern))
          child = self.doc.find(searchPattern)
@@ -542,9 +391,6 @@ class EafParser:
 
       self.linesAll = list()
 
-      #pdb.set_trace()
-      print("--- in eafParser.py, parseAndSortAllLines()")
-      
       for i in range(self.getLineCount()):
          self.linesAll.append(self.getLineTable(i+1))
 
@@ -570,19 +416,16 @@ class EafParser:
         # yaml reserved, are not interpreted.
 
       for row in range(0, rowCount):
-         #if lineNumber == 62:
-         #    pdb.set_trace()
          tierName = tbl.loc[row]['tierID']
          rawText = tbl.loc[row]['text']
          if rawText == None:
             continue
-         rawText = rawText.replace("\n", " ")
          tabsFound = rawText.find("\t") > 0
          if tabsFound:
             text = str(rawText.split("\t"))
             text = text.replace("'", "")
             text = text.replace(" ", "")
-            textOut.append("    %s: |\n         %s" % (tierName, text))
+            textOut.append("    %s: %s" % (tierName, text))
          else:
             textOut.append("    %s: |\n         %s" % (tierName, rawText))
             #if row == 0:
@@ -671,37 +514,7 @@ class EafParser:
    def writeYAML(self, textOut, outputFilename):
 
       # print("--- writing %d lines to %s" % (len(textOut), outputFilename))
-      #pdb.set_trace()
       with open(outputFilename, 'w') as f:
          f.writelines(s + '\n' for s in textOut)
 
-#----------------------------------------------------------------------------------
-def extractAllTimeAlignedTierIDs(xmlFilename):
-
-   doc = etree.parse(xmlFilename)
-
-   tierDescriptors = doc.findall("LINGUISTIC_TYPE")
-   timeAlignedTierIDs = []
-
-   for tierType in tierDescriptors:
-      refID = tierType.attrib['LINGUISTIC_TYPE_ID']
-      if 'TIME_ALIGNABLE' in tierType.attrib.keys():
-         value = tierType.attrib['TIME_ALIGNABLE']
-         if value == "true":
-               # find all the text's tiers with this linguistic type
-            tiers = doc.findall("TIER[@LINGUISTIC_TYPE_REF='%s']" % refID)
-            for tier in tiers:
-              id = tier.attrib['TIER_ID']
-              timeAlignedTierIDs.append(id)
-
-   #pdb.set_trace()
-   return(timeAlignedTierIDs)
-
-#----------------------------------------------------------------------------------
-def xmlValid(xmlFilename):
-
-   schemaFile = "http://www.mpi.nl/tools/elan/EAFv3.0.xsd" 
-   valid = False
-   xmlschema.validate(xmlFilename, schemaFile)
-
-#----------------------------------------------------------------------------------
+   #----------------------------------------------------------------------------------

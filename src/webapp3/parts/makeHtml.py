@@ -1,32 +1,15 @@
 from slexil.yamlToText import YamlToText
 
 
-buttonDiv = html.Div(id="buttonDiv",
-             style={"margin": "20px"},
-             children=[
-                 html.Div(id="createHtmlButtonDiv",
-                          style={'display': 'none'},
-                          children=[html.Button('Create HTML',
-                                                id='createHtmlButton',
-                                                style=buttonStyle)]
-                          ),
-                 html.Div(id="downloadHtmlButtonDiv",
-                          style={'display': 'none'},
-                          children=[html.Button("Download HTML",
-                                                id="downloadHtmlButton",
-                                                style=buttonStyle),
-                                    dcc.Download(id="download-html")]),
-                 html.Div(id="downloadYamlButtonDiv",
-                          style={'display': 'none'},
-                          children=[html.Button("Download YAML",
-                                                id="btn-download-txt",
-                                                className="button"),
-                                    dcc.Download(id="download-yaml")],
-                          )
-                 ])
+createHtmlButtonDiv = html.Div(id="createHtmlButtonDiv",
+                               style={'display': 'none'},
+                               children=[html.Button('Create HTML',
+                                                     id='createHtmlButton',
+                                                     style=buttonStyle)]
+                               )
 
 #--------------------------------------------------------------------------------
-dashApp.layout.children.append(buttonDiv)
+dashApp.layout.children.append(createHtmlButtonDiv)
 #--------------------------------------------------------------------------------
 @dashApp.callback(Output('downloadHtmlButtonDiv', 'style'),
                   Output('downloadHtmlButton', 'children'),
@@ -40,7 +23,7 @@ dashApp.layout.children.append(buttonDiv)
                   State('downloadHtmlButtonDiv', 'style'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
-def createHtml(n_clicks, buttonDivStyle, globals):
+def createHtml(n_clicks, downloadHtmlButtonDivStyle, globals):
 
    print("--- runSlexil, n_clicks: %d" % n_clicks)
    title = globals['projectTitle']
@@ -50,8 +33,8 @@ def createHtml(n_clicks, buttonDivStyle, globals):
    errorBoxChildren = None
    errorBoxTitle = None
 
-   buttonDivStyle['display'] = 'inline-block'
-   buttonLabel = "Download %s.html" % globals['projectTitle']
+   downloadHtmlButtonDivStyle['display'] = 'inline-block'
+   downloadHtmlButtonLabel = "Download %s.html" % globals['projectTitle']
 
    projectName = globals['projectName']
    projectDirectory = os.path.join(PROJECTS_DIRECTORY, globals['projectName'])
@@ -71,13 +54,15 @@ def createHtml(n_clicks, buttonDivStyle, globals):
       errorStringHtml = html.P(errorString)
       htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
-      buttonDivStyle['display'] = 'none'
-      buttonLabel = "" # ignored
-      return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+      downloadHtmlButtonDivStyle['display'] = 'none'
+      downloadHtmlButtonLabel = "" # ignored
+      return (downloadHtmlButtonDivStyle, downloadHtmlButtonLabel,
+              globals, errorBoxOpen,
               errorBoxTitle, errorBoxChildren)
       
    globals['htmlFileName'] = htmlFileName
-   return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+   return (downloadHtmlButtonDivStyle, downloadHtmlButtonLabel,
+           globals, errorBoxOpen,
            errorBoxTitle, errorBoxChildren)
            
         
@@ -112,19 +97,4 @@ def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
    with open(htmlFileName, "w") as file:
        file.write(htmlText)
    return htmlFileName
-
-
-@dashApp.callback(
-    Output("download-html", "data"),
-    Input("downloadHtmlButton", "n_clicks"),
-    State("globals", "data"),
-    prevent_initial_call=True,
-    )
-def downloadHtml(n_clicks, globals):
-    print("--- 23a downloadHtml")
-    
-    filename = os.path.join(PROJECTS_DIRECTORY,
-                            globals['projectName'],
-                            "%s.html" % globals['projectName'])
-    return dcc.send_file(filename)
 

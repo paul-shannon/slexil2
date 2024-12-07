@@ -7,7 +7,7 @@ uploaderStyle = {'width': '400px',
                  'textAlign': 'center',
                  'fontSize': '24px',
                  'margin': '10px',
-                 'marginLeft': '50px',
+                 'marginLeft': '30px',
                  'display': 'none',
                  'background-color': '#F5FAF3',
                  ':hover': {
@@ -19,25 +19,28 @@ simpleTextDisplayStyle = {'fontSize': '32px',
                           'marginLeft': '200px'
                           }
 
+  # accept string (.eaf or .yaml) set in callback
+  # function handleFileTypeSelection
+
 mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
                         children = [
                            dcc.Upload(
                               id='mainTextUploader',
-                              #accept=".eaf",
-                              #className='textUploader',
                               children=html.Div(
                                   id='fileSelectorDiv',
                                   children = ['Drag and Drop or ',
                                               html.A('Select File')
-                                              ]), #className="mainTextUploader"),
+                                              ]),
                               style=uploaderStyle,
                               multiple=False
                               )])
 
 dashApp.layout.children.append(mainTextLoaderDiv)
 #--------------------------------------------------------------------------------
-@dashApp.callback(Output('createHtmlButtonDiv', 'style'),
-                  Output('createHtmlButton', 'children'),
+@dashApp.callback(#Output('createHtmlButtonDiv', 'style'),
+                  #Output('createHtmlButton', 'children'),
+                  Output('analyzeButtonDiv', 'style'),
+                  Output('analyzeButton', 'children'),    
                   Output('globals', 'data', allow_duplicate=True),
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
@@ -47,11 +50,11 @@ dashApp.layout.children.append(mainTextLoaderDiv)
                   Input('mainTextUploader', 'contents'),
                   State('mainTextUploader', 'filename'),
                   State('mainTextUploader', 'last_modified'),
-                  State('createHtmlButtonDiv', 'style'),
+                  State('analyzeButtonDiv', 'style'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, globals):
+def handleMainTextUpload(contents, filename, date, buttonDivStyle, globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
@@ -66,31 +69,25 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
     errorBoxChildren = None
     errorBoxTitle = None
     buttonDivStyle['display'] = 'inline-block' # assume success
-    buttonLabel = "Create " % globals['projectTitle']
+    buttonLabel = "Assess %s file" % globals['fileType']
 
     try: 
         saveUploadedFile(contents, projectName, filename)
-        fileType = globals['fileType']
-        print("%s has format %s" % (filename, fileType))
-        if fileType == "EAF":
-            p = EafParser(mainTextFilePath, verbose=True,
-                          fixOverlappingTimeSegments=False)
 
-            p.run()
-            title = globals['projectTitle'] = projectTitle
-            yamlText = p.toYAML(projectTitle, projectName, projectName)
-            yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
-            p.writeYAML(yamlText, yamlFileName)
-            globals['yamlFileName'] = yamlFileName
-            #pdb.set_trace()
-            tbl = p.getTierTable()
-            globals['tiers'] = list(tbl['TIER_ID'])
-            globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
-            globals['parent'] = list(tbl['PARENT_REF'])
-            globals['lineCount'] = list(tbl['LINES'])
-            print(p.getTierTable())
-            if fileType == "YAML":
-                globals['yamlFileName'] = mainTextFilePath
+        #    title = globals['projectTitle'] = projectTitle
+        #    yamlText = p.toYAML(projectTitle, projectName, projectName)
+        #    yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
+        #    p.writeYAML(yamlText, yamlFileName)
+        #    globals['yamlFileName'] = yamlFileName
+        #    #pdb.set_trace()
+        #    tbl = p.getTierTable()
+        #    globals['tiers'] = list(tbl['TIER_ID'])
+        #    globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
+        #    globals['parent'] = list(tbl['PARENT_REF'])
+        #    globals['lineCount'] = list(tbl['LINES'])
+        #    print(p.getTierTable())
+        #    if fileType == "YAML":
+        #        globals['yamlFileName'] = mainTextFilePath
 
     except Exception as e:
        errorBoxOpen = True
@@ -105,7 +102,7 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
        
     #pdb.set_trace()
     return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
-           errorBoxTitle, errorBoxChildren)
+            errorBoxTitle, errorBoxChildren)
     #return globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------

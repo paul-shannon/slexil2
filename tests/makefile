@@ -4,6 +4,7 @@ default:
 	@echo install
 	@echo webPacker
 	@echo tierGuide
+	@echo oldEaf
 	@echo eaf
 	@echo learnTierGuide
 	@echo ijalLine
@@ -54,9 +55,12 @@ webPacker:
 tierGuide:
 	python test_tierGuide.py
 
-eaf:
+oldEaf:
 	python test_eafParser.py
 	python test_eafParserInferno.py
+
+eaf:
+	python test_eafParser.py
 
 learnTierGuide:
 	python test_learnTierGuide.py

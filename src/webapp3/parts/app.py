@@ -189,17 +189,15 @@ def createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString):
    return el
 
 #--------------------------------------------------------------------------------
-
 globals = dcc.Store(id="globals",
               data={'release ': versionString})
 dashApp.layout = html.Div(id="mainDiv",
-               children=[globals,
-                         html.Div(id="bannerDiv", 
-                                  children=createDropdownMenu(),
-                                  ),
-                         loadTrackerDiv,
-                         modalLoadSpinnerWatcher],
-                      style={"margin": "5px"})
+                          children=[globals,
+                                    html.Div(id="bannerDiv", 
+                                             children=createDropdownMenu()),
+                                    loadTrackerDiv,
+                                    modalLoadSpinnerWatcher],
+                            style={"margin": "5px"})
 #----------------------------------------------------------------------
 # navbar button displays state in a modal dialog
 @callback(
@@ -211,14 +209,21 @@ dashApp.layout = html.Div(id="mainDiv",
     prevent_initial_call=True
     )
 def displayStateAsList(n_clicks, globals):
-    getStateAsArray()
+
+    print("display state!")
+
+    dialogBoxOpen = True
+    dialogBoxTitle = "State Variables"
+    dialogBoxChildren = html.P("state is empty, no variables yet assigned")
     if globals is None:
-       return(True, "State Variables",
-              html.P("state is empty, no variables yet assigned"))
+       return(dialogBoxOpen, dialogBoxTitle, dialogBoxChildren)
+
     el = html.Ul(id="list", children=[])
     for key in globals.keys():
        el.children.append(html.Li("%s: %s" % (key, globals[key])))
-    return True, "State Variables", el
+    dialogBoxChildren = el
+    return dialogBoxOpen, dialogBoxTitle, dialogBoxChildren
+    
 #--------------------------------------------------------------------------------
 # explain how media URLs work, how and why you might change them
 @callback(
@@ -229,7 +234,7 @@ def displayStateAsList(n_clicks, globals):
     State('globals', 'data'),
     prevent_initial_call=True
     )
-def displayStateAsList(n_clicks, data):
+def explainMediaURLs(n_clicks, data):
     el = html.Ul(id="list", children=[])
     items = ["In most ELAN files, your media URL points to an audio or video file on your computer.",
              "In that case, these media will only be playable for you in the web page we create here.",
@@ -248,7 +253,7 @@ def displayStateAsList(n_clicks, data):
     State('globals', 'data'),
     prevent_initial_call=True
     )
-def displayStateAsList(n_clicks, data):
+def explainMorphemeGlossFormat(n_clicks, data):
     el = html.Div(children=["Nothing yet ready on this topic."])
     return True, "Glossing Abbreviations", el
 #--------------------------------------------------------------------------------
@@ -407,14 +412,19 @@ dashApp.layout.children.append(fileTypeChooserDiv)
                   prevent_initial_call=True)
 def handleFileTypeSelection(fileType,  globals, uploaderStyle):
     print("handleFileTypeSelection: %s" % fileType)
-    globals['fileType'] = fileType
+    print("--- globals:")
+    if not globals:
+        globals = {}
+    print(globals)
     #pdb.set_trace()
+    globals['fileType'] = fileType
     uploaderStyle['display'] =  'inline-block'
     uploadFileType = ".%s" % fileType
     return globals, uploaderStyle, uploadFileType
 
 
 #m4_include(22.loadEAF.py)
+#m4_include(22a.loadMainTextFile.py)
 uploaderStyle = {'width': '400px',
                  'height': '70px',
                  'lineHeight': '60px',
@@ -424,7 +434,7 @@ uploaderStyle = {'width': '400px',
                  'textAlign': 'center',
                  'fontSize': '24px',
                  'margin': '10px',
-                 'marginLeft': '50px',
+                 'marginLeft': '30px',
                  'display': 'none',
                  'background-color': '#F5FAF3',
                  ':hover': {
@@ -436,25 +446,28 @@ simpleTextDisplayStyle = {'fontSize': '32px',
                           'marginLeft': '200px'
                           }
 
+  # accept string (.eaf or .yaml) set in callback
+  # function handleFileTypeSelection
+
 mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
                         children = [
                            dcc.Upload(
                               id='mainTextUploader',
-                              #accept=".eaf",
-                              #className='textUploader',
                               children=html.Div(
                                   id='fileSelectorDiv',
                                   children = ['Drag and Drop or ',
                                               html.A('Select File')
-                                              ]), #className="mainTextUploader"),
+                                              ]),
                               style=uploaderStyle,
                               multiple=False
                               )])
 
 dashApp.layout.children.append(mainTextLoaderDiv)
 #--------------------------------------------------------------------------------
-@dashApp.callback(Output('createHtmlButtonDiv', 'style'),
-                  Output('createHtmlButton', 'children'),
+@dashApp.callback(#Output('createHtmlButtonDiv', 'style'),
+                  #Output('createHtmlButton', 'children'),
+                  Output('analyzeButtonDiv', 'style'),
+                  Output('analyzeButton', 'children'),    
                   Output('globals', 'data', allow_duplicate=True),
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
@@ -464,11 +477,11 @@ dashApp.layout.children.append(mainTextLoaderDiv)
                   Input('mainTextUploader', 'contents'),
                   State('mainTextUploader', 'filename'),
                   State('mainTextUploader', 'last_modified'),
-                  State('createHtmlButtonDiv', 'style'),
+                  State('analyzeButtonDiv', 'style'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, globals):
+def handleMainTextUpload(contents, filename, date, buttonDivStyle, globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
@@ -483,31 +496,25 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
     errorBoxChildren = None
     errorBoxTitle = None
     buttonDivStyle['display'] = 'inline-block' # assume success
-    buttonLabel = "Create %s.html" % globals['projectTitle']
+    buttonLabel = "Assess %s file" % globals['fileType']
 
     try: 
         saveUploadedFile(contents, projectName, filename)
-        fileType = globals['fileType']
-        print("%s has format %s" % (filename, fileType))
-        if fileType == "EAF":
-            p = EafParser(mainTextFilePath, verbose=True,
-                          fixOverlappingTimeSegments=False)
 
-            p.run()
-            title = globals['projectTitle'] = projectTitle
-            yamlText = p.toYAML(projectTitle, projectName, projectName)
-            yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
-            p.writeYAML(yamlText, yamlFileName)
-            globals['yamlFileName'] = yamlFileName
-            #pdb.set_trace()
-            tbl = p.getTierTable()
-            globals['tiers'] = list(tbl['TIER_ID'])
-            globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
-            globals['parent'] = list(tbl['PARENT_REF'])
-            globals['lineCount'] = list(tbl['LINES'])
-            print(p.getTierTable())
-            if fileType == "YAML":
-                globals['yamlFileName'] = mainTextFilePath
+        #    title = globals['projectTitle'] = projectTitle
+        #    yamlText = p.toYAML(projectTitle, projectName, projectName)
+        #    yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
+        #    p.writeYAML(yamlText, yamlFileName)
+        #    globals['yamlFileName'] = yamlFileName
+        #    #pdb.set_trace()
+        #    tbl = p.getTierTable()
+        #    globals['tiers'] = list(tbl['TIER_ID'])
+        #    globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
+        #    globals['parent'] = list(tbl['PARENT_REF'])
+        #    globals['lineCount'] = list(tbl['LINES'])
+        #    print(p.getTierTable())
+        #    if fileType == "YAML":
+        #        globals['yamlFileName'] = mainTextFilePath
 
     except Exception as e:
        errorBoxOpen = True
@@ -522,7 +529,7 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
        
     #pdb.set_trace()
     return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
-           errorBoxTitle, errorBoxChildren)
+            errorBoxTitle, errorBoxChildren)
     #return globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------
@@ -543,35 +550,121 @@ def saveUploadedFile(contents, projectName, filename):
 
 #--------------------------------------------------------------------------------
 
+#m4_include(23a.makeHtml.py)
+from slexil.newYamlParser import NewYamlParser
+from slexil.eafParser import extractAllTimeAlignedTierIDs
+#--------------------------------------------------------------------------------
+analyzeButtonStyle = {"margin": "15px",
+                      "margin-left": "30px",
+                      "fontSize": "20px",
+                      "border": "1px solid gray",
+                      "borderRadius": "10px"
+                      }
+
+
+#--------------------------------------------------------------------------------
+analyzeButtonDiv = html.Div(id="analyzeButtonDiv",
+                            style={'display': 'none'},
+                            children=[html.Button('Assess',
+                                                  id='analyzeButton',
+                                                  style=analyzeButtonStyle)]
+                            )
+dashApp.layout.children.append(analyzeButtonDiv)
+#--------------------------------------------------------------------------------
+@dashApp.callback(Output('globals',       'data',     allow_duplicate=True),
+                  Output('slexilModal',   'is_open',  allow_duplicate=True),
+                  Output('modalTitle',    'children', allow_duplicate=True),
+                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('createHtmlButtonDiv', 'style'),
+
+                  [Input('analyzeButton', 'n_clicks')],
+                  State('globals', 'data'),
+                  State('createHtmlButtonDiv', 'style'),
+                  prevent_initial_call=True)
+def analyze(n_clicks,  globals, createHtmlDivStyle):
+
+   print("--- analyze %s" % globals['mainTextFilename'])
+
+   errorBoxOpen = False
+   errorBoxChildren = None
+   errorBoxTitle = None
+   createHtmlDivStyle['display'] = 'none' # pessimistic: assume failure here
+
+   fileType = globals['fileType']
+   mainTextFilePath = globals['mainTextFilePath']
+   print("%s has format %s" % (mainTextFilePath, fileType))
+   mediaURL = "unknown"
+   timeAlignedTierCount = 1 # only possibilit with current YAML format
+   try:
+      if fileType == "EAF":
+         p = EafParser(mainTextFilePath, verbose=True,
+                       fixOverlappingTimeSegments=False)
+         p.run()
+         tbl = p.getTierTable()
+         mediaURL = p.getMediaURL()
+         timeAlignedTiers = extractAllTimeAlignedTierIDs(mainTextFilePath)
+         if len(timeAlignedTiers) > 1:
+            tierNamesString = " ".join(timeAlignedTiers)
+            #errorMessage = html.Div(children=[
+            #   html.P("%d time-aligned tiers found: %s" % (len(timeAlignedTiers), tierNamesString)),
+            #   html.P("""Slexil currently supports only one time-aligned tier. 
+            #             Email a bug report (see below) if you wish to request 
+            #             such support in a future release.""")])
+            msg = "%d time-aligned tiers found: %s,  " %\
+                    (len(timeAlignedTiers), tierNamesString)
+            msg += " but Slexil currently supports only one time-aligned tier.  "
+            msg += "Email a bug report (see below) if you wish to request "
+            msg += "such support in a future release."
+            raise Exception(msg)
+         yaml = p.toYAML("a", "b", "c")
+         yamlFile = os.path.join(globals['projectPath'],
+                                 "%s.yaml" % globals['projectName'])
+         p.writeYAML(yaml, yamlFile)
+         globals['yamlFileName'] = yamlFile
+      elif fileType == "YAML":
+         p = NewYamlParser(mainTextFilePath)
+         tbl = p.getTierTable()
+         mediaURL = p.getMediaURL()
+      formattedTable = dbc.Table.from_dataframe(tbl)
+      errorBoxOpen = True
+      errorBoxChildren = html.Div(children=[html.P("media url: %s" % mediaURL),
+                                            html.P("time-aligned tier count: %d" %
+                                                   timeAlignedTierCount),
+                                            html.P(formattedTable)])
+      errorBoxTitle = "structure"
+      createHtmlDivStyle['display'] = 'inline-block'
+      return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
+              createHtmlDivStyle)
+
+   except Exception as e:
+      errorBoxOpen = True
+      errorBoxTitle = "%s PARSING ERROR" % globals['fileType']
+      (traceBackString, errorString) = getExceptionTracebackString(e)
+      errorStringHtml = html.P(errorString)
+      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
+      errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
+      #errorBoxChildren = errorString
+      #pdb.set_trace()
+      #errorBoxChildren = dbc.ModalBody(e.__str__())
+      #buttonDivStyle['display'] = 'none'
+      #buttonLabel = "bug!"
+      return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
+              createHtmlDivStyle)
+
+#--------------------------------------------------------------------------------
+
 from slexil.yamlToText import YamlToText
 
 
-buttonDiv = html.Div(id="buttonDiv",
-             style={"margin": "20px"},
-             children=[
-                 html.Div(id="createHtmlButtonDiv",
-                          style={'display': 'none'},
-                          children=[html.Button('Create HTML',
-                                                id='createHtmlButton',
-                                                style=buttonStyle)]
-                          ),
-                 html.Div(id="downloadHtmlButtonDiv",
-                          style={'display': 'none'},
-                          children=[html.Button("Download HTML",
-                                                id="downloadHtmlButton",
-                                                style=buttonStyle),
-                                    dcc.Download(id="download-html")]),
-                 html.Div(id="downloadYamlButtonDiv",
-                          style={'display': 'none'},
-                          children=[html.Button("Download YAML",
-                                                id="btn-download-txt",
-                                                className="button"),
-                                    dcc.Download(id="download-yaml")],
-                          )
-                 ])
+createHtmlButtonDiv = html.Div(id="createHtmlButtonDiv",
+                               style={'display': 'none'},
+                               children=[html.Button('Create HTML',
+                                                     id='createHtmlButton',
+                                                     style=buttonStyle)]
+                               )
 
 #--------------------------------------------------------------------------------
-dashApp.layout.children.append(buttonDiv)
+dashApp.layout.children.append(createHtmlButtonDiv)
 #--------------------------------------------------------------------------------
 @dashApp.callback(Output('downloadHtmlButtonDiv', 'style'),
                   Output('downloadHtmlButton', 'children'),
@@ -585,7 +678,7 @@ dashApp.layout.children.append(buttonDiv)
                   State('downloadHtmlButtonDiv', 'style'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
-def createHtml(n_clicks, buttonDivStyle, globals):
+def createHtml(n_clicks, downloadHtmlButtonDivStyle, globals):
 
    print("--- runSlexil, n_clicks: %d" % n_clicks)
    title = globals['projectTitle']
@@ -595,8 +688,8 @@ def createHtml(n_clicks, buttonDivStyle, globals):
    errorBoxChildren = None
    errorBoxTitle = None
 
-   buttonDivStyle['display'] = 'inline-block'
-   buttonLabel = "Download %s.html" % globals['projectTitle']
+   downloadHtmlButtonDivStyle['display'] = 'inline-block'
+   downloadHtmlButtonLabel = "Download %s.html" % globals['projectTitle']
 
    projectName = globals['projectName']
    projectDirectory = os.path.join(PROJECTS_DIRECTORY, globals['projectName'])
@@ -616,13 +709,15 @@ def createHtml(n_clicks, buttonDivStyle, globals):
       errorStringHtml = html.P(errorString)
       htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
-      buttonDivStyle['display'] = 'none'
-      buttonLabel = "" # ignored
-      return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+      downloadHtmlButtonDivStyle['display'] = 'none'
+      downloadHtmlButtonLabel = "" # ignored
+      return (downloadHtmlButtonDivStyle, downloadHtmlButtonLabel,
+              globals, errorBoxOpen,
               errorBoxTitle, errorBoxChildren)
       
    globals['htmlFileName'] = htmlFileName
-   return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+   return (downloadHtmlButtonDivStyle, downloadHtmlButtonLabel,
+           globals, errorBoxOpen,
            errorBoxTitle, errorBoxChildren)
            
         
@@ -659,6 +754,16 @@ def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
    return htmlFileName
 
 
+downloadHtmlButtonDiv = html.Div(id="downloadHtmlButtonDiv",
+                               style={'display': 'none'},
+                               children=[html.Button('Download HTML',
+                                                     id='downloadHtmlButton',
+                                                     style=buttonStyle),
+                                    dcc.Download(id="download-html")])
+
+dashApp.layout.children.append(downloadHtmlButtonDiv)
+
+#--------------------------------------------------------------------------------
 @dashApp.callback(
     Output("download-html", "data"),
     Input("downloadHtmlButton", "n_clicks"),

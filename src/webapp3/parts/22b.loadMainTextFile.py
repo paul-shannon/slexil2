@@ -19,25 +19,28 @@ simpleTextDisplayStyle = {'fontSize': '32px',
                           'marginLeft': '200px'
                           }
 
+  # accept string (.eaf or .yaml) set in callback
+  # function handleFileTypeSelection
+
 mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
                         children = [
                            dcc.Upload(
                               id='mainTextUploader',
-                              #accept=".eaf",
-                              #className='textUploader',
                               children=html.Div(
                                   id='fileSelectorDiv',
                                   children = ['Drag and Drop or ',
                                               html.A('Select File')
-                                              ]), #className="mainTextUploader"),
+                                              ]),
                               style=uploaderStyle,
                               multiple=False
                               )])
 
 dashApp.layout.children.append(mainTextLoaderDiv)
 #--------------------------------------------------------------------------------
-@dashApp.callback(Output('createHtmlButtonDiv', 'style'),
-                  Output('createHtmlButton', 'children'),
+@dashApp.callback(#Output('createHtmlButtonDiv', 'style'),
+                  #Output('createHtmlButton', 'children'),
+                  Output('analyzeButtonDiv', 'style'),
+                  Output('analyzeButton', 'children'),    
                   Output('globals', 'data', allow_duplicate=True),
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
@@ -66,7 +69,7 @@ def handleMainTextUploadAndEafParse(contents, filename, date, buttonDivStyle, gl
     errorBoxChildren = None
     errorBoxTitle = None
     buttonDivStyle['display'] = 'inline-block' # assume success
-    buttonLabel = "Create " % globals['projectTitle']
+    buttonLabel = "Analyze %s" % globals['fileType']
 
     try: 
         saveUploadedFile(contents, projectName, filename)

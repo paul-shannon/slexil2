@@ -189,17 +189,15 @@ def createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString):
    return el
 
 #--------------------------------------------------------------------------------
-
 globals = dcc.Store(id="globals",
               data={'release ': versionString})
 dashApp.layout = html.Div(id="mainDiv",
-               children=[globals,
-                         html.Div(id="bannerDiv", 
-                                  children=createDropdownMenu(),
-                                  ),
-                         loadTrackerDiv,
-                         modalLoadSpinnerWatcher],
-                      style={"margin": "5px"})
+                          children=[globals,
+                                    html.Div(id="bannerDiv", 
+                                             children=createDropdownMenu()),
+                                    loadTrackerDiv,
+                                    modalLoadSpinnerWatcher],
+                            style={"margin": "5px"})
 #----------------------------------------------------------------------
 # navbar button displays state in a modal dialog
 @callback(
@@ -211,14 +209,21 @@ dashApp.layout = html.Div(id="mainDiv",
     prevent_initial_call=True
     )
 def displayStateAsList(n_clicks, globals):
-    getStateAsArray()
+
+    print("display state!")
+
+    dialogBoxOpen = True
+    dialogBoxTitle = "State Variables"
+    dialogBoxChildren = html.P("state is empty, no variables yet assigned")
     if globals is None:
-       return(True, "State Variables",
-              html.P("state is empty, no variables yet assigned"))
+       return(dialogBoxOpen, dialogBoxTitle, dialogBoxChildren)
+
     el = html.Ul(id="list", children=[])
     for key in globals.keys():
        el.children.append(html.Li("%s: %s" % (key, globals[key])))
-    return True, "State Variables", el
+    dialogBoxChildren = el
+    return dialogBoxOpen, dialogBoxTitle, dialogBoxChildren
+    
 #--------------------------------------------------------------------------------
 # explain how media URLs work, how and why you might change them
 @callback(
@@ -229,7 +234,7 @@ def displayStateAsList(n_clicks, globals):
     State('globals', 'data'),
     prevent_initial_call=True
     )
-def displayStateAsList(n_clicks, data):
+def explainMediaURLs(n_clicks, data):
     el = html.Ul(id="list", children=[])
     items = ["In most ELAN files, your media URL points to an audio or video file on your computer.",
              "In that case, these media will only be playable for you in the web page we create here.",
@@ -248,7 +253,7 @@ def displayStateAsList(n_clicks, data):
     State('globals', 'data'),
     prevent_initial_call=True
     )
-def displayStateAsList(n_clicks, data):
+def explainMorphemeGlossFormat(n_clicks, data):
     el = html.Div(children=["Nothing yet ready on this topic."])
     return True, "Glossing Abbreviations", el
 #--------------------------------------------------------------------------------
@@ -256,8 +261,12 @@ def displayStateAsList(n_clicks, data):
 m4_include(20a.setTitle.py)
 m4_include(21.fileTypeChooser.py)
 #m4_include(22.loadEAF.py)
-m4_include(22a.loadMainTextFile.py)
-m4_include(23a.makeHtml.py)
+#m4_include(22a.loadMainTextFile.py)
+m4_include(22c.loadMainTextFile.py)
+#m4_include(23a.makeHtml.py)
+m4_include(assessUploadedFile.py)
+m4_include(makeHtml.py)
+m4_include(downloadHtml.py)
 #m4_include(28.loadAbbreviations.py)
 #m4_include(26.loadAudio.py)
 #m4_include(createWebPage.py)

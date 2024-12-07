@@ -1,0 +1,10 @@
+../explore/aliceTaff/v1/01RuthNora230209AT-2linesRemoved.eaf
+../explore/aliceTaff/61/61Margaretmarsha230619Slexil.eaf
+../explore/aliceTaff/95/95LizVernaSelina230802Slexil.eaf
+../explore/aliceTaff/v1/01RuthNora230209AT.eaf
+../explore/aliceTaff/v1/01RuthNora230209AT-orig.eaf
+../explore/aliceTaff/59/59Lena230614Slexil.eaf
+../explore/aliceTaff/66/66GeorgePaul230630Slexil.eaf
+# ../explore/aliceTaff/68/68AdelineGenevieve230703Slexil.eaf
+../explore/aliceTaff/57/57HelenMargaret230608Slexil.eaf
+../explore/aliceTaff/03/3SmithJoe230627Slexil.eaf

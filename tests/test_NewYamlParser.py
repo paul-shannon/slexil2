@@ -31,6 +31,7 @@ def test_mediaGetters():
     assert(yp.getAudioURL() == expected)
     assert(yp.getVideoURL() == None)
     assert(yp.getMimeType() == "audio/x-wav")
+    assert(yp.getMediaURL() == expected)
     
     print("--- test_mediaGetters: tlingit video")
 
@@ -41,6 +42,7 @@ def test_mediaGetters():
     assert(yp.getAudioURL() == None)
     assert(yp.getVideoURL() == expected)
     assert(yp.getMimeType() == "video/m4v")
+    assert(yp.getMediaURL() == expected)
 
     
 #----------------------------------------------------------------------------------------------------
@@ -85,6 +87,25 @@ def test_getHtmlLine():
   content = yp.getHtmlLine(0)
   assert(content == '<h3> Read by Roberto Begnini</h3> taken from youtube')
     
+#----------------------------------------------------------------------------------------------------
+def test_getTierTable():
+
+   print("--- test_getTierTable")
+
+   f = "../testData/validYamlFiles/inferno.yaml"
+   yp = NewYamlParser(f)
+   tbl = yp.getTierTable()
+   assert(tbl.shape == (7, 2))
+   assert(list(tbl.columns) == ['Field', 'Lines'])
+
+   f = "../testData/validYamlFiles/4EthelAnita230503Slexil.yaml"
+   yp = NewYamlParser(f)
+   tbl = yp.getTierTable()
+   assert(tbl.shape == (6,2))
+   assert(list(tbl['Field']) == ['lineNumber', 'startTime', 'endTime',
+                                 'utterance', 'Speaker Initials', 'translation'])
+   assert(list(tbl['Lines']) == [438, 438, 438, 438, 436, 406])
+
 #----------------------------------------------------------------------------------------------------
 def test_getTimeTable():
 
@@ -159,9 +180,11 @@ def test_run():
 #----------------------------------------------------------------------------------------------------
 def runTests():
 
+
   test_ctor()
   test_mediaGetters()
   test_getTierGuide()
+  test_getTierTable()
   test_getTieredLineObject()
   #test_getHtmlLine()  
   test_getTimeTable()

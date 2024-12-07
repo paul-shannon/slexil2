@@ -75,6 +75,34 @@ def test_identifyAnalysisTiers():
     assert(analysisTiers == ['morphemes', 'morpheme-gloss'])
 
 #----------------------------------------------------------------------------------------------------
+# some conditions to satisfy:
+#
+#   - no analysis tiers included
+#
+#   - order of the generic tiers should follow that found in lines with
+#     the most tiers.  alice taff's tlingit conversation has speaker initials
+#     in the firest mostly documentary line, with the translation tier not
+#     appearing until line 3.
+#     
+def test_getGenericTiers_inProperOrder():
+
+    print("--- test_getGenericTiersInProperOrder")
+
+    f = "../testData/validYamlFiles/61.yaml"
+    its = InferTierStructure(f)
+    tiers = its.getGenericTierNameMap()
+       # make sure that Speaker initials comes last
+
+    assert(tiers == {'tier_1': 'translation', 'tier_2': 'Speaker initials'})
+    assert(list(tiers.values()) == ['translation', 'Speaker initials'])
+
+    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    its = InferTierStructure(f)
+    tiers = its.getGenericTierNameMap()
+    assert(tiers == {'tier_1': 'soundsLike', 'tier_2': 'english', 'tier_3': 'speaker'})
+    assert(list(tiers.values()) == ['soundsLike', 'english', 'speaker'])
+
+#----------------------------------------------------------------------------------------------------
 def test_getSpeechTier():
 
     print("--- test_getSpeechTier")
@@ -105,7 +133,7 @@ def test_getGenericTiers():
 #----------------------------------------------------------------------------------------------------
 def test_getAnalysisTiers():
 
-    print("--- test_getGenericTiers")
+    print("--- test_getAnalysis")
 
     f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
@@ -119,9 +147,10 @@ def test_recognizeAbsentAnalysisTiers():
 
     f = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
     its = InferTierStructure(f)
-    tiers = its.getGenericTierNames()
-    analysisTiers = its.getAnalysisTierNames()
-    assert(len(analysisTiers) == 0)
+    assert(its.getAllTierNames() == ['italianSpeech', 'soundsLike', 'english', 'speaker'])
+    assert(its.getGenericTierNameMap() ==
+           {'tier_1': 'soundsLike', 'tier_2': 'english', 'tier_3': 'speaker'})
+    assert(its.getAnalysisTierNameMap() == {})
 
 #----------------------------------------------------------------------------------------------------
 def test_writeTierGuide():
@@ -139,6 +168,23 @@ def test_writeTierGuide():
     assert(x['analysis_2'] == 'morpheme-gloss')
     assert(x['tier_2'] == 'english')
     assert(x['tier_3'] == 'speaker')
+
+#----------------------------------------------------------------------------------------------------
+def test_getTierGuide():
+
+    print("--- test_getTierGuide")
+
+    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    its = InferTierStructure(f)
+    tg = its.getTierGuide()
+    assert(list(tg.keys()) ==
+           ['speech', 'tier_1', 'analysis_1', 'analysis_2', 'tier_2', 'tier_3'])
+    assert(tg["speech"] == "italianSpeech")
+    assert(tg['tier_1'] == "soundsLike")
+    assert(tg['analysis_1'] == "morphemes")
+    assert(tg['analysis_2'] == "morpheme-gloss")
+    assert(tg['tier_2'] == "english")
+    assert(tg['tier_3'] == "speaker")
 
 #----------------------------------------------------------------------------------------------------
 def test_getTierGuide():
@@ -184,11 +230,12 @@ def runTests():
   test_identifyAnalysisTiers()
   test_getSpeechTier()
   test_getGenericTiers()
+  test_getGenericTiers_inProperOrder()
   test_getAnalysisTiers()
   test_getTierGuide_yamlHasSomeHtmlLines()
   test_getTierGuide()
-  #test_writeTierGuide()
-  #test_recognizeAbsentAnalysisTiers()
+  test_writeTierGuide()
+  test_recognizeAbsentAnalysisTiers()
 
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

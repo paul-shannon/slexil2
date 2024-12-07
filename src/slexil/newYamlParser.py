@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 from lxml import etree
 import yaml
 import pandas as pd
+import numpy as np
 pd.set_option('display.width', 1000)
 import pdb
 #-------------------------------------------------------------------------------
@@ -36,7 +37,6 @@ class NewYamlParser:
    #----------------------------------------------------------------------
    def __init__(self, yamlFile, verbose=False, fixOverlappingTimeSegments=False):
 
-     print("--- NewYamlParser ctor")
      self.yamlFile = yamlFile
      x = yaml.load(open(yamlFile), Loader=yaml.FullLoader)
      self.obj = x
@@ -85,6 +85,10 @@ class NewYamlParser:
 
 
    #----------------------------------------------------------------------
+   def getYamlObject(self):
+      return self.obj
+
+   #----------------------------------------------------------------------
    def getLineCount(self):
       return len(self.lines)
 
@@ -95,6 +99,10 @@ class NewYamlParser:
    #----------------------------------------------------------------------
    def getVideoURL(self):
       return self.videoURL
+
+   #----------------------------------------------------------------------
+   def getMediaURL(self):
+      return self.mediaFile
 
    #----------------------------------------------------------------------
    def getMimeType(self):
@@ -146,11 +154,10 @@ class NewYamlParser:
             "translation": translation}
       
    #----------------------------------------------------------------------
-   # line number and tier number, when different, accomdate the possible
+   # line number and tier number, when different, accomodate the possible
    # presence of html lines in the self.lines list
    def getTieredLineObject(self, lineNumber, tierNumber):
 
-      pdb.set_trace()
       tieredLine = TieredLine(self.lines, lineNumber, tierNumber,
                               self.getTierGuide(),
                               verbose=self.verbose)
@@ -182,6 +189,22 @@ class NewYamlParser:
       endTimes = [line['endTime'] for line in self.tieredLines]
       self.timeTable = pd.DataFrame({"start": startTimes, "end": endTimes})
       return self.timeTable
+
+   #----------------------------------------------------------------------
+   def getTierTable(self):
+
+      x = self.getYamlObject()
+      lines = x['lines']
+      fields = []
+      for line in lines:
+         fields.extend(list(line.keys()))
+      tbl = pd.DataFrame({'fields':np.array(fields)})
+      tbl = tbl['fields'].value_counts().to_frame()
+      tbl.drop(['number'], inplace=True)
+      tbl = tbl.reset_index() # move rownames to a new column
+      tbl.columns = ['Field', 'Lines']
+
+      return(tbl)
 
    #----------------------------------------------------------------------
    def parseAndSortAllLines(self):

@@ -20,7 +20,6 @@ class InferTierStructure:
    #------------------------------------------------------------
    def __init__(self, yamlFilenameOrParsedLines, verbose=False):
 
-      self.allTierNames = []
 
       if(not isinstance(yamlFilenameOrParsedLines, list)):
          if os.path.isfile(yamlFilenameOrParsedLines):
@@ -37,7 +36,21 @@ class InferTierStructure:
       self.tieredLines = []
       self.htmlLines = []
 
-      #pdb.set_trace()
+         #--------------------------------------------------
+         # seed allTierNames, first, from the line with
+         # the most tier names, in the order which they
+         # appear there.  this order is the one most likely
+         # desired by the user.
+         # this solves the problem in which an early line
+         # omits a higher ordered tier, only first seen
+         # in a later line.
+         #--------------------------------------------------
+      self.allTierNames = []
+      maxFieldsInOneLine = max([len(line.keys()) for line in self.lines])
+      longestLine = [line for line in self.lines if len(line.keys()) == maxFieldsInOneLine]
+      allTierNames = list(longestLine[0].keys())
+      self.allTierNames = [el for el in allTierNames if el not in self.nonTierFields]
+      
       for i in range(len(self.lines)):
          line = self.lines[i]
          if list(line.keys())[0] == "html":
@@ -92,6 +105,7 @@ class InferTierStructure:
       
       generics = [el for el in candidateTiers if el not in speechTierName]
       generics = [el for el in generics       if el not in analysisTierNames]
+      #pdb.set_trace()
       self.genericTierNames = generics
       
    #------------------------------------------------------------
