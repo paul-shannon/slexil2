@@ -45,7 +45,7 @@ dashApp.layout.children.append(mainTextLoaderDiv)
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
-                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('modalBody', 'children', allow_duplicate=True),
 
                   Input('mainTextUploader', 'contents'),
                   State('mainTextUploader', 'filename'),
@@ -54,60 +54,44 @@ dashApp.layout.children.append(mainTextLoaderDiv)
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUpload(contents, filename, date, buttonDivStyle, globals):
+def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
     projectTitle = globals['projectTitle']
     projectDirectory = os.path.join(PROJECTS_DIRECTORY, projectName)
     mainTextFilePath = os.path.join(projectDirectory, filename)
-    buttonDivStyle['display'] = 'inline-block'
+    analyzeButtonDivStyle['display'] = 'inline-block'
     globals['mainTextFilePath'] = mainTextFilePath
 
       # expected return values
     errorBoxOpen = False
     errorBoxChildren = None
     errorBoxTitle = None
-    buttonDivStyle['display'] = 'inline-block' # assume success
+    analyzeButtonDivStyle['display'] = 'inline-block' # assume success
     buttonLabel = "Assess %s file" % globals['fileType']
 
     try: 
         saveUploadedFile(contents, projectName, filename)
-
-        #    title = globals['projectTitle'] = projectTitle
-        #    yamlText = p.toYAML(projectTitle, projectName, projectName)
-        #    yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
-        #    p.writeYAML(yamlText, yamlFileName)
-        #    globals['yamlFileName'] = yamlFileName
-        #    #pdb.set_trace()
-        #    tbl = p.getTierTable()
-        #    globals['tiers'] = list(tbl['TIER_ID'])
-        #    globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
-        #    globals['parent'] = list(tbl['PARENT_REF'])
-        #    globals['lineCount'] = list(tbl['LINES'])
-        #    print(p.getTierTable())
-        #    if fileType == "YAML":
-        #        globals['yamlFileName'] = mainTextFilePath
-
     except Exception as e:
        errorBoxOpen = True
        errorBoxTitle = "parse error"
        errorString = getExceptionTracebackString(e)
        errorBoxChildren = errorString
-       #errorBoxChildren = dbc.ModalBody(e.__str__())
-       buttonDivStyle['display'] = 'none'
+       analyzeButtonDivStyle['display'] = 'none'
        buttonLabel = "bug!"
-       return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+       return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
                errorBoxTitle, errorBoxChildren)
        
-    #pdb.set_trace()
-    return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+    return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
             errorBoxTitle, errorBoxChildren)
-    #return globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------
 def saveUploadedFile(contents, projectName, filename):
 
+   print("saveUploadedFile: %s, %s" % (projectName, filename))
+   print("content length: %d" % len(contents))
+   
    data = contents.encode("utf8").split(b";base64,")[1]
    print("len(data) = %d" %len(data))
 

@@ -41,7 +41,17 @@ class NewYamlParser:
      x = yaml.load(open(yamlFile), Loader=yaml.FullLoader)
      self.obj = x
      expectedFields = ['title', 'narrator', 'textEntry', 'mediaFile', 'mimeType', 'lines']
-     assert(list(x.keys()) == expectedFields)
+     fields = list(x.keys())
+     extraFields = set(fields).difference(set(expectedFields))
+     missingFields = set(expectedFields).difference(set(fields))
+     if not fields == expectedFields:
+        msg = "Missing or unsupported fields in the yaml file.\n"
+        msg += "expected fields: %s\n" % ", ".join(expectedFields)
+        if(len(missingFields) > 0):
+           msg += "missing fields: %s\n" % ", ".join(missingFields)
+        if(len(extraFields) > 0):
+           msg += "extra fields: %s\n"   % ", ".join(extraFields)
+        raise Exception(msg)
 
      self.its = InferTierStructure(self.yamlFile)
      self.tieredLines = self.its.getTieredLines()

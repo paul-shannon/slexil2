@@ -31,7 +31,7 @@ dashApp.layout.children.append(mainTextLoaderDiv)
 #--------------------------------------------------------------------------------
 @callback(
    Output('slexilModal',      'is_open',  allow_duplicate=True),
-   Output('modalContents',    'children', allow_duplicate=True),
+   Output('modalBody',    'children', allow_duplicate=True),
    Output('globals',          'data',     allow_duplicate=True),
    #Output('termsUploadYesNoDiv', 'hidden'),
    Input('mainTextUploader',  'contents'),
@@ -80,15 +80,15 @@ def mainTextUploadHandler(fileContents, filename, globals):
 
       globals['tiers'] = tierTableDiv
       modalOpen = False
-      modalContents = tierTableDiv
+      modalBody = tierTableDiv
       modalTitle = "EAF Tiers"
       termsUploadYesNoDivHidden = False
       #hideCreateWebpageButton = False
    except BaseException as e:
       modalOpen = True
       modalTitle = "eaf error"
-      modalContents = html.Pre(get_exception_traceback_str(e))
+      modalBody = html.Pre(get_exception_traceback_str(e))
       termsUploadYesNoDivHidden = True
-   return modalOpen, modalContents, globals
+   return modalOpen, modalBody, globals
       
 

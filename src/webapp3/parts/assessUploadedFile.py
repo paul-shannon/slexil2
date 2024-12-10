@@ -21,16 +21,18 @@ dashApp.layout.children.append(analyzeButtonDiv)
 @dashApp.callback(Output('globals',       'data',     allow_duplicate=True),
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
-                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('modalBody',     'children', allow_duplicate=True),
                   Output('createHtmlButtonDiv', 'style'),
+                  Output('analyzeButtonDiv', 'style', allow_duplicate=True),
 
                   [Input('analyzeButton', 'n_clicks')],
                   State('globals', 'data'),
                   State('createHtmlButtonDiv', 'style'),
+                  State('analyzeButtonDiv', 'style'),
                   prevent_initial_call=True)
-def analyze(n_clicks,  globals, createHtmlDivStyle):
+def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
 
-   print("--- analyze %s" % globals['mainTextFilename'])
+   #print("--- analyze %s" % globals['mainTextFilename'])
 
    errorBoxOpen = False
    errorBoxChildren = None
@@ -39,7 +41,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle):
 
    fileType = globals['fileType']
    mainTextFilePath = globals['mainTextFilePath']
-   print("%s has format %s" % (mainTextFilePath, fileType))
+   #print("%s has format %s" % (mainTextFilePath, fileType))
    mediaURL = "unknown"
    timeAlignedTierCount = 1 # only possibilit with current YAML format
    try:
@@ -78,24 +80,40 @@ def analyze(n_clicks,  globals, createHtmlDivStyle):
                                             html.P("time-aligned tier count: %d" %
                                                    timeAlignedTierCount),
                                             html.P(formattedTable)])
-      errorBoxTitle = "structure"
+      errorBoxTitle = "Valid Structure"
       createHtmlDivStyle['display'] = 'inline-block'
+      analyzeButtonDivStyle['display'] = 'inline-block'
       return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
-              createHtmlDivStyle)
+              createHtmlDivStyle, analyzeButtonDivStyle)
 
    except Exception as e:
       errorBoxOpen = True
       errorBoxTitle = "%s PARSING ERROR" % globals['fileType']
       (traceBackString, errorString) = getExceptionTracebackString(e)
-      errorStringHtml = html.P(errorString)
-      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
+      #print("  traceBackString: %s" % traceBackString)
+      #print("  errorString: %s" % errorString)
+      if type(errorString) is list:
+         errorString = errorString[0]
+         errorStrings = errorString.split('\n')
+         errorStringHtml = html.Ul(children=[])
+         for element in errorStrings:
+            if(len(element) > 0):
+               errorStringHtml.children.append(html.Li(element))
+      else:
+         errorStringHtml = html.P(errorString)
+      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals,
+                                                            errorString,
+                                                            errorStringHtml,
+                                                            traceBackString)
+      #htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
       #errorBoxChildren = errorString
       #pdb.set_trace()
       #errorBoxChildren = dbc.ModalBody(e.__str__())
       #buttonDivStyle['display'] = 'none'
       #buttonLabel = "bug!"
+      analyzeButtonDivStyle['display'] = 'none'
       return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
-              createHtmlDivStyle)
+              createHtmlDivStyle, analyzeButtonDivStyle)
 
 #--------------------------------------------------------------------------------

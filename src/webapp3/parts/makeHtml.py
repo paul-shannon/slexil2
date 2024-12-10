@@ -17,7 +17,7 @@ dashApp.layout.children.append(createHtmlButtonDiv)
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
-                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('modalBody', 'children', allow_duplicate=True),
 
                   [Input('createHtmlButton', 'n_clicks')],
                   State('downloadHtmlButtonDiv', 'style'),
@@ -49,10 +49,13 @@ def createHtml(n_clicks, downloadHtmlButtonDivStyle, globals):
                                         projectName, projectDirectory)
    except Exception as e:
       errorBoxOpen = True
-      errorBoxTitle = "Slexil ERROR! in createHTML function"
+      errorBoxTitle = "Slexil ERROR! in createHtml function"
       (traceBackString, errorString) = getExceptionTracebackString(e)
       errorStringHtml = html.P(errorString)
-      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
+      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals,
+                                                            errorString,
+                                                            errorStringHtml,
+                                                            traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
       downloadHtmlButtonDivStyle['display'] = 'none'
       downloadHtmlButtonLabel = "" # ignored

@@ -38,7 +38,7 @@ def displayCreateWebpageHelp(n_clicks):
    Output('downloadZipFileButton', 'className'),
    Output('loadTrackerDiv', 'children', allow_duplicate=True),
    Output('slexilModal',      'is_open',  allow_duplicate=True),
-   Output('modalContents',    'children', allow_duplicate=True),
+   Output('modalBody',    'children', allow_duplicate=True),
    Input('createWebpageButton', 'n_clicks'),
    State('globals', 'data'),
    prevent_initial_call=True)
@@ -65,7 +65,7 @@ def createWebpageCallback(n_clicks, data):
       now = datetime.now()
       currentTime = now.strftime("%H:%M:%S")
       modalOpen = False
-      modalContents = ""
+      modalBody = ""
       downloadHtmlButtonHidden = False
       downloadHtmlButtonClass = "enabledButton"
       if "audioFileName" in data.keys():
@@ -73,14 +73,14 @@ def createWebpageCallback(n_clicks, data):
          downloadZipButtonClass = "enabledButton"
    except BaseException as e:
       modalOpen = True
-      modalContents = html.Pre(get_exception_traceback_str(e))
+      modalBody = html.Pre(get_exception_traceback_str(e))
 
    results = [data,
               previewButtonHidden, previewButtonClass,
               downloadHtmlButtonHidden, downloadHtmlButtonClass,
               downloadZipButtonHidden, downloadZipButtonClass,
               loadTrackerDivChildren,
-              modalOpen, modalContents]
+              modalOpen, modalBody]
 
    return results
 #--------------------------------------------------------------------------------

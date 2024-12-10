@@ -44,7 +44,7 @@ def handleProjectNameInputChars(userEnteredString):
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalTitle', 'children', allow_duplicate=True),
-    Output('modalContents', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
     Input('projectTitleHelp', 'n_clicks'),
     prevent_initial_call=True
     )

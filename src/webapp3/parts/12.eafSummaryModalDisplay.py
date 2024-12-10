@@ -10,7 +10,7 @@ dashApp.layout.children.append(myDiv)
 
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
-    Output('modalContents', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
     Output('memoryStore', 'data', allow_duplicate=True),
     Input('eafChooser', 'value'),
     State('memoryStore', 'data'),
@@ -52,8 +52,8 @@ def summarizeEaf(eafFilename, data):
        return True, [tierTableDiv], data
     except BaseException as e:
        success = False
-       modalContents = get_exception_traceback_str(e)
-       return True, html.Pre(modalContents), data
+       modalBody = get_exception_traceback_str(e)
+       return True, html.Pre(modalBody), data
 
 
     

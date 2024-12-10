@@ -11,7 +11,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "2.6.1"
+appVersion = "3.0.0"
 versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -98,24 +98,71 @@ except AssertionError:
 # eafFiles.sort()
 # print("eaf count: %d" % len(eafFiles))
 #-------------------------------------------------------
-modalDiv = html.Div(
-    [dbc.Modal([
-         dbc.ModalHeader(
-            dbc.ModalTitle("SLEXIL Notification", id="modalTitle"),
-            close_button=True,
-            className="modal-title-custom"),
-         dbc.ModalBody("", id='modalContents', style={"fontSize": "24px"}),
-         #dbc.ModalFooter(
-         #   dbc.Button("Close", id="modalCloseButton", className="ms-auto", n_clicks=0))
-         ],
-         id="slexilModal",
-         centered=True,
-         is_open=False,
-         style={'font-size': '30px'},
-         size="xl",    # sm, lg, xl
-         fullscreen=False,
-         scrollable=True,
-         )])
+buttonDivStyle = {#"height": "100px",
+                  "width": "300px",
+                  #"background-color": "lightblue",
+                  #"display": "inline-block",
+                  "float": "right"}
+headerButtonStyle = {"display": "inline-block",
+                     "marginLeft": "200px",
+                     #"width": "200px",
+                     'font-size': '24px',
+                     'fontFamily': 'New York Times-Roman',
+                     'border': '1px solid black',
+                     'border-radius': '10px',
+                      }
+
+
+proceedButton = html.Button("Proceed", id="proceedButton",
+                            style=headerButtonStyle)
+
+continueButtonStyle = {"margin": "15px",
+                        "fontSize": "20px",
+                        "border": "1px solid gray",
+                        "borderRadius": "10px",
+                        "float": "right"}
+                        
+continueButton = html.Button("Continue...",
+                             id="modalDialogContinueButton",
+                             style=continueButtonStyle)
+
+modalTitle = dbc.ModalTitle("Slexil Notification", id="modalTitle")
+modalHeader = dbc.ModalHeader(children=[modalTitle,
+                                        html.Div(continueButton)],
+                              close_button=False
+                              )
+modalFooter = dbc.ModalFooter()
+modalBody = dbc.ModalBody(id='modalBody',
+                          children=html.Div("fubar"),
+                          style={"fontSize": "20px"})
+
+modal = dbc.Modal([modalHeader, modalBody, modalFooter],
+                   id="slexilModal",
+                   centered=True,
+                   is_open=False,
+                   keyboard=True,
+                   size="xl",
+                   scrollable=True)
+
+modalDiv = html.Div([modal])
+#    dbc.Modal([
+#         dbc.ModalHeader(
+#            children=[dbc.ModalTitle("SLEXIL Notification", id="modalTitle"),
+#                      html.Div([proceedButton], style=buttonDivStyle)],
+#            close_button=True,
+#            className="modal-title-custom"),
+#         dbc.ModalBody("", id='modalBody', style={"fontSize": "24px"}),
+#         #dbc.ModalFooter(
+#         #   dbc.Button("Close", id="modalCloseButton", className="ms-auto", n_clicks=0))
+#         ],
+#         id="slexilModal",
+#         centered=True,
+#         is_open=False,
+#         style={'font-size': '30px'},
+#         size="xl",    # sm, lg, xl
+#         fullscreen=False,
+#         scrollable=True,
+#         )])
 #-------------------------------------------------------
 loadTrackerDiv = html.Div(id="loadTrackerDiv")
 modalLoadSpinnerWatcher = dcc.Loading(id="modalLoadWatcher",
@@ -156,7 +203,8 @@ def getExceptionTracebackString(exc: Exception) -> str:
    return (file.getvalue().rstrip(), exceptionString)
 
 #--------------------------------------------------------------------------------
-def createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString):
+def createHtmlErrorReportWithEmailLink(globals, errorString,
+                                       errorStringHtml, traceBackString):
 
    sendTo = 'mailto:paul.thurmond.shannon@gmail.com'
    subject = '?subject=slexil bug report'
@@ -174,19 +222,21 @@ def createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString):
    body = "%s%s" % (bodyLeadIn, bodyTextCRLF)
    emailHref = '%s%s%s' % (sendTo, subject, body)
 
+   elDiv = html.Div(children=[errorStringHtml])
    el = html.Ul(id="list", children=[])
-   el.children.append(html.P(errorString))
-
+   
    for key in globals.keys():
        el.children.append(html.Li("%s: %s" % (key, globals[key])))
 
-   el.children.append(html.A(
+   elDiv.children.append(el)
+
+   elDiv.children.append(html.A(
       [html.H1('Email Slexil Bug Report to Paul Shannon')],
        title ='email_me',
        href=emailHref,
        target='_blank'))
 
-   return el
+   return elDiv
 
 #--------------------------------------------------------------------------------
 globals = dcc.Store(id="globals",
@@ -203,14 +253,12 @@ dashApp.layout = html.Div(id="mainDiv",
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalTitle', 'children', allow_duplicate=True),
-    Output('modalContents', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
     Input('examineStateButton', 'n_clicks'),
     State('globals', 'data'),
     prevent_initial_call=True
     )
 def displayStateAsList(n_clicks, globals):
-
-    print("display state!")
 
     dialogBoxOpen = True
     dialogBoxTitle = "State Variables"
@@ -222,14 +270,14 @@ def displayStateAsList(n_clicks, globals):
     for key in globals.keys():
        el.children.append(html.Li("%s: %s" % (key, globals[key])))
     dialogBoxChildren = el
-    return dialogBoxOpen, dialogBoxTitle, dialogBoxChildren
+    return (dialogBoxOpen, dialogBoxTitle, dialogBoxChildren)
     
 #--------------------------------------------------------------------------------
 # explain how media URLs work, how and why you might change them
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
-    Output('modalTitle', 'children', allow_duplicate=True),
-    Output('modalContents', 'children', allow_duplicate=True),
+    Output('modalTitle',  'children', allow_duplicate=True),
+    Output('modalBody',   'children', allow_duplicate=True),
     Input('explainMediaURLsButton', 'n_clicks'),
     State('globals', 'data'),
     prevent_initial_call=True
@@ -248,7 +296,7 @@ def explainMediaURLs(n_clicks, data):
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalTitle', 'children', allow_duplicate=True),
-    Output('modalContents', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
     Input('explainGlossingAbbreviationsButton', 'n_clicks'),
     State('globals', 'data'),
     prevent_initial_call=True
@@ -257,6 +305,16 @@ def explainMorphemeGlossFormat(n_clicks, data):
     el = html.Div(children=["Nothing yet ready on this topic."])
     return True, "Glossing Abbreviations", el
 #--------------------------------------------------------------------------------
+# dialog header "Continue..." button closes the dialog
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Input('modalDialogContinueButton', 'n_clicks'),
+    prevent_initial_call=True
+    )
+def closeModalDialog(n_clicks):
+    return False
+#--------------------------------------------------------------------------------
+
 #m4_include(20.setTitle.py)
 #--------------------------------------------------------------------------------
 def createProjectDirectory(projectName):
@@ -343,7 +401,7 @@ def saveProjectName_byButton(nClicks, projectTitle, globals, chooserStyle):
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalTitle', 'children', allow_duplicate=True),
-    Output('modalContents', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
     Input('projectTitleHelp', 'n_clicks'),
     prevent_initial_call=True
     )
@@ -472,7 +530,7 @@ dashApp.layout.children.append(mainTextLoaderDiv)
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
-                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('modalBody', 'children', allow_duplicate=True),
 
                   Input('mainTextUploader', 'contents'),
                   State('mainTextUploader', 'filename'),
@@ -481,60 +539,44 @@ dashApp.layout.children.append(mainTextLoaderDiv)
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUpload(contents, filename, date, buttonDivStyle, globals):
+def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
     projectTitle = globals['projectTitle']
     projectDirectory = os.path.join(PROJECTS_DIRECTORY, projectName)
     mainTextFilePath = os.path.join(projectDirectory, filename)
-    buttonDivStyle['display'] = 'inline-block'
+    analyzeButtonDivStyle['display'] = 'inline-block'
     globals['mainTextFilePath'] = mainTextFilePath
 
       # expected return values
     errorBoxOpen = False
     errorBoxChildren = None
     errorBoxTitle = None
-    buttonDivStyle['display'] = 'inline-block' # assume success
+    analyzeButtonDivStyle['display'] = 'inline-block' # assume success
     buttonLabel = "Assess %s file" % globals['fileType']
 
     try: 
         saveUploadedFile(contents, projectName, filename)
-
-        #    title = globals['projectTitle'] = projectTitle
-        #    yamlText = p.toYAML(projectTitle, projectName, projectName)
-        #    yamlFileName = os.path.join(projectDirectory, "%s.yaml" % projectName)
-        #    p.writeYAML(yamlText, yamlFileName)
-        #    globals['yamlFileName'] = yamlFileName
-        #    #pdb.set_trace()
-        #    tbl = p.getTierTable()
-        #    globals['tiers'] = list(tbl['TIER_ID'])
-        #    globals['time aligned'] = list(tbl['TIME_ALIGNABLE'])
-        #    globals['parent'] = list(tbl['PARENT_REF'])
-        #    globals['lineCount'] = list(tbl['LINES'])
-        #    print(p.getTierTable())
-        #    if fileType == "YAML":
-        #        globals['yamlFileName'] = mainTextFilePath
-
     except Exception as e:
        errorBoxOpen = True
        errorBoxTitle = "parse error"
        errorString = getExceptionTracebackString(e)
        errorBoxChildren = errorString
-       #errorBoxChildren = dbc.ModalBody(e.__str__())
-       buttonDivStyle['display'] = 'none'
+       analyzeButtonDivStyle['display'] = 'none'
        buttonLabel = "bug!"
-       return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+       return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
                errorBoxTitle, errorBoxChildren)
        
-    #pdb.set_trace()
-    return (buttonDivStyle, buttonLabel, globals, errorBoxOpen,
+    return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
             errorBoxTitle, errorBoxChildren)
-    #return globals, errorBoxOpen, errorBoxChildren
    
 #--------------------------------------------------------------------------------
 def saveUploadedFile(contents, projectName, filename):
 
+   print("saveUploadedFile: %s, %s" % (projectName, filename))
+   print("content length: %d" % len(contents))
+   
    data = contents.encode("utf8").split(b";base64,")[1]
    print("len(data) = %d" %len(data))
 
@@ -574,16 +616,18 @@ dashApp.layout.children.append(analyzeButtonDiv)
 @dashApp.callback(Output('globals',       'data',     allow_duplicate=True),
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
-                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('modalBody',     'children', allow_duplicate=True),
                   Output('createHtmlButtonDiv', 'style'),
+                  Output('analyzeButtonDiv', 'style', allow_duplicate=True),
 
                   [Input('analyzeButton', 'n_clicks')],
                   State('globals', 'data'),
                   State('createHtmlButtonDiv', 'style'),
+                  State('analyzeButtonDiv', 'style'),
                   prevent_initial_call=True)
-def analyze(n_clicks,  globals, createHtmlDivStyle):
+def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
 
-   print("--- analyze %s" % globals['mainTextFilename'])
+   #print("--- analyze %s" % globals['mainTextFilename'])
 
    errorBoxOpen = False
    errorBoxChildren = None
@@ -592,7 +636,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle):
 
    fileType = globals['fileType']
    mainTextFilePath = globals['mainTextFilePath']
-   print("%s has format %s" % (mainTextFilePath, fileType))
+   #print("%s has format %s" % (mainTextFilePath, fileType))
    mediaURL = "unknown"
    timeAlignedTierCount = 1 # only possibilit with current YAML format
    try:
@@ -633,23 +677,39 @@ def analyze(n_clicks,  globals, createHtmlDivStyle):
                                             html.P(formattedTable)])
       errorBoxTitle = "structure"
       createHtmlDivStyle['display'] = 'inline-block'
+      analyzeButtonDivStyle['display'] = 'inline-block'
       return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
-              createHtmlDivStyle)
+              createHtmlDivStyle, analyzeButtonDivStyle)
 
    except Exception as e:
       errorBoxOpen = True
       errorBoxTitle = "%s PARSING ERROR" % globals['fileType']
       (traceBackString, errorString) = getExceptionTracebackString(e)
-      errorStringHtml = html.P(errorString)
-      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
+      #print("  traceBackString: %s" % traceBackString)
+      #print("  errorString: %s" % errorString)
+      if type(errorString) is list:
+         errorString = errorString[0]
+         errorStrings = errorString.split('\n')
+         errorStringHtml = html.Ul(children=[])
+         for element in errorStrings:
+            if(len(element) > 0):
+               errorStringHtml.children.append(html.Li(element))
+      else:
+         errorStringHtml = html.P(errorString)
+      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals,
+                                                            errorString,
+                                                            errorStringHtml,
+                                                            traceBackString)
+      #htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
       #errorBoxChildren = errorString
       #pdb.set_trace()
       #errorBoxChildren = dbc.ModalBody(e.__str__())
       #buttonDivStyle['display'] = 'none'
       #buttonLabel = "bug!"
+      analyzeButtonDivStyle['display'] = 'none'
       return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
-              createHtmlDivStyle)
+              createHtmlDivStyle, analyzeButtonDivStyle)
 
 #--------------------------------------------------------------------------------
 
@@ -672,7 +732,7 @@ dashApp.layout.children.append(createHtmlButtonDiv)
 
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
-                  Output('modalContents', 'children', allow_duplicate=True),
+                  Output('modalBody', 'children', allow_duplicate=True),
 
                   [Input('createHtmlButton', 'n_clicks')],
                   State('downloadHtmlButtonDiv', 'style'),
@@ -704,10 +764,13 @@ def createHtml(n_clicks, downloadHtmlButtonDivStyle, globals):
                                         projectName, projectDirectory)
    except Exception as e:
       errorBoxOpen = True
-      errorBoxTitle = "Slexil ERROR! in createHTML function"
+      errorBoxTitle = "Slexil ERROR! in createHtml function"
       (traceBackString, errorString) = getExceptionTracebackString(e)
       errorStringHtml = html.P(errorString)
-      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
+      htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals,
+                                                            errorString,
+                                                            errorStringHtml,
+                                                            traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
       downloadHtmlButtonDivStyle['display'] = 'none'
       downloadHtmlButtonLabel = "" # ignored
