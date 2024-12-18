@@ -8,14 +8,15 @@ default:
 	@echo venv
 	@echo curl
 	@echo server
-	@echo yaml2html
+	@echo y2h
 	@echo eaf
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
-	@echo publish  # all
-	@echo publish-text  # just html and kb.js
+	@echo publish  # all text
+	@echo publish-audio # the wav file
 	@echo view
 	@echo viewRemote
+	@echo testyaml
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
@@ -26,7 +27,7 @@ valid:
 server:
 	python -m http.server 8008
 
-yaml2html:
+y2h:
 	python $(BASEDIR)/utils/yaml2html.py \
         --yaml grammar.yaml \
         --tierGuide tierGuide.yaml \
@@ -34,6 +35,18 @@ yaml2html:
         --pageTitle "Lushootseed Grammar" \
         --helpButtonLabel About \
         --helpFile about.html
+
+testyaml:
+	python $(BASEDIR)/utils/yaml2html.py \
+        --yaml test.yaml \
+        --kbFilename kb.js \
+        --pageTitle "Lushootseed Grammar Test" \
+        --helpButtonLabel About \
+        --helpFile about.html
+
+
+curl:
+	curlyhead https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
 
 eaf:
 	python ~/github/yamlToEAF/toEAF.py  $(PROJECT).yaml 
@@ -58,11 +71,10 @@ publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp *.jpg pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+
+publish-audio:
 	scp volume1.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
-publish-text:
-	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
-	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
 	#open http://localhost:8008/index.html#151
