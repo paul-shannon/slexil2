@@ -388,6 +388,9 @@ class Text:
             print(tg.valid())
          
       
+         tierNames = tg.getTierNames()
+         pdb.set_trace()
+         
          with htmlDoc.tag("div", id="tierControlsDiv"):
             with htmlDoc.tag("div"):            
                with htmlDoc.tag("span", id="tiersLabelDiv"):

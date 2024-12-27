@@ -1,7 +1,11 @@
 import argparse
 import os, sys
 import unittest
-from slexil.textFromYaml import TextFromYaml
+#from slexil.textFromYaml import TextFromYaml
+
+from slexil.yamlToText import YamlToText
+from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
+
 import yattag  # only for indent method
 import pdb
     
@@ -10,8 +14,8 @@ parser = argparse.ArgumentParser(prog='yaml2html.py',
           description='creates interactive webpage from eaf xml')
 
 parser.add_argument('--yaml', type=str, required=True)
-parser.add_argument('--tierGuide', type=str, required=True)
-parser.add_argument('--terms', type=str, required=False)
+parser.add_argument('--tierGuide', type=str, required=False)
+# parser.add_argument('--terms', type=str, required=False)
 parser.add_argument("--verbose", action="store_true")
 parser.add_argument("--helpFile", help="optional info for about box")
 parser.add_argument("--helpButtonLabel", help="optional button label")
@@ -30,7 +34,7 @@ args = parser.parse_args()
 print(args)
 yaml = args.yaml
 tierGuide = args.tierGuide
-terms = args.terms
+#grammaticalTerms = args.terms
 helpFile = args.helpFile
 helpButtonLabel = args.helpButtonLabel
 verbose = args.verbose
@@ -48,36 +52,55 @@ if(not os.path.isfile(yaml)):
     print("yaml2html.py error: yaml file '%s' not found" % yaml)
     sys.exit()
 
-if(not os.path.isfile(tierGuide)):
+if(tierGuide and not os.path.isfile(tierGuide)):
     print("yaml2html.py error: tierGuidefile '%s' not found" % tierGuide)
     sys.exit()
     
-if(terms and not os.path.isfile(terms)):
-    print("yaml2html.py error: grammaticalTerms file '%s' not found" % terms)
-    sys.exit()
+#if(grammaticalTerms and not os.path.isfile(grammaticalTerms)):
+#    print("yaml2html.py error: grammaticalTerms file '%s' not found" % grammaticalTerms)
+#    sys.exit()
     
 if(linguisticsFilename and not os.path.isfile(linguisticsFilename)):
     print("yaml2html.py error:  file '%s' not found" % linguisticsFilename)
     sys.exit()
     
 print("verbose? %s" % verbose)
+# pdb.set_trace()
 projectDirectory = "./"
+mga = MorphemeGlossAbbreviations()
 
-
-text = TextFromYaml(yaml, terms, tierGuide,
+text = YamlToText(yaml,
+                  grammaticalTerms=mga.getAll(),
                   projectDirectory=projectDirectory,
                   verbose = verbose,
-                  fontSizeControls = fontSizeControls,
-                  startLine = startLine,
-                  endLine = endLine,
+                  fontSizeControls = True,
+                  startLine = None,
+                  endLine = None,
                   pageTitle = pageTitle,
-                  helpFilename = helpFile,
-                  helpButtonLabel = helpButtonLabel,
+                  helpFilename = None,
+                  helpButtonLabel = None,
                   kbFilename = kbFilename,
                   linguisticsFilename = linguisticsFilename,
-                  fixOverlappingTimeSegments = fixOverlappingTimeSegments,
-                  webpackLinksOnly=webpackLinksOnly,
-                  useTooltips=useTooltips)
+                  fixOverlappingTimeSegments = False,
+                  webpackLinksOnly=False,
+                  useTooltips=False)
+
+
+
+# text = TextFromYaml(yaml, terms, tierGuide,
+#                   projectDirectory=projectDirectory,
+#                   verbose = verbose,
+#                   fontSizeControls = fontSizeControls,
+#                   startLine = startLine,
+#                   endLine = endLine,
+#                   pageTitle = pageTitle,
+#                   helpFilename = helpFile,
+#                   helpButtonLabel = helpButtonLabel,
+#                   kbFilename = kbFilename,
+#                   linguisticsFilename = linguisticsFilename,
+#                   fixOverlappingTimeSegments = fixOverlappingTimeSegments,
+#                   webpackLinksOnly=webpackLinksOnly,
+#                   useTooltips=useTooltips)
 
 
 # print(text.getTierSummary())

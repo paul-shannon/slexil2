@@ -36,7 +36,7 @@ def test_ctor():
 
     print("--- test_ctor")
 
-    yamlTextFile = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
+    yamlTextFile = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
     its = InferTierStructure(yamlTextFile)
     x = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
     lines = x['lines']
@@ -58,7 +58,7 @@ def test_infernoFirstLine():
 
     print("--- test_infernoFirstLine")
 
-    yamlTextFile = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
+    yamlTextFile = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
     its = InferTierStructure(yamlTextFile)
 
     fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
@@ -91,7 +91,7 @@ def test_toHTML_noAnalysisLines():
     
     print("--- test_toHTML_noAnalysisLines")
 
-    yamlTextFile = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
+    yamlTextFile = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
     its = InferTierStructure(yamlTextFile)
     fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
     lines = fullDoc['lines']
@@ -154,20 +154,36 @@ def test_toHTML_noAnalysisLines():
 #----------------------------------------------------------------------------------------------------
 def test_toHTML_withAnalysisLines():
     
+    from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
+
     print("--- test_toHTML_withAnalysisLines")
 
-    yamlTextFile = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    mga = MorphemeGlossAbbreviations()
+    #grammaticalTerms = mga.getAll()
+
+    yamlTextFile = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(yamlTextFile)
     fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
     lines = fullDoc['lines']
     tierGuide = its.getTierGuide()
 
-    line = TieredLine(lines, 0, tierGuide, grammaticalTerms=[],
+      # inferno line 1 (aka tier 2) has these morpheme glosses
+      # [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
+      # the leading I is (not) a grammatical gloss, but the actual first person
+      # singular pronoun.  So a good test here is that all of the capitalized
+      # terms are converted to lower case, tagged for class so they can be styled
+      # as sm-cap - which requires that they be lower case.  and that the
+      # I remains capitalized
+    line = TieredLine(lines, lineNumber=1,   # the second line
+                      tierNumber=1,
+                      tierGuide=its.getTierGuide(),
+                      grammaticalTerms=mga.getAll(),
                       useTooltips=False, verbose=True)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
 
+    pdb.set_trace()
     expected = '<div class="line-content" id="1"><div class="line"><span class="speech-tier">Nel mezzo del cammin di nostra vita</span></div><div class="generic-tier">nell metzo del kuh-mean dee nostruh veeta</div><div class="generic-tier">Midway upon the journey of our life</div><div class="morpheme-tier" style="grid-template-columns: 17ch 17ch 17ch 18ch 5ch 13ch 11ch ;"><div class="morpheme-cell">en=il</div><div class="morpheme-cell">mezz–o</div><div class="morpheme-cell">de=il</div><div class="morpheme-cell">cammin–Ø</div><div class="morpheme-cell">di</div><div class="morpheme-cell">nostr–a</div><div class="morpheme-cell">vit–a</div></div><div class="morpheme-tier" style="grid-template-columns: 17ch 17ch 17ch 18ch 5ch 13ch 11ch ;"><div class="morpheme-cell"><div class="morpheme-gloss">in=DEF:MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">middle-MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">of=DEF:MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">journey–MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">of</div></div><div class="morpheme-cell"><div class="morpheme-gloss">our-FEM:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">life-FEM</div></div></div><div class="annotationDiv"></div></div>'
     assert(html == expected)
 
@@ -175,9 +191,9 @@ def test_toHTML_withAnalysisLines():
 #----------------------------------------------------------------------------------------------------
 def runTests():
 
-   test_ctor()
-   test_infernoFirstLine()
-   test_toHTML_noAnalysisLines()
+   #test_ctor()
+   #test_infernoFirstLine()
+   #test_toHTML_noAnalysisLines()
    test_toHTML_withAnalysisLines()
    # test_toHTML_withHtmlLines()
    

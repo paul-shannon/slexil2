@@ -65,11 +65,14 @@ class GrammaticalTermFormatter:
 
      out = []
      for part in self.parts:
-        if part in self.grammaticalTerms:
+        partUpper = part.upper()  # grammatical terms stored in upper case
+        if partUpper in self.grammaticalTerms:
            expansion = "<span class='grammatical-term'>%s</span>" % part.lower()
            out.append(expansion)
         else:
            out.append(part)
+
+     # pdb.set_trace()
      return "".join(out)
 
 #     parts_noEmptyStrings = [part for part in parts if part != ""]

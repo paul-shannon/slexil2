@@ -1,4 +1,5 @@
 from slexil.yamlToText import YamlToText
+from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 
 
 createHtmlButtonDiv = html.Div(id="createHtmlButtonDiv",
@@ -79,8 +80,10 @@ def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
 #--------------------------------------------------------------------------------
 def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
+   mga = MorphemeGlossAbbreviations()
+
    text = YamlToText(yamlFile,
-                     grammaticalTerms=[],
+                     grammaticalTerms=mga.getAll(),
                      projectDirectory=projectDirectory,
                      verbose = False,
                      fontSizeControls = True,

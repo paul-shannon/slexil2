@@ -20,11 +20,10 @@ class InferTierStructure:
    #------------------------------------------------------------
    def __init__(self, yamlFilenameOrParsedLines, verbose=False):
 
-
       if(not isinstance(yamlFilenameOrParsedLines, list)):
-         if os.path.isfile(yamlFilenameOrParsedLines):
-            x = yaml.load(open(yamlFilenameOrParsedLines), Loader=yaml.FullLoader)
-            self.lines = x['lines']
+         assert(os.path.isfile(yamlFilenameOrParsedLines))
+         x = yaml.load(open(yamlFilenameOrParsedLines), Loader=yaml.FullLoader)
+         self.lines = x['lines']
       elif((isinstance(yamlFilenameOrParsedLines, list) and
             isinstance(yamlFilenameOrParsedLines[0], dict))):
          self.lines = yamlFilenameOrParsedLines

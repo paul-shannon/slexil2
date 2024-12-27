@@ -66,6 +66,7 @@ class YamlToText:
    startStopTable = None
    lineTables = None
    useTooltips = False
+   its = None  # short for inferTierStructure object
    showAnnotations = False  # when true, open that div, auto display
 
    def __init__(self,
@@ -87,10 +88,12 @@ class YamlToText:
                useTooltips=False,
                showAnnotations=False):
 
-      print("--- textFromYaml.py, ctor")
+      if verbose:
+         print("--- textFromYaml.py, ctor")
       self.yamlFile = yamlFile
       self.grammaticalTerms = grammaticalTerms
       its = InferTierStructure(self.yamlFile)
+      self.its = its
       x = yaml.load(open(self.yamlFile), Loader=yaml.FullLoader)
       self.lines = its.getAllLines()
       self.tierGuide = its.getTierGuide()
@@ -124,10 +127,9 @@ class YamlToText:
 
       self.lineCount = len(self.lines)
       if(self.lineCount == 0):
-         print("no lines found, disagreement between tierGuide and eaf? ")
-         print("perhaps case disagreement?")
-         print(self.tierGuide)
+         print("no lines found, exiting...")
          sys.exit(1)
+
       if(startLine != None):
          self.lineNumbers = range(startLine, endLine)
       else:
@@ -209,9 +211,10 @@ class YamlToText:
       elif(suffix in [".m4v", ".mov", ".mp4"]):
          self.mediaType = "video"
       else:  # todo: raise exception here
-         print("unrecognized media file suffix in url: %s" % suffix)
-         print("full url: %s" % url)
-         
+         msg = "unrecognized media file suffix in url: %s" % suffix
+         msg += "full url: %s" % url
+         raise Exception(msg)
+      
 
    #--------------------------------------------------------------------------------   
    def getPlayer(self):
@@ -364,99 +367,24 @@ class YamlToText:
                htmlDoc.stag("input",  type="range", min="0.2", max="4.0", value="1.4",
                             step="0.1", id="fontSizeSlider", name="fontSizeSlider")
 
-         #tg = TierGuide(self.tierGuideFile)
-         #if(not tg.valid()["valid"]):
-         #   print("--- text.py finds invalid tierGuide")
-         #   print(tg.valid())
-         
-      
-         #with htmlDoc.tag("div", id="tierControlsDiv"):
-         #   with htmlDoc.tag("div"):            
-         #      with htmlDoc.tag("span", id="tiersLabelDiv"):
-         #         htmlDoc.text("Visible Tiers: ")
-         #   #with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
-         #      with tag('form', action = ""):
+         tierNames = list(self.tierGuide.values())
 
-                # tierName = "transcription"
-                # htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                #              value=tierName, klass="tierToggleCheckbox",
-                #              id="tierToggle-%s" % tierName)
-                #htmlDoc.text(" %s" % tierName)
+         if(len(self.its.getHtmlLines()) > 0):
+            tierNames.append("html")
 
-                #if("translation" in tg.getTierNames()):
-                #  tierName = "translation"
-                #  htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                #                value=tierName, klass="tierToggleCheckbox",
-                #                id="tierToggle-%s" % tierName)
-                #  htmlDoc.text(" %s" % tierName)
-
-                # if("morpheme" in tg.getTierNames()):
-                #  tierName = "analysis"
-                #  htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                #                value=tierName, klass="tierToggleCheckbox",
-                #                id="tierToggle-%s" % tierName)
-                #  htmlDoc.text(" %s" % tierName)
-
-               
-
-   #-------------------------------------------------------------------------------
-   def oldCreateOtherControlsDiv(self, htmlDoc):
-
-          #-----------------
-          # playback speed 
-          #-----------------
-      with htmlDoc.tag("span", id="playbackSpeedLabel"):
-         htmlDoc.text("Playback speed ")
-      with htmlDoc.tag("form", action=""):
-         htmlDoc.stag("input",  type="range", min="0.25", max="2.0", value="1.0",
-                     step="0.25", id="speedSelector", name="speedSelector")
-         with htmlDoc.tag("div", id="playbackSpeedReadout"):
-            htmlDoc.text("1.0")
-      
-          #-----------------
-          # font size
-          #-----------------
-      with htmlDoc.tag("span", id="printSizeLabel"):
-         htmlDoc.text("Print Size ")
-      with htmlDoc.tag("form", action=""):
-         htmlDoc.stag("input",  type="range", min="0.2", max="4.0", value="1.4",
-					       step="0.1", id="fontSizeSlider", name="fontSizeSlider")
-
-          #-----------------
-          # tier visibility
-          #-----------------
-
-      tg = TierGuide(self.tierGuideFile)
-      if(not tg.valid()["valid"]):
-         print("--- text.py finds invalid tierGuide")
-         print(tg.valid())
-         sys.exit()
-         
-      
-      with htmlDoc.tag("div", id="tierControlsDiv"):
-         with htmlDoc.tag("span", id="tiersLabelDiv"):
-            htmlDoc.text("Visible Tiers: ")
-      with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
-         with tag('form', action = ""):
-            tierName = "transcription"
-            htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                          value=tierName, klass="tierToggleCheckbox",
-                          id="tierToggle-%s" % tierName)
-            htmlDoc.text(" %s" % tierName)
-
-            if("translation" in tg.getTierNames()):
-               tierName = "translation"
-               htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                             value=tierName, klass="tierToggleCheckbox",
-                             id="tierToggle-%s" % tierName)
-               htmlDoc.text(" %s" % tierName)
-
-            if("morpheme" in tg.getTierNames()):
-               tierName = "analysis"
-               htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
-                             value=tierName, klass="tierToggleCheckbox",
-                             id="tierToggle-%s" % tierName)
-               htmlDoc.text(" %s" % tierName)
+         # pdb.set_trace()
+         with htmlDoc.tag("div", id="tierControlsDiv"):
+            with htmlDoc.tag("div"):            
+               with htmlDoc.tag("span", id="tiersLabelDiv"):
+                  htmlDoc.text("Visible Tiers: ")
+            with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
+               with tag('form', action = ""):
+                  for tierName in tierNames:
+                     with htmlDoc.tag("div", style='display: inline-block'):
+                        htmlDoc.input(name=tierName, type = 'checkbox', checked=True,
+                                      value=tierName, klass="tierToggleCheckbox",
+                                      id="tierToggle-%s" % tierName)
+                        htmlDoc.text(" %s" % tierName)
 
    #-------------------------------------------------------------------------------
    def createTextDiv(self, htmlDoc):
@@ -471,8 +399,11 @@ class YamlToText:
                 print(line)
             keys = list(line.keys())
             if keys == ["html"]:
-                if self.verbose: print("---- found html")
-                htmlDoc.asis(line["html"])
+                if self.verbose:
+                   print("---- found html")
+                   print(line["html"])
+                with htmlDoc.tag("div", klass="tier tier-html", name="html"):
+                   htmlDoc.asis(line["html"])
             else: # (isinstance(line, dict)):
                tierNumber += 1
                if self.verbose:
@@ -483,8 +414,6 @@ class YamlToText:
                                        useTooltips=False, verbose=self.verbose)
     
                analysisTierNames = tieredLine.getAnalysisTierNames()
-               #if(len(analysisTierNames) == 2):
-               #   tieredLine.calculateMorphemeSpacing()
                start = tieredLine.getStartTime()
                end = tieredLine.getEndTime()
                timeCodesForLine = [start,end]
@@ -497,7 +426,6 @@ class YamlToText:
                      s = f"<!-- sidebarHookLine_{i+1} -->"
                      htmlDoc.asis(s)
                   tieredLine.toHTML(htmlDoc)
-               # tieredLineCount = tieredLineCount + 1
 
 #-------------------------------------------------------------------------------
 def getLinguisticsTopics(filename, verbose):
@@ -537,43 +465,9 @@ def addVideoSizeSlider(htmlDoc):
                  id="videoSizeSelector")
 
 #-------------------------------------------------------------------------------
-def addTierVisibilityControls(htmlDoc):
-
-   with htmlDoc.tag('div', id="tierControlsDiv"):
-      #with htmlDoc.tag("button", id="showHideTiersButton",
-      #                 klass="btn btn-outline-dark"):
-      #  htmlDoc.text('Show/Hide Tiers...')
-      with htmlDoc.tag('div', id='tierControlsSubDiv'):
-         with htmlDoc.tag('div', id="tiersLabelDiv"):
-            htmlDoc.asis("Tiers: ")
-         with htmlDoc.tag('div', id="tiersCheckBoxesDiv"):
-            with htmlDoc.tag('form', action = ""):
-               with htmlDoc.tag('div'):
-                  for tier in ('speech', 'morphemes', 'translation'):
-                     id = "%s-toggle" % tier
-                     htmlDoc.input(name=id, klass="tierToggleCheckbox", id=id,
-                                     type='checkbox', value=tier, checked=True)
-                     htmlDoc.asis(tier)
-
-#----------------------------------------------------------------------------------------------------        
-def addTierVisibilityControls_v1(htmlDoc):
-
-   with htmlDoc.tag('div', id="tierControlsDiv"):
-      with htmlDoc.tag('form', action = ""):
-         with htmlDoc.tag('div'):
-            with htmlDoc.tag('p'):
-               htmlDoc.asis("Tier visibility:")
-               for tier in ('speech', 'morphemes', 'morpheme glosses', 'translation'):
-                  with htmlDoc.tag('div'):
-                     id = "%s-toggle" % tier
-                     htmlDoc.input(name=id, klass="tierToggleCheckbox", id=id,
-                                   type='checkbox', value=tier)
-                     htmlDoc.asis(tier)
-
-#----------------------------------------------------------------------------------------------------        
 def addFontSizeControls(htmlDoc):
 
-   print("--- addFontSizeControls new klass")
+   # print("--- addFontSizeControls new klass")
    with htmlDoc.tag("div", id="fontSizeControlsDiv", klass="sliderControlDiv"):
       with htmlDoc.tag("label", id="playbackSpeedLabel"):
          htmlDoc.asis("Playback Speed &nbsp;")
@@ -592,7 +486,7 @@ def addFontSizeControls(htmlDoc):
 #---------------------------------------------------------------
 def addAnnotationControls(htmlDoc, linguisticsTopics):
 
-   print("--- addAnnottionControls")
+   # print("--- addAnnottionControls")
    with htmlDoc.tag("div", id="annoButtonsDiv", klass="row"):
       with htmlDoc.tag("div", klass="col-8 text-left"):
          with htmlDoc.tag("button", id="toggleAnnotationsButton",

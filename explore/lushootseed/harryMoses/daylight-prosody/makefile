@@ -9,6 +9,7 @@ default:
 	@echo  html
 	@echo  y2h    # yaml2html
 	@echo  publish
+	@echo  publish-audio
 	@echo  viewRemote
 
 venv:
@@ -24,11 +25,11 @@ http:
 
 y2h:
 	python $(BASEDIR)/utils/yaml2html.py \
-        --yaml howDaylightWasStolen.yaml \
+        --yaml daylight.yaml \
         --tierGuide tierGuide.yaml \
         --kbFilename kb.js \
         --linguistics linguisticTerms.js \
-        --pageTitle "Lushootseed Grammar" \
+        --pageTitle "Harry Moses - How Daylight Was Stolen" \
         --helpButtonLabel About \
         --helpFile about.html
 
@@ -70,6 +71,8 @@ publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+
+publish-audio:
 	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 
 

@@ -24,13 +24,10 @@ david.beck at ualberta.ca.
 import pandas as pd
 pd.set_option('display.max_columns', None)
 from xml.etree import ElementTree as etree
-# from morphemeGloss import *
 from pprint import pprint
 from yattag import *
 import pdb
 import formatting
-#from translationLine import *
-#from slexil.standardizeIjalTierTable import StandardizeIjalTierTable
 from slexil.inferTierStructure import InferTierStructure
 from slexil.grammaticalTermFormatter import GrammaticalTermFormatter
 
@@ -138,161 +135,6 @@ class TieredLine:
         pprint(vars(self))
 
     # ----------------------------------------------------------------------------------------------------
-#    def getTranslation(self):
-#
-#        canonicalTierName = "translation"
-#        if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-#           return(None)
-#        rowNumbers = self.tbl.index
-#        whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-#        rowNumber = rowNumbers[whichRowNumber]
-#        rawTranslation = self.tbl.iloc[rowNumber]["text"]
-#        if(rawTranslation == None):
-#           return("")
-#        if(len(rawTranslation) == 0):
-#           return("")
-#        translationLine = TranslationLine(rawTranslation)
-#        return (translationLine.getStandardized())
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def getTranslation2(self):
-#
-#        canonicalTierName = "translation2"
-#        if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-#           return(None)
-#        row = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-#        rawTranslation = self.tbl.iloc[row]["text"]
-#        translationLine = TranslationLine(rawTranslation)
-#        return (translationLine.getStandardized())
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def getSoundsLike(self):
-#
-#        canonicalTierName = "soundsLike"
-#        if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-#           return(None)
-#        rowNumbers = self.tbl.index
-#        whichRowNumber = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-#        rowNumber = rowNumbers[whichRowNumber]
-#        rawText = self.tbl.iloc[rowNumber]["text"]
-#        if(rawText == None):
-#           return("")
-#        if(len(rawText) == 0):
-#           return("")
-#        return ("<i>%s</i>" % rawText)
-#    
-#    # ----------------------------------------------------------------------------------------------------
-#        # may be separated by spaces or tabs, tabs preferred 
-#    def extractMorphemes(self):
-#
-#        canonicalTierName = "morpheme"
-#        if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-#           #if(self.verbose):
-#           #   print("=== found no tier named '%s'" % canonicalTierName)
-#           return(None)
-#        morphemeRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-#
-#        #pdb.set_trace()
-#        #rawMorphemeText = self.tbl.iloc[morphemeRow, "text"]
-#        rawMorphemeText = self.tbl.iloc[morphemeRow]["text"]
-#        self.morphemes = []
-#        if(rawMorphemeText):
-#           if "\t" in rawMorphemeText:
-#               rawMorphemeList = rawMorphemeText.split('\t')
-#           elif " " in rawMorphemeText:
-#               rawMorphemeList = rawMorphemeText.split(' ')
-#           else:  # neither tab nor space separators
-#               rawMorphemeList = rawMorphemeText
-#           self.morphemes = replaceHyphensWithNDashes(rawMorphemeList)
-#        return (self.morphemes)
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def extractMorphemeGlosses(self):
-#
-#        canonicalTierName = "morphemeGloss"
-#        if(not canonicalTierName in self.tbl["canonicalTier"].tolist()):
-#           #if(self.verbose):
-#           #   print("=== found no tier named '%s'" % canonicalTierName)
-#           return(None)
-#        morphemeGlossRow = self.tbl["canonicalTier"].tolist().index(canonicalTierName)
-#
-#        rawMorphemeGlossText = self.tbl.iloc[morphemeGlossRow]["text"]
-#        self.morphemeGlosses = []
-#        if(rawMorphemeGlossText):
-#           if "\t" in rawMorphemeGlossText:
-#               rawMorphemeGlossList = rawMorphemeGlossText.split('\t')
-#           elif (" " in rawMorphemeGlossText):
-#               rawMorphemeGlossList = rawMorphemeGlossText.split(' ')
-#           else:  # neither space nor tab separators found
-#               rawMorphemeGlossList = rawMorphemeGlossText
-#           self.morphemeGlosses = replaceHyphensWithNDashes(rawMorphemeGlossList)
-#        return (self.morphemeGlosses)
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def getMorphemes(self):
-#
-#        return (self.morphemes)
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def getGrammaticalTerms(self):
-#
-#        return(self.grammaticalTerms)
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def getMorphemeGlosses(self):
-#
-#        return (self.morphemeGlosses)
-#
-#    # ----------------------------------------------------------------------------------------------------
-#    def oldCalculateMorphemeSpacing(self):
-#
-#        """
-#         the spacing is used to create a morphemeSpacingStyleString, specifying grid cell widths which
-#         accomodate the widest of each morpheme/gloss pair, so that they each member of
-#         each pair is vertically aligned:
-#             m1        m2        ----m3-----
-#             g1     ---g2---         g3
-#        """
-#        morphemes = self.getMorphemes()
-#        glosses = self.getMorphemeGlosses()
-#        if(morphemes == None):
-#           self.morphemeSpacing == None
-#           return
-#        self.morphemeSpacing = []
-#        if(glosses):
-#           if (len(morphemes) > len(glosses)):
-#               #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
-#               theDifference = len(morphemes) - len(glosses)
-#               for i in range(0, theDifference):
-#                   glosses.append("⚠️")
-#           elif (len(morphemes) < len(glosses)):
-#               #logging.warning("EAF error - There are more glosses (%d) than morphs (%d) in line %s." % (len(glosses), len(morphemes), int(self.lineNumber) + 1))
-#               theDifference = len(glosses) - len(morphemes)
-#               for i in range(0, theDifference):
-#                   morphemes.append("⚠️")
-#
-#
-#        for i in range(len(morphemes)):
-#            if "<su" in morphemes[i]:
-#                newmorph = morphemes[i].replace("<sub>", "")
-#                newmorph = newmorph.replace("</sub>", "")
-#                newmorph = newmorph.replace("<sup>", "")
-#                newmorph = newmorph.replace("</sup>", "")
-#                morphemeSize = len(newmorph)
-#            else:
-#                morphemeSize = len(morphemes[i])
-#            glossSize = 0
-#            if(glosses):
-#               if "<su" in glosses[i]:
-#                  newGloss = glosses[i].replace("<sub>", "")
-#                  newGloss = newGloss.replace("</sub>", "")
-#                  newGloss = newGloss.replace("<sup>", "")
-#                  newGloss = newGloss.replace("</sup>", "")
-#                  glossSize = len(newGloss)
-#               else:
-#                  glossSize = len(glosses[i])
-#            self.morphemeSpacing.append(max(morphemeSize, glossSize) + 3)
-#
     # ----------------------------------------------------------------------------------------------------
     def calculateMorphemeSpacing(self, morphemes, glosses):
 
@@ -369,14 +211,18 @@ class TieredLine:
     # ----------------------------------------------------------------------------------------------------
     def toHTML(self, htmlDoc):
 
-        with htmlDoc.tag("div", klass="line-content", id=self.lineNumber):
+        gMap = self.getGenericTierNameMap()
+        aMap = self.getAnalysisTierNameMap()
+        tierGuide = self.getTierGuide()
+
+           # the first tier is assumed to be the speech tier
+        userTierName = tierGuide['speech']
+        
+        with htmlDoc.tag("div", klass="line-content", id=self.tierNumber):
             with htmlDoc.tag("div", klass="line"):
-                with htmlDoc.tag("span", klass="speech-tier"):
+                with htmlDoc.tag("span", klass="tier speech-tier", name=userTierName):
                     htmlDoc.asis(self.getSpokenText())
 
-            gMap = self.getGenericTierNameMap()
-            aMap = self.getAnalysisTierNameMap()
-            
             if self.verbose:
                 print("  create html for %d standard tiers" % len(gMap))
                 print("  create html for %d analysis tiers" % len(aMap))
@@ -384,59 +230,57 @@ class TieredLine:
             tierMap = self.getTierMap()
 
             if len(aMap) == 2:  # not the only, but the expected common case
-               analysisTierNames = list(self.getAnalysisTierNameMap().values())
+               analysisTierNameMap = self.getAnalysisTierNameMap()
+               analysisTierNames = list(analysisTierNameMap.values())
                   # does this specific line have analysis tiers?
                if (analysisTierNames[0] in (list(self.line.keys())) and
                    analysisTierNames[1] in (list(self.line.keys()))):
-                  self.addAnalysisTiers(htmlDoc, analysisTierNames)
+                  self.addAnalysisTiers(htmlDoc, analysisTierNameMap)
 
             for userTierName in list(self.getGenericTierNameMap().values()):
                if(userTierName in self.line.keys()):
                   if self.verbose:
                       print("--- generic tier with user name: %s" % userTierName)
-                  className = "generic-tier"
+                  className = "tier generic-tier"
                   if userTierName == "soundsLike":
                      soundsLikeText = self.line[userTierName]
                      if soundsLikeText is None:
                         continue
-                     className = "soundsLike-tier"
-                  with htmlDoc.tag("div", klass=className):
+                     className = "tier soundsLike-tier"
+                  with htmlDoc.tag("div", klass=className, name=userTierName):
                      htmlDoc.asis(self.line[userTierName])
 
-#            translation = self.getTranslation()
-#            if translation:
-#               with htmlDoc.tag("div", klass="freeTranslation-tier"):
-#                   htmlDoc.asis(translation)
-#
-#            translation2 = self.getTranslation2()
-#            if translation2 != None:
-#               with htmlDoc.tag("div", klass="freeTranslation-tier"):
-#                   htmlDoc.text(translation2)
                # add a div to hold annotations
             with htmlDoc.tag("div", klass="annotationDiv"):
                 pass#;
 
 
      #------------------------------------------------------------------------------------------------------------------------
-    def addAnalysisTiers(self, htmlDoc, analysisTierNames):
+    def addAnalysisTiers(self, htmlDoc, analysisTierNameMap):
      
+       analysisTierNames = list(analysisTierNameMap.values())
+
        morphemes = self.line[analysisTierNames[0]]
        morphemeGlosses = self.line[analysisTierNames[1]]
        self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
-    
+
        morphemeSpacingStyleString = ""
        if (morphemes):
           if(len(morphemes) > 0):
              morphemeSpacingStyleString = \
                "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
-          with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+          with htmlDoc.tag("div", klass="tier morpheme-tier",
+                           style=morphemeSpacingStyleString,
+                           name=analysisTierNames[0]):
              for morpheme in morphemes:
                 with htmlDoc.tag("div", klass="morpheme-cell"):
                     htmlDoc.asis(morpheme)
     
        if (morphemes and morphemeGlosses):
           if(len(morphemeGlosses) > 0):
-             with htmlDoc.tag("div", klass="morpheme-tier", style=morphemeSpacingStyleString):
+             with htmlDoc.tag("div", klass="tier morpheme-tier",
+                              style=morphemeSpacingStyleString,
+                              name=analysisTierNames[1]):
                 for morphemeGloss in morphemeGlosses:
                     with htmlDoc.tag("div", klass="morpheme-cell"):
                        mg = GrammaticalTermFormatter(morphemeGloss,

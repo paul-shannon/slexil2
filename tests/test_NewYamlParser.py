@@ -16,7 +16,7 @@ def test_ctor():
 
     print("--- test_ctor")
 
-    f = "../testData/validYamlFiles/inferno.yaml"
+    f = "../testData/validEafYamlFiles/inferno.yaml"
     yp = NewYamlParser(f)
 
 #----------------------------------------------------------------------------------------------------
@@ -24,7 +24,7 @@ def test_mediaGetters():
 
     print("--- test_mediaGetters: inferno audio")
 
-    f = "../testData/validYamlFiles/inferno.yaml"
+    f = "../testData/validEafYamlFiles/inferno.yaml"
     yp = NewYamlParser(f)
 
     expected = "https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav"
@@ -35,7 +35,7 @@ def test_mediaGetters():
     
     print("--- test_mediaGetters: tlingit video")
 
-    f = "../testData/validYamlFiles/tlingitVan-2lines.yaml"
+    f = "../testData/validEafYamlFiles/tlingitVan-2lines.yaml"
     yp = NewYamlParser(f)
 
     expected = "https://slexildata.artsrn.ualberta.ca/tlingit/83VanRescue.m4v"
@@ -50,8 +50,8 @@ def test_getTierGuide():
 
    print("--- test_getTierGuide")
 
-   f = "../testData/validYamlFiles/inferno.yaml"
-   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
+   ftg = "../testData/validEafYamlFiles/infernoTierGuide.yaml"
    yp = NewYamlParser(f, ftg)
    info = yp.getTierGuide()
    keys = list(info.keys())
@@ -64,7 +64,7 @@ def test_getTieredLineObject():
 
    print("--- test_getTieredLineObject")
 
-   f = "../testData/validYamlFiles/inferno.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
    yp = NewYamlParser(f)
    lineNumber = 2
    tierNumber = 2
@@ -82,7 +82,7 @@ def test_getHtmlLine():
  
   print("--- test_getHtmlLine")
 
-  f = "../testData/validYamlFiles/inferno.yaml"
+  f = "../testData/validEafYamlFiles/inferno.yaml"
   yp = NewYamlParser(f)
   content = yp.getHtmlLine(0)
   assert(content == '<h3> Read by Roberto Begnini</h3> taken from youtube')
@@ -92,13 +92,13 @@ def test_getTierTable():
 
    print("--- test_getTierTable")
 
-   f = "../testData/validYamlFiles/inferno.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
    yp = NewYamlParser(f)
    tbl = yp.getTierTable()
    assert(tbl.shape == (7, 2))
    assert(list(tbl.columns) == ['Field', 'Lines'])
 
-   f = "../testData/validYamlFiles/4EthelAnita230503Slexil.yaml"
+   f = "../testData/validEafYamlFiles/4EthelAnita230503Slexil.yaml"
    yp = NewYamlParser(f)
    tbl = yp.getTierTable()
    assert(tbl.shape == (6,2))
@@ -111,7 +111,7 @@ def test_getTimeTable():
 
    print("--- test_getTimeTable")
 
-   f = "../testData/validYamlFiles/inferno.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
    yp = NewYamlParser(f)
 
    tbl = yp.getTimeTable()
@@ -123,7 +123,7 @@ def test_getTimeTable():
 def test_lineDictToTable():
 
    print("--- test_lineDictToTable")
-   f = "../testData/validYamlFiles/inferno.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
    yp = NewYamlParser(f)
    yp.parseAndSortAllLines()
    assert(len(yp.getAllLines()) == 9)
@@ -137,8 +137,8 @@ def test_getAllLines():
 
    print("--- test_getAllLines")
 
-   f = "../testData/validYamlFiles/inferno.yaml"
-   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
+   ftg = "../testData/validEafYamlFiles/infernoTierGuide.yaml"
    yp = NewYamlParser(f, ftg)
    yp.parseAndSortAllLines()
    pl = yp.getAllLines()
@@ -172,8 +172,8 @@ def test_run():
 
    print("--- test_run")
 
-   f = "../testData/validYamlFiles/inferno.yaml"
-   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   f = "../testData/validEafYamlFiles/inferno.yaml"
+   ftg = "../testData/validEafYamlFiles/infernoTierGuide.yaml"
    yp = NewYamlParser(f, ftg)
    yp.run()
     

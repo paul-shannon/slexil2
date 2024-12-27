@@ -37,8 +37,8 @@ mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
 
 dashApp.layout.children.append(mainTextLoaderDiv)
 #--------------------------------------------------------------------------------
-@dashApp.callback(#Output('createHtmlButtonDiv', 'style'),
-                  #Output('createHtmlButton', 'children'),
+@dashApp.callback(Output('createHtmlButtonDiv', 'style', allow_duplicate=True),
+                  Output('downloadHtmlButtonDiv', 'style', allow_duplicate=True),
                   Output('analyzeButtonDiv', 'style'),
                   Output('analyzeButton', 'children'),    
                   Output('globals', 'data', allow_duplicate=True),
@@ -51,10 +51,15 @@ dashApp.layout.children.append(mainTextLoaderDiv)
                   State('mainTextUploader', 'filename'),
                   State('mainTextUploader', 'last_modified'),
                   State('analyzeButtonDiv', 'style'),
+                  State('createHtmlButtonDiv', 'style'),
+                  State('downloadHtmlButtonDiv', 'style'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, globals):
+def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle,
+                         createHtmlButtonDivStyle,
+                         downloadHtmlButtonDivStyle,
+                         globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
@@ -68,6 +73,8 @@ def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, global
     errorBoxOpen = False
     errorBoxChildren = None
     errorBoxTitle = None
+    createHtmlButtonDivStyle['display'] = 'none'      # always hide this
+    downloadHtmlButtonDivStyle['display'] = 'none'    # always hide this
     analyzeButtonDivStyle['display'] = 'inline-block' # assume success
     buttonLabel = "Assess %s file" % globals['fileType']
 
@@ -80,11 +87,23 @@ def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, global
        errorBoxChildren = errorString
        analyzeButtonDivStyle['display'] = 'none'
        buttonLabel = "bug!"
-       return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
-               errorBoxTitle, errorBoxChildren)
+       return (createHtmlButtonDivStyle,
+               downloadHtmlButtonDivStyle,
+               analyzeButtonDivStyle,
+               buttonLabel,
+               globals,
+               errorBoxOpen,
+               errorBoxTitle,
+               errorBoxChildren)
        
-    return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
-            errorBoxTitle, errorBoxChildren)
+    return (createHtmlButtonDivStyle,
+            downloadHtmlButtonDivStyle,
+            analyzeButtonDivStyle,
+            buttonLabel,
+            globals,
+            errorBoxOpen,
+            errorBoxTitle,
+            errorBoxChildren)
    
 #--------------------------------------------------------------------------------
 def saveUploadedFile(contents, projectName, filename):

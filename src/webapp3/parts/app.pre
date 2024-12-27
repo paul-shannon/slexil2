@@ -11,7 +11,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "3.0.0"
+appVersion = "3.0.1"
 versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -245,8 +245,8 @@ dashApp.layout = html.Div(id="mainDiv",
                           children=[globals,
                                     html.Div(id="bannerDiv", 
                                              children=createDropdownMenu()),
-                                    loadTrackerDiv,
-                                    modalLoadSpinnerWatcher],
+                                    loadTrackerDiv],
+                                    #modalLoadSpinnerWatcher],
                             style={"margin": "5px"})
 #----------------------------------------------------------------------
 # navbar button displays state in a modal dialog
@@ -325,6 +325,9 @@ m4_include(22c.loadMainTextFile.py)
 m4_include(assessUploadedFile.py)
 m4_include(makeHtml.py)
 m4_include(downloadHtml.py)
+
+dashApp.layout.children.append(modalLoadSpinnerWatcher)
+
 #m4_include(28.loadAbbreviations.py)
 #m4_include(26.loadAudio.py)
 #m4_include(createWebPage.py)

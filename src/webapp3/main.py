@@ -11,7 +11,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "3.0.0"
+appVersion = "3.0.1"
 versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -245,8 +245,8 @@ dashApp.layout = html.Div(id="mainDiv",
                           children=[globals,
                                     html.Div(id="bannerDiv", 
                                              children=createDropdownMenu()),
-                                    loadTrackerDiv,
-                                    modalLoadSpinnerWatcher],
+                                    loadTrackerDiv],
+                                    #modalLoadSpinnerWatcher],
                             style={"margin": "5px"})
 #----------------------------------------------------------------------
 # navbar button displays state in a modal dialog
@@ -522,8 +522,8 @@ mainTextLoaderDiv = html.Div(id="mainTextLoaderDiv",
 
 dashApp.layout.children.append(mainTextLoaderDiv)
 #--------------------------------------------------------------------------------
-@dashApp.callback(#Output('createHtmlButtonDiv', 'style'),
-                  #Output('createHtmlButton', 'children'),
+@dashApp.callback(Output('createHtmlButtonDiv', 'style', allow_duplicate=True),
+                  Output('downloadHtmlButtonDiv', 'style', allow_duplicate=True),
                   Output('analyzeButtonDiv', 'style'),
                   Output('analyzeButton', 'children'),    
                   Output('globals', 'data', allow_duplicate=True),
@@ -536,10 +536,15 @@ dashApp.layout.children.append(mainTextLoaderDiv)
                   State('mainTextUploader', 'filename'),
                   State('mainTextUploader', 'last_modified'),
                   State('analyzeButtonDiv', 'style'),
+                  State('createHtmlButtonDiv', 'style'),
+                  State('downloadHtmlButtonDiv', 'style'),
                   State('globals', 'data'),
                   prevent_initial_call=True)
 
-def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, globals):
+def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle,
+                         createHtmlButtonDivStyle,
+                         downloadHtmlButtonDivStyle,
+                         globals):
 
     globals['mainTextFilename'] = filename
     projectName = globals['projectName']
@@ -553,6 +558,8 @@ def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, global
     errorBoxOpen = False
     errorBoxChildren = None
     errorBoxTitle = None
+    createHtmlButtonDivStyle['display'] = 'none'      # always hide this
+    downloadHtmlButtonDivStyle['display'] = 'none'    # always hide this
     analyzeButtonDivStyle['display'] = 'inline-block' # assume success
     buttonLabel = "Assess %s file" % globals['fileType']
 
@@ -565,11 +572,23 @@ def handleMainTextUpload(contents, filename, date, analyzeButtonDivStyle, global
        errorBoxChildren = errorString
        analyzeButtonDivStyle['display'] = 'none'
        buttonLabel = "bug!"
-       return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
-               errorBoxTitle, errorBoxChildren)
+       return (createHtmlButtonDivStyle,
+               downloadHtmlButtonDivStyle,
+               analyzeButtonDivStyle,
+               buttonLabel,
+               globals,
+               errorBoxOpen,
+               errorBoxTitle,
+               errorBoxChildren)
        
-    return (analyzeButtonDivStyle, buttonLabel, globals, errorBoxOpen,
-            errorBoxTitle, errorBoxChildren)
+    return (createHtmlButtonDivStyle,
+            downloadHtmlButtonDivStyle,
+            analyzeButtonDivStyle,
+            buttonLabel,
+            globals,
+            errorBoxOpen,
+            errorBoxTitle,
+            errorBoxChildren)
    
 #--------------------------------------------------------------------------------
 def saveUploadedFile(contents, projectName, filename):
@@ -617,7 +636,7 @@ dashApp.layout.children.append(analyzeButtonDiv)
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
                   Output('modalBody',     'children', allow_duplicate=True),
-                  Output('createHtmlButtonDiv', 'style'),
+                  Output('createHtmlButtonDiv', 'style', allow_duplicate=True),
                   Output('analyzeButtonDiv', 'style', allow_duplicate=True),
 
                   [Input('analyzeButton', 'n_clicks')],
@@ -675,7 +694,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
                                             html.P("time-aligned tier count: %d" %
                                                    timeAlignedTierCount),
                                             html.P(formattedTable)])
-      errorBoxTitle = "structure"
+      errorBoxTitle = "Valid Structure"
       createHtmlDivStyle['display'] = 'inline-block'
       analyzeButtonDivStyle['display'] = 'inline-block'
       return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
@@ -714,6 +733,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
 #--------------------------------------------------------------------------------
 
 from slexil.yamlToText import YamlToText
+from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 
 
 createHtmlButtonDiv = html.Div(id="createHtmlButtonDiv",
@@ -794,8 +814,10 @@ def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
 #--------------------------------------------------------------------------------
 def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
+   mga = MorphemeGlossAbbreviations()
+
    text = YamlToText(yamlFile,
-                     grammaticalTerms=[],
+                     grammaticalTerms=mga.getAll(),
                      projectDirectory=projectDirectory,
                      verbose = False,
                      fontSizeControls = True,
@@ -841,6 +863,9 @@ def downloadHtml(n_clicks, globals):
                             "%s.html" % globals['projectName'])
     return dcc.send_file(filename)
 
+
+
+dashApp.layout.children.append(modalLoadSpinnerWatcher)
 
 #m4_include(28.loadAbbreviations.py)
 #m4_include(26.loadAudio.py)

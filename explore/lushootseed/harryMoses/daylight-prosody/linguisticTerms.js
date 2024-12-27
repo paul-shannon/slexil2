@@ -1,4 +1,45 @@
 linguistics = {
+"Aspect and Mood":
+`
+In grammar, __mood__ refers to the speaker's attitude or intention
+towards an action, indicating whether a statement is factual, a wish,
+a command, or a possibility, while __aspect__ describes how an action
+unfolds over time, whether it is ongoing, completed, or habitual;
+
+Mood is thus about the speaker's perspective on reality, while
+aspect is about the duration or state of an action.
+
+`,     
+
+"Aspect and Tense":
+`
+Tense and aspect are both grammatical tools used to organize discourse, but they have different functions: 
+
+Tense indicates when an event occurs, such as in the past, present, or
+future. Tense is conveyed by verb forms. For example, the verb fell
+indicates that an event happened in the past.
+
+Aspect describes the internal structure of an event, such as how it
+extends in time or how it's viewed. Aspect allows the speaker to
+interpret and express how they view the events being described. For
+example, the progressive aspect describes an event that's ongoing or
+incomplete.
+
+Here are some examples of aspects and how they're used: 
+
+  - Simple, also called the "indefinite" aspect, this aspect only indicates that an action is factual. For example, "Lila painted" is a simple aspect in the past tense.
+  - Progressive, also called the continuous aspect, this aspect describes an ongoing or incomplete action. For example, "Lila was painting" is a progressive aspect in the past tense.
+
+  - Perfect, used for completed or self-contained actions. For
+    example, "Lila had painted" is a perfect aspect in the past tense.
+
+In English, each of the three main tenses (past, present, and future)
+can take four main aspects (simple, perfect, continuous, and perfect
+continuous).
+
+`,
+
+    
 "STAT":
 `
 STAT: stative, constant, non-dynamic, unchanging throughout its duration
@@ -519,7 +560,44 @@ at best.
 
 "SS":
     `
-secondary suffix
+**secondary suffix**
+
+From David's <a href="https://sites.ualberta.ca/~dbeck/valency.pdf"
+                target="_blank">Taxonomy of Lushootseed Valency-Incresing Affixes</a>:
+
+Secondary suffixes are affixes that combine with another
+valency-increaser, usually -t ‘internal causative’, to form a
+morphological complex that adds a direct object expressing some
+semantic role other than PATIENT. In total, Hess & Bates (2004) list
+four secondary suffixes — __-yi-__, __-bi-__, __-di-__, and __-i-__.
+
+Of these, only __-yi-__ and __-bi-__ appear to be productive and can
+be associated with unique and fairly consistent meanings; the other
+two appear to be confined to a few fossilized forms and to have
+meanings that overlap with those of the more productive secondary
+suffixes.
+
+**Applicative Affixes**
+
+__applicative__: promotes an oblique argument of a verb to the core
+object argument. It is generally considered a valency-increasing
+morpheme. The applicative is often found in agglutinative languages.
+
+__oblique__: aka prepositional (non-core) arguments of the verb
+
+In contrast to causative affixes, applicatives add a non-agentive
+object to the valency of their bases. Lushootseed has four affixes
+that fit this definition:
+- the allative applicative -c/-s
+- three secondary suffixes
+    - -yi- ‘dative’
+    - -bi- ‘middle applicative’
+    - -di-/-i- ‘secondary suffix’—
+   which combine with one of the other valency-increasers to add a
+   new object to the valency of the stem
+
+- **allative**: 
+- **dative**: 
 `,
 
 "ICS":

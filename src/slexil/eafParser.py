@@ -201,11 +201,13 @@ class EafParser:
         url = el.attrib["MEDIA_URL"]
         path = urlparse(el.attrib["MEDIA_URL"]).path
         urlSuffix = os.path.splitext(path)[1].lower()
+
         if(urlSuffix in videoExtensions):
            self.videoURL = url
            self.videoMimeType = el.attrib["MIME_TYPE"]
            self.mediaURL = self.videoURL
            self.mediaMimeType = self.videoMimeType
+           break;   # video preferred over audio if both are present
         else:
            self.audioURL = url
            self.audioMimeType = el.attrib["MIME_TYPE"]

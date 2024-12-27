@@ -22,7 +22,7 @@ dashApp.layout.children.append(analyzeButtonDiv)
                   Output('slexilModal',   'is_open',  allow_duplicate=True),
                   Output('modalTitle',    'children', allow_duplicate=True),
                   Output('modalBody',     'children', allow_duplicate=True),
-                  Output('createHtmlButtonDiv', 'style'),
+                  Output('createHtmlButtonDiv', 'style', allow_duplicate=True),
                   Output('analyzeButtonDiv', 'style', allow_duplicate=True),
 
                   [Input('analyzeButton', 'n_clicks')],

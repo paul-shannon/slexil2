@@ -543,20 +543,6 @@ secondary suffix (SS) _bi_ and the internal causative (ICS) _-d_
 
 - _ɬu_: anticipated, expected or possible event  LD 147
 - _qadaʔ_: steal, LD 172.
-     -  _ʔuqáda tiʔəʔ luƛ' ʔə tə sʔuladxʷ_: The old man stole the salmon.
-     - _bəqada tiʔəʔ bəščəb_:  Mink stole again (agent-oriented verb)
-     - _bəqadadidəxʷ ʔə tiʔəʔ səsq'ʷəlb ʔə til luƛ' ʔə tiʔəʔ sʔuladxʷ tiʔiɬ bəščəb_: as was typical, Mink stole the salmon 
-        which the old fellow was roasting. (Martha Lamont)
-     - _qáda čəxʷ ʔu ʔə tə sdùukʷ_:     Did you steal the knife?
-     - _qádadid_:                   steal from someone    
-     - _qádaditəb_:     have something stolen by someone    
-     - _qádadyid_:
-     - _qádadyitəb_:
-     - _dxʷsqáda_: thief
-     - _ƛ'áʔdəxʷ tiʔiɬ suqáda ʔə ti pástəd_: Now he noticed that the Caucasian was stealing.      
-     - _diɬ əwʼə tiʔəʔ cədiɬ gəduʔ tiʔəʔ ʔuqadaʔilbəx..._  it was that guy who had been stealing their food. 
-     - _xʷúʔələʔ ƛ'ub čəd bəqádadid ʔə tiʔíɬ səsqʼʷ..._  I guess I should steal from him what he is roasting
-     - _ʔəxʷsqádadicəb_: He wants to steal it from me.      
 - _-bi-_: secondary derivational suffix. LD 39.  compare _-i_.
      - _-i-_: secondary stem extender; allows transitive _-d_ forms to be derived
        from roots which normally lack a patient. LD 114
@@ -578,15 +564,52 @@ secondary suffix (SS) _bi_ and the internal causative (ICS) _-d_
      - _-d_ before -əb and other suffixes. LD 76
      - compare _-txʷ_, make someone do something (causitive transitive suffix
        creating patient-oriented verb stems].
+- _qadaʔ_: steal, LD 172, other forms:
+     -  _ʔuqáda tiʔəʔ luƛ' ʔə tə sʔuladxʷ_: The old man stole the salmon.
+     - _bəqada tiʔəʔ bəščəb_:  Mink stole again (agent-oriented verb)
+     - _bəqadadidəxʷ ʔə tiʔəʔ səsq'ʷəlb ʔə til luƛ' ʔə tiʔəʔ sʔuladxʷ tiʔiɬ bəščəb_: as was typical, Mink stole the salmon 
+        which the old fellow was roasting. (Martha Lamont)
+     - _qáda čəxʷ ʔu ʔə tə sdùukʷ_:     Did you steal the knife?
+     - _qádadid_:                   steal from someone    
+     - _qádaditəb_:     have something stolen by someone    
+     - _qádadyid_:
+     - _qádadyitəb_:
+     - _dxʷsqáda_: thief
+     - _ƛ'áʔdəxʷ tiʔiɬ suqáda ʔə ti pástəd_: Now he noticed that the Caucasian was stealing.      
+     - _diɬ əwʼə tiʔəʔ cədiɬ gəduʔ tiʔəʔ ʔuqadaʔilbəx..._  it was that guy who had been stealing their food. 
+     - _xʷúʔələʔ ƛ'ub čəd bəqádadid ʔə tiʔíɬ səsqʼʷ..._  I guess I should steal from him what he is roasting
+     - _ʔəxʷsqádadicəb_: He wants to steal it from me.      
+
+
 `,
 
-"ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc":
+"ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc":
 `
-_ɬuqadabid čəɬ ʔal kʷi dəxʷʔacəc_
+_ɬuqadabid čəɬ ʔal kʷi ɬudəxʷʔacəc_
     
 Beck and Hess (2015) transcribe _ɬudəxʷʔacəc_.  I do not hear the irrealis prefix,
-and finding a similar expression in line 17, along with not grasping the need for
-future tense, I omit it here.
+and finding a similar expression (_dəxʷʔacəc_) in line 17, perhaps the _ɬu_ is
+in error.  Recall the role of the irrealis aspect, understood as
+
+    Expressing unreality, non-factuality, extreme unlikelihood,
+    potentiality, etc. Grammatical moods that indicate that a certain
+    situation or action is not known to have happened at the moment
+    the speaker is talking. Contrast realis mood, indicating that
+    something is a matter of fact.
+
+And that:
+
+    In grammar, "mood" refers to the speaker's attitude or intention
+    towards an action, indicating whether a statement is factual, a
+    wish, a command, or a possibility, while "aspect" describes how an
+    action unfolds over time, whether it is ongoing, completed, or
+    habitual; essentially, mood is about the speaker's perspective on
+    reality, while aspect is about the duration or state of an action.
+
+
+The Lushootseed Dictionary states simply:
+
+__ɬu__: anticipated, expected or possible event; future
 
 I do not detect here an explicit direct object, so figure that the
 direct object is the implicit _tiʔəʔ sləx̌il_ from the preceeding line.

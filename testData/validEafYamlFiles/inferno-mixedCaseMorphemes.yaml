@@ -1,0 +1,34 @@
+title: Dante's Inferno
+narrator: Roberto Benigni
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    startTime: 0
+    endTime: 2828
+    italianSpeech: Nel mezzo del cammin di nostra vita
+    soundsLike: nell metzo del kuh-mean dee nostruh veeta
+    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
+    morpheme-gloss: [in=def:MASC:sg,middle-MASC:SG,of=def:MASC:SG,journey–MASC:sg,of,our-fem:SG,life-FEM]
+    english: Midway upon the journey of our life
+
+  - lineNumber: 2
+    startTime: 3095
+    endTime: 5500
+    italianSpeech: mi ritrovai per una selva oscura
+    soundsLike: me ritrovie per oona selva oscura
+    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
+    morpheme-gloss: [I:dat,found–1SG:indef:REM:past,for,INDEF:fem:SG,forest-FEM,dark–FEM:sg]
+    english: I found myself within a forest dark
+
+  - lineNumber: 3
+    startTime: 5624
+    endTime: 8033
+    italianSpeech: ché la diritta via era smarrita.
+    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
+    morpheme-gloss: [that,def:FEM:sg,straight-fem:SG,path-FEM,be:3sg:impf,lose–partic–FEM:sg]
+    english: For the straightforward pathway had been lost.
+    speaker: Roberto Benigni
+

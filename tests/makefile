@@ -24,6 +24,7 @@ default:
 	@echo tieredLine
 	@echo practiceLists
 	@echo eafyaml
+	@echo morphemeGlossAbbreviations  [mga]
 
 practiceLists:
 	python test_PracticeLists.py 
@@ -140,3 +141,7 @@ eafyaml:
 grammaticalTermFormatter:
 	python test_grammaticalTermFormatter.py
 
+mga: morphemeGlossAbbreviations
+
+morphemeGlossAbbreviations:
+	python test_morphemeGlossAbbreviations.py

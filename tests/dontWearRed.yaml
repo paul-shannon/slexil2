@@ -1,0 +1,47 @@
+title: title
+narrator: speaker
+textEntry: transcriber
+mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/Don_tWearRed.MOV
+mimeType: video/quicktime
+
+lines:
+  - lineNumber: 1
+    startTime: 1070
+    endTime: 3318
+    utterance: |
+         Go xitr'itodał tux,
+    translation: |
+         When we're going to go (for berries)
+
+  - lineNumber: 2
+    startTime: 7070
+    endTime: 12047
+    utterance: |
+         sitoʼ, «Dithiqirz ndliyuxliyo'.»
+    translation: |
+         My father, "Red"
+
+  - lineNumber: 3
+    startTime: 13129
+    endTime: 15169
+    utterance: |
+         dina iłne tsʼi xiyan'.
+    translation: |
+         he told us only.
+
+  - lineNumber: 4
+    startTime: 15610
+    endTime: 19300
+    utterance: |
+         Ngo getiy viginalnek xiy in iy.
+    translation: |
+         Well it (bear) really likes it (red).
+
+  - lineNumber: 5
+    startTime: 19450
+    endTime: 21368
+    utterance: |
+         (di)na iłne.
+    translation: |
+         he told us.
+

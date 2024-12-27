@@ -3,6 +3,7 @@ NAME = owlLivesThere
 default:
 	@echo targets:
 	@echo  venv 
+	@evho  y2h
 	@echo  eaf
 	@echo  html
 	@echo  view
@@ -28,6 +29,12 @@ html:
 
 
 
+y2h:
+	python ~/github/slexil2/utils/yaml2html.py \
+        --yaml owlLivesThere.yaml \
+        --pageTitle "Martha Lamont - Owl Lives There" \
+        --helpButtonLabel About \
+        --helpFile about.html
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/marthaLamont/owlLivesThere/

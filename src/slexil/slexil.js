@@ -224,6 +224,15 @@ $(document).ready(function(){
          }
        }, 300);
 
+      // assign hide/show (aka toggle) function to each of the checkboxes.
+      // each checkbox's name is matched to a tier 'name' attribute
+    $(".tierToggleCheckbox").on('click', function(){
+        tierName = this['name']
+        console.log("checkbox toggle of tier named '" + tierName + "'");
+        query = ".tier[name='" + tierName + "']"
+        $(query).toggle()
+        })
+    /***********
     $("#tierToggle-transcription").on('click', function() {
         console.log("transcription toggled")
         $(".speech-tier").toggle(this.checked)
@@ -238,6 +247,7 @@ $(document).ready(function(){
         console.log("analysis toggled")
         $(".morpheme-tier").toggle(this.checked)
         })
+    ************/
 
     /**************
     function checkPlaybackTime(){
