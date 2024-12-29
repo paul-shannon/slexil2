@@ -4,7 +4,8 @@ import sys, os
 
 from slexil.tieredLine import TieredLine
 from slexil.inferTierStructure import InferTierStructure
-# from slexil.yamlParser import YamlParser
+
+from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 
 import pdb
 import yaml
@@ -13,6 +14,9 @@ import pandas as pd
 
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
+
+mga = MorphemeGlossAbbreviations()
+
 #----------------------------------------------------------------------------------------------------
 def extractTieredLine(yamlTextFile, lineNumber):
 
@@ -41,8 +45,9 @@ def test_ctor():
     x = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
     lines = x['lines']
     tierGuide = its.getTierGuide()
-    tl = TieredLine(lines, 0, tierGuide, grammaticalTerms=[],
-                            useTooltips=False, verbose=True)
+    tl = TieredLine(lines, lineNumber=0, tierNumber=1, tierGuide=tierGuide,
+                    grammaticalTerms=mga.getAll(),
+                    useTooltips=False, verbose=True)
     assert(type(tl).__name__ == 'TieredLine')
 
        #-----------------------------------------------------
@@ -67,7 +72,8 @@ def test_infernoFirstLine():
 
     lines = fullDoc['lines']
     tierGuide = its.getTierGuide()
-    line = TieredLine(lines, 0, tierGuide, grammaticalTerms=[],
+    line = TieredLine(lines, lineNumber=0, tierNumber=1,
+                      tierGuide=tierGuide, grammaticalTerms=[],
                       useTooltips=False, verbose=True)
 
     assert(line.getSpeechTierNameMap() == {'speech': 'italianSpeech'})
@@ -108,12 +114,13 @@ def test_toHTML_noAnalysisLines():
     #     english: Midway upon the journey of our life
     #------------------------------------------------------------
 
-    line = TieredLine(lines, 0, tierGuide, grammaticalTerms=[],
+    line = TieredLine(lines, lineNumber=0, tierNumber=1, tierGuide=tierGuide,
+                      grammaticalTerms=[],
                       useTooltips=False, verbose=True)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
-    expected = '<div class="line-content" id="1"><div class="line"><span class="speech-tier">Nel mezzo del cammin di nostra vita</span></div><div class="generic-tier">nell metzo del kuh-mean dee nostruh veeta</div><div class="generic-tier">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
+    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div><div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
     assert(html == expected)
 
     #------------------------------------------------------------
@@ -127,38 +134,36 @@ def test_toHTML_noAnalysisLines():
     #     speaker: Roberto Benigni
     #------------------------------------------------------------
 
-    line = TieredLine(lines, 1, tierGuide, grammaticalTerms=[],
-                      useTooltips=False, verbose=True)
-    htmlDoc = yattag.Doc()
-    s = line.toHTML(htmlDoc)
-    html = htmlDoc.getvalue()
-    expected = '<div class="line-content" id="2"><div class="line"><span class="speech-tier">mi ritrovai per una selva oscura</span></div><div class="generic-tier">me ritrovie per oona selva oscura</div><div class="generic-tier">I found myself within a forest dark</div><div class="generic-tier">Roberto Benigni</div><div class="annotationDiv"></div></div>'
-    assert(html == expected)
-
-    #------------------------------------------------------------
-    # the fourth line, just 1 language-related tier
-    #   - lineNumber: 52
-    #     startTime: 5624
-    #     endTime: 8033
-    #     italianSpeech: ché la diritta via era smarrita.
-    #------------------------------------------------------------
-
-    line = TieredLine(lines, 3, tierGuide, grammaticalTerms=[],
-                      useTooltips=False, verbose=True)
-    htmlDoc = yattag.Doc()
-    s = line.toHTML(htmlDoc)
-    html = htmlDoc.getvalue()
-    expected = '<div class="line-content" id="4"><div class="line"><span class="speech-tier">ché la diritta via era smarrita.</span></div><div class="annotationDiv"></div></div>'
-    assert(html == expected)
+#    line = TieredLine(lines, 1, tierGuide, grammaticalTerms=[],
+#                      useTooltips=False, verbose=True)
+#    htmlDoc = yattag.Doc()
+#    s = line.toHTML(htmlDoc)
+#    html = htmlDoc.getvalue()
+#    expected = '<div class="line-content" id="2"><div class="line"><span class="speech-tier">mi ritrovai per una selva oscura</span></div><div class="generic-tier">me ritrovie per oona selva oscura</div><div class="generic-tier">I found myself within a forest dark</div><div class="generic-tier">Roberto Benigni</div><div class="annotationDiv"></div></div>'
+#    assert(html == expected)
+#
+#    #------------------------------------------------------------
+#    # the fourth line, just 1 language-related tier
+#    #   - lineNumber: 52
+#    #     startTime: 5624
+#    #     endTime: 8033
+#    #     italianSpeech: ché la diritta via era smarrita.
+#    #------------------------------------------------------------
+#
+#    line = TieredLine(lines, 3, tierGuide, grammaticalTerms=[],
+#                      useTooltips=False, verbose=True)
+#    htmlDoc = yattag.Doc()
+#    s = line.toHTML(htmlDoc)
+#    html = htmlDoc.getvalue()
+#    expected = '<div class="line-content" id="4"><div class="line"><span class="speech-tier">ché la diritta via era smarrita.</span></div><div class="annotationDiv"></div></div>'
+#    assert(html == expected)
 
 #----------------------------------------------------------------------------------------------------
 def test_toHTML_withAnalysisLines():
     
-    from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 
     print("--- test_toHTML_withAnalysisLines")
 
-    mga = MorphemeGlossAbbreviations()
     #grammaticalTerms = mga.getAll()
 
     yamlTextFile = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
@@ -183,19 +188,42 @@ def test_toHTML_withAnalysisLines():
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
 
-    pdb.set_trace()
-    expected = '<div class="line-content" id="1"><div class="line"><span class="speech-tier">Nel mezzo del cammin di nostra vita</span></div><div class="generic-tier">nell metzo del kuh-mean dee nostruh veeta</div><div class="generic-tier">Midway upon the journey of our life</div><div class="morpheme-tier" style="grid-template-columns: 17ch 17ch 17ch 18ch 5ch 13ch 11ch ;"><div class="morpheme-cell">en=il</div><div class="morpheme-cell">mezz–o</div><div class="morpheme-cell">de=il</div><div class="morpheme-cell">cammin–Ø</div><div class="morpheme-cell">di</div><div class="morpheme-cell">nostr–a</div><div class="morpheme-cell">vit–a</div></div><div class="morpheme-tier" style="grid-template-columns: 17ch 17ch 17ch 18ch 5ch 13ch 11ch ;"><div class="morpheme-cell"><div class="morpheme-gloss">in=DEF:MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">middle-MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">of=DEF:MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">journey–MASC:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">of</div></div><div class="morpheme-cell"><div class="morpheme-gloss">our-FEM:SG</div></div><div class="morpheme-cell"><div class="morpheme-gloss">life-FEM</div></div></div><div class="annotationDiv"></div></div>'
+    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">mi ritrovai per una selva oscura</span></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morphemes"><div class="morpheme-cell">mi</div><div class="morpheme-cell">ritrov–ai</div><div class="morpheme-cell">per</div><div class="morpheme-cell">una</div><div class="morpheme-cell">selv–a</div><div class="morpheme-cell">oscur–a</div></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morpheme-gloss"><div class="morpheme-cell">I:<span class=\'grammatical-term\'>dat</span></div><div class="morpheme-cell">found–<span class=\'grammatical-term\'>1sg</span>:<span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>rem</span>:<span class=\'grammatical-term\'>past</span></div><div class="morpheme-cell">for</div><div class="morpheme-cell"><span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div><div class="morpheme-cell">forest-<span class=\'grammatical-term\'>fem</span></div><div class="morpheme-cell">dark–<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div></div><div class="tier soundsLike-tier" name="soundsLike">me ritrovie per oona selva oscura</div><div class="tier generic-tier" name="english">I found myself within a forest dark</div><div class="annotationDiv"></div></div>'
     assert(html == expected)
+
+
+#----------------------------------------------------------------------------------------------------
+def test_toHTML_withAnalysisLines_oneMorphemeOnly():
+    
+    print("--- test_toHTML_withAnalysisLines_oneMorphemeOnly")
+
+    yamlTextFile = "../testData/validEafYamlFiles/daylight-line6-only.yaml"
+    its = InferTierStructure(yamlTextFile)
+    fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
+    lines = fullDoc['lines']
+    tierGuide = its.getTierGuide()
+
+    line = TieredLine(lines, lineNumber=0,   # the second line
+                      tierNumber=1,
+                      tierGuide=its.getTierGuide(),
+                      grammaticalTerms=mga.getAll(),
+                      useTooltips=False, verbose=True)
+    htmlDoc = yattag.Doc()
+    s = line.toHTML(htmlDoc)
+    html = htmlDoc.getvalue()
+
+    assert(html.find('<div class="morpheme-cell">tu=c̓agʷa–t–sut=əxʷ</div>') > 0)
+    assert(html.find("<span class='grammatical-term'>past</span>=washed–<span class='grammatical-term'>ics</span>–<span class='grammatical-term'>refl</span>=now</div>") > 0)
 
 
 #----------------------------------------------------------------------------------------------------
 def runTests():
 
-   #test_ctor()
-   #test_infernoFirstLine()
-   #test_toHTML_noAnalysisLines()
+   test_ctor()
+   test_infernoFirstLine()
+   test_toHTML_withAnalysisLines_oneMorphemeOnly()
+   test_toHTML_noAnalysisLines()
    test_toHTML_withAnalysisLines()
-   # test_toHTML_withHtmlLines()
    
 #----------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

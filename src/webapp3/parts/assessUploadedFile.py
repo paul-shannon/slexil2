@@ -43,7 +43,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
    mainTextFilePath = globals['mainTextFilePath']
    #print("%s has format %s" % (mainTextFilePath, fileType))
    mediaURL = "unknown"
-   timeAlignedTierCount = 1 # only possibilit with current YAML format
+   timeAlignedTierCount = 1 # only possibility with current YAML format
    try:
       if fileType == "EAF":
          p = EafParser(mainTextFilePath, verbose=True,

@@ -178,6 +178,42 @@ def test_run():
    yp.run()
     
 #----------------------------------------------------------------------------------------------------
+# some eaf files include yaml special characters.  we want to ignore them, not interpret them.
+# Alice Taff's annotation style for Tlingit poses the problem in 4EthelAnita230503Slexil.eaf:
+#
+#  84: translation: Ask her: "What is this?"
+# 234: translation: {Their} their artwork that is right here.
+# 253: translation: "tʼukanéiyi" is a
+# 271: utterance: "But I learned, I donʼt know where I learned "kay," you know, instead of "okay." I used to say, "kay." And they used to get so mad at me."
+# 311: translation: [name],
+# 415: translation: [name] Yes.
+# 
+# we solve this by using the | character and a newline when writing out yaml text, forcing the line's value
+# to be a single uninterpreted string.
+#
+#  - lineNumber: 1
+#    startTime: 0
+#    endTime: 2828
+#    italianSpeech: |
+#         Nel mezzo del cammin di nostra vita
+#    morphemes: |
+#         [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
+#    morpheme-gloss: |
+#         [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
+#    english: |
+#         Midway upon the journey of our life
+#
+# But this creates a problem with analysis lines, morphemes and morphemeGlosses, lines like
+#  [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
+# when we quote that, using the general strategy, we lose the array, that value ends up in html
+# as "[en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]"
+#
+# 
+def test_escapedBrackets():
+
+    print("--- test_escapedBrackets")
+
+#--------------------------------------------------------------------------------
 def runTests():
 
 

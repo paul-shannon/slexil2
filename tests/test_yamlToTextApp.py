@@ -104,6 +104,43 @@ def test_harryMosesDaylight():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+def test_harryMosesDaylight_full():
+
+   print("--- test_harryMosesDaylight_full")
+
+   f = "/Users/paul/github/slexil2/testData/validEafYamlFiles/daylight-bug.yaml"
+
+   text = YamlToText(f,
+                     grammaticalTerms = mga.getAll(),
+                     projectDirectory="tmp",
+                     verbose = False,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "Harry Moses - How Daylight Was Stolen",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = "/Users/paul/github/slexil2/explore/lushootseed/harryMoses/daylight-prosody/kb.js",
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+
+
+   # print(text.getTierSummary())
+   htmlText = text.toHTML()
+   #htmlText_indented = yattag.indent(htmlText)
+
+   # 3 lines of speech, one jquery pattern
+
+   filename = "daylight-full.html"
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   #f.write(bytes(htmlText_indented, "utf-8"))
+   f.close()
+   print("    wrote %s" % f.name)
+
+#--------------------------------------------------------------------------------
 def test_lushootseedGrammar():
 
    print("--- test_lushootseedGrammar")
@@ -251,6 +288,7 @@ def test_marthaLamontOwl():
 #--------------------------------------------------------------------------------
 def runTests():
 
+   test_harryMosesDaylight_full()
    test_marthaLamontOwl()
 
    test_infernoSimple()

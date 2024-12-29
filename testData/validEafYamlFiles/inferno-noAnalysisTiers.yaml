@@ -5,7 +5,6 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
 mimeType: audio/x-wav
 
 lines:
-  - html: "<div style='margin: 30px'><h5>From Roberto Benigni's Reading </h5></div>"
 
   - lineNumber: 1
     startTime: 0
@@ -28,8 +27,6 @@ lines:
     italianSpeech: ché la diritta via era smarrita.
     english: For the straightforward pathway had been lost.
     speaker: Roberto Benigni
-
-  - html: "<div style='margin: 50px'>(note that next line has only one tier, the Italian speech.)</div>"
 
   - lineNumber: 52
     startTime: 5624

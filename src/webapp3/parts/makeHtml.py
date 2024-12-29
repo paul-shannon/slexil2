@@ -71,16 +71,18 @@ def createHtml(n_clicks, downloadHtmlButtonDivStyle, globals):
            
         
 #--------------------------------------------------------------------------------
-def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
-
-   yamlFileName = globals['yamlFileName']
-   htmlFileName = createHtmlFromYaml(yamlFileName, title, projectName, projectDirectory)
-   return htmlFilename
-
+#def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
+#
+#   yamlFileName = globals['yamlFileName']
+#   htmlFileName = createHtmlFromYaml(yamlFileName, title, projectName, projectDirectory)
+#   return htmlFilename
+#
 #--------------------------------------------------------------------------------
 def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
    mga = MorphemeGlossAbbreviations()
+
+   print("--- makeHtml.py: createHtmlFromYaml")
 
    text = YamlToText(yamlFile,
                      grammaticalTerms=mga.getAll(),
@@ -104,3 +106,4 @@ def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
        file.write(htmlText)
    return htmlFileName
 
+#--------------------------------------------------------------------------------

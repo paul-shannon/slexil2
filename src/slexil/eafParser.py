@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 from lxml import etree
 import yaml
 import pandas as pd
+import numpy as np
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', None)
 import pdb
@@ -22,6 +23,7 @@ class EafParser:
    timeTable = None
    lineTable = None
    linesAll = list()
+   tiersWithTabs = None
    verbose = False
    metadata = None
    audioURL = None
@@ -37,6 +39,7 @@ class EafParser:
       self.xmlValid()
       self.verbose = verbose
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
+      self.tiersWithTabs = list()
 
       if(verbose):
          print("EafParser etree parse")
@@ -61,12 +64,11 @@ class EafParser:
       self.constructRichTierTable()
 
       if(verbose):
-         print("EafParser leaving constructor")
-
-      if(verbose):
          print("EafParser.run, constructing time table")
       self.constructTimeTable()
 
+      if(verbose):
+         print("EafParser leaving constructor")
 
    #----------------------------------------------------------------------------------
    def run(self):
@@ -483,7 +485,8 @@ class EafParser:
                           "endTime": endTime,
                           "tierID": tierID,
                           "tierType": tierType,
-                          "text": contents}, index=[0])
+                          "text": contents,
+                          "tabCount": 0}, index=[0])
       
       childIDs = self.depthFirstTierTraversal(parentID)
         # the rich tierTables add extra information to the historically
@@ -515,8 +518,6 @@ class EafParser:
       keepers = []
       [keepers.extend(ids) for ids in richTierTableTrimmed['ids']]
       
-      #pdb.set_trace()
-      #print("--- creating tbl in eafParser.py, getLineTable()")
       for childID in childIDs:
          if not childID in keepers:
              continue
@@ -529,12 +530,19 @@ class EafParser:
          if("ANNOTATION_REF" in child.attrib):
             parentID = child.attrib["ANNOTATION_REF"]
          childContents = child.find("ANNOTATION_VALUE").text
+         tabCount = 0
+         if childContents:
+            tabCount = childContents.count("\t")
+            if(tabCount > 0):
+               self.tiersWithTabs.append(tierID)
+               self.tiersWithTabs = list(set(self.tiersWithTabs))
          nextRow = tbl.shape[0]
          tbl.loc[nextRow] = {"id": childID,
-                        "parent": parentID,
-                        "tierType": tierType,
-                        "tierID": tierID,
-                        "text": childContents}
+                             "parent": parentID,
+                             "tierType": tierType,
+                             "tierID": tierID,
+                             "text": childContents,
+                             "tabCount": tabCount}
 
       self.lineTable = tbl
       return(tbl)
@@ -544,19 +552,16 @@ class EafParser:
 
       self.linesAll = list()
 
-      #pdb.set_trace()
-      print("--- in eafParser.py, parseAndSortAllLines()")
-      
-      for i in range(self.getLineCount()):
-         self.linesAll.append(self.getLineTable(i+1))
 
+      for i in range(self.getLineCount()):
+         tbl = self.getLineTable(i+1)
+         self.linesAll.append(tbl)
          # do in-place sort of self.linesAll, using startTime
          # of the time aligned tier in each line 
       def sortFunction(tbl):
          return(tbl.loc[0].startTime)
 
       self.linesAll.sort(reverse=False, key=sortFunction)
-
       
    #----------------------------------------------------------------------------------
    def lineToYAML(self, tbl, lineNumber):
@@ -568,23 +573,26 @@ class EafParser:
       textOut.append("    endTime: %d"  % tbl.loc[0]['endTime'])
 
         # first tier (first row) is presumed to be time-aligned, the
-        # spoken text.  quote it, so that charcters (like curly brace),
-        # yaml reserved, are not interpreted.
-
+        # spoken text.  quote it, with pipe character, so that characters
+        # (like curly brace, question mark, square bracket), reserved by yaml,
+        # are left uninterpreted.
+        #
       for row in range(0, rowCount):
-         #if lineNumber == 62:
-         #    pdb.set_trace()
          tierName = tbl.loc[row]['tierID']
          rawText = tbl.loc[row]['text']
          if rawText == None:
             continue
          rawText = rawText.replace("\n", " ")
          tabsFound = rawText.find("\t") > 0
-         if tabsFound:
+         # if tabsFound:
+         if tierName in self.tiersWithTabs:
             text = str(rawText.split("\t"))
+            text = text.replace(": ", ":")
             text = text.replace("'", "")
             text = text.replace(" ", "")
-            textOut.append("    %s: |\n         %s" % (tierName, text))
+            text = text.replace("?", "ʔ")
+            textOut.append("    %s: %s" % (tierName, text))
+            #textOut.append("    %s: |\n         %s" % (tierName, text))
          else:
             textOut.append("    %s: |\n         %s" % (tierName, rawText))
             #if row == 0:

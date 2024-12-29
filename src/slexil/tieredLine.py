@@ -135,7 +135,6 @@ class TieredLine:
         pprint(vars(self))
 
     # ----------------------------------------------------------------------------------------------------
-    # ----------------------------------------------------------------------------------------------------
     def calculateMorphemeSpacing(self, morphemes, glosses):
 
         """
@@ -147,10 +146,22 @@ class TieredLine:
         """
         # morphemes = self.getMorphemes()
         # glosses = self.getMorphemeGlosses()
+
+        print("--- entering tieredLine.py, calculateMorphemeSpacing")
+        print(morphemes)
+        print(glosses)
+
         if(morphemes == None):
            self.morphemeSpacing == None
            return
+        if (len(morphemes) and len(glosses) == 1):
+           self.morphemeSpacing == None
+           return
+            
         self.morphemeSpacing = []
+        print("--- tieredLine.py, calculateMorphemeSpacing: %d %d" % (len(morphemes), len(glosses)))
+        print(morphemes)
+        print(glosses)
         if(glosses):
            if (len(morphemes) > len(glosses)):
                #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
@@ -262,11 +273,18 @@ class TieredLine:
 
        morphemes = self.line[analysisTierNames[0]]
        morphemeGlosses = self.line[analysisTierNames[1]]
-       self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
+
+       if(isinstance(morphemes, str)):   # may be bare strings
+           morphemes = list(morphemes)
+       if(isinstance(morphemeGlosses, str)):
+           morphemeGlossess = list(morphemeGlosses)
+           
 
        morphemeSpacingStyleString = ""
+       #pdb.set_trace()
        if (morphemes):
-          if(len(morphemes) > 0):
+          if(len(morphemes) > 1):
+             self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
              morphemeSpacingStyleString = \
                "grid-template-columns: %s;" % ''.join(["%dch " % p for p in self.morphemeSpacing])
           with htmlDoc.tag("div", klass="tier morpheme-tier",
@@ -277,19 +295,17 @@ class TieredLine:
                     htmlDoc.asis(morpheme)
     
        if (morphemes and morphemeGlosses):
-          if(len(morphemeGlosses) > 0):
-             with htmlDoc.tag("div", klass="tier morpheme-tier",
-                              style=morphemeSpacingStyleString,
-                              name=analysisTierNames[1]):
-                for morphemeGloss in morphemeGlosses:
-                    with htmlDoc.tag("div", klass="morpheme-cell"):
-                       mg = GrammaticalTermFormatter(morphemeGloss,
-                                                     self.grammaticalTerms)
-                       mg.parse()
-                       s = mg.format()
-                       if self.verbose:
-                           print(s)
-                       htmlDoc.asis(s)
+          with htmlDoc.tag("div", klass="tier morpheme-tier",
+                           style=morphemeSpacingStyleString,
+                           name=analysisTierNames[1]):
+             for morphemeGloss in morphemeGlosses:
+                 with htmlDoc.tag("div", klass="morpheme-cell"):
+                    mg = GrammaticalTermFormatter(morphemeGloss, self.grammaticalTerms)
+                    mg.parse()
+                    s = mg.format()
+                    if self.verbose:
+                        print(s)
+                    htmlDoc.asis(s)
     
 #------------------------------------------------------------------------------------------------------------------------
 #def findChildren(doc, rootElement):

@@ -14,3 +14,10 @@ yaml2html:
         --kbFilename $(BASEDIR)/testData/validYamlFiles/inferno-kb.js \
         --fontSizeControls
 	open index.html
+
+
+y2e:
+	python ~/github/slexil2/utils/yamlToEaf.py \
+       inferno-threeLines.yaml \
+       infernoTierGuide.yaml
+

@@ -657,7 +657,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
    mainTextFilePath = globals['mainTextFilePath']
    #print("%s has format %s" % (mainTextFilePath, fileType))
    mediaURL = "unknown"
-   timeAlignedTierCount = 1 # only possibilit with current YAML format
+   timeAlignedTierCount = 1 # only possibility with current YAML format
    try:
       if fileType == "EAF":
          p = EafParser(mainTextFilePath, verbose=True,
@@ -805,16 +805,18 @@ def createHtml(n_clicks, downloadHtmlButtonDivStyle, globals):
            
         
 #--------------------------------------------------------------------------------
-def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
-
-   yamlFileName = globals['yamlFileName']
-   htmlFileName = createHtmlFromYaml(yamlFileName, title, projectName, projectDirectory)
-   return htmlFilename
-
+#def createHtmlFromEAF(eafFile, title, projectName, projectDirectory):
+#
+#   yamlFileName = globals['yamlFileName']
+#   htmlFileName = createHtmlFromYaml(yamlFileName, title, projectName, projectDirectory)
+#   return htmlFilename
+#
 #--------------------------------------------------------------------------------
 def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
    mga = MorphemeGlossAbbreviations()
+
+   print("--- makeHtml.py: createHtmlFromYaml")
 
    text = YamlToText(yamlFile,
                      grammaticalTerms=mga.getAll(),
@@ -838,6 +840,7 @@ def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
        file.write(htmlText)
    return htmlFileName
 
+#--------------------------------------------------------------------------------
 
 downloadHtmlButtonDiv = html.Div(id="downloadHtmlButtonDiv",
                                style={'display': 'none'},

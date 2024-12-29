@@ -20,6 +20,7 @@ class MorphemeGlossAbbreviations:
                          "ASSC": "associative",
                          "ATTN": "attenuative",
                          "AUTO": "autonomous",
+                         "CLS": "classifier",
                          "CNN": "connective",
                          "CNTRPT": "centripetal",
                          "COORD": "coordinative",
