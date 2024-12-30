@@ -39,7 +39,6 @@ class EafParser:
       self.xmlValid()
       self.verbose = verbose
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
-      self.tiersWithTabs = list()
 
       if(verbose):
          print("EafParser etree parse")
@@ -67,6 +66,8 @@ class EafParser:
          print("EafParser.run, constructing time table")
       self.constructTimeTable()
 
+      self.findTiersWithTabs()
+ 
       if(verbose):
          print("EafParser leaving constructor")
 
@@ -296,7 +297,7 @@ class EafParser:
       tbl['LINES'] = kidCount
 
         # we may wish to exclude a tier's dependent  elements
-        # for example, of there more dependents than parents,
+        # for example, if there are more dependents than parents,
         # 
       kidIDs = []
       for tier in tiers:
@@ -320,14 +321,41 @@ class EafParser:
       tierTable = tbl[coi]
 
       rootLineCount = int(tbl[tbl['root'] == True]['LINES'][0])
-      lowerBound = (rootLineCount * 0.9)
+      lowerBound = 1
+      # lowerBound = (rootLineCount * 0.9)
       upperBound = (rootLineCount * 1.1)
+      #print("--- trace eafParser.py, constructRichTierTable")
+      #pdb.set_trace()
       tierTableDistilled = tbl[(tbl['LINES'] > lowerBound) & (tbl['LINES'] < upperBound)]
       tierTableDistilled.reset_index(inplace=True, drop=True)
 
       self.richTierTable = tierTable
       self.richTierTableDistilled = tierTableDistilled
        
+   #----------------------------------------------------------------------------------
+   # our convention is that a reasonable density of tabs identifies the tier as a
+   # morpheme-based  analysis tier, typically in pairs, tab-delimited morphemes
+   # and their tab-delimited morpheme glosses
+   def findTiersWithTabs(self):
+
+      self.tiersWithTabs = []
+      tiers = self.doc.findall("/TIER")
+      tierIDs = list(self.tierTable['TIER_ID'])
+
+      for tierID in tierIDs:
+         tier = self.doc.find("TIER[@TIER_ID='%s']" % tierID)
+         kids = tier.getchildren()
+         tabCount = 0
+         for kid in kids:
+            kidText = kid.findall(".//ANNOTATION_VALUE")[0].text
+            if kidText:
+               tabCount += kidText.count("\t")
+         print("---- tier %s: %d/%d" % (tierID, tabCount, len(kids)))
+         if(len(kids) > 0):
+            if tabCount/len(kids) > 2:
+               self.tiersWithTabs.append(tierID)
+               self.tiersWithTabs = list(set(self.tiersWithTabs))
+
    #----------------------------------------------------------------------------------
    def constructTierTable(self):
 
@@ -489,6 +517,7 @@ class EafParser:
                           "tabCount": 0}, index=[0])
       
       childIDs = self.depthFirstTierTraversal(parentID)
+      print("parent %s, kids: %s" % (parentID, ",".join(childIDs)))
         # the rich tierTables add extra information to the historically
         # basic tierTable
         #                  TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
@@ -518,6 +547,9 @@ class EafParser:
       keepers = []
       [keepers.extend(ids) for ids in richTierTableTrimmed['ids']]
       
+      #print("--- trace eafParser.py, getLineTable")
+      #pdb.set_trace()
+
       for childID in childIDs:
          if not childID in keepers:
              continue
@@ -531,11 +563,13 @@ class EafParser:
             parentID = child.attrib["ANNOTATION_REF"]
          childContents = child.find("ANNOTATION_VALUE").text
          tabCount = 0
-         if childContents:
-            tabCount = childContents.count("\t")
-            if(tabCount > 0):
-               self.tiersWithTabs.append(tierID)
-               self.tiersWithTabs = list(set(self.tiersWithTabs))
+         #print("--- trace, eafParser.py, getLineTable")
+         #pdb.set_trace()
+         #if childContents:
+         #   tabCount = childContents.count("\t")
+         #   if(tabCount > 0):
+         #      self.tiersWithTabs.append(tierID)
+         #      self.tiersWithTabs = list(set(self.tiersWithTabs))
          nextRow = tbl.shape[0]
          tbl.loc[nextRow] = {"id": childID,
                              "parent": parentID,
@@ -583,14 +617,18 @@ class EafParser:
          if rawText == None:
             continue
          rawText = rawText.replace("\n", " ")
-         tabsFound = rawText.find("\t") > 0
+         #tabsFound = rawText.find("\t") > 0
          # if tabsFound:
+         #print("--- trace, eafParser.py, lineToYAML")
+         #pdb.set_trace()
          if tierName in self.tiersWithTabs:
             text = str(rawText.split("\t"))
             text = text.replace(": ", ":")
             text = text.replace("'", "")
             text = text.replace(" ", "")
             text = text.replace("?", "ʔ")
+            text = text.replace("#", "x")
+            text = text.replace("@", "x")
             textOut.append("    %s: %s" % (tierName, text))
             #textOut.append("    %s: |\n         %s" % (tierName, text))
          else:
@@ -668,7 +706,7 @@ class EafParser:
       textOut = self.getYAMLHeader(title, narrator, textEntry)
       textOut.append("lines:")
       lineNumber = 1
-      # pdb.set_trace()
+      #pdb.set_trace()
       for tbl in self.getAllLinesTable():
          newLines = self.lineToYAML(tbl, lineNumber)
          #pdb.set_trace()

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-29T20:26:06-08:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/kyete/Downloads/red_eye_edit_all.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./red_eye_edit_all.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:1d579fc6-5537-478f-b66f-e09eb42e3490</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">6</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="7230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="8175"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="19400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="21250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="31675"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Line">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>’u kw’un’a-a-a wulh hith ’i’ ’uweelh niis thi tun’a tumuhw ’i’ ’uweelh niis tsakw tthu shhwethutun.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>’i’ ni’ tthu swaaw’lus qw’uqw’i’tul—hay tthu sun’tl’e’ hay wulh ’apun ’i’ kw’ te’tsus ’i’ hay tthu sa’suqwt hay wulh yu hunum’ kws ’apun’s ’i’ kw’ tth’a’kwus.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>suw’ yath ’uw’ ’aam’ut ni’ ’u tthu tsuwmun ’utl’ tl’ulpalus, yath ’uw’ xetsstus tthu shhwethutun ’uw’ niis stsekwul’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="Line" TIER_ID="Translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Long, long ago the world was smaller, and the clouds were not so far away.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>There were two young brothers—the older boy had just turned eighteen, and the younger nearly seventeen.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>They would sit on the beach at Cowichan Bay and they would wonder about the many little holes in the sky.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

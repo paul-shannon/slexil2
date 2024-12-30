@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="unspecified"
+    DATE="2023-06-20T16:49:53+01:00" FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/Natalia/Documents/_PeshMedia/103_22.05_madre_peces_pesh_lag_dal_t_20150321_20/103_22.05_madre_peces.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../_PeshMedia/103_22.05_madre_peces_pesh_lag_dal_t_20150321_20/103_22.05_madre_peces.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:d8618c9a-46a9-424f-80c8-673f99be5adf</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">164</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="6600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="11850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="12400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="20500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="21080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="30820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="32310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="37100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="37720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="42480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="43480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="51480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="52190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="54010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="56030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="57400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="57400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="60690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="62250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="65790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="65790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="68490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="68490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="71120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="71490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="76030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="77560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="82590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="83870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="86020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="86020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="95680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="95680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="97340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="98880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="102870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="102870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="103880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="103880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="105640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="107170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="111640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="111720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="116570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="116570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="117720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="118390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="124240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="124900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="127800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="127800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="130490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="131400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="135090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="135480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="137820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="139880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="143700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="144060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="151650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="153140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="154990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="154990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="157780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="158060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="164790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="165200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="166420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="167380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="169120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="170540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="175660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="176360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="177510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="180560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="183360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="185340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="186400"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="ref" PARTICIPANT="DL" TIER_ID="ref@DL">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann0"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>kiris kiris arwã tʃiri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann4"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>toʔ to arwãma wiʃã kaportaruri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann8"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>wiʃã wiʃãpero nãprohteʔwaruri teʔer ãrpiro tʃaʔyo</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann12"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>toʔkarini toʔ arwãma ãʔ ãs ãʔ ãs sukuhera</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann16"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>arwã asyo poklerri tah nẽri wiʃã wiʃã kaporyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann20"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>toʔma asowawaɲã asowaɲã nẽri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann24"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>toʔkari nãlerrimãpe wiʃã ak aspe ʃẽri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann28"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>toʔma aparpero ʃẽrina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann32"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>toʔ arwãmã ɲẽhina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann36"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>estema estema tasma tasya kaporpa ɲẽhina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann40"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>toʔkari nẽyna</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann44"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>wiʃã kaporkayo nẽõ nẽy</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann48"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>kaporkina aparyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann52"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>ĩ toʔ a arwãsma ʃẽy akina toʔ arwã arkiiʃkwaro</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann56"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>ʃãwamã tõʃkw ãkenrina to toʔ arwã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann60"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>toʔ wiʃãma wiʃã ẽkatãhri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann64"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>toʔma wiʃã wiʃã akakiriʔ pataɲãhyoma patas</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann68"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>en español es sirena</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann72"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>ĩ toʔkarini ʃẽakumã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann76"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>tõʃkin arwãma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann80"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>pikẽ pakikẽ ʃãnina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann84"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>i toʔ arwãma teʔkina akoke aʔiʃpiro a akawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann88"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>teʔaʔiʃkumã aʔiʃkina tasma aspe teʔkawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann96"
+                TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>tikina ĩken</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann100"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>taarkima wiʃã akaya paki tikina wiʃã akakiʔ sirena</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann104"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>a tikina nãprohpahã tikina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann108"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>nãproheri nãprohermã ĩ pãskerti</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann112"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>pero ʃã ena kilerma toʔ arwãma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann116"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>pakakina toʔ wiʃã akakiɲa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann120"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>toʔ nẽr nẽrproher nuŋka pãskertina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann124"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>i toʔkari ɲẽhina arwãɲa toʔma tasma takatʃtwi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann128"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>tasma akatĩʔatawa aɲẽhima</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann132"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>toʔriʃ pakina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann136"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>toʔ ɲẽheruma ã arwã kina sirenaɲa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann140"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>asohayã tʃuna</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann144"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>toʔyã nẽy</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann148"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>ke yarnĩma toʔ arwãma tʃuna tewataʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann152"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>toʔ akawaina</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann156"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>toʔyã teʔnabohna toʔ kwento</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann160"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>hasta ahí no más</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="to" PARENT_REF="ref@DL" PARTICIPANT="DL" TIER_ID="to@DL">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann1" ANNOTATION_REF="ann0">
+                <ANNOTATION_VALUE>ki=ri=s	ki=ri=s	arwã	tʃa–i–ri</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann5" ANNOTATION_REF="ann4">
+                <ANNOTATION_VALUE>toʔ	to	arwã=ma	wiʃã	kapor–ta–ru=r–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann9" ANNOTATION_REF="ann8">
+                <ANNOTATION_VALUE>wiʃã	wiʃã=pero	nã–proh–teʔ–wa–er–u–ri	teʔ–er–i	Ø–ã–er–pi=ro	tʃaʔ=yo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann13" ANNOTATION_REF="ann12">
+                <ANNOTATION_VALUE>toʔ=kari=ni	toʔ	arwã=ma	ãʔ	ãs	ãʔ	ãs	Ø–sukuh–er–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann17" ANNOTATION_REF="ann16">
+                <ANNOTATION_VALUE>arwã	as=yo	pok=l–er–ri	ta–ha	nã–er–i	wiʃã	wiʃã	kapor=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann21" ANNOTATION_REF="ann20">
+                <ANNOTATION_VALUE>toʔ=ma	aso–wa–wa=yã	aso–wa=yã	nã–er–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann25" ANNOTATION_REF="ann24">
+                <ANNOTATION_VALUE>toʔ=kari	nã–er–ri=mã=pe	wiʃã	aka	as=pe	Ø–ʃã–er–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann29" ANNOTATION_REF="ann28">
+                <ANNOTATION_VALUE>toʔ=ma	a–par=pero	Ø–ʃã–er–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann33" ANNOTATION_REF="ann32">
+                <ANNOTATION_VALUE>toʔ	arwã=mã	Ø–yẽh–Ø–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann37" ANNOTATION_REF="ann36">
+                <ANNOTATION_VALUE>este=ma	este=ma	tas=ma	tas=ya	Ø–kapor–pa	Ø–yẽh–Ø–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann41" ANNOTATION_REF="ann40">
+                <ANNOTATION_VALUE>toʔ=kari	nã–Ø–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann45" ANNOTATION_REF="ann44">
+                <ANNOTATION_VALUE>wiʃã	kapor–ka=yo	nã–Ø–wa	nã–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann49" ANNOTATION_REF="ann48">
+                <ANNOTATION_VALUE>Ø–kapork–Ø–i=na	a–par=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann53" ANNOTATION_REF="ann52">
+                <ANNOTATION_VALUE>ĩ	toʔ	a	arwã=s=ma	Ø–ʃã–Ø–i	akina	toʔ	arwã	a–r–ka–iʃk–Ø–wa=ro</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann57" ANNOTATION_REF="ann56">
+                <ANNOTATION_VALUE>Ø–ʃã–Ø–wa=mã	ta–õʃk–Ø–wa	ã=ken=rina	to	toʔ	arwã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann61" ANNOTATION_REF="ann60">
+                <ANNOTATION_VALUE>toʔ	wiʃã=ma	wiʃã	ẽka=tWh=r–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann65" ANNOTATION_REF="ann64">
+                <ANNOTATION_VALUE>toʔ=ma	wiʃã	wiʃã	a–kaki=r–Ø–iʔ	pa–ta–yãh–a=yo=ma	pa–tas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann73" ANNOTATION_REF="ann72">
+                <ANNOTATION_VALUE>ĩ	toʔ=kari=ni	Ø–ʃã–Ø–ak–Ø–wa=mã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann77" ANNOTATION_REF="ann76">
+                <ANNOTATION_VALUE>ta–õʃk–Ø–i=n	arwã=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann81" ANNOTATION_REF="ann80">
+                <ANNOTATION_VALUE>pi=ken	Ø–pak–Ø–i=ken	Ø–ʃã–Ø–tW–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann85" ANNOTATION_REF="ann84">
+                <ANNOTATION_VALUE>i	toʔ	arwã=ma	teʔk–Ø–i=na	a–kaʔo=ken	a–ʔiʃ–Ø–pi=ro	a	a–kawa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann89" ANNOTATION_REF="ann88">
+                <ANNOTATION_VALUE>teʔ–a–ʔiʃk–Ø–wa=mã	a–ʔiʃk–Ø–i=na	tas=ma	as=pe	teʔk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann97" ANNOTATION_REF="ann96">
+                <ANNOTATION_VALUE>tWk–Ø–Ø–i=na	ĩ=ken</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann101" ANNOTATION_REF="ann100">
+                <ANNOTATION_VALUE>ta–arki=ma	wiʃã	aka=ya	Ø–pak–Ø–i	tWk–Ø–Ø–i=na	wiʃã	a–kakiʔ	sirena</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann105" ANNOTATION_REF="ann104">
+                <ANNOTATION_VALUE>a	tWk–Ø–Ø–i=na	nã–Ø–proh–pa=hã	tWk–Ø–Ø–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann109" ANNOTATION_REF="ann108">
+                <ANNOTATION_VALUE>nã–Ø–proh–er–i	nã–Ø–proh–er–i=mã	ĩ	Ø–pãsk–er–tW–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann113" ANNOTATION_REF="ann112">
+                <ANNOTATION_VALUE>pero	ʃã	ena	Ø–ka–er–i=ma	toʔ	arwã=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann117" ANNOTATION_REF="ann116">
+                <ANNOTATION_VALUE>Ø–pak–Ø–ak–Ø–i=na	toʔ	wiʃã	a–kaki=ya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann121" ANNOTATION_REF="ann120">
+                <ANNOTATION_VALUE>toʔ	nã–er–i	nã–er–proh–er–i	nunca	Ø–pãsk–er–tW–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann125" ANNOTATION_REF="ann124">
+                <ANNOTATION_VALUE>i	toʔ=kari	Ø–yẽh–Ø–i=na	arwã=ya	toʔ=ma	tas=ma	ta–ka–tʃa–Ø–tW–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann129" ANNOTATION_REF="ann128">
+                <ANNOTATION_VALUE>tas=ma	akatĩʔ–a–tW–wa	a–yẽh–Ø–i=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann133" ANNOTATION_REF="ann132">
+                <ANNOTATION_VALUE>toʔ=riʃ	Ø–pak–Ø–i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann137" ANNOTATION_REF="ann136">
+                <ANNOTATION_VALUE>toʔ	Ø–yẽh–er–wa=ma	ã	arwã	Ø–ka–Ø–i=na	sirena=ya</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann141" ANNOTATION_REF="ann140">
+                <ANNOTATION_VALUE>aso–wa=yã	tʃa–Ø–wa=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann145" ANNOTATION_REF="ann144">
+                <ANNOTATION_VALUE>toʔ=yã	nã–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann149" ANNOTATION_REF="ann148">
+                <ANNOTATION_VALUE>ke	yar–n=ĩ=ma	toʔ	arwã=ma	tʃa–Ø–wa=na	tewataʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann153" ANNOTATION_REF="ann152">
+                <ANNOTATION_VALUE>toʔ	a–kawa=i=na</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann157" ANNOTATION_REF="ann156">
+                <ANNOTATION_VALUE>toʔ=yã	teʔ–na–boh–n–Ø–wa	toʔ	cuento</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ot" PARENT_REF="ref@DL" PARTICIPANT="DL" TIER_ID="ot@DL">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann2" ANNOTATION_REF="ann0">
+                <ANNOTATION_VALUE>before=TEMP=INDF.ART	before=TEMP=INDF.ART	man	be.there–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann6" ANNOTATION_REF="ann4">
+                <ANNOTATION_VALUE>MED.DEM	MED.DEM	man=TOP	fish	spear–AG.NMLZ–HAB=COP–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann10" ANNOTATION_REF="ann8">
+                <ANNOTATION_VALUE>fish	fish=only	go–look.for–come–collect–S3PL–HAB–PST	come–S3PL–PST	O3SG–eat–S3PL–FUT=PURP	sasal=INS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann14" ANNOTATION_REF="ann12">
+                <ANNOTATION_VALUE>MED.DEM=ADVS=TEMP	MED.DEM	man=TOP	day	INDF.ART	day	INDF.ART	O3SG–grab–S3PL–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann18" ANNOTATION_REF="ann16">
+                <ANNOTATION_VALUE>man	one=INS	two=COP–S3PL–PST	path–NMLZ	go–S3PL–PST	fish	fish	spear=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann22" ANNOTATION_REF="ann20">
+                <ANNOTATION_VALUE>MED.DEM=TOP	water–eye–eye=LOC	water–eye=LOC	go–S3PL–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann26" ANNOTATION_REF="ann24">
+                <ANNOTATION_VALUE>MED.DEM=ADVS	go–S3PL–PST=when=only	fish	big	one=only	O3SG–see–S3PL–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann30" ANNOTATION_REF="ann28">
+                <ANNOTATION_VALUE>MED.DEM=TOP	POSS3SG–tail=only	O3SG–see–S3PL–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann34" ANNOTATION_REF="ann32">
+                <ANNOTATION_VALUE>MED.DEM	man=TOP	O3SG–say–S3SG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann38" ANNOTATION_REF="ann36">
+                <ANNOTATION_VALUE>this=TOP	this=TOP	PRO1=TOP	PRO1=ERG	O3SG–spear–S1SG:FUT	O3SG–say–S3SG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann42" ANNOTATION_REF="ann40">
+                <ANNOTATION_VALUE>MED.DEM=ADVS	go–S3SG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann46" ANNOTATION_REF="ann44">
+                <ANNOTATION_VALUE>fish	spear–NMLZ=INS	go–S3SG–PFV	go–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann50" ANNOTATION_REF="ann48">
+                <ANNOTATION_VALUE>O3SG–spear–S3SG–PST=REP	POSS3SG–tail=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann54" ANNOTATION_REF="ann52">
+                <ANNOTATION_VALUE>PROX.DEM	MED.DEM	HES	man=INDF.ART=TOP	O3SG–see–S3SG–PST	a.little	MED.DEM	man	O3SG–APPL.P–make–DES–S3SG–PFV=ABS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann58" ANNOTATION_REF="ann56">
+                <ANNOTATION_VALUE>O3SG–see–S3SG–PFV=when	O1–lose–S3SG–PFV	DIST.DEM=SIM=also	MED.DEM	MED.DEM	man</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann62" ANNOTATION_REF="ann60">
+                <ANNOTATION_VALUE>MED.DEM	fish=TOP	fish	PRO3=NEG=COP–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann66" ANNOTATION_REF="ann64">
+                <ANNOTATION_VALUE>MED.DEM=TOP	fish	fish	POSS3SG–mother=COP–S3SG–PST	INCL–POSS1–say–NMLZ=INS=TOP	INCL–PRO1</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann74" ANNOTATION_REF="ann72">
+                <ANNOTATION_VALUE>PROX.DEM	MED.DEM=ADVS=TEMP	O3SG–see–S3SG–be.in.state–S3SG–PFV=when</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann78" ANNOTATION_REF="ann76">
+                <ANNOTATION_VALUE>MID–lose–S3SG–PST=REP	man=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann82" ANNOTATION_REF="ann80">
+                <ANNOTATION_VALUE>place=SIM	O3SG–take–S3SG–PST=LOC	O3SG–see–S3SG–NEG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann86" ANNOTATION_REF="ann84">
+                <ANNOTATION_VALUE>PROX.DEM	MED.DEM	man=TOP	come–S3SG–PST=REP	POSS3SG–house=LOC	O3SG–tell–S3SG–FUT=PURP	HES	POSS3SG–spouse</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann90" ANNOTATION_REF="ann88">
+                <ANNOTATION_VALUE>come–O3SG–tell–S3SG–PFV=when	O3SG–tell–S3SG–PST=REP	PRO1=TOP	one=only	come–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann98" ANNOTATION_REF="ann96">
+                <ANNOTATION_VALUE>say–O3SG–S3SG–PST=REP	PROX.DEM=SIM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann102" ANNOTATION_REF="ann100">
+                <ANNOTATION_VALUE>POSS1–brother=TOP	fish	big=ERG	O3SG–take–S3SG–PST	say–O3SG–S3SG–PST=REP	fish	POSS3SG–mother	mermaid</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann106" ANNOTATION_REF="ann104">
+                <ANNOTATION_VALUE>HES	say–O3SG–S3SG–PST=REP	go–O3SG–look.for–S1SG:FUT=FOC	say–O3SG–S3SG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann110" ANNOTATION_REF="ann108">
+                <ANNOTATION_VALUE>go–O3SG–look.for–S3PL–PST	go–S3SG–look.for–S3PL–PST=when	PROX.DEM	O3SG–take.out–S3PL–NEG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann114" ANNOTATION_REF="ann112">
+                <ANNOTATION_VALUE>but	see	well	O3SG–make–S3PL–PST=NOM	MED.DEM	man=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann118" ANNOTATION_REF="ann116">
+                <ANNOTATION_VALUE>O3SG–take–S3SG–be.in.state–S3SG–PST=REP	MED.DEM	fish	POSS3SG–mother=ERG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann122" ANNOTATION_REF="ann120">
+                <ANNOTATION_VALUE>MED.DEM	go–S3PL–PST	go–S3PL–look.for–S3PL–PST	never	O3SG–take.out–S3PL–NEG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann126" ANNOTATION_REF="ann124">
+                <ANNOTATION_VALUE>PROX.DEM	MED.DEM=ADVS	O3SG–say–S3SG–PST=REP	man=ERG	MED.DEM=TOP	PRO1=TOP	O1–APPL.R–be.there–S3SG–NEG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann130" ANNOTATION_REF="ann128">
+                <ANNOTATION_VALUE>PRO1=TOP	be.afraid–S1SG–NEG–PFV	O3SG–say–S3SG–PST=NOM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann134" ANNOTATION_REF="ann132">
+                <ANNOTATION_VALUE>MED.DEM=REAS	O3SG–take–S3SG–PST=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann138" ANNOTATION_REF="ann136">
+                <ANNOTATION_VALUE>MED.DEM	O3SG–say–S3PL–PFV=NOM	DIST.DEM	man	O3SG–make–S3SG–PST=REP	mermaid=ERG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann142" ANNOTATION_REF="ann140">
+                <ANNOTATION_VALUE>water–eye=LOC	be.there–S3SG–PFV=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann146" ANNOTATION_REF="ann144">
+                <ANNOTATION_VALUE>MED.DEM=LOC	go–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann150" ANNOTATION_REF="ann148">
+                <ANNOTATION_VALUE>already	true–IT=COP:S3SG:PFV=NOM	MED.DEM	man=TOP	be.there–S3SG–PFV=REP	still</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann154" ANNOTATION_REF="ann152">
+                <ANNOTATION_VALUE>MED.DEM	POSS3SG–spouse=COP:S3SG:PFV=REP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann158" ANNOTATION_REF="ann156">
+                <ANNOTATION_VALUE>MED.DEM=LOC	come–go–leave–DUR–S3SG–PFV	MED.DEM	story</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft" PARENT_REF="ref@DL" PARTICIPANT="DL" TIER_ID="ft@DL">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann3" ANNOTATION_REF="ann0">
+                <ANNOTATION_VALUE>DL: ‘Once upon a time, there was a man.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann7" ANNOTATION_REF="ann4">
+                <ANNOTATION_VALUE>‘This man was spearer of fish.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann11" ANNOTATION_REF="ann8">
+                <ANNOTATION_VALUE>‘They went and came looking for fish only to eat with sasal.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann15" ANNOTATION_REF="ann12">
+                <ANNOTATION_VALUE>‘For this reason, one day, they caught the man.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann19" ANNOTATION_REF="ann16">
+                <ANNOTATION_VALUE>‘There were two men with the other man, they went to spear fish.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann23" ANNOTATION_REF="ann20">
+                <ANNOTATION_VALUE>‘They went to the sheltered place in the river.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann27" ANNOTATION_REF="ann24">
+                <ANNOTATION_VALUE>‘But, going further, they only saw a big fish.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann31" ANNOTATION_REF="ann28">
+                <ANNOTATION_VALUE>‘It is said that they only saw the tail.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann35" ANNOTATION_REF="ann32">
+                <ANNOTATION_VALUE>‘That man said,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann39" ANNOTATION_REF="ann36">
+                <ANNOTATION_VALUE>‘ “This one, I will spear this one”, it is said that he said.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann43" ANNOTATION_REF="ann40">
+                <ANNOTATION_VALUE>‘But it is said that he went.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann47" ANNOTATION_REF="ann44">
+                <ANNOTATION_VALUE>‘The fish went with the harpoon.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann51" ANNOTATION_REF="ann48">
+                <ANNOTATION_VALUE>‘It is said that he speared it in the tail.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann55" ANNOTATION_REF="ann52">
+                <ANNOTATION_VALUE>‘The man quickly saw what she wanted to do to that man (his brother).’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann59" ANNOTATION_REF="ann56">
+                <ANNOTATION_VALUE>‘When he saw him, that man seemed like he was also getting lost.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann63" ANNOTATION_REF="ann60">
+                <ANNOTATION_VALUE>‘This fish was not an ordinary fish.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann67" ANNOTATION_REF="ann64">
+                <ANNOTATION_VALUE>‘This fish was the Mother of the fish, in our language.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann71" ANNOTATION_REF="ann68">
+                <ANNOTATION_VALUE>‘In Spanish, it is a mermaid.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann75" ANNOTATION_REF="ann72">
+                <ANNOTATION_VALUE>‘But, when he was watching,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann79" ANNOTATION_REF="ann76">
+                <ANNOTATION_VALUE>‘It is said that he disappeared, the man.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann83" ANNOTATION_REF="ann80">
+                <ANNOTATION_VALUE>‘It is said that he didn’t see where she took him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann87" ANNOTATION_REF="ann84">
+                <ANNOTATION_VALUE>‘That man came back to his house to tell the spouse (of the other man).’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann91" ANNOTATION_REF="ann88">
+                <ANNOTATION_VALUE>‘When he arrived to tell her, it is said that he said, “I come alone.”’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann99" ANNOTATION_REF="ann96">
+                <ANNOTATION_VALUE>‘It is said that she said, “How?.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann103" ANNOTATION_REF="ann100">
+                <ANNOTATION_VALUE>‘ “My brother was taken by the Big fish, the Mother of the fish, the mermaid.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann107" ANNOTATION_REF="ann104">
+                <ANNOTATION_VALUE>‘It is said that she said, “I have to go to look for him.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann111" ANNOTATION_REF="ann108">
+                <ANNOTATION_VALUE>‘When they went to look for him, they didn’t find him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann115" ANNOTATION_REF="ann112">
+                <ANNOTATION_VALUE>‘But looking thoroughly what they made, to that man.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann119" ANNOTATION_REF="ann116">
+                <ANNOTATION_VALUE>‘It is said that the Mother of the fish had already taken him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann123" ANNOTATION_REF="ann120">
+                <ANNOTATION_VALUE>‘They went to look for him, they never found him, it is said.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann127" ANNOTATION_REF="ann124">
+                <ANNOTATION_VALUE>‘But, it is said that the man said, “I do not have him.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann131" ANNOTATION_REF="ann128">
+                <ANNOTATION_VALUE>‘“I am not afraid”, this is what he said.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann135" ANNOTATION_REF="ann132">
+                <ANNOTATION_VALUE>‘It is said that that is the reason why she took him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann139" ANNOTATION_REF="ann136">
+                <ANNOTATION_VALUE>‘What they told, it is said that the mermaid did it to this man.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann143" ANNOTATION_REF="ann140">
+                <ANNOTATION_VALUE>‘It is said that she lives in the sheltered place in the river.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann147" ANNOTATION_REF="ann144">
+                <ANNOTATION_VALUE>‘There, he went.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann151" ANNOTATION_REF="ann148">
+                <ANNOTATION_VALUE>‘It is said that it is true that that man is still alive.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann155" ANNOTATION_REF="ann152">
+                <ANNOTATION_VALUE>‘She is his spouse.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann159" ANNOTATION_REF="ann156">
+                <ANNOTATION_VALUE>‘Here that story has ended.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann163" ANNOTATION_REF="ann160">
+                <ANNOTATION_VALUE>‘This is all.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="to" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ot" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

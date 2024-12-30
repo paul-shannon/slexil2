@@ -1,0 +1,18 @@
+title: How Daylight Was Stolen
+narrator: Harry Moses
+textEntry: Paul Shannon
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
+mediaFile: /Users/paul/github/slexil2/explore/lushootseed/harryMoses/daylight-prosody/daylight-restoration_V03-22k-aLaw.wav
+mimeType: audio/x-wav
+
+lines:
+
+  - lineNumber: 6
+    lineType: ijal
+    startTime: 27192
+    endTime: 28928
+    lushootseed: "tuc̓agʷacutəxʷ"
+    soundsLike: 
+    morphemes: ["tu=c̓agʷa–t–sut=əxʷ"]
+    morphemeGloss: [PAST=washed–ICS–REFL=now]
+    english: They bathed.

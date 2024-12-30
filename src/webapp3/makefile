@@ -1,6 +1,6 @@
 NAME = slexiltestwebapp3
 PORT = 9002
-VERSION = 301
+VERSION = 302
 IMAGE = pshannon/slexilwebapp$(VERSION)
 
 default:

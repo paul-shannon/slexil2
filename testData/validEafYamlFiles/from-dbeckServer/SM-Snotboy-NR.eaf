@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="Paul Shannon"
+    DATE="2024-11-17T13:27:20-08:00" FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///E:/Backup/Phonetics/Halkomelem_Phonetics/Intonation/Repetition_soundfiles-20230913T174710Z-001/Repetition_soundfiles/Full_Story/Sophie_Mishael/SM-Snotboy-NR.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./SM-Snotboy-NR.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:97cc3822-6f9a-452b-a493-928e70e7d598</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">252</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="10"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="19000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="19750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="23010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="24120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="35000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="35010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="39780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="40130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="48010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="48990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="54990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="55000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="59010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="59010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="61370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="62000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="70175"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="71010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="74360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="75960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="92610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="93320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="100800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="104690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="113990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="115000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="124000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="125800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="132290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="132290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="145000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="146000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="148390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="148390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="152010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="152990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="154010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="156000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="162250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="167010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="176150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="177760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="184000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="186000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="188000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="188620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="201540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="202000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="211400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="212670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="217010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="218990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="225150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="227000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="235290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="236610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="239490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="240020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="250000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="250020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="252030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="253010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="265000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="267400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="275990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="277420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="287810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="288740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="292750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="294740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="307400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="307930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="323730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="326040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="329550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="331590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="339510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="342640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="349270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="350700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="352770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="352790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="353800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="355720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="359390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="360380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="364040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="365130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="376300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="377980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="384460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="387600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="388530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="390210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="395810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="396660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="407410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="408660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="412370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="412380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="420340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="420990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="425470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="427060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="437140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="441130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="444970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="445880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="454030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="458050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="468060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="468340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="472200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="473440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="481360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="482700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="488640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="489850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="494670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="497920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="504490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="505630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="515710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="516370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="522930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="522950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="528920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="531120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="535560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="537370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="543290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="545480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="549690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="550480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="560510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="562740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="570830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="572570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="574140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="575000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="580430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="582540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="597540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="598010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="611610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="611630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="613570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="615560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="619990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="621330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="631400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="631900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="635510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="636760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="645550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="647740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="655240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="655590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="658310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="658390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="663690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="665040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="666630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="667780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="677670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="677770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="683350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="683360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="687510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="688600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="700010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="703000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="707020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="707980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="733180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="735790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="738600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts179" TIME_VALUE="739810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="745200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts181" TIME_VALUE="746010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts182" TIME_VALUE="750520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="751620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="761180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts185" TIME_VALUE="762490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts186" TIME_VALUE="769580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts187" TIME_VALUE="770370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts188" TIME_VALUE="778080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts189" TIME_VALUE="778220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts190" TIME_VALUE="781000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts191" TIME_VALUE="781040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts192" TIME_VALUE="783400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts193" TIME_VALUE="785540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts194" TIME_VALUE="795190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts195" TIME_VALUE="795440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts196" TIME_VALUE="808410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts197" TIME_VALUE="809000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts198" TIME_VALUE="822240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts199" TIME_VALUE="823040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts200" TIME_VALUE="832850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts201" TIME_VALUE="834510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts202" TIME_VALUE="839560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts203" TIME_VALUE="840260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts204" TIME_VALUE="849930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts205" TIME_VALUE="851080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts206" TIME_VALUE="853450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts207" TIME_VALUE="853490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts208" TIME_VALUE="855500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts209" TIME_VALUE="856260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts210" TIME_VALUE="861160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts211" TIME_VALUE="861630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts212" TIME_VALUE="871000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts213" TIME_VALUE="871060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts214" TIME_VALUE="873180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts215" TIME_VALUE="873200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts216" TIME_VALUE="876640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts217" TIME_VALUE="877475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts218" TIME_VALUE="887900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts219" TIME_VALUE="889800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts220" TIME_VALUE="902000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts221" TIME_VALUE="902225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts222" TIME_VALUE="908750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts223" TIME_VALUE="909825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts224" TIME_VALUE="914325"/>
+        <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="914325"/>
+        <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="915425"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="transcription">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>xwi’a’mustalu tsun ’u tthu ’i yu shtu’es thu ’i na’nuts’a’ q’e’mi’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>nilh wa’lu ’uw’ t’atulh me’luxulh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>nem’ yuhw tsam thuw’nilh q’e’mi’ sew’q’ ’ukw’ chumux, ’a.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>nem’ suw’q’ ’ukw’ chumux, tthu tth’utth’e’tum’ chumux.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>hwun’ xut’e ’u tthey’ kwsus nem’ ni’ ’u tthu tsa’luqw, ’i’ ni’ wulh q’uq’a’tul ’u tu’i swiw’lus.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>suw’ shishutum’s thuw’nilh ’u tu’i tth’utth’eem’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>suw’ xut’us ’uy’ ’uw’ m’iis ’ehwe’tum, ’i’ ’uw’ ’uwustum.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>’uw’ xut’ustum’, “ni ni’ ’u tnanulh.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>’i’ ni ’uw’ yu xut’ustum’ ’ul’ ’u tthey’ yu huy’thustum’ ’u tthu ni’ shni’s kws kwunnuhw tse’ tthu chumux.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>stl’i’s kws lhchumuxs thuw’nilh q’e’mi’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>ni’ kwu’elh wulh tul’nuhwus kws nans ni’ wulh hwu tsakw tsa’luqw kwsus nem’ yu tsukwul’ul’qum’ ’u tthey’ swiw’lus ni’ ts’lhq’uq’a’tuls.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>suw’ yu kwunut-s tthu s’itth’ums swuqw’a’lh suw’ yu t’aqw’t-s suw’ yu q’el’q’t-s ’u tthu thqet ’u kwthu ni’ wulh nem’ yu shilhunun’e’s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>suw’ huye’s nem’ ’uw’ yu ’i’mush yu tsukwul’ul’qum’ ’u tthu ’i nem’ shtseelqums swiw’lus ni’ lumnuhwus.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>hwun’ xut’u ’i’ ni’ wulh nem’ hun’umutnum ’u tthuw’nilh ’u tthu lelum’s tthuw’nilh swiw’lus.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>ni’ wulh hwu tsa’luqw kwunnum ’u tthey’, tl’uw’ stl’eluqum</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>hun’utum’ skwathshun’, skwathshun’ kws nes tthey’ ni’ tskwuyxthut ’u thuw’nilh q’e’mi’ tun’ni’ ’utl’ me’luxulh ’u kwthu wulh hithulh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>suw’ ’ikw’ thuw’nilh q’e’mi’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>’uwu te’ lhwet shtatul’stuhw ’uw’ niis tstamut.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>ni’ ’ikw’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>suw’ xeem’s thu ’i tswe’ mun’u, te’wuqun ’u kwsu’i mun’us ni’ ’ikw’.
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>suw’ kwuyxthut-s tthu sun’tl’e’, sun’tl’een’s tthuw’ne’ullh, suw’ ne.e.em’s suw’q’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>“ni’ wulh hithulh niis s’i’kw’ thu ’i sqe’uqs, shhw’aqw’a’s.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>huye.e’ suw’q’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>suw’ yu  lumnuhws tthey’ sey’ ni’         yu  sq’iq’uw’, sq’el’q’ ’u tthu thul’i’thqut niilh yuhw yu shlhun’es kwsus yu ’i’mush thuw’nilh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>’i’ nuw’ tus ’ul’ ’u tu’i tsa’luqw kwsus nem’ yu ’i’mush tthey’ ’uw’ nilh shhw’aqw’a’s thuw’nilh kws wulh nem’s suw’q’tum.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>tus ’u tu’i xatsa’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>suw’ ts’elhum’s, ni’ tul’num ni’ ni’ kw’u ni’ ’al’mutsun’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>suw’ teems tu’i sliim, “tumeeho! tumeeho! tumeeho!”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>suw’ ’e.e.ewus tthu snuhwulh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>suw’ ’aalh tthey’ ’uw’ nilh swiw’lus nem’ shaqwul, ni’ nem’ shqwilustum thu shhw’aqw’a’s ’u tu’i xatsa’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>sus ’uw’ tus.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>suw’ tul’nuhws thuw’nilh q’e’mi’, “’ooo, ’iihw wulh m’i suw’q’thelum.”
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>suw’ tus tthey’ ’uw’ nilh shhw’aqw’a’s thuw’nilh q’e’mi’ ’u tthu ni’ shni’stewut, qw’im.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>suw’ ’i’ ’iihw ’uw’ saay’st-hwus tthey’ ’uw’ nilh ni’ wulh shhwuni’s thu shhw’aqw’a’s ’u tu’i shelhs.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>sthima’, sthithuma’ tthu shelh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a82"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>tuw’ hwun’a’ ’ul’ kwu’elh nuw’ilum kwthuw’nilh swiw’lus nem’ yu sew’q’tus thu shhw’aqw’a’s, ’i’ wulh q’aaytum ’u tthey’ ni’ stsuwtelhs.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a83"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>wutl’uts’ ni’ ’u tthu sthima’, suw’ kwuyxthut-s tthey’ ’uw’ nilh stl’eluqum skwathshun’ kws hun’ute’wut, suw’ nem’s ’i’ m’i me’shum tthu tth’ele’s tthuw’nilh, ’a!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>suw’ ni.i.i st’e ’u tthey’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>ni’ ’uw’ kw’in skweyul ’i’ ni’ tl’e’ ’uw’ ’ikw’ ’ul’ tthey’ ’uw’ nilh tuw’ hwun’a’ ’ul’ niilh nem’ suw’q’t thu shhw’aqw’a’s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a90"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>ni’ wulh tus ’u tthu na’nuts’a’ tl’e’ ’uw’ yu st’e ’ul’ nem’ tl’uw’ suw’q’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a91"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>’i ’a’lu kw’iinu ’u kwthuw’ne’ullh?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a92"
+                TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>lhhwelu.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a96"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>suw’ huye’s tthuw’ne’ullh ’u kwthey’ ’uw’ nilh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a98"
+                TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>nilh na’nuts’a’ ni’ wulh hwu tsa’luqw tu’i ’uw’ sun’tl’e’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99"
+                TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>hwi’ nilh kwelh tthu na’nuts’a’ nem’ suw’q’, ’i’ ni’ ’uw’ yu st’e ’ul’ kwsus nem’ tl’uw’ hwu nin’sus tthu ni’ shni’stewut thu shhw’aqw’a’s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a102"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>’i wulh nilh ’ul’ suw’ sht’ewun’s q’ay tse’ kwthu ’i tl’e’ m’i qul’et ’ewu.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a103"
+                TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>’i’ ’uw’ stu’e.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a104"
+                TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>tl’e’ wulh, “tumeeho! tumeeho!” ni’ wulh siwul.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a108"
+                TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>suw’ huye’s tthey’ ni’ nem’ ’aalhstuhw ’u tthu snuhwulh suw’ shaqwuls suw’ hwunin’s tthu ni’ shni’s thu shhw’aqw’a’s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110"
+                TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>tl’e’ ’uw’ yu st’e ’ul’ ’uwu niis hun’nuw’namut.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112"
+                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>’i’ ni’ wulh qixutum ni’ ’u tthu shelhs tthuw’ulh stsuwtelhs skwathshun’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a114"
+                TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>’i’ ni’ ’uw’ yu st’e ’ul’ kwsus yu kwun’utum’ tthu tth’ele’s tthuw’ne’ullh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116"
+                TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>ni’ ’uw’ ’usup’ ’ul’ tthuw’ne’ullh swaw’lus shhw’a’luqw’a’s thuw’nilh q’e’mi’ ni’ hwu tsa’luqw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a117"
+                TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
+                <ANNOTATION_VALUE>sis ’uw’ ’usup’ tthuw’ne’ullh, ni’ ’uw’kw’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a118"
+                TIME_SLOT_REF1="ts109" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>ni’ wulh mukw’ ’uw’ ’ulh tus tthu shhw’a’luqw’a’s thuw’nilh, lhhwelu ’uw’ xuthiinusulh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a119"
+                TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>sis ’uw’ st’e ’u tthey’ ni’ ’uw’kw’ tthu me’mun’us they’ ’uw’ nilh tsi’tsut.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a120"
+                TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>[suw’] xeem’s xeem’ ’u kwuw’ mukw’ skweyul.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a121"
+                TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
+                <ANNOTATION_VALUE>suw’ ’a’mut-s ’i’ ni’ yu q’eptus tthu smut’uqsuns kws m’is yu hum’ushus kws ni’s xeem’</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a122"
+                TIME_SLOT_REF1="ts117" TIME_SLOT_REF2="ts118">
+                <ANNOTATION_VALUE>’i’ ni ’uw’ hwu thi ’ul’ tthey’ kwsus sqw’amxwus tthu smut’uqsuns thu s’eluhw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a132"
+                TIME_SLOT_REF1="ts119" TIME_SLOT_REF2="ts120">
+                <ANNOTATION_VALUE>’u tu’i me’mun’us tl’lim’ nuw’ ’uw’kw’ hwumnuts.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a133"
+                TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>hwun’ xut’u tthey’ ni’ kwsus ’uweelh kwlh tl’a’ thuw’nilh s’eluhw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a136"
+                TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts124">
+                <ANNOTATION_VALUE>suw’ hulithut-s tthu smut’uqsuns kws xut’uste’wut, ni’ hwu qeq tthu smut’uqsuns.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a138"
+                TIME_SLOT_REF1="ts125" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>suw’ kwunut-s suw’ t’akw’s kw’a.a.amut-s tthey’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a139"
+                TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts128">
+                <ANNOTATION_VALUE>’i’ xwum kwsus yu ts’its’usum’ ’uw’ smut’uqsun’uhw, xwum kwsus yu kw’a’mul’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a140"
+                TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts130">
+                <ANNOTATION_VALUE>st’e ’u tthey’ ni’ wulh kw’am’kw’um’ kws xwan’chunum’s tthu smut’uqsun.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a144"
+                TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts132">
+                <ANNOTATION_VALUE>suw’ qwals kws stl’i’s kws hwu saay’ste’wut kw’ tuxwa’ts.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a146"
+                TIME_SLOT_REF1="ts133" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>suw’ qwaqwul’s thuw’nilh tswe’ tsmun’u, “’uwu ch tsakwumuhw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a147"
+                TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>ni hwumnuts kwthun’ shushiyulh, ’uw’ niis stem kwthu ni’ tslhshni’unlhs ni’ hwumnuts.”
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a148"
+                TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>’i ’uwu tthuw’nilh stl’i’tl’qulh ’uw’ yath ’ul’ st’e kwu ni’ kw’akw’i’uthut ’u shni’s hunum’ ’u tthu tsa’luqw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a149"
+                TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts140">
+                <ANNOTATION_VALUE>ni’ wulh hwu kw’am’kw’um’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a150"
+                TIME_SLOT_REF1="ts141" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>suw’ hwi’ nilhs ni’ nem’ tselqum suw’q’tus kwu’i shhw’a’luqw’a’s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a151"
+                TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts144">
+                <ANNOTATION_VALUE>ni’ wulh mukw’ ’uw’ ’ulh xway tthu shhw’a’luqw’a’s thuw’nilh kws statul’stuhws, ’i’ ni’ tl’e’ wulh ts’elhum’ ’u kw’u’i, xut’e ’u kwthey’ sisuwul’un’uq, “tumeeho! tumeeho!”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a158"
+                TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts146">
+                <ANNOTATION_VALUE>’ooo suw’ xeems thuw’nilh q’e’mi’, xeemutus, wulh, “ni’ p’e’ wulh ’uw’kw’ tthunu shhw’a’luqw’a’, hwi’ nilh yuhw kwthunu men ’i m’i ’ewu suw’q’.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a160"
+                TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts148">
+                <ANNOTATION_VALUE>suw’ xem’s thuw’nilh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a162"
+                TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>’i’ p’e’ thulh nem’ tus ’i’ tl’uw’ swiw’lus.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a163"
+                TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts152">
+                <ANNOTATION_VALUE>suw’ nem’s hwu lhxi’lush tthey’ ’uw’ nilh ni’ ’u tthu shelhs tthu wulh stsuwtelhs.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a166"
+                TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>suw’ yuw’en’s kws yu lhultust-s tthushelh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a167"
+                TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts156">
+                <ANNOTATION_VALUE>suw’ qwals ’uw’ skwathshunhw, ’u “ii! ii! ’i 	yuhw tsun tse’ p’e’ yelh nus stl’uhw.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a172"
+                TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts158">
+                <ANNOTATION_VALUE>’uwu niis tstamut tthey’ yu hi’a’uqwt ni’ nem’  yu sew’q’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a174"
+                TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>niw’ yakw’utus tu’i sthima’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a175"
+                TIME_SLOT_REF1="ts161" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>suw’ q’aayt-s tu’i skwathshun’ ni’ shni’s  thu ’i shhw’aqw’a’s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a176"
+                TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts164">
+                <ANNOTATION_VALUE>sus  ’uw’ q’uynum.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a177"
+                TIME_SLOT_REF1="ts165" TIME_SLOT_REF2="ts166">
+                <ANNOTATION_VALUE>suw’ kwuyxthut-s tthuw’nilh smut’uqsun suw’ yu kwun’ut-s tthu tth’ele’s  tthu shushiyulhs.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a178"
+                TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts168">
+                <ANNOTATION_VALUE>suw’ yu hwu’a’lum’st-hws ’u tthu shushiyulhs.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a184"
+                TIME_SLOT_REF1="ts169" TIME_SLOT_REF2="ts170">
+                <ANNOTATION_VALUE>’i’ ’i m’i hwu’alum’ hulithut tthu swaw’lus ’uw’ mukw’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a185"
+                TIME_SLOT_REF1="ts171" TIME_SLOT_REF2="ts172">
+                <ANNOTATION_VALUE>hay ts’ kwu’elh tthu swe’s tthu sun’tl’een’s ni’ wulhnem’ tuw’ ’ulh qul’qul’ul, ’i’ ni’ muw’ hulithut tthey’ ’uw’ nilh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a188"
+                TIME_SLOT_REF1="ts173" TIME_SLOT_REF2="ts174">
+                <ANNOTATION_VALUE>suw’ thuytus tthu ni’ 	sht’es ’i’ ni’ hwu sthuthi’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a189"
+                TIME_SLOT_REF1="ts175" TIME_SLOT_REF2="ts176">
+                <ANNOTATION_VALUE>suw’ qwals thuw’nilh kwsus wulh lumnuhwus tthu shhw’a’luqw’a’s, mukw’ ’i  ’uw’
+hwu’alum’ hulithut, suw’ qwals, “wa’lu ’uy’us kw’un’s hwtth’ip’usum ’u tthun’ stiwunulup ’i’ q’aayt ch tl’e’, nilh ’uw’ ha’ nuw’ kw’umut ’i’ tl’uw’ yu st’e ‘ul’ ‘u	 tthu mens kws quls mustimuhw.” </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a192"
+                TIME_SLOT_REF1="ts177" TIME_SLOT_REF2="ts178">
+                <ANNOTATION_VALUE>suw’ t’akw’s t’ahw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a193"
+                TIME_SLOT_REF1="ts179" TIME_SLOT_REF2="ts180">
+                <ANNOTATION_VALUE>ni’ hulinhwus tthuw’nilh smut’uqsun tthu shushiyulhs.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a194"
+                TIME_SLOT_REF1="ts181" TIME_SLOT_REF2="ts182">
+                <ANNOTATION_VALUE>suw’ t’akw’ t’ukw’stuhwus, t’akw’ thu ’ul’ush.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a198"
+                TIME_SLOT_REF1="ts183" TIME_SLOT_REF2="ts184">
+                <ANNOTATION_VALUE>tahw stu’e tl’e’ thu tswe’ulh tsmun’u ’u tthuw’ne’ullh, ’i’ wulh hun’umutnuhwus tthuw’nilh tthu shushiyulhs</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a200"
+                TIME_SLOT_REF1="ts185" TIME_SLOT_REF2="ts186">
+                <ANNOTATION_VALUE>suw’ nans ’uw’ si’em’stuhwus thuw’nilh s’eluhw tthey’ kwu’elh sa’suqwt mun’us.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a201"
+                TIME_SLOT_REF1="ts187" TIME_SLOT_REF2="ts188">
+                <ANNOTATION_VALUE>suw’ qwaqwul’s ’u tthu seen’tl’e’ me’mun’us, “’iy’athut tseep, me’mun’u, ’u tthun’ sqe’uq.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a202"
+                TIME_SLOT_REF1="ts189" TIME_SLOT_REF2="ts190">
+                <ANNOTATION_VALUE>’uwu tseep hw’i’unt-st-hwuhw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a203"
+                TIME_SLOT_REF1="ts191" TIME_SLOT_REF2="ts192">
+                <ANNOTATION_VALUE>’uy’s ch kw’un’s le’lum’ut.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a208"
+                TIME_SLOT_REF1="ts193" TIME_SLOT_REF2="ts194">
+                <ANNOTATION_VALUE>’i nan nuw’ shhw’i’ttsus tthu su’asuqwteens</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a210"
+                TIME_SLOT_REF1="ts195" TIME_SLOT_REF2="ts196">
+                <ANNOTATION_VALUE>suw’ huye’s pipi’a’tulh ts’u tthuw’ne’ullh swaw’lus, ’i’ ’uw’ yu sq’uq’a’ ts’u tthuw’nilh smut’uqsun sqe’uqs tthuw’ne’ullh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a211"
+                TIME_SLOT_REF1="ts197" TIME_SLOT_REF2="ts198">
+                <ANNOTATION_VALUE>suw’ nan’s nuw’ lhi’lhetth’utum’ tthuw’nilh ’uw’ qwaqwul’ ’ul’ kw’ slha’lhtth’a’qw, qwaqwul’ ’ul’ ’u tthuw’ ’uwu niis statul’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a212"
+                TIME_SLOT_REF1="ts199" TIME_SLOT_REF2="ts200">
+                <ANNOTATION_VALUE>suw’ kwuyxthut’uw’smut’uqsunuhwsuw’ t’akw’s suw’ nem’s ’u tthu shhw’a’mut-s ’i’ 
+tl’uhwtsunum ’u tu’i swuqw’a’lh</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a216"
+                TIME_SLOT_REF1="ts201" TIME_SLOT_REF2="ts202">
+                <ANNOTATION_VALUE>hun’umut-s tthuw’ne’ullh seen’tl’e’ kwsusulh pipi’a’tulh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a217"
+                TIME_SLOT_REF1="ts203" TIME_SLOT_REF2="ts204">
+                <ANNOTATION_VALUE>wulh saay’ tthu sxlhast-s tthu me’mun’us, suw’ qwals, “nem’ nu’umnus tthun’ sqe’uq ’i’ hwuyt.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a220"
+                TIME_SLOT_REF1="ts205" TIME_SLOT_REF2="ts206">
+                <ANNOTATION_VALUE>suw’ huye’s tthu nem’ lemut.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a221"
+                TIME_SLOT_REF1="ts207" TIME_SLOT_REF2="ts208">
+                <ANNOTATION_VALUE>t-hwutstum ’i’ ’uwu te’.
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a222"
+                TIME_SLOT_REF1="ts209" TIME_SLOT_REF2="ts210">
+                <ANNOTATION_VALUE>suw’ qwals tthu na’nuts’a’, “’uw’ smut’uqsun ’ul’ q’u tun’a ’e’ut slhelhuq’.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a223"
+                TIME_SLOT_REF1="ts211" TIME_SLOT_REF2="ts212">
+                <ANNOTATION_VALUE>“’aaa, me’mun’u,” qwals, “nilh p’e’ nush huy’aata’leelh ’uy’s kw’un’s le’lum’ut.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a224"
+                TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts214">
+                <ANNOTATION_VALUE>’uwu tseep ’uw’ qwaqwul’mutuhw.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a225"
+                TIME_SLOT_REF1="ts215" TIME_SLOT_REF2="ts216">
+                <ANNOTATION_VALUE>’uw’ niilh ’i’ ’elh ’uw’ hw’iint shus xt’e ’u tthey’.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a233"
+                TIME_SLOT_REF1="ts217" TIME_SLOT_REF2="ts218">
+                <ANNOTATION_VALUE>suw’ qwals tthuw’ne’ullh, “nilh p’e’ tun’a slha’lhtth’a’qw ni’ ’uw’ qwaqwul’ ’ul’ qwaqwul’mut ’ul’, shus m’i t’akw’ sis ’uw’ ’i’tut yuhw.”</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a234"
+                TIME_SLOT_REF1="ts219" TIME_SLOT_REF2="ts220">
+                <ANNOTATION_VALUE>nilh kwu’elh shus xeexe’ste’wutulh ’u kwthu wulh hith ’u tthu q’umi’allh, kws xut’uste’wut kws quls tthu chumux kws lhchumuxs tthu q’umi’allh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a235"
+                TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts222">
+                <ANNOTATION_VALUE>nilh kwthey’ niilh sle’tewut lhey’ q’e’mi’ kwsus qen ’u tthu skwathshun’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a236"
+                TIME_SLOT_REF1="ts223" TIME_SLOT_REF2="ts224">
+                <ANNOTATION_VALUE>nilh kwu’elh nuw’ sht’es ’ul’ tthey’ ni’ ’usup’ tthunu sxwi’em’.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a237"
+                TIME_SLOT_REF1="ts225" TIME_SLOT_REF2="ts226">
+                <ANNOTATION_VALUE>ni’ hay.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="transcription" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>I’m going to tell you a story about this girl at Malahat.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a238" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>She was from the first Malahat.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a239" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>She went up the mountain looking for pitch.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a240" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>She went looking for pitch, the type you chew.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a241" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>As she was walking around up in the forest, she met with a young man.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a242" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>She was wishing for the gum, and this man was chewing gum.
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a243" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>She said he should come share, but he wouldn’t.
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a244" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>And he told her, “The gum is over there.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a245" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>He kept doing that, telling her where to find the gum.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a246" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>The girl wanted to have some gum.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>She realized that she had gone too far into the woods as she followed that boy that she was with.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>And she started breaking off her blanket [the fringes] and hanging them up on branches.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>She kept walking along, following the young man that she had met</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>The young man finally got home to where he lived.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a247" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>And he was a fierce man.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>He was called Skwathshun’; Skwathshun’ was the name of the one who managed to get the girl from Malahat a long time ago.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>The girl went missing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>No one knew what had happened to her.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>She went missing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>And her mother kept crying, mourning for her missing daughter.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>Then, her oldest brother took action, and he went to look for her.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>“Our sister has been missing for a long time.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>He went looking for her.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>He went looking for her, and he found the fringes on the branches where she had walked along.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE>And he went up the mountain, that brother of hers, walking around looking for her.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a60">
+                <ANNOTATION_VALUE>And he reached a lake.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>And he realized that something was waiting.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>And this sandhill crane hollered, “tumeeho! tumeeho! tumeeho!”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a67">
+                <ANNOTATION_VALUE>And a canoe came toward him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a68">
+                <ANNOTATION_VALUE>So that young man got on, and he went across, to cross over to his sister on the other side of the lake.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a72">
+                <ANNOTATION_VALUE>And he arrived.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a74">
+                <ANNOTATION_VALUE>And the young lady was thinking, “Oh, someone has come to find me.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>And when her brother reached where the girl was at, he got off.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a78">
+                <ANNOTATION_VALUE>Skwathshun’ must have had something ready for when her brother got there on the road.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a80">
+                <ANNOTATION_VALUE>The ground was just covered with ice.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a82">
+                <ANNOTATION_VALUE>And when the boy started to go inside to look for his sister, he was killed by his brother-in-law.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a83">
+                <ANNOTATION_VALUE>When he fell down on the ice, the fierce one that was called Skwathshun’ took action, and he went and took out the young man’s heart, my goodness!</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a86">
+                <ANNOTATION_VALUE>And that was that.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a87">
+                <ANNOTATION_VALUE>And then after several days, they realized that] the first young man who went looking for his sister had also gone missing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a90">
+                <ANNOTATION_VALUE>So, another brother likewise went to look for her.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a91">
+                <ANNOTATION_VALUE>How many of them were there?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a92">
+                <ANNOTATION_VALUE>three</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a96">
+                <ANNOTATION_VALUE>So, all of them went.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a98">
+                <ANNOTATION_VALUE>It was the next eldest one who went up the mountain.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a99">
+                <ANNOTATION_VALUE>That one next went looking, and the same thing happened when he reached the place where his sister was at.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a102">
+                <ANNOTATION_VALUE>And the sister was thinking that her next brother would get killed, too.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a103">
+                <ANNOTATION_VALUE>And the same thing happened.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a104">
+                <ANNOTATION_VALUE>Again, there was, “tumeeho! tumeeho!” and [the canoe] appeared.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a108">
+                <ANNOTATION_VALUE>And he went and boarded the canoe and crossed over and arrived to where his sister was at.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE>And the same thing happened to him, too.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>The brother slipped on the road of his brother-in-law, Skwathshun’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a114">
+                <ANNOTATION_VALUE>And his heart was taken out.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a116">
+                <ANNOTATION_VALUE>And all of the brothers of the girl who was up the mountain were done in</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a117">
+                <ANNOTATION_VALUE>And all her brothers were finished off.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>All of her brothers got there, three or four of them.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a126" ANNOTATION_REF="a119">
+                <ANNOTATION_VALUE>The mother had no more children.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a120">
+                <ANNOTATION_VALUE>And every day she cried and cried.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a128" ANNOTATION_REF="a121">
+                <ANNOTATION_VALUE>She was sitting down in one place, and her snot piled up, coming out of her nose as she was crying.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a129" ANNOTATION_REF="a122">
+                <ANNOTATION_VALUE>And it became a big ball of the old lady’s snot.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a134" ANNOTATION_REF="a132">
+                <ANNOTATION_VALUE>All her children were gone. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a135" ANNOTATION_REF="a133">
+                <ANNOTATION_VALUE>Alas, there was nothing that could comfort the old lady.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a137" ANNOTATION_REF="a136">
+                <ANNOTATION_VALUE>And then her snot, as it is told, came to life, and the snot became a baby. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a141" ANNOTATION_REF="a138">
+                <ANNOTATION_VALUE>She took it and brought it home and raised him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a142" ANNOTATION_REF="a139">
+                <ANNOTATION_VALUE>And Snot Boy started growing really fast; he was maturing really fast.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a143" ANNOTATION_REF="a140">
+                <ANNOTATION_VALUE>Snot Boy got strong enough to run around.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a145" ANNOTATION_REF="a144">
+                <ANNOTATION_VALUE>And he was asking for a bow and arrow.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a146">
+                <ANNOTATION_VALUE>And he was asking for a bow and arrow.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a153" ANNOTATION_REF="a147">
+                <ANNOTATION_VALUE>All your brothers and sister are all gone, and I don’t know what happened to them.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a154" ANNOTATION_REF="a148">
+                <ANNOTATION_VALUE>It was believed that he always went for a bath up in the mountains.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a155" ANNOTATION_REF="a149">
+                <ANNOTATION_VALUE>He was getting very strong.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a150">
+                <ANNOTATION_VALUE>And he went to look for his brothers and sister.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a157" ANNOTATION_REF="a151">
+                <ANNOTATION_VALUE>All her brothers were killed as far as she knew, and then she heard that sound, doing like when that [canoe] was appearing to them, “tumeeho! tumeeho!”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a159" ANNOTATION_REF="a158">
+                <ANNOTATION_VALUE>And the girl heard this, and she cried, “My brothers are now dead, so now it’s my father who came searching.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a161" ANNOTATION_REF="a160">
+                <ANNOTATION_VALUE>And she cried.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a164" ANNOTATION_REF="a162">
+                <ANNOTATION_VALUE>But when the person got there, it was a young man.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a165" ANNOTATION_REF="a163">
+                <ANNOTATION_VALUE>He was standing on the road of his brother-in-law.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a168" ANNOTATION_REF="a166">
+                <ANNOTATION_VALUE>And he sprinkled something on the road.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a169" ANNOTATION_REF="a167">
+                <ANNOTATION_VALUE>And Skwathshun’ said, “ii! ii! I guess I’m going to get beaten.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a173" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE>Nothing happened to the one who followed in the search.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a179" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE>He broke all the ice.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a180" ANNOTATION_REF="a175">
+                <ANNOTATION_VALUE>And he killed Skwathsun’ at that place where his sister was.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a181" ANNOTATION_REF="a176">
+                <ANNOTATION_VALUE>He managed to kill him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a177">
+                <ANNOTATION_VALUE>So, Snotboy went and took all the hearts of his older brothers.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a183" ANNOTATION_REF="a178">
+                <ANNOTATION_VALUE>And he put all the hearts back into his brothers.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a186" ANNOTATION_REF="a184">
+                <ANNOTATION_VALUE>And all the young men came back to life.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a187" ANNOTATION_REF="a185">
+                <ANNOTATION_VALUE>But the oldest brother’s heart had already started to deteriorate, but he managed to bring him back to life.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a190" ANNOTATION_REF="a188">
+                <ANNOTATION_VALUE>e brought him back to life, and he fixed him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a191" ANNOTATION_REF="a189">
+                <ANNOTATION_VALUE>After she saw her brothers, all coming back to life, she said, “I guess you all had better resolve to kill your nephew, because if he lives, he will be just like his father.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a195" ANNOTATION_REF="a192">
+                <ANNOTATION_VALUE>So, they all went home, going down the mountain.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a196" ANNOTATION_REF="a193">
+                <ANNOTATION_VALUE>Snotboy had saved his brothers and sister.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a197" ANNOTATION_REF="a194">
+                <ANNOTATION_VALUE>They all went home, taking their sister home.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a199" ANNOTATION_REF="a198">
+                <ANNOTATION_VALUE>The mother was still sitting at home, and Snotboy managed to bring his older siblings home.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a204" ANNOTATION_REF="a200">
+                <ANNOTATION_VALUE>And the old lady always had the highest respect for her youngest child.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a205" ANNOTATION_REF="a201">
+                <ANNOTATION_VALUE>And she was talking to her older children, “You be careful, children, of your little brother.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a206" ANNOTATION_REF="a202">
+                <ANNOTATION_VALUE>Don’t say anything.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a207" ANNOTATION_REF="a203">
+                <ANNOTATION_VALUE>You look after him.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a209" ANNOTATION_REF="a208">
+                <ANNOTATION_VALUE>But he was always jealous of their youngest brother, the one that was called Slha’lhtth’a’qw.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a213" ANNOTATION_REF="a210">
+                <ANNOTATION_VALUE>So, they went duck hunting, and Snotboy went along too.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a214" ANNOTATION_REF="a211">
+                <ANNOTATION_VALUE>And Slha’lhtth’a’qw was just mouthing off and making fun of Snotboy, saying that he was not normal.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a215" ANNOTATION_REF="a212">
+                <ANNOTATION_VALUE>So, Snotboy just went home and went to bed, and he covered up with a blanket.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a218" ANNOTATION_REF="a216">
+                <ANNOTATION_VALUE>The older brothers came home from duck hunting.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a219" ANNOTATION_REF="a217">
+                <ANNOTATION_VALUE>And when their food was ready, [their mother] said, “Go and wake up your brother.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a227" ANNOTATION_REF="a220">
+                <ANNOTATION_VALUE>So, he went to look.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a228" ANNOTATION_REF="a221">
+                <ANNOTATION_VALUE>He pulled back the covers and saw nothing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a229" ANNOTATION_REF="a222">
+                <ANNOTATION_VALUE>And that one brother said, “There’s just snot laying on the bed.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a230" ANNOTATION_REF="a223">
+                <ANNOTATION_VALUE>She said “Ah, my children, this is why I was telling you to be very careful.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a231" ANNOTATION_REF="a224">
+                <ANNOTATION_VALUE>Don’t be talking about him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a232" ANNOTATION_REF="a225">
+                <ANNOTATION_VALUE>You must have said something sarcastic.”
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a248" ANNOTATION_REF="a233">
+                <ANNOTATION_VALUE>And the other brothers said, “It is Slha’lhtth’a’qw that was being sarcastic, just mouthing off at him, and this is why he just went home and went to bed.”</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a249" ANNOTATION_REF="a234">
+                <ANNOTATION_VALUE>And that’s the reason for the prohibition on young ladies of long ago, that they were told it is bad for young ladies to be chewing gum.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a250" ANNOTATION_REF="a235">
+                <ANNOTATION_VALUE>It’s because the young lady was doing that when she was stolen away by Skwathshun’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a251" ANNOTATION_REF="a236">
+                <ANNOTATION_VALUE>And that is the end of the story.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a252" ANNOTATION_REF="a237">
+                <ANNOTATION_VALUE>The end.
+</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonemic" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

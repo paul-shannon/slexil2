@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-03-04T17:07:35+01:00" VERSION="3.0" FORMAT="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+	<HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+		<MEDIA_DESCRIPTOR MEDIA_URL="./p05_18_n170.mp4" RELATIVE_MEDIA_URL="./p05_18_n170.mp4" MIME_TYPE="video/mp4" />
+		<PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:1a9305d2-45e6-4489-98e5-c208610c8ef7</PROPERTY>
+		<PROPERTY NAME="lastUsedAnnotationId">194</PROPERTY>
+		</HEADER>
+	<TIME_ORDER>
+		<TIME_SLOT TIME_SLOT_ID="ts215" TIME_VALUE="118" />
+		<TIME_SLOT TIME_SLOT_ID="ts216" TIME_VALUE="998" />
+		</TIME_ORDER>
+	<TIER TIER_ID="M_Glosa" LINGUISTIC_TYPE_REF="default-lt">
+		<ANNOTATION>
+			<ALIGNABLE_ANNOTATION ANNOTATION_ID="a202" TIME_SLOT_REF1="ts215" TIME_SLOT_REF2="ts216">
+				<ANNOTATION_VALUE>REVISAR(M-CI)</ANNOTATION_VALUE>
+				</ALIGNABLE_ANNOTATION>
+			</ANNOTATION>
+		</TIER>
+	<TIER TIER_ID="VAR" LINGUISTIC_TYPE_REF="default-lt" />
+	<LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true" />
+	<LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="variacion-82Signamed" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="variacion-82Signamed" TIME_ALIGNABLE="false" />
+	<LANGUAGE LANG_ID="und" LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_LABEL="undetermined (und)" />
+	<CONSTRAINT STEREOTYPE="Time_Subdivision" DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" />
+	<CONSTRAINT STEREOTYPE="Symbolic_Subdivision" DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" />
+	<CONSTRAINT STEREOTYPE="Symbolic_Association" DESCRIPTION="1-1 association with a parent annotation" />
+	<CONSTRAINT STEREOTYPE="Included_In" DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" />
+	<CONTROLLED_VOCABULARY CV_ID="variacion-82Signamed">
+		<DESCRIPTION LANG_REF="und" />
+		<CV_ENTRY_ML CVE_ID="cveid_d63d6296-1613-42fc-ada4-7424d6767bcb">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="manuals">MAN</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_0d187673-1d75-427e-9211-a4f80d5a9137">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="lax articulation">LAX</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_c5b3635d-0601-499d-89db-1cec211fd07f">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="locus">LOC</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_b01d49fd-4733-43dc-90bb-b155bab47e37">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="morphology">MPH</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_4d080361-13f3-447b-95de-b245d92554f8">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="short/quick">SHO</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_7360c84e-1539-4d7d-9d63-4612a4a5b814">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="occlusion">OCC</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_1f01edae-cab3-47a7-b929-abf59ef3a179">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="frame out">OUT</CVE_VALUE>
+			</CV_ENTRY_ML>
+		<CV_ENTRY_ML CVE_ID="cveid_c1f329f1-1502-43b2-8fef-84e0c6c084fd">
+			<CVE_VALUE LANG_REF="und" DESCRIPTION="similar to">SIM</CVE_VALUE>
+			</CV_ENTRY_ML>
+		</CONTROLLED_VOCABULARY>
+	</ANNOTATION_DOCUMENT>

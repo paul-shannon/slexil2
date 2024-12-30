@@ -1,5 +1,6 @@
 # -*- tab-width: 3 -*-
 import yaml
+import pprint
 import pdb
 import os, sys
 from slexil.eafParser import EafParser
@@ -460,8 +461,7 @@ def test_getLineTable():
     assert(tbl["tierID"].tolist() == expected)
     assert(tbl.loc[0, "startTime"] == 0.0)
     assert(tbl.loc[0, "endTime"] == 3093.0)
-    assert(tbl['tabCount'].tolist() == [0, 6, 6, 0])
-
+    
 #---------------------------------------------------------------------------------------------------
 # a "line" is the parent time-aligned tier, and all of its associated child tiers
 # there are two time aligned "root" tiers here.
@@ -934,8 +934,101 @@ G,life-FEM]
 
 
 #---------------------------------------------------------------------------------------------------
+# in an early version, morpheme & gloss (analysis) lines were identified by the
+# presence of tabs in the text of the tiered line.
+# that's too lenient: a single tab in the translation lines was enough
+# to judge them analysis lines.   now tabs are counted per tier across
+# the entire eaf file.  an average of at least 2 tabs per line across
+# the file is needed; that is, an average of 3 morphemes and glosses
+# for each spoken line.
+def test_basil():
+
+    print("--- test_basil")
+    f = "../testData/validEafYamlFiles/from-dbeckServer/bugs/basil.eaf"
+    p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    p.run()
+    #p.findTiersWithTabs()
+    assert(p.tiersWithTabs == [])
+    tbl = p.getLineTable(1)   # first line in the story
+    translation = tbl['text'][2]
+    assert(translation == "Do you know about munmaanta'qw?")
+    y = p.toYAML("Basil", "speaker", "transcriber")
+
+
+    pyObj = yaml.safe_load("\n".join(y[7:12]))  
+    pprint.pp(pyObj)
+
+       # inspect the first line's tranlsation
+    assert(pyObj[0]["translation"] == "Do you know about munmaanta'qw?")
+       # now get that line directly
+    assert(p.lineToYAML(tbl, 0)[4] ==
+           "    translation: |\n         Do you know about munmaanta'qw?")
+
+#---------------------------------------------------------------------------------------------------
+# a degenerate 2 tier eaf, just one line, second tier unlinked to first
+def test_p05():
+
+    print("--- test_p05")
+
+    f = "../testData/validEafYamlFiles/from-dbeckServer/bugs/p05_s18_n170.eaf"
+    p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    p.run()
+    assert(p.tiersWithTabs == [])
+    tbl = p.getLineTable(1)   # first line in the story
+
+    #print("--- trace, test_ eafParser.py, test_p05")
+    #pdb.set_trace()
+
+    assert(tbl.shape == (1,8))
+    onlyText = tbl['text'][0]
+    assert(onlyText == 'REVISAR(M-CI)')
+    y = p.toYAML("p05", "unknown", "unknown")
+    pyObj = yaml.safe_load("\n".join(y))
+    pprint.pp(pyObj)
+    assert(pyObj == {'title': 'p05',
+                     'narrator': 'unknown',
+                     'textEntry': 'unknown',
+                     'mediaFile': './p05_18_n170.mp4',
+                     'mimeType': 'video/mp4',
+                     'lines': [{'lineNumber': 1,
+                                'startTime': 118,
+                                'endTime': 998,
+                                'M_Glosa': 'REVISAR(M-CI)\n'}]})
+
+#---------------------------------------------------------------------------------------------------
+def test_craneCom():
+
+    print("--- test_craneCom")
+
+    f = "../testData/validEafYamlFiles/from-dbeckServer/bugs/Crane_COM_TS_RP.eaf"
+    p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    p.run()
+
+    assert(p.tiersWithTabs == ['morphemes', 'morphemeGloss'])
+    print("  tiersWithTabs: %s" % ", ".join(p.tiersWithTabs))
+
+    tbl = p.getLineTable(1)   # first line in the story
+    y = p.lineToYAML(tbl, 1)
+    pyObj = yaml.safe_load("\n".join(y))
+    pprint.pp(pyObj)
+
+    print("--- trace, test_ eafParser.py, test_craneCom")
+    pdb.set_trace()
+
+    assert(tbl.shape == (1,8))
+    onlyText = tbl['text'][0]
+    assert(onlyText == 'REVISAR(M-CI)')
+    y = p.toYAML("p05", "unknown", "unknown")
+    pyObj = yaml.safe_load("\n".join(y))
+    pprint.pp(pyObj)
+
+#--------------------------------------------------------------------------------
 def runTests():
 
+   test_craneCom()
+   test_p05()
+   test_basil()
+   test_ctor()
    test_getLineTable()
    test_toYAML_inferno3()
    test_toYAML_daylightFull()
@@ -946,9 +1039,7 @@ def runTests():
    
    print("--- all done with root test")
    
-   test_ctor()
 
-   #test_getLineTable_nataliaYekwana()
 
 
    test_donkeyTiger()

@@ -1,37 +1,1638 @@
-title: jagpossum
-narrator: jagpossum
-textEntry: jagpossum
-mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
+title: a
+narrator: b
+textEntry: c
+mediaFile: file:///Users/David/OpenSource/github/slexil/testTextPyData/Jagpossum/5_OCO2_TheOpposumAndTheJaguar.wav
 mimeType: audio/x-wav
 
 lines:
   - lineNumber: 1
-    startTime: 0
-    endTime: 2828
-    italianSpeech: |
-         Nel mezzo del cammin di nostra vita
-    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
-    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
-    english: |
-         Midway upon the journey of our life
+    startTime: 14
+    endTime: 5144
+    ref: |
+         01
+    tx-cp: |
+         T@ʹ ts@ʹ@s ʹ@ʹ@nd@ ʹy@nhg@m@ʹkʹ@y@ t@ʹ k@k.
+    prs: [t@ʔ,¢@ʔ=ʔ@s,ʔ@y–@=ʔ@ŋ=t@,y–ʔ@ŋ–k@–m@ʔk–ʔǝy–@,t@ʔ,k@ŋ]
+    intr: [D##T,##p##ss##m=3##RG,##rr##v##.th##r######X–CMP=R##P=F##C,3##–M####TH–##TH##R–p##rs####–VRB–D##P1,D##T,j##g####r]
+    trns: ‘Th@ @p@ss@m w@nt th@r@ t@ tr@ck th@ j@g@@r.’
 
   - lineNumber: 2
-    startTime: 3095
-    endTime: 5500
-    italianSpeech: |
-         mi ritrovai per una selva oscura
-    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
-    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
-    english: |
-         I found myself within a forest dark
+    startTime: 5159
+    endTime: 7666
+    ref: |
+         02
+    tx-cp: |
+         ʹy@nhg@m@ʹkʹ@y@.
+    prs: [y–ʔ@ŋ–k@–m@ʔk–ʔǝy–@]
+    intr: [3##–M####TH–##TH##R–p##rs####–VRB–D##P1]
+    trns: |
+         ‘H@ l@@d t@ h@m.’
 
   - lineNumber: 3
-    startTime: 5624
-    endTime: 8033
-    italianSpeech: |
-         ché la diritta via era smarrita.
-    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
-    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
-    english: |
-         For the straightforward pathway had been lost.
+    startTime: 7695
+    endTime: 10117
+    ref: |
+         03
+    tx-cp: |
+         Py@ʹd@ʹ@nh t@ʹs@ t@ʹy@jk@m@.
+    prs: [y–p@ʔt–@=ʔ@ŋ,t@ʔ=s@,t@ʔyǝk=ʔ@m@]
+    intr: [3##–f##nd–CMP=R##P,M##D=S##M,s##m##th##ng=##ns##d##RN]
+    trns: |
+         ‘H@ f@@nd h@m @ns@d@ @f s@m@th@ng.’
+
+  - lineNumber: 4
+    startTime: 10117
+    endTime: 12058
+    ref: |
+         04
+    tx-cp: |
+         [ʹ@y@] ʹy@m@g@p@k@.
+    prs: [ʔ@y–@,y–@m@g@•pǝk–@]
+    intr: [##rr##v##.th##r######X–CMP,3##–fr####nd•t##k##–D##P1]
+    trns: |
+         ‘H@ c@m@ t@ b@ h@s fr@@nd.’
+
+  - lineNumber: 5
+    startTime: 12058
+    endTime: 15470
+    ref: |
+         05
+    tx-cp: |
+         T@ʹy@ t@m@ʹ@nh py@ʹd@ t@ʹ t@ʹy@jkʹ@s
+    prs: [t@ʔ=y@,t@ʔ=mǝʔ=ʔ@ŋ,y–p@ʔt–@,t@ʔ,t@ʔyǝk=ʔ@s]
+    intr: [M##D=L##C.##XT,M##D=L##C.##NT=R##P,3##–f##nd–CMP,D##T,s##m##th##ng=3##RG]
+    trns: |
+         ‘L@t@r, @pp@r@ntly, h@ f@@nd h@m th@r@ @ns@d@ th@t th@ng.’
+
+  - lineNumber: 6
+    startTime: 15470
+    endTime: 19176
+    ref: |
+         06
+    tx-cp: |
+         T@m@ʹ@nh ʹ@jtp@ t@m@ t@ʹy@jk@m@.
+    prs: [t@ʔ=mǝʔ=ʔ@ŋ,Ø–ʔ@t–p@,t@ʔ=mǝʔ,t@ʔyǝk=ʔ@m@]
+    intr: [M##D=L##C.##NT=R##P,3S–##x##st–CMP,M##D=L##C.##NT,s##m##th##ng=##ns##d##RN]
+    trns: |
+         ‘@pp@r@ntly, h@ w@s th@r@ @ns@d@ s@m@th@ng.’
+
+  - lineNumber: 7
+    startTime: 19176
+    endTime: 27294
+    ref: |
+         07
+    tx-cp: |
+         Ny@j@by@b@ʹ t@ʹy@jk ʹ@st@… s@p@t@! T@k@sy@pn@.
+    prs: [y–nǝm–h@y–p@=pǝʔ,t@ʔyǝk,@st@,s@p@t@,t@k@•s@p@n@]
+    intr: [3S–s##y–##PPR–##NC=R##L,##NT##R,##st##,s##p##t##,h####f•s##p##t##]
+    trns: |
+         ‘@n wh@t th@y c@ll…s@p@t@! S@p@t@.’
+
+  - lineNumber: 8
+    startTime: 27294
+    endTime: 30941
+    ref: |
+         08
+    tx-cp: |
+         T@m@ʹ@nh ʹ@jtp@ t@ʹ ts@ʹ.
+    prs: [t@ʔ=mǝʔ=ʔ@ŋ,Ø–ʔ@t–p@,t@ʔ,¢@ʔ]
+    intr: [M##D=L##C.##NT=R##P,3S–##x##st–##NC,D##T,##p##ss##m]
+    trns: |
+         ‘@pp@r@ntly, th@r@ w@s th@ @p@ss@m.’
+
+  - lineNumber: 9
+    startTime: 31000
+    endTime: 33882
+    ref: |
+         09
+    tx-cp: |
+         T@ʹy@ n@ʹk@ʹ@nh t@ʹ k@k.
+    prs: [t@ʔ=y@,Ø–n@ʔk–@=ʔ@ŋ,t@ʔ,k@ŋ]
+    intr: [M##D=L##C.##XT,3S–##rr##v##–CMP=R##P,D##T,j##g####r]
+    trns: |
+         ‘L@t@r, th@ j@g@@r @rr@v@d.’
+
+  - lineNumber: 10
+    startTime: 33882
+    endTime: 38705
+    ref: |
+         10
+    tx-cp: |
+         Ny@j@by@ʹ@nh, ʹ@m@g@ y@jkw@n@jkj@ʹts@ ʹ@jts@ t@m@k.
+    prs: [y–nǝm–h@y–p@=ʔ@ŋ,@m@g@,y@k–w@n@k–h@y–@ʔ=ʔ¢@,ʔǝh¢@,t@mǝ–k]
+    intr: [3##–s##y–##PPL–##NC=R##P,fr####nd,C####S–l##w##r–##PPL–##RR=1##BS,1##BS.PR##,##n##–SP##C##F]
+    trns: |
+         ‘@pp@r@ntly, h@ s@@d, “Fr@@nd, l@w@r @n@ d@wn f@r m@!” ’
+
+  - lineNumber: 11
+    startTime: 38724
+    endTime: 40291
+    ref: |
+         11
+    tx-cp: |
+         Y@jkw@n@jkj@by@t
+    prs: [y@k–w@n@k–h@y–p@=ʔt]
+    intr: [C####S–l##w##r–##PPL–##NC=1##RG]
+    trns: |
+         ‘ “@’ll l@w@r @t t@ y@@.’
+
+  - lineNumber: 12
+    startTime: 40300
+    endTime: 41324
+    ref: |
+         12
+    tx-cp: |
+         Y@jkw@n@jky@by@t.
+    prs: [y@k–w@n@k–h@y–p@=ʔt]
+    intr: [C####S–l##w##r–##PPL–##NC=1##RG]
+    trns: |
+         ‘ “@’ll l@w@r @t t@ y@@.’
+
+  - lineNumber: 13
+    startTime: 41330
+    endTime: 42710
+    ref: |
+         13
+    tx-cp: |
+         Mg@ʹtp@?
+    prs: [m–k@ʔt–p@]
+    intr: [2##–####t–##NC]
+    trns: |
+         ‘ “@r@ y@@ g@@ng t@ @@t @t?’
+
+  - lineNumber: 14
+    startTime: 42732
+    endTime: 44692
+    ref: |
+         14
+    tx-cp: |
+         Y@jkw@n@jkj@by@t ʹ@jt.
+    prs: [y@k–w@n@k–h@y–p@=ʔt,ʔǝht]
+    intr: [C####S–l##w##r–##PPL–##NC=1##RG,1PR##.##RG]
+    trns: |
+         ‘ “@’ll l@w@r @t t@ y@@.” ’
+
+  - lineNumber: 15
+    startTime: 45274
+    endTime: 47324
+    ref: |
+         15
+    tx-cp: |
+         ʹ@ k@m@ t@ʹ t@ʹy@jk…
+    prs: [ʔ@,k@m@,t@ʔ,t@ʔyǝk]
+    intr: [##nd,h##w,D##T,s##m##th##ng]
+    trns: |
+         ‘@nd h@w th@ th@ng @s…’
+
+  - lineNumber: 16
+    startTime: 47361
+    endTime: 49371
+    ref: |
+         16
+    tx-cp: |
+         T@ʹ ts@ʹ m@ny@b@ʹ@nhd@k@ʹ.
+    prs: [t@ʔ,¢@ʔ,Ø–m@ñ@=pǝʔ=ʔ@ŋ=t@=k@ʔ]
+    intr: [D##T,##p##ss##m,3S–tr##cky=R##L=R##P=C##P=w##ll]
+    trns: |
+         ‘W@ll, th@ @p@ss@m w@s d@v@@@s.’
+
+  - lineNumber: 17
+    startTime: 49573
+    endTime: 52508
+    ref: |
+         17
+    tx-cp: |
+         Ny@ʹ@jt@ʹ@nhn@ʹ@jk ts@ʹ p@l@b@ʹ.	
+    prs: [y–nǝ–ʔ@t–@=ʔ@ŋ=n@ʔ@k,¢@ʔ,Ø–p@l@=pǝʔ]
+    intr: [3##–##SS##C–##x##st–CMP=R##P=C##NTR,r##ck,3S–r####nd=R##L]
+    trns: |
+         ‘H@ h@d @ r@ck th@t w@s r@@nd.’
+
+  - lineNumber: 18
+    startTime: 53156
+    endTime: 54319
+    ref: |
+         18
+    tx-cp: |
+         Ny@j@y@ʹ@nh, ʹ@ʹd@ʹ.
+    prs: [y–nǝm–h@y–@=ʔ@ŋ,ʔ@ʔt–ǝʔ]
+    intr: [3##–s##y–##PPL–CMP=R##P,##p##n.m####th–##RR]
+    trns: |
+         ‘H@ t@ld h@m, “@p@n y@@r m@@th!’
+
+  - lineNumber: 19
+    startTime: 54319
+    endTime: 55971
+    ref: |
+         19
+    tx-cp: |
+         Mʹ@kn@k@m@t@ mt@nhʹ@jyj@by@b@ʹ,
+    prs: [m–ʔ@ŋ–n@k@=ʔ@m@=t@,m–tǝŋ–ʔǝy–h@y–p@=pǝʔ]
+    intr: [2PSR–M####TH–sk##n=##ns##d##RN=C##P,LCL–thr##w–VRB–##PPL–##NC=R##L]
+    trns: |
+         ‘ “@’ll thr@w @t @nt@ y@@r m@@th,’
+
+  - lineNumber: 20
+    startTime: 55999
+    endTime: 60310
+    ref: |
+         20
+    tx-cp: |
+         p@jk@ n@jsk@s@ w@ʹ@ ny@ʹk@ m@k@ p@nhʹ@b@ʹy@, y@y@.
+    prs: [p@rq@@,n@s–kǝs=y@,w@ʔ@,y–n@ʔk–@,m@ŋ–p@,Ø–p@ŋʔ@–pǝʔ–@,Ø–y@h–@]
+    intr: [b##c####s##,gr####nd–##b##v##RN=L##C.##XT,C##MP,3S.D##P–##rr##v##–D##P2,g######X–##NC,3S–##nd##–T##T##L–D##P1,3S–##nd–D##P1]
+    trns: |
+         ‘ “b@c@@s@ @f @t h@ts th@ gr@@nd @t w@ll f@ll @p@rt @nd b@ r@@n@d.’
+
+  - lineNumber: 21
+    startTime: 60340
+    endTime: 62261
+    ref: |
+         21
+    tx-cp: |
+         ʹ@ʹd@d@ʹ@ʹ!
+    prs: [ʔ@ʔt–ǝʔ=t@=ʔ@m]
+    intr: [##p##n.m####th–##RR=L##M=####M]
+    trns: |
+         ‘ “@p@n y@@r m@@th @lr@@dy!’
+
+  - lineNumber: 22
+    startTime: 62313
+    endTime: 64632
+    ref: |
+         22
+    tx-cp: |
+         Mʹ@kn@k@m@ mt@nhʹ@jyj@by@.
+    prs: [m–ʔ@ŋ–n@k@=ʔ@m@,m–tǝŋ–ʔǝy–h@y–p@]
+    intr: [2PSR–M####TH–sk##n=##ns##d##RN,LCL–thr##w–VRB–##PPL–##NC]
+    trns: |
+         ‘ “@’ll thr@w @t @n y@@r m@@th.” ’
+
+  - lineNumber: 23
+    startTime: 64712
+    endTime: 68216
+    ref: |
+         23
+    tx-cp: |
+         ʹ@ʹtk@ʹmb@ʹ@nh k@k n@m@k@.
+    prs: [Ø–ʔ@ʔt•k@ʔm–p@=ʔ@ŋ,k@ŋ,n@m@k@]
+    intr: [3S–##p##n.m####th•g##.##p–##NC=R##P,j##g####r,m##ch]
+    trns: |
+         ‘Th@ j@g@@r @p@n@d h@s m@@th w@d@ @nd f@c@d @pw@rd.’
+
+  - lineNumber: 24
+    startTime: 69242
+    endTime: 75007
+    ref: |
+         24
+    tx-cp: |
+         Ty@km@ʹnj@y@ʹ@nh ts@ʹ@s p@r k@@nt@ t@ʹ t@k@sy@pn@.
+    prs: [y–tǝŋ•mǝʔn–h@y–@=ʔ@ŋ,¢@ʔ=ʔ@s,p@r,c@@nt@,t@ʔ,t@k@•s@p@n@]
+    intr: [3##–thr##w•l##w##r–##PPL–CMP=R##P,##p##ss##m=3##RG,f##r,##cc####nt,D##T,h####f•s##p##t##]
+    trns: |
+         ‘Th@ @p@ss@m thr@w @t d@wn, @t w@s s@pp@s@d t@ b@ @ s@p@t@ fr@@t.’
+
+  - lineNumber: 25
+    startTime: 75061
+    endTime: 76397
+    ref: |
+         25
+    tx-cp: |
+         J@ʹn@nhd@ t@k@sy@pn@.
+    prs: [Ø–h@ʔn=ʔ@ŋ=t@,t@k@•s@p@n@]
+    intr: [3S–N##G.##NC=R##P=F##C,h####f•s##p##t##]
+    trns: |
+         ‘@t w@sn’t @ s@p@t@.’
+
+  - lineNumber: 26
+    startTime: 76438
+    endTime: 78633
+    ref: |
+         26
+    tx-cp: |
+         P@l@b@ʹ ts@ʹ@nh ty@nhʹ@jyj@y@ ʹy@kn@k@m@.
+    prs: [Ø–p@l@=pǝʔ,¢@ʔ=ʔ@ŋ,y–tǝŋ–ʔǝy–h@y–@,y–ʔ@ŋ–n@k@=ʔ@m@]
+    intr: [3S–r####nd=R##L,r##ck=R##P,3##–thr##w–VRB–##PPL–CMP,3PSR–M####TH–sk##n=##ns##d##RN]
+    trns: |
+         ‘H@ thr@w @ r@@nd r@ck @nt@ h@s m@@th.’
+
+  - lineNumber: 27
+    startTime: 78633
+    endTime: 81874
+    ref: |
+         27
+    tx-cp: |
+         Y@ʹk@j@y@ʹ@nh ty@jts k@nʹ@s ny@ʹ.
+    prs: [y–y@ʔk@–h@y–@=ʔ@ŋ,y–tǝ¢,k@ŋ=ʔ@s,y–n@ʔ]
+    intr: [3##–sc##tt##r–##PPL–CMP=R##P,3PSR–t####th,j##g####r=3G##N,3PSR–G##N.PR##]
+    trns: |
+         ‘H@ sc@tt@r@d @ll th@ j@g@@r’s t@@th.’
+
+  - lineNumber: 28
+    startTime: 82036
+    endTime: 83415
+    ref: |
+         28
+    tx-cp: |
+         J@ʹ@ by@nts@ts@jk@.
+    prs: [hǝʔǝ,y–b@n¢@–¢ǝk–@]
+    intr: [##F##RM,3##–d##f####t–d##–CMP]
+    trns: |
+         ‘Y@s, h@ d@f@@t h@m.’
+
+  - lineNumber: 29
+    startTime: 83420
+    endTime: 85946
+    ref: |
+         29
+    tx-cp: |
+         M@k@ʹ@nh nhg@ng@ʹ@ p@d@w@jtp@.
+    prs: [Ø–m@ŋ–@=ʔ@ŋ,ŋ–k@ŋ–k@ʔ@,Ø–p@t@•w@t–p@]
+    intr: [3S–g##–CMP=R##P,M##SC–j##g####r–m##l##,3S–r##ll•w##lk–##NC]
+    trns: |
+         ‘Th@ j@g@@r r@ll@d @w@y.’
+
+  - lineNumber: 30
+    startTime: 88525
+    endTime: 91175
+    ref: |
+         30
+    tx-cp: |
+         ʹ@y@j@m@ʹk@m py@ʹtk@ʹd@ʹ@nh.
+    prs: [ʔ@y@–h@m@=ʔk=ʔ@m,y–p@ʔt–k@ʔt–@=ʔ@ŋ]
+    intr: [##th##r–d##y=TS##B=####M,3##–f##nd–R##P##T–CMP=R##P]
+    trns: |
+         ‘@n@th@r d@y (th@ j@g@@r) c@m@ @cr@ss h@m @g@@n.’
+
+  - lineNumber: 31
+    startTime: 91300
+    endTime: 98000
+    ref: |
+         31
+    tx-cp: |
+         Ny@j@y@ʹ@nh, w@n@ ʹ@m@g@ y@t@ ʹ@ʹts@ my@jks@ts@k@.
+    prs: [y–nǝm–h@y–@=ʔ@ŋ,b@@n@,@m@g@,yǝt@,ʔ@y–@=ʔ¢@,m–y@ks@•¢ǝk–@]
+    intr: [3S–s##y–##PPL–CMP=R##P,g####d,fr####nd,n##w,##rr##v##.th##r######X–CMP=1##BS,LCL–b##d•d##–D##P1]
+    trns: |
+         ‘H@ t@ld h@m, “W@ll, my fr@@nd, y@@ wr@ng@d m@ j@st n@w.’
+
+  - lineNumber: 32
+    startTime: 98213
+    endTime: 101738
+    ref: |
+         32
+    tx-cp: |
+         Y@t@ m@k@t mg@ʹs@ y@ʹk@.
+    prs: [yǝt@,m@ŋ–p@=ʔt,m–kǝʔs–@,yǝʔ=k@]
+    intr: [n##w,g######X–##NC=1##RG,LCL–####t–D##P1,PRX=L##C.##XT]
+    trns: |
+         ‘ “N@w @’m g@@ng t@ @@t y@@ h@r@.” ’
+
+  - lineNumber: 33
+    startTime: 101963
+    endTime: 103588
+    ref: |
+         33
+    tx-cp: |
+         ʹ@m@g@ ʹ@ʹts@ mg@ʹs@!
+    prs: [@m@g@,ʔ@ʔ=ʔ¢@,m–kǝʔs–@]
+    intr: [fr####nd,N##G.##MP=1##BS,LCL–####t–D##P2]
+    trns: |
+         ‘ “Fr@@nd, d@n’t @@t m@!’
+
+  - lineNumber: 34
+    startTime: 103638
+    endTime: 105188
+    ref: |
+         34
+    tx-cp: |
+         ʹ@ʹts@ mg@s@!
+    prs: [ʔ@ʔ=ʔ¢@,m–kǝʔs–@]
+    intr: [N##G.##MP=1##BS,LCL–####t–D##P2]
+    trns: |
+         ‘ “D@n’t @@t m@!’
+
+  - lineNumber: 35
+    startTime: 105326
+    endTime: 109001
+    ref: |
+         35
+    tx-cp: |
+         M@k@ʹt y@jkʹ@js@ f@rt@n@, ny@j@y@ʹ@nh.
+    prs: [m@ŋ–p@=ʔt,y@k–ʔ@s–@,f@rt@n@,y–nǝm–h@y–@=ʔ@ŋ]
+    intr: [g######X–##NC=1##RG,C####S–s####–D##P1,f##rt##n##,3##–s##y–##PPL–CMP=R##P]
+    trns: |
+         ‘ “@’ll sh@w y@@ @ f@rt@n@,” h@ t@ld h@m.’
+
+  - lineNumber: 36
+    startTime: 109026
+    endTime: 111126
+    ref: |
+         36
+    tx-cp: |
+         ʹ@jt@ f@rt@n@ y@ʹm@ n@ʹk@ʹm@.
+    prs: [Ø–ʔ@t–@,f@rt@n@,yǝʔ=mǝʔ,nǝʔ=kǝʔ=mǝʔ]
+    intr: [3S–##x##st–CMP,f##rt##n##,PRX=L##C.##NT,w##t##r=##nd##rRN=L##C.##NT]
+    trns: |
+         ‘ “Th@r@ @s @ tr@@s@r@ @v@r th@r@, @nd@r th@ w@t@r.’
+
+  - lineNumber: 37
+    startTime: 111389
+    endTime: 114689
+    ref: |
+         37
+    tx-cp: |
+         [M@]k@ʹt y@jkʹ@js@ k@nt@lk@ʹts@ j@ʹ mg@ʹs@.
+    prs: [m@ŋ–p@=ʔt,y@k–ʔ@s–@,c@n‿t@l‿q@@=ʔ¢@,h@ʔn,m–kǝʔs–@]
+    intr: [g######X–##NC=1##RG,C####S–s####–D##P1,##s.l##ng.##s=1##BS,N##G.##NC,LCL–####t–D##P1]
+    trns: |
+         ‘ “@’ll sh@w y@@ @s l@ng @s y@@ d@n’t @@t m@.” ’
+
+  - lineNumber: 38
+    startTime: 114775
+    endTime: 117775
+    ref: |
+         38
+    tx-cp: |
+         M@ny@b@ʹ@nhd@k@ʹ n@m@k@ t@ʹ ts@ʹ.
+    prs: [Ø–m@ñ@=pǝʔ=ʔ@ŋ=t@=k@ʔ,n@m@k@,t@ʔ,¢@ʔ]
+    intr: [3S–tr##cky=R##L=R##P=C##P=w##ll,m##ch,D##T,##p##ss##m]
+    trns: |
+         ‘Th@ @p@ss@m @s v@ry d@v@@@s.’
+
+  - lineNumber: 39
+    startTime: 118266
+    endTime: 119391
+    ref: |
+         39
+    tx-cp: |
+         ʹ@ y@jkʹ@jsk@ʹd@.
+    prs: [ʔ@y–@,y@k–ʔ@s–k@ʔt–@]
+    intr: [##rr##v##.th##r######X–CMP,C####S–s####–##ls##–D##P1]
+    trns: |
+         ‘H@ w@nt t@ sh@w h@m @s w@ll.’
+
+  - lineNumber: 40
+    startTime: 120501
+    endTime: 123367
+    ref: |
+         40
+    tx-cp: |
+         T@ʹ j@m@s@nh tsy@s@ t@ʹk@by@b@ʹ t@ʹ n@ʹk@m@.
+    prs: [t@ʔ,h@m@=ʔ@s=ʔ@ŋ,y–¢@s@,Ø–tǝk–ʔǝy–p@=pǝʔ,t@ʔ,nǝʔ=kǝʔ=mǝʔ]
+    intr: [D##T,s##n=3G##N=R##P,3PSR–f##l##m##nt,3S–h####s##–VRB–##NC=R##L,D##T,w##t##r=##nd##rRN=L##C.##NT]
+    trns: |
+         ‘Th@ s@nb@@ms @nt@r@d th@ w@t@r.’
+
+  - lineNumber: 41
+    startTime: 123371
+    endTime: 125129
+    ref: |
+         41
+    tx-cp: |
+         Ny@j@y@ʹ@nh, j@k@nd@ j@k@ n@ʹk@m@.
+    prs: [y–nǝm–h@y–@=ʔ@ŋ,h@k=ʔ@m=t@,h@kǝ,nǝʔ=kǝʔ=mǝʔ]
+    intr: [3##–s##y–##PPL–CMP=R##P,D##ST=####M=F##C,D##ST,w##t##r=##nd##rRN=L##C.##NT]
+    trns: |
+         ‘H@ t@ld h@m, “@t’s th@t, th@t @nd@r th@ w@t@r.’ 
+
+  - lineNumber: 42
+    startTime: 125133
+    endTime: 127836
+    ref: |
+         42
+    tx-cp: |
+         T@ʹnh@ʹ y@ʹ n@ʹ ʹ@ t@ʹnh@ʹ ʹ@ t@ʹnh@ʹ!
+    prs: [t@ʔŋ–@ʔ,yǝʔ,nǝʔ,ʔ@,t@ʔŋ–@ʔ,ʔ@,t@ʔŋ–@ʔ]
+    intr: [dr##nk–##RR,PRX,w##t##r,##nd,dr##nk–##RR,##nd,dr##nk–##RR]
+    trns: |
+         ‘ “Dr@nk th@s w@t@r, @nd dr@nk @nd dr@nk!’
+
+  - lineNumber: 43
+    startTime: 128142
+    endTime: 130662
+    ref: |
+         43
+    tx-cp: |
+         T@jtsp@ y@ʹ n@ʹ mb@jkp@ t@ f@rt@n@.
+    prs: [Ø–tǝ¢–p@,yǝʔ,nǝʔ,m–pǝk–p@,t@ʔ,f@rt@n@]
+    intr: [3S–dry–##NC,PRX,w##t##r,2##–t##k##–##NC,D##T,f##rt##n##]
+    trns: |
+         ‘ “Wh@n th@ l@k@ b@c@m@s dry (@r wh@n th@ w@t@r h@s g@n@), y@@ c@n t@k@ th@ tr@@s@r@.” ’
+
+  - lineNumber: 44
+    startTime: 130779
+    endTime: 133466
+    ref: |
+         44
+    tx-cp: |
+         ʹ@ j@m@d@ʹ@nhd@ k@nd@jk@by@b@ʹ t@ʹ n@ʹk@m@.
+    prs: [ʔ@,h@m@=t@=ʔ@ŋ=t@,Ø–k@n–tǝk–ʔǝy–p@=pǝʔ,t@ʔ,nǝʔ–kǝʔ–mǝʔ]
+    intr: [##nd,s##n=L##M=R##P=C##P,3S–s####–h####s##–VRB–##NC=R##L,D##T,w##t##r=##nd##rRN=L##C.##NT]
+    trns: |
+         ‘@nd @t w@s j@st th@ s@n r@fl@ct@d @n th@ w@t@r.’
+
+  - lineNumber: 45
+    startTime: 133904
+    endTime: 135290
+    ref: |
+         45
+    tx-cp: |
+         Ts@ʹnhg@ʹd@ʹ@nh k@k.
+    prs: [Ø–¢@ʔŋ–k@ʔt–@=ʔ@ŋ,k@ŋ]
+    intr: [3S–spl##t–##ls##–CMP=R##P,j##g####r]
+    trns: |
+         ‘@ls@ th@ j@g@@r spl@t @p@n.’
+
+  - lineNumber: 46
+    startTime: 135317
+    endTime: 137334
+    ref: |
+         46
+    tx-cp: |
+         Ty@ʹnhb@b@ʹ@nhd@ n@ʹ ty@ʹnhb@ʹ@nh.
+    prs: [y–t@ʔŋ–p@=pǝʔ=ʔ@ŋ=t@,nǝʔ,y–t@ʔŋ–p@=ʔ@ŋ]
+    intr: [3##–dr##nk–##NC=R##L=R##P=C##P,w##t##r,3##–dr##nk–##NC=R##P]
+    trns: |
+         ‘H@ dr@nk @nd dr@nk th@ w@t@r.’
+
+  - lineNumber: 47
+    startTime: 137574
+    endTime: 139138
+    ref: |
+         47
+    tx-cp: |
+         T@js@ʹ@nh tsy@jk.
+    prs: [Ø–t@s–@=ʔ@ŋ,y–¢@k]
+    intr: [3S–f##ll–CMP=R##P,3PSR–st##m##ch]
+    trns: |
+         ‘H@s st@m@ch f@ll@d @p.’
+
+  - lineNumber: 48
+    startTime: 139374
+    endTime: 142307
+    ref: |
+         48
+    tx-cp: |
+         N@ʹ@m@nh wy@b@ʹ@ ny@ʹn@ ty@d@m.
+    prs: [nǝ=ʔ@m=ʔ@ŋ,y–w@p@ʔ–@,y–n@ʔn@,y–t@=t@ʔm]
+    intr: [PR##G=####M=R##P,3S.D##P–dr##p–D##P2,3PSR–b##cks##d##,3PSR–th##ng=PL]
+    trns: |
+         ‘H@ w@s l@@k@ng fr@m h@s b@cks@d@ @nd @th@r p@rts.’
+
+  - lineNumber: 49
+    startTime: 142552
+    endTime: 148304
+    ref: |
+         49
+    tx-cp: |
+         N@b@ʹ@nh, p@r@ y@ʹ ʹ@nhg@m@ʹkʹ@y@b@ʹts@d@, y@tsy ʹ@n@m@l@s, n@mb@ʹ@nh.
+    prs: [Ø–nǝm–@=ʔ@ŋ,p@r@,yǝʔ=ʔ@s,Ø–ʔ@ŋ–k@–m@ʔk–ʔǝy–@=pǝʔ=ʔ¢@=t@,y@¢@,@n@m@l=ʔ@s,Ø–nǝm–p@=ʔ@ŋ]
+    intr: [3S–s##y–CMP=R##P,b##t,PRX=3##RG,1P##–M####TH–##TH##R–p##rs####–VRB–CMP=R##L=1##BS=C##P,b##d,##n##m##l=3##RG,3S–s##y–##NC=R##P]
+    trns: |
+         ‘H@ s@ys, “B@t th@s @v@l @n@m@l tr@ck@d m@.” ’
+
+  - lineNumber: 50
+    startTime: 148550
+    endTime: 149922
+    ref: |
+         50
+    tx-cp: |
+         Tsy@jk@ʹd@ʹ@nh.
+    prs: [y–¢@k–k@ʔt–@=ʔ@ŋ]
+    intr: [3##–l####v##–##ls##–CMP=R##P]
+    trns: |
+         ‘H@ @ls@ l@ft h@m.’
+
+  - lineNumber: 51
+    startTime: 150652
+    endTime: 152447
+    ref: |
+         51
+    tx-cp: |
+         ʹ@y@ j@m@ʹk@m py@ʹtk@ʹd@ʹ@nh.
+    prs: [ʔ@y@,h@m@=ʔk=ʔ@m,y–p@ʔt–k@ʔt–@=ʔ@ŋ]
+    intr: [##th##r,d##y=TS##B=####M,3##–f##nd–##ls##–CMP=R##P]
+    trns: |
+         ‘@n@th@r d@y h@ f@@nd h@m @g@@n.’
+
+  - lineNumber: 52
+    startTime: 152486
+    endTime: 156294
+    ref: |
+         52
+    tx-cp: |
+         Ny@j@y@, w@n@ y@t@ m@k@m ʹ@jt mb@n@k@ʹs@, ny@j@y@.
+    prs: [y–nǝm–h@y–@,b@@n@,yǝt@,m@ŋ–p@=ʔ@m,ʔǝht,m–p@n@–kǝʔs–@,y–nǝm–h@y–@]
+    intr: [3##–s##y–##PPL–CMP,g####d,n##w,g######X–##NC=####M,1##RG.PR##,LCL–##bl##g##t##–####t–D##P1,3##–s##y–##PPR–CMP]
+    trns: |
+         ‘H@ t@ld h@m, “G@@d, @ m@st @@t y@@,” h@ t@ld h@m.’
+
+  - lineNumber: 53
+    startTime: 157422
+    endTime: 159768
+    ref: |
+         53
+    tx-cp: |
+         ʹ@m@g@ ʹ@ts@ m@k@ mg@ʹs@, ny@j@y@ʹ@nh.
+    prs: [@m@g@,ʔ@=ʔ¢@,m@ŋ–@,m–kǝʔs–@,y–nǝm–h@y–@=ʔ@ŋ]
+    intr: [fr####nd,N##G.##MP=1##BS,g######X–D##P2,LCL–####t–D##P1,3##–s##y–##PPL–CMP=R##P]
+    trns: |
+         ‘ “Fr@@nd, y@@’r@ n@t g@@ng t@ @@t m@,” h@ t@ld h@m.’
+
+  - lineNumber: 54
+    startTime: 160281
+    endTime: 161270
+    ref: |
+         54
+    tx-cp: |
+         ʹ@y@d@ts@k@ʹts@!
+    prs: [ʔ@y@d@•¢ǝk–h@y–ǝʔ=ʔ¢@]
+    intr: [h##lp•d##–##PPL–##RR=1##BS]
+    trns: |
+         ‘ “H@lp m@!’
+
+  - lineNumber: 55
+    startTime: 161275
+    endTime: 163169
+    ref: |
+         55
+    tx-cp: |
+         N@ʹts@ m@k@ s@nhʹ@y@ y@t@.
+    prs: [nǝ=ʔ¢@,m@ŋ–@,Ø–sǝŋ–ʔ@h–y@h–@,yǝt@]
+    intr: [PR##G=1##BS,g######X–D##P2,1S.D##P–p##rty–##NCH–3PL–D##P1,n##w]
+    trns: |
+         ‘ “L@t’s g@ h@v@ @ p@rty n@w.’
+
+  - lineNumber: 56
+    startTime: 163363
+    endTime: 165682
+    ref: |
+         56
+    tx-cp: |
+         ʹ@jt@ nm@s@nʹ@n@ n@ m@k@b@ʹ ky@ʹd@jk@,
+    prs: [Ø–ʔ@t–@,n–m@s@n–ʔ@n@,nǝ,m@ŋ–@=pǝʔ,y–k@ʔ–tǝk–@]
+    intr: [3S–##x##st–CMP,1PSR–s##cr##d–s##n,PR##G,g######X–D##P2=R##L,3S.##NDP–H####D–h####s##–D##P1,]
+    trns: |
+         ‘ “@ h@v@ @ g@ds@n wh@ @s g@@ng t@ g@t m@rr@@d,’
+
+  - lineNumber: 57
+    startTime: 165999
+    endTime: 168920
+    ref: |
+         57
+    tx-cp: |
+         ʹ@ ʹ@jt n@ʹt s@tn@ nhg@t@rr@p@ʹkp@b@ʹ, ny@j@y@ʹ@nh.
+    prs: [ʔ@,ʔǝht,nǝ=ʔt,Ø–s@t–@,Ø–ŋ–g@@t@rr@•p@ʔk–p@=pǝʔ,y–nǝm–h@y–@=ʔ@ŋ]
+    intr: [##nd,1##RG.PR##,PR##G=1##RG,1##–w##nt–D##P2,3S–M##SC–g####t##r•pl##y–##NC=R##L,3##–s##y–##PPL–CMP=R##P]
+    trns: |
+         ‘ “@nd @ w@nt @ g@@t@r pl@y@r,” h@ t@ld h@m.’
+
+  - lineNumber: 58
+    startTime: 169202
+    endTime: 170973
+    ref: |
+         58
+    tx-cp: |
+         W@y@nhs@? W@y@nhs@?
+    prs: [Ø–w@y@ŋ=s@,Ø–w@y@ŋ=s@]
+    intr: [3S–str####ght=S##M,3S–str####ght=S##M]
+    trns: |
+         ‘ “@s th@s f@r r@@l? @s th@s f@r r@@l?” ’
+
+  - lineNumber: 59
+    startTime: 171329
+    endTime: 173701
+    ref: |
+         59
+    tx-cp: |
+         M@ p@ʹks@ j@nh@ʹ!
+    prs: [m@ŋ–ǝʔ,p@ʔks–@ʔ,h@ŋǝʔ]
+    intr: [g######X–##MP,s##t–##MP,D##ST]
+    trns: |
+         ‘ “G@ s@t th@r@!’
+
+  - lineNumber: 60
+    startTime: 173967
+    endTime: 175877
+    ref: |
+         60
+    tx-cp: |
+         J@nh@ʹ m@k@ mts@jkp@ʹy@.
+    prs: [h@ŋǝʔ,m@ŋ–p@,m–¢@k–pǝʔ–@]
+    intr: [D##ST,g######X–##NC,LCL–l####v##–t##t##l–D##P1]
+    trns: |
+         ‘ “Th@r@ @’m g@@ng t@ l@@v@ y@@.’
+
+  - lineNumber: 61
+    startTime: 175951
+    endTime: 178781
+    ref: |
+         61
+    tx-cp: |
+         ʹ@ ʹ@jt m@k@ m@kp@k@ t@ʹ nm@s@nʹ@n@.
+    prs: [ʔ@,ʔǝht,m@ŋ–p@=ʔt,n–m@ŋ–pǝk–@,t@ʔ,n–m@s@n•ʔ@n@]
+    intr: [##nd,1##RG.PR##,g######X–##NC=1##RG,1##–g##–t##k##–D##P1,D##T,1PSR–s##cr##d•ch##ld]
+    trns: |
+         ‘ “@nd @’ll g@ g@t my g@ds@n.” ’
+
+  - lineNumber: 62
+    startTime: 178858
+    endTime: 180188
+    ref: |
+         62
+    tx-cp: |
+         Nÿ@j@y@ʹ@nh ts@ʹ@s,
+    prs: [y–nǝm–h@y–@=ʔ@ŋ,¢@ʔ=ʔ@s]
+    intr: [3##–s##y–##PPL–CMP=R##P,##p##ss##m=3##RG]
+    trns: |
+         ‘Th@ @p@ss@m t@ld (th@ j@g@@r),’
+
+  - lineNumber: 63
+    startTime: 180292
+    endTime: 182834
+    ref: |
+         63
+    tx-cp: |
+         P@r@ sy@nhʹ@jp@b@ʹd@ m@jts@.
+    prs: [p@r@,ny–sǝŋ–ʔ@h–p@=pǝʔ=t@,m@h¢@]
+    intr: [b##t,2S–p##rty–##NCH–##NC=R##L=C##P,2##BS.PR##]
+    trns: |
+         ‘ “B@t @t’s y@@ wh@ w@ll h@v@ f@n.’
+
+  - lineNumber: 64
+    startTime: 183011
+    endTime: 186218
+    ref: |
+         64
+    tx-cp: |
+         Mj@ʹtsp@b@ʹd@ mg@t@rr@ ʹ@ w@y@nhs@.
+    prs: [m–h@ʔ¢–p@=pǝʔ=t@,m–g@@t@rr@,ʔ@,w@y@ŋ=s@]
+    intr: [2##–scr##tch–##NC=R##L=C##P,2PSR–g####t##r,##nd,r##ght=S##M]
+    trns: |
+         ‘ “Y@@ pl@y y@@r g@@t@r @ l@t.’
+
+  - lineNumber: 65
+    startTime: 186244
+    endTime: 190050
+    ref: |
+         65
+    tx-cp: |
+         M@nb@ n@m@k@m n@ ʹy@nhʹ@ny@,
+    prs: [m–m@n–p@,n@m@k@=ʔ@m,nǝ,y–ʔ@ŋʔǝy–nǝm–@]
+    intr: [2##–l##st##n–##NC,m##ch=####M,PR##G,3S.D##P–s####nd–##MPL–D##P2]
+    trns: |
+         ‘ “@f y@@ h@@r th@t @t’s t@@ l@@d,
+
+  - lineNumber: 66
+    startTime: 190163
+    endTime: 195332
+    ref: |
+         66
+    tx-cp: |
+         n@ py@k@ t@ʹ j@kt@jk,
+    prs: [nǝ,y–pǝk–@,t@ʔ,h@k–tǝk]
+    intr: [PR##G,3S.D##P–##xpl##d##–D##P2,D##T,sm##k##–##NSTR.N##M2]
+    trns: |
+         ‘ “th@ f@r@ @s @xpl@d@ng,’
+
+  - lineNumber: 67
+    startTime: 195389
+    endTime: 196909
+    ref: |
+         67
+    tx-cp: |
+         ts@ʹ@ mb@m@!
+    prs: [¢@ʔ–ǝʔ,m–pǝm@]
+    intr: [g##v##–##RR,2PSR–str##ngth]
+    trns: |
+         ‘ “g@v@ @t @ll y@@r str@ngth!’
+
+  - lineNumber: 68
+    startTime: 196914
+    endTime: 199863
+    ref: |
+         68
+    tx-cp: |
+         N@ʹ@nd@ my@d@ʹk k@ʹd@jk@p@b@ʹ.
+    prs: [nǝ=ʔ@m=t@,y–m@n–@=ʔk,Ø–k@ʔ–tǝk–ʔ@h–p@=pǝʔm@ŋ–@,y–h@ʔk–k@ʔt–@,Ø–k@ʔ–tǝk–ʔ@h–p@=pǝʔ]
+    intr: [PR##G=####M=C##P,3S.D##P–c##m##–D##P2=TS##B,3S.##NDP–H####D–h####s##–##NCH–##NC=R##L]
+    trns: |
+         ‘ “Th@t’s wh@n th@ p@rs@n wh@ @s g@@ng t@ g@t m@rr@@d @s c@m@ng.” ’
+
+  - lineNumber: 69
+    startTime: 199966
+    endTime: 203325
+    ref: |
+         69
+    tx-cp: |
+         M@nhg@ʹd@ʹ@nh p@br@sp@ k@k.
+    prs: [Ø–m@ŋ–k@ʔt–@=ʔ@ŋ,Ø–p@br@=pǝʔ,k@ŋ]
+    intr: [3S–g##–R##P##T–##NC=R##P,3S–p####r=R##L,j##g####r]
+    trns: |
+         ‘Th@ p@@r j@g@@r w@nt b@ck.’
+
+  - lineNumber: 70
+    startTime: 203400
+    endTime: 205345
+    ref: |
+         70
+    tx-cp: |
+         [M@k@] yj@ʹk@ʹd@ k@ʹd@jk@jp@b@ʹ.
+    prs: [m@ŋ–@,y–h@ʔk–k@ʔt–@,Ø–k@ʔ–tǝk–ʔ@h–p@=pǝʔ]
+    intr: [g######X–CMP,3##–w####t–R##P##T–D##P1,3S–H####D–h####s##–##NCH–##NC=R##L]
+    trns: |
+         ‘H@ w@nt b@ck t@ w@@t f@r th@ @n@ wh@ w@s g@@ng t@ g@t m@rr@@d.’
+
+  - lineNumber: 71
+    startTime: 205440
+    endTime: 209456
+    ref: |
+         71
+    tx-cp: |
+         Ts@k@b@d@jk@m@ʹ@nh ʹ@ tsy@k@  t@ʹ ts@ʹ@s t@ k@k.
+    prs: [¢@•k@p@•tǝk=ʔ@m@=ʔ@ŋ,ʔ@y–@,y–¢@k–@,t@ʔ,¢@ʔ=ʔ@s,t@ʔ,k@ŋ]
+    intr: [n##ght•r####d•h####s##=##ns##d##RN=R##P,##rr##v##.th##r######X–CMP,3##–l####v##–D##P1,D##T,##p##ss##m=3##RG,D##T,j##g####r]
+    trns: |
+         ‘@t th@ r@@d h@@s@, th@ @p@ss@m l@ft th@ j@g@@r.’
+
+  - lineNumber: 72
+    startTime: 209527
+    endTime: 214291
+    ref: |
+         72
+    tx-cp: |
+         Ts@’nhʹ@ʹ@nh t@ʹ ts@ʹ ʹ@ʹ@nh ny@j@ m@jksyk@ny@g@y@ t@ʹ ts@k@b@t@jk.
+    prs: [Ø–¢@ʔŋ–@=ʔ@ŋ,t@ʔ,¢@ʔ,ʔ@y–@=ʔ@ŋ,y–n@ʔ–ʔ@h–@,m@hksyk@y–n@–w@y–@,t@ʔ,¢@•k@p@•tǝk]
+    intr: [3S–##x##t–CMP=R##P,D##T,##p##ss##m,##rr##v##.th##r######X=R##P,3##–l##ght–##PPL=D##P,f####r–B##DY–r##ll–PCP,D##T,n##ght•r####d•h####s##]
+    trns: |
+         ‘Th@ @p@ss@m l@ft; h@ s@t f@r@ t@ th@ r@@d h@@s@ @n f@@r pl@c@s.’
+
+  - lineNumber: 73
+    startTime: 214353
+    endTime: 216893
+    ref: |
+         73
+    tx-cp: |
+         My@nb@ʹ@nh t@ʹ k@nhʹ@s.
+    prs: [y–m@n–p@=ʔ@ŋ,t@ʔ,k@ŋ=ʔ@s]
+    intr: [3##–l##st##n–##NC=R##P,D##T,j##g####r=3##RG]
+    trns: |
+         ‘Th@ j@g@@r h@@rd.’
+
+  - lineNumber: 74
+    startTime: 216991
+    endTime: 220031
+    ref: |
+         74
+    tx-cp: |
+         P@nhj@tj@tn@by@ʹ@nh ʹ@nhʹ@by@ tʹ@ ts@k@b@.
+    prs: [Ø–pǝŋ•h@t~h@t–n@y–p@=ʔ@ŋ,Ø–ʔ@ŋʔǝy–p@,t@ʔ,¢@•k@p@]
+    intr: [3S–##xpl##d##•s####nd~R##D##P–##FF##C–##NC=R##P,3S–s####nd–##NC,D##T,n##ght•r####d]
+    trns: |
+         ‘Th@r@ w@s l@ts @f n@@s@ fr@m th@ @xpl@d@ng r@@d h@@s@.’
+
+  - lineNumber: 75
+    startTime: 220047
+    endTime: 221527
+    ref: |
+         75
+    tx-cp: |
+         P@kp@b@ʹd@.
+    prs: [Ø–pǝŋ–p@=pǝʔ=t@Ø–pǝŋ–p@=pǝʔ=t@]
+    intr: [3S–##xpl##d##–##NC=R##L=C##P]
+    trns: |
+         ‘Th@t’s wh@t @xpl@d@d.’
+
+  - lineNumber: 76
+    startTime: 221558
+    endTime: 223161
+    ref: |
+         76
+    tx-cp: |
+         P@ʹksp@ʹ@nh n@k@,
+    prs: [Ø–pǝʔks–p@=ʔ@ŋ,n@k@]
+    intr: [3S–m##k##.sp##rk–##NC=R##P,m##ch]
+    trns: |
+         ‘@t thr@w @@t @ l@t @f sp@rks,’
+
+  - lineNumber: 77
+    startTime: 223171
+    endTime: 226048
+    ref: |
+         77
+    tx-cp: |
+         p@r@ k@nhʹ@s tsy@ʹb@ʹ@nh tsy@jk n@m@k@.
+    prs: [p@r@,k@ŋ=ʔ@s,y–¢@ʔ–p@=ʔ@ŋ,y–¢@k,n@m@k@]
+    intr: [b##t,j##g####r=3##RG,3##–g##v##–##NC=R##P,3PSR–st##m##ch,m##ch]
+    trns: |
+         ‘b@t th@ j@g@@r h@t h@s st@m@ch @ l@t.’
+
+  - lineNumber: 78
+    startTime: 226074
+    endTime: 228008
+    ref: |
+         78
+    tx-cp: |
+         Tsy@ʹb@ʹ@nh w@n@.
+    prs: [y–¢@ʔ–p@=ʔ@ŋ,w@n–@]
+    intr: [3##–g##v##–##NC=R##P,s##ng–N##M]
+    trns: |
+         ‘(H@tt@ng h@s st@m@ch) m@d@ @ n@@s@.’
+
+  - lineNumber: 79
+    startTime: 228118
+    endTime: 232705
+    ref: |
+         79
+    tx-cp: |
+         M@d@m@nh ʹy@js@ j@kt@jk k@jsm@d@m@nh n@ ky@d@.
+    prs: [m@n–@=ʔ@m=ʔ@ŋ,y–ʔ@s–@,h@k–tǝk,kǝs–mǝʔ–t@m=ʔ@ŋ,nǝ,y–kǝt–@]
+    intr: [c##m######X–CMP=####M=R##P,3##–s####–D##P1,sm##k##–##NSTR.N##M2,##b##v##RN=L##C.##NT=PL=R##P,PR##G,3S.D##P–p##ss–D##P2]
+    trns: |
+         ‘Wh@n h@ w@nt t@ l@@k, th@ f@r@ w@s @lr@@dy p@ss@ng @v@rh@@d.’
+
+  - lineNumber: 80
+    startTime: 232876
+    endTime: 235255
+    ref: |
+         80
+    tx-cp: |
+         Ts@ʹnhg@ʹd@ʹ@nh p@br@sp@ k@k.
+    prs: [Ø–¢@ʔŋ–k@ʔt–@=ʔ@ŋ,Ø–p@br@s=pǝʔ,k@ŋ]
+    intr: [3S–p##rt–R##P##T–CMP=R##P,3S–p####r=R##L,j##g####r]
+    trns: |
+         ‘Th@s p@@r j@g@@r w@s spl@t @p@rt @g@@n’
+
+  - lineNumber: 81
+    startTime: 235400
+    endTime: 237501
+    ref: |
+         81
+    tx-cp: |
+         J@kt@jk@m@ʹ@nh t@jpk@d@.
+    prs: [h@k–tǝk=ʔ@m@=ʔ@ŋ,Ø–tǝp•kǝt–@]
+    intr: [sm##k##–##NSTR.N##M2=##ns##d##RN=R##P,3S–h##p•p##ss–CMP]
+    trns: |
+         ‘(Th@ j@g@@r) j@mp@d t@ g@t p@st th@ f@r@.’
+
+  - lineNumber: 82
+    startTime: 237630
+    endTime: 241243
+    ref: |
+         82
+    tx-cp: |
+         T@ʹk@d@ʹ@nh ts@k@n@ʹj@b@ʹ t@ʹ py@m@ t@ʹ k@nhʹ@s ny@ʹ.
+    prs: [t@ʔ=k@t@ʔ=ʔ@ŋ,Ø–¢@k@n–ʔ@h–@=pǝʔ,t@ʔ,y–p@m@,t@ʔ,k@ŋ=ʔ@s,y–n@]
+    intr: [M##D=B##N=R##P,3S–p####nt–##NCH–CMP=R##L,D##T,3PSR–cl##th##s,D##T,j##g####r=3##RG,3PSR–G##N.PR##]
+    trns: |
+         ‘Th@s @s h@w th@ j@g@@r’s h@d@ b@c@m@ p@@nt@d.’
+
+  - lineNumber: 83
+    startTime: 241259
+    endTime: 243574
+    ref: |
+         83
+    tx-cp: |
+         T@ʹk@d@ʹ@nh ts@k@n@ʹj@b@ʹ t@ʹ py@m@.
+    prs: [t@ʔ=k@t@ʔ=ʔ@ŋ,Ø–¢@k@n–ʔ@h–@=pǝʔ,t@ʔ,y–p@m@]
+    intr: [M##D=B##N=R##P,3S–p####nt–##NCH–CMP=R##L,D##T,3PSR–cl##th##s]
+    trns: |
+         ‘Th@s @s h@w h@s h@d@ b@c@m@ p@@nt@d.’
+
+  - lineNumber: 84
+    startTime: 243593
+    endTime: 245396
+    ref: |
+         84
+    tx-cp: |
+         P@k@b@ʹ@nhd@ w@n@.
+    prs: [Ø–p@ŋ–@=pǝʔ=ʔ@ŋ=t@,w@n–@]
+    intr: [3S–b##rn–CMP=R##L=R##P=C##P,d##v##d##–N##M]
+    trns: |
+         ‘@t w@s @nly @n@ p@rt th@t w@s b@rn@d.’
+
+  - lineNumber: 85
+    startTime: 245425
+    endTime: 252730
+    ref: |
+         85
+    tx-cp: |
+         N@ʹ@nh, y@jks@ts@jk@ʹd@m ʹ@jts@ t@ʹ ts@ʹ@s.
+    prs: [Ø–nǝm–@=ʔ@ŋ,Ø–y@ks@–¢ǝk–k@ʔt–@=ʔ@m,ʔǝh¢@,t@ʔ,¢@ʔ=ʔ@s]
+    intr: [3S–s##y–CMP=R##P,1P##–b##d–d##–R##P##T–CMP=####M,1##BS.PR##,D##T,##p##ss##m=3##RG]
+    trns: |
+         ‘H@ s@@d, “H@ h@s wr@ng@d m@ @g@@n.’
+
+  - lineNumber: 86
+    startTime: 252842
+    endTime: 254566
+    ref: |
+         86
+    tx-cp: |
+         P@r@ n@ʹkp@ yj@m@.
+    prs: [p@r@,Ø–n@ʔk–p@,y–h@m@]
+    intr: [‘b##t,3S–##rr##v##–##NC,3PSR–d##y]
+    trns: |
+          “B@t h@s d@y w@ll c@m@.’
+
+  - lineNumber: 87
+    startTime: 254739
+    endTime: 256558
+    ref: |
+         87
+    tx-cp: |
+         J@ʹn@t m@ nd@y@jk@...
+    prs: [h@ʔn,ʔǝh=ʔt,m@ŋ,nd@yǝhk@]
+    intr: [N##G.##NC,1PR##=1##RG,g##,##NT##R]
+    trns: |
+         ‘ “@’m n@t g@@ng t@…’
+
+  - lineNumber: 88
+    startTime: 256561
+    endTime: 259878
+    ref: |
+         88
+    tx-cp: |
+         D@p@s@ m@k@ j@̃d@ts@k@, n@mb@ʹ@nh k@k.
+    prs: [t@p@s@,m@ŋ–p@,n–h@d@•¢ǝk–@,Ø–nǝm–p@=ʔ@ŋ,k@ŋ]
+    intr: [n##.m##tt##r.wh##t,g######X–##NC,1##–f##ck.##p•d##–D##P1,3S–s##y–##NC=R##P,j##g####r]
+    trns: |
+         ‘ “@nyw@y, @’m g@@ng t@ m@ss h@m @p,” th@ j@g@@r s@@d.’
+
+  - lineNumber: 89
+    startTime: 259906
+    endTime: 261252
+    ref: |
+         89
+    tx-cp: |
+         M@k@ nhg@ʹs@.
+    prs: [m@ŋ–p@=ʔt,n–kǝʔs–@]
+    intr: [g######X–##NC=1##RG,1##–####t–D##P1]
+    trns: |
+         ‘ “@’m g@@ng t@ @@t h@m.” ’
+
+  - lineNumber: 90
+    startTime: 261497
+    endTime: 263793
+    ref: |
+         90
+    tx-cp: |
+         Py@ʹtk@ʹd@ʹ@nh ʹ@y@ j@m@
+    prs: [y–p@ʔt–k@ʔt–@=ʔ@ŋ,ʔ@y@,h@m@]
+    intr: [3##–f##nd–R##P##T–CMP=R##P,##th##r,d##y]
+    trns: |
+         ‘H@ f@@nd h@m @g@@n @n @n@th@r d@y.’
+
+  - lineNumber: 91
+    startTime: 263995
+    endTime: 266611
+    ref: |
+         91
+    tx-cp: |
+         J@ t@ʹs@ m@nh ʹ@ t@jk@ʹd@?
+    prs: [h@,t@ʔ=s@,m@ŋ,h@,Ø–t@k–k@ʔt–@]
+    intr: [h##,M##D=S##M,g##–##RR,N##G:CMP,3S–d##–R##P##T–CMP]
+    trns: |
+         ‘ “Th@t’s n@t g@@ng t@ h@pp@n (t@ m@) @g@@n, @s @t?” ’
+
+  - lineNumber: 92
+    startTime: 266987
+    endTime: 269160
+    ref: |
+         92
+    tx-cp: |
+         Ts@ʹ t@m@ʹ@nh w@ʹtny@y@
+    prs: [¢@ʔ,t@=mǝʔ=ʔ@ŋ,Ø–w@ʔt–n@y–@]
+    intr: [##p##ss##m,PRX=L##C.##NT=R##P,3S–r##ll–##SS##M–CMP]
+    trns: |
+         ‘Th@ @p@ss@m @pp@r@ntly w@s th@r@ r@ll@d @p (r@st@ng).’
+
+  - lineNumber: 93
+    startTime: 269160
+    endTime: 270283
+    ref: |
+         93
+    tx-cp: |
+         K@ʹ@ʹ@nh p@r k@@nt@.
+    prs: [Ø–k@ʔ–@=ʔ@ŋ,p@r,c@@nt@]
+    intr: [3S–d####–CMP=R##P,by,##cc####nt]
+    trns: |
+         ‘H@ s@@m@d d@@d.’
+
+  - lineNumber: 94
+    startTime: 270283
+    endTime: 272755
+    ref: |
+         94
+    tx-cp: |
+         T@m@ w@ʹtny@y@ n@ʹ@kp@y@.
+    prs: [t@=mǝʔ,Ø–w@ʔt–n@y–@,nǝʔ–@ŋ–p@y–@]
+    intr: [PRX=L##C.##NT,3S–r##ll–##SS##M–CMP,w##t##r–M####TH–r##n–N##M]
+    trns: |
+         ‘Th@r@ h@ w@s r@ll@d @p @n th@ r@v@rb@nk.’
+
+  - lineNumber: 95
+    startTime: 272862
+    endTime: 274192
+    ref: |
+         95
+    tx-cp: |
+         W@n@ p@@, n@.
+    prs: [b@@n@,p@@s,Ø–nǝm–@]
+    intr: [g####d,w##ll,3S–s##y–CMP]
+    trns: |
+         ‘ “W@ll g@@d,” h@ s@@d.’
+
+  - lineNumber: 96
+    startTime: 274196
+    endTime: 276102
+    ref: |
+         96
+    tx-cp: |
+         Y@t@ nhy@ʹ@ʹ@.
+    prs: [yǝt@,ny–k@ʔ–@=ʔ@m]
+    intr: [n##w,2S–d####–CMP=####M]
+    trns: |
+         ‘ “N@w y@@’r@ d@@d.’
+
+  - lineNumber: 97
+    startTime: 276177
+    endTime: 278414
+    ref: |
+         97
+    tx-cp: |
+         Y@t@ m@k@t mʹ@kn@jkt@n@y@.
+    prs: [yǝt@,m@ŋ–p@=ʔt,m–ʔ@ŋ–nǝk–tǝn–ʔǝy–@]
+    intr: [n##w,g######X–##NC=1##RG,LCL–M####TH–##b####t–d##f##c##t##–VRB–D##P1]
+    trns: |
+         ‘ “N@w @’m g@@ng t@ d@f@c@t@ @n h@s m@@th.’
+
+  - lineNumber: 98
+    startTime: 278424
+    endTime: 279593
+    ref: |
+         98
+    tx-cp: |
+         W@ʹ@j k@ my@d@ mg@ʹps@ky@y,
+    prs: [w@ʔ@,q@@,y–m@n–@,m–k@ʔps–ʔ@y–k@yʔ]
+    intr: [‘C##MP,th##t,3S–c##m##–D##P2,2PSR–th##nk–##NT##P–##NSTR.N##M1]
+    trns: |
+          “S@ th@t y@@ th@nk @g@@n,’
+
+  - lineNumber: 99
+    startTime: 279600
+    endTime: 282339
+    ref: |
+         99
+    tx-cp: |
+         t@k@m	ʹ@jts@ʹn@ʹ@jk n@ my@jks@ts@jk@.
+    prs: [t@–k@t@ʔ=ʔ@m,ʔǝh¢@=n@ʔ@k,nǝ,m–y@ks@•¢ǝk–@]
+    intr: [th##t–B##N=####M,1##BS.PR##=C##NTR,PR##G,LCL–b##d•d##–D##P2]
+    trns: |
+         ‘ “b@c@@s@ y@@ h@v@ wr@ng@d m@.” ’
+
+  - lineNumber: 100
+    startTime: 282396
+    endTime: 286705
+    ref: |
+         100
+    tx-cp: |
+         M@k@m@nhd@ t@tk@ʹd@ k@k t@ʹ ts@ʹ@s ʹy@kn@k@m@.
+    prs: [m@ŋ–@=ʔ@m=ʔ@ŋ=t@,Ø–tǝn–k@ʔt–@,k@ŋ,t@ʔ,¢@ʔ=ʔ@s,y–ʔ@ŋ–n@k@=ʔ@m@]
+    intr: [g######X–CMP=####M=R##P=F##C,3S–d##f##c##t##–R##P##T–D##P1,j##g####r,D##T,##p##ss##m=3G##N,3PSR–M####TH–sk##n=##ns##d##RN]
+    trns: |
+         ‘Th@ j@g@@r w@nt t@ d@f@c@t@ @n th@ @p@ss@m’s m@@th.’
+
+  - lineNumber: 101
+    startTime: 286810
+    endTime: 288573
+    ref: |
+         101
+    tx-cp: |
+         ʹ@ t@ʹ ts@ʹ j@ ky@ʹ@b@ʹ@nhd@.
+    prs: [ʔ@,t@ʔ,¢@ʔ,h@,y–k@ʔ–ǝ=pǝʔ=ʔ@ŋ=t@]
+    intr: [##nd,D##T,##p##ss##m,N##G.CMP,3S.D##P–d####–##RR=R##L=R##P=C##P]
+    trns: |
+         ‘@nd th@ @p@ss@m w@sn’t d@@d.’
+
+  - lineNumber: 102
+    startTime: 288577
+    endTime: 290584
+    ref: |
+         102
+    tx-cp: |
+         J@d@ʹ@nh ʹ@ʹd@nhw@jk@ ts@ʹ,
+    prs: [h@tǝ=ʔ@ŋ,Ø–ʔ@ʔt•ʔ@w@k–@,¢@ʔ]
+    intr: [wh##r##=R##P,3S–##p##n.m####th•##p##n–CMP,##p##ss##m]
+    trns: |
+         ‘Wh@n th@ @p@ss@m @p@n@d h@s m@@th,’
+
+  - lineNumber: 103
+    startTime: 290585
+    endTime: 292543
+    ref: |
+         103
+    tx-cp: |
+         ky@ʹtst@ksp@j@ky@ʹd@ʹ@nh py@k@ʹ.
+    prs: [y–k@ʔ¢•t@ʔks–pǝʔ–h@y–k@ʔt–@=ʔ@ŋ,y–p@k@ʔ]
+    intr: [3##–b##t##•b##rst–t##t##l–##PPL–R##P##T–CMP=R##P,3PSR–t##st##cl##]
+    trns: |
+         ‘h@ b@t @nd b@rst (th@ j@g@@r’s) t@st@cl@s.’
+
+  - lineNumber: 104
+    startTime: 294585
+    endTime: 297813
+    ref: |
+         104
+    tx-cp: |
+         Py@k@m@nhj@k@ ky@ʹtsj@ky@ʹd@.
+    prs: [y–p@k@ʔ=ʔ@m=ʔ@ŋ=h@k@,y–k@ʔ¢–h@y–k@ʔt–@]
+    intr: [3PSR–t##st##cl##=####M=R##P=w##ll=##MPH,3##–b##t##–##PPL–R##P##T–CMP]
+    trns: |
+         ‘H@ b@t h@s t@st@cl@s @g@@n.’
+
+  - lineNumber: 105
+    startTime: 297924
+    endTime: 301449
+    ref: |
+         105
+    tx-cp: |
+         M@nhg@ʹd@ʹ@nh p@br@sp@ ʹ@m@g@.
+    prs: [Ø–m@ŋ–k@ʔt–@=ʔ@ŋ,Ø–p@br@s=pǝʔ,@m@g@]
+    intr: [3S–g##–R##P##T–CMP=R##P,3S–p####r=R##L,fr####nd]
+    trns: |
+         ‘Th@ p@@r fr@@nd l@ft.’
+
+  - lineNumber: 106
+    startTime: 301449
+    endTime: 303673
+    ref: |
+         106
+    tx-cp: |
+         ʹ@m@g@ k@k m@nhg@d@ʹ@nh w@jp@.
+    prs: [@m@g@,k@ŋ,m@ŋ–k@ʔt–@=ʔ@ŋ,Ø–w@y–p@]
+    intr: [fr####nd,j##g####r,g######X–R##P##T–CMP=R##P,3S–sh####t–##NC]
+    trns: |
+         ‘Fr@@nd j@g@@r @pp@r@ntly l@ft sh@@t@ng.’
+
+  - lineNumber: 107
+    startTime: 303812
+    endTime: 307229
+    ref: |
+         107
+    tx-cp: |
+         N@mb@ʹ@nh, Y@t@ k@jtj@ky@ʹd@d@ʹts@.
+    prs: [Ø–nǝm–p@=ʔ@ŋ,yǝt@,Ø–k@t–h@y–k@ʔt–@=t@ʔ=ʔ¢@]
+    intr: [3S–s##y–##NC=R##P,n##w,1P##–p##t–##PPR–R##P##T–CMP=##ls##=1##BS]
+    trns: |
+         ‘H@ s@@d, “N@w h@’s tr@ck@d m@ @g@@n.” ’
+
+  - lineNumber: 108
+    startTime: 307346
+    endTime: 309591
+    ref: |
+         108
+    tx-cp: |
+         N@j@tsy@ʹ@h j@ʹn gy@n@tsy@k@ t@ʹ ts@ʹ.
+    prs: [n@–h@¢y@=ʔ@ŋ,h@ʔn,y–g@n@•¢ǝk–@,t@ʔ,¢@ʔ]
+    intr: [b##dy–h##w=R##P,N##G.##NC,3##–w##n•d##–D##P1,D##T,##p##ss##m]
+    trns: |
+         ‘Th@r@ w@s n@ w@y th@ @p@ss@m w@s g@@ng t@ d@f@@t h@m.’
+
+  - lineNumber: 109
+    startTime: 309638
+    endTime: 312944
+    ref: |
+         109
+    tx-cp: |
+         T@ʹs@ t@ʹs@ʹ@nh ny@m@jtsy@by@ ny@m@jtsy@by@.
+    prs: [t@ʔ=s@,t@ʔ=s@=ʔ@ŋ,y–nǝ–mǝ¢–ʔǝy–p@,y–nǝ–mǝh¢–ʔǝy–p@]
+    intr: [M##D=S##M,M##D=S##M=R##P,3##–##SS##C–pl##y–VRB–##NC,3##–##SS##C–pl##y–VRB–##NC]
+    trns: |
+         ‘L@k@ th@t, l@k@ th@t h@ pl@y@d @t, h@ pl@y@d @t.’
+
+  - lineNumber: 110
+    startTime: 313513
+    endTime: 315384
+    ref: |
+         110
+    tx-cp: |
+         T@ʹy@ ʹ@y@ j@m@ʹk@...
+    prs: [t@ʔ=y@,ʔ@y@,h@m@=ʔk@]
+    intr: [m##d=L##C.##XT,##th##r,d##y=TS##B]
+    trns: |
+         ‘L@t@r, @n@th@r d@y…’
+
+  - lineNumber: 111
+    startTime: 315982
+    endTime: 316860
+    ref: |
+         111
+    tx-cp: |
+         py@tk@ʹd@ʹ@nh.
+    prs: [y–p@ʔt–k@ʔt–@=ʔ@ŋv]
+    intr: [3##–m####t–R##P##T–CMP=R##P]
+    trns: |
+         ‘h@ m@t h@m @n@th@r d@y.’
+
+  - lineNumber: 112
+    startTime: 316867
+    endTime: 319590
+    ref: |
+         112
+    tx-cp: |
+         ʹ@@r@ s@, m@k@m ʹ@jt mg@ʹs@, ny@j@y@ʹ@nh.
+    prs: [@h@r@,sí,m@ŋ–p@=ʔ@m,ʔǝht,m–kǝʔs–@,y–nǝm–h@y–@=ʔ@ŋ]
+    intr: [n##w,s##,g######X–##NC=####M,1##RG.PR##,LCL–####t–D##P1,3##–s##y–##PPL–CMP=R##P]
+    trns: |
+         ‘ “N@w y@s, @’m g@@ng t@ @@t,” h@ s@@d.’
+
+  - lineNumber: 113
+    startTime: 319710
+    endTime: 321309
+    ref: |
+         113
+    tx-cp: |
+         Py@ʹtk@ʹd@ʹ@nh.
+    prs: [y–p@ʔt–k@ʔt–@=ʔ@ŋ]
+    intr: [3##–m####t–R##P##T–CMP=R##P]
+    trns: |
+         ‘H@ w@nt t@ m@@t h@m’
+
+  - lineNumber: 114
+    startTime: 321607
+    endTime: 324577
+    ref: |
+         114
+    tx-cp: |
+         P@r@ y@t@ ʹ@ʹts@ mg@ʹs@ ʹ@m@g@.
+    prs: [p@r@,yǝt@,ʔ@=ʔ¢@,m–kǝʔs–@,@m@g@]
+    intr: [b##t,n##w,N##G.##MP=1##BS,LCL–####t–D##P2,fr####nd]
+    trns: |
+         ‘ “B@t n@w d@n’t @@t m@, fr@@nd.’
+
+  - lineNumber: 115
+    startTime: 324748
+    endTime: 325968
+    ref: |
+         115
+    tx-cp: |
+         K@ʹs@ j@k@ ts@ʹ!
+    prs: [k@ʔs–@ʔ,h@kǝ,¢@ʔ]
+    intr: [l####k–##RR,D##ST,r##ck]
+    trns: |
+         ‘ “L@@k @t th@s r@ck!” ’
+
+  - lineNumber: 116
+    startTime: 325969
+    endTime: 327184
+    ref: |
+         116
+    tx-cp: |
+         ʹ@jt@ m@j@b@ʹ ts@ʹ.
+    prs: [Ø–ʔ@t–@,Ø–mǝh@=pǝʔ,¢@ʔ]
+    intr: [3S–##x##st–CMP,3S–b##g=R##L,r##ck]
+    trns: |
+         ‘Th@r@ @s @ r@ck th@t @s v@ry b@g.’
+
+  - lineNumber: 117
+    startTime: 327193
+    endTime: 329748
+    ref: |
+         117
+    tx-cp: |
+         N@d@ m@k@b@ʹ tsy@ʹnh@.
+    prs: [nǝ=t@,m@ŋ–@=pǝʔ,y–¢@ʔŋ–@]
+    intr: [PR##G=C##P,g######X–D##P2=R##L,3S.D##P–##x##t–D##P1]
+    trns: |
+         ‘Th@s @s th@ @n@ wh@ch @s g@@ng t@ f@ll @ff.’
+
+  - lineNumber: 118
+    startTime: 329761
+    endTime: 333527
+    ref: |
+         118
+    tx-cp: |
+         T@ʹ ts@ʹ@s y@ʹs@ʹ@nh my@ny@ts@jkp@ ky@ʹ.
+    prs: [t@ʔ,¢@ʔ=ʔ@s,yǝʔ=ʔs@=ʔ@ŋ,y–m@ñ@•¢ǝk–p@,y–kǝʔ]
+    intr: [D##T,##p##ss##m=3##RG,PRX=S##M=R##P,3##–cr##fty•d##–##NC,3PSR–h##nd]
+    trns: |
+         ‘Th@ @p@ss@m @pp@r@ntly m@v@d h@s h@nd @n @ p@rt@c@l@r w@y.’
+
+  - lineNumber: 119
+    startTime: 333531
+    endTime: 334667
+    ref: |
+         119
+    tx-cp: |
+         M@r@ n@ m@k@ tsy@ʹnh@.
+    prs: [m@r@,nǝ,m@ŋ–@,y–¢@ʔŋ–@]
+    intr: [j##st,PR##G,g######X–D##P2,3S.D##P–##x##t–D##P1]
+    trns: |
+         ‘H@ w@s j@st g@@ng t@ l@@v@.’
+
+  - lineNumber: 120
+    startTime: 334667
+    endTime: 335713
+    ref: |
+         120
+    tx-cp: |
+         M@ʹts@ k@ts@ʹw@ʹ!
+    prs: [m@n–ǝ=ʔ¢@,Ø–k@¢@ʔw–@ʔ]
+    intr: [‘c##m######X–##RR=1##BS,1P##–h##lp–##RR]
+    trns: |
+          “C@m@ h@lp m@!’
+
+  - lineNumber: 121
+    startTime: 335723
+    endTime: 338432
+    ref: |
+         121
+    tx-cp: |
+         P@jk@ s@n@ m@k@d@ p@nhg@ʹ@ y@ʹ ts@ʹ@s.
+    prs: [p@rq@@,s@n@,m@ŋ–p@=t@,Ø–p@ʔŋ•k@ʔ–@,yǝʔ,¢@ʔ=ʔ@s]
+    intr: [b##c####s##,##th##rw##s##,g######X–##NC=1##NCL.P##,1P##–h##t.thr##w.##bj##ct•d####–D##P1,PRX,r##ck=3##RG]
+    trns: |
+         ‘ “B@c@@s@ @th@rw@s@ th@s r@ck @s g@@ng t@ cr@sh @s (t@ d@@th).”  ’
+
+  - lineNumber: 122
+    startTime: 340552
+    endTime: 342544
+    ref: |
+         122
+    tx-cp: |
+         T@ʹs@ʹ@nh ky@ts@nhb@ t@ʹ ts@ʹ.
+    prs: [t@ʔ=s@=ʔ@ŋ,y–kǝʔ–¢@ŋ–p@,t@ʔ,¢@ʔ=ʔ@s]
+    intr: [M##D=S##M=R##P,3##–##nd##rRN–s##pp##rt–##NC,D##T,##p##ss##m=3##RG]
+    trns: |
+         ‘@pp@r@ntly th@ @p@ss@m w@s h@ld@ng @t d@wn.’
+
+  - lineNumber: 123
+    startTime: 342574
+    endTime: 345205
+    ref: |
+         123
+    tx-cp: |
+         Ny@j@y@, Y@ʹk@ k@ts@nhʹ@ m@jt y@ʹk@!
+    prs: [y–nǝm–h@y–@,yǝʔ=k@,kǝʔ–¢@ŋ–@ʔ,m@ht,yǝʔ=k@]
+    intr: [3##–s##y–##PPL–CMP,PRX=L##C,##nd##rRN–s##pp##rt–##RR,2##RG.PR##,PRX=L##C]
+    trns: |
+         ‘H@ s@@d, “H@r@ y@@ h@ld @t, h@r@!” ’
+
+  - lineNumber: 124
+    startTime: 345256
+    endTime: 347829
+    ref: |
+         124
+    tx-cp: |
+         ʹ@ ʹ@jt m@k@t nd@ʹn@s@ j@nh@ʹ t@ʹm@nh.
+    prs: [ʔ@,ʔǝht,m@ŋ–p@=ʔt,n–t@ʔn–ʔ@s–@,h@ŋǝʔ,t@mǝ–ʔ@ŋ]
+    intr: [##nd,1##RG.PR##,g######X–##NC=1##RG,1##–l####k–s####–D##P1,D##ST,##n##–s##d##]
+    trns: |
+         ‘ “@nd @’m g@@ng t@ l@@k @v@r th@r@ @n th@ @th@r s@d@.’
+
+  - lineNumber: 125
+    startTime: 347850
+    endTime: 352658
+    ref: |
+         125
+    tx-cp: |
+         ʹ@k@ m@r@d@ m@k@b@ʹ ts@ʹnh@, mts@mj@by@t.
+    prs: [ʔ@k@,m@r@=t@,m@ŋ–p@=pǝʔ,Ø–¢@ʔŋ–@,m–¢@m–h@y–p@=ʔt]
+    intr: [C##ND,j##st=C##P,g######X–##NC=R##L,3S–##x##t–D##P1,LCL–s##y–##PPL–##NC=1##RG]
+    trns: |
+         ‘ “@f @t’s g@@ng t@ f@ll d@wn, @’ll l@t y@@ kn@w.’
+
+  - lineNumber: 126
+    startTime: 352666
+    endTime: 353737
+    ref: |
+         126
+    tx-cp: |
+         Ts@nhʹ@ m@jt y@ʹk@!
+    prs: [¢@ŋ–@ʔ,m@ht,yǝʔ=k@]
+    intr: [gr##b–##RR,2##RG.PR##,PRX=L##C]
+    trns: |
+         ‘ “H@r@, y@@ gr@b @t!” ’
+
+  - lineNumber: 127
+    startTime: 353762
+    endTime: 356423
+    ref: |
+         127
+    tx-cp: |
+         P@r@ k@nhʹ@s tsy@jkp@ʹ@nh py@m@.
+    prs: [p@r@,k@ŋ=ʔ@s,y–¢ǝʔk–p@=ʔ@ŋ,y–pǝm@]
+    intr: [b##t,j##g####r=3##RG,3##–d##–##NC=R##P,3PSR–str##ngth]
+    trns: |
+         ‘B@t th@ j@g@@r @s@d h@s str@ngth.’
+
+  - lineNumber: 128
+    startTime: 356427
+    endTime: 358786
+    ref: |
+         128
+    tx-cp: |
+         M@kt@n@ʹk@nh ky@ts@nhb@ ts@ʹ.
+    prs: [m@ŋ•t@n–@=ʔk=ʔ@ŋ,y–kǝʔ–¢@ŋ–p@,¢@ʔ]
+    intr: [st##p•st##nd–CMP=TS##B=R##P,3##–##nd##r–gr##b–##NC,r##ck]
+    trns: |
+         ‘H@ h@ld @t @n pl@c@ by st@nd@ng @nd@r @t.’ 
+
+  - lineNumber: 129
+    startTime: 358793
+    endTime: 361858
+    ref: |
+         129
+    tx-cp: |
+         ʹ@ j@ʹn@nhd@ k@ m@b@ʹ ts@ʹnh@,
+    prs: [ʔ@,h@ʔn=ʔ@ŋ=t@,ʔ@k@,m@ŋ–@=pǝʔ,Ø–¢@ʔŋ–@]
+    intr: [##nd,N##G.##NC=R##P=C##P,C##ND,g######X–##RR=R##L,3S–r##m##v##–D##P1]
+    trns: |
+         ‘@nd @pp@r@ntly h@ w@sn’t g@@ng t@ r@m@v@ h@ms@lf,’
+
+  - lineNumber: 130
+    startTime: 361866
+    endTime: 363801
+    ref: |
+         130
+    tx-cp: |
+         s@n@ k@ t@ʹ ts@ʹ@st@ʹ@nhd@ ʹy@nh[g@m@ʹkʹ@y@b@ʹ].
+    prs: [s@n@,q@@,t@ʔ,¢@ʔ=ʔ@s=t@=ʔ@ŋ=t@,y–ʔ@ŋ–k@–m@ʔk–ʔǝy–@=pǝʔ]
+    intr: [b##t,th##t,D##T,##p##ss##m=3##RG=L##M=R##P=F##C,3##–M####TH–##TH##R–p##rs####–VRB–CMP=R##L]
+    trns: |
+         ‘b@t th@ @p@ss@m w@s ly@ng t@ (th@ j@g@@r).’
+
+  - lineNumber: 131
+    startTime: 363870
+    endTime: 365314
+    ref: |
+         131
+    tx-cp: |
+         T@ʹ n@, ʹ@j ng@d@ʹnʹ@s.
+    prs: [t@ʔ,Ø–nǝm–@,ʔǝht,m@ŋ–p@=ʔt,n–kǝʔ–t@ʔn•ʔ@s–@]
+    intr: [3PR##,3S–s##y–CMP,1##RG.PR##,g######X–##NC=1##RG,1##–##nd##r–l####k•s####–D##P1]
+    trns: |
+         ‘H@ s@@d, “@’m g@@ng t@ l@@k @nd@rn@@th.” ’
+
+  - lineNumber: 132
+    startTime: 365331
+    endTime: 366854
+    ref: |
+         132
+    tx-cp: |
+         M@nhg@d@ʹ@nh t@ʹ ts@ʹ.
+    prs: [Ø–m@ŋ–k@ʔt–@=ʔ@ŋ,t@ʔ,¢@ʔ]
+    intr: [3S–g##–R##P##T–CMP=R##P,D##T,##p##ss##m]
+    trns: |
+         ‘Th@ @p@ss@m l@ft.’
+
+  - lineNumber: 133
+    startTime: 366854
+    endTime: 368540
+    ref: |
+         133
+    tx-cp: |
+         P@ky@ʹd@d@.
+    prs: [Ø–p@y–k@ʔt–@=t@]
+    intr: [3S–##sc##p##–R##P##T–CMP=##ls##]
+    trns: |
+         ‘H@ @ls@ @sc@p@d @g@@n.’
+
+  - lineNumber: 134
+    startTime: 368550
+    endTime: 371533
+    ref: |
+         134
+    tx-cp: |
+         N@nhk@ʹ@nh j@ gy@n@tsy@k@.
+    prs: [n@ŋk@=ʔ@ŋ,h@,y–g@n@•¢ǝk–ǝ]
+    intr: [n##v##r=R##P,N##G:CMP,3##–w##n•d##–##RR]
+    trns: |
+         ‘@pp@r@ntly, h@ n@v@r d@f@@t@d h@m.’
+
+  - lineNumber: 135
+    startTime: 371647
+    endTime: 375032
+    ref: |
+         135
+    tx-cp: |
+         Ts@ʹ j@ gy@n@ts@k@b@ʹ@nhd@ t@ʹ k@nhʹ@s.
+    prs: [¢@ʔ,h@,y–g@n@•¢ǝk–ǝ=pǝʔ=ʔ@ŋ=t@,t@ʔ,k@ŋ=ʔ@s]
+    intr: [##p##ss##m,N##G:CMP,3##–w##n•d##–##RR=R##L=R##P=C##P,D##T,j##g####r=3##RG]
+    trns: |
+         ‘Th@ j@g@@r n@v@r d@f@@t@d th@ @p@ss@m.’
+
+  - lineNumber: 136
+    startTime: 375038
+    endTime: 376794
+    ref: |
+         136
+    tx-cp: |
+         N@k@ʹ@nh ʹ@ m@jts@y@ s@n@ t@@mp@.
+    prs: [n@k@=ʔ@ŋ,ʔ@y–@,Ø–mǝ¢–y@h–@,s@n@,t@@mp@]
+    intr: [m##ch=R##P,##rr##v##.th##r######X–CMP,3S–pl##y–3PL–D##P1,m##ch,t##m##]
+    trns: |
+         ‘Th@y c@m@ t@ pl@y th@r@ @ l@ng t@m@.’
 

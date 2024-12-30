@@ -1,0 +1,2083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="unspecified"
+    DATE="2024-03-24T09:52:00+01:00" FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/Natalia/Documents/_PeshMedia/005_22.05_curar_la_vista_pesh_mor_juh_t_20140730_06/005_Pesh.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../_PeshMedia/005_22.05_curar_la_vista_pesh_mor_juh_t_20140730_06/005_Pesh.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:a07b4e48-ff56-4e93-aded-cb6337bcb476</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">364</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="4250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="6680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="7580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="17380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="18350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="25070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="25180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="31920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="33300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="40430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="40430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="46220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="46270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="53510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="54380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="57370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="58070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="65040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="65040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="66710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="67160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="70180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="71860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="74610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="74700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="77130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="77130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="80630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="82120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="84950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="85260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="88930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="90040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="97240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="98260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="100600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="101380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="105280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="105320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="108060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="108640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="113400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="114510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="119000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="121610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="123740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="123900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="129620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="130090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="135160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="135220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="138010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="138040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="143250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="143760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="145770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="146560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="148750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="149420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="152360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="152900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="157020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="157790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="161030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="161700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="165780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="166460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="170940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="171040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="173710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="173710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="178730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="179040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="186720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="188000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="191280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="191280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="196900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="196960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="202500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="202810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="206570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="206650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="210550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="211040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="213870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="213900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="218070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="218630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="221170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="221810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="230280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="230510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="235040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="235640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="240000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="240080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="241790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="242260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="250940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="250990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="253020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="255050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="263160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="263790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="268960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="269100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="272160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="273593"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="277060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="277060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="284310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="284490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="289190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="289750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="293050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="293050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="297250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="298400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="300920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="301910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="304330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="304330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="309440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="309440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="312970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="313400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="321370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="321600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="323750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="324940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="330490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="330490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="333040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="333130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="339710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="339710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="345040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="345630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="351830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="352380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="355920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="357890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="361350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="361370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="365849"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="366670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="369630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="370070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="372980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="373460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="376060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="376060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="379490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="380900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="385570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="385670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="391400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="392470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="397840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="397890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="403650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="403770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="409410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="409410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="411410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="411530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="415350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="415360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="417360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="417540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="420160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="420180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="422580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="422660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="425920"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="ref" PARTICIPANT="JH" TIER_ID="ref@JH">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann0"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>aye ĩsi kakapama tas</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann4"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>ã wa wa tʃena terama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann8"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>ãma pok tʃaawa aye apeʃ tʃana yar waʔi a wa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann12"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>watahã ãnara tʃaawa apeʃ aye yas pahtʃeawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann16"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>yar wahã awatahã ãɲara pahtʃeawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann24"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>anĩʔa asawa ye yas toʔ apẽha akiwakan iʃtakerwakan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann28"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>iʃkũmã wataʔi akarʃkwa ĩkan ãyã ĩra tʃãẽɲkawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann32"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>tʃãẽɲkawa awa yera as aye asri ã teʃkiã pataukwa kii aki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann36"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>am yari ãma yar ãma ke wai ãma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann40"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>warahã sukuhi artukri ã awa warkukanhãʔ tʃãwa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann44"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>ãyã yea arteʃki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann48"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>ãkanras ke ãma yari wai ãma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann52"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>tawa tasma ãyã yẽhawãʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann56"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>yẽhma wa ĩsirahãʔ proha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a361"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>prohukuhupihãʔ takakawa peʃtus ã peʃkaki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann60"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>ã ã ĩsi prohupima</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann64"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>apono pok piʃikrahãʔ totoni</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann68"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>ã kaʔoyã tʃukanhãʔ apono ãkanhãʔ pok ĩka ruda</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann72"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>ãma ĩyã tʃwa ãma sirakoyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann76"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>ãyã nukuhupẽʔ taka katũhuhãʔ ãyã ĩkan toʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann80"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>tokkna patewã as kakatʃuyã toʔ ĩyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann84"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>ĩ toʔ arahnã tokkri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann88"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>peʃ akwalerkã tokkri wula tokkrikanhãʔ ãyã ĩkan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann92"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>ahratʃẽ kuhupekuh</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann96"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>taãỹhupẽʔ takawa ĩkitari ĩyã tikerẽʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann100"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>batan ayes tʃuwa apĩma awa florida apĩma ãkãn tikirwa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann104"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>akarʃkwa ãyãhãʔ ĩkãn batan ayesi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann108"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>pekya ĩsi pikapahãʔ ĩ yea ɣawaqas was ware akatʃuras</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann112"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>ãhã ã tʃenahã akatʃuras</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann116"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>ĩsi kapahãʔ takakawa peʃka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann120"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>yariʃki kuhpekerwã ĩsi kakaawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann124"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>ã aponoyo atatuh ãyo berskawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann128"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>kaberska pehãʔ kakateʃka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann132"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>ĩkan katari a pokleras as ĩkan awasyo besk ãkãn kã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann136"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>asã yeta berska monõkõ yari atah yeta pe monõka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann140"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>ka warka ka atah ye sukuhu ka peʔka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann144"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>asã yeta paka pahpahãʔ ã pono pokyo ãkãn kakaawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann148"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>ãyã ãrahãʔ ĩsi akaʃkwa ĩkãn ariri ã ã rudayã takoi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann152"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>ãma kriha atʃihi ke kriha pe kapape kapa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann156"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>torʃka pe kapa aso asoma ãmã ãmã ɲãhõʃka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann160"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>toqna patewã ãs waroh tikiri ãkã ãyã ãkã ãyo atʃahawa atʃaha</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann164"
+                TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>katari tartõʃki ãma kaawa ãma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann168"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>awa wenditahãʔ tekiri ãri atʃahãʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann172"
+                TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>pẽh ahayo torʃkawa awa wenditayo</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann176"
+                TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>torʃka pe kapa pe kapa ãyo atʃaha aso masus kaa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann180"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>ãyã atʃaha tukwa ã waroh tis</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann184"
+                TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>ãma ã ĩhãʔ krus kaahãʔ ã wĩnĩʔka ĩhãʔ ã ĩhãʔ berska kaberska yea arudayo</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann188"
+                TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>akarʃka ãyã kaberska pe kapa pe kapa akasteʃka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann192"
+                TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>apono ĩkan kaosri kaa ã ĩyo arudayo ãkãn kaawa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann196"
+                TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>ãri katrua tikir</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann200"
+                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>akarʃkwa ĩkan ããriri ãã waroha takoi apatewã tokkri peʃ akwa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann204"
+                TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>akarʃkwa awa floridari</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann208"
+                TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>aka yes ãyo awarahkawa awarahka ãɲã atʃahawa warohri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann212"
+                TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
+                <ANNOTATION_VALUE>akarʃkwa ĩkan awa floridari ãwãh ãma korska kaawa ãwãh ãma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann216"
+                TIME_SLOT_REF1="ts109" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>korska pak korska peʔka kaa ãɲã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann220"
+                TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>ĩhã toʔ tẽwã pasparri fosforoha takapri</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann224"
+                TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>ãkan ãyo paka ũpanawa, atukkaawa ã ĩma</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann228"
+                TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
+                <ANNOTATION_VALUE>ããĩ ĩhã akayo atʃaha tuka aso takoyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann232"
+                TIME_SLOT_REF1="ts117" TIME_SLOT_REF2="ts118">
+                <ANNOTATION_VALUE>ã ĩ warohri awa florida atʃaha tuka</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann236"
+                TIME_SLOT_REF1="ts119" TIME_SLOT_REF2="ts120">
+                <ANNOTATION_VALUE>ãyã ũyũkawahãʔ ũbrastawa ãɲã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann240"
+                TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>ũbrasto ãyã ãma toʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann244"
+                TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts124">
+                <ANNOTATION_VALUE>ĩhã niɾsun kasi sukuha taparkã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann248"
+                TIME_SLOT_REF1="ts125" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>panipaskwa, panipaski ãm ãyã sehũwari sehũwari sehũwari sehũwari</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann252"
+                TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts128">
+                <ANNOTATION_VALUE>sehtʃei nẽi aso akini tis twarhkwa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann256"
+                TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts130">
+                <ANNOTATION_VALUE>ãyo ãyã, arudayã atʃahawa atʃaha ãyo kaberskow yea</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann260"
+                TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts132">
+                <ANNOTATION_VALUE>ãyo kaberska pe kapa</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann264"
+                TIME_SLOT_REF1="ts133" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>ãma ãkã karoʔka ke ãyo asoyo atʃaha karoʔkow</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann268"
+                TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>aso we tawarkuras asehũrihã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann272"
+                TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>ãkãn kaa kakasteʃkwa yea ãkã kaawa ãyã ũtiʃtiʃkerwama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann276"
+                TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts140">
+                <ANNOTATION_VALUE>kabriẽnki kapiʃpi kapiʃkerwa peʃkaki ãyã ũtiʃtiʃkrama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann280"
+                TIME_SLOT_REF1="ts141" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>ãyã kapaskwa ã ĩma awama, akarʃkwa ã apono tootʃema</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann284"
+                TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts144">
+                <ANNOTATION_VALUE>a ke kabersyahkaa akasteʃkoras</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann288"
+                TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts146">
+                <ANNOTATION_VALUE>ke kamukẽɲki kapiʃkeras takakawa peʃkakira</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann292"
+                TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts148">
+                <ANNOTATION_VALUE>ĩ aponoma nãwa aso</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann296"
+                TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>aso tokka aa ahratʃẽ pekuh</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann300"
+                TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts152">
+                <ANNOTATION_VALUE>tis aso aˀ ã pesakyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann304"
+                TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>aponoma krahuh atʃahuhpẽ tekaw</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann308"
+                TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts156">
+                <ANNOTATION_VALUE>krahuh atʃahuh asa sakuhpehã ã ĩɲãhã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann312"
+                TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts158">
+                <ANNOTATION_VALUE>ã pyah ye okwasri ãyã pokusakupe awakyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann316"
+                TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>ã aponoma asoyo nə̃nnə̃nĩ ĩ aso toqayo</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann320"
+                TIME_SLOT_REF1="ts161" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>yar ãkã kirma ãyã apaskwa ke ã kapã nãtʃermã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann324"
+                TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts164">
+                <ANNOTATION_VALUE>ãyã wa atuki wa apaski tʃiwa ã ã wa aponoma tuhaʔkan tiʃko ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann328"
+                TIME_SLOT_REF1="ts165" TIME_SLOT_REF2="ts166">
+                <ANNOTATION_VALUE>ãma toʔ tuhbronaãkan bohtʃehi ã kamasama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann332"
+                TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts168">
+                <ANNOTATION_VALUE>ke ar bohtʃe kamasa tiʃki</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann336"
+                TIME_SLOT_REF1="ts169" TIME_SLOT_REF2="ts170">
+                <ANNOTATION_VALUE>asewaperã asewa ahratʃẽ atʃihi atʃihi ã wama</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann340"
+                TIME_SLOT_REF1="ts171" TIME_SLOT_REF2="ts172">
+                <ANNOTATION_VALUE>yar ãĩ patawa ĩkã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann344"
+                TIME_SLOT_REF1="ts173" TIME_SLOT_REF2="ts174">
+                <ANNOTATION_VALUE>ã ĩyã witʃi aye tis atʃihi asãyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann348"
+                TIME_SLOT_REF1="ts175" TIME_SLOT_REF2="ts176">
+                <ANNOTATION_VALUE>ãkãn apask ãra wai</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann356"
+                TIME_SLOT_REF1="ts177" TIME_SLOT_REF2="ts178">
+                <ANNOTATION_VALUE>ãkã ẽɲ kakaawa ĩɲã karsiyã</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="to" PARENT_REF="ref@JH" PARTICIPANT="JH" TIER_ID="to@JH">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann1" ANNOTATION_REF="ann0">
+                <ANNOTATION_VALUE>a–ye	ĩsi	ka–ka–pa=ma	tas</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann5" ANNOTATION_REF="ann4">
+                <ANNOTATION_VALUE>ã	wa	wa	tʃena	tV–Ø–er–wa=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann9" ANNOTATION_REF="ann8">
+                <ANNOTATION_VALUE>ã=ma	pok	Ø–tʃa–a–wa	a–ye	a–peʃ	tʃana	yar	wa=ʔi	a	wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann13" ANNOTATION_REF="ann12">
+                <ANNOTATION_VALUE>wa=tVh=hã	ã=na=ra	Ø–tʃa–a–wa	a–peʃ	a–ye	yas	Ø–pah–tʃe–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann17" ANNOTATION_REF="ann16">
+                <ANNOTATION_VALUE>yar	wa=hã	a–wa=tV=hã	ã=ɲa=ra	Ø–pah–tʃe–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann25" ANNOTATION_REF="ann24">
+                <ANNOTATION_VALUE>anĩʔa	a–sawa	ye	yas	toʔ	a–pẽh–a	ak–i–wa=kan	iʃtak–er–wa=kan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann29" ANNOTATION_REF="ann28">
+                <ANNOTATION_VALUE>Ø–iʃk–i–wa=mã	wa=tVh=ʔi	akarʃkwa	ĩ=kan	ã=yã	ĩ=ra	Ø–tʃã–ẽɲ–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann33" ANNOTATION_REF="ann32">
+                <ANNOTATION_VALUE>Ø–tʃã–ẽɲ–ka–a–wa	a–wa	ye=ra	as	a–ye	as=r–Ø–i	ã	teʃki=hã	pataukwa	Ø-ka-i	ak–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann37" ANNOTATION_REF="ann36">
+                <ANNOTATION_VALUE>am	yar=i	ã=ma	yar	ã=ma	ke	wa=i	ã=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann41" ANNOTATION_REF="ann40">
+                <ANNOTATION_VALUE>wa=ra=hã	Ø–sukuh–Ø–i	a–r–tuk–er–i	ã	a–wa	warku=kan=hãʔ	Ø–tʃã–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann45" ANNOTATION_REF="ann44">
+                <ANNOTATION_VALUE>ã=yã	ye–a	a–r–teʃk–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann49" ANNOTATION_REF="ann48">
+                <ANNOTATION_VALUE>ã=kan=ras	ke	ã=ma	yari	wa=i	ã=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann53" ANNOTATION_REF="ann52">
+                <ANNOTATION_VALUE>tV–Ø–a–wa	tas=ma	ã=yã	Ø–yẽh–a–wa=hãʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann57" ANNOTATION_REF="ann56">
+                <ANNOTATION_VALUE>Ø–yẽh–a–wa=ma	wa	ĩsi=ra=hãʔ	Ø–proh–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a362" ANNOTATION_REF="a361">
+                <ANNOTATION_VALUE>Ø–proh–u–kuh–u–pi=hãʔ	tVk–ka–a–wa	peʃ–tus	ã	peʃ–kaki</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann61" ANNOTATION_REF="ann60">
+                <ANNOTATION_VALUE>ã	ã	ĩsi	Ø–proh–u–pi=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann65" ANNOTATION_REF="ann64">
+                <ANNOTATION_VALUE>a–pono	pok	Ø–piʃik–er–wa=hãʔ	totoni</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann69" ANNOTATION_REF="ann68">
+                <ANNOTATION_VALUE>ã	kaʔo=yã	tʃa–Ø–wa=kan=hãʔ	a–pono	ã=kan=hãʔ	pok	ĩka	ruda</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann73" ANNOTATION_REF="ann72">
+                <ANNOTATION_VALUE>ã=ma	ĩ=yã	tʃa–i–wa	ã=ma	sira–kaʔo=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann77" ANNOTATION_REF="ann76">
+                <ANNOTATION_VALUE>ã=yã	Ø–nã–u–kuh–u–pi=hãʔ	tVk–Ø–a–wa	ka–tũh–a–wa=hãʔ	ã=yã	ĩ=kan	toʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann81" ANNOTATION_REF="ann80">
+                <ANNOTATION_VALUE>tokk–na	patewã	as	ka–ka–tʃa–Ø–wa=yã	toʔ	ĩ=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann85" ANNOTATION_REF="ann84">
+                <ANNOTATION_VALUE>ĩ	toʔ	arahnã	Ø–tokk–er–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann89" ANNOTATION_REF="ann88">
+                <ANNOTATION_VALUE>peʃ	akwa–ler=kan	Ø–tokk–er–i	wula	Ø–tokk–er–i=kan=hãʔ	ã=yã	ĩ=kan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann93" ANNOTATION_REF="ann92">
+                <ANNOTATION_VALUE>ahratʃẽ	Ø–kuh–u–pek–u–h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann97" ANNOTATION_REF="ann96">
+                <ANNOTATION_VALUE>ta–ãỹh–u–pi=hãʔ	tVk–Ø–a–wa	ĩkita=ri	ĩ=yã	tVk–Ø–er–i=hãʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann101" ANNOTATION_REF="ann100">
+                <ANNOTATION_VALUE>batan	a–ye=s	tʃa–i–wa	a–pin=ma	agua	florida	a–pin=ma	ã=kan	tVk–Ø–ir–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann105" ANNOTATION_REF="ann104">
+                <ANNOTATION_VALUE>akarʃkwa	ã=yã=hãʔ	ĩ=kan	batan	a–ye=s=i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann109" ANNOTATION_REF="ann108">
+                <ANNOTATION_VALUE>Ø–pek–ya	ĩsi	pi–ka–pa=hãʔ	ĩ	ye–a	ɣawaqas	wa=s	wa=r–Ø–i	a–ka–tʃa–Ø–wa=ras</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann113" ANNOTATION_REF="ann112">
+                <ANNOTATION_VALUE>ã=hã	ã	tʃena=hã	a–ka–tʃa–Ø–wa=ras</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann117" ANNOTATION_REF="ann116">
+                <ANNOTATION_VALUE>ĩsi	Ø–ka–pa=hãʔ	tVk–ka–a–wa	peʃ–ka</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann121" ANNOTATION_REF="ann120">
+                <ANNOTATION_VALUE>yar–iʃk=i	Ø–kuh–Ø–pek–er–wa=hã	ĩsi	ka–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann125" ANNOTATION_REF="ann124">
+                <ANNOTATION_VALUE>ã	a–pono=yo	atatuh	ã=yo	Ø–bersk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann129" ANNOTATION_REF="ann128">
+                <ANNOTATION_VALUE>ka–bersk–a–wa	pe=hãʔ	ka–ka–teʃk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann133" ANNOTATION_REF="ann132">
+                <ANNOTATION_VALUE>ĩ=kan	kata=ri	a	pok=l–er–wa=ras	as	ĩ=kan	a–wa=s=yo	Ø–bersk–a–wa	ã=kãn	Ø–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann137" ANNOTATION_REF="ann136">
+                <ANNOTATION_VALUE>a–sã	yeta	Ø–bersk–a–wa	Ø–monõk–a–wa	yar=i	a–tah	yeta	pe	Ø–monõk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann141" ANNOTATION_REF="ann140">
+                <ANNOTATION_VALUE>ka	wark–a–wa	ka	a–tah	ye	Ø–sukuh–a–wa	ka	Ø–peʔk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann145" ANNOTATION_REF="ann144">
+                <ANNOTATION_VALUE>a–sã	yeta	paka	pah–pa=hãʔ	ã	pono	pok=yo	ã=kan	ka–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann149" ANNOTATION_REF="ann148">
+                <ANNOTATION_VALUE>ã=yã	ã=ra=hãʔ	ĩsi	akaʃkwa	ĩ=kan	ari=ri	ã	ã	ruda=yã	tVk–Ø–a–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann153" ANNOTATION_REF="ann152">
+                <ANNOTATION_VALUE>ã=ma	kri–ha	a–tʃah–i–hi	ke	kri–ha	pe	kapa	pe	kapa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann157" ANNOTATION_REF="ann156">
+                <ANNOTATION_VALUE>Ø–torʃk–a	pe	kapa	aso	aso=ma	ã=mã	ã=mã	Ø–yãh–a–tʃi=kan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann161" ANNOTATION_REF="ann160">
+                <ANNOTATION_VALUE>toq–na	patewã	ãs	waroh	tVk–Ø–ir–ri	ã=kan	ã=yã	ã=kan	ã=yo	Ø–atʃah–a–wa	Ø–atʃah–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann165" ANNOTATION_REF="ann164">
+                <ANNOTATION_VALUE>Ø–ka–a–tV–ri	ta–r–ta–õʃk–Ø–i	ã=ma	Ø–ka–a–wa	ã=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann169" ANNOTATION_REF="ann168">
+                <ANNOTATION_VALUE>agua	bendita=hãʔ	tVk–Ø–ir–ri	ã=ri	Ø–atʃah–a–wa=hãʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann173" ANNOTATION_REF="ann172">
+                <ANNOTATION_VALUE>pẽh	a–ha=yo	Ø–torʃk–a–wa	agua	bendita=yo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann177" ANNOTATION_REF="ann176">
+                <ANNOTATION_VALUE>Ø–torʃk–a–wa	pe	kapa	pe	kapa	ã=yo	Ø–atʃah–a–wa	aso	masus	Ø–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann181" ANNOTATION_REF="ann180">
+                <ANNOTATION_VALUE>ã=yã	Ø–atʃah–a–wa	Ø–tuk–a–wa	ã	waroh	tis</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann185" ANNOTATION_REF="ann184">
+                <ANNOTATION_VALUE>ã=ma	ã	ĩ=hãʔ	cruz	Ø–ka–a–wa=hãʔ	ã	wĩnĩʔka	ĩ=hãʔ	ã	ĩ=hãʔ	Ø–bersk–a–wa	ka–bersk–a–wa	ye–a	a–ruda=yo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann189" ANNOTATION_REF="ann188">
+                <ANNOTATION_VALUE>akarʃka	ã=yã	ka–bersk–a–wa	pe	kapa	pe	kapa	a–kas–teʃk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann193" ANNOTATION_REF="ann192">
+                <ANNOTATION_VALUE>a–pono	ĩ=kan	Ø–ka–a–wa=sri	Ø–ka–a–wa	ã	ĩ=yo	a–ruda=yo	ã=kan	Ø–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann197" ANNOTATION_REF="ann196">
+                <ANNOTATION_VALUE>ã=ri	katrua	tVk–Ø–ir–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann201" ANNOTATION_REF="ann200">
+                <ANNOTATION_VALUE>akarʃkwa	ĩ=kan	ãã=ri=ri	ãã	waroh–ha	tVk–Ø–a–i	a–patewã	Ø–tokk–er–i	peʃ	akwa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann205" ANNOTATION_REF="ann204">
+                <ANNOTATION_VALUE>akarʃkwa	agua	florida=r–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann209" ANNOTATION_REF="ann208">
+                <ANNOTATION_VALUE>aka	ye=s	ã=yo	a–warahk–a–wa	a–warahk–a–wa	ã=yã	Ø–atʃah–a–wa	waroh=ri</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann213" ANNOTATION_REF="ann212">
+                <ANNOTATION_VALUE>akarʃkwa	ĩ=kan	agua	florida=r–Ø–i	ãwãh	ã=ma	Ø–korsk–a–wa	Ø–ka–a–wa	ãwãh	ã=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann217" ANNOTATION_REF="ann216">
+                <ANNOTATION_VALUE>Ø–korsk–a–wa	Ø–pak–a–wa	Ø–korsk–a–wa	Ø–peʔk–a–wa	Ø–ka–a–wa	ã=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann221" ANNOTATION_REF="ann220">
+                <ANNOTATION_VALUE>ĩ=hã	toʔ	tẽwã	Ø–pas–par–ri	fosforo–ha	tV–ka–par–ri</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann225" ANNOTATION_REF="ann224">
+                <ANNOTATION_VALUE>ã=kan	ã=yo	Ø–pak–a–wa	ũ–pan–a–wa	a–tuk–ka–a–wa	ã	ĩ=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann229" ANNOTATION_REF="ann228">
+                <ANNOTATION_VALUE>ããĩ	ĩ=hã	aka=yo	Ø–atʃah–a–wa	Ø–tuk–a–wa	aso	tVk–Ø–a–wa=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann233" ANNOTATION_REF="ann232">
+                <ANNOTATION_VALUE>ã	ĩ	waroh=ri	agua	florida	Ø–atʃah–a–wa	Ø–tuk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann237" ANNOTATION_REF="ann236">
+                <ANNOTATION_VALUE>ã=yã	ũ–yũk–a–wa=hãʔ	ũ–brast–a–wa	ã=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann241" ANNOTATION_REF="ann240">
+                <ANNOTATION_VALUE>ũ–brast–a–wa	ã=yã	ã=ma	toʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann245" ANNOTATION_REF="ann244">
+                <ANNOTATION_VALUE>ĩ=hã	niɾsun	gas	Ø–sukuh–Ø–wa	tV–Ø–par–wa=kan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann249" ANNOTATION_REF="ann248">
+                <ANNOTATION_VALUE>Ø–pan–i–pask–Ø–wa	Ø–pan–i–pask–Ø–i	ãm	ã=yã	sehũh–Ø–wa=ri	sehũh–Ø–wa=ri	sehũh–Ø–wa=ri	sehũh–Ø–wa=ri</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann253" ANNOTATION_REF="ann252">
+                <ANNOTATION_VALUE>sehũh–tʃe–Ø–i	nã–Ø–i	aso	akini	tis	ta–warahk–Ø–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann257" ANNOTATION_REF="ann256">
+                <ANNOTATION_VALUE>ã=yo	ã=yã	a–ruda=yã	Ø–atʃah–a–wa	Ø–atʃah–a–wa	ã=yo	ka–bersk–a–wa	ye–a</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann261" ANNOTATION_REF="ann260">
+                <ANNOTATION_VALUE>ã=yo	ka–bersk–a–wa	pe	kapa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann265" ANNOTATION_REF="ann264">
+                <ANNOTATION_VALUE>ã=ma	ã=kan	ka–r–oʔk–a–wa	ke	ã=yo	aso=yo	Ø–atʃah–a–wa	ka–r–oʔk–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann269" ANNOTATION_REF="ann268">
+                <ANNOTATION_VALUE>aso	we	ta–wark–Ø–wa=ras	a–sehũh–Ø–ri=hã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann273" ANNOTATION_REF="ann272">
+                <ANNOTATION_VALUE>ã=kan	Ø–ka–a–wa	ka–kas–teʃk–a–wa	ye–a	ã=kan	Ø–ka–a–wa	ã=yã	ũ–tiʃtiʃk–er–wa=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann277" ANNOTATION_REF="ann276">
+                <ANNOTATION_VALUE>ka–bri–ẽɲ–ka–wa	ka–piʃ–Ø–pi	ka–piʃk–er–wa	peʃ–kaki	ã=yã	ũ–tiʃtiʃk–er–wa=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann281" ANNOTATION_REF="ann280">
+                <ANNOTATION_VALUE>ã=yã	ka–pask–Ø–wa	ã	ĩ=ma	a–wa=ma	akarʃkwa	ã	a–pono	tV–Ø–a–tʃi=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann285" ANNOTATION_REF="ann284">
+                <ANNOTATION_VALUE>a	ke	ka–bers–yah–ka–a–wa	a–kas–teʃk–a–wa=ras</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann289" ANNOTATION_REF="ann288">
+                <ANNOTATION_VALUE>ke	ka–muk–ẽɲ–ka–Ø–i	ka–piʃk–er–wa=ras	tVk–ka–a–wa	peʃ–kaki=ra</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann293" ANNOTATION_REF="ann292">
+                <ANNOTATION_VALUE>ĩ	a–pono=ma	nã–Ø–wa	aso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann297" ANNOTATION_REF="ann296">
+                <ANNOTATION_VALUE>aso	tokk–a	aa	ahratʃẽ	Ø–pek–u–h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann301" ANNOTATION_REF="ann300">
+                <ANNOTATION_VALUE>tis	aso	aˀ	ã	Ø–pe–sak–ya=hã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann305" ANNOTATION_REF="ann304">
+                <ANNOTATION_VALUE>a–pono=ma	Ø–krah–u–h	Ø–atʃah–u–h=pe=hã	tVk–ka–a–wa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann309" ANNOTATION_REF="ann308">
+                <ANNOTATION_VALUE>Ø–krah–u–h	Ø–atʃah–u–h	a–sa	Ø–sak–u–h=pe=hã	ã	ĩ=yã=hã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann313" ANNOTATION_REF="ann312">
+                <ANNOTATION_VALUE>ã	pi–ah	ye	ok–Ø–wa=sri	ã=yã	Ø–pok–u–sak–u–pi=hã	awak=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann317" ANNOTATION_REF="ann316">
+                <ANNOTATION_VALUE>ã	a–pono=ma	aso=yo	nə̃nnə̃nĩ	ĩ	aso	toq–a=yo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann321" ANNOTATION_REF="ann320">
+                <ANNOTATION_VALUE>yar	ã=kan	Ø–ka–ir–wa=ma	ã=yã	a–pask–Ø–wa	ke	ã	kapa=yã	nã–Ø–tʃa–er–wa=mã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann325" ANNOTATION_REF="ann324">
+                <ANNOTATION_VALUE>ã=yã	wa	a–tuk–Ø–i	wa	a–pask–Ø–i	tʃa–i–wa	ã	ã	wa	a–pono=ma	Ø–tuh–aʔ=kan	ta–iʃk–Ø–wa	ke</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann329" ANNOTATION_REF="ann328">
+                <ANNOTATION_VALUE>ã=ma	toʔ	Ø–tuh–brona–ã=kan	boh–tʃe–Ø–hi	ã	kamasa=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann333" ANNOTATION_REF="ann332">
+                <ANNOTATION_VALUE>ke	ar	boh–tʃe–Ø–i	kamasa	ta–iʃk–Ø–i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann337" ANNOTATION_REF="ann336">
+                <ANNOTATION_VALUE>a–sewa=pera=hã	a–sewa	ahratʃẽ	a–tʃah–i–hi	a–tʃah–i–hi	ã	wa=ma</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann341" ANNOTATION_REF="ann340">
+                <ANNOTATION_VALUE>yar	ãĩ	pa–ta–wa	ĩ=kan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann345" ANNOTATION_REF="ann344">
+                <ANNOTATION_VALUE>ã	ĩ=yã	witʃi	a–ye	tis	a–tʃah–i–hi	a–sã=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann349" ANNOTATION_REF="ann348">
+                <ANNOTATION_VALUE>ã=kan	a–pask–Ø–wa	ã=ra	wa=i</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann357" ANNOTATION_REF="ann356">
+                <ANNOTATION_VALUE>ã=kan	ẽɲ	ka–ka–a–wa	ĩ=yã	karsi=yã</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ot" PARENT_REF="ref@JH" PARTICIPANT="JH" TIER_ID="ot@JH">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann2" ANNOTATION_REF="ann0">
+                <ANNOTATION_VALUE>POSS3SG–small	medicine	O3PL–make–S1SG:FUT=NOM	PRO1</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann6" ANNOTATION_REF="ann4">
+                <ANNOTATION_VALUE>HES	eye	eye	sick	say–O3SG–S3PL–PFV=NOM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann10" ANNOTATION_REF="ann8">
+                <ANNOTATION_VALUE>DIST.DEM=TOP	two	O3SG–see–S1SG–PFV	POSS3SG–small	POSS3SG–body	sick	true	eye=COP:S3SG:PFV	HES	eye</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann14" ANNOTATION_REF="ann12">
+                <ANNOTATION_VALUE>eye=NEG=FOC	DIST.DEM=INDF=ACC	O3SG–see–S1SG–PFV	POSS3SG–body	POSS3SG–small	all	O3SG–touch–TOT–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann18" ANNOTATION_REF="ann16">
+                <ANNOTATION_VALUE>true	eye=FOC	POSS3SG–eye=NEG=FOC	DIST.DEM=INDF=ACC	O3SG–touch–TOT–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann26" ANNOTATION_REF="ann24">
+                <ANNOTATION_VALUE>HES	POSS3SG–hand	small	all	MED.DEM	REFL–move–PTCP	be.in.state–S3SG–PFV=SIM	get.up–S3PL–PFV=SIM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann30" ANNOTATION_REF="ann28">
+                <ANNOTATION_VALUE>O3SG–make–S3SG–PFV=if	eye=NEG=COP:S3SG:PFV	then	PROX.DEM=SIM	DIST.DEM=LOC	PROX.DEM=ACC	O3SG–see–well–make–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann34" ANNOTATION_REF="ann32">
+                <ANNOTATION_VALUE>O3SG–see–well–make–S1SG–PFV	POSS3SG–eye	small=ACC	one	POSS3SG–small	one=COP–S3SG–PST	DIST.DEM	fever=FOC	hot	O3SG–make–S3SG–PST	be.in.state–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann38" ANNOTATION_REF="ann36">
+                <ANNOTATION_VALUE>HES	true=COP:S3SG:PFV	DIST.DEM=TOP	true	DIST.DEM=TOP	already	eye=COP:S3SG:PFV	DIST.DEM=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann42" ANNOTATION_REF="ann40">
+                <ANNOTATION_VALUE>eye=ACC=FOC	O3SG–grab–S3SG–PST	O3SG–APPL.P–put–S3PL–PST	HES	POSS3SG–eye	bad=SIM=FOC	O3SG–see–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann46" ANNOTATION_REF="ann44">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	small–NMLZ	O3SG–APPL.P–get.away–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann50" ANNOTATION_REF="ann48">
+                <ANNOTATION_VALUE>DIST.DEM=SIM=REAS	already	DIST.DEM=TOP	true	eye=COP:S3SG:PFV	DIST.DEM=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann54" ANNOTATION_REF="ann52">
+                <ANNOTATION_VALUE>say–O3SG–S1SG–PFV	PRO1=TOP	DIST.DEM=LOC	O3SG–say–S1SG–PFV=FOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann58" ANNOTATION_REF="ann56">
+                <ANNOTATION_VALUE>O3SG–say–S1SG–PFV=NOM	eye	medicine=ACC=FOC	O3SG–look.for–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a363" ANNOTATION_REF="a361">
+                <ANNOTATION_VALUE>O3SG–look.for–S2–buy–S2–FUT=FOC	say–O3PL–S1SG–PFV	POSS3PL–father	DIST.DEM	POSS3PL–mother</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann62" ANNOTATION_REF="ann60">
+                <ANNOTATION_VALUE>DIST.DEM	DIST.DEM	medicine	O3SG–look.for–S2–FUT=NOM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann66" ANNOTATION_REF="ann64">
+                <ANNOTATION_VALUE>POSS3SG–egg	two	O3SG–lay.eggs–S3PL–PFV=FOC	chicken</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann70" ANNOTATION_REF="ann68">
+                <ANNOTATION_VALUE>DIST.DEM	house=LOC	be.there–S3SG–PFV=SIM=FOC	POSS3SG–egg	DIST.DEM=SIM=FOC	two	and	rue</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann74" ANNOTATION_REF="ann72">
+                <ANNOTATION_VALUE>DIST.DEM=TOP	PROX.DEM=LOC	be.there–S3SG–PFV	DIST.DEM=TOP	food–house=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann78" ANNOTATION_REF="ann76">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	O3SG–go–S2–buy–S2–FUT=FOC	say–O3SG–S1SG–PFV	O3PL–send–S1SG–PFV=FOC	DIST.DEM=LOC	PROX.DEM=SIM	MED.DEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann82" ANNOTATION_REF="ann80">
+                <ANNOTATION_VALUE>drink–NMLZ	spicy.hot	INDF.ART	O3PL–APPL.R–be.there–S3SG–PFV=LOC	MED.DEM	PROX.DEM=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann86" ANNOTATION_REF="ann84">
+                <ANNOTATION_VALUE>PROX.DEM	MED.DEM	outside	O3SG–drink–S3PL–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann90" ANNOTATION_REF="ann88">
+                <ANNOTATION_VALUE>people	other–PL=SIM	O3SG–drink–S3PL–PST	foreign	O3SG–drink–S3PL–PST=SIM=FOC	DIST.DEM=LOC	PROX.DEM=SIM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann94" ANNOTATION_REF="ann92">
+                <ANNOTATION_VALUE>half	O3SG–buy–S2–bring–S2–PROX.FUT</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann98" ANNOTATION_REF="ann96">
+                <ANNOTATION_VALUE>O1–give.O1:2–S2–FUT=FOC	say–O3SG–S1SG–PFV	now=TEMP	PROX.DEM=LOC	say–O3SG–S3PL–PST=FOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann102" ANNOTATION_REF="ann100">
+                <ANNOTATION_VALUE>container	POSS3SG–small=INDF.ART	be.there–S3SG–PFV	POSS3SG–name=TOP	water	blossomed	POSS3SG–name=TOP	DIST.DEM=SIM	say–O3SG–S3PL–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann106" ANNOTATION_REF="ann104">
+                <ANNOTATION_VALUE>then	DIST.DEM=LOC=FOC	PROX.DEM=SIM	container	POSS3SG–small=INDF.ART=COP:S3SG:PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann110" ANNOTATION_REF="ann108">
+                <ANNOTATION_VALUE>O3SG–bring–S2:PFV	medicine	O2–make–S1SG:FUT=FOC	PROX.DEM	small–NMLZ	HES	eye=INDF.ART	eye=COP–S3SG–PST	O3SG–APPL.R–be.there–S3SG–PFV=REAS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann114" ANNOTATION_REF="ann112">
+                <ANNOTATION_VALUE>DIST.DEM=FOC	DIST.DEM	disease=FOC	O3SG–APPL.R–be.there–S3SG–PFV=REAS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann118" ANNOTATION_REF="ann116">
+                <ANNOTATION_VALUE>medicine	O3SG–make–S1SG:FUT=FOC	say–O3PL–S1SG–PFV	people–NMLZ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann122" ANNOTATION_REF="ann120">
+                <ANNOTATION_VALUE>true–DES=COP:S3SG:PFV	O3SG–buy–O3SG–bring–S3PL–PFV=FOC	medicine	O3PL–make–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann126" ANNOTATION_REF="ann124">
+                <ANNOTATION_VALUE>DIST.DEM	POSS3SG–egg=INS	in.the.beginning	DIST.DEM=INS	O3SG–rub–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann130" ANNOTATION_REF="ann128">
+                <ANNOTATION_VALUE>O3PL–rub–S1SG–PFV	a.lot=FOC	O3PL–APPL.R–get.away–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann134" ANNOTATION_REF="ann132">
+                <ANNOTATION_VALUE>PROX.DEM=SIM	today=TEMP	HES	two=COP–S3PL–PFV=REAS	one	PROX.DEM=SIM	POSS3SG–eye=INDF.ART=INS	O3SG–rub–S1SG–PFV	DIST.DEM=SIM		O3SG–make–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann138" ANNOTATION_REF="ann136">
+                <ANNOTATION_VALUE>POSS3SG–head	until.now	O3SG–rub–S1SG–PFV	O3SG–put.down–S1SG–PFV	true=COP:S3SG:PFV	POSS3SG–foot	until.now	a.lot	O3SG–put.down–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann142" ANNOTATION_REF="ann140">
+                <ANNOTATION_VALUE>then	repeat–S1SG–PFV	then	POSS3SG–foot	small	O3SG–grab–S1SG–PFV	then	O3SG–bring–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann146" ANNOTATION_REF="ann144">
+                <ANNOTATION_VALUE>POSS3SG–head	until.now	HES	move–S1SG:FUT=FOC	DIST.DEM	egg	two=INS	DIST.DEM=SIM	O3PL–make–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann150" ANNOTATION_REF="ann148">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	DIST.DEM=ACC=FOC	medicine	then	PROX.DEM=SIM	afterwards=TEMP	HES	DIST.DEM	rue=LOC	say–O3SG–S1SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann154" ANNOTATION_REF="ann152">
+                <ANNOTATION_VALUE>DIST.DEM=TOP	crush–PTCP	REFL–sit–S3SG–PST	already	crush–PTCP	a.lot	always	a.lot	always</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann158" ANNOTATION_REF="ann156">
+                <ANNOTATION_VALUE>O3SG–twist–PTCP	a.lot	always	water	water=TOP	DIST.DEM=TOP	DIST.DEM=TOP	O3SG–say–S1SG–PROX.PST=SIM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann162" ANNOTATION_REF="ann160">
+                <ANNOTATION_VALUE>drink–NMLZ	spicy.hot	INDF.ART	guaro	say–O3SG–S3PL–PST	DIST.DEM=SIM	DIST.DEM=LOC	DIST.DEM=SIM	DIST.DEM=INS	O3SG–put.in–S1SG–PFV	O3SG–put.in–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann166" ANNOTATION_REF="ann164">
+                <ANNOTATION_VALUE>O3SG–make–S1SG–NEG–PST	O1–APPL.P–MID–lose–S3SG–PST	DIST.DEM=TOP	O3SG–make–S1SG–PFV	DIST.DEM=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann170" ANNOTATION_REF="ann168">
+                <ANNOTATION_VALUE>water	holy=FOC	say–O3SG–S3PL–PST	DIST.DEM=MDT	O3SG–put.in–S1SG–PFV=FOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann174" ANNOTATION_REF="ann172">
+                <ANNOTATION_VALUE>wood	POSS3SG–leaf=INS	O3SG–twist–S1SG–PFV	water	holy=INS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann178" ANNOTATION_REF="ann176">
+                <ANNOTATION_VALUE>O3SG–twist–S1SG–PFV	a.lot	always	a.lot	always	DIST.DEM=INS	O3SG–put.in–S1SG–PFV	water	wet	O3SG–make–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann182" ANNOTATION_REF="ann180">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	O3SG–put.in–S1SG–PFV	O3SG–put–S1SG–PFV	DIST.DEM	guaro	a.little</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann186" ANNOTATION_REF="ann184">
+                <ANNOTATION_VALUE>DIST.DEM=TOP	DIST.DEM	PROX.DEM=FOC	cross	O3SG–make–S1SG–PFV=FOC	DIST.DEM	often	PROX.DEM=FOC	DIST.DEM	PROX.DEM=FOC	O3SG–rub–S1SG–PFV	O3PL–rub–S1SG–PFV	small–NMLZ	POSS3SG–rue=INS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann190" ANNOTATION_REF="ann188">
+                <ANNOTATION_VALUE>then	DIST.DEM=LOC	O3PL–rub–S1SG–PFV	a.lot	always	a.lot	always	O3SG–APPL.R–get.away–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann194" ANNOTATION_REF="ann192">
+                <ANNOTATION_VALUE>POSS3SG–egg	PROX.DEM=SIM	O3SG–make–S1SG–PFV=UNCRT	O3SG–make–S1SG–PFV	DIST.DEM	PROX.DEM=INS	POSS3SG–rue=INS	DIST.DEM=SIM	O3SG–make–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann198" ANNOTATION_REF="ann196">
+                <ANNOTATION_VALUE>DIST.DEM=MDT	herb	say–O3SG–S3PL–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann202" ANNOTATION_REF="ann200">
+                <ANNOTATION_VALUE>then	PROX.DEM=SIM	day=TEMP=TEMP	day	guaro–NMLZ	say–O3SG–S1SG–PST	POSS3SG–spicy.hot	O3SG–drink–S3PL–PST	people	other</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann206" ANNOTATION_REF="ann204">
+                <ANNOTATION_VALUE>then	water	blossomed=COP–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann210" ANNOTATION_REF="ann208">
+                <ANNOTATION_VALUE>plate	small=INDF.ART	DIST.DEM=INS	O3SG–empty–S1SG–PFV	O3SG–empty–S1SG–PFV	DIST.DEM=LOC	O3SG–put.in–S1SG–PFV	guaro=MDT</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann214" ANNOTATION_REF="ann212">
+                <ANNOTATION_VALUE>then	PROX.DEM=SIM	water	blossomed=COP–S3SG–PST	also	DIST.DEM=TOP	O3SG–write–S1SG–PFV	O3SG–make–S1SG–PFV	also	DIST.DEM=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann218" ANNOTATION_REF="ann216">
+                <ANNOTATION_VALUE>O3SG–write–S1SG–PFV	O3SG–take–S1SG–PFV	O3SG–write–S1SG–PFV	O3SG–bring–S1SG–PFV	O3SG–make–S1SG–PFV	DIST.DEM=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann222" ANNOTATION_REF="ann220">
+                <ANNOTATION_VALUE>PROX.DEM=FOC	MED.DEM	fire	O3SG–take.out–S1PL.INCL–PST	match–NMLZ	say–O3PL–S1PL.INCL–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann226" ANNOTATION_REF="ann224">
+                <ANNOTATION_VALUE>DIST.DEM=SIM	DIST.DEM=INS	O3SG–take–S1SG–PFV	CAUS–light–S1SG–PFV	O3SG–put–make–S1SG–PFV	DIST.DEM	PROX.DEM=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann230" ANNOTATION_REF="ann228">
+                <ANNOTATION_VALUE>HES	PROX.DEM=FOC	plate=INS	O3SG–put.in–S1SG–PFV	O3SG–put–S1SG–PFV	water	say–O3SG–S1SG–PFV=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann234" ANNOTATION_REF="ann232">
+                <ANNOTATION_VALUE>DIST.DEM	PROX.DEM	guaro=MDT	water	blossomed	O3SG–put.in–S1SG–PFV	O3SG–put–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann238" ANNOTATION_REF="ann236">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	CAUS–mix–S1SG–PFV=FOC	CAUS–light.fire–S1SG–PFV	DIST.DEM=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann242" ANNOTATION_REF="ann240">
+                <ANNOTATION_VALUE>CAUS–light.fire–S1SG–PFV	DIST.DEM=LOC	DIST.DEM=TOP	MED.DEM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann246" ANNOTATION_REF="ann244">
+                <ANNOTATION_VALUE>PROX.DEM=FOC	HES	gas	O3SG–grab–S3SG–PFV	say–O3SG–S1PL.INCL–PFV=SIM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann250" ANNOTATION_REF="ann248">
+                <ANNOTATION_VALUE>O3SG–light–S3SG–take.out–S3SG–PFV	O3SG–light–S3SG–take.out–S3SG–PST	HES	DIST.DEM=LOC	get.burnt–S3SG–PFV=MDT	get.burnt–S3SG–PFV=MDT	get.burnt–S3SG–PFV=MDT	get.burnt–S3SG–PFV=MDT</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann254" ANNOTATION_REF="ann252">
+                <ANNOTATION_VALUE>get.burnt–TOT–S3SG–PST	go–S3SG–PST	water	little	a.little	MID–empty–S3SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann258" ANNOTATION_REF="ann256">
+                <ANNOTATION_VALUE>DIST.DEM=INS	DIST.DEM=LOC	POSS3SG–rue=LOC	O3SG–put.in–S1SG–PFV	O3SG–put.in–S1SG–PFV	DIST.DEM=INS	O3PL–rub–S1SG–PFV	small–NMLZ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann262" ANNOTATION_REF="ann260">
+                <ANNOTATION_VALUE>DIST.DEM=INS	O3PL–rub–S1SG–PFV	a.lot	always</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann266" ANNOTATION_REF="ann264">
+                <ANNOTATION_VALUE>DIST.DEM=TOP	DIST.DEM=SIM	O3PL–APPL.P–bathe–S1SG–PFV	already	DIST.DEM=INS	water=INS	O3SG–pu.in–S1SG–PFV	O3PL–APPL.P–bathe–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann270" ANNOTATION_REF="ann268">
+                <ANNOTATION_VALUE>water	a.lot	MID–remain–S3SG–PFV=REAS	REFL–get.burnt–S3SG–PST=FOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann274" ANNOTATION_REF="ann272">
+                <ANNOTATION_VALUE>DIST.DEM=SIM	O3SG–make–S1SG–PFV	O3PL–APPL.R–get.away–S1SG–PFV	small–NMLZ	DIST.DEM=SIM	O3SG–make–S1SG–PFV	DIST.DEM=LOC	CAUS–be.sticky–S3PL–PFV=NOM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann278" ANNOTATION_REF="ann276">
+                <ANNOTATION_VALUE>O3PL–cover–well–make–S3SG–PST	O3PL–lay.down–S3SG–FUT	O3PL–lay.down–S3PL–PFV	POSS3PL–mother	DIST.DEM=LOC	CAUS–be.sticky–S3PL–PFV=NOM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann282" ANNOTATION_REF="ann280">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	O3PL–take.out–S3SG–PFV	DIST.DEM	PROX.DEM=TOP	POSS3SG–eye=TOP	then	DIST.DEM	POSS3SG–egg	say–O3SG–S1SG–PROX.PST=NOM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann286" ANNOTATION_REF="ann284">
+                <ANNOTATION_VALUE>HES	already	O3PL–rub–finish–make–S1SG–PFV	O3SG–APPL.R–get.away–S1SG–PFV=REAS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann290" ANNOTATION_REF="ann288">
+                <ANNOTATION_VALUE>already	O3PL–cover–well–make–S3SG–PST	O3PL–lay.down–S3PL–PFV=REAS	say–O3PL–S1SG–PFV	POSS3PL–mother=ACC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann294" ANNOTATION_REF="ann292">
+                <ANNOTATION_VALUE>PROX.DEM	POSS3SG–egg=TOP	go–S3SG–PFV	water</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann298" ANNOTATION_REF="ann296">
+                <ANNOTATION_VALUE>water	drink–NMLZ	HES	half	O3SG–bring–S2–PROX.FUT</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann302" ANNOTATION_REF="ann300">
+                <ANNOTATION_VALUE>a.little	water	HES	DIST.DEM	O3SG–bring–stop–S2:PFV=FOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann306" ANNOTATION_REF="ann304">
+                <ANNOTATION_VALUE>POSS3SG–egg=TOP	O3SG–break–S2–PROX.FUT	O3SG–put.in–S2–PROX.FUT=only=FOC	say–O3PL–S1SG–PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann310" ANNOTATION_REF="ann308">
+                <ANNOTATION_VALUE>O3SG–break–S2–PROX.FUT	O3SG–put.in–S2–PROX.FUT	POSS3SG–in	O3SG–stop–S2–PROX.FUT=only=FOC	DIST.DEM	PROX.DEM=LOC=FOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann314" ANNOTATION_REF="ann312">
+                <ANNOTATION_VALUE>DIST.DEM	place–NMLZ	small	sleep–S3SG–PFV=UNCRT	DIST.DEM=LOC	O3SG–put.in–S2–stop–S2–FUT=FOC	below=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann318" ANNOTATION_REF="ann316">
+                <ANNOTATION_VALUE>DIST.DEM	POSS3SG–egg=TOP	water=INS	HES	PROX.DEM	water	drink–NMLZ=INS</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann322" ANNOTATION_REF="ann320">
+                <ANNOTATION_VALUE>true	DIST.DEM=SIM	O3SG–make–S3PL–PFV=NOM	DIST.DEM=LOC	REFL–take.out–S3SG–PFV	already	day	always=LOC	go–O3SG–see–S3PL–PFV=when</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann326" ANNOTATION_REF="ann324">
+                <ANNOTATION_VALUE>DIST.DEM=LOC	eye	REFL–put–S3SG–PST	eye	REFL–take.out–S3SG–PST	be.there–S3SG–PFV	DIST.DEM	DIST.DEM	eye	POSS3SG–egg=TOP	O3SG–cook–PTCP=SIM	MID–make–S3SG–PFV	already</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann330" ANNOTATION_REF="ann328">
+                <ANNOTATION_VALUE>DIST.DEM=TOP	MED.DEM	O3SG–cook–half–PTCP=SIM	be.ashy–TOT–S3SG–PST	DIST.DEM	white=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann334" ANNOTATION_REF="ann332">
+                <ANNOTATION_VALUE>already	HES	be.ashy–TOT–S3SG–PST	white	MID–make–S3SG–PST</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann338" ANNOTATION_REF="ann336">
+                <ANNOTATION_VALUE>POSS3SG–yellow=only=FOC	POSS3SG–yellow	half	REFL–sit–S3SG–PST	REFL–sit–S3SG–PST	DIST.DEM	eye=TOP</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann342" ANNOTATION_REF="ann340">
+                <ANNOTATION_VALUE>true	HES	INCL–POSS1–eye	PROX.DEM=SIM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann346" ANNOTATION_REF="ann344">
+                <ANNOTATION_VALUE>DIST.DEM	PROX.DEM=LOC	round	POSS3SG–small	a.little	REFL–sit–S3SG–PST	POSS3SG–in=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann350" ANNOTATION_REF="ann348">
+                <ANNOTATION_VALUE>DIST.DEM=SIM	REFL–take.out–S3SG–PFV	DIST.DEM=ACC	eye=COP:S3SG:PFV</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann358" ANNOTATION_REF="ann356">
+                <ANNOTATION_VALUE>DIST.DEM=SIM	well	O3PL–make–S1SG–PFV	PROX.DEM=LOC	even=LOC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="ft" PARENT_REF="ref@JH" PARTICIPANT="JH" TIER_ID="ft@JH">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann3" ANNOTATION_REF="ann0">
+                <ANNOTATION_VALUE>‘For the kids, for whom I make medicine.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann7" ANNOTATION_REF="ann4">
+                <ANNOTATION_VALUE>‘They call it the (evil) eye, the sick eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann11" ANNOTATION_REF="ann8">
+                <ANNOTATION_VALUE>‘I see two kids, their sick body, it is truly the (evil) eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann15" ANNOTATION_REF="ann12">
+                <ANNOTATION_VALUE>‘(If) it is not the (evil) eye, it is something. I look at his body. I check the whole child.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann19" ANNOTATION_REF="ann16">
+                <ANNOTATION_VALUE>‘Whether it is truly the (evil) eye or not, it is something. I check all of him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann27" ANNOTATION_REF="ann24">
+                <ANNOTATION_VALUE>‘His little hands, how they are moving, how they rise.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann31" ANNOTATION_REF="ann28">
+                <ANNOTATION_VALUE>‘If it turns out it is not the (evil) eye, then like that there, I check him well.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann35" ANNOTATION_REF="ann32">
+                <ANNOTATION_VALUE>‘(When) I have checked him, (if) one eye is small, the fever is making (it) hot.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann39" ANNOTATION_REF="ann36">
+                <ANNOTATION_VALUE>‘Truly, that one, it is already the (evil) eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann43" ANNOTATION_REF="ann40">
+                <ANNOTATION_VALUE>‘It grabbed the eye. Those (fever and sickness) put his eye like the evil (eye). I saw him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann47" ANNOTATION_REF="ann44">
+                <ANNOTATION_VALUE>‘It happened to the child.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann51" ANNOTATION_REF="ann48">
+                <ANNOTATION_VALUE>‘That is why truly, it is the (evil) eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann55" ANNOTATION_REF="ann52">
+                <ANNOTATION_VALUE>‘I say it. There, it is what I say.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann59" ANNOTATION_REF="ann56">
+                <ANNOTATION_VALUE>‘This is what I say, I search for the medicine (against) the (evil) eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a364" ANNOTATION_REF="a361">
+                <ANNOTATION_VALUE>‘ “It is the one you will look for and buy!” I told his father and his mother.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann63" ANNOTATION_REF="ann60">
+                <ANNOTATION_VALUE>‘ “The medicine you will look for.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann67" ANNOTATION_REF="ann64">
+                <ANNOTATION_VALUE>‘Two eggs (that) the chickens laid.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann71" ANNOTATION_REF="ann68">
+                <ANNOTATION_VALUE>‘Eggs of the homegrown type, like those two and rue.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann75" ANNOTATION_REF="ann72">
+                <ANNOTATION_VALUE>‘That one, it is (found) in the market.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann79" ANNOTATION_REF="ann76">
+                <ANNOTATION_VALUE>‘ “There, you are going to buy it,” I tell them. It is over there that I send them like this.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann83" ANNOTATION_REF="ann80">
+                <ANNOTATION_VALUE>‘A spicy drink that can be found here.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann87" ANNOTATION_REF="ann84">
+                <ANNOTATION_VALUE>‘They drink outside.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann91" ANNOTATION_REF="ann88">
+                <ANNOTATION_VALUE>‘Like other people drink. Like the foreigners drink over there.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann95" ANNOTATION_REF="ann92">
+                <ANNOTATION_VALUE>‘ “Half of it, you buy it and bring it.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann99" ANNOTATION_REF="ann96">
+                <ANNOTATION_VALUE>‘ “You give it to me,” I tell them. “Now, here,” they say.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann103" ANNOTATION_REF="ann100">
+                <ANNOTATION_VALUE>‘It comes in a small container, its name is “Agua Florida.” It is called like that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann107" ANNOTATION_REF="ann104">
+                <ANNOTATION_VALUE>‘Then, it is a small container like this.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann111" ANNOTATION_REF="ann108">
+                <ANNOTATION_VALUE>‘ “You bring the medicine, I will make (it for) you, because it is the (evil) eye this child has in an eye.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann115" ANNOTATION_REF="ann112">
+                <ANNOTATION_VALUE>‘ “Because that is the disease he has.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann119" ANNOTATION_REF="ann116">
+                <ANNOTATION_VALUE>‘ “I make him the medicine,” I tell the people.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann123" ANNOTATION_REF="ann120">
+                <ANNOTATION_VALUE>‘It is true, they buy and bring the medicine, I make (it for) them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann127" ANNOTATION_REF="ann124">
+                <ANNOTATION_VALUE>‘First with the eggs, I rub him with that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann131" ANNOTATION_REF="ann128">
+                <ANNOTATION_VALUE>‘I rub them a lot, I leave them alone.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann135" ANNOTATION_REF="ann132">
+                <ANNOTATION_VALUE>‘Because today there are two, one like that, with his eye I rub him, I do it.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann139" ANNOTATION_REF="ann136">
+                <ANNOTATION_VALUE>‘I rub them up to the head, (and) down, truly, down to the feet I put a lot on the lower part.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann143" ANNOTATION_REF="ann140">
+                <ANNOTATION_VALUE>‘Then I repeat it, then I grab his small foot, then I bring him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann147" ANNOTATION_REF="ann144">
+                <ANNOTATION_VALUE>‘I go up to the head. I do that with the egg.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann151" ANNOTATION_REF="ann148">
+                <ANNOTATION_VALUE>‘There is that medicine like that. Afterwards, that rue I told him.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann155" ANNOTATION_REF="ann152">
+                <ANNOTATION_VALUE>‘It is crushed, already crushed, several times, several times.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann159" ANNOTATION_REF="ann156">
+                <ANNOTATION_VALUE>‘I squeeze it several times, the water, that water like I said, that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann163" ANNOTATION_REF="ann160">
+                <ANNOTATION_VALUE>‘A spicy drink, over there they call it guaro. Like that, I sprinkle it with that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann167" ANNOTATION_REF="ann164">
+                <ANNOTATION_VALUE>‘I did not make it, I forgot that, I make that one.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann171" ANNOTATION_REF="ann168">
+                <ANNOTATION_VALUE>‘It is holy water they say. I sprinkle it with that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann175" ANNOTATION_REF="ann172">
+                <ANNOTATION_VALUE>‘With the leaf, I squeeze the stick, with holy water.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann179" ANNOTATION_REF="ann176">
+                <ANNOTATION_VALUE>‘I squeeze for a long time, I sprinkle it with that. I make it (stick) wet.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann183" ANNOTATION_REF="ann180">
+                <ANNOTATION_VALUE>‘I sprinkle it there. I put a little bit of guaro.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann187" ANNOTATION_REF="ann184">
+                <ANNOTATION_VALUE>‘To that one (child), I repeatedly make the sign of the cross. I rub them, I rub the kids with the rue.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann191" ANNOTATION_REF="ann188">
+                <ANNOTATION_VALUE>‘Then I rub them for a long time. I leave them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann195" ANNOTATION_REF="ann192">
+                <ANNOTATION_VALUE>‘I would do it with an egg. I do it, with this one, with rue. I do it like that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann199" ANNOTATION_REF="ann196">
+                <ANNOTATION_VALUE>‘With the herb that they say.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann203" ANNOTATION_REF="ann200">
+                <ANNOTATION_VALUE>‘Then like this, the next day, the other people (foreigners) drink the spicy guaro, I say.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann207" ANNOTATION_REF="ann204">
+                <ANNOTATION_VALUE>‘Then it was Agua Florida.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann211" ANNOTATION_REF="ann208">
+                <ANNOTATION_VALUE>‘A small plate, with that I empty it, I empty it there. I sprinkle it with guaro.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann215" ANNOTATION_REF="ann212">
+                <ANNOTATION_VALUE>‘Then, like this, also with the Agua Florida, I write that. I also make that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann219" ANNOTATION_REF="ann216">
+                <ANNOTATION_VALUE>‘I write it, I take it, I write it, I bring it, I do it there.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann223" ANNOTATION_REF="ann220">
+                <ANNOTATION_VALUE>‘It is that fire that we take out, the match as we call it.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann227" ANNOTATION_REF="ann224">
+                <ANNOTATION_VALUE>‘With that I take it, I light it (guaro), I put and make (fire inside the plate with the guaro and the Agua Florida).’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann231" ANNOTATION_REF="ann228">
+                <ANNOTATION_VALUE>‘With the plate, I sprinkle it, I put it in water in the one I say.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann235" ANNOTATION_REF="ann232">
+                <ANNOTATION_VALUE>‘This one, with the guaro, the Agua Florida, I sprinkle it, I leave it.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann239" ANNOTATION_REF="ann236">
+                <ANNOTATION_VALUE>‘There I mix it, I light it on fire there.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann243" ANNOTATION_REF="ann240">
+                <ANNOTATION_VALUE>‘I burn it there that one.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann247" ANNOTATION_REF="ann244">
+                <ANNOTATION_VALUE>‘It is this gas that catches, like we say.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann251" ANNOTATION_REF="ann248">
+                <ANNOTATION_VALUE>‘It is lit and taken out, it was lit and taken along with what got burnt.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann255" ANNOTATION_REF="ann252">
+                <ANNOTATION_VALUE>‘Everything got burnt, there was no water for a little while, it got emptied to a low (level).’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann259" ANNOTATION_REF="ann256">
+                <ANNOTATION_VALUE>‘With that, I sprinkle in the rue. I sprinkle it with that, I rub the children.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann263" ANNOTATION_REF="ann260">
+                <ANNOTATION_VALUE>‘With that I rub them several times.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann267" ANNOTATION_REF="ann264">
+                <ANNOTATION_VALUE>‘Those ones, I bathe them with that, I sprinkle them with water, and I bathe them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann271" ANNOTATION_REF="ann268">
+                <ANNOTATION_VALUE>‘Because a lot of water remained, (with what) got burnt.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann275" ANNOTATION_REF="ann272">
+                <ANNOTATION_VALUE>‘I do it like that, I leave the children, I do it like that, they sweat.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann279" ANNOTATION_REF="ann276">
+                <ANNOTATION_VALUE>‘She covers them well, she will lay them down, their mother lays them down. There they sweat.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann283" ANNOTATION_REF="ann280">
+                <ANNOTATION_VALUE>‘There it comes out of them, his (evil) eye, then (thanks to) the egg I said.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann287" ANNOTATION_REF="ann284">
+                <ANNOTATION_VALUE>‘I already finished rubbing them, I leave them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann291" ANNOTATION_REF="ann288">
+                <ANNOTATION_VALUE>‘Because they are already well covered, because they lay down, I tell their mother.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann295" ANNOTATION_REF="ann292">
+                <ANNOTATION_VALUE>‘This egg is no longer in the water.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann299" ANNOTATION_REF="ann296">
+                <ANNOTATION_VALUE>‘ “Bring half of a glass of water.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann303" ANNOTATION_REF="ann300">
+                <ANNOTATION_VALUE>‘ “You bring it to put in some water.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann307" ANNOTATION_REF="ann304">
+                <ANNOTATION_VALUE>‘ “The egg, break it, just splatter it,” I tell them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann311" ANNOTATION_REF="ann308">
+                <ANNOTATION_VALUE>‘ “Break it, splatter it on, put it just here.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann315" ANNOTATION_REF="ann312">
+                <ANNOTATION_VALUE>‘ “Where the child sleeps there, you will put it in and put it under the child('s pillow).” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann319" ANNOTATION_REF="ann316">
+                <ANNOTATION_VALUE>‘ “That egg with the water, with the glass of water.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann323" ANNOTATION_REF="ann320">
+                <ANNOTATION_VALUE>‘Truly, they do it like that there. It comes out already, the next day when they go see them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann327" ANNOTATION_REF="ann324">
+                <ANNOTATION_VALUE>‘There the eye put itself (became healthy). It is as if the (evil) eye came out from the cooked egg. It becomes healthy.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann331" ANNOTATION_REF="ann328">
+                <ANNOTATION_VALUE>‘It is like half cooked, it is all ashy (rotten), the egg white.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann335" ANNOTATION_REF="ann332">
+                <ANNOTATION_VALUE>‘The egg white became completely ashy.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann339" ANNOTATION_REF="ann336">
+                <ANNOTATION_VALUE>‘Only the yolk, half of the yolk is that eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann343" ANNOTATION_REF="ann340">
+                <ANNOTATION_VALUE>‘Truly, our eye is like that.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann347" ANNOTATION_REF="ann344">
+                <ANNOTATION_VALUE>‘That one, here, round and small, it is inside.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann351" ANNOTATION_REF="ann348">
+                <ANNOTATION_VALUE>‘That comes out like that, it is the (evil) eye.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann359" ANNOTATION_REF="ann356">
+                <ANNOTATION_VALUE>‘I heal them like that even now. ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="to" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ot" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

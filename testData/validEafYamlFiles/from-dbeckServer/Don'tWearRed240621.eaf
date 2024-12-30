@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-06-21T12:01:45-09:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/ataff/Documents/DOYON-MAP 2023-24/MAPrecordings/Don'tWearRed/Don'tWearRed.MOV"
+            MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./Don'tWearRed.MOV"/>
+        <MEDIA_DESCRIPTOR
+            EXTRACTED_FROM="file:///Users/ataff/Documents/DOYON-MAP 2023-24/MAPrecordings/Don'tWearRed/Don'tWearRed.MOV"
+            MEDIA_URL="file:///Users/ataff/Documents/DOYON-MAP 2023-24/MAPrecordings/Don'tWearRed/Don'tWearRed.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./Don'tWearRed.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:efc27bca-3c80-4a7a-9a39-2c68d2c0728f</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">16</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="30"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="1030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="1070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="3318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="7070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="12047"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="13129"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="15169"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="15610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="19300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="19450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="21368"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Speaker is Edna Deacon on Sept. 7, 2023, at David Louis Memorial School In Grayling, Alaska. Recorded by Alice Taff in person.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Deg Xinag transcription and English translation by Edna Deacon with Alice Taff,
+using ELAN (Version 6.7) [Computer software], (2023). Nijmegen: Max Planck Institute for Psycholinguistics. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Go xitr'itodał tux,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>sito', «Dithiq'irz ndliyuxliyo',»</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>dina iłne ts'i xiyan'.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Ngo getiy viginalnek xiy n'iy.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>(di)na iłne.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>This material was funded by NSF grant 0651787 and by the Doyon Foundation 2023-24 Mentor Apprentice Program.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation or the Doyon Foundation.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Streaming video with scrolling bilingual text uses Slexil software developed by Paul Thurmond Shannon. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>When we're going to go (for berries),</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>my father, "Red don't wear it,"</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>he told us only.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Well it (bear) really likes it (red).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>he told us.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

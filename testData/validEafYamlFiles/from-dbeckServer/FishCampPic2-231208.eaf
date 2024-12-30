@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-12-08T10:26:57-09:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Users/ataff/Documents/DOYON-MAP 2023-24/MAPrecordings/FishCampPic2/FishCampPic2.MOV"
+            MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./FishCampPic2.MOV"/>
+        <MEDIA_DESCRIPTOR
+            EXTRACTED_FROM="file:///Users/ataff/Documents/DOYON-MAP 2023-24/MAPrecordings/FishCampPic2/FishCampPic2.MOV"
+            MEDIA_URL="file:///Users/ataff/Documents/DOYON-MAP 2023-24/MAPrecordings/FishCampPic2/FishCampPic2.wav"
+            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./FishCampPic2.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:c1a27f6c-4f9d-400d-93c9-f93be818304f</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">54</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="3270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="3340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="6634"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="13216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="15558"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="16011"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="18026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="18433"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="20666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="28199"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="30141"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="30798"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="31931"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="32150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="34124"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="42793"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="46000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="46420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="48459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="49270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="52100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="55232"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="58816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="66804"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="70510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="72420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="74670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="77975"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="79694"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="80810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="83838"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="87090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="90956"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="94989"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="98141"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="105090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="108850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="117112"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="119541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="122000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="124410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="125257"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="128546"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="128901"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="131900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="132710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="135078"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="135656"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="138256"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" TIER_ID="utterance">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Speaker is Edna Deacon. Recorded on Sept. 7, 2023, by Alice Taff at David Louis Memorial School In Grayling, Alaska.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>SYMBOLS: Brackets = {false start}, (added for clarity), [translator/transcriber's note]. ??? = canʼt understand. « » =  quotation marks for Deg Xinag text.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Sanhqay xughu xitosał.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Getiy dina longh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Łegg gho nixiłniyh</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>sraqay yił.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Ago itsiʼa,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>łegg</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>cho trʼigiłtʼith.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>Getiy longh xiy.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>{go gho gho}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>Yicho tr'igilayh xiy.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>Ago gan chenh gasre ditʼanh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Viye giditen ghonet,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>łegg,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>iłghał.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Viye giditen ghonet.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Go dan che sraqay, im,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>qʼenʼ vinixiłniyh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>Go chel tsʼi, łegg diqon ałtayh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>Ago che trathdo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>Gitthey kʼidz ghoniłniyhinh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>Ngidixi gidlnek ago,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>gog trʼigandidhithin.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>Ngidixi genotʼux.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>Gitsiy iłne ndałon.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>Deg Xinag transcription and English translation by Edna Deacon with Alice Taff,
+using ELAN (Version 6.6) [Computer software]. (2023). Nijmegen: Max Planck Institute for Psycholinguistics. Retrieved from https://archive.mpi.nl/tla/elan</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>This material was funded by the Doyon Foundation Mentor-Apprentice Program 2023-24.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Fish camp (summer village) Iʼll talk about.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Lots of people.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Theyʼre working at fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>with (their) children.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>This grandmother,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>sheʼs cutting the belly.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Really lots of them.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE> Sheʼs gutting the bellies.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>I donʼt know what sheʼs doing.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Sheʼs going to put it away,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>fish,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>wrapping it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Sheʼs going to put it away in the freezer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>These children, um,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>theyʼre working on fish eggs.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>This boy carries fish one by one up (the river bank).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Somebodyʼs sitting here.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>He is the one caring for his little grandchild.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>Sheʼs reaching upwards,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>a toddler pointing upward.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>An airplane is up above.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>Maybe itʼs her grandfather (by her).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
