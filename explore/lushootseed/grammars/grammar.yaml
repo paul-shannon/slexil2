@@ -2785,66 +2785,251 @@ lines:
     endTime:   1
     lushootseed: ʔuləč̓əd tə yiq̓us. (no audio)
     english: She is filling the cedar-root basket.
-#
-#  - html: "<div class='sectionNumber'>17.</div>"
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - html: "<div class='sectionNumber'>17.</div>"
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - html: "<div class='sectionNumber'>17.</div>"
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - html: "<div class='sectionNumber'>17.</div>"
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - html: "<div class='sectionNumber'>17.</div>"
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime:   
-#    lushootseed: 
-#    english: 
+
+
+  - html: "<div class='lessonTitle'>Lesson Eighteen: ʔulub ʔi ti təqačiʔ</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>-agʷil</td><td>doer puts self into action</td></tr>
+                     <tr><td>bəč</td><td>fall down (from standing position - not from a height)</td></tr>
+                     <tr><td>bəčaš (Snohomish, Sauk)</td><td>set/put something down</td></tr>
+                     <tr><td>bəčəš (SL)</td><td>set/put something down</td></tr>
+                     <tr><td>č̓əsayʔ</td><td>salmon spear</td></tr>
+                     <tr><td>dᶻuləq̓</td><td>leg spindle</td></tr>
+                     <tr><td>dxʷʔal</td><td>to, toward, into</td></tr>
+                     <tr><td>gʷəd</td><td>down</td></tr>
+                     <tr><td>gʷədabac (NL) </td><td>below solid object</td></tr>
+                     <tr><td>kʷədad (NL)</td><td>take something</td></tr>
+                     <tr><td>kʷədəd (SL)</td><td>take something</td></tr>
+                     <tr><td>ɬaq̓aš (Skagit) </td><td>set/put something down</td></tr>
+                     <tr><td>ɬik̓ʷəd</td><td>gaff</td></tr>
+                     <tr><td>ƛ̓əp</td><td>deep</td></tr>
+                     <tr><td>ƛ̓(ə)pabac (SL) </td><td>below solid object</td></tr>
+                     <tr><td>qəlub</td><td>eye</td></tr>
+                     <tr><td>qəl̓qəlub</td><td>eyes, glasses</td></tr>
+                     <tr><td>q̓ilagʷil</td><td>board, mount, get in/on a conveyance</td></tr>
+                     <tr><td>qʷat</td><td>fall</td></tr>
+                     <tr><td>qʷəɬayʔ (NL) </td><td>log/stick</td></tr>
+                     <tr><td>qʷəɬiʔšəd (Skagit)</td><td>shoe</td></tr>
+                     <tr><td>šəq</td><td>high</td></tr>
+                     <tr><td>š(ə)qabac</td><td>above/on a solid object</td></tr>
+                     <tr><td>šiqʷ (NL) </td><td>hat</td></tr>
+                     <tr><td>st̓ək̓ʷab (SL) </td><td>log, stick</td></tr>
+                     <tr><td>st̓ək̓ʷabšəd (Shohomish, SL) </td><td>shoe</td></tr>
+                     <tr><td>sxʷayʔs (SL) </td><td>hat</td></tr>
+                     <tr><td>x̌ʷubt</td><td>paddle</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - html: "<div class='sectionNumber'>18.1</div>"
+
+  - startTime: 3592767
+    endTime:   3594763
+    lushootseed: čad əw̓ə ti dšiqʷ.
+    English: Where in the world is my hat?
+
+  - startTime: 3597981
+    endTime:   3600588
+    lushootseed: š(ə)qabac ʔal tə piit.
+    English: On top of the bed.
+
+  - html: "<div class='sectionNumber'>18.2</div>"
+
+  - startTime: 3607456
+    endTime:   3609708
+    lushootseed: čad əw̓ə ti dqəl̓qəlub.
+    English: Where in the world are my glasses? (literally "my eyes")
+
+  - startTime: 3613948
+    endTime:   3616323
+    lushootseed: š(ə)qabac ʔal tə tibu.
+    English: On top of the table.
+
+
+  - html: "<div class='sectionNumber'>18.3</div>"
+
+  - startTime: 3623133
+    endTime:   3625262
+    lushootseed: čad əw̓ə ti dqʷəɬiʔšəd.
+    English: Where in the world is/are my shoe(s)?
+
+  - startTime: 3629504
+    endTime:   3632134
+    lushootseed: gʷədabac ʔal tə piit.
+    English: Under the bed.
+
+  - html: "<div class='sectionNumber'>18.4</div>"
+
+  - startTime: 3639480
+    endTime:   3641521
+    lushootseed: čad əw̓ə ti ddᶻuləq̓.
+    English: Where in the world is my leg spindle.
+
+  - startTime: 3645035
+    endTime:   3647787
+    lushootseed: gʷədabac ʔal tə səxʷgʷədil.
+    English: It's under the chair.
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - html: "<div class='sectionNumber'>B18.1</div>"
+
+  - startTime: 3658438
+    endTime:   3661299
+    lushootseed: čad əw̓ə kʷi dusbəčaš ti dšiqʷ.
+    English: Where in the world did I put my hat?
+
+  - startTime: 3666347
+    endTime:   3669984
+    lushootseed: ʔubəčaš čəxʷ š(ə)qabac ʔal tə piit.
+    English: "You put [it] on the bed."
+
+  - html: "<div class='sectionNumber'>B18.2</div>"
+
+  - startTime: 3678753
+    endTime:   3682073
+    lushootseed: čad əw̓ə kʷi dusbəčaš ti dqəl̓qəlub.
+    English: Where in the world did I put my glasses?
+
+  - startTime: 3686685
+    endTime:   3690375
+    lushootseed: ʔubəčaš čəxʷ š(ə)qabac ʔal tə tibu.
+    English: "You put [them] on top of the table."
+
+  - html: "<div class='sectionNumber'>B18.3</div>"
+
+  - startTime: 3698673
+    endTime:   3702062
+    lushootseed: čad əw̓ə kʷi dsubəčaš ti dqʷəɬiʔšəd.
+    English: Where in the world did I put my shoe(s)?
+
+  - startTime: 3706587
+    endTime:   3711027
+    lushootseed: ʔubəčaš čəxʷ gʷədabac ʔal tə piit.
+    English: "You put [it/them] under the bed."
+
+
+  - html: "<div class='sectionNumber'>B18.4</div>"
+
+  - startTime: 3719847
+    endTime:   3723203
+    lushootseed: čad əw̓ə kʷi dsubəčaš ti ddᶻuləq̓.
+    English: Where in the world did I put my leg spindle?
+
+  - startTime: 3727231
+    endTime:   3731701
+    lushootseed: ʔubəčaš čəxʷ gʷədabac ʔal tə səxʷgʷədil.
+    English: "You put [it] under the chair."
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition C</h5></div>"
+
+  - html: "<div class='sectionNumber'>C18.1</div>"
+
+  - startTime: 3744014
+    endTime:   3746406
+    lushootseed: čad əw̓ə ti dx̌ʷubt.
+    English: Where in the world is my paddle?
+
+  - startTime: 3749483
+    endTime:   3751170
+    lushootseed: ʔukʷədad čəd.
+    English: "I took [it]."
+
+  - startTime: 3754965
+    endTime:   3757433
+    lushootseed: čad kʷ(i) adsubəčaš.
+    English: "Where did you put [it]."
+
+  - startTime: 3761739
+    endTime:   3765766
+    lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
+    English: "I put/loaded [it] into your shovel-nose canoe."
+
+  - html: "<div class='sectionNumber'>C18.2</div>"
+
+  - startTime: 3776097
+    endTime:   3777945
+    lushootseed: čad əw̓ə ti dhuyəq.
+    English: Where in the world is my gill net?
+
+  - startTime: 3781066
+    endTime:   3783045
+    lushootseed: ʔukʷədad čəd.
+    English: "I took [it]."
+
+  - startTime: 3788006
+    endTime:   3790128
+    lushootseed: čad kʷ(i) adsubəčaš.
+    English: "Where did you put [it]."
+
+  - startTime: 3792970
+    endTime:   3796186
+    lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
+    English: "I put/loaded [it] into your shovel-nose canoe."
+
+
+  - html: "<div class='sectionNumber'>C18.3</div>"
+
+  - startTime: 3803399
+    endTime:   3805300
+    lushootseed: čad əw̓ə ti dč̓əsayʔ.
+    English: Where in the world is my salmon spear?
+
+  - startTime: 3808206
+    endTime:   3809644
+    lushootseed: ʔukʷədad čəd.
+    English: "I took [it]."
+
+  - startTime: 3813588
+    endTime:   3815902
+    lushootseed: čad kʷ(i) adsubəčaš.
+    English: "Where did you put [it]."
+
+  - startTime: 3819098
+    endTime:   3823279
+    lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
+    English: "I put/loaded [it] into your shovel-nose canoe."
+
+
+  - html: "<div class='sectionNumber'>C18.4</div>"
+
+  - startTime: 3829493
+    endTime:   3831461
+    lushootseed: čad əw̓ə ti dɬik̓ʷəd.
+    English: Where in the world is my gaff?
+
+  - startTime: 3835227
+    endTime:   3837058
+    lushootseed: ʔukʷədad čəd.
+    English: "I took [it]."
+
+  - startTime: 3840212
+    endTime:   3842079
+    lushootseed: čad kʷ(i) adsubəčaš.
+    English: "Where did you put [it]."
+
+  - startTime: 3845577
+    endTime:   3848641
+    lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
+    English: "I put/loaded [it] into your shovel-nose canoe."
+
+
+
+
+
 
 
 
