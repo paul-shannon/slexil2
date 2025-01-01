@@ -1,6 +1,279 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ecs":
+`
+**ECS**: event external causative
+
+The Lushootseed suffix _-txʷ_
+
+Adds participant (a trajector) which is initiator of separate process
+of which it is not the trajector (the primary clausal figure).
+
+The notion of ‘separate process’ is a matter of construal and in
+practice there is considerable overlap in direct- and indirect-causation (ICS).
+
+(TRAJECTOR AND LANDMARK are the terms proposed by R. Langacker to
+describe the semantics of the linguistic expressions denoting simple
+and complex events, in which one object (the Trajector) is moving or
+undergoing changes in relation to another object (the Landmark).The
+line along which the Trajector is moving, either literally or
+metaphorically, is called the Path.)
+
+
+`,
+
+"cntrpt":
+`
+**CNTRPT**: centripetal, to, towards, into
+
+A locative-temporal preposition, formed by compounding
+**dxʷ-** with **ʔal**, thus combining the notions of location and
+centripetal motion ("moving toward a center"), giving a basic spatial
+meaning of motion towards a deictic centre or a temporal meaning
+expressing the limit or termination of an event.
+
+see also:
+   - **tul̓ʔal** "from, out of" (centrifugal motion)
+   - **liɬʔal** "via, through"
+`,
+
+
+"stat":
+`
+**STAT**: stative
+
+According to some linguistics theories, a stative verb is a verb that
+describes a state of being, in contrast to a dynamic verb, which
+describes an action. The difference can be categorized by saying that
+stative verbs describe situations that are static, or unchanging
+throughout their entire duration, whereas dynamic verbs describe
+processes that entail change over time
+
+`,
+
+"nm":
+`
+**NM: nominalizing prefix s-**
+
+The prefix s- (not to be confused with the
+nominalizing proclitic, s=) is the most common and prolific
+of the derivational affixes in Lushootseed. Its primary function is to
+create lexical nouns from verbal bases.  [David Beck's draft grammar]
+
+
+`,
+
+"sub":
+`
+**SUB**: subject
+`,
+
+"1sg":
+`
+**1SG**: first person singular
+
+`,
+
+"2sg":
+`
+**2SG**: second person singular
+
+`,
+
+"po":
+`
+**PO**: possessive
+
+`,
+
+"prox":
+`
+**PROX: proximal demonstrative**
+
+A distinction in place deixis that indicates location close to the
+speaker or other deictic center.
+
+
+`,
+
+"irr":
+
+`
+**IRR: irrealis**
+
+Expressing unreality, non-factuality, extreme unlikelihood,
+potentiality, etc.  Grammatical moods that indicate that a certain
+situation or action is not known to have happened at the moment the
+speaker is talking.  Contrast realis mood, indicating that something
+is a matter of fact.
+
+The Lushootseed Dictionary states simply:
+
+  _ɬu_: anticipated, expected or possible event; future
+
+Every language has grammatical ways of expressing unreality. Linguists
+tend to reserve the term "irrealis" for particular morphological
+markers or clause types. Many languages with irrealis mood make
+further subdivisions between kinds of irrealis moods. This is
+especially so among Algonquian languages such as Blackfoot.
+
+Some such moods:
+   - subjunctive: If I were to love you...
+   - conditional: I would love you
+   - optative: May I be loved!
+   - jussive: Everyone should be loved
+   - potential: she probably loves me
+   - imperative: Love me!
+   - prohibitive: Do not love me
+   - desiderative: I wish he loved me
+   - dubitative: I think she loves me
+   - hypothetical: I might love you if...
+   - presumptive: Assuming he loves you...
+   - permissive: You may [not] love me
+   - admirative: Wow! They love me
+   - hortative: Let us love!
+   - eventive: I would probably love you if ...
+   - precative: Will you love me?
+   - volitive: Would that you loved me.
+   - inferential: she is said to love me.
+   - necessitative: It is necessary that you love me.
+   - interrogative: Does he love me?
+   - benedictive: Would you please be so kind as to love me?
+   - concessive: Even if she loves me...
+   - prescriptive:  Please [do not] love me
+   - admonitive: Beware loving me.
+`,
+
+
+"altv":
+`
+**ALTV: Allative Applicative**
+
+Adds a new argument to the valency of its base, most frequently a
+GOAL, which is realized as the direct object of the derived verb:
+
+<pre>
+gʷəl ɬuʔəƛ̓cbuɬ əlgʷəʔ …
+gʷəl ɬu=ʔəƛ̓–c–buɬ əlgʷəʔ
+then IRR=come–ALTV–1PL.OBJ PL
+‘then they will come for us’
+</pre>
+
+(Hess 2006: 72, line 712)
+
+<pre>
+cuuc tiʔəʔ qaw̓qs
+[cut–c,tiʔəʔ,qaw̓qs]
+[say–altv,prox,raven]
+Raven says to him
+</pre>
+(Harry Moses, Daylight, pshannon line 34)
+
+<details><summary>Applicative affix</summary>
+<p>
+
+In contrast to causative affixes, applicatives add a non-agentive
+object to the valency of their bases. Lushootseed has four affixes
+that fit this definition:
+
+<ul>
+
+<li> the allative applicative -c/-s
+
+<li> three secondary suffixes — -yi- ‘dative’, -bi- ‘middle
+applicative’, and -di-/-i- ‘secondary suffix’— which combine with one
+of the other valency-increasers to add an new object to the valency of
+the stem
+
+</ul>
+
+[David Beck, A taxonomy of Lushootseed valency-increasing affixes]
+</details>
+
+<details><summary>
+Allative: a type of locative grammatical case.</summary>
+<p>
+A case used to indicate movement onto, or to the adjacency of
+something. In English, this is usually expressed by the prepositions
+to or onto, as in "to the house," "onto the house." Languages that use
+the allative case include Basque, Dyirbal, Estonian, Finnish,
+Hungarian, and Lithuanian.
+
+
+<p><b>Example (Harry Moses Daylight, line 25) </b><br>
+<pre>
+lə=ʔux̌ʷ–c
+PROG=go-ALTV
+going-after
+</pre>
+</details>
+
+
+`,
+
+"sbj":
+`
+**SBJ: subjunctive**
+
+The subjunctive (also known as conjunctive in some languages) is a
+grammatical mood, a feature of an utterance that indicates the
+speaker's attitude toward it.
+
+Subjunctive forms of verbs are typically
+used to express various states of unreality such as wish, emotion,
+possibility, judgment, opinion, obligation, or action that has not yet
+occurred; the precise situations in which they are used vary from
+language to language.
+
+The subjunctive is one of the irrealis moods,
+which refer to what is not necessarily real. It is often contrasted
+with the indicative, a realis mood which principally indicates that
+something is a statement of fact. [wikipedia]
+
+
+
+`,
+
+
+"sconj":
+`
+**SCONJ: sentential conjunction**
+
+A sentential conjunction, also known as a logical connective,
+sentential operator, or logical operator, is a word or symbol used to
+connect propositions in logical formulas. Examples of sentential
+connectives include "and," "or," "not," and "if and only if".
+
+Sentential conjunction can also refer to the relationship between noun
+phrases in a sentence.
+
+In **phrasal conjunction** the verb phrase denotes an action shared by the noun phrases.
+
+For example, in the sentence "John and Mary conferred," the act of conferring is
+shared by both John and Mary.
+
+In **sentential conjunction**, each noun phrase denotes its own
+act. For example, in the sentence "John and Mary know the answer,"
+each person has their own act.
+
+`,
+
+
+"rem":
+`
+**REM: remote**
+
+One of Lushootseed's three demonstrative determiners: proximal, distal,
+remote:
+
+- masculine: *tiʔəʔ*  *tiʔiɬ* *kʷi*
+- feminine: *tsiʔəʔ*  *tsiʔiɬ* *kʷsi*
+- plural:  *tiʔiʔə* *tiʔiʔiɬ*  -
+
+[David Beck's draft Grammar]
+`,
+
 //------------------------------------------------------------------------------------------------------------------------
 "tušudub ʔə tiʔəʔ ʔaciɬtabixʷ. ʔuˑ dč’aʔkʷbixʷ ʔaciɬtalbixʷ tiʔəʔ ʔuɬčil.":
 `
