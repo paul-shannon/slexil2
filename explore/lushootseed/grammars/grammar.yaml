@@ -1,8 +1,8 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-#mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
-mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
+mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
 mimeType: audio/wav
 
 lines:
@@ -3026,12 +3026,157 @@ lines:
     lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
     English: "I put/loaded [it] into your shovel-nose canoe."
 
+  - html: "<div class='lessonTitle'>Lesson Nineteen: ʔulub ʔi ti x̌əl</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>-apsəb</td> <td>throat</td></tr>
+                     <tr><td>dxʷ.čad</td> <td>go where</td></tr>
+                     <tr><td>dᶻidᶻəlal̓ič</td><td>Seattle</td></tr>
+                     <tr><td>ʔəxʷs.gʷa(h)b</td> <td>want to accompany</td></tr>
+                     <tr><td>labalʔtxʷ</td> <td>tavern</td></tr>
+                     <tr><td>lə-</td> <td>on-going, incomplete action</td></tr>
+                     <tr><td>šabapsəb</td> <td>dry throat</td></tr>
+                     <tr><td>st̓əč̓as</td> <td>Olympia</td></tr>
+                     <tr><td>xʷuyubalʔtxʷ</td> <td>store</td></tr>
+                     <tr><td>x̌(ə)ɬalʔtxʷ</td> <td>hospital</td></tr>
+                     <tr><td>ʔəɬədalʔtxʷ</td> <td>restaurant</td></tr>
+                     <tr><td>ʔux̌ʷ</td> <td>go</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
 
 
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>19.1</div>"
+
+  - startTime: 3865394
+    endTime:   3867162
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going (now)?
+
+  - startTime: 3870670
+    endTime:   3873859
+    lushootseed: ləʔux̌ čəd dxʷʔal <u>dᶻ</u>idᶻəlal̓ič.
+    English: I'm going to Seattle.
+
+  - html: "<div class='sectionNumber'>19.2</div>"
+
+  - startTime: 3882104
+    endTime:   3883876
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going (now)?
+
+  - startTime: 3886941
+    endTime:   3890226
+    lushootseed: ləʔux̌ čəd dxʷʔal dxʷ<u>l</u>iləp.
+    English: I'm going to Tulalip.
+
+  - html: "<div class='sectionNumber'>19.3</div>"
+
+  - startTime: 3897347
+    endTime:   3899156
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 3902309
+    endTime:   3906288
+    lushootseed: ləʔux̌ čəɬ dxʷʔal s<u>t̓</u>əč̓as.
+    English: We are going to Olympia.
+
+  - html: "<div class='sectionNumber'>19.4</div>"
+
+  - startTime: 3913116
+    endTime:   3915193
+    lushootseed: lədxʷčad čəxʷ.
+    English: Where are you going?
+
+  - startTime: 3917724
+    endTime:   3921081
+    lushootseed: ləʔux̌ čəd dxʷʔal tudi(ʔ) lil.
+    English: I'm going far away.
 
 
+  - html: "<div class='sectionNumber'>19.5</div>"
 
+  - startTime: 3931036
+    endTime:   3932924
+    lushootseed: lədxʷčad čəxʷ.
+    English: Where are you going?
 
+  - startTime: 3935273
+    endTime:   3938742
+    lushootseed: ləʔux̌ čəd dxʷʔal tə xʷuyubalʔtxʷ.
+    English: I'm going to the store.
 
+  - startTime: 3950458
+    endTime:   3952478
+    lushootseed: ʔəxʷsgʷa(h)b čəxʷ (ʔ)u.
+    English: (Would) you (like to) come along?
 
+  - html: "<div class='sectionNumber'>19.7</div>"
+
+  - startTime: 3978104
+    endTime:   3980136
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 3983102
+    endTime:   3986256
+    lushootseed: ləʔux̌ čəɬ dxʷʔal tə labalʔtxʷ.
+    English: We are going to the tavern.
+
+  - startTime: 3986361
+    endTime:   3989321
+    lushootseed: cick̓ʷ čəɬ ʔə(s)šabapsəb.
+    English: We are very dry(-throated).
+
+  - startTime: 3997515
+    endTime:   4000032
+    lushootseed: ʔəxʷsgʷa(h)b čəxʷ (ʔ)u.
+    English: (Would) you (like to) come along?
+
+  - html: "<div class='sectionNumber'>19.8</div>"
+
+  - html: "<div style='margin: 30px'>(No audio available for this section)</div>"
+
+  - startTime: 0
+    endTime:   0
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 1
+    endTime:   1
+    lushootseed: ləʔux̌ čəɬ dxʷʔal tə x̌(ə)ɬalʔtxʷ.
+    English: We are going to the hospital.
+
+  - startTime: 2
+    endTime:   2
+    lushootseed: cick̓ʷ ʔəsx̌əɬ ti suq̓ʷaʔčəɬ.
+    English: Our younger brother is very sick.
+
+  - html: "<div style='margin: 30px'>Exercise 19.2, page 104</div>"
+
+  - startTime: 4009440
+    endTime:   4017557
+    lushootseed: "lədxʷčad [čələp], lədxʷčad [čələp].  gʷat, gʷat."
+    English: ""
+
+  - startTime: 4024861
+    endTime:   4032463
+    lushootseed: "tul̓ʔal čəɬ lil, tul̓ʔal čəɬ lil."
+    English: ""
+
+  - startTime: 4032787
+    endTime:   4039972
+    lushootseed: "ləʔux̌ʷ [čəɬ], ləʔux̌ʷ [čəɬ] dxʷʔal st̓əč̓as, st̓əč̓as."
+    English: ""
 
