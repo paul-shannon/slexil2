@@ -3180,3 +3180,179 @@ lines:
     lushootseed: "ləʔux̌ʷ [čəɬ], ləʔux̌ʷ [čəɬ] dxʷʔal st̓əč̓as, st̓əč̓as."
     English: ""
 
+  - html: "<div class='lessonTitle'>Lesson Twenty: saliʔačiʔ</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td></td> <td></td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - html: "<div class='sectionNumber'>20.1</div>"
+
+  - startTime: 4062523
+    endTime:   4064209
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going (now)?
+
+  - startTime: 4068800
+    endTime:   4083053
+    lushootseed: ləʔuluɬ čəd dxʷʔal <u>dᶻ</u>idᶻəlal̓ič.
+    English: I'm going to Seattle (by water).
+
+  - startTime: 4082907
+    endTime:   4086399
+    lushootseed: ɬudᶻəx̌əx̌bid čəd ti dqəsiʔ.
+    English: I'm going to visit my uncle.
+
+  - startTime: 4086874
+    endTime:   4089788
+    lushootseed: ʔəsɬaɬlil ʔal <u>dᶻ</u>idᶻəlal̓ič.
+    English: He lives in Seattle
+
+  - html: "<div class='sectionNumber'>20.2</div>"
+
+  - startTime: 4096132
+    endTime:   4097714
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going (now)?
+
+  - startTime: 4102055
+    endTime:   4105342
+    lushootseed: ləʔuluɬ čəd dxʷʔal s<u>t̓</u>əč̓as.
+    English: I'm going to Olympia (by water).
+
+  - startTime: 4110549
+    endTime:   4113753
+    lushootseed: ɬudᶻəx̌əx̌bid čəd tsi dʔəpus.
+    English: I'm going to visit my aunt.
+
+  - startTime: 4119493
+    endTime:   4122485
+    lushootseed: ʔəsɬaɬlil ʔal s<u>t̓</u>əč̓as.
+    English: She lives in Olympia.
+
+  - html: "<div class='sectionNumber'>20.3</div>"
+
+  - startTime: 4128095
+    endTime:   4130211
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going (now)?
+
+  - startTime: 4133015
+    endTime:   4136062
+    lushootseed: ləʔibəš čəd dxʷʔal <u>t</u>ulq.
+    English: I'm going to Carnation (by land).
+
+  - startTime: 4141669
+    endTime:   4144566
+    lushootseed: ɬudᶻəx̌əx̌bid čəd ti dqəsiʔ.
+    English: I'm going to visit my uncle.
+
+  - startTime: 4150120
+    endTime:   4152539
+    lushootseed: s<u>d</u>ukʷalbixʷ tiʔiɬ.
+    English: He is Snoqualmie.
+
+#----
+  - html: "<div class='sectionNumber'>20.4</div>"
+
+  - startTime: 4161894
+    endTime:   4163923
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going (now)?
+
+  - startTime: 4167470
+    endTime:   4171311
+    lushootseed: ləʔibəš čəd dxʷʔal <u>p</u>uləp.
+    English: I'm going to Puyallup (by land).
+
+  - startTime: 4176534
+    endTime:   4180654
+    lushootseed: ɬudᶻəx̌əx̌bid čəd tsi dʔəpus.
+    English: I'm going to visit my aunt.
+
+  - startTime: 4186213
+    endTime:   4188553
+    lushootseed: s<u>p</u>uyaləpabš tiʔiɬ.
+    English: She is Puyallup.
+
+#----
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - html: "<div class='sectionNumber'>20B.1</div>"
+
+  - startTime: 4196900
+    endTime:   4198846
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 4201933 
+    endTime:   4204322
+    lushootseed: lədxʷča(ʔ)kʷ čəɬ.
+    English: We are going seaward.
+
+  - startTime: 4204478
+    endTime:   4206619
+    lushootseed: ɬuǰiq̓aladᶻəd čəɬ.
+    English: We (have to) set nets.
+
+  - html: "<div class='sectionNumber'>20B.2</div>"
+
+  - startTime: 4217172
+    endTime:   4219283
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 4223108
+    endTime:   4226023
+    lushootseed: lədxʷt̓aq̓t čəɬ.
+    English: We are going landward.
+
+  - startTime: 4229338
+    endTime:   4232548
+    lushootseed: ɬuc̓əbəb čəɬ ʔə ti swədaʔx̌
+    English: We are going to pick blue huckleberries.
+
+  - startTime: 4242495
+    endTime:   4245490
+    lushootseed: ʔuƛ̓ax̌ʷ ʔal tudiʔ t̓aq̓x̌.
+    English: They grow there mountainward.
+
+
+  - html: "<div class='sectionNumber'>20B.3 </div>"
+
+  - startTime: 4251270
+    endTime:   4252911
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 4256160
+    endTime:   4258262
+    lushootseed: lədxʷq̓ixʷ čəɬ.
+    English: We are going upstream.
+
+  - startTime: 4262539
+    endTime:   4266323
+    lushootseed: ɬudᶻəx̌əx̌bid čəɬ ti scapaʔčəɬ.
+    English: We are going to visit our granfather.
+
+  - startTime: 4270788
+    endTime:   4273811
+    lushootseed: ʔəsɬaɬlil ʔal tudiʔ q̓ixʷ.
+    English: He lives there upstream.
+
+
+
