@@ -1,8 +1,8 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
-#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
+#mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
+mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
 mimeType: audio/wav
 
 lines:
@@ -3190,7 +3190,33 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
-                     <tr><td></td> <td></td></tr>
+                     <tr><td>-abš</td> <td>people of</td></tr>
+                     <tr><td>-alus</td> <td>eye(s)</td></tr>
+                     <tr><td>scapaʔ</td> <td>grandfater</td></tr>
+                     <tr><td>ča(ʔ)kʷ</td> <td>seaward, toward the water, out to sea</td></tr>
+                     <tr><td>čubə</td> <td>go up from the water's edge; got to easern side of Cascade Mountains</td></tr>
+                     <tr><td>sc̓əbayʔus</td> <td>blue huckleberry</td></tr>
+                     <tr><td>s<u>d</u>ukʷalbixʷ</td> <td>Snoqualmie</td></tr>
+                     <tr><td>dᶻəlax̌adbid (Snohomish, SL)</td> <td>visit someone</td></tr>
+                     <tr><td>dᶻəx̌əx̌bid (Skagit)</td> <td>visit someone</td></tr>
+                     <tr><td>hiiɬ</td> <td>happy</td></tr>
+                     <tr><td>huy</td> <td>then, next</td></tr>
+                     <tr><td>kayəʔ (SL)</td> <td>grandmother</td></tr>
+                     <tr><td>kiaʔ (NL)</td> <td>grandmother</td></tr>
+                     <tr><td>ɬaɬil</td> <td>dwell, live (at a place)</td></tr>
+                     <tr><td>pus (SL)</td> <td>aunt</td></tr>
+                     <tr><td>qəsiʔ</td> <td>uncle</td></tr>
+                     <tr><td>q̓əlb</td> <td><camp, spend night away from home/td></tr>
+                     <tr><td>q̓ixʷ</td> <td>located upstream</td></tr>
+                     <tr><td>tədᶻil</td> <td>go to bed</td></tr>
+                     <tr><td><u>t</u>ulq</td> <td>name for village where Carnation, Wash., now is</td></tr>
+                     <tr><td>t̓aq̓t</td> <td>toward the land, in the direction of the mountains</td></tr>
+                     <tr><td>t̓uk̓ʷ</td> <td>go home</td></tr>
+                     <tr><td>swədaʔx̌</td> <td>blue huckleberry</td></tr>
+                     <tr><td>xʷuʔələʔ</td> <td>maybe, perhaps, I guess</td></tr>
+                     <tr><td>x̌aƛ̓</td> <td>want, like</td></tr>
+                     <tr><td>ʔəpus (NL) </td> <td>aunt</td></tr>
+                     <tr><td>ʔuluɬ</td> <td>travel by water</td></tr>
                    </table>
                  <div>
                  </details>
@@ -3347,12 +3373,108 @@ lines:
   - startTime: 4262539
     endTime:   4266323
     lushootseed: ɬudᶻəx̌əx̌bid čəɬ ti scapaʔčəɬ.
-    English: We are going to visit our granfather.
+    English: We are going to visit our grandfather.
 
   - startTime: 4270788
     endTime:   4273811
     lushootseed: ʔəsɬaɬlil ʔal tudiʔ q̓ixʷ.
     English: He lives there upstream.
+
+  - html: "<div class='sectionNumber'>20B.4 </div>"
+
+  - startTime: 4282425
+    endTime:   4284091
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going (now)?
+
+  - startTime: 4286991
+    endTime:   4289054
+    lushootseed: lədxʷq̓ixʷ čəɬ.
+    English: We are going upstream.
+
+  - startTime: 4292970
+    endTime:   4296620
+    lushootseed: ɬudᶻəx̌əx̌bid čəɬ tsi kiaʔčəɬ.
+    English: We are going to visit our grandmother
+
+  - startTime: 4301459
+    endTime:   4304018
+    lushootseed: ʔəsɬaɬlil ʔal tudiʔ q̓ixʷ.
+    English: She lives there upstream.
+
+  - html: "<div class='sectionNumber'>20B.5 </div>"
+
+  - startTime: 4310808
+    endTime:   4322536
+    lushootseed: lədxʷčadəxʷ čəxʷ.
+    English: Where are you going?
+
+  - startTime: 4316812
+    endTime:   4318647
+    lushootseed: lədxʷt̓aq̓t čəd.
+    English: I am going to the other side of the mountains.
+
+  - startTime: 4323550
+    endTime:   4326874
+    lushootseed: ɬudᶻəx̌əx̌bid čəd ti dtaləɬ.
+    English: I am going to visit my nephew.
+
+  - startTime: 4335242
+    endTime:   4337584
+    lushootseed: <u>t</u>ubšədad tiʔiɬ.
+    English: He is Yakima.
+
+
+#----
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition C</h5></div>"
+
+  - html: "<div class='sectionNumber'>20C.1</div>"
+
+  - startTime: 4346678
+    endTime:   4348662
+    lushootseed: lədxʷčadʷ čəx̌ʷ.
+    English: Where are  you going?
+
+  - startTime: 4355353
+    endTime:   4357678
+    lushootseed: lət̓uk̓ʷəxʷ čəd.
+    English: I'm going home.
+
+  - startTime: 4364113
+    endTime:   4367081
+    lushootseed: dsx̌aƛ̓ kʷi gʷədstədᶻil.
+    English: I want to go to bed.
+
+  - startTime: 4370972
+    endTime:   4373207
+    lushootseed: ʔəxʷsʔitutəb čəd.
+    English: I'm sleepy.
+
+#---
+  - html: "<div class='sectionNumber'>20C.2</div>"
+
+  - startTime: 4378915
+    endTime:   4380431
+    lushootseed: lədxʷčadʷ čəx̌ʷ.
+    English: Where are  you going?
+
+  - startTime: 4385366
+    endTime:   4391648
+    lushootseed: lək̓ʷit̓ čəd.  dsx̌aƛ̓ kʷi gʷədsǰiq̓aladᶻəd.
+    English: I'm going down to the water.  I want to set nets.
+
+  - html: "<div class='sectionNumber'>20C.3</div>"
+
+  - startTime: 4401411
+    endTime:   4403719
+    lushootseed: lədxʷčadəxʷ čələp.
+    English: Where are you folks going?
+
+  - startTime: 4416092
+    endTime:   4421305
+    lushootseed: ləčubə čəɬ.  sx̌aƛ̓čəɬ kʷi gʷəsq̓əlbčəɬ.
+    English: We are going up the (river) bank.  We want to camp.
 
 
 
