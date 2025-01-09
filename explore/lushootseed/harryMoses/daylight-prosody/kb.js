@@ -1,5 +1,181 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
+"dstr":
+`
+**DSTR**: distributive reduplication
+
+
+Salish words are derived from a root word with affixes. Reduplication
+is a process that involves repeating the letters/sounds of the root
+word. Distributive reduplication repeats the two consonants of the
+root and adds them as a prefix to it.
+
+C<sub>1</sub>VC<sub>2</sub>  simple repeats, or repeats dropping the vowel.
+
+**David Beck's grammar** page 320
+
+One of the most common and regular of the reduplicative patterns is
+the Type I distributive [DSTR] reduplication. The semantic effect of
+Type I reduplication varies slightly depending on the lexical class of
+the stem.
+
+With nouns, this reduplicative pattern is the most common
+way of indicating plurality; with verbs, it indicates either locative
+distributivity or iteration of an action.
+
+In a few cases, it seems
+primarily to function as an indication of subject plurality, perhaps
+relying on the implication that an action performed by more than one
+person is done more than once in more than one location. The specific
+reading given to a verb that has undergone Type I reduplication is to
+a certain extent context-dependent, though all possible readings fit
+neatly under the abstract notions of locative and/or temporal
+distributivity.
+
+`,
+
+
+"ics":
+`
+**ICS**: internal causative
+
+Often __-t__.  
+
+Beck's Grammar, p61: Lushootseed has, for example, three transitive
+causative affixes, aka valency-increasing suffixes:
+
+- -t:  internal causative, an event arises from inherent properties 
+- -txʷ: external causative, from an external entity
+- -dxʷ: diminished control causative
+`,
+
+
+"dc":
+`
+**DC**: diminished control
+
+often __-dxʷ__, a diminished control causative
+
+Beck's Grammar, p61: Lushootseed has, for example, three transitive
+causative affixes, aka valency-increasing suffixes:
+
+- -t:  internal causative, an event arises from inherent properties 
+- -txʷ: external causative, from an external entity
+- -dxʷ: diminished control causative
+
+all of which have the same syntactic effect on the stem but which
+express events with different semantic characteristics.
+
+`,
+
+
+"adnm":
+`
+**ADNM**: adjunctive nominalizer
+
+- creates nominal expressions with the same distribution as relative
+  and headless relative clauses. LG 7.4.2.2 used primarily for the
+  nominalization of adjunct and circumstantial expressions,
+  particularly (but not exclusively), instruments, locations,
+  motivations, and manners, and will be referred to here as an
+  adjunctive nominalizer.
+
+- (an "adjunct expression" refers to a word, phrase, or clause within
+  a sentence that provides additional, optional information and can be
+  removed without affecting the grammatical structure of the sentence;
+  essentially, it's an element that adds extra detail or context to
+  the main idea, often functioning like an adverbial phrase.)
+
+
+- reason for, place where, time when
+
+- inflectional prefix marking a subordinate predicate in construction
+  with a fronted adjunct
+
+
+
+
+`,
+
+"ctd":
+`
+**CTD**: contained
+
+- permeate, throughout, filled with, covered with
+- derivational prefix which marks stems as serving to contain, to hold within
+- also designates a proclivity: what one has "inside"
+- also carrying this prefix are a number of stems referring to matters of the mind, the _x̌əč_. 
+
+**David Beck's Grammar** page 32
+
+The prefix dxʷ(s)- ‘contained [CTD]’ is one of the most frequent
+derivational prefixes in the Lushootseed lexicon and is found as part
+of a great many verb stems. Its basic meaning is to indicate that
+something is contained while undergoing the process expressed by its
+base:
+
+<pre>
+(4) a. ʔuhəd čəd ʔu–həd čəd
+        pfv–warm 1sg.sub
+        ‘I got warmed up (after being outside)’
+        (Bates, Hess & Hilbert 1994: 107)
+
+    b. putəxʷ dxʷshəd tiʔəʔ č’ič’ič’ƛ’aʔ səshudčupyids
+       put=əxʷ dxʷs–həd tiʔəʔ č’i–č’i–č’ƛ’aʔ s=ʔəs–hud•čup–yi–d=s PTCL=now CTD–warm PROX ATTN–ATTN–stone NM=burn•fire–DAT–ICS=3PO
+       ‘the stones she had put in the fire for them were very hot now’
+       [DM Basket Ogress, line 67]
+
+    c. ɬudxʷshədiləxʷ tiʔəʔ č’ƛ’aʔ ɬu=dxʷs–həd–il=əxʷ tiʔəʔ č’ƛ’aʔ
+       IRR=CTD–warm–INCH=now PROX stone
+       ‘the stones will warm up in there (the fire)’
+       [LA Basket Ogress, line 66]
+</pre>
+
+In forms such as dxʷshəd in (4b), the containment is fairly literal
+(in a fire pit); in other cases the containment is more figurative,
+often psychological (e.g., dxʷx̌ʷax̌ʷaq’ʷacut ‘be troubled’, dxʷsqʷacdxʷ
+‘doubt someone’) or having to do with some inherent feature of an
+object (dxʷx̌ʷədzəb ‘be tart, be strong (coffee)’ from √x̌ʷəc ‘be
+sharp’).
+
+Many verbs expressing actions associated with water are
+formed with dxʷ(s)- as well — e.g.,
+
+- dxʷbəčəb ‘sink, drown’
+- dxʷčəcəb ‘be red (water)’
+- dxʷqələbil ‘be turbid (water)’
+- dxʷšəɬəb ‘look at something through water’.
+
+In addition to being one of the more
+frequent derivational prefixes, dxʷ(s)- is one of the most difficult
+to analyze, primarily because it has three separate allomorphs —
+[dxʷs-], [dxʷ-], and [xʷ-] — which appear to be to a certain extent in
+free variation with one another: the form of the affix chosen for use
+with a particular base varies both among dialects and amongst
+individual speakers of the same dialect.
+
+The waters are muddied
+further by the fact that each of these 32 (Bates, Hess & Hilbert 1994:
+107) allomorphs is homophonous with another affix that must be
+treated, at least synchronically, as a separate morpheme —
+specifically, [dxʷs-] is homophonous with dxʷs- ‘proclivitive’
+(Section 2.2.1), [dxʷ-] is homophonous with the directional particle
+dxʷ (2.7.2), and [xʷ-] is homophonous with xʷ- ‘container’ (2.2.5);
+dxʷ(s)- is also part of the expression of the desiderative, discussed
+below in Section 8.5 (see Hess 1971 for a thorough comparison of these
+affixes).
+
+Historically, at least some attestations of dxʷ(s)- are
+probably analyzable as dxʷ- plus the s=nominalizer, and much of the
+modern-day variation between [dxʷs-] and [dxʷ-] may be the result of
+the neutralization of what were diachronically different structures:
+as the two collapsed into a single morpheme, dialects and speakers
+began to reanalyze what were once *dxʷ-s- forms (these being, perhaps
+in some cases, clause-level nominalizations) as [dxʷ-], or vice
+versa. The same diachronic processes may also account for the origins
+of some or all of the homophonous affixes, although all of these
+possibilities await areful etymological analysis and reconstruction.
+`,
 
 "ecs":
 `
