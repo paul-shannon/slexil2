@@ -3206,7 +3206,7 @@ lines:
                      <tr><td>ɬaɬil</td> <td>dwell, live (at a place)</td></tr>
                      <tr><td>pus (SL)</td> <td>aunt</td></tr>
                      <tr><td>qəsiʔ</td> <td>uncle</td></tr>
-                     <tr><td>q̓əlb</td> <td><camp, spend night away from home/td></tr>
+                     <tr><td>q̓əlb</td> <td>camp, spend night away from home</td></tr>
                      <tr><td>q̓ixʷ</td> <td>located upstream</td></tr>
                      <tr><td>tədᶻil</td> <td>go to bed</td></tr>
                      <tr><td><u>t</u>ulq</td> <td>name for village where Carnation, Wash., now is</td></tr>
@@ -3478,3 +3478,84 @@ lines:
 
 
 
+#----
+
+  - html: "<div class='lessonTitle'>Lesson Twenty-One: saliʔačiʔ ʔ ti dəč̓uʔ</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>haydxʷ</td> <td>know it</td></tr>
+                     <tr><td>labdxʷ (SL)</td> <td>see it</td></tr>
+                     <tr><td>lax̌dxʷ</td> <td>remember it</td></tr>
+                     <tr><td>sɬaɬədəyʔ</td> <td>girl</td></tr>
+                     <tr><td>sɬəɬadəyʔ</td> <td>women</td></tr>
+                     <tr><td>siʔab</td> <td>high class, noble</td></tr>
+                     <tr><td>šudxʷ (NL)</td> <td>see it</td></tr>
+                     <tr><td>stububš</td> <td>men</td></tr>
+                     <tr><td>stutubš</td> <td>boy</td></tr>
+                     <tr><td>ʔəy̓dxʷ</td> <td>find it</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>21.1</div>"
+
+  - startTime: 4429074
+    endTime:   4431600
+    lushootseed: ʔə(s)šudxʷ čəxʷ (ʔ)u tiʔiɬ spaʔc.
+    English: Do you see that bear?
+ 
+  - startTime: 4436238
+    endTime:   4439791
+    lushootseed: xʷiʔ gʷədsə(s)šudxʷ.  čad kʷi sʔas.
+    English: I don't see it.  Where is it?
+
+  - startTime: 4444897
+    endTime:   4447191
+    lushootseed: tudiʔ. xʷiʔ ləlil.
+    English: There.  It's not far.
+
+
+  - html: "<div class='sectionNumber'>21.2</div>"
+
+  - startTime: 4453131
+    endTime:   4455753
+    lushootseed: ʔə(h)aydxʷ čəxʷ (ʔ)u tiʔiɬ stutubš.
+    English: Do you know that boy?
+ 
+  - startTime: 4459363
+    endTime:   4462892
+    lushootseed: xʷiʔ gʷədsə(h)aydxʷ.  gʷat əw̓ə tiʔiɬ.
+    English: I don't know him.  Who is he?
+
+  - startTime: 4469346
+    endTime:   4470908
+    lushootseed: dbədaʔ tiʔiɬ.
+    English: He is my son.
+
+  - html: "<div class='sectionNumber'>21.3</div>"
+
+  - startTime: 4474490
+    endTime:   4477378
+    lushootseed: ʔəslax̌dxʷ čəxʷ (ʔ)u tiʔiɬ siʔab.
+    English: Do you know that noble person?
+ 
+  - startTime: 4481736
+    endTime:   4485520
+    lushootseed: xʷiʔ gʷədsəslax̌dxʷ.  tul̓čad tiʔiɬ.
+    English: I don't remember him.  Where is he from?
+
+  - startTime: 4490018
+    endTime:   4491904
+    lushootseed: tul̓ʔal s<u>w</u>ədəbš.
+    English: He is from Swinomish.
