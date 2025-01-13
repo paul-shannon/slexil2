@@ -1,8 +1,8 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-#mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
-mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
+mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
 mimeType: audio/wav
 
 lines:
@@ -2838,24 +2838,24 @@ lines:
   - startTime: 3592767
     endTime:   3594763
     lushootseed: čad əw̓ə ti dšiqʷ.
-    English: Where in the world is my hat?
+    english: Where in the world is my hat?
 
   - startTime: 3597981
     endTime:   3600588
     lushootseed: š(ə)qabac ʔal tə piit.
-    English: On top of the bed.
+    english: On top of the bed.
 
   - html: "<div class='sectionNumber'>18.2</div>"
 
   - startTime: 3607456
     endTime:   3609708
     lushootseed: čad əw̓ə ti dqəl̓qəlub.
-    English: Where in the world are my glasses? (literally "my eyes")
+    english: Where in the world are my glasses? (literally "my eyes")
 
   - startTime: 3613948
     endTime:   3616323
     lushootseed: š(ə)qabac ʔal tə tibu.
-    English: On top of the table.
+    english: On top of the table.
 
 
   - html: "<div class='sectionNumber'>18.3</div>"
@@ -2863,24 +2863,24 @@ lines:
   - startTime: 3623133
     endTime:   3625262
     lushootseed: čad əw̓ə ti dqʷəɬiʔšəd.
-    English: Where in the world is/are my shoe(s)?
+    english: Where in the world is/are my shoe(s)?
 
   - startTime: 3629504
     endTime:   3632134
     lushootseed: gʷədabac ʔal tə piit.
-    English: Under the bed.
+    english: Under the bed.
 
   - html: "<div class='sectionNumber'>18.4</div>"
 
   - startTime: 3639480
     endTime:   3641521
     lushootseed: čad əw̓ə ti ddᶻuləq̓.
-    English: Where in the world is my leg spindle.
+    english: Where in the world is my leg spindle.
 
   - startTime: 3645035
     endTime:   3647787
     lushootseed: gʷədabac ʔal tə səxʷgʷədil.
-    English: It's under the chair.
+    english: It's under the chair.
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
@@ -2889,36 +2889,36 @@ lines:
   - startTime: 3658438
     endTime:   3661299
     lushootseed: čad əw̓ə kʷi dusbəčaš ti dšiqʷ.
-    English: Where in the world did I put my hat?
+    english: Where in the world did I put my hat?
 
   - startTime: 3666347
     endTime:   3669984
     lushootseed: ʔubəčaš čəxʷ š(ə)qabac ʔal tə piit.
-    English: "You put [it] on the bed."
+    english: "You put [it] on the bed."
 
   - html: "<div class='sectionNumber'>B18.2</div>"
 
   - startTime: 3678753
     endTime:   3682073
     lushootseed: čad əw̓ə kʷi dusbəčaš ti dqəl̓qəlub.
-    English: Where in the world did I put my glasses?
+    english: Where in the world did I put my glasses?
 
   - startTime: 3686685
     endTime:   3690375
     lushootseed: ʔubəčaš čəxʷ š(ə)qabac ʔal tə tibu.
-    English: "You put [them] on top of the table."
+    english: "You put [them] on top of the table."
 
   - html: "<div class='sectionNumber'>B18.3</div>"
 
   - startTime: 3698673
     endTime:   3702062
     lushootseed: čad əw̓ə kʷi dsubəčaš ti dqʷəɬiʔšəd.
-    English: Where in the world did I put my shoe(s)?
+    english: Where in the world did I put my shoe(s)?
 
   - startTime: 3706587
     endTime:   3711027
     lushootseed: ʔubəčaš čəxʷ gʷədabac ʔal tə piit.
-    English: "You put [it/them] under the bed."
+    english: "You put [it/them] under the bed."
 
 
   - html: "<div class='sectionNumber'>B18.4</div>"
@@ -2926,12 +2926,12 @@ lines:
   - startTime: 3719847
     endTime:   3723203
     lushootseed: čad əw̓ə kʷi dsubəčaš ti ddᶻuləq̓.
-    English: Where in the world did I put my leg spindle?
+    english: Where in the world did I put my leg spindle?
 
   - startTime: 3727231
     endTime:   3731701
     lushootseed: ʔubəčaš čəxʷ gʷədabac ʔal tə səxʷgʷədil.
-    English: "You put [it] under the chair."
+    english: "You put [it] under the chair."
 
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition C</h5></div>"
@@ -2941,44 +2941,44 @@ lines:
   - startTime: 3744014
     endTime:   3746406
     lushootseed: čad əw̓ə ti dx̌ʷubt.
-    English: Where in the world is my paddle?
+    english: Where in the world is my paddle?
 
   - startTime: 3749483
     endTime:   3751170
     lushootseed: ʔukʷədad čəd.
-    English: "I took [it]."
+    english: "I took [it]."
 
   - startTime: 3754965
     endTime:   3757433
     lushootseed: čad kʷ(i) adsubəčaš.
-    English: "Where did you put [it]."
+    english: "Where did you put [it]."
 
   - startTime: 3761739
     endTime:   3765766
     lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
-    English: "I put/loaded [it] into your shovel-nose canoe."
+    english: "I put/loaded [it] into your shovel-nose canoe."
 
   - html: "<div class='sectionNumber'>C18.2</div>"
 
   - startTime: 3776097
     endTime:   3777945
     lushootseed: čad əw̓ə ti dhuyəq.
-    English: Where in the world is my gill net?
+    english: Where in the world is my gill net?
 
   - startTime: 3781066
     endTime:   3783045
     lushootseed: ʔukʷədad čəd.
-    English: "I took [it]."
+    english: "I took [it]."
 
   - startTime: 3788006
     endTime:   3790128
     lushootseed: čad kʷ(i) adsubəčaš.
-    English: "Where did you put [it]."
+    english: "Where did you put [it]."
 
   - startTime: 3792970
     endTime:   3796186
     lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
-    English: "I put/loaded [it] into your shovel-nose canoe."
+    english: "I put/loaded [it] into your shovel-nose canoe."
 
 
   - html: "<div class='sectionNumber'>C18.3</div>"
@@ -2986,22 +2986,22 @@ lines:
   - startTime: 3803399
     endTime:   3805300
     lushootseed: čad əw̓ə ti dč̓əsayʔ.
-    English: Where in the world is my salmon spear?
+    english: Where in the world is my salmon spear?
 
   - startTime: 3808206
     endTime:   3809644
     lushootseed: ʔukʷədad čəd.
-    English: "I took [it]."
+    english: "I took [it]."
 
   - startTime: 3813588
     endTime:   3815902
     lushootseed: čad kʷ(i) adsubəčaš.
-    English: "Where did you put [it]."
+    english: "Where did you put [it]."
 
   - startTime: 3819098
     endTime:   3823279
     lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
-    English: "I put/loaded [it] into your shovel-nose canoe."
+    english: "I put/loaded [it] into your shovel-nose canoe."
 
 
   - html: "<div class='sectionNumber'>C18.4</div>"
@@ -3009,22 +3009,22 @@ lines:
   - startTime: 3829493
     endTime:   3831461
     lushootseed: čad əw̓ə ti dɬik̓ʷəd.
-    English: Where in the world is my gaff?
+    english: Where in the world is my gaff?
 
   - startTime: 3835227
     endTime:   3837058
     lushootseed: ʔukʷədad čəd.
-    English: "I took [it]."
+    english: "I took [it]."
 
   - startTime: 3840212
     endTime:   3842079
     lushootseed: čad kʷ(i) adsubəčaš.
-    English: "Where did you put [it]."
+    english: "Where did you put [it]."
 
   - startTime: 3845577
     endTime:   3848641
     lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
-    English: "I put/loaded [it] into your shovel-nose canoe."
+    english: "I put/loaded [it] into your shovel-nose canoe."
 
   - html: "<div class='lessonTitle'>Lesson Nineteen: ʔulub ʔi ti x̌əl</div>"
 
@@ -3061,48 +3061,48 @@ lines:
   - startTime: 3865394
     endTime:   3867162
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going (now)?
+    english: Where are you going (now)?
 
   - startTime: 3870670
     endTime:   3873859
     lushootseed: ləʔux̌ čəd dxʷʔal <u>dᶻ</u>idᶻəlal̓ič.
-    English: I'm going to Seattle.
+    english: I'm going to Seattle.
 
   - html: "<div class='sectionNumber'>19.2</div>"
 
   - startTime: 3882104
     endTime:   3883876
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going (now)?
+    english: Where are you going (now)?
 
   - startTime: 3886941
     endTime:   3890226
     lushootseed: ləʔux̌ čəd dxʷʔal dxʷ<u>l</u>iləp.
-    English: I'm going to Tulalip.
+    english: I'm going to Tulalip.
 
   - html: "<div class='sectionNumber'>19.3</div>"
 
   - startTime: 3897347
     endTime:   3899156
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 3902309
     endTime:   3906288
     lushootseed: ləʔux̌ čəɬ dxʷʔal s<u>t̓</u>əč̓as.
-    English: We are going to Olympia.
+    english: We are going to Olympia.
 
   - html: "<div class='sectionNumber'>19.4</div>"
 
   - startTime: 3913116
     endTime:   3915193
     lushootseed: lədxʷčad čəxʷ.
-    English: Where are you going?
+    english: Where are you going?
 
   - startTime: 3917724
     endTime:   3921081
     lushootseed: ləʔux̌ čəd dxʷʔal tudi(ʔ) lil.
-    English: I'm going far away.
+    english: I'm going far away.
 
 
   - html: "<div class='sectionNumber'>19.5</div>"
@@ -3110,39 +3110,39 @@ lines:
   - startTime: 3931036
     endTime:   3932924
     lushootseed: lədxʷčad čəxʷ.
-    English: Where are you going?
+    english: Where are you going?
 
   - startTime: 3935273
     endTime:   3938742
     lushootseed: ləʔux̌ čəd dxʷʔal tə xʷuyubalʔtxʷ.
-    English: I'm going to the store.
+    english: I'm going to the store.
 
   - startTime: 3950458
     endTime:   3952478
     lushootseed: ʔəxʷsgʷa(h)b čəxʷ (ʔ)u.
-    English: (Would) you (like to) come along?
+    english: (Would) you (like to) come along?
 
   - html: "<div class='sectionNumber'>19.7</div>"
 
   - startTime: 3978104
     endTime:   3980136
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 3983102
     endTime:   3986256
     lushootseed: ləʔux̌ čəɬ dxʷʔal tə labalʔtxʷ.
-    English: We are going to the tavern.
+    english: We are going to the tavern.
 
   - startTime: 3986361
     endTime:   3989321
     lushootseed: cick̓ʷ čəɬ ʔə(s)šabapsəb.
-    English: We are very dry(-throated).
+    english: We are very dry(-throated).
 
   - startTime: 3997515
     endTime:   4000032
     lushootseed: ʔəxʷsgʷa(h)b čəxʷ (ʔ)u.
-    English: (Would) you (like to) come along?
+    english: (Would) you (like to) come along?
 
   - html: "<div class='sectionNumber'>19.8</div>"
 
@@ -3151,34 +3151,34 @@ lines:
   - startTime: 0
     endTime:   0
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 1
     endTime:   1
     lushootseed: ləʔux̌ čəɬ dxʷʔal tə x̌(ə)ɬalʔtxʷ.
-    English: We are going to the hospital.
+    english: We are going to the hospital.
 
   - startTime: 2
     endTime:   2
     lushootseed: cick̓ʷ ʔəsx̌əɬ ti suq̓ʷaʔčəɬ.
-    English: Our younger brother is very sick.
+    english: Our younger brother is very sick.
 
   - html: "<div style='margin: 30px'>Exercise 19.2, page 104</div>"
 
   - startTime: 4009440
     endTime:   4017557
     lushootseed: "lədxʷčad [čələp], lədxʷčad [čələp].  gʷat, gʷat."
-    English: ""
+    english: ""
 
   - startTime: 4024861
     endTime:   4032463
     lushootseed: "tul̓ʔal čəɬ lil, tul̓ʔal čəɬ lil."
-    English: ""
+    english: ""
 
   - startTime: 4032787
     endTime:   4039972
     lushootseed: "ləʔux̌ʷ [čəɬ], ləʔux̌ʷ [čəɬ] dxʷʔal st̓əč̓as, st̓əč̓as."
-    English: ""
+    english: ""
 
   - html: "<div class='lessonTitle'>Lesson Twenty: saliʔačiʔ</div>"
 
@@ -3230,66 +3230,66 @@ lines:
   - startTime: 4062523
     endTime:   4064209
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going (now)?
+    english: Where are you going (now)?
 
   - startTime: 4068800
     endTime:   4083053
     lushootseed: ləʔuluɬ čəd dxʷʔal <u>dᶻ</u>idᶻəlal̓ič.
-    English: I'm going to Seattle (by water).
+    english: I'm going to Seattle (by water).
 
   - startTime: 4082907
     endTime:   4086399
     lushootseed: ɬudᶻəx̌əx̌bid čəd ti dqəsiʔ.
-    English: I'm going to visit my uncle.
+    english: I'm going to visit my uncle.
 
   - startTime: 4086874
     endTime:   4089788
     lushootseed: ʔəsɬaɬlil ʔal <u>dᶻ</u>idᶻəlal̓ič.
-    English: He lives in Seattle
+    english: He lives in Seattle
 
   - html: "<div class='sectionNumber'>20.2</div>"
 
   - startTime: 4096132
     endTime:   4097714
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going (now)?
+    english: Where are you going (now)?
 
   - startTime: 4102055
     endTime:   4105342
     lushootseed: ləʔuluɬ čəd dxʷʔal s<u>t̓</u>əč̓as.
-    English: I'm going to Olympia (by water).
+    english: I'm going to Olympia (by water).
 
   - startTime: 4110549
     endTime:   4113753
     lushootseed: ɬudᶻəx̌əx̌bid čəd tsi dʔəpus.
-    English: I'm going to visit my aunt.
+    english: I'm going to visit my aunt.
 
   - startTime: 4119493
     endTime:   4122485
     lushootseed: ʔəsɬaɬlil ʔal s<u>t̓</u>əč̓as.
-    English: She lives in Olympia.
+    english: She lives in Olympia.
 
   - html: "<div class='sectionNumber'>20.3</div>"
 
   - startTime: 4128095
     endTime:   4130211
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going (now)?
+    english: Where are you going (now)?
 
   - startTime: 4133015
     endTime:   4136062
     lushootseed: ləʔibəš čəd dxʷʔal <u>t</u>ulq.
-    English: I'm going to Carnation (by land).
+    english: I'm going to Carnation (by land).
 
   - startTime: 4141669
     endTime:   4144566
     lushootseed: ɬudᶻəx̌əx̌bid čəd ti dqəsiʔ.
-    English: I'm going to visit my uncle.
+    english: I'm going to visit my uncle.
 
   - startTime: 4150120
     endTime:   4152539
     lushootseed: s<u>d</u>ukʷalbixʷ tiʔiɬ.
-    English: He is Snoqualmie.
+    english: He is Snoqualmie.
 
 #----
   - html: "<div class='sectionNumber'>20.4</div>"
@@ -3297,22 +3297,22 @@ lines:
   - startTime: 4161894
     endTime:   4163923
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going (now)?
+    english: Where are you going (now)?
 
   - startTime: 4167470
     endTime:   4171311
     lushootseed: ləʔibəš čəd dxʷʔal <u>p</u>uləp.
-    English: I'm going to Puyallup (by land).
+    english: I'm going to Puyallup (by land).
 
   - startTime: 4176534
     endTime:   4180654
     lushootseed: ɬudᶻəx̌əx̌bid čəd tsi dʔəpus.
-    English: I'm going to visit my aunt.
+    english: I'm going to visit my aunt.
 
   - startTime: 4186213
     endTime:   4188553
     lushootseed: s<u>p</u>uyaləpabš tiʔiɬ.
-    English: She is Puyallup.
+    english: She is Puyallup.
 
 #----
 
@@ -3323,39 +3323,39 @@ lines:
   - startTime: 4196900
     endTime:   4198846
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 4201933 
     endTime:   4204322
     lushootseed: lədxʷča(ʔ)kʷ čəɬ.
-    English: We are going seaward.
+    english: We are going seaward.
 
   - startTime: 4204478
     endTime:   4206619
     lushootseed: ɬuǰiq̓aladᶻəd čəɬ.
-    English: We (have to) set nets.
+    english: We (have to) set nets.
 
   - html: "<div class='sectionNumber'>20B.2</div>"
 
   - startTime: 4217172
     endTime:   4219283
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 4223108
     endTime:   4226023
     lushootseed: lədxʷt̓aq̓t čəɬ.
-    English: We are going landward.
+    english: We are going landward.
 
   - startTime: 4229338
     endTime:   4232548
     lushootseed: ɬuc̓əbəb čəɬ ʔə ti swədaʔx̌
-    English: We are going to pick blue huckleberries.
+    english: We are going to pick blue huckleberries.
 
   - startTime: 4242495
     endTime:   4245490
     lushootseed: ʔuƛ̓ax̌ʷ ʔal tudiʔ t̓aq̓x̌.
-    English: They grow there mountainward.
+    english: They grow there mountainward.
 
 
   - html: "<div class='sectionNumber'>20B.3 </div>"
@@ -3363,66 +3363,66 @@ lines:
   - startTime: 4251270
     endTime:   4252911
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 4256160
     endTime:   4258262
     lushootseed: lədxʷq̓ixʷ čəɬ.
-    English: We are going upstream.
+    english: We are going upstream.
 
   - startTime: 4262539
     endTime:   4266323
     lushootseed: ɬudᶻəx̌əx̌bid čəɬ ti scapaʔčəɬ.
-    English: We are going to visit our grandfather.
+    english: We are going to visit our grandfather.
 
   - startTime: 4270788
     endTime:   4273811
     lushootseed: ʔəsɬaɬlil ʔal tudiʔ q̓ixʷ.
-    English: He lives there upstream.
+    english: He lives there upstream.
 
   - html: "<div class='sectionNumber'>20B.4 </div>"
 
   - startTime: 4282425
     endTime:   4284091
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going (now)?
+    english: Where are you folks going (now)?
 
   - startTime: 4286991
     endTime:   4289054
     lushootseed: lədxʷq̓ixʷ čəɬ.
-    English: We are going upstream.
+    english: We are going upstream.
 
   - startTime: 4292970
     endTime:   4296620
     lushootseed: ɬudᶻəx̌əx̌bid čəɬ tsi kiaʔčəɬ.
-    English: We are going to visit our grandmother
+    english: We are going to visit our grandmother
 
   - startTime: 4301459
     endTime:   4304018
     lushootseed: ʔəsɬaɬlil ʔal tudiʔ q̓ixʷ.
-    English: She lives there upstream.
+    english: She lives there upstream.
 
   - html: "<div class='sectionNumber'>20B.5 </div>"
 
   - startTime: 4310808
     endTime:   4322536
     lushootseed: lədxʷčadəxʷ čəxʷ.
-    English: Where are you going?
+    english: Where are you going?
 
   - startTime: 4316812
     endTime:   4318647
     lushootseed: lədxʷt̓aq̓t čəd.
-    English: I am going to the other side of the mountains.
+    english: I am going to the other side of the mountains.
 
   - startTime: 4323550
     endTime:   4326874
     lushootseed: ɬudᶻəx̌əx̌bid čəd ti dtaləɬ.
-    English: I am going to visit my nephew.
+    english: I am going to visit my nephew.
 
   - startTime: 4335242
     endTime:   4337584
     lushootseed: <u>t</u>ubšədad tiʔiɬ.
-    English: He is Yakima.
+    english: He is Yakima.
 
 
 #----
@@ -3434,22 +3434,22 @@ lines:
   - startTime: 4346678
     endTime:   4348662
     lushootseed: lədxʷčadʷ čəx̌ʷ.
-    English: Where are  you going?
+    english: Where are  you going?
 
   - startTime: 4355353
     endTime:   4357678
     lushootseed: lət̓uk̓ʷəxʷ čəd.
-    English: I'm going home.
+    english: I'm going home.
 
   - startTime: 4364113
     endTime:   4367081
     lushootseed: dsx̌aƛ̓ kʷi gʷədstədᶻil.
-    English: I want to go to bed.
+    english: I want to go to bed.
 
   - startTime: 4370972
     endTime:   4373207
     lushootseed: ʔəxʷsʔitutəb čəd.
-    English: I'm sleepy.
+    english: I'm sleepy.
 
 #---
   - html: "<div class='sectionNumber'>20C.2</div>"
@@ -3457,24 +3457,24 @@ lines:
   - startTime: 4378915
     endTime:   4380431
     lushootseed: lədxʷčadʷ čəx̌ʷ.
-    English: Where are  you going?
+    english: Where are  you going?
 
   - startTime: 4385366
     endTime:   4391648
     lushootseed: lək̓ʷit̓ čəd.  dsx̌aƛ̓ kʷi gʷədsǰiq̓aladᶻəd.
-    English: I'm going down to the water.  I want to set nets.
+    english: I'm going down to the water.  I want to set nets.
 
   - html: "<div class='sectionNumber'>20C.3</div>"
 
   - startTime: 4401411
     endTime:   4403719
     lushootseed: lədxʷčadəxʷ čələp.
-    English: Where are you folks going?
+    english: Where are you folks going?
 
   - startTime: 4416092
     endTime:   4421305
     lushootseed: ləčubə čəɬ.  sx̌aƛ̓čəɬ kʷi gʷəsq̓əlbčəɬ.
-    English: We are going up the (river) bank.  We want to camp.
+    english: We are going up the (river) bank.  We want to camp.
 
 
 
@@ -3513,17 +3513,17 @@ lines:
   - startTime: 4429074
     endTime:   4431600
     lushootseed: ʔə(s)šudxʷ čəxʷ (ʔ)u tiʔiɬ spaʔc.
-    English: Do you see that bear?
+    english: Do you see that bear?
  
   - startTime: 4436238
     endTime:   4439791
     lushootseed: xʷiʔ gʷədsə(s)šudxʷ.  čad kʷi sʔas.
-    English: I don't see it.  Where is it?
+    english: I don't see it.  Where is it?
 
   - startTime: 4444897
     endTime:   4447191
     lushootseed: tudiʔ. xʷiʔ ləlil.
-    English: There.  It's not far.
+    english: There.  It's not far.
 
 
   - html: "<div class='sectionNumber'>21.2</div>"
@@ -3531,31 +3531,157 @@ lines:
   - startTime: 4453131
     endTime:   4455753
     lushootseed: ʔə(h)aydxʷ čəxʷ (ʔ)u tiʔiɬ stutubš.
-    English: Do you know that boy?
+    english: Do you know that boy?
  
   - startTime: 4459363
     endTime:   4462892
     lushootseed: xʷiʔ gʷədsə(h)aydxʷ.  gʷat əw̓ə tiʔiɬ.
-    English: I don't know him.  Who is he?
+    english: I don't know him.  Who is he?
 
   - startTime: 4469346
     endTime:   4470908
     lushootseed: dbədaʔ tiʔiɬ.
-    English: He is my son.
+    english: He is my son.
 
   - html: "<div class='sectionNumber'>21.3</div>"
 
   - startTime: 4474490
     endTime:   4477378
     lushootseed: ʔəslax̌dxʷ čəxʷ (ʔ)u tiʔiɬ siʔab.
-    English: Do you know that noble person?
+    english: Do you know that noble person?
  
   - startTime: 4481736
     endTime:   4485520
     lushootseed: xʷiʔ gʷədsəslax̌dxʷ.  tul̓čad tiʔiɬ.
-    English: I don't remember him.  Where is he from?
+    english: I don't remember him.  Where is he from?
 
   - startTime: 4490018
     endTime:   4491904
     lushootseed: tul̓ʔal s<u>w</u>ədəbš.
-    English: He is from Swinomish.
+    english: He is from Swinomish.
+
+  - html: "<div class='sectionNumber'>21.4</div>"
+
+  - startTime: 4502026
+    endTime:   4504998
+    lushootseed: ʔuʔəy̓dxʷ čəxʷ (ʔ)u ti dyiq̓us.
+    english: Did you find my cedar-root basket?
+ 
+  - startTime: 4509910
+    endTime:   4515298
+    lushootseed: xʷiʔ gʷədsuʔəy̓dxʷ.  čad kʷi t(u)adsubəčaš.
+    english: I didn't find it.  Where did you set it down?
+
+  - startTime: 4522582
+    endTime:   4524610
+    lushootseed: xʷi gʷədsəs(h)aydxʷ.
+    english: I don't know.
+
+
+#----
+
+  - html: "<div class='lessonTitle'>Lesson Twenty-Two: saliʔačiʔ ʔ ti saliʔ</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>-bicid</td> <td>you</td></tr>
+                     <tr><td>-bš</td> <td>me</td></tr>
+                     <tr><td>č̓əƛ̓əʔ (SL)</td> <td>rock, boulder</td></tr>
+                     <tr><td>č̓ƛ̓aʔ (NL)</td> <td>rock, boulder</td></tr>
+                     <tr><td>hikʷ</td> <td>big; important (person)</td></tr>
+                     <tr><td>suxʷtəš</td> <td>recognize it</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>22.1</div>"
+
+  - startTime: 4538473
+    endTime:   4540734
+    lushootseed: ʔəslax̌dubš čəxʷ (ʔ)u.
+    english: Do you remember me?
+
+  - startTime: 4545128
+    endTime:   4548529
+    lushootseed: xʷiʔ gʷədsəslax̌dubicid.
+    english: I don't remember you.
+
+  - startTime: 4553233
+    endTime:   4554356
+    lushootseed: gʷat čəxʷ.
+    english: Who are you?
+
+  - startTime: 4558244
+    endTime:   4561261
+    lushootseed: ʔaciɬtalbixʷ čəd tul̓ʔal s<u>w</u>ədəbš.
+    english: I'm Indian from Swinomish.
+
+#-------
+
+  - html: "<div class='sectionNumber'>22.2</div>"
+
+  - startTime: 4563935
+    endTime:   4566486
+    lushootseed: ʔəs(h)aydubš čəxʷ (ʔ)u.
+    english: Do you know me?
+
+  - startTime: 4569885
+    endTime:   4573457
+    lushootseed: xʷiʔ gʷədsəs(h)aydubicid. gʷat čəxʷ.
+    english: I don't know you.  Who are you?
+
+  - startTime: 4579331
+    endTime:   4582674
+    lushootseed: bədaʔ čəd ʔə tiʔiɬ hikʷ siʔab.
+    english: I'm the son/daughter of that important person.
+
+
+#-------
+
+  - html: "<div class='sectionNumber'>22.3</div>"
+
+  - startTime: 4589350
+    endTime:   4591249
+    lushootseed: ʔə(s)šudubš čəxʷ (ʔ)u.
+    english: Can you see me?
+
+  - startTime: 4594673
+    endTime:   4598788
+    lushootseed: xʷiʔ gʷədsə(s)šudubicid.  čad čəxʷ.
+    english: I can't see you.  Where are you?
+
+  - startTime: 4603949
+    endTime:   4606959
+    lushootseed: diʔabac ʔal ti hikʷ č̓ƛ̓aʔ.
+    english: On the other side of this big rock/boulder.
+
+
+#-------
+
+  - html: "<div class='sectionNumber'>22.4</div>"
+
+  - startTime: 4613394
+    endTime:   4615673
+    lushootseed: ʔə(s)uxʷtəbš čəsʷ (ʔ)u.
+    english: Do you recognize me?
+
+  - startTime: 4620094
+    endTime:   4624298
+    lushootseed:  xʷiʔ gʷədsə(s)suxʷtəbicid. gʷat čəxʷ.
+    english: I don't recognize you.  Who are you?
+
+  - startTime: 4628663
+    endTime:   4630380
+    lushootseed: adqəsiʔ čəd.
+    english: I'm your uncle.
+
