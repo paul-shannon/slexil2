@@ -1,8 +1,8 @@
 title: Lushootseed Book 1
 narrator: Thom Hess
 textEntry: Paul Shannon
-mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
-#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
+#mediaFile: /Users/paul/github/slexil2/explore/lushootseed/grammars/volume1.wav
+mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
 mimeType: audio/wav
 
 lines:
@@ -3684,4 +3684,79 @@ lines:
     endTime:   4630380
     lushootseed: adqəsiʔ čəd.
     english: I'm your uncle.
+
+#----
+
+
+  - html: "<div class='lessonTitle'>Lesson Twenty-Three: saliʔačiʔ ʔ ti ɬixʷ</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>daʔxʷ</td> <td>just now</td></tr>
+                     <tr><td>gəq̓ad (SL)</td> <td>open it</td></tr>
+                     <tr><td>huycid</td> <td>finish eating</td></tr>
+                     <tr><td>k̓ayayəʔ (NL)</td> <td>synonym for x̌ax̌yəƛ̓</td></tr>
+                     <tr><td>k̓ʷas (SL)</td> <td>dried salmon</td></tr>
+                     <tr><td>ɬač̓</td> <td>(fire) goes out</td></tr>
+                     <tr><td>p̓ac̓</td> <td>sew</td></tr>
+                     <tr><td>tux̌ʷ ... huy</td> <td>but yet, nevertheless</td></tr>
+                     <tr><td>x̌ax̌yəƛ̓ (NL)</td> <td>dried salmon</td></tr>
+                     <tr><td>-y-ax̌ad</td> <td>door</td></tr>
+                     <tr><td>dxʷʔuq̓ʷyax̌ad (NL)</td> <td>open door</td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - html: "<div class='sectionNumber'>23.A1</div>"
+
+  - startTime: 4681163
+    endTime:   4684543
+    lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəstagʷəxʷ.
+    english: Why are you hungry?
+
+  - html: "<div class='sectionNumber'>23.A2</div>"
+
+  - startTime: 4694613
+    endTime:   4697815
+    lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəstaqʷuʔ.
+    english: Why are you thirsty?
+
+  - html: "<div class='sectionNumber'>23.A3</div>"
+
+  - startTime: 4704000
+    endTime:   4706950
+    lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəsxʷak̓ʷil.
+    english: Why are you tired?
+
+  - html: "<div class='sectionNumber'>23.A4</div>"
+
+  - startTime: 4713592
+    endTime:   4716593
+    lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəsƛ̓ax̌.
+    english: Why are you cold?
+
+  - html: "<div class='sectionNumber'>23.A5</div>"
+
+  - startTime: 4722381
+    endTime:   4725402
+    lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəs(h)ədqʷəb.
+    english: Why are you warm?
+
+  - html: "<div class='sectionNumber'>23.A6</div>"
+
+  - startTime: 4733201
+    endTime:   4736588
+    lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəsx̌əɬqid.
+    english: Why do you have a headache?
+
 
