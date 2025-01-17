@@ -3760,3 +3760,242 @@ lines:
     english: Why do you have a headache?
 
 
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - html: "<div class='sectionNumber'>23.B1</div>"
+
+  - startTime: 4746648
+    endTime:   4749444
+    lushootseed: cick̓ʷ čəd ʔəstagʷəxʷ.
+    english: I'm very hungry.
+
+  - startTime: 4753172
+    endTime:   4756821
+    lushootseed: ʔəsʔəx̌idəxʷ kʷ(i) adəxʷəstagʷəxʷ.
+    english: Why are you hungry (now)?
+
+  - startTime: 4757239
+    endTime:   4762267
+    lushootseed: daʔxʷ čəxʷ ʔuhuycid ʔə tə hikʷ x̌ax̌yəƛ̓.
+    english: You just at a big dried salmon.
+
+  - startTime: 4772961
+    endTime:   4777286
+    lushootseed: xʷiʔ gʷədsəs(h)aydxʷ. tux̌ʷ čəd huy ʔəstagʷəxʷ.
+    english: I don't know.  I just am (hungry).
+
+  - html: "<div class='sectionNumber'>23.B2</div>"
+
+  - startTime: 4784864
+    endTime:   4787036
+    lushootseed: cick̓ʷ čəd ʔəstaqʷuʔ.
+    english: I'm very thirsty.
+
+  - startTime: 4792305
+    endTime:   4795859
+    lushootseed: ʔəsʔəx̌idəxʷ kʷ(i) adəxʷəstaqʷuʔ.
+    english: Why are you thirsty (now)?
+
+  - startTime: 4804318
+    endTime:   4807993
+    lushootseed: daʔxʷ čəxʷ ʔuqʷu(ʔ)qʷaʔ ʔə tə qa qʷuʔ.
+    english: You just drank a lot of water.
+
+  - startTime: 4808001
+    endTime:   4812405
+    lushootseed: xʷiʔ gʷədsəs(h)aydxʷ. tux̌ʷ čəd huy ʔəstaqʷuʔ.
+    english: I don't know.  I just am (thirsty).
+
+  - html: "<div class='sectionNumber'>23.B3</div>"
+
+  - startTime: 4820552
+    endTime:   4823052
+    lushootseed: həlaʔb čəd ʔəsƛ̓ax̌.
+    english: I'm very cold.
+
+  - startTime: 4825609
+    endTime:   4828691
+    lushootseed: ʔəsʔəx̌idəxʷ kʷ(i) adəxʷəsƛ̓ax̌.
+    english: Why are you cold (now)?
+
+  - startTime: 4828800
+    endTime:   4831719
+    lushootseed: daʔxʷ čəxʷ ʔutəqad tə šəgʷɬ.
+    english: You just shut the door.
+
+  - startTime: 4840743
+    endTime:   4844087
+    lushootseed: ʔəsƛ̓ax̌ čəd; ʔuɬač̓ tə hud.
+    english: I'm cold [because] the fire went out.
+
+  - html: "<div class='sectionNumber'>23.B4</div>"
+
+  - startTime: 4850286
+    endTime:   4852603
+    lushootseed: həlaʔb čəd ʔəs(h)ədqʷəb.
+    english:  I'm very warm.
+
+  - startTime: 4855876
+    endTime:   4858844
+    lushootseed: ʔəsʔəšidəxʷ kʷ(i) adəxʷəs(h)ədqʷəb.
+    english: Why are you warm (now)?
+
+  - startTime: 4866770
+    endTime:   4869642
+    lushootseed: daʔxʷ čəxʷ ʔudxʷʔuq̓ʷyax̌adid tə šəgʷɬ.
+    english: You just opened the door.
+
+  - startTime: 4870252
+    endTime:   4873965
+    lushootseed: xʷiʔ gʷəsdəs(h)aydxʷ.  tux̌ʷ čəd huy ʔəs(h)ədqʷəb.   
+    english: I don't know.  I just am (warm).
+
+  - html: "<div class='sectionNumber'>23.B5</div>"
+
+  - startTime: 4881103
+    endTime:   4883726
+    lushootseed: cick̓ʷ čəd ʔəsxʷak̓ʷil.
+    english:  I'm very tired.
+
+  - startTime: 4886699
+    endTime:   4889148
+    lushootseed: ʔəsʔəx̌idəxʷ kʷ(i) adəxʷəsxʷak̓ʷil.
+    english:  Why are you tired (now)?
+
+  - startTime: 4889350
+    endTime:   4891069
+    lushootseed: daʔxʷ čəxʷ ʔuqaʔkʷ.
+    english:  You just rested.
+
+  - startTime: 4897258
+    endTime:   4900770
+    lushootseed: xʷiʔ gʷəsdsəs(h)aydxʷ.  tux̌ʷ čəd huy ʔəsxʷak̓ʷil.
+    english:  I don't know.  I just am (tired).
+
+
+
+  - html: "<div class='sectionNumber'>23.B6</div>"
+
+  - startTime: 4908672
+    endTime:   4911114
+    lushootseed: həlaʔb čəd ʔəsx̌əɬqid.
+    english:  I have a severe headache.
+
+  - startTime: 4914449
+    endTime:   4917514
+    lushootseed: ʔəsʔəx̌idəxʷ kʷ(i) adəxʷəsx̌əɬqid.
+    english:  Why do you have a headache?
+
+  - startTime: 4921631
+    endTime:   4923863
+    lushootseed: hiqab čəd ʔup̓ac̓.
+    english:  I sew too much.
+
+#---- 12:43
+
+  - html: "<div class='lessonTitle'>Lesson Twenty-Four: saliʔačiʔ ʔ ti buus</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td>-c </td><td> me</td></tr>
+                     <tr><td>-cid </td><td> you</td></tr>
+                     <tr><td>čalad </td><td>chase it </td></tr>
+                     <tr><td>dəgʷi </td><td>you (emphatic), you are (the one) </td></tr>
+                     <tr><td>dibəɬ </td><td>we (emphatic), we are (the ones) </td></tr>
+                     <tr><td>dᶻubud </td><td>kick it </td></tr>
+                     <tr><td>gʷəlapu </td><td>you folks (emphatic), you folks are (the ones) </td></tr>
+                     <tr><td>ləqəd (Skagit) </td><td>hear it </td></tr>
+                     <tr><td>luud (Snohomish, SL) </td><td>hear it </td></tr>
+                     <tr><td>ɬup </td><td>early </td></tr>
+                     <tr><td>qəɬəd </td><td>wake him/her up </td></tr>
+                     <tr><td>x̌aab (x̌ahəb) </td><td>cry </td></tr>
+                     <tr><td>x̌ibid </td><td>scratch it </td></tr>
+                     <tr><td>x̌ik̓ʷ </td><td>mean, ugly </td></tr>
+                     <tr><td>ʔəca (NL) </td><td>I (emphatic), I am (the one) </td></tr>
+                     <tr><td>ʔəcə (SL) </td><td>I (emphatic), I am (the one) </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - html: "<div class='sectionNumber'>24.A1</div>"
+
+  - startTime: 4944177
+    endTime:   4946771
+    lushootseed: tukʷaxʷacid (ʔ)u t(i) adscapaʔ.
+    english: Did your granfather help you?
+
+  - startTime: 4950272
+    endTime:   4952400
+    lushootseed: ʔi. tukʷaxʷac.
+    english: Yes.  He helped me.
+
+  - startTime: 4958994
+    endTime:   4961373
+    lushootseed: tukʷaxʷac ti dscapaʔ.
+    english: My grandfather helped me.
+
+  - html: "<div class='sectionNumber'>24.A2</div>"
+
+# stop at 1:10
+# started at 1:52
+
+  - startTime: 4963578
+    endTime:   4966890
+    lushootseed: ʔučalacid (ʔ)u tiʔiɬ hikʷ sqʷəbay?
+    english: Did the big dog chase you?
+
+  - startTime: 4971337
+    endTime:   4974698
+    lushootseed: ʔi. ʔučalac gʷəl ʔux̌əƛ̓c.
+    english: Yes.  It chased me and bit me.
+
+  - startTime: 4979120
+    endTime:   4981738
+    lushootseed: ʔux̌əƛ̓c tiʔiɬ hikʷ sqʷəbayʔ.
+    english: That big dog bit me.
+
+  - html: "<div class='sectionNumber'>24.A3</div>"
+
+  - startTime: 4987398
+    endTime: 4989472
+    lushootseed: ʔəsləqc čəxʷ (ʔ)u.
+    english: Do you hear me?
+
+  - startTime: 4992625
+    endTime: 4996740
+    lushootseed: ʔi.  ʔəsləqcid čəd.  stab kʷ(i) adsx̌aƛ̓.
+    english: Yes I hear you.  What do you want?
+
+  - html: "<div class='sectionNumber'>24.A4</div>"
+
+  - startTime: 5004858
+    endTime: 5007521
+    lushootseed: ʔuʔəx̌idəxʷ kʷ(i) adəxʷux̌aab.
+    english: Why are you crying?
+
+  - startTime: 5012901
+    endTime: 5016295
+    lushootseed: ʔudᶻubuc tiʔiɬ x̌ik̓ʷ stiqiw.
+    english: That mean horse kicked me.
+
+  - html: "<div class='sectionNumber'>24.A5</div>"
+
+  - startTime: 5023898
+    endTime: 5026314
+    lushootseed: ʔuʔəx̌idəxʷ kʷ(i) adəxʷux̌aab.
+    english: Why are you crying?
+
+  - startTime: 5029614
+    endTime: 5033835
+    lushootseed: ʔux̌ibic tiʔiɬ hikʷ adpišpiš.
+    english: Your big cat scratched me.
