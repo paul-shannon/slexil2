@@ -68,7 +68,7 @@ css:
 	cat index2.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.js,slexil.js, > index3.html
 
 publish:
-	scp index.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
+	scp grammar.html pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp *.jpg pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
@@ -77,8 +77,7 @@ publish-audio:
 
 
 view:
-	#open http://localhost:8008/index.html#151
-	open index.html
+	open grammar.html
 
 
 viewRemote:

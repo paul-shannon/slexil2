@@ -1,0 +1,25 @@
+title: How Daylight Was Stolen
+narrator: Harry Moses
+textEntry: Paul Shannon
+mediaFile: daylight.wav
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    startTime: 0
+    endTime: 5942
+    lushootseed: ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.
+    morphemes: [ʔal,kʷi,tu=,ʔal,kʷi,tu=haʔkʷ,gʷəl,xʷiʔ,gʷə=tu=s-ləx̌-il]
+    morphemeGloss: [at,REM,PAST,at,REM,PAST=long.time,SCONJ,NEG,SBJ=PAST=daylight]
+    english: In the distant past, there was no daylight.
+
+  - html: "<div style='margin:50px'> Arbitrary HTML is easy to add</div>"
+
+  - lineNumber: 2
+    startTime: 5943
+    endTime: 10469
+    lushootseed: tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ
+    morphemes: [tiʔəʔ,swatixʷtəd,gʷəl,"tu=?as-bəsad",ʔal,kʷi,tu-haʔkʷ]
+    morphemeGloss: [PROX,land,SCONJ,PAST=STAT–dark,at,REM,PAST=long.time]
+    english: The land, it was dark in the distant past.
+

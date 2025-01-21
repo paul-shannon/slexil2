@@ -3999,3 +3999,105 @@ lines:
     endTime: 5033835
     lushootseed: ʔux̌ibic tiʔiɬ hikʷ adpišpiš.
     english: Your big cat scratched me.
+
+# lesson 25
+
+  - html: "<div class='lessonTitle'>Lesson Twenty-Five: saliʔačiʔ ʔi ti cəlac</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tr><td> -alikʷ </td><td> creative activity </td></tr>
+                     <tr><td> c̓əp̓yiqʷ </td><td> great-great-great-grandparent/child </td></tr>
+                     <tr><td> sčabiqʷ </td><td> great-grandparent/child </td></tr>
+                     <tr><td> qada </td><td> steal </td></tr>
+                     <tr><td> qadbid </td><td> behind something </td></tr>
+                     <tr><td> stawigʷəɬ (Skagit) </td><td> children, plural of č̓ač̓as </td></tr>
+                     <tr><td> stawixʷəɬ (Skagit) </td><td> children, plural of č̓ač̓as </td></tr>
+                     <tr><td> t̓uc̓adiʔ </td><td> fire a shot </td></tr>
+                     <tr><td> wiw̓su (Snohomish, SL) </td><td> children, plural of č̓ač̓as </td></tr>
+                     <tr><td> wix̌ʷ (SL) </td><td> lost </td></tr>
+                     <tr><td> x̌əc </td><td> fear </td></tr>
+                     <tr><td> x̌ʷil̓ (NL)  </td><td> lost </td></tr>
+                     <tr><td> yəcəb </td><td> inform </td></tr>
+                     <tr><td> yəcəd </td><td> report it/him </td></tr>
+                     <tr><td> ʔəkʷyiqʷ </td><td> great-great-grandparent/child </td></tr>
+                     <tr><td> ʔibac </td><td> grandchild </td></tr>
+                     <tr><td> ʔuqʷus </td><td> demonstrate, show, teach </td></tr>
+                   </table>
+                 <div>
+                 </details>
+               </div>"
+
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>25.1</div>"
+
+  - startTime: 5134775
+    endTime:   5141954
+    lushootseed: gʷat kʷi tukʷaxʷatubuɬəd ʔə kʷi tusuc̓əbəbləp ʔə tiʔiɬ sq̓ʷəlaɬəd.
+    english: Who helped you folks pick those berries?
+    
+  - startTime: 5150820
+    endTime:   5153739
+    lushootseed: tsi kiaʔčəɬ ti tukʷaxʷatubuɬ.
+    english: Our grandmother helped us.
+
+  - html: "<div class='sectionNumber'>25.2</div>"
+
+  - startTime: 5161565
+    endTime:   5167420
+    lushootseed: stab kʷi tučalatubuɬəd ʔal kʷi tusuc̓bəbiluɬləp.
+    english: What chased you folks when you went berry picking?
+    
+  - startTime: 5174272
+    endTime:   5178022
+    lushootseed: ti hikʷ apaʔc ti tučalatubuɬ.
+    english: A big bear chased us.
+
+  - html: "<div class='sectionNumber'>25.3</div>"
+
+  - startTime: 5193416
+    endTime:   5199483
+    lushootseed: gʷat kʷi tuʔugʷustubuɬəd ʔə ti shuyaikʷləp ə ti yiq̓us.
+    english: Who showed you folks how to make a cedar-root basket?
+    
+  - startTime: 5200238
+    endTime:   5203913
+    lushootseed: tsi sč̓abiqʷčəɬ ti tuʔugʷustubuɬ.
+    english: Our great-grandmother showed us.
+
+
+  - html: "<div class='sectionNumber'>25.4</div>"
+
+  - startTime: 5216405
+    endTime:   5221094
+    lushootseed: gʷat kʷi tuʔəy̓dubuɬəd ʔal ti tusəsx̌ʷil̓ləp.
+    english: Who found you folks when you were lost?
+    
+  - startTime: 5222370
+    endTime:   5225648
+    lushootseed: ti scapaʔčəɬ ti tuʔəy̓dubuɬ.
+    english: Our grandfather found us.
+
+
+
+  - html: "<div class='sectionNumber'>25.5</div>"
+
+  - startTime: 5232267
+    endTime:   5239120
+    lushootseed: gʷat kʷi tux̌udubuɬəd ʔal ti tusqadaləp ʔə ti x̌ax̌yəƛ̓.
+    english: Who saw you foks when you stole the dried salmon?
+    
+  - startTime: 5246261
+    endTime:   5251300
+    lushootseed: ti wiw̓su ti tušudubuɬ gʷəl (h)ayʔ tuyəctubuɬ.
+    english: The children saw us and told us.
+
+
