@@ -46,7 +46,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
    timeAlignedTierCount = 1 # only possibility with current YAML format
    try:
       if fileType == "EAF":
-         p = EafParser(mainTextFilePath, verbose=True,
+         p = EafParser(mainTextFilePath, verbose=False,
                        fixOverlappingTimeSegments=False)
          p.run()
          tbl = p.getTierTable()
@@ -74,6 +74,7 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
          p = NewYamlParser(mainTextFilePath)
          tbl = p.getTierTable()
          mediaURL = p.getMediaURL()
+         p.checkLines()
       formattedTable = dbc.Table.from_dataframe(tbl)
       errorBoxOpen = True
       errorBoxChildren = html.Div(children=[html.P("media url: %s" % mediaURL),
@@ -90,28 +91,17 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
       errorBoxOpen = True
       errorBoxTitle = "%s PARSING ERROR" % globals['fileType']
       (traceBackString, errorString) = getExceptionTracebackString(e)
-      #print("  traceBackString: %s" % traceBackString)
-      #print("  errorString: %s" % errorString)
       if type(errorString) is list:
          errorString = errorString[0]
-         errorStrings = errorString.split('\n')
-         errorStringHtml = html.Ul(children=[])
-         for element in errorStrings:
-            if(len(element) > 0):
-               errorStringHtml.children.append(html.Li(element))
-      else:
-         errorStringHtml = html.P(errorString)
+      if "reason" in dir(e):  # perhaps only in XMLSchemaValidationError
+         errorString = e.reason
+      errorStringHtml = html.P(errorString)
+      #pdb.set_trace()
       htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals,
                                                             errorString,
                                                             errorStringHtml,
                                                             traceBackString)
-      #htmlErrorMessage = createHtmlErrorReportWithEmailLink(globals, errorString, traceBackString)
       errorBoxChildren = dbc.ModalBody(htmlErrorMessage)
-      #errorBoxChildren = errorString
-      #pdb.set_trace()
-      #errorBoxChildren = dbc.ModalBody(e.__str__())
-      #buttonDivStyle['display'] = 'none'
-      #buttonLabel = "bug!"
       analyzeButtonDivStyle['display'] = 'none'
       return (globals, errorBoxOpen, errorBoxTitle, errorBoxChildren,
               createHtmlDivStyle, analyzeButtonDivStyle)

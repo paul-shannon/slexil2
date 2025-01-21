@@ -2,6 +2,8 @@
 #-------------------------------------------------------------------------------
 import os, sys
 import xmlschema
+import re
+from slexil.exceptions import *
 from urllib.parse import urlparse
 #from xml.etree import ElementTree as etree
 from lxml import etree
@@ -56,6 +58,10 @@ class EafParser:
       if(verbose):
          print("EafParser count lines")
       self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
+
+      if self.lineCount == 0:
+         raise NoTimeAlignedTierLines()
+         
 
       if(verbose):
          print("EafParser.run, constructing tier table")
@@ -193,29 +199,37 @@ class EafParser:
 
    #--------------------------------------------------------------------------------   
    def extractMediaInfo(self):
+
       if(self.verbose):
          print("--- entering extractMediaInfo")
+      urlElement = self.doc.findall("HEADER/MEDIA_DESCRIPTOR[@MEDIA_URL]")
+
+      if len(urlElement) == 0:
+         raise MediaFileMissingError()
+ 
+         # todo: these are repeated in newYamlParser.py  
+      videoExtensions = [".m4v", ".mov", ".mp4", ".mpg"]
+      audioExtensions = [".wav", ".mp3", ".ogg"]
+      mediaExtensions = videoExtensions + audioExtensions
+
       x = self.doc.findall("HEADER")[0].findall("MEDIA_DESCRIPTOR")
-
-      videoExtensions = (".m4v", ".mov", ".mp4")
-      audioExtensions = (".wav", ".mp3")
-
       for el in x:
         url = el.attrib["MEDIA_URL"]
         path = urlparse(el.attrib["MEDIA_URL"]).path
         urlSuffix = os.path.splitext(path)[1].lower()
-
         if(urlSuffix in videoExtensions):
            self.videoURL = url
            self.videoMimeType = el.attrib["MIME_TYPE"]
            self.mediaURL = self.videoURL
            self.mediaMimeType = self.videoMimeType
            break;   # video preferred over audio if both are present
-        else:
+        elif urlSuffix in audioExtensions:
            self.audioURL = url
            self.audioMimeType = el.attrib["MIME_TYPE"]
            self.mediaURL = self.audioURL
            self.mediaMimeType = self.audioMimeType
+        else:
+           raise MediaFormatError(mediaExtensions, urlSuffix)
 
 
    #--------------------------------------------------------------------------------   
@@ -320,12 +334,13 @@ class EafParser:
       coi = ["TIER_ID", "PARENT_REF", "LINES", "LINGUISTIC_TYPE_REF", "root", "ids"]
       tierTable = tbl[coi]
 
-      rootLineCount = int(tbl[tbl['root'] == True]['LINES'][0])
+      #print("--- trace at eafParser.py, line 323")
+      #pdb.set_trace()
+      # rootLineCount = int(tbl[tbl['root'] == True]['LINES'][0])
+      rootLineCount = tbl[tbl['root']==True]['LINES'].head(1).values[0]
       lowerBound = 1
       # lowerBound = (rootLineCount * 0.9)
       upperBound = (rootLineCount * 1.1)
-      #print("--- trace eafParser.py, constructRichTierTable")
-      #pdb.set_trace()
       tierTableDistilled = tbl[(tbl['LINES'] > lowerBound) & (tbl['LINES'] < upperBound)]
       tierTableDistilled.reset_index(inplace=True, drop=True)
 
@@ -517,7 +532,8 @@ class EafParser:
                           "tabCount": 0}, index=[0])
       
       childIDs = self.depthFirstTierTraversal(parentID)
-      print("parent %s, kids: %s" % (parentID, ",".join(childIDs)))
+      if self.verbose:
+          print("parent %s, kids: %s" % (parentID, ",".join(childIDs)))
         # the rich tierTables add extra information to the historically
         # basic tierTable
         #                  TIER_ID       PARENT_REF  LINES LINGUISTIC_TYPE_REF TIME_ALIGNABLE
@@ -611,32 +627,39 @@ class EafParser:
         # (like curly brace, question mark, square bracket), reserved by yaml,
         # are left uninterpreted.
         #
+         
       for row in range(0, rowCount):
          tierName = tbl.loc[row]['tierID']
          rawText = tbl.loc[row]['text']
          if rawText == None:
             continue
          rawText = rawText.replace("\n", " ")
-         #tabsFound = rawText.find("\t") > 0
-         # if tabsFound:
-         #print("--- trace, eafParser.py, lineToYAML")
-         #pdb.set_trace()
-         if tierName in self.tiersWithTabs:
-            text = str(rawText.split("\t"))
+            
+         if tierName in self.tiersWithTabs:      # clean them up
+            textArray = re.split(r"\t+", rawText)   # \t+: one or more tabs
+            textArray2 = [s.strip() for s in textArray]
+            text = str(textArray2)
+              #text = str(rawText.split("\t"))
             text = text.replace(": ", ":")
             text = text.replace("'", "")
             text = text.replace(" ", "")
             text = text.replace("?", "ʔ")
             text = text.replace("#", "x")
             text = text.replace("@", "x")
-            textOut.append("    %s: %s" % (tierName, text))
-            #textOut.append("    %s: |\n         %s" % (tierName, text))
+            text = re.sub(r",+", ",", text)
+            text = text.replace(",,", ",")
+            #textOut.append("    %s: %s" % (tierName, text))
+            textOut.append("    %s: |\n         %s" % (tierName, text))
          else:
-            textOut.append("    %s: |\n         %s" % (tierName, rawText))
+            if row == 0:
+               textOut.append("    %s: |\n         %s" % (tierName, rawText))
+            else:
+               textOut.append("    %s: |\n         %s" % (tierName, rawText))
             #if row == 0:
             #   text = '"%s"' % rawText
             #else:
             #   text = rawText
+
       return textOut
         
 

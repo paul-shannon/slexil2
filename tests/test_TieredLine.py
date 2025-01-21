@@ -123,41 +123,6 @@ def test_toHTML_noAnalysisLines():
     expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div><div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
     assert(html == expected)
 
-    #------------------------------------------------------------
-    # the second line:
-    #   - lineNumber: 2
-    #     startTime: 3095
-    #     endTime: 5500
-    #     italianSpeech: mi ritrovai per una selva oscura
-    #     soundsLike: me ritrovie per oona selva oscura
-    #     english: I found myself within a forest dark
-    #     speaker: Roberto Benigni
-    #------------------------------------------------------------
-
-#    line = TieredLine(lines, 1, tierGuide, grammaticalTerms=[],
-#                      useTooltips=False, verbose=True)
-#    htmlDoc = yattag.Doc()
-#    s = line.toHTML(htmlDoc)
-#    html = htmlDoc.getvalue()
-#    expected = '<div class="line-content" id="2"><div class="line"><span class="speech-tier">mi ritrovai per una selva oscura</span></div><div class="generic-tier">me ritrovie per oona selva oscura</div><div class="generic-tier">I found myself within a forest dark</div><div class="generic-tier">Roberto Benigni</div><div class="annotationDiv"></div></div>'
-#    assert(html == expected)
-#
-#    #------------------------------------------------------------
-#    # the fourth line, just 1 language-related tier
-#    #   - lineNumber: 52
-#    #     startTime: 5624
-#    #     endTime: 8033
-#    #     italianSpeech: ché la diritta via era smarrita.
-#    #------------------------------------------------------------
-#
-#    line = TieredLine(lines, 3, tierGuide, grammaticalTerms=[],
-#                      useTooltips=False, verbose=True)
-#    htmlDoc = yattag.Doc()
-#    s = line.toHTML(htmlDoc)
-#    html = htmlDoc.getvalue()
-#    expected = '<div class="line-content" id="4"><div class="line"><span class="speech-tier">ché la diritta via era smarrita.</span></div><div class="annotationDiv"></div></div>'
-#    assert(html == expected)
-
 #----------------------------------------------------------------------------------------------------
 def test_toHTML_withAnalysisLines():
     

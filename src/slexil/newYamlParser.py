@@ -3,6 +3,7 @@
 import os, sys
 from slexil.inferTierStructure import InferTierStructure
 from slexil.tieredLine import TieredLine
+from slexil.exceptions import *
 import xmlschema
 from urllib.parse import urlparse
 from lxml import etree
@@ -62,12 +63,16 @@ class NewYamlParser:
      self.title = x['title']
      self.narrator = x['narrator']
 
-     videoExtensions = (".m4v", ".mov", ".mp4")
-     audioExtensions = (".wav", ".mp3")
+         # todo: these are repeated in eafParser.py  
+     videoExtensions = [".m4v", ".mov", ".mp4", ".mpg"]
+     audioExtensions = [".wav", ".mp3", ".ogg"]
+     mediaExtensions = videoExtensions + audioExtensions
 
      path = x['mediaFile']
      urlSuffix = os.path.splitext(path)[1].lower()
-     assert(urlSuffix in videoExtensions + audioExtensions)
+
+     if not urlSuffix in mediaExtensions:
+        raise MediaFormatError(mediaExtensions, urlSuffix)
 
      if(urlSuffix in videoExtensions):
        self.videoURL = path
@@ -83,16 +88,28 @@ class NewYamlParser:
 
      for i in range(0, lineCount):
         self.lines[i]['number'] = i
-        
-    # if 'lineType' in list(x['lines'][0].keys()):
-#        self.htmlLines = [line for line in x['lines'] if line['lineType']=='html']
-#        self.tieredLines = [line for line in x['lines'] if line['lineType']=='ijal']
-#        self.lineTypeSpecified = True
-#     else:
-#        self.tieredLines = x['lines']
-#        self.htmlLines = []
-#        self.lineTypeSpecified = False
 
+     self.checkLines()  # throw exception if found invalid
+
+   #----------------------------------------------------------------------
+   # add quality checks here, just of the tieredLines
+   #   all startTime and endTime must be integers
+   #
+   def checkLines(self):
+
+         # first test: make sure all start and endTimes are integers
+         # milliseconds from the beginning of the media recording
+
+      startTimes = [x['startTime'] for x in self.tieredLines]
+      endTimes   = [x['endTime'] for x in self.tieredLines]
+      allTimes = startTimes + endTimes
+
+      try:
+         for time in allTimes:
+           intTime = int(time)
+      except ValueError as ve:
+           # "None" suppresses the ValueError display
+         raise(MillisecondTimeError(time)) from None
 
    #----------------------------------------------------------------------
    def getYamlObject(self):
@@ -156,18 +173,19 @@ class NewYamlParser:
       if "translation" in tierKeys:
          translation = line[tierMap["translation"]]
       return{"lineNumber": lineNumber,
-            "startTime": startTime,
-            "endTime": endTime,
-            "speech": speech,
-            "morphemes": morphemes,
-            "morphemeGlosses": morphemeGlosses,
-            "translation": translation}
+             "startTime": startTime,
+             "endTime": endTime,
+             "speech": speech,
+             "morphemes": morphemes,
+             "morphemeGlosses": morphemeGlosses,
+             "translation": translation}
       
    #----------------------------------------------------------------------
    # line number and tier number, when different, accomodate the possible
    # presence of html lines in the self.lines list
    def getTieredLineObject(self, lineNumber, tierNumber):
 
+      pdb.set_trace()
       tieredLine = TieredLine(self.lines, lineNumber, tierNumber,
                               self.getTierGuide(),
                               verbose=self.verbose)
@@ -175,10 +193,10 @@ class NewYamlParser:
       
    #----------------------------------------------------------------------
    def getHtmlLine(self, number):
-      line = self.lines[number]
+      line = self.htmlLines[number]
       #assert(line['lineType'] == "html")
-      assert('content' in list(line.keys()))
-      return(line['content'])
+      #assert('content' in list(line.keys()))
+      return(line['html'])
       
    #----------------------------------------------------------------------
    def getRawLines(self):
@@ -233,6 +251,7 @@ class NewYamlParser:
             #newLine = self.getIjalLine(i)
          self.lines.append(newLine)
       
+   #----------------------------------------------------------------------
    def run(self):
 
       if(self.verbose):

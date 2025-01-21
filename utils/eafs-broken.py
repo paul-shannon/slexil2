@@ -1,0 +1,12 @@
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon01.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon02.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon03.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon04.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon05.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon06.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon07.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon08.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon09.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon10.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon11.eaf
+python eaf2yaml2html.py ../testData/validEafYamlFiles/from-dbeck/yon12.eaf

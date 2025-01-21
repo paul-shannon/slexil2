@@ -205,15 +205,17 @@ class YamlToText:
       self.mediaUrl = url
 
       suffix = Path(url).suffix.lower()
+      videoExtensions = [".m4v", ".mov", ".mp4", ".mpg"]
+      audioExtensions = [".wav", ".mp3", ".ogg"]
+      mediaExtensions = videoExtensions + audioExtensions
+
       
-      if(suffix in [".wav", ".mp3"]):
+      if(suffix in audioExtensions):
          self.mediaType = "audio"
-      elif(suffix in [".m4v", ".mov", ".mp4"]):
+      elif(suffix in videoExtensions):
          self.mediaType = "video"
-      else:  # todo: raise exception here
-         msg = "unrecognized media file suffix in url: %s" % suffix
-         msg += "full url: %s" % url
-         raise Exception(msg)
+      else:  
+         raise MediaFormatError(mediaExtensions, suffix)
       
 
    #--------------------------------------------------------------------------------   

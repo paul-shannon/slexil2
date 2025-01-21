@@ -11,7 +11,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "3.0.3"
+appVersion = "3.0.5"
 versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -222,19 +222,27 @@ def createHtmlErrorReportWithEmailLink(globals, errorString,
    body = "%s%s" % (bodyLeadIn, bodyTextCRLF)
    emailHref = '%s%s%s' % (sendTo, subject, body)
 
-   elDiv = html.Div(children=[errorStringHtml])
+   #elDiv = html.Div(children=[errorStringHtml])
+   elDiv = html.Div(children=[])
+
+     # put the succinct error message first
+   elDiv.children.append(html.H2(errorString))
+     # then the email link
+   elDiv.children.append(html.A(
+      [html.H2('Please Click Here to Email Bug Report to Paul Shannon')],
+       title ='email_me',
+       href=emailHref,
+       target='_blank'))
+
+   elDiv.children.append(html.P(" "))
+   elDiv.children.append(html.H2("Context: "))
+   #elDiv.children.append(errorStringHtml)
    el = html.Ul(id="list", children=[])
    
    for key in globals.keys():
        el.children.append(html.Li("%s: %s" % (key, globals[key])))
 
    elDiv.children.append(el)
-
-   elDiv.children.append(html.A(
-      [html.H1('Email Slexil Bug Report to Paul Shannon')],
-       title ='email_me',
-       href=emailHref,
-       target='_blank'))
 
    return elDiv
 
@@ -315,13 +323,9 @@ def closeModalDialog(n_clicks):
     return False
 #--------------------------------------------------------------------------------
 
-#m4_include(20.setTitle.py)
 m4_include(20a.setTitle.py)
 m4_include(21.fileTypeChooser.py)
-#m4_include(22.loadEAF.py)
-#m4_include(22a.loadMainTextFile.py)
 m4_include(22c.loadMainTextFile.py)
-#m4_include(23a.makeHtml.py)
 m4_include(assessUploadedFile.py)
 m4_include(makeHtml.py)
 m4_include(downloadHtml.py)

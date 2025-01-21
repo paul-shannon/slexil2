@@ -84,8 +84,11 @@ def test_getHtmlLine():
 
   f = "../testData/validEafYamlFiles/inferno.yaml"
   yp = NewYamlParser(f)
-  content = yp.getHtmlLine(0)
-  assert(content == '<h3> Read by Roberto Begnini</h3> taken from youtube')
+  htmlLines = yp.getHtmlLines()
+  assert(len(htmlLines) == 6)
+  line = yp.getHtmlLine(0)
+  assert(line == '<h3> Read by Roberto Begnini</h3> taken from youtube')
+
     
 #----------------------------------------------------------------------------------------------------
 def test_getTierTable():
@@ -145,27 +148,10 @@ def test_getAllLines():
 
    assert(len(pl) == 9)
 
-     # lines (0-based)
-     #  html: 0,1, 4-7
-     #  ijal: 2,3,8
-     # [type(line) for line in pl]
+   for p in pl:
+      assert(isinstance(p, dict))
 
-   assert(isinstance(pl[0], str))
-   assert(isinstance(pl[1], str))
-   assert(isinstance(pl[2], dict))
-   assert(isinstance(pl[3], dict))
-   assert(isinstance(pl[4], str))
-   assert(isinstance(pl[5], str))
-   assert(isinstance(pl[6], str))
-   assert(isinstance(pl[7], str))
-   assert(isinstance(pl[8], dict))
-   
-
-   assert(pl[0] == '<h3> Read by Roberto Begnini</h3> taken from youtube')
-
-   assert(pl[2]['speech'] == 'Nel mezzo del cammin di nostra vita')
-   assert(pl[3]['speech'] ==  'mi ritrovai per una selva oscura')
-   assert(pl[8]['speech'] == 'ché la diritta via era smarrita.')
+   assert(pl[2]['italianSpeech'] == 'Nel mezzo del cammin di nostra vita')
 
 #----------------------------------------------------------------------------------------------------
 def test_run():
@@ -214,19 +200,48 @@ def test_escapedBrackets():
     print("--- test_escapedBrackets")
 
 #--------------------------------------------------------------------------------
+def test_catchBadTimes():
+    
+   print("--- test_catchBadTimes")
+
+   f = "../testData/invalidEafFiles/badTimes.yaml"
+   try:
+      yp = NewYamlParser(f, None)
+      # assert("test_catchBadTimes failed to identify, e.g., '1h19m50.114s'")
+   except Exception as e:
+      assert(repr(type(e)) == "<class 'slexil.exceptions.MillisecondTimeError'>")
+      assert(repr(e) == "MillisecondTimeError('1h19m50.114s')")
+      return(True)
+
+   assert(False)
+
+#--------------------------------------------------------------------------------
+def test_jitzTrueForYes():
+    
+   print("--- test_catchBadTimes")
+
+   f = "../testData/validEafYamlFiles/jitz-tiny-with-yes.yaml"
+   yp = NewYamlParser(f, None)
+   yp.parseAndSortAllLines()
+   lines = yp.getAllLines()
+
+   pdb.set_trace()
+
+#--------------------------------------------------------------------------------
 def runTests():
 
-
   test_ctor()
+  test_jitzTrueForYes()
+  test_catchBadTimes()
   test_mediaGetters()
   test_getTierGuide()
   test_getTierTable()
   test_getTieredLineObject()
-  #test_getHtmlLine()  
+  test_getHtmlLine()  
   test_getTimeTable()
   test_lineDictToTable()
-  #test_getAllLines()
-  #test_run()
+  test_getAllLines()
+  test_run()
 
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

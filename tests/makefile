@@ -1,6 +1,7 @@
 default:
 	@echo venv
 	@echo all
+	@echo exceptions
 	@echo install
 	@echo webPacker
 	@echo tierGuide
@@ -145,3 +146,7 @@ mga: morphemeGlossAbbreviations
 
 morphemeGlossAbbreviations:
 	python test_morphemeGlossAbbreviations.py
+
+exceptions:
+	python test_exceptions.py
+

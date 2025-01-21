@@ -12,7 +12,7 @@ if (typeof(kb) == 'object'){
     }
 
 $(function() {
-    $(".morpheme-cell, .speech-tier, .freeTranslation-tier")
+    $(".morpheme-cell, .speech-tier, .freeTranslation-tier, .grammatical-term")
         .mouseenter(function(){
             var currentElement = $(this);
             //console.log("--- mouseenter " + currentElement.html());

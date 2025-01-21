@@ -2,11 +2,13 @@ import argparse
 import os, sys
 import unittest
 from slexil.yamlToText import YamlToText
+from slexil.tieredLine import TieredLine
 import yattag  # only for indent method
 import pdb
 import re
 import yaml
 import yattag
+from yattag import Doc
 #--------------------------------------------------------------------------------
 from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 mga = MorphemeGlossAbbreviations()
@@ -22,14 +24,6 @@ def test_infernoSimple():
    #f = "../testData/validEafYamlFiles/inferno-mixedDemo.yaml"
    f = "../testData/validEafYamlFiles/inferno-withHtmlLines.yaml"
    f = "../testData/validEafYamlFiles/inferno-mixedCaseMorphemes.yaml"
-
-   #gtf = "../testData/validEafYamlFiles/infernoTerms.txt"
-   #with open(gtf) as file:
-   #   grammaticalTerms = file.read().split("\n")
-   #   count = len(grammaticalTerms)
-   #   if grammaticalTerms[count-1] == "":
-   #      grammaticalTerms.pop()
-
 
    text = YamlToText(f, grammaticalTerms = mga.getAll(),
                      projectDirectory="inferno",
@@ -217,6 +211,39 @@ def test_tlingitVideoVanRescue():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+def test_TrueForYesYamlParsing():
+
+   print("--- test_TrueForYesYamlParsing")
+
+   f = "../testData/validEafYamlFiles/jitz-tiny-with-yes.yaml"
+   gtf = None
+
+   text = YamlToText(f, grammaticalTerms=[],
+                     projectDirectory="tmp",
+                     verbose = False,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "jitz-tiny-with-yes",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+
+
+   htmlText = text.toHTML()
+
+   assert(htmlText.find("yes") > 0)
+   filename = "jitz-tiney.html"
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   f.close()
+   print("    wrote %s" % f.name)
+   
+#--------------------------------------------------------------------------------
 def test_aliceFromEaf():
 
    print("--- test_aliceFromEaf")
@@ -286,8 +313,55 @@ def test_marthaLamontOwl():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+# demonstration: shows how to find a line, a tag, which offends yattag.
+# with a minor change to tieredLine.py, this demo no longer fails, but
+# the method demonstrated here will likely be uselful in the future.
+def test_findYattagOffendingLine():
+
+   print("--- test_findYattagOffendingLine")
+   f = "../testData/validEafYamlFiles/30-01-03cLlorona-MM.yaml"
+   text = YamlToText(f, grammaticalTerms = None,
+                     projectDirectory="/tmp",
+                     verbose = False,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "30-01-03cLlorona-MM",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+   lines = text.lines
+
+   htmlDoc = Doc()
+   print(" lines from yaml: %d" % len(text.lines))
+   
+   for i in range(len(text.lines)):
+      print(" toHTML on line %d" % i, flush=True)
+      tieredLine = TieredLine(text.lines, i, i+1,
+                              text.tierGuide,
+                              grammaticalTerms=None,
+                              useTooltips=False,
+                              verbose=True)
+      try:
+         tieredLine.toHTML(htmlDoc)
+         htmlDoc.getvalue()
+      except TypeError as ex:
+         print("--- exception raised")
+         print(ex)
+         pdb.set_trace()
+
+   pdb.set_trace()
+      
+
+   
+#--------------------------------------------------------------------------------
 def runTests():
 
+   test_TrueForYesYamlParsing()
    test_harryMosesDaylight_full()
    test_marthaLamontOwl()
 

@@ -56,7 +56,7 @@ class TieredLine:
     useTooltips = False   
 
     def __init__(self, lineList, lineNumber, tierNumber, tierGuide, grammaticalTerms=[],
-                 useTooltips=False,verbose=False):
+                 useTooltips=False, verbose=False):
         self.lineList = lineList
         self.its = InferTierStructure(self.lineList)
         self.lineNumber = lineNumber
@@ -147,9 +147,10 @@ class TieredLine:
         # morphemes = self.getMorphemes()
         # glosses = self.getMorphemeGlosses()
 
-        print("--- entering tieredLine.py, calculateMorphemeSpacing")
-        print(morphemes)
-        print(glosses)
+        if self.verbose:
+           print("--- entering tieredLine.py, calculateMorphemeSpacing, line 151")
+           print(morphemes)
+           print(glosses)
 
         if(morphemes == None):
            self.morphemeSpacing == None
@@ -159,9 +160,10 @@ class TieredLine:
            return
             
         self.morphemeSpacing = []
-        print("--- tieredLine.py, calculateMorphemeSpacing: %d %d" % (len(morphemes), len(glosses)))
-        print(morphemes)
-        print(glosses)
+        if self.verbose:
+           print("--- tieredLine.py, calculateMorphemeSpacing, line 164: %d %d" % (len(morphemes), len(glosses)))
+           print(morphemes)
+           print(glosses)
         if(glosses):
            if (len(morphemes) > len(glosses)):
                #logging.warning("EAF error - There are more morphs (%d) than glosses (%d) in line %s." % (len(morphemes), len(glosses), int(self.lineNumber) + 1))
@@ -174,27 +176,30 @@ class TieredLine:
                for i in range(0, theDifference):
                    morphemes.append("⚠️")
 
-
-        for i in range(len(morphemes)):
-            if "<su" in morphemes[i]:
-                newmorph = morphemes[i].replace("<sub>", "")
-                newmorph = newmorph.replace("</sub>", "")
-                newmorph = newmorph.replace("<sup>", "")
-                newmorph = newmorph.replace("</sup>", "")
-                morphemeSize = len(newmorph)
-            else:
-                morphemeSize = len(morphemes[i])
-            glossSize = 0
-            if(glosses):
-               if "<su" in glosses[i]:
-                  newGloss = glosses[i].replace("<sub>", "")
-                  newGloss = newGloss.replace("</sub>", "")
-                  newGloss = newGloss.replace("<sup>", "")
-                  newGloss = newGloss.replace("</sup>", "")
-                  glossSize = len(newGloss)
+        if(morphemes):  
+           for i in range(len(morphemes)):
+               if "<su" in morphemes[i]:
+                   newmorph = morphemes[i].replace("<sub>", "")
+                   newmorph = newmorph.replace("</sub>", "")
+                   newmorph = newmorph.replace("<sup>", "")
+                   newmorph = newmorph.replace("</sup>", "")
+                   morphemeSize = len(newmorph)
                else:
-                  glossSize = len(glosses[i])
-            self.morphemeSpacing.append(max(morphemeSize, glossSize) + 3)
+                   morphemeSize = len(morphemes[i])
+               glossSize = 0
+               if(glosses):
+                  if(self.verbose):
+                      print("TieredLine, calculateMorphemeSpacing, glosses (%d count):" % len(glosses))
+                      print(glosses)
+                  if "<su" in glosses[i]:
+                     newGloss = glosses[i].replace("<sub>", "")
+                     newGloss = newGloss.replace("</sub>", "")
+                     newGloss = newGloss.replace("<sup>", "")
+                     newGloss = newGloss.replace("</sup>", "")
+                     glossSize = len(newGloss)
+                  else:
+                     glossSize = len(glosses[i])
+               self.morphemeSpacing.append(max(morphemeSize, glossSize) + 3)
 
     # ----------------------------------------------------------------------------------------------------
     def getMorphemeSpacing(self):
@@ -232,7 +237,7 @@ class TieredLine:
         with htmlDoc.tag("div", klass="line-content", id=self.tierNumber):
             with htmlDoc.tag("div", klass="line"):
                 with htmlDoc.tag("span", klass="tier speech-tier", name=userTierName):
-                    htmlDoc.asis(self.getSpokenText())
+                    htmlDoc.asis(str(self.getSpokenText()))
 
             if self.verbose:
                 print("  create html for %d standard tiers" % len(gMap))
@@ -259,7 +264,7 @@ class TieredLine:
                         continue
                      className = "tier soundsLike-tier"
                   with htmlDoc.tag("div", klass=className, name=userTierName):
-                     htmlDoc.asis(self.line[userTierName])
+                     htmlDoc.asis(str(self.line[userTierName]))
 
                # add a div to hold annotations
             with htmlDoc.tag("div", klass="annotationDiv"):
@@ -273,16 +278,29 @@ class TieredLine:
 
        morphemes = self.line[analysisTierNames[0]]
        morphemeGlosses = self.line[analysisTierNames[1]]
+          # yaml (annonyingly!) converts "0" and "false" to False, "1" and "true" to True
+          # undo that possible change here, by forcing all values to be strings
+       morphemes = [str(e) for e in morphemes]
+       morphemeGlosses = [str(e) for e in morphemeGlosses]
 
        if(isinstance(morphemes, str)):   # may be bare strings
            morphemes = list(morphemes)
        if(isinstance(morphemeGlosses, str)):
            morphemeGlossess = list(morphemeGlosses)
            
-
+       
        morphemeSpacingStyleString = ""
-       #pdb.set_trace()
        if (morphemes):
+            # yaml parser annoying converts "yes" to True, "no" to False
+            # fix that here
+          #print("--- trace, tieredLine.py, line 292, calculateMorphemeSpaceing")
+          #pdb.set_trace()
+          for m in range(len(morphemes)):
+              if isinstance(morphemes[m], bool):
+                  if morphemes[m] == True:
+                      morphemes[m] = "yes"
+                  else:
+                      morphemes[m] = "no"
           if(len(morphemes) > 1):
              self.calculateMorphemeSpacing(morphemes, morphemeGlosses)
              morphemeSpacingStyleString = \
@@ -292,7 +310,7 @@ class TieredLine:
                            name=analysisTierNames[0]):
              for morpheme in morphemes:
                 with htmlDoc.tag("div", klass="morpheme-cell"):
-                    htmlDoc.asis(morpheme)
+                    htmlDoc.asis(str(morpheme))
     
        if (morphemes and morphemeGlosses):
           with htmlDoc.tag("div", klass="tier morpheme-tier",
@@ -305,7 +323,7 @@ class TieredLine:
                     s = mg.format()
                     if self.verbose:
                         print(s)
-                    htmlDoc.asis(s)
+                    htmlDoc.asis(str(s))
     
 #------------------------------------------------------------------------------------------------------------------------
 #def findChildren(doc, rootElement):

@@ -1,6 +1,7 @@
 import argparse
 import os, sys
 import unittest
+from pathlib import Path
 #from slexil.textFromYaml import TextFromYaml
 
 from slexil.yamlToText import YamlToText
@@ -28,6 +29,7 @@ parser.add_argument('--kbFilename', required=False, default=None)
 parser.add_argument('--linguisticsFilename', required=False, default=None)
 parser.add_argument('--fixOverlappingTimeSegments', action="store_true")
 parser.add_argument('--toolTips', action="store_true")
+parser.add_argument('--outputDir', default="./")
 
 
 args = parser.parse_args()
@@ -47,6 +49,7 @@ kbFilename = args.kbFilename
 linguisticsFilename = args.linguisticsFilename
 fixOverlappingTimeSegments = args.fixOverlappingTimeSegments
 useTooltips = args.toolTips
+outputDir = args.outputDir
 #----------------------------------------------------------------------------------------------------
 if(not os.path.isfile(yaml)):
     print("yaml2html.py error: yaml file '%s' not found" % yaml)
@@ -77,8 +80,8 @@ text = YamlToText(yaml,
                   startLine = None,
                   endLine = None,
                   pageTitle = pageTitle,
-                  helpFilename = None,
-                  helpButtonLabel = None,
+                  helpFilename = helpFile,
+                  helpButtonLabel = helpButtonLabel,
                   kbFilename = kbFilename,
                   linguisticsFilename = linguisticsFilename,
                   fixOverlappingTimeSegments = False,
@@ -109,7 +112,8 @@ htmlText = text.toHTML()
 
    # 3 lines of speech, one jquery pattern
 
-filename = "index.html"
+#filename = "index.html"
+filename = "%s/%s.html" % (outputDir, Path(yaml).stem)
 f = open(filename, "wb")
 f.write(bytes(htmlText, "utf-8"))
 #f.write(bytes(htmlText_indented, "utf-8"))

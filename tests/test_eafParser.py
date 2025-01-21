@@ -15,6 +15,7 @@ pd.set_option('display.max_rows', None)
 from pathlib import Path
 path = Path(".")
 from xmlschema.validators.exceptions import XMLSchemaValidationError;
+from slexil.exceptions import *
 
 eafFiles = open("../testData/eafFileList.txt").read().split('\n')
 if(eafFiles[-1] == ""):
@@ -71,7 +72,7 @@ def test_extractAllRootTimeAlignedTiers():
     i = 0
     for f in fs:
        assert(extractAllTimeAlignedTierIDs(fs[i]))
-       print(expected[i])
+       #print(expected[i])
        i += 1       
 
 #---------------------------------------------------------------------------------------------------
@@ -730,6 +731,55 @@ def test_lineToYAML():
     assert(x[6] == '    english: Midway upon the journey of our life')
     
 #---------------------------------------------------------------------------------------------------
+def test_lineToYAML_multipleTabsSeparatingTokens():
+
+    print("--- test_lineToYAML_multipleTabsSeparatingTokens")
+    f = "../testData/validEafYamlFiles/from-dbeckServer/bugs/Crane_COM_TS_RP.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    lineTbls = parser.getAllLinesTable()
+    lineTable = lineTbls[8]
+    x = parser.lineToYAML(lineTable, 8)
+     # morphemes tiers in row 1 (note 0 indexing)
+    text = lineTable.iloc[1]['text']
+
+       # the offending line, before fix
+       # x[4]
+       #'    morphemes: [tuq=namut’ukw’its’uyu,’ew’kw=tqa’,,stulta’luw’qa’.]'
+       # figured out that 
+   
+    x = parser.lineToYAML(lineTable, 8)
+    assert("    morphemes: |\n         [tuq=namut’ukw’its’uyu," in x[4])
+    assert("    morphemeGloss: |\n         [find.out=LC.REFLOBLDMHSDYN,finish" in x[5])
+
+#---------------------------------------------------------------------------------------------------
+def test_lineToYAML_yesBecomesTrue():
+
+    print("--- test_lineToYAML_yesBecomesTrue")
+    f = "../testData/invalidEafFiles/JITZ.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    tbl = parser.getAllLinesTable()
+
+        # first, look at what lineToYAML gets us
+
+    line = tbl[44]
+    x = parser.lineToYAML(line, 44)
+    expected = "    intr-cp: |\n         [SUBORD,3S–appreciate–PASS–DEP2,"
+    assert(expected in x[6])
+
+        # now looi at what toYAML gets us
+
+    y = parser.toYAML("title", "narrator", "textEntry")
+    assert(len(y) == 620)
+    assert(expected in y[401])
+   
+      # minimal checks
+    assert(len(x) == 8)
+    assert("lineNumber" in x[0])
+    assert ("yes" in x[6])
+    
+#---------------------------------------------------------------------------------------------------
 # alice taff, in her eafs, somtimes
 #   - uses curly brackets for false start speech
 #   - embeds double quotes
@@ -777,29 +827,26 @@ def test_toYAML_inferno3():
      '    startTime: 0',
      '    endTime: 2828',
      '    italianSpeech: |\n         Nel mezzo del cammin di nostra vita',
-     '    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]',
-     '    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]',
+     '    morphemes: |\n         [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]',
+     '    morpheme-gloss: |\n         [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]',
      '    english: |\n         Midway upon the journey of our life',
      '',
      '  - lineNumber: 2',
      '    startTime: 3095',
      '    endTime: 5500',
      '    italianSpeech: |\n         mi ritrovai per una selva oscura',
-     '    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]',
-     '    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]',
+     '    morphemes: |\n         [mi,ritrov–ai,per,una,selv–a,oscur–a]',
+     '    morpheme-gloss: |\n         [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]',
      '    english: |\n         I found myself within a forest dark',
      '',
      '  - lineNumber: 3',
      '    startTime: 5624',
      '    endTime: 8033',
      '    italianSpeech: |\n         ché la diritta via era smarrita.',
-     '    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]',
-     '    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]',
+     '    morphemes: |\n         [ché,la,diritt–a,vi–a,era,smarr–it–a]',
+     '    morpheme-gloss: |\n         [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]',
      '    english: |\n         For the straightforward pathway had been lost.',
      '']
-
-    #for i in range(30):
-    #   print("%d): %s" % (i, yaml[i] == expected[i]))
 
     assert(yaml == expected)
 
@@ -930,9 +977,6 @@ G,life-FEM]
          Midway upon the journey of our life
          """
 
-   pdb.set_trace()
-
-
 #---------------------------------------------------------------------------------------------------
 # in an early version, morpheme & gloss (analysis) lines were identified by the
 # presence of tabs in the text of the tiered line.
@@ -950,13 +994,16 @@ def test_basil():
     #p.findTiersWithTabs()
     assert(p.tiersWithTabs == [])
     tbl = p.getLineTable(1)   # first line in the story
-    translation = tbl['text'][2]
+
+    assert(tbl['tierID'].values[3] == "translation")
+    translation = tbl['text'][3]
+   
     assert(translation == "Do you know about munmaanta'qw?")
     y = p.toYAML("Basil", "speaker", "transcriber")
 
 
     pyObj = yaml.safe_load("\n".join(y[7:12]))  
-    pprint.pp(pyObj)
+    # pprint.pp(pyObj)
 
        # inspect the first line's tranlsation
     assert(pyObj[0]["translation"] == "Do you know about munmaanta'qw?")
@@ -976,15 +1023,12 @@ def test_p05():
     assert(p.tiersWithTabs == [])
     tbl = p.getLineTable(1)   # first line in the story
 
-    #print("--- trace, test_ eafParser.py, test_p05")
-    #pdb.set_trace()
-
     assert(tbl.shape == (1,8))
     onlyText = tbl['text'][0]
     assert(onlyText == 'REVISAR(M-CI)')
     y = p.toYAML("p05", "unknown", "unknown")
     pyObj = yaml.safe_load("\n".join(y))
-    pprint.pp(pyObj)
+    # pprint.pp(pyObj)
     assert(pyObj == {'title': 'p05',
                      'narrator': 'unknown',
                      'textEntry': 'unknown',
@@ -996,6 +1040,17 @@ def test_p05():
                                 'M_Glosa': 'REVISAR(M-CI)\n'}]})
 
 #---------------------------------------------------------------------------------------------------
+# where "yes" is somehow rendered as True
+def test_jitz_yesAsTrue():
+
+    print("--- test_jitz_yesAsTrue")
+
+    f = "../testData/invalidEafFiles/JITZ.eaf"
+    p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    p.run()
+    p.toYAML("a","b", "c")
+
+#---------------------------------------------------------------------------------------------------
 def test_craneCom():
 
     print("--- test_craneCom")
@@ -1004,27 +1059,44 @@ def test_craneCom():
     p = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
     p.run()
 
-    assert(p.tiersWithTabs == ['morphemes', 'morphemeGloss'])
-    print("  tiersWithTabs: %s" % ", ".join(p.tiersWithTabs))
+    assert(len(p.tiersWithTabs) == 2)
+    assert("morphemes" in p.tiersWithTabs)
+    assert("morphemeGloss" in p.tiersWithTabs)
 
     tbl = p.getLineTable(1)   # first line in the story
     y = p.lineToYAML(tbl, 1)
     pyObj = yaml.safe_load("\n".join(y))
-    pprint.pp(pyObj)
+    # pprint.pp(pyObj)
 
-    print("--- trace, test_ eafParser.py, test_craneCom")
-    pdb.set_trace()
-
-    assert(tbl.shape == (1,8))
-    onlyText = tbl['text'][0]
-    assert(onlyText == 'REVISAR(M-CI)')
+    assert(tbl.shape == (4,8))
+    onlyTextFirstLine = tbl['text'][0]
+    assert(onlyTextFirstLine == 'nilh kwthu smuqw’a’ nu sxwi’em’.')
     y = p.toYAML("p05", "unknown", "unknown")
     pyObj = yaml.safe_load("\n".join(y))
-    pprint.pp(pyObj)
+    # pprint.pp(pyObj)
+
+#--------------------------------------------------------------------------------
+# empty in the sense that, though valid xml, there are no time-aligned tiers
+def test_noTimeAlignedTierLines():
+
+    print("--- test_noTimeAlignedTierLines")
+    f = "../testData/validEafYamlFiles/from-dbeck/2016-08-25_ErnestinaVelasquez_McKayTrec-533.eaf"
+    caughtException = False
+
+    try:
+       parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+       parser.xmlValid()
+       parser.run()
+    except NoTimeAlignedTierLines as e:
+       caughtException = True
+
+    assert(caughtException)
 
 #--------------------------------------------------------------------------------
 def runTests():
 
+   test_lineToYAML_multipleTabsSeparatingTokens()
+   test_lineToYAML_yesBecomesTrue()
    test_craneCom()
    test_p05()
    test_basil()
@@ -1033,15 +1105,12 @@ def runTests():
    test_toYAML_inferno3()
    test_toYAML_daylightFull()
 
-   # exploreYamlColonAndCharacterCollisions()
+     # exploreYamlColonAndCharacterCollisions()
    test_xmlValidity_notMemberFunction()
    test_extractAllRootTimeAlignedTiers()
    
    print("--- all done with root test")
    
-
-
-
    test_donkeyTiger()
    test_featherSnake()
 
@@ -1065,7 +1134,7 @@ def runTests():
    test_getSummary()
 
    test_toYAML_tlingitFunnyCharacters()
-
+   test_noTimeAlignedTierLines()
 
 #---------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
