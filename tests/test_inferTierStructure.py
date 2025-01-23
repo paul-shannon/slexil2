@@ -11,7 +11,7 @@ def test_fileConstructor():
 
     print("--- test_fileConstructor")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     assert(type(its).__name__ == 'InferTierStructure')
 
@@ -20,7 +20,7 @@ def test_parsedLinesConstructor():
 
     print("--- test_parsedLinesConstructor")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     x = yaml.load(open(f), Loader=yaml.FullLoader)
     lines = x['lines']
 
@@ -40,7 +40,7 @@ def test_linesConstructor():
 
     print("--- test_linesConstructor")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     yp = YamlParser(f)
     lines = yp.getRawLines()  # all lines within the "lines" yaml field
 
@@ -56,7 +56,7 @@ def test_getAllTierNames():
 
     print("--- test_getAllTierNames")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     x = its.getAllTierNames()
     expected = ['italianSpeech', 'soundsLike', 'morphemes',
@@ -68,7 +68,7 @@ def test_identifyAnalysisTiers():
 
     print("--- test_identifyAnalysisTiers")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     #its.identifyAnalysisTiers()
     analysisTiers = list(its.getAnalysisTierNameMap().values())
@@ -88,7 +88,7 @@ def test_getGenericTiers_inProperOrder():
 
     print("--- test_getGenericTiersInProperOrder")
 
-    f = "../testData/validYamlFiles/61.yaml"
+    f = "../testData/validEafYamlFiles/61.yaml"
     its = InferTierStructure(f)
     tiers = its.getGenericTierNameMap()
        # make sure that Speaker initials comes last
@@ -96,7 +96,7 @@ def test_getGenericTiers_inProperOrder():
     assert(tiers == {'tier_1': 'translation', 'tier_2': 'Speaker initials'})
     assert(list(tiers.values()) == ['translation', 'Speaker initials'])
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     tiers = its.getGenericTierNameMap()
     assert(tiers == {'tier_1': 'soundsLike', 'tier_2': 'english', 'tier_3': 'speaker'})
@@ -107,7 +107,7 @@ def test_getSpeechTier():
 
     print("--- test_getSpeechTier")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     
     stMap = its.getSpeechTierNameMap()
@@ -121,7 +121,7 @@ def test_getGenericTiers():
 
     print("--- test_getGenericTiers")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     gtMap = its.getGenericTierNameMap()
     assert(gtMap == {'tier_1': 'soundsLike', 'tier_2': 'english', 'tier_3': 'speaker'})
@@ -135,7 +135,7 @@ def test_getAnalysisTiers():
 
     print("--- test_getAnalysis")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     atMap = its.getAnalysisTierNameMap()
 
@@ -145,7 +145,7 @@ def test_recognizeAbsentAnalysisTiers():
 
     print("--- test_recognizeAbsentAnalysisTiers")
 
-    f = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
     its = InferTierStructure(f)
     assert(its.getAllTierNames() == ['italianSpeech', 'soundsLike', 'english', 'speaker'])
     assert(its.getGenericTierNameMap() ==
@@ -157,7 +157,7 @@ def test_writeTierGuide():
 
     print("--- test_writeTierGuide")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     yamlFile = "/tmp/tierGuide.yaml"
     its.writeTierGuide(yamlFile)
@@ -174,7 +174,7 @@ def test_getTierGuide():
 
     print("--- test_getTierGuide")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
     its = InferTierStructure(f)
     tg = its.getTierGuide()
     assert(list(tg.keys()) ==
@@ -187,28 +187,31 @@ def test_getTierGuide():
     assert(tg['tier_3'] == "speaker")
 
 #----------------------------------------------------------------------------------------------------
-def test_getTierGuide():
+def test_infernoFailure():
 
-    print("--- test_getTierGuide")
+    print("--- test_infernoFailure")
 
-    f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
-    its = InferTierStructure(f)
+    f = "../testData/validEafYamlFiles/inferno-threeLines-escapedYaml.yaml"
+    its = InferTierStructure(f, verbose=True)
     tg = its.getTierGuide()
-    assert(list(tg.keys()) ==
-           ['speech', 'tier_1', 'analysis_1', 'analysis_2', 'tier_2', 'tier_3'])
+   
+
+    assert(list(tg.keys()) == ['speech', 'analysis_1', 'analysis_2', 'tier_1'])
     assert(tg["speech"] == "italianSpeech")
-    assert(tg['tier_1'] == "soundsLike")
     assert(tg['analysis_1'] == "morphemes")
     assert(tg['analysis_2'] == "morpheme-gloss")
-    assert(tg['tier_2'] == "english")
-    assert(tg['tier_3'] == "speaker")
+    assert(tg['tier_1'] == "english")
+
+    assert(len(its.getAllLines()) == 3)
+    assert(len(its.getTieredLines()) == 3)
+    assert(len(its.getHtmlLines()) == 0)
 
 #----------------------------------------------------------------------------------------------------
 def test_getTierGuide_yamlHasSomeHtmlLines():
 
     print("--- test_getTierGuide_yamlHasSomeHtmlLines")
 
-    f = "../testData/validYamlFiles/inferno-withHtmlLines.yaml"
+    f = "../testData/validEafYamlFiles/inferno-withHtmlLines.yaml"
     its = InferTierStructure(f)
     tg = its.getTierGuide()
     assert(list(tg.keys()) == ['speech', 'analysis_1', 'analysis_2', 'tier_1'])
@@ -225,13 +228,14 @@ def test_getTierGuide_yamlHasSomeHtmlLines():
 def runTests():
 
   test_fileConstructor()
+  test_infernoFailure()
   test_parsedLinesConstructor()
   test_getAllTierNames()
   test_identifyAnalysisTiers()
   test_getSpeechTier()
   test_getGenericTiers()
-  test_getGenericTiers_inProperOrder()
   test_getAnalysisTiers()
+  test_getGenericTiers_inProperOrder()
   test_getTierGuide_yamlHasSomeHtmlLines()
   test_getTierGuide()
   test_writeTierGuide()

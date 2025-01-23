@@ -125,6 +125,7 @@ def test_mediaUrlExtraction():
 
    f = "../explore/aliceTaff/01/01RuthNora230503Slexil.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
    a = parser.getAudioInfo()
    v = parser.getVideoInfo()
 
@@ -390,6 +391,7 @@ def test_checkAgainstTierGuide():
    badTierGuide = "../testData/inferno/tierGuide-broken.yaml"
 
    parser = EafParser(eaf, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
    result = parser.checkAgainstTierGuide(goodTierGuide)
    assert(result == {'valid': True, 'failures': []})
 
@@ -444,6 +446,7 @@ def test_getLineTable():
 
     f = eafFiles[0]
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     assert(parser.getLineCount() == 3)
 
     tbl = parser.getTierTable()
@@ -497,6 +500,7 @@ def test_getLineTable_nataliaYekwana():
 
     f = "../testData/validEafYamlFiles/natalia-yekwana.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     assert(parser.getLineCount() == 40)
 
     tbl = parser.getTierTable()
@@ -694,6 +698,7 @@ def test_getSummary():
 
    f = "../explore/misc/inferno/inferno-threeLines.eaf"
    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
    x =  parser.getSummary()
    keys = list(x)
    keys.sort()
@@ -720,6 +725,7 @@ def test_lineToYAML():
     print("--- test_lineToYAML")
     f = "../testData/validEafYamlFiles/inferno-threeLines.eaf"
     parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
     line = parser.getAllLinesTable()[0]
     x = parser.lineToYAML(line, 1)
     assert(x[0] == '  - lineNumber: 1')
@@ -916,6 +922,8 @@ def test_richTierTable():
    eaf = eafs[5]
    eafFile = "/Users/paul/github/slexil2/testData/validEafYamlFiles/%s" % eaf
    parser = EafParser(eafFile, verbose=False, fixOverlappingTimeSegments=False)
+   parser.run()
+
    #parser.constructRichTierTable()
    (t,t2) = parser.getRichTierTables()
    assert(t.shape == (5, 6))

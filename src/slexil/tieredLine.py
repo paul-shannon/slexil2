@@ -56,7 +56,8 @@ class TieredLine:
     useTooltips = False   
 
     def __init__(self, lineList, lineNumber, tierNumber, tierGuide, grammaticalTerms=[],
-                 useTooltips=False, verbose=False):
+                 useTooltips=False, verbose=True):
+
         self.lineList = lineList
         self.its = InferTierStructure(self.lineList)
         self.lineNumber = lineNumber
@@ -288,7 +289,6 @@ class TieredLine:
        if(isinstance(morphemeGlosses, str)):
            morphemeGlossess = list(morphemeGlosses)
            
-       
        morphemeSpacingStyleString = ""
        if (morphemes):
             # yaml parser annoying converts "yes" to True, "no" to False
@@ -309,6 +309,8 @@ class TieredLine:
                            style=morphemeSpacingStyleString,
                            name=analysisTierNames[0]):
              for morpheme in morphemes:
+                #print("--- trace: %s at %d" % ("tieredLine.py", 314))
+                #pdb.set_trace()
                 with htmlDoc.tag("div", klass="morpheme-cell"):
                     htmlDoc.asis(str(morpheme))
     

@@ -1,0 +1,5 @@
+traceFileName = ""
+traceLineNumber = -1
+print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
+pdb.set_trace()
+   

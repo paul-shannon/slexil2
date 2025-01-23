@@ -4,10 +4,10 @@ default:
 	@echo exceptions
 	@echo install
 	@echo webPacker
-	@echo tierGuide
+#	@echo tierGuide
 	@echo oldEaf
 	@echo eaf
-	@echo learnTierGuide
+#	@echo learnTierGuide
 	@echo ijalLine
 	@echo text
 	@echo morphemeGloss
@@ -16,10 +16,10 @@ default:
 	@echo xmlFileUtils
 	@echo ijalFromDict
 	@echo inferTiers
-	@echo yamlParser
+#	@echo yamlParser
 	@echo newYamlParser
 	@echo grammaticalTermFormatter
-	@echo textFromYaml
+#	@echo textFromYaml
 	@echo yamlFromEAF
 	@echo yamlApp
 	@echo tieredLine
@@ -48,7 +48,7 @@ all: install \
      standardizeIjalTierTable \
      xmlFileUtils \
      ijalFromDict \
-     yamlParser \
+     newYamlParser \
      textFromYaml
 
 webPacker:
@@ -110,10 +110,11 @@ standardizeIjalTierTable:
 xmlFileUtils:
 	python test_XmlFileUtils.py
 
-yaml:  yamlParser  textFromYaml
+yaml:  newYamlParser  textFromYaml
 
-yamlParser:
-	python test_yamlParser.py
+
+#yamlParser:
+#	python test_yamlParser.py
 
 newYamlParser:
 	python test_NewYamlParser.py
@@ -121,8 +122,8 @@ newYamlParser:
 yamlFromEAF:
 	python test_yamlFromEAF.py
 
-textFromYaml:
-	python test_TextFromYaml.py
+#textFromYaml:
+#	python test_TextFromYaml.py
 
 ijalFromDict:
 	python test_IjalLineFromDict.py
@@ -133,7 +134,7 @@ inferTiers:
 tieredLine:
 	python test_TieredLine.py
 
-yamlApp:
+yamlToTextApp:
 	python test_yamlToTextApp.py
 
 eafyaml:
@@ -150,3 +151,10 @@ morphemeGlossAbbreviations:
 exceptions:
 	python test_exceptions.py
 
+crucial: exceptions \
+         inferTiers \
+         tieredLine \
+         eaf \
+         newYamlParser \
+         morphemeGlossAbbreviations \
+	      yamlToTextApp

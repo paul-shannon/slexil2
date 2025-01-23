@@ -185,7 +185,6 @@ class NewYamlParser:
    # presence of html lines in the self.lines list
    def getTieredLineObject(self, lineNumber, tierNumber):
 
-      pdb.set_trace()
       tieredLine = TieredLine(self.lines, lineNumber, tierNumber,
                               self.getTierGuide(),
                               verbose=self.verbose)

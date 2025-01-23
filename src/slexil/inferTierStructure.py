@@ -81,7 +81,24 @@ class InferTierStructure:
          analysisTiers = []
          for tierName in self.allTierNames:
             if tierName in line.keys():
-               text = line[tierName]
+                 # to handle "escaped yaml", where even lists are simple strings,
+                 # this next yaml-parses  each incoming string, to reveal
+                 # it's internal list structure, if present
+               s = line[tierName]
+               #traceFileName = "inferTierStructure.py"
+               #traceLineNumber = 89
+               #print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
+               #print(s)               
+               # pdb.set_trace()
+               if type(s) is str:
+                  text = yaml.safe_load(s)
+               else:  # a list
+                  text = s
+               #print("--- trace: %s at %d" % ("inferTierStructure.py", 85))
+               #print("text: %s" % line[tierName])
+               #print("type: %s" % type(line[tierName]))
+               #pdb.set_trace()
+               #text = yaml.safe_load(line[tierName])
                if type(text) is list:
                   tokenCount = len(text)
                   analysisTiers.append(tierName)

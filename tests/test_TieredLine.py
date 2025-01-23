@@ -47,7 +47,7 @@ def test_ctor():
     tierGuide = its.getTierGuide()
     tl = TieredLine(lines, lineNumber=0, tierNumber=1, tierGuide=tierGuide,
                     grammaticalTerms=mga.getAll(),
-                    useTooltips=False, verbose=True)
+                    useTooltips=False, verbose=False)
     assert(type(tl).__name__ == 'TieredLine')
 
        #-----------------------------------------------------
@@ -74,7 +74,7 @@ def test_infernoFirstLine():
     tierGuide = its.getTierGuide()
     line = TieredLine(lines, lineNumber=0, tierNumber=1,
                       tierGuide=tierGuide, grammaticalTerms=[],
-                      useTooltips=False, verbose=True)
+                      useTooltips=False, verbose=False)
 
     assert(line.getSpeechTierNameMap() == {'speech': 'italianSpeech'})
     assert(line.getGenericTierNameMap() == {'tier_1': 'soundsLike', 'tier_2': 'english', 'tier_3': 'speaker'})
@@ -116,7 +116,7 @@ def test_toHTML_noAnalysisLines():
 
     line = TieredLine(lines, lineNumber=0, tierNumber=1, tierGuide=tierGuide,
                       grammaticalTerms=[],
-                      useTooltips=False, verbose=True)
+                      useTooltips=False, verbose=False)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
@@ -148,7 +148,7 @@ def test_toHTML_withAnalysisLines():
                       tierNumber=1,
                       tierGuide=its.getTierGuide(),
                       grammaticalTerms=mga.getAll(),
-                      useTooltips=False, verbose=True)
+                      useTooltips=False, verbose=False)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
@@ -156,6 +156,9 @@ def test_toHTML_withAnalysisLines():
     expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">mi ritrovai per una selva oscura</span></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morphemes"><div class="morpheme-cell">mi</div><div class="morpheme-cell">ritrov–ai</div><div class="morpheme-cell">per</div><div class="morpheme-cell">una</div><div class="morpheme-cell">selv–a</div><div class="morpheme-cell">oscur–a</div></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morpheme-gloss"><div class="morpheme-cell">I:<span class=\'grammatical-term\'>dat</span></div><div class="morpheme-cell">found–<span class=\'grammatical-term\'>1sg</span>:<span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>rem</span>:<span class=\'grammatical-term\'>past</span></div><div class="morpheme-cell">for</div><div class="morpheme-cell"><span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div><div class="morpheme-cell">forest-<span class=\'grammatical-term\'>fem</span></div><div class="morpheme-cell">dark–<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div></div><div class="tier soundsLike-tier" name="soundsLike">me ritrovie per oona selva oscura</div><div class="tier generic-tier" name="english">I found myself within a forest dark</div><div class="annotationDiv"></div></div>'
     assert(html == expected)
 
+      # check a morpheme:
+    expected = '<div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morphemes"><div class="morpheme-cell">mi</div>'
+    assert(expected in html)
 
 #----------------------------------------------------------------------------------------------------
 def test_toHTML_withAnalysisLines_oneMorphemeOnly():
@@ -172,7 +175,7 @@ def test_toHTML_withAnalysisLines_oneMorphemeOnly():
                       tierNumber=1,
                       tierGuide=its.getTierGuide(),
                       grammaticalTerms=mga.getAll(),
-                      useTooltips=False, verbose=True)
+                      useTooltips=False, verbose=False)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
@@ -186,9 +189,9 @@ def runTests():
 
    test_ctor()
    test_infernoFirstLine()
+   test_toHTML_withAnalysisLines()
    test_toHTML_withAnalysisLines_oneMorphemeOnly()
    test_toHTML_noAnalysisLines()
-   test_toHTML_withAnalysisLines()
    
 #----------------------------------------------------------------------------------------------------
 if __name__ == '__main__':

@@ -38,24 +38,29 @@ class EafParser:
    def __init__(self, xmlFilename, verbose=False, fixOverlappingTimeSegments=False):
 
       self.xmlFilename = xmlFilename
-      self.xmlValid()
       self.verbose = verbose
       self.fixOverlappingTimeSegments = fixOverlappingTimeSegments
 
       if(verbose):
-         print("EafParser etree parse")
-      self.doc = etree.parse(xmlFilename)
-      self.rootTimeAlignedTiers = extractAllTimeAlignedTierIDs(xmlFilename)
+         print("EafParser leaving constructor")
 
-      if(verbose):
+   #----------------------------------------------------------------------------------
+   def run(self):
+
+      if(self.verbose):
+         print("EafParser etree parse")
+      self.doc = etree.parse(self.xmlFilename)
+      self.rootTimeAlignedTiers = extractAllTimeAlignedTierIDs(self.xmlFilename)
+
+      if(self.verbose):
          print("EafParser extracting metadata")
       self.extractMetadata()
 
-      if(verbose):
+      if(self.verbose):
          print("EafParser extracting media info")
       self.extractMediaInfo()
 
-      if(verbose):
+      if(self.verbose):
          print("EafParser count lines")
       self.lineCount = len(self.doc.findall("TIER/ANNOTATION/ALIGNABLE_ANNOTATION"))
 
@@ -63,23 +68,17 @@ class EafParser:
          raise NoTimeAlignedTierLines()
          
 
-      if(verbose):
+      if(self.verbose):
          print("EafParser.run, constructing tier table")
       self.constructTierTable()
       self.constructRichTierTable()
 
-      if(verbose):
+      if(self.verbose):
          print("EafParser.run, constructing time table")
       self.constructTimeTable()
 
       self.findTiersWithTabs()
  
-      if(verbose):
-         print("EafParser leaving constructor")
-
-   #----------------------------------------------------------------------------------
-   def run(self):
-
       if(self.verbose):
          print("EafParser.run, parsing & sorting all lines")
       self.parseAndSortAllLines()
@@ -89,6 +88,7 @@ class EafParser:
       
    #----------------------------------------------------------------------------------
    def xmlValid(self):
+
       assert(len(self.xmlFilename) > 4)
       #baseDir = "/Users/paul/github/slexil2/testData"
       #schemaFile = os.path.join(baseDir, "EAFv3.0.xsd")
@@ -365,7 +365,8 @@ class EafParser:
             kidText = kid.findall(".//ANNOTATION_VALUE")[0].text
             if kidText:
                tabCount += kidText.count("\t")
-         print("---- tier %s: %d/%d" % (tierID, tabCount, len(kids)))
+         if self.verbose:
+             print("---- tier %s: %d/%d" % (tierID, tabCount, len(kids)))
          if(len(kids) > 0):
             if tabCount/len(kids) > 2:
                self.tiersWithTabs.append(tierID)

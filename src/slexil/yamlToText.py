@@ -92,12 +92,12 @@ class YamlToText:
          print("--- textFromYaml.py, ctor")
       self.yamlFile = yamlFile
       self.grammaticalTerms = grammaticalTerms
-      its = InferTierStructure(self.yamlFile)
+      its = InferTierStructure(self.yamlFile, verbose=True)
       self.its = its
       x = yaml.load(open(self.yamlFile), Loader=yaml.FullLoader)
       self.lines = its.getAllLines()
       self.tierGuide = its.getTierGuide()
-
+ 
       if(pageTitle == None):
          self.pageTitle = "slexil2"
          self.displayTitle = None
