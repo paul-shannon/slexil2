@@ -4,6 +4,7 @@ import os, sys
 import xmlschema
 import re
 from slexil.exceptions import *
+from slexil.sfmt import SFMT
 from urllib.parse import urlparse
 #from xml.etree import ElementTree as etree
 from lxml import etree
@@ -228,6 +229,7 @@ class EafParser:
            self.audioMimeType = el.attrib["MIME_TYPE"]
            self.mediaURL = self.audioURL
            self.mediaMimeType = self.audioMimeType
+           break;
         else:
            raise MediaFormatError(mediaExtensions, urlSuffix)
 
@@ -665,6 +667,52 @@ class EafParser:
         
 
    #----------------------------------------------------------------------------------
+   def lineToSFMT(self, tbl, lineNumber):
+
+      rowCount = tbl.shape[0]
+      textOut = []
+      textOut.append("  - lineNumber: %d" % lineNumber)
+      textOut.append("    startTime: %d"  % tbl.loc[0]['startTime'])
+      textOut.append("    endTime: %d"  % tbl.loc[0]['endTime'])
+
+        # first tier (first row) is presumed to be time-aligned, the
+        # spoken text.  quote it, with pipe character, so that characters
+        # (like curly brace, question mark, square bracket), reserved by yaml,
+        # are left uninterpreted.
+        #
+         
+      for row in range(0, rowCount):
+         tierName = tbl.loc[row]['tierID']
+         rawText = tbl.loc[row]['text']
+         if rawText == None:
+            continue
+         rawText = rawText.replace("\n", " ")
+            
+             # an analysis tier has tab-delimited tokens in an array
+             # formatted like these:
+             #  '    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]'
+             #  '    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]'
+         if tierName in self.tiersWithTabs:      # clean them up
+            textArray = re.split(r"\t+", rawText)   # \t+: one or more tabs
+            textArray2 = [s.strip() for s in textArray]
+            text = str(textArray2)
+            text = text.replace("'", "")
+            text = text.replace(" ", "")
+            textOut.append("    %s: %s" % (tierName, text))
+         else:
+            if row == 0:
+               textOut.append("    %s: %s" % (tierName, rawText))
+            else:
+               textOut.append("    %s: %s" % (tierName, rawText))
+            #if row == 0:
+            #   text = '"%s"' % rawText
+            #else:
+            #   text = rawText
+
+      return textOut
+        
+
+   #----------------------------------------------------------------------------------
    def getTimeAlignedTiers(self):
 
       tbl = self.tierTable
@@ -748,6 +796,31 @@ class EafParser:
          f.writelines(s + '\n' for s in textOut)
 
 #----------------------------------------------------------------------------------
+   def toSFMT(self, title, narrator, textEntry):
+
+      textOut = []
+      textOut = self.getYAMLHeader(title, narrator, textEntry)
+      textOut.append("lines:")
+      lineNumber = 1
+      #pdb.set_trace()
+      for tbl in self.getAllLinesTable():
+         newLines = self.lineToSFMT(tbl, lineNumber)
+         #pdb.set_trace()
+         textOut.extend(newLines)
+         textOut.append("")
+         lineNumber += 1
+      return(textOut)
+     
+   #----------------------------------------------------------------------------------
+   def writeSFMT(self, textOut, outputFilename):
+
+      # print("--- writing %d lines to %s" % (len(textOut), outputFilename))
+      #pdb.set_trace()
+      with open(outputFilename, 'w') as f:
+         f.writelines(s + '\n' for s in textOut)
+
+#----------------------------------------------------------------------------------
+
 def extractAllTimeAlignedTierIDs(xmlFilename):
 
    doc = etree.parse(xmlFilename)

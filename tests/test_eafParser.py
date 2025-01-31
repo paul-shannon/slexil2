@@ -4,6 +4,7 @@ import pprint
 import pdb
 import os, sys
 from slexil.eafParser import EafParser
+from slexil.sfmt import SFMT
 import xmlschema
 from xml.etree import ElementTree as etree
 from time import time
@@ -737,6 +738,67 @@ def test_lineToYAML():
     assert(x[6] == '    english: Midway upon the journey of our life')
     
 #---------------------------------------------------------------------------------------------------
+# characters reserved in YAML, not in SFMT {, @, ?, # 
+def test_lineToSFMT():
+
+    print("--- test_lineToSFMT")
+    f = "../testData/validEafYamlFiles/inferno-threeLines.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    line = parser.getAllLinesTable()[0]
+    x = parser.lineToSFMT(line, 1)
+    
+    assert(x[0] == '  - lineNumber: 1')
+    assert(x[1] == '    startTime: 0')
+    assert(x[2] == '    endTime: 2828')
+    assert(x[3] == '    italianSpeech: Nel mezzo del cammin di nostra vita')
+    assert(x[4] == '    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]')
+    assert(x[5] == '    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]')
+    assert(x[6] == '    english: Midway upon the journey of our life')
+    
+#---------------------------------------------------------------------------------------------------
+# characters reserved in YAML, not in SFMT {,},[,], @,?,# 
+def test_toSFMT_tlingitFunnyCharacters():
+    
+    print("--- test_toSFMT_tlingitFunnyCharacters")
+
+    f = "../testData/validEafYamlFiles/4EthelAnita230503Slexil.eaf"
+    parser = EafParser(f, verbose=False, fixOverlappingTimeSegments=False)
+    parser.run()
+    text = parser.toSFMT("Ethel & Anita", "Ethel, Anita, Roberta", "Alice Taff")
+    fOut = "/tmp/4EthelAnita230503Slexil.sfmt"
+    parser.writeSFMT(text, fOut)
+    print("wrote %s" % fOut)
+       #----------------------------------------
+       # now make sure we can read it back in
+       #----------------------------------------
+    sfmt = SFMT(fOut)
+    #sfmt.parse()
+    #sfmt.identifyTierBlocks()
+    assert(sfmt.lastLine == 3037)
+    assert(len(sfmt.htmlLines) == 0)
+    tierCount = sfmt.getTierCount()
+    assert(tierCount == 438)
+
+       # question mark
+    tier = sfmt.getTier(414)
+    assert(repr(tier).find("huh?"))
+
+       # square brackets
+    tier = sfmt.getTier(432)
+    assert(repr(tier).find("[name}"))
+       
+       # curly brackets are legal
+    tier = sfmt.getTier(436)
+    assert(repr(tier).find("{haa}"))
+
+    for i in range(tierCount):
+        tier = sfmt.getTier(i)
+        # print("%d: %s" % (i, repr(tier)))
+    #x = yaml.load(open(fOut), Loader=yaml.CLoader)
+
+#---------------------------------------------------------------------------------------------------
+# characters reserved in YAML, not in SFMT {, @, ?, # 
 def test_lineToYAML_multipleTabsSeparatingTokens():
 
     print("--- test_lineToYAML_multipleTabsSeparatingTokens")
@@ -1103,6 +1165,10 @@ def test_noTimeAlignedTierLines():
 #--------------------------------------------------------------------------------
 def runTests():
 
+   test_lineToSFMT()
+   test_toSFMT_tlingitFunnyCharacters()
+   sys.exit(0)
+   
    test_lineToYAML_multipleTabsSeparatingTokens()
    test_lineToYAML_yesBecomesTrue()
    test_craneCom()

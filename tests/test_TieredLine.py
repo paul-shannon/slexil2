@@ -2,13 +2,14 @@
 import re
 import sys, os
 
+from slexil.sfmt import *
 from slexil.tieredLine import TieredLine
-from slexil.inferTierStructure import InferTierStructure
+#from slexil.inferTierStructure import InferTierStructure
 
 from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 
 import pdb
-import yaml
+#import yaml
 import yattag
 import pandas as pd
 
@@ -40,23 +41,38 @@ def test_ctor():
 
     print("--- test_ctor")
 
-    yamlTextFile = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
-    its = InferTierStructure(yamlTextFile)
-    x = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
-    lines = x['lines']
-    tierGuide = its.getTierGuide()
-    tl = TieredLine(lines, lineNumber=0, tierNumber=1, tierGuide=tierGuide,
+    f  = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
+
+    sfmt = SFMT(f)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 3)
+
+    tierGuide = sfmt.getTierGuide()
+    tl = TieredLine(sfmt, lines, lineNumber=0, tierNumber=1,
+                    tierGuide=tierGuide,
                     grammaticalTerms=mga.getAll(),
                     useTooltips=False, verbose=False)
     assert(type(tl).__name__ == 'TieredLine')
+    tierMap = tl.getTierMap()
+    expected =  {'speech': 'italianSpeech',
+                 'tier_1': 'soundsLike',
+                 'tier_2': 'english',
+                 'tier_3': 'speaker'}
+    assert(tierMap == expected)
+    assert(sfmt.getGenericTierNameMap() == {'tier_1': 'soundsLike',
+                                            'tier_2': 'english',
+                                            'tier_3': 'speaker'})
 
-       #-----------------------------------------------------
-       # be sure that the its held by TieredLine has the same
-       # inferences as the one we created above
-       #-----------------------------------------------------
+    assert(sfmt.getSpeechTierNameMap() == {'speech': 'italianSpeech'})
+    assert(sfmt.getAnalysisTierNameMap() == {})
 
-    its2 = tl.getIts()
-    assert(its2.getTierGuide() == its.getTierGuide())
+    htmlDoc = yattag.Doc()
+    tl.toHTML(htmlDoc)
+    html = htmlDoc.getvalue()
+    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div><div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
+    assert(html == expected)
+
+    pdb.set_trace()
 
 #----------------------------------------------------------------------------------------------------
 def test_infernoFirstLine():
@@ -188,6 +204,8 @@ def test_toHTML_withAnalysisLines_oneMorphemeOnly():
 def runTests():
 
    test_ctor()
+   sys.exit(0)
+   
    test_infernoFirstLine()
    test_toHTML_withAnalysisLines()
    test_toHTML_withAnalysisLines_oneMorphemeOnly()

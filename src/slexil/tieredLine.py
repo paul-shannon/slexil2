@@ -26,9 +26,10 @@ pd.set_option('display.max_columns', None)
 from xml.etree import ElementTree as etree
 from pprint import pprint
 from yattag import *
+# import yaml
 import pdb
 import formatting
-from slexil.inferTierStructure import InferTierStructure
+from slexil.inferTierStructureFromSFMT import InferTierStructure
 from slexil.grammaticalTermFormatter import GrammaticalTermFormatter
 
 
@@ -43,7 +44,8 @@ class TieredLine:
     rootID = None
     tierElements = []
     doc = None
-    its = None    # short for InferTierStructure class
+    tierGuide = None
+    sfmt = None
     lineNumber = None  # identifies the line in lineList, which may include html lines
     tierNumber = None  # counts only tieredLines, ignore html lines.
     lineList = []
@@ -55,22 +57,20 @@ class TieredLine:
     morphemeSpacing = None
     useTooltips = False   
 
-    def __init__(self, lineList, lineNumber, tierNumber, tierGuide, grammaticalTerms=[],
+    def __init__(self, sfmt, lineList, lineNumber, tierNumber, tierGuide, grammaticalTerms=[],
                  useTooltips=False, verbose=True):
 
         self.lineList = lineList
-        self.its = InferTierStructure(self.lineList)
+   
         self.lineNumber = lineNumber
         self.tierNumber = tierNumber
         self.line = lineList[lineNumber]
-        # self.id = str(self.line["id"])
+        self.id = tierNumber
         self.tierGuide = tierGuide
+        self.sfmt = sfmt
         self.grammaticalTerms = grammaticalTerms
         self.useTooltips = useTooltips
         self.verbose = verbose
-
-    def getIts(self):   # more convenient name
-        return(self.its)
 
     def getTierGuide(self):
        return(self.tierGuide)
@@ -108,11 +108,11 @@ class TieredLine:
        return(self.line["endTime"])
 
     def getAnalysisTierNames(self):
-       map = self.its.getAnalysisTierNameMap()
+       map = self.getTierMap()
        return(list(map.keys()))
 
     def getGenericTierNames(self):
-       return(self.its.getGenericTierNames())
+       return list(self.sfmt.getGenericTierMap().keys())
 
     def getAnnotationID(self):
         return(self.lineNumber)
@@ -122,13 +122,13 @@ class TieredLine:
       #----------------------------------------------------------------------
 
     def getSpeechTierNameMap(self):
-       return(self.its.getSpeechTierNameMap())
+       return(self.sfmt.getSpeechTierNameMap())
 
     def getGenericTierNameMap(self):
-       return(self.its.getGenericTierNameMap())
+       return(self.sfmt.getGenericTierNameMap())
 
     def getAnalysisTierNameMap(self):
-       return(self.its.getAnalysisTierNameMap())
+       return(self.sfmt.getAnalysisTierNameMap())
 
     # ----------------------------------------------------------------------------------------------------
     def show(self):
@@ -228,13 +228,13 @@ class TieredLine:
     # ----------------------------------------------------------------------------------------------------
     def toHTML(self, htmlDoc):
 
-        gMap = self.getGenericTierNameMap()
-        aMap = self.getAnalysisTierNameMap()
+        gMap = self.sfmt.getGenericTierNameMap()
+        aMap = self.sfmt.getAnalysisTierNameMap()
         tierGuide = self.getTierGuide()
 
            # the first tier is assumed to be the speech tier
         userTierName = tierGuide['speech']
-        
+
         with htmlDoc.tag("div", klass="line-content", id=self.tierNumber):
             with htmlDoc.tag("div", klass="line"):
                 with htmlDoc.tag("span", klass="tier speech-tier", name=userTierName):
@@ -278,7 +278,12 @@ class TieredLine:
        analysisTierNames = list(analysisTierNameMap.values())
 
        morphemes = self.line[analysisTierNames[0]]
+          # in escaped yaml, a list comes in as a string
+       #if type(morphemes) is str:
+       #    morphemes = yaml.safe_load(morphemes)
        morphemeGlosses = self.line[analysisTierNames[1]]
+       #if type(morphemeGlosses) is str:
+       #    morphemeGlosses = yaml.safe_load(morphemeGlosses)
           # yaml (annonyingly!) converts "0" and "false" to False, "1" and "true" to True
           # undo that possible change here, by forcing all values to be strings
        morphemes = [str(e) for e in morphemes]
@@ -288,13 +293,11 @@ class TieredLine:
            morphemes = list(morphemes)
        if(isinstance(morphemeGlosses, str)):
            morphemeGlossess = list(morphemeGlosses)
-           
+       
        morphemeSpacingStyleString = ""
        if (morphemes):
             # yaml parser annoying converts "yes" to True, "no" to False
             # fix that here
-          #print("--- trace, tieredLine.py, line 292, calculateMorphemeSpaceing")
-          #pdb.set_trace()
           for m in range(len(morphemes)):
               if isinstance(morphemes[m], bool):
                   if morphemes[m] == True:
@@ -309,8 +312,6 @@ class TieredLine:
                            style=morphemeSpacingStyleString,
                            name=analysisTierNames[0]):
              for morpheme in morphemes:
-                #print("--- trace: %s at %d" % ("tieredLine.py", 314))
-                #pdb.set_trace()
                 with htmlDoc.tag("div", klass="morpheme-cell"):
                     htmlDoc.asis(str(morpheme))
     

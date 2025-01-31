@@ -16,6 +16,7 @@ default:
 	@echo xmlFileUtils
 	@echo ijalFromDict
 	@echo inferTiers
+	@echo inferTiersSFMT
 #	@echo yamlParser
 	@echo newYamlParser
 	@echo grammaticalTermFormatter
@@ -80,9 +81,6 @@ morphemeGloss:
 listTiers:
 	python -m unittest test_listTiers.py
 
-#	python -m unittest test_infernoDemo.py
-#	python -m unittest test_infernoDemo_toHTML.py
-
 install:
 	(cd ..; make install)
 
@@ -128,6 +126,12 @@ yamlFromEAF:
 ijalFromDict:
 	python test_IjalLineFromDict.py
 
+inferTiersSFMT:
+	python test_inferTierStructureFromSFMT.py
+
+sfmtToWebPage:
+	python test_sfmtToWebPage.py
+
 inferTiers:
 	python test_inferTierStructure.py
 
@@ -151,10 +155,16 @@ morphemeGlossAbbreviations:
 exceptions:
 	python test_exceptions.py
 
+sfmt:
+	python test_SFMT.py
+
+sfmtToText:
+	python test_sfmtToText.py
+
+
 crucial: exceptions \
-         inferTiers \
+         sfmt \
          tieredLine \
          eaf \
-         newYamlParser \
          morphemeGlossAbbreviations \
-	      yamlToTextApp
+		   sfmtToWebPage

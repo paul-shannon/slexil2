@@ -1,57 +1,115 @@
 import argparse
 import os, sys
 import unittest
-from slexil.yamlToText import YamlToText
+from slexil.sfmtToWebPage import sfmtToWebPage
 from slexil.tieredLine import TieredLine
-import yattag  # only for indent method
+from pathlib import Path
 import pdb
 import re
-import yaml
 import yattag
 from yattag import Doc
 #--------------------------------------------------------------------------------
 from slexil.morphemeGlossAbbreviations import MorphemeGlossAbbreviations
 mga = MorphemeGlossAbbreviations()
 #--------------------------------------------------------------------------------
+def test_infernoOneLine():
+
+   print("--- test_infernoOneLine")
+
+   f = "../testData/validEafYamlFiles/inferno-1-line.yaml"
+
+   page = sfmtToWebPage(f,
+                        grammaticalTerms = mga.getAll(),
+                        projectDirectory="inferno",
+                        verbose = False,
+                        fontSizeControls = True,
+                        startLine = None,
+                        endLine = None,
+                        pageTitle = "inferno from test_sfmtToWebPage.py",
+                        helpFilename = None,
+                        helpButtonLabel = None,
+                        kbFilename = None,
+                        linguisticsFilename = None,
+                        fixOverlappingTimeSegments = False,
+                        webpackLinksOnly=False,
+                        useTooltips=False)
+
+
+   htmlText = page.toHTML()
+
+   filename = "%s.html" % Path(f).stem
+
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   f.close()
+
+   print("    wrote %s" % f.name)
+
+#--------------------------------------------------------------------------------
 def test_infernoSimple():
 
    print("--- test_infernoSimple")
 
-   #f = "../testData/validYamlFiles/inferno-heterogeneousTiers.yaml"
-   #f = "../testData/validYamlFiles/inferno-noAnalysisTiers.yaml"
-   #f = "../testData/validYamlFiles/inferno-1-line.yaml"
-   #f = "../testData/validYamlFiles/inferno-2-lines.yaml"
-   #f = "../testData/validEafYamlFiles/inferno-mixedDemo.yaml"
-   f = "../testData/validEafYamlFiles/inferno-withHtmlLines.yaml"
    f = "../testData/validEafYamlFiles/inferno-mixedCaseMorphemes.yaml"
 
-   text = YamlToText(f, grammaticalTerms = mga.getAll(),
-                     projectDirectory="inferno",
-                     verbose = False,
-                     fontSizeControls = True,
-                     startLine = None,
-                     endLine = None,
-                     pageTitle = "inferno with markup",
-                     helpFilename = None,
-                     helpButtonLabel = None,
-                     kbFilename = None,
-                     linguisticsFilename = None,
-                     fixOverlappingTimeSegments = False,
-                     webpackLinksOnly=False,
-                     useTooltips=False)
+   page = sfmtToWebPage(f,
+                        grammaticalTerms = mga.getAll(),
+                        projectDirectory="inferno",
+                        verbose = False,
+                        fontSizeControls = True,
+                        startLine = None,
+                        endLine = None,
+                        pageTitle = "inferno from test_sfmtToWebPage.py",
+                        helpFilename = None,
+                        helpButtonLabel = None,
+                        kbFilename = None,
+                        linguisticsFilename = None,
+                        fixOverlappingTimeSegments = False,
+                        webpackLinksOnly=False,
+                        useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
-   #htmlText_indented = yattag.indent(htmlText)
+   htmlText = page.toHTML()
 
-   # 3 lines of speech, one jquery pattern
+   filename = "%s.html" % Path(f).stem
 
-   filename = "inferno.html"
    f = open(filename, "wb")
    f.write(bytes(htmlText, "utf-8"))
-   #f.write(bytes(htmlText_indented, "utf-8"))
    f.close()
+
+   print("    wrote %s" % f.name)
+
+#--------------------------------------------------------------------------------
+def test_infernoWithHtml():
+
+   print("--- test_infernoWithHtml")
+
+   f = "../testData/validEafYamlFiles/inferno-withHtmlLines.yaml"
+
+   page = sfmtToWebPage(f,
+                        grammaticalTerms = mga.getAll(),
+                        projectDirectory="inferno",
+                        verbose = False,
+                        fontSizeControls = True,
+                        startLine = None,
+                        endLine = None,
+                        pageTitle = "inferno from test_sfmtToWebPage.py",
+                        helpFilename = None,
+                        helpButtonLabel = None,
+                        kbFilename = None,
+                        linguisticsFilename = None,
+                        fixOverlappingTimeSegments = False,
+                        webpackLinksOnly=False,
+                        useTooltips=False)
+
+
+   htmlText = page.toHTML()
+
+   filename = "%s.html" % Path(f).stem
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   f.close()
+
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
@@ -69,7 +127,8 @@ def test_inferno_withEscapedYaml():
 
    f = "../testData/validEafYamlFiles/inferno-threeLines-escapedYaml.yaml"
 
-   text = YamlToText(f, grammaticalTerms = mga.getAll(),
+   page = sfmtToWebPage(f,
+                        grammaticalTerms = mga.getAll(),
                      projectDirectory="inferno",
                      verbose = False,
                      fontSizeControls = True,
@@ -85,8 +144,8 @@ def test_inferno_withEscapedYaml():
                      useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
+   # print(page.getTierSummary())
+   htmlText = page.toHTML()
    #htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
@@ -111,7 +170,7 @@ def test_harryMosesDaylight():
    #   count = len(grammaticalTerms)
    #   if grammaticalTerms[count-1] == "":
    #      grammaticalTerms.pop()
-   text = YamlToText(f,
+   page = sfmtToWebPage(f,
                      grammaticalTerms = mga.getAll(),
                      projectDirectory="tmp",
                      verbose = False,
@@ -128,8 +187,8 @@ def test_harryMosesDaylight():
                      useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
+   # print(page.getTierSummary())
+   htmlText = page.toHTML()
    #htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
@@ -142,13 +201,13 @@ def test_harryMosesDaylight():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
-def test_harryMosesDaylight_full():
+def test_harryMosesDaylight_bug():
 
-   print("--- test_harryMosesDaylight_full")
+   print("--- test_harryMosesDaylight_bug")
 
    f = "/Users/paul/github/slexil2/testData/validEafYamlFiles/daylight-bug.yaml"
 
-   text = YamlToText(f,
+   page = sfmtToWebPage(f,
                      grammaticalTerms = mga.getAll(),
                      projectDirectory="tmp",
                      verbose = False,
@@ -165,8 +224,8 @@ def test_harryMosesDaylight_full():
                      useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
+   # print(page.getTierSummary())
+   htmlText = page.toHTML()
    #htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
@@ -186,25 +245,25 @@ def test_lushootseedGrammar():
    f = "../explore/lushootseed/grammars/test.yaml"
    grammaticalTerms = []   
 
-   text = YamlToText(f,
-                     grammaticalTerms=[],
-                     projectDirectory="tmp",
-                     verbose = False,
-                     fontSizeControls = True,
-                     startLine = None,
-                     endLine = None,
-                     pageTitle = "Lushootseed Grammar I",
-                     helpFilename = None,
-                     helpButtonLabel = None,
-                     kbFilename = None,
-                     linguisticsFilename = None,
-                     fixOverlappingTimeSegments = False,
-                     webpackLinksOnly=False,
-                     useTooltips=False)
+   page = sfmtToWebPage(f,
+                        grammaticalTerms = mga.getAll(),
+                        projectDirectory="tmp",
+                        verbose = False,
+                        fontSizeControls = True,
+                        startLine = None,
+                        endLine = None,
+                        pageTitle = "Lushootseed Grammar I",
+                        helpFilename = None,
+                        helpButtonLabel = None,
+                        kbFilename = None,
+                        linguisticsFilename = None,
+                        fixOverlappingTimeSegments = False,
+                        webpackLinksOnly=False,
+                        useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
+   # print(page.getTierSummary())
+   htmlText = page.toHTML()
    #htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
@@ -225,7 +284,8 @@ def test_tlingitVideoVanRescue():
 
    gtf = None
 
-   text = YamlToText(f, grammaticalTerms=[],
+   page = sfmtToWebPage(f,
+                     grammaticalTerms=mga.getAll(),
                      projectDirectory="tmp",
                      verbose = False,
                      fontSizeControls = True,
@@ -241,8 +301,8 @@ def test_tlingitVideoVanRescue():
                      useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
+   # print(page.getTierSummary())
+   htmlText = page.toHTML()
    #htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
@@ -262,7 +322,8 @@ def test_TrueForYesYamlParsing():
    f = "../testData/validEafYamlFiles/jitz-tiny-with-yes.yaml"
    gtf = None
 
-   text = YamlToText(f, grammaticalTerms=[],
+   page = sfmtToWebPage(f,
+                        grammaticalTerms=mga.getAll(),
                      projectDirectory="tmp",
                      verbose = False,
                      fontSizeControls = True,
@@ -278,9 +339,9 @@ def test_TrueForYesYamlParsing():
                      useTooltips=False)
 
 
-   htmlText = text.toHTML()
+   htmlText = page.toHTML()
 
-   assert(htmlText.find("yes") > 0)
+   assert(htmlPage.find("yes") > 0)
    filename = "jitz-tiney.html"
    f = open(filename, "wb")
    f.write(bytes(htmlText, "utf-8"))
@@ -294,7 +355,8 @@ def test_aliceFromEaf():
 
    f = "dontWearRed.yaml"
 
-   text = YamlToText(f, grammaticalTerms=[],
+   page = sfmtToWebPage(f,
+                     grammaticalTerms=mga.getAll(),
                      projectDirectory="tmp",
                      verbose = False,
                      fontSizeControls = True,
@@ -310,8 +372,8 @@ def test_aliceFromEaf():
                      useTooltips=False)
 
 
-   # print(text.getTierSummary())
-   htmlText = text.toHTML()
+   # print(page.getTierSummary())
+   htmlText = page.toHTML()
    #htmlText_indented = yattag.indent(htmlText)
 
    # 3 lines of speech, one jquery pattern
@@ -326,12 +388,12 @@ def test_aliceFromEaf():
 #--------------------------------------------------------------------------------
 def test_marthaLamontOwl():
 
-   print("--- test_marthaLamontOwn")
+   print("--- test_marthaLamontOwl")
 
    f = "../testData/validEafYamlFiles/owlLivesThere.yaml"
 
 
-   text = YamlToText(f,
+   page = sfmtToWebPage(f,
                      grammaticalTerms=mga.getAll(),
                      projectDirectory="tmp",
                      verbose = False,
@@ -348,7 +410,7 @@ def test_marthaLamontOwl():
                      useTooltips=False)
 
 
-   htmlText = text.toHTML()
+   htmlText = page.toHTML()
 
    filename = "owlLivesThere.html"
    f = open(filename, "wb")
@@ -364,7 +426,8 @@ def test_findYattagOffendingLine():
 
    print("--- test_findYattagOffendingLine")
    f = "../testData/validEafYamlFiles/30-01-03cLlorona-MM.yaml"
-   text = YamlToText(f, grammaticalTerms = None,
+   page = sfmtToWebPage(f,
+                     grammaticalTerms = [],
                      projectDirectory="/tmp",
                      verbose = False,
                      fontSizeControls = True,
@@ -378,15 +441,15 @@ def test_findYattagOffendingLine():
                      fixOverlappingTimeSegments = False,
                      webpackLinksOnly=False,
                      useTooltips=False)
-   lines = text.lines
+   lines = page.lines
 
    htmlDoc = Doc()
-   print(" lines from yaml: %d" % len(text.lines))
+   print(" lines from yaml: %d" % len(page.lines))
    
-   for i in range(len(text.lines)):
+   for i in range(len(page.lines)):
       print(" toHTML on line %d" % i, flush=True)
-      tieredLine = TieredLine(text.lines, i, i+1,
-                              text.tierGuide,
+      tieredLine = TieredLine(page.lines, i, i+1,
+                              page.tierGuide,
                               grammaticalTerms=None,
                               useTooltips=False,
                               verbose=True)
@@ -405,15 +468,18 @@ def test_findYattagOffendingLine():
 #--------------------------------------------------------------------------------
 def runTests():
 
-   test_TrueForYesYamlParsing()
-   test_harryMosesDaylight_full()
+   test_infernoOneLine()
+   test_infernoSimple()
+   test_marthaLamontOwl()
+   test_infernoWithHtml()
+   test_lushootseedGrammar()
+
+   test_harryMosesDaylight_bug()
    test_marthaLamontOwl()
 
-   test_infernoSimple()
    test_inferno_withEscapedYaml()
    test_harryMosesDaylight()
    test_tlingitVideoVanRescue()
-   test_lushootseedGrammar()
    test_aliceFromEaf()
 
 #--------------------------------------------------------------------------------

@@ -11,7 +11,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "3.0.5"
+appVersion = "3.0.7"
 versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -19,6 +19,7 @@ styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
 app = flask.Flask(__name__)
 dashApp = Dash(__name__, server=app, url_base_pathname='/',
                external_stylesheets=styleSheets)
+dashApp.config.suppress_callback_exceptions=True
 dashApp.title = "Slexil 3"
 
 PROJECTS_DIR = "PROJECTS"
@@ -169,7 +170,7 @@ modalLoadSpinnerWatcher = dcc.Loading(id="modalLoadWatcher",
                                       type="default",
                                       children=[modalDiv])
 #-------------------------------------------------------
-def createDropdownMenu():
+def createAboutDropdownMenu():
 
    dropdown = dbc.DropdownMenu(
       label="About",
@@ -189,6 +190,28 @@ def createDropdownMenu():
          dbc.DropdownMenuItem("Examine State",
                               id="examineStateButton",
                               class_name="menuItemClass"),
+         ])
+
+   return dropdown
+
+#--------------------------------------------------------------------------------
+def createFaqDropdownMenu():
+
+   dropdown = dbc.DropdownMenu(
+      label="FAQ",
+      id="faqDropdownMenu",
+      align_end=True,
+      size="sm",
+      children=[
+         dbc.DropdownMenuItem("YAML Format",
+                              id="yamlFormatExplainedButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("EAF Format",
+                              id="eafFormatExplainedButton",
+                              class_name="menuItemClass"),
+         dbc.DropdownMenuItem("Video & Audio Playback Problems",
+                              id="videoAndAudioProblemsExplainedButton",
+                              class_name="menuItemClass")
          ])
 
    return dropdown
@@ -252,12 +275,13 @@ globals = dcc.Store(id="globals",
 dashApp.layout = html.Div(id="mainDiv",
                           children=[globals,
                                     html.Div(id="bannerDiv", 
-                                             children=createDropdownMenu()),
+                                             children=[
+                                               createAboutDropdownMenu(),
+                                               createFaqDropdownMenu()]),
                                     loadTrackerDiv],
-                                    #modalLoadSpinnerWatcher],
                             style={"margin": "5px"})
 #----------------------------------------------------------------------
-# navbar button displays state in a modal dialog
+# About->State dropdown menu button displays state in a modal dialog
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),
     Output('modalTitle', 'children', allow_duplicate=True),
@@ -313,6 +337,139 @@ def explainMorphemeGlossFormat(n_clicks, data):
     el = html.Div(children=["Nothing yet ready on this topic."])
     return True, "Glossing Abbreviations", el
 #--------------------------------------------------------------------------------
+# FAQ-YAML dropdown menu button explains the basics
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
+    Input('yamlFormatExplainedButton', 'n_clicks'),
+    State('globals', 'data'),
+    prevent_initial_call=True
+    )
+def explainYAML(n_clicks, globals):
+
+    dialogBoxOpen = True
+    dialogBoxTitle = "YAML: 'Yet Another Markup Language'"
+    intro0 = "YAML is a human-readable, easily typed format for interlinear text transcription and annotation."
+    intro1 = "The small example shown below, taken from a public domain recitation of Dante's Inferno, is a useful introduction."
+    intro2 = "Copy and paste this into your favorite text editor, save as 'inferno.yaml' as plain text - not as a Word doc - and feed it into slexil."    
+
+    dialogBoxChildren = html.Div(id="yamlExplainedDialogBoxDiv",
+                                 children=[
+                                   html.P(intro0),
+                                   html.P(intro1),
+                                   html.P(intro2),
+                                 html.Pre("""
+title: Dante's Inferno
+narrator: Roberto Benigni
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
+mimeType: audio/x-wav
+
+lines:
+
+  - html: "<div style='margin:20px; color:red;'><h6>Roberto Benigni recites Dante's Inferno:</h6></div>"
+
+  - startTime: 0
+    endTime: 2828
+    italianSpeech: Nel mezzo del cammin di nostra vita
+    morphemes: [en=il,mezz–o,de=il,cammin–Ø,di,nostr–a,vit–a]
+    morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
+    english: Midway upon the journey of our life
+
+  
+  - startTime: 3095
+    endTime: 5500
+    italianSpeech: mi ritrovai per una selva oscura
+    morphemes: [mi,ritrov–ai,per,una,selv–a,oscur–a]
+    morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
+    english: I found myself within a forest dark
+
+  - startTime: 5624
+    endTime: 8033
+    italianSpeech: ché la diritta via era smarrita.
+    morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
+    morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
+    english: For the straightforward pathway had been lost.
+""")])
+
+    return(dialogBoxOpen, dialogBoxTitle, dialogBoxChildren)
+    
+#--------------------------------------------------------------------------------
+# FAQ->EAF dropdown menu button explains the basics
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
+    Input('eafFormatExplainedButton', 'n_clicks'),
+    State('globals', 'data'),
+    prevent_initial_call=True
+    )
+
+def explainEAF(n_clicks, globals):
+    dialogBoxOpen = True
+    dialogBoxTitle = "EAF: 'The ELAN Annotation Format'"
+    intro0 = " is the standard linguistics software tool for transcribing and annotating audio and video speech recordings."
+    intro1 = "It is provided for free download: "
+
+    dialogBoxChildren = html.Div(id="yamlExplainedDialogBoxDiv",
+                                 children=[
+                                   html.A("ELAN", href='https://en.wikipedia.org/wiki/ELAN_software', target="_blank"),
+                                   html.Span(intro0),
+                                   html.P(),
+                                   html.Span(intro1),
+                                   html.A("here", href="https://archive.mpi.nl/tla/elan/download", target="_blank"),
+                                   html.P(),
+                                   html.Button("Download small example EAF file", id="downloadSmallEafButton",
+                                               style=buttonStyle),
+                                   dcc.Download(id="download-sample-eaf")
+                                   ])
+    return(dialogBoxOpen, dialogBoxTitle, dialogBoxChildren)
+    
+#--------------------------------------------------------------------------------
+# FAQ->Audio/Video Problemes
+@callback(
+    Output('slexilModal', 'is_open', allow_duplicate=True),
+    Output('modalTitle', 'children', allow_duplicate=True),
+    Output('modalBody', 'children', allow_duplicate=True),
+    Input('videoAndAudioProblemsExplainedButton', 'n_clicks'),
+    prevent_initial_call=True
+    )
+
+def explainEAF(n_clicks):
+    dialogBoxOpen = True
+    dialogBoxTitle = "Some Video/Audio Playback Problems"
+    intro0 = "We regularly see that in the Firefox browser, .MOV video files play without audio."
+    intro1 = "Some remedies we find useful:"
+    remedy1 = "Use another browser, perhaps Chrome or Safari."
+    remedy2 = "Or write your video into another format, like .mp4."
+
+    dialogBoxChildren = html.Div(id="videoProblemsDiv",
+                                 children=[
+                                   html.P(intro0),
+                                   html.P(),
+                                   html.Ul(children=[html.Li(remedy1),
+                                                     html.Li(remedy2)])
+                                   ])
+    return(dialogBoxOpen, dialogBoxTitle, dialogBoxChildren)
+    
+#--------------------------------------------------------------------------------
+
+@dashApp.callback(
+    Output("download-sample-eaf", "data"),
+    Input("downloadSmallEafButton", "n_clicks"),
+    prevent_initial_call=True,
+    )
+def downloadHtml(n_clicks):
+    print("--- 23a downloadHtml")
+    
+    filename = os.path.join(PROJECTS_DIRECTORY,
+                            "SLEXIL_DEMO_FILES",
+                            "inferno.eaf")
+    return dcc.send_file(filename)
+
+
+
 # dialog header "Continue..." button closes the dialog
 @callback(
     Output('slexilModal', 'is_open', allow_duplicate=True),

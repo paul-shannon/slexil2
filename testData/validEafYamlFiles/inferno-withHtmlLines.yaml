@@ -1,12 +1,11 @@
 title: Dante's Inferno
-narrator: Roberto Benigni
+speakers: Roberto Benigni
 textEntry: Paul Shannon
 mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
-mimeType: audio/x-wav
-
 
 lines:
-  - html:  <h3> Read by Roberto Begnini</h3>taken from youtube
+
+  - html:  "<h3> Read by Roberto Begnini</h3>"
 
   - html: taken from youtube
 
@@ -25,8 +24,9 @@ lines:
     english: I found myself within a forest dark
 
   - html: "<div style='margin: 30px'><h6> another line</h6></div>"
+
   - html: "<div style='margin: 30px'><h6> another line</h6></div>"
-  - html: "<div style='margin: 30px'><h6> another line</h6></div>"
+
   - html: "<div style='margin: 30px'><h6> another line</h6></div>"
 
   - startTime: 5624
@@ -35,3 +35,14 @@ lines:
     morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
     morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
     english: For the straightforward pathway had been lost.
+
+  - html: "<div style='margin: 30px'><h6> a multi-line html element</h6>
+           <ul>
+             <li> item one
+             <li> item two
+             <li> item three
+           </ul>
+           </div>
+           "
+
+

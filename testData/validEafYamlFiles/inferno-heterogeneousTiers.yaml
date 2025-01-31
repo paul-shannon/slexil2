@@ -5,8 +5,7 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
 mimeType: audio/x-wav
 
 lines:
-  - lineNumber: 1
-    startTime: 0
+  - startTime: 0
     endTime: 2828
     italianSpeech: Nel mezzo del cammin di nostra vita
     soundsLike: nell metzo del kuh-mean dee nostruh veeta
@@ -14,8 +13,7 @@ lines:
     morpheme-gloss: [in=DEF:MASC:SG,middle-MASC:SG,of=DEF:MASC:SG,journey–MASC:SG,of,our-FEM:SG,life-FEM]
     english: Midway upon the journey of our life
 
-  - lineNumber: 2
-    startTime: 3095
+  - startTime: 3095
     endTime: 5500
     italianSpeech: mi ritrovai per una selva oscura
     soundsLike: me ritrovie per oona selva oscura
@@ -23,12 +21,10 @@ lines:
     morpheme-gloss: [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
     english: I found myself within a forest dark
 
-  - lineNumber: 3
-    startTime: 5624
+  - startTime: 5624
     endTime: 8033
     italianSpeech: ché la diritta via era smarrita.
     morphemes: [ché,la,diritt–a,vi–a,era,smarr–it–a]
     morpheme-gloss: [that,def:FEM:SG,straight-FEM:SG,path-FEM,be:3SG:IMPF,lose–PARTIC–FEM:SG]
     english: For the straightforward pathway had been lost.
     speaker: Roberto Benigni
-

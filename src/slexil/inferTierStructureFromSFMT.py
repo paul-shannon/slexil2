@@ -4,12 +4,13 @@ import yaml
 # import pandas as pd
 import os
 import pdb
+from slexil.sfmt import SFMT
 #-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
 class InferTierStructure:
 
-   xmlFilename = ''
+   filename = ''
    parser = None
    doc = None
    tiersList = []
@@ -18,22 +19,23 @@ class InferTierStructure:
    allAnalysisTierNames = []
 
    #------------------------------------------------------------
-   def __init__(self, yamlFilenameOrParsedLines, verbose=False):
+   def __init__(self, parsedLines, verbose=False):
 
-      if(not isinstance(yamlFilenameOrParsedLines, list)):
-         assert(os.path.isfile(yamlFilenameOrParsedLines))
-         x = yaml.load(open(yamlFilenameOrParsedLines), Loader=yaml.FullLoader)
-         self.lines = x['lines']
-      elif((isinstance(yamlFilenameOrParsedLines, list) and
-            isinstance(yamlFilenameOrParsedLines[0], dict))):
-         self.lines = yamlFilenameOrParsedLines
-      else:
-         msg = "inferTierStructure requires a yaml file name or a list of slexil lines"
-         raise Exception(msg)
+      print("-- inferTierStructureFromSFMT: %s" % sfmtFilename)
+
+      assert(os.path.isfile(sfmtFilename))
+      sfmt = SFMT(sfmtFilename)
+      sfmt.parse()
+      self.lines = sfmt.lines
+
+      traceFileName = "inferTierStructureFromSFMT.py"
+      traceLineNumber = 30
+      print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
+
       self.nonTierFields = ["lineType", "startTime", "endTime", "lineNumber", "number"]
 
-      self.tieredLines = []
-      self.htmlLines = []
+      self.tieredLines = sfmt.getTiers()
+      self.htmlLines = sfmt.htmlLines
 
          #--------------------------------------------------
          # seed allTierNames, first, from the line with
@@ -45,21 +47,35 @@ class InferTierStructure:
          # in a later line.
          #--------------------------------------------------
       self.allTierNames = []
-      maxFieldsInOneLine = max([len(line.keys()) for line in self.lines])
-      longestLine = [line for line in self.lines if len(line.keys()) == maxFieldsInOneLine]
-      allTierNames = list(longestLine[0].keys())
-      self.allTierNames = [el for el in allTierNames if el not in self.nonTierFields]
+      maxFieldsInOneLine = max([len(line.keys()) for line in self.tieredLines])
+      #maxFieldsInOneLine = max([len(line.keys()) for line in self.lines])
+      longestLines = [line for line in self.tieredLines if len(line.keys()) == maxFieldsInOneLine]
+      #longestLines = [line for line in self.lines if len(line.keys()) == maxFieldsInOneLine]
+      allTierNames = list(longestLines[0].keys())
+      if(len(longestLines) > 1):
+         for longLine in longestLines[2:]:
+            newKeys = list(longLine.keys())
+            uniqueKeys = [k for k in newKeys if not k in allTierNames]
+            allTierNames.extend(uniqueKeys)
       
-      for i in range(len(self.lines)):
-         line = self.lines[i]
-         if list(line.keys())[0] == "html":
-            self.htmlLines.append(line)
-         else:
-            self.tieredLines.append(line)
-            fields = list(line.keys())
-            candidates = [el for el in fields if el not in self.nonTierFields]
-            newTierNames = [el for el in candidates if el not in self.allTierNames]
-            self.allTierNames.extend(newTierNames)
+      #traceFileName = "inferTierStructureFromSFMT.py"
+      #traceLineNumber = 60
+      #print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
+      #pdb.set_trace()
+
+      self.allTierNames = [el for el in allTierNames if el not in self.nonTierFields]
+
+      #for i in range(len(self.lines)):
+      #   line = self.lines[i]
+      #   print(line)
+      #   if list(line.keys())[0] == "html":
+      #      self.htmlLines.append(line)
+      #   else:
+      #      self.tieredLines.append(line)
+      #      fields = list(line.keys())
+      #      candidates = [el for el in fields if el not in self.nonTierFields]
+      #      newTierNames = [el for el in candidates if el not in self.allTierNames]
+      #      self.allTierNames.extend(newTierNames)
 
       self.identifyAnalysisTiers()
       self.identifyGenericTierNames()
@@ -81,27 +97,13 @@ class InferTierStructure:
          analysisTiers = []
          for tierName in self.allTierNames:
             if tierName in line.keys():
-                 # to handle "escaped yaml", where even lists are simple strings,
-                 # this next yaml-parses  each incoming string, to reveal
+                 # to handle "escaped sfmt", where even lists are simple strings,
+                 # this next sfmt-parses  each incoming string, to reveal
                  # it's internal list structure, if present
                s = line[tierName]
-               #traceFileName = "inferTierStructure.py"
-               #traceLineNumber = 89
-               #print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
-               #print(s)               
-               # pdb.set_trace()
-               if type(s) is str:
-                  s = yamlSanitize(s)
-                  text = yaml.safe_load(s)
-               else:  # a list
-                  text = s
-               #print("--- trace: %s at %d" % ("inferTierStructure.py", 85))
-               #print("text: %s" % line[tierName])
-               #print("type: %s" % type(line[tierName]))
-               #pdb.set_trace()
-               #text = yaml.safe_load(line[tierName])
-               if type(text) is list:
-                  tokenCount = len(text)
+               traceFileName = "inferTierStructure.py"
+               traceLineNumber = 89
+               if type(s) is list:
                   analysisTiers.append(tierName)
          if len(analysisTiers) > 1:
             tiers.extend(analysisTiers)
@@ -115,6 +117,10 @@ class InferTierStructure:
    #------------------------------------------------------------
    # tiers which are neither speech, meta-fields, nor analysis
    def identifyGenericTierNames(self):
+
+      #traceFileName = "inferTierStructureFromSFMT"
+      #traceLineNumber = 102
+      #print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
 
       candidateTiers = self.allTierNames
       speechTierName = list(self.getSpeechTierNameMap().values())
@@ -146,6 +152,8 @@ class InferTierStructure:
       allKeys = list(self.tierNameMap.keys())
       genericKeys = [string for string in allKeys if string.startswith("tier_")]
       subMap = dict((k, self.tierNameMap[k]) for k in genericKeys)
+      #print("returning subMap from getGenericTierNameMap")
+      #print(repr(subMap))
       return(subMap)
 
    #------------------------------------------------------------
@@ -157,12 +165,12 @@ class InferTierStructure:
       return(subMap)
 
    #------------------------------------------------------------
+   # with tierGuides now being (mostly) obsolete, not sure if
+   # the approach encoded below does the job
    def writeTierGuide(self, tierGuideFilename):
 
-      string = yaml.dump(self.tierNameMap, default_flow_style=False, sort_keys=False)
-
       with open(tierGuideFilename, 'w') as f:
-         f.write(string)
+         f.write(repr(self.tierNameMap))
 
    #------------------------------------------------------------
    # map from standard names (e.g., speech; tier_[1..N]; analysis_[1,2])
@@ -179,6 +187,7 @@ class InferTierStructure:
       analysisTierCount = 0
       genericTierCount = 0
 
+
       for tier in tierNames[1:]:
          if tier in atn:
             analysisTierCount += 1
@@ -187,6 +196,11 @@ class InferTierStructure:
             genericTierCount += 1
             tg["tier_%d" % genericTierCount] = tier
 
+      #traceFileName = "inferTierStructureFromSFMT.py"
+      #traceLineNumber = 178
+      #print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
+      #pdb.set_trace()
+   
       self.tierNameMap = tg
 
    #------------------------------------------------------------
@@ -207,9 +221,3 @@ class InferTierStructure:
       return(self.tierNameMap)
       
 #----------------------------------------------------------------------------------
-def yamlSanitize(s):
-
-   s = s.replace(":", ",")
-   s = s.replace("{", "(")
-   s = s.replace("}", ")")
-   return s

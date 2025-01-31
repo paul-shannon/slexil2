@@ -142,6 +142,17 @@ button.btn-close { /* dbc.Modal close button "X" */
 
 #bannerDiv{
     background-image: url("slexilbanner2rnd.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 95%;
+    height: 230px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    }
+
+#oldBannerDiv{
+    background-image: url("slexilbanner2rnd.jpg");
     background-size: 980px 230px;
     vertical-align: middle;
     width: 980px;
@@ -155,7 +166,11 @@ button.btn-close { /* dbc.Modal close button "X" */
    margin-right: 6px;
    margin-top: 6px;
    }
-
+#faqDropdownMenu{
+   float: right;
+   margin-right: 6px;
+   margin-top: 6px;
+   }
 
 a[href] {
   text-decoration: underline;
@@ -178,11 +193,10 @@ a[href] {
    margin-bottom: 10px;
    }
 
-//.menuItemClass{
-//    font-size: 24px;
-//    margin: 10px;
-//    background-color: yellow;
-//    }
+.menuItemClass{
+    font-size: 24px;
+    margin: 10px;
+   }
 
 dynamicDivStyle {width: 400;
                  border: 1px solid darkblue;
