@@ -775,6 +775,7 @@ def saveUploadedFile(contents, projectName, filename):
 
 from slexil.newYamlParser import NewYamlParser
 from slexil.eafParser import extractAllTimeAlignedTierIDs
+from slexil.sfmtToWebPage import sfmtToWebPage
 #--------------------------------------------------------------------------------
 analyzeButtonStyle = {"margin": "15px",
                       "margin-left": "30px",
@@ -840,11 +841,11 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
             msg += "Email a bug report (see below) if you wish to request "
             msg += "such support in a future release."
             raise Exception(msg)
-         yaml = p.toYAML("a", "b", "c")
-         yamlFile = os.path.join(globals['projectPath'],
+         text = p.toSFMT("title", "speaker", "transcriber")
+         yamlOutFile = os.path.join(globals['projectPath'],
                                  "%s.yaml" % globals['projectName'])
-         p.writeYAML(yaml, yamlFile)
-         globals['yamlFileName'] = yamlFile
+         p.writeSFMT(text, yamlOutFile)
+         globals['yamlFileName'] = yamlOutFile
       elif fileType == "YAML":
          p = NewYamlParser(mainTextFilePath)
          tbl = p.getTierTable()
@@ -969,21 +970,21 @@ def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
    print("--- makeHtml.py: createHtmlFromYaml")
 
-   text = YamlToText(yamlFile,
-                     grammaticalTerms=mga.getAll(),
-                     projectDirectory=projectDirectory,
-                     verbose = False,
-                     fontSizeControls = True,
-                     startLine = None,
-                     endLine = None,
-                     pageTitle = title,
-                     helpFilename = None,
-                     helpButtonLabel = None,
-                     kbFilename = None,
-                     linguisticsFilename = None,
-                     fixOverlappingTimeSegments = False,
-                     webpackLinksOnly=False,
-                     useTooltips=False)
+   text = sfmtToWebPage(yamlFile,
+                        grammaticalTerms=mga.getAll(),
+                        projectDirectory=projectDirectory,
+                        verbose = False,
+                        fontSizeControls = True,
+                        startLine = None,
+                        endLine = None,
+                        pageTitle = title,
+                        helpFilename = None,
+                        helpButtonLabel = None,
+                        kbFilename = None,
+                        linguisticsFilename = None,
+                        fixOverlappingTimeSegments = False,
+                        webpackLinksOnly=False,
+                        useTooltips=False)
    htmlText = text.toHTML()
    htmlFileName = os.path.join(projectDirectory, "%s.html" % projectName)
    print("--- writing html file for at %s" % htmlFileName)

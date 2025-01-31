@@ -84,21 +84,21 @@ def createHtmlFromYaml(yamlFile, title, projectName, projectDirectory):
 
    print("--- makeHtml.py: createHtmlFromYaml")
 
-   text = YamlToText(yamlFile,
-                     grammaticalTerms=mga.getAll(),
-                     projectDirectory=projectDirectory,
-                     verbose = False,
-                     fontSizeControls = True,
-                     startLine = None,
-                     endLine = None,
-                     pageTitle = title,
-                     helpFilename = None,
-                     helpButtonLabel = None,
-                     kbFilename = None,
-                     linguisticsFilename = None,
-                     fixOverlappingTimeSegments = False,
-                     webpackLinksOnly=False,
-                     useTooltips=False)
+   text = sfmtToWebPage(yamlFile,
+                        grammaticalTerms=mga.getAll(),
+                        projectDirectory=projectDirectory,
+                        verbose = False,
+                        fontSizeControls = True,
+                        startLine = None,
+                        endLine = None,
+                        pageTitle = title,
+                        helpFilename = None,
+                        helpButtonLabel = None,
+                        kbFilename = None,
+                        linguisticsFilename = None,
+                        fixOverlappingTimeSegments = False,
+                        webpackLinksOnly=False,
+                        useTooltips=False)
    htmlText = text.toHTML()
    htmlFileName = os.path.join(projectDirectory, "%s.html" % projectName)
    print("--- writing html file for at %s" % htmlFileName)
