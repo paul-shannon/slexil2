@@ -77,13 +77,13 @@ page = sfmtToWebPage(sfmt, grammaticalTerms = mga.getAll(),
                      startLine = None,
                      endLine = None,
                      pageTitle = "inferno from test_sfmtToWebPage.py",
-                     helpFilename = None,
-                     helpButtonLabel = None,
-                     kbFilename = None,
-                     linguisticsFilename = None,
-                     fixOverlappingTimeSegments = False,
-                     webpackLinksOnly=False,
-                     useTooltips=False)
+                     helpFilename = helpFile,
+                     helpButtonLabel = helpButtonLabel,
+                     kbFilename = kbFilename,
+                     linguisticsFilename = linguisticsFilename,
+                     fixOverlappingTimeSegments = fixOverlappingTimeSegments,
+                     webpackLinksOnly=webpackLinksOnly,
+                     useTooltips=useTooltips)
 
 
 htmlText = page.toHTML()

@@ -8,6 +8,7 @@ default:
 	@echo  eaf
 	@echo  html
 	@echo  y2h    # yaml2html
+	@echo  s2h    # yaml2html
 	@echo  publish
 	@echo  publish-audio
 	@echo  viewRemote
@@ -29,9 +30,16 @@ y2h:
         --tierGuide tierGuide.yaml \
         --kbFilename kb.js \
         --linguistics linguisticTerms.js \
+
+s2h:
+	python $(BASEDIR)/utils/sfmt2html.py \
+        --sfmt daylight.yaml \
+        --tierGuide tierGuide.yaml \
+        --kbFilename kb.js \
         --pageTitle "Harry Moses - How Daylight Was Stolen" \
         --helpButtonLabel About \
-        --helpFile about.html
+        --helpFile about.html \
+        --linguistics linguisticTerms.js
 
 
 bug:
@@ -77,7 +85,7 @@ publish-audio:
 
 
 view:
-	open index.html
+	open daylight.html
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/

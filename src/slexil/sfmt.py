@@ -2,8 +2,7 @@ import pdb
 import os, re
 from pathlib import Path
 import pandas as pd
-# from slexil.inferTierStructureFromSFMT import InferTierStructure
-
+import numpy as np
 
 class SFMT:
 
@@ -175,6 +174,31 @@ class SFMT:
       self.tierCount = len(self.blockStarts)
 
    #------------------------------------------------------
+   # a 2-column table, with fields (tier names) and their
+   # respective line counts
+   def getTierTable(self):
+
+      tierNames = self.allTierNames
+
+         # initialize the counts
+      fieldCounts = {}
+      for field in tierNames:
+         fieldCounts[field] = 0
+     
+      for line in self.tieredLines:
+         fields = list(line.keys())
+         for field in fields:
+             if field in tierNames:
+                fieldCounts[field] += 1
+      tbl = pd.DataFrame(columns=["Field", "Lines"])
+      tbl["Field"] = list(fieldCounts.keys())
+      tbl["Lines"] = list(fieldCounts.values())
+      #tbl = tbl.reset_index() # move rownames to a new column
+      #tbl.columns = ['Field', 'Lines']
+
+      return(tbl)
+
+   #----------------------------------------------------------------------
    def getTier(self, i):
 
       tier = {}

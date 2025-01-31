@@ -40,6 +40,18 @@ def test_identifyTierBlocks():
    assert(sfmt.getTierCount() == 3)
    
 #--------------------------------------------------------------------------------   
+def test_getTierTable():
+
+   print("--- test_getTierTable")
+   f = "../testData/validEafYamlFiles/inferno-withHtmlLines.yaml"
+   sfmt = SFMT(f)
+   sfmt.parse()
+   tbl = sfmt.getTierTable()
+   assert(tbl.shape == (4,2))
+   assert(list(tbl.columns) == ["Field", "Lines"])
+   assert(tbl.loc[3]['Lines'])
+
+#--------------------------------------------------------------------------------   
 def test_getTier():
 
    print("--- test_getTier")
@@ -403,6 +415,9 @@ def test_hawkBabyMissingTier():
 #----------------------------------------------------------------------------------------------------
 def runTests():
 
+   test_getTierTable()
+   sys.exit(0)
+   
    test_hawkBabyMissingTier()
 
    test_ctor()

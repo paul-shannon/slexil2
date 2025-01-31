@@ -2052,138 +2052,138 @@ lines:
 
   - html: "<div class='sectionNumber'>13.1</div>"
 
-  - startTime: 2557803 # delta: 159974
+  - startTime: 2557803
     endTime:   2559831 
     lushootseed: k̓ʷidilc kʷ(i) adtalə.
     english: How much money do you have?
 
-  - startTime: 2563632 # 2403658
-    endTime:   2566411 # 2406437
+  - startTime: 2563632
+    endTime:   2566411
     lushootseed: (də)č̓əʔilc ti dtalə.
     english: I have one dollar.
 
-  - startTime: 2572838 # 2412864
-    endTime:   2575907 # 2415933
+  - startTime: 2572838
+    endTime:   2575907
     lushootseed: s(a)liʔilc ti dtalə.
     english: I have two dollars.
 
-  - startTime: 2580547 # 2420573
-    endTime:   2583211 # 2423237
+  - startTime: 2580547
+    endTime:   2583211
     lushootseed: ɬixʷilc ti dtalə.
     english: I have three dollars.
 
-  - startTime: 2587277 # 2427303
-    endTime:   2589945 # 2429971
+  - startTime: 2587277
+    endTime:   2589945
     lushootseed: buusilc ti dtalə.
     english: I have four dollars.
 
   - html: "<div class='sectionNumber'>13.2</div>"
 
-  - startTime: 2595408 # 2435434
-    endTime:   2598727 # 2438753
+  - startTime: 2595408
+    endTime:   2598727
     lushootseed: k̓ʷidulč kʷ(i) adsgʷaʔ adyiq̓us.
     english: How many (cedar-root) baskets do you own?
 
-  - startTime: 2611003 # 2451029
-    endTime:   2614708 # 2454734
+  - startTime: 2611003
+    endTime:   2614708
     lushootseed: dəč̓aʔulč ti dsgʷaʔ.
     english: I own one (container).
 
-  - startTime: 2616629 # 2456655
-    endTime:   2620490 # 2460516
+  - startTime: 2616629
+    endTime:   2620490
     lushootseed: saliʔulč ti dsgʷaʔ.
     english: I own two (containers).
 
-  - startTime: 2625330 # 2465356
-    endTime:   2628967 # 2468993
+  - startTime: 2625330
+    endTime:   2628967
     lushootseed: ɬixʷulč ti dsgʷaʔ.
     english: I own three (containers).
 
-  - startTime: 2633237 # 2473263
-    endTime:   2636736 # 2476762
+  - startTime: 2633237
+    endTime:   2636736
     lushootseed: buusulč ti dsgʷaʔ.
     english: I own four (containers).
 
   - html: "<div class='sectionNumber'>13.3</div>"
 
-  - startTime: 2643278 # 2483304
-    endTime:   2646734 # 2486760
+  - startTime: 2643278
+    endTime:   2646734
     lushootseed: k̓ʷid kʷ(i) adsgʷaʔ adstiqtiqiw.
     english: How many horses do you own?
 
-  - startTime: 2652831 # 2492857
-    endTime:   2655795 # 2495821
+  - startTime: 2652831
+    endTime:   2655795
     lushootseed: dəč̓ʔalps ti dsgʷaʔ.
     english: I own one (animal).
 
-  - startTime: 2658724 # 2498750
-    endTime:   2663400 # 2503426
+  - startTime: 2658724
+    endTime:   2663400
     lushootseed: saliʔalps ti dsgʷaʔ.
     english: I own two (animals).
 
-  - startTime: 2667423 # 2507449
-    endTime:   2670129 # 2510155
+  - startTime: 2667423
+    endTime:   2670129
     lushootseed: ɬixʷalps ti dsgʷaʔ.
     english: I own three (animals).
 
-  - startTime: 2673666 # 2513692
-    endTime:   2676286 # 2516312
+  - startTime: 2673666
+    endTime:   2676286
     lushootseed: buusalps ti dsgʷaʔ.
     english: I own four (animals).
 
 
   - html: "<div class='sectionNumber'>13.4</div>"
 
-  - startTime: 2683250 # 2523276
-    endTime:   2686741 # 2526767
+  - startTime: 2683250
+    endTime:   2686741
     lushootseed: k̓ʷidgʷiɬ kʷ(i) adsgʷaʔ adƛ̓əlayʔ.
     english: Ho many (shovel-nose) canoes do you own?
 
-  - startTime: 2691149 # 2531175
-    endTime:   2694508 # 2534534
+  - startTime: 2691149
+    endTime:   2694508
     lushootseed: dəč̓ʔagʷiɬ ti dsgʷaʔ.
     english: I own one (canoe).
 
-  - startTime: 2699901 # 2539927
-    endTime:   2702872 # 2542898
+  - startTime: 2699901
+    endTime:   2702872
     lushootseed: cəbagʷiɬ ti dsgʷaʔ.
     english: I own two (canoes).
 
-  - startTime: 2707492 # 2547518
-    endTime:   2710712 # 2550738
+  - startTime: 2707492
+    endTime:   2710712
     lushootseed: ɬixʷalgʷiɬ ti dsgʷaʔ.
     english: I own three (canoes).
 
-  - startTime: 2714712 # 2554738
-    endTime:   2717723 # 2557749
+  - startTime: 2714712
+    endTime:   2717723
     lushootseed: buusalgʷiɬ ti dsgʷaʔ.
     english: I own four (canoes).
 
 
   - html: "<div class='sectionNumber'>13.5</div>"
 
-  - startTime: 2724580 # 2564606
-    endTime:   2727697 # 2567723
+  - startTime: 2724580
+    endTime:   2727697
     lushootseed: k̓ʷidalʔtxʷ kʷ(i) adsgʷaʔ adʔalʔal.
     english: How many houses do you own?
     
-  - startTime: 2732440 # 2572466
-    endTime:   2735715 # 2575741
+  - startTime: 2732440
+    endTime:   2735715
     lushootseed: dəč̓əʔalʔtxʷ ti dsgʷaʔ.
     english: I own one (house/building)
     
-  - startTime: 2740572 # 2580598
-    endTime:   2743778 # 2583804
+  - startTime: 2740572
+    endTime:   2743778
     lushootseed: cəbalʔtxʷ ti dsgʷaʔ.
     english: I own two (houses/buildings).
     
-  - startTime: 2747921 # 2587947
-    endTime:   2750526 # 2590552
+  - startTime: 2747921
+    endTime:   2750526
     lushootseed:  ɬixʷalʔtxʷ ti dsgʷaʔ.
     english: I own three (houses/buildings).
     
-  - startTime: 2754534 # 2594560
-    endTime:   2757601 # 2597627
+  - startTime: 2754534
+    endTime:   2757601
     lushootseed: buusalʔtxʷ ti dsgʷaʔ.
     english: I own four (houses/buildings).
     
@@ -2191,13 +2191,13 @@ lines:
 
   - html: "<div class='sectionNumber'>13.7</div>"
 
-  - startTime: 2766161 # 2606187
-    endTime:   2767690 # 2607716
+  - startTime: 2766161
+    endTime:   2767690
     lushootseed: "uu: sduukʷ"
     english: iron, knife
 
-  - startTime: 2768951 # 2608977
-    endTime:   2770382 # 2610408
+  - startTime: 2768951
+    endTime:   2770382
     lushootseed: "u: ʔəsdukʷ"
     english: not right, bad; fierce
 

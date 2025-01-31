@@ -9,6 +9,7 @@ default:
 	@echo curl
 	@echo server
 	@echo y2h
+	@echo s2h
 	@echo eaf
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
@@ -35,6 +36,16 @@ y2h:
         --pageTitle "Lushootseed Grammar" \
         --helpButtonLabel About \
         --helpFile about.html
+
+s2h:
+	python $(BASEDIR)/utils/sfmt2html.py \
+        --sfmt grammar.yaml \
+        --tierGuide tierGuide.yaml \
+        --kbFilename kb.js \
+        --pageTitle "Lushootseed Grammar" \
+        --helpButtonLabel About \
+        --helpFile about.html
+
 
 testyaml:
 	python $(BASEDIR)/utils/yaml2html.py \

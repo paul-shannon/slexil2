@@ -11,7 +11,7 @@ from dash import html, Dash, callback, dcc, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 from slexil.eafParser import EafParser
-appVersion = "3.0.7"
+appVersion = "3.0.8"
 versionString = "slexil %s, app %s" % (slexil.__version__, appVersion)
 dbcStyle = dbc.themes.BOOTSTRAP
 styleSheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css', dbcStyle]
@@ -773,8 +773,9 @@ def saveUploadedFile(contents, projectName, filename):
 
 #--------------------------------------------------------------------------------
 
-from slexil.newYamlParser import NewYamlParser
+# from slexil.newYamlParser import NewYamlParser
 from slexil.eafParser import extractAllTimeAlignedTierIDs
+from slexil.sfmt import *
 from slexil.sfmtToWebPage import sfmtToWebPage
 #--------------------------------------------------------------------------------
 analyzeButtonStyle = {"margin": "15px",
@@ -847,10 +848,10 @@ def analyze(n_clicks,  globals, createHtmlDivStyle, analyzeButtonDivStyle):
          p.writeSFMT(text, yamlOutFile)
          globals['yamlFileName'] = yamlOutFile
       elif fileType == "YAML":
-         p = NewYamlParser(mainTextFilePath)
-         tbl = p.getTierTable()
-         mediaURL = p.getMediaURL()
-         p.checkLines()
+         sfmt = SFMT(mainTextFilePath)
+         sfmt.parse()
+         tbl = sfmt.getTierTable()
+         mediaURL = sfmt.getMediaURL()
       formattedTable = dbc.Table.from_dataframe(tbl)
       errorBoxOpen = True
       errorBoxChildren = html.Div(children=[html.P("media url: %s" % mediaURL),
