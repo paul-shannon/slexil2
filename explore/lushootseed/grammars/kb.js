@@ -1,5 +1,103 @@
 kb = {
 
+
+
+"stab kʷ(i) suhuyləp.":
+`
+**Grammar Note 15.2, page 82**
+
+In asking several people what they are doing, the suffix
+__-ləp__ is said instead of the prefix __ad-__.  __-ləp__ is the
+plural and __-ad__ is the singular.  In Lesson Four the questions was learned
+
+  __čad t(i) adbad__  Where is your father?
+
+If talking to several brothers of sisters, however, the question is
+
+  __čad ti badləp__ Where is the father of you folks?
+
+**Grammar Note 15.3, page 82**
+
+The use of __ad-__ "your" and __-ləp__ "your" (plural) shows that the
+Lushootseed sentence as literally:  "What (is) your doing?"
+`,
+
+
+"ʔuʔax̌u(ʔ)b čəɬ ʔə tiʔəʔ sx̌əp̓ab.":
+`
+**Footnote 2, page 81**
+
+Pronounced __sx̌u-p̓ub__ in Southern Lushootsed.
+
+**Grammar Note 15.4, page 82**
+
+Compate the follwoing sets of words:
+
+   - __sʔax̌ʷuʔ__ "clam"
+   - __ʔašuʔb__ "clam dig, get clams"
+   - __huyəq__  "gill net"
+   - __huy(ə)qəb__ "set a gill net, fish with a gill net"
+
+The ending __-(ə)b creates an action word.  It means "to get or be
+involved in doing something".
+
+__Reread the third sentence of 12.5, page 65!__
+
+__-(ə)b__ can be added to many words as will be seen later.
+   
+`,
+
+"ʔuqʷuləčalikʷ čəɬ ʔə tiʔəʔ qiw̓x̌.":
+`
+**Footnote 1, page 81**
+
+__skʷawəl̓__ in Southern Lushootseed.
+`,
+
+"ʔuʔəɬəd čəd ʔə tiʔəʔ duʔayus.":
+`
+**Footnote 3, page 80**
+
+Some people say __sc̓əlq__ instead of __duʔayus__.  Use whichever the
+teacher prefers.
+`,
+
+
+"ʔušabalikʷ čəd ʔə tiʔəʔ sɬuʔəb.":
+`
+**Footnote 2, page 80**
+
+Only the Skagit say __sɬuʔəb.__ The Snohomish use __ƛ̓xʷayʔ__ and the
+Southern Lushootseed say __ƛ̓əxʷayʔ__.
+`,
+
+
+"stab kʷ(i) adsuhuy.":
+`
+**Footnote 1, page 80**
+
+A different and equally common way of asking this question is
+__ʔuʔəx̌ix̌əd čəxʷ__.  This usage will be studied in a later lesson.
+
+**Grammar Note 15.1**
+
+There are two ways of asking someone in Lushootseed what he is doing.
+The one presented in this lesson uses the word __suhuy__ (do, make).
+It follows the same sentence arrangement already learned in Lessons 11, 12
+and 13.  (see 11.2, 12.1, and 13.4).  Compare the following sentences:
+
+   - __stab kʷ(i) adsuhuy.__  What are you doing?
+   - __k̓ʷidilc kʷ(i) adtalə.__  How much do you have?
+   - __ʔa ʔu kʷ(i) adsʔax̌ʷuʔ.__ Do you have any clams?
+
+(Notice how difficult the English questions are compard
+to Lushootseed.  The English sentences are quite different
+from each other but the Lushootseed sentences follow the same
+pattern.)
+
+`,
+
+    
 "saliʔəxʷ ʔi tə ʔiɬčəx̌.":
 `
 **Vocabulary Comment 14.14, page 78**
