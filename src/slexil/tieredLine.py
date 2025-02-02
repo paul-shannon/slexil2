@@ -320,7 +320,7 @@ class TieredLine:
                            style=morphemeSpacingStyleString,
                            name=analysisTierNames[1]):
              for morphemeGloss in morphemeGlosses:
-                 with htmlDoc.tag("div", klass="morpheme-cell"):
+                 with htmlDoc.tag("div", klass="fubarmorpheme-cell"):
                     mg = GrammaticalTermFormatter(morphemeGloss, self.grammaticalTerms)
                     mg.parse()
                     s = mg.format()

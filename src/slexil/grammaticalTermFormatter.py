@@ -65,6 +65,7 @@ class GrammaticalTermFormatter:
 
      out = []
      for part in self.parts:
+        part = part.strip()
         partUpper = part.upper()  # grammatical terms stored in upper case
         if partUpper in self.grammaticalTerms:
            expansion = "<span class='grammatical-term'>%s</span>" % part.lower()

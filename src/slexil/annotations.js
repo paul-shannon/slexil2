@@ -12,7 +12,8 @@ if (typeof(kb) == 'object'){
     }
 
 $(function() {
-    $(".morpheme-cell, .speech-tier, .freeTranslation-tier, .grammatical-term")
+    //$(".morpheme-cell, .speech-tier, .freeTranslation-tier, .grammatical-term")
+    $(".speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
             var currentElement = $(this);
             //console.log("--- mouseenter " + currentElement.html());
@@ -23,7 +24,7 @@ $(function() {
                    currentElement.addClass("focusedGrammaticalElement")
                    var key = currentElement.html();
                    var annoBox = $("#annoNotesDiv");
-                   console.log("kb key lookup: " + key);
+                   console.log("speech & translation tier, kb key lookup: " + key);
                    var annoText = lookup(key)
                    console.log("chars retrieved: " + annoText.length);
                    annoBox.html(annoText);
@@ -38,6 +39,28 @@ $(function() {
             //var infoBox = $(this).parent().siblings(".morphemeInfo");
             //infoBox.hide()
             }) // mouseleave
+
+    $(".morpheme-cell, .grammatical-term").on('click', function(e){
+        //.click(function(e){
+            console.log("morpheme-cell, grammatical-term click!")
+            var currentElement = $(this);
+            const key = currentElement.text().trim()
+            console.log("--- currentElement text:")
+            console.log(key)
+            currentElement.addClass("focusedGrammaticalElement")
+            console.log("morpheme and term, click kb key lookup: '" + key + "'");
+            var annoBox = $("#annoNotesDiv");
+            var annoText = lookup(key)
+            console.log("chars retrieved: " + annoText.length);
+            if(annoText.length == 0){
+               annoText = "no annotation found"
+               }
+            if(annoText.length > 0){
+              annoBox.html(annoText);
+              }
+            //e.preventDefault()
+            //e.stopPropagation()
+            })
 
   $("#toggleAnnotationsButton").click(function(){
      var annoDivVisible = $("#annoNotesDiv").is(":visible")

@@ -23,11 +23,6 @@ class InferTierStructure:
 
       print("-- inferTierStructureFromSFMT: %s" % sfmtFilename)
 
-      assert(os.path.isfile(sfmtFilename))
-      sfmt = SFMT(sfmtFilename)
-      sfmt.parse()
-      self.lines = sfmt.lines
-
       traceFileName = "inferTierStructureFromSFMT.py"
       traceLineNumber = 30
       print("--- trace: %s at %d" % (traceFileName, traceLineNumber))

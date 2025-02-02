@@ -1,4 +1,13 @@
 linguistics = {
+
+"INCH":
+`
+**INCH**
+
+An inchoative verb, sometimes called an "inceptive" verb, shows a process of beginning or becoming.
+
+`,
+
 "Aspect and Mood":
 `
 In grammar, __mood__ refers to the speaker's attitude or intention
@@ -603,6 +612,25 @@ that fit this definition:
 "ICS":
 `
 internal causative: approximately, the transitive, event-internal
+
+Internal causative verbs are verbs that are caused by the inherent
+properties of their subject. They are a type of alternating verb in
+languages like English and Greek.
+
+These verbs are caused by the subject's inherent properties. For example, "The cactus bloomed" is an internally caused verb. 
+
+
+Externally caused verbs
+
+These verbs are caused by an external agent, natural force, or
+circumstance. For example, "The vase broke" is an externally caused
+verb.  
+
+**Examples**
+
+ - Internally caused verbs: Bloom, blossom, decay, erode, flower, wilt
+ - Externally caused verbs: Bounce, move, roll, rotate, spin, bake, blacken, break, close, cook, cool, dry, freeze, melt, open, shatter, thaw, thicken, whiten, widen
+
 `,
 
 "ALTV":

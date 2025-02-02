@@ -4,6 +4,7 @@ BASEDIR=~/github/slexil2
 default:
 	@echo targets:
 	@echo  venv eaf http refresh-js html
+	@echo  install
 	@echo  curl
 	@echo  eaf
 	@echo  html
@@ -41,6 +42,9 @@ s2h:
         --helpFile about.html \
         --linguistics linguisticTerms.js
 
+
+install:
+	(cd ../../../..; make install)
 
 bug:
 	python ~/github/yamlToEAF/toEAF.py tiny.yaml

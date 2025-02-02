@@ -1,5 +1,56 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
+
+"cnn":
+`
+**CNN: connective**
+
+As in ___a___ lexical linking element,  LD 27, as in
+__cəb•a•gʷiɬ=əxʷ__.
+
+`,
+
+"hab":
+`
+**HAB: habitual mood**
+
+Lushootseed prefix: _ƛ’u=_
+
+The habitual aspect is much mentioned, mood not so much.
+
+See STAT entry, from which this is taken:
+
+Aspect describes the extension of the state or action in time,
+whether it is unitary (perfective), continuous (imperfective)
+or repeated (habitual).
+
+`,
+
+"inch":
+`
+**INCH: inchoative aspect**
+
+Also "inceptive".
+
+A state is about to, or is in the process of being entered.
+
+`,
+
+    
+"ss":
+`
+**SS: secondary suffix**
+
+Three secondary suffixes
+   - -yi- ‘dative’
+   - -bi- ‘middle applicative’
+   - -di-/-i- ‘secondary suffix’—
+
+which combine with one of the other valency-increasers to add an new
+object to the valency of the stem
+`,
+
+
 "dstr":
 `
 **DSTR**: distributive reduplication
@@ -219,6 +270,23 @@ see also:
 `
 **STAT**: stative
 
+Stative aspect ʔas-
+
+(where aspect describes the extension of the state or action in time,
+whether it is unitary (perfective), continuous (imperfective)
+or repeated (habitual).
+
+The phonologically basic form of the stative aspectual prefix is ʔas-,
+although the vowel is unstressed in most word forms and so it most
+frequently reduced to schwa, giving the form ʔəs-. The stative prefix
+also interacts morphophonologically with preceding clitics:
+
+- ƛ’astagʷəxʷiʔ:
+- ƛ’u=ʔas–tagʷəxʷ•iʔɬ=əxʷ
+- HAB=STAT–hungry•child=now
+ 
+in (423):
+
 According to some linguistics theories, a stative verb is a verb that
 describes a state of being, in contrast to a dynamic verb, which
 describes an action. The difference can be categorized by saying that
@@ -392,22 +460,14 @@ going-after
 `
 **SBJ: subjunctive**
 
-The subjunctive (also known as conjunctive in some languages) is a
-grammatical mood, a feature of an utterance that indicates the
-speaker's attitude toward it.
-
-Subjunctive forms of verbs are typically
-used to express various states of unreality such as wish, emotion,
-possibility, judgment, opinion, obligation, or action that has not yet
-occurred; the precise situations in which they are used vary from
-language to language.
+Grammatical mood expressing various states of unreality such as wish,
+emotion, possibility, judgment, opinion, obligation, or action that
+has not yet occurred.
 
 The subjunctive is one of the irrealis moods,
-which refer to what is not necessarily real. It is often contrasted
+referring to what is not necessarily real. It is often contrasted
 with the indicative, a realis mood which principally indicates that
 something is a statement of fact. [wikipedia]
-
-
 
 `,
 
