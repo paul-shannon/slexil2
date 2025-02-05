@@ -1,5 +1,25 @@
 kb = {
 
+"ʔuʔuləx̌ čəɬ ʔə tiʔəʔ ƛ̓ux̌ʷƛ̓ux̌ʷ.":
+`
+**Vocabulary Comment, 15.7, page 82**
+
+__ƛ̓ux̌ʷƛ̓ux̌ʷ__ is an "international" word occuring in nearly all
+languages of northwestern Washington and in southern British Columbia.
+
+`,
+
+"ʔuƛ̓uc̓ič čəd ʔə tiʔəʔ huyəq.":
+`
+**Vocabulary Comment 15.6, page 82**
+
+__ƛ̓uc̓ič__ contains two parts:
+
+- __ƛ̓uc̓__ "tie, knot, tie a package"
+- __-ič__, this suffix, like those discussed in 10.10 and 13.2,
+refers to chain-line things, knots along a rope, the spine, etc.
+
+`,
 
 
 "stab kʷ(i) suhuyləp.":
