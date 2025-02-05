@@ -30,6 +30,20 @@ scp:
 checkTimes:
 	python  $(CODE_ROOT)/utils/eafCheck.py --eaf $(EAF) --times
 
+e2s:
+	python /Users/paul/github/slexil2/utils/eaf2sfmt.py --eaf $(EAF) --title $(TITLE) --outputDir .
+
+s2h:
+	python /Users/paul/github/slexil2/utils/sfmt2html.py \
+       --sfmt $(SFMT.FILE) \
+       --pageTitle $(TITLE) \
+       --helpFile ../help.html \
+       --helpButtonLabel "How To" \
+       --outputDir .
+
+
+
+
 html:
 	python $(CODE_ROOT)/utils/eaf2html.py  \
 	                     --eaf $(EAF) \
@@ -41,10 +55,10 @@ html:
 	                     --fontSizeControls
 
 publish:
-	scp index.html pshannon@206.12.95.4:www/$(LANGUAGE)/$(HTML.FILE)
+	scp $(HTML.FILE) pshannon@206.12.95.4:www/$(LANGUAGE)/$(HTML.FILE)
 
 view:
-	open index.html
+	open $(HTML.FILE)
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(HTML.FILE)
