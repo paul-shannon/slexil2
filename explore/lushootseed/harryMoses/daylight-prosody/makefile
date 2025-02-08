@@ -80,7 +80,7 @@ refresh-js:
 
 
 publish:
-	scp index.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp daylight.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/index.html
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 

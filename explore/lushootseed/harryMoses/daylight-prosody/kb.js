@@ -1,6 +1,92 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"tu=kʷəda–t–b=əxʷ":
+`
+**tu=kʷəda–t–b=əxʷ**
+
+past=take–ics–pass=now
+
+- __kʷəd(á)__:   take, get, hold, grasp; carry in the hand. LD 123: a page
+and a half of examples
+- __kʷəda-d__: transitive, have taken something, have something, grab
+something or someone
+- __kʷəd-(d)xʷ__: manage to get, manage to grasp
+- __ʔukʷəda-t-əb čəd__: grabbed me
+`,
+
+"tu=cut–t–b":
+`
+**tu=cut–t–b**
+
+- past, say, ics, pass
+- __cut__: speak, talk, say, tell; any sort of verbal utterance.
+- meaning 2, LD 48
+- see also line 16: __tu=dxʷ–cut–əb__, "past=contained-say-desiderative" 'thought'
+- not to be confused with __-cut__ meaning 3: reflexive suffix from __-t-sut__,
+myself, yourself, himself, herself,themselves.  See lines 5 and 6.
+- ICS: internal causative
+- PASS: indicates passive voice: the subject is the patient, target, or undergoer of the action.
+`,
+
+"luƛ̓":
+`
+**luƛ̓**
+
+old, old person
+
+Related:
+
+- __luƛ̓əb__: grow old
+- __ʔiɬluƛ̓__: (the) older, oldest
+- __luƛ̓il__: grow up
+- __luƛ̓ čəd__:  I'm old.
+- __tiʔəʔ luƛ̓__: this old fellow (Martha Lamont)
+- __xʷíʔ čəd ləx̌ʷul̓ab ʔə dəgʷi kʷi gʷədslùƛ̓__:             I'm not as old as you are.
+`,
+
+
+"prog":
+`
+**PROG; progressive**
+
+From wikipedia:
+
+The continuous and progressive aspects (abbreviated CONT and PROG) are
+grammatical aspects that express incomplete action ("to do") or state
+("to be") in progress at a specific time: they are non-habitual,
+imperfective aspects.
+
+In the grammars of many languages the two terms are used
+interchangeably. This is also the case with English: a construction
+such as "He is washing" may be described either as present continuous
+or as present progressive. However, there are certain languages for
+which two different aspects are distinguished. In Chinese, for
+example, progressive aspect denotes a current action, as in "he is
+getting dressed", while continuous aspect denotes a current state, as
+in "he is wearing fine clothes".
+
+As with other grammatical categories, the precise semantics of the
+aspects vary from language to language, and from grammarian to
+grammarian. For example, some grammars of Turkish count the -iyor form
+as a present tense; some as a progressive tense; and some as
+both a continuous (nonhabitual imperfective) and a progressive
+(continuous non-stative) aspect.
+
+**Continuous versus progressive**
+
+The progressive aspect expresses the dynamic quality of actions that
+are in progress while the continuous aspect expresses the state of the
+subject that is continuing the action. For instance, "Tom is reading"
+can express dynamic activity: "Tom is reading a book" – i.e. right now
+(progressive aspect), or Tom's current state: "Tom is reading for a
+degree" – i.e. Tom is a student (continuous aspect). The aspect can
+often be ambiguous; "Tom is reading Ulysses" may describe his current
+activity (it's in his hand), or the state of having started, but not
+yet finished, the book (it's in his bag).
+
+`,
+
 "cnn":
 `
 **CNN: connective**
@@ -1199,6 +1285,8 @@ _will take_
 
 "kʷi":
 `
+**kʷi**
+
 - a, any (hypothetical, doubtful, remote). see _tiʔiɬ_.  LD 125
 `,
     
@@ -1538,31 +1626,28 @@ _place_
     
 "ləx̌–il•ič=əxʷ":
 `
+**ləx̌–il•ič=əxʷ**
+
 _became covered in light_
-- Beck and Hess have:
-    -  _ƛ’u=ləx̌–il•ič=əxʷ_ 
-    - (HAB=light–INCH•covering=now).   <button id="refButton" onclick="ref('INCH');">INCH</button>
-    -  I don't hear the _ƛ’u_.
-    - I DO hear _lax̌_ in the opening syllable.
 - _ləx̌-il_: grow light, day.
-     - _ləx̌_: 
-         - light (verb) as in "light a fire", set to burning.  LD 137
-         - compare _hud(u)_: burn, fire.  LD 111
-     - _-il_:  reach or achieve a state or position; becoming. derivational suffix; LD 116  <button id="refButton" onclick="ref('DERIVATIONAL_SUFFIX');">derivational suffix</button>
-- speculative alternative construction:
-     - _ləx̌ʷ_: LD 137, see _x̌ac_ 
-     - _x̌ac_: LD 256, cover (something)
-     - seems that LD suggests that these two sounds refer to the same concept
-     - _x̌ac-il•ič=əxʷ_: becoming covered, lexical suffix covering, now
-     - counter argument: word seems to start with the el sound: _lax̌-il_
-- _•ič_: 
+- _•ič_:
+    - •: lexical suffix boundary
     - cover(ing) surface; on top of; over. 
     - series of items on a string, string cord, spine
-    - lexical suffix, LD 114
-- _əxʷ_, _axʷ_ : now, at the particular time. LD 30
-- <audio id="coveredWithLight"><source src="audio/coveredWithLight.wav"/></audio><button onclick="playSample('coveredWithLight')">ləx̌–il•ič=əxʷ</button>
+    - ʔubəsadič: got caught in the dark
+    - _p̓əlx̌ʷ=ič_: covered with dust
+    - _əxʷ_, _axʷ_ : now, at the particular time. LD 30
+    - variants: _=ij-_, _=ic_
+- _əxʷ_, _axʷ_ : now, at the particular time. LD 30- 
 `,
     
+"ləx̌iličəxʷ əlgʷəʔ":
+`
+- Beck and Hess combine this with the previous line.
+
+`,
+
+
 "dxʷ–q’xʷ•ul’gʷədxʷ":
 `
 _that land upriver_
@@ -3475,36 +3560,17 @@ _long ago past_
 
 "kʷi":
 `
-######_kʷi_
+__kʷi__
+
 _remote_
-- a, any (hypothetical, doubtful). see _tiʔiɬ_.  LD 125
+
+- A, any (hypothetical, doubtful). see _tiʔiɬ_.  LD 125
 - adjectival demonstrative referring to hypothetical and/or remote entities.
 - (adjectival demonstratives modify nouns so that we know which specific person, place, or thing is mentioned,
    thus demonstrating the distance between the noun being modified and the speaker of the sentence.)
 - see LR1.p77 for discusson of pronomial, adjectival and adverbial demonstratives.
 `,
 
-"gʷəl":
-` 
-#####gʷəl
-- and, but, or, then, next, as if, because.
-- Sentential adverb, conjunction; used especially to introduce sentences in long narratives.
-- can also mark topicalization, in effect treating the topic as an entire clause and using gʷəl
-  to introduce the following clause.
-- it is also used to topicalize - in effect treating the topic as an entire clause  and using gʷəl 
-  to introduce the following clause.  hess vol1 p122.  LD xix.
-- in Lushootseed, temporal expresssions may be and-fronted, kroeber p377, this line is given  as an example
-- Topicalization is a mechanism of syntax that establishes an expression as the sentence or clause
-  topic by having it appear at the front of the sentence or clause (as opposed to in a canonical
-  position further to the right). Topicalization often results in a discontinuity and is thus one
-  of a number of established discontinuity types (the other three being wh-fronting, scrambling,
-  and extraposition). Topicalization is also used as a constituency test; an expression that can
-  be topicalized is deemed a constituent. The topicalization of arguments in English is rare,
-  whereas circumstantial adjuncts are often topicalized. Most languages allow topicalization, and
-  in some languages, topicalization occurs much more frequently and/or in a much less marked
-  manner than in English.
-
-`,
 
 "PR":
 `
@@ -3609,6 +3675,8 @@ _remote_
 
 "gʷəl":
 `
+**gʷəl**
+
 - and, but, or, then, next 
 - as if 
 - because 
@@ -3616,6 +3684,23 @@ _remote_
 - can also mark topicalization, treating the topic as an entire clause, using gʷəl to introduce the following clause:
     * _haʔəc gʷəl həlaʔb hikʷ šʔax̌ʷuʔ_
     * As for the horse clam, it is a really big clam.
+- Sentential adverb, conjunction; used especially to introduce sentences in long narratives.
+- can also mark topicalization, in effect treating the topic as an entire clause and using gʷəl
+  to introduce the following clause.
+- it is also used to topicalize - in effect treating the topic as an entire clause  and using gʷəl 
+  to introduce the following clause.  hess vol1 p122.  LD xix.
+- in Lushootseed, temporal expresssions may be and-fronted, kroeber p377, this line is given  as an example
+- Topicalization is a mechanism of syntax that establishes an expression as the sentence or clause
+  topic by having it appear at the front of the sentence or clause (as opposed to in a canonical
+  position further to the right). Topicalization often results in a discontinuity and is thus one
+  of a number of established discontinuity types (the other three being wh-fronting, scrambling,
+  and extraposition). Topicalization is also used as a constituency test; an expression that can
+  be topicalized is deemed a constituent. The topicalization of arguments in English is rare,
+  whereas circumstantial adjuncts are often topicalized. Most languages allow topicalization, and
+  in some languages, topicalization occurs much more frequently and/or in a much less marked
+  manner than in English.
+
+
 `,
     
 "tu=lə=č’it–il":
