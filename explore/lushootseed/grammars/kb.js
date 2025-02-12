@@ -1,5 +1,48 @@
 kb = {
 
+"ʔukʷaxʷad čəd tsi dsk̓ʷuy.":
+`
+**Grammar Note 16.1, page 86**
+
+Note that every action word in this lesson ends in __-d__.  The __ʔə__
+is never said betweeen final __-d__ action words and the name of the
+person or thing acted upon.  Contrast the following two sentences:
+
+ <table style='border: 1;'>
+   <tr><td>has -d</td><td><i>ʔuqʷibid čəd ti ʔalʔal</i>.</td><td>I fixed the house</td></tr>
+   <tr><td>has ʔə</td><td><i>ʔuƛ̓uc̓ič čəd ʔə ti huyəq</i>.</td><td>I made a gill net.</td></tr>
+ </table>
+
+
+<br><br>
+**Footnote 1, p86**
+
+The exception to this statement is __ʔəɬəd__ "eat".  See sencence A.2 of
+Lesson 15.
+
+__ʔuʔəɬəd čəd ʔə tiʔəʔ duʔayus__.
+
+Actually, this is only an apparent exception.  As will be learned much later,
+the __-d__ in __ʔəɬəd__ is not the same as the __-d__ of the words presented
+in this lesson.
+
+The  two __-d__ endings have different meanings and it is only chance that
+they sound the same.  Compare the similar sigution in English, with __-s__ in __cats__
+meaning more than on cat, the the __s__ in __cat's__ meaning possession.
+
+(The apostrophe is irrelevant becuase it is not pronounced.)
+
+`,
+
+
+"ʔuqʷibid čəd tiʔə(ʔ) dq̓il̓bid. ʔəsdᶻix̌gʷiɬ čəd.":    
+`
+**Footnote 1, page 85**
+
+The Snohomish and Southern Lushootseed speakers say __k̓ʷič̓id__ instead
+of the Skagit __q̓ʷəx̌ʷəd__.
+`,
+
 "ʔuʔuləx̌ čəɬ ʔə tiʔəʔ ƛ̓ux̌ʷƛ̓ux̌ʷ.":
 `
 **Vocabulary Comment, 15.7, page 82**
@@ -58,7 +101,7 @@ Compate the follwoing sets of words:
    - __huyəq__  "gill net"
    - __huy(ə)qəb__ "set a gill net, fish with a gill net"
 
-The ending __-(ə)b creates an action word.  It means "to get or be
+The ending __-(ə)b__ creates an action word.  It means "to get or be
 involved in doing something".
 
 __Reread the third sentence of 12.5, page 65!__

@@ -194,7 +194,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>3.1</div>"
+  - html: "<div class='sectionNumber'>3A.1</div>"
 
   - startTime: 249865
     endTime: 254294
@@ -206,7 +206,7 @@ lines:
     lushootseed: diɬ dbad tiʔiɬ.
     english:  That is my father.  (Literally, He is my father, that (one).)
 
-  - html: "<div class='sectionNumber'>3.2</div>"
+  - html: "<div class='sectionNumber'>3A.2</div>"
 
   - startTime: 269513
     endTime:  273568
@@ -218,7 +218,7 @@ lines:
     lushootseed: diɬ dsk̓ʷuy tsiʔiɬ.
     english:  That woman is my mother.
 
-  - html: "<div class='sectionNumber'>3.3</div>"
+  - html: "<div class='sectionNumber'>3A.3</div>"
 
   - startTime: 289787
     endTime:  293645
@@ -230,7 +230,7 @@ lines:
     lushootseed: diɬ dbədaʔ tiʔiɬ.
     english:  That child is my son.
 
-  - html: "<div class='sectionNumber'>3.4</div>"
+  - html: "<div class='sectionNumber'>3A.4</div>"
 
   - startTime: 310162
     endTime: 313968
@@ -244,7 +244,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-  - html: "<div class='sectionNumber'>B3.1</div>"
+  - html: "<div class='sectionNumber'>3B.1</div>"
 
 
   - startTime: 332351
@@ -257,7 +257,7 @@ lines:
     lushootseed: diɬ dbad tiʔəʔ
     english:  He is my father, (this one).
     
-  - html: "<div class='sectionNumber'>B3.2</div>"
+  - html: "<div class='sectionNumber'>3B.2</div>"
 
   - startTime: 349613
     endTime: 352351
@@ -269,7 +269,7 @@ lines:
     lushootseed: diɬ dsk̓ʷuy tsiʔəʔ.
     english: She is my mother, (this one).
 
-  - html: "<div class='sectionNumber'>B3.3</div>"
+  - html: "<div class='sectionNumber'>3B.3</div>"
 
   - startTime: 367154
     endTime: 370736
@@ -286,7 +286,7 @@ lines:
     lushootseed: gʷat əw̓ə tsi č̓ač̓as ʔal tiʔaʔ.
     english:  Who is the child right here?
 
-  - html: "<div class='sectionNumber'>B3.4</div>"
+  - html: "<div class='sectionNumber'>3B.4</div>"
 
   - startTime: 393705
     endTime: 396671
@@ -869,7 +869,7 @@ lines:
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
 
-  - html: "<div class='sectionNumber'>8.1</div>"
+  - html: "<div class='sectionNumber'>8A.1</div>"
 
   - startTime:  1079574
     endTime:  1082380
@@ -882,7 +882,7 @@ lines:
     english:  Yes.  I am Indian.
 
 
-  - html: "<div class='sectionNumber'>8.2</div>"
+  - html: "<div class='sectionNumber'>8A.2</div>"
 
   - startTime: 1098769
     endTime:  1101229
@@ -894,7 +894,7 @@ lines:
     lushootseed:  ʔi. ʔaciɬtalbixʷ čəɬ.
     english:  Yes.  We are Indian.
 
-  - html: "<div class='sectionNumber'>8.3</div>"
+  - html: "<div class='sectionNumber'>8A.3</div>"
 
   - startTime: 1115492
     endTime:  1119019
@@ -907,7 +907,7 @@ lines:
     lushootseed: ʔi. ʔaciɬtalbixʷ ti dsč̓istxʷ.
     english:  Yes.  My husband is Indian.
 
-  - html: "<div class='sectionNumber'>8.4</div>"
+  - html: "<div class='sectionNumber'>8A.4</div>"
 
   - startTime: 1137356
     endTime:  1140704
@@ -921,7 +921,7 @@ lines:
     english:  Yes.  My wife is Indian.
 
 
-  - html: "<div class='sectionNumber'>8.5</div>"
+  - html: "<div class='sectionNumber'>8A.5</div>"
 
   - startTime: 1156898
     endTime:  1161490
@@ -933,7 +933,7 @@ lines:
     lushootseed: ʔi. ʔaciɬtalbixʷ.
     english:  Yes.  He is Indian.
 
-  - html: "<div class='sectionNumber'>8.6</div>"
+  - html: "<div class='sectionNumber'>8A.6</div>"
 
   - startTime:  1176707
     endTime:  1180954
@@ -950,7 +950,7 @@ lines:
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
 
-  - html: "<div class='sectionNumber'>B8.1</div>"
+  - html: "<div class='sectionNumber'>8B.1</div>"
 
   - startTime: 1201261  
     endTime:  1203385 
@@ -968,7 +968,7 @@ lines:
     english:  I am Indian.
 
 
-  - html: "<div class='sectionNumber'>B8.2</div>"
+  - html: "<div class='sectionNumber'>8B.2</div>"
 
   - startTime: 1219744
     endTime:  1221671
@@ -988,7 +988,7 @@ lines:
     english:  I am Swinomish.
 
 
-  - html: "<div class='sectionNumber'>B8.3</div>"
+  - html: "<div class='sectionNumber'>8B.3</div>"
 
   - startTime: 1240501
     endTime:  1243642
@@ -1001,7 +1001,7 @@ lines:
     lushootseed: xʷi ləʔaciɬtalbixʷ.  pastəd tiʔiɬ.
     english:  He is not an Indian.  He is a whiteman.
 
-  - html: "<div class='sectionNumber'>B8.4</div>"
+  - html: "<div class='sectionNumber'>8B.4</div>"
 
   - startTime: 1260176
     endTime:  1263035
@@ -1013,7 +1013,7 @@ lines:
     lushootseed: xʷi ʔlədxʷ<u>l</u>əbiʔ. s<u>w</u>ədəbš tsiʔiɬ.
     english:  She is not Lummi.  She is Swinomish.
 
-  - html: "<div class='sectionNumber'>B8.5</div>"
+  - html: "<div class='sectionNumber'>8B.5</div>"
 
   - startTime: 1282040
     endTime:  1285866
@@ -1026,7 +1026,7 @@ lines:
     english:  That is not a deer.  That is an elk.
 
 
-  - html: "<div class='sectionNumber'>B8.6</div>"
+  - html: "<div class='sectionNumber'>8B.6</div>"
 
   - startTime: 1308978
     endTime:  1312569
@@ -1038,7 +1038,7 @@ lines:
     lushootseed: xʷiʔ ləsq̓əčqs.  yubəč tiʔiɬ.
     english:  It is not a silver salmon.  That is a king salmon.
 
-  - html: "<div class='sectionNumber'>B8.7</div>"
+  - html: "<div class='sectionNumber'>8B.7</div>"
 
   - startTime: 1329244
     endTime:  1332257
@@ -1133,7 +1133,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>9.1</div>"
+  - html: "<div class='sectionNumber'>9A.1</div>"
     
   - startTime: 1407431
     endTime:   1409510
@@ -1145,7 +1145,7 @@ lines:
     lushootseed: ʔəsx̌əɬ čəd. cick̓ʷ čəd ʔəsx̌əɬ.
     english:  I'm sick. I'm very sick.
 
-  - html: "<div class='sectionNumber'>9.2</div>"
+  - html: "<div class='sectionNumber'>9A.2</div>"
     
   - startTime: 1426445
     endTime:   1428351
@@ -1157,7 +1157,7 @@ lines:
     lushootseed: ʔəsƛ̓ubil čəd. cick̓ʷ čəd ʔəsƛ̓ubil.
     english:  I'm fine.  I'm very well.
 
-  - html: "<div class='sectionNumber'>9.3</div>"
+  - html: "<div class='sectionNumber'>9A.3</div>"
     
   - startTime: 1445312
     endTime:   1447475
@@ -1174,7 +1174,7 @@ lines:
     lushootseed: hiwil, ʔəɬədaxʷ.
     english:  Go, eat.
 
-  - html: "<div class='sectionNumber'>9.4</div>"
+  - html: "<div class='sectionNumber'>9A.4</div>"
     
   - startTime:  1470032
     endTime:   1471934
@@ -1191,7 +1191,7 @@ lines:
     lushootseed: hiwil, qʷu(ʔ)qʷaʔəxʷ.
     english:  Go, drink.
 
-  - html: "<div class='sectionNumber'>9.5</div>"
+  - html: "<div class='sectionNumber'>9A.5</div>"
     
   - startTime: 1495256
     endTime:   1497162
@@ -1209,7 +1209,7 @@ lines:
     english:  Go (ahead) and (you) close the door.
 
 
-  - html: "<div class='sectionNumber'>9.6</div>"
+  - html: "<div class='sectionNumber'>9A.6</div>"
     
   - startTime: 1522489
     endTime:   1524525
@@ -1229,7 +1229,7 @@ lines:
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
 
-  - html: "<div class='sectionNumber'>9.1b</div>"
+  - html: "<div class='sectionNumber'>9B.1</div>"
     
   - startTime: 1553455
     endTime:   1555410
@@ -1241,7 +1241,7 @@ lines:
     lushootseed: ʔəsx̌əɬ čəɬ.  hiqab čəɬ ʔuʔəɬəd.
     english:  We are sick.  We ate too much.
 
-  - html: "<div class='sectionNumber'>9.2b</div>"
+  - html: "<div class='sectionNumber'>9B.2</div>"
     
   - startTime: 1572972
     endTime:   1575181
@@ -1253,7 +1253,7 @@ lines:
     lushootseed: əsx̌əɬ čəɬ. hiqab čəɬ ʔuqʷu(ʔ)qʷu(ʔ)qʷaʔ.
     english:  We are sick.  We drank too much.
 
-  - html: "<div class='sectionNumber'>9.3b</div>"
+  - html: "<div class='sectionNumber'>9B.3</div>"
     
   - startTime: 1594424
     endTime:   1596606
@@ -1265,7 +1265,7 @@ lines:
     lushootseed: ʔəsƛ̓ubil čəɬ. cick̓ʷ čəɬ ʔəsƛ̓ubil.
     english:  We are fine.  We are very well.
 
-  - html: "<div class='sectionNumber'>9.4</div>"
+  - html: "<div class='sectionNumber'>9B.4</div>"
     
   - startTime: 1613563
     endTime:   1615425
@@ -1282,7 +1282,7 @@ lines:
     lushootseed: bəčagʷil čələpa qaʔkʷ. 
     english:  You folks lie down and rest.
 
-  - html: "<div class='sectionNumber'>9.5</div>"
+  - html: "<div class='sectionNumber'>9B.5</div>"
     
   - startTime: 1637397
     endTime:   1639547
@@ -1299,7 +1299,7 @@ lines:
     lushootseed: ʔəƛ̓ahəxʷ ɬi.  ɬuʔəɬəd čəɬ.
     english:  Come on you folks.  Let's eat.
 
-  - html: "<div class='sectionNumber'>9.6</div>"
+  - html: "<div class='sectionNumber'>9B.6</div>"
     
   - startTime: 1664739
     endTime:   1666737
@@ -1389,7 +1389,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>10.1</div>"
+  - html: "<div class='sectionNumber'>10A.1</div>"
 
   - startTime: 1751564
     endTime:   1754285
@@ -1406,7 +1406,7 @@ lines:
     lushootseed: ʔuǰiq̓aladᶻəd [ʔal ti] tuɬax̌.
     english: He set nets last night.
 
-  - html: "<div class='sectionNumber'>10.2</div>"
+  - html: "<div class='sectionNumber'>10A.2</div>"
 
   - startTime: 1776415
     endTime:   1778999
@@ -1423,7 +1423,7 @@ lines:
     lushootseed: ʔuyayus [ʔal ti] tuɬax̌.
     english: She worked last night.
 
-  - html: "<div class='sectionNumber'>10.3</div>"
+  - html: "<div class='sectionNumber'>10A.3</div>"
 
   - startTime: 1796562
     endTime:   1799059
@@ -1440,7 +1440,7 @@ lines:
     lushootseed: ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.
     english: He played hard and evening came.
 
-  - html: "<div class='sectionNumber'>10.4</div>"
+  - html: "<div class='sectionNumber'>10A.4</div>"
 
   - startTime: 1820412
     endTime:   1823123
@@ -1457,7 +1457,9 @@ lines:
     lushootseed: ʔuʔukʷukʷ ʔə tə tib, gʷə(l) ləɬax̌il.
     english: She played hard and evening came.
 
-  - html: "<div class='sectionNumber'>10.1b</div>"
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - html: "<div class='sectionNumber'>10B.1</div>"
 
   - startTime: 1849307
     endTime:   1851455
@@ -1474,7 +1476,7 @@ lines:
     lushootseed: hiqab čəd ʔuʔəɬəd.
     english: I ate too much.
 
-  - html: "<div class='sectionNumber'>10.2b</div>"
+  - html: "<div class='sectionNumber'>10B.2</div>"
 
   - startTime: 1867501
     endTime:   1869129
@@ -1491,7 +1493,7 @@ lines:
     lushootseed: hiqab čəd ʔuqʷu(ʔ)qʷaʔ.
     english: I drank too much.
 
-  - html: "<div class='sectionNumber'>10.3b</div>"
+  - html: "<div class='sectionNumber'>10B.3</div>"
 
   - startTime: 1885808
     endTime:   1887267
@@ -1509,7 +1511,7 @@ lines:
     english: I worked too long.
 
 
-  - html: "<div class='sectionNumber'>10.4b</div>"
+  - html: "<div class='sectionNumber'>10B.4</div>"
 
   - startTime: 1905179
     endTime:   1906795
@@ -1599,7 +1601,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>11.1</div>"
+  - html: "<div class='sectionNumber'>11A.1</div>"
 
   - startTime: 1989467
     endTime:   1991796
@@ -1612,7 +1614,7 @@ lines:
     lushootseed: ʔi.  ʔa ti dbiac.
     english: Yes.  I have (some) meat.
 
-  - html: "<div class='sectionNumber'>11.2</div>"
+  - html: "<div class='sectionNumber'>11A.2</div>"
 
   - startTime: 2006033
     endTime:   2008227
@@ -1624,7 +1626,7 @@ lines:
     lushootseed: ʔi.  ʔa ti dsʔuladxʷ.
     english: Yes.  I have (some) salmon.
 
-  - html: "<div class='sectionNumber'>11.3</div>"
+  - html: "<div class='sectionNumber'>11A.3</div>"
 
   - startTime: 2022468
     endTime:   2024728
@@ -1636,7 +1638,7 @@ lines:
     lushootseed: ʔi. ʔa ti dsʔax̌ʷuʔ.
     english: Yes. I have (some) clams.
 
-  - html: "<div class='sectionNumber'>11.4</div>"
+  - html: "<div class='sectionNumber'>11A.4</div>"
 
   - startTime: 2038030
     endTime:   2040628
@@ -1649,7 +1651,7 @@ lines:
     english: Yes. I have (some) berries.
 
 
-  - html: "<div class='sectionNumber'>11.5</div>"
+  - html: "<div class='sectionNumber'>11A.5</div>"
 
   - startTime: 2055284
     endTime:   2057653
@@ -1673,7 +1675,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-  - html: "<div class='sectionNumber'>11.1b</div>"
+  - html: "<div class='sectionNumber'>11B.1</div>"
 
   - startTime: 2089726
     endTime:   2091875
@@ -1685,7 +1687,7 @@ lines:
     lushootseed: ʔi.  qa ti dbiac. ɬušabalikʷ čəd.
     english:  Yes.  I have a lot of meat.  I'll (have to) dry it.
 
-  - html: "<div class='sectionNumber'>11.2b</div>"
+  - html: "<div class='sectionNumber'>11B.2</div>"
 
   - startTime: 2109656
     endTime:   2112000
@@ -1697,7 +1699,7 @@ lines:
     lushootseed: ʔi.  qa ti dsʔulaxʷ. ɬušabalikʷ čəd.
     english:  Yes.  I have a lot of salmon.  I'll (have to) dry it.
 
-  - html: "<div class='sectionNumber'>11.3b</div>"
+  - html: "<div class='sectionNumber'>11B.3</div>"
 
   - startTime: 2127565
     endTime:   2129777
@@ -1709,7 +1711,7 @@ lines:
     lushootseed: ʔi.  qa ti dsʔax̌uʔ. ɬušabalikʷ čəd.
     english:  Yes.  I have a lot of clams.  I'll (have to) dry them.
 
-  - html: "<div class='sectionNumber'>11.4b</div>"
+  - html: "<div class='sectionNumber'>11B.4</div>"
 
   - startTime: 2145486
     endTime:   2148181
@@ -1721,7 +1723,7 @@ lines:
     lushootseed: ʔi.  qa ti dsq̓ʷəlaɬəd. ɬušabalikʷ čəd.
     english:  Yes.  I have a lot of berries.  I'll (have to) dry them.
 
-  - html: "<div class='sectionNumber'>11.5b</div>"
+  - html: "<div class='sectionNumber'>11B.5</div>"
 
   - startTime: 2163793
     endTime:   2166061
@@ -1786,7 +1788,7 @@ lines:
                  </details>
                </div>"
 
-  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
   - html: "<div class='sectionNumber'>12.1</div>"
 
@@ -2227,7 +2229,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>14.1</div>"
+  - html: "<div class='sectionNumber'>14A.1</div>"
 
   - startTime: 2789969
     endTime:   2792128
@@ -2239,7 +2241,7 @@ lines:
     lushootseed: ʔulub čəd ʔi ti x̌ʷəl.
     english: I am nineteen.
 
-  - html: "<div class='sectionNumber'>14.2</div>"
+  - html: "<div class='sectionNumber'>14A.2</div>"
 
   - startTime: 2804268
     endTime:   2806698
@@ -2251,7 +2253,7 @@ lines:
     lushootseed: saliʔačiʔ čəd ʔi ti dəč̓uʔ.
     english: I am twenty-one.
     
-  - html: "<div class='sectionNumber'>14.3</div>"
+  - html: "<div class='sectionNumber'>14A.3</div>"
 
   - startTime: 2821199
     endTime:   2823519
@@ -2265,7 +2267,7 @@ lines:
     
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-  - html: "<div class='sectionNumber'>B14.1</div>"
+  - html: "<div class='sectionNumber'>14B.1</div>"
 
   - startTime: 2839750
     endTime:   2842577
@@ -2277,7 +2279,7 @@ lines:
     lushootseed: scəbdat.
     english: Tuesday. (Second day)
     
-  - html: "<div class='sectionNumber'>B14.2</div>"
+  - html: "<div class='sectionNumber'>14B.2</div>"
 
   - startTime: 2853441
     endTime:   2856252
@@ -2290,7 +2292,7 @@ lines:
     english: Wednesday.  (Third day)
     
     
-  - html: "<div class='sectionNumber'>B14.3</div>"
+  - html: "<div class='sectionNumber'>14B.3</div>"
 
   - startTime: 2870055
     endTime:   2872869
@@ -2304,7 +2306,7 @@ lines:
     
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition C</h5></div>"
     
-  - html: "<div class='sectionNumber'>C14.1</div>"
+  - html: "<div class='sectionNumber'>14C.1</div>"
 
   - startTime: 2900308
     endTime:   2901766
@@ -2316,7 +2318,7 @@ lines:
     lushootseed: p̓əɬq̓ʷ ʔə tə t̓agʷt.
     english: After (twelve) noon.
     
-  - html: "<div class='sectionNumber'>C14.2</div>"
+  - html: "<div class='sectionNumber'>14C.2</div>"
 
   - startTime: 2913525
     endTime:   2915224
@@ -2328,7 +2330,7 @@ lines:
     lushootseed: saliʔəxʷ ʔi tə ʔiɬčəx̌.
     english: Half past two.
     
-  - html: "<div class='sectionNumber'>C14.3</div>"
+  - html: "<div class='sectionNumber'>14C.3</div>"
 
   - startTime: 2929517
     endTime:   2931338
@@ -2342,7 +2344,7 @@ lines:
     
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition D</h5></div>"
     
-  - html: "<div class='sectionNumber'>D14.1</div>"
+  - html: "<div class='sectionNumber'>14D.1</div>"
 
   - startTime: 2948170
     endTime:   2950984
@@ -2354,7 +2356,7 @@ lines:
     lushootseed: diič̓uʔ.
     english: One person.
 
-  - html: "<div class='sectionNumber'>D14.2</div>"
+  - html: "<div class='sectionNumber'>14D.2</div>"
 
   - startTime: 2962860
     endTime:   2965675
@@ -2366,7 +2368,7 @@ lines:
     lushootseed: səsaʔliʔ.
     english: Two people
 
-  - html: "<div class='sectionNumber'>D14.3</div>"
+  - html: "<div class='sectionNumber'>14D.3</div>"
 
   - startTime: 2975886
     endTime:   2978474
@@ -2499,7 +2501,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>15.1</div>"
+  - html: "<div class='sectionNumber'>15A.1</div>"
 
   - startTime: 3114223 
     endTime:   3116090
@@ -2511,7 +2513,7 @@ lines:
     lushootseed: ʔušabalikʷ čəd ʔə tiʔəʔ sɬuʔəb.
     english:  I'm drying dog salmon.
 
-  - html: "<div class='sectionNumber'>15.2</div>"
+  - html: "<div class='sectionNumber'>15A.2</div>"
 
   - startTime: 3131710
     endTime:   3133409
@@ -2523,7 +2525,7 @@ lines:
     lushootseed: ʔuʔəɬəd čəd ʔə tiʔəʔ duʔayus.
     english:  I'm eating fermented salmon eggs.
 
-  - html: "<div class='sectionNumber'>15.3</div>"
+  - html: "<div class='sectionNumber'>15A.3</div>"
 
   - startTime: 3146729
     endTime:   3148515
@@ -2535,7 +2537,7 @@ lines:
     lushootseed: ʔuƛ̓uc̓ič čəd ʔə tiʔəʔ huyəq.
     english:  I'm making a gill net.
 
-  - html: "<div class='sectionNumber'>15.4</div>"
+  - html: "<div class='sectionNumber'>15A.4</div>"
 
   - startTime: 3162738
     endTime:   3164484
@@ -2549,7 +2551,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-  - html: "<div class='sectionNumber'>B15.1</div>"
+  - html: "<div class='sectionNumber'>15B.1</div>"
 
   - startTime: 3182257
     endTime:   3184035
@@ -2561,7 +2563,7 @@ lines:
     lushootseed: ʔušabalikʷ čəɬ ʔə tiʔəʔ sɬuʔəb.
     english: We are drying dog salmon.
 
-  - html: "<div class='sectionNumber'>B15.2</div>"
+  - html: "<div class='sectionNumber'>15B.2</div>"
 
   - startTime: 3198690
     endTime:   3200860
@@ -2573,7 +2575,7 @@ lines:
     lushootseed: ʔuqʷuləčalikʷ čəɬ ʔə tiʔəʔ qiw̓x̌.
     english: We are dip netting steelhead.
 
-  - html: "<div class='sectionNumber'>B15.3</div>"
+  - html: "<div class='sectionNumber'>15B.3</div>"
 
   - startTime: 3220099
     endTime:   3221823
@@ -2585,7 +2587,7 @@ lines:
     lushootseed: ʔuʔax̌u(ʔ)b čəɬ ʔə tiʔəʔ sx̌əp̓ab.
     english: We are getting (i.e., clamming) cockles.
 
-  - html: "<div class='sectionNumber'>B15.4</div>"
+  - html: "<div class='sectionNumber'>15B.4</div>"
 
   - startTime: 3236951
     endTime:   3238689
@@ -2833,7 +2835,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>18.1</div>"
+  - html: "<div class='sectionNumber'>18A.1</div>"
 
   - startTime: 3592767
     endTime:   3594763
@@ -2845,7 +2847,7 @@ lines:
     lushootseed: š(ə)qabac ʔal tə piit.
     english: On top of the bed.
 
-  - html: "<div class='sectionNumber'>18.2</div>"
+  - html: "<div class='sectionNumber'>18A.2</div>"
 
   - startTime: 3607456
     endTime:   3609708
@@ -2858,7 +2860,7 @@ lines:
     english: On top of the table.
 
 
-  - html: "<div class='sectionNumber'>18.3</div>"
+  - html: "<div class='sectionNumber'>18A.3</div>"
 
   - startTime: 3623133
     endTime:   3625262
@@ -2870,7 +2872,7 @@ lines:
     lushootseed: gʷədabac ʔal tə piit.
     english: Under the bed.
 
-  - html: "<div class='sectionNumber'>18.4</div>"
+  - html: "<div class='sectionNumber'>18A.4</div>"
 
   - startTime: 3639480
     endTime:   3641521
@@ -2884,7 +2886,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-  - html: "<div class='sectionNumber'>B18.1</div>"
+  - html: "<div class='sectionNumber'>18B.1</div>"
 
   - startTime: 3658438
     endTime:   3661299
@@ -2896,7 +2898,7 @@ lines:
     lushootseed: ʔubəčaš čəxʷ š(ə)qabac ʔal tə piit.
     english: "You put [it] on the bed."
 
-  - html: "<div class='sectionNumber'>B18.2</div>"
+  - html: "<div class='sectionNumber'>18B.2</div>"
 
   - startTime: 3678753
     endTime:   3682073
@@ -2908,7 +2910,7 @@ lines:
     lushootseed: ʔubəčaš čəxʷ š(ə)qabac ʔal tə tibu.
     english: "You put [them] on top of the table."
 
-  - html: "<div class='sectionNumber'>B18.3</div>"
+  - html: "<div class='sectionNumber'>18B.3</div>"
 
   - startTime: 3698673
     endTime:   3702062
@@ -2921,7 +2923,7 @@ lines:
     english: "You put [it/them] under the bed."
 
 
-  - html: "<div class='sectionNumber'>B18.4</div>"
+  - html: "<div class='sectionNumber'>18B.4</div>"
 
   - startTime: 3719847
     endTime:   3723203
@@ -2936,7 +2938,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition C</h5></div>"
 
-  - html: "<div class='sectionNumber'>C18.1</div>"
+  - html: "<div class='sectionNumber'>18C.1</div>"
 
   - startTime: 3744014
     endTime:   3746406
@@ -2958,7 +2960,7 @@ lines:
     lushootseed: ʔuq̓ilid čəd dxʷʔal t(i) adƛ̓əlayʔ.
     english: "I put/loaded [it] into your shovel-nose canoe."
 
-  - html: "<div class='sectionNumber'>C18.2</div>"
+  - html: "<div class='sectionNumber'>18C.2</div>"
 
   - startTime: 3776097
     endTime:   3777945
@@ -2981,7 +2983,7 @@ lines:
     english: "I put/loaded [it] into your shovel-nose canoe."
 
 
-  - html: "<div class='sectionNumber'>C18.3</div>"
+  - html: "<div class='sectionNumber'>18C.3</div>"
 
   - startTime: 3803399
     endTime:   3805300
@@ -3004,7 +3006,7 @@ lines:
     english: "I put/loaded [it] into your shovel-nose canoe."
 
 
-  - html: "<div class='sectionNumber'>C18.4</div>"
+  - html: "<div class='sectionNumber'>18C.4</div>"
 
   - startTime: 3829493
     endTime:   3831461
@@ -3122,6 +3124,24 @@ lines:
     lushootseed: ʔəxʷsgʷa(h)b čəxʷ (ʔ)u.
     english: (Would) you (like to) come along?
 
+  - html: "<div class='sectionNumber'>19.6</div>"
+
+  - startTime: 3957958
+    endTime:   3959733
+    lushootseed: lədxʷčad čələp.
+    english: Where are you folks going now?
+
+  - startTime: 3962282
+    endTime:   3965496
+    lushootseed: ləʔux̌ čəɬ dxʷʔal tə ʔəɬədalʔtxʷ.
+    english: 
+
+  - startTime: 3967277
+    endTime:   3969181
+    lushootseed: ʔəxʷsgʷa(h)b čəxʷ (ʔu).
+    english: (Would) you (like to) come along?
+
+
   - html: "<div class='sectionNumber'>19.7</div>"
 
   - startTime: 3978104
@@ -3145,7 +3165,7 @@ lines:
     english: (Would) you (like to) come along?
 
   - html: "<div class='sectionNumber'>19.8</div>"
-
+ 
   - html: "<div style='margin: 30px'>(No audio available for this section)</div>"
 
   - startTime: 0
@@ -3167,18 +3187,18 @@ lines:
 
   - startTime: 4009440
     endTime:   4017557
-    lushootseed: "lədxʷčad [čələp], lədxʷčad [čələp].  gʷat, gʷat."
-    english: ""
+    lushootseed: lədxʷčad [čələp], lədxʷčad [čələp].  gʷat, gʷat.
+    english: 
 
   - startTime: 4024861
     endTime:   4032463
-    lushootseed: "tul̓ʔal čəɬ lil, tul̓ʔal čəɬ lil."
-    english: ""
+    lushootseed: tul̓ʔal čəɬ lil, tul̓ʔal čəɬ lil.
+    english: 
 
   - startTime: 4032787
     endTime:   4039972
-    lushootseed: "ləʔux̌ʷ [čəɬ], ləʔux̌ʷ [čəɬ] dxʷʔal st̓əč̓as, st̓əč̓as."
-    english: ""
+    lushootseed: ləʔux̌ʷ [čəɬ], ləʔux̌ʷ [čəɬ] dxʷʔal st̓əč̓as, st̓əč̓as.
+    english: 
 
   - html: "<div class='lessonTitle'>Lesson Twenty: saliʔačiʔ</div>"
 
@@ -3225,7 +3245,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>20.1</div>"
+  - html: "<div class='sectionNumber'>20A.1</div>"
 
   - startTime: 4062523
     endTime:   4064209
@@ -3247,7 +3267,7 @@ lines:
     lushootseed: ʔəsɬaɬlil ʔal <u>dᶻ</u>idᶻəlal̓ič.
     english: He lives in Seattle
 
-  - html: "<div class='sectionNumber'>20.2</div>"
+  - html: "<div class='sectionNumber'>20A.2</div>"
 
   - startTime: 4096132
     endTime:   4097714
@@ -3269,7 +3289,7 @@ lines:
     lushootseed: ʔəsɬaɬlil ʔal s<u>t̓</u>əč̓as.
     english: She lives in Olympia.
 
-  - html: "<div class='sectionNumber'>20.3</div>"
+  - html: "<div class='sectionNumber'>20A.3</div>"
 
   - startTime: 4128095
     endTime:   4130211
@@ -3292,7 +3312,7 @@ lines:
     english: He is Snoqualmie.
 
 #----
-  - html: "<div class='sectionNumber'>20.4</div>"
+  - html: "<div class='sectionNumber'>20A.4</div>"
 
   - startTime: 4161894
     endTime:   4163923
@@ -3717,42 +3737,42 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>23.A1</div>"
+  - html: "<div class='sectionNumber'>23A.1</div>"
 
   - startTime: 4681163
     endTime:   4684543
     lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəstagʷəxʷ.
     english: Why are you hungry?
 
-  - html: "<div class='sectionNumber'>23.A2</div>"
+  - html: "<div class='sectionNumber'>23A.2</div>"
 
   - startTime: 4694613
     endTime:   4697815
     lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəstaqʷuʔ.
     english: Why are you thirsty?
 
-  - html: "<div class='sectionNumber'>23.A3</div>"
+  - html: "<div class='sectionNumber'>23A.3</div>"
 
   - startTime: 4704000
     endTime:   4706950
     lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəsxʷak̓ʷil.
     english: Why are you tired?
 
-  - html: "<div class='sectionNumber'>23.A4</div>"
+  - html: "<div class='sectionNumber'>23A.4</div>"
 
   - startTime: 4713592
     endTime:   4716593
     lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəsƛ̓ax̌.
     english: Why are you cold?
 
-  - html: "<div class='sectionNumber'>23.A5</div>"
+  - html: "<div class='sectionNumber'>23A.5</div>"
 
   - startTime: 4722381
     endTime:   4725402
     lushootseed: ʔəsʔəx̌id kʷ(i) adəxʷəs(h)ədqʷəb.
     english: Why are you warm?
 
-  - html: "<div class='sectionNumber'>23.A6</div>"
+  - html: "<div class='sectionNumber'>23A.6</div>"
 
   - startTime: 4733201
     endTime:   4736588
@@ -3762,7 +3782,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-  - html: "<div class='sectionNumber'>23.B1</div>"
+  - html: "<div class='sectionNumber'>23B.1</div>"
 
   - startTime: 4746648
     endTime:   4749444
@@ -3784,7 +3804,7 @@ lines:
     lushootseed: xʷiʔ gʷədsəs(h)aydxʷ. tux̌ʷ čəd huy ʔəstagʷəxʷ.
     english: I don't know.  I just am (hungry).
 
-  - html: "<div class='sectionNumber'>23.B2</div>"
+  - html: "<div class='sectionNumber'>23B.2</div>"
 
   - startTime: 4784864
     endTime:   4787036
@@ -3806,7 +3826,7 @@ lines:
     lushootseed: xʷiʔ gʷədsəs(h)aydxʷ. tux̌ʷ čəd huy ʔəstaqʷuʔ.
     english: I don't know.  I just am (thirsty).
 
-  - html: "<div class='sectionNumber'>23.B3</div>"
+  - html: "<div class='sectionNumber'>23B.3</div>"
 
   - startTime: 4820552
     endTime:   4823052
@@ -3828,7 +3848,7 @@ lines:
     lushootseed: ʔəsƛ̓ax̌ čəd; ʔuɬač̓ tə hud.
     english: I'm cold [because] the fire went out.
 
-  - html: "<div class='sectionNumber'>23.B4</div>"
+  - html: "<div class='sectionNumber'>23B.4</div>"
 
   - startTime: 4850286
     endTime:   4852603
@@ -3850,7 +3870,7 @@ lines:
     lushootseed: xʷiʔ gʷəsdəs(h)aydxʷ.  tux̌ʷ čəd huy ʔəs(h)ədqʷəb.   
     english: I don't know.  I just am (warm).
 
-  - html: "<div class='sectionNumber'>23.B5</div>"
+  - html: "<div class='sectionNumber'>23B.5</div>"
 
   - startTime: 4881103
     endTime:   4883726
@@ -3874,7 +3894,7 @@ lines:
 
 
 
-  - html: "<div class='sectionNumber'>23.B6</div>"
+  - html: "<div class='sectionNumber'>23B.6</div>"
 
   - startTime: 4908672
     endTime:   4911114
@@ -3927,7 +3947,7 @@ lines:
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
-  - html: "<div class='sectionNumber'>24.A1</div>"
+  - html: "<div class='sectionNumber'>24A.1</div>"
 
   - startTime: 4944177
     endTime:   4946771
@@ -3944,7 +3964,7 @@ lines:
     lushootseed: tukʷaxʷac ti dscapaʔ.
     english: My grandfather helped me.
 
-  - html: "<div class='sectionNumber'>24.A2</div>"
+  - html: "<div class='sectionNumber'>24A.2</div>"
 
 # stop at 1:10
 # started at 1:52
@@ -3964,7 +3984,7 @@ lines:
     lushootseed: ʔux̌əƛ̓c tiʔiɬ hikʷ sqʷəbayʔ.
     english: That big dog bit me.
 
-  - html: "<div class='sectionNumber'>24.A3</div>"
+  - html: "<div class='sectionNumber'>24A.3</div>"
 
   - startTime: 4987398
     endTime: 4989472
@@ -3976,7 +3996,7 @@ lines:
     lushootseed: ʔi.  ʔəsləqcid čəd.  stab kʷ(i) adsx̌aƛ̓.
     english: Yes I hear you.  What do you want?
 
-  - html: "<div class='sectionNumber'>24.A4</div>"
+  - html: "<div class='sectionNumber'>24A.4</div>"
 
   - startTime: 5004858
     endTime: 5007521
@@ -3988,7 +4008,7 @@ lines:
     lushootseed: ʔudᶻubuc tiʔiɬ x̌ik̓ʷ stiqiw.
     english: That mean horse kicked me.
 
-  - html: "<div class='sectionNumber'>24.A5</div>"
+  - html: "<div class='sectionNumber'>24A.5</div>"
 
   - startTime: 5023898
     endTime: 5026314
@@ -4000,7 +4020,71 @@ lines:
     lushootseed: ʔux̌ibic tiʔiɬ hikʷ adpišpiš.
     english: Your big cat scratched me.
 
-# lesson 25
+# restart here, adding in choral repetiation 24B
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - html: "<div class='sectionNumber'>24B.1</div>"
+
+  - startTime: 5043454
+    endTime:   5045799
+    lushootseed: gʷat kʷi tukʷacid.
+    english: Who helped you?
+
+  - startTime: 5049339
+    endTime:   5052282
+    lushootseed: dscapaʔ ti tukʷaxʷac.
+    english: My grandfather helped me.
+
+  - html: "<div class='sectionNumber'>24B.2</div>"
+
+  - startTime: 5060366
+    endTime:   5063387
+    lushootseed: gʷat kʷi ɬuqəɬcid ɬup.
+    english: Who will wake you up early?
+
+  - startTime: 5067391
+    endTime:   5070582
+    lushootseed: dəgʷi ʔu kʷi ɬuqəɬc.
+    english: Will you (be the one to) wake me up?
+
+  - html: "<div class='sectionNumber'>24B.3</div>"
+
+  - startTime: 5077600
+    endTime:   5080041
+    lushootseed: stab kʷi tux̌əƛ̓cid.
+    english: What bit you.
+
+  - startTime: 5082513
+    endTime:   5085682
+    lushootseed: tiʔiɬ x̌ik̓ʷ adsqʷəbayʔ ti tux̌əƛ̓c.
+    english: Your mean dog bit me.
+
+  - html: "<div class='sectionNumber'>24B.4</div>"
+
+  - startTime: 5092402
+    endTime:   5094703
+    lushootseed: stab kʷi tudᶻubucid.
+    english: What kicked you?
+
+  - startTime: 5097432
+    endTime:   5100638
+    lushootseed: tiʔiɬ x̌ik̓ stiqiw ti tudᶻubuc.
+    english: That mean horse kicked me.
+
+  - html: "<div class='sectionNumber'>24B.5</div>"
+
+  - startTime: 5108095
+    endTime:   5110371
+    lushootseed: stab kʷi tux̌ibicid.
+    english: What scratched you?
+
+  - startTime: 5112986
+    endTime:  5116849 
+    lushootseed:  tiʔiɬ kikʷ adpišpiš ti tux̌ibic.
+    english: Your big cat scratched me.
+
+
 
   - html: "<div class='lessonTitle'>Lesson Twenty-Five: saliʔačiʔ ʔi ti cəlac</div>"
 
