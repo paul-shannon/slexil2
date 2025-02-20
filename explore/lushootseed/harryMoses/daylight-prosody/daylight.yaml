@@ -371,26 +371,30 @@ lines:
   - startTime: 235833
     endTime:   240433
     lushootseed:  gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
-    soundsLike: dah.doak. gwus SOCK kwee gwuhs.duss.hoy
+    soundsLike: duss.doak. gwus SOCK kwee gwuhs.duss.hoy
     morphemes: [gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
     morphemeGloss: [SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
     english: “(There I will lie down) and I will be treated well.”
 
+  - html: "<div style='margin: 30px; color: brown;'>
+           <i>(Hilbert, Hess and Beck place <b>gʷəl tucutəb</b> with this line, not the next.  - pshannon)</i>
+           </div>"
+
   - startTime: 240975
-    endTime:   244730
-    lushootseed: tukʷədatəbəxʷ ʔə tiʔəʔ siʔab tiʔəʔ diʔəʔ luƛ̓ gʷəl tucutəb
-    soundsLike: too.kwud.awt.bofe.uh tiah see.ab tiah diah loke gwul too.tsootub
-    morphemes: [tu=kʷəda–t–b=əxʷ,ʔə,tiʔəʔ,siʔab,tiʔəʔ,diʔəʔ,luƛ̓,gʷəl,tu=cut–t–b]
-    morphemeGloss: [past=take–ICS–PASS=now,pr,PROX,noble,PROX,here,old,SCONJ,past=say–ICS–PASS]
+    endTime:   243900
+    lushootseed: tukʷədatəbəxʷ ʔə tiʔəʔ siʔab tiʔəʔ diʔəʔ luƛ̓
+    soundsLike: too.kwud.awt.bofe uh tiah see.ab tiah diah loke
+    morphemes: [tu=kʷəda–t–b=əxʷ,ʔə,tiʔəʔ,siʔab,tiʔəʔ,diʔəʔ,luƛ̓]
+    morphemeGloss: [past=take–ICS–PASS=now,pr,PROX,noble,PROX,here,old]
     english: The old man was taken by the nobleman and spoken to.
 
-  - startTime: 244880 
+  - startTime: 244205
     endTime:   248195
-    lushootseed: ɬuʔal tudiʔ ʔalq̓ʷ kʷi ɬadsəstədᶻil ɬadsɬagʷid
-    soundsLike: loss toodai alk' kwee slads.uh.date slads.slalgwaid
-    morphemes: [ɬu=ʔal,tudiʔ,ʔalq̓ʷ,kʷi,ɬu=ad=s=ʔəs–tədᶻil,ɬu=ad–sɬagʷid]
-    morphemeGloss: [IRR=at,DIST.dma,away.from.fire,REM,IRR=2SG.PO=NM=STAT–lie.in.bed,IRR=2SG.PO–sleeping.mat]
-    english: “There at the back you will lie down, you will have your mat.”
+    lushootseed: gʷəl tucutəb ɬuʔal tudiʔ ʔalq̓ʷ kʷi ɬadsəstədᶻil ɬadsɬagʷid
+    soundsLike:  gwul too.tsootub loss toodee alk' kwee slads.uh.date slawds.slawgwaid
+    morphemes: [gʷəl,tu=cut–t–b,ɬu=ʔal,tudiʔ,ʔalq̓ʷ,kʷi,ɬu=ad=s=ʔəs–tədᶻil,ɬu=ad–sɬagʷid]
+    morphemeGloss: [SCONJ,past=say–ICS–PASS,IRR=at,DIST.dma,away.from.fire,REM,IRR=2SG.PO=NM=STAT–lie.in.bed,IRR=2SG.PO–sleeping.mat]
+    english: Said to him: “There at the back you will lie down, you will have your mat.”
 
   - startTime:  248403
     endTime:   251623

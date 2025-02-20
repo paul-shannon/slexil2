@@ -1,4 +1,53 @@
 linguistics = {
+"DMA":
+`
+**DMA: Demonstrative Adverbial**
+
+Section 2.5.4 of David Beck's draft grammar.
+
+Demonstrative adverbials form a class of words that have some of the
+properties of both demonstrative determiners (2.4) and lexical adverbs
+
+(Lexical adverbs: Another small lexical class is the class of
+adverbs. These are words whose primary syntactic function is as the
+modifier of the head of a predicate phrase.)
+
+The complete set of these elements listed in the
+Lushootseed Dictionary is given in Table 66:
+
+<pre>
+        PROX       DIST   REM     PROX:UNQ DIST:UNQ
+MASC   diʔaʔ       tudiʔ  kʷədiʔ   tiʔaʔ*   taʔa                  
+       dišaʔ (SL)  tadiʔ    
+FEM      —         tsudiʔ   -      tsiʔaʔ*  tsaʔa*
+                   tsadiʔ*
+
+*unattested in the present corpus
+Table 66: Demonstrative adverbials
+</pre> 
+
+As can be seen in Table 66, demonstrative adverbials coincide with the
+specific determiners (Table 58) in terms of the semantic distinctions
+they express. Like the determiners, they encode three purely spatial
+categories — proximal, distal, and remote — and (in three cases) they
+make distinctions in natural gender between non-feminine/unmarked and
+feminine when used in lieu of determiners to introduce referential
+expressions (see 275 below) or as independent pronominals (278)
+
+They also seem to mark the category of uniqueness encoded by the
+determiner tiʔacəc, although unlike the determiners, the demonstrative
+adverbials combine this category with two degrees of spatial
+deixis.
+
+Unfortunately, of the four unique forms, only one — the distal
+unique taʔa — is attested in the present corpus: neither its feminine
+form nor either of the contrasting proximal forms, tiʔaʔ and tsiʔaʔ,
+has been found in any of the analyzed texts, although examples
+containing tiʔaʔ are found in Hess & Hilbert (1976).
+
+
+
+`,
 
 "INCH":
 `
@@ -611,7 +660,78 @@ that fit this definition:
 
 "ICS":
 `
-internal causative: approximately, the transitive, event-internal
+**ICS**
+
+internal causative: approximately, the transitive, event-internal cause.
+
+**David Beck's draft grammar, section 2.1.2.1.**
+
+By far the most prevalent of the valency-increasing verbal affixes is
+-t ‘internal causative [ICS]’. This suffix is not only the most
+frequent in terms of the number of stems of which it forms a part, but
+it is also the most complex in terms of its allomorphy and
+morphophonemics and the most varied in terms of its syntactic effects
+on the stem to which it attaches.
+
+Its primary and most prevalent use is as a transitive causative suffix
+which changes a patient-oriented monovalent stem expressing a state
+into a transitive stem by adding a semantic AGENT, realized as a
+syntactic subject:
+
+<pre>
+
+      39) a. ʔut’uc’ čəd
+             ʔu–t’uc’   čəd
+              PFV–shot  1SG.SUB
+             ‘I got shot’     (Bates, Hess & Hilbert 1994)
+
+          b. ʔut’uc’ucid ʔu
+             ʔu–t’uc’u–t–sid         ʔu
+             PFV–shot–ICS–2SG.OBJ   INT
+             ‘did s/he shoot (at) you?’   (Hess 1995: 43, ex. 11a)
+
+          c. ʔut’uc’utəb čəd
+             ʔu–t’uc’u–t–əb         čəd
+             PFV–shot–ICS–PASS  1SG.SUB
+             ‘I was shot (at)’  (Bates, Hess & Hilbert 1994)
+
+</pre>
+
+While the vast majority of stems formed with -t have translation
+equivalents in most languages which are ordinary transitive verbs, the
+syntactic effects of this suffix are clearly causative, as are its
+semantic effects — keeping in mind the basically stative nature of
+Lushootseed radicals: the radical itself expresses a state while the
+derived transitive stems expresses an action preformed by an AGENT
+resulting in a PATIENT coming into that state.
+
+This added AGENT, like the CAUSER in typologically more ordinary
+causatives, is realized as the syntactic subject while the subject of
+the radical becomes the direct object of the transitive stem, marked
+by the s-series of object markers (Section 8.1.2), as in (39b).
+
+As shown by (39c), the object of an internal causative stem is an
+ordinary direct object and is amenable to syntactic operations such as
+passivization. When the derived stem takes an overt NP argument, this
+argument is obligatorily interpreted as direct object:
+
+<pre>
+     (40) ʔuk’ʷəɬəd ti qʷuʔ
+          ʔu–k’ʷəɬ–d       ti   qʷuʔ
+          PFV–poured–ICS SPEC  water
+          ‘s/he poured the water’ (Hess 1995: 18, ex. 1a)
+</pre>
+
+This is an interpretative property of all transitive verbs and will be discussed in more detail in
+Section 8.2.2 below.
+
+The internal causative suffix -t has four allomorphs — [-t], [-d],
+[-əd], and [-š]. Of these, [-t], [-d], [-əd] are phonologically
+conditioned: [-t] is the elsewhere form, while [-d] is restricted to
+word-final position (that is, last position suffix-string not
+including bound enclitics) following vowels and approximants (41):26
+
+**General linguistic comments**
 
 Internal causative verbs are verbs that are caused by the inherent
 properties of their subject. They are a type of alternating verb in

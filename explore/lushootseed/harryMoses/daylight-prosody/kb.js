@@ -1,6 +1,102 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"dma":
+`
+**DMA: Demonstrative Adverbial**
+
+Section 2.5.4 of David Beck's draft grammar.
+
+Demonstrative adverbials form a class of words that have some of the
+properties of both demonstrative determiners (2.4) and lexical adverbs
+
+(Lexical adverbs: Another small lexical class is the class of
+adverbs. These are words whose primary syntactic function is as the
+modifier of the head of a predicate phrase.)
+
+The complete set of these elements listed in the
+Lushootseed Dictionary is given in Table 66:
+
+<pre>
+        PROX       DIST   REM     PROX:UNQ DIST:UNQ
+MASC   diʔaʔ       tudiʔ  kʷədiʔ   tiʔaʔ*   taʔa                  
+       dišaʔ (SL)  tadiʔ    
+FEM      —         tsudiʔ   -      tsiʔaʔ*  tsaʔa*
+                   tsadiʔ*
+
+*unattested in the present corpus
+Table 66: Demonstrative adverbials
+</pre> 
+
+As can be seen in Table 66, demonstrative adverbials coincide with the
+specific determiners (Table 58) in terms of the semantic distinctions
+they express. Like the determiners, they encode three purely spatial
+categories — proximal, distal, and remote — and (in three cases) they
+make distinctions in natural gender between non-feminine/unmarked and
+feminine when used in lieu of determiners to introduce referential
+expressions (see 275 below) or as independent pronominals (278)
+
+They also seem to mark the category of uniqueness encoded by the
+determiner tiʔacəc, although unlike the determiners, the demonstrative
+adverbials combine this category with two degrees of spatial
+deixis.
+
+Unfortunately, of the four unique forms, only one — the distal
+unique taʔa — is attested in the present corpus: neither its feminine
+form nor either of the contrasting proximal forms, tiʔaʔ and tsiʔaʔ,
+has been found in any of the analyzed texts, although examples
+containing tiʔaʔ are found in Hess & Hilbert (1976).
+`,
+
+"tukʷədatəbəxʷ ʔə tiʔəʔ siʔab tiʔəʔ diʔəʔ luƛ̓":
+`
+**tukʷədatəbəxʷ ʔə tiʔəʔ siʔab tiʔəʔ diʔəʔ luƛ̓**
+
+Hilbert and Hess 1977 translate this and the next line:
+
+<pre>
+   The nobleman took the old fellow and said,
+   "Over there at the back you will go to bed,
+   you will [have a] pallet."
+</pre>
+
+
+This line has the (rare) structure described in David Beck's
+draft grammar, section 6.2, "Passive voice".
+
+The passive voice in Lushootseed is formed on transitive stems by the
+addition of a morpheme __-b__ ‘passive [PASS]’. The application of the
+passive suffix results in a form in which the **PATIENT/ENDPOINT** (the
+object of the transitive form) is realized as the subject of the
+passive form and the **AGENT/INITIATOR** (the transitive subject) is
+realized as an **agentive complement** (Section 8.1.7) introduced by the
+general preposition ʔə.
+
+Sentences with both an overt subject NP and an agentive complement are
+rare in texts. When they do occur, the preferred order is that shown
+in (446a); however, either order of subject and agentive complement is
+accepted by speakers and attested in texts:
+
+<pre>
+
+(446) a. ʔugʷəč’təb ʔə ti č’ač’as ti sqʷəbayʔ
+         ʔu–gʷəč’–t–b        ʔə   ti   č’ač’as    ti   sqʷəbayʔ
+         PFV–search–ICS–PASS PR SPEC     child  SPEC   dog
+         ‘the dog was looked for by the boy’
+
+      b. ʔugʷəč’təb ti sqʷəbayʔ ʔə ti č’ač’as
+         ʔu–gʷəč’–t–b          ti   sqʷəbayʔ   ʔə    ti  č’ač’as
+         PFV–search–ICS–PASS SPEC   dog        PR  SPEC   child
+         ‘the dog was looked for by the boy’
+
+         (Hess 1995: 23, ex. 6a–b)
+
+</pre>
+
+
+`,
+
+
 "tu=kʷəda–t–b=əxʷ":
 `
 **tu=kʷəda–t–b=əxʷ**
