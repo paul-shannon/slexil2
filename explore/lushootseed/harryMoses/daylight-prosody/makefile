@@ -8,7 +8,7 @@ default:
 	@echo  curl
 	@echo  eaf
 	@echo  html
-	@echo  y2h    # yaml2html
+#	@echo  y2h    # yaml2html
 	@echo  s2h    # yaml2html
 	@echo  publish
 	@echo  publish-audio
@@ -25,12 +25,12 @@ curl:
 http:
 	python -m http.server $(PORT) &
 
-y2h:
-	python $(BASEDIR)/utils/yaml2html.py \
-        --yaml daylight.yaml \
-        --tierGuide tierGuide.yaml \
-        --kbFilename kb.js \
-        --linguistics linguisticTerms.js \
+#y2h:
+#	python $(BASEDIR)/utils/yaml2html.py \
+#        --yaml daylight.yaml \
+#        --tierGuide tierGuide.yaml \
+#        --kbFilename kb.js \
+#        --linguistics linguisticTerms.js \
 
 s2h:
 	python $(BASEDIR)/utils/sfmt2html.py \

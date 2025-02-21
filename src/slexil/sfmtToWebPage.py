@@ -385,6 +385,7 @@ class sfmtToWebPage:
          print("--- entering createTextDiv")
       with htmlDoc.tag("div", id="textDiv"):
          tierNumber = 0
+         htmlLineNumber = 0
          tbl = self.sfmt.getOrderedLineObjectsTieredAndHTML()
          htmlLines = self.sfmt.getAllHtml()
          tieredLines = self.sfmt.getTieredLines()
@@ -394,11 +395,13 @@ class sfmtToWebPage:
             lineType = tbl.loc[i]['type']
             signature = tbl.loc[i]['signature']
             if lineType == "html":
-               htmlLine = [html for html in htmlLines if html.find(signature) >= 0][0]
+               htmlLine = htmlLines[htmlLineNumber]
+               #htmlLine = [html for html in htmlLines if html.find(signature) >= 0][htmlLineNumber]
                if htmlLine.find("html:") >= 0:
                   htmlLine = htmlLine.split("html:")[1].strip()
                with htmlDoc.tag("div", klass="tier tier-html", name="html"):
                    htmlDoc.asis(htmlLine)
+               htmlLineNumber += 1  # indexes into htmlLines array
             elif lineType == "tier":
                tierNumber += 1
                tierGuide = self.sfmt.getTierGuide()

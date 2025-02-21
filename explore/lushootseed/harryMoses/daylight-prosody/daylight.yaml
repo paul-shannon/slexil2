@@ -376,8 +376,8 @@ lines:
     morphemeGloss: [SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
     english: “(There I will lie down) and I will be treated well.”
 
-  - html: "<div style='margin: 30px; color: brown;'>
-           <i>(Hilbert, Hess and Beck place <b>gʷəl tucutəb</b> with this line, not the next.  - pshannon)</i>
+  - html: "<div style='margin: 30px; color: darkred;'>
+           <i>(Hilbert, Hess and Beck place <b>gʷəl tucutəb</b> at the end of this line, not the next.  - pshannon)</i>
            </div>"
 
   - startTime: 240975

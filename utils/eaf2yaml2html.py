@@ -7,6 +7,7 @@ if (len(sys.argv) != 2):
     print("usage: python eaf2yaml2html.py <eafFile> or <lists.txt>")
     sys.exit(1)
 
+scriptsDir = "/Users/paul/github/slexil2/utils"
 file = sys.argv[1]
 fileStem = Path(file).stem
 fileExtension = Path(file).suffix
@@ -31,13 +32,13 @@ for eafFile in eafFiles:
       print(); print();
       print("--- eaf2yaml2html %s" % eafFile, flush=True)
       print()
-      cmd1 = "python eaf2yaml.py --eaf %s --outputDir %s" % (eafFile, outputDir)
+      cmd1 = "python %s/eaf2yaml.py --eaf %s --outputDir %s" % (scriptsDir, eafFile, outputDir)
       print("cmd1: %s" % cmd1)
       status1 = os.system(cmd1)
    
       yamlFile = "%s/%s.yaml" % (outputDir, Path(eafFile).stem)
       if os.path.isfile(yamlFile):
-         cmd2 = "python yaml2html.py --yaml %s --outputDir %s" % (yamlFile, outputDir)
+         cmd2 = "python %s/yaml2html.py --yaml %s --outputDir %s" % (scriptsDir, yamlFile, outputDir)
          print("cmd2: %s" % cmd2)
          status2 = os.system(cmd2)
 

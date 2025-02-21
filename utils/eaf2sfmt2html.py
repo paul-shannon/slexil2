@@ -53,7 +53,7 @@ for eafFile in eafFiles:
       print("-----------------------------------------------------------------")
       tbl = p.getTierTable()
       text = p.toSFMT("title", "speaker", "transcriber")
-      yamlOutFile = "testRuns/%s.yaml" % baseName
+      yamlOutFile = "testResults/%s.yaml" % baseName
       p.writeSFMT(text, yamlOutFile)
       projectDirectory = "./"
       text = sfmtToWebPage(yamlOutFile,
@@ -72,7 +72,7 @@ for eafFile in eafFiles:
                            webpackLinksOnly=False,
                            useTooltips=False)
       htmlText = text.toHTML()
-      htmlFileName = "testRuns/%s.html" % baseName
+      htmlFileName = "testResults/%s.html" % baseName
       print("--- writing html file for at %s" % htmlFileName)
       with open(htmlFileName, "w") as file:
           file.write(htmlText)
