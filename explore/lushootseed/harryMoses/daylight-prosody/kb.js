@@ -4387,16 +4387,18 @@ context.
 
 "siʔab":
  `
- - root: ʔiʔáb  (wealth)
+ __siʔab__
+
+ - LD 203: "see ʔiʔáb"
+ - root: ʔiʔáb  (wealth)  LD 15
+ - siʔáb: (nominalized) *nobleman, person of influence, *leader
  - shape:   CVCVC
- - bibl, Hess: 678.3
  - sense 1:  *wealth
  - compare  s√walus  "dear, courteous, respected" 
  - sense 2: endearing term of address to a little boy
  - ʔíʔab-il: become wealthy, rich
  - tu√ʔíʔabilʼəxʷ:  They (received) abundance (became wealthy). 
- - siʔáb: *nobleman, person of influence, *leader
- -  tsi siʔab:  noblelady, madam, wife of a siʔab
+ - tsi siʔab:  noblelady, madam, wife of a siʔab
  - siʔab s√tubš:  honored man
  - ʔíʔiyəb: young man who is related <note type="cnslt">LG</note> </gloss>
  - red1:  s-ʔí+√ʔiʔəb,  sort of high class
