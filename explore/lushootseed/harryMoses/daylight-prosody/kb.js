@@ -1,6 +1,57 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ɬu=ad–sɬagʷid":
+`
+**ɬu=ad–sɬagʷid**
+
+- _ɬagʷ_: mat, sleeping mat, pallet.  LD 141
+- _sɬagʷid__: nominalized, most common form?
+- _tsiʔiɬ bəsɬagʷid_: That's the woman bed.
+- _ɬagʷid-yi-d ɬi ʔal tə ʔaʔ_: layout the mat for them there.
+- _yi_: secondary suffix marking transferred agent, benefactive, dative, recipient.  LD 278.
+`,
+
+
+"ɬu=ad=s=ʔəs–tədᶻil":
+`
+**ɬu=ad=s=ʔəs–tədᶻil**
+
+- _tədᶻ-il_: go to bed, lie in bed; be in bed
+- _tədᶻ-il-txʷ_: put someone to bed
+- _ti-tədᶻ-il_: lie down for a little while.
+  red1 (CV+, smallness, diminished action)
+- _taadᶻil_: several lie in bed, several go to bed.
+  red6 (VV, intensified, augmented group or events)
+`,
+
+"ʔalq̓ʷ":
+`
+**ʔalq̓ʷ**
+
+- away from the center
+- away from the fire
+- toward the wall
+- at the periphery
+- located at the back of an assembly hall
+- LD 7
+
+`,
+
+
+"ɬu=ʔal":
+`
+**ɬu=ʔal**
+
+- _ɬu_: anticipated, expected or possible event; future
+- _ʔal_
+    - on, along, through, in, at; when
+    - be located at or by some specific point in time or space
+    - location with reference to something named
+    - compare _ʔa_: be located, be there in time or space
+    - LD 4
+`,
+    
 "dma":
 `
 **DMA: Demonstrative Adverbial**
@@ -3961,8 +4012,11 @@ lexical category functioning as predicate or complement.
 `,
     
 //------------------------------------------------------------------------------------------------------------------------
-"tudiʔ": 
-` - there, remote in time or place
+"tudiʔ":
+`
+**tudiʔ**
+
+ - there, remote in time or place
   - contrast with diʔəʔ (here); compare ʔá (there). 
   - _tudiʔ_ is actually a determiner (like an article) so it indicates that the ancestors are remote
     (in time rather than space in this case), so the phrase _tudiʔ tusluƛ’luƛ’ čəɬ_ would mean something 
