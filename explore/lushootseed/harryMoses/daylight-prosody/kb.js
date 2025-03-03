@@ -1,15 +1,44 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ƛ̓u=ši–šədᶻal":
+`
+**ƛ̓u=ši–šədᶻal**
+
+- habitually go outside a bit
+- _šədᶻal-txʷ_: take someone or something outside
+- this form used to demonstrate _red1_ version of the stem
+
+`,
+
+
+"attn":
+`
+**ATTN: attenuative**
+
+- reduced degree of a quality
+- describes at least some instances of _red1_:
+     - smallness
+     - diminished action
+     - endearment
+     - CV + _var._,  Ci+, CVʔ+, Ciʔ+
+     - bi–bəščəb: "Little Mink"
+     - ƛ̓u=ši–šədᶻal: "go outside a bit"
+
+
+`,
+
 "ɬu=ad–sɬagʷid":
 `
 **ɬu=ad–sɬagʷid**
 
 - _ɬagʷ_: mat, sleeping mat, pallet.  LD 141
-- _sɬagʷid__: nominalized, most common form?
+- _sɬagʷid_: nominalized, most common form?
 - _tsiʔiɬ bəsɬagʷid_: That's the woman bed.
+    - _bə-_: again, anew. infectional additive prefix. (relevant here?)
 - _ɬagʷid-yi-d ɬi ʔal tə ʔaʔ_: layout the mat for them there.
-- _yi_: secondary suffix marking transferred agent, benefactive, dative, recipient.  LD 278.
+    - _yi_: secondary suffix marking transferred agent, benefactive, dative,
+      recipient.  LD 278.
 `,
 
 
@@ -3684,9 +3713,11 @@ _long ago past_
 
 "xʷiʔ":
 `
+**xʷiʔ**
+
 - negative of existence, a predicate LR1.p95
 - no, not; nothing!  LD 252
-- like _bək'ʷ_ (all), this root can fill a variety of lexical positions, including predicate adverb.
+- like _bək̓ʷ_ (all), this root can fill a variety of lexical positions, including predicate adverb.
 - pshannon: does not exist
 - compare _x̌aʔx̌aʔ_ (great, sacred, taboo, mighty), _xʷah_ (forbid). contrast _ʔi_ (yes)
 - LD 252 has many instances of use as predicate.
