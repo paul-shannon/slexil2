@@ -1,6 +1,71 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"pass":
+`
+**PASS**
+
+Passive suffix, indicates passive voice: the subject is the patient,
+target, or undergoer of the action.
+
+**The larger story of the __-b__ suffix**
+
+- LD p32
+- var. _-əb_
+- be involved in doing something
+- _-b_ suffix has two distinct meanings:  middle and passive
+- Beck grammar, p353, section 6.2. The passive voice in Lushootseed is
+formed on transitive stems by the addition of a morpheme -b ‘passive
+[PASS]’. The application of the passive suffix results in a form in
+which the PATIENT/ENDPOINT (the object of the transitive form) is
+realized as the subject of the passive form and the AGENT/INITIATOR
+(the transitive subject) is realized as an agentive complement
+(Section 8.1.7) introduced by the general preposition ʔə.
+- a suffix occuring on several levels of Lushootseed morphology
+It forms a very large class of agent-oriented intransitive verb
+stems such as _qəl-b_ 'rain'.
+- with lexical stems it designates middle voice
+- in construction with _dxʷ(s)_ and _ʔaxʷ(s)-_ it creates a desiderative stem.
+- is a component in a number of derivational suffixes as well,
+and combines with transitive suffixes to form a passive construction:
+    - _-t-əb_
+    - _-du-b_
+    - _-tu-b_
+    - _-c-əb_
+    - _-s-əb_
+
+
+`,
+
+
+"ɬax̌":
+`
+**ɬax̌**
+
+- night, dark, darkness.
+- compare _bəsad_ 'grow dark', 'night'
+- contrast _ləx̌_ 'light', _ləx̌il_ 'day'
+- _hikʷ čəd ʔusəsaʔalitut, tuɬax̌_ 'I had a real bad dream last night'
+- _čəx̌gʷas sɬax̌_ 'midnight'
+- _ɬax̌il_ 'become night'
+
+
+**Vocabulary Note 10.17, page 54, from Hilbert and Hess grammar.**
+
+Note the similarity between _ɬax̌_ "night" (section 10.2) and _ləɬax̌il_ "evening".
+The latter is made from the former by fixing _lə-_ to the beginning, and _-il_ to the
+ending.  The prefix _-lə-_ indicates an ongoing action or condition (see Lession Nineteen)
+while the suffix _-il_ has the meaning of beginning or becoming (more so).
+
+Thus _ləɬax̌il_ "evening" means literally "becoming night" and has the added
+flavor of deepening darkness moving over the earth.
+
+Lushootseed words are often much more descriptive than their English translations.
+This is but the first of thousands of examples where it is seen that Lushootseed
+talks in terms of actions and changes while English manipulates things.
+
+`,
+
 "ƛ̓u=ši–šədᶻal":
 `
 **ƛ̓u=ši–šədᶻal**
