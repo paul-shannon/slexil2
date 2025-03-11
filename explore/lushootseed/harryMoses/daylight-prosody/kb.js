@@ -1,6 +1,37 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ləq̓aɬ•ucid":
+`
+**ləq̓aɬ•ucid**
+
+- _ləq̓aɬ_:  be in correct place, be on target  LD 136
+- _ucid_:  lexical suffix?   LD 243
+    - body of water (to be crossed)
+    - river
+    - mouth
+    - language
+    - doorway
+    - opening (in general)
+    - eat
+- _sʔil=uscid_:  mouth of a river, along the shore of a river
+- _ʔuq̓ʷ=ucid-əb_: open the door
+
+Further notes:
+
+- _dxʷ-X-ucid_: language
+- The English name "Lushootseed" is derived from _dxʷləšucid_.
+  The prefix _dxʷ-_ along with the suffix _-ucid_ means "language."
+  The root word, _ləš_, is an archaic word for the Puget Sound region.
+  Some scholars, such as Wayne Suttles, believe it may be an old word
+  for "people," possibly related to the word "Salish."
+- _ɬadəyʔlucidbid_:  'address as woman'  (from _ɬadəyʔ_ 'woman' + _-l-ucid_ 'mouth')
+- _tubšlucidbid_ 'address as man' (from _tubš_ 'man' + _-l-ucid_ 'mouth')
+
+
+`,
+
+
 "pass":
 `
 **PASS**

@@ -1,4 +1,13 @@
 linguistics = {
+"čəd words":
+`
+- _čəd_  'I, me'
+- _čəxʷ_ 'you'
+- _čəł_  'we, us'
+- _čələp_ 'you folks'
+`,
+    
+
 "DMA":
 `
 **DMA: Demonstrative Adverbial**
