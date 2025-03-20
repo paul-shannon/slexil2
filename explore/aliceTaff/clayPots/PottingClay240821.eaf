@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-08-21T13:21:31-09:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="ClayPotsDX4.wav"
+            MIME_TYPE="audio/*" RELATIVE_MEDIA_URL="./ClayPotsDX4.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:59556f62-2d19-4f81-beb2-d39d327044a6</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">2829</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="5920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="10210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="10220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="20810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="21130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="48980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="51546"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="58669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="58669"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="64733"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="64733"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="67096"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="67096"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="71184"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="71184"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="72700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="72700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="77411"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="77411"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="94480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="94638"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="98404"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="98477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="103166"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="103375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="105790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="105794"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="110834"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="114910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="119490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="119557"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="125351"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="125387"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="127730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="127740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="136265"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="136265"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="162803"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="162803"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="190973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="191213"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="194765"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="194765"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="201651"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="201651"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="207789"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="213180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="225325"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="225325"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="230629"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="230629"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="238827"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="238827"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="244891"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="244891"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="247957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="250998"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="260160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="260264"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="266156"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="266156"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="271454"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="271454"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="280935"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="280935"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="284040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="284040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="287006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="287006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="289973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="289973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="292625"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="292625"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="295225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="295225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="298778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="298778"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="310190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="310678"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="314441"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="314441"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="319898"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="319898"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="325440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="325459"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="328569"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="328569"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="331091"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="331091"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="336763"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="336763"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="339180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="339180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="344960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="344960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="350572"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="350572"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="354967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="354967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="361248"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="praat" TIER_ID="utterance">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2822"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Ethok Łats. Potting Clay. Told by Edna Deacon at the home of Alta Jerue in Anvik, AK, October 2002.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2828"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Translated by Edna Deacon, Donna Miller MacAlpine, and Alice Taff. Transcribed by Donna Miller MacAlpine and Alice Taff with Edna Deacon.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Istl'idong sito',</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>"Gan iy ethok łats?" viditlqit.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>And he say, ah, "That's what they make pot out of," he tell me.  I tell him, "What kind of pot?" "Ethok,"  he said, "cooking pot." Then I want to know how they mix it, to make it into a pot.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>"Gitth'ithgi vitux dalyayh," ne sito'.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>And, naghixiyinitłtth'inh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Like a bread dough.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Naghixiyinitltth'inh and then,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>(AJ) Really knead it.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1881"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE>(ED) Yeah, they knead it.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>But I didn't ask him what kind of feathers they put in there.  It's just, ah, grouse feathers, I think. And it have to be just right feathers in there, he said.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>Iy gitth'ithgi vitux dalyayh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>And, naghxiyintltth'inh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1882"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>Xidigał xełedz xineyh,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1883"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>Meaning it turn just good, just right to make the pot. Then they start forming,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1884"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>viye givatr iy, pot.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
+                TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>Ingtthaq xeyitl'onh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
+                TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>Gits'an xiyiłghith,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26"
+                TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>meaning they turn it "gits'an" this way by hand and they have something straight to keep,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27"
+                TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>(AJ) Yeah, they use a little paddle and as they turn it they pat it flat so it won't, you know, get out of shape, or something.  She said she didn't watch her do it. She didn't watch her doing it. She was doing it outdoors. She had a little fire outdoors.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28"
+                TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>(ED) Then after while when I wanted to know more about it, he said I talk too much.  My dad tell me I talk too much so I have to quit. But I know it's that ethok łats, the mud that's used to make a cooking pot.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30"
+                TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>(AJ) Oh, and where he got the mud from?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31"
+                TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>(ED) It's somewhere Innoko River or they came out on the Yukon to get it.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32"
+                TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>That's what I wanted to know but, he said I was talking too much so I have to quit.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34"
+                TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>(AT) Do you want to say the whole thing in deg xiq'i so we can have it all in one piece now?  Say what you just said but without any English to it.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35"
+                TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>Ethok Łats</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36"
+                TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>"Sito', gan iy ethok łats?" vidisne.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37"
+                TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>"Etho yixigheghok, he'?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38"
+                TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>Etho łats axa," siłne.  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41"
+                TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>Gan sre' di'iłne.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43"
+                TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>"Ethok łats yixeghoyh,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44"
+                TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>Yidong dixił'anh," yiłne.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45"
+                TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>Ndagh sre' deg Yiqin or edixi. Ndagh sre'.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46"
+                TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>{yixiz} Nixiyalyayh ts'in'.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47"
+                TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>Gitth'ithgi</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48"
+                TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>xiy tux ilayh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49"
+                TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>Ts'i naghixiyintltth'inh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50"
+                TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>Getiy xełedz dineyh tux.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51"
+                TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>"Agide.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52"
+                TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>Viye givatr iy tr'itiłtse," ne.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54"
+                TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>"Di ethok xiq'i iy xiłtse,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55"
+                TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>engthe xididhiq'undi xighun'.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56"
+                TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>Xits'i xiy di'oyh ts'in',</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58"
+                TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>ah, tritr,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59"
+                TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>dit'its xiy axa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60"
+                TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>Gits'an xiy do'oł,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61"
+                TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>tr'ixeneg ts'i.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62"
+                TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>Yuxudz xaxa toggingh'," yiłne.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63"
+                TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>Yuxudz nixał'an iłt'e gits'an xiy do'oł ts'i xidigał,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64"
+                TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>yuxudz xaxa diggoyh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65"
+                TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>And your ethok {nn} viq'i elnek.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translation"
+        PARENT_REF="utterance" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2823" ANNOTATION_REF="a2822">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2829" ANNOTATION_REF="a2828">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1886" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>When I was small, my father,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1887" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>"What is potting clay?" I ask him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1892" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>"(With) feathers in it they mix it," says my father.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1893" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>And they knead it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1895" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>they knead it and then,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1899" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Those feathers among it they mix it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1900" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Kneading it into it.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1901" ANNOTATION_REF="a1882">
+                <ANNOTATION_VALUE>Finally it's good.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1903" ANNOTATION_REF="a1884">
+                <ANNOTATION_VALUE>a pot. [Lit. in it, it cooks]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1904" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>They put it by the fire (to keep it warm).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1905" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>They turn it</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1906" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>...around (turn)...</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2826" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>… potting clay…</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2827" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>…the local language…</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1913" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>Potting Clay</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1914" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>"My father, what is potting clay?" I say to him.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1915" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>"Pots, how they used to make them, eh?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1916" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>With potting clay," he tells me.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1917" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>I don't know what he's telling me.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1918" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>"They used to make mud pots.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1919" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>Long ago they made them," he tells me.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1920" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>Where I don't know, around Yukon or up there (Innoko River). I don't know.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1921" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>They brought it (the clay) down.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1922" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>Feathers</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1923" ANNOTATION_REF="a48">
+                <ANNOTATION_VALUE>are mixed in.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1924" ANNOTATION_REF="a49">
+                <ANNOTATION_VALUE>They knead it in.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1925" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>It's mixed until it’s really nice.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1926" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>"OK.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1927" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>A cooking pot, we'll make," he says.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1928" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE>"A pot like they made,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1929" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>(and put it) down near the fireplace.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1930" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>By it they put,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1931" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE>ah, wood,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1932" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE>flat, by means of it. [The piece of wood is just right to put under the pot.]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1933" ANNOTATION_REF="a60">
+                <ANNOTATION_VALUE>(So you can) move it around (so you don't touch the pot),</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1934" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE>carefully.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1935" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>Completely that's how it will dry," he says.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1936" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>All the time they keep doing that until finally,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1937" ANNOTATION_REF="a64">
+                <ANNOTATION_VALUE>completely, that's how it dries.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a1938" ANNOTATION_REF="a65">
+                <ANNOTATION_VALUE>And your pot is finished.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="praat" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
