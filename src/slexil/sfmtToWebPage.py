@@ -291,6 +291,7 @@ class sfmtToWebPage:
                            htmlDoc.asis("")
 
             htmlDoc.asis(webPacker.getJSText())
+            htmlDoc.asis('<!-- bodyBottomInsertionHook -->\n\n')
 
       self.htmlDoc = htmlDoc
       self.htmlText = htmlDoc.getvalue()
@@ -401,6 +402,7 @@ class sfmtToWebPage:
                   htmlLine = htmlLine.split("html:")[1].strip()
                with htmlDoc.tag("div", klass="tier tier-html", name="html"):
                    htmlDoc.asis(htmlLine)
+                   htmlDoc.asis("\n")
                htmlLineNumber += 1  # indexes into htmlLines array
             elif lineType == "tier":
                tierNumber += 1
@@ -533,7 +535,7 @@ def getLinguisticsTopics(filename, verbose):
          #print(cleanLine)
          topics.append(cleanLine)
 
-   topics.sort()
+   topics = sorted(topics, key=lambda s: s.lower())
    return(topics)
 
 #-------------------------------------------------------------------------------

@@ -95,12 +95,14 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> diʔayucid (NL)  </td><td>  the other side (of a road/path)  </td></tr>
                      <tr><td> diʔucid (NL)  </td><td> the other side (or a river/lake)</td></tr>
                      <tr><td>  šəgʷɬ  </td><td> road, path; door  </td></tr>
                      <tr><td>  tə  </td><td> the, a   </td></tr>
                      <tr><td> stuləkʷ   </td><td> river   </td></tr>
                      <tr><td> ʔal   </td><td>located in, on, at; of    </td></tr>
+                     </tbody>
                     </table>
                  </div>
                </details>
@@ -167,6 +169,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>bad</td> <td>father</td></tr>
                      <tr><td>bədaʔ (NL)</td> <td>one's own child</td></tr>
                      <tr><td>bədəʔ (SL)</td> <td>one's own child</td></tr>
@@ -186,6 +189,7 @@ lines:
                      <tr><td>tsiʔiɬ</td> <td>that (feminine)</td></tr>
                      <tr><td>stubš</td> <td>man</td></tr>
                      <tr><td>tudiʔ</td> <td>over there</td></tr>
+                     </tbody>
                    </table>
                  </div>
                  </details>
@@ -336,6 +340,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>ad- </td><td> your  </td></tr>
                      <tr><td>čad </td><td> where  </td></tr>
                      <tr><td>čəgʷas (NL) </td><td> wife  </td></tr>
@@ -349,6 +354,7 @@ lines:
                      <tr><td>ʔalʔal </td><td>house   </td></tr>
                      <tr><td>ʔəsʔitut </td><td>sleep(ing)</td></tr>
                      <tr><td>ʔuʔukʷukʷ (NL) </td><td>play(ing)</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -470,6 +476,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> diʔabac </td>   <td> other side of a solid object  </td></tr>
                      <tr><td> diʔalətxʷ </td> <td> other side of a house or building (outside it) </td></tr>
                      <tr><td> səxʷgʷədil </td>      <td>chair   </td></tr>
@@ -483,6 +490,7 @@ lines:
                      <tr><td>lətayil (SL)</td><td>other room, other end of the room </td></tr>
                      <tr><td>st̓əkʷ̓ab (SL)</td><td>log, stick</td></tr>
                      <tr><td>ʔuʔəɬəd</td><td>eat(ing)</td</tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -634,9 +642,11 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> sdaʔ </td>   <td> name  </td></tr>
                      <tr><td> -s </td>   <td> his, her, its, (their) </td></tr>
                      <tr><td> ʔə </td>   <td> of, by </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -717,10 +727,10 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
-
+                     <tbody>
                      <tr><td>čəd</td>             <td>I, me</td></tr>
-                     <tr><td>čəxʷ</td>            <td>you</td></tr>
-                     <tr><td><u>də</u>wʔabš</td>  <td>Duwamish</td></tr>
+                     <tr><td>čəxʷ</td>             <td>you</td></tr>
+                     <tr><td><u>d</u>əwʔabš</td>  <td>Duwamish</td></tr>
                      <tr><td>dxʷ<u>l</u>iləp</td> <td>Tulalip</td></tr>
                      <tr><td><u>p</u>uyaləp</td>  <td>Puyallup</td></tr>
                      <tr><td>s<u>qʷ</u>aliʔ</td>  <td>Nisqually</td></tr>
@@ -728,11 +738,13 @@ lines:
                      <tr><td>tul̓čad</td>          <td>from where</td></tr>
                      <tr><td>tul̓ʔal</td>          <td>be from</td></tr>
                      <tr><td>s<u>w</u>ədəbš</td>  <td>Swinomish</td></tr>
-
+                     </tbody>
                    </table>
                  <div>
                  </details>
                </div>"
+
+
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
@@ -841,6 +853,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> -ac   </td><td> tree, bush   </td></tr>
                      <tr><td> čələp </td><td> you folks  </td></tr>
                      <tr><td> čəlqʷubəʔac   </td><td> blackcap bush </td></tr>
@@ -861,6 +874,7 @@ lines:
                      <tr><td> ʔaciɬtalbixʷ   </td><td> Indian    </td></tr>
                      <tr><td> ʔi   </td><td> yes    </td></tr>
                      <tr><td> ʔu   </td><td>  question   </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -1091,6 +1105,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> -a </td><td> and (added only to čəd, čəxʷ, čəɬ čələp)</td></tr>
                      <tr><td> -axʷ </td><td> See 9.5</td></tr>
                      <tr><td> bəčgʷil </td><td> lie down</td></tr>
@@ -1125,6 +1140,7 @@ lines:
                      <tr><td> ʔəƛ̓a(həxʷ) </td><td> come on (now) </td></tr>
                      <tr><td> ʔəs- </td><td> See 9.4 </td></tr>
                      <tr><td> ʔəx̌id (NL) </td><td>how </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -1367,6 +1383,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-ač</td><td>head (in SL); crest (or topknot of a bird), hackles (of a dog) (in both NL and SL)</td></tr>
                      <tr><td>-ačiʔ</td><td>hand(s), forearm(s)</td></tr>
                      <tr><td>gʷəl</td><td>and, then, next</td></tr>
@@ -1382,6 +1399,7 @@ lines:
                      <tr><td>tu-</td><td>past, distant past</td></tr>
                      <tr><td>-ulč</td><td>container; belly</td></tr>
                      <tr><td>ʔibəš</td><td>walk, travel by land (versus ʔuluɬ 'travel by water')</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -1581,6 +1599,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>bayac (SL) </td><td> meat</td></tr>
                      <tr><td>biac (NL) </td><td> meat</td></tr>
                      <tr><td>čadᶻ </td><td>hide </td></tr>
@@ -1594,6 +1613,7 @@ lines:
                      <tr><td>ʔabšic (SL) </td><td>give me </td></tr>
                      <tr><td>ʔabyic (NL) </td><td>give me </td></tr>
                      <tr><td>sʔax̌uʔ </td><td>butter clam, clam in general </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -1775,6 +1795,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>c̓əbəb (NL)</td><td>pick berries/fruit</td></tr>
                      <tr><td>-iluɬ </td><td>go in order to... </td></tr>
                      <tr><td>kʷili(l) (SL) </td><td>pick berries/fruit </td></tr>
@@ -1783,6 +1804,7 @@ lines:
                      <tr><td>xʷiʔxʷiʔ </td><td>hunt for/gather food (of any sort) </td></tr>
                      <tr><td>syəcəb </td><td>news, report </td></tr>
                      <tr><td>sʔušəbabdxʷ </td><td>poor </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -2031,6 +2053,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-alps</td><td>animal, especially domesticated or economically important</td></tr>
                      <tr><td>-alʔtxʷ </td><td>house, buiding (compare -alətxʷ, 'outside' or 'other side of a house' </td></tr>
                      <tr><td>bək̓ʷ  </td><td>all </td></tr>
@@ -2046,6 +2069,7 @@ lines:
                      <tr><td>stiqiw </td><td> horses</td></tr>
                      <tr><td>syalt (SL)  </td><td>cedar-root basket </td></tr>
                      <tr><td>yiq̓us (Skagit)  </td><td> cedar-root basket</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -2213,6 +2237,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> -abac  </td><td> solid object, body </td></tr>
                      <tr><td> čəx̌ </td><td> split </td></tr>
                      <tr><td> ʔiɬčəx̌ </td><td> half </td></tr>
@@ -2222,6 +2247,7 @@ lines:
                      <tr><td> -gʷas </td><td> pair </td></tr>
                      <tr><td> p̓əɬq̓ʷ </td><td> after (in time or space) </td></tr>
                      <tr><td> t̓agʷt </td><td> on top, noon </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -2477,6 +2503,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> -b </td><td> get/be involved in doing something </td></tr>
                      <tr><td> sc̓əq (SL) </td><td> fermented salmon eggs </td></tr>
                      <tr><td> duʔayus (NL) </td><td> fermented salmon eggs </td></tr>
@@ -2493,6 +2520,7 @@ lines:
                      <tr><td> qiw̓x̌ (NL) </td><td> steelhead  </td></tr>
                      <tr><td> sx̌əp̓ab </td><td> cockles </td></tr>
                      <tr><td> ?uləx̌ </td><td> obtain, gather  </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -2610,6 +2638,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>dᶻix̌  </td><td>break down, collapse; mechanical breakdown  </td></tr>
                      <tr><td>dᶻix̌gʷiɬ  </td><td> breakdown of a vehicle </td></tr>
                      <tr><td> kʷaxʷad </td><td> help someone  </td></tr>
@@ -2617,6 +2646,7 @@ lines:
                      <tr><td> qʷibid </td><td> fix it, get it ready </td></tr>
                      <tr><td> q̓il̓bid </td><td>car </td></tr>
                      <tr><td> q̓ʷəx̌ʷəd (Skagit) </td><td> butcher it, clean it </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -2707,7 +2737,9 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>ləč̓əd</td><td>fill it</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -2799,6 +2831,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-agʷil</td><td>doer puts self into action</td></tr>
                      <tr><td>bəč</td><td>fall down (from standing position - not from a height)</td></tr>
                      <tr><td>bəčaš (Snohomish, Sauk)</td><td>set/put something down</td></tr>
@@ -2827,6 +2860,7 @@ lines:
                      <tr><td>st̓ək̓ʷabšəd (Shohomish, SL) </td><td>shoe</td></tr>
                      <tr><td>sxʷayʔs (SL) </td><td>hat</td></tr>
                      <tr><td>x̌ʷubt</td><td>paddle</td></tr>
+                     <tbody>
                    </table>
                  <div>
                  </details>
@@ -3038,6 +3072,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-apsəb</td> <td>throat</td></tr>
                      <tr><td>dxʷ.čad</td> <td>go where</td></tr>
                      <tr><td>dᶻidᶻəlal̓ič</td><td>Seattle</td></tr>
@@ -3050,6 +3085,7 @@ lines:
                      <tr><td>x̌(ə)ɬalʔtxʷ</td> <td>hospital</td></tr>
                      <tr><td>ʔəɬədalʔtxʷ</td> <td>restaurant</td></tr>
                      <tr><td>ʔux̌ʷ</td> <td>go</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -3210,9 +3246,10 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-abš</td> <td>people of</td></tr>
                      <tr><td>-alus</td> <td>eye(s)</td></tr>
-                     <tr><td>scapaʔ</td> <td>grandfater</td></tr>
+                     <tr><td>scapaʔ</td> <td>grandfather</td></tr>
                      <tr><td>ča(ʔ)kʷ</td> <td>seaward, toward the water, out to sea</td></tr>
                      <tr><td>čubə</td> <td>go up from the water's edge; got to easern side of Cascade Mountains</td></tr>
                      <tr><td>sc̓əbayʔus</td> <td>blue huckleberry</td></tr>
@@ -3237,6 +3274,7 @@ lines:
                      <tr><td>x̌aƛ̓</td> <td>want, like</td></tr>
                      <tr><td>ʔəpus (NL) </td> <td>aunt</td></tr>
                      <tr><td>ʔuluɬ</td> <td>travel by water</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -3510,6 +3548,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>haydxʷ</td> <td>know it</td></tr>
                      <tr><td>labdxʷ (SL)</td> <td>see it</td></tr>
                      <tr><td>lax̌dxʷ</td> <td>remember it</td></tr>
@@ -3520,6 +3559,7 @@ lines:
                      <tr><td>stububš</td> <td>men</td></tr>
                      <tr><td>stutubš</td> <td>boy</td></tr>
                      <tr><td>ʔəy̓dxʷ</td> <td>find it</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -3610,12 +3650,14 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-bicid</td> <td>you</td></tr>
                      <tr><td>-bš</td> <td>me</td></tr>
                      <tr><td>č̓əƛ̓əʔ (SL)</td> <td>rock, boulder</td></tr>
                      <tr><td>č̓ƛ̓aʔ (NL)</td> <td>rock, boulder</td></tr>
                      <tr><td>hikʷ</td> <td>big; important (person)</td></tr>
                      <tr><td>suxʷtəš</td> <td>recognize it</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -3718,6 +3760,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>daʔxʷ</td> <td>just now</td></tr>
                      <tr><td>gəq̓ad (SL)</td> <td>open it</td></tr>
                      <tr><td>huycid</td> <td>finish eating</td></tr>
@@ -3729,6 +3772,7 @@ lines:
                      <tr><td>x̌ax̌yəƛ̓ (NL)</td> <td>dried salmon</td></tr>
                      <tr><td>-y-ax̌ad</td> <td>door</td></tr>
                      <tr><td>dxʷʔuq̓ʷyax̌ad (NL)</td> <td>open door</td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -3923,6 +3967,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td>-c </td><td> me</td></tr>
                      <tr><td>-cid </td><td> you</td></tr>
                      <tr><td>čalad </td><td>chase it </td></tr>
@@ -3939,6 +3984,7 @@ lines:
                      <tr><td>x̌ik̓ʷ </td><td>mean, ugly </td></tr>
                      <tr><td>ʔəca (NL) </td><td>I (emphatic), I am (the one) </td></tr>
                      <tr><td>ʔəcə (SL) </td><td>I (emphatic), I am (the one) </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>
@@ -4096,6 +4142,7 @@ lines:
                      <thead>
                        <tr><th>Lushootseed</th><th>English</th></tr>
                        </thead>
+                     <tbody>
                      <tr><td> -alikʷ </td><td> creative activity </td></tr>
                      <tr><td> c̓əp̓yiqʷ </td><td> great-great-great-grandparent/child </td></tr>
                      <tr><td> sčabiqʷ </td><td> great-grandparent/child </td></tr>
@@ -4113,6 +4160,7 @@ lines:
                      <tr><td> ʔəkʷyiqʷ </td><td> great-great-grandparent/child </td></tr>
                      <tr><td> ʔibac </td><td> grandchild </td></tr>
                      <tr><td> ʔuqʷus </td><td> demonstrate, show, teach </td></tr>
+                     </tbody>
                    </table>
                  <div>
                  </details>

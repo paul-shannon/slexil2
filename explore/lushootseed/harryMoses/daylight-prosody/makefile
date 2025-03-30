@@ -70,8 +70,8 @@ html:
 
 
 
-tailor:
-	sed -f insertCustomCode.sed index.html  > index0.html
+inject:
+	sed -f insertCustomCode.sed daylight.html  > daylight2.html
 
 refresh-js:
 	cp -p ../../*.js .
@@ -80,7 +80,7 @@ refresh-js:
 
 
 publish:
-	scp daylight.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/index.html
+	scp daylight2.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/index.html
 	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
 
@@ -89,7 +89,7 @@ publish-audio:
 
 
 view:
-	open daylight.html
+	open daylight2.html
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/

@@ -26,5 +26,5 @@ class DropDownMenu:
            optionClasses = "menuItem"
            #print(self.menuOptions)
            for option in self.menuOptions:
-              with htmlDoc.tag("div", klass=optionClasses):
+              with htmlDoc.tag("div"): #, klass=optionClasses):
                  htmlDoc.text(option)

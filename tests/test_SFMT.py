@@ -111,9 +111,8 @@ def test_getHtml():
    assert(len(sfmt.htmlLines) == 6)
    traceFileName = "test_SFMT.py"
    traceLineNumber = 103
-   print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
 
-   assert(sfmt.getHtml(0) == '<h3> Read by Roberto Begnini</h3>')
+   assert(sfmt.getHtml(0) == '<div><h3> Read by Roberto Begnini</h3></div>')
    
    html = sfmt.getHtml(5)
    expected = "<div style='margin: 30px'><h6> a multi-line html element</h6>        " + \
@@ -121,15 +120,35 @@ def test_getHtml():
               "        <li> item three           </ul>           </div>"
    assert(html == expected)
 
-   traceFileName = "test_SFMT.py"
-   traceLineNumber = 113
-   print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
-
    allHtml = sfmt.getAllHtml()
    assert(len(allHtml) == 6)
    print(allHtml[0])
-   assert(allHtml[1] == 'taken from youtube')
+   assert(allHtml[1] == '<div>taken from youtube</div>')
     
+#--------------------------------------------------------------------------------   
+# this tests the recovery of some complex markup, from the Lushootseed Grammar,
+# specifically a details element with a table of two columns and many rows,
+# failing on a interior blank line - which should mark the *end* of the html string
+def test_getComplexHtmlWithIllegalInteriorLine():
+
+   print("--- test_getComplexHtmlWithIllegalInteriorLine")
+   f = "../testData/complexHtmlErrantBlankLine.yaml"
+   
+   sfmt = SFMT(f)
+   sfmt.parse()
+   assert(len(sfmt.htmlLines) == 3)
+   assert(sfmt.getHtml(0) == "<div class='sectionNumber'>2.4</div>")
+   assert(sfmt.getHtml(1) == "<div class='lessonTitle'>Lesson Three: ɬixʷ</div>")
+
+   caughtInteriorBlankLineError = False
+   try:
+      sfmt.getHtml(2)
+   except AssertionError:
+      caughtInteriorBlankLineError = True
+      
+   assert(caughtInteriorBlankLineError)
+
+
 #--------------------------------------------------------------------------------   
 def test_getOrderedLineObjectsTieredAndHTML():
 
@@ -150,8 +169,8 @@ def test_getOrderedLineObjectsTieredAndHTML():
    expected = [7, 9, 11, 18, 25, 27, 29, 31, 38]
    assert(list(tbl['rawIndex']) == expected)
 
-   assert(tbl.loc[0]['signature'] == "<h3> Read by Roberto Begnini</h3>")
-   assert(tbl.loc[1]['signature'] == "taken from youtube")
+   assert(tbl.loc[0]['signature'] == "<div><h3> Read by Roberto Begnini</h3></div>")
+   assert(tbl.loc[1]['signature'] == "<div>taken from youtube</div>")
    assert(tbl.loc[2]['signature'] == "0")
    assert(tbl.loc[3]['signature'] == "3095")
    assert(tbl.loc[4]['signature'] == "<div style='margin: 30px'><h6> another line</h6></div>")
@@ -415,17 +434,18 @@ def test_hawkBabyMissingTier():
 #----------------------------------------------------------------------------------------------------
 def runTests():
 
-   test_getTierTable()
-   sys.exit(0)
-   
-   test_hawkBabyMissingTier()
-
    test_ctor()
    test_parse()
-   test_identifyTierBlocks()
+
+   test_getTierTable()
+   test_hawkBabyMissingTier()
+
    test_getTier()
+   test_identifyTierBlocks()
    test_getTiers()
    test_getHtml()
+   test_getComplexHtmlWithIllegalInteriorLine()
+
    test_getOrderedLineObjectsTieredAndHTML()
    test_getTimeTable()
    test_lineDictToTable()

@@ -169,7 +169,12 @@ class SFMT:
          j = i
          while not j in self.blankLines and j <= self.lastLine:
             j += 1
+            if i == 162:
+               print("%d: %s" % (j, self.lines[j]))
+               pdb.set_trace()
          blockEnds.append(j)
+      #print("--- sfmt.py trace, line 173")
+      #pdb.set_trace()
       self.blockEnds = blockEnds
       self.tierCount = len(self.blockStarts)
 
@@ -266,7 +271,11 @@ class SFMT:
 
       htmlText = re.sub(r'^"', '', htmlText)
       htmlText = re.sub(r'"$', '', htmlText)
-      
+         # the simple algorithm we use terminates the html string
+         # with the first blank line.
+         # every string is expected to be a div, so it must end
+         # with </div>.  check for this, throw error if it fails
+      assert(re.search("</div>$", htmlText))
       return(htmlText)
 
    #------------------------------------------------------
@@ -371,7 +380,7 @@ class SFMT:
       tierListCounts = {}
 
       for tier in self.allTierNames:
-         print("initializing counts for %s" % tier)
+         #print("initializing counts for %s" % tier)
          tierListCounts[tier] = 0
       
       for line in self.tieredLines:
@@ -403,7 +412,7 @@ class SFMT:
       if len(analysisCandidates) > 1:
          self.allAnalysisTierNames = list(sorted(set(analysisCandidates),
                                           key=analysisCandidates.index))
-      print("atn: %s" % repr (self.allAnalysisTierNames))
+      #print("atn: %s" % repr (self.allAnalysisTierNames))
 
    #------------------------------------------------------------
    # tiers which are neither speech, meta-fields, nor analysis

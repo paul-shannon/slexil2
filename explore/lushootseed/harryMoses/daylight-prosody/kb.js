@@ -1,6 +1,18 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ƛ̓ub":
+`
+**ƛ̓ub**
+
+- good, fine, all right, well.  LD 155
+- should, had better, ought
+- like _bəkʷ_ ('all') this root can fill a variety of lexical
+  categories, including predicate adverb.
+
+
+`,
+
 "ləq̓aɬ•ucid":
 `
 **ləq̓aɬ•ucid**

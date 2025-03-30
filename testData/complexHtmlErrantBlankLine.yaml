@@ -1,0 +1,46 @@
+title: Lushootseed Book 1
+narrator: Thom Hess
+textEntry: Paul Shannon
+mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume1.wav
+mimeType: audio/wav
+
+lines:
+
+  - html: "<div class='sectionNumber'>2.4</div>"
+
+  - startTime: 221088
+    endTime:   225562
+    lushootseed: stab əw̓ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.
+    english:  What is that on the other side of the road?
+ 
+  - startTime: 231738
+    endTime: 234160
+    lushootseed: spaʔc tiʔiɬ.
+    english:  That is a bear.
+
+  - html: "<div class='lessonTitle'>Lesson Three: ɬixʷ</div>"
+
+  - html: "<div class='detailsDiv'>
+                 <details>
+                   <summary>New Vocabulary</summary>
+                   <div style='height: 300px; overflow-y: scroll;'>
+                   <table style='border: 1;'>
+                     <thead>
+                       <tr><th>Lushootseed</th><th>English</th></tr>
+                       </thead>
+                     <tbody>
+                     <tr><td>bad</td> <td>father</td></tr>
+                     <tr><td>bədaʔ (NL)</td> <td>one's own child</td></tr>
+                     <tr><td>bədəʔ (SL)</td> <td>one's own child</td></tr>
+           
+                     <tr><td>tiʔiɬ</td> <td>that</td></tr>
+                     <tr><td>tsi</td> <td>the particular (one)(feminie)</td></tr>
+                     <tr><td>tsiʔiɬ</td> <td>that (feminine)</td></tr>
+                     <tr><td>stubš</td> <td>man</td></tr>
+                     <tr><td>tudiʔ</td> <td>over there</td></tr>
+                     </tbody>
+                   </table>
+                 </div>
+                 </details>
+               </div>"
+

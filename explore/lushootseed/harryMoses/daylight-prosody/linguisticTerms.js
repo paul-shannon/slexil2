@@ -1,4 +1,269 @@
 linguistics = {
+
+"INCRP":
+`
+**INCRP**
+
+incorporative
+
+The semantic effects of the suffix _-əɬ_ ‘incorporative [INCRP]’ on
+the valency of its base are essentially that of a causative in that it
+adds a semantic AGENT to a patient-oriented stem; however, this affix
+differs from the other causatives discussed above in that its effect
+on the syntactic valency of the stem is not to add an object (direct
+or oblique). Instead, _-əɬ_ increases the valency of its stem by adding
+a nominal predicate complement,
+
+<blockquote>
+(91) a. ʔəstakʷəxʷ
+ʔəs–takʷ=əxʷ
+STAT–bought=now
+‘it’s bought’
+(Bates, Hess & Hilbert 1994: 216)
+b. ʔutagʷəɬ čəd puʔtəd
+ʔu–tagʷ
+–əɬ čəd puʔtəd
+PFV–buy–INCRP 1SG.SUB shirt
+‘I bought a/some shirt’
+(Hess & Hilbert 1976: II, 138)
+</blockquote>
+
+
+Nominal predicate complements like puʔtəd ‘shirt’ in (91) differ from
+NP arguments of a verb in that they are not introduced by a determiner
+and are not referential, but instead have a generic reference,
+expressing a type of thing rather than identifying a particular
+individual or object. The nominal predicate complement can be made a
+direct object by adding internal causative suffix _-t_ to the stem:
+
+<blockquote>
+
+(92) siʔ ƛ’ub ɬadsəsƛ’ip’aɬəd čəxʷa ɬuɬčil dxʷdiʔaʔ
+siʔ ƛ’ub ɬu=ad=s=ʔəs–ƛ’ip’
+–aɬ–əd čəxʷa
+right.there well IRR=2SG.PO=NM=STAT–compressed–INCRP–ICS 2SG.COORD
+ɬu=ɬčil dxʷ
+–diʔaʔ
+IRR=arrive CNTRPT–here
+‘right there will you be clutching it and you will arrive here’
+(Hilbert & Hess 1977: 19, line 58)
+
+
+</blockquote>
+
+
+
+`,
+
+
+"CTD":
+`
+**CTD**
+
+- Contained.
+- LD 85
+- permeate, throughout, filled with, covered with
+- derivational prefix which marks stems as serving to contain, to hold within
+- a secondary meaning of this prefix designates a proclivity, what one has "inside"
+- also carrying this prefix are a number of stems referring to matters of the
+mind, the _x̌əč_.
+
+`,
+
+
+"verb morphology":
+`
+**Verb Morphology**
+
+(From David Beck's draft Lushootseed Grammar)
+
+- One of the most notable features of Lushootseed is the rich verbal
+morphology, particularly in the realm of derivation.
+
+- The majority of Lushootseed verb stems is built up out of fairly
+easily-analyzable elements based on monovalent radicals, generally of
+the phonological shape CVC.
+
+- Derivation can produce a new word, a distinct lexeme, whereas inflection
+produces grammatical variants of the same word.
+
+- onovalent radicals, generally of the phonological shape CVC
+
+- Lushootseed valency-increasers can be taxonomized using two
+syntactic parameters, then further subdivided according to additional
+semantic effects of the affix on its base. The first-order parameter
+used in the taxonomy is whether or not the semantic actant added to
+the base is expressed as a subject (as in the case of causatives) or
+an object (as with applicatives). The second-order parameter has to do
+with the surface realization of the objects of the derived verb. For
+causatives, the issue is whether the displaced subject of the verbal
+base is treated as a direct or a nondirect object; for applicatives,
+it is whether or not the new object is direct or nondirect. This study
+also seeks to give some typological perspective to current debates in
+Salishan studies—in particular, the status of valency-increasers as
+inflectional or derivational, and the extent to which verbal radicals
+in Lushootseed can be treated as uniformly unaccusative, a
+characterization of the family which has been used to motivate some
+significant claims about language universals.
+
+- most bare radicals are syntactically intransitive [dbeck, taxonomy, section 3]
+
+-  are all radicals monovalent and intransitive?
+-  or do Salishan languages actually have underived transitive verbs?
+- in Lushootseed, most bare radicals are syntactically
+intransitive, and syntactically transitive verbs bear some
+morphological indicator of that transitivity
+
+<blockquote>
+<pre>
+ (10a) ʔu-ɬič̓  cəd
+   pfv-be.cut.with.knife 1sg.sub
+   ‘I got cut with a knife’
+
+  (10b) ʔu-ɬič̓-i-d čəd tə  sqʷiqʷali
+   pfv-be.cut.with.knife-ics 1sg.sub indef hay
+   ‘I cut hay (with a blade)’ (Bates et al. 1994:146)
+</pre>
+</blockquote>
+
+- In (10a), the radical _ɬič̓_ "be cut with a knife" - despite expressing
+a two-participant event high on the scale of semantic transitivity - takes
+only a single syntactic argument expressing the patient.
+
+- in order to express an agent (10b), the suffix _-t_ which is
+realized word-finally as _-d_.  Thus, a plain transitive verb
+is formed by morphological means from a monovalent radical.
+
+- _ɬič̓_ "be cut with a knife" is unaccusitive (one of several semantic classes of radicals,
+the largest), expressing  asemantically transitive event but requiring one of the valency-in-
+creasing affixes to express an agent. While most languages lexicalize events
+at this end of the scale of semantic transitivity to include a valency-slot for
+both the agent and the patient/endpoint of the event, Lushootseed only includes
+the patient in the verb’s semantic valency and treats the agent as an
+implied participant. As large as this group of unaccusative radicals
+
+**affixes**
+
+***suffixes***
+
+-1 0 1 2 3 4 5
+-1 dxʷ(s) CTD  
+0: √R(V)
+
+First position:
+
+1: -il INCH inchoate, just begun and so not fully formed or developed
+
+Second position:
+
+- -b MD middle voice, subject is both agent and patient<br>
+- -agʷil AUTO, autonomous action
+- -alikʷ ACT, causative of activity
+- -iluɬ PRPV, purposive
+- -əɬ INCRP, incorporative
+- -áb MTHD, method (by which something is achieved)
+
+Third position:
+- -txʷ ECS, external causative
+- -dxʷ DC, diminished control
+
+Fourth position: secondary suffixes:
+- -yi- DAT, dative applicative
+- -bi- MAP, middle applicative, reduced semantic transitivity
+- -di-/-i- SS, secondary suffix, little used
+
+Fifth position:
+- -t ICS, internal causative
+- -c/-s ALTV, allative applicative
+-  -b CSMD, causative middle, adds an agent
+
+`,
+
+"PRPV":
+`
+**PRPV**
+Purposive.
+
+The suffix _-iluɬ_ ‘purposive [PRPV]’ is a relatively infrequent affix
+which combines with a stem expressing an action X which is potentially
+an activity and creates a verb meaning ‘go for the purpose of doing
+X’:
+
+<blockquote>
+_ʔəɬdiluɬ_ ‘go out to eat’ (from _ʔəɬəd_ ‘dine on ’)
+</blockquote>
+
+***prefixes***
+
+- dxʷ(s)- CTD, contained.  found next to the stem, inside aspectual prefixes.
+- ʔiɬ- PRTV, partitive, only some of the agents are involved
+- səxʷ- INSTR, instrumental 
+- 
+
+`,
+
+
+"-d":
+`
+**-d var. -əd, -t**
+- LD 76
+- action performed on someone or something else
+- transitive suffix; allows for a direct complement patient, creating a patient-oriented verb
+- compare _-š, -dxʷ, -txʷ, -c.
+
+`,
+
+"-yi-":
+`
+**-yi-**
+
+- secondary suffix
+- dative applicative
+- secondary suffix marking transferred agent.  LD 278
+- benefactive: semantic case expressing the person or thing that benefits
+from the action of the verb
+- recipient
+- dative: indirect object or recipient
+- _ʔabyid_: give it to him
+- _ʔišyid_: paddle in his place
+- _ʔux̌ʷyid_: fetch it for him; go in his place
+- _ʔux̌ʷtxʷyid_: take it for him
+`,
+
+"kʷəd":
+`
+**kʷəd**
+
+- ləskʷə́d: take along with, carrying  
+- kʷədáxʷ: have a spell, have a seizure; take now
+- kʷədád: have *taken something, *have something, *grab ...
+- bəkʷədád: He retrieved it.
+- kʷədátagʷəl: grab one another (as in fighting)
+- kʷìkʷədátgʷəl: going steady
+- kʷəd(d)xʷ: manage to *get, manage to grasp
+- ʔukʷədábitəb: captive
+- kʷədyíd: get something for someone
+- (ʔu)dxʷkʷədíbəɬ: a person who *takes away another's wife, fiancee
+- ʔiɬkʷəddúp: took things from all about *{take}
+- kʷədáčiʔ: shake hands  
+- kʷədáyačiʔ: knife in hand  
+- kʷədáyačiʔd: give someone a hand, *help  
+- ʔəskʷədídup: squatters, land settlers
+- skʷədígʷs: paraphernalia
+- kʷədəq(s)šádəb: touch your toes  
+- skʷədúlč: container  
+- xʷkʷədábaľə̀p: straight *handle (as on a dipper, pan, axe)    
+- xʷkʷədádid: bail, loop handle (as on a pail)
+- xʷkʷədəbádiʔ: bail, loop handle (as on a pail)
+- kʷədígʷs: tackle
+- kʷədálikʷ: catch something (through skill), get or take t...
+- kʷədkʷədálikʷ: They took and took.
+- kʷədláx̌aditəb: grabbed someone by the arms  
+- kʷədíʔɬ: take baby or child, pick_up baby or child
+
+`,
+    
+
 "čəd words":
 `
 - _čəd_  'I, me'
@@ -377,7 +642,7 @@ Another attenuative morpheme? _kik_:
 
 "-b":
 `
-- _-b_: -LD 32
+- _-b_, var _-əb_  LD 32
 - be involved in doing something
 - A suffix occuring on several levels of Lushootseed morphology.
        It forms a very large class of agent-oriented intransitive verb

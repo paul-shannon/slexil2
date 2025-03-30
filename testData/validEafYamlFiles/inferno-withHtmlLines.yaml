@@ -5,9 +5,9 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/misc/inferno-threeLines.wav
 
 lines:
 
-  - html:  "<h3> Read by Roberto Begnini</h3>"
+  - html:  "<div><h3> Read by Roberto Begnini</h3></div>"
 
-  - html: taken from youtube
+  - html: "<div>taken from youtube</div>"
 
   - startTime: 0
     endTime: 2828

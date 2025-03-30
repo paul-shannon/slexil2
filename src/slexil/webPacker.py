@@ -22,9 +22,11 @@ class WebPacker:
        self.cssFiles.append("bootstrap.css")
        self.cssFiles.append("slexil.css")
        self.cssFiles.append("dropDownMenu.css")
+       self.cssFiles.append("jquery-ui.css")
 
        self.jsFiles.append("showdown.min.js")
        self.jsFiles.append("jquery-3.6.3.min.js")
+       self.jsFiles.append("jquery-ui.js")
        self.jsFiles.append("slexil.js")
        self.jsFiles.append("bootstrap.bundle.js")
 

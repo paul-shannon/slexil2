@@ -10,6 +10,8 @@ default:
 	@echo venv
 	@echo checkTimes
 	@echo html
+	@echo s2h
+	@echo e2s2h
 	@echo publish
 	@echo view
 	@echo viewRemote
@@ -37,10 +39,19 @@ s2h:
 	python /Users/paul/github/slexil2/utils/sfmt2html.py \
        --sfmt $(SFMT.FILE) \
        --pageTitle $(TITLE) \
-       --helpFile ../help.html \
-       --helpButtonLabel "How To" \
+       --helpFile $(HELP_FILE) \
+       --helpButtonLabel $(HELP_BUTTON_LABEL) \
        --outputDir .
 
+e2s2h:
+	python /Users/paul/github/slexil2/utils/eaf2sfmt2html.py \
+       --eaf $(EAF) \
+       --html $(HTML.FILE) \
+       --pageTitle $(TITLE) \
+       --helpFile $(HELP_FILE) \
+       --helpButtonLabel $(HELP_BUTTON_LABEL) \
+       --helpButtonLabel "How To" \
+       --outputDir .
 
 
 

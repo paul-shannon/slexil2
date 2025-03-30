@@ -380,8 +380,11 @@ lines:
            <i>(Hilbert, Hess and Beck place <b>gʷəl tucutəb</b> at the end of this line, not the next.  - pshannon)</i>
            </div>"
 
-  - html: "<div style='margin: 30px;'>
-           <hr><b>Setting</b>: Mink's encounter with the siʔab.
+  - html: "<div style='margin: 30px; margin-left: 200px;'>
+           <hr style="width: 400px;">
+           Mink's encounter with the siʔab.
+           <button onclick="myBox('locations')">V</button>
+           <hr style="width: 400px;">
            </div>"
 
   - startTime: 240975
@@ -395,7 +398,7 @@ lines:
   - startTime: 244205
     endTime:   248195
     lushootseed: gʷəl tucutəb ɬuʔal tudiʔ ʔalq̓ʷ kʷi ɬadsəstədᶻil ɬadsɬagʷid
-    soundsLike:  gwul too.tsootub loss toodee alk' kwee slads.uh.date slawds.slawgwaid
+    soundsLike:  gwul too.tsootub loss toodee alk' kwee slads.uh.day slawds.slawgwaid
     morphemes: [gʷəl,tu=cut–t–b,ɬu=ʔal,tudiʔ,ʔalq̓ʷ,kʷi,ɬu=ad=s=ʔəs–tədᶻil,ɬu=ad–sɬagʷid]
     morphemeGloss: [SCONJ,past=say–ICS–PASS,IRR=at,DIST.dma,away.from.fire,REM,IRR=2SG.PO=NM=STAT–lie.in.bed,IRR=2SG.PO–sleeping.mat]
     english: And said to him: “There at the back you will lie down, you will have your mat.”
@@ -403,7 +406,7 @@ lines:
   - startTime:  248403
     endTime:   251623
     lushootseed: tucutəxʷ. xʷiʔ, ƛ̓ušišədᶻal čəd ʔal ti ɬax̌
-    soundsLike: too.soot.uff kwee tloe.she.shud.zul tee.ah cuss  lock
+    soundsLike: too.soot.uff kwee tloe.SHE.shud.zul tee.ah kuh  slock
     morphemes: [tu=cut=əxʷ,xʷiʔ,ƛ̓u=ši–šədᶻal,čəd,ʔal,ti,ɬax̌]
     morphemeGloss: [past=say=now, neg,HAB=attn–go.outdoors,1SG.SUB,at,spec,dark]
     english: (Little Mink) spoke, “No, I need to go outside a bit during the night.”
@@ -411,13 +414,15 @@ lines:
   - startTime: 251930
     endTime:   254225
     lushootseed: ƛ̓ub ləq̓aɬucid kʷi ɬudsʔaʔ
-    soundsLike: tlobe loo.kaw.sud.see kwee sloods.ah
+    soundsLike: tlobe loo.kaws.utzeed kwee sloods.ah
     morphemes: [ƛ̓ub,ləq̓aɬ•ucid,kʷi,ɬu=d=s=ʔaʔ]
     morphemeGloss: [well,be.in.right.place•mouth,REM,IRR=1SG.PO=NM=be.there]
     english: “It is better that I be by the door.”
 
-  - html: "<div style='margin: 30px;'>
-           <hr><b>Setting</b>: Mink takes his place.
+  - html: "<div style='margin: 30px; margin-left: 200px;'>
+           <hr style="width: 400px;">
+           Mink takes his place.
+           <hr style="width: 400px;">
            </div>"
 
   - startTime: 254913 
