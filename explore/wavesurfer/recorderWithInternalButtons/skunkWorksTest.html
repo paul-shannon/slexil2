@@ -15,7 +15,27 @@ body{
    height: 100%;
    }
 .recorderButton{
-   font-size: 24px;
+    display: inline-block;
+    padding: 2px 6px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
    }
    
 </style>
@@ -25,23 +45,33 @@ body{
   <h3>Recorder and Buttons Skunk Works</h3>
   <div id="main">
     <button class="standardSlexilButton" id="openRecorderButton">
-       <img src="https://slexildata.artsrn.ualberta.ca/images/microphone-342.png" width=40>
+       <img src="https://slexildata.artsrn.ualberta.ca/images/microphone-342.png" width=30>
     </button>
     
     <div id="buttonsAndRecorderDiv"
-         style="border: 10px solid green; height: 200px; border-radius:5px; display: none;" >
-      <div id="buttonsDiv" style="float: left; width: 100px; border: 5px solid red; border-radius:5px" >
+         style="border: 2px solid gray;
+                height: 150px;
+                border-radius:5px;
+                display: none;
+                margin-top: 10px;" >
+      <div id="buttonsDiv" style="float: left; width: 100px;" >
         <button id="recordButton"
-                class="recorderButton">Record</button><br>
+                class="recorderButton" style="margin: 10px; margin-bottom: 0px;">Record</button><br>
         <button id="playRecordingButton"
                 class="recorderButton" 
-                style="display:none">Play</button>
+                style="display:none; margin: 10px; margin-bottom: 0px;" >Play</button>
         </div>
       <div id="recorderDiv"
-           style="float: right;  width: calc(100% - 120px); border: 5px solid blue; border-radius:5px">
+           style="display: none;
+                  float: right;  width: calc(100% - 120px);
+                  border: 1px solid darkblue; border-radius: 10px;
+                  margin-top: 10px; margin-right: 5px;">
         </div>
       <div id="playerDiv"
-           style="display: none; float: right;  width: calc(100% - 120px); border: 5px solid blue; border-radius:5px">
+           style="display: none;
+                  float: right;  width: calc(100% - 120px);
+                  border: 1px dotted darkblue;  border-radius:10px;
+                  margin-top: 10px; margin-right: 5px;">
         </div>
       </div>
     </div>
