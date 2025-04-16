@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title> recorder & buttons </title>
+    <link rel="shortcut icon" href="#" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<style>
+
+body{
+   margin: 100px;
+   margin-top: 30px;
+   font-family: "New York Times-Roman";
+   font-size: 22px;
+   height: 100%;
+   }
+.recorderButton{
+   font-size: 24px;
+   }
+   
+</style>
+
+</head>
+<body>
+  <h3>Recorder and Buttons Skunk Works</h3>
+  <div id="main">
+    <button class="standardSlexilButton" id="openRecorderButton">
+       <img src="https://slexildata.artsrn.ualberta.ca/images/microphone-342.png" width=40>
+    </button>
+    
+    <div id="buttonsAndRecorderDiv"
+         style="border: 10px solid green; height: 200px; border-radius:5px; display: none;" >
+      <div id="buttonsDiv" style="float: left; width: 100px; border: 5px solid red; border-radius:5px" >
+        <button id="recordButton"
+                class="recorderButton">Record</button><br>
+        <button id="playRecordingButton"
+                class="recorderButton" 
+                style="display:none">Play</button>
+        </div>
+      <div id="recorderDiv"
+           style="float: right;  width: calc(100% - 120px); border: 5px solid blue; border-radius:5px">
+        </div>
+      <div id="playerDiv"
+           style="display: none; float: right;  width: calc(100% - 120px); border: 5px solid blue; border-radius:5px">
+        </div>
+      </div>
+    </div>
+
+<script type="module">
+
+import createRecorder from 'http://localhost:9999/recorderModule.js';
+import {createPlayer, loadURL} from 'http://localhost:9999/playerModule.js';
+
+var player;
+var recorder;
+var fubar;
+
+$(document).ready(function(){
+   console.log("===== document ready")
+   fubar = 10; 
+})
+
+//--------------------------------------------------------------------------------
+function recordingEndHandler(recordedUrl){
+   console.log(" recording ended, seen by recorderModuleTest.html")
+   console.log("url: " + recordedUrl)
+   // debugger;
+   $("#recorderDiv").children()[0].remove()
+   $("#recorderDiv").hide()
+   $("#playerDiv").show()
+   $("#playRecordingButton").show()
+   if(player == undefined){
+      player = createPlayer(recordedUrl, "#playerDiv","#playRecordingButton")
+      window.player = player
+      console.log("player")
+      console.log(player)
+      }
+   else{
+      loadURL(recordedUrl)
+      }
+} // recordingEndHandler
+//--------------------------------------------------------------------------------
+//$("#playRecordingButton").on("click", function(e){
+//   e.stopImmediatePropagation(); // not sure why this is needed
+//   console.log("--- playRecording");
+//   window.player.play()
+//   })
+
+$("#openRecorderButton").on("click", function(e){
+   e.stopImmediatePropagation(); // not sure why this is needed
+   console.log("--- visible? " + $("#buttonsAndRecorderDiv").is(":visible"));
+   if($("#buttonsAndRecorderDiv").is(":visible")){
+      console.log("--- calling show")
+      $("#buttonsAndRecorderDiv").hide()
+      }
+   else{
+      console.log("--- calling show")
+      $("#buttonsAndRecorderDiv").show()
+      //let recorder = createRecorder("#recorderDiv", "#recordButton",
+      //                               recordingEndHandler);   
+      }
+}) // openRecorder on click
+//--------------------------------------------------------------------------------
+$("#recordButton").on("click", function() {
+    let incomingState = $("#recordButton").text()
+    if(incomingState == "Record"){
+       //$(containerID).show()
+       //debugger;
+       $("#recorderDiv").show()
+       $("#playerDiv").hide()
+       $("#recordButton").text("Stop")
+       recorder = createRecorder("#recorderDiv", "#recordButton",
+                                                recordingEndHandler);   
+       let deviceId = "default"; // $('#microphone-selector').find(":selected").val()
+       console.log("mic deviceId: " + deviceId)
+       recorder.startRecording("default").then(() => {
+          console.log("recording started, from promise")
+          });
+       } // if "Record"
+    else{  // must be "Stop"
+       recorder.stopRecording()
+       $("#recordButton").text("Record")
+       }
+     }) // recordButton click
+
+</script>
+</body>
+</html>
