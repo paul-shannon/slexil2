@@ -1,6 +1,20 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"dəxʷ=ʔəs–ɬaq̓=s":
+`
+**dəxʷ=ʔəs–ɬaq̓=s**
+
+- __ɬaq̓__: fall
+- __ɬaq̓(a)__:  fall (from standing position, not from a height)
+- __ɬáq̓ad__:  lay something down
+- __ɬáq̓agʷil__:  lie down
+- __ɬáq̓aliǰəd__:  lay the (pack) down
+- __ɬáq̓aliǰəb__:  lay his (pack) down
+- __ɬaq̓áligʷəd__:  lie on side
+
+`,
+
 "ƛ̓ub":
 `
 **ƛ̓ub**
@@ -37,6 +51,10 @@ Further notes:
   The root word, _ləš_, is an archaic word for the Puget Sound region.
   Some scholars, such as Wayne Suttles, believe it may be an old word
   for "people," possibly related to the word "Salish."
+    - LD vii: _ləš_ designates the Puget Sound Region and, as suggested
+      by Wayne Suttles (pc) may be relatated to the word "Salish"
+    - Thom Hess, Lushootseed Reader 1, vii, "some scholars believe to be
+      related to the ancient native word for "people", rendered in English as "Salish".
 - _ɬadəyʔlucidbid_:  'address as woman'  (from _ɬadəyʔ_ 'woman' + _-l-ucid_ 'mouth')
 - _tubšlucidbid_ 'address as man' (from _tubš_ 'man' + _-l-ucid_ 'mouth')
 

@@ -197,7 +197,7 @@ _ʔəɬdiluɬ_ ‘go out to eat’ (from _ʔəɬəd_ ‘dine on ’)
 
 - dxʷ(s)- CTD, contained.  found next to the stem, inside aspectual prefixes.
 - ʔiɬ- PRTV, partitive, only some of the agents are involved
-- səxʷ- INSTR, instrumental 
+-  
 - 
 
 `,
