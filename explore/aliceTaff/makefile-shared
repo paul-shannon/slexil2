@@ -49,8 +49,8 @@ e2s2h:
        --html $(HTML.FILE) \
        --pageTitle $(TITLE) \
        --helpFile $(HELP_FILE) \
+       --verbose \
        --helpButtonLabel $(HELP_BUTTON_LABEL) \
-       --helpButtonLabel "How To" \
        --outputDir .
 
 

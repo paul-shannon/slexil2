@@ -31,8 +31,10 @@ class DropDownMenu{
 
 
 function displayTopic(key){
+   console.log("DropDownMenu.js, displayTopic: " + key)
    var annoBox = $("#annoNotesDiv");
    var annoText = lookup(key)
+   console.log("annoText retrieved: " + annoText.length)
    annoBox.html(annoText);
    }
 

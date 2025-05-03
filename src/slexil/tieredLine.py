@@ -239,6 +239,10 @@ class TieredLine:
             with htmlDoc.tag("div", klass="line"):
                 with htmlDoc.tag("span", klass="tier speech-tier", name=userTierName):
                     htmlDoc.asis(str(self.getSpokenText()))
+            s = f"\n<!-- speechLineAfterHook -->\n"
+            htmlDoc.asis(s)
+            s = f"\n<!-- speechLineAfterHook_%d -->\n" % self.tierNumber
+            htmlDoc.asis(s)
 
             if self.verbose:
                 print("  create html for %d standard tiers" % len(gMap))

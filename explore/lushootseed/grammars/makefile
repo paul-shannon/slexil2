@@ -18,6 +18,7 @@ default:
 	@echo view
 	@echo viewRemote
 	@echo testyaml
+	@echo inject
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
@@ -86,6 +87,8 @@ publish:
 publish-audio:
 	scp volume1.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
+inject:
+	sed -f inject.sed grammar.html  > grammar_m.html
 
 view:
 	open grammar.html
@@ -93,3 +96,4 @@ view:
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/$(PROJECT)/$(HTML.FILE)
+

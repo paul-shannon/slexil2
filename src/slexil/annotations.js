@@ -3,15 +3,28 @@ converter = new showdown.Converter()
 converter.setOption("tables", true);
 
 var timer = null;
-
+/**************
+console.log("--- entering annotations.js")
 if (typeof(kb) == 'object'){
+   console.log("--- kb entries: " + Object.keys(kb).length);
    if(typeof(linguistics) == 'object'){
+      console.log("--- adding linguistic term entries: " + Object.keys(linguistics).length);
       kb = {...kb, ...linguistics};
       }
     console.log("kb entries: " + Object.keys(kb).length)
     }
-
+*********/
 $(function() {
+   if (typeof(kb) == 'object'){
+      console.log("--- kb entries: " + Object.keys(kb).length);
+      if(typeof(linguistics) == 'object'){
+         console.log("--- adding linguistic term entries: " + Object.keys(linguistics).length);
+         kb = {...kb, ...linguistics};
+         }
+       console.log("kb entries: " + Object.keys(kb).length)
+       } // if at least kb dictionary is defined
+
+
     //$(".morpheme-cell, .speech-tier, .freeTranslation-tier, .grammatical-term")
     $(".speech-tier, .freeTranslation-tier")
         .mouseenter(function(){
@@ -64,16 +77,16 @@ $(function() {
 
   $("#toggleAnnotationsButton").click(function(){
      var annoDivVisible = $("#annoNotesDiv").is(":visible")
-     //console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
+     console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
      if (annoDivVisible){
-        //console.log("hiding annoDiv");
+        console.log("hiding annoDiv");
         showAnno = false;
         $("#annoDiv").removeClass("col-4").hide()
         $("#textLeftColumn").removeClass("col-7").addClass("col-12")
         $("#toggleAnnotationsButton").text("Show Annotations")
         $("#linguisticTopicController").css("display", "none")
      } else {
-        //console.log("showing annoDiv");
+        console.log("showing annoDiv");
         $("#annoDiv").addClass("col-4").show()
         $("#textLeftColumn").removeClass("col-12").addClass("col-8")
         $("#toggleAnnotationsButton").text("Hide Annotations")
@@ -92,7 +105,7 @@ $(function() {
            }
            // show the blank (first) option in the selector
         $("#languageTopicsSelector option")[0].selected = true;
-      }); // languageTopicsSelector change
+    }); // languageTopicsSelector
     ***********/
 
     }); // on ready
@@ -106,18 +119,18 @@ function displayAnnotation(topic)
    
 } 
 //------------------------------------------------------------------------------------------------------------------------
-function lookup(morpheme)
+function lookup(key)
 {
-   var index = Object.keys(kb).indexOf(morpheme);
+   var index = Object.keys(kb).indexOf(key);
    var found = index >= 0
-   //console.log("---- lookup, using kb: '" + morpheme + "', found? " + found)
-   //console.log("    index: " + index);
+    console.log("---- annotations.js, lookup, using kb: '" + key + "', found? " + found)
+   console.log("    index: " + index);
 
    if(index < 0)
        return("")
 
-    var markup = converter.makeHtml(kb[morpheme]);
-    return(markup);
+   var markup = converter.makeHtml(kb[key]);
+   return(markup);
 
 } // lookup
 //------------------------------------------------------------------------------------------------------------------------

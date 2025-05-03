@@ -230,6 +230,7 @@ class sfmtToWebPage:
             htmlDoc.asis('<meta charset="UTF-8"/>')
             htmlDoc.asis('<title>%s</title>' % self.pageTitle)
             htmlDoc.asis(webPacker.getCSSText())
+            htmlDoc.asis(webPacker.getJSText())
             htmlDoc.asis(startStopTimesJSText)
             htmlDoc.asis(annotationLinks)
 
@@ -290,8 +291,7 @@ class sfmtToWebPage:
                         with htmlDoc.tag("div", id="annoNotesDiv"):
                            htmlDoc.asis("")
 
-            htmlDoc.asis(webPacker.getJSText())
-            htmlDoc.asis('<!-- bodyBottomInsertionHook -->\n\n')
+            htmlDoc.asis('\n\n<!-- bodyBottomInsertionHook -->\n\n')
 
       self.htmlDoc = htmlDoc
       self.htmlText = htmlDoc.getvalue()
@@ -431,7 +431,7 @@ class sfmtToWebPage:
                with htmlDoc.tag("div",  klass="line-wrapper", id=tierNumber):
                   with htmlDoc.tag("div", klass="line-sidebar"):
                      self.tieredLineHtmlLeadin(htmlDoc, tierNumber, start, end)
-                     s = f"<!-- sidebarHookLine_{i+1} -->"
+                     s = f"\n<!-- sidebarHookLine_{i+1} -->\n"
                      htmlDoc.asis(s)
                   tieredLine.toHTML(htmlDoc)
 
