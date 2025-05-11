@@ -49,6 +49,7 @@ class sfmtToWebPage:
    useTooltips = False
    its = None  # short for inferTierStructure object
    showAnnotations = False  # when true, open that div, auto display
+   provideRecording = True
 
    def __init__(self,
                 file,
@@ -71,6 +72,8 @@ class sfmtToWebPage:
 
       if verbose:
          print("--- sfmtToWebPage.py, ctor")
+      self.provideRecording = True
+
       self.file = file
       self.grammaticalTerms = grammaticalTerms
       self.sfmt = SFMT(file)
@@ -317,9 +320,49 @@ class sfmtToWebPage:
             with htmlDoc.tag("button", id="showHideOtherControlsButton",
                           klass="standardSlexilButton"):
                htmlDoc.text("Other Controls")
-
+            if(self.provideRecording):
+               with htmlDoc.tag("button", id="openRecordDialogButton",
+                                klass="standardSlexilButton"):
+                  htmlDoc.stag('img',
+                               src='https://slexildata.artsrn.ualberta.ca/images/microphone-342.png')
+            htmlDoc.asis(self.getRecordingDialogHTML())
 
    #-------------------------------------------------------------------------------
+   def getRecordingDialogHTML(self):
+
+      html = """
+     <div id='buttonsAndRecorderDiv'
+          style='border: 2px solid gray;
+          height: 150px;
+          width: 800px;
+          border-radius:5px;
+          display: block;
+          margin-top: 10px;' >
+        <div id='buttonsDiv' style='float: left; width: 100px;' >
+           <button id='recordButton'
+                   class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
+          <button id='playRecordingButton'
+                  class='recorderButton' 
+                  style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+         </div>
+        <div id='recorderDiv'
+             style='display: none;
+                    float: right;  width: calc(100% - 120px);
+                    border: 1px solid darkblue; border-radius: 10px;
+                    margin-top: 10px; margin-right: 10px;'>
+            </div>
+        <div id='playerDiv'
+             style='display: none;
+                    float: right;  width: calc(100% - 120px);
+                    border: 1px dotted darkblue;  border-radius:10px;
+                    margin-top: 10px; margin-right: 10px;'>
+          </div>
+      </div>
+     """
+
+      return(html)
+       
+   #--------------------------------------------------------------------------------
    def createOtherControlsDiv(self, htmlDoc):
 
       with htmlDoc.tag("div", id="otherControlsGridDiv", klass="otherControlsGridWrapper"):

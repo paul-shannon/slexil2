@@ -5,15 +5,67 @@ kb = {
 `
 **dəxʷ=ʔəs–ɬaq̓=s**
 
-- __ɬaq̓__: fall
-- __ɬaq̓(a)__:  fall (from standing position, not from a height)
-- __ɬáq̓ad__:  lay something down
-- __ɬáq̓agʷil__:  lie down
-- __ɬáq̓aliǰəd__:  lay the (pack) down
-- __ɬáq̓aliǰəb__:  lay his (pack) down
-- __ɬaq̓áligʷəd__:  lie on side
+dəxʷ=ʔas–ɬaq’a=s [adnm=stat–fallen=3po]:
+
+- The second nominalizing proclitic, dəxʷ=, is used primarily for the
+  nominalization of adjunct and circumstantial expressions,
+  particularly (but not exclusively), instruments, locations,
+  motivations, and manners, and will be referred to here as an
+  adjunctive nominalizer.  Here the meaning seems to be "place of/for".
+
+- literally  _his place of/for lying down_.
+
+- cf. gʷadəxʷəsɬaq’ [gʷə=ad=dəxʷ=ʔəs–ɬaq’] ‘where you could lie
+down’ (lit. ‘your (ad=) potential (ad=) place for (dəxʷ=) being
+horizontal’, LD page 142, top of second column under ɬaq’(a)
+
+- Also, glossing ɬaq’(a) as 'fallen' is maybe not the best. ‘X is horizontal (now)’ or
+‘X that is normally vertical is horizontal’ might be better.
+
+- Or even ‘X is laid down’ (though that implies an agent in English). But it
+doesn’t fit in the interlinear gloss very well.
+
 
 `,
+
+"tu=huyu–t–b=əxʷ":
+`
+**tu=huyu–t–b=axʷ**
+
+[past=made–ics–pass=now]: this is the passive of _huyud_
+‘X makes Y’. In a passive the active object (Y the thing made) would
+normally be the subject; however, I think that in this case it is not
+because the place by the door was not actually made/created.
+
+In the LD (page 112), you see a subentry for ***huyutəb*** ‘be
+prepared/made ready’. I would guess that there is another verb huyud
+(ʔə) ‘X prepares Y’ that isn't transitive (its object always has
+ʔe). We could search the corpus to see if that is true.
+
+`,
+
+"tuhuyutəbəxʷ ʔə tiʔəʔ dəxʷəsɬaq̓s ləq̓aɬucid":
+`
+From David (email, 4 may 2025):
+
+(See the morphemic analysis notes to see his reasoning.)
+
+**"His place to lie down by the door was prepared."**
+
+
+So, again, maybe not the best free translation. In retrospect, it
+might have been nice to be more rigorous. But it is a touchy thing to
+tamper with the native-speaker consultant’s translation, even if
+translation is an art unto itself and just being a speaker, even a
+brilliant one, doesn’t mean you’re an expert at it. Also, glossing
+ɬaq’(a) as 'fallen' is maybe not the best. ‘X is horizontal (now)’ or
+‘X that is normally vertical is horizontal’ might be better. Or even
+‘X is laid down’ (though that implies an agent in English). But it
+doesn’t fit in the interlinear gloss very well.
+
+`,
+
+
 
 "ƛ̓ub":
 `
@@ -61,9 +113,26 @@ Further notes:
 
 `,
 
+"middle":
+`
+**MIDDLE**
+
+The middle voice falls between active and passive, where the subject
+both performs and receives the action. It emphasizes the subject's
+involvement or interest in the action, rather than a clear agent or
+recipient.  The middle voice shifts the focus of the sentence to the
+principal action itself, rather than a clearly defined subject or
+object.  In English, it often appears with reflexive pronouns (e.g.,
+himself, herself) when the subject is both doing and receiving the
+action.
+
+`,
+
 
 "pass":
+
 `
+
 **PASS**
 
 Passive suffix, indicates passive voice: the subject is the patient,
@@ -75,6 +144,14 @@ target, or undergoer of the action.
 - var. _-əb_
 - be involved in doing something
 - _-b_ suffix has two distinct meanings:  middle and passive
+- middle voice: falls between active and passive, where the subject
+both performs and receives the action. It emphasizes the subject's
+involvement or interest in the action, rather than a clear agent or
+recipient.  The middle voice shifts the focus of the sentence to the
+principal action itself, rather than a clearly defined subject or
+object.  In English, it often appears with reflexive pronouns (e.g.,
+himself, herself) when the subject is both doing and receiving the
+action.
 - Beck grammar, p353, section 6.2. The passive voice in Lushootseed is
 formed on transitive stems by the addition of a morpheme -b ‘passive
 [PASS]’. The application of the passive suffix results in a form in
@@ -507,7 +584,6 @@ express events with different semantic characteristics.
 
 `,
 
-
 "adnm":
 `
 **ADNM**: adjunctive nominalizer
@@ -525,14 +601,26 @@ express events with different semantic characteristics.
   essentially, it's an element that adds extra detail or context to
   the main idea, often functioning like an adverbial phrase.)
 
+- headless relative clauses: morphologically, they resemble clauses,
+  while distributionally, they function as nouns, adjectives, or
+  adverbs.
+
+- In English there are sentences where the relative clause, usually
+  introduced by "that", "which", "who", or "whose", doesn't have a
+  noun. Instead, the relative clause acts as a standalone noun phrase,
+  often functioning as a subject or object.
+
+     - "What I bought at the store was expensive," where "What I
+         bought at the store" functions as a subject.
+     - What I saw was amazing. (Here, "What I saw" acts as the subject of the sentence.)
+     - That's what I need. (Here, "what I need" acts as the object of the verb "that's.")
+     - Where I went was beautiful. (Here, "where I went" acts as the subject of the sentence, describing a location.)
+     - Who I'm talking to is my boss. (Here, "who I'm talking to" acts as the subject of the sentence, describing a person
 
 - reason for, place where, time when
 
 - inflectional prefix marking a subordinate predicate in construction
   with a fronted adjunct
-
-
-
 
 `,
 
@@ -1594,6 +1682,8 @@ _will take_
     
 "ʔə":
 `
+#####_ʔə_
+
 - about, in, of, on, into, onto, when, while  LD 9
 - often marked in translations as **PR** - preposition
 - particle linking phrases of various semantic roles to a predicate or other clause constituent
@@ -1601,6 +1691,8 @@ _will take_
     
 "dibəɬ":
 `
+#####_dibəɬ_
+
 - we, us, we are the ones [1p. pl. emphatic pronoun]. LD 83
 - _dib+ib+əɬ_: reduplication 5, just us
 `,
@@ -3261,7 +3353,9 @@ _how now?_
 `,
 
 "ʔaciɬtalbixʷ":
-`
+    `
+#####_ʔaciɬtalbixʷ_
+
 - human being, person, people
 - Native American, Indian, any indigenous person of the Americas; First People
 - often has plural meaning without plural reduplication

@@ -707,10 +707,48 @@ the verb, the verb is in the middle voice.
 `
 PASS
 
-passive suffix, indicates passive voice: the subject is the patient,
+Passive suffix, indicates passive voice: the subject is the patient,
 target, or undergoer of the action.
 
+The passive voice is used to show interest in the person or object
+that experiences an action rather than the person or object that
+performs the action. In other words, the most important thing or
+person becomes the subject of the sentence.
 
+
+**The larger story of the __-b__ suffix**
+
+- LD p32
+- var. _-əb_
+- be involved in doing something
+- _-b_ suffix has two distinct meanings:  middle and passive
+- middle voice: falls between active and passive, where the subject
+both performs and receives the action. It emphasizes the subject's
+involvement or interest in the action, rather than a clear agent or
+recipient.  The middle voice shifts the focus of the sentence to the
+principal action itself, rather than a clearly defined subject or
+object.  In English, it often appears with reflexive pronouns (e.g.,
+himself, herself) when the subject is both doing and receiving the
+action.
+- Beck grammar, p353, section 6.2. The passive voice in Lushootseed is
+formed on transitive stems by the addition of a morpheme -b ‘passive
+[PASS]’. The application of the passive suffix results in a form in
+which the PATIENT/ENDPOINT (the object of the transitive form) is
+realized as the subject of the passive form and the AGENT/INITIATOR
+(the transitive subject) is realized as an agentive complement
+(Section 8.1.7) introduced by the general preposition ʔə.
+- a suffix occuring on several levels of Lushootseed morphology
+It forms a very large class of agent-oriented intransitive verb
+stems such as _qəl-b_ 'rain'.
+- with lexical stems it designates middle voice
+- in construction with _dxʷ(s)_ and _ʔaxʷ(s)-_ it creates a desiderative stem.
+- is a component in a number of derivational suffixes as well,
+and combines with transitive suffixes to form a passive construction:
+    - _-t-əb_
+    - _-du-b_
+    - _-tu-b_
+    - _-c-əb_
+    - _-s-əb_
 
 `,
 
@@ -761,7 +799,42 @@ AGENT is in less than complete control of the situation.
 `
 ADNM: adjunctive nominalizer
 
-(from David Beck's DRAFT Grammar)
+
+- creates nominal expressions with the same distribution as relative
+  and headless relative clauses. LG 7.4.2.2 used primarily for the
+  nominalization of adjunct and circumstantial expressions,
+  particularly (but not exclusively), instruments, locations,
+  motivations, and manners, and will be referred to here as an
+  adjunctive nominalizer.
+
+- (an "adjunct expression" refers to a word, phrase, or clause within
+  a sentence that provides additional, optional information and can be
+  removed without affecting the grammatical structure of the sentence;
+  essentially, it's an element that adds extra detail or context to
+  the main idea, often functioning like an adverbial phrase.)
+
+- headless relative clauses: morphologically, they resemble clauses,
+  while distributionally, they function as nouns, adjectives, or
+  adverbs.
+
+- In English there are sentences where the relative clause, usually
+  introduced by "that", "which", "who", or "whose", doesn't have a
+  noun. Instead, the relative clause acts as a standalone noun phrase,
+  often functioning as a subject or object.
+
+     - "What I bought at the store was expensive," where "What I
+         bought at the store" functions as a subject.
+     - What I saw was amazing. (Here, "What I saw" acts as the subject of the sentence.)
+     - That's what I need. (Here, "what I need" acts as the object of the verb "that's.")
+     - Where I went was beautiful. (Here, "where I went" acts as the subject of the sentence, describing a location.)
+     - Who I'm talking to is my boss. (Here, "who I'm talking to" acts as the subject of the sentence, describing a person
+
+- reason for, place where, time when
+
+- inflectional prefix marking a subordinate predicate in construction
+  with a fronted adjunct
+
+#####from David Beck's DRAFT Grammar
 
 7.4.2.2 dəxʷ=nominals
 
