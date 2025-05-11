@@ -1,17 +1,19 @@
 EAF = inferno-threeLines.eaf
 HTML.FILE = inferno.html
+NAME = Inferno
+BASEDIR=~/github/slexil2
 
 default:
 	@echo valid
 	@echo venv
 	@echo curl
 	@echo eaf
-	@echo y2h
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
 	@echo publish
 	@echo view
 	@echo viewRemote
+	@echo inject
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
@@ -45,35 +47,25 @@ css:
 	cat index2.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.js,slexil.js, > index3.html
 
 
-y2h:
-	python ~/github/slexil2/utils/yaml2html.py \
-        --yaml inferno-threeLines.yaml \
+
+s2h:
+	python $(BASEDIR)/utils/sfmt2html.py \
+        --sfmt inferno-threeLines.yaml \
+        --tierGuide tierGuide.yaml \
         --pageTitle "Inferno" \
         --helpButtonLabel About \
         --helpFile about.html
-
-y2h-mp3:
-	python ~/github/slexil2/utils/yaml2html.py \
-        --yaml inferno-mp3.yaml \
-        --pageTitle "Inferno mp3" \
-        --helpButtonLabel About \
-        --helpFile about.html
-
-y2h-ogg:
-	python ~/github/slexil2/utils/yaml2html.py \
-        --yaml inferno-ogg.yaml \
-        --pageTitle "Inferno ogg" \
-        --helpButtonLabel About \
-        --helpFile about.html
-
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/misc/$(HTML.FILE)
 
 view:
-	open index.html
+	open inferno-threeLines.html
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/misc/$(HTML.FILE)
 
 
+inject:
+	sed -f insertCustomCode.sed inferno-threeLines.html  > $(HTML.FILE)
+	open $(HTML.FILE)
