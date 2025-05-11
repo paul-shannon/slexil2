@@ -550,3 +550,12 @@ sub {
 .standardSlexilButton:hover{
     background-color: #DDDDDD;
     }
+
+#recordingPopup{
+    border: 2px solid green;
+    height: 300px;
+    width: 800px;
+    border-radius:5px;
+    display: none;
+    margin-top: 10px;
+    }

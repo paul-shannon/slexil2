@@ -331,31 +331,19 @@ class sfmtToWebPage:
    def getRecordingDialogHTML(self):
 
       html = """
-     <div id='buttonsAndRecorderDiv'
-          style='border: 2px solid gray;
-          height: 150px;
-          width: 800px;
-          border-radius:5px;
-          display: block;
-          margin-top: 10px;' >
+     <div id='recordingPopup'>
         <div id='buttonsDiv' style='float: left; width: 100px;' >
            <button id='recordButton'
                    class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
-          <button id='playRecordingButton'
-                  class='recorderButton' 
-                  style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
-         </div>
+           <button id='playRecordingButton'
+                   class='recorderButton' 
+                   style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+           </div>
         <div id='recorderDiv'
-             style='display: none;
-                    float: right;  width: calc(100% - 120px);
-                    border: 1px solid darkblue; border-radius: 10px;
-                    margin-top: 10px; margin-right: 10px;'>
+             style='display: none; float: right;  width: calc(100% - 120px); border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
             </div>
         <div id='playerDiv'
-             style='display: none;
-                    float: right;  width: calc(100% - 120px);
-                    border: 1px dotted darkblue;  border-radius:10px;
-                    margin-top: 10px; margin-right: 10px;'>
+             style='display: none; float: right;  width: calc(100% - 120px); border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
           </div>
       </div>
      """
