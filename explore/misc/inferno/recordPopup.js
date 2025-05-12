@@ -7,16 +7,6 @@ import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js
 import RecordPlugin from 'https://unpkg.com/wavesurfer.js@7/dist/plugins/record.esm.js'
 
 var recorder, wavesurfer;
-wavesurfer = WaveSurfer.create({container: "#recorderDiv"})
-
-//recorder = wavesurfer.registerPlugin(
-//    RecordPlugin.create({
-//       renderRecordedAudio: true,
-//       scrollingWaveform: true,
-//       continuousWaveform: true,
-//       continuousWaveformDuration: 30, // optional
-//    }))
-
 
 //--------------------------------------------------------------------------------
 function loadURL(url)
@@ -145,17 +135,15 @@ $(document).ready(function() {
        let incomingState = $("#recordButton").text()
        console.log(" incomingState: " + incomingState);
        if(incomingState == "Record"){
-          $("#recorderDiv").empty()
           $("#recorderDiv").show()
           $("#playerDiv").hide()
           $("#recordButton").text("Stop")
-
-          debugger;
           if (typeof(recorder) == "undefined"){
              recorder = createRecorder("#recorderDiv", "#recordButton",
                                        recordingEndHandler);   
              let deviceId = "default"; // $('#microphone-selector').find(":selected").val()
              console.log("mic deviceId: " + deviceId)
+             window.recorder = recorder;
              }
           recorder.startRecording("default").then(() => {
              console.log("recording started, from promise")
