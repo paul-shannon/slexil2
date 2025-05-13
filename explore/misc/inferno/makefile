@@ -8,6 +8,7 @@ default:
 	@echo venv
 	@echo curl
 	@echo eaf
+	@echo s2h
 	@echo html
 	@echo css      # read local slexil.css, for experimentation
 	@echo publish

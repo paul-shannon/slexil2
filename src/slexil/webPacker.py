@@ -32,9 +32,7 @@ class WebPacker:
 
        self.jsFiles.append("annotations.js")
        self.jsFiles.append("DropDownMenu.js")
-
-
-
+       self.jsFiles.append("recordPopup.js")
 
        if (self.verbose):
           for path in self.cssFiles:
@@ -63,7 +61,10 @@ class WebPacker:
         jsText = ""
         for file in self.jsFiles:
            newText = rezReader.read_text("slexil", file)
-           jsText = jsText + "\n<script>\n" +  newText + "\n</script>\n";
+           if file == "recordPopup.js":
+               jsText = jsText + "\n<script type='module'>\n" +  newText + "\n</script>\n";
+           else:
+               jsText = jsText + "\n<script>\n" +  newText + "\n</script>\n";
         self.jsText = jsText
 
     def getCSSText(self):
@@ -82,6 +83,6 @@ class WebPacker:
         else:
            urlText = ""
            for file in self.jsFiles:
-               urlText += "<script src='%s/%s'></script>" % (self.baseUrl, file)
+               urlText += "<script' src='%s/%s'></script>" % (self.baseUrl, file)
            return(urlText)
 
