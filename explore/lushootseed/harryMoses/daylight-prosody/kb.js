@@ -32,15 +32,25 @@ doesn’t fit in the interlinear gloss very well.
 `
 **tu=huyu–t–b=axʷ**
 
-[past=made–ics–pass=now]: this is the passive of _huyud_
-‘X makes Y’. In a passive the active object (Y the thing made) would
-normally be the subject; however, I think that in this case it is not
-because the place by the door was not actually made/created.
+David remarks:
 
-In the LD (page 112), you see a subentry for ***huyutəb*** ‘be
-prepared/made ready’. I would guess that there is another verb huyud
-(ʔə) ‘X prepares Y’ that isn't transitive (its object always has
-ʔe). We could search the corpus to see if that is true.
+- [past=made–ics–pass=now]: this is the passive of _huyud_
+  ‘X makes Y’. In a passive the active object (Y the thing made) would
+  normally be the subject; however, I think that in this case it is not
+  because the place by the door was not actually made/created.
+
+- In the LD (page 112), you see a subentry for ***huyutəb*** ‘be
+  prepared/made ready’. I would guess that there is another verb huyud
+  (ʔə) ‘X prepares Y’ that isn't transitive (its object always has
+  ʔe). We could search the corpus to see if that is true.
+
+LD 112, near bottom of page:
+
+- main entry: _huy(u)_: do, make, prepare something; get ready, prepare for
+- _tr_ __huyu-t-əb__:  make, prepare
+- _ʔuhuyutəbəxʷ čəgʷas_: She has been made (his) wife now. ML
+- _yəcəd tiʔəʔ shuyutəbs ʔə tiʔəʔ sqəlaitut_: He told what the power
+  had done to him. EC5.197
 
 `,
 
@@ -208,7 +218,9 @@ talks in terms of actions and changes while English manipulates things.
 `
 **ƛ̓u=ši–šədᶻal**
 
+- hab=attn–go.outdoors
 - habitually go outside a bit
+- ATTN: attenuative, reduced degree of a quality
 - _šədᶻal-txʷ_: take someone or something outside
 - this form used to demonstrate _red1_ version of the stem
 
