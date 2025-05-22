@@ -8,8 +8,9 @@ default:
 	@echo  curl
 	@echo  eaf
 	@echo  html
-#	@echo  y2h    # yaml2html
 	@echo  s2h    # yaml2html
+	@echo  inject 
+	@echo  update (s2h, inject, publish, viewRemote)
 	@echo  publish
 	@echo  publish-audio
 	@echo  viewRemote
@@ -86,6 +87,8 @@ publish:
 
 publish-audio:
 	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+
+update: s2h inject publish viewRemote
 
 
 view:

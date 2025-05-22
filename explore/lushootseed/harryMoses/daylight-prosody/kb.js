@@ -1,6 +1,28 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ʔəs–wač–bi–d":
+`
+**ʔəs–wač–bi–d**
+
+"watched it"
+
+- _-bi-d_: The most consistent pattern found with -bi-d derivations is
+  one where a monovalent intransitive base is transitivized by the
+  addition of a second semantic actant,
+
+- The secondary suffix -bi- ‘middle applicative [MAP]’ combines with
+  the internal causative suffix -t to form transitive stems whose
+  direct object expresses semantic actants in a variety of roles other
+  than PATIENT.
+
+| MAP form | root |
+| -------- | ------ |
+| wačbid ‘watch ’ | (wač ‘keep watch’) |
+| yayusbid ‘work on ’ | (yayus ‘do work’) |
+| ɬuqadabid  ‘steal it’ | (qada ‘steal’) |
+
+`,
 "dəxʷ=ʔəs–ɬaq̓=s":
 `
 **dəxʷ=ʔəs–ɬaq̓=s**

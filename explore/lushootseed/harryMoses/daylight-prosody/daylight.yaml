@@ -40,6 +40,15 @@ lines:
     morphemeGloss: [be.there,REM,daylight,at,REM,upstream•land,SCONJ,STAT–how,REM,SBJ=ADNM=take–DC,1PL.PO]
     english: Daylight is up there in the upriver country but how can we manage to get it?
 
+  - html: "<div style='margin: 30px;'>
+           <center>
+           <hr style="width: 400px;">
+           Mink and Raven Prepare
+           <button style="margin-left: 50px" onclick="myBox('prepare')">V</button>
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
   - startTime: 24006
     endTime: 26917
     lushootseed: tuhuyucutəxʷ tiʔəʔ səsaliʔ ləgʷləgʷəb
@@ -71,6 +80,16 @@ lines:
     morphemes: [tiʔəʔ,qaw'qs,ʔi,tiʔəʔ,bi–bəščəb,kʷi,tu=huyu–t–sut]
     morphemeGloss: [PROX,raven,CONJ, PROX,ATTN–mink,REM,PAST=made–ICS–REFL]
     english: The ones who prepared themselves were Raven and Little Mink.
+
+  - html: "<div style='margin: 30px;'>
+           <center>
+           <hr style="width: 400px;">
+           Canoe Jumping
+           <button style="margin-left: 50px" onclick="myBox('canoeJumping')">V</button>
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
 
 
   - startTime: 42334
@@ -114,6 +133,15 @@ lines:
     morphemeGloss: [PROG=three•CNN•canoe–INCH,PROX,PAST=STAT–overturned–ECS,PL,canoe,ADNM=PROG=jump•body=3PO,PL,HORT]
     english: It came to where they had three canoes overturned which they were jumping.
 
+  - html: "<div style='margin: 30px;'>
+           <center>
+           <hr style="width: 400px;">
+           Four canoes - ready!
+           <button style="margin-left: 50px" onclick="myBox('fourCanoesReady')">V</button>
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
   - startTime: 70461
     endTime:   77678
     lushootseed: ʔaləxʷ kʷi čəɬ, ʔaləxʷ kʷi čəɬ tubuus, tubuusalgʷiɬil kʷi tuasx̌əʷk̓ʷ ƛ̓əlayʔ
@@ -145,6 +173,16 @@ lines:
     morphemes: [siʔ=əxʷ,čəɬ,ƛ̓ub=əxʷ,dxʷ–ʔal,kʷi,gʷə=s=ʔu–ʔux̌ʷ–c,čəɬ,kʷi,sləx̌il,ʔal,kʷi,dəxʷ=ʔacəc]
     morphemeGloss: [here=now,1PL.SUB,well=now,CNTRPT–at,REM,SBJ=NM=PFV–go–ALTV,1PL.PO,REM,daylight,at,REM,ADNM=be.in.place]
     english: We are good enough to go after daylight where it is.
+
+  - html: "<div style='margin: 30px;'>
+           <center>
+           <hr style="width: 400px;">
+           Traveling upriver
+           <button style="margin-left: 50px" onclick="myBox('travelUpriver')">V</button>
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
 
   - startTime: 94400
     endTime: 103558
@@ -188,16 +226,26 @@ lines:
 
   - startTime: 124700
     endTime: 127580
-    lushootseed: diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč'itiləxʷ čəɬ
-    soundsLike: 
-    morphemes: [diɬ,tu=ʔəs–hay–dxʷ,əlgʷəʔ, gʷə=dəxʷ=č'it-il-əxʷ,čəɬ]
+    lushootseed: diɬ tu(ə)shaydxʷ əlgʷəʔ gʷədəxʷč̓itiləxʷ čəɬ
+    soundsLike: deeth too.HIDE kwellgwah gwuh.duff.CHAIT.eel.uff chush
+    morphemes: [diɬ,tu=ʔəs–hay–dxʷ,əlgʷəʔ, gʷə=dəxʷ=č̓it-il-əxʷ,čəɬ]
     morphemeGloss: [FOC,PAST=STAT–know–DC,PL,SBJ-ADNM-near–INCH=now,1PL.SUB]
     english: That (was how) knew they becoming near they.
+
+  - html: "<div style='margin: 30px;'>
+           <center>
+           <hr style="width: 400px;">
+           Arrival
+           <button style="margin-left: 50px" onclick="myBox('arrival')">V</button>
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
 
   - startTime: 128013
     endTime: 131346
     lushootseed: gʷəl tuɬəgʷɬ əlgʷəʔ tiʔəʔ q̓il̓bids gʷəl tugʷax̌ʷ
-    soundsLike: 
+    soundsLike: gwell too.sug elgwa tiuh kailbaids gwell tugwawk
     morphemes: [gʷəl,tu=ɬəgʷɬ,əlgʷəʔ,tiʔəʔ,q̓il̓bid–s,gʷəl,tu=gʷax̌ʷ]
     morphemeGloss: [SCONJ,PAST=leave,PL,PROX,canoe–3PO,SCONJ,PAST=walk]
     english: Then they left their canoe and walked.
@@ -382,8 +430,8 @@ lines:
 
   - html: "<div style='margin: 30px; margin-left: 200px;'>
            <hr style="width: 400px;">
-           Mink's encounter with the siʔab.
-           <button onclick="myBox('locations')">V</button>
+           Mink encounters the siʔab 
+           <button style="margin-left: 50px" onclick="myBox('encounter')">V</button>
            <hr style="width: 400px;">
            </div>"
 
@@ -421,7 +469,8 @@ lines:
 
   - html: "<div style='margin: 30px; margin-left: 200px;'>
            <hr style="width: 400px;">
-           Mink takes his place.
+           Mink watches 
+           <button style="margin-left: 50px" onclick="myBox('minkWatches')">V</button>
            <hr style="width: 400px;">
            </div>"
 
@@ -435,16 +484,16 @@ lines:
 
   - startTime: 259821
     endTime:   264823
-    lushootseed: ƛ̓uʔaʔ x̌ʷul̓ ƛ̓asʷačbid tiʔiɬ ƛ̓ashuyutid kʷi sləx̌il
-    soundsLike: 
-    morphemes: [ƛ̓u=ʔaʔ,x̌ʷul̓,ƛ̓u=ʔas–ʷač–bi–d,tiʔiɬ,ƛ̓u=ʔas–huyu–t–id]
-    morphemeGloss: [HAB=be.there,only,HAB=STAT–watch–MAP–ICS,DIST,HAB=STAT–made–ICS–PASS.SBRD]
+    lushootseed: ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid kʷi sləx̌il
+    soundsLike: tloo.AHHHHH too buss tluss.wash.uh.beed gate tu.hoyute.teed tee.uh sluh.hail
+    morphemes: [ƛ̓u=ʔaʔ,x̌ʷul̓,ƛ̓u=ʔas–wač–bi–d,tiʔiɬ,ƛ̓u=ʔas–huyu–t–id,kʷi,sləx̌il]
+    morphemeGloss: [HAB=be.there,only,HAB=STAT–watch–MAP–ICS,DIST,HAB=STAT–made–ICS–PASS.SBRD,REM,daylight]
     english: He would be there just watching what was done with it.
 
   - startTime: 264970
     endTime:   266590
     lushootseed: x̌ʷul̓ ʔəsačbid
-    soundsLike: 
+    soundsLike: hwole us.WAWCH.uh.beed
     morphemes: [x̌ʷul̓,ʔəs–wač–bi–d]
     morphemeGloss: [only,STAT–watch–MAP–ICS]
     english: He just watched it.
@@ -452,7 +501,7 @@ lines:
   - startTime: 267240
     endTime:   272095
     lushootseed: x̌ʷul̓ ƛ̓ulədiʔiʔil tiʔiɬ ɬukʷaɬ gʷəl ƛ̓uləƛ̓ip̓usitəb tiʔəʔ sləx̌il
-    soundsLike: 
+    soundsLike: wole tloo.luh.dale teesh klow.kwuhs deek.kwo.kluss dee.kwo.suh.pish.ub tee.uh sluh.hail
     morphemes: [x̌ʷul̓,ƛ̓u=lə=diʔ–iʔ–il,tiʔiɬ,ɬukʷaɬ,gʷəl,ƛ̓u=lə=ƛ̓ip̓•us–i–t–b,tiʔəʔ,sləx̌il]
     morphemeGloss: [only,HAB=PROG=exc–other.side–INCH,DIST,sun,SCONJ,HAB=PROG=squeeze•face–SS–ICS–PASS,PROX,daylight]
     english: As the sun would move to the other side, then the daylight would gradually get its face squeezed shut.

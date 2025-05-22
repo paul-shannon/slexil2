@@ -1,5 +1,74 @@
 linguistics = {
 
+"-bi-":
+`
+**Middle applicative -bi-**
+
+
+| MAP form | root |
+| -------- | ------ |
+| wačbid ‘watch ’ | (wač ‘keep watch’) |
+| yayusbid ‘work on ’ | (yayus ‘do work’) |
+| yəyəhubid ‘tell a traditional story’ | (from yəyəhub ‘tell a traditional story’) |
+
+MAP: A type of applicative construction where the applicative argument (the
+"applied" argument) is interpreted as a recipient, beneficiary, or
+other affected party of the verb's action, in a way that the action is
+said to be focused on the applicative argument. It's a way to express
+actions that are not directly directed at the main object but are
+instead related to or affect another entity, often in a way that the
+main object benefits or is affected by the action.
+
+The secondary suffix -bi- ‘middle applicative [MAP]’ combines with the internal causative
+suffix -t to form transitive stems whose direct object expresses semantic actants in a variety of
+roles other than PATIENT.
+
+The range of semantic roles, and to a certain extent the syntactic effect
+of -bi-d on its stem, is much more variable than it is for -yi-d, and the over-arching semantic
+linkage amongst the different uses of this morphological complex seems to be a rather abstract
+notion of reduced semantic transitivity 
+
+-bi-d  most often increases the valency of a stem by adding a direct object.
+
+The most consistent pattern found with -bi-d derivations is one where a monovalent
+intransitive base is transitivized by the addition of a second semantic actant.
+
+`,
+
+
+"MAP":
+
+`
+**MAP: Middle Applicative**
+
+
+A type of applicative construction where the applicative argument (the
+"applied" argument) is interpreted as a recipient, beneficiary, or
+other affected party of the verb's action, in a way that the action is
+said to be focused on the applicative argument. It's a way to express
+actions that are not directly directed at the main object but are
+instead related to or affect another entity, often in a way that the
+main object benefits or is affected by the action.
+
+
+**Example**
+
+Basic Sentence:
+
+"She gave the book to him." (Direct object: the book, indirect object: him) 
+
+Middle Applicative:
+
+"She gave him the book." (The verb "gave" is now acting on "him"
+indirectly, making "him" the affected agent, even though he's not the
+direct recipient of the book) In this example, the middle applicative
+construction, where the verb "gave" is used to affect the indirect
+object, "him", rather than the direct object, "the book".
+
+
+
+`,
+
 "INCRP":
 `
 **INCRP**
