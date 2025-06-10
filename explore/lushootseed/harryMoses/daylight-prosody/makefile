@@ -10,7 +10,7 @@ default:
 	@echo  html
 	@echo  s2h    # yaml2html
 	@echo  inject 
-	@echo  update (s2h, inject, publish, viewRemote)
+	@echo  update [s2h, inject, publish, viewRemote]
 	@echo  publish
 	@echo  publish-audio
 	@echo  viewRemote

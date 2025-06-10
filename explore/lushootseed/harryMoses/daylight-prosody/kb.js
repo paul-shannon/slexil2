@@ -1,5 +1,51 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
+"ƛ̓u=ʔas–huyu–t–id":
+`
+**ƛ̓u=ʔas–huyu–t–id**
+
+- hab=stat–made–ics–pass.sbrd
+- David Beck's draft grammar, section 6.2 on passive voice:
+  In conservative speech, the passive voice has a special form, -id, used in some subordinate
+  clauses.
+`,
+
+
+"ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid kʷi sləx̌il":
+`
+**ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid kʷi sləx̌il**
+
+David says (email, 25 May 2025):
+
+Okay, after wrestling with this a bit I have to say I really can’t
+hear what he says before ƛ̓uʔaswačbid. I think I do hear the x̌ʷul̓ where
+you write “buss”. The x-wedge is rounded—i.e., labialized—which is why
+you hear a label sound /b/) and the /u/ is reduced to a schwa
+/ə/. Because the x̌ is uvular, at the back of the mouth, you probably
+hear it more as an /h/ and then the lip-rounding “imposes” a /b/ on
+it. But it doesn’t sound like a stop (/b/) to me. Maybe because it is
+preceded by the glottal stop? Then you might hear the /x̌ʷ/ as a /u/
+and ʔ + u = b?
+
+Where he says /əl’/ the glottalized /l/ is very light but you can see
+global pulses (vibrating vocal chords, which you don’t get with /s/)
+and the third formant you get with /l/ and /r/ if you look at the
+spectrogram.
+
+The very first word sounds like /tuʔeepač/ to me but I know that isn’t
+anything. Remote possibility, he said ʔibəš, but I am pretty dubious
+about that.
+
+All I can really suggest here is that he’s not speaking clearly and
+either Vi, as a native speaker, was able to reconstruct what he would
+have said if he was speaking clearly, or she filled in what she
+guessed he said based on context.
+
+Sorry I couldn’t decipher it completely
+
+`,
+
+
 
 "ʔəs–wač–bi–d":
 `
@@ -170,7 +216,16 @@ action.
 Passive suffix, indicates passive voice: the subject is the patient,
 target, or undergoer of the action.
 
+- from dbeck1997:
+
+The first suffix to be considered here is -b, which Hess (1993a) dubs "middle voice", although in
+its canonical form it is not a voice (as defined by Mel'Cuk 1993) as it increases the number of actants
+the verb has rather than merely permuting their syntactic roles. -b has two uses which correspond 
+
+
 **The larger story of the __-b__ suffix**
+
+
 
 - LD p32
 - var. _-əb_
@@ -4148,6 +4203,15 @@ _approached, were coming near, getting close_
     - _č’it-il_: draw near
 `,
     
+"x̌ʷul̓":
+`
+**x̌ʷul̓**
+
+- only, merely, simply, just, just that and nothing else
+- predicate adverb.
+- LD 273.
+
+`,
 
 "x̌ʷul’=əxʷ":
 `

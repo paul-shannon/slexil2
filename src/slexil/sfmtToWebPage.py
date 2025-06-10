@@ -286,6 +286,9 @@ class sfmtToWebPage:
                         if(self.linguisticsFilename != None):
                            topics = getLinguisticsTopics(self.linguisticsFilename,
                                                          self.verbose)
+                           #print("--- annotation topics")
+                           #for topic in topics:
+                           #   print(topic)
                            with htmlDoc.tag("div", id="topicsMenuDiv"):
                               menu = DropDownMenu(menuTitle = "Linguistic Topics",
                                                   menuID="topics",

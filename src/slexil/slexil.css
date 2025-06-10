@@ -559,3 +559,10 @@ sub {
     display: none;
     margin-top: 10px;
     }
+
+.ui-dialog-titlebar-close:after {
+   content: 'x' !important;
+   position: absolute;
+   top: -10px;
+   right: 2px;
+   }

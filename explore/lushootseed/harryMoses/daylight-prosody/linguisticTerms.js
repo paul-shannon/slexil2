@@ -1,5 +1,89 @@
 linguistics = {
 
+"Passive Voice":
+`
+**Passive Voice**
+
+[David Beck's Draft Grammar, section 6.2]
+
+The passive voice in Lushootseed is formed on transitive stems by the addition of a
+morpheme -b ‘passive [PASS]’. The application of the passive suffix results in a form in which
+the PATIENT/ENDPOINT (the object of the transitive form) is realized as the subject of the passive
+form and the AGENT/INITIATOR (the transitive subject) is realized as an agentive complement
+(Section 8.1.7) introduced by the general preposition ʔə:
+<pre>
+  a. ʔuʔusil ti c’ix̌c’ix̌
+     ʔu–ʔusil ti c’ix̌c’ix̌
+     PFV–dive SPEC fish.hawk
+     the fish hawk dove’
+  b. ʔuʔusis ti sʔuladxʷ
+     ʔu–ʔusil–s–b Ø ti sʔuladxʷ
+     PFV–dive–ALTV 3SUB SPEC salmon
+     ‘s/he/it dove after the salmon’
+  c. ʔuʔusisəb ʔə ti c’ix̌c’ix̌ ti sʔuladxʷ
+     ʔu–ʔusil–s ʔə ti c’ix̌c’ix ti sʔuladxʷ
+     PFV–dive–ALTV–PASS PR DEF fish.hawk DEF salmon
+     ‘the salmon was dived after by the fish hawk’135
+
+  (Hess 1995: 22, ex. 1a–c)
+</pre>
+
+In conservative speech, the passive voice has a special form, -id, used in some subordinate
+clauses.
+
+
+footnote 135: Note that the pragmatic uses and discourse functions of the Lushootseed passive are quite different from those of
+its English counterpart, and so Lushootseed passives are often more idiomatically glossed as English actives. To
+avoid confusion, I have not followed this practice in all cases, even when the results are somewhat stilted English.
+
+`,
+
+"PASS.SBRD":
+`
+**PASS.SBRD: passive subordinate**
+
+Refers to a subordinate clause expressed in
+the passive voice. A subordinate clause is a clause that cannot stand
+alone as a sentence and requires a main clause for completion. The
+passive voice indicates that the subject of the clause is not the one
+performing the action, but rather the one being acted upon.
+
+In conservative Lushootseed speech, the passive voice has a special form, -id, used in some subordinate
+clauses.
+`,
+
+"-id":
+`
+**-id**
+
+In conservative speech, the passive voice has a special form, -id,
+used in some subordinate clauses, as shown in the following examples.
+
+Note: Passive voice occurs when the subject of a sentence is acted
+upon by the verb, rather than acting on it. In other words, the
+subject receives the action.
+
+<pre>
+a. ʔəx̌id dxʷʔal kʷi gʷəskʷədyitid ʔə tiʔəʔ diʔəʔ gʷəstubšəs
+    ʔəx̌id dxʷ –ʔal kʷi gʷə=s=kʷəd–yi–t–id ʔə tiʔəʔ diʔəʔ gʷə=stubš=əs
+    happen CNTRPT–at REM SBJ=NM=held–DAT–ICS–PASS.SBRD PR PROX here SBJ=man=3SBJ
+   ‘it might happen that he’d be taken from her by them if [it was known] he was male’
+       [HM Star Child, line 15]
+
+b. gʷəl ckʷaqid ƛ’aslax̌dub ʔə tsiʔəʔ luƛ’ tiʔəʔ tucuucid ʔə tsiʔəʔ bədaʔs 
+   gʷəl ckʷaqid ƛ’u–ʔas–lax̌–dxʷ –b ʔə tsiʔəʔ luƛ’ tiʔəʔ tu=cut–c–id ʔə tsiʔəʔ bədaʔ–s
+   then always HAB–STAT–remember–DC–PASS PR PROX:FEM old PROX PAST=speak–ALTV–PASS.SBRD PR PROX:FEM offspring–3PO
+   ‘and always this old woman would [try to] remember what her daughter would tell her’
+  [HM Star Child, line 18]
+
+c. x̌ʷul’ čəd ʔugʷəlaltəb ʔə ti dsluƛ’luƛ’, ʔə tiʔəʔ ʔuč’axʷaptid čəd
+   x̌ʷul’ čəd ʔu–gʷəlal–t–b ʔə ti d–s–luƛ’ ʔə tiʔəʔ ʔu–č’axʷ –ap–t–id čəd
+   only 1SG.SUB PFV–punish–ICS–PASS PR SPEC 1SG.PO–NM–DSTR–old PR PROX PFV–clubbed–bottom–ICS–PASS.SBRD 1SG.SUB
+   ‘I just got beaten by my elders, by those who paddled my bottom’
+   (Hess 2006: 73, line 730)
+</pre>
+`,
+
 "-bi-":
 `
 **Middle applicative -bi-**
@@ -10,6 +94,14 @@ linguistics = {
 | wačbid ‘watch ’ | (wač ‘keep watch’) |
 | yayusbid ‘work on ’ | (yayus ‘do work’) |
 | yəyəhubid ‘tell a traditional story’ | (from yəyəhub ‘tell a traditional story’) |
+
+Applicative: a grammatical construction that adds an argument to a
+verb, typically one that is not a standard subject or object. This
+argument is often an oblique argument (a noun or pronoun that is not
+directly part of the verb's core argument structure) and is promoted
+to a more prominent role. Essentially, applicatives modify the verb to
+include an additional participant in the event, often with a
+benefactive or other semantic role.
 
 MAP: A type of applicative construction where the applicative argument (the
 "applied" argument) is interpreted as a recipient, beneficiary, or
@@ -41,6 +133,13 @@ intransitive base is transitivized by the addition of a second semantic actant.
 `
 **MAP: Middle Applicative**
 
+Applicative: a grammatical construction that adds an argument to a
+verb, typically one that is not a standard subject or object. This
+argument is often an oblique argument (a noun or pronoun that is not
+directly part of the verb's core argument structure) and is promoted
+to a more prominent role. Essentially, applicatives modify the verb to
+include an additional participant in the event, often with a
+benefactive or other semantic role.
 
 A type of applicative construction where the applicative argument (the
 "applied" argument) is interpreted as a recipient, beneficiary, or

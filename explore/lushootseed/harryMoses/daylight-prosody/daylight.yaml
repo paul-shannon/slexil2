@@ -30,7 +30,8 @@ lines:
     soundsLike: too.swuh.HAWD.AWD.duff tiuh AWtzi.dun.dee gwuhs.chal.uff kwee gwud.duff.KWUD.chush kwee slukhail
     morphemes: [tu=dxʷ–had–had=əxʷ, tiʔəʔ, ʔaciɬtalbixʷ,ʔəs–čal=əxʷ,kʷi,gʷə=dəxʷ=kʷəd–dxʷ,čəɬ,kʷi,sləx̌il]
     morphemeGloss: [PAST=CTD–DSTR–discuss=now,PROX,people,STAT–how=now,REM,SBJ=ADNM=take–DC,1PL.PO,REM,daylight]
-    english: The people talked it over. How can we manage to obtain the daylight?
+    english: The people talked it over.   "How can we get it?"
+    ps.english: (<i>ps: The people talked it over. How can we manage to obtain the daylight?</i>)
 
   - startTime: 17746
     endTime: 23000
@@ -79,7 +80,7 @@ lines:
     soundsLike: 
     morphemes: [tiʔəʔ,qaw'qs,ʔi,tiʔəʔ,bi–bəščəb,kʷi,tu=huyu–t–sut]
     morphemeGloss: [PROX,raven,CONJ, PROX,ATTN–mink,REM,PAST=made–ICS–REFL]
-    english: The ones who prepared themselves were Raven and Little Mink.
+    english: The ones who prepare themselves are Raven and Little Mink.
 
   - html: "<div style='margin: 30px;'>
            <center>
@@ -143,20 +144,22 @@ lines:
            </div>"
 
   - startTime: 70461
-    endTime:   77678
+    endTime:   77580
     lushootseed: ʔaləxʷ kʷi čəɬ, ʔaləxʷ kʷi čəɬ tubuus, tubuusalgʷiɬil kʷi tuasx̌əʷk̓ʷ ƛ̓əlayʔ
     soundsLike: 
     morphemes: [ʔal=əxʷ,kʷi,čəɬ,tu=buus•al•gʷiɬ–il,kʷi,tu=ʔas–x̌ək̓ʷ,ƛ̓əlayʔ]
     morphemeGloss: [at=now,REM,made,PAST=four•CNN•canoe–INCH,REM,PAST=STAT–overturned,canoe]
-    english: Now prepared, now prepared four, four canoes turned over shovel nose canoe
+    english: When it became four canoes and they jumped over these four, then it was there.’
+    ps.english: (<i>ps: Now prepared, now prepared four, four canoes turned over shovel nose canoe.)</i>
 
-  - startTime: 77755
+  - startTime: 77690
     endTime: 81022
     lushootseed: gʷəl tusaxʷəbabacəd həlgʷa tiʔəʔ buusalgʷiɬ ƛ̓əlayʔ
     soundsLike: 
     morphemes: [gʷəl,tu=saxʷəb•abac–d,tiʔəʔ,buus•al•gʷiɬ,ƛ̓əlayʔ]
     morphemeGloss: [SCONJ,PAST=jump•body–ICS,PROX,four•CNN•canoe,canoe]
-    english:  And they jumped over these four canoes
+    english:
+    ps.english:  (<i>ps: And they jumped over these four canoes.</i>)
 
   - startTime: 81245
     endTime: 87863

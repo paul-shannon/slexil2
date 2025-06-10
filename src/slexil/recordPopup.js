@@ -116,8 +116,8 @@ $(document).ready(function() {
    $('#recordingPopup').dialog({autoOpen: false,
                                title: 'Record Your Voice',
                                width: 800,
-                                height: 400,
-                                closeText: "X"
+                               height: 400,
+                               closeText: "&times;"
                                });
 
    $("#openRecordDialogButton").on('click', function(){

@@ -11,10 +11,12 @@ class DropDownMenu:
    menuID = None
    
    def __init__(self, menuTitle, menuID, menuOptions):
-      # print("dropDownMenu ctor, menuID: %s" % menuID)
+      #print("--- dropDownMenu ctor, menuID: %s" % menuID)
       self.menuTitle = menuTitle
       self.menuID = menuID
       self.menuOptions = menuOptions
+      #for option in self.menuOptions:
+      #   print(option)
 
    def toHTML(self, htmlDoc):
       with htmlDoc.tag("div",  klass="dropdownMenu"):

@@ -3,17 +3,7 @@ converter = new showdown.Converter()
 converter.setOption("tables", true);
 
 var timer = null;
-/**************
-console.log("--- entering annotations.js")
-if (typeof(kb) == 'object'){
-   console.log("--- kb entries: " + Object.keys(kb).length);
-   if(typeof(linguistics) == 'object'){
-      console.log("--- adding linguistic term entries: " + Object.keys(linguistics).length);
-      kb = {...kb, ...linguistics};
-      }
-    console.log("kb entries: " + Object.keys(kb).length)
-    }
-*********/
+
 $(function() {
    if (typeof(kb) == 'object'){
       console.log("--- kb entries: " + Object.keys(kb).length);
