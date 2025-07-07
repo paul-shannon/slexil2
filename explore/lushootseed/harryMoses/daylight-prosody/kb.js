@@ -1,14 +1,87 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
+"ƛ̓u=lə=ƛ̓ip̓•us–i–t–b":
+`
+**ƛ̓u=lə=ƛ̓ip̓•us–i–t–b**
+
+- sounds like _plus.taid.plus deesh uh_
+- or maybe  _plus(lə)tlaid.pus.ee.tub_
+- HAB=PROG=squeeze•face–SS–ICS–PASS
+- ƛ̓ip̓: grip tightly, squeeze, compress. LD 154
+- us: lexical suffix, face
+`,
+
+
+"ɬukʷaɬ":
+`
+**ɬukʷaɬ**
+
+- sun
+- sounds like: _klow.kwuhs_
+`,
+
+
+"ƛ̓u=lə=diʔ–iʔ–il":
+`
+**ƛ̓u=lə=diʔ–iʔ–il**
+
+- sounds like: _tloo.luh.daaale_
+- HAB=PROG=EXC–other.side–INCH
+- _(the sun) in its exclusive custom, progresses incrementally to the other side (of the sky)_
+- _ƛ̓u_: habitual
+- _=lə_: progressive
+- _diʔ_: variant of _adiʔ_ LD82
+     - _adiʔ_: ear, side, sound [lexical suffix] derived from _diʔ_.  LD26
+- exclusivity: 
+     - _diʔ-iʔ_:  Beck Grammar type III reduplication expressing exclusitivity
+     - not to be confused with _red3_ from LD xvii.
+     - infix the first vowel _-i_ and the second consonant _ʔ_ after the first
+       consonant _d_.
+     - thus ___diʔ___ becomes d(iʔ)iʔ
+     - this grammatical form has very regular form and various meanings,
+       "depending in part on the lexical and semantic class of the word it is
+        applied to" (Beck draft Grammar, p328):
+           - diminished effectiveness
+           - intensitivity
+           - exclusivity
+           - plurality
+
+`,
+
+
+"ƛ̓u=ʔas–wač–bi–d":
+`
+**ƛ̓u=ʔas–wač–bi–d**
+
+- _ƛ̓u_: HAB, repetition, continuous, ongoing
+- _ʔas_: STAT
+- _wač_: watch
+- _bi_: MAP, middle applicative, modifies the verb to include
+an additional participant, here a recipient.  As with 'him' in "She gave him the book.",
+    - (Mink) watched daylight is the basic message
+    - the additional participant may be "what was done" _ƛ̓ashuyutid_
+- _–d_: ICS: transitive causative suffix (though here, daylight is not
+transformed, as you might expect in a causal relationship).  In the
+Beck Grammar: the radical itself (_wač_) expresses a state while the derived
+transitive stems expresses an action preformed by an AGENT resulting
+in a PATIENT coming into that state.
+`,
+
+
 "ƛ̓u=ʔas–huyu–t–id":
 `
 **ƛ̓u=ʔas–huyu–t–id**
 
-- hab=stat–made–ics–pass.sbrd
-- David Beck's draft grammar, section 6.2 on passive voice:
-  In conservative speech, the passive voice has a special form, -id, used in some subordinate
-  clauses.
-`,
+- ƛ̓u: HAB, repetition, continuous, ongoing
+- ʔas: STAT
+- huyu: do, make, prepare something, get ready, prepare for. LD 112
+- -t: ICS, transitive causative suffix
+- –id: PASS.SBRD, passive voice in a subordinate phrase, found in conservative speech
+
+I don't hear "tloo-ahz-hoyute-teed" or "tluss-hoyute-teed" but simply
+"too-hoyute-teed".  _ƛ̓u=ʔas_ would repeat the prefixes from the preceeding
+word.  Perhaps _tu=huyu-t-id_ is another candidate transcription.
+Note similar beginning of _tu=huyu–t–b=əxʷ_ in the preceeding line.  `,
 
 
 "ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid kʷi sləx̌il":

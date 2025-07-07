@@ -20,10 +20,6 @@ lines:
     morphemeGloss: [PROX,land,SCONJ,PAST=STAT–dark,at,REM,PAST=long.time]
     english: The land, it was dark in the distant past.
 
-  - html: "<div style='margin: 30px; color: darkred;'>
-           <i>(Some difficulty matching transcription to sound in next line - pshannon)</i>
-           </div>"
-
   - startTime: 12407
     endTime: 17351
     lushootseed: tudxʷadhadəxʷ tiʔəʔ ʔaciɬtalbixʷ.  ʔəsčaləxʷ kʷi gʷədəxʷkʷədxʷ čəɬ kʷi sləx̌il.
@@ -427,16 +423,17 @@ lines:
     morphemeGloss: [SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
     english: “(There I will lie down) and I will be treated well.”
 
+  - html: "<div style='margin: 30px; margin-left: 200px;'>
+           <hr style="width: 400px;">
+           Mink negotiates his sleeping place
+           <button style="margin-left: 50px" onclick="myBox('sleepingPlace')">V</button>
+           <hr style="width: 400px;">
+           </div>"
+
   - html: "<div style='margin: 30px; color: darkred;'>
            <i>(Hilbert, Hess and Beck place <b>gʷəl tucutəb</b> at the end of this line, not the next.  - pshannon)</i>
            </div>"
 
-  - html: "<div style='margin: 30px; margin-left: 200px;'>
-           <hr style="width: 400px;">
-           Mink encounters the siʔab 
-           <button style="margin-left: 50px" onclick="myBox('encounter')">V</button>
-           <hr style="width: 400px;">
-           </div>"
 
   - startTime: 240975
     endTime:   243900
@@ -449,7 +446,7 @@ lines:
   - startTime: 244205
     endTime:   248195
     lushootseed: gʷəl tucutəb ɬuʔal tudiʔ ʔalq̓ʷ kʷi ɬadsəstədᶻil ɬadsɬagʷid
-    soundsLike:  gwul too.tsootub loss toodee alk' kwee slads.uh.day slawds.slawgwaid
+    soundsLike:  gwul too.tsootub loss toodee alk̓ kwee slads.uh.day slawds.slawgwaid
     morphemes: [gʷəl,tu=cut–t–b,ɬu=ʔal,tudiʔ,ʔalq̓ʷ,kʷi,ɬu=ad=s=ʔəs–tədᶻil,ɬu=ad–sɬagʷid]
     morphemeGloss: [SCONJ,past=say–ICS–PASS,IRR=at,DIST.dma,away.from.fire,REM,IRR=2SG.PO=NM=STAT–lie.in.bed,IRR=2SG.PO–sleeping.mat]
     english: And said to him: “There at the back you will lie down, you will have your mat.”
@@ -470,13 +467,6 @@ lines:
     morphemeGloss: [well,be.in.right.place•mouth,REM,IRR=1SG.PO=NM=be.there]
     english: “It is better that I be by the door.”
 
-  - html: "<div style='margin: 30px; margin-left: 200px;'>
-           <hr style="width: 400px;">
-           Mink watches 
-           <button style="margin-left: 50px" onclick="myBox('minkWatches')">V</button>
-           <hr style="width: 400px;">
-           </div>"
-
   - startTime: 254913 
     endTime:   258186
     lushootseed: tuhuyutəbəxʷ ʔə tiʔəʔ dəxʷəsɬaq̓s ləq̓aɬucid
@@ -485,18 +475,27 @@ lines:
     morphemeGloss: [past=made–ICS–PASS=now,pr,PROX,ADNM=STAT–fallen=3PO,be.in.right.place•mouth]
     english: His place was made by the door.
 
+  - html: "<div style='margin: 30px; margin-left: 200px;'>
+           <hr style="width: 400px;">
+           Mink watches
+           <button style="margin-left: 50px" onclick="myBox('minkWatches')">V</button>
+           <hr style="width: 400px;">
+           </div>"
+
+
+
   - startTime: 259821
     endTime:   264823
-    lushootseed: ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid kʷi sləx̌il
-    soundsLike: tloo.AHHHHH too buss tluss.wash.uh.beed gate tu.hoyute.teed tee.uh sluh.hail
-    morphemes: [ƛ̓u=ʔaʔ,x̌ʷul̓,ƛ̓u=ʔas–wač–bi–d,tiʔiɬ,ƛ̓u=ʔas–huyu–t–id,kʷi,sləx̌il]
-    morphemeGloss: [HAB=be.there,only,HAB=STAT–watch–MAP–ICS,DIST,HAB=STAT–made–ICS–PASS.SBRD,REM,daylight]
+    lushootseed: ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il
+    soundsLike: tloo.AHHHHH too buss tluss.watch.uh.beed teeth tu.hoyute.teed tee.uh sluh.hail
+    morphemes: [ƛ̓u=ʔaʔ,x̌ʷul̓,ƛ̓u=ʔas–wač–bi–d,tiʔiɬ,ƛ̓u=ʔas–huyu–t–id,tiʔəʔ,sləx̌il]
+    morphemeGloss: [HAB=be.there,only,HAB=STAT–watch–MAP–ICS,DIST,HAB=STAT–made–ICS–PASS.SBRD,PROX,daylight]
     english: He would be there just watching what was done with it.
 
   - startTime: 264970
     endTime:   266590
-    lushootseed: x̌ʷul̓ ʔəsačbid
-    soundsLike: hwole us.WAWCH.uh.beed
+    lushootseed: x̌ʷul̓ ʔəswačbid
+    soundsLike: hwole us.WATCH.uh.beed
     morphemes: [x̌ʷul̓,ʔəs–wač–bi–d]
     morphemeGloss: [only,STAT–watch–MAP–ICS]
     english: He just watched it.
@@ -504,42 +503,51 @@ lines:
   - startTime: 267240
     endTime:   272095
     lushootseed: x̌ʷul̓ ƛ̓ulədiʔiʔil tiʔiɬ ɬukʷaɬ gʷəl ƛ̓uləƛ̓ip̓usitəb tiʔəʔ sləx̌il
-    soundsLike: wole tloo.luh.dale teesh klow.kwuhs deek.kwo.kluss dee.kwo.suh.pish.ub tee.uh sluh.hail
     morphemes: [x̌ʷul̓,ƛ̓u=lə=diʔ–iʔ–il,tiʔiɬ,ɬukʷaɬ,gʷəl,ƛ̓u=lə=ƛ̓ip̓•us–i–t–b,tiʔəʔ,sləx̌il]
+    soundsLike: wole tloo.luh.daaale teesh klow.kwuhs deeth.plus.taid.plus deesh  uh tee.ah sluh.hail
     morphemeGloss: [only,HAB=PROG=exc–other.side–INCH,DIST,sun,SCONJ,HAB=PROG=squeeze•face–SS–ICS–PASS,PROX,daylight]
     english: As the sun would move to the other side, then the daylight would gradually get its face squeezed shut.
 
-  - startTime: 272188
-    endTime:   274507 
+  - startTime: 272256
+    endTime:   274573
     lushootseed: diɬ səɬaˑx̌il
-    soundsLike: 
+    soundsLike: deeth luh.slah.xil
     morphemes: [diɬ,s=lə=ɬax̌–il]
     morphemeGloss: [foc,NM=PROG=dark–INCH]
     english: It gradually became night.
 
-  - startTime: 275250
-    endTime:   276514
-    lushootseed: ƛ̓uləƛ̓uc̓usitəb
+  - startTime: 275037 
+    endTime:   277189
+    lushootseed: ƛ̓uləƛ̓uc̓usitəb diɬ sbəsads
     soundsLike: 
-    morphemes: [ƛ̓u=lə=ƛ̓uc̓•us–i–t–b]
-    morphemeGloss: [HAB=PROG=tied.in.bunch•face–SS–ICS–PASS]
-    english: It would gradually get its face tied shut.
+    morphemes: [ƛ̓u=lə=ƛ̓uc̓•us–i–t–b,diɬ,s=bəsad=s]
+    morphemeGloss: [HAB=PROG=tied.in.bunch•face–SS–ICS–PASS,foc,NM=dark=3PO]
+    english: It would gradually get its face tied shut. It was then that it was dark.
 
-  - startTime: 276514
-    endTime:   277403
-    lushootseed: diɬ sbəsads
-    soundsLike: 
-    morphemes: [diɬ,s=bəsad=s]
-    morphemeGloss: [foc,NM=dark=3PO]
-    english: It was then that it was dark.
+#   - startTime: 276514
+#     endTime:   277403
+#     lushootseed: diɬ sbəsads
+#     soundsLike: 
+#     morphemes: [diɬ,s=bəsad=s]
+#     morphemeGloss: [foc,NM=dark=3PO]
+#     english: It was then that it was dark.
 
-  - startTime: 278617
+  - startTime: 278093
     endTime:   280761
     lushootseed: ʔəswačbitəb ʔə bibščəb
     soundsLike: 
     morphemes: [ʔəs–wač–bi–t–b,ʔə,bi–bəščəb]
     morphemeGloss: [STAT–watch–MAP–ICS–PASS,pr,attn–mink]
     english: It was watched by Little Mink.
+
+  - html: "<div style='margin: 30px; margin-left: 200px;'>
+           <hr style="width: 400px;">
+           Mink makes his first attempt
+           <button style="margin-left: 50px" onclick="myBox('encounter')">V</button>
+           <hr style="width: 400px;">
+           </div>"
+
+
 
   - startTime: 283576
     endTime:   290061

@@ -1,5 +1,39 @@
 linguistics = {
 
+"EXC":
+`
+**EXC: exclusivity**
+
+David Beck's draft grammar, 5.3.3, page 330.
+
+When applied to a handful of pronouns and at least one noun, Type III
+reduplication has the effect of expressing exclusivity [EXC] or
+uniqueness:
+  - _cədiɬ_ "he, she" > cədədiɬ "just him, just her"
+  - _dibəɬ_ "we" > dibibəɬ ‘just us’
+  - _gʷəlapu_ ‘you guys’ > gʷələlapu ‘just you guys’
+  - sɬadəyʔ ‘woman’ > sɬadadəyʔ ‘woman living alone’
+
+This meaning is clearly related to the intensifying meaning of Type
+III reduplications seen with adverbs and locative verbs.
+
+**Type III reduplications**
+
+-V1C2 reduplication involves infixing the first vowel and second
+consonant of the base after the first consonant. In comparison with
+other reduplications, especially Type II, Type III reduplication is
+formally very regular and presents few phonological complications.
+
+On the other hand, unlike Types I and II, Type III reduplication is not
+characterizable as expressing a single meaning or meanings belonging
+to a coherent semantic field: instead, it is associated with a variety
+of meanings, depending in part on the lexical and semantic class of
+the word it is applied to.
+
+
+`,
+
+
 "Passive Voice":
 `
 **Passive Voice**

@@ -10,6 +10,8 @@ default:
 	@echo  html
 	@echo  s2h    # yaml2html
 	@echo  inject 
+	@echo  view
+	@echo  updateLocal [s2h, inject, view]
 	@echo  update [s2h, inject, publish, viewRemote]
 	@echo  publish
 	@echo  publish-audio
@@ -87,6 +89,8 @@ publish:
 
 publish-audio:
 	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+
+updateLocal: s2h inject view
 
 update: s2h inject publish viewRemote
 
