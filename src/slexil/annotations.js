@@ -111,6 +111,10 @@ function displayAnnotation(topic)
 //------------------------------------------------------------------------------------------------------------------------
 function lookup(key)
 {
+   if(typeof kb == 'undefined'){
+      return("")
+      }
+
    var index = Object.keys(kb).indexOf(key);
    var found = index >= 0
     console.log("---- annotations.js, lookup, using kb: '" + key + "', found? " + found)

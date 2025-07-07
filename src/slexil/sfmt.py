@@ -169,9 +169,9 @@ class SFMT:
          j = i
          while not j in self.blankLines and j <= self.lastLine:
             j += 1
-            if i == 162:
-               print("%d: %s" % (j, self.lines[j]))
-               pdb.set_trace()
+            #if i == 162:
+            #   print("%d: %s" % (j, self.lines[j]))
+            #   pdb.set_trace()
          blockEnds.append(j)
       #print("--- sfmt.py trace, line 173")
       #pdb.set_trace()
