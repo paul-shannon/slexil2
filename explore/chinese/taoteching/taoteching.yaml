@@ -1,0 +1,32 @@
+title: Taoteching
+narrator: nobody
+textEntry: Paul Shannon
+mediaFile: daodeching-8.wav
+mimeType: audio/x-wav
+
+lines:
+  - html: "<div style='margin: 30px;'>
+           <center>
+           <hr style="width: 400px;">
+           Chapter 8
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
+  - startTime: 3654
+    endTime: 5970
+    speech: 上 善 若 水
+    pinyin: [shàng, shàn, ruò, shuǐ]
+    translation: [highest, good, like, water]
+    janeEnglish: The highest good is like water.
+    hinton: Lofty nobility is like water.
+
+  - startTime: 6099
+    endTime: 9371
+    speech: 水 善 利 萬 物 而 不 爭
+    pinyin: [shuǐ, shàn, lì, wàn, wù, ér, bù, zhēng]
+    translation: [water, good, to benefit, ten thousand, entities, and yet, not, compete]
+    janeEnglish: Water gives life to the ten thousand things and does not strive.
+    hinton: Water's nobility is to enrich the ten thousand things and yet never strive.
+
+    
