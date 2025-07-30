@@ -1,5 +1,127 @@
 linguistics = {
 
+"Affixes":
+`
+**Affixes**:
+
+In morphemic analysis, affix boundaries are denoted by "-"
+
+Clitic boundaries by "=".
+
+__Affixes__: bound to stems of particular classes in fixed order; mark
+derivational meanings and inflectional or quasi-inflectional
+categories of words.
+
+Derivational affixes: Because of the reliance of the Lushootseed
+lexicon on monovalent radicals, and because so many of those radicals
+have stative or state-like meanings, the language has developed a
+prolific system of derivational affixation. In total, there are
+fourteen derivational suffixes and one derivational prefix that are
+used productively to derive new lexemes from verbal radicals. These
+affixes fall roughly into two sets — valency-neutral affixes and
+valency-increasing affixes.
+
+The valency-neutral affixes
+
+- dxʷ(s)- ‘contained’
+- -il ‘inchoative’
+- -b ‘middle’
+- -agʷil ‘autonomousaction’
+- -iluɬ ‘purposive’
+- -áb ‘method’
+
+|    -1         |  0    |  1          |  2            |  3         |  4            |  5           | 
+|  -----------  |  ---- |  ---------  |  ------------ |  --------  |  -----------  |  ----------- | 
+| dxʷ(s)- ‘CTD’ |  √R(V)|  -il ‘INCH’ | -b ‘MD’       | -txʷ ‘ECS’ |  -yi- ‘DAT’   | -t ‘ICS’     | 
+|               |       |             | -agʷil ‘AUTO’ | -dxʷ ‘DC’  | -bi- ‘MAP’    | -c/-s ‘ALTV’ | 
+|               |       |             | -alikʷ ‘ACT’  |            | -di-/-i- ‘SS’ |  -b ‘CSMD’   | 
+|               |       |             | -iluɬ ‘PRPV’  |            |               |              | 
+|               |       |             | -əɬ ‘INCRP’   |            |               |              | 
+|               |       |             | -áb ‘MTHD’    |            |               |              |
+
+
+
+Valency-incresing affixes, on the other hand, add semantic and actants
+and increase the syntactic valency of their bases. In total there are
+ten of these:
+- -t ‘internal causative’
+- -txʷ ‘external causative’
+- -dxʷ ‘diminished control causative’
+- -b ‘causative middle’
+- -alikʷ ‘causative of activity’
+- -c/-s ‘allative applicative’,
+
+plus the secondary suffixes
+
+- -yi- ‘dative applicative’
+- -bi- ‘middle applicative’
+
+and the fossilized stem formatives
+
+- -di-/-i-
+
+which are always combined with another valency-increaser.
+
+| affix | name                            | affix-type              | type of stem           |
+| ----- | ------------------------------- | ----------------------- | ---------------------  |
+| -t     | ‘internal causative’           |  transitive causative   |  transitive            | 
+| -txʷ   | ‘external causative’           |  transitive causative   |  transitive            | 
+| -dxʷ   | ‘diminished control causative’ |  transitive causative   |  transitive            | 
+| -b     | ‘causative middle’             |  intransitive causative |  bivalent intransitive | 
+| -alikʷ | ‘causative of activity’        |  intransitive causative |  bivalent intransitive | 
+| -c/-s  | ‘allative applicative’         |  transitive applicative |  transitive            | 
+| -yi-   | ‘dative applicative’           |  transitive applicative |  trivalent transitive  | 
+| -bi-   | ‘middle applicative’           |  transitive applicative |  transitive            | 
+| -di-   | ‘secondary suffix’             |  transitive applicative |  transitive            | 
+| -i-    | ‘secondary suffix’             |  transitive applicative |  transitive            | 
+
+
+
+
+`,
+
+
+"-bi-d":
+`
+**-bi-d**
+
+- The most consistent pattern found with -bi-d derivations is
+  one where a monovalent intransitive base is transitivized by the
+  addition of a second semantic actant.
+
+- The first actant is typically the subject that initiates of performs
+  the action of the verb.  Second actant is the entity that is acted
+  upon or affected by the action of the verb. It's often the direct
+  object of a transitive verb.  But may be the oblique beneficiary of
+  the verb.  See English "book" example below.
+
+- The secondary suffix -bi- ‘middle applicative ’ combines with
+  the internal causative suffix -t to form transitive stems whose
+  direct object expresses semantic actants in a variety of roles other
+  than PATIENT.
+
+- English example of middle applicative:  Example
+
+     - Basic Sentence: "She gave the book to him." (Direct object: the
+       book, indirect object: him)
+
+     - Middle Applicative: "She gave him the book."
+
+     - (The verb "gave" is now acting on "him" indirectly, making
+       "him" the affected agent, even though he's not the direct
+       recipient of the book) In this example, the middle applicative
+       construction, where the verb "gave" is used to affect the
+       indirect object, "him", rather than the direct object, "the
+       book".
+
+| MAP form | root |
+| -------- | ------ |
+| wačbid ‘watch ’ | (wač ‘keep watch’) |
+| yayusbid ‘work on ’ | (yayus ‘do work’) |
+| ɬuqadabid  ‘steal it’ | (qada ‘steal’) |
+
+`,
+
 "EXC":
 `
 **EXC: exclusivity**
@@ -655,6 +777,42 @@ yet finished, the book (it's in his bag).
 `
 PO: Possessive
 
+The POSSESSIVE case  is
+used to refer to a noun which has alienable (i.e., removable or
+severable) possession of another noun in the sense of having physical
+control or oversight of that noun, whether by chance circumstance or
+deliberate manipulation. The two nouns are not in any sense inherent
+parts of one another and the relationship between the two can be
+theoretically or actually terminated by an outside force or influence,
+or by decision of the possessor, usually by means of mere physical
+permanent separation of the possessor and possessed nouns.
+
+The possessive would be used to translate English phrases such as his
+coat (e.g., the one he is wearing, regardless of whether he owns it or
+not), the boy’s book (e.g., the one in his hand), Father’s chair
+(e.g., the one he happens to be sitting in, as in a restaurant).
+
+
+DB Grammar, p 359:
+
+Possessed nouns in Lushootseed are inflected for the person and (in
+the first- and second- person) number of their possessor by a rather
+heterogeneous set of elements which combines prefixes, suffixes, and
+(in the first-person plural) a particle from the matrix-subject series
+
+(Section 8.1.1). These are shown in Table 77:
+
+|    | SG  | PL    |
+|----|-------------|
+| 1  | d-  | čəɬ   |
+| 2  | ad- | -ləp  |
+| 3  | -s  |       |
+
+Table 77: Possessive markers
+
+These markers are used both as possessive inflection on nouns and to
+express the subjects of nominalized clauses (Sections 7.3 and 8.1.1).
+
 
 <b>d-</b>: my, I, me.  First person singular possessive prefix. LD p 72.
 
@@ -709,6 +867,54 @@ an example of its possessive use and its use in subordinate clauses.
 PROP
 
 proprietive case (quality of having X)
+
+This identifies a noun having alienable possession of
+another noun in the sense of quasi-permanent contextual control,
+ownership or oversight, whether by societal recognition, social
+convention, law, purchase or decree, which mere physical separation
+does not sever. The two nouns are not in any sense inherent parts of
+one another, however the relationship cannot be terminated except via
+an equally or more binding act, declaration, convention, law, process,
+etc.
+
+Using the same English examples used with the POSSESSIVE above,
+we can analyze the connotative difference: his coat (i.e., the one he
+owns, regardless of whether he is wearing it or not), the boy’s book
+(e.g., the one he bought), Father’s chair (e.g., the one assigned to
+him).
+
+DB Grammar, p127:
+
+The prefix _bəs_- ‘propriative [PROP]’ is added to nominal bases
+expressing ‘N’ to create verb stems meaning ‘have X as one’s N’
+
+a. yəx̌i huy ɬubəsčəgʷasəxʷ tiʔəʔ sɬukʷalb ʔə tsiʔəʔ ʔučəbaʔəd tiʔəʔ tatačulbixʷ
+   yəx̌i huy ɬu=bəs–čəgʷas=əxʷ tiʔəʔ sɬukʷalb ʔə tsiʔəʔ ʔu–čəbaʔ–d tiʔəʔ tatačulbixʷ
+   because SCONJ IRR=PROP–wife=now PROX moon PR PROX:FEM PFV–laden–ICS PROX game.animal
+   because Moon will have as his wife she who brought this game
+   [DS Star Child, line 305]
+
+b. huy čəxʷ ʔəbsƛ’alabac
+   huy čəxʷ ʔəs–bəs–s–ƛ’al•abac
+   SCONJ 2SG.SUB STAT–PROP–NP–put.on•body
+   since you have [them as] clothes
+    (Hess 2006: 35, line 325)
+
+c. ʔəbsp’aʔkʷ čəd
+   ʔəs–bəs–p’aʔkʷ čəd
+   STAT–PROP–pipe 1SG.SUB
+   I have [it as] a pipe
+    (Hess 1998: 30)
+
+
+The range of nouns which are found with the propriative prefix is
+restricted to those expressing kinship, social relations, or things
+that can be literally owned (as opposed to true possessives, which can
+be formed on any noun).
+
+Propriative verbs thus express only true
+ownership and kinship rather than expressing the vaguer notion of
+“possession” associated with possessive affixes.
 
 `,
 
@@ -1574,6 +1780,17 @@ action viewed as a simple whole, that is, without interior composition.
 `
 #####Clitic
 
+In Lushootseed:
+
+
+S2 (?) __Clitics__: always prosodically dependent; not restricted to hosts of a particular
+lexical class; always enclitics (attaching to the end of the word)
+
+__Bound Clitics__: either pro- or en-; always prosodically dependent and
+unstressed; not restricted to hosts of a particular lexical class; may
+be iterated over an entire phrase.
+
+
 A clitic is a morpheme that has syntactic
 characteristics of a word, but depends phonologically
 on another word or phrase. In this sense, it is
@@ -1584,6 +1801,8 @@ the phrase level. In other words, clitics have the form
 of affixes, but the distribution of function words. For
 example, the contracted forms of the auxiliary verbs in
 I'm and we've are clitics.
+
+
 <h5>Summary</h5>
 
 Clitics can be defined as <i>prosodically defective

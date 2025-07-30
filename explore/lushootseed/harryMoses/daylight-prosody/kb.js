@@ -1,5 +1,53 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
+
+"ʔas–bəs–sləx̌il":
+`
+**absləx̌il**
+
+Daylight, line 33.
+
+- ʔas–bəs–sləx̌il
+- STAT–PROP–daylight
+    - ʔas-: stative
+    - bəs-: proprietive, quasi-permanent contextual control, ownership
+       or oversight, whether by societal recognition, social
+       convention, law, purchase or decree, which mere physical
+       separation does not sever. The two nouns are not in any sense
+       inherent parts of one another, however the relationship cannot
+       be terminated except via an equally or more binding act,
+       declaration, convention, law, process, etc.
+    - sləx̌il: daylight
+
+
+**Morphophonemic Interaction**
+
+DB Grammar, page 129:
+
+The propriative prefix bəs- interacts morphophonemically with the
+stative aspectual prefix ʔas-, resulting in the fused form [ʔəbs-].
+
+In some cases, the combination ʔas- + bəs- can fuse with a preceding
+tense/mood proclitic. Thus, the past tense proclitic tu= combines with
+ʔas- + bəs- to give the form [tabs-], while the irrealis proclitic ɬu=
+combines with these to give [ɬabs-].
+
+However, the alternate forms of both of these sequences of affixes in
+which the proclitic does not assimilate — [tuʔəbs] and [ɬuʔəbs],
+respectively — are also found in texts; in the present corpus the more
+highly fused variants are found in the speech of Martha Lamont, a
+Snohomish speaker, while the more transparent forms are found in the
+speech of Skagit narrators (Harry Moses and Mary Willup).
+
+The number of tokens are small, however, and it is possible that the
+degree of reduction is dependent on register, style, or rate of speech
+rather than dialect.
+
+
+`,
+    
+
+
 "ƛ̓u=lə=ƛ̓ip̓•us–i–t–b":
 `
 **ƛ̓u=lə=ƛ̓ip̓•us–i–t–b**
