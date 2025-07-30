@@ -360,18 +360,20 @@ class sfmtToWebPage:
          with htmlDoc.tag("div", id="playbackSpeedDiv", klass="otherControlsGridCell"):
             with htmlDoc.tag("div", id="playbackSpeedLabel"):
                htmlDoc.text("Playback speed ")
-            with htmlDoc.tag("button", id="slowerPlaybackButton",
-                             klass="playbackSpeedButton"):
-               htmlDoc.text(" - ")
-            htmlDoc.stag("input",  type="range", min="0.25", max="2.0", value="1.0",
-                     step="0.25", id="speedSelector", name="speedSelector")
-            with htmlDoc.tag("button", id="fasterPlaybackButton",
-                             klass="playbackSpeedButton"):
-               htmlDoc.text(" + ")
-            with htmlDoc.tag("div", id="playbackSpeedReadout"):
-               htmlDoc.text("1.0")
+            with htmlDoc.tag("div", id="playbackControlsDiv",
+                             style='width: 300px;'):
+               with htmlDoc.tag("button", id="slowerPlaybackButton",
+                                klass="playbackSpeedButton"):
+                  htmlDoc.text(" - ")
+               htmlDoc.stag("input",  type="range", min="0.25", max="2.0", value="1.0",
+                            step="0.25", id="speedSelector", name="speedSelector")
+               with htmlDoc.tag("button", id="fasterPlaybackButton",
+                                klass="playbackSpeedButton"):
+                  htmlDoc.text(" + ")
+               with htmlDoc.tag("div", id="playbackSpeedReadout"):
+                  htmlDoc.text("1.0")
 
-         with htmlDoc.tag("div", id="playbackSpeedDiv", klass="otherControlsGridCell"):
+         with htmlDoc.tag("div", id="printSizeDiv", klass="otherControlsGridCell"):
             with htmlDoc.tag("div", id="printSizeLabel"):
                htmlDoc.text("Print Size ")
             with htmlDoc.tag("form", action=""):
