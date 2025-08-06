@@ -1,6 +1,35 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"gʷə=bək̓ʷ=aɬi":
+`
+_gʷə=bək̓ʷ=aɬi_
+
+SBJ=all=1PL.SBRD_
+
+
+- _bək̓ʷ-: all
+     - LD 36, very large entry with copious examples 
+- _-aɬi_:  we, us
+     - first person plural clitic used in one type of subordinate clause
+     - var _-əɬi_, _-əɬ_
+     - see _-ad_, definition 2: I, me
+     - LD 30
+`,
+
+
+
+"q̓il̓bid–s":
+`
+**q̓il̓bid–s**
+
+their canoe
+
+- vehicle
+- 3PO
+
+`,
+
 "ʔas–bəs–sləx̌il":
 `
 **absləx̌il**
@@ -1819,19 +1848,16 @@ I hear:
 **gwuhs.doke gwuh. kʷaɬi gwuh.oke yay cəɬ  gwhu hi dub
 
 `,
-    
-"ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
+
+"ɬudxʷʔiwədəxʷ əlgʷəʔ ša gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
 `
-_ɬudxʷʔiwədəxʷ əlgʷəʔ [sha?] gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il_
+**_ɬudxʷʔiwədəxʷ əlgʷəʔ ša gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il_**
 
-What I hear:
+_ša_ is not present in any of the published transcriptions.  About which
+David (email 27 jan 2004) says:
 
-**tooth kʷə HAY duff helgwah [sha] gwahtuff ə DAY bush kwi sloke-txʷ kwi sləxil**
-
-David (email 27jan2004) says:
-
-My guess about the ša that is missing from the transcription in LINe
-25 (on the screen) is that it is an interjection of some kind. The LD
+My guess about the ša that is missing from the transcription in Line
+27 (on the screen) is that it is an interjection of some kind. The LD
 lists ša ’shoo!, oh my’ attributed to Martha Lamont, which is
 Snohomish and so not exactly the same Lushootseed. The meaning doesn’t
 necessarily work here, but I could see an interjection with the import
@@ -1842,12 +1868,6 @@ with Martha’s.
 
 I’d be inclined to add it to the sentence as ša with INTJ on the
 glossing line.
-
-Line 26 is spoken very quickly with lots of reduction and vowels
-dropped. It took me a couple of listens but I think that the
-transcription is correct. If you slow it down to 3/4 speed, you can
-hear the words better.
-
 `,
 
 
@@ -1869,7 +1889,6 @@ _ɬuʔux̌ʷtxʷ_
 
 _will take_
 
-- I hear **day bush kweeze doke**
 - ɬu: anticipated, expected or possible event  LD 147
      - IRR: irrealis moods, indicating that a certain situation or action is not known to have happened at the moment 
        the speaker is talking. This contrasts with the realis moods (which in most languages is only the indicative).
@@ -1932,13 +1951,13 @@ sləx̌il) to the valency of _ʔux̌ʷ_, here a goal, the direct object of the d
 `
 _gʷəhaydxʷb_
 
-what I hear:  gʷə HI dub
-
 - gʷə: subjunctive
-- haydxʷ: know, find out
-      - dxʷ: DC (diminished control)
+- hayʷ: know, find out
+- dxʷ: DC (diminished control)
 - b: PASS (passive?)
-- compare _tu(ə)shaydxʷ_ in line 23
+    - With lexical stems it designates middle voice and in construction
+      with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
+- compare _tu=ʔəs–hay–dxʷ_ in line 23
 `,
 
 
@@ -2017,7 +2036,6 @@ _ɬudxʷʔiwədəxʷ_
 
 _will decide now_
 
-- I hear **tooth kʷə HAY duff**
 - _ɬu_: anticipated, expected or possible event  LD 147
      - IRR: irrealis moods, indicating that a certain situation or action is not known to have happened at the moment 
        the speaker is talking. This contrasts with the realis moods (which in most languages is only the indicative).
@@ -2029,7 +2047,7 @@ _will decide now_
     - also designates a proclivity: what one has "inside"
     - also carrying this prefix are a number of stems referring to matters of the mind, the _x̌əč_. 
 - _ʔiw_: decide.  LD 19.
-- _ʔdxʷʔiwədəxʷəlgʷəʔ_: they tried to decide.  LD 19, this line as example.
+- _ʔdxʷʔiwədəxʷ əlgʷəʔ_: they tried to decide.  LD 19, this line as example.
 - _əd_: not sure what role this plays
 - _=əxʷ_, _axʷ_ : now, at the particular time. LD 30
 `,

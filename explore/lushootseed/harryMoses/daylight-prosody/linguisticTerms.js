@@ -1,5 +1,31 @@
 linguistics = {
 
+"Pronouns":
+`
+**Pronouns**
+
+From David Beck's draft grammar, page 286:
+
+Although Lushootseed has a variety of anaphoric devices for referring
+to and tracking event- participants and arguments in discourse, the
+bulk of these seem best treated as parts of the word- level or
+phrase-level inflectional systems (see the discussion of
+object-markers in Section 8.1.2 and subject-markers in 8.1.1 below),
+or as elements from the deictic system (2.4).
+
+There is, however, a set
+of anaphoric elements that have the syntactic distribution of nouns
+and thus lend themselves to classification as true pronouns.
+
+| person | SG | PL |
+| ------ | -- | -- |
+| 1 | ʔəca | dibəɬ |
+| 2 | dəgʷi |  gʷəlapu |
+| 3 | cədiɬ | caadiɬ |
+
+`,
+
+
 "Affixes":
 `
 **Affixes**:
@@ -1055,7 +1081,7 @@ Another attenuative morpheme? _kik_:
 - A suffix occuring on several levels of Lushootseed morphology.
        It forms a very large class of agent-oriented intransitive verb
        stems and a number of ambient stems such as *qəl-b* 'rain'.
-- With lexial stems it designates middle voice and in construction
+- With lexical stems it designates middle voice and in construction
        with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
 - _desiderative_: (of a verb derived from another verb) expressing desire to perform
         the action denoted by the underlying verb, as Sanskrit pi-patiṣ-ati “he wishes to fly”

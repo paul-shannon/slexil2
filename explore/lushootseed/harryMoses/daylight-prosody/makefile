@@ -1,3 +1,4 @@
+
 NAME = howDaylightWasStolen
 BASEDIR=~/github/slexil2
 
@@ -38,7 +39,7 @@ http:
 s2h:
 	python $(BASEDIR)/utils/sfmt2html.py \
         --sfmt daylight.yaml \
-        --tierGuide tierGuide.yaml \
+        --htmlFile daylight.html \
         --kbFilename kb.js \
         --pageTitle "Harry Moses - How Daylight Was Stolen" \
         --helpButtonLabel About \
