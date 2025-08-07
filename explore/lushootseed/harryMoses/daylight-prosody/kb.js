@@ -1,6 +1,19 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ɬu=hədʔiw̓–b":
+`
+_ɬu=hədʔiw̓–b_
+
+- _ɬu=_: IRR
+- _hədʔiw̓_: be inside a house.  LD 107
+- _hədʔiw̓-b_: enter a room or house LD 108
+_ _-b_, var _-əb_ LD 32:  be involved in doing something
+- _-b_:
+- TODO: ask David about the PASS annotation of _-b_
+`,
+
+
 "gʷə=bək̓ʷ=aɬi":
 `
 _gʷə=bək̓ʷ=aɬi_
@@ -1578,13 +1591,14 @@ My proposed translation:  pretend I diminishing.getting.old gray-haired.
 
 "ʔəca":
 `_ʔəca_
-- I am (the one who); me
-- ʔəcá kʷi ɬu^kʷədátəb: I am the one who will be taken. 
-- ʔəcá ti hədi: It's me, Henry. 
-- diɬ ʔəcá t(i) (h)aydxʷ: I am the one who knows it. 
-- dəb ʔəcá tiʔiɬ ƛ'ə^x̌əɬqid:   I'm the one who gets the headache (not you). 
-- ʔəcá gʷəl sduhùbš:I am Snohomish.
-
+- I am (the one who); me.    LD 10
+- 1p sg pronoun, the independent and emphatic counterpart to _čəd_.
+- examples:
+    - _ʔəcá kʷi ɬukʷədátəb_: I am the one who will be taken. 
+    - _ʔəcá ti hədi_: It's me, Henry. 
+    - _diɬ ʔəcá t(i) (h)aydxʷ_: I am the one who knows it. 
+    - _dəb ʔəcá tiʔiɬ ƛ̓ə^x̌əɬqid_:   I'm the one who gets the headache (not you). 
+    - _ʔəcá gʷəl sduhùbš:I am Snohomish.
 `,
 
 
@@ -1767,27 +1781,17 @@ secondary suffix (SS) _bi_ and the internal causative (ICS) _-d_
 
 - _ɬu_: anticipated, expected or possible event  LD 147
 - _qadaʔ_: steal, LD 172.
-- _-bi-_: secondary derivational suffix. LD 39.  compare _-i_.
-     - _-i-_: secondary stem extender; allows transitive _-d_ forms to be derived
-       from roots which normally lack a patient. LD 114
-          - _saxʷ-əb-i-d_ ran after something.  transitive.
-          - _dᶻakʷ=šad-i-d_: shake someone by the foot. transitive.
-          - _haʔl-i-d_: make something nice
-     - _b_ for phonemic reasons?
-     - implied that _qadaʔ_ "normally lacks a patient", and that _-bi-_ supports the transitive form
-     - creating patient-oriented verb, where the light is the patient
-     - LRI p93 argues that sentences can focus on agent or patient, conveying identical information:
-          - The youngsters chased the dog.  _ʔučalatəb ʔə tiʔiɬ wiw'su tiʔəʔ sqʷəbayʔ._
-          - The dog is what the youngsters chased.  _sqʷəbayʔ ti ʔučalatəb ʔə tiʔiɬ wiw'su._
-          - Lushootseed, as in many other languages, indicates focus by stating it first.
-- _-d-_ :  ICS, internal causative, transitive suffix. LD 76.
-     - action performed on someone or something else
-     - [transitive suffix, allows for a direct complement patient,
-        creating a patient-oriented verb]
-     - _əd_ and _-t-_ are variants.
-     - _-d_ before -əb and other suffixes. LD 76
-     - compare _-txʷ_, make someone do something (causitive transitive suffix
-       creating patient-oriented verb stems].
+
+- _-bi-d_: The most consistent pattern found with -bi-d derivations is
+  one where a monovalent intransitive base is transitivized by the
+  addition of a second semantic actant.
+
+  The first actant is typically the subject that initiates of performs
+  the action of the verb, _čəɬ_ in line 29. Second actant is the
+  entity that is acted upon or affected by the action of the verb -
+  here, the implicit _sləx̌il_.  It's often the direct object of a
+  transitive verb. But may be the oblique beneficiary of the verb.
+
 - _qadaʔ_: steal, LD 172, other forms:
      -  _ʔuqáda tiʔəʔ luƛ' ʔə tə sʔuladxʷ_: The old man stole the salmon.
      - _bəqada tiʔəʔ bəščəb_:  Mink stole again (agent-oriented verb)
@@ -1950,6 +1954,11 @@ sləx̌il) to the valency of _ʔux̌ʷ_, here a goal, the direct object of the d
 "gʷə=hay–dxʷ–b":
 `
 _gʷəhaydxʷb_
+
+gʷə=hay–dxʷ–b
+
+SBJ=known–DC–PASS
+
 
 - gʷə: subjunctive
 - hayʷ: know, find out
@@ -2479,12 +2488,13 @@ All three employ nominalizing proclitics, _s-_ or _dəxʷ_, creating gerund-like
 
 "dəxʷ=ʔacəc":
 `
-_location, place__
-- _dəxʷ<sup>2</sup>_ : ADNM (adjunctive nominalizer)  LD 81
+_location, place_
+
+- _dəxʷ_ : ADNM (adjunctive nominalizer)  LD 81
     - reason for, place where, time when
     - inflectional prefix marking a subordinate predicate in construction with a fronted adjunct
     - creates nominal expressions with the same distribution as relative and headless relative clauses. LG 7.4.2.2
-      used primarily for the nominalization of adjunct and circumstantial expressions, particularly (but not exclusively), 
+    - used primarily for the nominalization of adjunct and **circumstantial expressions**, particularly (but not exclusively), 
       instruments, locations, motivations, and manners, and will be referred to here as an adjunctive nominalizer.
 - _ʔacəc_  be there, specifically there, there exists.  LD 3
     - If someone is looking for something, I say _ʔacəc_.

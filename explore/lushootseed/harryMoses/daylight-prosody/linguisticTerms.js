@@ -559,7 +559,7 @@ _ʔəɬdiluɬ_ ‘go out to eat’ (from _ʔəɬəd_ ‘dine on ’)
 - LD 76
 - action performed on someone or something else
 - transitive suffix; allows for a direct complement patient, creating a patient-oriented verb
-- compare _-š, -dxʷ, -txʷ, -c.
+- compare _-š, -dxʷ, -txʷ, -c_.
 
 `,
 
