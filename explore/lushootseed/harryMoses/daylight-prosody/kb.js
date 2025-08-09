@@ -1,15 +1,80 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"kayiɬ":
+
+`
+_kayiɬ_
+
+- pretend
+- LD 120
+- variants:  k̓ayiɬ, ʔayiɬ
+- _k̓ayiɬ-b-i-d_: pretend it.
+- _k̓ayiɬ čəd diɬ tiʔiɬ stubš_: I pretended I was that man.
+
+`,
+
+
+
+"ɬu=ʔas–ck̓usəd":
+`
+_ɬu=ʔas–ck̓usəd_
+
+IRR=STAT–use.walking.stick
+
+- LD 47, presented as noun
+`,
+
+"ɬu=ʔas–x̌ʷal̓":
+`
+_ɬu=ʔas–x̌ʷal̓_
+
+IRR=STAT–fail
+
+Perhaps "without control" and the translation "feebly" capture the meaning
+of the morpheme better than does "fail".
+
+- x̌ʷal̓: lack control. LD 269, a long entry
+    - _ʔəsx̌ʷal̓_: what someone can't comprehend, can't master. LL, Martha Lamont's husband
+    - _ʔəsx̌ʷal̓_ čəd:  I'm too weak to carry it; it's too heavy for me. LL
+- _x̌ʷal̓-dxʷ_: get the better of someone, overcome someone.
+    - _lədxʷsx̌ʷal̓dxʷəb_: he was wanting to get the best of him.  ML, LL
+- _ʔəsx̌ʷal̓bid čəd_:
+    - I can't control it. EK
+    - I can't handle it. ES
+    - I can't quite use it (due to my lack of ability, knowledge, etc).  LL
+
+`,
+
+"ɬu=lə=lu–luƛ̓":
+`
+_ɬu=lə=lu–luƛ̓_
+
+IRR=PROG=ATTN–old
+
+- PROG, progressive: current action
+- ATTN, attenuative: reduced degree of a quality - a little old?
+- luƛ̓: old, old person.  LD 139
+     - luƛ̓-əb: grow old
+     - luƛ̓-il: grow up
+     - luƛ̓ čəd: I am old
+
+Not clear to me if the translation "be old" captures the meaning of all four morphemes.
+(Of which I only hear two: too.LOATL.)
+
+`,
+
 "ɬu=hədʔiw̓–b":
 `
 _ɬu=hədʔiw̓–b_
 
+
+IRR=indoors–PASS
+
 - _ɬu=_: IRR
 - _hədʔiw̓_: be inside a house.  LD 107
 - _hədʔiw̓-b_: enter a room or house LD 108
-_ _-b_, var _-əb_ LD 32:  be involved in doing something
-- _-b_:
+- _-b_, var _-əb_ LD 32:  be involved in doing something
 - TODO: ask David about the PASS annotation of _-b_
 `,
 
@@ -1426,20 +1491,20 @@ luhOAK chud dwal kwi seeAB abs.slexil (duff)HWAH kwi soods ah
 `,
 
 
-"ɬu=hədʔiw’–b=ad":
+"ɬu=hədʔiw̓–b=ad":
 `
-_ɬu=hədʔiw’–b=ad_
+_ɬu=hədʔiw̓–b=ad_
 
 - _ɬu_: irrealis: anticipated, expected or possible event; future
-- (hə)dʔiw’:
+- (hə)dʔiw̓:
      - be inside a house
      - also recorded (hə)dʔiwʔ
-     - _hədʔíwʼd_: bring someone or something into a house    
-     - _hədʔiwʼdubut_: get one's self inside (the cave)    
-     - _hədʔíwʼc_: go in for someone or something    
-     - _hədʔíwʼtxʷ_: cause someone to enter a house, take something inside a house
-     - _hədʔíwʼb_: enter a room or house    
-     - _hədʔìwʼáʔkʷčup_: Bring the wood in.      
+     - _hədʔíw̓d_: bring someone or something into a house    
+     - _hədʔiw̓dubut_: get one's self inside (the cave)    
+     - _hədʔíw̓c_: go in for someone or something    
+     - _hədʔíw̓txʷ_: cause someone to enter a house, take something inside a house
+     - ___hədʔíw̓b___: enter a room or house    
+     - _hədʔìw̓áʔkʷčup_: Bring the wood in.      
 - -b: middle
      - be involved in doing something
      - A suffix occuring on several levels of Lushootseed morphology.
@@ -1453,8 +1518,6 @@ _ɬu=hədʔiw’–b=ad_
      - This *-b* is a component in a number of derivational suffixes
        as well, and combines with transitive suffixes to form a passive
        construction: *-təb*,  *-du-b*, *-tu-b*, *c-əb*, and *-s-əb*
-
-
 - =ad: first person singular subordinate
 
 
@@ -1469,7 +1532,7 @@ _ɬu=ʔas–ck’usəd_
     - variant of _?a_ (be there, be in existence) LD 1
     - stative affix
 - _ck'usəd_: cane, walking stick
-- _cickʼusəd_: little walking stick
+- _cickusəd_: little walking stick
 
 `,
 
@@ -1492,13 +1555,9 @@ _ɬasx̌ʷal’_
     -_^x̌ʷalʼ=ílc čəd_:  I can't manage my legs (from knees down)
 `,
 
-"ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd":
+"ɬasx̌ʷal̓ ɬasck̓usəd ɬuhədʔiw̓bəd":
 `
-_ɬasx̌ʷal’ ɬasck’usəd ɬuhədʔiw’bəd_
-
-luss.hwawg lus.KO.sud sloo.huh.DAY.bud
-
-irr-state.lackControl irr.state.cane irr.indoors.middle
+IRR-STATE.lackControl IRR.STATE.cane IRR.indoors.MIDDLE
 
 Being feeble, using a cane, I will go in.
 
@@ -1511,7 +1570,7 @@ Beck and Hess place "being feeble" with the preceding line.
 `
 _ɬu=ʔas–qʷəlub•us_
 
-I hear: luck qwuh LOBE us
+IRR=STAT–grey.hair•head
 
 - _ɬu=_ &nbsp; IRR 
 - _ʔas_ &nbsp; STAT
@@ -1961,7 +2020,10 @@ SBJ=known–DC–PASS
 
 
 - gʷə: subjunctive
-- hayʷ: know, find out
+- hay(a): know  LD 106
+- hay-dxʷ: know, find out LD 107
+     - gʷəhay-dxʷ: sort of know, know not well.
+     - əsgʷəhay-dxʷ čəd: I kind of know it,  EK, Snohomish speaker
 - dxʷ: DC (diminished control)
 - b: PASS (passive?)
     - With lexical stems it designates middle voice and in construction
