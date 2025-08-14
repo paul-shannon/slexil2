@@ -1,4 +1,5 @@
 EAF = 69-70KatieMarge230704Slexil.eaf
+SFMT.FILE = 69-70KatieMarge230704Slexil.yaml
 HTML.FILE = 69-70KatieMarge.html
 VID=69-70KatieMarge.m4v
 TITLE = "Tlingit Conversation \#69-70"

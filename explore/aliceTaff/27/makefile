@@ -1,5 +1,6 @@
 LANGUAGE = tlingit
 EAF = 27LorraineVincent230714Slexil.eaf
+SFMT.FILE = 27LorraineVincent230714Slexil.yaml
 HTML.FILE = 27LorraineVincent.html
 VID = 27LorraineVincent.m4v
 TITLE = "Tlingit Conversation \#27"

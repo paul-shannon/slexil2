@@ -1,6 +1,8 @@
 LANGUAGE = tlingit
 EAF = 8MarthaMarsha230616Slexil.eaf
 HTML.FILE = 8MarthaMarsha.html
+SFMT.FILE = 8MarthaMarsha230616Slexil.yaml
+TIER.GUIDE = tierGuide.yaml
 VID = 8MarthaMarsha8-29-09.m4v
 TITLE = "Tlingit Conversation \#8"
 

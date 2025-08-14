@@ -1,6 +1,6 @@
 CODE_ROOT=/Users/paul/github/slexil2
 LANGUAGE = tlingit
-HELP_FILE = ../help.html
+HELP_FILE = ../help-tlingit.html
 HELP_BUTTON_LABEL = "How To"
 
 default:
@@ -9,6 +9,7 @@ default:
 	@echo scp
 	@echo venv
 	@echo checkTimes
+	@echo removeSpeakerIDs
 	@echo html
 	@echo s2h
 	@echo e2s2h
@@ -35,9 +36,14 @@ checkTimes:
 e2s:
 	python /Users/paul/github/slexil2/utils/eaf2sfmt.py --eaf $(EAF) --title $(TITLE) --outputDir .
 
+removeSpeakerIDs:
+	python /Users/paul/github/slexil2/utils/removeSpeakerIDs.py $(SFMT.FILE)
+
 s2h:
 	python /Users/paul/github/slexil2/utils/sfmt2html.py \
        --sfmt $(SFMT.FILE) \
+       --htmlFile $(HTML.FILE) \
+       --verbose \
        --pageTitle $(TITLE) \
        --helpFile $(HELP_FILE) \
        --helpButtonLabel $(HELP_BUTTON_LABEL) \
@@ -49,8 +55,8 @@ e2s2h:
        --html $(HTML.FILE) \
        --pageTitle $(TITLE) \
        --helpFile $(HELP_FILE) \
-       --verbose \
        --helpButtonLabel $(HELP_BUTTON_LABEL) \
+       --fixOverlappingTimeSegments \
        --outputDir .
 
 
@@ -62,6 +68,7 @@ html:
                         --helpFile $(HELP_FILE) \
                         --helpButtonLabel $(HELP_BUTTON_LABEL) \
                         --pageTitle $(TITLE) \
+                        --verbose \
                         --fixOverlappingTimeSegments \
 	                     --fontSizeControls
 
