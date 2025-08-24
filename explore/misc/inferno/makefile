@@ -52,10 +52,12 @@ css:
 s2h:
 	python $(BASEDIR)/utils/sfmt2html.py \
         --sfmt inferno-threeLines.yaml \
-        --tierGuide tierGuide.yaml \
+        --htmlFile inferno-threeLines.html \
         --pageTitle "Inferno" \
         --helpButtonLabel About \
         --helpFile about.html
+
+#         --webpackLinksOnly \
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/misc/$(HTML.FILE)

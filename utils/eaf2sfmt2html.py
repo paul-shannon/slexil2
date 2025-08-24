@@ -69,7 +69,8 @@ try:
    print("tats found: %s" % tatsString)
    if len(tats) != 1:
        sys.exit(1)
-   p = EafParser(eaf, verbose=True, fixOverlappingTimeSegments=False)
+   p = EafParser(eaf, verbose=verbose,
+                 fixOverlappingTimeSegments=fixOverlappingTimeSegments)
    p.run()
    print("-----------------------------------------------------------------")
    print(p.getRichTierTables()[0])

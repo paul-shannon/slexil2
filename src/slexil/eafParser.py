@@ -476,12 +476,14 @@ class EafParser:
          # find offenders here and fix them
 
       if(self.fixOverlappingTimeSegments):
+         print("--- checking time overlaps")
          starts = list(tbl["start"])
          ends = list(tbl["end"])
          rowCount = tbl.shape[0]
          for i in range(0,rowCount-1):
             if (ends[i] >= starts[i+1]):
-               ends[i] = starts[i+1] - 100
+               print("time fix line %d, end: %d, next start: %d" % (i, ends[i], starts[i+1]))
+               ends[i] = starts[i+1] - 200
          tbl["end"] = ends
 
       self.timeTable = tbl

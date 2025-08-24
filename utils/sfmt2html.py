@@ -10,11 +10,12 @@ import yattag  # only for indent method
 import pdb
     
 #----------------------------------------------------------------------------------------------------
-parser = argparse.ArgumentParser(prog='yaml2html.py',
+parser = argparse.ArgumentParser(prog='sfmt2html.py',
           description='creates interactive webpage from eaf xml')
 
 parser.add_argument('--sfmt', type=str, required=True)
-parser.add_argument('--tierGuide', type=str, required=False)
+parser.add_argument('--htmlFile', type=str, required=True)
+# parser.add_argument('--tierGuide', type=str, required=False)
 parser.add_argument("--verbose", action="store_true")
 parser.add_argument("--helpFile", help="optional info for about box")
 parser.add_argument("--helpButtonLabel", help="optional button label")
@@ -33,7 +34,8 @@ parser.add_argument('--outputDir', default="./")
 args = parser.parse_args()
 print(args)
 sfmt = args.sfmt
-tierGuide = args.tierGuide
+htmlFile = args.htmlFile
+#tierGuide = args.tierGuide
 #grammaticalTerms = args.terms
 helpFile = args.helpFile
 helpButtonLabel = args.helpButtonLabel
@@ -53,9 +55,9 @@ if(not os.path.isfile(sfmt)):
     print("sfmt2html.py error: sfmt file '%s' not found" % sfmt)
     sys.exit()
 
-if(tierGuide and not os.path.isfile(tierGuide)):
-    print("sfmt2html.py error: tierGuidefile '%s' not found" % tierGuide)
-    sys.exit()
+#if(tierGuide and not os.path.isfile(tierGuide)):
+#    print("sfmt2html.py error: tierGuidefile '%s' not found" % tierGuide)
+#    sys.exit()
     
 #if(grammaticalTerms and not os.path.isfile(grammaticalTerms)):
 #    print("sfmt2html.py error: grammaticalTerms file '%s' not found" % grammaticalTerms)
@@ -72,7 +74,7 @@ mga = MorphemeGlossAbbreviations()
 
 page = sfmtToWebPage(sfmt, grammaticalTerms = mga.getAll(),
                      projectDirectory="inferno",
-                     verbose = True,
+                     verbose = verbose,
                      fontSizeControls = True,
                      startLine = None,
                      endLine = None,
@@ -88,8 +90,7 @@ page = sfmtToWebPage(sfmt, grammaticalTerms = mga.getAll(),
 
 htmlText = page.toHTML()
 
-html_filename = "%s.html" % Path(sfmt).stem
-f = open(html_filename, "wb")
+f = open(htmlFile, "wb")
 f.write(bytes(htmlText, "utf-8"))
 f.close()
-print("wrote %s" % html_filename)
+print("wrote %s" % htmlFile)

@@ -41,7 +41,7 @@ y2h:
 s2h:
 	python $(BASEDIR)/utils/sfmt2html.py \
         --sfmt grammar.yaml \
-        --tierGuide tierGuide.yaml \
+        --htmlFile grammar.html \
         --kbFilename kb.js \
         --pageTitle "Lushootseed Grammar" \
         --helpButtonLabel About \

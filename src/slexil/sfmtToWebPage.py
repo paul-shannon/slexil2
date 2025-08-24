@@ -334,6 +334,7 @@ class sfmtToWebPage:
    def getRecordingDialogHTML(self):
 
       html = """
+     <div id='recordingNotAvailablePopup'></div>
      <div id='recordingPopup'>
         <div id='buttonsDiv' style='float: left; width: 100px;' >
            <button id='recordButton'
@@ -385,11 +386,13 @@ class sfmtToWebPage:
          if(len(self.sfmt.getHtmlLines()) > 0):
             tierNames.append("html")
 
-         # pdb.set_trace()
          with htmlDoc.tag("div", id="tierControlsDiv"):
             with htmlDoc.tag("div"):            
                with htmlDoc.tag("span", id="tiersLabelDiv"):
                   htmlDoc.text("Visible Tiers: ")
+                  with htmlDoc.tag("button", id="allNoneTierButton"):
+                      htmlDoc.text("All/None")
+
             with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
                with tag('form', action = ""):
                   for tierName in tierNames:
@@ -458,7 +461,7 @@ class sfmtToWebPage:
                                        tierNumber=tierNumber,
                                        tierGuide=tierGuide,
                                        grammaticalTerms=self.grammaticalTerms,
-                                       useTooltips=False, verbose=False)
+                                       useTooltips=False, verbose=self.verbose)
                start = tier['startTime']
                end = tier['endTime']
                timeCodesForLine = [start,end]

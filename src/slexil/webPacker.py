@@ -73,7 +73,7 @@ class WebPacker:
         else:
            urlText = ""
            for file in self.cssFiles:
-               urlText += "<link rel='stylesheet' href='%s/%s'>" % \
+               urlText += "\n<link rel='stylesheet' href='%s/%s'>\n" % \
                    (self.baseUrl, file)
            return(urlText)
 

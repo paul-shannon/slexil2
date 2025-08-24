@@ -102,20 +102,20 @@ $(document).ready(function(){
       state.practiceDialog.showModal()
       })
 
-    $(".practiceButton").on('click', function(event){
-       var button = $(this);
-       var buttonLabel = $(this).text(); 
-       console.log(buttonLabel);
-       console.log(practiceLists);
-       list = practiceLists[buttonLabel]
-       if(list.length > 0){
-          let lineNumber = list[0];
-          scrollAndHighlight(lineNumber);
-          practiceLists[buttonLabel] = practiceLists[buttonLabel].filter(item => item !== lineNumber)
-          } // if length
-       else{
-          button.attr("disabled", true)
-          }
+   $(".practiceButton").on('click', function(event){
+      var button = $(this);
+      var buttonLabel = $(this).text(); 
+      console.log(buttonLabel);
+      console.log(practiceLists);
+      list = practiceLists[buttonLabel]
+      if(list.length > 0){
+         let lineNumber = list[0];
+         scrollAndHighlight(lineNumber);
+         practiceLists[buttonLabel] = practiceLists[buttonLabel].filter(item => item !== lineNumber)
+         } // if length
+      else{
+         button.attr("disabled", true)
+         }
       })
 
    $("#configurePracticeButton").on('click', function(event){
@@ -232,46 +232,31 @@ $(document).ready(function(){
         query = ".tier[name='" + tierName + "']"
         $(query).toggle()
         })
-    /***********
-    $("#tierToggle-transcription").on('click', function() {
-        console.log("transcription toggled")
-        $(".speech-tier").toggle(this.checked)
-        })
 
-    $("#tierToggle-translation").on('click', function() {
-        console.log("translation toggled")
-        $(".freeTranslation-tier").toggle(this.checked)
-        })
-
-    $("#tierToggle-analysis").on('click', function() {
-        console.log("analysis toggled")
-        $(".morpheme-tier").toggle(this.checked)
-        })
-    ************/
-
-    /**************
-    function checkPlaybackTime(){
-       var verbose = true;
-       tCurrent = Math.round(state.mediaPlayer.currentTime * 1000)
-       console.log("   " + tCurrent)
-       if(tCurrent != state.tCurrent){
-          state.tCurrent = tCurrent;
-          for(lineTimes of timeStamps){
-             if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
-                var lineNumber = parseInt(lineTimes.id)
-                scrollAndHighlight(lineNumber)
-                break;
-                } // if start <=
-             } // for lineTimes
-          if (!mediaContinuousPlay && mediaSegmentEnd && state.mediaPlayer.currentTime >= mediaSegmentEnd){
-             state.mediaPlayer.pause();
-             mediaContinuousPlay=true;
-             } // reached end of segment
-          } // if new time reported by player
-      } // checkPlaybackTime
-
-	 setInterval(checkPlaybackTime, state.mediaPlayerInterval);
-    ************/
+    $("#allNoneTierButton").on("click", function(){
+       let toggles = $(".tierToggleCheckbox")
+       var anyToggleOn = false
+       // first find out if any toggles are on
+       for (let i = 0; i < toggles.length; ++i){
+          console.log(toggles[i].checked)
+           if(toggles[i].checked){
+              anyToggleOn = true;
+              }
+          } // for i
+       console.log("any toggles on? " + anyToggleOn)
+       // now assign all to the opposite of that value 
+       var newValue = !anyToggleOn
+       for (let i = 0; i < toggles.length; ++i){
+          toggles[i].checked = newValue
+          var toggleAndTierName = toggles[i].name
+           if(newValue){
+               $(".tier[name='" + toggleAndTierName + "']").show()
+           }
+           else{
+              $(".tier[name='" + toggleAndTierName + "']").hide()
+              }
+          } // for i
+      }) // allNoneTierButton click
 
     state.mediaPlayer.addEventListener("timeupdate", function (){
        tCurrent = Math.round(state.mediaPlayer.currentTime * 1000)

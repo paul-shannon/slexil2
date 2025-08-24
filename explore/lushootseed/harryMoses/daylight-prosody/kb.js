@@ -1,6 +1,54 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"tu=ɬəgʷɬ":
+`
+**tu=ɬəgʷɬ**
+
+- _tu=_:
+    - past time, especially the remote past.
+    - inflectional past prefix, appearing on any lexical category functioning as predicate or complement.
+    - also _tə-_
+    - LD 22
+    - _=_: clitic boundary
+- _ɬəgʷɬ_: leave, leave behind.  LD 144
+     - var. _ɬəgʷəɬ_
+     - _ɬəgʷə-b_: be left by someone
+     - _ɬəgʷəl-yi-d_: leave  someone or something for someone
+
+`,
+
+
+"cut–c":
+`
+<h5>cut-c</h5>
+
+- _cut_: speak, talk, say, tell; any sort of verbal utterance.
+    - LD 48
+    - this is the second use of this word; first is the adverb
+      "in order that", "in order to"
+- _-c_:
+    - ALTV: allative applicative
+    - Adds a new argument to the valency of its base, most frequently a
+      GOAL, which is realized as the direct object of the derived verb
+    - two objects in this phrase: raven, mink's speech
+    - see line 28, where 'take' has two objects: ləʔux̌ʷc čəɬ tiʔəʔ sləx̌il
+    - Allative: a type of locative grammatical case.
+      A case used to indicate movement onto, or to the adjacency of something.
+      In English, this is usually expressed by the prepositions to or onto,
+      as in "to the house," "onto the house." Languages that use the
+      allative case include Basque, Dyirbal, Estonian, Finnish, Hungarian,
+      and Lithuanian.
+ - compare
+    - _ʔil(i)_: speak
+    - _gʷad_: speak, speak a language, speech
+    - _yəc_: inform
+    - _tul(u)_: interpret
+    - _=ucid_: language, speech
+    - many more
+`,
+
+
 "kayiɬ":
 
 `
@@ -1484,9 +1532,13 @@ in Harry Moses's Upper Skagit dialect, either generally, or in this instance.
 
 "ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ":
 `
-_ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ_
+<h5><i>ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ</i></h5>
 
-luhOAK chud dwal kwi seeAB abs.slexil (duff)HWAH kwi soods ah
+The prosody of this line is a bit at odds with the translation.
+<br>Note the pause after ___siʔab___, and the continuous phrase which begins
+right after.
+
+The translation nonetheless seems sensible.
 
 `,
 

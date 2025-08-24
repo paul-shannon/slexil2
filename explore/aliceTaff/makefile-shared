@@ -17,6 +17,7 @@ default:
 	@echo view
 	@echo viewRemote
 	@echo eafscp
+	@echo update
 
 venv:
 	@echo source $(CODE_ROOT)/py3105slexil/bin/activate
@@ -83,3 +84,6 @@ viewRemote:
 
 eafscp:
 	scp $(EAF) pshannon@206.12.95.4:www/$(LANGUAGE)/eaf/
+
+update:  e2s2h removeSpeakerIDs s2h publish viewRemote
+

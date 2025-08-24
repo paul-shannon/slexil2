@@ -1,5 +1,49 @@
 linguistics = {
 
+"Sentence Structure":
+`
+<h5>Lushootseed Sentence Structure</h5>
+
+<h7>(informal comments by David Beck, offered in email November 2019)</h7>
+
+I use as a general schema the idea of a predicate, argument, and
+modifiers (called "adjuncts" in some people’s terminology):
+
+[[predicate] (subject noun phrase) (object noun phrase) (ʔə object noun phrase)] modifiers
+
+The predicate can be just about anything, and can contain “satellite”
+items like adverbs, particles, and the subject-person clitics. The
+argument noun phrases are (almost) always introduced by a determiner
+like ti or tiʔiɬ and can be a noun or something more complex (like a
+“headless” relative clause—“what I ate”—or an s= nominalization).
+
+I think it might also help you not to confuse the internal structure
+of words (morphology) with the structure of the sentence. Ignore
+anything joined together with a hyphen and treat those as units. For
+example, something like
+
+<b><i>ʔaʔ–il–t</i></b>
+<br>be.there–inch–ics
+
+(from line 17 of Hagan Sam's "Bear and Ant").  This should be treated
+as a single word, ‘X places Y’, for the purpose of the syntax.
+
+Thom’s
+treatments tend to pay a lot of attention to the inside of words
+(which is one reason his Readers are very challenging) and frankly all
+our texts are over-analyzed from the perspective of someone just
+wanting to learn the language and use it the way speakers did.
+
+People learn words and reconstruct the regularities of form we call
+“morphology” later (if at all).
+
+Things separated with <b>=</b> signs, however, are important for syntactic
+structure because they do tell you what role something plays in the
+sentence. But that is mostly for later, I think.
+
+`,
+
+
 "Pronouns":
 `
 **Pronouns**

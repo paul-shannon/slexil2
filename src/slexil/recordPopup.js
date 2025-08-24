@@ -28,6 +28,7 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
        audioRate: 1, // Don't modify playback rate
        bufferSize: 512, // Try smaller values (1024, 512)
        scrollingWaveform: true,
+       audioBitsPerSecond: 12800,       
        continuousWaveform: false,
       // continuousWaveformDuration: 30, // optional
        }),
@@ -113,23 +114,47 @@ function createPlayer(url, containerID, buttonID)
 //--------------------------------------------------------------------------------
 $(document).ready(function() {
 
+        
    $('#recordingPopup').dialog({autoOpen: false,
                                title: 'Record Your Voice',
                                width: 800,
                                height: 400,
                                closeText: "&times;"
                                });
+   $('#recordingNotAvailablePopup').dialog({autoOpen: false,
+                                            title: 'Record your voice not available',
+                                            width: 800,
+                                            height: 400,
+                                            closeText: "&times;"
+                                            });
+    let errorText = `
+        The 'record your voice' capability only works in Chrome browsers.
+        <br>Safari and FireFox support for recording is currently broken.
+        <br><br>Note that you can install Chrome on most computers
+        and devices: Windows computers, Android phones and tablets,
+        as well as Apple desktops, laptops, iPads and iPhones.
+        `;
+         
+   $('#recordingNotAvailablePopup').html(errorText)
 
    $("#openRecordDialogButton").on('click', function(){
-       let newStatus = 'open'
-       if($("#recordingPopup").is(":visible")){
-          newStatus = 'close'
+       console.log("--- mic button clicked")
+       const chromeBrowserDetected =
+             navigator.userAgent.toLowerCase().search("chrome") >= 0;
+       if(!chromeBrowserDetected){
+          $('#recordingNotAvailablePopup').dialog('open')
           }
-       $("#recordingPopup").dialog(newStatus);
-       });
+       else{       
+          let newStatus = 'open'
+          if($("#recordingPopup").is(":visible")){
+             newStatus = 'close'
+             }
+           $("#recordingPopup").dialog(newStatus);
+          } // else
+       }); // on click
 
    $("#recordButton").on("click", function(){
-       console.log("record!")
+       console.log("--- record button clicked")
        let incomingState = $("#recordButton").text()
        console.log(" incomingState: " + incomingState);
        if(incomingState == "Record"){
