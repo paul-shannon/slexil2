@@ -19,7 +19,7 @@ lines:
     pinyin: [shàng, shàn, ruò, shuǐ]
     translation: [highest, good, like, water]
     janeEnglish: The highest good is like water.
-    hinton: Lofty nobility is like water.
+
 
   - startTime: 6099
     endTime: 9371
@@ -27,6 +27,80 @@ lines:
     pinyin: [shuǐ, shàn, lì, wàn, wù, ér, bù, zhēng]
     translation: [water, good, to benefit, ten thousand, entities, and yet, not, compete]
     janeEnglish: Water gives life to the ten thousand things and does not strive.
-    hinton: Water's nobility is to enrich the ten thousand things and yet never strive.
 
-    
+
+# pinyin and ideograms from http://www.edepot.com/taocp.html
+# shang shan ruo shui.
+# shui shan li wan wu er bu zheng,
+# chu zhong ren zhi suo wu,
+# ideograms, pinyin, translations, commentary: also https://www.tao-te-king.org/8.htm
+
+  - startTime: 9659
+    endTime: 13998
+    speech: 處 眾 人 之 所 惡 故 幾 於 道
+    pinyin: [chu,zhong,ren,zhi,suo,wu,gu,ji,yu,dao]
+    translation: [dwell,many,people,their,places,disdain,hence,close,to,Tao]
+    janeEnglish: It flows in places men reject and so is like the Tao. 
+
+  - startTime: 14663
+    endTime: 15967
+    speech: 居 善 地
+    pinyin: [ju,shan,di]
+    translation: [dwelling,good,low.place]
+    janeEnglish: In dwelling, be close to the land.
+
+  - startTime: 16257
+    endTime: 17544
+    speech: 心 善 淵
+    pinyin: [xin,shan,yuan]
+    translation: [heart-mind,good,depth]
+    janeEnglish: In meditation, go deep in the heart.
+#  
+#  # yu shan ren.
+#    - startTime: 6
+#      endTime: 6
+#      speech: 與 善 仁 {天}
+#      pinyin: [yu,shan,ren]
+#  #    translation: []
+#      janeEnglish: In dealing with others, be gentle and kind.
+#  
+#  # yan shan xin,
+#    - startTime: 7
+#      endTime: 7
+#      speech: 言 善 信
+#      pinyin: [yan,shan,xin]
+#  #    translation: []
+#      janeEnglish: In speech, be true.
+#  
+#  # zheng shan zhi
+#    - startTime: 8
+#      endTime: 8
+#      speech: 正 {政} 善 治
+#      pinyin: [zheng,shan,zhi]
+#  #    translation: []
+#      janeEnglish: In ruling, be just.
+#  
+#  # shi shan neng
+#    - startTime: 9
+#      endTime: 9
+#      speech: 事 善 能
+#      pinyin: [shi,shan,neng]
+#  #    translation: []
+#      janeEnglish: In business, be competent.
+#  
+# dong shan shi.
+#  - startTime: 10
+#    endTime: 10 
+#    speech: 動 善 時
+#    pinyin: [dong,shan,shi]
+#    translation: [movement,good,timeliness]
+#    janeEnglish: In action, watch the timing.
+#  
+#  # fu wei bu zheng,
+#    - startTime: 11
+#      endTime: 11
+#      speech: 夫 唯 不 爭 故 無 尤
+#      pinyin: [fu,wei,bu,zheng,gu,wu,you]]
+#  #    translation: []
+#      janeEnglish: No fight.  No blame.
+#  
