@@ -15,8 +15,8 @@ s2h:
         --sfmt taoteching.yaml \
         --htmlFile $(HTML.FILE) \
         --kbFilename kb.js \
-        --verbose \
         --pageTitle "Dao De Jing" 
+#         --verbose \
 
 publish:
 	scp $(HTML.FILE) pshannon@206.12.95.4:www/misc/

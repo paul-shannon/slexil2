@@ -26,8 +26,9 @@ lines:
     speech: 水 善 利 萬 物 而 不 爭
     pinyin: [shuǐ, shàn, lì, wàn, wù, ér, bù, zhēng]
     translation: [water, good, to benefit, ten thousand, entities, and yet, not, compete]
-    janeEnglish: Water gives life to the ten thousand things and does not strive.
-
+    janeEnglish: (JE) Water gives life to the ten thousand things and does not strive.
+    derekLin: (DL) Water greatly benefits myriad things without contention.
+    ursulaLeguin: (UL) Water’s good for everything. It doesn’t compete.
 
 # pinyin and ideograms from http://www.edepot.com/taocp.html
 # shang shan ruo shui.
@@ -40,7 +41,7 @@ lines:
     speech: 處 眾 人 之 所 惡 故 幾 於 道
     pinyin: [chu,zhong,ren,zhi,suo,wu,gu,ji,yu,dao]
     translation: [dwell,many,people,their,places,disdain,hence,close,to,Tao]
-    janeEnglish: It flows in places men reject and so is like the Tao. 
+    janeEnglish: It flows in places people reject and so is like the Tao. 
 
   - startTime: 14663
     endTime: 15967

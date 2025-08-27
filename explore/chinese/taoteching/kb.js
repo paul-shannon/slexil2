@@ -1,10 +1,23 @@
 kb = {
 
-"xin":
+"chu":
 `
-**地: di**
+<h3>處 chu</h3>
 
-Phonosemantic compound. 土 represents the meaning and 也 represents the sound.
+
+`,
+
+
+"di":
+`
+<h3>地: di</h3>
+
+Phonosemantic compound. <big>土</big> represents the meaning and 也 represents the sound.
+
+<span style="font-size: 48px">土</span><br>
+<span style="font-size: 48px">也</span>
+
+
 
 - radical: earth 土
 - Parts: 土 也
@@ -17,7 +30,9 @@ Phonosemantic compound. 土 represents the meaning and 也 represents the sound.
 
 
 
-心: heart, mind, heart-mind (mindfulness)
+"心: heart, mind, heart-mind (mindfulness)":
+`
+
 - heart
 - mind
 - heart-mind
@@ -75,7 +90,9 @@ Phonosemantic compound. 土 represents the meaning and 也 represents the sound.
 
 "wàn":
 `
-萬: wàn
+<h2>萬 wàn</h2>
+
+
 
 - ten thousand
 - a great number
