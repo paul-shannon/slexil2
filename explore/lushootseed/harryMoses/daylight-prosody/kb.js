@@ -2376,9 +2376,10 @@ _place_
 _became covered in light_
 - _ləx̌-il_: grow light, day.
 - _•ič_:
-    - •: lexical suffix boundary
-    - cover(ing) surface; on top of; over. 
+    - cover(ing), surface; on top of, over;  LD 114
     - series of items on a string, string cord, spine
+    - lexical suffix
+    - • lexical suffix boundary
     - ʔubəsadič: got caught in the dark
     - _p̓əlx̌ʷ=ič_: covered with dust
     - _əxʷ_, _axʷ_ : now, at the particular time. LD 30

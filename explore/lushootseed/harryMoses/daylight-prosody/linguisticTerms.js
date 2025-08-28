@@ -1,5 +1,66 @@
 linguistics = {
 
+"gʷə-":
+`
+<h4> gʷə- subjunctive SBJ</h4>
+
+- doubtful, conjectured
+- if, maybe, might
+- inflectional subjunctive prefix expressing doubt, (events) contrary to fact;
+  appearing on any lexical category functioning as predicate or complement
+- LD 95, under <b>gʷ-</b>
+<p>
+
+wikipedia: The subjunctive (also known as conjunctive in some languages) is a
+grammatical mood, a feature of an utterance that indicates the
+speaker's attitude toward it.
+
+Subjunctive forms of verbs are typically
+used to express various states of unreality such as wish, emotion,
+possibility, judgment, opinion, obligation, or action that has not yet
+occurred; the precise situations in which they are used vary from
+language to language. The subjunctive is one of the irrealis moods,
+which refer to what is not necessarily real. It is often contrasted
+with the indicative, a realis mood which principally indicates that
+something is a statement of fact.
+
+<p>
+The subjunctive indicates the speaker's attitude toward the irrealis
+state or action's existance: imagined? wished for? possible? not yet
+occurred?
+
+<p>
+
+Used when questioning, denying, or doubting.  With nouns, speakers
+often omit it because <b>kʷi</b> expresses much the same idea.  With
+verbs, some speakers usually omit <b>kʷi</b>, others tend to omit
+<b>gʷ-</b>.
+
+
+`,
+
+
+"ʔux̌ʷ":
+`
+<h4>ʔux̌ʷ usage</h4>
+
+| word | morpheme | analysis | line | english |
+| ---- | -------- | -------- | ---- | ------- |
+| gʷəsʔuʔux̌ʷc | gʷə=s=ʔu–ʔux̌ʷ–c | sbj=nm=pfv–go–altv |  17 | possibly going after |
+| ʔux̌ʷ | ʔux̌ʷ  | go  | 18 19 | go |
+| ɬuʔux̌ʷtxʷ | ɬu=ʔux̌ʷ–txʷ  |irr=go–ecs | 27 | will take |
+| ləʔux̌ʷc | lə=ʔux̌ʷ–c  |  prog=go–altv  | 28 | going after |
+| gʷəʔux̌ʷ  | gʷə=ʔux̌ʷ | sbj=go | 28 |  possibly go |
+| ɬuləʔux̌ʷ | ɬu=lə=ʔux̌ʷ | irr=prog=go  |33 | will go |
+| tuʔux̌ʷəxʷ |  tu=ʔux̌ʷ=əxʷ  | past=go=now |  38 94 | went |
+| ʔux̌ʷc |  ʔux̌ʷ–c |  go–altv | 57 | go after | 
+| bəʔux̌ʷcəb  | bə=ʔux̌ʷ–c–b  | add=go–altv–pass | 66 | go after again |
+| suʔux̌ʷcs  |s=ʔu–ʔux̌ʷ–c=s | nm=pfv–go–altv=3po  | 67 | his going after |
+
+
+`,
+
+
 "Sentence Structure":
 `
 <h5>Lushootseed Sentence Structure</h5>
