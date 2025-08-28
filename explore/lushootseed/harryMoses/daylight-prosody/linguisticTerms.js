@@ -1,4 +1,24 @@
 linguistics = {
+"-bicid":
+`
+<h4>-bicid</h4>
+
+The second-person singular object marker.
+
+Transitive verbs in Lushootseed are inflected for the person and (in
+first- and second-person) number of their direct objects.
+
+For instance:
+
+| word | morphemes | analysis | english |
+| ---- | --------- | -------- | ------- |
+| ʔutəlawisəbicid  |  ʔu–təlawil–s–bicid  |   PFV–run–ALTV–2SG.OBJ  | s/he ran after you |
+| qəɬdubicid | qəɬ-du-bicid | wake.up-diminished.control-2SG.OBJ | happen to wake you up |
+
+Note from David Beck: -dxʷ (diminished control affix) often becomes
+   -du when it is followed by other affixes, like -bicid,
+
+`,
 
 "gʷə-":
 `
