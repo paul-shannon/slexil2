@@ -51,13 +51,24 @@ Depicts a heart.
 `
 <h2>爭 zhēng</h2>
 
-- to fight, compete, strive for
-- to rise
-- excel
-- lofty
+- to dispute, fight, contend, strive
 - to strive for
 - to vie for
 - to argue or debate
+
+Depicts two hands grabbing the same plow:
+
+<h3>爫 又 </h3>
+
+<a href="https://www.dong-chinese.com/dictionary/search/%E4%BA%89"
+   target="_blank"> dictionary</a>
+
+<h4> Most common workds with 爭</h4>
+
+<h5>战争 war</h5>
+<h5>竞争 to compete<h5>
+<h5>争取 to fight for</h5>
+<h5>斗争 fight</h5>
 
 `,
 
