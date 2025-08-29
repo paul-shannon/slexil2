@@ -18,17 +18,22 @@ lines:
     speech: 上 善 若 水
     pinyin: [shàng, shàn, ruò, shuǐ]
     translation: [highest, good, like, water]
-    janeEnglish: The highest good is like water.
-
+    janeEnglish: JE) The highest good is like water.
+    derekLin: DL) Water greatly benefits myriad things without contention
+    ursulaLeguin: UL) True goodness is like water
+    stephenMitchell: SM) The supreme good is like water
+    arthurWaley: AW) The highest good is like that of water.
 
   - startTime: 6099
     endTime: 9371
     speech: 水 善 利 萬 物 而 不 爭
     pinyin: [shuǐ, shàn, lì, wàn, wù, ér, bù, zhēng]
     translation: [water, good, to benefit, ten thousand, entities, and yet, not, compete]
-    janeEnglish: (JE) Water gives life to the ten thousand things and does not strive.
-    derekLin: (DL) Water greatly benefits myriad things without contention.
-    ursulaLeguin: (UL) Water’s good for everything. It doesn’t compete.
+    janeEnglish: JE) Water gives life to the ten thousand things and does not strive.
+    derekLin: DL) Water greatly benefits myriad things without contention.
+    ursulaLeguin: UL) Water’s good for everything. It doesn’t compete.
+    stephenMitchell: SM) which nourishes all things without trying to
+    arthurWaley: AW) The goodness of water is that it benefits the ten thousand creatures; yet itself does not scramble.
 
 # pinyin and ideograms from http://www.edepot.com/taocp.html
 # shang shan ruo shui.
@@ -41,21 +46,33 @@ lines:
     speech: 處 眾 人 之 所 惡 故 幾 於 道
     pinyin: [chu,zhong,ren,zhi,suo,wu,gu,ji,yu,dao]
     translation: [dwell,many,people,their,places,disdain,hence,close,to,Tao]
-    janeEnglish: It flows in places people reject and so is like the Tao. 
+    janeEnglish: JE) It flows in places people reject and so is like the Tao. 
+    derekLin: DL) It stays in places that people dislike therefor it is similar to the Tao.
+    ursulaLeguin: UL) It goes right to the low loathsome places, ans so find the way.
+    stephenMitchell: SM) It is content with the low places that people disdain.  Thus it is like the Tao.
+    arthurWaley: AW) but is content with the places that all men disdain.  It is this that makes water so near to the Way.
 
   - startTime: 14663
     endTime: 15967
     speech: 居 善 地
     pinyin: [ju,shan,di]
     translation: [dwelling,good,low.place]
-    janeEnglish: In dwelling, be close to the land.
+    janeEnglish: je: In dwelling, be close to the land.
+    derekLin: DL) Dwelling at the right place
+    ursulaLeguin: UL) For a house, the good thing is level ground.
+    stephenMitchell: SM) In dwelling, live close to the ground.
+    arthurWaley: AW) And if men think the ground the best place for building a house upon,
 
   - startTime: 16257
     endTime: 17544
     speech: 心 善 淵
     pinyin: [xin,shan,yuan]
     translation: [heart-mind,good,depth]
-    janeEnglish: In meditation, go deep in the heart.
+    janeEnglish: je: In meditation, go deep in the heart.
+    derekLin: DL) Heart with great depth
+    ursulaLeguin: UL) In thinking, depth is good.
+    stephenMitchell: SM) In thinking, keep to the simple.
+    arthurWaley: AW) If among thoughts they value those that are profound,
 #  
 #  # yu shan ren.
 #    - startTime: 6
@@ -63,7 +80,11 @@ lines:
 #      speech: 與 善 仁 {天}
 #      pinyin: [yu,shan,ren]
 #  #    translation: []
-#      janeEnglish: In dealing with others, be gentle and kind.
+#      janeEnglish: je: In dealing with others, be gentle and kind.
+#    derekLin: DL) Giving with great kindness
+#    ursulaLeguin: UL) The good of giving is magnanimity
+#    stephenMitchell: SM) 
+#    arthurWaley: AW) If in friendship they value gentleness,
 #  
 #  # yan shan xin,
 #    - startTime: 7
@@ -71,7 +92,11 @@ lines:
 #      speech: 言 善 信
 #      pinyin: [yan,shan,xin]
 #  #    translation: []
-#      janeEnglish: In speech, be true.
+#      janeEnglish: je: In speech, be true.
+#    derekLin: DL) Words with great integrity
+#    ursulaLeguin: UL) of speaking, honesty;
+#    stephenMitchell: SM) In conflict, be fair and generous.
+#    arthurWaley: AW) In words, truth;
 #  
 #  # zheng shan zhi
 #    - startTime: 8
@@ -79,7 +104,11 @@ lines:
 #      speech: 正 {政} 善 治
 #      pinyin: [zheng,shan,zhi]
 #  #    translation: []
-#      janeEnglish: In ruling, be just.
+#      janeEnglish: je: In ruling, be just.
+#    derekLin: DL) Governing with great administration
+#    ursulaLeguin: UL) of government, order.
+#    stephenMitchell: SM) In governing, don't try to control.
+#    arthurWaley: AW) In government, good order;
 #  
 #  # shi shan neng
 #    - startTime: 9
@@ -87,7 +116,11 @@ lines:
 #      speech: 事 善 能
 #      pinyin: [shi,shan,neng]
 #  #    translation: []
-#      janeEnglish: In business, be competent.
+#      janeEnglish: je: In business, be competent.
+#    derekLin: DL) Handling with great capability
+#    ursulaLeguin: UL) The good of work is skill,
+#    stephenMitchell: SM) In work, do what you enjoy.
+#    arthurWaley: AW) in deeds, effectiveness;
 #  
 # dong shan shi.
 #  - startTime: 10
@@ -95,7 +128,11 @@ lines:
 #    speech: 動 善 時
 #    pinyin: [dong,shan,shi]
 #    translation: [movement,good,timeliness]
-#    janeEnglish: In action, watch the timing.
+#    janeEnglish: je: In action, watch the timing.
+#    derekLin: DL) Moving with great timeing
+#    ursulaLeguin: UL)
+#    stephenMitchell: SM) In family life, be completely present.
+#    arthurWaley: AW) In actions, timeliness
 #  
 #  # fu wei bu zheng,
 #    - startTime: 11
@@ -103,5 +140,9 @@ lines:
 #      speech: 夫 唯 不 爭 故 無 尤
 #      pinyin: [fu,wei,bu,zheng,gu,wu,you]]
 #  #    translation: []
-#      janeEnglish: No fight.  No blame.
+#      janeEnglish: je: No fight.  No blame.
+#    derekLin: DL) Because it does not contend
+#    ursulaLeguin: UL)
+#    stephenMitchell: SM) When you are content to be simply yourself and don't compare or compete, everybody will respect you.
+#    arthurWaley: AW) In each case it is because they prefer what does not lead to strive, and therefore does not go amiss.
 #  

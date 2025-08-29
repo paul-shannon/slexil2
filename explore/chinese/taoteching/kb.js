@@ -2,7 +2,7 @@ kb = {
 
 "chu":
 `
-<h3>處 chu</h3>
+<h2>處 chu</h2>
 
 
 `,
@@ -10,7 +10,7 @@ kb = {
 
 "di":
 `
-<h3>地: di</h3>
+<h2>地 di</h2>
 
 Phonosemantic compound. <big>土</big> represents the meaning and 也 represents the sound.
 
@@ -30,11 +30,18 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 
 
-"心: heart, mind, heart-mind (mindfulness)":
+"xin":
 `
+<h2>心 xin</h2>
+
+Depicts a heart.
 
 - heart
-- mind
+- mind, intelligence
+- soul
+- intention
+- center
+- core
 - heart-mind
 - mindfulness
 `,
@@ -42,7 +49,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "zhēng":
 `
-爭: zhēng
+<h2>爭 zhēng</h2>
 
 - to fight, compete, strive for
 - to rise
@@ -57,7 +64,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "bù":
 `
-不: bù
+<h2>不 bù</h2>
 
 - not, no
 - primarily used to negate verbs, indicating the absence of an action or state.
@@ -67,7 +74,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "ér":
 `
-而: ér
+<h2>而 ér</h2>
 
 - and
 - but
@@ -78,7 +85,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "wù":
 `
-物 : wù
+<h2>物 wù</h2>
 
 - thing
 - object
@@ -92,7 +99,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 `
 <h2>萬 wàn</h2>
 
-
+Originally a pictograph of a scorpion. The current meaning is a phonetic loan.
 
 - ten thousand
 - a great number
@@ -105,7 +112,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "lì":
 `
-利: lì
+<h2>利 lì</h2>
 
 - sharp
 - favorable
@@ -120,7 +127,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "shuǐ":
 `
-水: shuǐ
+<h2>水 shuǐ</h2>
 
 - water
 - river
@@ -133,7 +140,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "ruò":
 `
-若: ruò
+<h2>若 ruò</h2>
 
 - if: often used as a conjunction to introduce a conditional clause, similar to "if" in English. For example, "若有 (ruò yǒu)": "if there is".
 - like, as if: indicates a comparison or resemblance. 
@@ -142,7 +149,7 @@ Phonosemantic compound. <big>土</big> represents the meaning and 也 represents
 
 "shàng":
 `
-上: shàng
+<h2>上 shàng</h2>
 
 Originally a small line or dot above a longer line, indicating
 "up". The vertical line was added to distinguish the character from 二
@@ -164,7 +171,7 @@ Originally a small line or dot above a longer line, indicating
 
 "shàn":
 `
-善: shàn
+<h2>善 shàn</h2>
 
 Composed of two 言 (speech) components and 羊 (sheep). In ancient
 China sheep (羊) were associated with goodness and beauty, which is
