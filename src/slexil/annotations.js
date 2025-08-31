@@ -86,7 +86,8 @@ $(function() {
         }
      }); // toggleAnnotationsButton click
     pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"'
-    if(JSON.stringify(navigator.userAgent) == pshannonSig){
+    console.log("kb defined? " + typeof(kb) == 'object')
+    if((JSON.stringify(navigator.userAgent) == pshannonSig) & (typeof(kb) == 'object')){
        $("#annoDiv").show()
        $("#toggleAnnotationsButton").text("Hide Annotations")
        }
