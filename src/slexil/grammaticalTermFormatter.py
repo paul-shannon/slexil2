@@ -63,6 +63,9 @@ class GrammaticalTermFormatter:
    #------------------------------------------------------------
    def format(self):
 
+     if(self.grammaticalTerms == None):
+        return self.gloss;
+     
      out = []
      for part in self.parts:
         part = part.strip()

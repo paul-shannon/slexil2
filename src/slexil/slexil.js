@@ -228,7 +228,7 @@ $(document).ready(function(){
       // each checkbox's name is matched to a tier 'name' attribute
     $(".tierToggleCheckbox").on('click', function(){
         tierName = this['name']
-        console.log("checkbox toggle of tier named '" + tierName + "'");
+        //console.log("checkbox toggle of tier named '" + tierName + "'");
         query = ".tier[name='" + tierName + "']"
         $(query).toggle()
         })
@@ -238,12 +238,12 @@ $(document).ready(function(){
        var anyToggleOn = false
        // first find out if any toggles are on
        for (let i = 0; i < toggles.length; ++i){
-          console.log(toggles[i].checked)
-           if(toggles[i].checked){
-              anyToggleOn = true;
-              }
+          //console.log(toggles[i].checked)
+          if(toggles[i].checked){
+             anyToggleOn = true;
+             }
           } // for i
-       console.log("any toggles on? " + anyToggleOn)
+       // console.log("any toggles on? " + anyToggleOn)
        // now assign all to the opposite of that value 
        var newValue = !anyToggleOn
        for (let i = 0; i < toggles.length; ++i){

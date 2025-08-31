@@ -5,6 +5,7 @@ converter.setOption("tables", true);
 var timer = null;
 
 $(function() {
+   console.log("--- executing src/slexil/annotations.js")
    if (typeof(kb) == 'object'){
       console.log("--- kb entries: " + Object.keys(kb).length);
       if(typeof(linguistics) == 'object'){
@@ -117,11 +118,11 @@ function lookup(key)
 
    var index = Object.keys(kb).indexOf(key);
    var found = index >= 0
-    console.log("---- annotations.js, lookup, using kb: '" + key + "', found? " + found)
+   console.log("---- annotations.js, lookup, using kb: '" + key + "', found? " + found)
    console.log("    index: " + index);
 
    if(index < 0)
-       return("")
+       return("no annotation available")
 
    var markup = converter.makeHtml(kb[key]);
    return(markup);
