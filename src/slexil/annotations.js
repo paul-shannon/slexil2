@@ -85,20 +85,11 @@ $(function() {
         showAnno = true;
         }
      }); // toggleAnnotationsButton click
-
-    /***************
-    $("#languageTopicsSelector").on("change", function(){
-        var key = this.value;
-        if(key != "Linguistic Topic?"){ // the title
-           var annoBox = $("#annoDiv");
-           var annoText = lookup(key)
-           annoBox.html(annoText);
-           }
-           // show the blank (first) option in the selector
-        $("#languageTopicsSelector option")[0].selected = true;
-    }); // languageTopicsSelector
-    ***********/
-
+    pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"'
+    if(JSON.stringify(navigator.userAgent) == pshannonSig){
+       $("#annoDiv").show()
+       $("#toggleAnnotationsButton").text("Hide Annotations")
+       }
     }); // on ready
 
 //------------------------------------------------------------------------------------------------------------------------
