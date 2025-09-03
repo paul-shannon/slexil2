@@ -5,15 +5,21 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/3SmithJoeVOLume.m4v
 mimeType: unknown
 
 lines:
-  - lineNumber: 1
-    startTime: 0
-    endTime: -113
-    utterance: Speakers are Gax̱daakashú Joe Hotch, Sháayi Éesh Smith Katzeek, and G̱uneiwtí Marsha Hotch.  Recorded on October 31, 2007, at the Alaska Native Sisterhood Hall, Klukwan, AK, by Ljáaḵkʼ Alice Taff and Katrina Hotch.
 
-  - lineNumber: 2
-    startTime: 87
-    endTime: -13
-    utterance: Tlingit transcription by Shaag̱aw Éesh Devlin Anderstrom. English translation by Sháayi Éesh Smith Katzeek, Gax̱daakashú Joe Hotch, Shakʼsháani Marge Dutson, Kaséix̱ Selina Everson, with Ljáaḵkʼ Alice Taff. X̱ʼaagi Sháawu Keri Edwards and Ḵaachkoo.aaḵw Helen Sarabia. Edited by X̱ʼaagi Sháawu Keri Eggleston.
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Speakers are Gax̱daakashú Joe Hotch, Sháayi Éesh Smith Katzeek, and
+    G̱uneiwtí Marsha Hotch.  Recorded on October 31, 2007, at the
+    Alaska Native Sisterhood Hall, Klukwan, AK, by Ljáaḵkʼ Alice Taff
+    and Katrina Hotch.
+    </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Tlingit transcription by Shaag̱aw Éesh Devlin Anderstrom. English
+    translation by Sháayi Éesh Smith Katzeek, Gax̱daakashú Joe Hotch,
+    Shakʼsháani Marge Dutson, Kaséix̱ Selina Everson, with Ljáaḵkʼ
+    Alice Taff. X̱ʼaagi Sháawu Keri Edwards and Ḵaachkoo.aaḵw Helen
+    Sarabia. Edited by X̱ʼaagi Sháawu Keri Eggleston.
+    </div>"
 
   - lineNumber: 3
     startTime: 187
