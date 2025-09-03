@@ -5,15 +5,20 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/4EthelAnita.m4v
 mimeType: video/mp4
 
 lines:
-  - lineNumber: 1
-    startTime: 0
-    endTime: 654
-    utterance: Speakers are Ḵʼasa See Anita                 Wright,Daasdiyáa Ethel Makinen and Koolyéik Roberta                 Littlefield. Recorded November 29, 2007 at Blatchly                 Middle School in Sitka, Alaska, by Ljáaḵkʼ Alice Taff and Koolyéik Roberta Littlefield.  
 
-  - lineNumber: 2
-    startTime: 854
-    endTime: 1422
-    utterance: Tlingit transcription and English translation by Daasdiyáa Ethel Makinen, Koolyéik Roberta Littlefield and Kassandra Littlefield. Proofread by X̱ʼaagi Sháawu Keri Eggleston and Ḵaachkoo.aaḵw Helen Sarabia. 
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Speakers are Ḵʼasa See Anita Wright,Daasdiyáa Ethel Makinen and
+    Koolyéik Roberta Littlefield. Recorded November 29, 2007 at
+    Blatchly Middle School in Sitka, Alaska, by Ljáaḵkʼ Alice Taff and
+    Koolyéik Roberta Littlefield.
+    </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Tlingit transcription and English translation by Daasdiyáa Ethel
+    Makinen, Koolyéik Roberta Littlefield and Kassandra
+    Littlefield. Proofread by X̱ʼaagi Sháawu Keri Eggleston and
+    Ḵaachkoo.aaḵw Helen Sarabia.
+    </div>"
 
   - lineNumber: 3
     startTime: 1622
