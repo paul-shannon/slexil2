@@ -5,75 +5,67 @@ mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/12HelenFloBaby8-7-10.m4
 mimeType: video/m4v
 
 lines:
-  - lineNumber: 1
-    startTime: 130
-    endTime: 4830
-    utterance: Tlingit conversation #12. Speakers are Ḵaachkoo.aaḵw Helen Sarabia and Ḵaaḵal.aat Florence Marks Sheakley. Recorded on November 21, 2009, in Juneau, Alaska, by Ljáaḵkʼ Alice Taff.
+  - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
+       Speakers are Ḵaachkoo.aaḵw Helen
+       Sarabia and Ḵaaḵal.aat Florence Marks Sheakley. Recorded on
+       November 21, 2009, in Juneau, Alaska, by Ljáaḵkʼ Alice Taff.
+       </div>"
 
-  - lineNumber: 2
-    startTime: 5030
-    endTime: 8220
-    utterance: Tlingit transcription by X̱’aagi Sháawu Keri Eggleston.  English translation by Ḵaaḵal.aat Florence Marks Sheakley with Ljáaḵkʼ Alice Taff. Edited by Saḵaayí Anita Lafferty with X̱’aagi Sháawu Keri Eggleston.
+  - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
+          Tlingit transcription by X̱’aagi Sháawu Keri Eggleston.
+          English translation by Ḵaaḵal.aat Florence Marks Sheakley
+          with Ljáaḵkʼ Alice Taff. Edited by Saḵaayí Anita Lafferty
+          with X̱’aagi Sháawu Keri Eggleston.
+          </div>"
 
   - lineNumber: 3
-    startTime: 8230
-    endTime: 9210
+    startTime: 6297
+    endTime: 6778
     utterance: Ha.é!
     translation: Look at you!
 
   - lineNumber: 4
-    startTime: 9410
-    endTime: 12160
-    utterance: Aadé shaklig̱éik'i yé. Uhoh.
-    translation: How cute she is.
+    startTime: 8740
+    endTime: 12050
+    utterance: (I had, I had...) Aadé shaklig̱éik'i yé. Uhoh. 
+    translation: How cute she is. Uhoh.
 
   - lineNumber: 5
-    startTime: 12165
-    endTime: 15060
-    utterance: I had the oldest brother in, um, Headstart.
-
-  - lineNumber: 6
-    startTime: 15260
-    endTime: 17470
-    utterance: Fell on the floor.
+    startTime: 12300
+    endTime: 16849
+    utterance: I had the oldest brother in, um, Headstart. (It fell on the floor)
 
   - lineNumber: 7
     startTime: 17670
-    endTime: 26580
-    utterance: How old is he now? 15. 15, wow. So that was about 11 years ago.
+    endTime: 23909
+    utterance: How old is he now? (15.) 15, wow. So that was about 11 years ago.
 
   - lineNumber: 8
-    startTime: 26780
-    endTime: 27810
+    startTime: 26582
+    endTime: 27846
     utterance: Oʼ, ha.é.
     translation: Golly, golly.
 
   - lineNumber: 9
-    startTime: 28010
-    endTime: 29630
-    utterance: Ḵunáx̱,
-    translation: Really,
-
-  - lineNumber: 10
-    startTime: 29830
-    endTime: 33080
-    utterance: ḵúnáx̱ aadéi shaklig̱éik'i yé áyá.
-    translation: she's really cute.
+    startTime: 28108
+    endTime: 32850
+    utterance: Ḵunáx̱, ḵúnáx̱ aadéi shaklig̱éik'i yé áyá.
+    translation: Really, she's really cute.
 
   - lineNumber: 11
-    startTime: 33280
-    endTime: 35800
-    utterance: Yáa t'ukanéiyi, t'ukanéiyi áyá.
-    translation: This baby, this is a baby.
+    startTime: 33400
+    endTime: 37177
+    utterance: Yáa t'ukanéiyi, t'ukanéiyi áyá. (T'ukanéiyi, yeah.)
+    translation: This baby, this is a baby. (Baby, yeah.)
 
-  - lineNumber: 12
-    startTime: 36000
-    endTime: 37010
-    utterance: T'ukanéiyi, yeah.
-    translation: Baby, yeah.
+#  - lineNumber: 12
+#    startTime: 36000
+#    endTime: 37010
+#    utterance: T'ukanéiyi, yeah.
+#    translation: Baby, yeah.
 
   - lineNumber: 13
-    startTime: 37210
+    startTime: 37228
     endTime: 40940
     utterance: Aaá, Lingítch yéi yasáakw yéi kwdzigeink'í,
     translation: Yes, the Tlingit people call the little ones,
@@ -86,7 +78,7 @@ lines:
 
   - lineNumber: 15
     startTime: 43070
-    endTime: 45965
+    endTime: 45173
     utterance: .É! Ḵúnáx̱ litseen.
     translation: Wow! She's really strong.
 
@@ -98,31 +90,31 @@ lines:
 
   - lineNumber: 17
     startTime: 48645
-    endTime: 50160
+    endTime: 49816
     utterance: .É! Look, du,
     translation: Wow! Look at her,
 
   - lineNumber: 18
-    startTime: 50170
-    endTime: 51495
+    startTime: 50168
+    endTime: 53480
     utterance: du gúkjaashí.
     translation: earrings.
 
-  - lineNumber: 19
-    startTime: 51695
-    endTime: 54295
-    utterance: [At shooḵ]
-    translation: [Laughter]
+#  - lineNumber: 19
+#    startTime: 51695
+#    endTime: 54295
+#    utterance: [At shooḵ]
+#    translation: [Laughter]
 
   - lineNumber: 20
-    startTime: 54495
-    endTime: 56480
+    startTime: 55046
+    endTime: 56078
     utterance: {du du} Du gúk.
     translation: Her ears.
 
   - lineNumber: 21
-    startTime: 56680
-    endTime: 59440
+    startTime: 56694
+    endTime: 59068
     utterance: Du gúk wuduwatáḵt dei.
     translation: Her ears are already pierced.
 
@@ -139,32 +131,20 @@ lines:
     translation: Look at you!
 
   - lineNumber: 24
-    startTime: 62130
-    endTime: 63780
+    startTime: 62209
+    endTime: 63491
     utterance: Ḵúnáx̱ áwé,
     translation: Really,
 
   - lineNumber: 25
-    startTime: 63980
-    endTime: 66430
-    utterance: .É, ḵúnáx̱ áwé iyashúḵ i daa.    Yeah.
-    translation: She's really smiling at you.    Yeah.
-
-  - lineNumber: 26
-    startTime: 66630
-    endTime: 67765
-    utterance: I daa yóo yakdzi.éik.     
-    translation: She's checking you out.
-
-  - lineNumber: 27
-    startTime: 67965
-    endTime: 68735
-    utterance: Aaa.
-    translation: Yes.
+    startTime: 64049
+    endTime: 68661
+    utterance: .É, ḵúnáx̱ áwé iyashúḵ i daa. (Yeah). I daa yóo yakdzi.éik. (Aaa.)
+    translation: She's really smiling at you. (Yeah). She's checking you out. (Yes)
 
   - lineNumber: 28
-    startTime: 68935
-    endTime: 71512
+    startTime: 68699
+    endTime: 71312
     utterance: Aadóo sáwé yá shaawát shaan tlein?
     translation: Who is this big old woman? [Talking for the baby.]
 
@@ -218,7 +198,7 @@ lines:
 
   - lineNumber: 37
     startTime: 97200
-    endTime: 100650
+    endTime: 100510
     utterance: Ḵúnáx̱ k'idéin du x̱'éix̱ at dutee.
     translation: They really feed her good.
 
