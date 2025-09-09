@@ -85,16 +85,22 @@ lines:
     lushootseed: diʔɬ kʷi gʷəsqəlbs.
     english:  It might rain.
 
-#  - startTime:
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime:
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
+  - html: "<div class='lessonTitle'>Lesson Twenty-Nine: saliʔačiʔ ʔi ti x̌ʷəl</div>"
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>29.1</div>"
+
+  - startTime: 197516
+    endTime: 202576
+    lushootseed: huk̓ʷuy, x̌aƛ̓txʷ čəɬ ti sqəbuʔ.
+    english: Little girl! We want some milk.
+
+  - startTime: 202731
+    endTime: 204908
+    lushootseed: gʷəʔƛ̓txʷ čəxʷ (ʔ)u.
+    english: Would you bring it?
+
 #  - startTime:
 #    endTime: 
 #    lushootseed: 
