@@ -101,31 +101,119 @@ lines:
     lushootseed: gʷəʔƛ̓txʷ čəxʷ (ʔ)u.
     english: Would you bring it?
 
-#  - startTime:
+  - startTime: 214227
+    endTime: 216136
+    lushootseed: čad kʷi sʔas.
+    english: Where is it?
+
+  - startTime: 219961
+    endTime: 223879
+    lushootseed: ʔədəkʷ ʔal ti səxʷƛ̓ux̌ilali.
+    english: It is in the refrigerator.
+
+  - html: "<div class='sectionNumber'>29.2</div>"
+
+  - startTime: 233804
+    endTime: 237974
+    lushootseed: ʔux̌ʷtxʷ ti sqəbuʔ dxʷdiʔadiʔ
+    english: Take the milk to the other room.
+
+  - startTime: 246547
+    endTime: 248615
+    lushootseed: čad gʷədsʔahəd.
+    english: Where should I put it?
+
+  - startTime: 250350
+    endTime: 252860
+    lushootseed: dəgʷaš ʔal ti səxʷƛ̓ux̌ʷilali.
+    english: Put it in the refrigerator.
+
+  - html: "<div class='sectionNumber'>29.3</div>"
+
+  - startTime: 261637
+    endTime: 267764
+    lushootseed: šədᶻaltxʷ ti sqʷəbayʔ čəxʷa ʔibəštxʷ. hagʷəxʷ t(u)ashədʔiw̓.
+    english:  Take the dog outside now and walk him.  He's been inside for a long time.
+
+  - startTime: 279817
+    endTime: 282474
+    lushootseed: čad əw̓ə kʷi sʔa ʔə ti t̓əbiɬəds.
+    english: Where is his rope?
+
+  - startTime: 287941
+    endTime: 290856
+    lushootseed: ʔəbəč gʷədabac ʔə tə tibu.
+    english: It's lying under the table.
+
+#  - startTime: 
 #    endTime: 
 #    lushootseed: 
 #    english: 
 #
-#  - startTime:
+#  - startTime: 
 #    endTime: 
 #    lushootseed: 
 #    english: 
 #
-#  - startTime:
+#  - startTime: 
 #    endTime: 
 #    lushootseed: 
 #    english: 
 #
-#  - startTime:
+#  - startTime: 
 #    endTime: 
 #    lushootseed: 
 #    english: 
 #
-#  - startTime:
+#  - startTime: 
 #    endTime: 
 #    lushootseed: 
 #    english: 
 #
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
 #
 #
 #

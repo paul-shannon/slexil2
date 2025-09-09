@@ -36,7 +36,8 @@ s2h:
         --kbFilename kb2.js \
         --pageTitle "Lushootseed Grammar 2" \
         --helpButtonLabel About \
-        --helpFile about.html
+        --helpFile about.html \
+        --verbose
 
 
 curl:

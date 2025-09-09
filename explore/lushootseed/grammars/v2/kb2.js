@@ -17,9 +17,10 @@ coffee or tea.
 `
 **Grammar Note 28.2, page 3**
 
-_ƛ̓u-_ is a prefix meaning "habiutally".  When both _ƛ̓u-_ and _tu-_
-(see section 10.7) or _ƛ̓u-_ and _ɬu-_ (11.7) precede the same action word,
-_ƛ̓u-_ is first.
+_ƛ̓u-_ is a prefix meaning "habitually".
+
+When both _ƛ̓u-_ and _tu-_ (see section 10.7) or _ƛ̓u-_ and _ɬu-_ (11.7)
+precede the same action word, _ƛ̓u-_ is first.
 
 `,
 
@@ -36,11 +37,18 @@ In Southern Lushootseed the equivalent expression is _ƛ̓əlusəbəxʷ_.
 `
 **Grammar Note 28.1, page 3**
 
-Some words can take both _-dxʷ_ and _-d_ endings.  Note the difference in
-meaning between
+Some words can take both _-dxʷ_ and _-d_ endings.
+
+- _-dxʷ_: diminished control
+- _-d_: action performed on someone or somehting else
+
+Note the difference in meaning between:
 
 - _qəɬcid_: wake you up deliberately
 - _qəɬdubicid_: happen to wake you up
+
+(David Beck explains: -dxʷ often becomes -du when it is followed by other affixes,
+like -bicid, the second-person singular object marker.)
 
 and between
 
@@ -55,8 +63,7 @@ _someone lacks full control over what he is doing_:
 
 - _tuhuydxʷ čəd_: I solved it, I pieced it together.
 - _thuhyud čəd_: I made it, I finished it.
-
-- _tuƛ̓aldxʷ čəd_: I managed to get i on (e.g., a tight boot)
+- _tuƛ̓aldxʷ čəd_: I managed to get it on (e.g., a tight boot)
 _ _tuɬalš čəd_: I put it on.
 
 `,
