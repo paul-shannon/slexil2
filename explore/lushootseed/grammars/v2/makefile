@@ -37,6 +37,7 @@ s2h:
         --pageTitle "Lushootseed Grammar 2" \
         --helpButtonLabel About \
         --helpFile about.html \
+        --linguistics linguisticTerms2.js \
         --verbose
 
 
