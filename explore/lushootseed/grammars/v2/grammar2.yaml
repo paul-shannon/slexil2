@@ -29,9 +29,14 @@ lines:
     english: Would you wake me up tomorrow morning?
 
   - startTime: 50668
+    endTime: 56700
+    lushootseed: xʷiʔ gʷədsqəɬcid.  cick̓ʷ čəxʷ ƛ̓uʔitut ʔə tə tib.
+    english: I won't wake you up.  You (habitually) sleep very heavily.
+
+  - startTime: 57136
     endTime: 58765
-    lushootseed: xʷiʔ gʷədsqəɬcid.  cick̓ʷ čəxʷ ƛ̓uʔitut ʔə tə tib.  xʷiʔ gʷ(ə)adsqəɬ.
-    english: I won't wake you up.  You (habitually) sleep very heavily.  You won't wake up.
+    lushootseed: xʷiʔ gʷ(ə)adsqəɬ.
+    english: You won't wake up.
 
   - html: "<div class='sectionNumber'>28.3</div>"
 

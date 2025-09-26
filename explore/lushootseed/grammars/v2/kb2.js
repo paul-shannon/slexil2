@@ -6,7 +6,7 @@ kb = {
 
 "ʔuqəɬdubicid čəd (ʔ)u.":
 `
-<b><i>ʔuqəɬdubicid čəd (ʔ)u.</i></b>
+<b>ʔuqəɬdubicid čəd (ʔ)u.</b>
 
 <details><summary>Vocabulary Notes</summary>
 
@@ -69,7 +69,7 @@ _ _tuɬalš čəd_: I put it on.
 
 "ʔi.  ʔuqəɬdubš čəxʷ. gʷəƛ̓əladəxʷ.":
 `
-<b><i>ʔi.  ʔuqəɬdubš čəxʷ. gʷəƛ̓əladəxʷ.</b></i>
+<b>ʔi.  ʔuqəɬdubš čəxʷ. &nbsp; gʷəƛ̓əladəxʷ.</b>
 
 <details><summary>Vocabulary Notes</summary>
 
@@ -109,7 +109,7 @@ _gʷəƛ̓əladəxʷ_.
 "gʷəqəɬc čəxʷ (ʔ)u [ʔal kʷi] ɬup dadatu.":
 
 `
-<b><i>gʷəqəɬc čəxʷ (ʔ)u [ʔal kʷi] ɬup dadatu.</i></b>
+<b>gʷəqəɬc čəxʷ (ʔ)u [ʔal kʷi] ɬup dadatu.</b>
 
 <details><summary>Vocabulary Notes</summary>
 
@@ -141,8 +141,10 @@ _gʷəƛ̓əladəxʷ_.
 // section 28.2, line 4
 //-----------------------
 
-"xʷiʔ gʷədsqəɬcid.  cick̓ʷ čəxʷ ƛ̓uʔitut ʔə tə tib.  xʷiʔ gʷ(ə)adsqəɬ.":
+"xʷiʔ gʷədsqəɬcid.  cick̓ʷ čəxʷ ƛ̓uʔitut ʔə tə tib.":
 `
+<b>xʷiʔ gʷədsqəɬcid.  cick̓ʷ čəxʷ ƛ̓uʔitut ʔə tə tib.</b>
+
 <details><summary>Vocabulary Notes</summary>
 
 <ul>
@@ -164,6 +166,29 @@ _gʷəƛ̓əladəxʷ_.
 <li><b>ʔə</b>: (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
 <li><b>tə</b>: the, a [LD 219]
 <li><b>tib</b>: do something requring much physical effort; be strong [LD 225]
+
+</ul>
+</details>
+
+**Grammar Note 28.2, page 3**
+
+_ƛ̓u-_ is a prefix meaning "habitually".
+
+When both _ƛ̓u-_ and _tu-_ (see section 10.7) or _ƛ̓u-_ and _ɬu-_ (11.7)
+precede the same action word, _ƛ̓u-_ is first.
+
+`,
+
+//----------------------- 
+// section 28.2, line 5
+//-----------------------
+
+"xʷiʔ gʷ(ə)adsqəɬ.":
+`
+<b>xʷiʔ gʷ(ə)adsqəɬ.</b>
+<details><summary>Vocabulary Notes</summary>
+
+<ul>
 <li><b>xʷiʔ</b>: no, not, nothing! [LD 252]
 <li><b>gʷ(ə)adsqəɬ</b>:
    <ul>
@@ -185,30 +210,30 @@ precede the same action word, _ƛ̓u-_ is first.
 
 `,
 
+
 //----------------------- 
-// section 28.3, line 5
+// section 28.3, line 6
 //-----------------------
 
 "tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.":
 `
-<b><i>tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.</i></b>
+<b>tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.</b>
 
 <details><summary>Vocabulary Notes</summary>
 
-<b><i>tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.</i></b>
 <ul>
    <li><b>tu(u)k̓ʷəɬalikʷ</b>
 
      <ul>
-        <li><b>tu</b>: past
-        <li><b>u</b>: action is viewed as a whole
-        <li><b>k̓ʷəɬalikʷ</b>: serve
+       <li><b>tu-</b>: past [LD 228]
+       <li><b>ʔu-</b>: perfective prefix (action viewed as a whole).  [LD 19]
+       <li><b>k̓ʷəɬalikʷ</b>: serve (liquid) [LD 129]
      </ul>
 
-   <li><b>čəd</b>: 
-   <li><b>ʔə</b>: 
-   <li><b>ti </b>: 
-   <li><b>kupi</b>: 
+   <li><b> čəd </b>:  I, me.  [LD 62]
+   <li><b>ʔə</b>: in, of, on, onto, when, while, ... [general purpose linking preposition] [LD 9]
+   <li><b>ti </b>: this [LD 224]
+   <li><b>kupi</b>: coffee [LD 119]
 </ul>
 </details>
 
@@ -221,6 +246,32 @@ prefer the word _dxʷs(h)ədalqʷuʔ_ "hot water" when referring to
 coffee or tea.
 
 `,
+
+//----------------------- 
+// section 28.3, line 6
+//-----------------------
+
+"čəda tuk̓ʷəɬdxʷ.":
+
+`
+<b>čəda tuk̓ʷəɬdxʷ.</b>
+
+<details><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li> <b>čəda</b>: and I [LD 62]
+   <li> <b>tuk̓ʷəɬdxʷ</b>
+   <ul>
+      <li><b>tu-</b>: past [LD 228]
+      <li><b>k̓ʷəɬ</b>: spill [LD 129]
+      <li><b>-dxʷ</b> diminished control.  [LD 86]
+    </ul>
+</ul>
+
+</details>
+
+`,
+
 
 
 
