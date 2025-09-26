@@ -6,19 +6,21 @@ kb = {
 
 "ʔuqəɬdubicid čəd (ʔ)u.":
 `
-**Vocabulary Notes**
+<b><i>ʔuqəɬdubicid čəd (ʔ)u.</i></b>
+
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
   <li><b> ʔuqəɬdubicid</b>
    <ul>
-   <li><b> ʔu-</b>:  an action is viewed as a whole, in its entirety, rather than
-   highlighting the details, stages, or ongoing nature. LD 19, third entry.
-   <li><b> qəɬ</b>: wake up; regain consciousness, come to.  LD 176
+   <li><b> ʔu-</b>:  action is viewed as a whole, in its entirety, rather than
+   highlighting the details, stages, or its ongoing nature. [LD 19]
+   <li><b> qəɬ</b>: wake up; regain consciousness, come to.  [LD 176]
    <li><b> -du-</b>: indicates diminished control: the subject (the speaker)
           did not have complete control of the act.  <b>dxʷ</b>
           is the standard form, which often becomes <b>du</b> when
           followed (as here) by other suffixes.
-   <li><b>-bicid </b>: suffix indicating second person singular object of the verb, "you"
+   <li><b>-bicid </b>: you (singular) [LD 39,114] 
      
 </ul>
 
@@ -26,6 +28,7 @@ kb = {
    <li><b>ʔu </b>: question marker.  [LD 19]
 
 </ul>
+</details>
 
 **Grammar Note 28.1, page 3**
 
@@ -66,7 +69,9 @@ _ _tuɬalš čəd_: I put it on.
 
 "ʔi.  ʔuqəɬdubš čəxʷ. gʷəƛ̓əladəxʷ.":
 `
-**Vocabulary Notes**
+<b><i>ʔi.  ʔuqəɬdubš čəxʷ. gʷəƛ̓əladəxʷ.</b></i>
+
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ʔi</b>: yes.  [LD 14]
@@ -77,18 +82,18 @@ _ _tuɬalš čəd_: I put it on.
       <li><b>dubš</b> from <b>dxʷ-bš</b>
       <ul>
          <li><b>-dxʷ_</b> diminished control.  [LD 86]
-         <li><b>-bš</b>: me, suffix indicating first person object of the verb. see _-š_ LD 207.
+         <li><b>-bš</b>: me, suffix indicating first person object of the verb. see _-š_ [LD 207]
       </ul>
     </ul>
-   <li><b>čəxʷ</b>:  you (singular).  LD 65
+   <li><b>čəxʷ</b>:  you (singular).  [LD 65]
    <li><b>gʷəƛ̓əladəxʷ</b>
    <ul>
       <li><b>gʷə</b>: if, maybe, might, doubtful, hoped for [subjunctive prefix]
-      <li><b>ƛ̓əlad</b>:  stop, be still.  LD 153
-      <li><b>-əxʷ</b>: now.  see _-axʷ_, LD 30
+      <li><b>ƛ̓əlad</b>:  stop, be still.  [LD 153]
+      <li><b>-əxʷ</b>: now.  see _-axʷ_, [LD 30]
     </ul>
 </ul>
-
+</details>
 
 **Footnote 1, p1**
 
@@ -104,7 +109,9 @@ _gʷəƛ̓əladəxʷ_.
 "gʷəqəɬc čəxʷ (ʔ)u [ʔal kʷi] ɬup dadatu.":
 
 `
-**Vocabulary Notes**
+<b><i>gʷəqəɬc čəxʷ (ʔ)u [ʔal kʷi] ɬup dadatu.</i></b>
+
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>gʷəqəɬc</b>
@@ -124,20 +131,11 @@ _gʷəƛ̓əladəxʷ_.
 
 </ul>
 
-`,
-
-
-"tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi čəda tuk̓ʷəɬdxʷ.":
-`
-**Vocabulary Comment, 28.3.7, page 3**
-
-_kupi_ is a Lushootseed word taken from English "coffee".
-
-A few elders
-prefer the word _dxʷs(h)ədalqʷuʔ_ "hot water" when referring to
-coffee or tea.
+</details>
 
 `,
+
+
 
 //----------------------- 
 // section 28.2, line 4
@@ -145,7 +143,7 @@ coffee or tea.
 
 "xʷiʔ gʷədsqəɬcid.  cick̓ʷ čəxʷ ƛ̓uʔitut ʔə tə tib.  xʷiʔ gʷ(ə)adsqəɬ.":
 `
-**Vocabulary Notes**
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>xʷiʔ</b>: no, not, nothing! [LD 252]
@@ -176,7 +174,7 @@ coffee or tea.
    </ul>
 
 </ul>
-
+</details>
 
 **Grammar Note 28.2, page 3**
 
@@ -184,6 +182,43 @@ _ƛ̓u-_ is a prefix meaning "habitually".
 
 When both _ƛ̓u-_ and _tu-_ (see section 10.7) or _ƛ̓u-_ and _ɬu-_ (11.7)
 precede the same action word, _ƛ̓u-_ is first.
+
+`,
+
+//----------------------- 
+// section 28.3, line 5
+//-----------------------
+
+"tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.":
+`
+<b><i>tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.</i></b>
+
+<details><summary>Vocabulary Notes</summary>
+
+<b><i>tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.</i></b>
+<ul>
+   <li><b>tu(u)k̓ʷəɬalikʷ</b>
+
+     <ul>
+        <li><b>tu</b>: past
+        <li><b>u</b>: action is viewed as a whole
+        <li><b>k̓ʷəɬalikʷ</b>: serve
+     </ul>
+
+   <li><b>čəd</b>: 
+   <li><b>ʔə</b>: 
+   <li><b>ti </b>: 
+   <li><b>kupi</b>: 
+</ul>
+</details>
+
+**Vocabulary Comment, 28.3.7, page 3**
+
+_kupi_ is a Lushootseed word taken from English "coffee".
+
+A few elders
+prefer the word _dxʷs(h)ədalqʷuʔ_ "hot water" when referring to
+coffee or tea.
 
 `,
 

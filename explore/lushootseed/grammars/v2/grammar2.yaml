@@ -36,9 +36,14 @@ lines:
   - html: "<div class='sectionNumber'>28.3</div>"
 
   - startTime: 72678
+    endTime: 75552 
+    lushootseed: tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi.
+    english: I was serving the coffee.
+
+  - startTime: 75876
     endTime: 78392
-    lushootseed: tu(u)k̓ʷəɬalikʷ čəd ʔə ti kupi čəda tuk̓ʷəɬdxʷ.
-    english: I was serving the coffee but I spilled it.
+    lushootseed: čəda tuk̓ʷəɬdxʷ.
+    english: But I spilled it.
 
   - html: "<div class='sectionNumber'>28.4</div>"
 
