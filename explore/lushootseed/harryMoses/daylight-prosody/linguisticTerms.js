@@ -1,4 +1,52 @@
 linguistics = {
+
+"ADD":
+`
+<h5>ADD: additive clitic, bə=</h5>
+
+- expresses "also" or "too"
+
+- bound clitics: always either pro- or en-; always prosodically
+  dependent and unstressed; not restricted to hosts of a particular
+  lexical class; may be iterated over an entire phrase
+
+`,
+
+"dəxʷ":
+`
+<h4>dəxʷ</h4>
+
+- reason for, place where LD 81 (minor usage?)
+- nominalization of adjunct and circumstantial expressions, particularly (but not exclusively) instruments, locations, motivations, and manners
+- common in Harry Moses's "How Daylight Was Stolen"
+
+| lushootseed | morphemes | analysis | translation | line |
+| ----------- | --------- | -------- | ----------- | ---- |
+| gʷədəxʷkʷədxʷ | gʷə=dəxʷ=kʷəd–dxʷ | sbj=adnm=take–dc | how can we get it? | 3 |
+| dəxʷəsaxʷəbabacs | dəxʷ=lə=saxʷəb•abac=s | adnm=prog=jump•body=3po | jumping they | 13 |
+| dəxʷʔacəc | dəxʷ=ʔacəc | adnm=be.in.place | where it is ? | 17 |
+| dəxʷʔa | dəxʷaʔ | adnm=be.there | this place? | 20 |
+`,
+
+"ʔa, ʔacəc":
+`
+<h4>ʔa vs. ʔacəc </h4>
+
+
+- ʔa:
+    - be there
+    - be in existence
+    - next, then [sentential conjunction]
+    - have, own
+- ʔacəc:
+    - be there
+    - specifically there (on that spot, in that place)
+    - there exists
+    - "if someone is looking for something, I say _ʔacəc_
+    
+`,
+
+
 "-bicid":
 `
 <h4>-bicid</h4>
@@ -707,8 +755,9 @@ from the action of the verb
 
 "kʷəd":
 `
-**kʷəd**
+<h4>kʷəd</h4>
 
+- take, get, hold grasp, carry in the hand
 - ləskʷə́d: take along with, carrying  
 - kʷədáxʷ: have a spell, have a seizure; take now
 - kʷədád: have *taken something, *have something, *grab ...
@@ -2480,6 +2529,127 @@ differ in several cases.
 
 "Determiner":
 `#####Determiner
+
+**From David's draft grammar, page 197-198**
+
+The full set of Lushootseed determiners is given in Table 58, first
+the demonstrative determiners:
+
+| case | prox | dist | remote |
+| ---- | ---- | ---- | ------ |
+| masculine | tiʔəʔ | tiʔiɬ | kʷi |
+| feminine  | tsiʔəʔ | tsiʔiɬ | kʷi |
+| plural | tiʔiʔəʔ | tiʔiʔiɬ | |
+
+<br>
+and the non-demonstrative:
+
+| case | specific | unique | non-specific |
+| ---- | -------- | ------ | ------------ |
+| masculine | ti | tiʔacəc | tə |
+| feminine  | tsi | tsiʔacəc | tsə |
+
+<br>
+The system is notable for the number of semantic distinctions it
+makes. The highest level of these seems to be between what will be
+called here specific vs. non-specific. In Lushootseed, this
+distinction is drawn between those determiners that single out a
+specific entity from amongst the set of entities designated by the
+referring expression, and those that do not.
+
+The latter set has only
+two members, the non-feminine and feminine non-specific determiners,
+tə and tsə. Within the former set, a further distinction is drawn
+between the demonstrative determiners, which in addition to singling
+out a specific entity also locate it in space or time, and the non-
+demonstratives, which do not specify a location.
+
+The demonstrative
+determiners specify three degrees of spatial deixis — proximal,
+distal, and remote — and the non-demonstratives distinguish between a
+simple specific determiner, ti, and another form which encodes an
+additional category, uniqueness. In addition to the plethora of
+deictic categories, this set of determiners also encodes distinctions
+of natural (i.e., biological) gender and, to a lesser extent, number.
+
+As their name implies, the primary syntactic function of determiners
+is to introduce referential expressions such as NPs and the
+complements of prepositions, as in (205):
+
+<pre>
+a. gʷəl ɬaliləxʷ ti stubš
+   gʷəl ɬalil=əxʷ ti stubš
+   SCONJ come.ashore=now SPEC man
+   ‘then the man comes ashore’
+
+   [JS Basket Ogress, line 72]
+
+b. ʔəsɬaɬlil kʷsi bšč’ad ʔal tə hikʷ ʔalʔal
+   ʔəs–ɬaɬlil kʷsi bšč’ad ʔal tə hikʷ ʔalʔal
+   STAT–live REM:FEM louse at NSPEC big house
+   ‘Louse lives in a big house’
+
+   [EK Lady Louse, line 1]
+
+c. ɬusʔəɬəds tiʔiʔəʔ stawixʷaʔɬ
+   ɬu=sʔəɬəd–s tiʔ–iʔəʔ stawixʷaʔɬ
+   IRR=food–3PO PL–PROX children
+   ‘the children will be her food’
+
+   [MS Basket Ogress, line 28]
+</pre>
+
+Normally, referential expressions in Lushootseed, require a determiner
+(or a demonstrative adverbial — Section 2.5.1).The presence or absence
+of a determiner introducing a phrase is often the only way in which to
+determine whether its syntactic role is that of an actant or that of a
+predicate. For example, the sentence in (205c) contains two nouns —
+sʔəɬəd ‘food’ and stawixʷaʔɬ ‘children’; the fact that stawixʷaʔɬ is
+introduced by a determiner identifies it as the subject, while the
+absence of a determiner identifies sʔəɬəd as the predicate.77 These
+constructions will be discussed in more detail in Section 8.3.1.
+
+Most of the determiners can also be used as independent third-person pronouns:
+
+<pre>
+a. kʷədatəb tiʔiɬ
+   kʷəda–t–b tiʔiɬ
+   taken–ICS–PASS DIST
+   ‘that one was taken’
+
+(Hess 2006: 59, line 428)
+
+b. ɬuhudyid čəɬ tiʔacəc
+   ɬu=hud–yi–d čəɬ tiʔacəc
+   PAST=burn–DAT–ICS 1PL.SUB UNQ
+   ‘we will make a fire for these very ones’
+
+(Hess 2006: 64, line 535)
+
+c. x̌əɬ ti ƛ’ascɬil tiʔəʔ ʔal ti
+   x̌əɬ ti ƛ’u=ʔas–cɬil tiʔəʔ ʔal ti
+   seemingly HAB=STAT–bleed PROX at SPEC
+   ‘it is just as if this one is bleeding in this [place]’
+
+(Hess 2006: 15, line 105)
+</pre>
+
+The only two determiners not attested in this use are the remote
+demonstrative, kʷi/kʷsi, and the non-specifics tə/tsə. The failure of
+the latter to function as pronouns is not surprising, as they are used
+to identify a general type of entity rather than a specific
+individual, and so are not a good candidate for use as an anaphor. The
+absence of the former in a pronominal role may be related to its
+association with hypothetical and backgrounded elements in
+discourse. It should also be noted that the use of the specific
+determiner ti as a pronoun is relatively infrequent, although it is
+attested enough in the corpus that it has to be considered a regular
+grammatical construction.
+
+
+
+**Linguistics generally, English examples**
+
 A word, phrase, or affix that occurs together with a noun or noun phrase
 and serves to express the reference of that noun or noun phrase in the
 context. That is, a determiner may indicate whether the noun is referring

@@ -1,7 +1,8 @@
 title: How Daylight Was Stolen
 narrator: Harry Moses
 textEntry: Paul Shannon
-mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
+mediaFile: daylight-restoration_V03-22k-aLaw.wav
 mimeType: audio/x-wav
 
 lines:
@@ -16,8 +17,8 @@ lines:
   - startTime: 5943
     endTime: 10469
     lushootseed: tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ.
-    morphemes: [tiʔəʔ,swatixʷtəd,gʷəl,tu=?as-bəsad,ʔal,kʷi,tu-haʔkʷ]
-    morphemeGloss: [PROX,land,SCONJ,PAST=STAT–dark,at,REM,PAST=long.time]
+    morphemes: [tiʔəʔ,swatixʷtəd,gʷəl,tu=?as-bəsad,∅,ʔal,kʷi,tu-haʔkʷ]
+    morphemeGloss: [PROX,land,SCONJ,PAST=STAT–dark,3SUB,at,REM,PAST=long.time]
     english: The land, it was dark in the distant past.
 
   - startTime: 12407
@@ -292,7 +293,7 @@ lines:
   - startTime: 158828
     endTime: 164178
     lushootseed: tucutəxʷ tiʔəʔ diʔəʔ ... tiʔəʔ  bibščəb ʔəca kʷi ɬuhədʔiw̓b
-    soundsLike: too.tsoot.uff tiah dya,  tiah babes.chub TSA kwee sluh.dabe
+    soundsLike: too.tsoot.uff tiah dya,  tiah babes.chub TSA kwee sluh.huh.dabe
     morphemes: [tu=cut=axʷ,tiʔəʔ,diʔəʔ,tiʔəʔ,bəščəb,ʔəca,kʷi,ɬu=hədʔiw̓–b]
     morphemeGloss: [PAST=say=now,PROX,here,PROX,attn–mink,I,REM,IRR=indoors–PASS]
     english: Little Mink said,  I am the one who will enter the building.
@@ -317,7 +318,7 @@ lines:
   - startTime: 173888
     endTime: 178872
     lushootseed: ɬuləʔux̌ʷ čəd dxʷʔal kʷi siʔab ʔabsləx̌il dəxʷʔaʔ kʷi ɬudsʔaʔ
-    soundsLike: luhOAK chud dwal kwi seeAB abs.slexil - (duff)HWAH kwi sloods.ah
+    soundsLike: luhOAK chud dwal kwi seeAWB awbs.sluh.kail - DWAH kwi sloodz.AH
     morphemes: [ɬu=lə=ʔux̌ʷ,čəd,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il,dəxʷ=ʔaʔ,kʷi,ɬu=d=s=ʔaʔ]
     morphemeGloss: [IRR=PROG=go,1SG.SUB,CNTRPT–at,REM,noble,STAT–PROP–daylight,ADNM=be.there,REM,IRR=1SG.PO=NM=be.there]
     english: I will go to the nobleman who has the daylight. There is where I will be.
@@ -325,7 +326,7 @@ lines:
   - startTime: 180422
     endTime: 183942
     lushootseed: cuuc tiʔəʔ qaw̓qs ɬuʔal tiʔəʔ diʔəʔ kʷi ɬudsʔacəc
-    soundsLike: tsOATS tee.uh coaks los tee.AH dyuh kwi slewdz.AWDS.utz
+    soundsLike: tsOATS tee.uh coaks, los tee.AH dyuh kwi sloodz.AWDS.utz
     morphemes: [cut–c,tiʔəʔ,qaw̓qs,ɬu=ʔal,tiʔəʔ,diʔəʔ,kʷi,ɬu=d=s=ʔacəc]
     morphemeGloss: [say–altv,PROX,raven,IRR=at,PROX,here,REM,IRR=1SG.PO=NM=be.in.place]
     english: Raven says to him, I will be at this place here.
@@ -334,7 +335,7 @@ lines:
   - startTime: 184350
     endTime: 187135
     lushootseed: ɬasʔaciɬ čəd dxʷʔal kʷi ɬadsʔəƛ̓txʷ
-    soundsLike: las.AH.cheeɬ chud dwal kwi SLAWDS.oatxʷ
+    soundsLike: las.AHTZ.eethl chud dwal kwi SLAWDS.oatxʷ
     morphemes: [ɬu=ʔas–ʔaciɬ,čəd,dxʷ–ʔal,kʷi,ɬu=ad=s=ʔəƛ̓–txʷ]
     morphemeGloss: [IRR=STAT–pause,1SG.SUB,CNTRPT–at,REM,IRR=2SG.PO=NM=come–ECS]
     english: I will wait for you to bring it.
@@ -358,7 +359,7 @@ lines:
   - startTime: 198016
     endTime: 204603
     lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
-    soundsLike: too tuh.law.wheel.uff tee.uh TOFE.hwuf tee.ub BABES.chub gwel tooth.chail dwal tee.ah dyuh see.abs (b)sluh.kail
+    soundsLike: too tuh.law.wheel.uff tiah TOFE.hwuf tee.ub BABES.chub gwel tooth.chail dwal tee.ah dyuh see.awBB sluh.kail
     morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
     morphemeGloss: [PAST=run=now,PROX,PAST=go=now,PROX,ATTN–mink,SCONJ,PAST=arrive,CNTRPT–at,PROX,here,noble,STAT–PROP–daylight]
     english: (Little Mink) ran. Little Mink went and he came to the nobleman who had daylight. 
@@ -375,7 +376,7 @@ lines:
   - startTime: 211055
     endTime: 216136
     lushootseed: tušudub ʔə tiʔəʔ ʔaciɬtabixʷ. ʔuˑ dč̓aʔkʷbixʷ ʔaciɬtalbixʷ tiʔəʔ ʔuɬčil.
-    soundsLike: too show dub.uh tee.ah aci tal bee kode socks ah bee.kʷ ah.see tif node.chail
+    soundsLike: too show dub.uh tee.ah aci.tal.bee kuh.ode socks.uh.bee.kwatz.see tif node.chail
     morphemes: [tu-šuɬ–dxʷ–b,ʔə,tiʔəʔ,ʔaciɬtabixʷ,ʔu,dč̓aʔkʷbixʷ,ʔaciɬtalbixʷ,tiʔəʔ,ʔu–ɬčil]
     morphemeGloss: [past-see–DC–PASS,Pr,PROX,people,intj,different.tribe,people,PROX,pfv–arrive]
     english: He is seen by these people. “Oh, a person of a different tribe has arrived.” 
@@ -387,7 +388,7 @@ lines:
     soundsLike: tu soot.uff babes.chub, oh soo.shuh.BAWBS chud
     morphemes: [ʔu,cut=axʷ,bi–bəščəb,ʔu,sʔušəbabdxʷ,čəd]
     morphemeGloss: [intj,say=now,attn–mink,intj,poor.guy,1SG.SUB]
-    english: Little Mink says. “Oh, I am poor.
+    english: Little Mink says. “Oh, I am poor."
 
 
   - startTime: 220271

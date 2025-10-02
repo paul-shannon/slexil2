@@ -1,6 +1,222 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ƛ̓u=bə=lə=bəsad":
+`
+<h5>ƛ̓u=bə=lə=bəsad</h5>
+
+habitually [also, too] dynamically grow dark 
+
+<h6>besad </h6>
+- grow dark [LD 39]
+- (evening)
+- see ɬax̌: night, dark, darkness (apparently a noun) [LD 143]
+     - ɬax̌il: become dark
+     - sɬax̌il: night
+`,
+
+
+"xʷiʔ kʷi stab, kʷi gʷəstabəxʷ gʷubəq̓əd čəd gʷəsuʔəɬəds":
+
+`
+<h5>xʷiʔ kʷi stab, kʷi gʷəstabəxʷ gʷubəq̓əd čəd gʷəsuʔəɬəds</h5>
+
+- _xʷiʔ kʷi stab_: not any stuff
+- _kʷi gʷəstabəxʷ_: no stuff now
+- _gʷubəq̓əd čəd_: could be.in.mouth me
+- _gʷəsuʔəɬəds_: could eat
+
+`,
+
+
+"stab":
+
+`
+<h5>stab</h5>
+
+- see _tab(a)_ [LD 204]
+
+<h5>tab(a)</h5>
+
+ - [LD 215]
+ - thing, what
+ - what (thing?), what way?, what means?
+ - thing(s)
+ - _stabigʷs_:  posessions, prized posessions
+ - _tabtxʷ_:  fix something
+ - this stem often functions as a kind of pro-verb
+   substituting for a previously mentioned verb or verb
+   phrase to avoid repetition, similar to how a pronoun replaces a noun
+
+`,
+
+"dč̓aʔkʷbixʷ":
+
+`
+<h5>dč̓aʔkʷbixʷ</h5>
+
+- _dč̓aʔkʷbixʷ_: foreigner, from a different tribe, others
+- _ʔítakʷbixʷ_: Suquamish 
+- _ləlíʔaʔkʷbixʷ_: a different class, breed, type; foreigners
+- _bək̓ʷaʔkʷbixʷ_: all nations, everyone 
+- _sdáʔdaʔaʔkʷbixʷ_: a name for the tribes 
+- _sáʔkʷbìxʷ_: Sauk 
+`,
+
+
+"sʔušəbabdxʷ":
+`
+<h5>sʔušəbabdxʷ</h5>
+
+pitiful, poor, unfortunate (one)
+
+- _ušəb_: pity, feel compassion, kindness [LD 22]
+- _ušəbid_: pity someone
+- _sʔušəbabdxʷ_:  poor dear, poor fellow
+    - _s_: nominalizer
+    - _ab_: creates transitive version of the stem
+    - _b_ in construction with _dxʷ_ creates a desiderative stem (relevant?) [LD 32]
+`,
+
+"tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ.":
+`
+**tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ**
+
+David Beck, email, sep 2025:
+
+This sentence is one of the few constructions where the predicate isn’t initial.
+
+You have a noun at the beginning of a sentence separated from the rest
+by some kind of break (either prosodic or a particle or word like
+gʷəl) is considered a “topicalization” or a “prolepsis” and the noun
+is sort of “outside" the clause.
+
+This is because in many languages you
+can have things in that position that are objects (e.g., “Beans, I
+really like”) or not even part of the sentence (Japanese has sentences
+like “Circuses, I like the elephants”).
+
+In the Harry Moses sentence, the noun at the beginning has the same
+reference as the subject of the sentence, which would be “it” (a zero
+third-person clitic) as in the English translation. A more complete
+interlinearization would have put Ø ‘3sub’ following tuʔasbəsad.
+
+You could conceptualize it like this:
+
+ - Basic Lushootseed clause:  [Predicate Subject (Object)]
+ - Topicalization/Prolepsis:  [Noun gʷəl [Predicate Subject (Object)]]
+
+If the noun has the same reference as Subject or Object, you replace
+it with a pronoun.
+
+So, anyway, back to the sentence itself, if _swatixʷtəd_ were the
+sentence predicate, then the sentence would have looked like this
+
+   _swatixʷtəd tiʔəʔ tasbəsad ʔal tuhaʔkʷ_
+
+and the translation would have been ‘what was dark in the past was the
+land’ or (less correct but more English-sounding) ‘it was the land
+that was dark in the past'. Nominal predicates almost never have a
+determiner in front of them, and they are always followed by a
+determiner introducing the rest of the clause (which usually begins
+with a verb).
+
+
+`,
+
+"tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il":
+
+`
+<h6>tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il'</h6>
+
+This is a complex, multi-clause structure that demonstrates many of
+the principles we've discussed.
+
+It is  a series of predicates and topics linked by a conjunction. Its structure is:
+
+[Predicate 1]
+[Topic 1]
+[Predicate 2] [Topic 2] [Conjunction] [Predicate 3] [Locative Phrase].
+
+pshannon:  My guess is that the start of the line is idiosyncratic, normal
+in speech, with Harry Moses saying, perhaps revising on the fly, or adding
+some nuance:
+
+   "ran this ... went this mink"
+
+Mink, in the next line, pretends to be old, with gray hair, using a cane.
+If he is seen running, this act would be not be believed.
+
+Structural Breakdown
+Predicate 1: tutəlawiləxʷ
+
+This is the first predicate, a verbal phrase meaning "ran." The tu=
+marks the past tense, and -ləxʷ indicates the action happened "now" in
+a narrative past.
+
+Topic 1: tiʔəʔ
+
+The first topic is the pronoun-like determiner tiʔəʔ, which refers to
+a character already known in the story (Little Mink). This pronoun is
+the subject of the first predicate.
+
+Predicate 2: tuʔux̌ʷəxʷ
+
+This is the second predicate, a verbal phrase meaning "went." It
+continues the action of the topic established earlier.
+
+Topic 2: tiʔəʔ bibščəb
+
+This is the second topic, a noun phrase meaning "Little Mink." It is
+the subject of the second predicate, further clarifying the identity
+of the person who went.
+
+Conjunction: gʷəl
+
+This is a subordinating conjunction, similar to "and," that links the
+actions of going and arriving.
+
+Predicate 3: tuɬčil
+
+This is the third predicate, a verbal phrase meaning "he came" or
+"arrived."
+
+Locative Phrase: dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
+
+This is a complex locative phrase that acts as the complement to the
+third predicate, specifying the destination.
+
+dxʷʔal: A compound preposition meaning "to/at." The dxʷ= indicates
+movement towards something.
+
+tiʔəʔ diʔəʔ siʔab: A noun phrase meaning "the nobleman here."
+
+ʔabsləx̌il: A noun or predicate that modifies the nobleman, describing
+him as having "daylight." The ʔas= is a stative marker, and sləx̌il is
+a form of the word for "daylight."
+
+Summary
+
+The sentence structure of this line is a series of linked,
+predicate-initial clauses. It tells a story by stringing together
+actions (ran, went, arrived) and identifying the participants and
+destinations as it goes. This is a common and effective way of
+building narrative in Lushootseed.
+
+`,
+
+"dəxʷ=ʔaʔ":
+`
+<h5>dəxʷ=ʔaʔ</h5>
+
+ADNM=be.there
+
+- ADNM: nominalize adjunct and circumstantial expressions
+- ʔaʔ: a verb "be/being there"
+- combined meaning, noun of place:  "there"
+
+`,
+
 "tu=ɬəgʷɬ":
 `
 **tu=ɬəgʷɬ**
@@ -1452,7 +1668,7 @@ LD xiii: Lushootseed ___i___ can be pronounced like the vowels in _beet_ or _bai
 `,
 
 
-"tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il":
+"tutəlawiləxʷ":
 `
 ___tuʔux̌ʷəxʷ___:
 
