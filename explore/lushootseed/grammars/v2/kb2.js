@@ -248,7 +248,7 @@ coffee or tea.
 `,
 
 //----------------------- 
-// section 28.3, line 6
+// section 28.3, line 7
 //-----------------------
 
 "čəda tuk̓ʷəɬdxʷ.":
@@ -260,10 +260,14 @@ coffee or tea.
 
 <ul>
    <li> <b>čəda</b>: and I [LD 62]
-   <li> <b>tuk̓ʷəɬdxʷ</b>
+        <ul>
+            <li><b>čəd</b>: I [LD 62]
+            <li><b>-a</b> and.  added only to <b>čəxʷ, čəx̌b, čəɬ, čələp</b> [LD 24]
+        </u>
+   <li> <b>tuk̓ʷəɬdxʷ</b> spilled it
    <ul>
       <li><b>tu-</b>: past [LD 228]
-      <li><b>k̓ʷəɬ</b>: spill [LD 129]
+      <li><b>k̓ʷəɬ</b>: spill, pour [LD 129]
       <li><b>-dxʷ</b> diminished control.  [LD 86]
     </ul>
 </ul>
@@ -271,6 +275,41 @@ coffee or tea.
 </details>
 
 `,
+//----------------------- 
+// section 28.4, line 8
+//-----------------------
+"hiwil, čəxʷa k̓ʷəɬəd tiʔəʔ ʔəsƛ̓ux̌ʷil kupi.":
+`
+<b>hiwil, čəxʷa k̓ʷəɬəd tiʔəʔ ʔəsƛ̓ux̌ʷil kupi.</b>
+
+<details><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li> <b>hiw-il</b>: go ahead, proceed; go away, go on; in front [LD 110]
+   <li> <b>čəxʷa</b>: and you [LD 62]
+        <ul>
+            <li><b>čəxʷ</b>: you (singular) [LD 62]
+            <li><b>-a</b> and.  added only to <b>čəd, čəx̌ʷ, čəɬ, čələp</b> [LD 24]
+        </ul>
+   <li><b>k̓ʷəɬəd</b>
+      <ul>
+         <li><b>k̓ʷəɬ</b>: spill, pour [LD 129]
+         <li><b>-ed</b>: action performed on someone or something else [LD 93,76]
+      </ul>
+   <li> <b>tiʔəʔ</b>: this [LD 224]
+   <li> <b>ʔəsƛ̓ux̌ʷil</b>
+        <ul>
+            <li><b>ʔəs</b>: stative [LD 13]
+            <li><b>ƛ̓ux̌ʷil</b>: cold object [LD 156]
+         </ul>
+   <li> <b>kupi</b>: coffee (from English "coffee") [LD 119]
+</ul>
+
+</details>
+
+`,
+
+
 
 
 
