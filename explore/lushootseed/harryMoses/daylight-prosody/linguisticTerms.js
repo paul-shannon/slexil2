@@ -1,5 +1,18 @@
 linguistics = {
 
+"dxʷ-":
+
+`
+<h5>dxʷ-</h5>
+
+- permeate, throughout, filled with, covered with [LD 85]
+- derivational prefix which marks stemas as serving to contain, to hold within
+- a secondary meaning: a proclivity, what one has "inside"
+- a number of stems carrying this prefix refer to matters of the mind, the <b>x̌əč<b>
+
+`,
+
+
 "ADD":
 `
 <h5>ADD: additive clitic, bə=</h5>
@@ -1635,18 +1648,18 @@ syntactic subject:
 
 <pre>
 
-      39) a. ʔut’uc’ čəd
-             ʔu–t’uc’   čəd
+      39) a. ʔut̓uc̓ čəd
+             ʔu–t̓uc̓   čəd
               PFV–shot  1SG.SUB
              ‘I got shot’     (Bates, Hess & Hilbert 1994)
 
-          b. ʔut’uc’ucid ʔu
-             ʔu–t’uc’u–t–sid         ʔu
+          b. ʔut̓uc̓ucid ʔu
+             ʔu–t̓uc̓u–t–sid         ʔu
              PFV–shot–ICS–2SG.OBJ   INT
              ‘did s/he shoot (at) you?’   (Hess 1995: 43, ex. 11a)
 
-          c. ʔut’uc’utəb čəd
-             ʔu–t’uc’u–t–əb         čəd
+          c. ʔut̓uc̓utəb čəd
+             ʔu–t̓uc̓u–t–əb         čəd
              PFV–shot–ICS–PASS  1SG.SUB
              ‘I was shot (at)’  (Bates, Hess & Hilbert 1994)
 
@@ -2980,7 +2993,38 @@ her grammer quiz._
 - therefore
 - thus
 `,
-	 
+
+"COORD":
+`
+**COORD: coordinative**
+
+The coordinate subject marker <b>-a</b>, is used in the second (and
+subsequent) clauses of coordinate structures, as in
+
+<i> ƛ’ub čəɬ ʔuhudčup čɬa ʔukʷukʷcut</i><br>
+<br>ƛ’ub &nbsp; čəɬ &nbsp; ʔu–hud•čup &nbsp; čɬa &nbsp; ʔu–kʷukʷcut
+<br>well &nbsp; 1PL.SUB &nbsp; PFV–wood•fire &nbsp; 1PL.COORD &nbsp; PFV–cook
+<br>‘we should make a fire and cook’
+
+<br>
+Unlike the matrix subject-markers, the coordinate markers appear in
+front of their predicate, on the left edge of the clause.
+
+As noted by
+Hess (1993: 146), this may indicate that the previous coordinate in
+the sentence in some sense “counts” as an element of the following
+clause, thereby requiring that the person-marker appear in its
+expected second position, although this is a somewhat novel situation
+in that it implies that the rightmost — rather than the leftmost —
+constituent is the head of the coordinate construction, in some sense
+“containing” the preceding clauses.
+
+David Beck's draft grammar, page 406.
+
+
+
+`,
+
 "Coordinating Conjunction":
 `
 #####Coordinating Conjunction

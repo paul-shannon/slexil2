@@ -1,6 +1,136 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"čəda":
+
+`
+<h5>čəda</h5>
+
+- <b>čəd</b> me, I
+- <b>a</b> coordinating subject marker
+
+This "I" links back to the "I" of the previous line, and is thus coordinative.
+
+`,
+
+"ɬu=d=s=ʔas–ɬaq̓":
+
+`
+<b>ɬu=d=s=ʔas–ɬaq̓</b>
+
+irr=1sg.po=nm=stat–lie.down
+
+- <b>ɬu=</b> anticipated, expected or possible event. irrealis proclitic [LD 147]
+      - irrealis moods indicates that a certain situation is not known to have happened
+      - one such mood, the subjunctive, expresses states of unreality, such as wish,
+        emotion, possibility, judgment, opinion, obligation, or action that has not yet occurred.
+      - compare <b>gʷ-</b> if, maybe, might (subjunctive prefix expressing doubt) [LD 95]
+      - Salish irrealis expresses a wider range of meanings than the English subjunctive, including
+        future tense and polite requests
+- <b>d=</b> my, I, me. 1p.sg. possessive prefix.  [LD 76]
+- <b>s=</b>  nominalizing prefix, obligatory in many nominal stems, productively added to some
+  verbs to create nouns.  [LD 199]
+- <b>ʔas-</b> stative
+- <b>ɬaq̓</b> fall (from standing position, not from a great height), lie,  lay. Skagit. [LD 142]
+    - <b>ʔuɬaq̓ čəɬ</b> we fell down
+    - <b>ʔuɬaq̓ tiʔiɬ</b> he fell down
+    - <b>gʷad(d)əxʷəsɬaq̓</b> where you could lie down
+    - <b>ɬaq̓ad</b> lay something down
+
+`,
+
+
+"lə=ʔəƛ̓":
+`
+<b>lə=ʔəƛ̓</b>
+
+- <b>lə </b>: progressive
+- <b>ʔəƛ̓</b>: come [LD 12]
+- contrast <b>ʔuxʷ</b> go, <b>ɬəgʷɬ</b> leave it
+- <b>ʔəƛ̓-c</b>: come after someone or something; come for a specific purpose
+- <b>ʔəƛ̓-txʷ</b>: cause to come, bring someone or something
+`,
+
+"lə=gʷəč̓–alikʷ":
+`
+<b>lə=gʷəč̓–alikʷ</b>
+
+- PROG=search–ACT
+- <b>lə </b>: progressive
+- <b>gʷəč̓</b>: look for, search [LD 98]
+- <b>alikʷ</b>: creative activity [LD 28]
+     - lexical suffix forming agent-oriented stems  with iterative meaning
+     - ACT: activity
+- <b>gʷəč̓–alikʷ<b>: someone regularly seeks someone or something [LD 98]     
+     
+
+`,
+
+
+"gʷə=ʔu–bəq̓–t":
+
+`
+<h5>gʷə=ʔu–bəq̓–t</h5>
+
+- <b>bəq̓</b>: put in mouth, hold in mouth  [LD 38]
+- <b>bəq̓əd</b>: put something in one's mouth, swallow something
+- see <b>ʔəɬ-</b> as in <b>ʔəɬəd</b>: eat [LD 11]
+- compare <b>bəqsəd</b>: nose [LD 11]
+- <b>bəq̓dxʷ</b>: tasted (metaphorical)
+- <b>bəq̓bid</b>: surfeit, satiate
+- <b>dxʷbəq̓ʷucid</b>: kiss (Skagit)
+
+`,
+
+
+"ʔu–ɬčil":
+
+`
+<h5>ʔu–ɬčil</h5>
+- <b>ʔu</b>:  perfective, action viewed as a whole
+- <b>ɬč-il</b>: arrive, get there.  [LD 143]
+     - <b>ɬč</b>: no reports of this morpheme unaccompanied
+     - <b>-il</b> reach or achieve a state or position [LD 116]
+- <b>ɬiɬčil</b>: <i>red1</i> will arrive occasionally, Martha Lamont 7.892
+- <b>ʔuɬčiltxʷ</b>: He brought it.
+- <b>ʔuɬčiltxʷ tiʔiɬ</>: That was brought.
+
+`,
+
+"gʷə=ƛ̓u=ʔas–huyu–t–s":
+
+`
+<h5>gʷə=ƛ̓u=ʔas–huyu–t–s</h5>
+
+<h6>sbj=hab=stat–made–ics–1sg.obj</h6>
+
+roughly: habitually making me
+`,
+
+
+"d=dəxʷ=ʔaʔ":
+`
+<h5>cəxʷʔaʔ &nbsp; (d=dəxʷ=ʔaʔ)</h5>
+
+- 1sg.po=adnm=be.there
+- roughly: my place, where I am
+- <b>cəxʷ</b>: that is (how|when|where) I  [LD 45]
+- composed of prefixes <b>d-dəxʷ-</b>
+    - <b>d-</b>: my, I, me [first person singular possessive prefix]
+      Forms a set with suffixes <b>-lap</b> <b>-s</b>, the prefix <b>ad-</b> and
+      the predicate particle<b>čəɬ</b>.  This set signals possession, and
+      in subordinate clauses can express agent and patient like main clause
+      person-marking predicate particles (cf <b>čəd</b>.  [LD 76]
+    - <b>dəxʷ</b>: reason for, place where [inflectional prefix marking
+      a subordinated predicate in conjunction with a fronted adjunct]. [LD 81]
+- <b>ʔaʔ</b>:
+    - see <b>ʔa</b>  [LD 1]
+    - be there, be in existence
+    - next, then [sentential conjunction]
+    - have, own
+
+`,
+
 "ƛ̓u=bə=lə=bəsad":
 `
 <h5>ƛ̓u=bə=lə=bəsad</h5>
@@ -25,6 +155,27 @@ habitually [also, too] dynamically grow dark
 - _kʷi gʷəstabəxʷ_: no stuff now
 - _gʷubəq̓əd čəd_: could be.in.mouth me
 - _gʷəsuʔəɬəds_: could eat
+
+**stab**
+
+<a href="https://www.sfu.ca/nwjl/Articles/V007_N03/DaskalakiAndBeckLushootseedStab.pdf"
+   target="_blank"> The Multi-functionality of the Indefinite/Interrogative stab in Lushootseed, 
+     Evangelia Daskalaki, David Beck</a>
+
+
+This paper examines the textual distribution of the Lushootseed stab
+"something/what?", which functions both as an indefinite and an interrogative.
+That the same set of words can be used for both these functions holds in various
+genetically-unrelated languages, which raises the question of whether this is due
+to homonymy or monosemy/underspecification (see Bhat 2000, 2004;
+Haspelmath 1997, 2011).
+
+Our research on stab indicates that its various
+functions, rather than being part of its inherent semantics, are contextually
+derived. Specifically, it seems that stab is semantically equivalent to the
+ontological category ‘thing’ and its interrogative and various indefinite
+interpretations are added to this common semantic core by a range of contextual
+devices.
 
 `,
 
@@ -4957,10 +5108,12 @@ _upriver country_
 
 "ʔaʔ":
 `
-be there, be in existence, exist.in.a.place
+<b>ʔaʔ</b>
+
+be there, be in existence, exist.in.a.place [LD 1]
 `, 
 
-   "dəgʷi":
+"dəgʷi":
 `
 - you (singular) are, you are the one who [emphatic 2nd person singular pronoun]
 - LD 79

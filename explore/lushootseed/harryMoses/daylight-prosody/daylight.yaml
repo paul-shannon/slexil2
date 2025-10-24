@@ -359,7 +359,7 @@ lines:
   - startTime: 198016
     endTime: 204603
     lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
-    soundsLike: too tuh.law.wheel.uff tiah TOFE.hwuf tee.ub BABES.chub gwel tooth.chail dwal tee.ah dyuh see.awBB sluh.kail
+    soundsLike: too tuh.law.wheel.uff tiah TOFE.hwuf tee.ub BABES.chub gwel tooth.chail dwal tee.ah dyuh see.awb bsluh.kail
     morphemes: [tu=təlawil=axʷ,tiʔəʔ,tu=ʔux̌ʷ=axʷ,tiʔəʔ,bi–bəščəb,gʷəl,tu=ɬčil,dxʷ–ʔal,tiʔəʔ,diʔəʔ,siʔab,ʔas–bəs–sləx̌il]
     morphemeGloss: [PAST=run=now,PROX,PAST=go=now,PROX,ATTN–mink,SCONJ,PAST=arrive,CNTRPT–at,PROX,here,noble,STAT–PROP–daylight]
     english: (Little Mink) ran. Little Mink went and he came to the nobleman who had daylight. 
@@ -372,6 +372,14 @@ lines:
     morphemes: [lə=luƛ̓,ʔəs–qʷəlub•us,ləs–ck̓usəd]
     morphemeGloss: [PROG=old,STAT–grey.hair•head,PROG.STAT–use.walking.stick]
     english: He was old with grey hair and used a cane
+
+  - html: "<div style='margin: 30px; margin-left: 200px;'>
+           <hr style="width: 400px;">
+           Mink: first contact
+           <button style="margin-left: 50px" onclick="myBox('firstContact')">V</button>
+           <hr style="width: 400px;">
+           </div>"
+
 
   - startTime: 211055
     endTime: 216136
@@ -393,36 +401,36 @@ lines:
 
   - startTime: 220271
     endTime: 225199
-    lushootseed: xʷiʔ kʷi stab, kʷi gʷəstabəxʷ gʷubəq̓əd čəd gʷəsuʔəɬəds
+    lushootseed: xʷiʔ kʷi stab, kʷi gʷəstabəxʷ gʷəsubəq̓əd čəd gʷəsuʔəɬəds
     soundsLike: we kwee stawb, kwuh gwuh.stawb.uff gwuh.soo.buck.sud chud gwuh.soo.us.uds
-    morphemes: [xʷiʔ,kʷi,stab,kʷi,gʷə=stab=axʷ,gʷə=ʔu–bəq̓–t,čəd,gʷə=s=ʔu–ʔəɬəd=s]
-    morphemeGloss: [neg,REM,what,REM,SBJ=what=now,SBJ=pfv–have.in.mouth–ICS,1SG.SUB,SBJ=NM=pfv–feed.on=3PO]
+    morphemes: [xʷiʔ,kʷi,stab,kʷi,gʷə=stab=axʷ,gʷə=s=ʔu–bəq̓–t,čəd,gʷə=s=ʔu–ʔəɬəd=s]
+    morphemeGloss: [neg,REM,what,REM,SBJ=what=now,SBJ=NM=pfv–have.in.mouth–ICS,1SG.SUB,SBJ=NM=pfv–feed.on=3PO]
     english: “I have nothing, nothing to put in my mouth to eat.
 
 
   - startTime: 225680
     endTime: 229284
     lushootseed: xʷiʔəxʷ kʷi gʷatəxʷ ʔal cəxʷʔaʔ gʷəƛ̓ashuyuc haʔɬ
-    soundsLike: wah kwee gwah.tuff wut chuff.ah gwuht bah tloe.dus hawss
+    soundsLike: wah kwee gwah.tuff uf chuff.AH gwuh.tlahs.HOYoot t'hawɬ
     morphemes: [xʷiʔ=axʷ,kʷi,gʷat=axʷ,ʔal,d=dəxʷ=ʔaʔ,gʷə=ƛ̓u=ʔas–huyu–t–s,haʔɬ]
     morphemeGloss: [neg=now,REM,who=now,at,1SG.PO=ADNM=be.there,SBJ=HAB=STAT–made–ICS–1SG.obj,good]
-    english: “There is no one where I am who treats me well..."
+    english: “There is no one where I am who treats me well."
 
   - startTime: 229484
     endTime: 235296
-    lushootseed: čəda ləʔəƛ̓ ləgʷəč̓alikʷ dxʷʔal kʷi siʔab ʔabsləx̌il ʔaʔ kʷi ɬudsəsɬaq̓
-    soundsLike: tə.know.luff luff.sawlie dwhuff kwee kwoal.see see.ab obs.sluh.kail ah kwee sloods.slock
-    morphemes: [ʔaʔ,kʷi,ɬu=d=s=ʔəs–ɬaq̓]
-    morphemeGloss: [be.there,REM,IRR=1SG.PO=NM=STAT–fallen]
-    english: so I am coming, looking for the nobleman who possesses daylight. There I will lie down.
+    lushootseed: ləʔəƛ̓ ləgʷəč̓alikʷ dxʷʔal kʷi siʔab ʔabsləx̌il ʔaʔ kʷi ɬudsəsɬaq̓
+    soundsLike: tluh-utt lugʷ.chaleek dwhuff kwee kwoal.see see.ab awbs.sluh.kail ah kwee sloods.zock
+    morphemes: [lə=ʔəƛ̓,lə=gʷəč̓–alikʷ,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il,ʔaʔ,kʷi,ɬu=d=s=ʔas–ɬaq̓]
+    morphemeGloss: [prog=come,prog=search–act,cntrpt–at,rem,noble,stat–prop–daylight,be.there,REM,IRR=1SG.PO=NM=STAT–fallen]
+    english:  I am coming, looking for the nobleman who possesses daylight. There I will lie down.
 
   - startTime: 235833
     endTime:   240433
-    lushootseed:  gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
-    soundsLike: duss.doak. gwus SOCK kwee gwuhs.duss.hoy
-    morphemes: [gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
-    morphemeGloss: [SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
-    english: “(There I will lie down) and I will be treated well.”
+    lushootseed:  čəda ʔux̌ʷ. gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
+    soundsLike: chuh.dah doak. gwus HASS kwee gwuss.duss.hoy
+    morphemes: [čəda,ʔux̌ʷ,gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
+    morphemeGloss: [1SG.coord,go,SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
+    english: I will go.  And I will be treated well.
 
   - html: "<div style='margin: 30px; margin-left: 200px;'>
            <hr style="width: 400px;">
