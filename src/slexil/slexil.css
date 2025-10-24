@@ -22,7 +22,9 @@ td, th {
   }
 
 .lessonTitle{
-    background-color: #FCF5E5;
+   //background-color: #FCF5E5;
+   background-color: #F1F6EF;
+
     border: 1px gray solid;
     border-radius: 5px;
     padding: 10px;
@@ -36,7 +38,7 @@ td, th {
     font-size: 24px;
     padding: 10px;
     width: 800px;
-    background-color: #FCF5E5;
+    background-color: #F1F6EF;
     border: 1px gray solid;
     border-radius: 5px;
     }
@@ -57,6 +59,10 @@ td, th {
    border-radius: 10px;
    width: 70%;
    }
+#verbStudyPopup{
+   background-color: #EEE;
+   }
+
 #aboutBoxDialog::backdrop {
    animation: aboutBoxDialogBackgroundFade 1s ease forwards;
    }
@@ -213,6 +219,7 @@ td, th {
    }
 
 
+
 #textAndAnnoDiv{
    display: flex;
    }
@@ -238,6 +245,7 @@ td, th {
    display: inline-block;
    flex: 2;
 	padding: 10px;
+   padding-left: 20px;
    border: 1px solid black;
    border-radius: 5px;
 	display: none;
@@ -571,3 +579,65 @@ sub {
    top: -10px;
    right: 2px;
    }
+
+.details-body{
+   width: fit-content;
+   margin-top: 10px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 10px;
+   }
+
+details{
+   margin-top: 10px;
+   margin-bottom: 40px;
+   margin-left: 10px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: #F1F6EF;
+  }
+
+details>summary {
+  list-style-type: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+details>summary::-webkit-details-marker {
+  display: none;
+}
+
+details>summary::before {
+  content: '+';
+  font-family: 'Menlo', 'Lucida Console', 'Monaco', 'Consolas', monospace;
+  background-color: lightgray;
+  width: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+details[open]>summary::before {
+  content: '-';
+  font-family: 'Menlo', 'Lucida Console', 'Monaco', 'Consolas', monospace;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  width: 50px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+details[open]>summary {
+  margin-bottom: 0.5rem;
+  //padding-left: 30px;
+  //background-color: lightgray;
+

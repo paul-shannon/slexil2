@@ -365,6 +365,8 @@ class SFMT:
       self.identifyAnalysisTiers()
       self.identifyGenericTierNames()
       self.buildTierNameMap()
+      # print("------ tierNameMap just created:")
+      # print(self.tierNameMap)
 
    #------------------------------------------------------------
    # in full IJAL mode, there will be two tiers containing, not
@@ -486,7 +488,6 @@ class SFMT:
 
       analysisTierCount = 0
       genericTierCount = 0
-
 
       for tier in tierNames[1:]:
          if tier in atn:

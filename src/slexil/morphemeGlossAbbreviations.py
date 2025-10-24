@@ -14,6 +14,7 @@ class MorphemeGlossAbbreviations:
      self.beckAndHess = {"1PO": "1st person possessive",
                          "2PO": "2nd person possessive",
                          "3PO": "third person possessive",
+                         "3SUB": "third person subject",
                          "ADD": "additive",
                          "ADNM": "adjunctive nominalizer",
                          "ALTV": "allative applicative",
