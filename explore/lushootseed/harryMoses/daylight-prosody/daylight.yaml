@@ -375,7 +375,7 @@ lines:
 
   - html: "<div style='margin: 30px; margin-left: 200px;'>
            <hr style="width: 400px;">
-           Mink: first contact
+           Mink arrives, states his plight
            <button style="margin-left: 50px" onclick="myBox('firstContact')">V</button>
            <hr style="width: 400px;">
            </div>"
@@ -427,7 +427,7 @@ lines:
   - startTime: 235833
     endTime:   240433
     lushootseed:  čəda ʔux̌ʷ. gʷəl ɬuhaʔɬ kʷi gʷədsəshuy
-    soundsLike: chuh.dah doak. gwus HASS kwee gwuss.duss.hoy
+    soundsLike: chuh.daws.doak. gwuss sl'HASS kwee gwuss.duss.hoy
     morphemes: [čəda,ʔux̌ʷ,gʷəl,ɬu=haʔɬ,kʷi,gʷə=d=s=ʔəs–huy]
     morphemeGloss: [1SG.coord,go,SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
     english: I will go.  And I will be treated well.
@@ -650,7 +650,7 @@ lines:
   - startTime: 332257
     endTime: 336189
     lushootseed: diɬ tuspəkʷibids tiʔəʔ sləx̌il gʷəl tusaxʷəbtxʷ
-    soundsLike: 
+    soundsLike: deeɬ shook.kwuh.HAYbuds  tee.ah slail gwell too.sawf.wub
     morphemes: [diɬ,tu=s=pəkʷib–bi–d=s,tiʔəʔ,sləx̌il,gʷəl,tu=saxʷəb–txʷ]
     morphemeGloss: [loc,past=NM=snatch–MAP–ICS=3PO,PROX,daylight,SCONJ,past=jump–ECS]
     english: He snatched the daylight and ran off with it.

@@ -1,6 +1,77 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"gʷə=d=s=ʔəs–huy":
+
+`
+**gʷə=d=s=ʔəs–huy**
+
+<i>my (hoped for) treatment</i>
+
+- <b>gʷə=</b> doubtful, conjectured, hoped for; if, maybe, might [LD 98&rarr;95]
+- <b>d=</b> my, I, me  [LD 76] See <b>PO</b> (possessive) in the Linguistics menu.
+- <b>s=</b> nominalizer [LD 199]
+- <b>ʔəs-</b> condition or state exists  [LD 13]
+- <b>huy(u)</b>  do, make, prepare something, get ready, prepare for. [LD 112]
+
+
+`,
+
+
+"ɬu=haʔɬ":
+`
+**ɬu=haʔɬ**
+
+- <b>ɬu=</b> anticipated, expected or possible event; future [LD 147]
+- <b>haʔɬ</b> good; nice, pretty; be nice, be beautiful, be pretty.  [LD 104]
+`,
+
+
+"diɬ":
+`
+**diɬ**
+
+- the one who, the thing that, that which, the aformetnioned [LD 83]
+- pronoun, often used as a one-word predicate followed by a subordinate clause
+- David Beck devotes a paper to this word
+
+
+`,
+
+
+"tu=saxʷəb–txʷ":
+`
+**tusaxʷəbtxʷ**
+
+- <b>tu=</b>  past
+- <b>saxʷəb</b>  jump, leap; scamper off; run (especially in a short burst of energy
+     - contrasts with <b>təlawil</b>, sustained running
+- <b>-txʷ</b> ECS external causative
+
+`,
+
+"tu=s=pəkʷib–bi–d=s":
+`
+**tuspəkʷibids**
+
+<i>tu=s=pəkʷib–bi–d=s</i>
+
+- <b>tu=</b>  past
+- <b>s=</b>  nominalizer [LD 199]
+- <b>pəkʷib</b>
+    - <b>pəqʷ(u)</b> break off a piece (leaving a larger portion) [LD 163]
+    - variants: <b>pkʷ(u), pqʷ</b>
+    - <b>pəqʷyid</b> break off a piece so he can have some
+    - <b>-ib</b> idiosycratic passive marking suffix [Beck grammar, page 66]
+        - <b>ƛ̓alib</b> be worn
+        - <b>tagʷib</b> be bought
+- <b>–bi</b> MAP, middle applicative
+- <b>–d</b> ICS, internal causative
+- <b>=s</b> 3PO, third person possessive
+- his breaking off of (daylight)
+
+`,
+
 "čəda":
 
 `
@@ -644,7 +715,7 @@ in a PATIENT coming into that state.
 
 - ƛ̓u: HAB, repetition, continuous, ongoing
 - ʔas: STAT
-- huyu: do, make, prepare something, get ready, prepare for. LD 112
+- huyu: do, make, prepare something, get ready, prepare for. [LD 112]
 - -t: ICS, transitive causative suffix
 - –id: PASS.SBRD, passive voice in a subordinate phrase, found in conservative speech
 
