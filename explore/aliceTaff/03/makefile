@@ -8,3 +8,4 @@ TITLE = "Tlingit Conversation \#3"
 
 include ../makefile-shared
 # HELP_FILE = help.html
+HOST = https://aklanguages.uas.alaska.edu/
