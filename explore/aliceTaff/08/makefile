@@ -7,3 +7,4 @@ VID = 8MarthaMarsha8-29-09.m4v
 TITLE = "Tlingit Conversation \#8"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
