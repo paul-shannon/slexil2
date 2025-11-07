@@ -6,3 +6,4 @@ VID = DavidGeorge9-9-10.m4v
 TITLE = "Tlingit Conversation \#10"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
