@@ -6,3 +6,4 @@ VID = 2EvelynMarsha.mp4
 TITLE = "Tlingit Conversation \#2"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
