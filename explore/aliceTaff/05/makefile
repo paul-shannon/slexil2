@@ -6,3 +6,4 @@ VID = ArchieGeorge5-2.mov
 TITLE = "Tlingit Conversation \#5"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/

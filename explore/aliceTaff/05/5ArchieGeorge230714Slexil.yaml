@@ -1,7 +1,8 @@
 title: title
 narrator: speaker
 textEntry: transcriber
-mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/ArchieGeorge5-2.mov
+#mediaFile: https://slexildata.artsrn.ualberta.ca/tlingit/ArchieGeorge5-2.mov
+mediaFile: https://aklanguages.uas.alaska.edu/tlingit/ArchieGeorge5-2.mov
 mimeType: video/mp4
 
 lines:
