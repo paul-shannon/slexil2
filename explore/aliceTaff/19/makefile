@@ -6,3 +6,4 @@ VID = EatIt.mp4
 TITLE = "Tlingit Conversation \#19"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
