@@ -7,3 +7,4 @@ TIER.GUIDE = tierGuide.yaml
 TITLE = "Tlingit Conversation \#12"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
