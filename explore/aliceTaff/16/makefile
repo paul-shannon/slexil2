@@ -7,3 +7,4 @@ VID = WalterJohn.mov
 TITLE = "Tlingit Conversation \#16"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
