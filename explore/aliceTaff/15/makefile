@@ -7,3 +7,4 @@ VID = 15LillianAnita.m4v
 TITLE = "Tlingit Conversation \#15"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
