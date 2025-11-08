@@ -7,3 +7,4 @@ VID = dance.mp4
 TITLE = "Tlingit Conversation \#18"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
