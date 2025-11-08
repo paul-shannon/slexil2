@@ -6,5 +6,5 @@ SFMT.FILE = 13-14MargaretMarsha230503Slexil.yaml
 TIER.GUIDE = tierGuide.yaml
 TITLE = "Tlingit Conversation \#13-14"
 
-
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
