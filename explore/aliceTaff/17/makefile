@@ -7,3 +7,4 @@ VID = CookIt.m4v
 TITLE = "Tlingit Conversation \#17"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
