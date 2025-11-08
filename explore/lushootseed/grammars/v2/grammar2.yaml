@@ -1,7 +1,8 @@
 title: Lushootseed Book 2
 narrator: Thom Hess
 textEntry: Paul Shannon
-mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume2.wav
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume2.wav
+mediaFile: volume2.wav
 mimeType: audio/wav
 
 lines:
@@ -68,7 +69,7 @@ lines:
 
   - startTime: 124317
     endTime: 132951
-    lushootseed: ʔux̌icil tiʔiɬ č̓ač̓as gʷəl ʔucaq̓ad tiʔiɬdbiʔbədaʔ ʔə təx̌ʷəc qʷəɬayʔ.
+    lushootseed: ʔux̌icil tiʔiɬ č̓ač̓as gʷəl ʔucaq̓ad tiʔiɬ dbiʔbədaʔ ʔə təx̌ʷəc qʷəɬayʔ.
     english: That youngster got angry and jabbed my little boy with a sharp stick.
 
   - html: "<div class='sectionNumber'>28.7</div>"
@@ -95,7 +96,7 @@ lines:
     lushootseed: diʔɬ kʷi gʷəsqəlbs.
     english:  It might rain.
 
-  - html: "<div class='lessonTitle'>Lesson Twenty-Nine: saliʔačiʔ ʔi ti x̌ʷəl</div>"
+  - html: "<div class='lessonTitle'>Lesson Twenty-Nine: &nbsp; <i>saliʔačiʔ &nbsp; ʔi &nbsp;ti &nbsp;x̌ʷəl</i></div>"
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
@@ -155,77 +156,86 @@ lines:
     lushootseed: ʔəbəč gʷədabac ʔə tə tibu.
     english: It's lying under the table.
 
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#
-#
-#
+  - html: "<div class='sectionNumber'>29.4</div>"
+
+  - startTime: 301360
+    endTime: 303935
+    lushootseed: ʔəɬtxʷaxʷ ti sqʷəbayʔ.
+    english: Feed the dogs now.
+
+  - startTime: 305468
+    endTime: 311023
+    lushootseed: xʷuʔələ ʔestagʷəxʷ (h)əlgʷəʔ yəx̌i ʔuc̓iw̓c̓iw̓.
+    english: They must be hungry because they are whining.
+
+  - startTime: 322842
+    endTime: 325144
+    lushootseed: čad kʷi sʔəɬəds (h)əlgʷəʔ.
+    English: Where is their food?
+
+  - startTime: 329272
+    endTime: 331247
+    lushootseed: xʷiʔ gʷədsəs(h)aydxʷ.
+    english: I don't know.
+
+  - startTime: 331568
+    endTime: 332754
+    lushootseed: gʷeč̓ədəxʷ.
+    english: Look for it.
+
+  - html: "<div class='sectionNumber'>29.5</div>"
+
+  - startTime: 344236
+    endTime: 350680
+    lushootseed: hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.
+    english: Go ahded.  Tell your father, our relatives have arrives now.
+
+  - startTime: 361128
+    endTime: 363021
+    lushootseed: čad kʷi sʔas.
+    english: Where is he?
+
+  - startTime: 365554
+    endTime: 368120
+    lushootseed:  čəgʷalətxʷ ti suyayu(s)s.
+    english: He's working outside.
+
+  - html: "<div class='sectionNumber'>29.6</div>"
+
+  - startTime: 390772
+    endTime: 394663
+    lushootseed: gʷəʔux̌ʷtubš čəxʷ (ʔ)u dxʷʔal ti xʷuyubalʔtxʷ.
+    english: Would you take me to the store?
+
+  - startTime: 394982
+    endTime: 396656
+    lushootseed: ʔəsdᶻix̌gʷiɬ čəd.
+    english: My car broke down.
+
+  - startTime: 397523
+    endTime: 400931
+    lushootseed: q̓ilagʷi(l). ɬuʔux̌ʷtucicid čəd.
+    english: Get in.  I'll take you.
+
+  - html: "<div class='sectionNumber'>29.7</div>"
+
+  - startTime: 408777
+    endTime: 411400
+    lushootseed: gʷət̓uk̓ʷtubš čələp (ʔ)u.
+    english: Would you folks take me home?
+    
+
+  - startTime: 411738
+    endTime: 413742
+    lushootseed: ʔəsƛ̓alƛ̓alab čəd.
+    english: I'm stranded.
+
+  - startTime: 421505
+    endTime: 425170
+    lushootseed: q̓ilagʷi(l).  ƛ̓ubalx̌ʷəd čəɬ t(i) adʔalʔal.
+    english: Get in.  We (generally/habitually) pass your home.
+
+
+
+
 

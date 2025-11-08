@@ -15,6 +15,8 @@ default:
 	@echo css      # read local slexil.css, for experimentation
 	@echo publish  # all text
 	@echo publish-audio # the wav file
+	@echo updateLocal
+	@echo updateRemote
 	@echo view
 	@echo viewRemote
 	@echo testyaml
@@ -40,6 +42,8 @@ s2h:
         --linguistics linguisticTerms2.js \
         --verbose
 
+updateLocal: s2h view
+updateRemote: s2h publish viewRemote
 
 curl:
 	curlyhead https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume2.wav
@@ -52,6 +56,7 @@ curl:
 publish:
 	scp $(HTML.FILE) pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
 	scp kb2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	scp linguisticTerms2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp *.png pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:

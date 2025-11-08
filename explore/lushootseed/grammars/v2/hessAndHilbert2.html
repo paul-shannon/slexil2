@@ -10902,6 +10902,10 @@ td, th {
    border-radius: 10px;
    width: 70%;
    }
+#verbStudyPopup{
+   background-color: #EEE;
+   }
+
 #aboutBoxDialog::backdrop {
    animation: aboutBoxDialogBackgroundFade 1s ease forwards;
    }
@@ -11432,6 +11436,9 @@ details{
    margin-top: 10px;
    margin-bottom: 40px;
    margin-left: 10px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 10px;
    background-color: #F1F6EF;
   }
 
@@ -38875,9 +38882,10 @@ $(function() {
         showAnno = true;
         }
      }); // toggleAnnotationsButton click
-    pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"'
+    pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/14'  //0.0.0.0 Safari/537.36"'
+                  // Version 141.0.7390.108 (Official Build) (arm64)
     console.log("kb defined? " + typeof(kb) == 'object')
-    if((JSON.stringify(navigator.userAgent) == pshannonSig) & (typeof(kb) == 'object')){
+    if((JSON.stringify(navigator.userAgent).startsWith(pshannonSig)) & (typeof(kb) == 'object')){
        showAnno = true;
        $("#annoDiv").show()
        $("#toggleAnnotationsButton").text("Hide Annotations")
@@ -39177,7 +39185,21 @@ window.timeStamps=[{ 'id' : '1', 'start' : 15905, 'end' : 18596},
 { 'id' : '21', 'start' : 250350, 'end' : 252860},
 { 'id' : '22', 'start' : 261637, 'end' : 267764},
 { 'id' : '23', 'start' : 279817, 'end' : 282474},
-{ 'id' : '24', 'start' : 287941, 'end' : 290856},]
+{ 'id' : '24', 'start' : 287941, 'end' : 290856},
+{ 'id' : '25', 'start' : 301360, 'end' : 303935},
+{ 'id' : '26', 'start' : 305468, 'end' : 311023},
+{ 'id' : '27', 'start' : 322842, 'end' : 325144},
+{ 'id' : '28', 'start' : 329272, 'end' : 331247},
+{ 'id' : '29', 'start' : 331568, 'end' : 332754},
+{ 'id' : '30', 'start' : 344236, 'end' : 350680},
+{ 'id' : '31', 'start' : 361128, 'end' : 363021},
+{ 'id' : '32', 'start' : 365554, 'end' : 368120},
+{ 'id' : '33', 'start' : 390772, 'end' : 394663},
+{ 'id' : '34', 'start' : 394982, 'end' : 396656},
+{ 'id' : '35', 'start' : 397523, 'end' : 400931},
+{ 'id' : '36', 'start' : 408777, 'end' : 411400},
+{ 'id' : '37', 'start' : 411738, 'end' : 413742},
+{ 'id' : '38', 'start' : 421505, 'end' : 425170},]
 </script>
 <script src="kb2.js"></script>
 <script src="linguisticTerms2.js"></script>
@@ -39347,7 +39369,7 @@ in the Choral Repetitions.
 
 
 </div>
-</form></dialog><div id="mediaPlayerAndControlsDiv"><div id="playerDivWithOptionalButtons"><div id="audioPlayerDiv"><audio class="player" id="audioPlayer" src="https://slexildata.artsrn.ualberta.ca/lushootseed/grammar/volume2.wav" controls></audio></div><div id="titleAndOptionalButtonsDiv"><span id="pageTitle">Lushootseed Grammar 2</span><div id="optionalButtonsDiv"><button id="aboutBoxButton" class="standardSlexilButton">About</button><button id="toggleAnnotationsButton" class="standardSlexilButton">Show Annotations</button><button id="showHideOtherControlsButton" class="standardSlexilButton">Other Controls</button><button id="openRecordDialogButton" class="standardSlexilButton"><img src="https://slexildata.artsrn.ualberta.ca/images/microphone-342.png" /></button>
+</form></dialog><div id="mediaPlayerAndControlsDiv"><div id="playerDivWithOptionalButtons"><div id="audioPlayerDiv"><audio class="player" id="audioPlayer" src="volume2.wav" controls></audio></div><div id="titleAndOptionalButtonsDiv"><span id="pageTitle">Lushootseed Grammar 2</span><div id="optionalButtonsDiv"><button id="aboutBoxButton" class="standardSlexilButton">About</button><button id="toggleAnnotationsButton" class="standardSlexilButton">Show Annotations</button><button id="showHideOtherControlsButton" class="standardSlexilButton">Other Controls</button><button id="openRecordDialogButton" class="standardSlexilButton"><img src="https://slexildata.artsrn.ualberta.ca/images/microphone-342.png" /></button>
      <div id='recordingNotAvailablePopup'></div>
      <div id='recordingPopup'>
         <div id='buttonsDiv' style='float: left; width: 100px;' >
@@ -39364,7 +39386,7 @@ in the Choral Repetitions.
              style='display: none; float: right;  width: calc(100% - 120px); border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
           </div>
       </div>
-     </div></div></div></div><div id="otherControlsDiv" style="display: none"><div id="otherControlsGridDiv" class="otherControlsGridWrapper"><div id="playbackSpeedDiv" class="otherControlsGridCell"><div id="playbackSpeedLabel">Playback speed </div><div id="playbackControlsDiv" style="width: 300px;"><button id="slowerPlaybackButton" class="playbackSpeedButton"> - </button><input type="range" min="0.25" max="2.0" value="1.0" step="0.25" id="speedSelector" name="speedSelector" /><button id="fasterPlaybackButton" class="playbackSpeedButton"> + </button><div id="playbackSpeedReadout">1.0</div></div></div><div id="printSizeDiv" class="otherControlsGridCell"><div id="printSizeLabel">Print Size </div><form action=""><input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" /></form></div><div id="tierControlsDiv"><div><span id="tiersLabelDiv">Visible Tiers: <button id="allNoneTierButton">All/None</button></span></div><div id="tiersCheckBoxesDiv"><div style="display: inline-block"><input type="checkbox" checked="True" value="lushootseed" class="tierToggleCheckbox" id="tierToggle-lushootseed" name="lushootseed" /> lushootseed</div><div style="display: inline-block"><input type="checkbox" checked="True" value="english" class="tierToggleCheckbox" id="tierToggle-english" name="english" /> english</div><div style="display: inline-block"><input type="checkbox" checked="True" value="html" class="tierToggleCheckbox" id="tierToggle-html" name="html" /> html</div></div></div></div></div><div id="textAndAnnoDiv"><div id="textDiv"><div class="tier tier-html" name="html"><div class='lessonTitle'>Lesson Twenty-Eight: saliʔačiʔ ʔi ti təqačiʔ</div>
+     </div></div></div></div><div id="otherControlsDiv" style="display: none"><div id="otherControlsGridDiv" class="otherControlsGridWrapper"><div id="playbackSpeedDiv" class="otherControlsGridCell"><div id="playbackSpeedLabel">Playback speed </div><div id="playbackControlsDiv" style="width: 300px;"><button id="slowerPlaybackButton" class="playbackSpeedButton"> - </button><input type="range" min="0.25" max="2.0" value="1.0" step="0.25" id="speedSelector" name="speedSelector" /><button id="fasterPlaybackButton" class="playbackSpeedButton"> + </button><div id="playbackSpeedReadout">1.0</div></div></div><div id="printSizeDiv" class="otherControlsGridCell"><div id="printSizeLabel">Print Size </div><form action=""><input type="range" min="0.2" max="4.0" value="1.4" step="0.1" id="fontSizeSlider" name="fontSizeSlider" /></form></div><div id="tierControlsDiv"><div><span id="tiersLabelDiv">Visible Tiers: <button id="allNoneTierButton">All/None</button></span></div><div id="tiersCheckBoxesDiv"><div style="display: inline-block"><input type="checkbox" checked="True" value="lushootseed" class="tierToggleCheckbox" id="tierToggle-lushootseed" name="lushootseed" /> lushootseed</div><div style="display: inline-block"><input type="checkbox" checked="True" value="english" class="tierToggleCheckbox" id="tierToggle-english" name="english" /> english</div><div style="display: inline-block"><input type="checkbox" checked="True" value="English" class="tierToggleCheckbox" id="tierToggle-English" name="English" /> English</div><div style="display: inline-block"><input type="checkbox" checked="True" value="html" class="tierToggleCheckbox" id="tierToggle-html" name="html" /> html</div></div></div></div></div><div id="textAndAnnoDiv"><div id="textDiv"><div class="tier tier-html" name="html"><div class='lessonTitle'>Lesson Twenty-Eight: saliʔačiʔ ʔi ti təqačiʔ</div>
 </div><div class="tier tier-html" name="html"><div style='margin-left: 30px'><h5> Choral Repetition</h5></div>
 </div><div class="tier tier-html" name="html"><div class='sectionNumber'>28.1</div>
 </div><div class="line-wrapper" id="1"><div class="line-sidebar"><button onclick="playSample(1, 15905, 18596)" class="standardSlexilButton slexilTooltip">1</button>
@@ -39428,7 +39450,7 @@ in the Choral Repetitions.
 <div class="tier generic-tier" name="english">My nephew was backing up and had an accident with my car.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='sectionNumber'>28.6</div>
 </div><div class="line-wrapper" id="10"><div class="line-sidebar"><button onclick="playSample(10, 124317, 132951)" class="standardSlexilButton slexilTooltip">10</button>
 <!-- sidebarHookLine_18 -->
-</div><div class="line-content" id="10"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔux̌icil tiʔiɬ č̓ač̓as gʷəl ʔucaq̓ad tiʔiɬdbiʔbədaʔ ʔə təx̌ʷəc qʷəɬayʔ.</span></div>
+</div><div class="line-content" id="10"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔux̌icil tiʔiɬ č̓ač̓as gʷəl ʔucaq̓ad tiʔiɬ dbiʔbədaʔ ʔə təx̌ʷəc qʷəɬayʔ.</span></div>
 <!-- speechLineAfterHook -->
 
 <!-- speechLineAfterHook_10 -->
@@ -39458,7 +39480,7 @@ in the Choral Repetitions.
 <!-- speechLineAfterHook -->
 
 <!-- speechLineAfterHook_14 -->
-<div class="tier generic-tier" name="english">It might rain.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='lessonTitle'>Lesson Twenty-Nine: saliʔačiʔ ʔi ti x̌ʷəl</div>
+<div class="tier generic-tier" name="english">It might rain.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='lessonTitle'>Lesson Twenty-Nine: &nbsp; <i>saliʔačiʔ &nbsp; ʔi &nbsp;ti &nbsp;x̌ʷəl</i></div>
 </div><div class="tier tier-html" name="html"><div style='margin-left: 30px'><h5> Choral Repetition</h5></div>
 </div><div class="tier tier-html" name="html"><div class='sectionNumber'>29.1</div>
 </div><div class="line-wrapper" id="15"><div class="line-sidebar"><button onclick="playSample(15, 197516, 202576)" class="standardSlexilButton slexilTooltip">15</button>
@@ -39523,7 +39545,95 @@ in the Choral Repetitions.
 <!-- speechLineAfterHook -->
 
 <!-- speechLineAfterHook_24 -->
-<div class="tier generic-tier" name="english">It's lying under the table.</div><div class="annotationDiv"></div></div></div></div><div id="annoDiv"><div id="annoAndTopicsDiv"><div id="topicsMenuDiv"><div class="dropdownMenu"><button id="topicsButton" class="menuButton">Linguistic Topics</button><div id="topicsItems" class="menuItemsDiv"><div>aspect</div></div></div></div><div id="annoNotesDiv"></div></div></div></div></div>
+<div class="tier generic-tier" name="english">It's lying under the table.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='sectionNumber'>29.4</div>
+</div><div class="line-wrapper" id="25"><div class="line-sidebar"><button onclick="playSample(25, 301360, 303935)" class="standardSlexilButton slexilTooltip">25</button>
+<!-- sidebarHookLine_41 -->
+</div><div class="line-content" id="25"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔəɬtxʷaxʷ ti sqʷəbayʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_25 -->
+<div class="tier generic-tier" name="english">Feed the dogs now.</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="26"><div class="line-sidebar"><button onclick="playSample(26, 305468, 311023)" class="standardSlexilButton slexilTooltip">26</button>
+<!-- sidebarHookLine_42 -->
+</div><div class="line-content" id="26"><div class="line"><span class="tier speech-tier" name="lushootseed">xʷuʔələ ʔestagʷəxʷ (h)əlgʷəʔ yəx̌i ʔuc̓iw̓c̓iw̓.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_26 -->
+<div class="tier generic-tier" name="english">They must be hungry because they are whining.</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="27"><div class="line-sidebar"><button onclick="playSample(27, 322842, 325144)" class="standardSlexilButton slexilTooltip">27</button>
+<!-- sidebarHookLine_43 -->
+</div><div class="line-content" id="27"><div class="line"><span class="tier speech-tier" name="lushootseed">čad kʷi sʔəɬəds (h)əlgʷəʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_27 -->
+<div class="tier generic-tier" name="English">Where is their food?</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="28"><div class="line-sidebar"><button onclick="playSample(28, 329272, 331247)" class="standardSlexilButton slexilTooltip">28</button>
+<!-- sidebarHookLine_44 -->
+</div><div class="line-content" id="28"><div class="line"><span class="tier speech-tier" name="lushootseed">xʷiʔ gʷədsəs(h)aydxʷ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_28 -->
+<div class="tier generic-tier" name="english">I don't know.</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="29"><div class="line-sidebar"><button onclick="playSample(29, 331568, 332754)" class="standardSlexilButton slexilTooltip">29</button>
+<!-- sidebarHookLine_45 -->
+</div><div class="line-content" id="29"><div class="line"><span class="tier speech-tier" name="lushootseed">gʷeč̓ədəxʷ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_29 -->
+<div class="tier generic-tier" name="english">Look for it.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='sectionNumber'>29.5</div>
+</div><div class="line-wrapper" id="30"><div class="line-sidebar"><button onclick="playSample(30, 344236, 350680)" class="standardSlexilButton slexilTooltip">30</button>
+<!-- sidebarHookLine_47 -->
+</div><div class="line-content" id="30"><div class="line"><span class="tier speech-tier" name="lushootseed">hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_30 -->
+<div class="tier generic-tier" name="english">Go ahded.  Tell your father, our relatives have arrives now.</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="31"><div class="line-sidebar"><button onclick="playSample(31, 361128, 363021)" class="standardSlexilButton slexilTooltip">31</button>
+<!-- sidebarHookLine_48 -->
+</div><div class="line-content" id="31"><div class="line"><span class="tier speech-tier" name="lushootseed">čad kʷi sʔas.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_31 -->
+<div class="tier generic-tier" name="english">Where is he?</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="32"><div class="line-sidebar"><button onclick="playSample(32, 365554, 368120)" class="standardSlexilButton slexilTooltip">32</button>
+<!-- sidebarHookLine_49 -->
+</div><div class="line-content" id="32"><div class="line"><span class="tier speech-tier" name="lushootseed">čəgʷalətxʷ ti suyayu(s)s.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_32 -->
+<div class="tier generic-tier" name="english">He's working outside.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='sectionNumber'>29.6</div>
+</div><div class="line-wrapper" id="33"><div class="line-sidebar"><button onclick="playSample(33, 390772, 394663)" class="standardSlexilButton slexilTooltip">33</button>
+<!-- sidebarHookLine_51 -->
+</div><div class="line-content" id="33"><div class="line"><span class="tier speech-tier" name="lushootseed">gʷəʔux̌ʷtubš čəxʷ (ʔ)u dxʷʔal ti xʷuyubalʔtxʷ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_33 -->
+<div class="tier generic-tier" name="english">Would you take me to the store?</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="34"><div class="line-sidebar"><button onclick="playSample(34, 394982, 396656)" class="standardSlexilButton slexilTooltip">34</button>
+<!-- sidebarHookLine_52 -->
+</div><div class="line-content" id="34"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔəsdᶻix̌gʷiɬ čəd.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_34 -->
+<div class="tier generic-tier" name="english">My car broke down.</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="35"><div class="line-sidebar"><button onclick="playSample(35, 397523, 400931)" class="standardSlexilButton slexilTooltip">35</button>
+<!-- sidebarHookLine_53 -->
+</div><div class="line-content" id="35"><div class="line"><span class="tier speech-tier" name="lushootseed">q̓ilagʷi(l). ɬuʔux̌ʷtucicid čəd.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_35 -->
+<div class="tier generic-tier" name="english">Get in.  I'll take you.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div class='sectionNumber'>29.7</div>
+</div><div class="line-wrapper" id="36"><div class="line-sidebar"><button onclick="playSample(36, 408777, 411400)" class="standardSlexilButton slexilTooltip">36</button>
+<!-- sidebarHookLine_55 -->
+</div><div class="line-content" id="36"><div class="line"><span class="tier speech-tier" name="lushootseed">gʷət̓uk̓ʷtubš čələp (ʔ)u.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_36 -->
+<div class="tier generic-tier" name="english">Would you folks take me home?</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="37"><div class="line-sidebar"><button onclick="playSample(37, 411738, 413742)" class="standardSlexilButton slexilTooltip">37</button>
+<!-- sidebarHookLine_56 -->
+</div><div class="line-content" id="37"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔəsƛ̓alƛ̓alab čəd.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_37 -->
+<div class="tier generic-tier" name="english">I'm stranded.</div><div class="annotationDiv"></div></div></div><div class="line-wrapper" id="38"><div class="line-sidebar"><button onclick="playSample(38, 421505, 425170)" class="standardSlexilButton slexilTooltip">38</button>
+<!-- sidebarHookLine_57 -->
+</div><div class="line-content" id="38"><div class="line"><span class="tier speech-tier" name="lushootseed">q̓ilagʷi(l).  ƛ̓ubalx̌ʷəd čəɬ t(i) adʔalʔal.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_38 -->
+<div class="tier generic-tier" name="english">Get in.  We (generally/habitually) pass your home.</div><div class="annotationDiv"></div></div></div></div><div id="annoDiv"><div id="annoAndTopicsDiv"><div id="topicsMenuDiv"><div class="dropdownMenu"><button id="topicsButton" class="menuButton">Linguistic Topics</button><div id="topicsItems" class="menuItemsDiv"><div>aspect</div></div></div></div><div id="annoNotesDiv"></div></div></div></div></div>
 
 <!-- bodyBottomInsertionHook -->
 
