@@ -7,3 +7,4 @@ VID =
 TITLE = "Tlingit Conversation \#20"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
