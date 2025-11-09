@@ -6,3 +6,4 @@ VID = 27LorraineVincent.m4v
 TITLE = "Tlingit Conversation \#27"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
