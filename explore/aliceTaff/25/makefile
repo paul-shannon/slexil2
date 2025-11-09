@@ -6,3 +6,4 @@ VID = LenaNellie25.mov
 TITLE = "Tlingit Conversation \#25"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
