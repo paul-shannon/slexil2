@@ -6,3 +6,4 @@ HTML.FILE = 37AtlinSrprizLk.html
 TITLE = "Tlingit Conversation \#37"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
