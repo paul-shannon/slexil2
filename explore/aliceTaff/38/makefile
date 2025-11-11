@@ -6,3 +6,4 @@ VID=38AtlinGrotto.m4v
 TITLE = "Tlingit Conversation \#38"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
