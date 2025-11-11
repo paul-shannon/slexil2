@@ -5,3 +5,4 @@ VID=32RamosChester.m4v
 TITLE = "Tlingit Conversation \#32"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
