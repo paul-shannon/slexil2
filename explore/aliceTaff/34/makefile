@@ -5,3 +5,5 @@ VID=34GeorgeLena.m4v
 TITLE = "Tlingit Conversation \#34"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
+
