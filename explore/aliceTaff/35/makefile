@@ -5,3 +5,4 @@ VID=35Atlin1.m4v
 TITLE = "Tlingit Conversation \#35"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
