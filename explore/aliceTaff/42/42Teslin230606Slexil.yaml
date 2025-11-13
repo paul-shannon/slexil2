@@ -5,15 +5,25 @@ mediaFile: 42Teslin.m4v
 mimeType: unknown
 
 lines:
-  - lineNumber: 1
-    startTime: 46
-    endTime: 10908
-    utterance: Speakers are Ḵeixwnéi Nora Marks Dauenhauer, Kaséix̱ Selina Everson,  Bonar Cooley, and Keiyishí Bessie Cooley through 13:36. Then Naakil.aan Mark Hans Chester, Jeeskú Jimmie Johnston, and Sháayi Éesh Smith Katzeek. Recorded August 12, 2010, in the Cooleyʼs garden in Teslin by Ljáaḵkʼ Alice Taff, then at Teslin Tlingit Heritage Centre in Teslin, YT, Canada, by Naakil.aan Mark Hans Chester. 
 
-  - lineNumber: 2
-    startTime: 11108
-    endTime: 14573
-    utterance: Tlingit transcription by X̱’aagi Sháawu Keri Edwards Eggleston. English translation by Ḵaachkoo.aaḵw Helen Sarabia, Saḵaayí Anita Lafferty, and X̱’aagi Sháawu Keri Edwards Eggleston. Edited by X̱’aagi Sháawu Keri Edwards Eggleston with Saḵaayí Anita Lafferty.   And by Keiyishí Bessie Cooley with Yeiltʼoochʼ Tláa Collyne Bunn.
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Speakers are Ḵeixwnéi Nora Marks Dauenhauer, Kaséix̱ Selina
+    Everson, Bonar Cooley, and Keiyishí Bessie Cooley through
+    13:36. Then Naakil.aan Mark Hans Chester, Jeeskú Jimmie Johnston,
+    and Sháayi Éesh Smith Katzeek. Recorded August 12, 2010, in the
+    Cooleyʼs garden in Teslin by Ljáaḵkʼ Alice Taff, then at Teslin
+    Tlingit Heritage Centre in Teslin, YT, Canada, by Naakil.aan Mark
+    Hans Chester.
+    </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Tlingit transcription by X̱’aagi Sháawu Keri Edwards
+    Eggleston. English translation by Ḵaachkoo.aaḵw Helen Sarabia,
+    Saḵaayí Anita Lafferty, and X̱’aagi Sháawu Keri Edwards
+    Eggleston. Edited by X̱’aagi Sháawu Keri Edwards Eggleston with
+    Saḵaayí Anita Lafferty.  And by Keiyishí Bessie Cooley with
+    Yeiltʼoochʼ Tláa Collyne Bunn.
+    </div>"
 
   - lineNumber: 3
     startTime: 14773
