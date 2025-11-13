@@ -6,3 +6,4 @@ VID = 46Carcross.m4v
 TITLE = "Tlingit Conversation \#46"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
