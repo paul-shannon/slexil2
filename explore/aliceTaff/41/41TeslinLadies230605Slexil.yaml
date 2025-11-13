@@ -5,15 +5,22 @@ mediaFile: 41TeslinLadies.m4v
 mimeType: unknown
 
 lines:
-  - lineNumber: 1
-    startTime: 730
-    endTime: 15000
-    utterance: Speakers are Kaséix̱ Selina Everson, Wooshtudeidu.oo Florence Smarch, Tʼaaḵú Tláa Pearl Keenan, Chukatéen Jane Smarch, Keiyishí Bessie Cooley, and Lasaayí Emma Shorty. Recorded August 13, 2010, at the Teslin Tlingit Heritage Centre, Teslin, YT, Canada, by Ljáaḵkʼ Alice Taff.   
 
-  - lineNumber: 2
-    startTime: 15015
-    endTime: 25390
-    utterance: Tlingit transcription by Keet Yaanyaayi Paul Marks II. English translation by Kaxwaan Éesh George Davis, Ḵaaḵal.aat Florence Sheakley, Kaséix̱ Selina Everson with Ljáaḵkʼ Alice Taff. Edited by Shaag̱aw Éesh Devlin Anderstrom and by X̱ʼaagi Sháawu Keri Eggleston.    
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Speakers are Kaséix̱ Selina Everson, Wooshtudeidu.oo Florence
+    Smarch, Tʼaaḵú Tláa Pearl Keenan, Chukatéen Jane Smarch, Keiyishí
+    Bessie Cooley, and Lasaayí Emma Shorty. Recorded August 13, 2010,
+    at the Teslin Tlingit Heritage Centre, Teslin, YT, Canada, by
+    Ljáaḵkʼ Alice Taff.
+    </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Tlingit transcription by Keet Yaanyaayi Paul Marks II. English
+    translation by Kaxwaan Éesh George Davis, Ḵaaḵal.aat Florence
+    Sheakley, Kaséix̱ Selina Everson with Ljáaḵkʼ Alice Taff. Edited by
+    Shaag̱aw Éesh Devlin Anderstrom and by X̱ʼaagi Sháawu Keri
+    Eggleston.
+    </div>"
 
   - lineNumber: 3
     startTime: 74298
