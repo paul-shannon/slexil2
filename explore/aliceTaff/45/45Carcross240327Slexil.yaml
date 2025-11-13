@@ -5,15 +5,20 @@ mediaFile: 45Carcross.m4v
 mimeType: unknown
 
 lines:
-  - lineNumber: 1
-    startTime: 0
-    endTime: 55
-    utterance: Speakers are Dagé Winnie Atlin and Gusʼdutéen Bessie Jim, then at 15:53, Tank (also spelled Tánkʼ) Smith Katzeek and Ḵaakligé (also spelled Ḵaakligéi) Norman James. Recorded by Nakil.aan Mark Hans Chester August 14, 2010, at Carcross/Tagish First Nation Administration Building. Carcross, YT, Canada.
 
-  - lineNumber: 2
-    startTime: 56
-    endTime: -73
-    utterance: Tlingit transcription by X̱ʼaagi Sháawu Keri Eggleston.  English translation by Shaksháani Margaret Dutson with Ljáaḵkʼ Alice Taff.  Edited by Yeilt'ooch' Tláa Collyne Bunn.  
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Speakers are Dagé Winnie Atlin and Gusʼdutéen Bessie Jim, then at
+    15:53, Tank (also spelled Tánkʼ) Smith Katzeek and Ḵaakligé (also
+    spelled Ḵaakligéi) Norman James. Recorded by Nakil.aan Mark Hans
+    Chester August 14, 2010, at Carcross/Tagish First Nation
+    Administration Building. Carcross, YT, Canada.
+    </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Tlingit transcription by X̱ʼaagi Sháawu Keri Eggleston.  English
+    translation by Shaksháani Margaret Dutson with Ljáaḵkʼ Alice Taff.
+    Edited by Yeilt'ooch' Tláa Collyne Bunn.
+    </div>"
 
   - lineNumber: 3
     startTime: 127
