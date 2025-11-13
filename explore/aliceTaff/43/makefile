@@ -5,3 +5,4 @@ VID=43TeslinMen.m4v
 TITLE = "Tlingit Conversation \#43"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
