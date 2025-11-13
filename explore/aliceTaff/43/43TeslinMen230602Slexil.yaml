@@ -5,15 +5,21 @@ mediaFile: 43TeslinMen.m4v
 mimeType: unknown
 
 lines:
-  - lineNumber: 1
-    startTime: 0
-    endTime: 7073
-    utterance: Speakers are Jeeskú Jimmie Johnston and Tánk Smith Katzeek. Videorecorded by Naakil.aan Mark Hans Chester on August 13, 2010, in Teslin, Yukon Territory. 
 
-  - lineNumber: 2
-    startTime: 7092
-    endTime: 17537
-    utterance: Tlingit transcription by X̱ʼaagi Sháawu Keri Eggleston with Anita Lafferty and by Koolyeiḵ Roberta Littlefield with G̱ooch Tláa Anne Johnson. English translation by Shakʼsháani Margaret Dutson with Alice Taff, X̱ʼaagi Sháawu Keri Eggleston with Saakayí Anita Lafferty and by KoolyeiḵRoberta Littlefield with G̱ooch Tláa Anne Johnson. Edited by XXX.
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Speakers are Jeeskú Jimmie Johnston and Tánk Smith
+    Katzeek. Videorecorded by Naakil.aan Mark Hans Chester on August
+    13, 2010, in Teslin, Yukon Territory.
+    </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 100px; margin-right: 100px;'>
+    Tlingit transcription by X̱ʼaagi Sháawu Keri Eggleston with Anita
+    Lafferty and by Koolyeiḵ Roberta Littlefield with G̱ooch Tláa Anne
+    Johnson. English translation by Shakʼsháani Margaret Dutson with
+    Alice Taff, X̱ʼaagi Sháawu Keri Eggleston with Saakayí Anita
+    Lafferty and by KoolyeiḵRoberta Littlefield with G̱ooch Tláa Anne
+    Johnson. Edited by XXX.
+    </div>"
 
   - lineNumber: 3
     startTime: 23915
