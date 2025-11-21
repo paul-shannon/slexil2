@@ -5,3 +5,4 @@ VID=67LilyMarge.m4v
 TITLE = "Tlingit Conversation \#67"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
