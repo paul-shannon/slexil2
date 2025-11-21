@@ -39,8 +39,8 @@ s2h:
         --pageTitle "Lushootseed Grammar 2" \
         --helpButtonLabel About \
         --helpFile about.html \
-        --linguistics linguisticTerms2.js \
-        --verbose
+        --linguistics linguisticTerms2.js
+#        --verbose
 
 updateLocal: s2h view
 updateRemote: s2h publish viewRemote
@@ -58,6 +58,9 @@ publish:
 	scp kb2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp linguisticTerms2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 	scp *.png pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+
+publish-audio:
+	scp volume2.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
 	open $(HTML.FILE)

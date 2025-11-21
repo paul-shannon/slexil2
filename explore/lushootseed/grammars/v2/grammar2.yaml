@@ -223,8 +223,7 @@ lines:
     endTime: 411400
     lushootseed: gʷət̓uk̓ʷtubš čələp (ʔ)u.
     english: Would you folks take me home?
-    
-
+ 
   - startTime: 411738
     endTime: 413742
     lushootseed: ʔəsƛ̓alƛ̓alab čəd.
@@ -235,7 +234,193 @@ lines:
     lushootseed: q̓ilagʷi(l).  ƛ̓ubalx̌ʷəd čəɬ t(i) adʔalʔal.
     english: Get in.  We (generally/habitually) pass your home.
 
+  - html: "<div class='lessonTitle'>Lesson Thirty: &nbsp; <i>ɬixʷačiʔ</i></div>"
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<div class='sectionNumber'>30.1</div>"
+
+  - startTime: 437543
+    endTime: 440762
+    lushootseed: cick̓ʷ ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.
+    english: It is very cloudy today.
+
+  - startTime: 441334
+    endTime: 446055
+    lushootseed: ƛ̓alš t(i) adšiqʷ. diʔɬ kʷi ɬusqəlbs.
+    english: Put on your hat.  It might rain.
+
+  - html: "<div class='sectionNumber'>30.2</div>"
+
+  - startTime: 460614
+    endTime: 464012
+    lushootseed: cick̓ʷ t̓əs ʔal tiʔəʔ sləx̌il.
+    english: It is very cold today.
+
+  - startTime: 464799
+    endTime: 467085
+    lushootseed: ƛ̓alš t(i) adkəpu.
+    english: Put on your coat.
+
+  - startTime: 467847
+    endTime: 470333
+    lushootseed:  diʔɬ kʷi ɬusqʷats.
+    english: It might snow.
+
+  - html: "<div class='sectionNumber'>30.3</div>"
+
+  - startTime: 486589
+    endTime: 490263
+    lushootseed: laʔb ʔəsqʷšab ʔal tiʔəʔ sləx̌il.
+    english: It is really foggy.
+
+  - startTime: 491531
+    endTime: 494157
+    lushootseed: haʔɬ kʷ(i) adsə(s)šuucbicut.
+    english: Look after yourself well.
+
+  - startTime: 506103
+    endTime: 508316
+    lushootseed: diʔɬ kʷi gʷ(ə)adsx̌ʷil̓
+    english: You might get lost.
+
+  - html: "<div class='sectionNumber'>30.4</div>"
+
+  - startTime: 513161
+    endTime: 516597
+    lushootseed: laʔb ʔusuxʷil ʔal tiʔəʔ sləx̌il.
+    english: It is really windy today.
+
+  - startTime: 526873
+    endTime: 528817
+    lushootseed: xʷiʔ kʷ(i) adsʔuluɬ.
+    english: Don't travel by water.
+
+  - startTime: 529333
+    endTime: 532020
+    lushootseed: diʔɬ kʷi gʷ(ə)adsgʷal.
+    english: You might overturn.
+
+  - html: "<div class='sectionNumber'>30.5</div>"
+
+  - startTime: 537908
+    endTime: 541107
+    lushootseed: ʔugʷilič̓əb tiʔəʔ qa sčusad.
+    english: A lot of stars are shining.
+
+  - startTime: 551634
+    endTime: 554337
+    lushootseed: ɬut̓əs ʔal tiʔəʔ sɬax̌il.
+    english: It will be cold tonight.
+
+  - html: "<div class='sectionNumber'>30.6</div>"
+
+  - startTime: 561871
+    endTime: 566163
+    lushootseed: ɬugʷilič̓əb tiʔəʔ ɬukʷaɬ ʔal kʷi dadatu.
+    english: The sun will shine tomorrow.
+
+  - startTime: 567509
+    endTime: 569220
+    lushootseed: ɬudxʷsq̓ʷəl.
+    english: It will be hot.
+
+  - html: "<div class='sectionNumber'>30.7</div>"
+
+  - startTime: 585793
+    endTime: 589255
+    lushootseed: laʔb dxʷsq̓ʷəl ʔal tiʔəʔ sləx̌il.
+    english: It is really hot today.
+
+  - startTime: 596052
+    endTime: 600249
+    lushootseed: xʷi kʷi gʷədsəxʷƛ̓alšəb ti dpuʔtəd.
+    english: I don't fell like wearing my shirt.
+
+  - html: "<div class='sectionNumber'>30.8</div>"
+
+  - startTime: 612131
+    endTime:   615009
+    lushootseed: laʔb haʔɬ sləx̌il.
+    english: It is a really nice day.
+
+  - startTime: 620201
+    endTime: 623829
+    lushootseed: xʷi gʷədsəxʷƛ̓alšəb ti dšiqʷ.
+    english: I don't feel like wearing my hat.
+
+  - html: "<div class='lessonTitle'>Lesson Thirty-One: &nbsp; <i>ɬixʷačiʔ ʔi ti dəč̓uʔ</i></div>"
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
+
+  - html: "<div class='sectionNumber'>31A.1</div>"
+
+  - startTime: 639081
+    endTime: 643058
+    lushootseed: tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy.
+    english: My nephew helped my mother.
+
+  - html: "<div class='sectionNumber'>31A.2</div>"
+
+  - startTime: 661218
+    endTime: 665375
+    lushootseed: tuqəɬdub ə ti wiw̓su ti sč̓abiqʷčəɬ.
+    english: The children (inadvertently) woke our great-grandfather up.
+
+  - html: "<div class='sectionNumber'>31A.3</div>"
+
+  - startTime: 675929
+    endTime: 680564
+    lushootseed: ɬut̓uk̓ʷtub ʔə tsi dstaləɬ ti dscapaʔ.
+    english: My niece will bring my grandfather home.
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
+
+  - html: "<div class='sectionNumber'>31B.1</div>"
+
+  - startTime: 687987
+    endTime: 691356
+    lushootseed: tukʷaxʷatəb čəd ʔə ti dstaləɬ.
+    english: I was helped by my nephew.
+
+  - startTime: 699303
+    endTime: 702633
+    lushootseed: tuqəɬdub čəxʷ ʔuʔ ʔə ti wiw̓su.
+    english: Were you awakened by the children?
+
+  - startTime: 712778
+    endTime: 716204
+    lushootseed: ɬut̓uk̓ʷtub čəɬ ʔə tsə dstaləɬ.
+    english: We will be taken home by my neice.
 
 
 
+
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+
+#  - html: "<div class='sectionNumber'>30.</div>"
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
+#
+#  - startTime: 
+#    endTime: 
+#    lushootseed: 
+#    english: 
 
