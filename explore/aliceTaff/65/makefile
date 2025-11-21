@@ -5,3 +5,4 @@ VID=65GeorgePaul.m4v
 TITLE = "Tlingit Conversation \#65"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
