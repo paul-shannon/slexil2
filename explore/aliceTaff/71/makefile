@@ -5,3 +5,4 @@ VID=71DaltonDutson.m4v
 TITLE = "Tlingit Conversation \#71"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
