@@ -5,3 +5,4 @@ VID = 80RuthMarshaKianaLance.mov
 TITLE = "Tlingit Conversation \#80"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
