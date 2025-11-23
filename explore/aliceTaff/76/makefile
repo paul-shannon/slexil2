@@ -5,3 +5,4 @@ VID=76SelinaMargaretAll.mov
 TITLE = "Tlingit Conversation \#76"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
