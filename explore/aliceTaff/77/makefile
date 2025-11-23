@@ -5,3 +5,4 @@ VID=77SelinaHelenKeriRyker.mov
 TITLE = "Tlingit Conversation \#77"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
