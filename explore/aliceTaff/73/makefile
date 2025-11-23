@@ -5,3 +5,4 @@ VID=73AdelineMargret.m4v
 TITLE = "Tlingit Conversation \#73"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
