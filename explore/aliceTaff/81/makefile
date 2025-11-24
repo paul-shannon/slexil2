@@ -5,3 +5,4 @@ VID = 81AlHarold.mov
 TITLE = "Tlingit Conversation \#81"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
