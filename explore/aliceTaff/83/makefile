@@ -5,3 +5,4 @@ VID = 83VanSongComposing.m4v
 TITLE = "Tlingit Conversation \#83"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
