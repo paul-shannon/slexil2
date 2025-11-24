@@ -5,3 +5,4 @@ VID = 88GeorgeMargaret.m4v
 TITLE = "Tlingit Conversation \#88"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
