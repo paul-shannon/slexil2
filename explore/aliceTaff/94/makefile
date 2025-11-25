@@ -5,3 +5,4 @@ VID = 94FrankSelina.mp4
 TITLE = "Tlingit Conversation \#94"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
