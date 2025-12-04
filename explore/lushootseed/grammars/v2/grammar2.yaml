@@ -664,32 +664,78 @@ lines:
     english: I would buy it if I were he/she (him/her).
 
 
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>"
 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
+  - html: "<div class='sectionNumber'>33B.1</div>"
 
-#  - html: "<div class='sectionNumber'>30.</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#    english: 
+  - startTime: 1210551
+    endTime: 1213786
+    lushootseed: ƛ̓ub dxʷʔal ʔəca gʷəʔux̌ʷəxʷ.
+    english: It is all right with me if you go.
+
+  - html: "<div class='sectionNumber'>33B.2</div>"
+
+  - startTime: 1224120
+    endTime: 1227424
+    lushootseed: p̓aƛ̓aƛ̓ dxʷʔal ʔəca gʷət̓uk̓ʷəxʷ.
+    english: I don't care if you go home.
+
+  - html: "<div class='sectionNumber'>33B.3</div>"
+
+  - startTime: 1251064
+    endTime: 1255668
+    lushootseed: ƛ̓ub ʔu dxʷʔal t(i) adbad gʷəgʷa(h)bicəxʷ.
+    english: Is it all right with your father if you go with me?
+
+  - html: "<div class='sectionNumber'>33B.4</div>"
+
+  - startTime: 1262316
+    endTime: 1266613
+    lushootseed: p̓aƛ̓aƛ̓ dxʷʔal dəgʷi gʷəxʷəƛ̓šadəd.
+    english: You don't care if I break my leg.
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition C</h5></div>"
+
+  - html: "<div class='sectionNumber'>33C.1</div>"
+
+  - startTime: 1279521
+    endTime: 1283911
+    lushootseed: ɬusiʔab  stubš ɬuləluƛ̓iləs.
+    english: He will be a rich/important man when he grows older.
+
+  - html: "<div class='sectionNumber'>33C.2</div>"
+
+  - startTime: 1296445
+    endTime: 1300320
+    lushootseed: pə(d)tab kʷ(i) adsʔux̌ʷ dxʷʔal ti ʔəɬədalʔtxʷ.
+    english: When are you going to the restaurant?
+
+  - startTime: 1306226
+    endTime: 1308675
+    lushootseed: ɬuʔux̌ʷ čəd ɬutagʷəxʷəd.
+    english: I'll go when I get hungry.
+
+  - html: "<div class='sectionNumber'>33C.3</div>"
+
+  - startTime: 1315088
+    endTime: 1318407
+    lushootseed: pə(d)tab kʷ(i) adsʔux̌ʷ dxʷʔal ti labalʔtxʷ.
+    english: When are you going to the tavern?
+
+  - startTime: 1324720
+    endTime: 1327208
+    lushootseed: ɬuʔux̌ čəd ɬutaqʷuʔəd.
+    english: I'll go when I get thirsty.
+
+  - html: "<div class='sectionNumber'>33C.4</div>"
+
+  - startTime: 1338423
+    endTime: 1341166
+    lushootseed: ʔaləxʷ k̓ʷid kʷ(i) adst̓uk̓ʷ.
+    english: What time are you going home?
+
+  - startTime: 1346115
+    endTime: 1349136
+    lushootseed: ɬut̓uk̓ʷ čəd ɬuxʷak̓ʷiləd.
+    english: I'll go home hen I get tired.
 
