@@ -1,5 +1,34 @@
 kb = {
 
+"ʔuq̓ʷəx̌ʷəd čəd tiʔəʔ sqigʷəc.":
+`
+<b>ʔuq̓ʷəx̌ʷəd &nbsp; čəd &nbsp; tiʔəʔ &nbsp; sqigʷəc.</b>
+
+**Footnote 1, page 85**
+
+The Snohomish and Southern Lushootseed speakers say
+<b>k̓ʷič̓id</b> instead of the Skagit <b>q̓ʷəx̌ʷəd</b>.
+
+`,
+
+
+"ʔuqʷibid čəd tiʔə(ʔ) dq̓il̓bid.  ʔəsdᶻix̌gʷiɬ čəd.":
+
+`
+<b>ʔuqʷibid &nbsp; čəd &nbsp; tiʔə(ʔ) &nbsp; dq̓il̓bid. &nbsp; ʔəsdᶻix̌gʷiɬ &nbsp; čəd.</b>
+
+**Vocabulary comment 16.3, page 86**
+
+The word <i>dᶻix̌gʷiɬ</i> "broken down vehicle" is composed of two parts,
+
+<ul>
+  <li><i>dᶻix̌</i>  means "break down, collapse; breakdown of a mechanical device".
+  <li><i>-gʷil</i> In Lesson 13 it was learned that <i>gʷiɬ</i> meant "canoe".  In the
+present lesson we see that <i>gʷiɬ</i> has a somewhat broader meaning.
+It can refer to vehicles of any sort.
+
+`,
+
 "ʔukʷaxʷad čəd tsi dsk̓ʷuy.":
 `
 **Grammar Note 16.1, page 86**
@@ -15,7 +44,7 @@ person or thing acted upon.  Contrast the following two sentences:
 
 
 <br><br>
-**Footnote 1, p86**
+**Footnote 1, page 86**
 
 The exception to this statement is __ʔəɬəd__ "eat".  See sencence A.2 of
 Lesson 15.
@@ -30,7 +59,7 @@ The  two __-d__ endings have different meanings and it is only chance that
 they sound the same.  Compare the similar sigution in English, with __-s__ in __cats__
 meaning more than on cat, the the __s__ in __cat's__ meaning possession.
 
-(The apostrophe is irrelevant becuase it is not pronounced.)
+(The apostrophe is irrelevant because it is not pronounced.)
 
 `,
 
@@ -67,6 +96,8 @@ refers to chain-line things, knots along a rope, the spine, etc.
 
 "stab kʷ(i) suhuyləp.":
 `
+**stab kʷ(i) suhuyləp.**
+
 **Grammar Note 15.2, page 82**
 
 In asking several people what they are doing, the suffix
@@ -88,6 +119,9 @@ Lushootseed sentence as literally:  "What (is) your doing?"
 
 "ʔuʔax̌u(ʔ)b čəɬ ʔə tiʔəʔ sx̌əp̓ab.":
 `
+
+**ʔuʔax̌u(ʔ)b čəɬ ʔə tiʔəʔ sx̌əp̓ab.**
+
 **Footnote 2, page 81**
 
 Pronounced __sx̌u-p̓ub__ in Southern Lushootsed.
@@ -112,6 +146,10 @@ __-(ə)b__ can be added to many words as will be seen later.
 
 "ʔuqʷuləčalikʷ čəɬ ʔə tiʔəʔ qiw̓x̌.":
 `
+
+**ʔuqʷuləčalikʷ čəɬ ʔə tiʔəʔ qiw̓x̌.**
+
+
 **Footnote 1, page 81**
 
 __skʷawəl̓__ in Southern Lushootseed.
@@ -119,6 +157,8 @@ __skʷawəl̓__ in Southern Lushootseed.
 
 "ʔuʔəɬəd čəd ʔə tiʔəʔ duʔayus.":
 `
+**ʔuʔəɬəd čəd ʔə tiʔəʔ duʔayus.**
+
 **Footnote 3, page 80**
 
 Some people say __sc̓əlq__ instead of __duʔayus__.  Use whichever the
@@ -128,6 +168,9 @@ teacher prefers.
 
 "ʔušabalikʷ čəd ʔə tiʔəʔ sɬuʔəb.":
 `
+
+**ʔušabalikʷ čəd ʔə tiʔəʔ sɬuʔəb.**
+
 **Footnote 2, page 80**
 
 Only the Skagit say __sɬuʔəb.__ The Snohomish use __ƛ̓xʷayʔ__ and the
@@ -137,6 +180,9 @@ Southern Lushootseed say __ƛ̓əxʷayʔ__.
 
 "stab kʷ(i) adsuhuy.":
 `
+
+**stab kʷ(i) adsuhuy.**
+
 **Footnote 1, page 80**
 
 A different and equally common way of asking this question is
@@ -163,6 +209,8 @@ pattern.)
     
 "saliʔəxʷ ʔi tə ʔiɬčəx̌.":
 `
+**saliʔəxʷ ʔi tə ʔiɬčəx̌.**
+
 **Vocabulary Comment 14.14, page 78**
 
 ___ʔiɬčəx̌___ "half" consists of two parts:
@@ -177,6 +225,9 @@ ___ʔiɬčəx̌___ "half" consists of two parts:
 
 "p̓əɬq̓ʷ ʔə tə t̓agʷt.":
 `
+
+**p̓əɬq̓ʷ ʔə tə t̓agʷt**
+
 **Vocabulary Comment 14.13, page 78**
 
 The basic meaning of ___ t̓agʷt___ is "on top".
@@ -229,6 +280,9 @@ and literally:
 
 "k̓ʷidəladxʷ(əxʷ) čəxʷ.":
 `
+
+**k̓ʷidəladxʷ(əxʷ) čəxʷ**
+
 **Grammar Note 14.4, page 77**
 
 The suffixes ___-əladxʷ___ "year" and ___-(əɬ)dat___ "day, twenty-four hour period"
@@ -557,6 +611,9 @@ _yəlaʔc_, cannot be analyzed.
 
 "ɬuc̓əbəbiluɬ čəd ʔə kʷi dᶻətgʷad.":
 `
+
+**ɬuc̓əbəbiluɬ čəd ʔə kʷi dᶻətgʷad**
+
 **Vocabulary Comment 12.7, page 65**
 
 ___c̓əbəb___ &nbsp; derives from
@@ -1343,7 +1400,7 @@ word.  Some people pronounce it __(ʔ)o̅__ while others say __(ʔ)oo__
 
 "dᶻətgʷadac ʔu tiʔiɬ ʔal tudiʔ.":
 `
-**Footnote 3, page 37***
+**Footnote 3, page 37**
 
 ___dᶻətgʷadac___ is the Skagit word for salmonberry bush.  The
 Snohomish equivalent is ___stəgʷadac___.  Some Southern Lushootseed
@@ -1964,13 +2021,28 @@ and the ___-lay___.  It sounds something like a lateral lisp.  Some students fin
 to think of it as being ___lh___pronounced together.
 `,
 
-"stab əw'ə tiʔiɬ.":
+//----------------------- 
+// section 1.1, line 1
+//-----------------------
+
+"stab əw̓ə tiʔiɬ.":
 `
-___stab əw'ə tiʔiɬ___
+**stab əw̓ə tiʔiɬ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+</ul>
+
+</details>
+
 
 Footnote 2.
 
-In slow, deliberate speech, _əw'ə_ is prononoucned _haw'əʔ_.  It is spelled
+In slow, deliberate speech, _əw̓ə_ is prononoucned _haw̓əʔ_.  It is spelled
 here to represent the way it is often said in relaxed talking.
 
 Imitate whatever pronunciation the teacher uses regardless of how it is written here.
@@ -1982,19 +2054,159 @@ tightening may be omitted without causing misunderstanding.
 Lushootseed, unlike most languages in the world, has no word for _is_.  This absence may
 seem strange at first, but the student quickly learns how unnecessary it is.
 
-English has no word exaclty like _əw'ə_ (_haw'əʔ_).  It often adds a feeling
+English has no word exaclty like _əw̓ə_ (_haw̓əʔ_).  It often adds a feeling
 of wonder, and sometimes surprise, to a question.  The English words _could ...be_
 are not an exact translation, but only an attempt to express the flavor of the
-Lushootseed sentecne.
+Lushootseed sentence.
 
-It is possible to omit the _əw'ə_ and say simply _stab tiʔiɬ_.
+It is possible to omit the _əw̓ə_ and say simply _stab tiʔiɬ_.
 
-In later lessons (18.1) it will be learned that _əw'ə_ can add still other feelings to a sentence.
+In later lessons (18.1) it will be learned that _əw̓ə_ can add still other feelings to a sentence.
 `,
 
-"spaʔc tiʔiɬ":
+//----------------------- 
+// section 2.3, line 17
+//-----------------------
+
+"stab əw̓ə tiʔiɬ diʔucid ʔal tə stuləkʷ.":
 `
-___spaʔc tiʔiɬ___
+**stab əw̓ə tiʔiɬ diʔucid ʔal tə stuləkʷ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li> <b>diʔucid</b>
+    <ul>
+       <li><b>diʔ</b>  opposite side, other side; on, at, to the other side [LD 81]
+       <li><b>=ucid</b> (lexical suffix) body of water (to be crossed); river, mouth,
+           language; doorway; opening in general; eat [LD 243]
+      </ul>
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>tə</b> the, a [LD 219]
+   <li><b>stuləkʷ</b> river [LD 229]
+
+</ul>
+
+</details>
+
+`,
+
+
+//----------------------- 
+// section 2.4, line 19
+//-----------------------
+
+"stab əw̓ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ.":
+`
+**stab əw̓ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li> <b>diʔayucid</b>
+    <ul>
+       <li><b>diʔ</b>  opposite side, other side; on, at, to the other side [LD 81]
+       <li><b>=ayucid</b> (lexical suffix) path, road [LD 31]
+      </ul>
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>tə</b> the, a [LD 219]
+   <li><b>šəgʷɬ</b> path, road, doorway [LD 229]
+
+</ul>
+
+
+`,
+
+
+
+
+
+//----------------------- 
+// section 2.2, line 15
+//-----------------------
+
+"stab əw̓ə tiʔiɬ ʔal tə šəgʷɬ.":
+`
+
+**stab əw̓ə tiʔiɬ ʔal tə šəgʷɬ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>tə</b> the, a [LD 219]
+   <li><b>šəgʷɬ</b> road, path; doorway [LD 210]
+</ul>
+
+
+</details>
+
+`,
+
+
+
+
+//----------------------- 
+// section 2.1, line 13
+//-----------------------
+
+"stab əw̓ə tiʔiɬ ʔal tə stuləkʷ.":
+
+`
+**stab əw̓ə tiʔiɬ ʔal tə stuləkʷ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>tə</b> the, a [LD 219]
+   <li><b>stuləkʷ</b> river [LD 229]
+</ul>
+
+</details>
+
+`,
+
+
+
+
+//----------------------- 
+// section 1.1, line 2
+//-----------------------
+
+"spaʔc tiʔiɬ.":
+`
+**spaʔc tiʔiɬ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>spaʔc</b> black bear [Skagit] [LD 160]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+</ul>
+
+</details>
+
 
 Footnote 3.
 
@@ -2007,7 +2219,20 @@ Only the Skagit say _spaʔc_.  All other Puget Sound groups say ___sčətxʷəd_
 
 "sqigʷəc tiʔiɬ.":
 `
-___sqigʷəc tiʔiɬ___
+**sqigʷəc tiʔiɬ**
+
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>sqigʷəc</b> deer [Ld 178]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+</ul>
+
+</details>
+
+
+
 
 Footnote 4.
 
@@ -2018,6 +2243,21 @@ _elk_ for __sqigʷəc__ _deer_ thereby avoiding till a later lesson the sound "q
 "sʔuladxʷ tiʔiɬ.":
 `
 __sʔuladxʷ tiʔiɬ__
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>sʔuladxʷ</b> general term for salmon and sea-going trout
+          (e.g.) steelhead; fish in general. [LD 21]
+      <ul>
+         <li> <b>s-</b> nominalizer
+         <li> <b>ʔuladxʷ</b> catch salmon [LD 21]
+      </ul>
+   <li> <b>tiʔiɬ</b> that [LD 224]
+</ul>
+
+</details>
+
 
 __sʔuladxʷ__ is used by the Skagit and Snohomish.  The other groups say __sčədadxʷ__
  for salmon (and seagoing trout - both anadromous fish):
@@ -2043,9 +2283,55 @@ nitrogen and phosphorus to PNW forests, lakes, rivers and streams.
 `
 __bəščəb tiʔiɬ__
 
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>bəščəb</b> mink [LD 39]
+   <li> <b>tiʔiɬ</b> that [LD 224]
+</ul>
+
+</details>
+
+
 
 __bəščəb__ is used by the Skagit and Snohomish while the Suquamish and
-the more southerly groups say __c'əbalqid__ for mink.
+the more southerly groups say __c̓əbalqid__ for mink.
+`,
+
+
+'"ɬ: ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ."':
+`
+__ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.__
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>ɬuɬaɬlil</b>
+      <ul>
+         <li> <b>ɬu-</b> anticipated, expected or possible event [LD 147]
+         <li> <b>ɬaɬlil</b> dwell (there), reside, live (there) [LD 142]
+      </ul>
+
+   <li><b>čəɬ</b> we, us [LD 63]
+
+   <li><b>ʔi<sup>2</sup></b> and [LD 14]
+
+   <li> <b>tsiʔiɬ</b> that [feminine] [LD 228]
+   <li> <b>sɬaɬədəyʔ</b> girl [LD 141]
+       <ul>
+        <li><b>ɬadəyʔ</b> woman [LD 141]
+        <li><b>s-ɬad-ɬadəyʔ</b> girl, girl friend (reduplication #1,
+        diminutive.) [LD 141]
+     </ul>
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li> <b>tudiʔ</b> (that one) over there, yonder [LD 229]
+</ul>
+
+</details>
+
+
 `,
 
 }
