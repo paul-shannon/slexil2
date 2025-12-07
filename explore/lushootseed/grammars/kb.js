@@ -1985,25 +1985,64 @@ case, to be explained later) is silent and can be omitted for
 purposes of sound drill' (___šxʷ(h)udad___ in Southern Lushootseed means _firepit_.)
 `,
 
-"xʷ: ʔuxʷit'il tə sxʷət dxʷal tə xʷudad.":
+'"xʷ: ʔuxʷit̓il tə sxʷət dxʷal tə xʷudad."':
 `
 ___xʷ___
 
 is something like _wh_ in English _where_ and _who_ but it has a slightly
 more raspy quality.
+
+<details><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>ʔuxʷit̓il</b>
+      <ul>
+         <li><b>ʔu</b> action is viewed as a whole [LD 19 (3)]
+         <li><b>xʷitil, xʷt̓-, xʷət̓</b> fall from height, free fall, fall off. [LD 253]
+      </ul>
+   <li><b>tə</b> the, a. [LD 219]
+   <li><b>sxʷət</b> thrush, salmonberry bird [LD 251]
+   <li><b>xʷ(h)udad</b> ash, ashes [LD 111]
+</ul>
+
+</details>
+
 `,
 
 
-"q: ?uqada tə dqəqsiʔ ʔə tə qəlx̌.":
+'"q: ʔuqada tə dqəqsiʔ ʔə tə qəlx̌."':
 `
 ___q___
 
-The sound representeed by this letter is not known in English.
+The sound represented by this letter is not known in English.
 It is something like the English __k__ but pronounced rather back in the mouth.
 Listen to the teacher (or recording) carefully.  The following may help the student
 master this sound: With finger against the top of the tongue, gently push it back
 while trying to say __Kay__.  This should produced the sound ___qi___ (_qa_), the first part
 of the word for __deer__.
+
+<details><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>uqada</b>
+      <ul>
+         <li><b>ʔu</b> action is viewed as a whole [LD 19 (3)]
+         <li><b>qada</b> steal [LD 172]
+      </ul>
+   <li><b>tə</b> the, a. [LD 219]
+   <li><b>dqəsiʔ</b>
+      <ul>
+        <li><b>d-</b> I, me, my [LD 76]
+        <li><b>qsiʔ, qəsiʔ</b> uncle; male sibling of either parent while
+         that parent is living.  [LD 180]
+      </ul>
+   <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+   <li><b>qəlx̌, qələx̌</b> dried salmon eggs [LD 176]
+</ul>
+
+</details>
+
+
 `,
 
 
@@ -2029,7 +2068,7 @@ to think of it as being ___lh___pronounced together.
 `
 **stab əw̓ə tiʔiɬ**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
@@ -2072,7 +2111,7 @@ In later lessons (18.1) it will be learned that _əw̓ə_ can add still other fe
 `
 **stab əw̓ə tiʔiɬ diʔucid ʔal tə stuləkʷ**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
@@ -2105,7 +2144,7 @@ In later lessons (18.1) it will be learned that _əw̓ə_ can add still other fe
 `
 **stab əw̓ə tiʔiɬ diʔayucid ʔal tə šəgʷɬ**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
@@ -2140,7 +2179,7 @@ In later lessons (18.1) it will be learned that _əw̓ə_ can add still other fe
 
 **stab əw̓ə tiʔiɬ ʔal tə šəgʷɬ**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
@@ -2170,7 +2209,7 @@ In later lessons (18.1) it will be learned that _əw̓ə_ can add still other fe
 `
 **stab əw̓ə tiʔiɬ ʔal tə stuləkʷ**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
@@ -2198,7 +2237,7 @@ In later lessons (18.1) it will be learned that _əw̓ə_ can add still other fe
 `
 **spaʔc tiʔiɬ**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>spaʔc</b> black bear [Skagit] [LD 160]
@@ -2222,7 +2261,7 @@ Only the Skagit say _spaʔc_.  All other Puget Sound groups say ___sčətxʷəd_
 **sqigʷəc tiʔiɬ**
 
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>sqigʷəc</b> deer [Ld 178]
@@ -2244,7 +2283,7 @@ _elk_ for __sqigʷəc__ _deer_ thereby avoiding till a later lesson the sound "q
 `
 __sʔuladxʷ tiʔiɬ__
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>sʔuladxʷ</b> general term for salmon and sea-going trout
@@ -2283,7 +2322,7 @@ nitrogen and phosphorus to PNW forests, lakes, rivers and streams.
 `
 __bəščəb tiʔiɬ__
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>bəščəb</b> mink [LD 39]
@@ -2303,7 +2342,7 @@ the more southerly groups say __c̓əbalqid__ for mink.
 `
 __ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.__
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ɬuɬaɬlil</b>
@@ -2314,7 +2353,7 @@ __ɬuɬaɬlil čəɬ ʔi tsiʔiɬ sɬaɬədəyʔ ʔal tudiʔ.__
 
    <li><b>čəɬ</b> we, us [LD 63]
 
-   <li><b>ʔi<sup>2</sup></b> and [LD 14]
+   <li><b>ʔi </b> and [LD 14 (2)]
 
    <li> <b>tsiʔiɬ</b> that [feminine] [LD 228]
    <li> <b>sɬaɬədəyʔ</b> girl [LD 141]
