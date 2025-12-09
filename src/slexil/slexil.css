@@ -77,13 +77,14 @@ td, th {
     margin-bottom: 1px;
     padding-bottom: 0px;
     margin-right: 10px;
-    width:55px;
-    padding-left: 7px;
-    padding-right: 3px;
+    width: 60px;
+    //padding-left: 7px;
+    //padding-right: 3px;
     background: #eeeeee;
     border: 1px solid gray;
     border-radius: 10px;
     font-size: 16px;
+    text-align: center;
     }
 
 .otherControlsGridWrapper{

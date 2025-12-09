@@ -44,7 +44,7 @@ $(function() {
             //infoBox.hide()
             }) // mouseleave
 
-    $(".morpheme-cell, .grammatical-term").on('click', function(e){
+    $(".morpheme-cell, .grammatical-term, .storyLaunch").on('click', function(e){
         //.click(function(e){
             console.log("morpheme-cell, grammatical-term click!")
             var currentElement = $(this);
