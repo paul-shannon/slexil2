@@ -1,6 +1,130 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"Living in the Dark":
+`
+**Living in the Dark**
+
+As the tale begins we learn that the people live in the dark.  We do not know 
+what they eat, how they get around, how they stay warm. Perhaps they have a
+small fire?  Maybe salmon run up the river from the ocean.
+
+Our biological lives also began in the dark.  In the current view,
+life began deep in the blackness of the unlit ocean.  At cracks in the
+crustal plates, hot water and gas erupted from the ocean floor,
+carrying minerals which piled up to form towers, some of them 200 feet
+high.  These towers were made of billions of small FeS compartments,
+tiny, the size of cells.  The torrent of water was alkaline, conveying
+proton acceptors.   The surrounding cool ocean water had copious dissolved CO2, ready
+to donate protons.  Thus electrons flowed from ocean to the vent cells,
+hydrocarbons formed, became concentrated in the vent cells, then good luck and
+long durations eventually formed carbon chains in reactions which eventually
+stumbled into autocatalysis.  
+
+Though these vent towers were (and are - they still form, build, grown and collapse)
+tall by human standards, they were tiny compared to the ocean.  Life started here.
+In the dark.  Around this small fiery blast.
+
+The people had no daylight, but perhaps small fires.
+
+Early earth life also had no (useful) daylight, but arose around these
+small vents, metaphorical small fires in a cold dark world, just like
+the people dwelling without sunlight on the Upper Skagit.
+
+
+ The biology boils down to carbon fixation, adding
+high energy hydrogen bonds to CO2, creating
+
+
+wikipedia: Biological carbon fixation, or сarbon assimilation, is the process by
+which living organisms convert inorganic carbon (particularly carbon
+dioxide, CO2) to organic compounds. These organic compounds are then
+used to store energy and as structures for other biomolecules.
+
+Carbon is primarily fixed through photosynthesis, but some organisms
+use chemosynthesis in the absence of sunlight. Chemosynthesis is
+carbon fixation driven by chemical energy rather than from sunlight.
+
+To build carbon chain molecules, holding energy, and providing
+structural components adaptable to more (and later) processes,
+a source of energy was needed.  And containment, some process
+or structure which prevents the dilution, encourages the accumulation
+of these promising molecules.
+
+[Unknown source, but  "kindle book" is mentioned in the garden]
+
+What life does is take carbon dioxide from the atmosphere or the ocean
+and react it with hydrogen gleaned from water to produce waste
+products such as methane, acetate and, later in Earth’s history,
+oxygen. Life spends free energy, in the long run bringing the Earth
+closer to equilibrium. Here is the key clue to the emergence of life:
+a particular disequilibrium. More specifically, carbon dioxide emitted
+from volcanoes, and the hydrogen emanating from the Earth at hot
+springs or produced by photosynthesis, are out of equilibrium. They
+want to react but are inhibited from doing so by the symmetry of the
+carbon dioxide molecule. Life is the catalyst that encourages and
+quickens their interaction.
+
+Add this from bill martin et al, 2020:
+
+Since their discovery 40 years ago, submarine hydrothermal vents have
+been a focus of research on life’s origin. They harbour conditions
+that are just right to promote the chemical reactions that biologists
+suspect to have fuelled the first biochemical pathways and the first
+free living cells. Just recently a study showed that protocells can
+form under the conditions found in such systems.
+
+Successful CO2 fixation under these conditions was always a declared
+goal as it is the starting point of primitive metabolism. Why? It is a
+crucial concept of origin of life research to find a connection
+between abiotic processes in geochemical settings and life’s
+biochemical pathways. Carbon fixation is a great starting point from
+both a geological and a biological perspective. There are autotrophic
+microbes, acetogens and methanogens, that use hydrogen gas (H2) as an
+electron and energy source to fix CO2 via a metabolic route called the
+acetyl-CoA pathway. The microbes first convert H2 and CO2 to formate,
+acetate and pyruvate, which contain one, two and three carbons,
+respectively.
+
+From these biomolecules they then make all of their organic material
+through a dense roadmap of complicated reactions, in short:
+metabolism. Notably, H2 is also a main component of the effluent that
+emerges from alkaline hydrothermal vent systems.
+
+leading on to harnessing of geochemical energy, and then the energy
+from sunlight.
+
+**chemosynthesis - life in the dark**
+
+From Judson, The energy expansions of evolution.
+
+
+Geochemical energy arises when water reacts with basalts and other
+rocks8–10. These water–rock reactions—which continue today11—generate
+reduced compounds such as hydrogen, hydrogen sulfide, and
+methane8–10. Oxidation of these compounds releases energy, which
+organisms can capture and store in the form of chemical
+bonds. Although sources of geochemical energy can be at or near
+Earth’s surface, they need not be: many are deep within the planet,
+out of reach of sunlight.  Assuming that life did not parachute in,
+fully formed, from elsewhere, a number of authors12–15 have argued
+that the transition from non-life to life took place in the context of
+geochemical energy, with the ability to harness sunlight evolving
+later (Fig.  1). Consistent with this, both phylogenetic16 and
+biochemical13,17 evidence suggest that the earliest life forms were
+chemoautotrophs, perhaps living by reacting hydrogen with carbon
+dioxide and giving off acetate, methane and water13,16. Mounting
+evidence18–22 suggests that the transition from non-life to life may
+have taken place before 3.7 Ga—a time from which few rocks remain23.
+
+Productivity (says judson's references) would have been 3 or maybe 6
+orders of magnitude less than our current, photosynthetic economy.
+
+All of this leads to LUCA, the non-photosynthetic original gangster cell.
+This was life in the dark.
+
+`,
+
 "gʷə=d=s=ʔəs–huy":
 
 `
@@ -278,6 +402,17 @@ devices.
 <h5>dč̓aʔkʷbixʷ</h5>
 
 - _dč̓aʔkʷbixʷ_: foreigner, from a different tribe, others
+- _=bixʷ_: homogeneous group or cluster, lexical suffix [LD 40]
+     - _gʷədbixʷ_: blackberry
+- _dəč̓uʔ_: one; another, another one. [LD 78]
+- _ləliʔ=aʔkʷ=bixʷ_: foreigners
+- _=aʔkʷ_: group viewed distributively, lexical suffix. [LD 24]
+     - In linguistics, logic, and social sciences, a group "viewed
+       distributively" refers to a perspective where a property,
+       action, or relation applies to each individual member of a
+       group separately, rather than to the group as a single
+       collective entity.
+     - _stab=aʔkʷ=bixʷ čəxʷ_: what sort of a person are you? (rude) [LD 24]
 - _ʔítakʷbixʷ_: Suquamish 
 - _ləlíʔaʔkʷbixʷ_: a different class, breed, type; foreigners
 - _bək̓ʷaʔkʷbixʷ_: all nations, everyone 
@@ -671,8 +806,12 @@ rather than dialect.
 - _(the sun) in its exclusive custom, progresses incrementally to the other side (of the sky)_
 - _ƛ̓u_: habitual
 - _=lə_: progressive
-- _diʔ_: variant of _adiʔ_ LD82
-     - _adiʔ_: ear, side, sound [lexical suffix] derived from _diʔ_.  LD26
+- _diʔ_: variant of _adiʔ_ [LD81]
+     - opposite side, other side, on/at/to the other side 
+     - _adiʔ_: ear, side, sound [lexical suffix] derived from _diʔ_.  [LD26]
+     - _dədidiʔ_: mov over!
+     - _diʔucid_: other side of the path, road, lake, river, body of water
+     - _diʔyalus_: other end, on the end. lexical suffix _yalus_: end, edge [LD 274]
 - exclusivity: 
      - _diʔ-iʔ_:  Beck Grammar type III reduplication expressing exclusitivity
      - not to be confused with _red3_ from LD xvii.
@@ -4080,23 +4219,6 @@ _čəɬ_
 _conjectured hard-to-do taking_
 - _gʷə_: SBJ (subjunctive) LD 95
     - if, maybe, might
-    - inflectional subjunctive prefix expressing doubt, events contrary to fact
-    - appears on any lexical category functioning as predicate or complement
-    - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
-      express their attitude toward what they are saying) found in many languages. Subjunctive forms
-      of verbs are typically used to express various states of unreality such as wish, emotion,
-      possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
-      situations in which they are used vary from language to language. The subjunctive is an
-      irrealis mood (one that does not refer directly to what is necessarily real) – it is often
-      contrasted with the indicative, which is a realis mood (used principally to indicate that
-      something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
-    - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
-      can always roughly be paraphrased to fit the following template:
-      According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
-    
-- _dəxʷ<sup>1</sup>_ : predicate adverb, gloss unknown  LD 80
 - _dəxʷ<sup>2</sup>_ : ADNM (adjunctive nominalizer)  LD 81
     - reason for, place where, time when
     - inflectional prefix marking a subordinate predicate in construction with a fronted adjunct
@@ -4104,8 +4226,7 @@ _conjectured hard-to-do taking_
       used primarily for the nominalization of <button id="refButton" onclick="ref('adjunct');">adjunct</button> and circumstantial expressions, particularly (but not exclusively), 
       instruments, locations, motivations, and manners, and will be referred to here as an adjunctive nominalizer.
 - _kʷəd(a)_: take, get, hold, grasp; carry in the hand. LD 123
-- _dxʷ_ : lack of control, accidentally, accomplish with difficulty
-    - DC: diminished control
+- _-dxʷ_ : lack of control, accidentally, accomplish with difficulty [LD 82]
 
 `,
 
@@ -4581,11 +4702,11 @@ patterns.
 
 "tudxʷadhadəxʷ tiʔəʔ ʔaciɬtalbixʷ.  gʷʔəsčaləxʷ kʷi gʷədəxʷkʷədxʷ čəɬ kʷi sləx̌il.":
 `
-past.talk-talk.now this people.  SBJ.how?now remote SBJ.means.take/get.difficult us remote daylight
+past.talk-talk.now this people.  SBJ.how?now remote
+SBJ.means.take/get.difficult us remote daylight
 
-<audio id="line3-halfSpeed"><source src="audio/line3-halfSpeed.wav"/></audio><button onclick="playSample('line3-halfSpeed')">half-speed</button>
+The people talked it over. How can we manage to obtain the daylight?
 
-first SBJ is my interpolation from the audio.
 
 `,
 

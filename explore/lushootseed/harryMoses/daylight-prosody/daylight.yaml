@@ -7,6 +7,14 @@ mimeType: audio/x-wav
 
 lines:
 
+  - html: "<div style='margin: 30px;' class='storyLaunch' id='livingInTheDark'>
+           <center>
+           <hr style="width: 400px;">
+           Living in the Dark
+           <hr style="width: 400px;">
+           </center>
+           </div>"
+
   - startTime: 0
     endTime: 5942
     lushootseed: ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.
@@ -28,7 +36,6 @@ lines:
     morphemes: [tu=dxʷ–had–had=əxʷ, tiʔəʔ, ʔaciɬtalbixʷ,ʔəs–čal=əxʷ,kʷi,gʷə=dəxʷ=kʷəd–dxʷ,čəɬ,kʷi,sləx̌il]
     morphemeGloss: [PAST=CTD–DSTR–discuss=now,PROX,people,STAT–how=now,REM,SBJ=ADNM=take–DC,1PL.PO,REM,daylight]
     english: The people talked it over.   "How can we get it?"
-    ps.english: (<i>ps: The people talked it over. How can we manage to obtain the daylight?</i>)
 
   - startTime: 17746
     endTime: 23000
@@ -147,7 +154,6 @@ lines:
     morphemes: [ʔal=əxʷ,kʷi,čəɬ,tu=buus•al•gʷiɬ–il,kʷi,tu=ʔas–x̌ək̓ʷ,ƛ̓əlayʔ]
     morphemeGloss: [at=now,REM,made,PAST=four•CNN•canoe–INCH,REM,PAST=STAT–overturned,canoe]
     english: When it became four canoes and they jumped over these four, then it was there.’
-    ps.english: (<i>ps: Now prepared, now prepared four, four canoes turned over shovel nose canoe.)</i>
 
   - startTime: 77690
     endTime: 81022
@@ -156,7 +162,6 @@ lines:
     morphemes: [gʷəl,tu=saxʷəb•abac–d,tiʔəʔ,buus•al•gʷiɬ,ƛ̓əlayʔ]
     morphemeGloss: [SCONJ,PAST=jump•body–ICS,PROX,four•CNN•canoe,canoe]
     english:
-    ps.english:  (<i>ps: And they jumped over these four canoes.</i>)
 
   - startTime: 81245
     endTime: 87863
@@ -411,7 +416,7 @@ lines:
   - startTime: 225680
     endTime: 229284
     lushootseed: xʷiʔəxʷ kʷi gʷatəxʷ ʔal cəxʷʔaʔ gʷəƛ̓ashuyuc haʔɬ
-    soundsLike: wah kwee gwah.tuff uf chuff.AH gwuh.tlahs.HOYoot t'hawɬ
+    soundsLike: wah kwee gwah.tuff uf chuff.AH gwuh.tlahs.HOYoots t'hawɬ
     morphemes: [xʷiʔ=axʷ,kʷi,gʷat=axʷ,ʔal,d=dəxʷ=ʔaʔ,gʷə=ƛ̓u=ʔas–huyu–t–s,haʔɬ]
     morphemeGloss: [neg=now,REM,who=now,at,1SG.PO=ADNM=be.there,SBJ=HAB=STAT–made–ICS–1SG.obj,good]
     english: “There is no one where I am who treats me well."
@@ -419,7 +424,7 @@ lines:
   - startTime: 229484
     endTime: 235296
     lushootseed: ləʔəƛ̓ ləgʷəč̓alikʷ dxʷʔal kʷi siʔab ʔabsləx̌il ʔaʔ kʷi ɬudsəsɬaq̓
-    soundsLike: tluh-utt lugʷ.chaleek dwhuff kwee kwoal.see see.ab awbs.sluh.kail ah kwee sloods.zock
+    soundsLike: tluh-utt lugʷ.chawleek dwhuff kwee dwoal.see see.ab awbs.sluh.kail ah kwee sloods.zock
     morphemes: [lə=ʔəƛ̓,lə=gʷəč̓–alikʷ,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il,ʔaʔ,kʷi,ɬu=d=s=ʔas–ɬaq̓]
     morphemeGloss: [prog=come,prog=search–act,cntrpt–at,rem,noble,stat–prop–daylight,be.there,REM,IRR=1SG.PO=NM=STAT–fallen]
     english:  I am coming, looking for the nobleman who possesses daylight. There I will lie down.
@@ -520,7 +525,7 @@ lines:
   - startTime: 272256
     endTime:   274573
     lushootseed: diɬ səɬaˑx̌il
-    soundsLike: deeth luh.slah.xil
+    soundsLike: deeth luh.slaaaaah.hail
     morphemes: [diɬ,s=lə=ɬax̌–il]
     morphemeGloss: [foc,NM=PROG=dark–INCH]
     english: It gradually became night.
@@ -528,7 +533,7 @@ lines:
   - startTime: 275037 
     endTime:   277189
     lushootseed: ƛ̓uləƛ̓uc̓usitəb diɬ sbəsads
-    soundsLike: 
+    soundsLike: tlah.sloatz.ootz.seeb too.deesh shawt 
     morphemes: [ƛ̓u=lə=ƛ̓uc̓•us–i–t–b,diɬ,s=bəsad=s]
     morphemeGloss: [HAB=PROG=tied.in.bunch•face–SS–ICS–PASS,foc,NM=dark=3PO]
     english: It would gradually get its face tied shut. It was then that it was dark.
@@ -544,12 +549,12 @@ lines:
   - startTime: 278093
     endTime:   280761
     lushootseed: ʔəswačbitəb ʔə bibščəb
-    soundsLike: 
+    soundsLike: us.watch.uh.bee.tuh.bub babes.chud
     morphemes: [ʔəs–wač–bi–t–b,ʔə,bi–bəščəb]
     morphemeGloss: [STAT–watch–MAP–ICS–PASS,pr,attn–mink]
     english: It was watched by Little Mink.
 
-  - html: "<div style='margin: 30px; margin-left: 200px;'>
+  - html: "<div style='margin: 30px; margin-left: 200px;>
            <hr style="width: 400px;">
            Mink makes his first attempt
            <button style="margin-left: 50px" onclick="myBox('encounter')">V</button>

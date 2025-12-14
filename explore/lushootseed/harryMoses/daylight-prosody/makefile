@@ -19,7 +19,7 @@ default:
 	@echo  viewRemote
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 PORT = 8009
 
@@ -90,6 +90,14 @@ publish:
 
 publish-audio:
 	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+
+DEST=paulshannnon@pshannon.net:public_html/pshannon.net/daylight
+publish-pshannon:
+	scp daylight2.html $(DEST)/index.html
+	scp kb.js $(DEST)
+	scp linguisticTerms.js $(DEST)
+	scp daylight-restoration_V03-22k-aLaw.wav $(DEST)
+
 
 updateLocal: s2h inject view
 
