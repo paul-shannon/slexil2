@@ -22,7 +22,7 @@ default:
 	@echo testyaml
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 valid:
 	python ~/github/slexil2/utils/validXML.py $(EAF) 2>&1 | more

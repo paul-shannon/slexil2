@@ -765,46 +765,172 @@ lines:
     endTime: 1441235
     lushootseed: ʔu, xʷiʔ. gʷət̓əbaʔ čəxʷ.
 
-#  - html: "<br><div class='sectionNumber'>33ex.5</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#  - html: "<br><div class='sectionNumber'>33ex.6</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#  - html: "<br><div class='sectionNumber'>33ex.7</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#  - html: "<br><div class='sectionNumber'>33ex.8</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#  - html: "<br><div class='sectionNumber'>33ex.9</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#  - html: "<br><div class='sectionNumber'>33ex.10</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#  - html: "<br><div class='sectionNumber'>33ex.11</div>"
-#
-#  - startTime: 
-#    endTime: 
-#    lushootseed: 
-#
-#
+  - html: "<br><div class='sectionNumber'>33ex.5</div>"
+
+  - startTime: 1449690
+    endTime: 1455277
+    lushootseed: ʔu k̓ʷuyəʔ, cick̓ʷ čəd x̌aƛ̓txʷ kʷi gʷədsʔux̌ʷ.
+
+  - html: "<br><div class='sectionNumber'>33ex.6</div>"
+
+  - startTime: 1464670
+    endTime: 1466543
+    lushootseed: ɬuhaʔɬ čəd.
+
+  - html: "<br><div class='sectionNumber'>33ex.7</div>"
+
+  - startTime: 1471387
+    endTime: 1473898
+    lushootseed: x̌ul̓ čəd ɬ(u)asgʷədil.
+
+  - html: "<br><div class='sectionNumber'>33ex.8</div>"
+
+  - startTime: 1481347
+    endTime: 1483639
+    lushootseed: ƛ̓ub.  hiwiləxʷ.
+
+  - html: "<br><div class='sectionNumber'>33ex.9</div>"
+
+  - startTime: 1492938
+    endTime: 1506395
+    lushootseed: tux̌ʷ čəxʷ x̌ul̓ ɬ(u)asgʷədil ʔudgʷiɬ ʔə ti ƛ̓əlayʔ čəxʷa ɬ(u)askʷədyalc ʔə kʷi tib.
+
+  - html: "<br><div class='sectionNumber'>33ex.10</div>"
+
+  - startTime: 1522028
+    endTime: 1524653
+    lushootseed: xʷiʔ kʷ(i) adskiis.
+
+  - html: "<br><div class='sectionNumber'>33ex.11</div>"
+
+  - startTime: 1531400
+    endTime: 1537697
+    lushootseed: ʔi, k̓ʷuyəʔ.  ɬuhuy čəd ʔəsʔistəʔ.
+
+  - html: "<br><div style="width: 1000px;" class='lessonTitle'>Lesson Thirty-Four:  <i>ɬixʷačiʔ ʔi ti buus</i> &nbsp; (A Text about Hardtack)</div>"
+
+  - html: "<br><div class='sectionNumber'>34.1</div>"
+
+  - startTime: 1555238
+    endTime: 1560047
+    lushootseed: tuɬčil kʷi <i>ship</i> gʷəɬ <i>Hudson Bay Company</i>
+    
+  - html: "<br><div class='sectionNumber'>34.2</div>"
+
+  - startTime: 1567097
+    endTime: 1573168
+    lushootseed: tuɬčil dxʷʔal ti swatixʷtəd gʷəɬ dxʷsƛ̓alb ʔal kʷi tuhaʔkʷ.
+
+  - html: "<br><div class='sectionNumber'>34.3</div>"
+
+  - startTime: 1581736
+    endTime: 1585261
+    lushootseed: tulətagʷš kʷi k̓ʷəluʔ gʷəɬ st̓əqxʷ.
+
+  - html: "<br><div class='sectionNumber'>34.4</div>"
+
+  - startTime: 1591495
+    endTime: 1595095
+    lushootseed: gʷəɬ bək̓ʷ stab k̓ʷəluʔ tulətagʷš.
+
+  - html: "<br><div class='sectionNumber'>34.5</div>"
+
+  - startTime: 1601176
+    endTime: 1608989
+    lushootseed: tuɬildəxʷ kʷi ʔaciɬtalbixʷ ʔə kʷi ləpəskʷi ʔi kʷi blas ʔi kʷi šukʷə ʔi kʷi səpləl. 
+
+  - html: "<br><div class='sectionNumber'>34.6</div>"
+
+  - startTime: 1619165
+    endTime: 1621846
+    lushootseed: t(u)asšəcbitəb ʔe ti ʔaciɬtalbixʷ.
+
+  - html: "<br><div class='sectionNumber'>34.7</div>"
+
+  - startTime: 1628858
+    endTime: 1630693
+    lushootseed: xʷiʔ kʷi gʷəslək̓ʷtəbs.
+
+  - html: "<br><div class='sectionNumber'>34.8</div>"
+
+  - startTime: 1635560
+    endTime: 1636364
+    lushootseed: xʷiʔ!
+
+  - html: "<br><div class='sectionNumber'>34.9</div>"
+
+  - startTime: 1646420
+    endTime: 1650766
+    lushootseed: gʷəl, ƛ̓al̓ tubəɬčil dxʷʔal tiʔiɬ ʔitakʷbixʷ.
+
+  - html: "<br><div class='sectionNumber'>34.10</div>"
+
+  - startTime: 1653715
+    endTime: 1656865
+    lushootseed: ƛ̓alʔ tubəɬild ʔə kʷi ləpəskʷi.
+
+  - html: "<br><div class='sectionNumber'>34.11</div>"
+
+  - startTime: 1663269
+    endTime: 1667376
+    lushootseed: xʷiʔ kʷi gʷat tulək̓ʷəd ʔal tiʔəʔ ʔitakʷbixʷ.
+
+  - html: "<br><div class='sectionNumber'>34.12</div>"
+
+  - startTime: 1673655
+    endTime: 1674996
+    lushootseed: ʔəsluʔluʔ.
+
+  - html: "<br><div class='sectionNumber'>34.13</div>"
+
+  - startTime: 1679800
+    endTime: 1683522
+    lushootseed: gʷəl ʔəxʷscutəb: "sʔuləč̓ kʷi ƛ̓ulək̓ʷəd."
+
+  - html: "<br><div class='sectionNumber'>34.14</div>"
+
+  - startTime: 1691642
+    endTime: 1693601
+    lushootseed: tuliləxʷ kʷi šuƛ̓.
+
+  - html: "<br><div class='sectionNumber'>34.15</div>"
+
+  - startTime: 1698818
+    endTime: 1703173
+    lushootseed: huy, tukʷədatəbəxʷ ʔə ti wiw̓su ti ləpəskʷi.
+
+  - html: "<br><div class='sectionNumber'>34.16</div>"
+
+  - startTime: 1709574
+    endTime: 1714257
+    lushootseed: tuhuyudəxʷ (h)əlgʷəʔ sbəbiʔ ʔal ti šuƛ̓ sgʷistalb.
+
+  - html: "<br><div class='sectionNumber'>34.17</div>"
+
+  - startTime: 1721937
+    endTime: 1723774
+    lushootseed: tutəǰədəxʷ (h)əlgʷəʔ.
+
+  - html: "<br><div class='sectionNumber'>34.18</div>"
+
+  - startTime: 1729380
+    endTime: 1730844
+    lushootseed: gʷəl təǰədəxʷ.
+
+  - html: "<br><div class='sectionNumber'>34.19</div>"
+
+  - startTime: 1733502
+    endTime: 1737564
+    lushootseed: huy, tuɬəqʷəxʷ ti ləpəskʷi gʷəl gʷəbiƛ̓ad.
+
+  - html: "<br><div class='sectionNumber'>34.20</div>"
+
+  - startTime: 1743815
+    endTime: 1748241
+    lushootseed: ʔu ʔəsʔistə(ʔ) əw̓ə kʷi səshuys!
+
+  - html: "<br><div class='sectionNumber'>34.21</div>"
+
+  - startTime: 1755228
+    endTime: 1757175
+    lushootseed: xʷiʔ əw̓ə kʷi gʷəsuɬəqʷs.
