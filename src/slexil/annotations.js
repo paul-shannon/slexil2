@@ -68,7 +68,10 @@ $(function() {
 
   $("#toggleAnnotationsButton").click(function(){
      var annoDivVisible = $("#annoNotesDiv").is(":visible")
-     console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
+     var currentPosition = $("#textDiv").scrollTop();
+     console.log("click simple anno toggle, annoDivVisible? " + annoDivVisible +
+                "  pos: " + currentPosition)
+     console.log
      if (annoDivVisible){
         console.log("hiding annoDiv");
         showAnno = false;
@@ -84,6 +87,10 @@ $(function() {
         $("#linguisticTopicController").css("display", "inline-block")
         showAnno = true;
         }
+     console.log("  --- toggle complete, setting position: " + currentPosition)
+     $("#textDiv").scrollTop(currentPosition);
+     console.log("     position check after set: " + $("#textDiv").scrollTop())
+
      }); // toggleAnnotationsButton click
     pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/14'  //0.0.0.0 Safari/537.36"'
                   // Version 141.0.7390.108 (Official Build) (arm64)
