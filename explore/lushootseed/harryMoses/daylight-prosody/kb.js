@@ -249,14 +249,22 @@ irr=1sg.po=nm=stat–lie.down
 "lə=gʷəč̓–alikʷ":
 `
 <b>lə=gʷəč̓–alikʷ</b>
-
 - PROG=search–ACT
+- <b>alikʷ</b>: creative activity [LD 28]
+- The suffix -alikʷ ‘causative of activity [ACT]’ or, as it has been
+  traditionally glossed, ‘creative activity’ (Hess 1976; Bates, Hess &
+  Hilbert 1994; Bates & Hess 2003) — is an intransitive causative
+  suffix which, when added to a monovalent base, creates a bivalent
+  intransitive verb by adding an AGENT expressed as syntactic
+  subject. The resultant verbs express an event in which the AGENT is
+  engaged in an activity affecting a PATIENT or involving a THEME. As
+  an intransitive causative, however, the causative of activity
+  creates stems that express the PATIENT/THEME as an oblique, rather
+  than a direct, object.
+
 - <b>lə </b>: progressive
 - <b>gʷəč̓</b>: look for, search [LD 98]
-- <b>alikʷ</b>: creative activity [LD 28]
-     - lexical suffix forming agent-oriented stems  with iterative meaning
-     - ACT: activity
-- <b>gʷəč̓–alikʷ<b>: someone regularly seeks someone or something [LD 98]     
+- <b>gʷəč̓–alikʷ</b>: someone regularly seeks someone or something [LD 98]     
      
 
 `,

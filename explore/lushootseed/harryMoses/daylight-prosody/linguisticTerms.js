@@ -1,5 +1,102 @@
 linguistics = {
 
+"ACT":
+`
+<h5>ACT: causative of (creative) activity</h5>
+
+From David Beck's draft grammar, page 96:
+
+The suffix -alikʷ ‘causative of activity [ACT]’ or, as it has been
+traditionally glossed, ‘creative activity’ (Hess 1976; Bates, Hess &
+Hilbert 1994; Bates & Hess 2003) — is an intransitive causative suffix
+which, when added to a monovalent base, creates a bivalent
+intransitive verb by adding an AGENT expressed as syntactic
+subject. The resultant verbs express an event in which the AGENT is
+engaged in an activity affecting a PATIENT or involving a THEME.  As
+an intransitive causative, however, the causative of activity creates
+stems that express the PATIENT/THEME as an oblique, rather than a
+direct, object, as in (71):
+
+<pre>
+
+(71) a. ʔuč̓ax̌ʷ čəd
+        ʔu–č̓ax̌ʷ čəd
+        PFV–clubbed 1SG.SUB
+        I got hit [by a branch in the thicket]
+
+      b. ƛ̓ubəxʷ čəɬ ʔuč̓axʷalikʷ ʔə tiʔəʔ buʔqʷ
+         ƛ̓ub=əxʷ čəɬ ʔu–č̓axʷ–alikʷ ʔə tiʔəʔ buʔqʷ
+         well=now 1PL.SUB PFV–clubbed–ACT PR PROX duck
+         we had better use [our paddles] as clubs against these ducks
+
+</pre>
+
+Here, the radical č̓axʷ ‘be hit with a stick’ in its bare form assigns
+the semantic role of PATIENT to its single argument, which is
+expressed as the semantic subject (71a). When -alikʷ is added to the
+radical, the subject of the derived form is an AGENT and the PATIENT
+is expressed as an oblique object, as in (71b). As shown in (72), an
+overt, non-oblique NP is interpreted as the subject rather than the
+object of an -alikʷ form:
+
+<pre>
+(72) c̓əlalikʷ tsiʔiɬ ƛ̓aƛ̓ac̓apəd
+     c̓əl–alikʷ tsiʔiɬ ƛ̓aƛ̓ac̓apəd
+     defeated–ACT DIST:FEM ant
+     ‘Ant wins’    (Hess 1995: 145, line 58)
+</pre>
+
+In addition to changing the valency of its base, -alikʷ adds the
+notion of a repeated or temporally extended action (Bates & Hess
+2003), frequently creating verbs for culturally important or routine
+activities. A number of such forms are given in Table 34:
+
+<pre>
+ʔabalikʷ ‘give away as in a potlatch’ (º√ʔab ‘be extended’; cf. ʔabəd ‘extend , give ’)
+ʔilalikʷ ‘interpret ’ (√ʔil ‘sing’) bəčalikʷ ‘bet , place a wager with ’ (√bəč ‘be lying, be fallen from standing’)
+caq̓alikʷ ‘spear , impale ’ (√caq̓ ‘be speared, be impaled’)
+cilalikʷ ‘dish (food)’ (√cil ‘be supported, be dished up’)
+</pre>
+
+In the bulk of these forms the additional semantic component of
+‘activity’ or ‘creative activity’ is fairly obvious from the glosses,
+as in
+
+<ul>
+   <li> _xʷəš_ ‘be thrown, be distributed’ vs. _xʷšalikʷ_ ‘sow; potlatch’
+   <li> _ɬač_ ‘go out (fire)’ vs. _ɬač’alikʷ_ ‘fight fire’.
+</ul>   
+
+In these forms, in addition to causativizing the radical by adding an
+AGENT/subject, _-alikʷ_ converts an expression of a state resulting from
+a telic, possibly punctual, action into an expression of a non-telic
+activity involving multiple instances of that action (as in the
+throwing of multiple seeds in sowing or the multiple acts of
+distribution of goods in a potlatch), or which involve extended
+activity or a suite of actions eventually leading to the resultant
+state (as in the various steps involved in fighting a
+fire, all of which lead up to the fire’s extinction).
+
+The same type of distinction can be seen in more idiosyncratic pairs
+such as √bəč ‘be lying’ vs. bəčalikʷ ‘bet, place a wager with’ or
+√gəlk’ ‘be wound, be tangled’ vs. gəlk’alikʷ ‘knit’, where a fairly
+generic stative expression has become lexicalized as an expression of
+a very specific activity involving (literally or metaphorically)
+placing some PATIENT or THEME in that state. In a few cases, the
+lexicalized meaning is so specific with respect to a potential object
+that the form is, at least in its attested uses, essentially
+monovalent (e.g., ɬač’alikʷ ‘fight fire’, t’qalikʷ ‘make bread;
+plaster’ , dᶻubalikʷ ‘dance’).
+
+Given that the nature of the THEME of such verbs is inherently
+specified by the meaning of the stem, the absence of an overtly
+expressed object with such forms is consistent with the focus of the
+causative of activity on the ACTOR’s role in the event.
+
+
+`,
+
+    
 "dxʷ-":
 
 `

@@ -1,0 +1,10 @@
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 TEXT GOES HERE
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+

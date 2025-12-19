@@ -7,13 +7,15 @@ mimeType: audio/x-wav
 
 lines:
 
-  - html: "<div style='margin: 30px;' class='storyLaunch' id='livingInTheDark'>
-           <center>
-           <hr style="width: 400px;">
-           Living in the Dark
-           <hr style="width: 400px;">
-           </center>
-           </div>"
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Living in the dark.
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 0
     endTime: 5942
@@ -45,14 +47,15 @@ lines:
     morphemeGloss: [be.there,REM,daylight,at,REM,upstream•land,SCONJ,STAT–how,REM,SBJ=ADNM=take–DC,1PL.PO]
     english: Daylight is up there in the upriver country but how can we manage to get it?
 
-  - html: "<div style='margin: 30px;'>
-           <center>
-           <hr style="width: 400px;">
-           Mink and Raven Prepare
-           <button style="margin-left: 50px" onclick="myBox('prepare')">V</button>
-           <hr style="width: 400px;">
-           </center>
-           </div>"
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink and Raven Prepare
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 24006
     endTime: 26917
@@ -86,16 +89,15 @@ lines:
     morphemeGloss: [PROX,raven,CONJ, PROX,ATTN–mink,REM,PAST=made–ICS–REFL]
     english: The ones who prepare themselves are Raven and Little Mink.
 
-  - html: "<div style='margin: 30px;'>
-           <center>
-           <hr style="width: 400px;">
-           Canoe Jumping
-           <button style="margin-left: 50px" onclick="myBox('canoeJumping')">V</button>
-           <hr style="width: 400px;">
-           </center>
-           </div>"
-
-
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Canoe Jumping
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 42334
     endTime:   47686
@@ -138,14 +140,15 @@ lines:
     morphemeGloss: [PROG=three•CNN•canoe–INCH,PROX,PAST=STAT–overturned–ECS,PL,canoe,ADNM=PROG=jump•body=3PO,PL,HORT]
     english: It came to where they had three canoes overturned which they were jumping.
 
-  - html: "<div style='margin: 30px;'>
-           <center>
-           <hr style="width: 400px;">
-           Four canoes - ready!
-           <button style="margin-left: 50px" onclick="myBox('fourCanoesReady')">V</button>
-           <hr style="width: 400px;">
-           </center>
-           </div>"
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Four canoes - ready!
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 70461
     endTime:   77580
@@ -179,15 +182,15 @@ lines:
     morphemeGloss: [here=now,1PL.SUB,well=now,CNTRPT–at,REM,SBJ=NM=PFV–go–ALTV,1PL.PO,REM,daylight,at,REM,ADNM=be.in.place]
     english: We are good enough to go after daylight where it is.
 
-  - html: "<div style='margin: 30px;'>
-           <center>
-           <hr style="width: 400px;">
-           Traveling upriver
-           <button style="margin-left: 50px" onclick="myBox('travelUpriver')">V</button>
-           <hr style="width: 400px;">
-           </center>
-           </div>"
-
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Traveling Upriver
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 94400
     endTime: 103558
@@ -237,15 +240,15 @@ lines:
     morphemeGloss: [FOC,PAST=STAT–know–DC,PL,SBJ-ADNM-near–INCH=now,1PL.SUB]
     english: That is how they knew.  We are getting near.
 
-  - html: "<div style='margin: 30px;'>
-           <center>
-           <hr style="width: 400px;">
-           Arrival
-           <button style="margin-left: 50px" onclick="myBox('arrival')">V</button>
-           <hr style="width: 400px;">
-           </center>
-           </div>"
-
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Arrival
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 128013
     endTime: 131346
@@ -378,12 +381,15 @@ lines:
     morphemeGloss: [PROG=old,STAT–grey.hair•head,PROG.STAT–use.walking.stick]
     english: He was old with grey hair and used a cane
 
-  - html: "<div style='margin: 30px; margin-left: 200px;'>
-           <hr style="width: 400px;">
-           Mink arrives, states his plight
-           <button style="margin-left: 50px" onclick="myBox('firstContact')">V</button>
-           <hr style="width: 400px;">
-           </div>"
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink arrives, states his plight.
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
 
   - startTime: 211055
@@ -424,7 +430,7 @@ lines:
   - startTime: 229484
     endTime: 235296
     lushootseed: ləʔəƛ̓ ləgʷəč̓alikʷ dxʷʔal kʷi siʔab ʔabsləx̌il ʔaʔ kʷi ɬudsəsɬaq̓
-    soundsLike: tluh-utt lugʷ.chawleek.whuff kwee dwoal.see see.ab awbs.sluh.khail ah kwee sloods.zock
+    soundsLike: too-lutt lugʷ.chawleek.uff kwee dwoal kwee see.ab awbs.sluh.khail ah kwee sloods.zock
     morphemes: [lə=ʔəƛ̓,lə=gʷəč̓–alikʷ,dxʷ–ʔal,kʷi,siʔab,ʔas–bəs–sləx̌il,ʔaʔ,kʷi,ɬu=d=s=ʔas–ɬaq̓]
     morphemeGloss: [prog=come,prog=search–act,cntrpt–at,rem,noble,stat–prop–daylight,be.there,REM,IRR=1SG.PO=NM=STAT–fallen]
     english:  I am coming, looking for the nobleman who possesses daylight. There I will lie down.
@@ -437,17 +443,15 @@ lines:
     morphemeGloss: [1SG.coord,go,SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
     english: I will go.  And I will be treated well.
 
-  - html: "<div style='margin: 30px; margin-left: 200px;'>
-           <hr style="width: 400px;">
-           Mink negotiates his sleeping place
-           <button style="margin-left: 50px" onclick="myBox('sleepingPlace')">V</button>
-           <hr style="width: 400px;">
-           </div>"
-
-  - html: "<div style='margin: 30px; color: darkred;'>
-           <i>(Hilbert, Hess and Beck place <b>gʷəl tucutəb</b> at the end of this line, not the next.  - pshannon)</i>
-           </div>"
-
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink negotiates hi sleeping place.
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 240975
     endTime:   243900
@@ -489,13 +493,15 @@ lines:
     morphemeGloss: [past=made–ICS–PASS=now,pr,PROX,ADNM=STAT–fallen=3PO,be.in.right.place•mouth]
     english: His place was made by the door.
 
-  - html: "<div style='margin: 30px; margin-left: 200px;'>
-           <hr style="width: 400px;">
-           Mink watches
-           <button style="margin-left: 50px" onclick="myBox('minkWatches')">V</button>
-           <hr style="width: 400px;">
-           </div>"
-
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink watches
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
 
   - startTime: 259821
@@ -554,14 +560,15 @@ lines:
     morphemeGloss: [STAT–watch–MAP–ICS–PASS,pr,attn–mink]
     english: It was watched by Little Mink.
 
-  - html: "<div style='margin: 30px; margin-left: 200px;>
-           <hr style="width: 400px;">
-           Mink makes his first attempt
-           <button style="margin-left: 50px" onclick="myBox('encounter')">V</button>
-           <hr style="width: 400px;">
-           </div>"
-
-
+  - html: "<div style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink makes his first attempt
+                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 283576
     endTime:   290061
