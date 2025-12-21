@@ -10854,6 +10854,7 @@ body, html {
 	font-family: "New York Times-Roman";
 	font-size: 22px;
 	height: 100%;
+   //background-color: blue;
 	}
 
 table, th, td {
@@ -11155,7 +11156,7 @@ td, th {
   display: grid;
   width: 98%; //fit-content;
   height: fit-content;
-  overflow-x: auto;
+  overflow-x: visible;
   overflow-y: clip;
   grid-template-columns: 60px 1fr;
   grid-column-gap: 10px;
@@ -11181,11 +11182,11 @@ td, th {
   //width: fit-content;
   width: 100%;
   height: 100%;
-  // border: 3px solid red;
+  //border: 3px solid red;
   margin: 0px;
   margin-bottom: 2px;
-  overflow-wrap: word-wrap;
-  overflow-x: auto;
+  //overflow-wrap: word-wrap;
+  overflow-x: scroll;
   overflow-y: auto;
   }
 
@@ -11198,8 +11199,8 @@ td, th {
 
 .speech-tier{
   background-color: transparent;
-  grid-template-columns: none;
-  //border: 1px solid rgba(0, 0, 0, 0.8);
+  //grid-template-columns: none;
+  //border: 1px solid red;
   padding: 0px;
   font-weight: bold;
   // font-size: 30px;
@@ -11207,7 +11208,10 @@ td, th {
   vertical-align: bottom;
   margin-left: 5px;
   word-spacing: 20px;
-  // background-color: #DCB;
+  //overflow-x: auto;
+  //scrollbar-gutter: stable;
+  white-space: nowrap;
+  //background-color: #DCB;
   }
 
 .freeTranslation-tier{
@@ -11218,6 +11222,8 @@ td, th {
   //font-size: 30px;
   text-align: left;
   margin-left: 5px;
+  overflow-x: visible;
+  white-space: nowrap;
   //word-spacing: 20px;
   }
 
@@ -11230,6 +11236,9 @@ td, th {
   text-align: left;
   margin-left: 5px;
   margin-bottom: 5px;
+  //overflow-x: auto;
+  //scrollbar-gutter: stable;
+  white-space: nowrap;
   //word-spacing: 20px;
   // background-color: magenta;
   }
@@ -11243,6 +11252,9 @@ td, th {
   // background-color: lightgreen;
   margin-bottom: 5px;
   //overflow-x: auto;
+  //overflow-x: auto;
+  //scrollbar-gutter: stable;
+  white-space: nowrap;
   }
 
 .secondTranscription-tier{
@@ -11254,6 +11266,7 @@ td, th {
   text-align: left;
   margin-left: 5px;
   word-spacing: 20px;
+  overflow-x: scroll;
   }
 
 .gloss-tier{
@@ -11266,6 +11279,7 @@ td, th {
   margin-left: 30px;
   word-spacing: 20px;
   // background-color: lightpink;
+  overflow-x: scroll;
   }
 
 .morpheme-tier {
@@ -11274,8 +11288,10 @@ td, th {
   //border: 0px solid rgba(0, 0, 0, 0.8);
   margin: 5px;
   justify-content: flex-start;
-  overflow-wrap: word-wrap;
+  white-space: nowrap;
+  //overflow-wrap: word-wrap;
   // background-color: lightblue;
+  //overflow-x: hidden;
   }
 
 .morpheme-cell {
@@ -38866,7 +38882,10 @@ $(function() {
 
   $("#toggleAnnotationsButton").click(function(){
      var annoDivVisible = $("#annoNotesDiv").is(":visible")
-     console.log("click simple anno toggle, annoDivVisible?" + annoDivVisible)
+     var currentPosition = $("#textDiv").scrollTop();
+     console.log("click simple anno toggle, annoDivVisible? " + annoDivVisible +
+                "  pos: " + currentPosition)
+     console.log
      if (annoDivVisible){
         console.log("hiding annoDiv");
         showAnno = false;
@@ -38882,6 +38901,10 @@ $(function() {
         $("#linguisticTopicController").css("display", "inline-block")
         showAnno = true;
         }
+     console.log("  --- toggle complete, setting position: " + currentPosition)
+     $("#textDiv").scrollTop(currentPosition);
+     console.log("     position check after set: " + $("#textDiv").scrollTop())
+
      }); // toggleAnnotationsButton click
     pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/14'  //0.0.0.0 Safari/537.36"'
                   // Version 141.0.7390.108 (Official Build) (arm64)
@@ -39310,7 +39333,21 @@ window.timeStamps=[{ 'id' : '1', 'start' : 15905, 'end' : 18596},
 { 'id' : '145', 'start' : 1729380, 'end' : 1730844},
 { 'id' : '146', 'start' : 1733502, 'end' : 1737564},
 { 'id' : '147', 'start' : 1743815, 'end' : 1748241},
-{ 'id' : '148', 'start' : 1755228, 'end' : 1757175},]
+{ 'id' : '148', 'start' : 1755228, 'end' : 1757175},
+{ 'id' : '149', 'start' : 1770465, 'end' : 1772987},
+{ 'id' : '150', 'start' : 1781049, 'end' : 1783593},
+{ 'id' : '151', 'start' : 1791940, 'end' : 1794855},
+{ 'id' : '152', 'start' : 1802352, 'end' : 1805755},
+{ 'id' : '153', 'start' : 1814165, 'end' : 1817301},
+{ 'id' : '154', 'start' : 1825457, 'end' : 1829498},
+{ 'id' : '155', 'start' : 1838746, 'end' : 1842845},
+{ 'id' : '156', 'start' : 1854013, 'end' : 1859821},
+{ 'id' : '157', 'start' : 1870668, 'end' : 1876114},
+{ 'id' : '158', 'start' : 1889573, 'end' : 1894497},
+{ 'id' : '159', 'start' : 1907643, 'end' : 1911843},
+{ 'id' : '160', 'start' : 1921001, 'end' : 1925543},
+{ 'id' : '161', 'start' : 1935008, 'end' : 1939545},
+{ 'id' : '162', 'start' : 1948625, 'end' : 1953102},]
 </script>
 <script src="kb2.js"></script>
 <script src="linguisticTerms2.js"></script>
@@ -40492,7 +40529,108 @@ in the Choral Repetitions.
 <!-- speechLineAfterHook -->
 
 <!-- speechLineAfterHook_148 -->
-<div class="annotationDiv"></div></div></div></div><div id="annoDiv"><div id="annoAndTopicsDiv"><div id="topicsMenuDiv"><div class="dropdownMenu"><button id="topicsButton" class="menuButton">Linguistic Topics</button><div id="topicsItems" class="menuItemsDiv"><div>aspect</div></div></div></div><div id="annoNotesDiv"></div></div></div></div></div>
+<div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div style="width: 1000px;" class='lessonTitle'>Lesson Thirty-Five:  <i>ɬixʷačiʔ ʔi ti cəlac</i></div>
+</div><div class="tier tier-html" name="html"><div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>
+</div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.1</div>
+</div><div class="line-wrapper" id="149"><div class="line-sidebar"><button onclick="playSample(149, 1770465, 1772987)" class="standardSlexilButton slexilTooltip">149</button>
+<!-- sidebarHookLine_259 -->
+</div><div class="line-content" id="149"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬluƛ̓ čəd dxʷʔal dəgʷi.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_149 -->
+<div class="tier generic-tier" name="english">I'm older than you.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.2</div>
+</div><div class="line-wrapper" id="150"><div class="line-sidebar"><button onclick="playSample(150, 1781049, 1783593)" class="standardSlexilButton slexilTooltip">150</button>
+<!-- sidebarHookLine_261 -->
+</div><div class="line-content" id="150"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬbəqʷ čəd dxʷʔal dəgʷi.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_150 -->
+<div class="tier generic-tier" name="english">I'm fatter than you.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.3</div>
+</div><div class="line-wrapper" id="151"><div class="line-sidebar"><button onclick="playSample(151, 1791940, 1794855)" class="standardSlexilButton slexilTooltip">151</button>
+<!-- sidebarHookLine_263 -->
+</div><div class="line-content" id="151"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬʔaɬ čəd dxʷʔal dəgʷi.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_151 -->
+<div class="tier generic-tier" name="english">I'm faster than you.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.4</div>
+</div><div class="line-wrapper" id="152"><div class="line-sidebar"><button onclick="playSample(152, 1802352, 1805755)" class="standardSlexilButton slexilTooltip">152</button>
+<!-- sidebarHookLine_265 -->
+</div><div class="line-content" id="152"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬč̓ač̓as čəxʷ dxʷʔal ʔəca.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_152 -->
+<div class="tier generic-tier" name="english">You are younger than I.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.5</div>
+</div><div class="line-wrapper" id="153"><div class="line-sidebar"><button onclick="playSample(153, 1814165, 1817301)" class="standardSlexilButton slexilTooltip">153</button>
+<!-- sidebarHookLine_267 -->
+</div><div class="line-content" id="153"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬs(h)adᶻəb čəxʷ dxʷʔal ʔəca.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_153 -->
+<div class="tier generic-tier" name="english">You are taller than I.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.6</div>
+</div><div class="line-wrapper" id="154"><div class="line-sidebar"><button onclick="playSample(154, 1825457, 1829498)" class="standardSlexilButton slexilTooltip">154</button>
+<!-- sidebarHookLine_269 -->
+</div><div class="line-content" id="154"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬs(h)adᶻəb čəxʷ (ʔ)u dxʷʔal t(i) adbad.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_154 -->
+<div class="tier generic-tier" name="english">Are you taller than your father?</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35A.7</div>
+</div><div class="line-wrapper" id="155"><div class="line-sidebar"><button onclick="playSample(155, 1838746, 1842845)" class="standardSlexilButton slexilTooltip">155</button>
+<!-- sidebarHookLine_271 -->
+</div><div class="line-content" id="155"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬbəqʷ čəxʷ (ʔ)u dxʷʔal t(i) adsuq̓ʷaʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_155 -->
+<div class="tier generic-tier" name="english">Are you fatter than your younger brother?</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><div style='margin-left: 30px'><h5> Choral Repetition B</h5></div>
+</div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.1</div>
+</div><div class="line-wrapper" id="156"><div class="line-sidebar"><button onclick="playSample(156, 1854013, 1859821)" class="standardSlexilButton slexilTooltip">156</button>
+<!-- sidebarHookLine_274 -->
+</div><div class="line-content" id="156"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬx̌əb tiʔəʔ wəq̓əb dxʷʔal tiʔiɬ wəq̓əb ʔal tudiʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_156 -->
+<div class="tier generic-tier" name="english">This box is heavier than that box over there.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.2</div>
+</div><div class="line-wrapper" id="157"><div class="line-sidebar"><button onclick="playSample(157, 1870668, 1876114)" class="standardSlexilButton slexilTooltip">157</button>
+<!-- sidebarHookLine_276 -->
+</div><div class="line-content" id="157"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬhaac tiʔəʔ ƛ̓əlayʔ dxʷʔal tiʔiɬ ƛ̓əlayʔ ʔal tudiʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_157 -->
+<div class="tier generic-tier" name="english">This canoe is longer thant that canoe over there.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.3</div>
+</div><div class="line-wrapper" id="158"><div class="line-sidebar"><button onclick="playSample(158, 1889573, 1894497)" class="standardSlexilButton slexilTooltip">158</button>
+<!-- sidebarHookLine_278 -->
+</div><div class="line-content" id="158"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬhaʔɬ tiʔəʔ yiq̓us dxʷʔal tiʔiɬ yiq̓us ʔal tudiʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_158 -->
+<div class="tier generic-tier" name="english">This cedar-root basket is better than that basket over there.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.4</div>
+</div><div class="line-wrapper" id="159"><div class="line-sidebar"><button onclick="playSample(159, 1907643, 1911843)" class="standardSlexilButton slexilTooltip">159</button>
+<!-- sidebarHookLine_280 -->
+</div><div class="line-content" id="159"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬqa tiʔəʔ dyiq̓us dxʷʔal dəgʷi.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_159 -->
+<div class="tier generic-tier" name="english">I hve more baskets than you.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.5</div>
+</div><div class="line-wrapper" id="160"><div class="line-sidebar"><button onclick="playSample(160, 1921001, 1925543)" class="standardSlexilButton slexilTooltip">160</button>
+<!-- sidebarHookLine_282 -->
+</div><div class="line-content" id="160"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬxʷaʔxʷaʔ tiʔəʔ dƛ̓əlayʔ dxʷʔal adsgʷaʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_160 -->
+<div class="tier generic-tier" name="english">My canoe is lighter than yours.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.6</div>
+</div><div class="line-wrapper" id="161"><div class="line-sidebar"><button onclick="playSample(161, 1935008, 1939545)" class="standardSlexilButton slexilTooltip">161</button>
+<!-- sidebarHookLine_284 -->
+</div><div class="line-content" id="161"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬhaʔɬ tiʔəʔ dƛ̓əlayʔ dxʷʔal adsgʷaʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_161 -->
+<div class="tier generic-tier" name="english">My canoe is better than yours.</div><div class="annotationDiv"></div></div></div><div class="tier tier-html" name="html"><br><div class='sectionNumber'>35B.7</div>
+</div><div class="line-wrapper" id="162"><div class="line-sidebar"><button onclick="playSample(162, 1948625, 1953102)" class="standardSlexilButton slexilTooltip">162</button>
+<!-- sidebarHookLine_286 -->
+</div><div class="line-content" id="162"><div class="line"><span class="tier speech-tier" name="lushootseed">ʔiɬhaʔɬ dxʷʔal kʷi p̓aƛ̓aƛ̓ ti dsgʷaʔ.</span></div>
+<!-- speechLineAfterHook -->
+
+<!-- speechLineAfterHook_162 -->
+<div class="tier generic-tier" name="english">Mine is better than nothing.</div><div class="annotationDiv"></div></div></div></div><div id="annoDiv"><div id="annoAndTopicsDiv"><div id="topicsMenuDiv"><div class="dropdownMenu"><button id="topicsButton" class="menuButton">Linguistic Topics</button><div id="topicsItems" class="menuItemsDiv"><div>aspect</div></div></div></div><div id="annoNotesDiv"></div></div></div></div></div>
 
 <!-- bodyBottomInsertionHook -->
 
