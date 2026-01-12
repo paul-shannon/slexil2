@@ -848,11 +848,24 @@ rather than dialect.
 an additional participant, here a recipient.  As with 'him' in "She gave him the book.",
     - (Mink) watched daylight is the basic message
     - the additional participant may be "what was done" _ƛ̓ashuyutid_
-- _–d_: ICS: transitive causative suffix (though here, daylight is not
+- _–d_: ICS: internal transitive causative suffix (though here, daylight is not
 transformed, as you might expect in a causal relationship).  In the
 Beck Grammar: the radical itself (_wač_) expresses a state while the derived
 transitive stems expresses an action preformed by an AGENT resulting
 in a PATIENT coming into that state.
+
+- -[dt] is by far the most prevalent of the valency-increasing verbal
+affixes is t ‘internal causative [ICS]’. This suffix is not only the
+most frequent in terms of the number of stems of which it forms a
+part, but it is also the most complex in terms of its allomorphy and
+morphophonemics and the most varied in terms of its syntactic effects
+on the stem to which it attaches.
+
+- Its primary and most prevalent use is as a transitive causative suffix
+which changes a patient-oriented monovalent stem expressing a state
+into a transitive stem by adding a semantic AGENT, realized as a
+syntactic subject.
+
 `,
 
 
@@ -4227,11 +4240,11 @@ _čəɬ_
 _conjectured hard-to-do taking_
 - _gʷə_: SBJ (subjunctive) LD 95
     - if, maybe, might
-- _dəxʷ<sup>2</sup>_ : ADNM (adjunctive nominalizer)  LD 81
+- _dəxʷ_ : ADNM (adjunctive nominalizer)  LD 81
     - reason for, place where, time when
     - inflectional prefix marking a subordinate predicate in construction with a fronted adjunct
     - creates nominal expressions with the same distribution as relative and headless relative clauses. LG 7.4.2.2
-      used primarily for the nominalization of <button id="refButton" onclick="ref('adjunct');">adjunct</button> and circumstantial expressions, particularly (but not exclusively), 
+      used primarily for the nominalization of adjunct and circumstantial expressions, particularly (but not exclusively), 
       instruments, locations, motivations, and manners, and will be referred to here as an adjunctive nominalizer.
 - _kʷəd(a)_: take, get, hold, grasp; carry in the hand. LD 123
 - _-dxʷ_ : lack of control, accidentally, accomplish with difficulty [LD 82]
@@ -4246,7 +4259,7 @@ _how now?_
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The subjunctive is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -4254,7 +4267,7 @@ _how now?_
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood, location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -4299,7 +4312,7 @@ _embarked upon discussing_
     - also carrying this prefix are a number of stems referring to matters of the mind, the _x̌əč_. 
 - ʔəhad:
     - _dxʷ√ʔəhad_ talk LD 11
-    - <button id="refButton" onclick="ref('reduplication');">reduplication</button>
+    - reduplication
     - _dxʷ√ʔəhad+ad_ : discuss (this line is the example)  _red3_
     - the root apparently never appears without the prefix
 - _əxʷ_, _axʷ_ : now, at the particular time. LD 30

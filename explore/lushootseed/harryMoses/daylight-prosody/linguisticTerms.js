@@ -1,5 +1,441 @@
 linguistics = {
 
+"ləq̓aɬ":
+`
+<h5>ləq̓aɬ</h5>
+
+variant: <b>ləq̓al</b>
+
+- be in correct place
+- be on target
+
+<details><summary>ləq̓aɬ čəxʷ ʔə t(a) adsqa</summary>
+You are just like your older brother.
+</details>
+
+<details><summary>ləq̓aɬ ʔu ʔə tiʔiɬ bads tiʔiɬ sadᶻəps</summary>
+Is he as tall as his father?
+</details>
+
+<details><summary>xʷiʔ kʷi stab gʷədəxʷləqʼaɬs əlgʷəʔ.</summary>
+There isn't a thing that they are good for.
+</details>
+
+<details><summary>ʔuləq̓aɬil čəd</summary>
+I'm correct.
+</details>
+
+<details><summary>ləq̓ilbic</summary>
+You are in my way.
+<ul>
+  <li><b>-b</b> involved in doing something
+  <li><b>-i</b> secondary stem extender, allows transitive <i>-d (-b?)</i>
+  to be derived from roots which normally lacke a patient.  [LD 114]
+  <li><b>-c</b> portmanteau of suffix sequence <i>-t-s</i>, transitive
+  suffix marking patient-oriented verbs; often converts a verb of motion
+  into one which takes a a goal paient.  [LD 43}
+</ul>
+</details>
+
+<details><summary>ləq̓algʷəs čəxʷ ʔə kʷi haʔɬ sləx̌il</summary>
+You are like a fine day.
+</details>
+
+<details><summary>ləq̓udid čəd</summary>
+I'm in the doorway.
+</details>
+
+<details><summary>ƛ̓ub ləq̓aɬucid kʷi ɬudsʔaʔ</summary>
+It is best for me to be near the door.
+</details>
+
+<details><summary>ƛ̓udxʷliləq̓aɬucid</summary>
+(where) it would be situated in about the right place in the mouth (where he would
+be certain to choke on it)
+</details>
+
+<details><summary>lilq̓aɬucid</summary>
+<i>red1</i> - diminutive<br>
+right near the door of the house
+</details>
+
+<details><summary>liɬlilq̓aɬ</summary>
+<i>red1</i> - diminutive<br>
+right about along there
+</details>
+
+
+`,
+
+"=ucid":
+`
+<h5>=ucid</h5>
+
+A lexical suffix of diverse meanings.  [LD 243]
+
+- body of water (to be crossed)
+- river, mouth, language
+- doorway
+- opening in general
+- eat
+
+<details><summary>ayucid</summary>
+path, road
+</details>
+
+<details><summary>bək̓ʷucid</summary>
+help ones self (to edibles)
+</details>
+
+<details><summary>bəqəlšuɬucid</summary>
+Muckleshoot language
+</details>
+
+<details><summary>bəq̓ʷucid</summary>
+kiss
+</details>
+
+<details><summary>bəq̓ʷucidači(ʔi)c</summary>
+kiss my hand
+</details>
+
+<details><summary>c̓awqʷucid</summary>
+Yakima language
+</details>
+
+<details><summary>čəgʷayucid</summary>
+lower side of the road
+</details>
+
+<details><summary>c̓sucid</summary>
+nail on the lid
+</details>
+
+<details><summary>c̓u(h)ayucid</summary>
+weak chin; a voice that does not carry well, a speech that is not clearly articulated.
+</details>
+
+<details><summary>čxʷucid</summary>
+cover, lid, top
+</details>
+
+<details><summary>dəxʷəscutucid</summary>
+why someone talks that way
+</details>
+
+<details><summary>diʔayucid</summary>
+other side of a path or road
+</details>
+
+<details><summary>diʔucid</summary>
+across body of water, other side of a river or road
+</details>
+
+<details><summary>dxʷbəq̓ʷucid</summary>
+kiss
+</details>
+
+<details><summary>dxʷləbəyʔucid</summary>
+Lummi language
+</details>
+
+<details><summary>dxʷləšucid</summary>
+Lushootseed {language}
+</details>
+
+<details><summary>dxʷlilayucid</summary>
+disagree
+</details>
+
+<details><summary>dxʷq̓xʷucid</summary>
+above the mouth on the other side of the river
+</details>
+
+<details><summary>dxʷsʔugʷucidid</summary>
+teacher
+</details>
+
+<details><summary>dxʷt̓(a)q̓tucid</summary>
+on the side of the river toward the mountains
+</details>
+
+<details><summary>dxʷʔəƛ̓úcid</summary>
+to this side of the river, this side of the road
+</details>
+
+<details><summary>dᶻəhayucid</summary>
+right side of the road
+</details>
+
+<details><summary>dᶻəlucid</summary>
+cross a river
+</details>
+
+<details><summary>dᶻíxʷucid</summary>
+eat first
+</details>
+
+<details><summary>gʷəx̌ʷucid</summary>
+open it (bundle) up
+</details>
+
+<details><summary>gʷəx̌ʷucid</summary>
+open something by untying the opening
+</details>
+
+<details><summary>gʷuhucid</summary>
+sing along with, accompany vocally
+</details>
+
+<details><summary>huyucid</summary>
+finish eating
+</details>
+
+<details><summary>ləkʼʷucid</summary>
+kiss
+</details>
+
+<details><summary>ləkʼʷucid</summary>
+kiss
+</details>
+
+<details><summary>ləlíʔucid</summary>
+foreign language
+</details>
+
+<details><summary>ləlíʔucid</summary>
+foreign language
+</details>
+
+<details><summary>ləqaɬucid</summary>
+be in correct place at the door<br>
+<b>ləqaɬ<b>:  be in correct place, be on target
+</details>
+
+<details><summary>ləšucid</summary>
+what is understandable
+</details>
+
+<details><summary>lilayucid</summary>
+stubborn, mean; disagree
+</details>
+
+<details><summary>lilq̓aɬucid</summary>
+right near the door of the house
+</details>
+
+<details><summary>ɬq̓ʷucid</summary>
+across the river from
+</details>
+
+<details><summary>ƛ̓udxʷliləq̓aɬucid</summary>
+(where) it would be situated in about the righ...
+</details>
+
+<details><summary>pastəducid</summary>
+English_language
+</details>
+
+<details><summary>q(ə)p̓ucid</summary>
+cover a pot or basket
+</details>
+
+<details><summary>q̓əc̓ucid</summary>
+close (stitch or tie)
+</details>
+
+<details><summary>qp̓ucid</summary>
+cover something like a pot or a basket
+</details>
+
+<details><summary>qʷidayucid</summary>
+beard, moustache
+</details>
+
+<details><summary>qʷìdayucid</summary>
+beard, moustache
+</details>
+
+<details><summary>q̓xʷucid</summary>
+located upstream
+</details>
+
+<details><summary>šaw̓ayucid</summary>
+jaw
+</details>
+
+<details><summary>sbalucid</summary>
+in-law when link is deceased
+</details>
+
+<details><summary>sbəlucidəb</summary>
+court a girl, be going with someone
+</details>
+
+<details><summary>sčəgʷucid</summary>
+island
+</details>
+
+<details><summary>sgʷədayucid</summary>
+chin
+</details>
+
+<details><summary>sɬadəyʔlucidbid</summary>
+call (someone) a girl
+</details>
+
+<details><summary>st̓əbšayucid</summary>
+top finish row of cedar root *basket
+</details>
+
+<details><summary>stubšlucidbid</summary>
+call (someone) a boy
+</details>
+
+<details><summary>syiq̓ayucid</summary>
+top finish row of cedar *basket
+</details>
+
+<details><summary>sʔílucid</summary>
+mouth of a river
+</details>
+
+<details><summary>sʔílucid</summary>
+mouth of a river; along the shores (of a river)
+</details>
+
+<details><summary>t(ə)qucid</summary>
+Shut the door.
+</details>
+
+<details><summary>t̓aq̓tucid</summary>
+on the side of the stream toward the mountains
+</details>
+
+<details><summary>tədᶻucid</summary>
+answer someone
+</details>
+
+<details><summary>tədᶻucid</summary>
+answer someone
+</details>
+
+<details><summary>t̓əq̓tayucid</summary>
+upper side of the road
+</details>
+
+<details><summary>təqucid</summary>
+shut the door
+</details>
+
+<details><summary>títsucid</summary>
+knock on the door
+</details>
+
+<details><summary>t̓q̓tucid</summary>
+on the side of the stream toward the mountains
+</details>
+
+<details><summary>tqucid</summary>
+Shut the door.
+</details>
+
+<details><summary>x̌ac̓ucid</summary>
+any kind of covering
+</details>
+
+<details><summary>x̌əc̓iǰalucid</summary>
+a *blanket for covering knees and legs while r...
+</details>
+
+<details><summary>x̌ìc̓ilayucid</summary>
+shame in the mouth
+</details>
+
+<details><summary>x̌k̓ʷucid</summary>
+cover, top, lid
+</details>
+
+<details><summary>x̌q(ə)p̓ucid</summary>
+knee (-cap?)
+</details>
+
+<details><summary>x̌qp̕ucid</summary>
+knee
+</details>
+
+<details><summary>ʔəq̓ʷucid</summary>
+open something having a lid or other sort of c...
+</details>
+
+<details><summary>ʔugʷucidid</summary>
+teach
+</details>
+
+<details><summary>ʔuq̓ʷucidəb</summary>
+open door
+</details>
+
+<details><summary>ʔuq̓ʷucidəb</summary>
+Open the door.
+</details>
+
+<details><summary>ʔuq̓ʷucidtxʷ</summary>
+pull it out
+</details>
+
+<details><summary>ʔuʔílucid</summary>
+(The power) sings the words.
+</details>
+
+
+`,
+
+
+"huyu":
+`
+<h5>huyu</h5>
+
+<ul>
+<li><b>tuhuyucutəxʷ</b> <i>&nbsp; tu=huyu–t–sut=əxʷ</i>&nbsp; past=made–ics–refl=now &nbsp; (daylight 5)
+<li><b>tuhuyucut</b> <i>&nbsp; tu=huyu–t–sut</i>&nbsp; past=made–ics–refl &nbsp; (daylight 7)
+<li><b>huyu</b> <i>&nbsp; huyu</i>&nbsp; finish &nbsp; (daylight 9)
+<li><b>gʷəƛ̓ashuyuc</b> <i>&nbsp; gʷə=ƛ̓u=ʔas–huyu–t–s</i>&nbsp;sbj=hab=stat–made–ics–1sg.obj &nbsp; (daylight 43)
+<li><b>tuhuyutbəxʷ</b><i>&nbsp; tu=huyu–t–b=əxʷ</i>&nbsp;past=made–ics–pass=now &nbsp; (daylight 50)
+<li><b>ƛ̓ashuyutid</b> <i>&nbsp; ƛ̓u=ʔas–huyu–t–id</i>&nbsp;hab=stat–made–ics–pass.sbrd &nbsp; (daylight 51)
+<li><b>suhuyuds</b> <i>&nbsp; s=ʔu–huyu–d=s</i>&nbsp;nm=pfv–made–ics=3po &nbsp; (daylight 111)
+
+</ul>
+
+<b>huy(u) Lushootseed Dictionary 112-113</b>
+
+<details><summary><b>1.</b> &nbsp; do, make, prepare something; get ready, prepare for</summary>
+<ul>
+<li> <b>tusʔiʔiʔəb tsiʔiɬ k̓aʔk̓aʔ ʔal kʷi təsəshuys ʔaciɬtalbixʷ</b> Crow was sort of high class when she was made a person (ML.2.178)
+<li> <b>diɬəxʷ ɬushuyləp</b> this is what you folks will do (ML.7.629)
+</ul>
+</details>
+
+<details><summary><b>2.</b> &nbsp; made like, be like</summary>
+</details>
+
+<details><summary><b>3.</b> &nbsp; how it happened, the way it was</summary>
+</details>
+
+<details><summary><b>4.</b> &nbsp; do, act</summary>
+</details>
+
+<details><summary><b>5.</b> &nbsp; finish, complete</summary>
+<ul>
+<li> <b>huy=ucid</b> finish eating
+</ul>
+</details>
+
+
+
+`,
+
+
 "ACT":
 `
 <h5>ACT: causative of (creative) activity</h5>
@@ -1737,6 +2173,20 @@ frequent in terms of the number of stems of which it forms a part, but
 it is also the most complex in terms of its allomorphy and
 morphophonemics and the most varied in terms of its syntactic effects
 on the stem to which it attaches.
+
+(allomorphy: a single morpheme (the smallest unit of meaning) has
+different phonetic forms, called allomorphs, depending on the
+surrounding sounds or grammatical context, like English plurals (-s,
+-z, -es) or past tense (-t, -d, -ed))
+
+(morphophonemics (or morphophonology) is the linguistic study of how
+sounds (phonology) change when meaningful units (morphemes) combine to
+form words, focusing on variations in pronunciation like the different
+sounds for the plural "-s" in "cats" (/s/), "dogs" (/z/), and "buses"
+(/ɪz/), revealing rules connecting word structure to sound
+patterns. It examines how morphemes, such as roots or affixes, alter
+their phonetic forms (allomorphs) based on context, explaining why
+"knife" becomes "knives" but "loaf" becomes "loaves".)
 
 Its primary and most prevalent use is as a transitive causative suffix
 which changes a patient-oriented monovalent stem expressing a state

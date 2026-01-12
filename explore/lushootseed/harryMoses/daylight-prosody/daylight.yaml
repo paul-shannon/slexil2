@@ -447,7 +447,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Mink negotiates hi sleeping place.
+                 Mink negotiates his sleeping place.
                  <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
@@ -507,7 +507,7 @@ lines:
   - startTime: 259821
     endTime:   264823
     lushootseed: ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il
-    soundsLike: tloo.AHHHHH too buss tluss.watch.uh.beed teeth tu.hoyute.teed tee.uh sluh.khail
+    soundsLike: tloo.AHHHHH too buss tluss.watch.uh.beed teeth tu.hoyute.teed tee.ah sluh.khail
     morphemes: [ƛ̓u=ʔaʔ,x̌ʷul̓,ƛ̓u=ʔas–wač–bi–d,tiʔiɬ,ƛ̓u=ʔas–huyu–t–id,tiʔəʔ,sləx̌il]
     morphemeGloss: [HAB=be.there,only,HAB=STAT–watch–MAP–ICS,DIST,HAB=STAT–made–ICS–PASS.SBRD,PROX,daylight]
     english: He would be there just watching what was done with it.
