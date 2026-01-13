@@ -8,7 +8,6 @@ default:
 	@echo venv
 	@echo curl
 	@echo server
-	@echo y2h
 	@echo s2h
 	@echo eaf
 	@echo html
