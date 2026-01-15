@@ -1520,7 +1520,7 @@ lines:
     lushootseed: ʔi. diɬ bəsʔax̌ʷuʔ.
     english: Yes.  It is a clam too.
 
-  - html: "<br><div class='sectionNumber'>39A.2</div>"
+  - html: "<br><div class='sectionNumber'>39.2</div>"
 
   - startTime: 2959171
     endTime:   2961239
@@ -1542,7 +1542,7 @@ lines:
     lushootseed: ʔi. diɬ bəsʔuladxʷ.
     english: Yes.  It is  salmon too.
 
-  - html: "<br><div class='sectionNumber'>39A.3</div>"
+  - html: "<br><div class='sectionNumber'>39.3</div>"
 
   - startTime: 2988783
     endTime:   2990728
@@ -1564,7 +1564,7 @@ lines:
     lushootseed: ʔi.  diɬ bəbuʔqʷ.
     english: Yes.  It is a waterfowl too.
 
-  - html: "<br><div class='sectionNumber'>39A.4</div>"
+  - html: "<br><div class='sectionNumber'>39.4</div>"
 
   - startTime: 3023118
     endTime:   3025421
@@ -1586,7 +1586,7 @@ lines:
     lushootseed: ʔi.  diɬ bəsəxʷʔuluɬ.
     english: Yes.  It is a canoe too.
 
-  - html: "<br><div class='sectionNumber'>39A.5</div>"
+  - html: "<br><div class='sectionNumber'>39.5</div>"
 
   - startTime: 3054479
     endTime:   3056514
@@ -1608,7 +1608,7 @@ lines:
     lushootseed: ʔi.  diɬbəx̌ibx̌ib.
     english: Yes.  It is a bird of prey too.
 
-  - html: "<br><div class='sectionNumber'>39A.6</div>"
+  - html: "<br><div class='sectionNumber'>39.6</div>"
 
   - startTime: 3084858
     endTime:   3087157
@@ -1630,7 +1630,7 @@ lines:
     lushootseed: xʷi lətatačulbixʷ.  titčulbixʷ tiʔiɬ stiqayuʔ.
     english: It is not a 'large animal'.  The wolf is a 'small animal'.
 
-  - html: "<br><div class='sectionNumber'>39A.7</div>"
+  - html: "<br><div class='sectionNumber'>39.7</div>"
 
   - startTime: 3124403
     endTime:   3126455
@@ -1652,7 +1652,7 @@ lines:
     lushootseed: xʷiʔ ləbuʔqʷ.  titčulbixʷ tiʔiɬ sbəq̓ʷaʔ.
     english: It is not a waterfowl.  The here is a 'small animal'.
 
-  - html: "<br><div class='sectionNumber'>39A.8</div>"
+  - html: "<br><div class='sectionNumber'>39.8</div>"
 
   - startTime: 3160943
     endTime:   3163109
@@ -1674,7 +1674,7 @@ lines:
     lushootseed: xʷiʔ ləsʔax̌ʷuʔ tiʔiɬ ƛ̓ux̌ʷƛ̓ux̌ʷ.
     english: The oyster is not a clam.
 
-  - html: "<br><div class='sectionNumber'>39A.9</div>"
+  - html: "<br><div class='sectionNumber'>39.9</div>"
 
   - startTime: 3190190
     endTime:   3192221
@@ -1696,3 +1696,118 @@ lines:
     lushootseed: xʷi ləq̓il̓bid.  tatačulbixʷ tiʔiɬ.
     english: It is not a vehicle.  It is a 'large animal'. 
 
+  - html: "<br><div style="width: 1000px;" class='lessonTitle'>Lesson Forty:  <i>buusači</i></div>"
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<br><div class='sectionNumber'>40.1</div>"
+
+  - startTime: 3224353
+    endTime:   3228156
+    lushootseed: ʔəsʔəx̌id kʷi sləliʔ ʔə tiʔəʔ qiw̓x̌ dxʷʔal vubəč.
+    english: How does a steelhead differ from a king salmon?
+
+  - startTime: 3234008
+    endTime:   3238478
+    lushootseed: tiʔəʔ qiw̓x̌ gʷəl miʔman̓ xʔuladxʷ, tiʔttiš.
+    english: The steelhead [is] a small salmon, it is narrow.
+
+  - startTime: 3238989
+    endTime:   3243578
+    lushootseed: gʷəl tiʔəʔ yubəč gʷəl hikʷbid dxʷʔal tiʔəʔ qiw̓x̌.
+    english: As for the king salmon, it is bigger than the steelhead.
+
+  - html: "<br><div class='sectionNumber'>40.2</div>"
+
+  - startTime: 3257895
+    endTime:   3261646
+    lushootseed: ʔəsʔəx̌id kʷi sləliʔ ʔə tiʔəʔ x̌ʷətis dxʷʔal swukʷad.
+    english: How does a silver diver differ from a loon?
+
+  - startTime: 3268406
+    endTime:   3273724
+    lushootseed: tiʔəʔ swukʷad gʷəl kikʷbid dxʷʔal tiʔəʔ x̌ʷətis. ʔiɬhikʷ.
+    english: The loon [is] bigger than the silver diver.  It is bigger.
+
+  - startTime: 3281783
+    endTime:   3285119
+    lushootseed: gʷəl x̌ʷuʔx̌ʷəyʔ gʷəl laʔb miʔman̓. 
+    english: And the little diver is really small.
+
+  - startTime: 3285593
+    endTime:   3289672
+    lushootseed: tiʔəʔ x̌ətis gʷəl hikʷbid dxʷʔal tsiʔəʔ x̌ʷuʔx̌ʷəyʔ.    
+    english: The silver diver is bigger than the little diver.
+
+  - html: "<br><div class='sectionNumber'>40.3</div>"
+
+  - startTime: 3302502
+    endTime:   3306423
+    lushootseed: ʔəsʔəx̌id kʷi sləliʔ ʔə tiʔəʔ haʔac dxʷʔal sx̌əp̓ab.
+    english: How does a horse clam differ from a cockle?
+
+  - startTime: 3313060
+    endTime:   3316575 
+    lushootseed: tiʔəʔ haʔac gʷəl laʔb hikʷ sʔax̌ʷuʔ. 
+    english: The horse clam [is] really a big clam.
+    
+  - startTime: 3317370
+    endTime:   3319936
+    lushootseed: gʷəl ʔəsp̓il tiʔəʔ č̓awəyʔs. 
+    english: And its shell is flat.
+    
+
+
+  - startTime: 3337175
+    endTime:   3343165
+    lushootseed: gʷəl tux̌ʷ (h)uyʔ ʔəsbulux̌ʷ tiʔəʔ č̓awəyʔ ʔə tsiʔəʔ sx̌əp̓ab.
+    english: But the shell of the cockle is round.
+
+  - startTime: 3354652
+    endTime:   3360332
+    lushootseed: gʷəl tiʔəʔ sʔax̌ʷuʔ gʷəl ʔudəgʷabacbid ʔə tiʔəʔ saliʔ
+    english: As for the butter clam, it is betwee the [other] two [in size].
+
+  - html: "<br><div class='sectionNumber'>40.4</div>"
+
+  - startTime: 3363313
+    endTime:   3367501
+    lushootseed: ʔəsʔəx̌id kʷi sləliʔ ʔə tiʔəʔ sdəxʷiɬ dxʷʔal ƛ̓əlayʔ.
+    english: How does a hunting canoe differ from a shovel-nose canoe?
+
+  - startTime: 3375699
+    endTime:   3381962
+    lushootseed: x̌ʷəcx̌ʷəcyalus tiʔəʔ sdəxʷiɬ gʷəl ʔəsp̓ilyalus tiʔəʔ ƛ̓əlayʔ
+    english: The hunting canoe has sharp ends while the shovel-nose canoe has flat ends.
+
+  - startTime: 3383231
+    endTime:   3386510
+    lushootseed: gʷəl x̌ʷul̓ gʷəɬ dxʷʔal stuləkʷ. 
+    english: It belongs on rivers.
+
+  - startTime: 3405744
+    endTime:   3410543
+    lushootseed: sdəxʷiɬ gʷəɬ dxʷʔal x̌ʷəlč, dxʷʔal x̌ačuʔ.
+    english: As for the hunting canoe, it belongs on the saltwater [and] on lakes.
+
+
+  - html: "<br><div style="width: 1000px;" class='lessonTitle'>Lesson Forty-One:  <i>buusači ʔi ti d(ə)č̓uʔ</i></div>"
+
+  - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
+
+  - html: "<br><div class='sectionNumber'>41.1</div>"
+
+  - startTime: 3417032
+    endTime:   3422429
+    lushootseed: ʔəsʔəx̌id kʷi gʷəcəxʷsuxʷtəš tiʔiɬ scəqiʔ.
+    english: How would I recognize a sockeye salmon?
+
+  - startTime: 3430615
+    endTime:   3433746
+    lushootseed: xʷiʔ ləhikʷ sʔuladxʷ tiʔiɬ scəqiʔ.
+    english: The sockeye is not a big salmon.
+
+  - startTime: 3442752
+    endTime:   3445751
+    lushootseed: x̌ičəc ti biac ʔətiʔiɬ scəqiʔ.
+    english: The meat ot the sockeye is red.
