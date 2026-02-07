@@ -8,7 +8,7 @@ kb = {
 `
 <b>ʔuqəɬdubicid &nbsp; čəd &nbsp; (ʔ)u.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
   <li><b> ʔuqəɬdubicid</b>
@@ -25,10 +25,39 @@ kb = {
 </ul>
 
    <li><b> čəd </b>  I, me.  [LD 62]
-   <li><b>ʔu </b> question marker.  [LD 19]
+    <li><b>ʔu </b> question marker.  [LD 19]
 
 </ul>
 </details>
+
+Grammar Note 28.1, page 3.
+
+Some words can make both <b>-dxʷ</b> and <b>-d</b> endings.
+Note the difference in meaning between
+<ul>
+   <li> <i>qəɬcid</i> "wake you up deliberately", and
+   <li> <i>qəɬdubidic</i> "happen to wake you up"
+</ul>
+and
+<ul>
+   <li> <i>k̓ʷəɬəd</i> "pour it out", and
+   <li> <i>k̓ʷəɬdxʷ</i> "spill it"
+</ul>
+
+In these two examples it would seem that _-dxʷ (-du-)_ means "accidentally".
+However, the following pairs of words show that it actually means "someone lacks
+full control over what they are doing":
+
+
+<ul>
+   <li> <i>tuhudxʷ čəd</i> "I solved it, I pieced it together".
+   <li> <i>tuhuyud čəd</i> "I made it, I finished it".
+</ul>
+
+<ul>
+   <li> <i>tuƛ̓aldxʷ čəd</i> "I managed to get it on (e.g., a tight boot)"
+   <li> <i>tuƛ̓alš čəd</i> "I put it on."
+</ul>
 
 `,
 
@@ -40,7 +69,9 @@ kb = {
 `
 <b>ʔi.  &nbsp; ʔuqəɬdubš &nbsp; čəxʷ. &nbsp; gʷəƛ̓əladəxʷ.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+
+
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ʔi</b> yes.  [LD 14]
@@ -50,8 +81,8 @@ kb = {
       <li><b>qəɬ</b> wake up.  [LD 176]
       <li><b>dubš</b> from <b>dxʷ-bš</b>
       <ul>
-         <li><b>-dxʷ_</b> diminished control.  [LD 86]
-         <li><b>-bš</b> me, suffix indicating first person object of the verb. see _-š_ [LD 207]
+         <li><b>-dxʷ</b> diminished control.  [LD 86]
+         <li><b>-bš</b> first person singular object. see <b>-š</b> [LD 207]
       </ul>
     </ul>
    <li><b>čəxʷ</b>  you (singular).  [LD 65]
@@ -59,10 +90,16 @@ kb = {
    <ul>
       <li><b>gʷə</b> if, maybe, might, doubtful, hoped for [subjunctive prefix]
       <li><b>ƛ̓əlad</b>  stop, be still.  [LD 153]
-      <li><b>-əxʷ</b> now.  see _-axʷ_, [LD 30]
+      <li><b>-əxʷ</b> now.  see <i>-axʷ</i>, [LD 30]
     </ul>
 </ul>
 </details>
+
+**Grammar Notes, p3**
+
+<i>ƛ̓u-</i> is a prefix meaning "habitually".  When both __ƛ̓u-__ and __tu-__
+(see section 10.7) or __ƛ̓u-__ and __ɬu-__ (11.7) precede the same action
+word, __ƛ̓u-__ is first. 
 
 **Footnote 1, p1**
 
@@ -80,7 +117,7 @@ _gʷəƛ̓əladəxʷ_.
 `
 <b>gʷəqəɬc &nbsp; čəxʷ &nbsp; (ʔ)u &nbsp; [ʔal kʷi] &nbsp; ɬup &nbsp; dadatu.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>gʷəqəɬc</b>
@@ -114,7 +151,7 @@ _gʷəƛ̓əladəxʷ_.
 `
 <b>xʷiʔ &nbsp; gʷədsqəɬcid.  &nbsp; cick̓ʷ &nbsp; čəxʷ &nbsp; ƛ̓uʔitut &nbsp; ʔə &nbsp; tə &nbsp; tib.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
@@ -155,7 +192,7 @@ precede the same action word, _ƛ̓u-_ is first.
 "xʷiʔ gʷ(ə)adsqəɬ.":
 `
 <b>xʷiʔ &nbsp; gʷ(ə)adsqəɬ.</b>
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
 <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
@@ -181,7 +218,7 @@ precede the same action word, _ƛ̓u-_ is first.
 `
 <b>tu(u)k̓ʷəɬalikʷ &nbsp; čəd &nbsp; ʔə &nbsp; ti &nbsp; kupi.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>tu(u)k̓ʷəɬalikʷ</b>
@@ -198,6 +235,10 @@ precede the same action word, _ƛ̓u-_ is first.
    <li><b>kupi</b> coffee [LD 119]
 </ul>
 </details>
+
+**Footnote 2, page 1**
+
+Some people pronounce __tuk̓ʷəɬdxʷ__ as though it wwere spelled __tuk̓ʷəɬədxʷ__.
 
 **Vocabulary Comment, 28.3, page 3**
 
@@ -218,7 +259,7 @@ coffee or tea.
 `
 <b>čəda &nbsp; tuk̓ʷəɬdxʷ.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li> <b>čəda</b> and I [LD 62]
@@ -281,7 +322,7 @@ _ _tuɬalš čəd_: I put it on.
 `
 <b>hiwil, &nbsp; čəxʷa &nbsp; k̓ʷəɬəd &nbsp; tiʔəʔ &nbsp; ʔəsƛ̓ux̌ʷil &nbsp; kupi.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li> <b>hiw-il</b> go ahead, proceed; go away, go on; in front [LD 110]
@@ -305,6 +346,8 @@ _ _tuɬalš čəd_: I put it on.
 </ul>
 
 </details>
+
+
 `,
 
 //----------------------- 
@@ -314,7 +357,7 @@ _ _tuɬalš čəd_: I put it on.
 `
 <b>tuqadacut &nbsp; ti &nbsp; dstaləɬ &nbsp; gʷəl &nbsp; tucaq̓dxʷ &nbsp; tiʔiɬ &nbsp; dq̓il̓bid.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <i> This is Paul Shannon's conjecture, based on his reading of the Lushootseed Dictionary.
 It is somewhat at odds with the English translation in the published work: it substitutes
@@ -359,7 +402,7 @@ Advice and corrections welcome. </i>
 `
 <b>ʔux̌icil &nbsp; tiʔiɬ &nbsp; č̓ač̓as &nbsp; gʷəl &nbsp; ʔucaq̓ad &nbsp; tiʔiɬ &nbsp; dbiʔbədaʔ &nbsp; ʔə &nbsp; təx̌ʷəc &nbsp; qʷəɬayʔ.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ʔux̌icil</b>
@@ -398,6 +441,12 @@ Advice and corrections welcome. </i>
 
 Some speakers say <i>ciqid</i> instead of <i>caq̓ad</i>, others
 say <i>cəqəd</i>.
+
+**Grammar Note 28.4, page 3**
+
+__x̌ʷəc__ means not only that a blade is sharp but also that something
+has a tart taste or that coffee is strong.
+
 `,
 
 //----------------------- 
@@ -408,7 +457,7 @@ say <i>cəqəd</i>.
 `
 <b>tutagʷalik &nbsp; čəd &nbsp; ʔə &nbsp; ti &nbsp; qʷəɬiʔ &nbsp; gʷəl &nbsp; hiqab &nbsp; mimʔad.</b>
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 <ul>
    <li><b>tutagʷalik</b>
       <ul>
@@ -437,6 +486,11 @@ say <i>cəqəd</i>.
 
 See 18.9, page 97 in Book One.
 
+**Footnote 3, page 2**
+
+Some people say <b>mimuʔad<b> while still others say <b>miʔmaʔən</b>.
+Use the form your teacher prefers.
+
 `,
 
 //----------------------- 
@@ -448,7 +502,7 @@ See 18.9, page 97 in Book One.
 **xʷiʔəxʷ &nbsp; gʷədsƛ̓aldxʷ.**
 
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>xʷiʔəxʷ</b>
@@ -472,6 +526,10 @@ See 18.9, page 97 in Book One.
 
 </details>
 
+**Footnote 4, page 2**
+
+The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷaxʷ__.
+
 `,
 
 //----------------------- 
@@ -482,7 +540,7 @@ See 18.9, page 97 in Book One.
 `
 **ƛ̓alš &nbsp; tiʔiɬ &nbsp; adšiqʷ &nbsp; gʷəšədᶻaləxʷ.**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ƛ̓alš</b> put on clothing [LD 152&rarr;151]
@@ -512,7 +570,7 @@ See 18.9, page 97 in Book One.
 `
 **diʔɬ &nbsp; kʷi &nbsp; gʷəsqəlbs.**
 
-<details open><summary>Vocabulary Notes</summary>
+<details><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>diʔɬ</b> suddenly; might; sometimes;  [LD 82]
@@ -527,9 +585,48 @@ See 18.9, page 97 in Book One.
 
 </details>
 
+**Footnote 5, page 2**
+
+<b>diʔɬ</b> - this is a Northern Lushootseed expression.  See 30.2b.
 `,
 
+//----------------------- 
+// section 29.12, line 1
+//-----------------------
 
+"huk̓ʷuy, x̌aƛ̓txʷ čəɬ ti sqəbuʔ.":
+`
+**huk̓ʷuy, x̌aƛ̓txʷ čəɬ ti sqəbuʔ.**
+
+<details><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li> <b>huk̓ʷuy</b>: endearing address to a girl {Snohomish] [LD 111]
+   <li><b>x̌aƛ̓txʷ</b> want something [LD 258]
+      <ul>
+         <li><b>x̌aƛ̓</b>:  want, like [LD 258]
+         <li><b>-txʷ</b>: the primary meaning of this suffix is "external causation" -
+                          "make someone do something" [LD 231]
+                          but here it indicates there is an object of the
+                          wanting: "want that" [Beck Draft Grammar p83]
+      </ul>
+   <li> <b>čəɬ</b>: we, us [LD 63]
+   <li> <b>ti</b> the particular one [LD 224]
+   <li> <b>sqəbuʔ</b>: breast, milk [LD 174]
+      <ul>
+        <li><b>s-</b> nominalizer [LD 199]
+        <li><b>qebuʔ</b> nurse someone [LD 174]
+      </ul>
+      </ul>
+</details>
+
+**Footnote 1, page 6**
+
+<b>huk̓ʷuy</b> - This term is used for addressing a little girl in a ncie way.
+Some people say <b>sk̓ʷuk̓ʷi</b> and still others say <b>sk̓ʷuyaʔ</b> or <b>sk̓ʷukʷiəʔ</b>.
+
+
+`,
 
 
 

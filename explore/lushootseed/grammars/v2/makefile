@@ -14,7 +14,7 @@ default:
 	@echo css      # read local slexil.css, for experimentation
 	@echo publish  # all text
 	@echo publish-audio # the wav file
-	@echo updateLocal
+	@echo updateLocal [s2h view]
 	@echo updateRemote
 	@echo view
 	@echo viewRemote

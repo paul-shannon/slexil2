@@ -8,6 +8,11 @@ mimeType: audio/wav
 lines:
   - html: "<div class='lessonTitle'>Lesson Twenty-Eight: saliʔačiʔ ʔi ti təqačiʔ</div>"
 
+  - html: "<div style='margin:30px; margin-top: 0px;'><ul>
+           <li><b>-dxʷ</b>: without full control
+           <li> <b>-d</b>: with control
+           <li><b>ƛ̓u-</b>: habitually</ul></div>"
+
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
   - html: "<div class='sectionNumber'>28.1</div>"
@@ -97,6 +102,11 @@ lines:
     english:  It might rain.
 
   - html: "<div class='lessonTitle'>Lesson Twenty-Nine: &nbsp; <i>saliʔačiʔ &nbsp; ʔi &nbsp;ti &nbsp;x̌ʷəl</i></div>"
+
+  - html: "<div style='margin:30px; margin-top: 0px;'><ul>
+           <li><b>-txʷ</b>: cause
+           <li><b>səxʷ-</b>: means by which something is done</ul></div>"
+
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
