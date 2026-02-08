@@ -591,7 +591,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
 `,
 
 //----------------------- 
-// section 29.12, line 1
+// section 29.1, line 1
 //-----------------------
 
 "huk̓ʷuy, x̌aƛ̓txʷ čəɬ ti sqəbuʔ.":
@@ -628,6 +628,200 @@ Some people say <b>sk̓ʷuk̓ʷi</b> and still others say <b>sk̓ʷuyaʔ</b> or 
 
 `,
 
+
+//----------------------- 
+// section 29.1, line 2
+//-----------------------
+
+"gʷəʔƛ̓txʷ čəxʷ (ʔ)u.":
+`
+**gʷəʔƛ̓txʷ čəxʷ (ʔ)u.**
+
+**Grammar Note 29.1, page 8**
+
+The suffix __-txʷ__ means "cause".  Thus
+<ul>
+  <li>from <b>ʔəƛ̓ʷ</b> "come" is made <b>ʔəƛ̓txʷ</b> "bring" (cause to come)
+  <li>from <b>ʔux̌ʷ</b> "go" is made <b>ʔux̌ʷtxʷ</b> "take" (cause to go)
+  <li>from <b>ʔəɬəd</b> "eat" is derived <b>ʔəɬtxʷ</b> "feed".
+  </ul>
+
+(The student  should observe how greatly this causative suffix increases the
+expressive power of Lushootseed without having to learn new words.)
+
+`,
+
+//----------------------- 
+// section 29.1, line 4
+//-----------------------
+
+"ʔəsdəkʷ ʔal ti səxʷƛ̓ux̌ilali.":
+`
+**ʔəsdəkʷ ʔal ti səxʷƛ̓ux̌ilali.**
+
+**Grammar Note 29.3, page 9**
+
+The prefix <b>səxʷ-</b> indicates "the means by which something is done".
+
+For example, <b>ƛ̓ux̌ʷil</b> means "cold", so <b>səxʷƛ̓ux̌ʷil</b> is "the means
+by which (something) is kept/made cold".
+
+Compare the word <b>səxʷgʷədil</b> "chair" with <b>gʷədil</b> "chair".
+
+**Grammar Note 29.4, page 9**
+
+The suffix <b>-ali</b> refers to the "place where something is kept or where
+something is typically located".
+
+In addition to <b>səxʷƛ̓ux̌ilali</b> "refrigerator", note such words as
+
+<ul>
+ <li><b>hud<u>ali</u></b> &nbsp; "stove (fire place)"
+ <li><b>xʷdəgʷigʷs<u>ali</u></b> &nbsp; "pocket", "bag" - (place things are put in)
+ <li><b>xʷlab<u>ali</u></b> &nbsp; "bottle" (which originally mean "place (for) rum".
+</ul>
+
+`,
+
+//----------------------- 
+// section 29.2, line 1
+//-----------------------
+
+"ʔux̌ʷtxʷ ti sqəbuʔ dxʷdiʔadiʔ":
+`
+**ʔux̌ʷtxʷ ti sqəbuʔ dxʷdiʔadiʔ**
+
+**Grammar Note 29.5, page 9**
+
+The student has already learned the significance of <b>dxʷʔal</b>.
+In section 18.6, page 6 of Book One, the prefix <b>-dxʷ</b> was defined
+as meaing "toward".
+
+In the present lesson, it is learned that <b>-dxʷ</b> can be added
+directly to other location words meaning "to" or "toward" that location.
+`,
+
+
+//----------------------- 
+// section 29.4, line 2
+//-----------------------
+
+
+"xʷuʔələ ʔestagʷəxʷ (h)əlgʷəʔ yəx̌i ʔuc̓iw̓c̓iw̓.":
+`
+**xʷuʔələ ʔestagʷəxʷ (h)əlgʷəʔ yəx̌i ʔuc̓iw̓c̓iw̓.**
+
+**Footnote 1, page 7**
+
+<b>yəx̌i</b> is <b>kʷə ti</b> in Southern Lushootseed.
+
+`,
+
+//----------------------- 
+// section 29.5, line 1
+//-----------------------
+
+"hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.":
+`
+**hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.**
+
+**Vocabulary Comment 29.8, page 9**
+
+In Lesson Twenty-five (25.5) it was learned that <b>yəc</b> can end with
+either a <b>-d</b> or <b>-b</b>:
+
+<ul>
+   <li><b>yəcəd</b> "report it/him"
+   <li><b>yəcəb</b> "inform (someone)"
+</ul>
+
+To both of these can be added endings for "me", "you", and "us".  Note the
+difference in meaning:
+
+<ul>
+   <li><b>yəcəc</b> "tell on me"
+   <li><b>yəcəbtubš</b> "tell (to) me"
+   <li><b>yəccid</b> "tell on you"
+   <li><b>yəcəbtucicid</b> "tell (to) you"
+   <li><b>yəctubuɬ</b> "tell on us"
+   <li><b>yəcəbtubuɬ</b> "tell (to) us"
+   <li><b>yəctubuɬəd</b> "tell on you folks"
+   <li><b>yəcəbtubuɬəd</b> "tell (to) you"
+</ul>
+
+
+
+
+`,
+
+
+//----------------------- 
+// section 29.5, line 3
+//-----------------------
+"čəgʷalətxʷ ti suyayu(s)s.":
+`
+**čəgʷalətxʷ ti suyayu(s)s.**
+
+Many words ending with the sound <b>kʷ</b> undergo a change whereby
+the <b>kʷ</b> is replaced with <b>gʷ</b> when a vowel is suffixed.
+
+Thus <b>dəkʷ</b> becomes <b>dəgʷaš</b> and <b>čaʔkʷ</b> becomes <b>čəgʷalətxʷ</b>.
+
+(The <b>ʔ</b> is lost before <b>gʷ</b>.  See also 29.7).  Compare 34.1
+
+**Grammar Note 29.7, page 9**
+
+Many of the suffixes that designate parts of the body or indicate location
+take the major stress (or accent) of the word rather than the "main" part, the STEM.
+
+One such suffix is <b>-alətxʷ</b> "house" or "building".
+
+When added to a stem having the vowel <b>a</b>, that <b>a</b> is usually
+replaced by <b>ə</b>.
+
+Thus, by rule 29.6:
+<ul>
+  <li><b>čaʔkʷ</b> + <b>ʔalətxʷ</b> becomes <b>čagʷalətxʷ</b>
+</ul>
+
+and by rule 29.7
+<ul>
+  <li> <b>čagʷalətxʷ</b> becomes <b>čəgʷalətxʷ</b>
+</ul>
+
+Similarly
+
+<ul>
+  <li> <b>t̓aq̓t</b> + <b>alətxʷ</b> becomes <b>t̓əq̓talətxʷ</b>  
+</ul>
+
+(See 29.11a)
+
+`,
+
+
+//----------------------- 
+// section 29.6, line 1
+//-----------------------
+
+"gʷəʔux̌ʷtubš čəxʷ (ʔ)u dxʷʔal ti xʷuyubalʔtxʷ.":
+`
+**gʷəʔux̌ʷtubš čəxʷ (ʔ)u dxʷʔal ti xʷuyubalʔtxʷ.**
+
+**Grammar note 29.2, page 8**
+
+Just as the suffix <b>-dxʷ</b> becomes <b>-du-</b> before <b>-bš</b>, <b>-bicid</b>,
+etc (see 27.2), so <b>-txʷ</b> becomes <b>-tu-</b> before the same endings:
+
+<ul>
+  <li> <b>ʔəɬtxʷ</b> &nbsp; "feeds him/her/it"
+  <li> <b>ʔəɬtubš</b> &nbsp; "feeds me"
+  <li> <b>ʔəɬtubicid</b> &nbsp; "feeds you"
+  <li> <b>ʔəɬtubbuɬ</b> &nbsp; "feeds us"
+  <li> <b>ʔəɬtubuɬəd</b> &nbsp; "feeds you folks"
+  <li> <b>ʔəɬtubut</b> &nbsp; "feeds self"
+</ul>
+`
 
 
 }
