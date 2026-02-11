@@ -2111,6 +2111,46 @@ In later lessons (18.1) it will be learned that _əw̓ə_ can add still other fe
 `
 **stab əw̓ə tiʔiɬ diʔucid ʔal tə stuləkʷ**
 
+**Grammar Notes 30.4, Volume 2, page 16**
+
+***-ucid***
+
+Suffixes expressing parts of the body are frequently used
+to indicate geographical features and other concepts as well;
+and often they have quite abstract meanings from the English
+speaker's point of view.
+
+Here <b>-ucid</b> means river (in Northern Lushootseed) but below,
+in Lesson twenty-three this same suffix was found to mean "mouth"
+also.  In fact, <b>-ucid</b> can refer to still other items such
+as "door", "lid", and "language".  A mouth, door, lid, and river
+all have the common feature of "opening", "gap".
+
+The meaning of <b>-ucid</b> is clearer when it is contrasted with other
+suffixes which have the same English translations:
+
+<ul>
+   <li> mouth  <b>-ucid</b>;  opening in face
+   <li> mouth  <b>-aʔɬdəɬ</b>; parts of the mouth, e.g., lips
+   <li> river  <b>-ucid</b> NL; opeing in the ground, what needs to be crossed
+   <li> river  <b>-gʷiɬ</b>; water travel, a means of transportation (hence also
+       "canoe" and by extension "vehicle in general")
+   <li> door <b>-ucid</b>: opening to pass through
+   <li> door <b>-y-ax̌ad</b> the hinged object attached at one side
+</ul> 
+
+From the meaning of "mouth" <b>-ucid</b> also came to mean "language".
+Thus from <b>pastəd</b> "white man", "Caucasian" is built <b>pastəducid</b>
+"English".
+
+The last part of the name for "Lushootseed" also is <b>-ucid</b>: <b>dxʷləšucid</b>.
+
+The <b>ə</b> in <b>ləš</b> "Puget Sound Region" is seldom pronounced
+because the major stress or accent falls on the suffix, the <b>u</b> of
+<b>-ucid</b>, leaving the <b>ə</b> only very weakly articulated if
+at all.  Compare 29.7.
+
+
 <details><summary>Vocabulary Notes</summary>
 
 <ul>

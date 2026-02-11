@@ -701,6 +701,50 @@ In the present lesson, it is learned that <b>-dxʷ</b> can be added
 directly to other location words meaning "to" or "toward" that location.
 `,
 
+//----------------------- 
+// section 29.3, line 1
+//-----------------------
+
+"šədᶻaltxʷ ti sqʷəbayʔ čəxʷa ʔibəštxʷ. hagʷəxʷ t(u)ashədʔiw̓.":
+`
+**šədᶻaltxʷ ti sqʷəbayʔ čəxʷa ʔibəštxʷ. hagʷəxʷ t(u)ashədʔiw̓.**
+
+**Vocabulary Comment 29.9, page 10**
+
+Where English as the one word "inside", Lushootseed has two,
+<b>hədʔiw̓</b> "inside a house" and <b>dəkʷ/dəgʷa-</b> "inside
+something small" (e.g., inside a basket).
+
+Although these two words are completely different in
+Lushootseed, an examination of related languages shows that
+<b>hədʔiw̓</b> and <b>dəkʷ/dəgʷa-</b> originated from the
+same ancestor word which had two forms (something like
+certain English words, e.g., "brothers-brethren").
+
+This ancient formation is still used in in Cowichan, a sister
+language to Lushootseed spoken on the east side of Vancouver
+Island.  In Cowichan there is just one word for "inside" <b>nəw̓</b>
+as in <b>nəw̓əš</b> "put it inside" and <b>nəw̓iləm</b> "go inside".
+
+However, to express "be inside", <b>nəw̓</b> undergoes considerable
+change becoming <b>s.həmʔiq̓ʷ</b>.  Many words in Cowichan act this way.
+Two other examples are <b>məq̓</b> "squash" and <b>s.həmʔiq̓ʷ</b>.
+
+Ages ago, when the speakers of Lushootseed gave up this process,
+they retained the two forms <b>hədʔiw̓</b> and <b>dəkʷ/dəgʷa-</b>
+assigning a different meaning and thus created two words out of one.
+
+Note that where Cowichan has <b>n</b>, Lushootseed has <b>d</b>.
+(See 7.7 page 33 in Book One.)  And where Cowichan has <b>w̓</b>,
+Lushootseed has either <b>kʷ/gʷ</b> or <b>w̓</b> - sometimes
+written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
+"Duwamish", the "people of the inside". (See 7.6.1, page 33, Book One.)
+
+(Compare Northern Lushootseed <b>dəgʷaš</b> and Southern Lushootseed
+<b>dəgʷəš</b>.)
+
+
+`,
 
 //----------------------- 
 // section 29.4, line 2
@@ -797,6 +841,88 @@ Similarly
 
 (See 29.11a)
 
+**Vocabulary Comment 29.10, p 10**
+
+In Book One two suffixes meaning "house" or "building"
+were presented: <b>-alətxʷ</b> (5.5, page 24, and picture
+on the preceding page) and <b>-alʔtxʷ</b> (Lessons 13 and
+19).  (Actually these two endings are best thought of as
+alternants of the same suffix.)
+
+The first is used with words expressing location with
+reference to a house of building:
+
+<ul>
+  <li><b>diʔ<u>alətxʷ</u></b> &nbsp; "on the other side of the house"
+  <li><b>čəgʷ<u>alətxʷ</u></b> &nbsp; "outside the house"
+  <li><b>t̓əq̓t<u>alətxʷ</u></b> &nbsp; "on the landward side of the
+     house" or "up behind the house"
+</ul>
+
+The second, <b>-alʔtxʷ</b>, is used in creating words for
+buildings that have a specific function such as these words
+learned in Lesson 19:
+<ul>
+  <li><b>xʷuyub<u>alʔtxʷ</u></b> "store"
+  <li><b>ʔəɬəd<u>alʔtxʷ</u></b> "restaurant"
+  <li><b>lab<u>alʔtxʷ</u></b>  "tavern"
+  <li<b>x̌(ə)ɬ<u>alʔtxʷ</u></b>	"hospital"
+</ul>
+
+This suffix is also sometimes used with numbers as presented
+in Lesson Thirteen, e.g., <b>buusalʔtxʷ</b>, "four houses/buildings".
+
+A third function of <b>-alʔtxʷ</b> is to form words that
+designate parts of a house, for instance:
+
+<ul>
+  <li><b>š(ə)q<u>alʔtxʷ</u></b>: "house top", "roof", "upstairs"
+</ul>
+
+**Vocabulary Comment 29.11, page 11**
+
+In the old days houses were built facing a body of water
+either on a river bank or on the shore of a lake of bay.
+With this in midn, the significance of <b>t̓əq̓t<u>alətxʷ</u></b>
+and <b>čəgʷ<u>alətxʷ</u></b> becomes clear.
+
+**Vocabulary Comment 29.11a, page 11**
+
+<b>t̓əq̓talətxʷ</b> is mude up from <b>t̓aq̓t</b> "toward the land"
+plus <b>alətxʷ</b> "house".  (<b>t̓aq̓t</b> is pronounced as <b>t̓əq̓t</b>
+when followed by <b>-alətxʷ</b>.  See 29.7.
+
+Because houses faced the water, <b>t̓əq̓talətxʷ</b> "land side of a house"
+came to mean "up in the woods behind a house".
+
+**Vocabulary Comment 29.11b, page 11**
+
+<b>čəgʷalətxʷ</b> is derived from <b>čaʔkʷ</b> "seaward", "toward the
+water" and <b>-alətxʷ</b>.  (<b>čaʔkʷ</b> is pronounced as <b>čəgʷ</b>
+when followed by certain suffixes, including <b>-alətxʷ</b>.  See 29.6 and 27.7)
+
+However, in Northern Lushootseed <b>čəgʷalətxʷ</b> is not the opposite
+of <b>t̓əq̓talətxʷ</b> - although very long ago it probably was.
+Because houses faced the water, that is, the door was on the water
+side, the only way of getting outside was to go toward the water,
+<b>čəgʷalətxʷ</b>.
+
+Eventually <b>čəgʷalətxʷ</b>came to mean "outside the house" in a
+general sense, on any side.
+
+Note that the Southern Lushootseed term for "outside the
+house" is <b>šqalbixʷ</b>, a completely different word.
+
+When wishing to designate the location outside a house and specifically
+on the water side, the Northern Lushootseed speakers say either
+
+<ul>
+   <li> <b>čəgʷalətxʷ čəgʷadiʔ</b>, or
+   <li> <b>čəʔkʷbid ʔə tə ʔalʔal</b>
+</ul>
+
+<b>-bid</b> expresses the location of someone (or something)
+in relation to someone else.
 `,
 
 
@@ -821,7 +947,183 @@ etc (see 27.2), so <b>-txʷ</b> becomes <b>-tu-</b> before the same endings:
   <li> <b>ʔəɬtubuɬəd</b> &nbsp; "feeds you folks"
   <li> <b>ʔəɬtubut</b> &nbsp; "feeds self"
 </ul>
+`,
+
+
+//----------------------- 
+// section 30.1 line 39
+//-----------------------
+
+
+"cick̓ʷ ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.":
 `
+**cick̓ʷ ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.**
+
+**Footnote 3, page 14**
+
+
+<b>cick̓ʷ</b> "very" and <b>həlaʔb/laʔb</b> "really" are close
+synonyms.  The former, however, is more forceful, more intense
+than the latter.
+
+`,
+
+//----------------------- 
+// section 30.1 line 40
+//-----------------------
+
+"ƛ̓alš t(i) adšiqʷ. diʔɬ kʷi ɬusqəlbs.":
+`
+**diʔɬ kʷi ɬusqəlbs.**
+
+**Grammar Note 30.1, page 16**
+
+Lushootseed, like most languages in the world, does not have
+anything like the "dummy" <i>it</i> in expressions about the weather
+as Enllish does, e.g.,  <u>it</u> is raining, <u>it</u> is snowing,
+<u>it</u> is foggy.  The <i>it</i> in these English sentences means nothing
+at all; and Lushootseed does not encumber its grammar with such useless
+words.
+
+**Footnote 1, page 14**
+
+The corresponding sentence in Southern Lushootseed is
+<b>til̓ gʷəqəlb</b>.  See Grammar Note 30.2b.
+
+`,
+
+//----------------------- 
+// section 30.2 line 43
+//-----------------------
+
+"diʔɬ kʷi ɬusqʷats.":
+`
+**diʔɬ kʷi ɬusqʷats.**
+
+**Grammar Note 30.2, page 16**
+
+**Grammar Note 30.2, page 16**
+
+<b>diɬ</b> is one of a small group of words like <b>xʷiʔ</b>
+that is followed by action words which have an <b>s-</b> prefix and one
+of the subordinate clause affixes.  Reread 25.3 on page 135 in Book One.
+Also, see Appendix A on page 150 in Book One.
+
+**Grammar Note 30.2b, page 16**
+
+The Southern Lushootseed equivalent to <b>diʔɬ</b> is <b>til̓</b>.
+However, <b>til̓</b> belongs to a different class of words, a class
+including <b>cick̓ʷ (cay)</b> and <b>(hə)laʔb</b> which does not
+require an s-prefix on the follwoing action word (nor the use of
+subordinate affixes).  See footnote 1 on page 14.
+
+**Footnote 2, page 14**
+
+<b>qʷat</b> is not used by many Southern Lushootseed speakers
+to mean "snow(ing)".  Instead, <b>baqʷu(ʔ)b</b> is said.
+See Vocabulary Comment 30.6.
+`,
+
+//----------------------- 
+// section 30.3, line 44
+//-----------------------
+
+"laʔb ʔəsqʷšab ʔal tiʔəʔ sləx̌il.":
+`
+**laʔb ʔəsqʷšab ʔal tiʔəʔ sləx̌il.**
+
+**Grammar Note 30.3, page 16**
+
+And ending <b>-ič</b> is often added to expressions of
+weather and related phenomena which means that someone "got caught in"
+that particular weather.  For example:
+<ul>
+  <li> <b>qʷšab<u>ič</u></b> &nbsp;  "someone got caught in the fog"
+  <li> <b>ʔubəsad<u>ič</u></b> &nbsp; "It got dark on me"
+  <li> <b>ɬusqʷat<u>ič</u>s</b> &nbsp; "He might get snowed on"
+</ul>
+
+Although no examples of <b>-ič</b> occur in the Choral Repetition,
+it is a commonly used suffix and, therefore, a good one to know.
+  
+**Footnote 3, page 14**
+
+The Snohomish generally say <b>həlaʔb</b> rather than the shorter
+<b>laʔb</b>.  The Southern Lushootseed do not use the word at all.
+
+`,
+
+//----------------------- 
+// section 30.3, line 46
+//-----------------------
+
+"diʔɬ kʷi gʷ(ə)adsx̌ʷil̓":
+`
+**diʔɬ kʷi gʷ(ə)adsx̌ʷil̓**
+
+**Footnote 4, page 14**
+
+It is more common in NL for <b>kʷi</b> to be omitted here.
+See footnote 2 on page 115 of Book One.
+
+`,
+
+
+//----------------------- 
+// section 30.4, line 47
+//-----------------------
+
+"laʔb ʔusuxʷil ʔal tiʔəʔ sləx̌il.":
+`
+**laʔb ʔusuxʷil ʔal tiʔəʔ sləx̌il.**
+
+**Footnote 1, page 15**
+
+Rather than say <b>ʔususʷil</b>, many people, particularly those
+from the Southern region, would use <b>ušəx̌əb</b>.
+
+`,
+
+//----------------------- 
+// section 30.5, line 50
+//-----------------------
+
+"ʔugʷilič̓əb tiʔəʔ qa sčusad.":
+`
+**ʔugʷilič̓əb tiʔəʔ qa sčusad.**
+
+**Footnote 3, page 15**
+
+<b>ʔugʷilič̓əb</b>: <b>šayʔ</b> in Southern Lushootseed 
+
+**Footnote 4, page 15**
+
+The SL equivalent is <b>sčušad</b>.  See 3.15 in Book One.
+Also 30.5.
+`,
+
+//----------------------- 
+// section 30.7, line 55
+//-----------------------
+
+"xʷi kʷi gʷədsəxʷƛ̓alšəb ti dpuʔtəd.":
+`
+**gʷədsəxʷƛ̓alšəb**
+
+**Footnote 5, page 15**
+
+Reread 20.1b on pages 109 and 110 of Book One.
+
+**Footnote 6, page 15**
+w
+
+Southern Lushootseed speakers say either <b>šxʷpiptxʷ</b> or
+simply <b>xʷpipt</b> for "shirt".  Particularly the Snoqualmie use
+the latter form.
+`,
+
+
+
 
 
 }

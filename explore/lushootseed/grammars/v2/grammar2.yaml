@@ -246,6 +246,13 @@ lines:
 
   - html: "<div class='lessonTitle'>Lesson Thirty: &nbsp; <i>ɬixʷačiʔ</i></div>"
 
+  - html: "<div style='margin:30px; margin-top: 0px;'><ul>
+           <li>weather
+           <li><b>diɬ</b>: the one who, the thing that, that which, the aforementioned
+           <li><b>-ič</b>: got caught in (some kind of weather)
+           </ul></div>"
+
+
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition</h5></div>"
 
   - html: "<div class='sectionNumber'>30.1</div>"
