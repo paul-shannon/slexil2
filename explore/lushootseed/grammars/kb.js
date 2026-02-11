@@ -2132,7 +2132,7 @@ suffixes which have the same English translations:
 <ul>
    <li> mouth  <b>-ucid</b>;  opening in face
    <li> mouth  <b>-aʔɬdəɬ</b>; parts of the mouth, e.g., lips
-   <li> river  <b>-ucid</b> NL; opeing in the ground, what needs to be crossed
+   <li> river  <b>-ucid</b> NL; opening in the ground, what needs to be crossed
    <li> river  <b>-gʷiɬ</b>; water travel, a means of transportation (hence also
        "canoe" and by extension "vehicle in general")
    <li> door <b>-ucid</b>: opening to pass through
