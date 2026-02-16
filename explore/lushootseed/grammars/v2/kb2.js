@@ -1021,7 +1021,63 @@ subordinate affixes).  See footnote 1 on page 14.
 
 <b>qʷat</b> is not used by many Southern Lushootseed speakers
 to mean "snow(ing)".  Instead, <b>baqʷu(ʔ)b</b> is said.
-See Vocabulary Comment 30.6.
+
+**Vocabulary Comment 30.6**
+
+<b>baqʷuʔ</b> refers to "snow on the ground".  The various
+Southern Lushootseed groups and the Snohomish, but not the Skagit,
+can form the corresponding word, "snow(ing"), "falling snow",
+by adding the suffix <b>-b</b> giving <b>baqʷu(ʔ)b</b>.
+
+(See 15.4 in Book One on page 82 and 12.4 on page 65.)
+
+The Skagit say only <b>qʷat</b> for "snowing" while the
+Snohomish use <b>baqʷu(ʔ)b</b> and <b>qʷat</b> interchangeably.
+
+Any permanently snow covered mountain peak is called <b>təqʷubəʔ</b>.
+The name for the City of Tacoma comes from this Indian word.
+Note, however, that not just nearby Mt. Rainier is a <b>təqʷubəʔ</b>
+but also Mt. Baker, Mt. Adams, etc.
+
+The workd <b>təqʷubəʔ</b> is not the name of a particular mountain,
+as most Tacoma residents seem to think, but rather a term of reference for
+any of a class of mountins so high that they have snow on them year
+around.
+
+**Vocabulary Comment 30.7, page 18**
+
+In this lesson, the word <b>qʷat</b> expresses the action of "snowing".
+However, various suffixes reveal the core meaning of <b>qʷat</b> to
+be more general.  Note <b>qʷataš</b> "lay it down" and <b>qʷatulč</b>
+"set the table".
+
+
+**Vocabulary Comment 30.8, page 18**
+
+Lushootseed has a rich vocabulary full of many words with
+similar byt not identical meanings.  The student can gain some
+idea of this richness with these examples:
+
+<ul>
+   <li> <b>bəč</b> "fall from standing position"
+   <li> <b>bəčaš</b> "set something down"
+   <li> <b>bəčagʷil</b> "lie down"
+</ul>
+   
+<ul>
+   <li><b>qʷat</b> "snow(ing)"
+   <li> <b>qʷataš</b> "lay something down in a planned or organized way"
+   <li> <b>qʷatagʷil</b> "go to bed"
+</ul>
+
+<ul>
+   <li> <b>xʷit̓il</b> "fall from height"
+   <li> <b>xʷit̓ild</b> "drop it, knock it down (from height)"
+   <li> <b>xʷt̓agʷil</b> "climb down"
+</ul>
+
+
+
 `,
 
 //----------------------- 
@@ -1031,6 +1087,12 @@ See Vocabulary Comment 30.6.
 "laʔb ʔəsqʷšab ʔal tiʔəʔ sləx̌il.":
 `
 **laʔb ʔəsqʷšab ʔal tiʔəʔ sləx̌il.**
+
+**Vocabulary Comment 30.9, page 18**
+
+<b>qʷšab</b> "fog" is related to the word <b>qʷəšəb</b>, one of
+several words for "smoke (from a fire)".
+
 
 **Grammar Note 30.3, page 16**
 
@@ -1050,6 +1112,8 @@ it is a commonly used suffix and, therefore, a good one to know.
 
 The Snohomish generally say <b>həlaʔb</b> rather than the shorter
 <b>laʔb</b>.  The Southern Lushootseed do not use the word at all.
+
+
 
 `,
 
@@ -1094,12 +1158,33 @@ from the Southern region, would use <b>ušəx̌əb</b>.
 
 **Footnote 3, page 15**
 
-<b>ʔugʷilič̓əb</b>: <b>šayʔ</b> in Southern Lushootseed 
+<b>ʔugʷilič̓əb</b> is <b>šayʔ</b> in Southern Lushootseed 
 
 **Footnote 4, page 15**
 
-The SL equivalent is <b>sčušad</b>.  See 3.15 in Book One.
-Also 30.5.
+The SL equivalent is <b>sčušad</b>.  As noted in Book One, Vocabulary
+Comment 3.15:
+
+<b>č̓ač̓as</b> "child", "youngster", is the Northern Lushootseed
+pronunciation.  In Southern Lushootseed the word is pronounced
+<b>č̓ač̓aš</b>.  It is generally true for words beginning in <b>č</b>
+and <b>č̓</b>, that if they end with <b>š</b> in the southern area,
+the last sound is <b>s</b> in the north.  A couple additional
+examples, 
+<ul>
+   <li> <b>čəgʷəš</b> SL "wife"
+   <li> <b>čəgʷaš</b> NL "wife"
+   <li> <b>č̓əbəš</b> SL "sister-in-law"
+   <li> <b>č̓əbaš</b> NL "sister-in-law"
+</ul>
+
+**Vocabulary Comment 30.5, page 17**
+
+Careful speakers (in both NL and SL) use <b>s.čusad</b>/<b>s.čušad</b>
+only to refer to a start belongs to or forms part of a constellation.
+
+The word for star in general is <b>t̓ət̓əwaʔs</b>.
+
 `,
 
 //----------------------- 
@@ -1112,18 +1197,73 @@ Also 30.5.
 
 **Footnote 5, page 15**
 
-Reread 20.1b on pages 109 and 110 of Book One.
+**Grammar Note 20.1b, Volume One, page 109**
+
+[One way] of expressing desire (which also includes the idea
+of <i>need</i> or simply <i>inclination</i> is formed with the prefix
+<b>dxʷ(s)-</b> plus the suffix <b>-b</b>.  (The <b>s</b> of <b>dxʷ(s)-</b>
+is optional.)
+
+The combination of <b>ʔəs-dxʷ(s)-</b> becomes </bʔəxʷ(s)-</b> in
+Northern Lushootseed but <b>ʔəsxʷ-</b> in Southern Lushootseed.   Thus <b>ʔəxʷsʔitutəb</b>
+"sleepy" is more exactly translated as "desire/need sleep".
+
+In Northern Lushootseed <b>dxʷ(s)-...-b</b> is freely added to
+any action word.  In the southern varieties of the language it is
+much less commonly used.
 
 **Footnote 6, page 15**
-w
+
 
 Southern Lushootseed speakers say either <b>šxʷpiptxʷ</b> or
 simply <b>xʷpipt</b> for "shirt".  Particularly the Snoqualmie use
 the latter form.
 `,
 
+"ɬudxʷsq̓ʷəl.":
+`
+**ɬudxʷsq̓ʷəl**
 
+**Vocabulary Comment 30.10, page 19**
 
+<b>q̓ʷəl</b> means not just "hot" but also "ripe", and with
+the <b>-d</b> suffix (16.1) "cook something".  Reread 11.10 in
+Book One, page 60.
+`,
 
+//------------------------ 
+// section 31A.1, line 58
+//------------------------
+
+"tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy.":
+`
+**tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy.**
+
+Prior to this lesson there has been no way of expressing
+both actor and person acted upon in the same sentence
+(unless at least one of the other was <i>I, we, or you</i>.
+
+Choral Repetion A presents how this is done: the actor is marked by <b>ʔə</b>.
+
+Action words ending in <b>-dxʷ (-du-)</b> and <b>-txʷ (-tu-)</b> simply
+add <b>-b</b> (after the <b>u- ending</b>.
+
+Those with the <b>-d</b> suffix require a change of <b>-d</b> to <b>-t-</b>
+before <b>-b</b> may be added.  (An <b>ə</b> sound is added between the
+<b>-t-</b> and the <b>-b</b> to make pronunciation easier.
+
+**Grammar Note 31.2, page 23**
+
+It is possible to change the order of actor and person
+acted upon; therefore, <b>ʔə</b> is essential to keep clear
+who is who.
+
+Both of the following sentences means "The dog is chasing the boy".
+
+<ul>
+  <li> ləčalatəb ʔe ti sqʷəbayʔ ti č̓ač̓as.
+  <li> ləčalatəb ti č̓ač̓as ʔe ti sqʷəbayʔ.
+</ul>
+`,
 
 }
