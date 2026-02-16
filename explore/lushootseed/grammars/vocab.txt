@@ -1,0 +1,350 @@
+      <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
+
+
+      <li><b>dəkʷ</b> inside something relatively small, containing [LD 80]
+
+
+      <li><b>gʷ-</b> if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95)
+      <li><b>ʔəƛ̓</b> come [LD 12]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+
+<li><b>čad</b> where; somewhere; someplace; wherever; where is; [LD 59]
+
+    <li><b>-txʷ</b>: the primary meaning of this suffix is
+                      "external causation" - "make someone do something" [LD 231]
+                      but here it indicates there is an object of the
+                      wanting: "want that" [Beck Draft Grammar p83]
+
+
+
+   <li><b> čəd </b>  I, me.  [LD 62]
+   <li><b>ʔu </b> question marker.  [LD 19]
+
+
+   <li><b>stab</b> thing(s); what (thing?), what way?, what means? [LD 204&rarr;215]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li><b>əw̓ə</b> so (in the sense of discovery, realization; it seems (expressing mild surprise) [LD 93]
+
+
+   <li><b>tutagʷalik</b>
+      <ul>
+         <li><b>tu-</b> past [LD 228]
+         <li><b>tagʷ</b> buy [LD 217]
+         <li><b>=alik</b> creative activity, iteratively [LD 28]
+      </ul>
+
+   <li><b>čəd</b>  I, me.  [LD 62]
+   <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+   <li><b>ti </b> this [LD 224]
+   <li><b>qʷəɬiʔ</b> shoe, Skagit. LD unclear, but possibly short for <b>qʷəɬiʔ=šəd</b>
+       <ul>
+          <li><b>qʷəɬiʔ</b> associated with log, stick: <b>qʷɬayʔ, qʷəɬayʔ</b> [LD 192]
+          <li><b>=šəd</b> lexical suffix for foot [LD 208]
+       </ul>
+   <li> <b>gʷəl</b> and, but, or, then, next; as if [LD 100]
+   <li><b>hiqab</b> too, excessive [LD 110]
+   <li><b>mimʔad</b> small [LD 158]  see <b>biʔbad</b> [LD 39]
+
+
+  <li><b> ʔuqəɬdubicid</b>
+   <li><b> ʔu-</b>  action is viewed as a whole, in its entirety, rather than
+   highlighting the details, stages, or its ongoing nature. [LD 19]
+   <li><b> qəɬ</b> wake up; regain consciousness, come to.  [LD 176]
+   <li><b> -du-</b> indicates diminished control: the subject (the speaker)
+          did not have complete control of the act.  <b>dxʷ</b>
+          is the standard form, which often becomes <b>du</b> when
+          followed (as here) by other suffixes.
+   <li><b>-bicid </b> you (singular) [LD 39,114] 
+
+
+   <li><b>ʔi<sup>1</sup></b> yes, indeed.  [LD 14]
+   <li><b>ʔi<sup>2</sup></b> and.  [LD 14]
+
+   <li><b>ʔuqəɬdubš</b>
+   <ul>
+      <li><b>ʔu</b> perfective prefix (action viewed as a whole).  [LD 19]
+      <li><b>qəɬ</b> wake up.  [LD 176]
+      <li><b>dubš</b> from <b>dxʷ-bš</b>
+      <ul>
+         <li><b>-dxʷ_</b> diminished control.  [LD 86]
+         <li><b>-bš</b> me, suffix indicating first person object of the verb. see _-š_ [LD 207]
+      </ul>
+    </ul>
+   <li><b>čəxʷ</b>  you (singular).  [LD 65]
+   <li><b>gʷəƛ̓əladəxʷ</b>
+   <ul>
+      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for
+   [subjunctive prefix] [LD 95]
+      <li><b>ƛ̓əlad</b>  stop, be still.  [LD 153]
+      <li><b>-əxʷ</b> now.  see _-axʷ_, [LD 30]
+    </ul>
+
+   <li><b>gʷəqəɬc</b>
+   <ul>
+     <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+     <li><b>qəɬ</b> wake up.  [LD 176]
+     <li><b>-c</b> the verb ("wake up") has a goal [LD 43]
+   </ul>
+   <li><b>čəxʷ</b>  you (singular).  [LD 65]
+   <li><b>ʔu</b> question marker. [LD 19]
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>kʷi</b> a, any; (hypothetical, doubtful, remote) [LD 125]
+   <li><b>ɬup</b>  early morning, dawn. [LD 48]
+   <li><b>dadatu</b> morning, tomorrow, early. [LD 77]
+
+   <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
+   <li><b>gʷədsqəɬcid</b>
+     <ul>
+       <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+       <li><b>ds</b> <i>unsure, might mean "will not", see gʷədsəxʷsʔitutəb </i>  [LD 18]
+       <li><b>qəɬ</b> wake up.  [LD 176]
+       <li><b>cid</b> you (singular) [LD 46]
+     </ul>
+<li><b>cick̓ʷ</b> very [LD 46]
+<li><b>čəxʷ</b> you (singular) [LD 65]
+<li><b>ƛ̓uʔitut</b>
+   <ul>
+    <li><b>ƛ̓u</b> habitual action or state, generally, usually [LD 155]
+     <li><b>ʔitut</b> sleep [LD 18]
+   </ul>
+<li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+<li><b>tə</b> the, a [LD 219]
+<li><b>tib</b> do something requring much physical effort; be strong [LD 225]
+
+<li><b>xʷiʔ</b> no, not, nothing! [LD 252]
+<li><b>gʷ(ə)adsqəɬ</b>
+   <ul>
+      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+      <li><b>ad </b> your (second person singular possessive) [LD 25]
+      <li><b>s </b>  nominalizer [LD 199]
+      <li><b>qəɬ</b> wake up.  [LD 176]
+   </ul>
+
+   <li><b>tu(u)k̓ʷəɬalikʷ</b>
+
+     <ul>
+       <li><b>tu-</b> past [LD 228]
+       <li><b>ʔu-</b> perfective prefix (action viewed as a whole).  [LD 19]
+       <li><b>k̓ʷəɬalikʷ</b> serve (liquid) [LD 129]
+     </ul>
+
+   <li><b> čəd </b>  I, me.  [LD 62]
+   <li><b>ʔə</b> in, of, on, onto, when, while, ... [general purpose linking preposition] [LD 9]
+   <li><b>ti </b> this [LD 224]
+   <li><b>kupi</b> coffee [LD 119]
+
+   <li><b>səxʷƛ̓ux̌ilali</b>
+   <ul>
+      <li><b>səxʷ-</b> device (for) [LD 203]
+      <li><b>ƛ̓ux̌il</b> cold object [LD 156]
+         <ul>
+            <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
+            <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
+
+
+
+   <li> <b>čəda</b> and I [LD 62]
+        <ul>
+            <li><b>čəd</b> I [LD 62]
+            <li><b>-a</b> and.  Added only to <b>čəxʷ, čəx̌b, čəɬ, čələp</b> [LD 24]
+        </ul>
+   <li> <b>tuk̓ʷəɬdxʷ</b> spilled it
+   <ul>
+      <li><b>tu-</b> past [LD 228]
+      <li><b>k̓ʷəɬ</b> spill, pour [LD 129]
+      <li><b>-dxʷ</b> diminished control.  [LD 86]
+    </ul>
+
+   <li> <b>hiw-il</b> go ahead, proceed; go away, go on; in front [LD 110]
+   <li> <b>čəxʷa</b> and you [LD 62]
+        <ul>
+            <li><b>čəxʷ</b> you (singular) [LD 62]
+            <li><b>-a</b> and.  Added only to <b>čəd, čəx̌ʷ, čəɬ, čələp</b> [LD 24]
+        </ul>
+   <li><b>k̓ʷəɬəd</b>
+      <ul>
+         <li><b>k̓ʷəɬ</b> spill, pour [LD 129]
+         <li><b>-ed</b> action performed on someone or something else [LD 93,76]
+      </ul>
+   <li> <b>tiʔəʔ</b> this [LD 224]
+   <li> <b>ʔəsƛ̓ux̌ʷil</b>
+        <ul>
+            <li><b>ʔəs-</b> stative [LD 13]
+            <li><b>ƛ̓ux̌ʷil</b> cold object [LD 156]
+         </ul>
+   <li> <b>kupi</b> coffee (from the English) [LD 119]
+
+   <li> <b>tuqadacut</b>
+       <ul>
+          <li><b>tu-</b> past [LD 228]
+          <li><b>qada</b> steal [LD 172]
+          <li><b>cut</b> 3 definitions offered, not sure which is apt.  [LD 47-49]
+       </ul>
+   <li><b>ti </b> this [LD 224]
+   <li> <b>dstaləɬ</b>
+      <ul>
+         <li> <b>d-</b> my, I, me [LD 76]
+         <li> <b>staləɬ</b> nephew, niece, son or daughter of one's cousin [LD 218]
+      </ul>
+   <li> <b>gʷəl</b> and, but, or, then, next; as if [LD 100]
+   <li> <b>tucaq̓dxʷ</b> spear, jab [LD 43]
+       <ul>
+          <li> <b>tu-</b> past [LD 228]
+          <li> <b>caq̓</b> spear, jab [LD 43]
+          <li> <b>-dxʷ</b> lack of control, accidentally [LD 86]
+       </ul>
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li> <b>dq̓il̓bid</b>
+       <ul>
+         <li> <b>d-</b> my, I, me [LD 76]
+         <li> <b>q̓il̓bid</b> canoe (of any type); vehicle of any kind, including wagons and automobiles. [LD 185]
+       </ul>
+
+   <li><b>ʔux̌icil</b>
+      <ul>
+         <li><b>ʔu-</b> action viewed as a whole (perfective aspect) [LD 19]
+         <li><b>x̌ic-il</b> angry [LD 265]
+      </ul>
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li><b>č̓ač̓as</b> child, up to 10 or 12 years old); young, youngster [LD 68]
+   <li> <b>gʷəl</b> and, but, or, then, next; as if [LD 100]
+   <li><b>ʔucaq̓ad</b> 
+      <ul>
+         <li><b>ʔu-</b> action viewed as a whole (perfective aspect) [LD 19]
+         <li><b>caq̓</b> spear (verb), jab [LD 43]
+         <li><b>-ad</b> (not sure) 
+      </ul>
+   <li> <b>tiʔiɬ</b> that [LD 224]
+   <li><b>dbiʔbədaʔ</b>
+      <ul>
+        <li><b>d-</b> my, I, me [LD 76]
+        <li><b>bi- </b> reduplicative <i>red1</i> indicating dimunitive, small [LD 35]
+        <li><b>bədaʔ</b> (someone's) child, offspring [LD 35]
+     </ul>
+   <li><b>ʔə</b> about, in, of, on, onto, over, when while. linking particle. [LD 9]
+   <li><b>təx̌ʷəc</b> 
+     <ul>
+        <li><b>tə-</b> (uncertain) the, a. [LD 219]
+        <li><b>x̌ʷəc</b> sharp (knife); strong or tart taste. [LD 270]
+     </ul>
+   <li><b>qʷəɬayʔ</b> log, stick [LD 192]
+
+
+   <li><b>tutagʷalik</b>
+      <ul>
+         <li><b>tu-</b> past [LD 228]
+         <li><b>tagʷ</b> buy [LD 217]
+         <li><b>=alik</b> creative activity, iteratively [LD 28]
+      </ul>
+
+   <li><b>čəd</b>  I, me.  [LD 62]
+   <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+   <li><b>ti </b> this [LD 224]
+   <li><b>qʷəɬiʔ</b> shoe, Skagit. LD unclear, but possibly short for <b>qʷəɬiʔ=šəd</b>
+       <ul>
+          <li><b>qʷəɬiʔ</b> associated with log, stick: <b>qʷɬayʔ, qʷəɬayʔ</b> [LD 192]
+          <li><b>=šəd</b> lexical suffix for foot [LD 208]
+       </ul>
+   <li> <b>gʷəl</b> and, but, or, then, next; as if [LD 100]
+   <li><b>hiqab</b> too, excessive [LD 110]
+   <li><b>mimʔad</b> small [LD 158]  see <b>biʔbad</b> [LD 39]
+
+   <li><b>xʷiʔəxʷ</b>
+   <ul>
+      <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
+      <li><b>-əxʷ</b> now.  see <b>-axʷ</b> [LD 30]
+   </ul>
+   <li><b>gʷədsƛ̓aldxʷ</b>
+   <ul>
+      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for [subjunctive prefix]
+      <li><b>d-</b> I, me, my [LD 76]
+      <li><b>s-</b> nominalizer [LD 199]
+      <li><b>ƛ̓al-dxʷ</b> struggled to get on [LD 151]
+         <ul>
+            <li><b>ƛ̓al</b> put on clothing [LD 151]
+            <li><b>-dxʷ</b> diminished control [LD 86]
+         </ul>
+   </ul>
+
+   <li><b>ƛ̓alš</b> put on clothing [LD 152&rarr;151]
+   <li><b>tiʔiɬ</b> that [LD 224]
+   <li><b>adšiqʷ</b>
+     <ul>
+        <li><b>ad-</b> your   [LD 25]
+        <li><b>šiqʷ</b> hat [LD 212]
+     </ul>
+   <li><b>gʷəšədᶻaləxʷ</b> 
+   <ul>
+      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+      <li><b>šədᶻal</b> go outside  [LD 209]
+      <li><b>-əxʷ</b> now. [LD 93&rarr;30]
+   </ul>
+
+   <li><b>diʔɬ</b> suddenly; might; sometimes;  [LD 82]
+   <li><b>kʷi</b> a, any (hypothetical, doubtful, remote) [LD 125]
+   <li><b>gʷəsqəlbs</b>   [LD ]
+   <ul>
+      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+      <li><b>qəlb</b> rain  [LD 175]
+      <li><b>-s</b> (not sure)  
+   </ul>
+
+<li><b>spaʔc</b> black bear [Skagit] [LD 160]
+<li><b>stuləkʷ</b> river [LD 229]
+
+   <li> <b>diʔucid</b>
+      <ul>
+         <li> <b>diʔ</b>  opposite side, other side, on the other side, at the other side,
+           to the other side [LD 81]
+         <li> <ul> <b>=ucid</b> (lexical suffix) body of water (to be crossed); river, mouth,
+           language; doorway; opening in general; eat [LD 243]
+      </ul>
+
+
+<li> <b>diʔucid</b>
+    <ul>
+      <li> <b>diʔ</b>  opposite side, other side, on, at, or to the other side [LD 81]
+      <li> <b>=ucid</b> (lexical suffix) body of water (to be crossed); river, mouth,
+           language; doorway; opening in general; eat [LD 243]
+
+<li><b>šəgʷɬ</b> road, path; doorway [LD 210]
+<li><b>=ayucid</b> (lexical suffix) path, road [LD 31]
+
+<li><b>ɬuɬaɬlil</b>
+   <ul>
+      <li> <b>ɬu-</b> anticipated, expected or possible event [LD 147]
+      <li> <b>ɬaɬlil</b> dwell (there), reside, live (there) [LD 142]
+   </ul>
+
+<li><b>čəɬ</b> we, us [LD 63]
+<li> <b>tsiʔiɬ</b> that [feminine] [LD 228]
+<li> <b>sɬaɬədəyʔ</b> girl [LD 141]
+    <ul>
+        <li><b>ɬadəyʔ</b> woman [LD 141]
+        <li><b>s-ɬad-ɬadəyʔ</b> girl, girl friend (reduplication #1,
+        diminutive.) [LD 141]
+     </ul>
+    </ul>
+<li> <b>tudiʔ</b> (that one) over there, yonder [LD 229]
+
+<li>uqada
+    <ul>
+      <li><b>ʔu<sup>3</sup></b> action is viewed as a whole [LD 19]
+      <li><b>qada</b> steal [LD 172]
+    </ul>
+
+<li><b>tə</b> the, a. [LD 219]
+<li><b>qsiʔ, qəsiʔ</b> uncle; male sibling of either parent while
+   that parent is living.  [LD 180]
+   <li><b>qəlx̌, qələx̌</b> dried salmon eggs [LD 176]
+
+<li><b>xʷitil, xʷt̓-, xʷət̓</b> fall from height, free fall, fall off. [LD 253]
+<li><b>sxʷət</b> thrush, salmonberry bird [LD 251]
+<li><b>xʷ(h)udad</b> ash, ashes [LD 111]
+<li><b></b> [LD ]
+<li><b></b> [LD ]
+<li><b></b> [LD ]
+<li><b></b> [LD ]
+<li><b></b> [LD ]

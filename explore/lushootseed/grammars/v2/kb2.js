@@ -1,6 +1,35 @@
 kb = {
 
 //----------------------- 
+// section 29.1, line 17
+//-----------------------
+
+"čad kʷi sʔas.":
+`
+**čad kʷi sʔas.**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>čad</b> where; somewhere; someplace; wherever; where is; [LD 59]
+   <li><b>kʷi</b> a, any; (hypothetical, doubtful, remote) [LD 125]
+   <li><b>sʔas</b> there [LD 1]
+   <ul>
+      <li><b>s-</b> nominalizing prefix   [LD 199]
+      <li><b>ʔa-s</b>    [LD 1]
+      <ul>
+         <li><b>ʔa</b> be there, be in existence   [LD 1]
+         <li><b>-s</b> (not sure)
+         </ul>
+   </ul>
+</ul>
+
+</details>
+
+`,
+
+
+
+//----------------------- 
 // section 28.1, line 1
 //-----------------------
 
@@ -8,7 +37,7 @@ kb = {
 `
 <b>ʔuqəɬdubicid &nbsp; čəd &nbsp; (ʔ)u.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
   <li><b> ʔuqəɬdubicid</b>
@@ -71,7 +100,7 @@ full control over what they are doing":
 
 
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ʔi</b> yes.  [LD 14]
@@ -117,7 +146,7 @@ _gʷəƛ̓əladəxʷ_.
 `
 <b>gʷəqəɬc &nbsp; čəxʷ &nbsp; (ʔ)u &nbsp; [ʔal kʷi] &nbsp; ɬup &nbsp; dadatu.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>gʷəqəɬc</b>
@@ -151,7 +180,7 @@ _gʷəƛ̓əladəxʷ_.
 `
 <b>xʷiʔ &nbsp; gʷədsqəɬcid.  &nbsp; cick̓ʷ &nbsp; čəxʷ &nbsp; ƛ̓uʔitut &nbsp; ʔə &nbsp; tə &nbsp; tib.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
@@ -192,7 +221,7 @@ precede the same action word, _ƛ̓u-_ is first.
 "xʷiʔ gʷ(ə)adsqəɬ.":
 `
 <b>xʷiʔ &nbsp; gʷ(ə)adsqəɬ.</b>
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
 <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
@@ -218,7 +247,7 @@ precede the same action word, _ƛ̓u-_ is first.
 `
 <b>tu(u)k̓ʷəɬalikʷ &nbsp; čəd &nbsp; ʔə &nbsp; ti &nbsp; kupi.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>tu(u)k̓ʷəɬalikʷ</b>
@@ -259,7 +288,7 @@ coffee or tea.
 `
 <b>čəda &nbsp; tuk̓ʷəɬdxʷ.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li> <b>čəda</b> and I [LD 62]
@@ -322,7 +351,7 @@ _ _tuɬalš čəd_: I put it on.
 `
 <b>hiwil, &nbsp; čəxʷa &nbsp; k̓ʷəɬəd &nbsp; tiʔəʔ &nbsp; ʔəsƛ̓ux̌ʷil &nbsp; kupi.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li> <b>hiw-il</b> go ahead, proceed; go away, go on; in front [LD 110]
@@ -357,7 +386,7 @@ _ _tuɬalš čəd_: I put it on.
 `
 <b>tuqadacut &nbsp; ti &nbsp; dstaləɬ &nbsp; gʷəl &nbsp; tucaq̓dxʷ &nbsp; tiʔiɬ &nbsp; dq̓il̓bid.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <i> This is Paul Shannon's conjecture, based on his reading of the Lushootseed Dictionary.
 It is somewhat at odds with the English translation in the published work: it substitutes
@@ -402,7 +431,7 @@ Advice and corrections welcome. </i>
 `
 <b>ʔux̌icil &nbsp; tiʔiɬ &nbsp; č̓ač̓as &nbsp; gʷəl &nbsp; ʔucaq̓ad &nbsp; tiʔiɬ &nbsp; dbiʔbədaʔ &nbsp; ʔə &nbsp; təx̌ʷəc &nbsp; qʷəɬayʔ.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ʔux̌icil</b>
@@ -457,7 +486,7 @@ has a tart taste or that coffee is strong.
 `
 <b>tutagʷalik &nbsp; čəd &nbsp; ʔə &nbsp; ti &nbsp; qʷəɬiʔ &nbsp; gʷəl &nbsp; hiqab &nbsp; mimʔad.</b>
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 <ul>
    <li><b>tutagʷalik</b>
       <ul>
@@ -488,7 +517,7 @@ See 18.9, page 97 in Book One.
 
 **Footnote 3, page 2**
 
-Some people say <b>mimuʔad<b> while still others say <b>miʔmaʔən</b>.
+Some people say <b>mimuʔad</b> while still others say <b>miʔmaʔən</b>.
 Use the form your teacher prefers.
 
 `,
@@ -502,7 +531,7 @@ Use the form your teacher prefers.
 **xʷiʔəxʷ &nbsp; gʷədsƛ̓aldxʷ.**
 
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>xʷiʔəxʷ</b>
@@ -540,7 +569,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
 `
 **ƛ̓alš &nbsp; tiʔiɬ &nbsp; adšiqʷ &nbsp; gʷəšədᶻaləxʷ.**
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>ƛ̓alš</b> put on clothing [LD 152&rarr;151]
@@ -570,7 +599,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
 `
 **diʔɬ &nbsp; kʷi &nbsp; gʷəsqəlbs.**
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li><b>diʔɬ</b> suddenly; might; sometimes;  [LD 82]
@@ -598,7 +627,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
 `
 **huk̓ʷuy, x̌aƛ̓txʷ čəɬ ti sqəbuʔ.**
 
-<details><summary>Vocabulary Notes</summary>
+<details open><summary>Vocabulary Notes</summary>
 
 <ul>
    <li> <b>huk̓ʷuy</b>: endearing address to a girl {Snohomish] [LD 111]
@@ -622,7 +651,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
 
 **Footnote 1, page 6**
 
-<b>huk̓ʷuy</b> - This term is used for addressing a little girl in a ncie way.
+<b>huk̓ʷuy</b> - This term is used for addressing a little girl in a nice way.
 Some people say <b>sk̓ʷuk̓ʷi</b> and still others say <b>sk̓ʷuyaʔ</b> or <b>sk̓ʷukʷiəʔ</b>.
 
 
@@ -636,6 +665,19 @@ Some people say <b>sk̓ʷuk̓ʷi</b> and still others say <b>sk̓ʷuyaʔ</b> or 
 "gʷəʔƛ̓txʷ čəxʷ (ʔ)u.":
 `
 **gʷəʔƛ̓txʷ čəxʷ (ʔ)u.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>gʷəʔƛ̓txʷ</b>: hoped for bring (it)
+   <ul>
+      <li><b>gʷ-</b> if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95)
+      <li><b>ʔəƛ̓</b> come [LD 12]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+   </ul>
+</ul>
+
+</details>
 
 **Grammar Note 29.1, page 8**
 
@@ -658,6 +700,35 @@ expressive power of Lushootseed without having to learn new words.)
 "ʔəsdəkʷ ʔal ti səxʷƛ̓ux̌ilali.":
 `
 **ʔəsdəkʷ ʔal ti səxʷƛ̓ux̌ilali.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>ʔəsdəkʷ</b>
+   <ul>
+     <li><b>ʔəs-</b> stative [LD 13]
+      <li><b>dəkʷ</b> inside something relatively small, containing [LD 80]
+   </ul>
+
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>ti </b> this [LD 224]
+   <li><b>səxʷƛ̓ux̌ilali</b>
+   <ul>
+      <li><b>səxʷ-</b> device (for) [LD 203]
+      <li><b>ƛ̓ux̌il</b> cold object [LD 156]
+         <ul>
+            <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
+            <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
+         </ul>
+      <li><b>-ali</b> place where something is kept, or typically located [LD 28]
+   </ul>     
+</ul>
+
+</details>
+
+
 
 **Grammar Note 29.3, page 9**
 
@@ -1195,17 +1266,32 @@ The word for star in general is <b>t̓ət̓əwaʔs</b>.
 `
 **gʷədsəxʷƛ̓alšəb**
 
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li> <b>ƛ̓al</b> put on clothing [LD 151]
+   <li> <b>ƛ̓alš</b> put article of clothing on <i>transitive</i> [LD 151]
+</ul>
+
+</details>
+
+
 **Footnote 5, page 15**
 
 **Grammar Note 20.1b, Volume One, page 109**
 
 [One way] of expressing desire (which also includes the idea
-of <i>need</i> or simply <i>inclination</i> is formed with the prefix
+of <i>need</i> or simply <i>inclination</i>) is formed with the prefix
 <b>dxʷ(s)-</b> plus the suffix <b>-b</b>.  (The <b>s</b> of <b>dxʷ(s)-</b>
 is optional.)
 
-The combination of <b>ʔəs-dxʷ(s)-</b> becomes </bʔəxʷ(s)-</b> in
-Northern Lushootseed but <b>ʔəsxʷ-</b> in Southern Lushootseed.   Thus <b>ʔəxʷsʔitutəb</b>
+The combination of <b>ʔəs-dxʷ(s)-</b> becomes
+<ul>
+   <li><b>ʔəxʷ(s)-</b> in Northern Lushootseed
+   <li><b>ʔəsxʷ-</b> in Southern Lushootseed.
+</ul>
+
+Thus <b>ʔəxʷsʔitutəb</b>
 "sleepy" is more exactly translated as "desire/need sleep".
 
 In Northern Lushootseed <b>dxʷ(s)-...-b</b> is freely added to
