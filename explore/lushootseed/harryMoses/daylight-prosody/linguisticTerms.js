@@ -1,5 +1,133 @@
 linguistics = {
 
+" Derivational Affixation":
+`
+**Derivational Affixation**
+
+Because of the reliance of the Lushootseed lexicon on monovalent
+radicals, and because so many of those radicals have stative or
+state-like meanings, the language has developed a prolific system of
+derivational affixation. In total, there are fourteen derivational
+suffixes and one derivational prefix that are used productively to
+derive new lexemes from verbal radicals. These affixes fall roughly
+into two sets, with additions
+
+<ul>
+  <li> valency-neutral     (5)
+  <li> valency-increasing  (7)
+  <li> secondary (3)
+  <li> incorporative
+  <li> proprietive
+</ul>
+
+**Valency-Neutral Affixes**
+
+These effect a variety of changes in the action or semantic structure
+of the event expressed by the radical without affecting the number of
+event participants (semantic actants) or syntactic arguments.
+
+<ul>
+   <li> <details><summary>dxʷ-(s)</b> "contained"</summary>fubar
+
+       The prefix <b>dxʷ(s)-</b> ‘contained [CTD]’ is one of the most
+       frequent derivational prefixes in the Lushootseed lexicon and is found
+       as part of a great many verb stems.
+
+       <ul>
+          <li>LD 85
+          <li>permeate, throughtout, filled with, covered with
+          <li>derivational prefix which marks stems as serving to contain, to hold within
+          <li>also designates a proclivity: what one has "inside"
+          <li>also carrying this prefix are a number of stems referring to matters of the mind, the x̌əč.
+       </ul>
+
+       Its basic meaning is to indicate
+       that something is contained while undergoing the process expressed by
+       its base:
+
+        <pre>
+
+  ɬudxʷshədiləxʷ tiʔəʔ č̓ƛ̓aʔ
+  ɬu=dxʷs–həd–il=əxʷ tiʔəʔ č̓ƛ̓aʔ
+  IRR=CTD–warm–INCH=now PROX stone
+  "the stones will warm up in there (the fire)"
+   </pre>
+
+       In forms such as <b>dxʷshəd</b> the containment is fairly
+       literal (in a fire pit); in other cases the containment is more
+       figurative, often psychological (e.g., <b>dxʷx̌ʷax̌ʷaq’ʷacut</b>
+       "be troubled", <b>dxʷsqʷacdxʷ</b> ‘doubt someone’) or having to
+       do with some inherent feature of an object (<b>dxʷx̌ʷədᶻəb</b>
+       ‘be tart, be strong (coffee)’ from √x̌ʷəc ‘be sharp’).
+
+       Many verbs expressing actions associated with water are formed
+       with dxʷ(s)- as well — e.g., dxʷbəčəb ‘sink, drown’, dxʷčəcəb
+       ‘be red (water)’, dxʷqələbil ‘be turbid (water)’, dxʷšəɬəb
+       ‘look at something through water’.  In addition to being one of
+       the more frequent derivational prefixes, dxʷ(s)- is one of the
+       most difficult to analyze, primarily because it has three
+       separate allomorphs — [dxʷs-], [dxʷ-], and [xʷ-] — which appear
+       to be to a certain extent in free variation with one another:
+       the form of the affix chosen for use with a particular base
+       varies both among dialects and amongst individual speakers of
+       the same dialect.
+
+       The waters are muddied further by the fact that each
+       of these allomorphs is homophonous with another affix that must
+       be treated, at least synchronically, as a separate morpheme —
+       specifically, [dxʷs-] is homophonous with dxʷs- ‘proclivitive’
+       (Section 2.2.1), [dxʷ-] is homophonous with the directional
+       particle dxʷ (2.7.2), and [xʷ-] is homophonous with xʷ-
+       ‘container’ (2.2.5); dxʷ(s)- is also part of the expression of
+       the desiderative, discussed below in Section 8.5 (see Hess 1971
+       for a thorough comparison of these affixes).
+
+        </details>
+   <li> <details><summary><b>-il</b>: "inchoative"</summary>fubar
+        </details>
+   <li> <details><summary><b>-b</b> "middle"</summary>
+        </details>
+   <li> <details><summary><b>-agʷil</b> "autonomous action"</summary>
+        </details>
+   <li> <details><summary><b>-iluɬ</b> "purposive"</summary>
+        </details>
+   <li> <details><summary><b>-ab</b> "method"</summary>
+        </details>
+   </ul>
+
+
+**Valency-increasing Affixes**
+
+<ul>
+   <li><b>-t</b> internal causative
+   <li><b>-txʷ</b> external causative
+   <li><b>-dxʷ</b> diminished control causative
+   <li><b>-b</b> causative middle
+   <li><b>-alikʷ</b> causative of activity
+   <li><b>-c</b> and <b>-s</b> allative applicative
+</ul>
+
+**Secondary Suffixes**
+
+Are always combined with another valency-increaser
+
+<ul>
+  <li><b>-yi-</b> dative applicative
+  <li><b>-bi-</b> middle applicative
+  <li> <b>-di-</b> and <b>-i-</b>  fossilized stem formatives 
+</ul>
+
+`,
+
+
+"Beck's Grammar":
+`
+**David Beck's Draft Grammar**
+
+<a href="https://pshannon.net/grammar-DavidBeck-Jan10.pdf", target="_blank"> pdf</a>
+
+`,
+
 "ɬu=":
 
 `
