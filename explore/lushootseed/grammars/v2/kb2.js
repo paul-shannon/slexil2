@@ -1269,8 +1269,19 @@ The word for star in general is <b>t̓ət̓əwaʔs</b>.
 <details open><summary>Vocabulary Notes</summary>
 
 <ul>
-   <li> <b>ƛ̓al</b> put on clothing [LD 151]
-   <li> <b>ƛ̓alš</b> put article of clothing on <i>transitive</i> [LD 151]
+  <li><b>gʷədsəxʷƛ̓alšəb</b>
+    <ul>
+       <li><b>gʷə-</b> inflectional subjunctive prefix expressing doubt,
+         (events) contrary to fact [LD 95]
+       <li><b>əxʷ-(verb)-b</b> desire, need, includination
+       <li> <b>ƛ̓al</b> put on clothing [LD 151]
+       <li> <b>ƛ̓alš</b> put article of clothing on <i>transitive</i> [LD 151]
+    </ul>
+  <li><b>dpuʔtəd</b>
+   <ul>
+     <li><b>d-</b> my [LD 76]
+     <li><b>puʔtəd</b> shirt [LD 164]
+   </ul>
 </ul>
 
 </details>
@@ -1316,6 +1327,45 @@ the latter form.
 the <b>-d</b> suffix (16.1) "cook something".  Reread 11.10 in
 Book One, page 60.
 `,
+
+//----------------------- 
+// section 30.8, line 56
+//-----------------------
+
+"laʔb haʔɬ sləx̌il.":
+`
+**laʔb haʔɬ sləx̌il**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>laʔb</b> really.  [LD 133]
+   <li><b>haʔɬ</b> good; nice; pretty; be nice, be beautiful, be pretty   [LD 104]
+   <li><b>sləx̌il</b> day [LD 137]
+</ul>
+
+</details>
+
+`,
+
+//----------------------- 
+// section 30.8, line 57
+//-----------------------
+
+"xʷi gʷədsəxʷƛ̓alšəb ti dšiqʷ.":
+`
+**dšiqʷ**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>d-</b> my [LD 76]
+   <li><b>šiqʷ</b> hat [LD 212 ]
+</ul>
+
+</details>
+
+`,
+
+
 
 //------------------------ 
 // section 31A.1, line 58
