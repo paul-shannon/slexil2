@@ -1,6 +1,17 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"xʷiʔ=axʷ":
+
+`
+<b>xʷiʔ=axʷ</b>
+
+**Footnote 4, page 2, Lushootseed Grammar Book Two, Hess and Hilbert**
+
+The word xʷiʔəxʷ is usually pronounced as though it were spelled xʷaxʷ.
+
+`,
+    
 "Living in the Dark":
 `
 **Living in the Dark**
@@ -215,13 +226,7 @@ This "I" links back to the "I" of the previous line, and is thus coordinative.
 
 irr=1sg.po=nm=stat–lie.down
 
-- <b>ɬu=</b> anticipated, expected or possible event. irrealis proclitic [LD 147]
-      - irrealis moods indicates that a certain situation is not known to have happened
-      - one such mood, the subjunctive, expresses states of unreality, such as wish,
-        emotion, possibility, judgment, opinion, obligation, or action that has not yet occurred.
-      - compare <b>gʷ-</b> if, maybe, might (subjunctive prefix expressing doubt) [LD 95]
-      - Salish irrealis expresses a wider range of meanings than the English subjunctive, including
-        future tense and polite requests
+- <b>ɬu=</b> anticipated, expected or possible event; future [LD 147]
 - <b>d=</b> my, I, me. 1p.sg. possessive prefix.  [LD 76]
 - <b>s=</b>  nominalizing prefix, obligatory in many nominal stems, productively added to some
   verbs to create nouns.  [LD 199]
@@ -746,7 +751,8 @@ Daylight, line 33.
 - ʔas–bəs–sləx̌il
 - STAT–PROP–daylight
     - ʔas-: stative
-    - bəs-: proprietive, quasi-permanent contextual control, ownership
+    - bəs-: inherent right of ownwership (derivational prefix) [LD 39].
+       proprietive, quasi-permanent contextual control, ownership
        or oversight, whether by societal recognition, social
        convention, law, purchase or decree, which mere physical
        separation does not sever. The two nouns are not in any sense

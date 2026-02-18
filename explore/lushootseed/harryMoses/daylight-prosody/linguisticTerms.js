@@ -1,5 +1,59 @@
 linguistics = {
 
+"ɬu=":
+
+`
+<b>ɬu=</b>
+
+
+- anticipated, expected or possible event; future [LD 147]
+- infectional irrealis prefix (or proclitic) appearing on any
+  lexical category functioning as a predicate or complement
+- irrealis moods indicate that a certain situation is not known to have happened
+- one such mood, the subjunctive, expresses states of unreality, such as wish,
+  emotion, possibility, judgment, opinion, obligation, or action that has not yet occurred.
+- compare <b>gʷ-</b> if, maybe, might (subjunctive prefix expressing doubt) [LD 95]
+- Salish irrealis expresses a wider range of meanings than the English subjunctive, including future tense and polite requests
+
+`,
+
+
+
+"ʔə":
+`
+**ʔə**
+
+From Lushootseed Grammar Book Two, Grammar Note 31.1, page 23:
+
+Prior to this lesson there has been no way of expressing
+both actor and person acted upon in the same sentence (unless at
+least one of the other was <i>I</i>, <i>we</i> or <i>you</i>.
+
+The solution: the actor is marked by <b>ʔə</b>.
+
+For instance: <b>tušudub ʔə tiʔəʔ ʔaciɬtabixʷ.</b> (line 40).
+
+Action words ending in <b>-dxʷ</b> (<b>-du-</b>) and <b>-txʷ</b> (<b>-tu-</b>)
+simple add <b>-b</b> after the <b>-u</b> ending.
+
+Those with the <b>-d</b> suffix require a change of <b>-d</b> to <b>-t</b>
+and <b>-b</b> to make pronunciation easier.
+
+It is possible to change the order of actor and person
+acted upon; therefore, <b>ʔə</b> is essential to keep clear
+who is who.
+
+Both of the following sentences means "The dog is chasing the boy".
+
+<ul>
+  <li> ləčalatəb ʔe ti sqʷəbayʔ ti č̓ač̓as.
+  <li> ləčalatəb ti č̓ač̓as ʔe ti sqʷəbayʔ.
+</ul>
+
+
+`,
+
+
 "ləq̓aɬ":
 `
 <h5>ləq̓aɬ</h5>
@@ -539,7 +593,7 @@ causative of activity on the ACTOR’s role in the event.
 <h5>dxʷ-</h5>
 
 - permeate, throughout, filled with, covered with [LD 85]
-- derivational prefix which marks stemas as serving to contain, to hold within
+- derivational prefix which marks stems as serving to contain, to hold within
 - a secondary meaning: a proclivity, what one has "inside"
 - a number of stems carrying this prefix refer to matters of the mind, the <b>x̌əč<b>
 
@@ -1279,6 +1333,54 @@ _ʔəɬdiluɬ_ ‘go out to eat’ (from _ʔəɬəd_ ‘dine on ’)
 - action performed on someone or something else
 - transitive suffix; allows for a direct complement patient, creating a patient-oriented verb
 - compare _-š, -dxʷ, -txʷ, -c_.
+- d is a causative—that is, it expresses that an agent X did something to affect or change patient Y.
+
+**From David Beck's draft grammar, page 62, section 2.1.2.1**
+
+***Internal causative -t (ICS)***
+
+By far the most prevalent of the valency-increasing verbal affixes is -t ‘internal causative
+[ICS]’. This suffix is not only the most frequent in terms of the number of stems of which it forms
+a part, but it is also the most complex in terms of its allomorphy and morphophonemics and the
+most varied in terms of its syntactic effects on the stem to which it attaches. Its primary and most
+prevalent use is as a transitive causative suffix which changes a patient-oriented monovalent
+stem expressing a state into a transitive stem by adding a semantic AGENT, realized as a syntactic
+subject.
+
+While the vast majority of stems formed with -t have translation equivalents in most
+languages which are ordinary transitive verbs, the syntactic effects of this suffix are clearly
+causative, as are its semantic effects — keeping in mind the basically stative nature of
+Lushootseed radicals: the radical itself expresses a state while the derived transitive stems
+expresses an action preformed by an AGENT resulting in a PATIENT coming into that state.
+
+The internal causative suffix -t has four allomorphs — [-t], [-d], [-əd], and [-š]. Of these, [-t],
+[-d], [-əd] are phonologically conditioned: [-t] is the elsewhere form, while [-d] is restricted to
+word-final position (that is, last position suffix-string not including bound enclitics) following
+vowels and approximants.
+
+***External causative -txʷ (ECS)***
+
+The next most frequent valency-increasing affix in Lushootseed is -txʷ ‘external causative
+[ECS]’. Like -t, this affix is a transitive suffix that is added (with a few exceptions) to monovalent
+radicals to form a transitive stem expressing an event in which an AGENT causes a PATIENT or
+THEME to come into the state expressed by the radical; however, the AGENT in -txʷ forms is
+construed as being somehow less directly involved in or affected by the event than it is in stems
+formed with the internal causative. As with any causative, the new argument is realized as the
+syntactic subject and the erstwhile subject of the base is realized as a direct object:
+
+<pre>
+  (47) a. ʔuʔux̌ʷ čəd
+          ʔu–ʔux̌ʷ čəd
+          PFV–go 1SG.SUB
+          ‘I went’          (Hess 1995: 6, ex. 1)
+
+       b. ʔuʔux̌ʷtubš ti č’ač’as
+          ʔu–ʔux̌ʷ –txʷ –bš ti č’ač’as
+          PFV–go–ECS–1SG.OBJ SPEC child
+          ‘the boy took me’
+
+<pre>
+
 
 `,
 
