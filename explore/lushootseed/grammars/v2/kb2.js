@@ -117,7 +117,7 @@ full control over what they are doing":
    <li><b>čəxʷ</b>  you (singular).  [LD 65]
    <li><b>gʷəƛ̓əladəxʷ</b>
    <ul>
-      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for [subjunctive prefix]
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for [subjunctive prefix]
       <li><b>ƛ̓əlad</b>  stop, be still.  [LD 153]
       <li><b>-əxʷ</b> now.  see <i>-axʷ</i>, [LD 30]
     </ul>
@@ -151,7 +151,7 @@ _gʷəƛ̓əladəxʷ_.
 <ul>
    <li><b>gʷəqəɬc</b>
    <ul>
-     <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+     <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for. [LD 98]
      <li><b>qəɬ</b> wake up.  [LD 176]
      <li><b>-c</b> the verb ("wake up") has a goal [LD 43]
    </ul>
@@ -186,7 +186,7 @@ _gʷəƛ̓əladəxʷ_.
    <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
    <li><b>gʷədsqəɬcid</b>
      <ul>
-       <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+       <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for. [LD 98]
        <li><b>ds</b> <i>unsure, might mean "will not", see gʷədsəxʷsʔitutəb </i>  [LD 18]
        <li><b>qəɬ</b> wake up.  [LD 176]
        <li><b>cid</b> you (singular) [LD 46]
@@ -227,9 +227,9 @@ precede the same action word, _ƛ̓u-_ is first.
 <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
 <li><b>gʷ(ə)adsqəɬ</b>
    <ul>
-      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
-      <li><b>ad </b> your (second person singular possessive) [LD 25]
-      <li><b>s </b>  nominalizer [LD 199]
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for. [LD 98]
+      <li><b>ad-</b> your (second person singular possessive) [LD 25]
+      <li><b>s-</b>  nominalizer [LD 199]
       <li><b>qəɬ</b> wake up.  [LD 176]
    </ul>
 
@@ -541,7 +541,7 @@ Use the form your teacher prefers.
    </ul>
    <li><b>gʷədsƛ̓aldxʷ</b>
    <ul>
-      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for [subjunctive prefix]
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for [subjunctive prefix]
       <li><b>d-</b> I, me, my [LD 76]
       <li><b>s-</b> nominalizer [LD 199]
       <li><b>ƛ̓al-dxʷ</b> struggled to get on [LD 151]
@@ -581,7 +581,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
      </ul>
    <li><b>gʷəšədᶻaləxʷ</b> 
    <ul>
-      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for. [LD 98]
       <li><b>šədᶻal</b> go outside  [LD 209]
       <li><b>-əxʷ</b> now. [LD 93&rarr;30]
    </ul>
@@ -606,7 +606,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
    <li><b>kʷi</b> a, any (hypothetical, doubtful, remote) [LD 125]
    <li><b>gʷəsqəlbs</b>   [LD ]
    <ul>
-      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for. [LD 98]
       <li><b>qəlb</b> rain  [LD 175]
       <li><b>-s</b> (not sure)  
    </ul>
@@ -675,6 +675,8 @@ Some people say <b>sk̓ʷuk̓ʷi</b> and still others say <b>sk̓ʷuyaʔ</b> or 
       <li><b>ʔəƛ̓</b> come [LD 12]
       <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
    </ul>
+   <li><b>čəxʷ</b>  you (singular).  [LD 65]
+   <li><b>ʔu</b> question marker.  [LD 19]
 </ul>
 
 </details>
@@ -722,7 +724,7 @@ expressive power of Lushootseed without having to learn new words.)
             <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
             <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
          </ul>
-      <li><b>-ali</b> place where something is kept, or typically located [LD 28]
+      <li><b>-ali</b> place where something is kept, or is typically located [LD 28]
    </ul>     
 </ul>
 
@@ -762,10 +764,35 @@ In addition to <b>səxʷƛ̓ux̌ilali</b> "refrigerator", note such words as
 `
 **ʔux̌ʷtxʷ ti sqəbuʔ dxʷdiʔadiʔ**
 
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>ʔux̌ʷtxʷ</b>
+     <ul>
+       <li><b>ʔux̌ʷ</b> go [LD 22]
+       <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+    </ul>
+   <li><b>ti</b> this [LD 224]
+   <li><b>sqəbuʔ</b>
+   <li><b>dxʷdiʔadiʔ</b>
+   <ul>
+     <li><b>dxʷ-</b> toward, to [LD 86, meaning 3] toward, to
+     <li><b>diʔadiʔ</b> other room; other end of room; next room; other part of the house [LD 81]
+     <ul>
+        <li><b>diʔ</b> opposite side, other side, on the other side, at the other side, to the other side [LD 81]
+        <li><b>adiʔ</b> ear, side, sound. lexical suffix derived from <b>diʔ</b> [LD 26]
+     </ul>
+    </ul>
+
+</ul>
+
+</details>
+
+
 **Grammar Note 29.5, page 9**
 
 The student has already learned the significance of <b>dxʷʔal</b>.
-In section 18.6, page 6 of Book One, the prefix <b>-dxʷ</b> was defined
+In section 18.6, page 6 of Book One, the prefix <b>dxʷ-</b> was defined
 as meaing "toward".
 
 In the present lesson, it is learned that <b>-dxʷ</b> can be added
@@ -773,12 +800,108 @@ directly to other location words meaning "to" or "toward" that location.
 `,
 
 //----------------------- 
-// section 29.3, line 1
+// section 29.2, line 20
+//-----------------------
+
+"čad gʷədsʔahəd.":
+`
+**čad gʷədsʔahəd.**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>čad</b> where; somewhere; someplace; wherever; where is; [LD 59]
+   <li><b>gʷədsʔahəd</b>
+      <ul>
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for. subjunctive prefix, [LD 95]
+      <li><b></b> -ds- (not sure)
+      <li><b>ʔah-ed</b> put something there [LD 1]
+   </ul>
+</ul>
+
+</details>
+
+`,
+
+
+//----------------------- 
+// section 29.2, line 21
+//-----------------------
+
+"dəgʷaš ʔal ti səxʷƛ̓ux̌ʷilali.":
+`
+**dəgʷaš ʔal ti səxʷƛ̓ux̌ʷilali.**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>dəgʷa-š</b>  put something inside [LD 80]
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li><b>ti</b> this [LD 224]
+   <li><b>səxʷƛ̓ux̌ilali</b>
+   <ul>
+      <li><b>səxʷ-</b> device (for) [LD 203]
+      <li><b>ƛ̓ux̌il</b> cold object [LD 156]
+         <ul>
+            <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
+            <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
+         </ul>
+      <li><b>-ali</b> place where something is kept, is typically located [LD 28]
+   </ul>
+</ul>
+
+</details>
+
+`,
+
+
+
+//----------------------- 
+// section 29.3, line 22
 //-----------------------
 
 "šədᶻaltxʷ ti sqʷəbayʔ čəxʷa ʔibəštxʷ. hagʷəxʷ t(u)ashədʔiw̓.":
 `
 **šədᶻaltxʷ ti sqʷəbayʔ čəxʷa ʔibəštxʷ. hagʷəxʷ t(u)ashədʔiw̓.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>šədᶻaltxʷ</b> take someone or something outside
+     <ul>
+        <li><b>šədᶻal</b> go outside [LD 209]
+        <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+     </ul>
+   <li><b>ti</b> this [LD 224]
+   <li><b>sqʷəbayʔ</b> dog [LD 189]
+   <li> <b>čəxʷa</b> and you [LD 62]
+        <ul>
+            <li><b>čəxʷ</b> you (singular) [LD 62]
+            <li><b>-a</b> and.  Added only to <b>čəd, čəx̌ʷ, čəɬ, čələp</b> [LD 24]
+        </ul>
+
+   <li><b>ʔibəštxʷ</b> take
+   <ul>
+      <li><b>ʔibəš</b> walk, travel or journey over land by any means [LD 15]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+   </ul>
+   <li><b>hagʷəxʷ</b> for a long time now
+     <ul>
+        <li><b>hagʷ</b> variant of <b>haʔkʷ</b> ago, for a long time. [LD 104]
+        <li><b>-əxʷ</b> now.  variant of <b>-axʷ</b> [LD 30]
+     </ul>
+   <li><b>t(u)ashədʔiw̓</b>
+   <ul>
+      <li><b>tu-</b> past [LD 228]
+      <li><b>as-</b> variant of <b>ʔəs</b> stative [LD 13]
+      <li><b>hədʔiw̓</b> be inside a house [LD 107]
+   </ul>
+
+
+</ul>
+
+</details>
+
 
 **Vocabulary Comment 29.9, page 10**
 

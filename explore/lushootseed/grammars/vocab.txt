@@ -1,3 +1,39 @@
+<li><b>šədᶻaltxʷ</b> take someone or something outside
+   <ul>
+      <li><b>šədᶻal</b> go outside [LD 209]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+   </ul>
+
+
+
+
+_šədᶻal-txʷ_: take someone or something outside
+  <li><b>hagʷəxʷ</b>
+   <ul>
+      <li><b>hagʷ</b> variant of <b>haʔkʷ</b> ago, for a long time. [LD 104]
+      <li><b>-əxʷ</b> now.  see _-axʷ_, [LD 30]
+   </ul>
+
+
+   <ul>
+      <li><b>ʔibəš</b> walk, travel or journey over land by any means [LD 15]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+   </ul>
+
+ <li><b>sqʷəbayʔ</b>dog [LD 189]
+
+<li><b>ƛ̓ux̌il</b> cold object [LD 156]
+   <ul>
+      <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
+      <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
+   </ul>
+<li><b>-ali</b> place where something is kept, is typically located [LD 28]
+<li><b>dəgʷa-š</b>  put something inside [LD 80]
+
+<li><b>ʔah-ed</b> put something there [LD 1]
+
+<li><b>ʔux̌ʷ</b> go [LD 22]
+
        <li><b>gʷə-</b> inflectional subjunctive prefix expressing doubt,          (events) contrary to fact [LD 95]
        <li><b>əxʷ-(verb)-b</b> desire, need, includination
        <li> <b>ƛ̓al</b> put on clothing [LD 151]
@@ -54,7 +90,7 @@
 
    <li><b>čəd</b>  I, me.  [LD 62]
    <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
-   <li><b>ti </b> this [LD 224]
+   <li><b>ti</b> this [LD 224]
    <li><b>qʷəɬiʔ</b> shoe, Skagit. LD unclear, but possibly short for <b>qʷəɬiʔ=šəd</b>
        <ul>
           <li><b>qʷəɬiʔ</b> associated with log, stick: <b>qʷɬayʔ, qʷəɬayʔ</b> [LD 192]
@@ -64,6 +100,8 @@
    <li><b>hiqab</b> too, excessive [LD 110]
    <li><b>mimʔad</b> small [LD 158]  see <b>biʔbad</b> [LD 39]
 
+<li><b>dxʷ-</b> permeate, throughout, filled with, covered with [LD 85]
+<li><b>dxʷ-</b> toward, to [LD 86, meaning 3] toward, to
 
   <li><b> ʔuqəɬdubicid</b>
    <li><b> ʔu-</b>  action is viewed as a whole, in its entirety, rather than
@@ -92,8 +130,9 @@
    <li><b>čəxʷ</b>  you (singular).  [LD 65]
    <li><b>gʷəƛ̓əladəxʷ</b>
    <ul>
-      <li><b>gʷə</b> if, maybe, might, doubtful, hoped for
-   [subjunctive prefix] [LD 95]
+      <li><b>gʷə-</b> if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95]
+      <li><b>gʷə-</b> inflectional subjunctive prefix expressing doubt,          (events) contrary to fact [LD 95]
+
       <li><b>ƛ̓əlad</b>  stop, be still.  [LD 153]
       <li><b>-əxʷ</b> now.  see _-axʷ_, [LD 30]
     </ul>
@@ -160,8 +199,9 @@
       <li><b>ƛ̓ux̌il</b> cold object [LD 156]
          <ul>
             <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
-            <li><b>ƛ̓ux̌</b> is cold; euphemism for death [LD 156]
-
+         </ul>
+      <li><b>ali</b> place where something is kept, is typically located [LD 28]
+   </ul>            
 
 
    <li> <b>čəda</b> and I [LD 62]
