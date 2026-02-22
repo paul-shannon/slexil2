@@ -1,6 +1,59 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"tu-šuɬ–dxʷ–b":
+`
+**tušudub**
+
+<ul>
+  <li><b>tu-</b> past [LD 228]
+  <li><b>šuɬ</b> look, see; appearance [LD 213]
+  <ul>
+     <li><b>ʔušuɬ čəd</b> I look around
+     <li><b>x̌aƛ̓txʷ čəd gʷəd(s)šuɬ</b> I want to see
+     <li><b>haʔɬ čəx̌ šuɬ</b> you are good looking
+  </ul>
+  <li><b>-dxʷ</b> diminished control.  [LD 86]
+  <li><b>-b</b> passive marker [LD 32]
+</ul>  
+
+**David Beck's Grammar, page 353, section 6.2**
+
+The passive voice in Lushootseed is formed on transitive stems by the
+addition of a morpheme <b>-b</b> ‘passive [PASS]’. The application of
+the passive suffix results in a form in which the PATIENT/ENDPOINT
+(the object of the transitive form) is realized as the subject of the
+passive form and the AGENT/INITIATOR (the transitive subject) is
+realized as an agentive complement (Section 8.1.7) introduced by the
+general preposition <b>ʔə</b>.
+
+<pre>
+tušudub ʔə tiʔəʔ ʔaciɬtabixʷ.
+</pre>
+
+`,
+
+"gʷə=tu=s-ləx̌-il":
+
+`
+**gʷə=tu=s-ləx̌-il**
+
+<ul>
+   <li><b>gʷə</b>
+   <li><b>tu</b>
+   <li><b>s-ləx̌-il</b> day, daylight (lexicalized from its parts)
+      <ul>
+         <li><b>s-</b> nominalizer [LD 199]
+         <li><b>ləx̌</b> light (perhaps as in "illuminate", "light up") [LD 137]
+         <li><b>-il</b> reach or achieve state of position; becoming; becoming more so; begin [LD 116]
+      </ul>
+   <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
+</ul>
+
+- <b></b>  [LD ]
+
+`,
+
 "ʔəs–čal=əxʷ":
 `
 **ʔəs–čal=əxʷ**
@@ -4394,6 +4447,7 @@ _this land: past.state.darkness in remote past.of.long.duration_
 
 "tu=":
 `
+**tu=**
    - past time, especially the remote past
    - inflectional past prefix, appearing on any lexical category functioning as predicate or complement
    - also _tə-_

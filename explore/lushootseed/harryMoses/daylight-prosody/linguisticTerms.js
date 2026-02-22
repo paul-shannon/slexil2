@@ -1,5 +1,101 @@
 linguistics = {
 
+" Nominalization":
+`
+**Nominalization**
+
+<a href="https://pshannon.net/docs/nominals.pdf"
+   target="_blank">Patterns of nominalization in Bella Coola and Lushootseed</a>
+
+Three types:
+
+<ol>
+   <li> <b>Action Nominalization</b> nominalizes a verb with no accompanying arguments (actants),
+creating a new lexical item which designates a generic type of action or event.
+
+   <li> <b>Factive Nominalization</b>  nominalizes a verb along with all of its actants except the subject; these are also called "participles" or "gerunds". This creates an instance of an event
+not uniquely identified or "located in conceptual space".
+
+   <li> <b>Sentential Nominalization</b>: or "reify an event".
+    Nominalizes a verb along
+with all of its actants including the subject. This creates an
+instance of an event distinguished from all others located for the
+listener in conceptual space.
+</ol>
+
+***Action Nominalization in Lushootseed***
+
+The uses of the s-prefix are least well-defined at this level and, as
+is typical of word-level processes in general, their meanings are
+often highly grammaticalized.  (Some Langacker graphical schema
+I don't understand.)
+
+Prototypically, <b>s-</b> is a nominalizer which serves to reify an
+event, thereby
+<ul>
+  <li> suspending sequential scanning
+  <li> delimiting a region of conceptual space
+  <li> construing a process atemporally as an object or thing.
+</ul>  
+
+<pre>
+  s+ʔəɬəd
+  NOM + eat
+  food
+
+  s+q̓axʷ
+  NOM + freeze
+  ice
+
+  s+əli
+  NOM + alive
+  soul, life
+  
+</pre>
+
+`,
+
+" Lexicalization":
+`
+**Lexicalization**
+
+
+The process by which a new word or a complex linguistic form (like a
+phrase or a portmanteau) becomes a fixed, independent item in the
+lexicon (the mental dictionary) of a language.
+
+When a portmanteau lexicalizes, it is no longer processed or
+understood by speakers as a blend of its two original parts. Instead,
+it is treated as a single, unanalyzed unit with its own specific
+meaning.
+
+***Key Characteristics of Lexicalization***
+
+<b>Semantic Opacity</b>: The meaning of the whole word is no longer a simple
+sum of its parts. For example, a motel isn't just any "motor hotel";
+it has specific architectural and service connotations. The original
+meaning is opaque to the average speaker.
+
+<b>Morphological Independence</b>: The word can now be used as a base for
+creating new words. For instance, from blog, we got blogger and
+microblogging. This is a sure sign it has entered the core lexicon.
+
+<b>Phonological Reduction</b>: Sometimes, the pronunciation can shift or
+shorten further, solidifying its status as a single word.
+
+(source: deepseek)
+
+`,
+
+" Beck's Grammar":
+`
+**David Beck's Draft Grammar**
+
+<a href="https://pshannon.net/grammar-DavidBeck-Jan10.pdf", target="_blank"> pdf</a>
+
+`,
+
+
 " Derivational Affixation":
 `
 **Derivational Affixation**
