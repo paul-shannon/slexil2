@@ -1003,16 +1003,74 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
 
 `,
 
+//----------------------- 
+// section 29.4, line 25
+//-----------------------
+
+"ʔəɬtxʷaxʷ ti sqʷəbayʔ.":
+`
+**ʔəɬtxʷaxʷ ti sqʷəbayʔ.**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>ʔəɬtxʷaxʷ</b> feed now
+   <ul>
+      <li><b>ʔəɬ</b> apparently reduced from <b>ʔəɬəd</b> eat  [LD 11]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+      <li><b>-axʷ</b> now, at the particular time  [LD 30]
+   </ul>
+   <li><b>ti</b> this [LD 224]
+   <li><b>sqʷəbayʔ</b> dog [LD 189]
+     <ul>
+        <li> when replayed at half-speed, we may hear the reduplicated plural: <b>sqʷəqʷəbay</b>
+     </ul>
+</ul>
+
+</details>
+
+`,
+
 
 
 //----------------------- 
-// section 29.4, line 2
+// section 29.4, line 26
 //-----------------------
 
 
 "xʷuʔələ ʔestagʷəxʷ (h)əlgʷəʔ yəx̌i ʔuc̓iw̓c̓iw̓.":
 `
 **xʷuʔələ ʔestagʷəxʷ (h)əlgʷəʔ yəx̌i ʔuc̓iw̓c̓iw̓.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>xʷuʔələ</b> maybe, perhaps, I guess, must (be) [LD 254]
+   <li><b>ʔestagʷəxʷ</b>
+   <ul>
+      <li><b>ʔəs-</b> condition or state exists [LD 13]
+      <li><b>tagʷəxʷ</b> hunger, be hungry [NL] [LD 217]
+   </ul>
+
+   <li><b>(h)əlgʷəʔ</b> they, them, theirs [LD 93]
+     <ul>
+        <li> <b>h</b> used if following a vowel or pause
+        <li> makes explicit that third person referent is plural
+        <li> always optional
+     </ul>
+   <li><b>yəx̌i</b> because, for what reason [LD 278]
+   <li><b>ʔuc̓iw̓c̓iw̓</b>
+     <ul>
+        <li><b>ʔu-</b>  action is viewed as a whole, in its entirety, rather than
+             highlighting the details, stages, or its ongoing nature. [LD 19]
+        <li><b>c̓iw̓</b> whine [LD 54]
+        <ul>
+          <li><b>c̓iw̓c̓iw̓</b> "only an animal can c̓iw̓c̓iw̓, not a human"
+        </ul>
+     </ul>
+</ul>
+
+</details>
+
 
 **Footnote 1, page 7**
 
@@ -1021,7 +1079,99 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
 `,
 
 //----------------------- 
-// section 29.5, line 1
+// section 29.4, line 27
+//-----------------------
+
+"čad kʷi sʔəɬəds (h)əlgʷəʔ.":
+`
+**čad kʷi sʔəɬəds (h)əlgʷəʔ.**
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>čad</b> where; somewhere; someplace; wherever; where is; [LD 59]
+   <li><b>kʷi</b> a, any; (hypothetical, doubtful, remote) [LD 125]
+   <li><b>sʔəɬəds</b>
+     <ul>
+        <li><b>s-</b> nominalizer [LD 199]
+        <li><b>ʔəɬəd</b> eat [LD 11]
+        <li><b>-s</b> he, him, his, she, her,hers, it, its, they, them, their, theirs [LD 199]
+     </ul>
+   <li><b>(h)əlgʷəʔ</b> they, them, theirs [LD 93]
+     <ul>
+        <li> <b>h</b> used if following a vowel or pause
+        <li> makes explicit that third person referent is plural
+        <li> always optional
+     </ul>
+</ul>
+
+</details>
+
+`,
+
+//----------------------- 
+// section 29.4, line 28
+//-----------------------
+
+"xʷiʔ gʷədsəs(h)aydxʷ.":
+`
+**xʷiʔ gʷədsəs(h)aydxʷ.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
+   <li><b>gʷədsəs(h)aydxʷ</b>
+      <ul>
+         <li><b>gʷə-</b> variant of <b>gʷ-</b> inflectional subjunctive prefix
+               expressing doubt, (events) contrary to fact [LD 95]
+         <li><b>sə-</b> (uncertain)
+         <li><b>s-</b> (uncertain) nominalizer [LD 199]
+        <li><b>haydxʷ</b> know, find out [LD 107]
+           <ul>
+             <li><b>hay(a)</b> know  [LD 106]
+             <li><b>-dxʷ</b> diminished control.  [LD 86]
+          </ul>
+       </ul>
+</ul>
+
+</details>
+
+`,
+
+//----------------------- 
+// section 29.4, line 29
+//-----------------------
+
+"gʷeč̓ədəxʷ.":
+`
+**gʷeč̓ədəxʷ**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<i>Note: some conjecture in this note. - Paul Shannon</i>
+
+<ul>
+   <li><b>gʷeč̓ədəxʷ</b> look for it now
+   <ul>
+      <li><b>gʷəč̓</b> look for, search [LD 98]
+      <li><b>-əd</b> (uncertain) causative
+        <ul>
+           <li><b>ə</b> (uncertain) epenthetic (added)  sound
+           <li><b>-d</b> (uncertain) causative, variant of <b>-t</b> [LD 215]
+        </ul>
+      <li><b>-əxʷ</b> now, at the particular time  [LD 30]
+   </ul>
+
+
+ </ul>
+
+</details>
+
+`,
+
+
+//----------------------- 
+// section 29.5, line 30
 //-----------------------
 
 "hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.":

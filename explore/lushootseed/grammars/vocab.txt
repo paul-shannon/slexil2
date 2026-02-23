@@ -1,3 +1,66 @@
+<ul>
+   <li><b>gʷeč̓ədəxʷ</b> look for it now
+   <ul>
+      <li><b>gʷəč̓</b> look for, search [LD 98]
+      <li><b>-əd</b> (uncertain) causative
+        <ul>
+           <li><b>ə</b> (uncertain) epenthesis sound
+           <li><b>-d</b> (uncertain) causative, variant of <b>-t</b> [LD 215]
+        <ul>
+      <li><b>-əxʷ</b> now, at the particular time  [LD 30]
+   </ul>
+
+
+ </ul>
+
+<li><b>gʷədsəs(h)aydxʷ</b>
+      <li><b>gʷə-</b> variant of <b>gʷ-</b> inflectional subjunctive prefix
+             expressing doubt, (events) contrary to fact [LD 95]
+      <li><b>sə-</b> (uncertain)
+      <li><b>s-</b> (uncertain) nominalizer [LD 199]
+      <li><b>haydxʷ</b> know, find out [LD 107]
+        <ul>
+           <li><b>hay(a)</b> know  [LD 106]
+           <li><b>-dxʷ_</b> diminished control.  [LD 86]
+        </ul>
+
+
+<li><b>sʔəɬəds</b>
+   <ul>
+      <li><b>s-</b> nominalizer [LD 199]
+      <li><b>ʔəɬəd</b> eat [LD 11]
+      <li><b>-s</b> he, him, his, she, her,hers, it, its, they, them, their, theirs [LD 199]
+   </ul>
+   
+   <li><b>xʷuʔələ</b> maybe, perhaps, I guess, must (be) [LD 254]
+
+   <li><b>ʔuc̓iw̓c̓iw̓</b>
+     <ul>
+        <li><b>ʔu-</b>  action is viewed as a whole, in its entirety, rather than
+             highlighting the details, stages, or its ongoing nature. [LD 19]
+        <li><b>c̓iw̓</b> whine [LD 54]
+        <ul>
+          <li><b>c̓iw̓c̓iw̓</b> "only an animal can c̓iw̓c̓iw̓, not a human"
+        </ul>
+     </ul>
+
+
+   <li><b>yəx̌i</b> because, for what reason [LD 278]
+   <li><b>(h)əlgʷəʔ</b> they, them, theirs [LD 93]
+     <ul>
+        <li> <b>h</b> used if following a vowel or pause
+        <li> makes explicit that third person referent is plural
+        <li> always optional
+     </ul>
+
+   <li><b>ʔəɬtxʷaxʷ</b>   [LD ]
+   <ul>
+      <li><b>ʔəɬ</b> apparently reduced from <b>ʔəɬəd</b> eat  [LD ]
+      <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+      <li><b>-axʷ</b> now, at the particular time  [LD 30]
+   </ul>
+
+
 <li><b>tibu</b> table (from English "table") [LD 225]
 
     <li><b>gʷədabac</b> down in enclosed area
@@ -53,6 +116,7 @@ _šədᶻal-txʷ_: take someone or something outside
    <ul>
       <li><b>hagʷ</b> variant of <b>haʔkʷ</b> ago, for a long time. [LD 104]
       <li><b>-əxʷ</b> now.  see _-axʷ_, [LD 30]
+      <li><b>-axʷ</b> now, at the particular time  [LD 30]
    </ul>
 
 
@@ -75,7 +139,7 @@ _šədᶻal-txʷ_: take someone or something outside
 
 <li><b>ʔux̌ʷ</b> go [LD 22]
 
-       <li><b>gʷə-</b> inflectional subjunctive prefix expressing doubt,          (events) contrary to fact [LD 95]
+       <li><b>gʷə-</b> inflectional subjunctive prefix expressing doubt, (events) contrary to fact [LD 95]
        <li><b>əxʷ-(verb)-b</b> desire, need, includination
        <li> <b>ƛ̓al</b> put on clothing [LD 151]
        <li> <b>ƛ̓alš</b> put article of clothing on <i>transitive</i> [LD 151]
@@ -271,7 +335,7 @@ _šədᶻal-txʷ_: take someone or something outside
    <li> <b>tiʔəʔ</b> this [LD 224]
    <li> <b>ʔəsƛ̓ux̌ʷil</b>
         <ul>
-            <li><b>ʔəs-</b> stative [LD 13]
+            <li><b>ʔəs-</b> condition or state exists [LD 13]
             <li><b>ƛ̓ux̌ʷil</b> cold object [LD 156]
          </ul>
    <li> <b>kupi</b> coffee (from the English) [LD 119]
