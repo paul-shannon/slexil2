@@ -1,3 +1,44 @@
+<li><b>tibu</b> table (from English "table") [LD 225]
+
+    <li><b>gʷədabac</b> down in enclosed area
+      <ul>
+        <li><b>gʷəd</b> down [LD 99]
+        <li><b>=abac</b> variant <b>əbəc</b> body, bulky object; enclosed area. lexical suffix. [24]
+      </ul>
+
+
+
+
+      <li>ʔəbəč<b></b> 
+         <ul>
+           <li><b>ʔə</b> (unsure)
+           <li><b>bəč(a)</b> fall down (from standing position, not from a height) [LD 35]
+        </ul>
+
+
+   </ul>
+
+
+
+   <ul>
+      <li><b>t̓əbiɬəds</b> his rope
+      <ul>
+         <li><b>t̓əb</b> braid [LD 235]
+         <li><b>=iɬəd</b> [LD 116] see <b>=aliɬəd</b> food [LD 28] (unclear)
+         <li><b>-s</b> he, him, his, she, her,hers, it, its, they, them, their, theirs [LD 199]
+      </ul>
+   </ul>
+
+
+
+t̓əbiɬəds
+
+<li><b>sʔa</b> being there, located [Beck Grammar, p253]
+   <ul>
+      <li><b>s- </b> nominalizer [LD 199]
+      <li><b>ʔa</b> be there [LD 1]
+   </ul>
+
 <li><b>šədᶻaltxʷ</b> take someone or something outside
    <ul>
       <li><b>šədᶻal</b> go outside [LD 209]
@@ -176,7 +217,7 @@ _šədᶻal-txʷ_: take someone or something outside
    <ul>
       <li><b>gʷə</b> if, maybe, might, doubtful, hoped for. [LD 98]
       <li><b>ad </b> your (second person singular possessive) [LD 25]
-      <li><b>s </b>  nominalizer [LD 199]
+      <li><b>s- </b>  nominalizer [LD 199]
       <li><b>qəɬ</b> wake up.  [LD 176]
    </ul>
 

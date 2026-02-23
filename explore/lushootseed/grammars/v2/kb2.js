@@ -941,6 +941,71 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
 `,
 
 //----------------------- 
+// section 29.3, line 23
+//-----------------------
+
+"čad əw̓ə kʷi sʔa ʔə ti t̓əbiɬəds.":
+`
+**čad əw̓ə kʷi sʔa ʔə ti t̓əbiɬəds.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>čad</b> where; somewhere; someplace; wherever; where is; [LD 59]
+   <li><b>əw̓ə</b> expresses discovery, realization, mild surprise (predicate particle) [LD 93]
+   <li><b>kʷi</b> a, any; (hypothetical, doubtful, remote) [LD 125]
+   <li><b>sʔa</b> being there, located [Beck Grammar, p253]
+      <ul>
+        <li><b>s-</b> nominalizer [LD 199]
+        <li><b>ʔa</b> be there [LD 1]
+      </ul>
+   <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+   <li><b>ti</b> this [LD 224]
+   <li><b>t̓əbiɬəds</b> his rope
+      <ul>
+         <li><b>t̓əb</b> braid [LD 235]
+         <li><b>=iɬəd</b> [LD 116] see <b>=aliɬəd</b> food, lexical suffix [LD 28] (?)
+         <li><b>-s</b> he, him, his, she, her,hers, it, its, they, them, their, theirs [LD 199]
+      </ul>
+</ul>
+
+</details>
+
+`,
+
+//----------------------- 
+// section 29.3, line 24
+//-----------------------
+
+"ʔəbəč gʷədabac ʔə tə tibu.":
+`
+**ʔəbəč gʷədabac ʔə tə tibu.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>ʔəbəč</b> 
+      <ul>
+         <li><b>ʔə</b> (unsure)
+         <li><b>bəč(a)</b> fall down (from standing position, not from a height) [LD 35]
+       </ul>
+    <li><b>gʷədabac</b> down in enclosed area
+      <ul>
+        <li><b>gʷəd</b> down [LD 99]
+        <li><b>=abac</b> variant <b>əbəc</b> body, bulky object; enclosed area. lexical suffix. [24]
+      </ul>
+   <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+   <li><b>tə</b> the, a [LD 219]
+   <li><b>tibu</b> table (from English "table") [LD 225]
+</ul>
+
+</details>
+
+`,
+
+
+
+//----------------------- 
 // section 29.4, line 2
 //-----------------------
 
