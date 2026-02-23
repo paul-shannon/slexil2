@@ -1,4 +1,118 @@
 linguistics = {
+" Verbs":
+`
+
+**Verbs and verbal derivation**
+
+Probably one of the most notable features of Lushootseed (and other Salishan languages) is
+the rich verbal morphology, particularly in the realm of derivation. The majority of Lushootseed
+verb stems is built up out of fairly easily-analyzable elements based on monovalent radicals,
+generally of the phonological shape CVC.
+
+Three groups are described here.
+
+Attested in independent form, appearing in sentences inflected for
+aspect, person, and number, but without further derivational:
+morphology
+
+<ul>
+<li><b>ʔa</b> "be there, exist"
+<li><b>lil</b> "far"
+<li><b>p̓il</b> "be flat"
+<li><b>q̓əls</b> "cook with steam"
+<li><b>q̓ʷəl</b> "be cooked, be ripe"
+<li><b>q̓ʷuʔ</b> "be together with "
+<li><b>šab</b> "be dry"
+<li><b>gʷəd</b> "down"
+<li><b>šidᶻ</b> "launch sneak attack"
+<li><b>t̓agʷt</b> "be on top"
+<li><b>lək̓ʷ</b> "be eaten"
+</ul>
+
+Unattested in independent form but are productively used in the
+formation of verb stems, for which <b>c̓əl</b> "be defeated" provides
+an example:
+
+<ul>
+  <li><b>c̓əlalikʷ</b> "win out over someone"
+  <li><b>c̓əld</b> "defeat someone"
+  <li><b>c̓əldxʷ</b> "manage to defeat someone"
+</ul>
+
+<ul>
+  <li><b>ʔəɬ</b> ‘be eaten’
+  <li><b>qəd</b> ‘fornicate’
+  <li><b>c̓əl</b> ‘be defeated’
+  <li><b>c̓əs</b> ‘be pecked’
+  <li><b>gəq</b> ‘shining’
+  <li><b>gʷəč̓</b> ‘be sought’
+  <li><b>k̓ʷalč̓</b> ‘be bent backwards’
+  <li><b>kʷaʔ</b> ‘be released’
+  <li><b>x̌əd</b> ‘be pressed’
+  <li><b>laʔ</b> ‘be located’
+  <li><b>xʷəb</b> ‘be thrown’
+  <li><b>ləc̓</b> ‘have come down on’
+  <li><b>yəc</b> ‘report’
+</ul>
+
+Some radicals are both unattested as free forms and which do not
+appear to be productively used as bases for derivation. This category
+includes forms that appear only as a part of another productive
+derivational base (e.g., <b>xʷak̓ʷ</b> "be tired", which appears as part of
+a fossilized inchoative form
+
+<ul>
+   <li> <b>xʷak̓ʷil</b>" "get tired", itself a productive base
+   <li> <b>xʷak̓ʷilbid</b> "become disaffected with someone"
+   <li> <b>xʷak̓ʷis</b> "get tired of someone"
+   </ul>
+
+and forms which appear in a single stem with an easily-analyzed affix
+whose meaning is consistent with the meaning or syntactics of the
+derivational morpheme:
+
+<ul>
+   <li><b>bis</b> "be selected", the historical base of
+   <li><b>bisəd</b> "select something"
+</ul>
+
+<ul>
+   <li><b>bis</b>  be selected
+   <li><b>xʷak̓ʷ</b> be tired
+</ul>
+
+In addition to radicals with the canonical <b>CVC(C)</b> shape, there
+are a large number of CVCVC radicals:
+
+<ul>
+ <li> <b>čəbaʔ</b> "be loaded down with something"
+ <li> <b>həliʔ</b> "be alive
+ <li> <b>p̓ayəq</b> "carve canoe"
+ <li> <b>wiliq̓ʷ</b> "make an enquiry"
+</ul>
+
+and a few CVCV radicals:
+
+<ul>
+   <li><b>bali</b> "be forgetful"
+   <li><b>čubə ‘go inland’
+   <li><b>sula</b> "be in the middle"
+   </ul>
+
+More complex radicals are also attested:
+
+<ul>
+  <li><b>ʔigʷəɬa</b> ‘climb tree’
+  <li><b>hədʔiw̓</b> ‘be inside a house’,
+  <li><b>təlawil</b> ‘run a distance’,
+  <li><b>xʷiʔxʷiʔ ‘hunt for something, forage for something’).
+</ul>
+
+Many of this last group appear to be fossilizations of
+diachronically analyzable strings formed through affixation or
+reduplication.
+`,
+
 
 " Nominalization":
 `
