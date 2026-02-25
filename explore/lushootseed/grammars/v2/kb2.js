@@ -1,8 +1,8 @@
 kb = {
 
-//----------------------- 
-// section 29.1, line 17
-//-----------------------
+//-------------------------------------
+// section 29.1, line 17; 29.5 line 31
+//-------------------------------------
 
 "čad kʷi sʔas.":
 `
@@ -1161,14 +1161,13 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
         </ul>
       <li><b>-əxʷ</b> now, at the particular time  [LD 30]
    </ul>
-
-
  </ul>
 
 </details>
 
 `,
 
+// restart here
 
 //----------------------- 
 // section 29.5, line 30
@@ -1177,6 +1176,54 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
 "hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.":
 `
 **hiwil! yəcəbtxʷ t(i) adbad: ʔuɬčiləxʷ ti ʔihišədčəɬ.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>hiwil</b> go ahead, precede; go on, go away; in front. [LD 110]
+      <ul>
+         <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
+         <li><b>hiw</b> is never attested unaccompanied by <b>-il</b> but
+           is hypothesized to have once, independently, meant "be advanced"
+           [Beck Grammar 38, 554]
+      </ul> 
+   <li><b>yəcəbtxʷ</b> inform someone, tell someone [LD 276]
+     <ul>
+        <li><b>yəc</b> tell, report, inform. [LD 276]
+        <li><b>-ə</b> epenthetic <b>-ə</b> for <b>-b</b>
+        <li><b>-b</b> passive marker [LD 32]
+        <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+     </ul>
+   <li><b>ti</b> this [LD 224]
+   <li><b>adbad</b>
+      <ul>
+        <li><b>ad </b> your (second person singular possessive) [LD 25]
+        <li><b>bad </b> fater [LD 33]
+     </ul>
+   <li><b>ʔuɬčiləxʷ</b>
+      <ul>
+         <li><b>ʔu-</b>  action is viewed as a whole, in its entirety, rather than
+             highlighting the details, stages, or its ongoing nature. [LD 19]
+      <li><b>ɬčil</b> arrive, get there [LD 143]
+        <ul>
+          <li> as with <b>hiwil</b> the inchoative suffix <b>-il</b>
+          always accompanies the root stem (radical) <b>ɬč</b> which
+          ancestrally may have stood alone, meaning "be on the way"
+          [Beck Grammar p 554]
+        </ul>
+       <li><b>-əxʷ</b> now, at the particular time  [LD 30]
+     </ul>
+   <li><b>ti</b> this [LD 224]
+   <li><b>ʔihišədčəɬ</b>
+      <ul>
+         <li><b>ʔiišəd</b> relatives, friends, one's own people [LD 16]
+         <li><b>čəɬ</b> we, us; our [LD 63]
+      </ul>
+</ul>
+
+</details>
+
+
 
 **Vocabulary Comment 29.8, page 9**
 
@@ -1208,12 +1255,40 @@ difference in meaning:
 `,
 
 
+//-------------------------------------------------------
+// section 29.5, line 31,  same as section 29.1, line 17
+//-------------------------------------------------------
+
 //----------------------- 
-// section 29.5, line 3
+// section 29.5, line 32
 //-----------------------
 "čəgʷalətxʷ ti suyayu(s)s.":
 `
 **čəgʷalətxʷ ti suyayu(s)s.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+<li><b>čəgʷalətxʷ</b> outside the house (see grammar notes below)
+   <ul>
+      <li><b>čaʔkʷ</b> located toward the water, seaward, out to sea, out
+      on the water, on the shore.  [LD 57]
+      <li><b>alətxʷ</b>: house or building <i>lexical suffix</i> [LD 27]
+   </ul>
+
+<li><b>ti</b> this [LD 224]
+<li><b>suyayu(s)s</b>
+   <ul>
+      <li><b>s-</b> nominalizer [LD 199] (<i>pshannon conjecture</i>)
+      <li><b>ʔu-</b>  action is viewed as a whole, in its entirety, rather than
+             highlighting the details, stages, or its ongoing nature. [LD 19] (<i>pshannon conjecture</i>)
+      <li><b>yayus</b> work, doings, activity [LD 276]
+      <li><b>-s</b> he, him, his, she, her,hers, it, its, they, them, their, theirs [LD 199]
+   </ul>
+</ul>
+
+</details>
+
 
 Many words ending with the sound <b>kʷ</b> undergo a change whereby
 the <b>kʷ</b> is replaced with <b>gʷ</b> when a vowel is suffixed.
@@ -1336,7 +1411,7 @@ in relation to someone else.
 
 
 //----------------------- 
-// section 29.6, line 1
+// section 29.6, line 33
 //-----------------------
 
 "gʷəʔux̌ʷtubš čəxʷ (ʔ)u dxʷʔal ti xʷuyubalʔtxʷ.":
@@ -1345,8 +1420,9 @@ in relation to someone else.
 
 **Grammar note 29.2, page 8**
 
-Just as the suffix <b>-dxʷ</b> becomes <b>-du-</b> before <b>-bš</b>, <b>-bicid</b>,
-etc (see 27.2), so <b>-txʷ</b> becomes <b>-tu-</b> before the same endings:
+Just as the suffix <b>-dxʷ</b> becomes <b>-du-</b> before <b>-bš</b>,
+<b>-bicid</b>, etc (see 27.2), so <b>-txʷ</b> becomes <b>-tu-</b>
+before the same endings:
 
 <ul>
   <li> <b>ʔəɬtxʷ</b> &nbsp; "feeds him/her/it"
