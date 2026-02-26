@@ -2,11 +2,13 @@ CODE_ROOT=/Users/paul/github/slexil2
 LANGUAGE = tlingit
 HELP_FILE = ../help-tlingit.html
 HELP_BUTTON_LABEL = "How To"
+HOST = https://slexildata.artsrn.ualberta.ca
+SCP_HOST = ptshannon@10.194.218.48
 
 default:
 	@echo eafStructure
 	@echo movieCurl
-	@echo scp
+	@echo movieScp
 	@echo venv
 	@echo checkTimes
 	@echo removeSpeakerIDs
@@ -14,22 +16,23 @@ default:
 	@echo s2h
 	@echo e2s2h
 	@echo publish
+	@echo publish-alberta
 	@echo view
 	@echo viewRemote
 	@echo eafscp
 	@echo update
 
 venv:
-	@echo source $(CODE_ROOT)/py3105slexil/bin/activate
+	@echo source $(CODE_ROOT)/py3119slexil/bin/activate
 
 eafStructure:
 	python -i $(CODE_ROOT)/utils/eafStructure.py --eaf $(EAF)
 
 movieCurl:
-	curl -I https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(VID)
+	curl -I $(HOST)/$(LANGUAGE)/$(VID)
 
-scp:
-	scp $(VID) pshannon@206.12.95.4:www/$(LANGUAGE)
+movieScp:
+	scp $(VID) $(SCP_HOST):$(LANGUAGE)
 	
 checkTimes:
 	python  $(CODE_ROOT)/utils/eafCheck.py --eaf $(EAF) --times
@@ -44,11 +47,12 @@ s2h:
 	python /Users/paul/github/slexil2/utils/sfmt2html.py \
        --sfmt $(SFMT.FILE) \
        --htmlFile $(HTML.FILE) \
-       --verbose \
        --pageTitle $(TITLE) \
        --helpFile $(HELP_FILE) \
        --helpButtonLabel $(HELP_BUTTON_LABEL) \
        --outputDir .
+#       --verbose \
+
 
 e2s2h:
 	python /Users/paul/github/slexil2/utils/eaf2sfmt2html.py \
@@ -73,17 +77,23 @@ html:
                         --fixOverlappingTimeSegments \
 	                     --fontSizeControls
 
-publish:
+publish-alberta:
 	scp $(HTML.FILE) pshannon@206.12.95.4:www/$(LANGUAGE)/$(HTML.FILE)
+
+publish:
+	scp $(HTML.FILE) $(SCP_HOST):$(LANGUAGE)/$(HTML.FILE)
 
 view:
 	open $(HTML.FILE)
 
 viewRemote:
-	open https://slexildata.artsrn.ualberta.ca/$(LANGUAGE)/$(HTML.FILE)
+	open $(HOST)/$(LANGUAGE)/$(HTML.FILE)
 
 eafscp:
 	scp $(EAF) pshannon@206.12.95.4:www/$(LANGUAGE)/eaf/
 
-update:  e2s2h removeSpeakerIDs s2h publish viewRemote
+publish-uas:
+	scp $(HTML.FILE) ptshannon@10.194.218.48:tlingit/
+
+update:  e2s2h removeSpeakerIDs s2h publish-uas viewRemote
 

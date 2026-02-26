@@ -7,3 +7,4 @@ SFMT.FILE = 22CyrilG230307AT.yaml
 TITLE = "Tlingit Conversation \#22"
 
 include ../makefile-shared
+HOST = https://aklanguages.uas.alaska.edu/
