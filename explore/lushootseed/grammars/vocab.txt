@@ -1,3 +1,29 @@
+<li><b>ɬuʔux̌ʷtucicid</b> will take you
+  <ul>
+   <li> <b>ɬu-</b> anticipated, expected or possible event [LD 147]
+   <li><b>ʔux̌ʷ</b> go [LD 22]
+   <li><b>-txʷ</b>: external causation: make someone do something [LD 231] [conjecture]
+   <li><b>-bicid</b> [LD 39] see <b>-icid</b> you (singular) [LD 114] [conjecture]
+   </ul>
+
+
+
+   <li><b>q̓ilagʷi(l)</b>   [LD ]
+   <ul>
+      <li><b>q̓il(i)(l)</b>  ride; load vehicle  [LD 184]
+      <li><b>=agʷi(l)</b> doer puts self into action  [LD 27]
+   </ul>
+
+
+<li><b>ʔəsdᶻix̌gʷiɬ</b>
+   <ul>
+      <li>ʔəs-</b> condition or state exists [LD 13]
+      <li><b>dᶻix̌(i)</b> break down, collapse; mechanical breakdown [LD 91]
+      <li><b>=gʷiɬ</b> canoe, waterway, curved side; narrow passageway (lexical suffix) [LD 103]
+   </ul>
+
+
+
 <li><b>xʷuyubalʔtxʷ</b>
    <ul>
       <li><b>xuyu</b> sell [LD 255]

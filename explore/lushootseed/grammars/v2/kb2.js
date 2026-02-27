@@ -1467,7 +1467,6 @@ before the same endings:
 `,
 
 //----------------------- 
-// 27 feb, restart here
 // section 29.6, line 34
 //-----------------------
 
@@ -1478,10 +1477,44 @@ before the same endings:
 <details open><summary>Vocabulary Notes</summary>
 
 <ul>
-   <li><b></b>   [LD ]
+  <li><b>ʔəsdᶻix̌gʷiɬ</b>
+     <ul>
+      <li><b>ʔəs-</b> condition or state exists [LD 13]
+      <li><b>dᶻix̌(i)</b> break down, collapse; mechanical breakdown [LD 91]
+      <li><b>=gʷiɬ</b> canoe, waterway, curved side; narrow passageway (lexical suffix) [LD 103]
+     </ul>
+  <li><b> čəd </b>  I, me.  [LD 62]
+ </ul>
+</details>
+
+`,
+
+//----------------------- 
+// section 29.6, line 35
+//-----------------------
+
+"q̓ilagʷi(l). ɬuʔux̌ʷtucicid čəd.":
+`
+**q̓ilagʷi(l). ɬuʔux̌ʷtucicid čəd.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>q̓ilagʷi(l)</b>
    <ul>
-      <li><b></b>    [LD ]
+      <li><b>q̓il(i)(l)</b>  ride; load vehicle  [LD 184]
+      <li><b>=agʷi(l)</b> doer puts self into action  [LD 27]
    </ul>
+   <li><b>ɬuʔux̌ʷtucicid</b> will take you
+      <ul>
+        <li> <b>ɬu-</b> anticipated, expected or possible event [LD 147]
+        <li><b>ʔux̌ʷ</b> go [LD 22]
+        <li><b>-txʷ</b>: external causation: make someone do something [LD 231]
+        <span style="color: brown;">[conjecture]</span>
+        <li><b>-bicid</b> [LD 39] see <b>-icid</b> you (singular) [LD 114]
+          <span style="color: brown;">[conjecture]</span>
+      </ul>
+   <li><b> čəd </b>  I, me.  [LD 62]
 </ul>
 
 </details>
