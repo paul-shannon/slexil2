@@ -640,7 +640,7 @@ The word __xʷiʔəxʷ__ is usually pronounced as though it were spelled __xʷax
                           wanting: "want that" [Beck Draft Grammar p83]
       </ul>
    <li> <b>čəɬ</b>: we, us [LD 63]
-   <li> <b>ti</b> the particular one [LD 224]
+   <li><b>ti</b> this, the particular one [LD 224]
    <li> <b>sqəbuʔ</b>: breast, milk [LD 174]
       <ul>
         <li><b>s-</b> nominalizer [LD 199]
@@ -772,7 +772,7 @@ In addition to <b>səxʷƛ̓ux̌ilali</b> "refrigerator", note such words as
        <li><b>ʔux̌ʷ</b> go [LD 22]
        <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
     </ul>
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>sqəbuʔ</b>
    <li><b>dxʷdiʔadiʔ</b>
    <ul>
@@ -837,7 +837,7 @@ directly to other location words meaning "to" or "toward" that location.
    <li><b>ʔal</b> on, along, through, in, at; when.
          Be located at or by some specific point in time or space,
          location with reference to something named.  [LD 4]
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>səxʷƛ̓ux̌ilali</b>
    <ul>
       <li><b>səxʷ-</b> device (for) [LD 203]
@@ -872,7 +872,7 @@ directly to other location words meaning "to" or "toward" that location.
         <li><b>šədᶻal</b> go outside [LD 209]
         <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
      </ul>
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>sqʷəbayʔ</b> dog [LD 189]
    <li> <b>čəxʷa</b> and you [LD 62]
         <ul>
@@ -960,7 +960,7 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
         <li><b>ʔa</b> be there [LD 1]
       </ul>
    <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>t̓əbiɬəds</b> his rope
       <ul>
          <li><b>t̓əb</b> braid [LD 235]
@@ -1019,7 +1019,7 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
       <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
       <li><b>-axʷ</b> now, at the particular time  [LD 30]
    </ul>
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>sqʷəbayʔ</b> dog [LD 189]
      <ul>
         <li> when replayed at half-speed, we may hear the reduplicated plural: <b>sqʷəqʷəbay</b>
@@ -1167,8 +1167,6 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
 
 `,
 
-// restart here
-
 //----------------------- 
 // section 29.5, line 30
 //-----------------------
@@ -1194,7 +1192,7 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
         <li><b>-b</b> passive marker [LD 32]
         <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
      </ul>
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>adbad</b>
       <ul>
         <li><b>ad </b> your (second person singular possessive) [LD 25]
@@ -1213,7 +1211,7 @@ written as <b>wʔ</b>.  Compare also <b>dəwʔ</b> of <b>dəwʔabš</b>,
         </ul>
        <li><b>-əxʷ</b> now, at the particular time  [LD 30]
      </ul>
-   <li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
    <li><b>ʔihišədčəɬ</b>
       <ul>
          <li><b>ʔiišəd</b> relatives, friends, one's own people [LD 16]
@@ -1276,7 +1274,7 @@ difference in meaning:
       <li><b>alətxʷ</b>: house or building <i>lexical suffix</i> [LD 27]
    </ul>
 
-<li><b>ti</b> this [LD 224]
+   <li> <b>ti</b> this, the particular one [LD 224]
 <li><b>suyayu(s)s</b>
    <ul>
       <li><b>s-</b> nominalizer [LD 199] (<i>pshannon conjecture</i>)
@@ -1418,6 +1416,40 @@ in relation to someone else.
 `
 **gʷəʔux̌ʷtubš čəxʷ (ʔ)u dxʷʔal ti xʷuyubalʔtxʷ.**
 
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+
+<li><b>gʷəʔux̌ʷtubš</b>
+   <ul>
+      <li><b>gʷə-</b>if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95]
+       variant of <b>gʷ-</b> inflectional subjunctive prefix
+             expressing doubt, (events) contrary to fact 
+      <li><b>ʔux̌ʷ</b> go [LD 22]
+      <li><b>tubš</b> [Beck Draft Grammar, section 2.1.2.2, and grammar note 29.2, below]
+        <ul>
+           <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+           <li><b>–bš</b></b> see <b>-š</b> me (as receiver of action) [first
+              person singular object] [LD 207, entry 3, from LD 41]
+        </ul>
+   </ul>
+<li><b>čəxʷ</b>  you (singular).  [LD 65]
+<li><b>ʔu </b> question marker.  [LD 19]
+<li><b>dxʷʔal</b> toward, to [LD 5]
+<li><b>ti</b> this, the particular one [LD 224]
+<li><b>xʷuyubalʔtxʷ</b> store [LD 255]
+   <ul>
+      <li><b>xʷuyu</b> sell [LD 255]
+      <li><b>-b</b> be involved in doing something [passive marker] [LD 32]
+      <li><b>=alʔtxʷ</b> house, room of a house, building [lexical suffix] [LD 27]
+   </ul>
+
+</ul>
+</ul>
+
+</details>
+
+
 **Grammar note 29.2, page 8**
 
 Just as the suffix <b>-dxʷ</b> becomes <b>-du-</b> before <b>-bš</b>,
@@ -1432,6 +1464,28 @@ before the same endings:
   <li> <b>ʔəɬtubuɬəd</b> &nbsp; "feeds you folks"
   <li> <b>ʔəɬtubut</b> &nbsp; "feeds self"
 </ul>
+`,
+
+//----------------------- 
+// 27 feb, restart here
+// section 29.6, line 34
+//-----------------------
+
+"ʔəsdᶻix̌gʷiɬ čəd.":
+`
+**ʔəsdᶻix̌gʷiɬ čəd.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b></b>   [LD ]
+   <ul>
+      <li><b></b>    [LD ]
+   </ul>
+</ul>
+
+</details>
+
 `,
 
 

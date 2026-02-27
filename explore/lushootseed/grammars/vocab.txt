@@ -1,3 +1,27 @@
+<li><b>xʷuyubalʔtxʷ</b>
+   <ul>
+      <li><b>xuyu</b> sell [LD 255]
+      <li><b>-b</b> be involved in doing something [passive marker] [LD 32]
+      <li><b>=alʔtxʷ</b> house, room of a house, building [lexical suffix] [LD 27]
+   </ul>
+
+
+<li><b>dxʷʔal</b> toward, to [LD 5]
+<li><b>gʷəʔux̌ʷtubš</b>
+   <ul>
+      <li><b>gʷə-</b>if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95]
+       variant of <b>gʷ-</b> inflectional subjunctive prefix
+             expressing doubt, (events) contrary to fact 
+      <li><b>ʔux̌ʷ</b> go [LD 22]
+      <li><b>tubš</b> [Beck Draft Grammar, section 2.1.2.2]
+        <ul>
+           <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+           <li><b>–bš</b></b> see <b>-š</b> me (as receiver of action) [first
+              person singular object] [LD 207, entry 3, from LD 41]
+        </ul>
+   </ul>
+
+  
 <li><b>čəgʷalətxʷ</b> outside the house
    <ul>
       <li><b>čaʔkʷ</b> located toward the water, seaward, out to sea, out
