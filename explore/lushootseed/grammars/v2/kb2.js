@@ -1521,6 +1521,65 @@ before the same endings:
 
 `,
 
+//----------------------------
+// section 29.7, line 36
+//----------------------------
+
+"gʷət̓uk̓ʷtubš čələp (ʔ)u.":
+`
+**gʷət̓uk̓ʷtubš čələp (ʔ)u.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+<li><b>gʷət̓uk̓ʷtubš</b>
+   <ul>
+    <li><b>gʷə-</b>if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95]
+    <li><b>t̓uk̓ʷ</b> go home [LD 242]
+    <li><b>tubš</b> [Beck Draft Grammar, section 2.1.2.2]
+       <ul>
+          <li><b>-txʷ</b> make someone do something [causative suffix] [LD 231]
+          <li><b>–bš</b></b> see <b>-š</b> me (as receiver of action) [first
+             person singular object] [LD 207, entry 3, from LD 41]
+         </ul>
+   </ul>
+   <li><b>čələp</b>: you (plural), you folks. [LD 63]
+   <li><b>ʔu</b> question marker.  [LD 19]
+</ul>
+
+</details>
+
+`,
+
+
+//----------------------------
+// section 29.7, line 37
+//----------------------------
+
+"ʔəsƛ̓alƛ̓alab čəd.":
+`
+**ʔəsƛ̓alƛ̓alab čəd.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+<li><b>ʔəsƛ̓alƛ̓alab</b>
+   <ul>
+      <li>ʔəs-</b> condition or state exists [LD 13]
+      <li><b>ƛ̓alƛ̓alab</b> stranded [LD 151]
+      <ul>
+         <li><b>ƛ̓al</b> (sense #2) located, stranded [LD 151]
+         <li><b>ƛ̓alƛ̓ala</b> reduplication type 2 (items are distributed about,
+            plural) [LD xvii]
+         <li><b>-b</b> passive marker: subject is the target, undergoer of action [LD 32]
+         </ul>
+   </ul>
+   <li><b>čəd</b> I, me.  [LD 62]
+</ul>
+
+
+</details>
+`,
 
 //----------------------- 
 // section 30.1 line 39
