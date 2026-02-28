@@ -26,7 +26,7 @@ lines:
   - lineNumber: 5
     startTime: 26360
     endTime: 28630
-    Utterance: Ch'áagu ạx̱ ḵáawu
+    Utterance: Ch'áagu ax̱ ḵáawu
     translation: My people of long ago,
 
   - lineNumber: 6
@@ -143,7 +143,7 @@ lines:
     startTime: 91630
     endTime: 94721
     translation: death, our food, ???
-    Utterance: naná haa atx̱aayí [uwayéeji ??? sounds like this, but not sure of the meaning]
+    Utterance: naná haa atx̱aayí
 
   - lineNumber: 28
     startTime: 94921
@@ -177,13 +177,13 @@ lines:
     startTime: 114550
     endTime: 117250
     translation: We will place this in its place [???]
-    Utterance: Tuwaxʼ daséi ḵuyax̱tootée [sounds like this, but not sure of meaning]
+    Utterance: Tuwaxʼ daséi ḵuyax̱tootée
 
   - lineNumber: 34
     startTime: 117450
     endTime: 121450
     translation: ???
-    Utterance: duteeyí ḵaach aa teeyí [sounds like this, but not sure of meaning]
+    Utterance: duteeyí ḵaach aa teeyí
 
   - lineNumber: 35
     startTime: 121650
@@ -201,7 +201,7 @@ lines:
     startTime: 129010
     endTime: 134240
     translation: they distribute it to us [and people eat ???].
-    Utterance: haa jeedé adaadunéi [at dux̱á ??? not sure]
+    Utterance: haa jeedé adaadunéi
 
   - lineNumber: 38
     startTime: 134440
@@ -1200,7 +1200,7 @@ lines:
     startTime: 716210
     endTime: 718000
     translation: ???
-    Utterance: Lingít náa kaa.éisʼ [this is what it sounds like, but not sure of the meaning]
+    Utterance: Lingít náa kaa.éisʼ
 
   - lineNumber: 207
     startTime: 718200
