@@ -1581,17 +1581,69 @@ before the same endings:
 </details>
 `,
 
+//----------------------------
+// section 29.7, line 38
+//----------------------------
+
+"q̓ilagʷi(l).  ƛ̓ubalx̌ʷəd čəɬ t(i) adʔalʔal.":
+`
+
+**q̓ilagʷi(l).  ƛ̓ubalx̌ʷəd čəɬ t(i) adʔalʔal.**
+
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+  <li><b>q̓ilagʷi(l)</b>
+     <ul>
+        <li><b>qʔil(i)</b> ride; load vehicle [LD 184]
+        <li><b>-agʷil</b> does puts self into action [agentive suffix] [LD 27]
+     </ul>
+   <li><b>ƛ̓ubalx̌ʷəd</b>
+      <ul>
+        <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
+        <li><b>balxʷ</b> go by, pass; after (in time or space) [LD 37]
+        <li><b>-ə</b> epenthetic <span style="color: brown;">[conjecture]</span>
+        <li><b>-d</b> action performed on someone of something else [LD 76]
+      </ul>
+   <li><b>čəɬ</b> we, us [LD 63]
+   <li><b>ti</b> this, the particular one [LD 224]
+   <li><b>adʔalʔal</b>
+      <ul>
+         <li><b>ad-</b> your (second person singular possessive) [LD 25]
+         <li><b>ʔalʔal</b> house [LD 6]
+      </ul>
+</ul>
+
+</details>
+
+`,
+
 //----------------------- 
 // section 30.1 line 39
 //-----------------------
-
-
 "cick̓ʷ ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.":
 `
 **cick̓ʷ ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.**
 
-**Footnote 3, page 14**
 
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>cick̓ʷ</b> very [LD 46]
+   <li><b>ʔuq̓aƛ̓əb</b>
+   <ul>
+      <li><b>ʔu-</b> action is viewed as a whole, in its entirety [LD 19]
+      <li><b>q̓aƛ̓əb</b> cloudy [LD 181]
+   </ul>
+   <li><b>ʔal</b> on, along, through, in, at; when.  [LD 4]
+   <li> <b>tiʔəʔ</b> this [LD 224]
+   <li><b>sləx̌il</b> day [LD 137]
+
+</ul>
+
+</details>
+
+**Footnote 3, page 14**
 
 <b>cick̓ʷ</b> "very" and <b>həlaʔb/laʔb</b> "really" are close
 synonyms.  The former, however, is more forceful, more intense
@@ -1601,6 +1653,7 @@ than the latter.
 
 //----------------------- 
 // section 30.1 line 40
+// restart here, with the vocabulary notes
 //-----------------------
 
 "ƛ̓alš t(i) adšiqʷ. diʔɬ kʷi ɬusqəlbs.":
@@ -1609,12 +1662,11 @@ than the latter.
 
 **Grammar Note 30.1, page 16**
 
-Lushootseed, like most languages in the world, does not have
-anything like the "dummy" <i>it</i> in expressions about the weather
-as Enllish does, e.g.,  <u>it</u> is raining, <u>it</u> is snowing,
-<u>it</u> is foggy.  The <i>it</i> in these English sentences means nothing
-at all; and Lushootseed does not encumber its grammar with such useless
-words.
+Lushootseed, like most languages in the world, does not have anything
+like the "dummy" <i>it</i> in expressions about the weather as Enllish
+does, e.g., <u>it</u> is raining, <u>it</u> is snowing, <u>it</u> is
+foggy.  The <i>it</i> in these English sentences means nothing at all;
+and Lushootseed does not encumber its grammar with such useless words.
 
 **Footnote 1, page 14**
 

@@ -1,3 +1,47 @@
+   <li><b>cick̓ʷ</b> very [LD 46]
+   <li><b>ʔuq̓aƛ̓əb</b>
+   <ul>
+      <li><b>ʔu-</b> action is viewed as a whole, in its entirety [LD 19]
+      <li><b>q̓aƛ̓əb</b> cloudy [LD 181]
+   </ul>
+
+   
+   <li><b>ʔal</b> on, along, through, in, at; when.
+         Be located at or by some specific point in time or space,
+         location with reference to something named.  [LD 4]
+   <li> <b>tiʔəʔ</b> this [LD 224]
+   <li><b>sləx̌il</b> day [LD 137]
+
+
+ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.":
+
+
+
+
+<li><b>adʔalʔal</b>
+   <ul>
+      <li><b>ad-</b> your (second person singular possessive) [LD 25]
+      <li><b>ʔalʔal</b> house [LD 6]
+   </ul>
+
+
+<li><b>ƛ̓ubalx̌ʷəd</b>
+   <ul>
+      <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
+      <li><b>balxʷ</b> go by, pass; after (in time or space) [LD 37]
+      <li><b>-ə</b> epenthetic <span style="color: brown;">[conjecture]</span>
+      <li><b>-d</b> action performed on someone of something else [LD 76]
+   </ul>
+
+
+
+<li><b>q̓ilagʷi(l)
+   <ul>
+      <li><b>qʔil(i)</b> ride; load vehicle [LD 184]
+      <li><b>-agʷil</b> does puts self into action [agentive suffix] [LD 27]
+   </ul>
+
+
 <li><b>ʔəsƛ̓alƛ̓alab</b>
    <ul>
       <li>ʔəs-</b> condition or state exists [LD 13]
@@ -139,7 +183,7 @@
 
 <li><b>adbad</b>
    <ul>
-    <li><b>ad </b> your (second person singular possessive) [LD 25]
+    <li><b>ad-</b> your (second person singular possessive) [LD 25]
     <li><b>bad </b> fater [LD 33]
    </ul>
    
