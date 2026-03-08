@@ -1,7 +1,6 @@
 title: How Daylight Was Stolen
 narrator: Harry Moses
 textEntry: Paul Shannon
-#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
 mediaFile: daylight-restoration_V03-22k-aLaw.wav
 mimeType: audio/x-wav
 
@@ -12,7 +11,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Living in the dark.
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -52,7 +50,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Mink and Raven Prepare
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -86,7 +83,7 @@ lines:
     lushootseed: tiʔəʔ qaw'qs ʔi tiʔəʔ bibščəb kʷi tuhuyucut
     soundsLike: 
     morphemes: [tiʔəʔ,qaw'qs,ʔi,tiʔəʔ,bi–bəščəb,kʷi,tu=huyu–t–sut]
-    morphemeGloss: [PROX,raven,CONJ, PROX,ATTN–mink,REM,PAST=made–ICS–REFL]
+    morphemeGloss: [PROX,raven,CONJ,PROX,ATTN–mink,REM,PAST=made–ICS–REFL]
     english: The ones who prepare themselves are Raven and Little Mink.
 
   - html: "<div style='overflow-x: clip; margin: 30px;
@@ -94,7 +91,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Canoe Jumping
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -145,7 +141,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Four canoes - ready!
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -187,7 +182,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Traveling Upriver
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -245,7 +239,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Arrival
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -253,7 +246,7 @@ lines:
   - startTime: 128013
     endTime: 131346
     lushootseed: gʷəl tuɬəgʷɬ əlgʷəʔ tiʔəʔ q̓il̓bids gʷəl tugʷax̌ʷ
-    soundsLike: gwell too.slugʔ elgwaw tiah KAIL.baids gwell too.gwawk
+    soundsLike: gwell too.shugʔ elgwaw tiah KAIL.baids gwell too.gwawk
     morphemes: [gʷəl,tu=ɬəgʷɬ,əlgʷəʔ,tiʔəʔ,q̓il̓bid–s,gʷəl,tu=gʷax̌ʷ]
     morphemeGloss: [SCONJ,PAST=leave,PL,PROX,canoe–3PO,SCONJ,PAST=walk]
     english: Then they left their canoe and walked.
@@ -448,7 +441,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Mink negotiates his sleeping place.
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -498,7 +490,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Mink watches
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -521,17 +512,17 @@ lines:
     english: He just watched it.
 
   - startTime: 267240
-    endTime:   272095
+    endTime:   271997
     lushootseed: x̌ʷul̓ ƛ̓ulədiʔiʔil tiʔiɬ ɬukʷaɬ gʷəl ƛ̓uləƛ̓ip̓usitəb tiʔəʔ sləx̌il
     morphemes: [x̌ʷul̓,ƛ̓u=lə=diʔ–iʔ–il,tiʔiɬ,ɬukʷaɬ,gʷəl,ƛ̓u=lə=ƛ̓ip̓•us–i–t–b,tiʔəʔ,sləx̌il]
-    soundsLike: wole tloo.luh.daaale teesh klow.kwuhs deeth.plus.taid.plus deesh  uh tee.ah sluh.khail
+    soundsLike: uhHOOOLE tloo.luh.DAAALE teesh slow.kwuss deeth.plus.TAID.pus.uh.teeb  uh tee.ah sluh.khail
     morphemeGloss: [only,HAB=PROG=exc–other.side–INCH,DIST,sun,SCONJ,HAB=PROG=squeeze•face–SS–ICS–PASS,PROX,daylight]
     english: As the sun would move to the other side, then the daylight would gradually get its face squeezed shut.
 
   - startTime: 272256
     endTime:   274573
     lushootseed: diɬ səɬaˑx̌il
-    soundsLike: deeth luh.slaaaaah.hail
+    soundsLike: deeth luh.slaaaaawk.hail
     morphemes: [diɬ,s=lə=ɬax̌–il]
     morphemeGloss: [foc,NM=PROG=dark–INCH]
     english: It gradually became night.
@@ -539,7 +530,7 @@ lines:
   - startTime: 275037 
     endTime:   277189
     lushootseed: ƛ̓uləƛ̓uc̓usitəb diɬ sbəsads
-    soundsLike: tlah.sloatz.ootz.seeb too.deesh shawt 
+    soundsLike: tlah.sloatz.ootz.seeb too.deesh buh.sawds
     morphemes: [ƛ̓u=lə=ƛ̓uc̓•us–i–t–b,diɬ,s=bəsad=s]
     morphemeGloss: [HAB=PROG=tied.in.bunch•face–SS–ICS–PASS,foc,NM=dark=3PO]
     english: It would gradually get its face tied shut. It was then that it was dark.
@@ -565,7 +556,6 @@ lines:
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
                  Mink makes his first attempt
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"

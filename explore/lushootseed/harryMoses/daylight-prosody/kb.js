@@ -1,6 +1,32 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ƛ̓u=lə=diʔ–iʔ–il":
+`
+**ƛ̓u=lə=diʔ–iʔ–il**
+<ul>
+   <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
+   <li><b>lə-</b> action is ongoing, non-circumscribed, continuous, developing,
+     acts are performed in a series, performed while moving from one place to another, happening
+     gradually. [verbal inflectional prefix of progressive aspect; becomes <b>-ə-</b>
+     following <b>s-</b> and <b>dəxʷ-</b>] [LD 134]
+   <li> <b>diʔ</b>  opposite side, other side, on the other side, at the other side,
+          to the other side [LD 81]
+     <ul>
+       <li><b>adiʔ</b> ear, side, sound [lexical suffix] derived from _diʔ_.  [LD26]
+       <li><b>dədidiʔ</b> move over!
+       <li></b>diʔucid</b> other side of the path, road, lake, river, body of water
+       <li><b>diʔyalus</b>: other end, on the end. lexical suffix _yalus_: end, edge [LD 274]
+     </ul>
+   <li><b>-ʔ</b> a reduplication indicating exclusivity or uniqueness.
+      Note the <b>EXC</b> gloss.  [Beck Grammar, section 5.3.3, page 330]
+   <li><b>-il</b> reach or achieve a state or position; becoming, becoming more so; begin
+     [derivtional suffix, becomes <b>-i-</b> before transitive <b>-s</b>] [LD 116]
+</ul>
+
+`,
+
+
 "tu-šuɬ–dxʷ–b":
 `
 **tušudub**
@@ -259,6 +285,9 @@ This was life in the dark.
 - <b>pəkʷib</b>
     - <b>pəqʷ(u)</b> break off a piece (leaving a larger portion) [LD 163]
     - variants: <b>pkʷ(u), pqʷ</b>
+    - David Beck's Draft Grammar, p23, mentions this stem as one of
+       "a small group of CC radicals exhibiting harmonic epenthesis":
+       <b>pkʷ</b> ‘be broken off’ becomes <b>pqʷud</b> ‘break off’.
     - <b>pəqʷyid</b> break off a piece so he can have some
     - <b>-ib</b> idiosycratic passive marking suffix [Beck grammar, page 66]
         - <b>ƛ̓alib</b> be worn
@@ -869,41 +898,13 @@ rather than dialect.
 `
 **ɬukʷaɬ**
 
-- sun
-- sounds like: _klow.kwuhs_
-`,
-
-
-"ƛ̓u=lə=diʔ–iʔ–il":
-`
-**ƛ̓u=lə=diʔ–iʔ–il**
-
-- sounds like: _tloo.luh.daaale_
-- HAB=PROG=EXC–other.side–INCH
-- _(the sun) in its exclusive custom, progresses incrementally to the other side (of the sky)_
-- _ƛ̓u_: habitual
-- _=lə_: progressive
-- _diʔ_: variant of _adiʔ_ [LD81]
-     - opposite side, other side, on/at/to the other side 
-     - _adiʔ_: ear, side, sound [lexical suffix] derived from _diʔ_.  [LD26]
-     - _dədidiʔ_: mov over!
-     - _diʔucid_: other side of the path, road, lake, river, body of water
-     - _diʔyalus_: other end, on the end. lexical suffix _yalus_: end, edge [LD 274]
-- exclusivity: 
-     - _diʔ-iʔ_:  Beck Grammar type III reduplication expressing exclusitivity
-     - not to be confused with _red3_ from LD xvii.
-     - infix the first vowel _-i_ and the second consonant _ʔ_ after the first
-       consonant _d_.
-     - thus ___diʔ___ becomes d(iʔ)iʔ
-     - this grammatical form has very regular form and various meanings,
-       "depending in part on the lexical and semantic class of the word it is
-        applied to" (Beck draft Grammar, p328):
-           - diminished effectiveness
-           - intensitivity
-           - exclusivity
-           - plurality
+<ul>
+  <li> sun [LD 148]
+  <li> variant <b>ɬukʷaɬ</b>
+  <li> <b>sɬukʷalb</b> moon
 
 `,
+
 
 
 "ƛ̓u=ʔas–wač–bi–d":
@@ -5124,7 +5125,7 @@ _remote_
 `
 **gʷəl**
 
-- and, but, or, then, next 
+- and, but, or, then, next [LD 100]
 - as if 
 - because 
 - sentential adverb, conjunction; used especially to introduce sentences in long narratives.

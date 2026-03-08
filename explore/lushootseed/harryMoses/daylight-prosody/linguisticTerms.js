@@ -1,13 +1,57 @@
 linguistics = {
+
 " Verbs":
+    `
+<details><summary>huy(u)</summary>
+
+<ol>
+   <li> do, make, prepare something, get ready, prepare for [LD 112]
+   <li> make like, be like
+   <li> how it happened, the way it was
+   <li> do, act
+   <li> finish, complete, (accomplished?)
+</ol>
+
+<ul>
+   <li><b>tuhuyucutəxʷ</b> [Daylight 5]
+   <ul>
+      <li>tu=huyu–t–sut=əxʷ
+      <li> PAST=made–ICS–REFL=now
+    </ul>
+   <li><b>xʷiʔ uʔxʷ ƛ̓əlayʔ ʔə huyu gʷəsəsaxʷəbabac</b> [Daylight 9]
+   <ul>
+      <li><b>huyu</b> finish, complete, attained, accomplished
+   </ul>
+   <li><b>gʷəƛ̓ashuyuc haʔɬ</b> [Daylight 43] treatment me well
+   <ul>
+      <li><b>gʷə</b> subjunctive
+      <li><b>ƛ̓u-</b> HAB
+      <li><b>ʔas/b> STAT
+      <li><b>huyu</b> do (with transitive suffix <b>-t</b> implies "treat"
+      <li><b>-t</b> ICS (valency increasing internal transitive causative)
+      <li><b>–s</b> 1SG.OBJ
+
+   </ul>
+
+   <li><b></b>
+   <li><b></b>
+</ul>
+</details>
+
+
+`,
+    
+
+" Verbal Derivation":
 `
 
 **Verbs and verbal derivation**
 
-Probably one of the most notable features of Lushootseed (and other Salishan languages) is
-the rich verbal morphology, particularly in the realm of derivation. The majority of Lushootseed
-verb stems is built up out of fairly easily-analyzable elements based on monovalent radicals,
-generally of the phonological shape CVC.
+Probably one of the most notable features of Lushootseed (and other
+Salishan languages) is the rich verbal morphology, particularly in the
+realm of derivation. The majority of Lushootseed verb stems are built
+up out of fairly easily-analyzable elements based on monovalent
+radicals, generally of the phonological shape CVC.
 
 Three groups are described here.
 
@@ -308,8 +352,49 @@ event participants (semantic actants) or syntactic arguments.
 
 **Valency-increasing Affixes**
 
-<ul>
-   <li><b>-t</b> internal causative
+<ul> <li><details><summary><b>-t</b> ICS: internal causative</b>.</summary>
+   [Grammar 2.1.2.1] By far the most prevalent of the
+   valency-increasing verbal affixes is -t ‘internal causative
+   [ICS]’. This suffix is not only the most frequent in terms of the
+   number of stems of which it forms a part, but it is also the most
+   complex in terms of its allomorphy and morphophonemics and the most
+   varied in terms of its syntactic effects on the stem to which it
+   attaches. Its primary and most prevalent use is as a transitive
+   causative suffix which changes a patient-oriented monovalent stem
+   expressing a state into a transitive stem by adding a semantic
+   AGENT, realized as a syntactic subject
+
+<pre>
+
+(39) a. ʔut̓uc̓ čəd ʔu–t̓uc̓ čəd
+        PFV–shot 1SG.SUB
+       ‘I got shot’  (Bates, Hess & Hilbert 1994)
+     b. ʔut̓uc̓ucid ʔu ʔu–t̓uc̓u–t–sid ʔu
+        PFV–shot–ICS–2SG.OBJ INT
+        ‘did s/he shoot (at) you?  (Hess 1995: 43,ex. 11a)
+     c. ʔut̓uc̓utəb čəd
+        ʔu–t̓uc̓u–t–əb čəd
+        PFV–shot–ICS–PASS 1SG.SUB
+        ‘I was shot (at)’ (Bates, Hess & Hilbert 1994)
+
+</pre>
+
+   As shown in these examples, a monovalent patient-oriented radical
+   such as <b>t̓uc̓</b> ‘be shot; be the target of a missile’ takes the
+   internal causative suffix to form a transitive verb, <b>t̓uc̓ud</b> ‘shoot
+   someone; shoot at someone’ (or, more literally, ‘cause to be shot;
+   cause to be the target of a missile’).
+
+   While the vast majority of stems formed with -t have translation
+   equivalents in most languages which are ordinary transitive verbs,
+   the syntactic effects of this suffix are clearly causative, as are
+   its semantic effects — keeping in mind the basically stative nature
+   of Lushootseed radicals: the radical itself expresses a state while
+   the derived transitive stems expresses an action preformed by an
+   AGENT resulting in a PATIENT coming into that state.
+
+   </details>
+
    <li><b>-txʷ</b> external causative
    <li><b>-dxʷ</b> diminished control causative
    <li><b>-b</b> causative middle
@@ -1335,14 +1420,32 @@ avoid confusion, I have not followed this practice in all cases, even when the r
 `
 **PASS.SBRD: passive subordinate**
 
-Refers to a subordinate clause expressed in
-the passive voice. A subordinate clause is a clause that cannot stand
-alone as a sentence and requires a main clause for completion. The
-passive voice indicates that the subject of the clause is not the one
-performing the action, but rather the one being acted upon.
+Refers to a subordinate clause expressed in the passive voice. A
+subordinate clause is a clause that cannot stand alone as a sentence
+and requires a main clause for completion. The passive voice indicates
+that the subject of the clause is not the one performing the action,
+but rather the one being acted upon.
 
 In conservative Lushootseed speech, the passive voice has a special form, -id, used in some subordinate
 clauses.
+
+<details><summary><a href="#51">Line 51</a></summary>
+
+This verb forms the core of the subordinate clause:
+<ul>
+  <li><b>ƛ̓ashuyutid</b>
+  <li><b>ƛ̓u=ʔas–huyu–t–id</b>
+  <li> HAB=STAT–made–ICS–PASS.SBRD
+  <li> was being done (with it)
+</ul>
+
+wherein the main clause is
+
+<ul><li><b>ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid</b> (Hr) was there only watching</ul>
+
+</pre>
+</details>
+
 `,
 
 "-id":
@@ -1689,7 +1792,7 @@ While the vast majority of stems formed with -t have translation equivalents in 
 languages which are ordinary transitive verbs, the syntactic effects of this suffix are clearly
 causative, as are its semantic effects — keeping in mind the basically stative nature of
 Lushootseed radicals: the radical itself expresses a state while the derived transitive stems
-expresses an action preformed by an AGENT resulting in a PATIENT coming into that state.
+expresses an action preformed by an AGENT resulting in a PATIENT coming into that state
 
 The internal causative suffix -t has four allomorphs — [-t], [-d], [-əd], and [-š]. Of these, [-t],
 [-d], [-əd] are phonologically conditioned: [-t] is the elsewhere form, while [-d] is restricted to
@@ -2299,7 +2402,36 @@ the verb, the verb is in the middle voice.
 
 "PASS":
 `
-PASS
+**PASS**
+
+<details><summary><a href="#30">Line 30</a></summary>
+<ul>
+   <li><b>gʷəhaydub</b>
+   <li><b>gʷə=hay(a)–dxʷ–b</b>
+   <li><b>SBJ=know–DC–PASS</b>
+   <li>would be known
+   <li> passive connotation: target
+</details>
+
+<details><summary><a href="#28">Line 28</a></summary>
+<ul>
+   <li><b>ɬuhədʔiw̓b</b>
+   <li><b>ɬu=hədʔiw̓–b</b>
+   <li><b>IRR=be.inside.a.house–PASS</b>
+   <li>will be inside the house
+   <li> passive connotaion: undergoer
+</details>
+
+<details><summary><a href="#40">Line 40</a></summary>
+<ul>
+   <li><b>tušudub</b>
+   <li>tu-šuɬ–dxʷ–b
+   <li>PAST-look;see–DC–PASS
+   <li>saw
+   <li>passive connotation: target
+</ul>
+</details>
+
 
 Passive suffix, indicates passive voice: the subject is the patient,
 target, or undergoer of the action.

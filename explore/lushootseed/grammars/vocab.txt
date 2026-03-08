@@ -1,11 +1,17 @@
+<li><b>-il</b> reach or achieve a state or position; becoming, becoming more so; begin
+   [derivtional suffix, becomes <b>-i-</b> before transitive <b>-s</b>] [LD 116]
+
+<li><b>lə-</b> action is ongoing, non-circumscribed, continuous, developing,
+   acts are performed in a series, performed while moving from one place to another, happening
+   gradually. [verbal inflectional prefix of progressive aspect; becomes <b>-ə-</b>
+   following <b>s-</b> and <b>dəxʷ-</b>] [LD 134]
+
    <li><b>cick̓ʷ</b> very [LD 46]
    <li><b>ʔuq̓aƛ̓əb</b>
    <ul>
       <li><b>ʔu-</b> action is viewed as a whole, in its entirety [LD 19]
       <li><b>q̓aƛ̓əb</b> cloudy [LD 181]
    </ul>
-
-   
    <li><b>ʔal</b> on, along, through, in, at; when.
          Be located at or by some specific point in time or space,
          location with reference to something named.  [LD 4]
@@ -13,7 +19,6 @@
    <li><b>sləx̌il</b> day [LD 137]
 
 
-ʔuq̓aƛ̓əb ʔal tiʔəʔ sləx̌il.":
 
 
 
