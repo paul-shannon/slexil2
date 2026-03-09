@@ -9,7 +9,7 @@ default:
 	@echo wheel
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 requirements:
 	pip install -r requirements.txt
