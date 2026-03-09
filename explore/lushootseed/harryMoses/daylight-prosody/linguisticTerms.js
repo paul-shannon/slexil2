@@ -1307,6 +1307,52 @@ which are always combined with another valency-increaser.
 `
 **-bi-d**
 
+**Email from David Beck (4 Feb 2026)**
+
+Well, I guess there are two ways to answer that question. The short,
+useful way, and the longer more theoretical way.
+
+The short answer is that wač was probably borrowed from English WATCH
+as an intransitive verb meaning “keep look out”. Lushootseed speakers
+made it transitive by adding -bid, which is used with a lot of verbs
+where the object isn’t affected by the action and/or the speaker has a
+special interest in doing whatever they are doing.
+
+The technical reason they might choose -bid instead of just the plain
+-d suffix is that -d is a causative—that is, it expresses that an
+agent X did something to affect or change patient Y. But the object of
+watching isn’t affected and might not even know it is being watched
+(or might be inanimate and not capable of knowing anything). That is a
+type of interaction which is described as having low semantic
+transitivity (whereas -d is high in semantic transitivity).
+
+“Semantic transitivity” is a really unfortunate term which has become very
+popular. An event with low semantic transitivity departs from the
+profile of the most typical syntactically transitive verbs like HIT
+and KILL, where a volitional agent makes a physical change to a
+patient of some kind. Many languages, including Lushootseed, have a
+morpheme called a “middle voice” that can be used for this type of
+event, especially when the subject’s interests are at stake.
+
+The Lushootseed middle marker is -b, which typically forms a bivalent
+intransitive verb—that is, verb with subject and an oblique object
+(page 94 in the draft grammar).
+
+(Bivalent intransitive means it has a subject and an indirect object,
+hence why it's still intransitive - or only *weakly* transitive: the
+indirect object is little affected.)
+
+The secondary suffix -bid combines that middle (which adds an oblique
+object) with -d, which makes the verb transitive (making the oblique
+object a direct object). This is all quite loosey-goosey from the
+perspective of strict grammatical rules, but word-formation is often
+like that. No language ever let “perfect" be the enemy of "good
+enough."
+
+Hope that makes sense. In the end, the short explanation is all you
+need, and all speakers themselves have when they learn the language.
+
+
 - The most consistent pattern found with -bi-d derivations is
   one where a monovalent intransitive base is transitivized by the
   addition of a second semantic actant.

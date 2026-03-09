@@ -10,12 +10,12 @@ kb = {
      acts are performed in a series, performed while moving from one place to another, happening
      gradually. [verbal inflectional prefix of progressive aspect; becomes <b>-ə-</b>
      following <b>s-</b> and <b>dəxʷ-</b>] [LD 134]
-   <li> <b>diʔ</b>  opposite side, other side, on the other side, at the other side,
-          to the other side [LD 81]
+   <li> <b>diʔ</b> opposite side, other side, on the other side, at the other side,
+          to the other side [verb of state] [LD 81]
      <ul>
        <li><b>adiʔ</b> ear, side, sound [lexical suffix] derived from _diʔ_.  [LD26]
        <li><b>dədidiʔ</b> move over!
-       <li></b>diʔucid</b> other side of the path, road, lake, river, body of water
+       <li><b>diʔucid</b> other side of the path, road, lake, river, body of water
        <li><b>diʔyalus</b>: other end, on the end. lexical suffix _yalus_: end, edge [LD 274]
      </ul>
    <li><b>-ʔ</b> a reduplication indicating exclusivity or uniqueness.
@@ -886,8 +886,7 @@ rather than dialect.
 `
 **ƛ̓u=lə=ƛ̓ip̓•us–i–t–b**
 
-- sounds like _plus.taid.plus deesh uh_
-- or maybe  _plus(lə)tlaid.pus.ee.tub_
+- luh.tlay.pus.ee.tub
 - HAB=PROG=squeeze•face–SS–ICS–PASS
 - ƛ̓ip̓: grip tightly, squeeze, compress. LD 154
 - us: lexical suffix, face
@@ -902,7 +901,7 @@ rather than dialect.
   <li> sun [LD 148]
   <li> variant <b>ɬukʷaɬ</b>
   <li> <b>sɬukʷalb</b> moon
-
+</ul>
 `,
 
 
@@ -911,73 +910,26 @@ rather than dialect.
 `
 **ƛ̓u=ʔas–wač–bi–d**
 
-- _ƛ̓u_: HAB, repetition, continuous, ongoing
-- _ʔas_: STAT
-- _wač_: watch
-- _bi_: MAP, middle applicative, modifies the verb to include
-an additional participant, here a recipient.  As with 'him' in "She gave him the book.",
-    - (Mink) watched daylight is the basic message
-    - the additional participant may be "what was done" _ƛ̓ashuyutid_
-- _–d_: ICS: internal transitive causative suffix (though here, daylight is not
-transformed, as you might expect in a causal relationship).  In the
-Beck Grammar: the radical itself (_wač_) expresses a state while the derived
-transitive stems expresses an action preformed by an AGENT resulting
-in a PATIENT coming into that state.
-- -[dt] is by far the most prevalent of the valency-increasing verbal
-affixes is t ‘internal causative [ICS]’. This suffix is not only the
-most frequent in terms of the number of stems of which it forms a
-part, but it is also the most complex in terms of its allomorphy and
-morphophonemics and the most varied in terms of its syntactic effects
-on the stem to which it attaches.
-- Its primary and most prevalent use is as a transitive causative suffix
-which changes a patient-oriented monovalent stem expressing a state
-into a transitive stem by adding a semantic AGENT, realized as a
-syntactic subject.
+<ul>
+  <li> <i>ƛ̓u</i>: HAB, repetition, continuous, ongoing
+  <li> <i>ʔas</i>: STAT
+  <li> <i>wač</i>: watch 
+  <li> <i>-bi-d</i> transitive suffix [explanations from David Beck, email]
+     <ul>
+       <li> informally: indicating the object isn’t
+            affected by the action and/or the speaker has a special interest in
+            doing whatever they are doing.
+       <li> formally: The technical reason they might choose -bid
+       instead of just the plain -d suffix is that -d is a
+       causative — that is, it expresses that an agent X did something
+       to affect or change patient Y. But the object of watching isn’t
+       affected and might not even know it is being watched (or might
+       be inanimate and not capable of knowing anything). That is a
+       type of interaction which is described as having low semantic
+       transitivity (whereas -d is high in semantic transitivity).
+    </ul>
+</ul>    
 
-**Email from David Beck (4 Feb 2026)**
-
-Well, I guess there are two ways to answer that question. The short,
-useful way, and the longer more theoretical way.
-
-The short answer is that wač was probably borrowed from English WATCH
-as an intransitive verb meaning “keep look out”. Lushootseed speakers
-made it transitive by adding -bid, which is used with a lot of verbs
-where the object isn’t affected by the action and/or the speaker has a
-special interest in doing whatever they are doing.
-
-The technical reason they might choose -bid instead of just the plain
--d suffix is that -d is a causative—that is, it expresses that an
-agent X did something to affect or change patient Y. But the object of
-watching isn’t affected and might not even know it is being watched
-(or might be inanimate and not capable of knowing anything). That is a
-type of interaction which is described as having low semantic
-transitivity (whereas -d is high in semantic transitivity).
-
-“Semantic transitivity” is a really unfortunate term which has become very
-popular. An event with low semantic transitivity departs from the
-profile of the most typical syntactically transitive verbs like HIT
-and KILL, where a volitional agent makes a physical change to a
-patient of some kind. Many languages, including Lushootseed, have a
-morpheme called a “middle voice” that can be used for this type of
-event, especially when the subject’s interests are at stake.
-
-The Lushootseed middle marker is -b, which typically forms a bivalent
-intransitive verb—that is, verb with subject and an oblique object
-(page 94 in the draft grammar).
-
-(Bivalent intransitive means it has a subject and an indirect object,
-hence why it's still intransitive - or only *weakly* transitive: the
-indirect object is little affected.)
-
-The secondary suffix -bid combines that middle (which adds an oblique
-object) with -d, which makes the verb transitive (making the oblique
-object a direct object). This is all quite loosey-goosey from the
-perspective of strict grammatical rules, but word-formation is often
-like that. No language ever let “perfect" be the enemy of "good
-enough."
-
-Hope that makes sense. In the end, the short explanation is all you
-need, and all speakers themselves have when they learn the language.
 
 
 
@@ -2521,7 +2473,7 @@ child, young, youngster (up to 10 or 12 years old).  LD 68
 `,
 
 "ʔu–ʔəƛ̌’–tx̌ʷ":
-`_brought_: <button id="refButton" onclick="ref('PERF');">perfective</button> come <button id="refButton" onclick="ref('ECS');">ECS</button>.
+`_brought_: 
 - _əƛ̌’_: come.  LD 12
 - _əƛ̌-’tx̌ʷ_: cause to come, bring someone or something.
 - _əƛ̌-’tx̌ʷ tə x̌payʔ_ Bring that cedar!
@@ -2534,11 +2486,11 @@ child, young, youngster (up to 10 or 12 years old).  LD 68
    `,
 
 "ʔu–ʔux̌ʷ–tx̌ʷ": 
-`_took_: <button id="refButton" onclick="ref('PERF');">perfective</button> go <button id="refButton" onclick="ref('ECS');">ECS</button>.
+`_took_: perfective
 `,
 
 "ʔu–ʔux̌ʷ": 
-`_went, going, will go_: <button id="refButton" onclick="ref('PERF');">perfective</button> go.
+`_went, going, will go_
 `,
 
 
@@ -2550,7 +2502,7 @@ child, young, youngster (up to 10 or 12 years old).  LD 68
 "ʔuʔux̌ʷ ti č’ač’as": `_going this youngster_
 [<sub>PRED</sub>ʔuʔux̌ʷ][<sub>DCOMP</sub>[<sub>DEM</sub>ti <sub>AGENT</sub>č’ač’as]]
 
-Marked for perfective aspect, unmarked for <button id="refButton" onclick="ref('TENSE');">tense</button> _ʔuʔux̌ʷ_ could mean _went_, _going_, even _will go_. (LR1.51)
+Marked for perfective aspect, unmarked for tense. _ʔuʔux̌ʷ_ could mean _went_, _going_, even _will go_. (LR1.51)
 Hess translates _č’ač’as_ as boy in lesson 1 (LR1.3).  Thus unmarked tense and unmarked gender appear to default
 to past and male.
 `,
@@ -3170,7 +3122,6 @@ walked went this here, water.travelled this here mink, and this here, and this r
     - tr: _ʔuluɬ-aac_:  _tuʔuluɬ-aacəb čəd ʔə tə dšəbad_ My enemy pursued me by canoe.
     - tr: _ʔuluɬ-tu-b_: taken (somewhere) by canoe
     - red1: _ʔu+√(ʔ)uluɬ_: move residence
-- <audio id="tu-ulul-ex"><source src="audio/tu-ulul-ex.wav"/></audio><button onclick="playSample('tu-ulul-ex')">play</button>
 - _əxʷ_, _axʷ_ : now, at the particular time. LD 30
 `,
     
