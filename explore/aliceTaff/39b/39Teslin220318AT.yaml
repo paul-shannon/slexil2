@@ -152,7 +152,7 @@ lines:
     startTime: 86880
     endTime: 92255
     utterance: "union" áwé yéi yatee.
-    translation: that's t he way the union is.
+    translation: that's the way the union is.
 #    Speaker Initials: KBC
 
   - lineNumber: 22
@@ -594,7 +594,7 @@ lines:
   - lineNumber: 90
     startTime: 535567
     endTime: 540327
-    utterance: Am, a x̱oo.aa ch’u shóogu yá̱x gug̱watee.
+    utterance: Am, a x̱oo.aa ch’u shóogu yáx̱ gug̱watee.
     translation: Um, some of it will be like the same.
 
   - lineNumber: 91
@@ -1550,14 +1550,14 @@ lines:
     startTime: 1015834
     endTime: 1018566
     utterance: Ḵaa káak has yinaanáx̱ ḵach'u Paul
-    translation: Pauls maternal uncle’s side or 
+    translation: Paul's maternal uncle’s side or 
 #    Speaker Initials: ḴNMD
 
   - lineNumber: 232
     startTime: 1018766
     endTime: 1021414
     utterance: Paul húnx̱u yinaanáx̱,
-    translation: Pauls older brother,
+    translation: Paul's older brother,
 #    Speaker Initials: ḴNMD
 
   - lineNumber: 233
@@ -1631,7 +1631,7 @@ lines:
   - lineNumber: 243
     startTime: 1075000
     endTime: 1075880
-    utterance: Aa sá "cookiess"?
+    utterance: Aa sá "cookies"?
     translation: Whose cookies?
 #    Speaker Initials: KSE
 

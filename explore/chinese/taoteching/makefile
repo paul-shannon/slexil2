@@ -15,6 +15,7 @@ s2h:
         --sfmt taoteching.yaml \
         --htmlFile $(HTML.FILE) \
         --kbFilename kb.js \
+        --grammaticalTerms none \
         --pageTitle "Dao De Jing" 
 #         --verbose \
 

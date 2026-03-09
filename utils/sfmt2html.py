@@ -25,6 +25,7 @@ parser.add_argument('--end', type=int, required=False, default=None)
 parser.add_argument('--webpackLinksOnly',  action="store_true")
 parser.add_argument('--fontSizeControls',  action="store_true")
 parser.add_argument('--kbFilename', required=False, default=None)
+parser.add_argument('--grammaticalTerms', required=False, default="default")
 parser.add_argument('--linguisticsFilename', required=False, default=None)
 parser.add_argument('--fixOverlappingTimeSegments', action="store_true")
 parser.add_argument('--toolTips', action="store_true")
@@ -36,7 +37,7 @@ print(args)
 sfmt = args.sfmt
 htmlFile = args.htmlFile
 #tierGuide = args.tierGuide
-#grammaticalTerms = args.terms
+grammaticalTerms = args.grammaticalTerms
 helpFile = args.helpFile
 helpButtonLabel = args.helpButtonLabel
 verbose = args.verbose
@@ -71,8 +72,13 @@ print("verbose? %s" % verbose)
 # pdb.set_trace()
 projectDirectory = "./"
 mga = MorphemeGlossAbbreviations()
+if grammaticalTerms == "default":
+   grammaticalTerms = mga.getAll()
+elif grammaticalTerms == "none":
+   grammaticalTerms = None
 
-page = sfmtToWebPage(sfmt, grammaticalTerms = mga.getAll(),
+page = sfmtToWebPage(sfmt,
+                     grammaticalTerms = grammaticalTerms,
                      projectDirectory="inferno",
                      verbose = verbose,
                      fontSizeControls = True,

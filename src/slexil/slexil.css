@@ -357,7 +357,6 @@ td, th {
 .speech-tier{
   background-color: transparent;
   //grid-template-columns: none;
-  white-space: nowrap;
   //border: 1px solid red;
   padding: 0px;
   font-weight: bold;
@@ -366,8 +365,9 @@ td, th {
   vertical-align: bottom;
   margin-left: 5px;
   word-spacing: 20px;
-  overflow-x: auto;
-  scrollbar-gutter: stable;
+  //overflow-x: auto;
+  //scrollbar-gutter: stable;
+  white-space: nowrap;
   //background-color: #DCB;
   }
 
@@ -393,10 +393,9 @@ td, th {
   text-align: left;
   margin-left: 5px;
   margin-bottom: 5px;
-  overflow-x: visible;
-  scrollbar-gutter: stable;
+  //overflow-x: auto;
+  //scrollbar-gutter: stable;
   white-space: nowrap;
-
   //word-spacing: 20px;
   // background-color: magenta;
   }
@@ -410,9 +409,8 @@ td, th {
   // background-color: lightgreen;
   margin-bottom: 5px;
   //overflow-x: auto;
-  overflow-x: visible;
-  scrollbar-gutter: stable;
-
+  //overflow-x: auto;
+  //scrollbar-gutter: stable;
   white-space: nowrap;
   }
 
@@ -447,9 +445,10 @@ td, th {
   //border: 0px solid rgba(0, 0, 0, 0.8);
   margin: 5px;
   justify-content: flex-start;
-  overflow-wrap: word-wrap;
+  white-space: nowrap;
+  //overflow-wrap: word-wrap;
   // background-color: lightblue;
-  overflow-x: hidden;
+  //overflow-x: hidden;
   }
 
 .morpheme-cell {

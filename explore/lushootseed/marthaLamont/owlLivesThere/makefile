@@ -3,7 +3,7 @@ NAME = owlLivesThere
 default:
 	@echo targets:
 	@echo  venv 
-	@evho  y2h
+	@echo  y2h
 	@echo  eaf
 	@echo  html
 	@echo  view

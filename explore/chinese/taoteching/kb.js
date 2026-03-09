@@ -63,7 +63,7 @@ Depicts two hands grabbing the same plow:
 <a href="https://www.dong-chinese.com/dictionary/search/%E4%BA%89"
    target="_blank"> dictionary</a>
 
-<h4> Most common workds with 爭</h4>
+<h4> Most common words with 爭</h4>
 
 <h5>战争 war</h5>
 <h5>竞争 to compete<h5>
@@ -140,8 +140,13 @@ Originally a pictograph of a scorpion. The current meaning is a phonetic loan.
 `
 <h2>水 shuǐ</h2>
 
+Depicts the flow of water in a river.
+
 - water
 - river
+- liquid
+- lotion
+- juice
 - liquid
 - beverage
 - additional charges or income
@@ -164,8 +169,12 @@ Originally a pictograph of a scorpion. The current meaning is a phonetic loan.
 
 Originally a small line or dot above a longer line, indicating
 "up". The vertical line was added to distinguish the character from 二
-(two). Opposite of 下.
+(two).
 
+Opposite of <span style="font-size: 48px">下</span> (under).
+
+- top, superior, highest
+- go up, send up
 - on top
 - upon
 - above
@@ -184,22 +193,20 @@ Originally a small line or dot above a longer line, indicating
 `
 <h2>善 shàn</h2>
 
-Composed of two 言 (speech) components and 羊 (sheep). In ancient
-China sheep (羊) were associated with goodness and beauty, which is
+Composed of two components:  <br>
+<span style="font-size: 48px">言</span> speech <br>
+<span style="font-size: 48px">羊 </span> sheep.
+
+A sheep, viewed from abovle, can be seen in the latter.
+
+In ancient China sheep (羊) were associated with goodness and beauty, which is
 why 羊 is a component in characters like 美 (beautiful), 善
 (benevolent), and 義 (justice).
 
-- the traditional sense of moral virtue and  goodness
-- take to be good, like.
-- good person
-- strong point, merit.
-- perfect
-- gentle, kind
-- friendly
-- good at doing
-- improve, make good
-- control, regulate.
-- food
+- good, virtuous, charitable, kind
+- benevolent
+- well-disposed;
+- to improve or perfect
 `
 
 }

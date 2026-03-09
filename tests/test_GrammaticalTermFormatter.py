@@ -21,11 +21,22 @@ def test_DEF():
 
    mg = GrammaticalTermFormatter("in=DEF", terms)
    mg.parse()
-   s = mg.parse()
+   s = mg.format()
 
-   expected = "in=<span klass='glossTerm'>DEF</span>"
+   expected = "in=<span class='grammatical-term'>def</span>"
    assert(s == expected)
 
+#--------------------------------------------------------------------------------
+def test_noFormatting():
+
+   print("--- test_noFormatting")
+   mg = GrammaticalTermFormatter("in=DEF:MASC", grammaticalTerms=None)
+   mg.parse()
+   s = mg.format()
+   expected = "in=DEF:MASC"
+   assert(s == expected)
+
+   
 #--------------------------------------------------------------------------------
 def test_DEF_MASC():
 
@@ -35,7 +46,14 @@ def test_DEF_MASC():
    mg.parse()
    s = mg.format()
 
-   expected = "in=<span klass='glossTerm'>DEF</span>:<span klass='glossTerm'>MASC</span>"
+   expected = "in=<span class='grammatical-term'>def</span>:<span class='grammatical-term'>masc</span>"
+
+    # proper rendering (in blue, using small caps) is accomplished with this css
+    # .grammatical-term {
+    #    font-variant: small-caps;
+    #    color: blue;
+    #}
+
    assert(s == expected)
 
 #--------------------------------------------------------------------------------
@@ -64,7 +82,8 @@ def runTests():
 
    test_DEF()
    test_DEF_MASC()
-   test_fromNatalia()
+   test_noFormatting()
+   #test_fromNatalia()
    
 #--------------------------------------------------------------------------------
 if __name__ == '__main__':
