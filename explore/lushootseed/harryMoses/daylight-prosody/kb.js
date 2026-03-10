@@ -886,10 +886,80 @@ rather than dialect.
 `
 **ƛ̓u=lə=ƛ̓ip̓•us–i–t–b**
 
-- luh.tlay.pus.ee.tub
-- HAB=PROG=squeeze•face–SS–ICS–PASS
-- ƛ̓ip̓: grip tightly, squeeze, compress. LD 154
-- us: lexical suffix, face
+<ul>
+  <li> tloo.luh.TLAY.pus.eet.ub
+  <li> HAB=PROG=squeeze•face–SS–ICS–PASS
+  <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
+  <li><b>lə-</b> action is ongoing, non-circumscribed, continuous, developing,
+   acts are performed in a series, performed while moving from one place to another, happening
+   gradually. [verbal inflectional prefix of progressive aspect; becomes <b>-ə-</b>
+   following <b>s-</b> and <b>dəxʷ-</b>] [LD 134]
+  <li> <b>ƛ̓ip̓</b> grip tightly, squeeze, compress. [LD 154]
+  <li> <b>•us</b> face, head, upper part [lexical suffix] [LD 244]
+  <li><b>-d,-əd, -t</b> action performed on someone or something else
+   [transitive suffix, allows for a direct complement patient,
+    creating a patient-oriented verb][LD 76].   <details><summary>Details</summary>
+
+By far the most prevalent of the valency-increasing verbal affixes is -t ‘internal causative
+[ICS]’. This suffix is not only the most frequent in terms of the number of stems of which it forms
+a part, but it is also the most complex in terms of its allomorphy and morphophonemics and the
+most varied in terms of its syntactic effects on the stem to which it attaches. Its primary and most
+prevalent use is as a transitive causative suffix which changes a patient-oriented monovalent
+stem expressing a state into a transitive stem by adding a semantic AGENT, realized as a syntactic
+subject:
+
+<pre>
+   (39) a. ʔut̓uc̓ čəd
+           ʔu–t̓uc̓ čəd
+           PFV–shot 1SG.SUB
+           ‘I got shot’                (Bates, Hess & Hilbert 1994)
+
+        b. ʔut̓uc̓ucid ʔu
+           ʔu–t̓uc̓u–t–sid ʔu
+           PFV–shot–ICS–2SG.OBJ INT
+           ‘did s/he shoot (at) you?’  (Hess 1995: 43, ex. 11a)
+
+        c. ʔut̓uc̓utəb čəd
+           ʔu–t̓uc̓u–t–əb čəd
+           PFV–shot–ICS–PASS 1SG.SUB
+          ‘I was shot (at)’            (Bates, Hess & Hilbert 1994)
+</pre>
+
+As shown in these examples, a monovalent patient-oriented radical such as t̓uc̓ ‘be shot; be the
+target of a missile’ takes the internal causative suffix to form a transitive verb, t’uc’ud ‘shoot
+someone; shoot at someone’ (or, more literally, ‘cause to be shot; cause to be the target of a
+missile’). While the vast majority of stems formed with -t have translation equivalents in most
+languages which are ordinary transitive verbs, the syntactic effects of this suffix are clearly
+causative, as are its semantic effects — keeping in mind the basically stative nature of
+Lushootseed radicals: the radical itself expresses a state while the derived transitive stems
+expresses an action preformed by an AGENT resulting in a PATIENT coming into that state.25 This
+added AGENT, like the CAUSER in typologically more ordinary causatives, is realized as the
+syntactic subject while the subject of the radical becomes the direct object of the transitive stem,
+marked by the s-series of object markers (Section 8.1.2), as in (39b). As shown by (39c), the
+object of an internal causative stem is an ordinary direct object and is amenable to syntactic
+operations such as passivization. When the derived stem takes an overt NP argument, this
+argument is obligatorily interpreted as direct object:
+
+<pre>
+         (40) ʔuk̓ʷəɬəd ti qʷuʔ
+              ʔu–k̓ʷəɬ–d ti qʷuʔ
+              PFV–poured–ICS SPEC water
+              ‘s/he poured the water’     (Hess 1995: 18, ex. 1a)
+
+</pre>
+
+This is an interpretative property of all transitive verbs and will be
+discussed in more detail in Section 8.2.2 below.  The internal
+causative suffix -t has four allomorphs — [-t], [-d], [-əd], and
+[-š]. Of these, [-t], [-d], [-əd] are phonologically conditioned: [-t]
+is the elsewhere form, while [-d] is restricted to word-final position
+(that is, last position suffix-string not including bound enclitics)
+following vowels and approximants.
+
+</details>
+
+</ul>
+
 `,
 
 
@@ -2305,16 +2375,16 @@ IRR=STAT–grey.hair•head
      - _xʷəbəbúsəd_ turn head (face away and deliberately not listen)
      - _sx̌əy(ʔ)ús_ head    
      - _qələbús_ gray hair  
-     - _dxʷqʷqʼʷús_ white face  
-     - _xʷqʷqʼʷús_ bluff of clay or sand (not rock)  
+     - _dxʷqʷq̓ʷús_ white face  
+     - _xʷqʷq̓ʷús_ bluff of clay or sand (not rock)  
      - _dxʷsáx̌us_ shave    
-     - _ʔəxʷpáqʼʷus_ face blackened by smoke  
-     - _dxʷlíqʼʷusəb_ paint one's own face red  
-     - _ɬíč'us_ cut hair    
-     - _pt'úsəb_ brush hair out of face    
-     - _qʼígʷusəb_ stick head out of door or window to see what i...  
+     - _ʔəxʷpáq̓ʷus_ face blackened by smoke  
+     - _dxʷlíq̓ʷusəb_ paint one's own face red  
+     - _ɬíč̓us_ cut hair    
+     - _pt̓úsəb_ brush hair out of face    
+     - _q̓ígʷusəb_ stick head out of door or window to see what i...  
      - _tágʷusəb_ put one's face in water to drink  
-     - _t'álus_ cooked fish heads, dried king salmon  
+     - _t̓álus_ cooked fish heads, dried king salmon  
      - _xʷəlkʼʷusəb_ has face covered  
      - _x̌áʔx̌alus_ raccoon      
      - _ʔəxʷx̌ɬús_ sore face, infected face    

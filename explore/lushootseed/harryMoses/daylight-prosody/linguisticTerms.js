@@ -1,5 +1,13 @@
 linguistics = {
 
+" Beck Grammar":
+`
+**David Beck's Draft Lushootseed Grammar**
+
+<a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">pdf </a>
+
+`,
+
 " Verbs":
     `
 <details><summary>huy(u)</summary>
@@ -242,14 +250,6 @@ microblogging. This is a sure sign it has entered the core lexicon.
 shorten further, solidifying its status as a single word.
 
 (source: deepseek)
-
-`,
-
-" Beck's Grammar":
-`
-**David Beck's Draft Grammar**
-
-<a href="https://pshannon.net/grammar-DavidBeck-Jan10.pdf", target="_blank"> pdf</a>
 
 `,
 
