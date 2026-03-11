@@ -403,20 +403,27 @@ class sfmtToWebPage:
                         htmlDoc.text(" %s" % tierName)
 
    #-------------------------------------------------------------------------------
-   def tieredLineHtmlLeadin(self, htmlDoc, tierNumber, startTime, endTime):
+   def tieredLineHtmlLeadin(self, htmlDoc, tierNumber, startTime, endTime,
+                            numberedLineNumber, numberedLine=True):
 
-        buttonLabelNumber = tierNumber
-        clickActionString = "playSample(%d, %d, %d)" % \
+        buttonLabel = numberedLineNumber
+        if(not numberedLine):
+             # create an empty button label, with normal width
+           buttonLabel = "&nbsp;&nbsp;";  
+        clickActionString = "playSample(%s, %d, %d)" % \
                             (tierNumber, startTime, endTime)
         buttonTag = htmlDoc.tag("button", onclick=clickActionString,
                                 klass="standardSlexilButton slexilTooltip")
+        print("--- sfmtToWebPage, line 416")
+        print("tierNumber %d, numberedLine: %s" % (tierNumber, numberedLine))
+        print("actionString: %s" % clickActionString)
         if(self.useTooltips):
             buttonTag.attrs["class"] = "standardSlexilButton slexilTooltip"
         with buttonTag:
-           htmlDoc.text(buttonLabelNumber)
+           htmlDoc.asis(str(buttonLabel))
            if(self.useTooltips):
               with htmlDoc.tag("span", klass="slexilTooltipText"):
-                  htmlDoc.text("Play Line %d" % buttonLabelNumber)
+                  htmlDoc.text("Play Line %d" % buttonLabel)
 
    #-------------------------------------------------------------------------------
    def createTextDiv(self, htmlDoc):
@@ -425,6 +432,7 @@ class sfmtToWebPage:
          print("--- entering createTextDiv")
       with htmlDoc.tag("div", id="textDiv"):
          tierNumber = 0
+         numberedLineNumber = 0  # so we can exclude un-numbered tiers
          htmlLineNumber = 0
          tbl = self.sfmt.getOrderedLineObjectsTieredAndHTML()
          htmlLines = self.sfmt.getAllHtml()
@@ -453,7 +461,6 @@ class sfmtToWebPage:
                   traceFileName = "sfmtToWebPage.py"
                   traceLineNumber = 413
                   print("--- trace: %s at %d" % (traceFileName, traceLineNumber))
-                  pdb.set_trace()
                tier = tiers[0]  # should be only one line matching signature
                tieredLine = TieredLine(self.sfmt,
                                        tiers,  # an array of tier lines expected
@@ -462,6 +469,12 @@ class sfmtToWebPage:
                                        tierGuide=tierGuide,
                                        grammaticalTerms=self.grammaticalTerms,
                                        useTooltips=False, verbose=self.verbose)
+               spokenText = tieredLine.getSpokenText()
+               numberedLine = True
+               if(re.search("^\s*@", spokenText)):
+                  numberedLine = False
+               if(numberedLine):
+                  numberedLineNumber += 1
                start = tier['startTime']
                end = tier['endTime']
                timeCodesForLine = [start,end]
@@ -469,96 +482,99 @@ class sfmtToWebPage:
                id = tierNumber
                with htmlDoc.tag("div",  klass="line-wrapper", id=tierNumber):
                   with htmlDoc.tag("div", klass="line-sidebar"):
-                     self.tieredLineHtmlLeadin(htmlDoc, tierNumber, start, end)
+                     #print("sfmtToWebPage, line 477, tierNumber: %d" % tierNumber);
+                     #pdb.set_trace()
+                     self.tieredLineHtmlLeadin(htmlDoc, tierNumber, start, end,
+                                               numberedLineNumber, numberedLine)
                      s = f"\n<!-- sidebarHookLine_{i+1} -->\n"
                      htmlDoc.asis(s)
                   tieredLine.toHTML(htmlDoc)
 
-   #-------------------------------------------------------------------------------
-   def recovered_createTextDiv(self, htmlDoc):
-
-      if(self.verbose) :
-         print("--- entering createTextDiv")
-      with htmlDoc.tag("div", id="textDiv"):
-         tierNumber = 0
-         tbl = self.sfmt.getOrderedLineObjectsTieredAndHTML()
-         htmlLines = self.sfmt.getAllHtml()
-         tieredLines = self.sfmt.getTieredLines()
-         rows = tbl.shape[0]
-         for i in range(rows):
-            lineType = tbl.loc[i]['type']
-            signature = tbl.loc[i]['signature']
-            if lineType == "html":
-               htmlLine = [html for html in htmlLines if html.find(signature) >= 0][0]
-               if self.verbose:
-                  print(htmlLine)
-               with htmlDoc.tag("div", klass="tier tier-html", name="html"):
-                   htmlDoc.asis(htmlLine)
-            elif lineType == "tier":
-               tierNumber += 1
-               signature = int(signature)   # startTime in msecs is the signature
-               pdb.set_trace()
-               if self.verbose:
-                   print("---- tierNumber is now: %d" % tierNumber)
-               tier = [tier for tier in tieredLines if tier['startTime'] == signature]
-               tieredLine = TieredLine(tier, 0, tierNumber,
-                                       self.tierGuide,
-                                       grammaticalTerms=self.grammaticalTerms,
-                                       useTooltips=False, verbose=self.verbose)
-               analysisTierNames = tieredLine.getAnalysisTierNames()
-               start = tieredLine.getStartTime()
-               end = tieredLine.getEndTime()
-               timeCodesForLine = [start,end]
-               self.timeCodesForText.append(timeCodesForLine)
-               id = tieredLine.getAnnotationID()
-               with htmlDoc.tag("div",  klass="line-wrapper", id=tierNumber):
-                  # tbl = tieredLine.getTable()
-                  with htmlDoc.tag("div", klass="line-sidebar"):
-                     tieredLine.htmlLeadIn(htmlDoc)
-                     s = f"<!-- sidebarHookLine_{i+1} -->"
-                     htmlDoc.asis(s)
-                  tieredLine.toHTML(htmlDoc)
-
-
-       
-   def old_createTextDiv(self, htmlDoc):
-
-      if(self.verbose) :
-         print("--- entering createTextDiv")
-      with htmlDoc.tag("div", id="textDiv"):
-         tierNumber = 0
-         for i in self.lineNumbers:
-            line = self.lines[i]
-            if self.verbose:
-                print(line)
-            keys = list(line.keys())
-            if keys == ["html"]:
-                if self.verbose:
-                   print("---- found html")
-                   print(line["html"])
-                with htmlDoc.tag("div", klass="tier tier-html", name="html"):
-                   htmlDoc.asis(line["html"])
-            else: # (isinstance(line, dict)):
-               tierNumber += 1
-               if self.verbose:
-                   print("---- tierNumber is now: %d" % tierNumber)
-               #tieredLine = TieredLine(self.lines, i, tierNumber,
-               #                        self.tierGuide,
-               #                        grammaticalTerms=self.grammaticalTerms,
-               #                        useTooltips=False, verbose=self.verbose)
-               analysisTierNames = tieredLine.getAnalysisTierNames()
-               start = tieredLine.getStartTime()
-               end = tieredLine.getEndTime()
-               timeCodesForLine = [start,end]
-               self.timeCodesForText.append(timeCodesForLine)
-               id = tieredLine.getAnnotationID()
-               with htmlDoc.tag("div",  klass="line-wrapper", id=tierNumber):
-                  # tbl = tieredLine.getTable()
-                  with htmlDoc.tag("div", klass="line-sidebar"):
-                     tieredLine.htmlLeadIn(htmlDoc)
-                     s = f"<!-- sidebarHookLine_{i+1} -->"
-                     htmlDoc.asis(s)
-                  tieredLine.toHTML(htmlDoc)
+#   #-------------------------------------------------------------------------------
+#   def recovered_createTextDiv(self, htmlDoc):
+#
+#      if(self.verbose) :
+#         print("--- entering createTextDiv")
+#      with htmlDoc.tag("div", id="textDiv"):
+#         tierNumber = 0
+#         tbl = self.sfmt.getOrderedLineObjectsTieredAndHTML()
+#         htmlLines = self.sfmt.getAllHtml()
+#         tieredLines = self.sfmt.getTieredLines()
+#         rows = tbl.shape[0]
+#         for i in range(rows):
+#            lineType = tbl.loc[i]['type']
+#            signature = tbl.loc[i]['signature']
+#            if lineType == "html":
+#               htmlLine = [html for html in htmlLines if html.find(signature) >= 0][0]
+#               if self.verbose:
+#                  print(htmlLine)
+#               with htmlDoc.tag("div", klass="tier tier-html", name="html"):
+#                   htmlDoc.asis(htmlLine)
+#            elif lineType == "tier":
+#               tierNumber += 1
+#               signature = int(signature)   # startTime in msecs is the signature
+#               #pdb.set_trace()
+#               if self.verbose:
+#                   print("---- tierNumber is now: %d" % tierNumber)
+#               tier = [tier for tier in tieredLines if tier['startTime'] == signature]
+#               tieredLine = TieredLine(tier, 0, tierNumber,
+#                                       self.tierGuide,
+#                                       grammaticalTerms=self.grammaticalTerms,
+#                                       useTooltips=False, verbose=self.verbose)
+#               analysisTierNames = tieredLine.getAnalysisTierNames()
+#               start = tieredLine.getStartTime()
+#               end = tieredLine.getEndTime()
+#               timeCodesForLine = [start,end]
+#               self.timeCodesForText.append(timeCodesForLine)
+#               id = tieredLine.getAnnotationID()
+#               with htmlDoc.tag("div",  klass="line-wrapper", id=tierNumber):
+#                  # tbl = tieredLine.getTable()
+#                  with htmlDoc.tag("div", klass="line-sidebar"):
+#                     tieredLine.htmlLeadIn(htmlDoc)
+#                     s = f"<!-- sidebarHookLine_{i+1} -->"
+#                     htmlDoc.asis(s)
+#                  tieredLine.toHTML(htmlDoc)
+#
+#
+#       
+#   def old_createTextDiv(self, htmlDoc):
+#
+#      if(self.verbose) :
+#         print("--- entering createTextDiv")
+#      with htmlDoc.tag("div", id="textDiv"):
+#         tierNumber = 0
+#         for i in self.lineNumbers:
+#            line = self.lines[i]
+#            if self.verbose:
+#                print(line)
+#            keys = list(line.keys())
+#            if keys == ["html"]:
+#                if self.verbose:
+#                   print("---- found html")
+#                   print(line["html"])
+#                with htmlDoc.tag("div", klass="tier tier-html", name="html"):
+#                   htmlDoc.asis(line["html"])
+#            else: # (isinstance(line, dict)):
+#               tierNumber += 1
+#               if self.verbose:
+#                   print("---- tierNumber is now: %d" % tierNumber)
+#               #tieredLine = TieredLine(self.lines, i, tierNumber,
+#               #                        self.tierGuide,
+#               #                        grammaticalTerms=self.grammaticalTerms,
+#               #                        useTooltips=False, verbose=self.verbose)
+#               analysisTierNames = tieredLine.getAnalysisTierNames()
+#               start = tieredLine.getStartTime()
+#               end = tieredLine.getEndTime()
+#               timeCodesForLine = [start,end]
+#               self.timeCodesForText.append(timeCodesForLine)
+#               id = tieredLine.getAnnotationID()
+#               with htmlDoc.tag("div",  klass="line-wrapper", id=tierNumber):
+#                  # tbl = tieredLine.getTable()
+#                  with htmlDoc.tag("div", klass="line-sidebar"):
+#                     tieredLine.htmlLeadIn(htmlDoc)
+#                     s = f"<!-- sidebarHookLine_{i+1} -->"
+#                     htmlDoc.asis(s)
+#                  tieredLine.toHTML(htmlDoc)
 
 #-------------------------------------------------------------------------------
 def getLinguisticsTopics(filename, verbose):

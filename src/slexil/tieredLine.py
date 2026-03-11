@@ -21,6 +21,7 @@ david.beck at ualberta.ca.
 ******************************************************************
 '''
 
+import re
 import pandas as pd
 pd.set_option('display.max_columns', None)
 from xml.etree import ElementTree as etree
@@ -64,6 +65,7 @@ class TieredLine:
    
         self.lineNumber = lineNumber
         self.tierNumber = tierNumber
+        self.numberedLine = True;
         self.line = lineList[lineNumber]
         self.id = tierNumber
         self.tierGuide = tierGuide
@@ -72,6 +74,9 @@ class TieredLine:
         self.useTooltips = useTooltips
         self.verbose = verbose
 
+    def setNumberedLine(self, newValue):
+       self.numberedLine = newValue
+        
     def getTierGuide(self):
        return(self.tierGuide)
 
@@ -208,22 +213,25 @@ class TieredLine:
         return (self.morphemeSpacing)
 
     # ----------------------------------------------------------------------------------------------------
-    def htmlLeadIn(self, htmlDoc): # , audioDirectory, audioFileType):
-
-        if self.verbose:
-            print(" --- tieredLine.htmlLeadin, tierNumber is %d" % self.tierNumber)
-        buttonLabelNumber = self.tierNumber
-        clickActionString = "playSample(%d, %d, %d)" % \
-                            (self.tierNumber, self.getStartTime(), self.getEndTime())
-        buttonTag = htmlDoc.tag("button", onclick=clickActionString,
-                                klass="standardSlexilButton slexilTooltip")
-        if(self.useTooltips):
-            buttonTag.attrs["class"] = "standardSlexilButton slexilTooltip"
-        with buttonTag:
-           htmlDoc.text(buttonLabelNumber)
-           if(self.useTooltips):
-              with htmlDoc.tag("span", klass="slexilTooltipText"):
-                  htmlDoc.text("Play Line %d" % buttonLabelNumber)
+#    def htmlLeadIn(self, htmlDoc): # , audioDirectory, audioFileType):
+#
+#        buttonLabel = self.tierNumber
+#        if(not self.numberedLine):
+#            buttonLabel = "@"
+#        #if self.verbose:
+#        print(" --- tieredLine.htmlLeadin, tierNumber is %d" % self.tierNumber)
+#        print("                            buttonLabel: %s" % buttonLabel)
+#        clickActionString = "playSample(%d, %d, %d)" % \
+#                            (self.tierNumber, self.getStartTime(), self.getEndTime())
+#        buttonTag = htmlDoc.tag("button", onclick=clickActionString,
+#                                klass="standardSlexilButton slexilTooltip")
+#        if(self.useTooltips):
+#            buttonTag.attrs["class"] = "standardSlexilButton slexilTooltip"
+#        with buttonTag:
+#           htmlDoc.text(buttonLabel)
+#           if(self.useTooltips):
+#              with htmlDoc.tag("span", klass="slexilTooltipText"):
+#                  htmlDoc.text("Play Line %s" % buttonLabel)
 
     # ----------------------------------------------------------------------------------------------------
     def toHTML(self, htmlDoc):
@@ -238,7 +246,16 @@ class TieredLine:
         with htmlDoc.tag("div", klass="line-content", id=self.tierNumber):
             with htmlDoc.tag("div", klass="line"):
                 with htmlDoc.tag("span", klass="tier speech-tier", name=userTierName):
-                    htmlDoc.asis(str(self.getSpokenText()))
+                    #print("tieredLine, line 248")
+                    #print(self.getSpokenText())
+                    #pdb.set_trace()
+                    text = str(self.getSpokenText())
+                      # a leading @ indicates an unnumbered line
+                      # which will have been recognized by the
+                      # calling function, createTextDiv in sfmtToWebpage.py
+                      # having served its purpose, now strip it out
+                    text = re.sub("^\s*@", "", text)
+                    htmlDoc.asis(text)
             s = f"\n<!-- speechLineAfterHook -->\n"
             htmlDoc.asis(s)
             s = f"\n<!-- speechLineAfterHook_%d -->\n" % self.tierNumber

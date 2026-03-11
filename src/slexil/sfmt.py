@@ -257,14 +257,13 @@ class SFMT:
       done = False
       while not done:
           lineNumber += 1
-          if lineNumber >= self.lastLine:
+          if lineNumber > self.lastLine:
               done = True
           else:
              nextLine = self.lines[lineNumber]
              if len(nextLine.strip()) == 0:
                 done = True
              else:
-                #print(self.lines[lineNumber])
                 htmlText = htmlText + self.lines[lineNumber]
 
           # remove any trailing quote if present
@@ -275,7 +274,8 @@ class SFMT:
          # with the first blank line.
          # every string is expected to be a div, so it must end
          # with </div>.  check for this, throw error if it fails
-      assert(re.search("</div>$", htmlText))
+         # allow for trailing white space after closing </div> tab
+      assert(re.search("</div>\s*$", htmlText))
       return(htmlText)
 
    #------------------------------------------------------
