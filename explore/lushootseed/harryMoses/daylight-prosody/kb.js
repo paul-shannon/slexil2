@@ -1,6 +1,33 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il":
+`
+
+**ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il**
+
+Here is an interesting use of two different flavors of the <b>ICS</b>
+(internal causation) suffix.  Recall that <b>internal causation</b>
+implies that the event arises from inherent properties of the subject, as
+in 'the flower bloomed'.
+
+Contrast with <b>DC</b>, the diminished control causative, in which the
+the agent's influence over an outcome is reduced, bypassed, or less
+direct, with consequent impact on legal or moral blame).
+
+And with <b>ECS</b> event external causative, in which the agent initiates the action.  
+
+Uncertainty on this:
+<ul>
+   <li> <b>-bi-d</b> watched, ICS with object (daylight) either unaware, or watcher (Mink) super aware
+   <li> Mink watches - ECS?  Or the sun is watched - ICS?
+   <li> <b>-t-id</b> done to, ICS emphasizing passive role of the object
+   <li>(something) does something to the sun, which Mink is on the lookout for. (Sounds like ECS to me.)
+</ul>
+
+
+`,
+
 "ƛ̓u=lə=diʔ–iʔ–il":
 `
 **ƛ̓u=lə=diʔ–iʔ–il**
@@ -86,8 +113,47 @@ tušudub ʔə tiʔəʔ ʔaciɬtabixʷ.
 
 <ul>
   <li><b>ʔəs-</b> stative [LD 13]
-  <li><b>čal</b>: how? in what condition or state?; why, what.[LD 60]
   <li><b>-əxʷ</b> now.  see _-axʷ_, [LD 30]
+</u>
+<details><summary><b>čal</b>: how? in what condition or state?; why, what.[LD 60]</summary>
+
+The interrogative word <b>čal</b>, glossed roughly as ‘how?’, is used
+to ask after the state or condition of the entity referred to by its
+subject. When the subject is an NP, a headless relative clause, or an
+oblique-centred nominalization, the question is interpreted as a
+request for information about the current condition, status, or nature
+(as opposed to identity) of the subject:
+
+<pre>
+   (315) a. ƛ’asčaləxʷ čəxʷ
+            ƛ’u=ʔas–čal=əxʷ čəxʷ
+            HAB=STAT–how=now 2SG.SUB
+            ‘how have you been?’
+            (Bates, Hess & Hilbert 1994: 60)
+
+         b. ʔəsčal əw’ə tiʔiɬ adsut’ilib
+            ʔəs–čal əw’ə tiʔiɬ ad=s=ʔu–t’ilib
+            STAT–how PTCL DIST 2SG.PO=NM=PFV–sing
+            ‘how is your song?’
+            [DS Star Child, line 198]
+
+</pre>
+
+In sentences like these, a more accurate English gloss of <b>čal</b> might be
+‘like what?’, although ‘how?’ corresponds to the interrogative word
+used in most English translations of Lushootseed sentences with
+čal.
+
+Note that, as in these examples, <b>čal</b> is almost invariably
+inflected for stative aspect — indeed, it may be the case that the
+form <b>ʔəsčal</b> has become fossilized and has replaced <b>čal</b> for many
+speakers.
+
+</details>
+
+
+
+
 `,
 
 "xʷiʔ=axʷ":
@@ -1612,7 +1678,7 @@ Three secondary suffixes
    - -bi- ‘middle applicative’
    - -di-/-i- ‘secondary suffix’—
 
-which combine with one of the other valency-increasers to add an new
+which combine with one of the other valency-increasers to add a new
 object to the valency of the stem
 `,
 

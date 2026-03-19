@@ -1,11 +1,105 @@
 linguistics = {
 
-" Beck Grammar":
+" Verb classes":
 `
-**David Beck's Draft Lushootseed Grammar**
+**Verb Classes**
 
-<a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">pdf </a>
+Radicals can be grouped into several semantic classes,
+only one of which is genuinely unaccusative (see table 1 in
+appendix to online version).
 
+<ul>
+   <li>For example  <b>ɬič</b> "be cut with a knife"
+</ul>
+
+Most bare radicals are syntactically intransitive, and syntactically
+transitive verbs bear some morphological indicator of that
+transitivity.
+
+<pre>
+
+   (10a) ?u-ɬic̓ čəd
+         PFV-be.cut.with.knife 1SG.SUB
+         ‘I got cut with a knife’
+
+   (10b) ?u-ɬic̓i-d čəd tə sqʷiqʷali
+         PFV-be.cut.with.knife-ICS 1SG.SUB INDEF hay
+        ‘I cut hay (with a blade)’ 
+
+</pre>
+
+In (10a), the radical ɬic̓ ‘be cut with a knife’ — despite expressing a
+two-participant event high on the scale of semantic transitivity —
+takes only a single syntactic argument expressing the patient (Hess
+1973). In order to express an agent (10b), it is necessary to apply
+the suffix -t (which is realized word-finally as [-d]). Thus, what are
+plain transitive verbs in most languages are formed by morphological
+means from monovalent radicals in Lushootseed and many other members
+of the family.
+
+Members of this class, one of the largest, express a semantically
+transitive event but require one of the valency-increasing affixes to
+express an agent. While most languages lexicalize events at this end
+of the scale of semantic transitivity to include a valency-slot for
+both the agent and the patient/endpoint of the event, Lushootseed only
+includes the patient in the verb’s semantic valency and treats the
+agent as an implied participant.
+
+Accusative?
+
+<ol>
+   <li> position <b>ɬaq̓</b> be fallen, be lying down
+   <li> location <b>č̓it</b> be near
+   <li> state <b>qəɬ</b> be awake
+   <li> property <b>q̓ʷəl</b> be cooked
+   <li> process <b>hud</b> burn
+</ol>
+
+In all of these cases, the single actant of the monovalent radical is not
+exactly a patient; it might better be characterized as belonging to the more
+general class of undergoer (in the sense of Foley and Van Valin 1984).
+The transitive counterparts of these radicals are bivalent expressions which
+include an agent or causer acting on that undergoer to bring about the
+
+`,
+
+
+"PRLV":
+
+`
+**PRLV - prolative**
+
+The prolative case (abbreviated PROL), also called the vialis case
+(abbreviated VIA), prosecutive case (abbreviated PROS), traversal
+case, mediative case, or translative case,[1] is a grammatical case of
+a noun or pronoun that has the basic meaning of "by way of" or "via".
+[Wikipedia]
+
+`,
+
+
+"CNN":
+`
+**CNN - connective**
+
+`,
+
+" Beck Texts":
+`
+**David Beck's articles, papers, books**
+
+<ul>
+<li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
+<li><a href="https://pshannon.net/docs/nominals.pdf"
+   target="_blank">Patterns of nominalization in Bella Coola and Lushootseed</a>
+<li><a href="https://pshannon.net/docs/CAUS.pdf" target="_blank">Transitivity and Causation in Lushootseed Morphology</a>.
+<li><a href="https://pshannon.net/docs/valency.pdf" target="_blank">
+         A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes</a>
+<li><a href="https://pshannon.net/docs/valencyClean.pdf" target="_blank">
+         A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes (clean)</a>
+
+
+</ul>
 `,
 
 " Verbs":
@@ -258,13 +352,71 @@ shorten further, solidifying its status as a single word.
 `
 **Derivational Affixation**
 
+Probably one of the most notable features of Lushootseed (and other
+Salishan languages) is the rich verbal morphology, particularly in the
+realm of derivation. The majority of Lushootseed verb stems is built
+up out of fairly easily-analyzable elements based on monovalent
+radicals, often of the phonological shape CVC:
+
+Some examples from Harry Moses's Daylight:
+
+<ul>
+   <li><b>huy</b> be done, be made, be finished
+   <li><b>kʷəd</b> be held, be taken
+   <li><b>c̓agʷ</b> be washing
+</ul>   
+
+
+
+
 Because of the reliance of the Lushootseed lexicon on monovalent
 radicals, and because so many of those radicals have stative or
 state-like meanings, the language has developed a prolific system of
 derivational affixation. In total, there are fourteen derivational
 suffixes and one derivational prefix that are used productively to
 derive new lexemes from verbal radicals. These affixes fall roughly
-into two sets, with additions
+into two sets:
+
+<details><summary>valency-neutral</summary>
+
+These effect a variety of changes in the action or semantic structure
+of the event expressed by the radical without affecting the number of
+event participants (semantic actants) or syntactic arguments.
+
+<ul>
+   <li> dxʷ(s)- ‘contained’
+   <li> -il ‘inchoative’
+   <li> -b ‘middle’
+   <li> -agʷil ‘autonomous action’
+   <li> -iluɬ ‘purposive’, and -áb ‘method’
+<ul>
+
+   <li><b></b>
+   <li>
+   <li>
+   <li>
+   <li>
+</ul>
+</details>
+
+<details><summary>valency-increasing</summary>
+
+<ul>
+   <li><b></b>
+   <li>
+   <li>
+   <li>
+   <li>
+</ul>
+</details>
+
+
+<ol>
+   <li> <
+   <li>
+</ol>
+
+, with additions
 
 <ul>
   <li> valency-neutral     (5)
@@ -364,6 +516,7 @@ event participants (semantic actants) or syntactic arguments.
    expressing a state into a transitive stem by adding a semantic
    AGENT, realized as a syntactic subject
 
+<p>
 <pre>
 
 (39) a. ʔut̓uc̓ čəd ʔu–t̓uc̓ čəd
@@ -376,7 +529,6 @@ event participants (semantic actants) or syntactic arguments.
         ʔu–t̓uc̓u–t–əb čəd
         PFV–shot–ICS–PASS 1SG.SUB
         ‘I was shot (at)’ (Bates, Hess & Hilbert 1994)
-
 </pre>
 
    As shown in these examples, a monovalent patient-oriented radical
@@ -2792,7 +2944,7 @@ it is also the most complex in terms of its allomorphy and
 morphophonemics and the most varied in terms of its syntactic effects
 on the stem to which it attaches.
 
-(allomorphy: a single morpheme (the smallest unit of meaning) has
+<i>allomorphy: a single morpheme (the smallest unit of meaning) has
 different phonetic forms, called allomorphs, depending on the
 surrounding sounds or grammatical context, like English plurals (-s,
 -z, -es) or past tense (-t, -d, -ed))
@@ -2805,11 +2957,57 @@ sounds for the plural "-s" in "cats" (/s/), "dogs" (/z/), and "buses"
 patterns. It examines how morphemes, such as roots or affixes, alter
 their phonetic forms (allomorphs) based on context, explaining why
 "knife" becomes "knives" but "loaf" becomes "loaves".)
+</i>
 
 Its primary and most prevalent use is as a transitive causative suffix
 which changes a patient-oriented monovalent stem expressing a state
 into a transitive stem by adding a semantic AGENT, realized as a
-syntactic subject:
+syntactic subject.
+
+Beck's Grammar, p61: Lushootseed describes three transitive
+causative (aka valency-increasing) suffixes:
+
+<ul>
+   <li> <b>-t, d, əd, š</b>:  ICS, internal causative, an event arises from inherent properties 
+   <li> <b>-txʷ</b> ECS, external causative, from an external entity
+   <li> <b>-dxʷ</b> DC, diminished control causative, agent has incomplete control
+</ul>
+
+Of the ICS allomorphs, of which <b>-t</b> is the elsewhere form:
+
+[-t], [-d], [-əd] are phonologically conditioned.
+[-t] is the elsewhere form, while [-d] is restricted to
+word-final position (that is, last position suffix-string not
+including bound enclitics) following vowels and approximants (41):26
+
+[-əd] is also restricted to word-final position and appears following obstruents
+(a fricative or plosive speech sound).
+
+The schwa associated with the [-əd] allomorph of internal causative
+differs from the epenthetic vowels associated with the internal
+causative forms of certain types of radicals discussed at the
+beginning of Section 2. Unlike the schwa in [-əd], true epenthetic
+vowels are maintained in the presence of subsequent affixes, as shown
+by the passive forms in (44).
+
+The stem in (44a), kʷədad ‘take something’ is formed from the radical √kʷəd ‘be taken’, a C$C
+radical that takes an epenthetic /a/ vowel in its internal causative form; this epenthetic /a/ persists
+even in the passive, kʷədatəb ‘be taken’ (44b). The epenthetic schwa found with xʷəbəd ‘toss
+something’ (based on √xʷəb ‘be thrown’), on the other hand, disappears in the passive xʷəbtəb
+‘be thrown’. The most straightforward treatment of this phenomenon is to consider the schwa in
+xʷəbəd to be part of a word-final allomorph of the internal causative marker, and to contrast it
+with the epenthetic vowel found with the internal causative forms of radicals like √kʷəd.
+
+The latter can thus be considered a part of a
+morphologically-conditioned allomorph [kʷəda] of the radical itself
+associated with the internal causative (and causative middle)
+morpheme.  The third allomorph of the internal causative, the
+suppletive form [-š], is restricted to a handful of stems which either
+require [-š] or have two attested forms, one with [-š] and the other
+with [-t]. Those stems that are only attested with [-š] are given in
+Table 20.
+
+
 
 <pre>
 
@@ -2858,11 +3056,6 @@ argument is obligatorily interpreted as direct object:
 This is an interpretative property of all transitive verbs and will be discussed in more detail in
 Section 8.2.2 below.
 
-The internal causative suffix -t has four allomorphs — [-t], [-d],
-[-əd], and [-š]. Of these, [-t], [-d], [-əd] are phonologically
-conditioned: [-t] is the elsewhere form, while [-d] is restricted to
-word-final position (that is, last position suffix-string not
-including bound enclitics) following vowels and approximants (41):26
 
 **General linguistic comments**
 
