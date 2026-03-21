@@ -1965,19 +1965,34 @@ Book One, page 60.
 
 "xʷi gʷədsəxʷƛ̓alšəb ti dšiqʷ.":
 `
-**dšiqʷ**
+**xʷi gʷədsəxʷƛ̓alšəb ti dšiqʷʷ**
 <details open><summary>Vocabulary Notes</summary>
 
 <ul>
-   <li><b>d-</b> my [LD 76]
-   <li><b>šiqʷ</b> hat [LD 212 ]
+   <li><b>xʷiʔ</b> no, not, nothing! [LD 252]
+   <li><b>gʷədsəxʷƛ̓alšəb</b>
+   <ul>
+      <li><b>gʷəd-</b> composed of prefixes <b>gʷ-d-</b>[LD 99] [uncertain]
+      <ul>
+         <li><b>gʷ-</b> describing events contrary to fact [uncertain] [LD 95]
+         <li><b>-d</b> my, me, I [uncertain] [LD 76]
+      </ul>
+      <li><b>səxʷ-</b> derivational prefix, denoting a functioning device
+          or agent that habitually performs some act associated with the stem (ƛ̓alš)
+          [LD 203] (uncertain)
+      <li><b>ƛ̓alš</b> put on clothing [LD 152,151]
+      <li><b>-eb</b> middle voice - subject performs and receives the action [LD 32]
+   </ul>
+    <li><b>šiqʷ</b>
+       <ul>
+         <li><b>d-</b> my [LD 76]
+         <li><b>šiqʷ</b> hat [LD 212 ]
+       </ul>
 </ul>
 
 </details>
 
 `,
-
-
 
 //------------------------ 
 // section 31A.1, line 58
@@ -1987,9 +2002,36 @@ Book One, page 60.
 `
 **tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy.**
 
+<details open><summary>Vocabulary Notes</summary>
+
+<ul>
+   <li><b>tukʷaxʷatəb</b>
+   <ul>
+      <li><b>tu-</b> past [LD 228]
+      <li><b>kʷaxʷa</b> help [LD 123]
+      <li><b>-t</b> causal (transitive) suffix [LD 215]
+      <li><b>-əb</b> passive marker [LD 32]
+   </ul>
+   <li><b>ʔə</b> (a linking particle) about, as, in, of, on, into, onto, when, while [LD 9]
+   <li><b>ti</b> this, the particular one [LD 224]
+   <li><b>dstaləɬ</b>
+      <ul>
+        <li> <b>d-</b> my, I, me [LD 76]
+        <li> <b>staləɬ</b> nephew, niece, son or daughter of one's cousin [LD 218]
+     </ul>
+   <li><b>tsə</b> the, a [feminine]  [LD 228]
+   <li><b>dsk̓ʷuy</b>
+      <ul>
+        <li><b>d-</b> my [LD 76]
+        <li><b>sk̓ʷuy</b> mother [LD 132]
+      </ul>
+</ul>
+
+
+</details>
 Prior to this lesson there has been no way of expressing
 both actor and person acted upon in the same sentence
-(unless at least one of the other was <i>I, we, or you</i>.
+(unless at least one of the other was <i>I, we, or you)</i>.
 
 Choral Repetion A presents how this is done: the actor is marked by <b>ʔə</b>.
 

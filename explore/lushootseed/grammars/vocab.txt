@@ -1,4 +1,39 @@
- <li><b>-d,-əd, -t</b> action performed on someone or something else
+<li><b>dsk̓ʷuy</b>  []
+<li><b>tsə</b> the, a [feminine]  [LD 228]
+   <li><b>tukʷaxʷatəb</b>
+   <ul>
+      <li><b>tu-</b> past [LD 228]
+      <li><b>kʷaxʷa</b> help [LD 123]
+      <li><b>-t</b> causal (transitive) suffix [LD 215]
+      <li><b>-əb</b> passive marker [LD 32]
+   </ul>
+
+
+     <li><b>kʷaxʷ(a)</b> help [LD 123]
+   <li><b>gʷədsəxʷƛ̓alšəb</b>
+   <ul>
+      <li><b>gʷəd-</b> composed of prefixes <b>gʷ-d-</b>[LD 99] [uncertain]
+      <ul>
+         <li><b>gʷ-</b> describing events contrary to fact [uncertain] [LD 95]
+         <li><b>-d</b> my, me, I [uncertain] [LD 76]
+      </ul>
+      <li><b>səxʷ-</b> derivational prefix, denoting a functioning device
+          or agent that habitually performs some act associated with the stem (ƛ̓alš)
+          [LD 203] (uncertain)
+      <li><b>ƛ̓alš</b> put on clothing [LD 152,151]
+      <li><b>-eb</b> middle voice - subject performs and receives the action [LD 32]
+   </ul>
+
+
+
+    <li><b>šiqʷ</b>
+       <ul>
+         <li><b>d-</b> my [LD 76]
+         <li><b>šiqʷ</b> hat [LD 212 ]
+       </ul>
+
+
+ <li><b>-d, -əd, -t</b> action performed on someone or something else
    [transitive suffix, allows for a direct complement patient,
     creating a patient-oriented verb][LD 76]
    <details><summary>Details</summary>
@@ -12,42 +47,56 @@ stem expressing a state into a transitive stem by adding a semantic AGENT, reali
 subject:
 
 <pre>
+
    (39) a. ʔut̓uc̓ čəd
            ʔu–t̓uc̓ čəd
            PFV–shot 1SG.SUB
-           ‘I got shot’                (Bates, Hess & Hilbert 1994)
+           ‘I got shot’
+           (Bates, Hess & Hilbert 1994)
 
         b. ʔut̓uc̓ucid ʔu
            ʔu–t̓uc̓u–t–sid ʔu
            PFV–shot–ICS–2SG.OBJ INT
-           ‘did s/he shoot (at) you?’  (Hess 1995: 43, ex. 11a)
+           ‘did s/he shoot (at) you?’
+           (Hess 1995: 43, ex. 11a)
 
         c. ʔut̓uc̓utəb čəd
            ʔu–t̓uc̓u–t–əb čəd
            PFV–shot–ICS–PASS 1SG.SUB
-          ‘I was shot (at)’            (Bates, Hess & Hilbert 1994)
+          ‘I was shot (at)’
+          (Bates, Hess & Hilbert 1994)
 </pre>
 
-As shown in these examples, a monovalent patient-oriented radical such as t̓uc̓ ‘be shot; be the
-target of a missile’ takes the internal causative suffix to form a transitive verb, t’uc’ud ‘shoot
-someone; shoot at someone’ (or, more literally, ‘cause to be shot; cause to be the target of a
-missile’). While the vast majority of stems formed with -t have translation equivalents in most
-languages which are ordinary transitive verbs, the syntactic effects of this suffix are clearly
-causative, as are its semantic effects — keeping in mind the basically stative nature of
-Lushootseed radicals: the radical itself expresses a state while the derived transitive stems
-expresses an action preformed by an AGENT resulting in a PATIENT coming into that state.25 This
-added AGENT, like the CAUSER in typologically more ordinary causatives, is realized as the
-syntactic subject while the subject of the radical becomes the direct object of the transitive stem,
-marked by the s-series of object markers (Section 8.1.2), as in (39b). As shown by (39c), the
-object of an internal causative stem is an ordinary direct object and is amenable to syntactic
-operations such as passivization. When the derived stem takes an overt NP argument, this
-argument is obligatorily interpreted as direct object:
+As shown in these examples, a monovalent patient-oriented radical such
+as t̓uc̓ ‘be shot; be the target of a missile’ takes the internal
+causative suffix to form a transitive verb, t’uc’ud ‘shoot someone;
+shoot at someone’ (or, more literally, ‘cause to be shot; cause to be
+the target of a missile’).
+
+While the vast majority of stems formed
+with -t have translation equivalents in most languages which are
+ordinary transitive verbs, the syntactic effects of this suffix are
+clearly causative, as are its semantic effects — keeping in mind the
+basically stative nature of Lushootseed radicals: the radical itself
+expresses a state while the derived transitive stems expresses an
+action preformed by an AGENT resulting in a PATIENT coming into that
+state.
+
+This added AGENT, like the CAUSER in typologically more
+ordinary causatives, is realized as the syntactic subject while the
+subject of the radical becomes the direct object of the transitive
+stem, marked by the s-series of object markers (Section 8.1.2), as in
+(39b). As shown by (39c), the object of an internal causative stem is
+an ordinary direct object and is amenable to syntactic operations such
+as passivization. When the derived stem takes an overt NP argument,
+this argument is obligatorily interpreted as direct object:
 
 <pre>
          (40) ʔuk̓ʷəɬəd ti qʷuʔ
               ʔu–k̓ʷəɬ–d ti qʷuʔ
               PFV–poured–ICS SPEC water
-              ‘s/he poured the water’     (Hess 1995: 18, ex. 1a)
+              ‘s/he poured the water’
+              (Hess 1995: 18, ex. 1a)
 
 </pre>
 
