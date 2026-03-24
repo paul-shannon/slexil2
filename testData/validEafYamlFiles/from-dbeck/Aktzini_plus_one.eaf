@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-03-19T08:25:19-07:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/David/OpenSource/github/slexil/testData/aktzini/18-06-03Aktzini-GA.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../aktzini/18-06-03Aktzini-GA.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:ca475935-6b94-4bc8-926a-8417a2b72938</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">49</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="3190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="4120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="9540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="10120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="14450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="15120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="24100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="24210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="26890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="28280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="33780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="34840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="39730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="40780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="46310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="46790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="51480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="52090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="55820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="56520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="62320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="63020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="68770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="69340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="75150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="75590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="77990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="77990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="80620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="81520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="83450"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Ex" TIER_ID="Ex">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Text" PARENT_REF="Ex" TIER_ID="Line">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>bueno, kwanipala:yán wa:má kwento xla'ktzíni [00.00]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>tzama: a'ktzíni mat ixyuja:chi tzama: maha:stzá tzama: tzayá:lh [00.04] </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>tzama: sipéj tu: muchukúku wanikán chu:wá wanikán koli:jke [00.10]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>he: xcha:ní stanha'hapún pús xtayuja:chi animálhna' xalahálha' laklijikwa:ní xkáwa kristianu [00.15]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>chuwá: mat wanikán tzama: a'ktzíni'  [00.22]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>ka:skínikutuná:n a'htín fabor ka:– ka:túksxti' tzama: sipéj [00.28]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>tanakmár namojo:ya' tzama: mat wanikán naklhawá mat wan [00.35]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>chu:wá mat... ja:ma:tzá' tu:xyálh tzama: sipéj mat tzájtzáj po'hlhnu yawaníka mat [00.40]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>wanikán napína tzukuyá' a'kxtú hi:nú hasta nakmar nali:chipín  [00.46]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>jú:ta tzama: a'ktzíni mat a:nta:kílh tzúku hasta a'kxtú [00.52]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>akxni' mat taxtúchi' lhú:p te:tún tala'hpús.. te:taxtúchi' hasta nakmar   [00.56]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>ponkx tojo:chá he: porque ja:tza tuxha:lhí ti:yá tzájtzáj po'hlhnú: xyawanikáni [01.03]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>he: a:ntzá a:ntzá tzáj tojo:chá chuwá: u:tzá chá: chuwá: li:tasaya:chá  [01.09]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>chu:wá kinán A'ktzíni waniyáuj a:ntzá tojo:chá [01.15]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>chu:wa ja:léj taku:ta porque naxpu:hi:tát mar [01.17]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>tachá:lh po'lhnú chite:ta:yélh [01.21]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Analysis" PARENT_REF="Ex" TIER_ID="Morph"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Analysis" PARENT_REF="Ex" TIER_ID="ILEG"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Gloss" PARENT_REF="Ex" TIER_ID="L2Gloss"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Gloss" PARENT_REF="Ex" TIER_ID="L3Gloss">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>'bueno, te voy a contar este cuento de A'ktzíni'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>'ese A'ktzíni es que bajaba este ya tiene tiempo, este donde esta'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>'esta montagna se llamaba Muchukúku, ahora se le llama Koli:jke' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>'y llegaba hasta al cielo pues bajaba unos animales grandes que daban miedo, se comian las personas' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>'ahora es que le dicen, a ese A'ktzíni:'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a17" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>'te queremos pedir un favor, quebra/quita esa montaña' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>'en el mar lo hechas, este, es que le dicen, lo voy a hacer, contesta' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>'ahora es que... ya no estaba esa montaña, es que ya nada mas le pusieron una nube, es que' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>'le dicen vas a ir a impesar desde arriba y asi hasta en el mar lo vas a hechar' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>'ijole, esta A'ktzíni es que fue a empezar hasta arriba'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>'cuando es que estaba pasando se sumerjio, venia pasando hasta llegar al mar' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>'splash, callio porque ya no tenia tierra, ya nada mas era una nube lo que abia allí' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>'y alli alli cayo ahora por eso ahora llora (grita)' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>'ahora nosotros la llamamos A'ktzíni, alli cayo [en el mar]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>'ahora no puede salir de alli porque se quedo en medio del mar' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>'cayo junto con la nube como lo paso a tumbar'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="second_aligned" TIER_ID="Second">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>hhhhghg</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Ex" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Text" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Gloss" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Analysis" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Second_time_aligned_tier" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="second_aligned" TIME_ALIGNABLE="true"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

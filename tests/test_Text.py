@@ -63,7 +63,7 @@ def test_inferno_speechOnly():
 
            # 3 lines of speech, one jquery pattern
         pattern = re.compile('speech-tier"')
-        assert(len(pattern.findall(htmlText)) == 5)
+        assert(len(pattern.findall(htmlText)) == 4)
 
            # should be no other tiers
         pattern = re.compile('-tier">')

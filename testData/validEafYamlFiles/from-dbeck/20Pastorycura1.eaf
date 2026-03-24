@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2016-10-18T16:16:43-06:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/paulettelevy/Desktop/Annotated Elan files/20Pastorycura1.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./20Pastorycura1.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:42c04491-6578-45e4-b179-3820f377b99c</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">87</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="3960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="9250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="9250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="9390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="9390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="15270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="15270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="15470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="15470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="20490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="20490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="20666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="20666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="25405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="25405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="25550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="25550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="33246"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="33246"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="33506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="33506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="43347"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="43347"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="43434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="43434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="47158"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="47158"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="47289"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="47289"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="56709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="56709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="56970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="56970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="62970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="62970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="63245"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="63245"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="65448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="65448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="65565"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="65565"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="71724"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="71724"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="71854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="71854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="79709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="79709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="80303"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="80303"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="85318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="85318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="86535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="86535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="89839"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="89839"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="89912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="89912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="94985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="94985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="95187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="95187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="100448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="100448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="100549"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="100549"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="102216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="102216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="102361"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="102361"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="107666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="107666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="107825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="107825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="115868"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="115868"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="116144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="116144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="130304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="130304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="130550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="130550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="132507"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="132507"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="132623"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="132623"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="133710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="133710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="133912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="133912"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="136318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="136318"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="136376"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="136376"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="139304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="139304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="139448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="139448"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="150347"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="150347"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="150579"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="150579"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="154449"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="154449"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="154680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="154680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="161013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="161013"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="161187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="161187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="167274"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="167274"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="167405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="167405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="175362"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="175362"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="175506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="175506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="181260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="181260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="181404"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="181404"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="188477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="188477"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="188854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="188854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="198666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="198666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="198709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="198709"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="203825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="203825"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="203955"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="203955"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="205550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="205550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="205636"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="205636"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="214535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="214535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="214680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="214680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="217810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="217810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="217883"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="217883"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="223999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="223999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="224333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="224333"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="225680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="225680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="225796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="225796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="227086"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="227086"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="227158"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="227158"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="229187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="229187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="229376"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="229376"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="231434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="231434"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="231854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="231854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="239115"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="239115"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="239361"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="239361"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="242847"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="242847"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Totonac">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>20.1 niːnahmaqáːn taka¢íːɫ tuː tiλawáɫ štaliːqaɫíːn paːlí,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>20.2 šlatanuːmaá čaːtám ¢umáːt kščíki, šaliːmaːšqaqaːnhšwaníːt.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>20.3 naːɫšqaɫíː šλaːtš¢íʔ, šakstušwaníːt.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts17">
+                <ANNOTATION_VALUE>20.4 ʔakšnií tiʔáɫ ¢umáːt kščíkii paːlí, mak¢uːhkušwaniːt,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>20.5 ʔaːliːstáːɫ watiyaá šmaːwíːy paːlí, čuː kɫaqáːt naːwaá ščaqaːníy.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>20.6 ʔakšnií ¢ukuɫmaqka¢iːkán ¢umáːt piːnaːɫskuluhška¢án, waá liːlaá šqaɫiːnanáʔ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>20.7 ¢ukuɫqaɫskín paːlí, nuːmaá waníɫ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>20.8 "λaːtíʔ, naːɫskuluhkmaqka¢iːkán, waá liːlaá  kqaɫiːyaá tuː ka¢iːyatáʔ, tuː nakλawaní?" </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>20.9 nuːmaá waníɫ ¢umáːt kahštapiːkwáʔ, štaliːpuwaán.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>20.10 čiː qaɫtiːnáɫ paːlí,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>20.11 "niːtuːkapuwánti, papiːtapuːčawapatanáʔ, natapuːčawayáʔ".</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>20.12 "klakaskimputumá, tiːniːʔaːɫkatilakaskíɫ nakintaːtapuːčawá, snuːnaá ktaːtaλá".</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>20.13 "ʔakít nakán pa¢aniyáːn tiː nataːtapuːčawayáʔ". </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>20.14 "λáːn," waá ¢umáːt.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>20.15 ʔaqtám kiɫtamakuú ʔaɫpišaːɫnán paːlií nakkaːkiwiín,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts65">
+                <ANNOTATION_VALUE>20.16 ʔantaá taːtanuqɫčaá šmaqtaqaɫnaá palíːku, čuː tiːn¢ún.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts69">
+                <ANNOTATION_VALUE>20.17 ¢ukuɫšaqaλíː </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>20.18 "túː λawapáːt, tíː mintíːku, niːnλáː maːsqawiːyáːn?"</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>20.19 čiː qawása, pakswá. tiː štíːku, piːliwiʔaktuːxúː šmaːsqawiːmá,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts81">
+                <ANNOTATION_VALUE>20.20 qaɫskimpaá papiːqaɫíː š¢íʔ, šλáːt, wií tiː čaqaːníy kɫaqáːt, tiː maːwíːy, λáːn tamaqtaqaɫmá,   </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts85">
+                <ANNOTATION_VALUE>20.21 "λáːn ¢inú," wá.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts89">
+                <ANNOTATION_VALUE>20.22 čiː waníɫ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts93">
+                <ANNOTATION_VALUE>20.23 "šaλáːn katapuːčawáʔ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts97">
+                <ANNOTATION_VALUE>20.24 čiškutaá wíš, λaːnaá skuxáʔ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts101">
+                <ANNOTATION_VALUE>20.25 watiyaá mimpuskáːt nakaːšλawaá mintawáːy, načaqaːniyáːn miɫaqáːt, λáːn ¢aːpuú nalaqpaliːnanáʔ".</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts105">
+                <ANNOTATION_VALUE>20.26 qaɫtiːnáɫ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts109">
+                <ANNOTATION_VALUE>20.27 "klakaskimputumaá šláʔ, waá tamíːn tuː nakliːtapuːčawá.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts113">
+                <ANNOTATION_VALUE>20.28 liwi¢inuú kλaxamá, niːkmaːswaːníː, tunkunhkmaqaspúta".</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts117">
+                <ANNOTATION_VALUE>20.29 "niːtuːkamaqpuwántii waá tamíːn, ʔakít nakšuquú páks tuː natalakaskín miliːtapuːčawát.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts119" TIME_SLOT_REF2="ts121">
+                <ANNOTATION_VALUE>20.30 naːʔakít naklaksakniyáːn ¢umáːt waá tiː nataːtapuːčawayáʔ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts125">
+                <ANNOTATION_VALUE>20.31 čaːličaːlií ʔanqúː ksikulán, liwismaniːquːniːttáʔ, ʔantaá nakwaniquːyaːčáʔ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts129">
+                <ANNOTATION_VALUE>20.32 páks ʔakín paːlihníʔ, kiliːmaqtaːyitkán liːmaːšqaqaaníːn, čanaá kinkaːwaniyáːn kimpuškukán.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts133">
+                <ANNOTATION_VALUE>20.33 papiːlakaskináʔ, nakilaqpináːpii čiyuú kaːquːtanuún."</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts137">
+                <ANNOTATION_VALUE>20.34 "λáːn," waá qawása.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts141">
+                <ANNOTATION_VALUE>20.35 ʔakšnií číɫ qawásaa kščíkii šmaːlaːnáʔ, niː¢inuhtamaqapalíːɫ, tunkunhlaqáɫ paːlií ksikulán.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts145">
+                <ANNOTATION_VALUE>20.36  "klaqmimáːn," waá čáːɫ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts149">
+                <ANNOTATION_VALUE>20.37 "λáːn, katanúʔ, katiwiláʔ, ʔuːwií puːtawiíɫ, naqaɫčiwiːnanáːw ¢inú,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts153">
+                <ANNOTATION_VALUE>20.38 láː puːwanáʔ?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts157">
+                <ANNOTATION_VALUE>20.39 paːšawayáʔ?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts161">
+                <ANNOTATION_VALUE>20.40 maːλaːniːyaá tuː kwanín? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts165">
+                <ANNOTATION_VALUE>20.41 waá tampáːt ka¢iːyáʔ? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts169">
+                <ANNOTATION_VALUE>20.42 "waá kmimaá ka¢íː papiːnakinλawaniyaá liːλáːn nakimaːlaqapasniːyáʔ." </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts171" TIME_SLOT_REF2="ts173">
+                <ANNOTATION_VALUE>20.43 "λáːn," waá paːlí, maːtasaniːnáɫ ¢umáːt.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Spanish">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>20.0 El pastor y el cura</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>no hace (tanto) tiempo se supo del delito que cometió un padre, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>estaba una muchacha en su casa, huérfana era.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>ya no tenía sus padres, era sola.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>cuando fue la muchacha a la casa del padre, todavía era chica,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>más tarde ya ella le daba de comer al padre y su ropa también ella se la lavaba. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>cuando comenzó a sentirse la muchacha que ya no estaba contenta, era porque ya estaba embarazada,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>empezó a preguntarle al padre, le dijo así.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>padrecito, ya no me siento bien contenta,es porque ya tengo lo que tú ya sabes, qué le voy a hacer?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>así le dijo de miedo y de tristeza la muchacha.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>el padre contestó, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" TIME_SLOT_REF1="ts44" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>no tengas cuidado, si quieres casarte, te vas a casar. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>yo quisiera, pero ya nadie ha de querer casarse conmigo, ya estoy muy enferma. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>yo voy a ir a buscarte con quién te has de casar.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58" TIME_SLOT_REF1="ts56" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>está bien - dijo la muchacha.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59" TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>un día fue el padre a pasear a un monte (rancho), </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60" TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>allá se encontró con un cuidandero de borregos y de cabras (pastor).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61" TIME_SLOT_REF1="ts68" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>empezó a platicar con él </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62" TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>qué estás haciendo? quién es tu patrón, cuánto te paga?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63" TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>y el muchacho dijo todo, quién es su amo, que le estaba pagando muy barato,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64" TIME_SLOT_REF1="ts80" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>volvió a preguntarle si tenía su mamá y su papá, hay quién le lava su ropa, quién le da de comer, lo están asistiendo bien.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65" TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>regular – dijo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66" TIME_SLOT_REF1="ts88" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>y le dijo,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67" TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>mejor cásate. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68" TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>ya eres hombre, ya puedes trabajar.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a69" TIME_SLOT_REF1="ts100" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>ya será tu mujer (quién) te arreglará tu comida, te lavará tu ropita, podrás cambiarte de ropa seguido. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70" TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>respondió,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a71" TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>eso quisiera, pero no tengo el dinero con que me he de casar. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72" TIME_SLOT_REF1="ts112" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>estoy ganando muy poco, no me ajusta, luego se me acaba.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73" TIME_SLOT_REF1="ts116" TIME_SLOT_REF2="ts118">
+                <ANNOTATION_VALUE>no tengas cuidado del dinero, yo voy a pagar todo lo que se necesite para tu casamiento. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74" TIME_SLOT_REF1="ts120" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>yo mismo voy a escoger a una muchacha con quién te has de casar. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75" TIME_SLOT_REF1="ts124" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>todos los días van a la iglesia, ya están muy acostumbradas, allí les voy a decir proponer,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76" TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts130">
+                <ANNOTATION_VALUE>todos nosotros los sacerdotes estamos obligados para ayudar a los pobres, así nos ordena nuestros jefes. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a77" TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>si quieres vas a verme hoy en la tarde. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78" TIME_SLOT_REF1="ts136" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>está bien - dijo el muchacho. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a79" TIME_SLOT_REF1="ts140" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>cuando llegó el muchacho en la casa de su amo, no se detuvo para nada, luego se fue a la iglesia a ver al padre. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80" TIME_SLOT_REF1="ts144" TIME_SLOT_REF2="ts146">
+                <ANNOTATION_VALUE>vengo a verte - dijo al llegar.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a81" TIME_SLOT_REF1="ts148" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>está bien, pasa adentro, siéntate, aquí está el asiento, platicaremos un poco, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a82" TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>qué te parece?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a83" TIME_SLOT_REF1="ts156" TIME_SLOT_REF2="ts158">
+                <ANNOTATION_VALUE>estás contento? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a84" TIME_SLOT_REF1="ts160" TIME_SLOT_REF2="ts162">
+                <ANNOTATION_VALUE>te conviene lo que te dije?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a85" TIME_SLOT_REF1="ts164" TIME_SLOT_REF2="ts166">
+                <ANNOTATION_VALUE>de eso vienes a enterarte?  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86" TIME_SLOT_REF1="ts168" TIME_SLOT_REF2="ts170">
+                <ANNOTATION_VALUE>de eso vengo a enterarme, si me haces el favor de presentármela.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87" TIME_SLOT_REF1="ts172" TIME_SLOT_REF2="ts174">
+                <ANNOTATION_VALUE>está bien - dijo el padre, mandó a llamar a la muchacha. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

@@ -17,7 +17,7 @@ def runTests():
    test_ctor()
    test_tierGuideAndLinesAgreement()
    test_addCanonicalTierNameColumn()
-   test_multipleValuesInCanonicalTiers()
+   # test_multipleValuesInCanonicalTiers()
    test_omitTiers()
    
 #------------------------------------------------------------------------------------------

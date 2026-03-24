@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2021-12-01T14:25:46-06:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:e86c98a5-288c-4104-a30f-e112a8f8c6ac</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">35</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="2000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="2000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="3000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="3000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="4000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="4000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="5000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="5000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="6000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="6000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="7000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="7000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="8000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="8000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="9000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="9000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="10000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="10000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="11000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="11000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="12000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="12000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="13000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="13000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="14000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="14000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="15000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="15000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="16000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="16000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="17000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="17000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="18000"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="tx" PARTICIPANT="unknown" TIER_ID="Totonac">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann0" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>32 Cuatro animales .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann1" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>32.1 matmaqaːsaá titanuqɫqúːɫ kkaːkiwiín tantaːtií taqaɫíːn , skáw , tankiwíʔ , stayáʔ , čuː miː¢íʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>32.2 ¢ukuqúːɫ qaɫčiwiːnanqúː štantaːtikán .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann5" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>32.3 šamaqtám lakapaːstakqúːɫ , ʔanqúːɫ pišaːɫnanqúː kpuːčitníʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann7" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>32.4 waá tankiwií qasaliːnqúːɫ , štaːstamhwaá šlaqapasnán .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann9" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>32.5 ščaːmaːquːɫkuú tunkunhtaːqsqúːɫ taɫqúm , ¢ukuqúːɫ waqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann11" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>32.6 niːška¢iːqúː papiːnaliːqačiːqúː laː šwamaːqúː , ʔakšnií maqka¢iːquːkaá piːšqačiːmaːquːɫáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann13" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>32.7 "katanλiːčáːw!" wanqúːɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann15" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>32.8 ¢ukuquːɫlaːqaɫskinqúː tiːntaá λáːn λaqnán .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann17" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>32.9 "ʔakít!" waá miː¢íʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann19" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>32.10 tunkunhpa¢áɫ šliːλaqnáʔ , ¢ukúɫ λaqnán .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann21" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>32.11 čánčánčánčačaːčánčánčán .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann23" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>32.12 tunkunh¢ukuqúːɫ tanλiːqúː štantutukán , skáw , tankiwíʔ , čuː stayáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann25" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>32.13 lixataštanλiːmaːqúː šamaqtám ¢ukuqúːɫ taliːkaːtalaqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann27" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>32.14 ʔaqtamiːqačiːqúːɫ , naːɫláy štanλiːqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann29" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>32.15 ¢ukuquːɫlaːčapaqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann31" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>32.16 makatamhčapaqúːɫ miː¢íʔ , maːmaqaštaqniːqúːɫ šliːλaqnáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann33" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>32.17 wáʔ , niːkanaːšqačíː , waá liːmaqaλaxanáɫ maːskištaːstamhšwaníːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft" PARENT_REF="Totonac" PARTICIPANT="unknown" TIER_ID="Spanish">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann2" ANNOTATION_REF="ann1">
+                <ANNOTATION_VALUE>dizque hace tiempo se encontraron en un monte cuatro animales; conejo, zorra, ardilla, y un gato.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann4" ANNOTATION_REF="ann3">
+                <ANNOTATION_VALUE>comenzaron a platicar entre los cuatro.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann6" ANNOTATION_REF="ann5">
+                <ANNOTATION_VALUE>de repente se les ocurrió irse a pasear a un trapiche (lugar donde se muele la caña de azúcar).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann8" ANNOTATION_REF="ann7">
+                <ANNOTATION_VALUE>la zorra los animó a irse, solamente ella conocía.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann10" ANNOTATION_REF="ann9">
+                <ANNOTATION_VALUE>apenas iban llegando luego encontraron tepache y empezaron a beber.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann12" ANNOTATION_REF="ann11">
+                <ANNOTATION_VALUE>no se daban cuenta si se iban a emborrachar con eso a la hora que estaban tomando, cuando se sintieron así es que ya estaban emborrachándose.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann14" ANNOTATION_REF="ann13">
+                <ANNOTATION_VALUE>bailemos, - dijeron</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann16" ANNOTATION_REF="ann15">
+                <ANNOTATION_VALUE>comenzaron a preguntarse, quién sabe (puede) tocar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann18" ANNOTATION_REF="ann17">
+                <ANNOTATION_VALUE>yo, - dijo el gato.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann20" ANNOTATION_REF="ann19">
+                <ANNOTATION_VALUE>luego buscó su instrumento y en seguida se puso a tocar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann22" ANNOTATION_REF="ann21">
+                <ANNOTATION_VALUE>el sonido que da un pedazo de hoja de lata o bote.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann24" ANNOTATION_REF="ann23">
+                <ANNOTATION_VALUE>luego se pusieron a bailar los tres; el conejo, la zorra y la ardilla.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann26" ANNOTATION_REF="ann25">
+                <ANNOTATION_VALUE>ya hacía mucho rato que estaban bailando, de repente comenzaron a caerse (golpearse contra el suelo).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann28" ANNOTATION_REF="ann27">
+                <ANNOTATION_VALUE>se acabaron de emborrachar, ya no podían bailar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann30" ANNOTATION_REF="ann29">
+                <ANNOTATION_VALUE>empezaron a reñirse.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann32" ANNOTATION_REF="ann31">
+                <ANNOTATION_VALUE>entre todos lo agarraron al gato, lo hicieron soltar su instrumento musical.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann34" ANNOTATION_REF="ann33">
+                <ANNOTATION_VALUE>él no estaba bien borracho, y por eso triunfante aunque era solo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="tx" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="MX" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

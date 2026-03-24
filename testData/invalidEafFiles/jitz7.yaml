@@ -1,0 +1,827 @@
+title: a
+narrator: b
+textEntry: c
+mediaFile: file:///Users/David/OpenSource/github/slexil/testTextPyData/JITZ/JIT0006.WAV
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    startTime: 2640
+    endTime: 4940
+    ref: |
+         @
+    tx: |
+         H@y sáb@d@ n@@v@ d@...
+    ft: |
+         Hoy sábado nueve de...
+
+  - lineNumber: 2
+    startTime: 5520
+    endTime: 8900
+    ref: |
+          b
+    tx: |
+         n@@v@ d@ @n@r@ d@ d@s m@l d@@c@s@@s 
+    ft: |
+         nueve de enero de dos mil dieciseis 
+
+  - lineNumber: 3
+    startTime: 9010
+    endTime: 13160
+    ref: |
+         c
+    tx: |
+         @st@m@s @n @j@d@ C@l@d@, M@n@c@p@@ d@ J@t@t@l, Ch@@p@s,
+    ft: |
+         estamos en ######
+
+  - lineNumber: 4
+    startTime: 13729
+    endTime: 21979
+    ref: |
+         d
+    tx: |
+         @m @st@m@s c@n d@n P@dr@ G@nzál@z R@j@s, q@@ n@s c@nt@r@ @n@...@n c@@nt@ s@br@ @n h@mbr@ c@m@rc@@nt@.
+    ft: |
+         im estamos con #####, que nos contara un...un cuento sobre un hombre comerciante.
+
+  - lineNumber: 5
+    startTime: 23429
+    endTime: 24579
+    ref: |
+         01
+    tx: |
+         M@ n@nǳ@ŋ@.
+    ft: |
+         ‘I am going to begin to say it.’
+    intr-cp: [goAUX–INC,1A–say–begin–DEP1]
+    prs-cp: [mxw–px,n–nxm–¢xŋ–x]
+
+  - lineNumber: 6
+    startTime: 25234
+    endTime: 26334
+    ref: |
+         02
+    tx: |
+         N@ n@w@ k@…
+    ft: |
+         ‘It is being said that…’
+    intr-cp: [PROG,3S–say–DEP2,SUBORD]
+    prs-cp: [nx,∅–nxm–wx,qxx]
+
+  - lineNumber: 7
+    startTime: 27009
+    endTime: 28129
+    ref: |
+          03
+    tx: |
+         [M@] nǳ@m@,
+    ft: |
+         ‘I am going to tell,’
+    intr-cp: [goAUX–INC,1A–tell–DEP1]
+    prs-cp: [mxw–px,n–¢xm–x]
+
+  - lineNumber: 8
+    startTime: 28431
+    endTime: 31471
+    ref: |
+         04
+    tx: |
+         k@ ʔ@t t@m m@ʔ@@@@n@ h@ʔm@kt@m@.
+    ft: |
+         ‘that many days ago there was a merchant.’
+    intr-cp: [SUBORD,3S–exist–CMP,INDEF,3S–sell–INC=REL=CFCT,day=TSUB=PL]
+    prs-cp: [qxx,∅–ʔxt–wx,txmx,∅–mxʔʔxy–px=pxʔ=ʔxnx,hxmx=ʔxk=txm]
+
+  - lineNumber: 9
+    startTime: 32392
+    endTime: 36562
+    ref: |
+         05
+    tx: |
+         H@tʃ@ t@m ʦ@m@ tʃ@@j@w@@ ʔ@tʃp@@t@p.
+    ft: |
+         ‘It is like a story that the old men told.’
+    intr-cp: [in.the.manner,INDF,tell–NOM,3A–tell–3PL–CMP=REL,3S–uncle=REL=ERG=PL]
+    prs-cp: [hxčx,txmx,¢xm–x,y–¢xm–yxh–wx=pxʔ,∅–ʔxč=pxʔ=ʔxṣ̌=txm]
+
+  - lineNumber: 10
+    startTime: 37725
+    endTime: 41867
+    ref: |
+          06
+    tx: |
+         K@ h@ p@d@n@, ʔ@@@ m@ʔj@ j@ʔjr@m@m.
+    ft: |
+         ‘That the man uses to sell far away.’
+    intr-cp: [SUBORD,DEF,man=CFCT,arriveAUX–INC,3S–sell–DEP1,far=LOC.EXT=PL=insideRN=LOC,]
+    prs-cp: [qxx,hxʔ,pxn=ʔxnx,ʔxy–px,∅–mxʔʔxy–x,yxʔ=hx=txm=hxt=mx]
+
+  - lineNumber: 11
+    startTime: 43707
+    endTime: 47730
+    ref: |
+         07
+    tx: |
+         J@ʔj ʔ@@@ mj@ʔj l@k@ t@r@m@ mj@ʔ@@@@.
+    ft: |
+         ‘He goes far away to sell the things that he sells.’
+    intr-cp: [far=LOC.EXT,arriveAUX–INC,3A–sell–DEP1,it,SUBORD,3S–thing=PL=REL,3A–sell–INC=REL]
+    prs-cp: [yxʔ=hx,ʔxy–px,y–mxʔʔxy–x,lx,qxx,∅–tx=txm=pxʔ,y–mxʔʔxy–px=pxʔ,]
+
+  - lineNumber: 12
+    startTime: 48203
+    endTime: 54513
+    ref: |
+          08
+    tx: |
+         Mj@ʔ@@ j@ʔr@, mj@ʔ@@ ʦ@j, mj@ʔ@@, mj@ʔ@@ k@@nt@@ t@r@p m@@@ǳ@p@@@.
+    ft: |
+         ‘He sells clothes, he sells medicine, he sells, he sells many things that were used by them.’
+    intr-cp: [3A–sell–INC,twist–NOM,3A–sell–INC,cure–NOM,3A–sell–INC,3A–sell–INC,many=ERG,thing=PL,3S–use–APPL–PASS–INC=REL]
+    prs-cp: [y–mxʔʔxy–px,yxʔt–x,y–mxʔʔxy–px,¢xʔy–x,y–mxʔʔxy–px,y–mxʔy–px,cxxntx=ʔxṣ̌,tx=txm,∅–mxṣ̌–hxy–txw–px=pxʔ]
+
+  - lineNumber: 13
+    startTime: 56853
+    endTime: 60813
+    ref: |
+         09
+    tx: |
+         T@m n@g@g@, ʔ@g@ t@m m@@ǳ@ʔ@@m,
+    ft: |
+         ‘One time, he slept in a big mountain,’
+    intr-cp: [INDEF,time=then,3S=sleep–CMP,INDEF,big–mountain=insideRN=LOC]
+    prs-cp: [txmx,nxkx=kxʔ,∅=ʔxŋ–wx,txmx,mxhx–¢xʔmxʔ=hxt=mx]
+
+  - lineNumber: 14
+    startTime: 62882
+    endTime: 68170
+    ref: |
+         10
+    tx: |
+         ʔ@ d@h@jɲg@ kw@nd@ h@jɲ@ ʔ@g@k@, pj@ʔt t@m m@r@,
+    ft: |
+         ‘and then, when he was sleeping there, he found a wellspring,’
+    intr-cp: [and,from,there=then,when,there,3S–sleep–CMP=TSUB,3A–find–CMP,INDEF,well–NOM]
+    prs-cp: [ʔx,dx,hxyɲx=kxʔ,cxxndx,hxyɲx,∅–ʔxŋ–wx=k,y–pxʔt–wx,txmx,mxt–x]
+
+  - lineNumber: 15
+    startTime: 69244
+    endTime: 76570
+    ref: |
+          11
+    tx: |
+         ʔ@@ m@r@mg@ʔ mj@r@ŋ h@jɲ ʦ@ʔ@@g@m, t@ʔg@g@m@ p@ʔd@@, h@ m@ʔ@@@@@,
+    ft: |
+         ‘and then, inside of the wellspring the man, the one who was a merchant, listened to him, there at the edge of the mountain, at the edge of the road,’
+    intr-cp: [y=DEF,well–NOM=insideRN=LOC=then,3A–listen–CMP,there,mountain=edgeRN=insideRN=LOC,road=edgeRN=insideRN=LOC=DEF,man=ERG,DEF,3S–sell–INC=REL=ERG]
+    prs-cp: [ʔx=hxʔ,mxt–x=hxt=mx=kxʔ,y–mxtxŋ–wx,hxyɲx,¢xʔmx=ʔxŋ=hxt=mx,txŋ=ʔxŋ=hxt=mx=hxʔ,pxn=ʔxṣ̌,hxʔ,∅–mxʔʔxy–px=pxʔ=ʔxṣ̌]
+
+  - lineNumber: 16
+    startTime: 78272
+    endTime: 81912
+    ref: |
+          12
+    tx: |
+         h@tʃ@ mj@r@ŋ@@ h@tʃ@ t@m j@wʔ@n@ n@ h@j@@@.
+    ft: |
+         ‘in that way he heard something like a baby who was crying.’
+    intr-cp: [that.way,3A–listen–INC,how,INDF,tender–baby,PROG,3S–cry–DEP2=REL,]
+    prs-cp: [hxčx,y–mxtxŋ–px,hxčx,txmx,yxwx–ʔxnx,nx,∅–hxy–wx=pxʔ,]
+
+  - lineNumber: 17
+    startTime: 83670
+    endTime: 86340
+    ref: |
+         13
+    tx: |
+         T@@ m@@ j@ʔ? N@m@@, n@@ǳ@ʦ.
+    ft: |
+         ‘What would it be? It is being said that he began to say.’
+    intr-cp: [what,MODAL,PRX,3S–say–INC,3S–say–begin–CMP]
+    prs-cp: [txx,mxṣ̌,yxʔ,∅–nxm–px,∅–nxm–¢x¢–wx]
+
+  - lineNumber: 18
+    startTime: 87020
+    endTime: 89550
+    ref: |
+         14
+    tx: |
+         T@@ m@@? n@m@@ tʃ@g@m.
+    ft: |
+         ‘ “What would it be?” He says in his heart.’
+    intr-cp: [what,MODAL,3S–say–INC,3PSR–heart=insideRN=LOC]
+    prs-cp: [txx,mxṣ̌,∅–nxm–px,y–¢xkxyʔ=hxt=mx]
+
+  - lineNumber: 19
+    startTime: 91230
+    endTime: 94870
+    ref: |
+         15
+    tx: |
+         Tʃ@ʔn@ŋd@k@@@@ tʃ@ʔn@ŋd@k@@@@ ʔ@j kj@ʔg@n@ h@jɲ p@ʔ@m@ h@r ...
+    ft: |
+         ‘He got closer and closer to look out over there in the bushes, which…’
+    intr-cp: [3A–right–enter–CMP,3A–right–enter–CMP,arriveAUX–CMP,3A–downwards–see–DEP1,there,bush=insideRN=LOC,which]
+    prs-cp: [y–¢xʔnxŋ–txkʔxy–wx,y–¢xʔnxŋ–txkxy–wx,ʔxy–wx,y–kxʔ–kxn–x,hxyɲx,pxʔxʔ=hxt=mx,hxtxʔ]
+
+  - lineNumber: 20
+    startTime: 95580
+    endTime: 101700
+    ref: |
+         16
+    tx: |
+         H@r@@@ n@ h@ʔj@@@ h@jt@ kj@t@ h@jt@ kj@t n@m@s k@ t@m ...
+    ft: |
+         ‘Which was the one who was crying? He didn’t see anything, he didn’t see anything but a …’ 
+    intr-cp: [3S–which=REL=DEF,PROG,3S–cry–DEP2=REL,NEG–thing,3A–see–CMP,NEG–thing,3A–see–CMP,nothing,more,SUBORD,INDEF]
+    prs-cp: [∅–hxtxʔ=pxʔ=hxʔ,nx,∅–hxy–wx=pxʔ,hxy–tx,y–kxn–wx,hxy–tx,y–kxn–wx,nxdx,mxs,qxx,txmx]
+
+  - lineNumber: 21
+    startTime: 102940
+    endTime: 109040
+    ref: |
+         17
+    tx: |
+         t@m@…t@m m@ʔǳ@ ʔ@t@ w@@ h@jɲ,
+    ft: |
+         ‘one…a ball of ground corn (pozol) was there,’
+    intr-cp: [one,one,knead–NOM,3S–exist–CMP,ground.corn,there]
+    prs-cp: [txmx,txmx,mxʔ¢–x,∅–ʔxt–wx,wxyx,hxyɲx]
+
+  - lineNumber: 22
+    startTime: 110460
+    endTime: 113580
+    ref: |
+         18
+    tx: |
+         ʔ@@ w@@g@ kj@gǳ@ŋ@ h@j@ŋ@w.
+    ft: |
+         ‘and then he lifted the pozol, and it stopped crying.’
+    intr-cp: [and=3PRO,ground.corn=then,3A–lift–raise–CMP,3S–cry–mouth–stop–CMP]
+    prs-cp: [ʔx=hxʔ,wxyx=kxʔ,y–kxw–¢xŋ–wx,∅–hxy–ʔxŋ–hxh–wx]
+
+  - lineNumber: 23
+    startTime: 115765
+    endTime: 117815
+    ref: |
+         19
+    tx: |
+         Ts@ʔg@ w@g@tp@ʔkp@w@.
+    ft: |
+         ‘He reacted quickly and put it away.’
+    intr-cp: [3S–react–CMP,3A–well–put–insert–COMPL–CMP]
+    prs-cp: [∅–¢xʔŋ–wx,y–wx–kxt–pxk–pxʔ–wx]
+
+  - lineNumber: 24
+    startTime: 122060
+    endTime: 125150
+    ref: |
+         20
+    tx: |
+         W@g@tp@ʔkp@w@. Kj@t mj@rr@l@m h@ p@ʔd@@.
+    ft: |
+         ‘He put it away. The man put it inside his bag.’
+    intr-cp: [3A–well–put–insert–COMPL–CMP,3A–put–CMP,3PSR–bag=insideRN=LOC,DEF,man=ERG]
+    prs-cp: [y–wx–kxt–pxk–px–wx,y–kxt–wx,y–mxrrxl=hxt=mx,hxʔ,pxn=ʔxṣ̌]
+
+  - lineNumber: 25
+    startTime: 125730
+    endTime: 130760
+    ref: |
+         21
+    tx: |
+         H@ p@ʔd@@g@ l@ k@ tʃ@k@@@h ɲ@n tʃ@k@@ɲ.
+    ft: |
+         ‘And then the man, the thing that he did, he brought it back home.’
+    intr-cp: [DEF,man=ERG=then,it,SUBORD,3A–do–CMP=REL,3A–ASSOC–come–CMP,3PSR–house=there]
+    prs-cp: [hxʔ,pxn=ʔxṣ̌=kxʔ,lx,qxx,y–¢xk–wx=pxʔ,y–nx–mxn–wx,y–txk=hxyɲx]
+
+  - lineNumber: 26
+    startTime: 132160
+    endTime: 136490
+    ref: |
+         22
+    tx: |
+         M@d m@ ɲ@nǳ@m ɲ@r@k, h@@ɲ m@ ɲ@nǳ@m h@ jj@m@ tʃ@k@m,
+    ft: |
+         ‘He came to tell it to his partner, he came over there to tell it to his wife in his house,’
+    intr-cp: [3S–come–CMP,comeAUX,3A–say–tell–DEP1,3PSR–partner,there,comeAUX,3A–say–tell–DEP1,DEF,3PSR–woman,3PSR–house=insideRN=LOC]
+    prs-cp: [∅–mxn–wx,mx,y–nxm–¢xm–x,y–nxtxk,hxyɲx,mx,y–nxm–¢xm–x,hxʔ,y–yxmx,y–txk=hxt=mx]
+
+  - lineNumber: 27
+    startTime: 136780
+    endTime: 141500
+    ref: |
+         23
+    tx: |
+         k@@ pj@ʔt h@ w@@ p@r@ k@ns@@ t@@r@p w@ʔp@r@w@@.
+    ft: |
+         ‘that he found the pozol, but who knows since when it was thrown away.’
+    intr-cp: [SUBORD,3A–find–CMP=DEF,ground.corn,but,who,know:3SG:PRES,what,3S–time=REL,3S–throw–PASS–CMP=REL]
+    prs-cp: [qxx,y–pxʔt–wx=hxʔ,wxyx,pxrx,qxxén,sxbx,tx,∅–hxrx=pxʔ,∅–wxʔp–xtxw–wx=pxʔ]
+
+  - lineNumber: 28
+    startTime: 141905
+    endTime: 144195
+    ref: |
+         24
+    tx: |
+         ʔ@@ w@ʔp@w? w@ t@gǳ@gt@w?
+    ft: |
+         ‘Who threw it away? Or was it left behind?’
+    intr-cp: [who=ERG,3A–throw–COMPL–CMP,or,3S–road–abandon–PASS–CMP]
+    prs-cp: [ʔxw=ʔxṣ̌,y–wxʔp–pxʔ–wx,wxʔx,∅–txŋ–¢xk–xtxw–wx]
+
+  - lineNumber: 29
+    startTime: 145680
+    endTime: 149920
+    ref: |
+         25
+    tx: |
+         L@ k@ tʃ@k@@@ʔ n@w jj@m@ h@nd@r@w@ nw@ʔmp@@@ n@w@,
+    ft: |
+         ‘ “What was the thing that he did?” his wife said. “We cannot throw it away,” she said,’
+    intr-cp: [it,SUBORD,3A–do–CMP=REL,3S–say–CMP,3PSR–woman,NEG.INC=EXCL,3S–good,1A–throw–COMPL–INC,3S–say–CMP]
+    prs-cp: [lx,qxx,y–¢xk–wx=pxʔ,∅–nxm–wx,y–yxmx,hxntx=tx,∅–wxʔ,n–wxʔm–pxʔ–px,∅–nxm–wx]
+
+  - lineNumber: 30
+    startTime: 151690
+    endTime: 156730
+    ref: |
+         26
+    tx: |
+         ʔ@k@@@ nd@ m@nd@ʔŋ@ n@w.
+    ft: |
+         ‘ “We are going to drink this,” she said.’
+    intr-cp: [3S–PRX=REL,1EXCL,goAUX,1A–drink–DEP1,3S–say–CMP]
+    prs-cp: [∅–ʔxkx=pxʔ,ntx,mx,n–txʔŋ–x,∅–nxm–wx]
+
+  - lineNumber: 31
+    startTime: 158720
+    endTime: 162220
+    ref: |
+          27
+    tx: |
+         ʔ@ p@r l@k@ t@k@@@ ʦ@r@w@@,
+    ft: |
+         ‘And that is the reason why this was given to him,’
+    intr-cp: [and,for,it,SUBORD,INTER=PRX=REL,3S–give–PASS–CMP=3PRO]
+    prs-cp: [ʔx,pxr,lx,qxx,txk=ʔx=pxʔ,∅–¢xʔ–xtxw–wx=hxʔ]
+
+  - lineNumber: 32
+    startTime: 164590
+    endTime: 167680
+    ref: |
+         28
+    tx: |
+         h@ j@k@ n@w@ k@ n@m@ s@ nd@ʔg@nd@ n@ n@w.
+    ft: |
+         ‘his atole she says, “it is what we drink in fact now,” now she says.’
+    intr-cp: [DEF,3PSR–atole,3S–say–CMP,SUBORD,now,if,1A–drink–CMP=IAM=EXCL,now,3S–say–CMP]
+    prs-cp: [hxʔ,y–ʔxkx,∅–nxm–wx,qxx,nxmx,sx,n–txŋ–wx=ʔxm=tx,nxmx,∅–nxm–wx]
+
+  - lineNumber: 33
+    startTime: 168735
+    endTime: 175985
+    ref: |
+         29
+    tx: |
+         H@k@@kg@ n@w@k@ m@kg@ s@mp@ n@w@@k j@k@k@@w t@gǳ@gt@w@.
+    ft: |
+         ‘She said that at that time, she said, the corn was suffering maybe because it was left behind.’
+    intr-cp: [that.time=then,3S–say–CMP=QUOT=DEF,corn=then,maybe,3S–say–CMP=QUOT,3S–suffer–CMP,3S–detatch–abandon–PASS–CMP]
+    prs-cp: [hxkṣ̌xk=kxʔ,∅–nxm–wx=ʔxŋ=hxʔ,mxk=kxʔ,sxmpx,∅–nxm–wx=ʔxŋ,∅–yxkṣ̌kxx–wx,∅–txk–¢xk–xtxw–wx]
+
+  - lineNumber: 34
+    startTime: 176605
+    endTime: 182845
+    ref: |
+         30
+    tx: |
+         K@m ʔ@tʃ@ n@@j@p@ ʦ@w@@nd@p ʦ@wj@m@r@p k@ h@nd@r@ w@ ǳ@kp@ ŋw@@r@ t@ʔg@m.
+    ft: |
+         ‘As the old men and old women say, we cannot leave our pozol behind in the road.’
+    intr-cp: [as,as,3S–say–3PL–INC,mature–man=PL,mature–woman=PL,SUBORD,NEG.INC=EXCL,3S–good,1A–abandon–INC,1PSR–pozol=EXCL,road=insideRN=LOC]
+    prs-cp: [cxmx,ʔxčx,∅–nxm–yxh–px,¢xwx–pxn=txm,¢xwx–yxmx=txm,qxx,hxntx=tx,∅–wxʔ,n–¢xk–px,n–wxyx=tx,txk=hxt=mx]
+
+  - lineNumber: 35
+    startTime: 183940
+    endTime: 185640
+    ref: |
+         31
+    tx: |
+         H@@j@k j@k@k@@p@k.
+    ft: |
+         ‘It cries, it suffers, it is said.’
+    intr-cp: [3S–cry–INC=QUOT,3S–suffer–INC=QUOT]
+    prs-cp: [∅–hxy–px=ʔxŋ,∅–yxkṣ̌kxx–px=ʔxŋ]
+
+  - lineNumber: 36
+    startTime: 187330
+    endTime: 195030
+    ref: |
+         32
+    tx: |
+         ʦ@g@ p@tg@ pj@ŋ…m@n@k nǳ@@g@tp@@ k@ pj@g@, tʃ@ʔgj@w w@ʔǳ@kj@w.
+    ft: |
+         ‘By then the man reacted picking it … I say again for the second time that he picked it up and they drank it, they prepared it.’
+    intr-cp: [3S–react–CMP=DEF,man=then,3A–collect,two–time,1A–tell–REPET–INC=1ERG,SUBORD,3A–pick.up–CMP,3A–drink–3PL–CMP,3A–good–do–3PL–CMP]
+    prs-cp: [∅–¢xʔŋ–wx=hxʔ,pxn=kxʔ,y–pxŋ,mx¢–nxkx,n–¢xm–kxt–px=ʔxṣ̌,qxx,y–pxŋ–wx,y–txʔŋ–yxh–wx,y–wxʔ–¢xk–yxh–wx]
+
+  - lineNumber: 37
+    startTime: 197740
+    endTime: 201990
+    ref: |
+         33
+    tx: |
+         K@m@ h@ p@tg@ m@ʔ@@@n@ h@nd@ tʃ@kp@ m@k@r@g@n@.
+    ft: |
+         ‘Since the man used to sell then, he didn’t use to cultivate the cornfield.’
+    intr-cp: [since,DEF,man=then,3S–sell–INC=CFCT,NEG.INC,3A–do–INC,corn–GEN–house=CFCT]
+    prs-cp: [cxmx,hxʔ,pxn=kxʔ,∅–mxʔʔxy–px=ʔxnx,hxntx,y–¢xk–px,mxk–x–txk=ʔxnx]
+
+  - lineNumber: 38
+    startTime: 203275
+    endTime: 205680
+    ref: |
+         34
+    tx: |
+         H@ ʔ@m@@m tʃ@k h@ p@ʔd@@ m@k@r@k.
+    ft: |
+         ‘In that year the man cultivated the cornfield.’
+    intr-cp: [MED,year=insideRN=LOC,3A–do–CMP,DEF,man=ERG,corn–GEN–house]
+    prs-cp: [hxʔ,ʔxmx=hxt=mx,y–¢xk–wx,hxʔ,pxn=ʔxṣ̌,mxk–x–txk]
+
+  - lineNumber: 39
+    startTime: 208280
+    endTime: 209093
+    ref: |
+         35
+    tx: |
+         Ts@ʔ@d@p@g@,
+    ft: |
+         ‘Then it was said,’
+    intr-cp: [3S–tell–PASS–INC=then]
+    prs-cp: [∅–¢xm–xtxw–px=kxʔ]
+
+  - lineNumber: 40
+    startTime: 209093
+    endTime: 215987
+    ref: |
+         36
+    tx: |
+         k@ ʔ@tʃp@@t@pg@ k@ h@ p@t tʃ@@@ʤ@ʦ jj@m@ k@ ʔ@ʤ@ ʔ@kt@ǳ@k m@k p@r k@,
+    ft: |
+         ‘that the elders that they started telling the man’s wife that she shouldn’t waste the corn because,’
+    intr-cp: [SUBORD,3S–uncle=REL=ERG=PL=then,SUBORD,DEF,hombre,3A–tell–APPL–begin–CMP,3PSR–woman,SUBORD,NEG.IMP,CAUS–go.bad–do–DEP1,corn,because]
+    prs-cp: [qxx,∅–ʔx¢x=pxʔ=ʔxṣ̌=txm=kxʔ,qxx,hxʔ,pxn,y–¢xm–hxy–¢x¢–wx,y–yxmx,qxx,ʔxy¢x,ʔxk–txkx–¢xk–x,mxk,pxrqxx]
+
+  - lineNumber: 41
+    startTime: 216545
+    endTime: 218050
+    ref: |
+         37
+    tx: |
+         H@@j@, j@k@k@@p@.
+    ft: |
+         ‘it cries, it suffers.’
+    intr-cp: [3S–cry–INC,3S–suffer–INC]
+    prs-cp: [∅–hxy–px,∅–yxkṣ̌kxx–px]
+
+  - lineNumber: 42
+    startTime: 219590
+    endTime: 221400
+    ref: |
+         38
+    tx: |
+         ʔ@@ p@tg@ k@@ …
+    ft: |
+         ‘And then, the man, it is said that …’
+    intr-cp: [and=DEF,man=then,SUBORD]
+    prs-cp: [ʔx=hxʔ,pxn=kxʔ,qxx]
+
+  - lineNumber: 43
+    startTime: 222750
+    endTime: 225140
+    ref: |
+         39
+    tx: |
+         k@ tʃ@k ʔ@@ mj@k@r@k h@ ʔ@m@@m@
+    ft: |
+         ‘it’s said that he planted some of his cornfield in that year,’
+    intr-cp: [SUBORD,3A–do–CMP,a.little,3PSR–corn–GEN–house,MED,year=insideRN=LOC]
+    prs-cp: [qxx,y–¢xk–wx,ʔxṣ̌,y–mxk–x–txk,hxʔ,ʔxmx=hxt=mx]
+
+  - lineNumber: 44
+    startTime: 226960
+    endTime: 228700
+    ref: |
+         40
+    tx: |
+         h@ʧ@ n@@j@p@ ʦ@w@@nd@p,
+    ft: |
+         ‘in the way the elders say,’
+    intr-cp: [how,3S–say–3PL–INC,mature–man=PL]
+    prs-cp: [hxčx,∅–nxm–yxh–px,¢xwx–pxn=txm]
+
+  - lineNumber: 45
+    startTime: 229870
+    endTime: 233040
+    ref: |
+         41
+    tx: |
+         w@ k@ʔkt@ʤ@w w@ ɲn@j j@gz@k h@r@ s@ …
+    ft: |
+         ‘in order that he be appreciated, in order that he bring his nahual,  that is…’
+    intr-cp: [SUBORD,3S–appreciate–PASS–DEP2,SUBORD,3A–ASSOC-come–APPL.R–DEP2,3PSR–mouth–fiesta,3PRO=COP,yes]
+    prs-cp: [wx,∅–kxʔk•txy–xtxw–wx,wx,y–nx-mxn–hxy–wx,y–ʔxŋ–sxŋ,hxʔ=txʔ,sx,]
+
+  - lineNumber: 46
+    startTime: 233730
+    endTime: 237150
+    ref: |
+         42
+    tx: |
+         H@nd@r@ʔ ʦ@ mm@@p@@@, p@r@@ …
+    ft: |
+         ‘We don’t know everything but …’
+    intr-cp: [NEG.INC=INCL,MODAL,1A–know–COMPL–INC,but]
+    prs-cp: [hxntx=txʔ,¢x,n–mxṣ̌–pxʔ–px,pxrx]
+
+  - lineNumber: 47
+    startTime: 238315
+    endTime: 241195
+    ref: |
+         43
+    tx: |
+         T@@j@p@ ʦ@w@@nd@p k@, h@ p@tg@mg@@,
+    ft: |
+         ‘Then the elders say together with that man,’
+    intr-cp: [3S–say–3PL–INC,mature–man=PL,MED,man–INSTR=then]
+    prs-cp: [∅–nxm–yxh–px,¢xwx–pxn=txm,hxʔ,pxn–kxm=kxʔ]
+
+  - lineNumber: 48
+    startTime: 242330
+    endTime: 244050
+    ref: |
+         44
+    tx: |
+         ʔ@t@k mj@k@r@k h@ p@d@@,
+    ft: |
+         ‘ “That man had his cornfield,’
+    intr-cp: [3S–exist–CMP=TSUB,3PSR–corn–GEN–house,MED,man=GEN]
+    prs-cp: [∅–ʔxt–wx=k,y–mxk–x–txk,hxʔ,pxn=ʔxṣ̌]
+
+  - lineNumber: 49
+    startTime: 244705
+    endTime: 247925
+    ref: |
+         45
+    tx: |
+         h@k@@k@m@k ɲ@@ʦ@ʦ m@hk ɲ@@ʦ@ʦ m@k,
+    ft: |
+         ‘ “and it is said that since then he began to obtain corn, he began to obtain corn,’
+    intr-cp: [DISTAL=SIM=TSUB=IAM=QUOT,3A–ASSOC–exit–begin–CMP,corn,3A–ASSOC–exit–begin–CMP,corn]
+    prs-cp: [hxk=ṣ̌x=ʔxk=ʔxm=ʔxŋ,y–nx–pxt–¢x¢–wx,mxk,y–nx–pxt–¢x¢–wx,mxk]
+
+  - lineNumber: 50
+    startTime: 249820
+    endTime: 251660
+    ref: |
+         46
+    tx: |
+         ʔ@@ m@kp@k ŋg@j@k@,
+    ft: |
+         ‘ “and then, because of the corn,’
+    intr-cp: [and=DEF,corn=REASON,then]
+    prs-cp: [ʔx=hxʔ,mxk=pxk,ŋkxyxkx]
+
+  - lineNumber: 51
+    startTime: 252090
+    endTime: 256520
+    ref: |
+         47
+    tx: |
+         j@p@ǳ@ʦ j@@k@, j@ʦ@ʦ ʔ@m@@@m@, ʔ@m@@@m@ j@p@.
+    ft: |
+         ‘ “the work began to give results, he began to clear the land every year, every year he clears the land.’
+    intr-cp: [3S–pay–COMPL–begin–CMP,work–NOM,3S–clear.land–begin–CMP,year=REL–year,year=REL–year,3S–clear.land–CMP]
+    prs-cp: [∅–yxh–pxʔ–¢x¢–wx,yxṣ̌–kxyʔ,∅–yxw–¢x¢–wx,ʔxmx=pxʔ–ʔxmx,ʔxmx=pxʔ–ʔxmx,∅–yxw–px]
+
+  - lineNumber: 52
+    startTime: 257270
+    endTime: 263410
+    ref: |
+         48
+    tx: |
+         J@tp@k@p@ j@ʔ@t@kp@ j@n@r@p jj@m@.
+    ft: |
+         ‘ “And it is with that that he feeds his kids and his wife.” ’
+    intr-cp: [and=MED=COP=INSTR=IAM=REL,3A–feed–3PL–INC,3PSR–son–PL,3PSR–woman]
+    prs-cp: [ʔx=hxʔ=txʔ=pxk=ʔxm=pxʔ,y–ʔxʔṣ̌–txk–px,y–ʔxnx–txm,y–yxmx]
+
+  - lineNumber: 53
+    startTime: 264890
+    endTime: 269080
+    ref: |
+         49
+    tx: |
+         N@m@@k h@ p@tg@ k@, k@m pj@g@k h@ w@@g@ n@k@d@.
+    ft: |
+         ‘Then the man says that it looks like he picked up the pozol.’
+    intr-cp: [3S–say–INC=QUOT,DEF,man=then,SUBORD,since,3A–collect–CMP=QUOT,DET,pozol=then,3S–body–see–PASS–CMP]
+    prs-cp: [∅–nxm–px=ʔxŋ,hxʔ,pxn=kxʔ,qxx,cxmx,y–pxŋ–wx=ʔxŋ,hxʔ,wxyx=kxʔ,∅–nx–kxt–tx–wx]
+
+  - lineNumber: 54
+    startTime: 270950
+    endTime: 275620
+    ref: |
+         50
+    tx: |
+         H@ʧ@ n@mn@m@@g@ k@ ʔ@ʧp@r@pg@ s@mp@ j@gz@g pj@g@j@ @@ʔ
+    ft: |
+         ‘Then as it is said, that the elders then, it is possible that he collected it(s pozol) from the nahual.’
+    intr-cp: [as,3S–say–DEFOC–INC=then,SUBORD,3S–old=REL=PL=then,maybe,3PSR–mouth–fiesta,3A–collect–APPL–CMP,INTER]
+    prs-cp: [hxʧx,∅–nxm–nxm–px=kxʔ,qxx,∅–ʔxtṣ̌x=pxʔ=txm=kxʔ,sxmpx,y–ʔxŋ–sxŋ,y–pxŋ–hxy–wx,xxʔ]
+
+  - lineNumber: 55
+    startTime: 277190
+    endTime: 280840
+    ref: |
+         51
+    tx: |
+         @@ʔ m@@ m@@ j@gz@g pj@g@j.
+    ft: |
+         ‘Oh, more and more he collected it from the nahual.’
+    intr-cp: [INTER,more,more,3PSR–MOUTH–fiesta,3A–collect–APPL–CMP]
+    prs-cp: [xxʔ,mxs,mxs,y–ʔxŋ–sxŋ,y–pxŋ–hxy–wx]
+
+  - lineNumber: 56
+    startTime: 282830
+    endTime: 286140
+    ref: |
+         52
+    tx: |
+         Ts@g@k h@ p@tg@ h@, j@m@@w h@g@,
+    ft: |
+         ‘The man reacted, he forgot everything,’
+    intr-cp: [3S–react–CMP=QUOT,DET,man=then,NEG.CMP,3A–forget–COMPL–CMP,DISTAL]
+    prs-cp: [∅–¢xʔŋ–wx=ʔxŋ,hxʔ,pxn=kxʔ,hxy,y–hxm–pxʔ–wx,hxʔkx]
+
+  - lineNumber: 57
+    startTime: 286730
+    endTime: 288780
+    ref: |
+         53
+    tx: |
+         h@g@ m@ʔg@ h@g@ j@k@k@@k@.
+    ft: |
+         ‘the trade, then the suffering.’
+    intr-cp: [DISTAL,sell–NOM=then,DISTAL,suffer–NOM]
+    prs-cp: [hxʔkx,mxʔʔxy–kxyʔ=kxʔ,hxʔkx,yxkṣ̌kxx–kxyʔ]
+
+  - lineNumber: 58
+    startTime: 291150
+    endTime: 295060
+    ref: |
+          54
+    tx: |
+         @@@t@r@m@k@ k@ʔm@@ʦ@ʔʦ k@ʔm@@ʦ@ʔʦ@.
+    ft: |
+         ‘That is enough. With this he began to progress, he began to progress.’
+    intr-cp: [enough=3PRO=FOC=IAM=QUOT,3S–go.up–go.out–begin–CMP,3S–go.up–go.out–begin–CMP]
+    prs-cp: [bxstx=hxʔ=txʔ=ʔxm=ʔxŋ,∅–kxʔm–pxt–¢xʔ¢–wx,∅–kxʔm–pxt–¢xʔ¢–wx]
+
+  - lineNumber: 59
+    startTime: 296500
+    endTime: 302280
+    ref: |
+         55
+    tx: |
+         N@@pg@ k@ m@h@r@ m@ j@@@ p@ʔd@@@ʔd@ p@ʔd@@@ʔd@ h@@@p jj@p@@@ j@@k@ h@ʔr@m@p.
+    ft: |
+         ‘Then he said that he better clears a lot of land, a lot of land. By then, he used to pay the labor with that.’
+    intr-cp: [3S–say–CMP=IAM=then,SUBORD,better,goAUX–INC,3S–clear.land–DEP1,a.lot–a.lot,a.lot–a.lot,3PRO=SIM=IAM,3A–pay–COMPL–INC,work–NOM,3PRO=INSTR=IAM]
+    prs-cp: [∅–nxm–wx=ʔxm=kxʔ,qxx,mxyxr,mxw–px,∅–yxw–x,pxʔtx–pxʔtx,pxʔtx–pxʔtx,hxʔ=ṣ̌x=ʔxm,y–yxh–pxʔ–px,yxṣ̌–kxyʔ,hxʔ=txʔm=ʔxm]
+
+  - lineNumber: 60
+    startTime: 303410
+    endTime: 304390
+    ref: |
+         56
+    tx: |
+         ʔ@t w@pt@.
+    ft: |
+         ‘He lived well.’
+    intr-cp: [3S–exist–CMP,3S–good–REL=ADV]
+    prs-cp: [∅–ʔxt–wx,∅–wx–pxʔ=tx]
+
+  - lineNumber: 61
+    startTime: 305930
+    endTime: 307840
+    ref: |
+         57
+    tx: |
+         H@m@@ h@ʔwj@p ʔ@j m@@j@.
+    ft: |
+         ‘He never came back to sell.’
+    intr-cp: [never,NEG.CP=arriveAUX–CMP=IAM,arriveAUX–CMP,3S–sell–DEP1]
+    prs-cp: [hxmxs,hxy=ʔxy–wx=ʔxm,ʔxy–wx,∅–mxʔʔxy–x]
+
+  - lineNumber: 62
+    startTime: 309300
+    endTime: 311560
+    ref: |
+         58
+    tx: |
+         J@ʔj@ŋ@j ɲ@@ ʧ@k t@k.
+    ft: |
+         ‘He bought more land, he built houses.’
+    intr-cp: [3A–buy–additionally.sound–CMP,3PSR–land,3A–do–CMP,house]
+    prs-cp: [y–hxy–ʔxŋʔxy–wx,y–nxṣ̌,y–¢xk–wx,txk]
+
+  - lineNumber: 63
+    startTime: 312740
+    endTime: 316133
+    ref: |
+         59
+    tx: |
+         H@ʔk@ n@m@@ h@@ ... h@ p@tg@ k@ …
+    ft: |
+         ‘Because of that then the man says that…’
+    intr-cp: [3PRO=REASON,3S–say–INC,DEF,DEF,man=then,SUBORD]
+    prs-cp: [hxʔ=kx,∅–nxm–px,hxʔ,hxʔ,pxn=kxʔ,qxx]
+
+  - lineNumber: 64
+    startTime: 317218
+    endTime: 321078
+    ref: |
+         60
+    tx: |
+         s@mp@ j@gz@g pj@g@j @ … k@ʔkt@ǳ@w@ @@@n k@,
+    ft: |
+         ‘maybe he picked up his nahual or he was appreciated in such a way that,’
+    intr-cp: [maybe,3PSR–mouth–fiesta,3A–collect–APPL–CMP,or,3S–appreciate–PASS–DEP2,fine,SUBORD,]
+    prs-cp: [sxmpx,y–ʔxŋ–ṣ̌xŋ,y–pxŋ–hxy–wx,ʔx,∅–kxʔk=txy–txw–wx,bxxn,qxx]
+
+  - lineNumber: 65
+    startTime: 323820
+    endTime: 327240
+    ref: |
+         61
+    tx: |
+         h@tk@mm@d m@@ m@@ n@@@@p@ k@ s@mp@ h@t k@mm@d@ k@m@,
+    ft: |
+         ‘together with it more and more came, it is said that maybe it came with it since,’
+    intr-cp: [3PRO=COP,3S–downwards–come–CMP,more,more,3S–say–3PL–INC,SUBORD,maybe,3PRO=COP,3S–downwards–come–CMP,since]
+    prs-cp: [hxʔ=txʔ,∅–kxʔ–mxn–wx,mxs,mxs,∅–nxm–yxh–px,qxx,sxmpx,hxʔ=txʔ,∅–kxʔ–mxn–wx,cxmx]
+
+  - lineNumber: 66
+    startTime: 327540
+    endTime: 333470
+    ref: |
+         62
+    tx: |
+         s@g@@ t@ʔgǳ@kt@w k@ns@g@@ w@ʔp@r@w h@k@ n@@j@p@ ʦ@wj@m@r@pg@ k@ …
+    ft: |
+         ‘who knows if it got lost, who knows if it was thrown away, it is because of this that the old ladies say that …’
+    intr-cp: [who.knows,3S–road–abandon–PASS–CMP,who.knows,3S–throw–COMPL–PASS–CMP,3PRO=REASON,3S–say–3PL–INC,old–woman=PL=REASON,SUBORD,]
+    prs-cp: [sxgxx,∅–txʔŋ–¢xk–xtxw–wx,kxnsxgxx,∅–wxʔp–pxʔ–xtxw–wx,hxʔ=kx,∅–nxm–yxh–px,¢xwx–yxmx=txm=kx,qxx,]
+
+  - lineNumber: 67
+    startTime: 333510
+    endTime: 336220
+    ref: |
+         63
+    tx: |
+         H@nd@p tʃ@ǳ@gj@p@ n@m@@@ tʃ@@j@p@.
+    ft: |
+         ‘Now they don’t misspend it, they say that.’
+    intr-cp: [NEG.INC=IAM,3A–hurt–do–3PL–INC,now=SIM,3A–tell–3PL–INC]
+    prs-cp: [hxntx=ʔxm,y–txy–¢xk–yxh–px,nxmx=ṣ̌xh,y–¢xm–yxh–px]
+
+  - lineNumber: 68
+    startTime: 337350
+    endTime: 341270
+    ref: |
+         64
+    tx: |
+         H@r@ nǳ@ h@r@ nǳ@ ɲ@nǳ@ ʔ@d@@ k@@nd@ …
+    ft: |
+         ‘It’s only that … it’s only that, the idea stayed with me when …’
+    intr-cp: [3PRO=COP,1PRO,3PRO=COP,1PRO,1PO–ASSOC–stay–CMP,idea,when]
+    prs-cp: [hxʔ=txʔ,n¢x,hxʔ=txʔ,n¢x,y–nx–¢xʔxy–wx,ʔxdxx,cxxndx]
+
+  - lineNumber: 69
+    startTime: 341955
+    endTime: 345790
+    ref: |
+         65
+    tx: |
+         ʦ@@j@w ʦ@w@@@ʔd@@t@p@ ʔ@ ʔ@@t@ɲ@ŋg@@ j@w h@ kw@nt@.
+    ft: |
+         ‘the elders said it, and at this point the story ends.’
+    intr-cp: [3S–tell–3PL–CMP,old=man=ERG=PL=REL,and,until=there=mouth–topRN=LOC.EXT,3S–finish–CMP,MED,story]
+    prs-cp: [∅–¢xm–yxh–wx,¢xwx=pxn=ʔxṣ̌=txm=pxʔ,ʔx,hxstx=hxyɲx=ʔxŋ–kxṣ̌=hx,∅–yxh–wx,hxʔ,cxxntx,]
+

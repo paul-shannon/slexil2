@@ -6,6 +6,7 @@
 # import sys
 import os, sys
 from pathlib import Path
+from numpy import log10;
 from yattag import *
 from yattag import Doc
 import yaml
@@ -408,15 +409,20 @@ class sfmtToWebPage:
 
         buttonLabel = numberedLineNumber
         if(not numberedLine):
-             # create an empty button label, with normal width
-           buttonLabel = "&nbsp;&nbsp;";  
+             # create an empty button label, with width roughly the same
+             # as that of the surrounding numbered buttons
+           buttonLabel = "&nbsp;&nbsp;";
+           if(bool(log10(numberedLineNumber) >= 1)):  # >= 10
+             buttonLabel = "%s%s" % (buttonLabel, "&nbsp;&nbsp;")
+           if(bool(log10(numberedLineNumber) >= 2)):  # >= 100
+             buttonLabel = "%s%s" % (buttonLabel, "&nbsp;&nbsp;")
         clickActionString = "playSample(%s, %d, %d)" % \
                             (tierNumber, startTime, endTime)
         buttonTag = htmlDoc.tag("button", onclick=clickActionString,
                                 klass="standardSlexilButton slexilTooltip")
-        print("--- sfmtToWebPage, line 416")
-        print("tierNumber %d, numberedLine: %s" % (tierNumber, numberedLine))
-        print("actionString: %s" % clickActionString)
+        #print("--- sfmtToWebPage, line 416")
+        #print("tierNumber %d, numberedLine: %s" % (tierNumber, numberedLine))
+        #print("actionString: %s" % clickActionString)
         if(self.useTooltips):
             buttonTag.attrs["class"] = "standardSlexilButton slexilTooltip"
         with buttonTag:
@@ -469,7 +475,10 @@ class sfmtToWebPage:
                                        tierGuide=tierGuide,
                                        grammaticalTerms=self.grammaticalTerms,
                                        useTooltips=False, verbose=self.verbose)
-               spokenText = tieredLine.getSpokenText()
+               spokenText = str(tieredLine.getSpokenText())
+               #print("\n--- sfmtToWebPage, line 473, spokenText:")
+               #print(spokenText)
+               # pdb.set_trace()
                numberedLine = True
                if(re.search("^\s*@", spokenText)):
                   numberedLine = False

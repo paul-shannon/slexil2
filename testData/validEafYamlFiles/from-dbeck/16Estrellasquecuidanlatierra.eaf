@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2016-06-22T23:07:15-06:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/paulettelevy/Desktop/Annotated Elan files/16Estrellasquecuidanlatierra.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./16Estrellasquecuidanlatierra.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:59dc1740-a532-467b-b72c-7c15aaade31b</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">57</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="5057"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5057"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="14257"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="14257"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="14275"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="14275"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="17797"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="17797"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="17875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="17875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="22599"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="22599"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="22724"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="22724"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="28652"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="28652"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="28774"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="28774"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="36716"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="36716"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="36772"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="36772"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="41221"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="41221"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="41447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="41447"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="53725"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="53725"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="54026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="54026"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="61951"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="61951"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="62142"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="62142"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="71535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="71535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="71624"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="71624"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="78131"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="78131"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="78305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="78305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="92687"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="92687"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="92752"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="92752"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="99288"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="99288"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="99366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="99366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="105873"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="105873"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="105919"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="105919"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="113180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="113180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="113300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="113300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="118967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="118967"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="119037"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="119037"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="127122"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="127122"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="127132"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="127132"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="133538"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="133538"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="133644"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="133644"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="146595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="146595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="146818"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="146818"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="155815"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="155815"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="155905"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="155905"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="160267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="160267"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="160301"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="160301"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="166779"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="166779"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="167177"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="167177"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="178653"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="178653"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="179100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="179100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="187997"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="187997"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="188116"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="188116"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="198846"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="198846"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="199000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="199000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="205666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="205666"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="205753"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="205753"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="218854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="218854"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="218978"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="218978"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="226181"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="226181"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="226366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="226366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="230164"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="230164"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Totonac">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>16.1 ɫuːwaá tiː čiwiːnanqúː tutunáːku, niːláy qaɫtawaqaqúː, naːčanaá niːláy čiwiːnanqúː kastiyaːnú.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>16.2 niːka¢iːqúː laːnλáː kaːtašaːwát.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>16.3 waníːn ka¢iːqúː piːkahqaɫstilíɫ, pakspuːskán. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts17">
+                <ANNOTATION_VALUE>16.4 čučútiː qaɫčuquwií kšaːkiɫtuːníːn taːníː maktá,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>16.5 ʔakšnií ¢ukuú ¢iːswán, talakayaːwaqúː kaqapúːn, ʔakšiɫqúː maːtankú, čuː stúku, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>16.6 wanqúː piːwaníːn maqtaqaɫmaːqúː kaːtašaːwát </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>16.7 páks šliːkaːλankáʔ. niːnata¢awaxaːqúː, niːnatapalahqúː čiwišníʔ, ʔaqšquɫníːn, pučitníːn,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>16.8 waniːnhtunkún stukuníːn, maːtankuhníːn talaqúːy. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>16.9 papiːnatapalahqúː, páks šintiːɫniín, λaxananíːn namaːlaːnanqúː,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>16.10 naːɫkatiʔanáɫ kaɫstiyaːnú, puːtám nasputkán šliːkaːλankaá kaːtašaːwát.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>16.11 ʔakšnií ʔakšiɫqúː qaɫií čiwíš š¢ulutstúku, wanqúːy piːšta¢awaxaːmaxáʔ, štapalahpatán, tunkunhtalaká.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>16.12 mín síːn, stáxaa čiwíš taːníː tanuːnimaá š¢ulutstúku.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>16.13 šqaɫnií pasaníːt wanqúː taːníː waáɬi š¢ulutstúku.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>16.14 waá λaxanaá tiː wilačaá kštampíːn kaːtašaːwát maškiːqúː šqaɫníʔ, wanqúː.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>16.15 ʔaːnqaɫiːnʔaːnqaɫíːn čanaá waniqúː škamanhkán, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts65">
+                <ANNOTATION_VALUE>16.16 waá liːpiːkwanqúː ʔakšnií ¢ukuú ¢iːswán, waniín puwanqúː piːšliːkaːná.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts69">
+                <ANNOTATION_VALUE>16.17 ʔakšnií taːqsqúːy luːwaá šaníːn, waá maːtankuú talaníːt, wanqúː.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>16.18 ʔakšnií púɫaa λankamaːtankuú ¢iːsá, niːláy ʔakšiɫaa katuːwaá tuː ta¢awaxáːy, tunkunhtaláy. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>16.19 ¢aːpuú ʔanqúː ksikulán, kiːsquyiqúː škantiːlahkán,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts81">
+                <ANNOTATION_VALUE>16.20 niːtuːkalaniqúːɫ puwanqúː ktixií ʔakšnií λaːwanqúː.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts85">
+                <ANNOTATION_VALUE>16.21 naːčanaá waniqúː skawanáʔ, maškiːqúː škantiːlahkán.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts89">
+                <ANNOTATION_VALUE>16.22 niːtuːkataːtanuqɫqúːɫ tuː niːλáːn, niːtuːkaːkšiɫqúːɫ naːmahλaxanáʔ, čuː tapaláʔ. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts93">
+                <ANNOTATION_VALUE>16.23 ʔaːnqaɫíːn liːpiːkwaá λaːwanqúː tuː niːλáːn štaːyít kaːmaqkuːtíy kaː¢iːsníʔ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts97">
+                <ANNOTATION_VALUE>16.24 naːλaːwanqúː maːskikaːkawanií kštampúːn tastunút, maqapí¢ii ksipií minquːyáːčáʔ, kkaːkiwiín ʔaːmaqapí¢i.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts101">
+                <ANNOTATION_VALUE>16.25 waníːn niːtalaquːkán, tunkunhlaqsputqúːy.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts105">
+                <ANNOTATION_VALUE>16.26 šmaːnhwaá talaquːkán tuː tapalahpatanquːhkuúʔ. šliːpáːn, niːkahλankaaliyá, λakšnií maːlaːpaniːnampatanqúː.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts109">
+                <ANNOTATION_VALUE>16.27 waníːn lakaskinqúː piːwaá namaːlaːnanqúː kšliːkaːλankaá kaːtašaːwát.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts113">
+                <ANNOTATION_VALUE>16.28 wáː šliːpaːnhliːtapalahpatanqúː.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Spanish">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>16.0 Estreilas que cuidan la tierra</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>muchos quienes hablan totonaco, no saben (pueden) leer, como tampoco pueden (saben) hablar castellano.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>no saben cómo es el globo terrestre (la tierra o mundo).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>ellos creen que es como un círculo, puro plano.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>(que) está en contacto con el agua en su alrededor donde termina,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>cuando empieza a anochecer, levantan la vista hacia el cielo a ver los luceros y las estrellas,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>cuentan que ellas son las que están cuidando la tierra</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>en toda su gran extensión, (para) que no se muevan ni cambien de cuerpo las piedras, troncos, palos podridos, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>a ellos luego las estrellas y los luceros los matan (los flechean, los tiran).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>si lograran cambiarse de cuerpo, todos los malos augurios, diablos, gobernarán (o reinarán),</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>ya no habrá seres humanos, todos se acabarán en todo el mundo. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts44" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>cuando ven a una piedra que tiene un aerolito, dicen que ya estaba moviéndose, quería cambiarse de cuerpo, luego la flecharon (la mataron, la tiraron). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>cae la lluvia, se moja la piedra en donde está metido el aerolito. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>está manchado de su sangre dicen por donde se ha oxidado.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts56" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>el diablo que por allá está debajo de la tierra, les da su sangre - dicen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>seguido seguido les platičan así a sus hijos, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>por eso sienten temor cuando comienza a obscurecer, ellos creen que sí es verdad.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts68" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>cuando hallan una víbora muerta, a ella el lucero la ha matado (flechado o tirado) dicen.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>cuando sale el lucero grande en la madrugada, no puede ver cosa alguna que se mueva, luego lo mata (tira) (lo flechea). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>cada rato van a la iglesia, van a encender sus ceras,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts80" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>desean que nada les pase en el camino cuando salen a andar. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>así también le dicen al brujo, le dan sus ceras. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts88" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>que no se encuentren con nada que sea malo, que no vean nada que parezca diablo ni ninguno que haya cambiado de cuerpo. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>seguido andan mucho los que malos sus hábitos (tienen) a las doce de la noche. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>también andan en pleno día en punto de las doce, algunos vienen de los cerros y otros de los montes. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts100" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>a ellos no les tiran (los matan), luego se esfuman (se desaparecen). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>solamente les tiran (los matan) a los que apenas quieren cambiarse de cuerpo para siempre, no nada más por un momento cuando quieren convertirse en malos augurios.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>ellos quisieran que gobernaran en el mundo entero. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57" TIME_SLOT_REF1="ts112" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>por eso quieren cambiarse de cuerpo para siempre. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

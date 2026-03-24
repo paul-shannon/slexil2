@@ -1,4 +1,3 @@
-import unittest
 from slexil.morphemeGloss import MorphemeGloss
 import pdb
 import yattag
@@ -16,32 +15,47 @@ termsRaw = open(grammaticalTermsFile).readlines()
 grammaticalTerms = [term.strip() for term in termsRaw]
 assert(os.path.exists(tierGuideFile))
 
-class TestMorphemeGloss(unittest.TestCase):
+#--------------------------------------------------------------------------------
+def test_morphemeGloss():
 
-        def test_morphemGloss(self):
-                print("--- test_morphemeGloss")
-                mg = MorphemeGloss(rawText, grammaticalTerms)
-                mg.parse()
-                parts = mg.getParts()
-                pdb.set_trace()
-                self.assertEqual(len(parts), 27)
+   print("--- test_morphemeGloss")
 
-        def test_getTermsList(self):
-                print("--- test_getTermsList")
-                mg = MorphemeGloss(rawText, grammaticalTerms)
-                mg.parse()
-                terms = mg.getTermsList()
-                self.assertEqual(terms, grammaticalTerms)
+   mg = MorphemeGloss(rawText, grammaticalTerms)
+   mg.parse()
+   parts = mg.getParts()
+   assert(len(parts), 27)
 
-        def test_HTML(self):
-                print("--- test_getHTML")
-                mg = MorphemeGloss(rawText, grammaticalTerms)
-                mg.parse()
-                htmlDoc = yattag.Doc()
-                mg.toHTML(htmlDoc)
-                html = htmlDoc.getvalue()
-                self.assertEqual(html.count("grammatical-term"), 8)
+#--------------------------------------------------------------------------------
+def test_getTermsList():
 
+   print("--- test_getTermsList")
+
+   mg = MorphemeGloss(rawText, grammaticalTerms)
+   mg.parse()
+   terms = mg.getTermsList()
+   assert(terms, grammaticalTerms)
+
+#--------------------------------------------------------------------------------
+def test_HTML():
+
+   print("--- test_getHTML")
+
+   mg = MorphemeGloss(rawText, grammaticalTerms)
+   mg.parse()
+   htmlDoc = yattag.Doc()
+   mg.toHTML(htmlDoc)
+   html = htmlDoc.getvalue()
+   assert(html.count("grammatical-term"), 8)
+
+#--------------------------------------------------------------------------------
+def runTests():
+
+   test_morphemeGloss()
+   test_getTermsList()
+   test_HTML()
+   
+#--------------------------------------------------------------------------------
 if __name__ == '__main__':
-                unittest.main()
+   runTests()
+   
                 

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-02-22T15:07:34-07:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/David/OpenSource/github/slexil/testData/AYAMT/AYAMT.ogg" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./AYAMT.ogg"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:20138f23-2a8c-4790-9788-690d7a1cfdb8</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">196</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="388"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="8895"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="9119"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="15134"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="15253"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="18343"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="18462"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="22865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="22985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="25296"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="25501"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="28000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="28417"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="35221"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="35999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="41058"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="41401"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="43715"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="43904"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="46082"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="46145"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="48275"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="48481"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="49821"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="50161"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="51864"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="52223"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="56650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="57394"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="62213"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="62240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="64271"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="65751"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="68826"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="69105"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="71671"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="71734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="72738"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="73232"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="75849"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="76095"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="77364"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="77818"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="79304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="79444"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="81986"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="82752"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="84310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="84375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="85932"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="86137"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="91892"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="92014"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="93856"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="93905"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="96368"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="96505"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="98035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="98149"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="101611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="101611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="103639"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="103753"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="105927"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="106209"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="110932"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="111924"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="114754"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="115189"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="117310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="117427"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="120848"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="120910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="122549"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="123357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="125633"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="125738"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="126975"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="127635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="129686"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="130274"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="131793"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="AYA">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>P@r @j@mpl@ @l, c@m@ s@ ll@m@, @l m@n@,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>@st@, s@ s@b@ q@@ @l m@n@ @s @n @n@m@l q@@ gr@t@ m@y f@@rt@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>P@r@ @l tr@@n@ gr@t@ m@s.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>@nt@nc@s @l m@n@ @st@v@ gr@t@nd@ @n @n árb@l.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>@@dz@ @ch n@nhw@j y@ t@ k@y.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>T@d@ r@t@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>K@ j@jn m@kp@t. M@knd@j mb@ʹ @@ m@knhw@j m@j.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>P@r@ n@m@dx@ j@jn @ch @n@ j@jn n@ny@xy@@j, s@ n@nhw@jy@j m@j.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>M@knd@ʔk y@kk@ mb@ʹ l@g@r.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>M@ndx@@m@, ch@ g@nhw@@j?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>@ts g@ʹ@y@@x@. @ m@ts?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>@ts @gw@chp@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>T@nt@ t@ʹ@ ch@ ny@x?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Pw@@@j, ʹnx@j ch@ ʹny@xp@ p@r@ m@ʹ@p@t @gw@@dx.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>G@jn@@ʹ nd@’@ t@nhw@j t@ pw@st@—@ bv@r @@ n@nhwy@j m@j k@ t@…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>@ts n@ʹnhw@j m@j k@ t@ p@@s@!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>D@ j@jn @nt@ns@j, n@y@@,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>mb@@ny@, @ts k@s@ t@@ n@ʹnhw@j,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>p@r@ mb@y@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>Nd@ʹkx@ y@kk@ mb@ʹk  gw@tk@y gw@kx@ y@kk@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>J@ʹm@ g@ʹ@nd@@ʹ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>Nd@ʹ@ ts@k @y@@x.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>Nd@ʹ@ g@j ʹnx@@y@ j@ʹm@ g@ʹ@nd@@ʹ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>M@knd@j ch@@g@j.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>M@ky@j sy@@y@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>M@@@ mb@ʹ@, @st@@@, m@ky@j mb@@ʹm@ l@ k@ nd@ʹ@ ky@j.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>M@py@ng@d@ʹk @sp@@d@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>P@@t@ t@g@n@@g@ @nhg@ʹ@,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>m@ndx@kxgw@ʹ@b@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>M@ndx@kxgw@ʹ@b@ d@ m@k@ʹnd@@n@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>M@knd@j d@r@kt@ d@ ndx@ʹ k@y.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>M@ch@nhg@b@ʹ @xt@ t@ l@@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>D@ j@jn t@j@ʔ ny@’@ n@ s@ s@b@ j@d@ʹk nd@ʹ@ x@@ʹg@ @@dz@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>M@ky@kx @k@ʹ@y@j k@y k@ʹm.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>@nt@nc@s n@y@@@,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>N@y@d@j mb@@ny@, j@t @ch my@@ʹny@ʹ@g@?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>M@ts n@ny@d@j n@nhwy@j m@j?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>Nd@ʹ@nhw@j d@ @n@ v@j, p@r@ t@ʹ@</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>T@ʹ@ m@ @@.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>M@kts@ʹy ky@ʹmd@ k@y.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>@s@ @s l@ q@@. [l@@ght@r]</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="phonemic" PARENT_REF="AYA" TIER_ID="AYA2">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>ʔ@ː¢@	ʔ@t	nǝ=y=ŋ•w@h	y@	t@	k@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a155" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>q@@	h@M	m@k=p@t	m@k=nǝh	m@ʔ	ʔ@ː	m@k=ŋ•w@h	m@s</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>p@r@	nǝm–h@Y–t@	h@M	ʔ@t	@n@	h@M	nǝ=y=y@š=ʔ@M	sí	nǝ=y=ŋ•w@h=ʔ@M	m@s</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>m@k=n@ʔk	y@kː@	m@ʔ	l@g@r</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>m@=y=nǝm–h@Y	č@	kǝ=yn=w@T</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>ʔǝ¢	kǝ=ʔ@=y@š–ǝ	ʔ@	m@¢</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>ʔǝ¢	ʔ@=w@t–p@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>t@nt@	t@ʔ@	č@	yn=y@š</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>p@@s	ʔn=š@T	č@	ʔn=y@š–p@	p@r@	m@=ʔ@=p@t	ʔ@=w@t–ǝʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>kǝ=ʔn=h@ːʔ–ǝʔ	nǝʔǝ	t@n=w@T	t@	p@@st@	@	v@r	ʔ@ː	nǝ=y=ŋ•w@h	m@s	q@@	t@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>ʔǝ¢	nǝ=ʔn=ŋ•w@h	m@s	q@@	t@	pǝːs@N</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>d@	h@M	@nt@nc@s	nǝ=y=ʔ@t@ŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>mǝːñ@	ʔǝ¢	c@s@	t@ː	nǝ=ʔn=ŋ•w@h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>p@r@	mb@y@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>nǝʔkš–ǝ	y@kː@	m@ʔ=k	gwǝt•k@y	gw@kš–ǝ	y@kː@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>h@M=ʔ@M	kǝ=ʔ@=nǝh–ǝʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>nǝʔǝ	¢@k	ʔ@=y@š–ǝʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>nǝʔǝ	k@T	ʔn=š@ːy@	h@M=ʔ@M	kǝ=ʔ@=nǝh–ǝʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>m@k=nǝh	y=¢@ːk–h@h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>m@=y=k@T	y=š@ːy@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>m@=m@ʔ@	@st@	m@=y=k@T	m@@ʔm@	l@	q@@	nǝʔǝ	y=k@T</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>m@=y=p@n•k@tǝʔk	@sp@d@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>p@t–@	tǝkǝ•ŋ•n@ːk@	ʔ@ŋkǝʔǝ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>m@=y=n@kš•w@ʔ@p@h</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>m@=y=n@kš•w@ʔ@p@h	d@	m@k=k@ʔn•t@n–@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>m@k=nǝh	d@r@ct@	d@	y=n@ʔ	k@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>m@=y=tǝŋ•kǝp@ʔ	h@st@	t@	l@d@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>d@	h@M	t@h@ʔ	nny@ʔ@	n@	s@‿s@b@	h@t@=ʔk	nǝʔǝ	x@k–ǝʔ	@ː¢@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>m@=y=k@kš	m@=y=k@ʔY–ǝʔǝY	k@y	kǝʔm</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>@nt@nc@s	nǝ=y=ʔ@t@ŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>nǝ=y=ʔ@t@ŋ	mǝːny@	y@t	ʔ@t	yn=mǝːʔny@‿ʔ@g@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>m@¢	nǝ=yn=ʔ@t@ŋ	nǝ=yn=ŋ•w@h	m@s</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>nǝʔǝ=ʔ@=ŋ•w@h	d@	@n@	v@z	p@r@	t@ʔ@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>t@ʔ@	m@	ʔ@ː</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>m@k=¢ǝʔy	y=kǝʔm–t@	k@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="AYA" TIER_ID="ENG">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>‘F@r @x@mpl@ @t, wh@t d@ y@@ c@ll @t, th@ m@nk@y,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>‘@m, y@@ kn@w th@t th@ m@nk@y @s @n @n@m@l th@t sh@@ts v@ry l@@dly.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>‘B@t th@nd@r sh@@ts @v@n m@r@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>‘S@ th@n th@ m@nk@y w@s sh@@t@ng @p @n @ tr@@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>‘M@nk@y @s sh@@t@ng @n @ tr@@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>‘@ll th@ t@m@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>‘H@ l@ft. H@ w@nt l@@k@ng f@r s@m@@n@ wh@ c@@ld sh@@t l@@d@r.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>‘B@t th@r@ @s @n@, th@y s@y, th@r@ w@rk@ng, wh@ d@@s sh@@t m@r@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>‘M@nk@y @rr@v@d @n th@t pl@c@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>‘H@ s@@d t@ h@m, “Wh@t @r@ y@@ d@@ng?” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>‘ “@’m w@rk@ng. @nd y@@?” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>‘ “@’m @@t w@lk@ng.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>‘ “Y@@ h@v@ s@ l@ttl@ w@rk t@ d@?” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE> ‘ “W@@@ll, @ h@v@ w@rk t@ d@ b@t @ w@nt f@r @ w@lk @nyw@y.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>‘ “L@t’s m@k@ @ b@t—l@t’s s@@ wh@ sh@@ts l@@d@r th@n @… .” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>‘ “@ sh@@t l@@d@r th@n @ny m@n!” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>‘S@ th@n, h@ s@ys t@ h@m,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a108" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>‘th@ l@ghtn@ng s@ys, “@ d@n’t sh@@t @ft@n,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>‘ “b@t wh@t th@ h@ck?’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a110" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>‘ “G@ cl@mb @p @n th@t br@nch.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>‘ “@’m g@@ng pr@s@ntly.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a112" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>‘ “@ @m g@@ng t@ st@p w@rk@ng.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>‘ “@’m g@@ng t@ p@t @n my sh@rt, @nd @’ll b@ r@ght th@r@.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>‘H@ w@nt h@m@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>‘H@ p@t @n h@s sh@rt.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>‘H@ dr@ss@d h@ms@lf.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>‘H@ gr@bb@d h@s sw@rd.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>‘@@t th@ d@@r @nt@ h@s p@t@@,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>‘h@ sw@ng @t @r@@nd.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>‘H@ sw@ng @t @r@@nd @nd f@r@d @ b@lt @f l@ghtn@ng.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>‘@t w@nt r@ght f@r th@ tr@@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>‘Th@ b@lt spl@t th@ tr@@ @n h@lf.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>@nd fr@m th@r@ n@ @n@ kn@ws wh@r@ th@ m@nk@y w@ll @nd @p.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>‘@ br@nch h@t h@m @nd k@ll@d h@m b@l@w th@ tr@@.’	</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>‘Th@n h@ s@ys,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>‘L@ghtn@ng s@ys, “Wh@r@ @s y@@r c@@r@g@?’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>‘ “Y@@ s@y y@@ sh@@t l@@d@r?’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>‘ “@ w@s g@@ng t@ sh@@t @t @nc@, b@t n@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>‘ “N@t @n@ l@ttl@ b@t.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>‘M@nk@y r@m@@n@d th@r@ b@l@w th@ tr@@.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>‘Th@t’s wh@t.’ (l@@ght@r)</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="AYA2" TIER_ID="GL">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a58">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a157" ANNOTATION_REF="a59">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a158" ANNOTATION_REF="a60">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a159" ANNOTATION_REF="a61">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a160" ANNOTATION_REF="a62">
+                <ANNOTATION_VALUE>m@nk@y	@x@st	H@B=3@=M@@TH•cry	@n	@n@	tr@@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a161" ANNOTATION_REF="a155">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a63">
+                <ANNOTATION_VALUE>th@t	th@r@	CMP=@x@t	CMP=g@	D@ST	wh@	CMP=M@@TH•cry	m@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a163" ANNOTATION_REF="a64">
+                <ANNOTATION_VALUE>b@t	s@y–@PPL–P@SS	th@r@	@x@st	@n@	th@r@	H@B=3@=w@rk=@@M	y@s	H@B=3@=M@@TH•cry=@@M	m@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a164" ANNOTATION_REF="a65">
+                <ANNOTATION_VALUE>CMP=@rr@v@	@b@v@RN	D@ST	pl@c@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a165" ANNOTATION_REF="a66">
+                <ANNOTATION_VALUE>CMP=3@=s@y–@PPL	wh@t	PR@G=2@=d@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a166" ANNOTATION_REF="a67">
+                <ANNOTATION_VALUE>1PR@	PR@G=1S=w@rk–@NTR	@nd	2PR@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a167" ANNOTATION_REF="a68">
+                <ANNOTATION_VALUE>1PR@	1S=w@lk–@NC</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a168" ANNOTATION_REF="a69">
+                <ANNOTATION_VALUE>s@.m@ch	N@G	wh@t	2@=w@rk</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a169" ANNOTATION_REF="a70">
+                <ANNOTATION_VALUE>w@ll	1@=h@v@	th@t	1@=w@rk–@NC	b@t	CMP=1S=@x@t	1S=w@lk–@NTR</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a170" ANNOTATION_REF="a71">
+                <ANNOTATION_VALUE>PR@G=1@=kn@w–@NTR	F@T	1@.@NCL=d@	@n@	b@t	t@	s@@	wh@	H@B=3@=M@@TH•cry	m@r@	th@n	@n@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a171" ANNOTATION_REF="a72">
+                <ANNOTATION_VALUE>1PR@	H@B=1@=M@@TH•cry	m@r@	th@n	@n@	m@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a172" ANNOTATION_REF="a73">
+                <ANNOTATION_VALUE>fr@m	th@r@	th@n	H@B=3@=s@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a173" ANNOTATION_REF="a74">
+                <ANNOTATION_VALUE>l@ghtn@ng	1PR@	@lm@st	N@G	H@B=1@=M@@TH•cry</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a174" ANNOTATION_REF="a75">
+                <ANNOTATION_VALUE>b@t	w@ll</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a175" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>g@–@MP	@b@v@RN	D@ST=R@L	b@g•w@@d	cl@mb–@NTR	@b@v@RN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a77">
+                <ANNOTATION_VALUE>th@r@=@@M	PR@G=1S=g@–@NTR</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a78">
+                <ANNOTATION_VALUE>F@T	l@@v@	1S=w@rk–@NTR</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a79">
+                <ANNOTATION_VALUE>F@T	p@t.@n	1PSR=sh@rt	th@r@=@@M	PR@G=1S=g@–@NTR</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a179" ANNOTATION_REF="a80">
+                <ANNOTATION_VALUE>CMP=g@	3@=st@m@ch–@ns@d@RN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a180" ANNOTATION_REF="a81">
+                <ANNOTATION_VALUE>CMP=3@=p@t.@n	3PSR=sh@rt</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a181" ANNOTATION_REF="a82">
+                <ANNOTATION_VALUE>CMP=D@ST	th@s	CMP=3@=p@t.@n	@ll	3PR@	wh@t	F@T	3@=p@t.@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a83">
+                <ANNOTATION_VALUE>CMP=3@=gr@b•@nt@r	sw@rd</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a183" ANNOTATION_REF="a84">
+                <ANNOTATION_VALUE>@x@t–N@M	h@@s@•M@@TH•sk@n	p@t@@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a184" ANNOTATION_REF="a85">
+                <ANNOTATION_VALUE>CMP=3@=h@t•sp@n</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a185" ANNOTATION_REF="a86">
+                <ANNOTATION_VALUE>CMP=3@=h@t•sp@n	@f	CMP=sh@n@•st@nd–N@M</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a186" ANNOTATION_REF="a87">
+                <ANNOTATION_VALUE>CMP=g@	d@r@ct	@f	3@=f@rRN	tr@@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a187" ANNOTATION_REF="a88">
+                <ANNOTATION_VALUE>CMP=3@=ch@p•spl@t	@nt@l	@n@	s@d@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a188" ANNOTATION_REF="a89">
+                <ANNOTATION_VALUE>fr@m	th@r@	N@G	3PR@	N@G	b@.kn@wn:3SG:PR@S	h@t@=ʔk	nǝʔǝ	x@k–ǝʔ	@ː¢@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a193" ANNOTATION_REF="a90">
+                <ANNOTATION_VALUE>CMP=3@=h@t.w@th.br@nch	CMP=3@=d@@–C@@S	tr@@	b@l@w</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a189" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>th@n	H@B=3@=s@y</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>H@B=3@=s@y	l@ghtn@ng	wh@r@	@x@st	2PSR=c@@r@g@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a190" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>2PR@	H@B=2@=s@y	H@B=2@=M@@TH•cry	m@r@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a195" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>F@T=1S=M@@TH•cry	@f	@n@	t@m@	b@t	N@G</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a196" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>N@G	l@ttl@	wh@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a191" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>CMP=st@y	3@=b@l@w–P@SS	tr@@</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a192" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonemic" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

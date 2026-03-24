@@ -1,0 +1,593 @@
+title: title
+narrator: narrator
+textEntry: textEntryBy X
+mediaFile: file:///Users/Kevin/U of A/RA stuff/Texts-unprocessed-KP/30-01-03cLlorona-MM.wav
+mimeType: audio/x-wav
+
+lines:
+  - lineNumber: 1
+    startTime: 1380
+    endTime: 4190
+    Line: [pa:lá:jxlamattzamá:sipéj]
+    L3Gloss: |
+         ‘pronto él es que esa montaña’  [00:01 ]
+
+  - lineNumber: 2
+    startTime: 5450
+    endTime: 6740
+    Line: ["mattalhmá:nxya:wa:kaní:"]
+    L3Gloss: |
+         ‘es que arriba lo habían puesto’  [00:04]
+
+  - lineNumber: 3
+    startTime: 7710
+    endTime: 8980
+    Line: ["túchachi:ahtíntorre"]
+    L3Gloss: |
+         ‘creo como una torre’ [00:06]
+
+  - lineNumber: 4
+    startTime: 11860
+    endTime: 12100
+    Line: [he:,mat]
+    L3Gloss: |
+         ‘y es que’  [00:10]
+
+  - lineNumber: 5
+    startTime: 15270
+    endTime: 16600
+    Line: ["matxwankánlahma:jtzámat"]
+    L3Gloss: |
+         ‘es que decían hace mucho tiempo, es que…’ [00:14]
+
+  - lineNumber: 6
+    startTime: 18720
+    endTime: 19730
+    Line: [matu:tzáix…]
+    L3Gloss: |
+         'es que eso este…’  [00:17]
+
+  - lineNumber: 7
+    startTime: 22780
+    endTime: 27980
+    Line: ["mat<imat>u:tzáxpu:yújchi:naka:ahpúnmat<i>tu:<ix…tu:>ixtawaná:lh"]
+    L3Gloss: |
+         ‘es que en eso iban a bajar del cielo, es que, lo que, este iban a comer’  [00:21]
+
+  - lineNumber: 8
+    startTime: 28800
+    endTime: 29150
+    Line: [PS:,jmm]
+    L3Gloss: |
+         ‘sí’  [00:27]
+
+  - lineNumber: 9
+    startTime: 29300
+    endTime: 29800
+    Line: [MM:,jmm,]
+    L3Gloss: |
+         ‘sí’  [00:28]
+
+  - lineNumber: 10
+    startTime: 31070
+    endTime: 32850
+    Line: ["matixpu:yújchi:naka:ahpún"]
+    L3Gloss: |
+         ‘es que iban a bajar del cielo’  [00:30]
+
+  - lineNumber: 11
+    startTime: 32850
+    endTime: 36850
+    Line: [mat<i>tzamá:<tzamá:>sipéjmatu:tzámat<i>xtawanálhwa:tzá]
+    L3Gloss: |
+         ‘es que esa, esa montaña, es que eso iban a comer aquí’  [00:31]
+
+  - lineNumber: 12
+    startTime: 38470
+    endTime: 39290
+    Line: [he:wankánmat]
+    L3Gloss: |
+         ‘y dicen es que’  [00:37]
+
+  - lineNumber: 13
+    startTime: 42690
+    endTime: 48880
+    Line: [mattzamá:ka:putzáka:tí:<ti:>ka:maklalhawíka]
+    L3Gloss: |
+         ‘es que este, buscaron quien quien iban a descomponer’  [00:41]
+
+  - lineNumber: 14
+    startTime: 50140
+    endTime: 53900
+    Line: [cha:cha:chi:tzácha:<wa…>ka:waniyá,kwantitajilí]
+    L3Gloss: |
+         ‘este, este, como lo que les decimos rayos’  [00:49]
+
+  - lineNumber: 15
+    startTime: 54580
+    endTime: 55140
+    Line: [PS:,jilininín]
+    L3Gloss: |
+         ‘rayos’  [00:53]
+
+  - lineNumber: 16
+    startTime: 55210
+    endTime: 55720
+    Line: [MM:,jmm]
+    L3Gloss: |
+         ‘sí’  [00:54]
+
+  - lineNumber: 17
+    startTime: 56520
+    endTime: 60050
+    Line: [matka:pu:tzákamat<i>ka:talaklhó:lh]
+    L3Gloss: |
+         'es que buscaron es que para descomponer’  [00:54]
+
+  - lineNumber: 18
+    startTime: 60510
+    endTime: 64480
+    Line: [talaktúkxli,he:]
+    L3Gloss: |
+         ‘lo quebraron, y…’  [00:59]
+
+  - lineNumber: 19
+    startTime: 65860
+    endTime: 67190
+    Line: [ja:mattu:talhawanílh]
+    L3Gloss: |
+         ‘es que no le hicieron nada’  [01:04]
+
+  - lineNumber: 20
+    startTime: 67820
+    endTime: 72380
+    Line: ["ma:skímatmahtínmahtínmat<i>ixtantúcha:mat",xtantatzukunímat<i>,]
+    L3Gloss: |
+         ‘aunque una tras otra, es que iban este es que iban a empezar es que’  [01:06]
+
+  - lineNumber: 21
+    startTime: 72990
+    endTime: 76070
+    Line: [<tattate:>wamá:tate:laktukxkutúntate:tayá]
+    L3Gloss: |
+         ‘este, este, quieren pasar a tumbarlo y quebrarlo’  [01:11]
+
+  - lineNumber: 22
+    startTime: 77540
+    endTime: 78000
+    Line: [he:]
+    L3Gloss: |
+         ‘y’  [01:16]
+
+  - lineNumber: 23
+    startTime: 80160
+    endTime: 83820
+    Line: [ja:mattu:talhawanílhchu:ntzatzámatya:lh,chu:ntzatzámatya:lh]
+    L3Gloss: |
+         ‘y es que no le hicieron nada, es que sí, sí quedó’  [01:19]
+
+  - lineNumber: 24
+    startTime: 85440
+    endTime: 88650
+    Line: [he:matputzákatzamá:]
+    L3Gloss: |
+         ‘y es que buscaron eso’ [01:24]
+
+  - lineNumber: 25
+    startTime: 90090
+    endTime: 92050
+    Line: [u:tzá,cha:<wa…>,wanikán,tzamá:,"aktzíni"]
+    L3Gloss: |
+         ‘eso que le llaman la: llorona’ [01:29]
+
+  - lineNumber: 26
+    startTime: 93550
+    endTime: 96940
+    Line: [u:tzá,wanipa:lá:kachu:wáqueu:tzánalaklhó:]
+    L3Gloss: |
+         ‘eso le dijeron ahora que ella lo iba a descomponer’  [01:34]
+
+  - lineNumber: 27
+    startTime: 98530
+    endTime: 101400
+    Line: [he:ki:núxlamatxli:ká:na:mat]
+    L3Gloss: |
+         ‘y ella es que de verdad es que…’ [01:37]
+
+  - lineNumber: 28
+    startTime: 103430
+    endTime: 104830
+    Line: ["mattzájmahtíntasálh"]
+    L3Gloss: |
+         ‘es que nada más una vez lloró’ [01:42]
+
+  - lineNumber: 29
+    startTime: 107230
+    endTime: 111150
+    Line: ["peromatmahátmahátunká<i>wamá:"]
+    L3Gloss: |
+         ‘pero es que lejos lejos este…[01:46]
+
+  - lineNumber: 30
+    startTime: 113500
+    endTime: 115080
+    Line: [mat,tujnihólh,mat,<i>,ja:]
+    L3Gloss: |
+         ‘es que lo hizo correr, es que donde’ [01:52]
+
+  - lineNumber: 31
+    startTime: 117680
+    endTime: 118500
+    Line: [chi:,"lakaláh"]
+    L3Gloss: |
+         ‘¿cuantas partes?’ [01:56]
+
+  - lineNumber: 32
+    startTime: 119320
+    endTime: 122370
+    Line: [xtali:chi:wi:nán,ja:,mat,makachá:lh,makachá:lh,"ixpálhma"]
+    L3Gloss: |
+         ‘contaban donde es que llegó, llegaron los pedazos’ [01:58]
+
+  - lineNumber: 33
+    startTime: 122900
+    endTime: 123460
+    Line: [PS:,tzamá:,chiwíx]
+    L3Gloss: |
+         ‘esa piedra’ [02:01]
+
+  - lineNumber: 34
+    startTime: 123460
+    endTime: 123820
+    Line: [MM:,"je:"]
+    L3Gloss: |
+         ‘sí’ [02:02]
+
+  - lineNumber: 35
+    startTime: 123830
+    endTime: 124090
+    Line: [PS:,sipéj]
+    L3Gloss: |
+         ‘montáña’ [02:02]
+
+  - lineNumber: 36
+    startTime: 124260
+    endTime: 126110
+    Line: [MM:,"sipéjmahátmahát"]
+    L3Gloss: |
+         ‘montaña, lejos lejos’ [02:03]
+
+  - lineNumber: 37
+    startTime: 127640
+    endTime: 129920
+    Line: [tawánastamatlha:wanikánmatnak]
+    L3Gloss: |
+         ‘dicen hasta es que donde le dicen es que en…’ [02:06]
+
+  - lineNumber: 38
+    startTime: 131930
+    endTime: 134300
+    Line: [ja:wanikán,"matnakahapuxámmat",]
+    L3Gloss: |
+         ‘donde le dicen es que en Cempoala es que’ [02:10]
+
+  - lineNumber: 39
+    startTime: 135050
+    endTime: 137990
+    Line: [asta,antzá,makacha:nhólh,mat,<nax>,"ixpálhma"]
+    L3Gloss: |
+         ‘hasta allá llegaron es que sus pedazos’ [02:13]
+
+  - lineNumber: 40
+    startTime: 139410
+    endTime: 140890
+    Line: [mat<i>chi:túchachi:]
+    L3Gloss: |
+         es que como creo que …’ [02:18]
+
+  - lineNumber: 41
+    startTime: 140890
+    endTime: 147060
+    Line: [<te:,te:>,"te:lahpahlhte:hólh",wachitzá,ma:hosu:hólh]
+    L3Gloss: |
+         ‘pasó a tumbarlo, parece como si lo hubiera volado’ [02:22]
+
+  - lineNumber: 42
+    startTime: 147250
+    endTime: 147810
+    Line: [PS:,jmm]
+    L3Gloss: |
+         ‘sí’ [02:26]
+
+  - lineNumber: 43
+    startTime: 149120
+    endTime: 153590
+    Line: [MM:,he:,mat]
+    L3Gloss: |
+         ‘y es que’ [02:37]
+
+  - lineNumber: 44
+    startTime: 154890
+    endTime: 156350
+    Line: [tzaj,"mahtín",kwan,te:tayálh]
+    L3Gloss: |
+         ‘nada más una vez pasó a tumbarlo’ [02:33]
+
+  - lineNumber: 45
+    startTime: 157760
+    endTime: 158620
+    Line: [he:,chuwá:]
+    L3Gloss: |
+         ‘y ahora’ [02:36]
+
+  - lineNumber: 46
+    startTime: 160270
+    endTime: 162440
+    Line: [mat,túcha,tzajtzá,"lehsawipalakán"]
+    L3Gloss: |
+         ‘es que creo que ya nada más para engañarlo’
+
+  - lineNumber: 47
+    startTime: 163200
+    endTime: 163930
+    Line: [mat,wanikán]
+    L3Gloss: |
+         ‘es que le dicen’ [02:42]
+
+  - lineNumber: 48
+    startTime: 165050
+    endTime: 167280
+    Line: [no,ja:,xli:ká:na:,ja:,"lahpahlhní:ta:"]
+    L3Gloss: |
+         ‘no no es verdad, no lo has tumbado’ [02:43]
+
+  - lineNumber: 49
+    startTime: 170150
+    endTime: 172140
+    Line: ["kalátzi",ju:,wajkús,ya:lh,mat,wanikán]
+    L3Gloss: |
+         ‘velo, mira allí está todavía, es que le dicen ’ [02:49]
+
+  - lineNumber: 50
+    startTime: 172510
+    endTime: 174150
+    Line: [chu:ntzatzá,chi:,ya:lh,mat,wanikán]
+    L3Gloss: |
+         ‘así como está, es que le dicen’ [02:51]
+
+  - lineNumber: 51
+    startTime: 175940
+    endTime: 179090
+    Line: [mat,túcha,chu:,ki:tzukupálh,"mahtín"]
+    L3Gloss: |
+         ‘es que creo que fue a empezár una vez más’ [02:55]
+
+  - lineNumber: 52
+    startTime: 180600
+    endTime: 182720
+    Line: [he:,ja:tzá,mat,u:tzá,tu:,xyálh,mat,tzajtzá]
+    L3Gloss: |
+         ‘y ya no era, es que eso que estaba es que nada más’ [02:59]
+
+  - lineNumber: 53
+    startTime: 183130
+    endTime: 185310
+    Line: [tzajtzá,"pohlhnutzá",mat,ixya:wanikán<i>,]
+    L3Gloss: |
+         ‘es que ya era nube lo que tenían allí’ [03:02]
+
+  - lineNumber: 54
+    startTime: 187120
+    endTime: 187520
+    Line: [PS:,mmm,]
+    L3Gloss: |
+         ‘sí’ [03:04]
+
+  - lineNumber: 55
+    startTime: 188250
+    endTime: 189790
+    Line: [MM:,wamá:,chu:ntzatzá,chi:,ya:lh,ja:tzá]
+    L3Gloss: |
+         ‘este, así como está no este…’ [03:06]
+
+  - lineNumber: 56
+    startTime: 191510
+    endTime: 192020
+    Line: [PS:,ja:,tu:,"te:te:ní:"]
+    L3Gloss: |
+         ‘no ha pasado a tumbar nada’ [03:10]
+
+  - lineNumber: 57
+    startTime: 192030
+    endTime: 194320
+    Line: [MM:,ja:,tu:,ja:,tu:,"te:te:ní:ta:",mat,wanikán]
+    L3Gloss: |
+         ‘no has, no has pasado a tumbar nada, es que le dice’ [03:10]
+
+  - lineNumber: 58
+    startTime: 194740
+    endTime: 197090
+    Line: [túcha,chi:,"xli:watunka",max,ki:tzukupálh]
+    L3Gloss: |
+         ‘creo que con todos sus fuerzas, fue a empezar otra vez’ [03:13]
+
+  - lineNumber: 59
+    startTime: 199250
+    endTime: 204710
+    Line: [jo:,mat,tzajtzatunká,"lahlhtzáj",mat,lhtu:n,mat,te:taxtúlh]
+    L3Gloss: |
+         ‘hijodela, es que nada más pasó derecha, es que, es que pasó´derecho’’ [03:18]
+
+  - lineNumber: 60
+    startTime: 207190
+    endTime: 209710
+    Line: [maká:nka,xlá,mat,<lakas…>,lakatzáj,mat,maká:nka]
+
+  - lineNumber: 61
+    startTime: 209710
+    endTime: 213480
+    Line: [ásta,mat,naxtanhe:n,makachá:nka,ásta,mat]
+    L3Gloss: |
+         ‘hasta es que en un rincón lo aventaron, hasta es que’ [03:30]
+
+  - lineNumber: 62
+    startTime: 214790
+    endTime: 217990
+    Line: [chuwá:,mat,antzá,chi:,ma:pikanitanchá,mat,ja:,la:,ta:kí:,mat]
+    L3Gloss: |
+         ‘ahora es que allí donde llegó es que no se puede levantar es que’ [03:33]
+
+  - lineNumber: 63
+    startTime: 218710
+    endTime: 223170
+    Line: [mat,"lahwá",<lak…>,laklhululún,mat,cadena,li:chi:ma:pikaní]
+    L3Gloss: |
+         ‘es que  puro cadenas gruesas la: habían amarrado ’ [03:38]
+
+  - lineNumber: 64
+    startTime: 223510
+    endTime: 224130
+    Line: [PS:,"lakchi:wi:li:kaní:"]
+    L3Gloss: |
+         ‘¿la habían amarrado?’ [03:42]
+
+  - lineNumber: 65
+    startTime: 224150
+    endTime: 224670
+    Line: [MM:,"je:",]
+    L3Gloss: |
+         ‘sí ’ [03:43]
+
+  - lineNumber: 66
+    startTime: 225130
+    endTime: 226970
+    Line: [tawán,"lahmaha:nín",pus,chuwá:,mat]
+    L3Gloss: |
+         ‘dicen los antiguos pues ahora es que ’ [03:44]
+
+  - lineNumber: 67
+    startTime: 228650
+    endTime: 234050
+    Line: [pus,chuwá:,chi:,mat,wa:chá,chi:,wajcha:]
+    L3Gloss: |
+         ‘pues ahora así como es que, es que así’ [03:47]
+
+  - lineNumber: 68
+    startTime: 234180
+    endTime: 236290
+    Line: [julio,wajtzé,tzukú,tasá,tawaní]
+    L3Gloss: |
+         ‘en julio cuando empieza a llorar dicen’ [03:53]
+
+  - lineNumber: 69
+    startTime: 236400
+    endTime: 236810
+    Line: [PS:,mmjmm]
+    L3Gloss: |
+         ‘sí’ [03:55]
+
+  - lineNumber: 70
+    startTime: 236900
+    endTime: 239530
+    Line: [MM:,pus,tzaj,mat,xmá:n,tasama:chá,ja:,mat,la:,ta:kí:]
+    L3Gloss: |
+         ‘pues es que nada más está llorando, es que no se puede levantar’ [03:56]
+
+  - lineNumber: 71
+    startTime: 240930
+    endTime: 245410
+    Line: [antzá,mat,<i>,chi:,ma:pí:ka,mat,<i>,ni,cha:lh]
+    L3Gloss: |
+         ‘allí es que la: amarraron es que cuando llegó’ [03:59]
+
+  - lineNumber: 72
+    startTime: 246040
+    endTime: 248230
+    Line: [túcha,chi:,"xliwáhtúnka",tama:chá]
+    L3Gloss: |
+         ‘creo como con todas sus fuerzas cayó’ [04:04]
+
+  - lineNumber: 73
+    startTime: 250280
+    endTime: 252140
+    Line: [tali:chiwinán,tzamá:,"lahmahanín"]
+    L3Gloss: |
+         ta+li:+chiwinán	tzamá:	la'h+ma'han+nín	
+
+  - lineNumber: 74
+    startTime: 252270
+    endTime: 254930
+    Line: [chi:,chi:,li:laklho:ká,tzamá:,sipej,]
+    L3Gloss: |
+         ‘como como tumbaron esa montaña’ [04:11]
+
+  - lineNumber: 75
+    startTime: 257020
+    endTime: 261160
+    Line: [mat,talhmá:n,xyálh,mat,antzá,xtayújchi,tu:,xtawanálh]
+    L3Gloss: |
+         ‘es que estaba alto, es que por allí iban a bajar, los que iban a comer a la: gente ’ [04:15]
+
+  - lineNumber: 76
+    startTime: 262370
+    endTime: 266130
+    Line: [mat,"ixlahcha:ní:","ahapún",ya:lh,tzamá:,tawán]
+    L3Gloss: |
+         ‘es que llegaba el cielo que estaba parada dicen ’ [04:21]
+
+  - lineNumber: 77
+    startTime: 266700
+    endTime: 267400
+    Line: [PS:,"hálha",sipéj,]
+    L3Gloss: |
+         ‘¿montaña grande? ’ [04:25]
+
+  - lineNumber: 78
+    startTime: 267490
+    endTime: 268280
+    Line: [MM:,"hálha",sipéj,]
+    L3Gloss: |
+         ‘montaña grande ’ [04:26]
+
+  - lineNumber: 79
+    startTime: 270270
+    endTime: 271390
+    Line: [tzaj,xma:n,xlakán]
+    L3Gloss: |
+         ‘nada más ellos ’ [04:29]
+
+  - lineNumber: 80
+    startTime: 272230
+    endTime: 273840
+    Line: [túcha,kwan,como,"lahma:jtzá",]
+    L3Gloss: |
+         ‘creo que como en aquel tiempo’
+
+  - lineNumber: 81
+    startTime: 276550
+    endTime: 282970
+    Line: ["póhtuxtahahíchi:tzamá:tu:cha:<ix>ixyálh<i>tawánperoja:xli:ká:na:ja:",]
+    L3Gloss: |
+         ‘todo lo creían lo que, este, creo que estaba pero no era verdad  ’ [04:35]
+
+  - lineNumber: 82
+    startTime: 283590
+    endTime: 284950
+    Line: [ja:n,cha:n,nak,"ahapún",tzamá:]
+    L3Gloss: |
+         ‘¿dónde van a llegar al cielo eso? ’ [04:42]
+
+  - lineNumber: 83
+    startTime: 285400
+    endTime: 286330
+    Line: [PS:,tzaj,chu:,tali:chiwinán,]
+    L3Gloss: |
+         ‘¿nada más cuentan?’ [04:44]
+
+  - lineNumber: 84
+    startTime: 286340
+    endTime: 287930
+    Line: [MM:,ja:n,tzaj,chu:,tali:chiwinán]
+    L3Gloss: |
+         ‘sí, nada más cuentan’ [04:45]
+

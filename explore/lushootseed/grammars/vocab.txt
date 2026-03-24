@@ -1,4 +1,9 @@
-<li><b>dsk̓ʷuy</b>  []
+<li><b>dsk̓ʷuy</b>
+   <ul>
+     <li><b>d-</b> my [LD 76]
+     <li><b>sk̓ʷuy</b> mother [LD 132]
+    </ul>
+    
 <li><b>tsə</b> the, a [feminine]  [LD 228]
    <li><b>tukʷaxʷatəb</b>
    <ul>

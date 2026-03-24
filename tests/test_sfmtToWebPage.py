@@ -419,6 +419,37 @@ def test_marthaLamontOwl():
    print("    wrote %s" % f.name)
 
 #--------------------------------------------------------------------------------
+def test_handleUnnumberedLines():
+
+   print("--- test_handleUnnumberedLines")
+
+   f = "../testData/validEafYamlFiles/inferno-withHTMLAndUnnumberedLines.yaml"
+
+   page = sfmtToWebPage(f,
+                     grammaticalTerms=mga.getAll(),
+                     projectDirectory="tmp",
+                     verbose = False,
+                     fontSizeControls = True,
+                     startLine = None,
+                     endLine = None,
+                     pageTitle = "Martha Lamont - Owl Lives There",
+                     helpFilename = None,
+                     helpButtonLabel = None,
+                     kbFilename = None,
+                     linguisticsFilename = None,
+                     fixOverlappingTimeSegments = False,
+                     webpackLinksOnly=False,
+                     useTooltips=False)
+
+
+   htmlText = page.toHTML()
+   filename = "inferno-unnumberedLines.html"
+   f = open(filename, "wb")
+   f.write(bytes(htmlText, "utf-8"))
+   f.close()
+   print("    wrote %s" % f.name)
+
+#--------------------------------------------------------------------------------
 # demonstration: shows how to find a line, a tag, which offends yattag.
 # with a minor change to tieredLine.py, this demo no longer fails, but
 # the method demonstrated here will likely be uselful in the future.
@@ -468,19 +499,22 @@ def test_findYattagOffendingLine():
 #--------------------------------------------------------------------------------
 def runTests():
 
+   
    test_infernoOneLine()
    test_infernoSimple()
    test_marthaLamontOwl()
    test_infernoWithHtml()
    test_lushootseedGrammar()
-
    test_harryMosesDaylight_bug()
+
    test_marthaLamontOwl()
 
    test_inferno_withEscapedYaml()
    test_harryMosesDaylight()
    test_tlingitVideoVanRescue()
    test_aliceFromEaf()
+
+   test_handleUnnumberedLines()
 
 #--------------------------------------------------------------------------------
 if __name__ == '__main__':

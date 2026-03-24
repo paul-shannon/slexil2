@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="Paul Shannon" DATE="2019-08-02T11:57:59-08:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/David/Google Drive/Current/FNLP/Day 2 — ELAN/harryMosesDaylight/daylight_1_4.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./daylight_1_4.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:03e8e331-9edc-4381-a8b0-97bc3e4ea8c3</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">340</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="6600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="12700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="17800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="22938"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="lushootseedSpeech">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kwi tuhaʔkw  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>tudxʷadhadəxʷ tiʔəʔ ʔaciɬtalbixʷ, ʔəsčaləxʷ kʷi gʷədəxʷkʷədxʷ čəɬ kʷi sləx̌il</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>ʔaʔ kʷi sləx̌il ʔal kʷi q’xʷul’gʷədxʷ gʷəl ʔəsčal kʷi gʷədəxʷkʷədxʷ čəɬ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="phonemic" PARENT_REF="lushootseedSpeech" TIER_ID="parsedLine">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>ʔal	kʷi	tu=haʔkʷ	gʷəl	xʷiʔ	gʷə=tu=sləx̌il</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>tiʔəʔ	swatixʷtəd	gʷəl	tu=ʔas–bəsad	ʔal	kʷi	tu=haʔkʷ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a7" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>tu=dxʷ–had–had=axʷ	tiʔəʔ	ʔaciɬtalbixʷ	ʔas–čal=axʷ	kʷi	gʷə=dəxʷ=kʷəda–dxʷ	čəɬ	kʷi	sləx̌il</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>ʔaʔ	kʷi	sləx̌il	ʔal	kʷi	q’xʷ•ul’gʷədxʷ	gʷəl	ʔas–čal	kʷi	gʷə=dəxʷ=kʷəda–dxʷ	čəɬ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="lushootseedSpeech" TIER_ID="morphologicalGloss">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>at	rem	past=long.time	sconj	neg	sbj=past=daylight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>prox	land	sconj	past=stat–dark	at	rem	past=long.time</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>tu=dxʷ–had–had=axʷ	tiʔəʔ	ʔaciɬtalbixʷ	stat–how=now	rem	sbj=adnm=taken–dc	1pl.po	rem	daylight</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>be.there	rem	daylight	at	rem	upstream•land	sconj	stat–how	rem	sbj=adnm=taken–dc	1pl.po</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="lushootseedSpeech" TIER_ID="englishGloss">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>In the distant past, there was no daylight.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>The land, it was dark in the distant past.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a15" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>The people talked it over.  How can we manage to obtain it?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a16" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Daylight is up there in the upriver country but how can we manage to get it?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonemic" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

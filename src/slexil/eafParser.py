@@ -356,7 +356,7 @@ class EafParser:
    def findTiersWithTabs(self):
 
       self.tiersWithTabs = []
-      tiers = self.doc.findall("/TIER")
+      tiers = self.doc.findall("./TIER")
       tierIDs = list(self.tierTable['TIER_ID'])
 
       for tierID in tierIDs:
@@ -476,13 +476,15 @@ class EafParser:
          # find offenders here and fix them
 
       if(self.fixOverlappingTimeSegments):
-         print("--- checking time overlaps")
+         if(self.verbose):
+            print("--- checking time overlaps")
          starts = list(tbl["start"])
          ends = list(tbl["end"])
          rowCount = tbl.shape[0]
          for i in range(0,rowCount-1):
             if (ends[i] >= starts[i+1]):
-               print("time fix line %d, end: %d, next start: %d" % (i, ends[i], starts[i+1]))
+               if(self.verbose):
+                  print("time fix line %d, end: %d, next start: %d" % (i, ends[i], starts[i+1]))
                ends[i] = starts[i+1] - 200
          tbl["end"] = ends
 
@@ -516,6 +518,7 @@ class EafParser:
    def getLineTable(self, lineNumber):
 
       rowNumber = lineNumber - 1 # rows are 0-based, lines are 1-based
+      #pdb.set_trace()
       x = self.doc.findall('TIER/ANNOTATION/ALIGNABLE_ANNOTATION')[rowNumber]
       parentID = x.attrib["ANNOTATION_ID"]
       tierType = x.getparent().getparent().attrib["LINGUISTIC_TYPE_REF"]

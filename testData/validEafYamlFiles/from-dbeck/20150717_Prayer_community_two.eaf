@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2019-03-02T07:11:23-07:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/David/OpenSource/github/slexil/testData/praying/SJQ-2009_Cruz.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./SJQ-2009_Cruz.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:5684d7ae-5b00-432e-bf8e-0839c9afbcd0</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">489</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5817"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="5817"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="9984"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="10752"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="14225"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="14618"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="18548"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="19145"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="20839"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="21366"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="22981"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="23664"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="28490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="29150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="32366"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Hilaria Cruz" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Simón Zurita Cruz" TIER_ID="SZC-Chatino">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Ndiyo20si14 Sa3nta24 Ay3ma24</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Qyu1 kla24, qan1 kla24, no4 yqu2, no4 ylu3, no4 nsuq3, no4 nsen42</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>No4 ya42 tykwi4, no4 ya42 nyi4, no4 ya42 ykwa4, no4 yan42 lo4 kwan4, yan42 lo4 xa3, yan42 lo4 xa1-liyu32</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Sa4-kwa20 nya14 kqu0, sa4-kwa20 nya14 klu0, sa4-kwa20 nya14 ksuq0, sa4-kwa20 nya14 kxin0, tyi20 ton10, tyi20 kqan24</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>No4 kwiq2, no4 kneq1, no4 ntsu32, no4 ndla32, nka42 sten4, nka42 yqan20, nka42 sten4 
+	renq4 ndiyo14si0, in20
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Santo Patron San Juan Bautista</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Nqwen4 nka42 re14 qya0, nqwen4 nka42 re14 kchin0</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE> Nqwen4 tyon42, nqwen4 tyqwi42, sqwa20 yaq0, sqwa20 skon0, tyon42 lo4, tyon42 chonq42, qne24 kqu1 qne24 kjoq20 no4 ntsu32 no4 ndla32</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Ntyqan24 qya2 ntyqan24 kchin1 nka42 sten4 nka42 yqan20 nka42 sten24en32 
+ndiyo14si10
+</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Hilaria Cruz" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="en" PARENT_REF="SZC-Chatino" PARTICIPANT="Simón Zurita Cruz" TIER_ID="English Translation-cp-cp">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a481" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>‘God, saint,  soul’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a482" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>‘Forefathers, foremothers, those who survived, those who thrived, those who matured, those who multiplied’. </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a483" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>‘Those who lived entirely, those who lived a righteous life, those who lived evenly, they came to the sunlight, they came to the light, they came to the world’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a484" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>‘So too may they survive, so too may they thrive, so too may they mature, so too may they multiply, may stand up (as a force), may sit down (as a force)’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a485" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>‘The ones that are newborn, the ones that are young, the ones that are sprouting, the ones that are being born, you are my father, you are my mother, you are their father, God!’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a486" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>‘Patron Saint John the Baptist’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a487" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>‘You are the king of the mountains, you are the king of the community’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a488" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>‘You shall stand, you shall exist, give a hand, give an arm, stand before them, stand behind them, take care of them, make them strong, those being sprouting, those being born’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a489" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>‘In the whole community you are my father, you are my mother, you are our father, God’.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="pos" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="en" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

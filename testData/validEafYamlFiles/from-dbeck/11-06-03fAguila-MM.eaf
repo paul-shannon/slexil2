@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2009-10-26T20:04:18-07:00" FORMAT="2.6" VERSION="2.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.6.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Kevin/U of A/RA stuff/Texts unprocessed/11-06-03fAguila-MM.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="file:/./11-06-03fAguila-MM.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">140</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="2710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="3430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="5240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="6420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="8150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="11430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="15020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="16810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="21350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="23280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="29320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="31890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="36690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="38090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="38090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="38580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="38580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="38580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="41870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="42670"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="44000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="45500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="46570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="48840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="51870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="52380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="53790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="53790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="54070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="54070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="57830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="59410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="63310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="65750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="69270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="70320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="71800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="71930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="72270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="72300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="72790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="74050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="75480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="76100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="81060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="82340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="82790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="82860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="83880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="84560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="87450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="88450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="88450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="93340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="93340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="95460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="98220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="99140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="100400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="100500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="101150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="101260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="102250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="102870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="104730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="105700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="106640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="108020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="109260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="110100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="110770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="110780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="111250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="112360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="115290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="116490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="120010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="121540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="126390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="127730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="129730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="130500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="132470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="133270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="136300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="137480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="139940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="139960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="140620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="140620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="142120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="142600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="146770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="148130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="149140"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Ex" TIER_ID="Ex">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts17">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Text" PARENT_REF="Ex" TIER_ID="Line">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>M	u:tzá tzama: [00.02]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>D	ixcuento ese picháwa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>P	chá xacuento picháwa ka:tzíya'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>P	chu:wá tatanú nak.. usea tán xtátahe:tolá naxhe:nchík chík tawán</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>M	aah peru xlá'h.. tzama: a:na'h picháwa, tzama:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a140" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>ja: tzáj ja: xkátzi: chi: li:taxtúpálh [00.25]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>pálh tzáj... pálh tzáj ani:málhtunká chichú: [00.32]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>P	tzáj a:ná xatapalájni' - [00.38]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>M	tzama: wachí: wachí: kuésatzá xatapalájni' kwan wachitzá [00.39]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>M	wachi misín máx tzama: [00.42]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>tzama: hánpalhtzá [00.45]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>ho:pálh tzáj ta:putzá a:ma'hapitzín chichú [00.49]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>kuésa tzáj tapu:tzá ma:x– [00.52]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>P	–xataputzá [00.53]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>M	–je: ja: tzá xmán chuhán... tzama: x– [00.54]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>tzama: tawán pálh mat chi:wá tawi:lá x'a'hstín chik [00.59]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>he: pálh chu:ntzá cha:tín s'ata' tu:cha: u:tzá ti: ja: na [01.05]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>ja: nahalhítunká li:lhiwíki' [01.10]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>P	he: </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>M	nalén [01.12]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>nalén tzama: chiwaníkán [01.14]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>mat ma:yujú mat ix... mat ma:yujú mat ixhi:lú nak... [01.19]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>P	ja:málh s'ata'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>M	je: nak- nakja:málh s'ata' [01.22]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>he: mat u:tzá mat ti: wamá li:s'awi tu:cha mat [01.24]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>pálh naxkíni' ja: ma:nu:ní, he:... [01.28]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>ní nala'htzína mis'ata' pús ja: tzá la'hawán [01.35]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>he: u:tzá nalén, tzama: [01.39]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>P	ni:táma [01.40]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>M	je: ni:tamá [01.40]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>peru tzama: tzama: chi: wanikán [01.43]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>ma:katzáni:ní [01.45]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>ma:katzáni:ní, tzama: [01.48]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>P	tzama: picháwa</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>M	je:</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>tatachoho: tatawi:lá ha:ná naka:lakchikni' tawán [01.52]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>peru tzama: tzáj ma:katzáni:ní [01.56]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>peru pálh mat chu:ntzá ti: s'alálh, cha:tín [02.01]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>ixli:kúchu tzama: li:xtohón [02.08]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>ixli:kúchu chi: tzama: ti:je:rís [02.10] </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>man ti:je:rís natama:pí:ya mis'ata' ho:lixtohón [02.13]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>he: maski ka:mílh tzama: ja: tu: ka:tilhawanílh [02.17]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>P	ja: tu: ka:tilhawanílh ?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>M	hehe: ja: tu: ka:tilhawanílh </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>hopálhtzátunká xlá'hstu u:tzá li:s'awi, je: [02.24]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>u:tzá li:s'awi [02.28]</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Analysis" PARENT_REF="Ex" TIER_ID="Morph"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Analysis" PARENT_REF="Ex" TIER_ID="ILEG"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Gloss" PARENT_REF="Ex" TIER_ID="L2Gloss"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Gloss" PARENT_REF="Ex" TIER_ID="L3Gloss">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>'es eso'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>'el cuento de l'aguila' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>'y el cuento del aguila, te lo sabes?' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>'asi como entran, osea van en los techos de las casa, dicen'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>'aah pero eso... ese aguila, ese...'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>'quien sabe porque aparece?' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>'a lo mejor... a lo mejor es un animal, quien sabe?'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>'a lo mejor es trasformado, se trasforma–'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>'ese a lo mejor es como trasformado, dico, parece'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>'ese parece un tigre, ese'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>'ese va, si es que...'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>'o a lo mejor lo contratan otras personas, quien sabe?'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>'a lo mejor es contratado'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>'es contratado'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>'si, no nada mas va... ese...' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>'ese dicen si es que... como se queda en el techo de la casa...'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a108" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>'y si es que un bebe quien todavia ese que no...'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>'todavia no tiene fuerzas'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a110" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>'si'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>'se lo va a llevar'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a112" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>'se lo lleva, este, como se dice..'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>'es que deja a bajar su.. es que deja a bajar su hilo en... '</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>'donde esta acostado el bebe'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>'si, en en donde esta acostado el bebe'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>'y por eso lo engaña, por eso es que..'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>'si en su nariz en donde le mete, y...'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE>'y cuando vas a ver a tu bebe, pues ya no esta vivo'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a28">
+                <ANNOTATION_VALUE>y eso lo va a llevar, ese... </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a29">
+                <ANNOTATION_VALUE>'se muere allí?'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a30">
+                <ANNOTATION_VALUE>'si, muere'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a31">
+                <ANNOTATION_VALUE>'pero eso eso como se llamar'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a32">
+                <ANNOTATION_VALUE>'es el enemigo'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a33">
+                <ANNOTATION_VALUE>'es el enemigo, ese'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a34">
+                <ANNOTATION_VALUE>'ese aguila?'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a126" ANNOTATION_REF="a35">
+                <ANNOTATION_VALUE>'si'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a36">
+                <ANNOTATION_VALUE>'pasean, se quedan en las casas, dicen'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a128" ANNOTATION_REF="a37">
+                <ANNOTATION_VALUE>'pero eso es nada mas el enemigo'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a129" ANNOTATION_REF="a38">
+                <ANNOTATION_VALUE>'pero si es que alguien es listo, uno'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a130" ANNOTATION_REF="a39">
+                <ANNOTATION_VALUE>'es el remedio, ese agúja [de cocer]'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a131" ANNOTATION_REF="a40">
+                <ANNOTATION_VALUE>'es el remedio asi como las tijeras'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a132" ANNOTATION_REF="a41">
+                <ANNOTATION_VALUE>'nada mas tijeras lo acuestas con tu bebe o agúja'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a133" ANNOTATION_REF="a42">
+                <ANNOTATION_VALUE>'y aunque venga ese no le va a hacer nada'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a134" ANNOTATION_REF="a43">
+                <ANNOTATION_VALUE>'no le va a hacer nada?'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a135" ANNOTATION_REF="a44">
+                <ANNOTATION_VALUE>'si, no le va a hacer nada' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a136" ANNOTATION_REF="a45">
+                <ANNOTATION_VALUE>'y si nada mas asi, por eso lo engaña, si...' </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a137" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>'por eso lo engaña'</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="Ex" TIER_ID="Coments">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a138" TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>KP:most of this is unintelligible behind M speaking</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a139" TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>KP: mat missing in transcription just before ja</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE EXT_REF="er1" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Ex" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" EXT_REF="er1" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Text" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Gloss" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Analysis" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <EXTERNAL_REF EXT_REF_ID="er1" TYPE="iso12620" VALUE=""/>
+</ANNOTATION_DOCUMENT>

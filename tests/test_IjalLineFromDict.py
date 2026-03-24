@@ -16,20 +16,20 @@ pd.set_option('display.max_columns', None)
 def test_basic():
 
    print("--- test_basic")
-   f = "../testData/validYamlFiles/inferno.yaml"
-   ftg = "../testData/validYamlFiles/infernoTierGuide.yaml"
+   f = "../testData/validEafYamlFiles/inferno-threeLines.yaml"
+   ftg = "../testData/validEafYamlFiles/infernoTierGuide.yaml"
    tierGuide = yaml.load(open(ftg), Loader=yaml.FullLoader)
 
    yp = YamlParser(f, ftg)
    yp.parseAndSortAllLines()
      # the inferno demo now has some html lines
      # first line of the classic inferno is the third, #2
-   lineDict = yp.getAllLines()[2]
+   lineDict = yp.getAllLines()[0]
    assert(isinstance(lineDict, dict))
     
-   ijalLine = IjalLineFromDict(lineDict, 2, tierGuide)
-   
+   ijalLine = IjalLineFromDict(lineDict, 0, tierGuide)
    assert(ijalLine.getTierCount() == 4)
+
    assert(ijalLine.getStartTime() == 0)
    assert(ijalLine.getEndTime() == 2828)
    assert(ijalLine.getSpokenText() == "Nel mezzo del cammin di nostra vita")

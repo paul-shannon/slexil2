@@ -1,0 +1,20 @@
+title: a
+narrator: b
+textEntry: c
+mediaFile: file:///Users/David/OpenSource/github/slexil/testTextPyData/JITZ/JIT0006.WAV
+mimeType: audio/x-wav
+
+lines:
+
+  - lineNumber: 45
+    startTime: 229870
+    endTime: 233040
+    ref: |
+         41
+    tx: |
+         w@ k@ʔkt@ʤ@w w@ ɲn@j j@gz@k h@r@ s@ …
+    ft: |
+         ‘in order that he be appreciated, in order that he bring his nahual,  that is…’
+    intr-cp: [SUBORD,3S–appreciate–PASS–DEP2,SUBORD,3A–ASSOC-come–APPL.R–DEP2,3PSR–mouth–fiesta,3PRO=COP,Yes]
+    prs-cp: [wx,∅–kxʔk•txy–xtxw–wx,wx,y–nx-mxn–hxy–wx,y–ʔxŋ–sxŋ,hxʔ=txʔ,sx,]
+

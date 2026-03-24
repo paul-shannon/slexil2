@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-01-30T11:12:49-06:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/Beault/Documents/!Books/!ZoqueTextsCollection/!!!SubmittedManuscript/AudioFiles/AudioAyapanec/2_AYA2_FishWoman.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./2_AYA2_FishWoman.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:f1153f1d-505b-4abe-8a20-90b235ff0378</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">308</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="744"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="2620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="3393"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="4600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="5331"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="8558"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="9317"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="13772"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="14668"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="17671"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="17671"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="19605"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="20834"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="24247"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="24688"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="26957"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="27667"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="31460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="31806"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="36999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="37337"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="40075"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="40085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="41255"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="41255"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="47450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="47813"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="49520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="50173"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="53530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="53895"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="56433"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="56816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="60377"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="60377"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="62158"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="63240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="66323"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="66806"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="70109"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="70864"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="74428"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="75560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="76807"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="77715"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="81552"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="81696"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="83540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="84857"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="87566"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="89004"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="91634"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="92506"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="95474"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="95659"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="97073"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="97839"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="102420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="102532"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="104195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="104338"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="105660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="106484"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="108380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="109471"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="113339"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="113721"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="118326"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="118573"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="121478"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="121744"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="126948"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="127439"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="129409"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="129744"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="131574"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="131785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="133494"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="134283"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="135845"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="135874"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="138578"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="139501"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="140726"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="141586"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="143866"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="144504"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="146305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="146814"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="148386"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="148863"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="151084"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="151457"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="153881"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="153885"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="156121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="156127"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="159644"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="160424"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="163553"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="163995"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="166962"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="167973"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="172187"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="173357"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="174755"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="176132"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="179612"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="180482"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="182792"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="183169"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="187121"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="187622"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="190851"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="191077"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="194431"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="194686"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="197236"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="198047"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="200179"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="200723"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="203438"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="203852"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="206188"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="207032"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="210556"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="211538"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="216689"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="216741"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="217995"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="218812"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="219816"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="219837"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="222874"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="223091"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="226194"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="226664"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="229188"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="229309"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="232143"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="232682"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="233855"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="234239"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="236811"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="236999"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="237810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="238022"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="238741"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="238921"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="240604"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="240840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="245406"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="245717"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="246799"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="AYA">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Pues, mas antes…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>pues…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>yiʹk komo jutsinya tu istoorya maj antej.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Resulta ke tsamyaj tsuʹ tsamgüʹgwidxa ya maj antej</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>ich unoj püüsindxa ndxeʹ oba ndüüʹ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a305" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>mbakyaj mbyatsyaj gwoʹnh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Pero oba ndüjyaj mbyatsyaj gwoʹnh, pwej.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Poca cosa oba mbyatsyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Entonces… pues…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>Despues nüyoya, yoya misindxa küʹtsgwyoʹnh, y luego de eso pues.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>Tu tyeempo jejn mi chi gümbakyaj, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>kwandu mapyaʹtyaj tu</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>tu mandxonh de gwoʹnh, pero idxich gwoʹnh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Tseeʹge tsigindxuugi,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>tortuga, mucha clase de animal.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>I lwego pwej ndüʹü mbyatsyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>Pero ke pasa? Pwej maput…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>maput tu yooʔmo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>Jeʹebeʹk yooʹmo nindxümaj, niyodoj pwej,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>Taa nintsyüktaʹ ni tu gwoʹnh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>Porke gwoʹnh, gwü ninsyuj ndüʹ mbyügünüj,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a89" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>pero…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a90" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>tyene ke mweaj entregar tu myea, tu nyomaa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a91" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>U sea mijmo fwyamilya.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a92" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>Lwego mandxüma niyodoj, niyodoj, pwej,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a105" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>mandxüma chyüüʹda, Está jodido!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a106" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>Pwej, ndüʹü mweaj entregar tu myea</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a107" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>ndüʹü tembügünüh gwoʹnh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a108" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>I lwego ndxüma, niyodoj pwej, No pues, yo kreo que no porque,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a109" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>son compromisos.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>Ndüʹü tenhmwataʹ?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>I lwego niyodoj, niyodoj pwej,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>Pwej, será ke taaʹ gwaaba. Pwej taaʹ gwaaba.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a113" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>A ver ke ninhgwyataʹ kumplir. Luke üts ʹnodoj,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a114" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>nimbyügünüj de luke mits ninsyundaʹ,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a115" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>sea gwoʹnh, sea animal de koncha, pero en kaso de ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a149" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>mbiiʹma ndüʹü mbyügündaʹ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a150" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>Y que caramba pues.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a151" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>Traj ke jeʹebeʹk yooʹmo</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a152" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>mbeʹ tejeʹ kwalkyera. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a153" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>Tu…tu sireena, yomi ndxeʹ gwoʹnh.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a154" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>Entonces.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a155" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>Pwej, chi magwatyaj pwej?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a156" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>Jejn matsyakmbakyaj </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a157" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>maxabichyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a158" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>Taa chi mapinyeʹtsyaj porke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a159" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>tamagweatyaj rejgar tsijiyaj tu yomaa,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a160" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>ni tu jyaymbea, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a161" TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>ni ni mijmo fwyamilya, sino ke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a162" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>makuʔtsinyaj matsünhgünhyaj</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a163" TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>Entonces pues, mas definitivamente,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a164" TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>magwiskondüjyaj mbakyaj los pokito tyempo, taa mi chi mambyatsyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a165" TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>y luego puees,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a166" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
+                <ANNOTATION_VALUE>pwej maxabichyaj taa mi chi masyabichyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a167" TIME_SLOT_REF1="ts109" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>I lweego magwiskoxabij.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a168" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>Xabichyaj mbakyeaj ta magwiskopaʹtyaj mbeʹ yooʹmo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a169" TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>Niyodoj, niyodoj, Gwü ninsyundaʹ gwoʹnh</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a170" TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
+                <ANNOTATION_VALUE>pwej ninhwyataʹ kumplir luke üts künʹxuj,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a171" TIME_SLOT_REF1="ts117" TIME_SLOT_REF2="ts118">
+                <ANNOTATION_VALUE>nimbigünü gwo’nh de luke mits nsyuj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a172" TIME_SLOT_REF1="ts119" TIME_SLOT_REF2="ts120">
+                <ANNOTATION_VALUE>Bweno niyodoj, niyodoj pwej,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a173" TIME_SLOT_REF1="ts121" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>Taa porke kompromiso.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a174" TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts124">
+                <ANNOTATION_VALUE>Kü’nxuj ʹmats mbe’ gwo’nh pero libremeente.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a175" TIME_SLOT_REF1="ts125" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>Entonsee magwiskoxabichyaj. Taa chi mambyatsyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a176" TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts128">
+                <ANNOTATION_VALUE>Lwego magwiskoxabichyaj, mbakyaj a loj pokito diyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a261" TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts130">
+                <ANNOTATION_VALUE>Lo mijmo, taa chi mambyatsyaj.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a262" TIME_SLOT_REF1="ts131" TIME_SLOT_REF2="ts132">
+                <ANNOTATION_VALUE>Mandxüma chyüüʹda,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a263" TIME_SLOT_REF1="ts133" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>Pwej ya matendooʹgoyüj tu kontenido porke</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a264" TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>tamansyuj mweaj entregara tu nyaymbea tu nyomaa.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a265" TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>Pweeej…bea usted ke jejn ma…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a266" TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts140">
+                <ANNOTATION_VALUE>tentooʹgoyüj tu mbirtud, kyere desir.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a267" TIME_SLOT_REF1="ts141" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>Luego pues,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a268" TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts144">
+                <ANNOTATION_VALUE>no ay maj nuuʹga ndüʹü tentsaktaʹ tembaktaʹ.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a269" TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts146">
+                <ANNOTATION_VALUE>Axta jejn</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a270" TIME_SLOT_REF1="ts147" TIME_SLOT_REF2="ts148">
+                <ANNOTATION_VALUE>maxuk.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a271" TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>Mbeʹk mbako taa m…</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts151" TIME_SLOT_REF2="ts152">
+                <ANNOTATION_VALUE>taa mi chi nütenmats tanütenxabij chi gwü tenxabij temeʹ. Tentooʹgoyüj tyempo.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>Y es cuando.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="phonemic" PARENT_REF="AYA" TIER_ID="AYA2">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a19" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a20" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>yi=ʔk	como	hu¢=inya	tu	historia	mas	antes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>resulta	que	¢am–yah	¢uʔ	¢am•kǝʔǝwe–ta	ya	mas	antes</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>ʔit	unos	pǝːsin–yah	y=neʔ	ʔoy–pa	nǝh–ǝʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a306" ANNOTATION_REF="a305">
+                <ANNOTATION_VALUE>mak–yah	y=ma¢–yah	woʔŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>pero	ʔoy–pa	nǝh–yah	y=ma¢–yah	woʔŋ	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>poca	cosa	ʔoy–pa	y=ma¢–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>después	nǝ=y=ʔoy–yah	misin–yah	kǝʔ¢y•woʔŋ	ʔi	luego	de	eso	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>tu	tiempo	heM	mi	či	kǝ=mak–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>cuando	ma=y=paʔt–yah	tu</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>tu	manchón	de	woʔŋ	pero	ʔit•ʔit	woʔnh</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>¢eːʔke	¢iki•nuːki</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>ʔi	luego	pues	nǝʔǝ	y=ma¢–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>pero	que	pasa	pues	ma=put</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a75">
+                <ANNOTATION_VALUE>ma=put	tu	yoːʔmo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>heʔebeʔ=ʔk	yoːʔmo	nǝ=y=nǝmah–haY	nǝ=y=ʔotoŋ	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>taː	nǝ=yn=¢ǝk–taʔ	ni	tu	woʔŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>porque	woʔŋ	wǝ	nǝ=yn=suN	nǝʔǝ	yn=pǝkǝnǝh</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a89">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a90">
+                <ANNOTATION_VALUE>tiene	que	yn=waT	entregar	tu	yn=maːN	tu	yom•maːN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a91">
+                <ANNOTATION_VALUE>ʔu	sea	mismo	yn=familia</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a92">
+                <ANNOTATION_VALUE>luego	ma=y=nǝm–haY	nǝ=y=ʔotoŋ	nǝ=y=ʔotoŋ	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a105">
+                <ANNOTATION_VALUE>ma=y=nǝm–haY	y=tǝːʔta	está	jodido</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a106">
+                <ANNOTATION_VALUE>pues	ndǝʔǝ	yn=wah	entregar	tu	yn=maːN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a107">
+                <ANNOTATION_VALUE>ndǝʔǝ	ten=pǝgǝnǝh	woʔŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a108">
+                <ANNOTATION_VALUE>ʔi	luego	y=nǝm–haY	nǝ=y=ʔotoŋ	pues	no	yo	creo	que	no	porque</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a109">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE>nǝʔǝ	ten=waT–taʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a111">
+                <ANNOTATION_VALUE>ʔi	luego	nǝ=y=ʔotoŋ	nǝ=y=ʔotoŋ	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>pues	será	que	taːʔ	waT–pa	pues	taːʔ	</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a113">
+                <ANNOTATION_VALUE>a	ver	que	nǝ=yn=waT–taʔ	cumplir	lo	que	ʔǝ¢	ʔn=ʔotoŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a114">
+                <ANNOTATION_VALUE>nǝ=y=pǝkǝnǝh	de	lo	que	mi¢	nǝ=yn=suN–taʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a126" ANNOTATION_REF="a115">
+                <ANNOTATION_VALUE>sea	woʔŋ	sea	animal‿de‿koncha	pero	en	caso	de	que</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a149">
+                <ANNOTATION_VALUE>miːʔma	nǝʔǝ	yn=pǝkǝnǝh–taʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a150">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a179" ANNOTATION_REF="a151">
+                <ANNOTATION_VALUE>tras	que	heʔepeʔ=ʔk	yoːʔmo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a180" ANNOTATION_REF="a152">
+                <ANNOTATION_VALUE>meʔ	teheʔ	cualquiera</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a181" ANNOTATION_REF="a153">
+                <ANNOTATION_VALUE>tu	tu	sirena	yomi	y=neʔ	woʔŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a154">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a183" ANNOTATION_REF="a155">
+                <ANNOTATION_VALUE>pues	ti	ma=wat–yah	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a184" ANNOTATION_REF="a156">
+                <ANNOTATION_VALUE>heM	ma=y=¢ak•mak–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a185" ANNOTATION_REF="a157">
+                <ANNOTATION_VALUE>ma=šapiT–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a186" ANNOTATION_REF="a158">
+                <ANNOTATION_VALUE>taː	ti	ma=y=pinyeʔ¢–yah	porque</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a187" ANNOTATION_REF="a159">
+                <ANNOTATION_VALUE>ta=ma=y=waT–yah	riesgar	¢iʔ–haY–yah	tu	yom•maːN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a188" ANNOTATION_REF="a160">
+                <ANNOTATION_VALUE>ni	tu	y=hay•maːN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a189" ANNOTATION_REF="a161">
+                <ANNOTATION_VALUE>ni	ni	mismo	y=familia	sino	que</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a190" ANNOTATION_REF="a162">
+                <ANNOTATION_VALUE>ma=ku–¢ǝŋ–yah	ma=y=¢ǝŋ•kǝʔŋ–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a191" ANNOTATION_REF="a163">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a192" ANNOTATION_REF="a164">
+                <ANNOTATION_VALUE>ma=wisku•nǝh–yah	mak–yah	los	poquito	tiempo	taː	mi	ti	ma=y=ma¢–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a193" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a166">
+                <ANNOTATION_VALUE>pues	ma=šapiT–yah	taː	mi	ti	ma=y=šapiT–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a195" ANNOTATION_REF="a167">
+                <ANNOTATION_VALUE>ʔi	luego	ma=wisko•šapiT </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a196" ANNOTATION_REF="a168">
+                <ANNOTATION_VALUE>šapiT–yah	mak–yah	taː	ma=wisko•paʔt–yah 	meʔ	yoːʔmo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a197" ANNOTATION_REF="a169">
+                <ANNOTATION_VALUE>nǝ=y=ʔotoŋ	nǝ=y=ʔotoŋ	wǝ	nǝ=yn=suN–taʔ	woʔŋ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a198" ANNOTATION_REF="a170">
+                <ANNOTATION_VALUE>pues	nǝ=yn=waT–taʔ	cumplir	lo	que	ʔǝ¢	kǝ=ʔn=suN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a199" ANNOTATION_REF="a171">
+                <ANNOTATION_VALUE>nǝ=yn=pǝkǝnǝh	woʔŋ	de	lo‿que	mi¢	yn=suN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a200" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE>bueno	nǝ=y=ʔotoŋ	nǝ=y=ʔotoŋ	pues</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a201" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>taː	porque	compromiso</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a202" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE>kǝ=ʔn=suN	ʔn=ma¢	meʔ	woʔŋ	pero	libremente</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a203" ANNOTATION_REF="a175">
+                <ANNOTATION_VALUE>entonces	ma=wisko•šapiT–yah	taː	ti	ma=y=ma¢–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a204" ANNOTATION_REF="a176">
+                <ANNOTATION_VALUE>luego	ma=wisko•šapiT–yah	mak–yah 	a	los	poquito	días</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a272" ANNOTATION_REF="a261">
+                <ANNOTATION_VALUE>lo‿mismo	taːs	ti	ma=y=ma¢–yah</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a273" ANNOTATION_REF="a262">
+                <ANNOTATION_VALUE>ma=y=nǝm–haY	y=tǝːʔta</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a274" ANNOTATION_REF="a263">
+                <ANNOTATION_VALUE>pues	ya	ma=ten=toːkoy–ǝʔǝy	tu	contenido	porque</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a275" ANNOTATION_REF="a264">
+                <ANNOTATION_VALUE>ta=ma=yn=suN	yn=waT	entregar	tu	yn=hay•maːN	tu	yn=yom=maːN</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a276" ANNOTATION_REF="a265">
+                <ANNOTATION_VALUE>pues	vea	Usted	que	heM	ma=</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a277" ANNOTATION_REF="a266">
+                <ANNOTATION_VALUE>ten=tookoy–ǝʔǝy	tu	virtud	quiere	decir</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a278" ANNOTATION_REF="a267">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a279" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>no	hay	mas	nuːʔka	nǝʔǝ	ten=¢ak–taʔ	te=mak–taʔ</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a280" ANNOTATION_REF="a269">
+                <ANNOTATION_VALUE>hasta	heM</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a281" ANNOTATION_REF="a270">
+                <ANNOTATION_VALUE>ma=šuk</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a282" ANNOTATION_REF="a271">
+                <ANNOTATION_VALUE>meʔ=ʔk	mak–o	taː</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>taː	mi	ti	nǝ=ten=ma¢	ta=nǝ=ten=šapiT	ti	wǝ	ten=šapiT	ten=meʔ¢	ten=toːkoy–ǝʔǝy	tiempo</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="AYA" TIER_ID="ENG">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>‘Well, long ago…’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>‘well…’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>‘this is like a story from long ago.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>‘It turns out that the elders from long ago,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>‘that there were some men who went’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a307" ANNOTATION_REF="a305">
+                <ANNOTATION_VALUE>‘to catch fish.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>‘But when they got there they weren’t able to catch much.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>‘They just caught a little.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>‘Then… well…,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>‘Later they went and caught just a few little fish, and that’s how it was.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>‘One time they were there fishing a little,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>‘when they encountered’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a46">
+                <ANNOTATION_VALUE>‘a fishing hole, but with a lot of fish.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>‘mud turtles, painted turtles,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a47">
+                <ANNOTATION_VALUE>‘turtles and lots of other animals.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>‘And then, well, they began to catch them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>‘But what happened next? Well, there appeared…</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a75">
+                <ANNOTATION_VALUE>‘a woman appeared.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>‘That woman tells them, she says, well,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>‘ “Don’t touch even one fish. ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a76">
+                <ANNOTATION_VALUE>‘ “Because fish, if you want to take some,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a89">
+                <ANNOTATION_VALUE>‘ “but…’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a90">
+                <ANNOTATION_VALUE>‘ “you have to deliver a son and a daughter.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a91">
+                <ANNOTATION_VALUE>‘ “Like from your own family.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a92">
+                <ANNOTATION_VALUE>‘Then one of them says, he says, well,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a105">
+                <ANNOTATION_VALUE>‘he said to his companion, “That’s fucked up!’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a128" ANNOTATION_REF="a106">
+                <ANNOTATION_VALUE>‘ “If you hand over a child,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a129" ANNOTATION_REF="a107">
+                <ANNOTATION_VALUE>‘ “we can take fish.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a130" ANNOTATION_REF="a108">
+                <ANNOTATION_VALUE>‘And then he says, he says, “Well, no, I don’t think so because,</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a131" ANNOTATION_REF="a109">
+                <ANNOTATION_VALUE>‘ “these are [serious] commitments.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a132" ANNOTATION_REF="a110">
+                <ANNOTATION_VALUE>‘ “What are we going to do?” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a133" ANNOTATION_REF="a111">
+                <ANNOTATION_VALUE>‘And then he says, says, well,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a134" ANNOTATION_REF="a112">
+                <ANNOTATION_VALUE>‘ “Well, maybe we can’t do it. Well, it can’t be done.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a135" ANNOTATION_REF="a113">
+                <ANNOTATION_VALUE>‘ “Let’s see if you do it. What I would say is,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a136" ANNOTATION_REF="a114">
+                <ANNOTATION_VALUE>‘ “you take what you want,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a137" ANNOTATION_REF="a115">
+                <ANNOTATION_VALUE>‘ “maybe fish, maybe shellfish. But perhaps’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a205" ANNOTATION_REF="a149">
+                <ANNOTATION_VALUE>‘ “you will take it all.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a206" ANNOTATION_REF="a150">
+                <ANNOTATION_VALUE>‘ “And what the heck?’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a207" ANNOTATION_REF="a151">
+                <ANNOTATION_VALUE>‘ “For that woman’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a208" ANNOTATION_REF="a152">
+                <ANNOTATION_VALUE>‘ “is not just anyone.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a209" ANNOTATION_REF="a153">
+                <ANNOTATION_VALUE>‘ “She’s a siren, the owner of the fish.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a210" ANNOTATION_REF="a154">
+                <ANNOTATION_VALUE>‘Then.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a211" ANNOTATION_REF="a155">
+                <ANNOTATION_VALUE>‘Well what did they do?’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a212" ANNOTATION_REF="a156">
+                <ANNOTATION_VALUE>‘They stopped fishing there’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a213" ANNOTATION_REF="a157">
+                <ANNOTATION_VALUE>‘and went home.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a214" ANNOTATION_REF="a158">
+                <ANNOTATION_VALUE>‘They didn’t bring back anything because’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a215" ANNOTATION_REF="a159">
+                <ANNOTATION_VALUE>‘they didn’t want to risk having to give up a daughter,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a216" ANNOTATION_REF="a160">
+                <ANNOTATION_VALUE>‘nor a son,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a217" ANNOTATION_REF="a161">
+                <ANNOTATION_VALUE>‘nor anyone from their own family.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a218" ANNOTATION_REF="a162">
+                <ANNOTATION_VALUE>‘It scared them.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a219" ANNOTATION_REF="a163">
+                <ANNOTATION_VALUE>‘Then, well, definitively,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a220" ANNOTATION_REF="a164">
+                <ANNOTATION_VALUE>‘they went back to fish again a bit later, but didn’t catch anything.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a221" ANNOTATION_REF="a165">
+                <ANNOTATION_VALUE>‘And then, weell’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a222" ANNOTATION_REF="a166">
+                <ANNOTATION_VALUE>‘they returned home without anything.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a223" ANNOTATION_REF="a167">
+                <ANNOTATION_VALUE>‘And then they went back again.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a224" ANNOTATION_REF="a168">
+                <ANNOTATION_VALUE>‘They went back to fish and they encountered the woman again.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a225" ANNOTATION_REF="a169">
+                <ANNOTATION_VALUE>‘And she said, “If you all want fish,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a226" ANNOTATION_REF="a170">
+                <ANNOTATION_VALUE>‘ “well, do what I want,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a227" ANNOTATION_REF="a171">
+                <ANNOTATION_VALUE>‘ “and you can take any fish you want.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a228" ANNOTATION_REF="a172">
+                <ANNOTATION_VALUE>‘Well he says, he says,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a229" ANNOTATION_REF="a173">
+                <ANNOTATION_VALUE>‘ “No, because there’s a catch.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a230" ANNOTATION_REF="a174">
+                <ANNOTATION_VALUE>‘ “I want the fish, but freely.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a231" ANNOTATION_REF="a175">
+                <ANNOTATION_VALUE>‘Then they returned again. They didn’t catch anything.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a232" ANNOTATION_REF="a176">
+                <ANNOTATION_VALUE>‘Then they returned once more to fish a couple of days later.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a283" ANNOTATION_REF="a261">
+                <ANNOTATION_VALUE>‘Same as before, they didn’t catch anything.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a284" ANNOTATION_REF="a262">
+                <ANNOTATION_VALUE>‘He said to his brothers,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a285" ANNOTATION_REF="a263">
+                <ANNOTATION_VALUE>‘ “Well we already lost a quantity because’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a286" ANNOTATION_REF="a264">
+                <ANNOTATION_VALUE>‘ “you didn’t want to deliver your son and daughter.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a287" ANNOTATION_REF="a265">
+                <ANNOTATION_VALUE>‘ “Well…look, there, …’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a288" ANNOTATION_REF="a266">
+                <ANNOTATION_VALUE>‘ “we lost our virtue is what this means.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a289" ANNOTATION_REF="a267">
+                <ANNOTATION_VALUE>‘Then well,’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a290" ANNOTATION_REF="a268">
+                <ANNOTATION_VALUE>‘ “For now we just have to quit fishing.” ’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a291" ANNOTATION_REF="a269">
+                <ANNOTATION_VALUE>‘That’s where’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a292" ANNOTATION_REF="a270">
+                <ANNOTATION_VALUE>‘it ended.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a293" ANNOTATION_REF="a271">
+                <ANNOTATION_VALUE>‘Here the fishing…’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>‘ends because we’re not catching anything and we’re not going to return here to look (for shellfish). It’s a waste of time.’</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>‘And that’s it.’ </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="translation" PARENT_REF="AYA2" TIER_ID="GL">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a21">
+                <ANNOTATION_VALUE>this=REL	how	how=still	one	story	more	before</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a22">
+                <ANNOTATION_VALUE>result:3SG:PRES	that	mature–3PL	with	mature•VAR–PASS	already	more	before</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a23">
+                <ANNOTATION_VALUE>exist	some	man–3PL	3PSR=forRN	AUX–INC	go–INTR</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a308" ANNOTATION_REF="a306">
+                <ANNOTATION_VALUE>fish–3PL	3A=catch–3PL	fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a24">
+                <ANNOTATION_VALUE>but	AUX–INC	go–3PL	3A=catch–3PL	fish	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a25">
+                <ANNOTATION_VALUE>little	thing	AUX–INC	3A=catch–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a48">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a49">
+                <ANNOTATION_VALUE>later	HAB=3A=went–3PL	little–3PL	baby•fish	and	then	from	that	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a50">
+                <ANNOTATION_VALUE>one	time	there	little	what	PROG=fish–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a51">
+                <ANNOTATION_VALUE>when	CMP=3A=find–3PL	one</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a52">
+                <ANNOTATION_VALUE>one	big.spot	of	fish	but	exist•exist	fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a53">
+                <ANNOTATION_VALUE>mud.turtle	painted•turtle</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a54">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a55">
+                <ANNOTATION_VALUE>and	then	well	FUT	3A=catch–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a56">
+                <ANNOTATION_VALUE>but	what	happen:3SG:PRES	well	CMP=exit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a77">
+                <ANNOTATION_VALUE>CMP=exit	one	woman</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a78">
+                <ANNOTATION_VALUE>DIST=REL	woman	HAB=3A=say–APPL	HAB=3A=speak	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a79">
+                <ANNOTATION_VALUE>NEG	HAB=2A=touch–12PL	NEG	one	fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a80">
+                <ANNOTATION_VALUE>because	fish	if	HAB=2A=want	FUT	2A=take</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a93">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a94">
+                <ANNOTATION_VALUE>have:3SG:PRES	that	2A=do	deliver	one	2PSR=child	one	2PSR=woman•child</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a95">
+                <ANNOTATION_VALUE>or	be:3SG:PRES:SBJV	same	2PSR=family</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a96">
+                <ANNOTATION_VALUE>then	CMP=3A=say–APPL	HAB=3A=speak	HAB=3A=speak	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a138" ANNOTATION_REF="a116">
+                <ANNOTATION_VALUE>CMP=3A=say–APPL	3PSR=companion	exist:3SG:PRES	fucked</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a139" ANNOTATION_REF="a117">
+                <ANNOTATION_VALUE>well	FUT	2A=do	deliver	one	2PSR=child</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a140" ANNOTATION_REF="a118">
+                <ANNOTATION_VALUE>FUT	1A.INCL=carry	fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a141" ANNOTATION_REF="a119">
+                <ANNOTATION_VALUE>and	then	3A=say–APPL	HAB=3A=say	well	NEG	I	believe:3SG:PRES	that	NEG	because</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a142" ANNOTATION_REF="a120">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a143" ANNOTATION_REF="a121">
+                <ANNOTATION_VALUE>FUT	1A.INCL=do–12PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a144" ANNOTATION_REF="a122">
+                <ANNOTATION_VALUE>and	then	HAB=3A=say	HAB=3A=say	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a145" ANNOTATION_REF="a123">
+                <ANNOTATION_VALUE>well	be:3sg:FUT	that	NEG	do–INC	well	NEG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a146" ANNOTATION_REF="a124">
+                <ANNOTATION_VALUE>to	see	if	HAB=2A=do–12PL	complete	it	what	1PRO	1A=say</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a147" ANNOTATION_REF="a125">
+                <ANNOTATION_VALUE>HAB=3A=take	of	it	what	2PRO	HAB=2A=want–12PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a148" ANNOTATION_REF="a126">
+                <ANNOTATION_VALUE>be:3SG:PRES:SBJV	fish	be:3SG:PRES:SBJV	shellfish	but	in	case	of	that</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a233" ANNOTATION_REF="a177">
+                <ANNOTATION_VALUE>all	FUT	2A=take–12PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a234" ANNOTATION_REF="a178">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a235" ANNOTATION_REF="a179">
+                <ANNOTATION_VALUE>after	that	DIST=REL	woman</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a236" ANNOTATION_REF="a180">
+                <ANNOTATION_VALUE>DET	NEG	whichever</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a237" ANNOTATION_REF="a181">
+                <ANNOTATION_VALUE>one	one	siren	owner	3PRS=forRN	fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a238" ANNOTATION_REF="a182">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a239" ANNOTATION_REF="a183">
+                <ANNOTATION_VALUE>well	what	CMP=do–3PL	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a240" ANNOTATION_REF="a184">
+                <ANNOTATION_VALUE>there	CMP=3A=leave•fish–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a241" ANNOTATION_REF="a185">
+                <ANNOTATION_VALUE>CMP=return–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a242" ANNOTATION_REF="a186">
+                <ANNOTATION_VALUE>NEG	that	CMP=3A=bring–3PL	because</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a243" ANNOTATION_REF="a187">
+                <ANNOTATION_VALUE>NEG=CMP=3A=do–3PL	risk	give–APPL–3PL	one	woman•child</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a244" ANNOTATION_REF="a188">
+                <ANNOTATION_VALUE>NEG	one	3PSR=male•child</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a245" ANNOTATION_REF="a189">
+                <ANNOTATION_VALUE>NEG	NEG	same	3PSR=family	rather	that</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a246" ANNOTATION_REF="a190">
+                <ANNOTATION_VALUE>CMP=ELSE–scare–3PL	CMP=3A=scare•frighten–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a247" ANNOTATION_REF="a191">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a248" ANNOTATION_REF="a192">
+                <ANNOTATION_VALUE>CMP=REPET•go-3PL	fish–3PL	the:PL	few	time	NEG	little	that	CMP=3A=catch–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a249" ANNOTATION_REF="a193">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a250" ANNOTATION_REF="a194">
+                <ANNOTATION_VALUE>well	CMP=return–3PL	NEG	little	that	CMP=3A=return–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a251" ANNOTATION_REF="a195">
+                <ANNOTATION_VALUE>and	then	CMP=REPET•return</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a252" ANNOTATION_REF="a196">
+                <ANNOTATION_VALUE>return–3PL	fish–3PL	NEG	CMP=REPET•find–3PL 	DET	woman</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a253" ANNOTATION_REF="a197">
+                <ANNOTATION_VALUE>HAB=3A=say	HAB=3A=say	if	HAB=3A=want–12PL	fish</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a254" ANNOTATION_REF="a198">
+                <ANNOTATION_VALUE>well	HAB=2A=do–PLU	complete	it	what	1PRO	PROG=1A=want</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a255" ANNOTATION_REF="a199">
+                <ANNOTATION_VALUE>HAB=2A=take	fish	of	what	2PRO	2A=want</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a256" ANNOTATION_REF="a200">
+                <ANNOTATION_VALUE>good	HAB=3A=say	HAB=3A=say	well</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a257" ANNOTATION_REF="a201">
+                <ANNOTATION_VALUE>NEG	because	commitment</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a258" ANNOTATION_REF="a202">
+                <ANNOTATION_VALUE>PROG=1A=want	1A=catch	DET	fish	but	freely</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a259" ANNOTATION_REF="a203">
+                <ANNOTATION_VALUE>then	CMP=REPET•return–3PL	NEG	that	CMP=3A=catch–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a260" ANNOTATION_REF="a204">
+                <ANNOTATION_VALUE>then	CMP=REPET•return–3PL	fish–3PL	at	the:PLU	few	day:PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a294" ANNOTATION_REF="a272">
+                <ANNOTATION_VALUE>the.same	NEG	that	CMP=3A=catch–3PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a295" ANNOTATION_REF="a273">
+                <ANNOTATION_VALUE>CMP=3A=say–APPL	3PSR=brother</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a296" ANNOTATION_REF="a274">
+                <ANNOTATION_VALUE>well	already	CMP=1A.INCL=lose–CAUS	one	content	because</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a297" ANNOTATION_REF="a275">
+                <ANNOTATION_VALUE>NEG=CMP=2A=want	2A=do	deliver	one	2PSR=male•child	one	2PSR=female=child</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a298" ANNOTATION_REF="a276">
+                <ANNOTATION_VALUE>well	look:3SG:PRES:SBJV	you	that	there	CMP=</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a299" ANNOTATION_REF="a277">
+                <ANNOTATION_VALUE>1A.INCL=lose–CAUS	one	virtue	want:3SG:PRES	say</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a300" ANNOTATION_REF="a278">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a301" ANNOTATION_REF="a279">
+                <ANNOTATION_VALUE>NEG	exist	more	now	FUT	1A.INCL=leave–12PL	1S.INCL–fish–12PL</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a302" ANNOTATION_REF="a280">
+                <ANNOTATION_VALUE>till	there</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a303" ANNOTATION_REF="a281">
+                <ANNOTATION_VALUE>CMP=end</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a304" ANNOTATION_REF="a282">
+                <ANNOTATION_VALUE>DIST=REL	fish–NOM	NEG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a26">
+                <ANNOTATION_VALUE>NEG	little	that	HAB=1A.INCL=grab	NEG=HAB=1A.INCL=return	that	good	1A.INCL=return	1A.INCL=look	1A.INCL=lose–CAUS	time</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a27">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="phonemic" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translation" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

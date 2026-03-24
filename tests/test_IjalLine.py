@@ -37,6 +37,7 @@ def test_tierMapping():
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
 	parser = EafParser(f)
+	parser.run()
 	tbl = parser.getLineTable(1)
 	tierGuide = {'speech': 'italianSpeech',
 				 'transcription2': None,
@@ -105,7 +106,9 @@ def test_calculateMorphemeSpacing():
 
 	f = "../testData/inferno/inferno-threeLines.eaf"
 	parser = EafParser(xmlFilename=f, verbose=False,
-                           fixOverlappingTimeSegments=True)
+                      fixOverlappingTimeSegments=True)
+   
+	parser.run()
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes",
@@ -133,6 +136,7 @@ def test_toHTML_speechOnly():
 	parser = EafParser(xmlFilename=f, verbose=False,
                            fixOverlappingTimeSegments=True)
 
+	parser.run()
 	tbl = parser.getLineTable(1)
 	speechOnlyTierGuide = {"speech": "italianSpeech"}
 
@@ -181,6 +185,7 @@ def test_toHTML_speechAndTranslation():
 	parser = EafParser(xmlFilename=f, verbose=False,
                            fixOverlappingTimeSegments=True)
 
+	parser.run()
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "translation": "english"}
@@ -222,6 +227,7 @@ def test_toHTML_speechAndMorphemes():
 	parser = EafParser(xmlFilename=f, verbose=False,
                            fixOverlappingTimeSegments=True)
 
+	parser.run()
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes"}
@@ -269,6 +275,7 @@ def test_toHTML_speechAndMorphemesAndGlosses():
 	parser = EafParser(xmlFilename=f, verbose=False,
                            fixOverlappingTimeSegments=True)
 
+	parser.run()
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes",
@@ -320,6 +327,7 @@ def test_toHTML_speechAndMorphemesAndGlossesAndTranslation():
 	parser = EafParser(xmlFilename=f, verbose=False,
                            fixOverlappingTimeSegments=True)
 
+	parser.run()
 	tbl = parser.getLineTable(1)
 	tierGuide = {"speech": "italianSpeech",
 	             "morpheme": "morphemes",

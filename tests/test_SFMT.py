@@ -115,9 +115,8 @@ def test_getHtml():
    assert(sfmt.getHtml(0) == '<div><h3> Read by Roberto Begnini</h3></div>')
    
    html = sfmt.getHtml(5)
-   expected = "<div style='margin: 30px'><h6> a multi-line html element</h6>        " + \
-              "   <ul>             <li> item one             <li> item two     " + \
-              "        <li> item three           </ul>           </div>"
+   expected = "<div style='margin: 30px'><h6> a multi-line html element</h6>           <ul>             <li> item one             <li> item two             <li> item three           </ul>           </div>           "
+
    assert(html == expected)
 
    allHtml = sfmt.getAllHtml()

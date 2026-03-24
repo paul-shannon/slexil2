@@ -90,7 +90,7 @@ def test_validateXML():
    utils.saveBytesToFile()
 
    result = utils.validElanXML()
-   expectedDetails = "invalid xml file test_xmlFileUtils.py : syntax error: line 1, column 0"
+   expectedDetails = 'invalid xml file test_xmlFileUtils.py : invalid XML syntax: syntax error: line 1, column 0'
    assert(result["valid"] == False)
    assert(result["details"] == expectedDetails)
 

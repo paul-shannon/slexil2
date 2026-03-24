@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2021-12-01T14:25:46-06:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:4b92a9f1-5561-4cce-bf06-cc77b172f413</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">113</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="2000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="2000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="3000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="3000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="4000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="4000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="5000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="5000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="6000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="6000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="7000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="7000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="8000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="8000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="9000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="9000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="10000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="10000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="11000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="11000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="12000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="12000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="13000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="13000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="14000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="14000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="15000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="15000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="16000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="16000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="17000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="17000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="18000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="18000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="19000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="19000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="20000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="20000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="21000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="21000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="22000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="22000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="23000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="23000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="24000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="24000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="25000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="25000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="26000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="26000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="27000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="27000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="28000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="28000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="29000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="29000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="30000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="30000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="31000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="31000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="32000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="32000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="33000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="33000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="34000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="34000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="35000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="35000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="36000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="36000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="37000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="37000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="38000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="38000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="39000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="39000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="40000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="40000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="41000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="41000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="42000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="42000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="43000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="43000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="44000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="44000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="45000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="45000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="46000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="46000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="47000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="47000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="48000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="48000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="49000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="49000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="50000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="50000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="51000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="51000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="52000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="52000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="53000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="53000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="54000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="54000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="55000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="55000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="56000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="56000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="57000"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="tx" PARTICIPANT="unknown" TIER_ID="Totonac">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann0" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>28 el hombre loco .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann1" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>28.1 niːnahmaqáːn kka¢íːɫ piːšlamaá čaːtám čiškúʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>28.2 škaːnahlaníːt piːwaá tiyúːs .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann5" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>28.3 míɫ kiɫtamakuú taːtanúqɫɫii čaːtám štaːlaːpaːškiːnáʔ , ¢ukuquːɫqaɫčiwiːnanqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann7" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>28.4 "čiyuú nakmaːka¢iːniːyáːn tuː kintaːyít .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann9" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>28.5 ʔaktankskka¢íː piːniːkintikaːnahlanií papiːʔakít λankašlaka¢ukút kkaːtašaːwát" .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann11" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>28.6 xaxxawaá liː¢íːɫ štaːlaːpaːškiːnáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann13" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>28.7 qaɫtíːɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann15" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>28.8 "tíː wanín papiːwíš tiyúːs , niːkkaːnahkλawaniyaán tuː kiwaniyáʔ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann17" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>28.9 ʔakít tuː kpuwanimáːn piːkahʔaqwitipáːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann19" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>28.10 ?túː ʔaqspulún?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann21" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>28.11 ?tíː maːkaːnahlíːn?"</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann23" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>28.12 "tiːniːkimaːkaːnahlíːɫ , ʔakít kka¢íː tuː špaːlakáta .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann25" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>28.13 kliːka¢íːɫ piːʔakít tiyúːs , tiːniːkiwaniníːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann27" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>28.14 kqaɫíː kimpuskáːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann29" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>28.15 ʔaːnqaɫíːn šakštaqwalíː štaːstám nakkinčíki .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann31" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>28.16 šakán ʔakítiː skúxaa ʔaːlakatanuú kčučutsipí .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann33" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>28.17 šamaqtám kka¢íːɫ piːšqaɫiːyaá tiː štaːlaːsuqlíː kaː¢iːsníʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann35" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>28.18 niːkwaníɫ papiːšakka¢iːyaá tuː štaliːqaɫíːn .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann37" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>28.19 ʔakšnií ktaspítɫii kkinčíki , naːɫ¢ahkčáːɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann39" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>28.20. kkiɫapáːn ktačuqúɫ , puːlah¢iːswáɫ kčáːɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann41" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>28.21 niːtunkunhktanúːɫ kkinčíki .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann43" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>28.22 k¢ukuɫsqalaá kimpuskáːt papiːšliːkaːnaá škiːlaqláy ʔaːčaːtám čiškúʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann45" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts48">
+                <ANNOTATION_VALUE>28.23 liwiλaːnš¢asnamá , niːšaqapuːčawá .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann47" TIME_SLOT_REF1="ts49" TIME_SLOT_REF2="ts50">
+                <ANNOTATION_VALUE>28.24 ʔaktankskakšiɫqúːɫ takaːšqúːɫ , laːqapuːtiyiquːníːt ʔanqúːɫ pišaːɫnanqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann49" TIME_SLOT_REF1="ts51" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>28.25 niːtaka¢íː níː kiːčaːnqúːɫ , šakstaːlnipatanqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann51" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>28.26 niːkáɫ , ktanúːɫ kkinčíki , kkapaxán ktawakáɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann53" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>28.27 ʔantaá šakwakaá ʔakšnií taspitqúːɫ , tunkunhtamaːqúːɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann55" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>28.28 ¢ukuquːɫqaɫčiwiːnantamaːqúː , niːška¢iːqúː papiːšakqaɫaqašmatmaːqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann57" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>28.29 nuːmaá waá kimpuskáːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann59" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>28.30 "liwisλáːn tamaqka¢íː čaːtiyuːpuːtamaːkán ʔaqtám puːtamáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann61" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>28.31 ʔakšnií niːnahšaːlaːšaqaλiːyáːw , tiːniːškintaːtamá .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann63" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>28.32 kintaːstamhšakwaníːt quštaá ʔakít .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann65" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>28.33 šmáːn tiyúːs šaktaːtamá , tiyúːs šaktaːtaːkíː , tiːniːškinkiːlaqčín .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann67" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>28.34 ʔaːnqaɫíːn tiyúːs šaktaːλaːwán taːníː šakán pišaːɫnán" .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann69" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>28.35 čiː qaɫtiːnáɫ čiškúʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann71" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>28.36 "kka¢íː piːšliːkaːnaá tuː kiwanipáːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann73" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>28.37 naːɫkalakapaːstákti , ʔaɫaá kiɫtamakú .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann75" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>28.38 niːtuːkapuwánti , tiːniːka¢íː papiːʔakštamhmáːw .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann77" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>28.39. štaːstám tiyúːs kinkaːkšiɫmaːn taːníːmaːw .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann79" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>28.40 pakskinkaːqaɫaqašmatmáːn tuː kiɫwamáːw" .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann81" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>28.41 ʔakít šakqaɫaqašmatmaːqúː tuː škiɫwamaːqúː , šakakšiɫmaːqúː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann83" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>28.42 ʔakítiː šaktaːtamaá kimpuskáːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann85" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>28.43 šaktaːtaːkíːy , šaktaːpišaːɫnán , ʔakítiː tiyúːs" .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann87" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>28.44 "niːšliːkaːnaá wíš tiyúːs .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann89" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>28.45 ʔakstaːqsqawpaːkáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann91" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>28.46 niːkʷiːntahkaλawaá tuː qašpatniːtáʔ , niːkakaːnahlát" .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann93" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>28.47 matniːʔakpuːtankwií ška¢íː tamaá čiškúʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann95" TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>28.48 papiːniːšmaːkučiːká , šaqwitíɫ , š¢ukumaxáʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann97" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>28.49 páks tuː šwanikán , škaːnahláy maːskiniːʔanán tuː šaqsanikán , šliːkaːnahšλawá .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann99" TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>28.50 ʔakšnií páksɫi , liːpiːkwaá liːsiː¢íːɫ tuː šmaːqspuliːmaá špuskáːt .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann101" TIME_SLOT_REF1="ts103" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>28.51 naːɫlakaskíɫ taːtiwilá , maqaštáqɫi , ʔaːčaːtám pa¢áɫ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann103" TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>28.52 ʔakšnikuú λáːn tamaqtaqáɫɫi .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann105" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts108">
+                <ANNOTATION_VALUE>28.53 ka¢íːɫ ʔaːliːstaːlná , matwaá špuskáːt šmaːkuciiwiːníːt , waá niːʔakpuːtankwíː šliːka¢íː .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann107" TIME_SLOT_REF1="ts109" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>28.54 š¢ukumaxaá ʔaqwitií ʔakšnií maqaštáqɫiː štaskuxút .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann109" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>28.55 tunkunhʔaɫkučún .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="ann111" TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>28.56 čanaá tiːqspulúɫ tamaá quštaá čiškúʔ .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft" PARENT_REF="Totonac" PARTICIPANT="unknown" TIER_ID="Spanish">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann2" ANNOTATION_REF="ann1">
+                <ANNOTATION_VALUE>no hace tiempo supe que vivía un hombre .</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann4" ANNOTATION_REF="ann3">
+                <ANNOTATION_VALUE>había creído que él era dios.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann6" ANNOTATION_REF="ann5">
+                <ANNOTATION_VALUE>un día se encontró con un amigo suyo y empezaron a platicar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann8" ANNOTATION_REF="ann7">
+                <ANNOTATION_VALUE>ahora te voy a hacer saber lo que soy.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann10" ANNOTATION_REF="ann9">
+                <ANNOTATION_VALUE>estoy seguro que no me vas a creer que soy el más poderoso del mundo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann12" ANNOTATION_REF="ann11">
+                <ANNOTATION_VALUE>se echó una carcajada su amigo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann14" ANNOTATION_REF="ann13">
+                <ANNOTATION_VALUE>le contestó.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann16" ANNOTATION_REF="ann15">
+                <ANNOTATION_VALUE>¿ quién te dijo si tú eres el dios? , no te creo lo que me dices</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann18" ANNOTATION_REF="ann17">
+                <ANNOTATION_VALUE>lo que yo te estoy creyendo es que nada más estás loco.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann20" ANNOTATION_REF="ann19">
+                <ANNOTATION_VALUE>¿qué te pasó?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann22" ANNOTATION_REF="ann21">
+                <ANNOTATION_VALUE>?quién te hizo creer?</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann24" ANNOTATION_REF="ann23">
+                <ANNOTATION_VALUE>nadie me hizo creer, yo sé cuál es la causa.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann26" ANNOTATION_REF="ann25">
+                <ANNOTATION_VALUE>por lo que supe que soy dios, nadie me ha dicho.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann28" ANNOTATION_REF="ann27">
+                <ANNOTATION_VALUE>tengo mi mujer (esposa).</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann30" ANNOTATION_REF="ann29">
+                <ANNOTATION_VALUE>contínuamente la dejaba sola en mi casa.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann32" ANNOTATION_REF="ann31">
+                <ANNOTATION_VALUE>yo iba a trabajar a otro pueblo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann34" ANNOTATION_REF="ann33">
+                <ANNOTATION_VALUE>de repente supe que tenía ya con quién se acompañaba en las noches.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann36" ANNOTATION_REF="ann35">
+                <ANNOTATION_VALUE>no le dije si ya sabía (yo) cuál era su error.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann38" ANNOTATION_REF="ann37">
+                <ANNOTATION_VALUE>cuando regresé a mi casa, ya no llegué derecho.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann40" ANNOTATION_REF="ann39">
+                <ANNOTATION_VALUE>en la orilla ( del pueblo ) me detuve , llegué después de que se obscureció .</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann42" ANNOTATION_REF="ann41">
+                <ANNOTATION_VALUE>no entré luego en mi casa.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann44" ANNOTATION_REF="ann43">
+                <ANNOTATION_VALUE>empecé a vigilar a mi mujer para ver si era cierto que le iba a visitar otro hombre.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann46" ANNOTATION_REF="ann45">
+                <ANNOTATION_VALUE>muy bien estaba haciendo luna, no estaba nublado.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann48" ANNOTATION_REF="ann47">
+                <ANNOTATION_VALUE>los ví muy bien al salir, iban abrazados a pasear.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann50" ANNOTATION_REF="ann49">
+                <ANNOTATION_VALUE>quién sabe a dónde fueron a dar, los quería seguir.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann52" ANNOTATION_REF="ann51">
+                <ANNOTATION_VALUE>no fuí, entré a mi casa, me subí al zarzo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann54" ANNOTATION_REF="ann53">
+                <ANNOTATION_VALUE>allí estaba trepado cuando regresaron, luego se acostaron.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann56" ANNOTATION_REF="ann55">
+                <ANNOTATION_VALUE>empezaron a platicar acostados, no se imaginaban si yo estaba escuchando.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann58" ANNOTATION_REF="ann57">
+                <ANNOTATION_VALUE>dijo así mi mujer .</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann60" ANNOTATION_REF="ann59">
+                <ANNOTATION_VALUE>se siente muy bonito acostarse los dos en una sola cama.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann62" ANNOTATION_REF="ann61">
+                <ANNOTATION_VALUE>cuando todavía no nos hablábamos, nadie se acostaba conmigo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann64" ANNOTATION_REF="ann63">
+                <ANNOTATION_VALUE>era yo sola pobre de mí.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann66" ANNOTATION_REF="ann65">
+                <ANNOTATION_VALUE>me acostaba solamente con dios, con dios me levantaba, nadie venía a visitarme.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann68" ANNOTATION_REF="ann67">
+                <ANNOTATION_VALUE>todo el tiempo andaba con dios, donde quiera que iba a pasear.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann70" ANNOTATION_REF="ann69">
+                <ANNOTATION_VALUE>y el hombre contestó.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann72" ANNOTATION_REF="ann71">
+                <ANNOTATION_VALUE>tengo noticia que es verdad lo que me estás diciendo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann74" ANNOTATION_REF="ann73">
+                <ANNOTATION_VALUE>ya no te acuerdes, ya pasó el tiempo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann76" ANNOTATION_REF="ann75">
+                <ANNOTATION_VALUE>no tengas cuidado, nadie sabe si estamos acostados juntos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann78" ANNOTATION_REF="ann77">
+                <ANNOTATION_VALUE>solamente el dios nos está mirando por donde estamos acostados .</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann80" ANNOTATION_REF="ann79">
+                <ANNOTATION_VALUE>todo nos está escuchando lo que estamos diciendo.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann82" ANNOTATION_REF="ann81">
+                <ANNOTATION_VALUE>yo soy quién les estaba escuchando lo que estaban diciendo, los estaba mirando.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann84" ANNOTATION_REF="ann83">
+                <ANNOTATION_VALUE>yo me acostaba con mi mujer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann86" ANNOTATION_REF="ann85">
+                <ANNOTATION_VALUE>me levantaba con ella, me paseaba con ella, yo soy el dios.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann88" ANNOTATION_REF="ann87">
+                <ANNOTATION_VALUE>no es verdad (que) tú eres el dios.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann90" ANNOTATION_REF="ann89">
+                <ANNOTATION_VALUE>tú mismo te estás engañando.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann92" ANNOTATION_REF="ann91">
+                <ANNOTATION_VALUE>no hagas aprecio a lo que has escuchado, no lo creas.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann94" ANNOTATION_REF="ann93">
+                <ANNOTATION_VALUE>dizque no estaba clara su mente, sabíalo aquel hombre.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann96" ANNOTATION_REF="ann95">
+                <ANNOTATION_VALUE>si no lo hubieran curado, se hubiera vuelto loco, ya comenzaba.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann98" ANNOTATION_REF="ann97">
+                <ANNOTATION_VALUE>todo lo que le decían lo creía aunque no existiera lo que le referían, quedaba convencido.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann100" ANNOTATION_REF="ann99">
+                <ANNOTATION_VALUE>cuando se alivió, se enojó mucho de lo que le estaba haciendo su mujer.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann102" ANNOTATION_REF="ann101">
+                <ANNOTATION_VALUE>ya no quiso estar con ella, la dejó, se buscó otra.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann104" ANNOTATION_REF="ann103">
+                <ANNOTATION_VALUE>ya entonces fué bien asistido.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann106" ANNOTATION_REF="ann105">
+                <ANNOTATION_VALUE>supo después dizque había sido su mujer que lo había envenenado, por eso no estaba bien de sus sentidos.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann108" ANNOTATION_REF="ann107">
+                <ANNOTATION_VALUE>ya se estaba volviendo loco cuando dejó de trabajar.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann110" ANNOTATION_REF="ann109">
+                <ANNOTATION_VALUE>luego fué a curarse.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="ann112" ANNOTATION_REF="ann111">
+                <ANNOTATION_VALUE>así le sucedió a aquel pobre hombre.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="tx" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="MX" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

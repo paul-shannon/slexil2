@@ -58,6 +58,7 @@ class MorphemeGlossAbbreviations:
                          "PL": "plural",
                          "PO": "possessive",
                          "PR": "preposition",
+                         "PRLV": "prolative",
                          "PROC": "proclititive",
                          "PROG": "progressive",
                          "PROP": "propriative",

@@ -21,8 +21,6 @@ class InferTierStructure:
    #------------------------------------------------------------
    def __init__(self, parsedLines, verbose=False):
 
-      print("-- inferTierStructureFromSFMT: %s" % sfmtFilename)
-
       traceFileName = "inferTierStructureFromSFMT.py"
       traceLineNumber = 30
       print("--- trace: %s at %d" % (traceFileName, traceLineNumber))

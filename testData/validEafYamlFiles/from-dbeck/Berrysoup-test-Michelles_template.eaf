@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-06-04T15:14:46-07:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/David/OpenSource/github/OldSlexilTestData/Inge/Making berrysoup-Kainai-BHungryWolf.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./Making berrysoup-Kainai-BHungryWolf.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:c46decac-320d-49ef-94ad-7573adb9a43e</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">5</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="5817"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="IG" LINGUISTIC_TYPE_REF="Time" PARTICIPANT="Beverly Hungry Wolf" TIER_ID="Orthography">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Oki kitaakanistohpoaa nitaapaitsitakio'pii aoo'ssin</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="IG" LINGUISTIC_TYPE_REF="Symbolic Division" PARENT_REF="Orthography" PARTICIPANT="Beverly Hungry Wolf" TIER_ID="Words">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Oki kitaakanistohpoaawa nita'paitsitakio'pii aoo'ssini</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="IG" LINGUISTIC_TYPE_REF="Symbolic Division" PARENT_REF="Words" PARTICIPANT="Beverly Hungry Wolf" TIER_ID="Morphemes">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a3" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Oki kit-aak-waanist-o-hp-oaawa niit-a'paitsitakio'pii aoo'ssin-yi</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="IG" LINGUISTIC_TYPE_REF="Symbolic Division" PARENT_REF="Morphemes" PARTICIPANT="Beverly Hungry Wolf" TIER_ID="Morpheme glosses">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>well 2-FUT-tell(VTA)-1SBJ-TH-2PL how-?? berry_soup-IN.SG</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="IG" LINGUISTIC_TYPE_REF="Symbolic Association" PARENT_REF="Orthography" PARTICIPANT="Beverly Hungry Wolf" TIER_ID="Translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Well, I'm going to tell you how to make berry soup.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="IG" LINGUISTIC_TYPE_REF="Symbolic Association" PARENT_REF="Translation" PARTICIPANT="Beverly Hungry Wolf" TIER_ID="Notes"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Time" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Symbolic Division" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Symbolic Association" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

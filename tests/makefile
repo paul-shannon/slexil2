@@ -22,7 +22,6 @@ default:
 	@echo grammaticalTermFormatter
 #	@echo textFromYaml
 	@echo yamlFromEAF
-	@echo yamlApp
 	@echo tieredLine
 	@echo practiceLists
 	@echo eafyaml
@@ -34,7 +33,7 @@ practiceLists:
 yamlTextCreator:
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 
 all: install \
@@ -49,11 +48,11 @@ all: install \
      standardizeIjalTierTable \
      xmlFileUtils \
      ijalFromDict \
-     newYamlParser \
-     textFromYaml
+     sfmt \
+     sfmtToWebPage
 
 webPacker:
-	python -m unittest test_webPacker.py 
+	python test_webPacker.py 
 
 tierGuide:
 	python test_tierGuide.py
@@ -75,11 +74,10 @@ text:
 	python test_Text.py
 
 morphemeGloss:
-
-	python -m unittest test_MorphemeGloss.py
+	python test_MorphemeGloss.py
 
 listTiers:
-	python -m unittest test_listTiers.py
+	python test_listTiers.py
 
 install:
 	(cd ..; make install)

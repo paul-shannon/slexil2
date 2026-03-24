@@ -1,5 +1,78 @@
 linguistics = {
 
+"-i":
+`
+**-i**
+
+<i>Except for secondary suffixes (Section 2.1.3), Lushootseed disallows
+combinations of valency-increasing suffixes, thereby excluding the
+possibility of adding a causative suffix to a transitive stem (which
+would itself have to have been derived using a causative or
+applicative suffix). footnote 36, p83, Beck Grammar</i>
+
+<i>Secondary suffixes are affixes that combine with another
+valency-increaser, usually -t ‘internal causative’, to form a
+morphological complex that adds a direct object expressing some
+semantic role other than PATIENT. In total, Hess & Bates (2004) list
+four secondary suffixes — -yi-, -bi-, -di-, and -i-.</i>
+
+Of these, only -yi- and -bi- appear to be productive and can
+be associated with unique and fairly consistent meanings; the other
+two appear to be confined to a few fossilized forms and to have
+meanings that overlap with those of the more productive secondary
+suffixes.
+
+<pre>
+
+ 90a. ʔucaq̓ čəd ʔə tiʔəʔ sxə̌ diʔac
+      ʔu–caq̓ čəd ʔə tiʔəʔ sxə̌ diʔac
+      PFV–be.speared 1SG.SUB PR PROX devil’s.club
+      I got speared by the Devil’s Club
+
+ 90c. dxʷcaq̓ax̌adid tiʔiɬ č̓ətx̌
+      dxʷ–caq̓–ax̌ad–i–d tiʔiɬ č̓ətx̌
+      CTD–speared–side–SS–ICS DIST kingfisher
+      he speared Kingfisher in the side
+
+</pre>
+
+The form in (90c) is transitive and takes as its subject
+the AGENT rather than the PATIENT which is the subject of the radical
+in (90a). Thus, the effect on the valency and government pattern of
+the radical of adding -i-d is the same as that of adding the
+transitive causative suffix -t.
+
+This raises the issue of what contribution, if any, the secondary
+suffix -i- makes to the meaning of the stem. One possibility is that
+-i- is not a meaningful element at all and that the sequence [id] may
+simply be an allomorph of the internal causative associated with a
+lexical suffix (or a particular subset of lexical suffixes).
+
+This seems unlikely given that, as we saw in Section 2.1.6, there are
+abundant internal causative stems containing lexical suffixes such as
+c̓agʷačiʔd ‘wash someone’s hands’ (cf. č̓əlpačiʔid ‘twist someone’s
+wrist’ in Table 46) that do not contain -i-.
+
+Another possibility is that the -i- is associated with the
+possessor-raising seen in sentences like (90c) whereby it is the
+bodypart that is affected by the action, but the possessor of the
+bodypart is expressed as the direct object. This, however, still begs
+the question of why -i- is not present in all transitive stems
+containing lexical suffixes that express affected bodyparts.
+
+Another reason for not dismissing -i- as a morpheme entirely, at least
+from a diachronic perspective, is that it turns up in a few other
+places as a stem-formative associated with -t. One particularly
+suggestive pair of verbs is haʔlid ‘make good for someone, make
+someone comfortable’ vs. halʔad ‘tend to someone’, both derived from
+the adverbial radical √haʔɬ ‘good’.  However, these are the only such
+contrastive pairs found in the corpus to date, making any analysis of
+-i- as anything more than a vestige of an earlier form that was most
+likely associated in some way with valency-altering constructions
+little more than speculation.
+
+`,
+
 " Verb classes":
 `
 **Verb Classes**
@@ -2893,6 +2966,12 @@ at best.
 
 From David's <a href="https://sites.ualberta.ca/~dbeck/valency.pdf"
                 target="_blank">Taxonomy of Lushootseed Valency-Incresing Affixes</a>:
+
+[Except for secondary suffixes (Section 2.1.3), Lushootseed disallows
+combinations of valency-increasing suffixes, thereby excluding the
+possibility of adding a causative suffix to a transitive stem (which
+would itself have to have been derived using a causative or
+applicative suffix). footnote 36, p83, Beck Grammar].
 
 Secondary suffixes are affixes that combine with another
 valency-increaser, usually -t ‘internal causative’, to form a
