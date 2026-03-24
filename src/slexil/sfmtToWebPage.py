@@ -412,17 +412,15 @@ class sfmtToWebPage:
              # create an empty button label, with width roughly the same
              # as that of the surrounding numbered buttons
            buttonLabel = "&nbsp;&nbsp;";
-           if(bool(log10(numberedLineNumber) >= 1)):  # >= 10
-             buttonLabel = "%s%s" % (buttonLabel, "&nbsp;&nbsp;")
-           if(bool(log10(numberedLineNumber) >= 2)):  # >= 100
-             buttonLabel = "%s%s" % (buttonLabel, "&nbsp;&nbsp;")
+           if(numberedLineNumber > 0):
+              if(bool(log10(numberedLineNumber) >= 1)):  # >= 10
+                buttonLabel = "%s%s" % (buttonLabel, "&nbsp;&nbsp;")
+              if(bool(log10(numberedLineNumber) >= 2)):  # >= 100
+                buttonLabel = "%s%s" % (buttonLabel, "&nbsp;&nbsp;")
         clickActionString = "playSample(%s, %d, %d)" % \
                             (tierNumber, startTime, endTime)
         buttonTag = htmlDoc.tag("button", onclick=clickActionString,
                                 klass="standardSlexilButton slexilTooltip")
-        #print("--- sfmtToWebPage, line 416")
-        #print("tierNumber %d, numberedLine: %s" % (tierNumber, numberedLine))
-        #print("actionString: %s" % clickActionString)
         if(self.useTooltips):
             buttonTag.attrs["class"] = "standardSlexilButton slexilTooltip"
         with buttonTag:
