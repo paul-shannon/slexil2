@@ -1,11 +1,81 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"tu=?as-bəsad":
+`
+**tu=?as-bəsad**
+
+<ul>
+   <li><b>tu-</b> past [LD 228]
+   <li><b>ʔas-</b> condition or state exists [LD 13]
+   <li><b>bəsad</b> grow dark; evening [LD 39]
+</ul>
+`,
+
+
+
+"s=bəsad=s":
+`
+**s=bəsad=s**
+
+<ul>
+   <li><b>s=</b> nominalizer [LD 199]
+   <li><b>bəsad</b> grow dark; evening [LD 39]
+   <li><b>=s</b> he, him, his, she, her, hers, it, its,
+        they, them, their, theirs [3rd person possessive suffix] [LD 199]
+</ul>
+`,
+
+"ƛ̓u=lə=ƛ̓uc̓•us–i–t–b":
+`
+**ƛ̓u=lə=ƛ̓uc̓•us–i–t–b**
+
+<ul>
+   <li><b>ƛ̓u=lə=ƛ̓uc̓•us–i–t–b</b>
+   <ul>
+      <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
+
+      <li><b>lə-</b> action is ongoing, non-circumscribed, continuous,
+          developing, acts are performed in a series, performed while
+          moving from one place to another, happening
+          gradually. [verbal inflectional prefix of progressive
+          aspect; becomes <b>-ə-</b> following <b>s-</b> and
+          <b>dəxʷ-</b>] [LD 134]
+
+      <li><b>ƛ̓uc̓(u)</b> pull together, bunch up.  [LD 156]
+      <li><b>•us</b> face, head, upper part [lexical suffix] [LD 244]
+      <li><b>-i</b> perhaps an allomorph of <b>-t</b> invovling a body
+      part. see <b>SS</b> and <b>-i</b> in Linguistic Terms.
+      <li><b>-t</b> causal (transitive) suffix [LD 215]
+      <li><b>-b</b> passive marker: subject is the target, undergoer of action [LD 32]
+   </ul>
+</ul>
+`,
+
+"x̌ʷul̓":
+`
+**x̌ʷul̓**
+
+<ul>
+  <li> only, merely, just, just that and nothing else [LD 273]
+  <li> predicate adverb
+  <li><b>x̌ʷul̓ čəd yələlʔac</b> There are only six of us.
+</ul>
+
+**x̌ʷul̓ab, x̌ʷul̓əb**
+
+<ul>
+  <li> similar to, alike, as, just as
+  <li><b>x̌ʷul̓əb ʔə sqʷəbayʔ tiʔiɬ stiqayuʔ</b> A wolf is like a dog.
+</ul>
+
+`,
+
+
 "ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il":
 `
 
 **ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il**
-
 
 
 Here is an interesting use of two different flavors of the <b>ICS</b>
@@ -969,7 +1039,7 @@ rather than dialect.
        <ul>
          <li> secondary stem extender, allows transitive <b>-d</b> forms
               to be derived from roots which normally lack a patient. [LD 114]
-         <li> or may simply be an allomorph of the internal causative <b>-t</b>associated with a
+         <li> or may simply be an allomorph of the internal causative <b>-t</b> associated with a
             lexical suffix (or a particular subset of lexical suffixes).
          <li> Another possibility is that it associated with
          the possessor-raising seen in sentences like (90c) whereby it
@@ -3077,7 +3147,7 @@ _ongoing coming of light_
 _ _s=ləx̌-il_: grow light, day.
      - _s=_: nominalizer
      - _ləx̌_: 
-         - light (verb) as in "light a fire", set to burning.  LD 137
+         - light (verb) as in illuminate, "light a fire", set to burning.  LD 137
          - compare _hud(u)_: burn, fire.  LD 111
          - _-il_:  reach or achieve a state or position; becoming. derivational suffix; LD 116
 - _=s_: 3PO. third person possesive patient person suffix.  LD 199.
@@ -5212,15 +5282,6 @@ _approached, were coming near, getting close_
     - _č’it-il_: draw near
 `,
     
-"x̌ʷul̓":
-`
-**x̌ʷul̓**
-
-- only, merely, simply, just, just that and nothing else
-- predicate adverb.
-- LD 273.
-
-`,
 
 "x̌ʷul’=əxʷ":
 `
