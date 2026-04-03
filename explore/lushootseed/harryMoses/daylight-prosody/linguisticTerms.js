@@ -1,5 +1,41 @@
 linguistics = {
 
+"Stems and Radicals":
+`
+**Stems and Radicals**
+
+David Beck via email (30 march 2026)
+
+The radical or root is the smallest lexical part of the word. The stem
+is the root/radical plus any derivational affixes.
+
+***English example***
+
+<ul>
+  <li>reactivates
+  <li> -s is an inflectional suffix (tense/subject agreement)
+  <li> STEM: reactivate
+  <li> re-, -ive, and -ate are all derivational affixes
+  <li> RADICAL: act
+
+</ul>
+
+**Lushootseed**
+
+<ul>
+   <li>tugʷəč̓ədaxʷ
+   <li>tu=gʷəč̓–t=axʷ
+   <li>past=search–ics=now
+   <li> ’s/he/they sought for it now’
+   <li> you strip off the clitics (tu= and =axʷ)
+   <li> this gets you the stem gʷəč̓d: ‘X looks for Y’
+   <li> trip off the derivational causative suffix -[td]
+   <li> you get the radical gʷəč̓ ‘Y is sought’
+<ul>
+
+`,
+
+
 "-i":
 `
 **-i**
@@ -170,6 +206,7 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes</a>
 <li><a href="https://pshannon.net/docs/valencyClean.pdf" target="_blank">
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes (clean)</a>
+<li><a href="" target="_blank"> </a>
 
 
 </ul>
@@ -427,9 +464,44 @@ shorten further, solidifying its status as a single word.
 
 Probably one of the most notable features of Lushootseed (and other
 Salishan languages) is the rich verbal morphology, particularly in the
-realm of derivation. The majority of Lushootseed verb stems is built
-up out of fairly easily-analyzable elements based on monovalent
-radicals, often of the phonological shape CVC:
+realm of derivation. 
+
+The majority of Lushootseed verb stems is built up out of fairly
+easily-analyzable elements based on monovalent radicals, generally of
+the phonological shape CVC.
+
+<ul>
+  <li> with only a few exceptions (see Table 4 below), Lushootseed
+  radicals are monovalent and intransitive
+  <li> they require valency-increasing morphology to form verb stems
+  with a valency of greater than one
+  <li> Lushootseed has almost no underived transitive verbs (e.g.,
+  Hess 1995; Beck 1996, 2000)
+</ul>
+
+What are transitive verbs in most languages are derived from a large
+set of monovalent patient-oriented (Hess 1995) radicals whose
+syntactic subject expresses the semantic PATIENT or ENDPOINT of an
+event rather than the AGENT.
+
+**Example: kʷəd**
+
+<ul>
+  <li><b>kʷəd</b> be held, taken
+  <li><b>kʷədad</b> take X
+  <li><b>kʷədxʷ</b> manage to take
+  <li><b>kʷədab</b> take X for self
+  <li><b>kʷədalikʷ</b> take X over and over
+  <li><b>ʔukʷədyic</b> ʔu–kʷəd–yi–t–s  PFV–taken–DAT–ICS–1SG.OBJ
+  <li><b>ʔukʷədyitəb</b> ʔu–kʷəd–yi–t–əb PFV–taken–DAT–ICS–PASS
+  <li><b>kʷədyid</b> take X from Y
+  <li><b>kʷədabyid</b> make X captive
+  <li><b>kʷədabid</b> take X captive, from <b>kʷədab</b> capture X
+  <li><b>kʷədbid</b> steal from X
+  <li><b>kʷədax̌adid</b> take X by the arm, from kʷəd ‘be held, be taken’ + -ax̌ad ‘arm’
+</ul>
+
+
 
 Some examples from Harry Moses's Daylight:
 

@@ -1,0 +1,150 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.3/wordcloud2.min.js"></script>
+<span style="margin-left: 30px;">
+   <button id="showCloudButton" class="standardSlexilButton"> Word Cloud
+  </button>
+</span>
+
+<div id="cloudDialog"
+        style="margin: 5px; width: 700px;">
+  <canvas id="wordcloud-canvas" width="600" height="400"
+          style="border: 1px solid lightgray; border-radius: 10px;"></canvas>
+  <div id="info-panel" style="margin: 15px; padding: 10px; height: 60px; border: 1px solid green;">
+       <p>Click on any word root above</p>
+  </div>
+  <div> <button id="showOnlyRootMatchesButton"
+                class="standardSlexilButton"> Show Matched Lines</button>
+         <button id="showAllLinesButton"
+                class="standardSlexilButton"> Show All Lines</button>
+        </div>
+
+</div>
+<script>
+$(document).ready(function(){
+   $("#cloudDialog").dialog({title: "Explore Verb Roots",
+                             autoOpen: false,
+                             width: 640});
+  $("#showCloudButton").on('click', function(){
+     console.log("open dialog button click");
+     const app = new Radicals()
+     app.renderWordCloud()
+     $("#cloudDialog").dialog("open")
+     })
+   })
+
+//--------------------------------------------------------------------------------
+class Radicals {
+
+  data = [{"radical":"ləx̌","definition":"be light, be bright, be illuminated","lines":[1,3]},
+          {"radical":"bəsad","definition":"be dark","lines":[2,22,55]},
+          {"radical":"had","definition":"talk","lines":[3]},
+          {"radical":"čal","definition":"chase; catch.","lines":[16,69,71,83,86,87,88,93]},
+          {"radical":"kʷəd","definition":"be taken","lines":[3,4,36,37,46,74,77,81,104]}
+         ];
+
+    constructor(){
+       console.log("Radicals class ctor");
+       window.data = this.data;
+       }
+
+    getRoots(){
+      return(this.data.map(function(x){return x.radical}))
+      }
+    getCount(radical){
+      const entry = this.data.filter(function(x){return(x.radical == radical)})
+      return(entry[0]['lines'].length)
+      }
+      
+    renderWordCloud(){
+      var canvas = document.getElementById('wordcloud-canvas');
+      window.canvas = canvas;
+      const ctx = canvas.getContext('2d')
+      window.ctx = ctx;
+      var infoPanel = document.getElementById('info-panel');
+      var self = this
+      WordCloud(canvas, 
+                {list:
+                   this.data.map(function(item){
+                     const name = item['radical'];
+                     const count = self.getCount(name);
+                     const lineNumbers = item['lines'];
+                     const definition = item['definition']
+                     return([name, count, lineNumbers, definition])
+                     }),
+                gridSize: 20,
+                weightFactor: 6,
+                backgroundColor: '#f8f9fa',
+                shuffle: false,
+                shrinkToFit: true,
+                click: function(item, dimension, event) {
+                   if (item) {
+                      console.log("item: ");
+                      console.log(item)
+                      var word = item[0];
+                      var weight = item[1];
+                      var definition = item[3]
+                      infoPanel.innerHTML = `
+                            <b>${word}</b> '${definition}' - ${weight} lines `;
+                      console.log(word + ": " + weight);
+                      console.log("72: lineNumbers: ");
+                      console.log(item[2]);
+                      state['radical'] = word;
+                      console.log("76: saving lineNumbers: " + item[2].length)
+                      window.lineNumbers = item[2];
+                    } // if item
+                  },  // click
+                /********
+                hoverxx: function(item, dimension, event) {
+                  console.log("hover")
+                  if (Array.isArray(item)) {
+                     var word = item[0];
+                     var weight = item[1];
+                     var definition = item[3]
+                     infoPanel.innerHTML = `
+                            <b>${word}</b> '${definition}' - found in ${weight} lines `;
+                     } // if array
+                   } // hover
+                ********/
+                }) // WordCloud ctor
+     } // renderWordCloud
+
+     print(){
+       console.log(this.data)
+       }
+
+} // class Radicals      
+//--------------------------------------------------------------------------------
+$("#xxshowCloudButton").on("click", function(){
+  console.log("--- showCloud");
+  cloudDialog.showModal();
+  const app = new Radicals()
+  console.log("roots: " + JSON.stringify(app.getRoots()))
+  console.log("kʷəd lines: " + app.getCount("kʷəd"))
+  app.renderWordCloud()
+  })
+
+$("#showOnlyRootMatchesButton").on("click", function(){
+  for (let i = 1; i <= 116; i++){
+     x='#'+i;
+     $(x).hide()
+     }
+  $(".html").hide()
+  const matches = window.lineNumbers;
+  //console.log("lines to show:");
+  //console.log(matches)
+  for(let i=0; i < matches.length; i++){
+     x='#'+ matches[i];
+     $(x).show()
+     }
+   }) // showOnlyRootMatchesButton
+
+$("#showAllLinesButton").on("click", function(){
+  for (let i = 1; i <= 116; i++){
+     x='#'+i;
+     $(x).show()
+     }
+  }) // showAllLinesButton
+
+</script>
+
+
+

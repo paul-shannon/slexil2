@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>read tsv </title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<style>
+
+body{
+   margin: 100px;
+   margin-top: 30px;
+   font-family: "New York Times-Roman";
+   font-size: 22px;
+   height: 100%;
+   }
+
+</style>
+
+
+<script type="module">
+//------------------------------------------------------------
+var state = {}
+import fubar from './radicals.json';  
+window.state = state;
+async function readRadicals() {
+    const url = 'http://127.0.0.1:5007/radicals.json'
+    //const url = './radicals.json'
+    try{
+       const response = await fetch(url);
+       if(!response.ok){
+          throw new Error('fetch of ' + url + ' failed: ' +
+                          response.status);
+          }
+       const data = await response.json()
+       /******
+       data.forEach(function(x,i,array){
+         const arrayAsIntegers = x.lines.split(',').map(Number);
+         console.log(arrayAsIntegers);
+         x.lines = arrayAsIntegers;
+         }) // forEach
+       ***/
+       state['radicals'] = data;
+       console.log(data)
+       } catch (error){
+         console.error(error.message);
+         }
+         
+} // readRadicals
+//------------------------------------------------------------
+$(document).ready(function(){
+  console.log("document ready")
+  readRadicals()
+  }) // document ready
+    
+  //fetch('')
+   /*******
+  fetch('./radicals.json')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error loading JSON:', error));
+  
+     }); // document ready
+   *****/
+
+</script>
+
+</head>
+<body>
+<h3>read tsv </h3>
+
+<button onclick="window.dialog.showModal();">open dialog</button>
+
+<dialog id="dialog">
+  I'm a dialog.
+  <button onclick="window.dialog2.showModal();">open 2nd dialog</button>
+  <button onclick="window.dialog.close();">close</button>
+</dialog>
+
+<dialog id="dialog2">
+  I'm a 2nd dialog.
+  <button onclick="window.dialog2.close();">close</button>
+</dialog>
+
+</body>
+</html>

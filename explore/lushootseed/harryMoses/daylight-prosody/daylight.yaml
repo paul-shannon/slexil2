@@ -6,7 +6,7 @@ mimeType: audio/x-wav
 
 lines:
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -45,7 +45,7 @@ lines:
     morphemeGloss: [be.there,REM,daylight,at,REM,upstream•land,SCONJ,STAT–how,REM,SBJ=ADNM=take–DC,1PL.PO]
     english: Daylight is up there in the upriver country but how can we manage to get it?
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -86,7 +86,7 @@ lines:
     morphemeGloss: [PROX,raven,CONJ,PROX,ATTN–mink,REM,PAST=made–ICS–REFL]
     english: The ones who prepare themselves are Raven and Little Mink.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -136,7 +136,7 @@ lines:
     morphemeGloss: [PROG=three•CNN•canoe–INCH,PROX,PAST=STAT–overturned–ECS,PL,canoe,ADNM=PROG=jump•body=3PO,PL,HORT]
     english: It came to where they had three canoes overturned which they were jumping.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -177,7 +177,7 @@ lines:
     morphemeGloss: [here=now,1PL.SUB,well=now,CNTRPT–at,REM,SBJ=NM=PFV–go–ALTV,1PL.PO,REM,daylight,at,REM,ADNM=be.in.place]
     english: We are good enough to go after daylight where it is.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -204,9 +204,9 @@ lines:
 
   - startTime: 111638
     endTime: 116800
-    lushootseed:  x̌ʷul̓əxʷ əlgʷəʔ tuləč̓itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il
+    lushootseed:  x̌ʷul̓əxʷ əlgʷəʔ tu=lə-č̓itil dxʷʔal tiʔəʔ dəxʷʔa ʔə kʷi sləx̌il
     soundsLike: oh.luff helgwa tool.luh.chait.eel duff.ah uh tiah duff.ah kwee sluck.hail
-    morphemes: [x̌ʷul̓=əxʷ,əlgʷəʔ,tu=lə=č̓it–il,dxʷ–ʔal,tiʔəʔ,dəxʷʔa,ʔə,kʷi,sləx̌il]
+    morphemes: [x̌ʷul̓=əxʷ,əlgʷəʔ,tu=lə-č̓it-il,dxʷ–ʔal,tiʔəʔ,dəxʷʔa,ʔə,kʷi,sləx̌il]
     morphemeGloss: [only=now,PL,PAST=PROG=near–INCH,CNTRPT–at,PROX,ADNM=be.there,PR,REM,daylight]
     english: As they drew near this place of daylight,
 
@@ -234,7 +234,7 @@ lines:
     morphemeGloss: [FOC,PAST=STAT–know–DC,PL,SBJ-ADNM-near–INCH=now,1PL.SUB]
     english: That is how they knew.  We are getting near.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -374,7 +374,7 @@ lines:
     morphemeGloss: [PROG=old,STAT–grey.hair•head,PROG.STAT–use.walking.stick]
     english: He was old with grey hair and used a cane
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -436,7 +436,7 @@ lines:
     morphemeGloss: [1SG.coord,go,SCONJ,IRR=good,REM,SBJ=1SG.PO=NM=STAT–made]
     english: I will go.  And I will be treated well.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -485,7 +485,7 @@ lines:
     morphemeGloss: [past=made–ICS–PASS=now,pr,PROX,ADNM=STAT–fallen=3PO,be.in.right.place•mouth]
     english: His place was made by the door.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
@@ -551,7 +551,7 @@ lines:
     morphemeGloss: [STAT–watch–MAP–ICS–PASS,pr,attn–mink]
     english: It was watched by Little Mink.
 
-  - html: "<div style='overflow-x: clip; margin: 30px;
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>radicals </title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.3/wordcloud2.min.js"></script>
+<style>
+
+body{
+   margin: 100px;
+   margin-top: 30px;
+   font-family: "New York Times-Roman";
+   font-size: 22px;
+   height: 100%;
+   }
+
+</style>
+
+
+<script>
+
+class Radicals {
+
+  data = [{"radical":"ləx̌","definition":"be light, be bright, be illuminated","lines":[1,3]},
+          {"radical":"bəsad","definition":"be dark","lines":[2,22,55]},
+          {"radical":"had","definition":"talk","lines":[3]},
+          {"radical":"čal","definition":"chase; catch.","lines":[16,69,71,83,86,87,88,93]},
+          {"radical":"kʷəd","definition":"be taken","lines":[3,4,36,37,46,74,77,81,104]}
+         ];
+
+    constructor(){
+       console.log("Radicals class ctor");
+       window.data = this.data;
+       }
+
+    getRoots(){
+      return(this.data.map(function(x){return x.radical}))
+      }
+    getCount(radical){
+      const entry = this.data.filter(function(x){return(x.radical == radical)})
+      return(entry[0]['lines'].length)
+      }
+      
+    renderWordCloud(){
+      var canvas = document.getElementById('wordcloud-canvas');
+      window.canvas = canvas;
+      const ctx = canvas.getContext('2d')
+      window.ctx = ctx;
+      var infoPanel = document.getElementById('info-panel');
+      var self = this
+      WordCloud(canvas, 
+                {list:
+                   this.data.map(function(item){
+                     const name = item['radical'];
+                     const count = self.getCount(name);
+                     const lineNumbers = item['lines'];
+                     const definition = item['definition']
+                     return([name, count, lineNumbers, definition])
+                     }),
+                gridSize: 20,
+                weightFactor: 6,
+                backgroundColor: '#f8f9fa',
+                shuffle: false,
+                shrinkToFit: true,
+                click: function(item, dimension, event) {
+                   if (item) {
+                      console.log("item: ");
+                      console.log(item)
+                      var word = item[0];
+                      var weight = item[1];
+                      console.log(word + ": " + weight);
+                      console.log("lineNumbers: ");
+                      console.log(item[2]);
+                    } // if item
+                  },  // click
+                hover: function(item, dimension, event) {
+                  console.log("hover")
+                  if (Array.isArray(item)) {
+                     var word = item[0];
+                     var weight = item[1];
+                     var definition = item[3]
+                     infoPanel.innerHTML = `
+                            <b>${word}</b> '${definition}' - found in ${weight} lines `;
+                     //console.log('Hovered over word: ' + item[0] +
+                     //            ' with frequency: ' + item[1]);
+                     } // if array
+                   } // hover
+                }) // WordCloud ctor
+     } // renderWordCloud
+
+     print(){
+       console.log(this.data)
+       }
+
+} // class Radicals      
+
+$(document).ready(function(){
+  console.log("document ready")
+  const app = new Radicals()
+  console.log("roots: " + JSON.stringify(app.getRoots()))
+  console.log("kʷəd lines: " + app.getCount("kʷəd"))
+  app.renderWordCloud()
+  window.app = app
+    $("#cloudDialog").dialog({title: "Explore Verb Stems",
+                              autoOpen: false,
+                              width: 640});
+  $("#openDialogButton").on('click', function(){
+     console.log("open dialog button click");
+     $("#cloudDialog").dialog("open")
+     })
+  }) // document ready
+
+                            
+    
+</script>
+
+</head>
+<body>
+<h3>Study Lushootseed Roots </h3>
+<button id="openDialogButton">open dialog</button>
+
+  <div id="cloudDialog">
+  <canvas id="wordcloud-canvas" width="600" height="400"
+          style="border: 1px solid lightgray; border-radius: 10px;"></canvas>
+  <div id="info-panel">
+       <p>Hover over or click on any word above</p>
+   </div>
+</div>
+
+</body>
+</html>

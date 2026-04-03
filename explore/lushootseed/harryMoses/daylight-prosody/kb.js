@@ -31,8 +31,6 @@ kb = {
 **ƛ̓u=lə=ƛ̓uc̓•us–i–t–b**
 
 <ul>
-   <li><b>ƛ̓u=lə=ƛ̓uc̓•us–i–t–b</b>
-   <ul>
       <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
 
       <li><b>lə-</b> action is ongoing, non-circumscribed, continuous,
@@ -43,13 +41,18 @@ kb = {
           <b>dəxʷ-</b>] [LD 134]
 
       <li><b>ƛ̓uc̓(u)</b> pull together, bunch up.  [LD 156]
+      <li>From Lushootseed Grammar, Volume 15A.3, describing <b>ʔuƛ̓uc̓ič</b> (PFV-knot-string.like.things)
+          <ul>
+             <li><b>ƛ̓uc̓</b> "tie, knot, tie a package"
+             <li><b>-ič</b>, this suffix, like those discussed in 10.10 and 13.2,
+                   refers to chain-line things, knots along a rope, the spine, etc.
+          </ul>
       <li><b>•us</b> face, head, upper part [lexical suffix] [LD 244]
       <li><b>-i</b> perhaps an allomorph of <b>-t</b> invovling a body
       part. see <b>SS</b> and <b>-i</b> in Linguistic Terms.
       <li><b>-t</b> causal (transitive) suffix [LD 215]
       <li><b>-b</b> passive marker: subject is the target, undergoer of action [LD 32]
    </ul>
-</ul>
 `,
 
 "x̌ʷul̓":
@@ -1271,7 +1274,14 @@ doesn’t fit in the interlinear gloss very well.
 **ləq̓aɬ•ucid**
 
 - _ləq̓aɬ_:  be in correct place, be on target  LD 136
-- _ucid_:  lexical suffix?   LD 243
+- uses suggesting a weaker meaning, regarding correct place
+    - _lilq̓aɬucid_: [red1] right near the door of the house
+    - _liɬl̓ilq̓aɬ_: right along about there
+    - this Harry Moses line, in LD, translates: 'It is best for me to be by the door'
+    - regarding "on target":
+        - _ʔuləq̓aɬil čəd_: I'm correct
+        - _ləq̓aɬ čəxʷ ʔə t(a) adsqa_: you are just like your older brother
+- _ucid_:  lexical suffix  LD 243
     - body of water (to be crossed)
     - river
     - mouth
