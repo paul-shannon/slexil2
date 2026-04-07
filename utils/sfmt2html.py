@@ -24,6 +24,7 @@ parser.add_argument('--start', type=int, required=False, default=None)
 parser.add_argument('--end', type=int, required=False, default=None)
 parser.add_argument('--webpackLinksOnly',  action="store_true")
 parser.add_argument('--fontSizeControls',  action="store_true")
+parser.add_argument('--provideRecording',  action="store_true")
 parser.add_argument('--kbFilename', required=False, default=None)
 parser.add_argument('--grammaticalTerms', required=False, default="default")
 parser.add_argument('--linguisticsFilename', required=False, default=None)
@@ -49,6 +50,7 @@ fontSizeControls = args.fontSizeControls
 kbFilename = args.kbFilename
 linguisticsFilename = args.linguisticsFilename
 fixOverlappingTimeSegments = args.fixOverlappingTimeSegments
+provideRecording = args.provideRecording
 useTooltips = args.toolTips
 outputDir = args.outputDir
 #----------------------------------------------------------------------------------------------------
@@ -90,6 +92,7 @@ page = sfmtToWebPage(sfmt,
                      kbFilename = kbFilename,
                      linguisticsFilename = linguisticsFilename,
                      fixOverlappingTimeSegments = fixOverlappingTimeSegments,
+                     provideRecording = provideRecording,
                      webpackLinksOnly=webpackLinksOnly,
                      useTooltips=useTooltips)
 

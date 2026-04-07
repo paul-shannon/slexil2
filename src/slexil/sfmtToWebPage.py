@@ -67,13 +67,14 @@ class sfmtToWebPage:
                 kbFilename = None,
                 linguisticsFilename = None,
                 fixOverlappingTimeSegments = False,
+                provideRecording=False,
                 webpackLinksOnly=False,
                 useTooltips=False,
                 showAnnotations=False):
 
       if verbose:
          print("--- sfmtToWebPage.py, ctor")
-      self.provideRecording = True
+      self.provideRecording = provideRecording
 
       self.file = file
       self.grammaticalTerms = grammaticalTerms
@@ -391,8 +392,10 @@ class sfmtToWebPage:
             with htmlDoc.tag("div"):            
                with htmlDoc.tag("span", id="tiersLabelDiv"):
                   htmlDoc.text("Visible Tiers: ")
-                  with htmlDoc.tag("button", id="allNoneTierButton"):
+                  with htmlDoc.tag("button", id="allNoneTierButton",
+                                   klass="standardSlexilButton"):
                       htmlDoc.text("All/None")
+                  htmlDoc.asis('\n\n<!-- otherControlsInsertionHook -->\n\n')
 
             with htmlDoc.tag("div", id="tiersCheckBoxesDiv"):
                with tag('form', action = ""):

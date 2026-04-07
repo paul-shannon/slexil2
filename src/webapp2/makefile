@@ -1,6 +1,6 @@
 NAME = slexiltestwebapp2
 PORT = 9002
-VERSION = 260
+VERSION = 280
 IMAGE = pshannon/slexilwebapp$(VERSION)
 
 default:
@@ -29,7 +29,7 @@ default:
 
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 assemble:
 	(cd parts; make assemble)
