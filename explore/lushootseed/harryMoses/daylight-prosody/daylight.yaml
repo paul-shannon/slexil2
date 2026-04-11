@@ -18,13 +18,15 @@ lines:
   - startTime: 0
     endTime: 5942
     lushootseed: ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.
+    soundsLike: al kwee too, al kwee too hawk, gwul kwee gwuh.too.sluh.khail
     morphemes: [ʔal,kʷi,tu=,ʔal,kʷi,tu=haʔkʷ,gʷəl,xʷiʔ,gʷə=tu=s-ləx̌-il]
     morphemeGloss: [at,REM,PAST,at,REM,PAST=long.time,SCONJ,NEG,SBJ=PAST=daylight]
     english: In the distant past, there was no daylight.
 
-  - startTime: 5943
+  - startTime: 6372
     endTime: 10469
     lushootseed: tiʔəʔ swatixʷtəd gʷəl tasbəsad ʔal kʷi tuhaʔkʷ.
+    soundsLike: tiah swaw.tay.uff.tud gwul taws.buh.sawd al kwee too.hawk
     morphemes: [tiʔəʔ,swatixʷtəd,gʷəl,tu=?as-bəsad,∅,ʔal,kʷi,tu-haʔkʷ]
     morphemeGloss: [PROX,land,SCONJ,PAST=STAT–dark,3SUB,at,REM,PAST=long.time]
     english: The land, it was dark in the distant past.
@@ -40,7 +42,7 @@ lines:
   - startTime: 17746
     endTime: 23000
     lushootseed: ʔaʔ kʷi sləx̌il ʔal kʷi q̓xʷul̓gʷədxʷ gʷəl ʔəsčal kʷi gʷədəxʷkʷədxʷ čəɬ.
-    soundsLike: 
+    soundsLike: ah kwee sluh.kail al kwee kwoal.gwood.  gwul ess.chall kwee gwud.uff.kwud chuss
     morphemes: [ʔaʔ,kʷi,sləx̌il,ʔal,kʷi,q̓xʷ•ul̓gʷədxʷ,gʷəl,ʔəs–čal,kʷi,gʷə=dəxʷ=kʷəd–dxʷ,čəɬ]
     morphemeGloss: [be.there,REM,daylight,at,REM,upstream•land,SCONJ,STAT–how,REM,SBJ=ADNM=take–DC,1PL.PO]
     english: Daylight is up there in the upriver country but how can we manage to get it?
@@ -57,7 +59,7 @@ lines:
   - startTime: 24006
     endTime: 26917
     lushootseed: tuhuyucutəxʷ tiʔəʔ səsaliʔ ləgʷləgʷəb
-    soundsLike: 
+    soundsLike: too.hoyoot.suit.uff tiah suh.sawley lug.lug.gwub
     morphemes: [tu=huyu–t–sut=əxʷ,tiʔəʔ,səsaliʔ,ləgʷ–ləgʷəb]
     morphemeGloss: [PAST=made–ICS–REFL=now,PROX,two:HMN,DSTR–youth]
     english: These two youths prepared themselves.
@@ -65,7 +67,7 @@ lines:
   - startTime: 27192
     endTime: 28928
     lushootseed: tuc̓agʷacutəxʷ
-    soundsLike: 
+    soundsLike: toots.saw.gwuh.suit.uff
     morphemes: [tu=c̓agʷa–t–sut=əxʷ]
     morphemeGloss: [PAST=washed–ICS–REFL=now]
     english: They bathed.
@@ -97,18 +99,18 @@ lines:
 
   - startTime: 42334
     endTime:   47686
-    lushootseed: tut̓ədalgʷiɬ gʷəl tux̌ʷ xʷiʔ uʔxʷ, tuʔaʔ tux̌ʷ xʷiʔ uʔxʷ ƛ̓əlayʔ ʔə huyu gʷəsəsaxʷəbabac
+    lushootseed: tut̓ədalgʷiɬ əlgʷəʔ.  tuʔaʔ dᶻəɬ kʷi ƛ̓əlayʔ tux̌ʷ xʷiʔ uʔxʷ gʷəsəsaxʷəbabacs
+    morphemes: [tu=t̓əd•al•gʷiɬ,əlgʷəʔ,tu=ʔaʔ,dᶻəɬ,kʷi,ƛ̓əlayʔ,tux̌ʷ,xʷiʔ,uʔxʷ,gʷə=s=lə=saxʷəb•abac=s]
+    morphemeGloss: [PAST=lined.up•cnn•canoe,PL,past=be.there,ptcl,rem,shovel.nose.canoe,just,neg,ptcl,sbj=nm=prog=jump•body=3po]
     soundsLike: too tedalgweel gwell doke wheech, too ah.duh doke wheech lide.zuh koy.o butt.buzz swuh.bawb.utz
-    morphemes: [tu=t̓əd•al•gʷiɬ,gʷəl,tux̌ʷ,xʷiʔ,uʔxʷ,tu=ʔaʔ,tux̌ʷ,xʷiʔ,uʔxʷ,ƛ̓əlayʔ,ʔə,huyu,gʷə=s=lə=saxʷəb•abac=s]
-    morphemeGloss: [PAST=lined.up•CNN•canoe,SCONJ,but,NEG,yet,PAST=be.there,but,NEG,yet,canoe,PR,finish,SBJ=NM=PROG=jump•body=3PO]
     english: They lined up the canoes. There must have been some shovel-nosed canoes but they could not yet jump over them.
 
 
   - startTime: 48461
     endTime:   53237
-    lushootseed: ʔal kʷi sxʷəʔaʔxʷəʔils (lə)ləcəbagʷiɬil tiʔəʔ ʔəsx̌ək̓ʷtxʷ əlgʷəʔ ƛ̓əlayʔ
+    lushootseed: ʔal kʷi sxʷəʔaʔxʷəʔils ləcəbagʷiɬil tiʔəʔ ʔəsx̌ək̓ʷtxʷ əlgʷəʔ ƛ̓əlayʔ
     soundsLike: al kwee suh.kwah.weez luck.luck.suh.bawg.weesh.eesh tiahs huck elgwah tluh.lie
-    morphemes: [ʔal,kʷi,s=xʷəʔaʔxʷəʔ–il=s,(lə)lə=cəb•a•gʷiɬ–il,tiʔəʔ, ʔəs–x̌ək̓ʷ–txʷ,əlgʷəʔ,ƛ̓əlayʔ]
+    morphemes: [ʔal,kʷi,s=xʷəʔaʔxʷəʔ–il=s,lə=cəb•a•gʷiɬ–il,tiʔəʔ, ʔəs–x̌ək̓ʷ–txʷ,əlgʷəʔ,ƛ̓əlayʔ]
     morphemeGloss: [at,REM,NM=swift–INCH=3PO,PROG=two•CNN•canoe–INCH,PROX,STAT–overturned–ECS,PL,canoe]
     english: To become swift they had two canoes overturned.
 
@@ -198,7 +200,7 @@ lines:
     endTime: 108783
     lushootseed:  tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q̓xʷul̓gʷədxʷ
     soundsLike: lawk oh doh kweech, kwee sluck.hail doh kwee kwoal.gwud
-    morphemes: [tu=sə-gʷaʔxʷ,ʔux̌ʷ,tux̌ʷ,xʷiʔ,uʔxʷ,kʷi,sləx̌il,tux̌ʷ,kʷi,q̓xʷul̓gʷədxʷ]
+    morphemes: [tu=sə-gʷaʔxʷ,ʔux̌ʷ,tux̌ʷ,xʷiʔ,uʔxʷ,kʷi,sləx̌il,tux̌ʷ,kʷi,q̓xʷ•ul̓gʷədxʷ]
     morphemeGloss: [PAST=PROG–walk,go,but,not,yet,REM,daylight,but,REM,upstream•land]
     english: Walking went but not yet, that daylight  that upstream.land.
 

@@ -193,21 +193,179 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
 
 `,
 
+
+
+"-i":
+`
+**-i**
+
+<i>Except for secondary suffixes (Section 2.1.3), Lushootseed disallows
+combinations of valency-increasing suffixes, thereby excluding the
+possibility of adding a causative suffix to a transitive stem (which
+would itself have to have been derived using a causative or
+applicative suffix). footnote 36, p83, Beck Grammar</i>
+
+<i>Secondary suffixes are affixes that combine with another
+valency-increaser, usually -t ‘internal causative’, to form a
+morphological complex that adds a direct object expressing some
+semantic role other than PATIENT. In total, Hess & Bates (2004) list
+four secondary suffixes — -yi-, -bi-, -di-, and -i-.</i>
+
+Of these, only -yi- and -bi- appear to be productive and can
+be associated with unique and fairly consistent meanings; the other
+two appear to be confined to a few fossilized forms and to have
+meanings that overlap with those of the more productive secondary
+suffixes.
+
+<pre>
+
+ 90a. ʔucaq̓ čəd ʔə tiʔəʔ sxə̌ diʔac
+      ʔu–caq̓ čəd ʔə tiʔəʔ sxə̌ diʔac
+      PFV–be.speared 1SG.SUB PR PROX devil’s.club
+      I got speared by the Devil’s Club
+
+ 90c. dxʷcaq̓ax̌adid tiʔiɬ č̓ətx̌
+      dxʷ–caq̓–ax̌ad–i–d tiʔiɬ č̓ətx̌
+      CTD–speared–side–SS–ICS DIST kingfisher
+      he speared Kingfisher in the side
+
+</pre>
+
+The form in (90c) is transitive and takes as its subject
+the AGENT rather than the PATIENT which is the subject of the radical
+in (90a). Thus, the effect on the valency and government pattern of
+the radical of adding -i-d is the same as that of adding the
+transitive causative suffix -t.
+
+This raises the issue of what contribution, if any, the secondary
+suffix -i- makes to the meaning of the stem. One possibility is that
+-i- is not a meaningful element at all and that the sequence [id] may
+simply be an allomorph of the internal causative associated with a
+lexical suffix (or a particular subset of lexical suffixes).
+
+This seems unlikely given that, as we saw in Section 2.1.6, there are
+abundant internal causative stems containing lexical suffixes such as
+c̓agʷačiʔd ‘wash someone’s hands’ (cf. č̓əlpačiʔid ‘twist someone’s
+wrist’ in Table 46) that do not contain -i-.
+
+Another possibility is that the -i- is associated with the
+possessor-raising seen in sentences like (90c) whereby it is the
+bodypart that is affected by the action, but the possessor of the
+bodypart is expressed as the direct object. This, however, still begs
+the question of why -i- is not present in all transitive stems
+containing lexical suffixes that express affected bodyparts.
+
+Another reason for not dismissing -i- as a morpheme entirely, at least
+from a diachronic perspective, is that it turns up in a few other
+places as a stem-formative associated with -t. One particularly
+suggestive pair of verbs is haʔlid ‘make good for someone, make
+someone comfortable’ vs. halʔad ‘tend to someone’, both derived from
+the adverbial radical √haʔɬ ‘good’.  However, these are the only such
+contrastive pairs found in the corpus to date, making any analysis of
+-i- as anything more than a vestige of an earlier form that was most
+likely associated in some way with valency-altering constructions
+little more than speculation.
+
+`,
+
+" Verb classes":
+`
+**Verb Classes**
+
+Radicals can be grouped into several semantic classes,
+only one of which is genuinely unaccusative (see table 1 in
+appendix to online version).
+
+<ul>
+   <li>For example  <b>ɬič</b> "be cut with a knife"
+</ul>
+
+Most bare radicals are syntactically intransitive, and syntactically
+transitive verbs bear some morphological indicator of that
+transitivity.
+
+<pre>
+
+   (10a) ?u-ɬic̓ čəd
+         PFV-be.cut.with.knife 1SG.SUB
+         ‘I got cut with a knife’
+
+   (10b) ?u-ɬic̓i-d čəd tə sqʷiqʷali
+         PFV-be.cut.with.knife-ICS 1SG.SUB INDEF hay
+        ‘I cut hay (with a blade)’ 
+
+</pre>
+
+In (10a), the radical ɬic̓ ‘be cut with a knife’ — despite expressing a
+two-participant event high on the scale of semantic transitivity —
+takes only a single syntactic argument expressing the patient (Hess
+1973). In order to express an agent (10b), it is necessary to apply
+the suffix -t (which is realized word-finally as [-d]). Thus, what are
+plain transitive verbs in most languages are formed by morphological
+means from monovalent radicals in Lushootseed and many other members
+of the family.
+
+Members of this class, one of the largest, express a semantically
+transitive event but require one of the valency-increasing affixes to
+express an agent. While most languages lexicalize events at this end
+of the scale of semantic transitivity to include a valency-slot for
+both the agent and the patient/endpoint of the event, Lushootseed only
+includes the patient in the verb’s semantic valency and treats the
+agent as an implied participant.
+
+Accusative?
+
+<ol>
+   <li> position <b>ɬaq̓</b> be fallen, be lying down
+   <li> location <b>č̓it</b> be near
+   <li> state <b>qəɬ</b> be awake
+   <li> property <b>q̓ʷəl</b> be cooked
+   <li> process <b>hud</b> burn
+</ol>
+
+In all of these cases, the single actant of the monovalent radical is not
+exactly a patient; it might better be characterized as belonging to the more
+general class of undergoer (in the sense of Foley and Van Valin 1984).
+The transitive counterparts of these radicals are bivalent expressions which
+include an agent or causer acting on that undergoer to bring about the
+
+`,
+
+
+"PRLV":
+
+`
+**PRLV - prolative**
+
+The prolative case (abbreviated PROL), also called the vialis case
+(abbreviated VIA), prosecutive case (abbreviated PROS), traversal
+case, mediative case, or translative case,[1] is a grammatical case of
+a noun or pronoun that has the basic meaning of "by way of" or "via".
+[Wikipedia]
+
+`,
+
+
+"CNN":
+`
+**CNN - connective**
+
+`,
+
 " Beck Texts":
 `
 **David Beck's articles, papers, books**
 
 <ul>
-<li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
-<li><a href="https://pshannon.net/docs/nominals.pdf"
-   target="_blank">Patterns of nominalization in Bella Coola and Lushootseed</a>
-<li><a href="https://pshannon.net/docs/CAUS.pdf" target="_blank">Transitivity and Causation in Lushootseed Morphology</a>.
-<li><a href="https://pshannon.net/docs/valency.pdf" target="_blank">
+  <li><a href="https://pshannon.net/docs/StealingDaylight-from-beckAndHessBook.html" target="_blank">Daylight, Beck &amp; Hess version 2015</a>
+  <li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
+  <li><a href="https://pshannon.net/docs/nominals.pdf"
+     target="_blank">Patterns of nominalization in Bella Coola and Lushootseed</a>
+  <li><a href="https://pshannon.net/docs/CAUS.pdf" target="_blank">Transitivity and Causation in Lushootseed Morphology</a>.
+  <li><a href="https://pshannon.net/docs/valency.pdf" target="_blank">
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes</a>
-<li><a href="https://pshannon.net/docs/valencyClean.pdf" target="_blank">
+  <li><a href="https://pshannon.net/docs/valencyClean.pdf" target="_blank">
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes (clean)</a>
-<li><a href="" target="_blank"> </a>
-
 
 </ul>
 `,

@@ -11,11 +11,12 @@
   <div id="info-panel" style="margin: 15px; padding: 10px; height: 60px; border: 1px solid green;">
        <p>Click on any word root above</p>
   </div>
-  <div> <button id="showOnlyRootMatchesButton"
-                class="standardSlexilButton"> Show Matched Lines</button>
+  <div> 
          <button id="showAllLinesButton"
                 class="standardSlexilButton"> Show All Lines</button>
-        </div>
+         <button id="showOnlyRootMatchesButton"
+                class="standardSlexilButton"> Show Matched Lines</button>        
+  </div>
 
 </div>
 <script>
@@ -38,7 +39,15 @@ class Radicals {
           {"radical":"bəsad","definition":"be dark","lines":[2,22,55]},
           {"radical":"had","definition":"talk","lines":[3]},
           {"radical":"čal","definition":"chase; catch.","lines":[16,69,71,83,86,87,88,93]},
-          {"radical":"kʷəd","definition":"be taken","lines":[3,4,36,37,46,74,77,81,104]}
+          {"radical":"kʷəd","definition":"be taken","lines":[3,4,36,37,46,74,77,81,104]},
+          {"radical":"q̓xʷ", "definition":"be upstream","lines":[4,19]},
+          {"radical":"huyu", "definition": "do, make, prepare",
+              "lines": [5,7,8,12,43,45,50,51,111]},
+          {"radical":"c̓agʷa", "definition": "washed", "lines": [6]}
+          //{"radical":"", "definition": "", "lines": []}
+          //{"radical":"", "definition": "", "lines": []}
+          //{"radical":"", "definition": "", "lines": []}
+          
          ];
 
     constructor(){
@@ -63,16 +72,26 @@ class Radicals {
       var self = this
       WordCloud(canvas, 
                 {list:
-                   this.data.map(function(item){
+                   //this.data.map(function(item){
+                   window.data.map(function(item){
                      const name = item['radical'];
                      const count = self.getCount(name);
                      const lineNumbers = item['lines'];
                      const definition = item['definition']
+                     console.log(name + ": " + count)
                      return([name, count, lineNumbers, definition])
                      }),
                 gridSize: 20,
-                weightFactor: 6,
+                //weightFactor: 6,
+                weightFactor: function(freq) {
+                    const MIN_PX = 14, MAX_PX = 48;
+                    const minF = 1, maxF = 9;
+                    const t = (Math.sqrt(freq) - Math.sqrt(minF)) /
+                              (Math.sqrt(maxF) - Math.sqrt(minF));
+                    return MIN_PX + t * (MAX_PX - MIN_PX);
+                    },
                 backgroundColor: '#f8f9fa',
+                //minSize: 14,
                 shuffle: false,
                 shrinkToFit: true,
                 click: function(item, dimension, event) {
@@ -141,6 +160,7 @@ $("#showAllLinesButton").on("click", function(){
   for (let i = 1; i <= 116; i++){
      x='#'+i;
      $(x).show()
+     $(".html").show()
      }
   }) // showAllLinesButton
 

@@ -12,7 +12,7 @@ default:
 	@echo  s2h    # yaml2html
 	@echo  inject 
 	@echo  view
-	@echo  updateLocal [s2h, inject, view]
+	@echo  updateLocal [s2h, inject]
 	@echo  update [s2h, inject, publish, viewRemote]
 	@echo  publish
 	@echo  publish-audio
@@ -99,7 +99,7 @@ publish-pshannon:
 	scp daylight-restoration_V03-22k-aLaw.wav $(DEST)
 
 
-updateLocal: s2h inject view
+updateLocal: s2h inject 
 
 update: s2h inject publish viewRemote
 

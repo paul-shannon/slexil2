@@ -1,6 +1,64 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"tu=c̓agʷa–t–sut=əxʷ":
+`
+<h5>tu=c̓agʷa–t–sut=əxʷ</h5>
+
+<ul>
+  <li><b>tu=</b> past [LD 228]
+  <li><b>c̓agʷa</b> washed  [LD 50]
+   <ul>
+     <li> variant:  <b>c̓aʔkʷ</b>
+     <li> <b>c̓agʷa-cut</b> wash self
+     <li> <b>c̓agʷa-d</b> wash something
+     <li> <b>c̓agʷa=us</b> wash face
+   </ul>
+  <li><b>-t</b> causal (transitive) suffix [LD 215]
+  <li><b>-sut</b> reflexive 
+      <ul>
+        <li>from <b>-cut</b> and <b>š</b> [LD 207]
+        <li> myself, yourself, himself, herself, itself, themselves
+        <li> reflexive suffix, from <b>t-sut</b>
+      <ul>
+  <li><b>=əxʷ</b> now, at the particular time  [LD 30]
+</ul>
+
+`,
+
+"ɬu=bə=kʷəda–t":
+`
+<h5>ɬu=bə=kʷəda–t</h5>
+
+<ul>
+   <li> <b>ɬu-</b> anticipated, expected or possible event [LD 147]
+   <li><b>bə=</b> [LD 34]
+     <ul>
+       <li> again, anew (of actions or states)
+       <li> additional, another (or nouns)
+       <li> inflectional additive prefix
+    </ul>
+  <li><b>kʷəd(a)</b> take, get, hold, grasp; carry in the hand [LD 123]
+  <li><b>-t</b> causal (transitive) suffix [LD 215]
+</ul>
+
+`,
+
+"q̓xʷ•ul̓gʷədxʷ":
+
+`
+<b>q̓xʷ•ul̓gʷədxʷ</b>
+
+- <b>q̓xʷ</b> located upstream [LD 187]
+    - variants: <b>q̓ixʷ</b>, <b> q̓ayxʷ</b>
+- <b>•ul̓gʷədxʷ</b> land [lexical suffix] [LD 243]
+    - the land above (sky)
+    - the land below
+    - upriverward
+
+`,
+
+
 "tu=?as-bəsad":
 `
 **tu=?as-bəsad**
@@ -167,18 +225,15 @@ tušudub ʔə tiʔəʔ ʔaciɬtabixʷ.
 **gʷə=tu=s-ləx̌-il**
 
 <ul>
-   <li><b>gʷə</b>
-   <li><b>tu</b>
-   <li><b>s-ləx̌-il</b> day, daylight (lexicalized from its parts)
+   <li><b>gʷə-</b>if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95]
+   <li><b>tu-</b> past [LD 228]
+   <li><b>s-ləx̌-il</b> day, daylight
       <ul>
          <li><b>s-</b> nominalizer [LD 199]
-         <li><b>ləx̌</b> light (perhaps as in "illuminate", "light up") [LD 137]
+         <li><b>ləx̌</b> be lit, be illuminated [LD 137]
          <li><b>-il</b> reach or achieve state of position; becoming; becoming more so; begin [LD 116]
       </ul>
-   <li><b>-il</b> reach or achieve state of position; becoming; begin [LD 116]
 </ul>
-
-- <b></b>  [LD ]
 
 `,
 
@@ -4234,26 +4289,9 @@ _raven_
 `,
 
 
-"tuhuyucut həlgʷəʔ dxʷʔal sxʷəxʷaʔxʷəʔs gʷəsutəlawils əlgʷəʔ":
-`
-got.self.ready they towards.the.goal.of their.light.footedness their.hoped.for.future.running they
-- <audio id="line7-preparedToRun-halfSpeed"><source src="audio/line7-preparedToRun-halfSpeed.wav"/></audio><button onclick="playSample('line7-preparedToRun-halfSpeed')">half-speed</button>
-
-clause structure of the english translation:
-They prepared themselves in order to be swift as they run.
-  - subject
-  - predicate
-  - reflexive object
-  - adverbial phrase: in order to be swift as they run
-     - in order to: coordinating conjunction
-     - be swift as they run: adverbial clause
-     - question: how to break down 'be swift' 'as they run'?
-     - https://letsdiagram.com/diagram/app/#home
-`,
 
 "tu=huyu–t–sut":
 `
-_got self ready_
 - _tu=_ :
      - past time, especially the remote past
      - inflectional past prefix, appearing on any lexical category functioning as predicate or complement
@@ -4273,19 +4311,25 @@ _got self ready_
 `,
 
 "əlgʷəʔ":
+
 `
-_they, theirs_
-- also _həlgʷəʔ_
-- they, them, their, theirs - 3p pl predicate particle
-- makes explicit that a third person referent is plural whether as agent, patient or possessor
+<h5>həlgʷəʔ</h5>
+
+- also _əlgʷəʔ_
+- they, them, their, theirs [LD 93)
+- 3p pl predicate particle
+- makes explicit that a thrid person referent is plural whether as agent, patient or possessor
 - always optional; pragmatic considerations determine its use
 - pronounced _həlgʷəʔ_ after a vowel or pause
+
 `,
 
 "həlgʷəʔ":
 `
+<h5>həlgʷəʔ</h5>
+
 - also _əlgʷəʔ_
-- they, them, their, theirs
+- they, them, their, theirs [LD 93)
 - 3p pl predicate particle
 - makes explicit that a thrid person referent is plural whether as agent, patient or possessor
 - always optional; pragmatic considerations determine its use
