@@ -2893,7 +2893,7 @@ glossing line.
 "(28)-(29) ɬudxʷʔiwədəxʷ əlgʷəʔ gʷatəxʷ ʔə dibəɬ kʷi ɬuʔux̌ʷtxʷ kʷi sləx̌il":
 `
 _decide now they, who of us will go after the light?_
-<audio id="line28-29-halfSpeed"><source src="audio/line28-29-halfSpeed.wav"/></audio><button onclick="playSample('line28-29-halfSpeed')">half-speed</button>
+
 `,
 
 "ɬu=ʔux̌ʷ–txʷ":
@@ -3164,7 +3164,7 @@ This line is interpreted as two slightly different lines by Beck & Hess 2015:
 `
 _ongoing for a long time, that ongoing growing light and ongoing growing dark_
 
-- <audio id="line25-halfSpeed"><source src="audio/line25-halfSpeed.wav"/></audio><button onclick="playSample('line25-halfSpeed')">half-speed</button>
+- 
 
 From David Beck (email 20 nov 2021)
 
@@ -3193,7 +3193,7 @@ finite clause with a Ø (elided) pronoun.
 _ongoing repeating coming of darkness_
 
 
-- _ƛ’u_<sup>1</sup>: habitual action or state; generally, usually. <button id="refButton" onclick="ref('HABITUAL');">HAB</button>.   LD 155. 
+- _ƛ’u_<sup>1</sup>: habitual action or state; generally, usually. .   LD 155. 
 
 - _bə_: inflectional additive prefix. abbreviated _ADD_.  LD 34  
      - again, anew (of actions or states)
@@ -3223,7 +3223,7 @@ _ _s=ləx̌-il_: grow light, day.
 "ƛ’u=hagʷ=əxʷ":
 `
 _ongoing for a long time_
-- _ƛ’u_<sup>1</sup>: habitual action or state; generally, usually. <button id="refButton" onclick="ref('HABITUAL');">HAB</button>. LD 155.
+- _ƛ’u_<sup>1</sup>: habitual action or state; generally, usually. . LD 155.
 -  _haʔkʷ_: variant _hagʷ_. LD 104
      -  ago, for a long time
      - _hagʷəxʷ_:  it has been a long time, it was for a long time
@@ -3243,11 +3243,11 @@ near now, getting close to this place of daylight:  light now covered them.
      - got covered in light they
      - contraindications:  first three words seem to be a single phonological phrase
      - construing first two words as <i>near they</i> followed by <i>getting close to this place of daylight</i>
-       is consistent with <button id="refButton" onclick="ref('ADDITIVE_vs_SUBORDINATING_STYLE');">additive</button> style.
-- <audio id="line22-halfSpeed"><source src="audio/line22-halfSpeed.wav"/></audio><button onclick="playSample('line22-halfSpeed')">half-speed</button>
-- <audio id="line22-part1-halfSpeed"><source src="audio/line22-part1-halfSpeed.wav"/></audio><button onclick="playSample('line22-part1-halfSpeed')">part 1</button>
-- <audio id="line22-part2-halfSpeed"><source src="audio/line22-part2-halfSpeed.wav"/></audio><button onclick="playSample('line22-part2-halfSpeed')">part 2</button>
-- <audio id="line22-part3-halfSpeed"><source src="audio/line22-part3-halfSpeed.wav"/></audio><button onclick="playSample('line22-part3-halfSpeed')">part 3</button>
+       is consistent with  style.
+- 
+- 
+- 
+- 
 `,
     
     
@@ -3296,13 +3296,13 @@ _became covered in light_
 `
 _that land upriver_
 - _dxʷ_: CNTRPT, centripetal
-    - A centripetal is an expression of place <button id="refButton" onclick="ref('deixis');">deixis</button> which has a component of meaning indicating movement toward a
+    - A centripetal is an expression of place  which has a component of meaning indicating movement toward a
       deictic center.
     - A deictic expression is a word or phrase (such as this, that, these, those, now, then, here) that
       points to the time, place, or situation in which a speaker is speaking.
     - Words are deictic if their semantic meaning is fixed but their denoted meaning varies depending on
       time and/or place. Words or phrases that require contextual information to convey any meaning—for
-      example, English pronouns—are deictic. Deixis is closely related to <button id="refButton" onclick="ref('anaphor');">anaphora</button>.
+      example, English pronouns—are deictic. Deixis is closely related to .
     - When an expression refers to another linguistic expression or a piece of discourse, it is discourse deictic.
       When that expression refers to the same item as a prior linguistic expression, it is anaphoric.
 - _q'xʷ_ : located upstream; up.  also _q'ixʷ_, _q'ayxʷ_.  LD 187
@@ -3313,9 +3313,9 @@ _that land upriver_
 "(21) tusəgʷaʔxʷ ʔux̌ʷ tux̌ʷ xʷiʔ uʔxʷ kʷi sləx̌il tux̌ʷ kʷi q’xʷul’gʷədxʷ":
 `
 walking went but not yet, that daylight went that upstream land.
-- <audio id="line21-halfSpeed"><source src="audio/line21-halfSpeed.wav"/></audio><button onclick="playSample('line21-halfSpeed')">half-speed</button>
-- <audio id="tu-gwawk-oak-halfSpeed"><source src="audio/tu-gwawk-oak-halfSpeed.wav"/></audio><button onclick="playSample('tu-gwawk-oak-halfSpeed')">from previous line</button>
-- <audio id="line21-tu-gwak-oak-doak-weech"><source src="audio/line21-tu-gwak-oak-doak-weech.wav"/></audio><button onclick="playSample('line21-tu-gwak-oak-doak-weech')">first words</button>
+- 
+- 
+- 
 - What I hear:
     - tu swaw go goke weech kwi slexil goke kwi qulgwəd
     - tu gwawk oak goke weech kwi slexil goke weech qulgwəd
@@ -3338,7 +3338,7 @@ walking went but not yet, that daylight went that upstream land.
 `
 walked went this here, water.travelled this here mink, and this here, and this raven.
 
-- <audio id="tu-gwawk-oak-halfSpeed"><source src="audio/tu-gwawk-oak-halfSpeed.wav"/></audio><button onclick="playSample('tu-gwawk-oak-halfSpeed')">first words 1/2 speed</button>
+- 
 - Beck &amp; Hess omit these first three sounds:
   _tuʔuluɬəxʷ tiʔəʔ diʔəʔ bibščəb ʔi tiʔəʔ qaw’qs_
   Now Little Mink and Raven set out by canoe.
@@ -3424,7 +3424,7 @@ _(anticipated|imagined|wished|possible) (place-where|time-when|reason-for) their
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -3432,7 +3432,7 @@ _(anticipated|imagined|wished|possible) (place-where|time-when|reason-for) their
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood : location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -3539,7 +3539,7 @@ _conjectured going after_
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -3547,7 +3547,7 @@ _conjectured going after_
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood : location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -3674,7 +3674,7 @@ _catch us (unlikely chase.transitive us)_
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -3682,7 +3682,7 @@ _catch us (unlikely chase.transitive us)_
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood : location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -3699,7 +3699,7 @@ _catch us (unlikely chase.transitive us)_
 "tu=dxʷ–cut–əb":
 `
 _they thought (past inside want to say)_
-- <audio id="gwel-tu-dex-cut-ebuh-duh-oh"><source src="audio/gwel-tu-dex-cut-ebuh-duh-oh.wav"/></audio><button onclick="playSample('gwel-tu-dex-cut-ebuh-duh-oh')">half-speed</button>
+- 
 - two previously untranscribed syllables between this work and the next. My current guess:
     - _gʷəl tu=dxʷ–cut–əb **ʔə də** ʔuˑ"_:
 - _tu=_: past
@@ -3780,7 +3780,7 @@ _at that time, then_
 
 "čəɬ":
 `
-- _čəɬ <sup>1</sup>_ : we, us; our. LD 63 <button id="refButton" onclick="ref('CED.WORDS');">čəd words</button>
+- _čəɬ <sup>1</sup>_ : we, us; our. LD 63 
 - _čəɬ <sup>2</sup>_ :
     - make for one's use; go after; hunt for one's own use [Skagit]  LD 63
     - one of a small class of roots for which the expected direct complement patient lacks
@@ -3998,8 +3998,8 @@ My interpretation (reconstruction) of the end of this line impertinently contrad
 versions, in which the final word is said to be _lətaliwil_: progressive running.   I offer two
 amateur bits of evidence:
    - the end of the line does not *sound*  like _lətaliwil_; it sounds like _ləƛ’əlayʔ_.
-      <audio id="line14-conclusion-halfSpeed"><source src="audio/line14-conclusion-halfSpeed.wav"/></audio>
-      <button onclick="playSample('line14-conclusion-halfSpeed')">half-speed</button>
+      
+      
    - some symmetry can be seen between this line and line 14, two lines preceeding
 `,
     
@@ -4108,13 +4108,13 @@ _to become swift; progressive-came.to.be-two-canoes overturned their shovel-nose
 "gʷə=s=lə=saxʷəb•abac=s":
 `
 _their hoped for ongoing big-object-jumping_ 
-- <audio id="gwesesaxwebabac"><source src="audio/gwesesaxwebabac.wav"/></audio><button onclick="playSample('gwesesaxwebabac')">play</button>
+- 
 - _gʷə_: SBJ (subjunctive) LD 95
     - if, maybe, might
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -4122,7 +4122,7 @@ _their hoped for ongoing big-object-jumping_
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood : location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -4246,7 +4246,7 @@ _They lined up canoes._
 `
 _they lined up canoes, but not yet, but there not yet canoes finished/able.to be jumping over_
 
-- <audio id="line9-secondHalf"><source src="audio/line9-secondHalf.wav"/></audio><button onclick="playSample('line9-secondHalf')">second half</button>
+- 
 -   _tut’ədalgʷiɬ_: predicate 
     - sentential conjunction: _gʷəl_ (topicalizes the predicate)
     - complement: _tux̌ʷ xʷiʔ uʔxʷ ƛ’əlayʔ_
@@ -4338,12 +4338,15 @@ _raven_
 
 "dxʷ–ʔal":
 `
-_in order to, towards the goal of, towards_
-- _dxʷ√ʔal_: toward, until. LD 86, in entry for _dxʷ-_, toward, to.
-- _dxʷ_: CNTRPT, centripetal
-    - an expression of place <button id="refButton" onclick="ref('deixis');">deixis</button> meaning indicating movement toward a
+<h5>dxʷ–ʔal</h5> 
+
+- _dxʷʔal_: toward, until. [LD 86] in entry for _dxʷ-_, toward, to.
+- _dxʷ_: CNTRPT, centripetal [LD 86]
+    - an expression of place meaning indicating movement toward a
       deictic center.
-- _ʔal_: at
+- _al_ on, along, through, in, at; when.
+       Be located at or by some specific point in time or space,
+       location with reference to something named.  [LD 4]
 `,
 
 "s=xʷəʔaʔxʷəʔ–il=s":
@@ -4367,23 +4370,25 @@ _attaining swiftness_
 
 "s=xʷəxʷaʔxʷəʔ=s":
 `
-_their swiftness_
-- _s=_ : nominalizer
-- _xʷəxʷaʔxʷəʔ_ : light (weight), light(footed, swift) LD 250
+<h5>s=xʷəxʷaʔxʷəʔ=s</h5>
+
+- _s=_ nominalizer [LD 199]
+- _xʷəxʷaʔxʷəʔ_ : light (weight), light(footed, swift) [LD 250]
 - contrast _x̌əb_ heavy LD 260
-- _=s_ : 3PO, third person possesive patient person suffix  LD 199
+- _=s_ : 3PO, third person possesive patient person suffix  [LD 199]
 `,
 
 "gʷə=s=ʔu–təlawil=s":
 `
-_their hoped-for sustained running_
+
+<h5>gʷə=s=ʔu–təlawil=s</h5>
 
 - _gʷə_: SBJ (subjunctive) LD 95
     - if, maybe, might
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The subjunctive is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -4391,7 +4396,7 @@ _their hoped-for sustained running_
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood : location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -4476,7 +4481,8 @@ _now washed themselves_
 
 "tu=huyu–t–sut=əxʷ":
 `
-_now got themselves ready_
+<h5>tu=huyu–t–sut=əxʷ</h5>
+
 - _tu=_ :
      - past time, especially the remote past
      - inflectional past prefix, appearing on any lexical category functioning as predicate or complement
@@ -5048,15 +5054,15 @@ The people talked it over. How can we manage to obtain the daylight?
   is just a grammatical expression of that empty third person.  The subject of the second sentence
   is also that, but since it is not nominalized, we have a finite clause with a Ø (elided) pronoun.
 
-  - <button id="refButton" onclick="ref('line1.english');">diagram</button>
+  - 
 
 - reminiscent of Genesis 1:3 'And God said, Let there be light; and there was light.'
 `,
 
-"ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.":
+"disabled ʔal kʷi tu, ʔal kʷi tuhaʔkʷ gʷəl xʷiʔ gʷətusləx̌il.":
 `
 _in remote past, in remote past.of.long.duration: there was no remote.past coming.of.light_
-- topicalization <button id="refButton" onclick="ref('And-fronting');">And-fronting</button>
+- topicalization 
 - english: In the distant past, there was no daylight.
    - in the distant past: temporal prepositional phrase
         - preposition: in
@@ -5068,7 +5074,7 @@ _in remote past, in remote past.of.long.duration: there was no remote.past comin
    - Linking verbs include copulas such as the English verb be and its various forms, as well as verbs
      of perception such as look, sound, or taste and some other verbs that describe the subject, such 
      as seem, become, or remain.
-   - <button id="refButton" onclick="ref('COPULA');">copula</button> -  stative verbs. a word or phrase that links the subject of a phrase to a complement (which 
+   -  -  stative verbs. a word or phrase that links the subject of a phrase to a complement (which 
      describes or renames the subject).
    - The word *there* is used as a pronoun in some sentences, playing the role of a dummy subject,
      normally of an intransitive verb. The "logical subject" of the verb then appears as a
@@ -5099,7 +5105,7 @@ _imagined, conjectured, could-it-have-been? long-ago day (coming of light)_
     - inflectional subjunctive prefix expressing doubt, events contrary to fact
     - appears on any lexical category functioning as predicate or complement
     - _gʷə_ before consonants
-    - The <button id="refButton" onclick="ref('TAM');">subjunctive</button>is a grammatical mood (that is, a way of speaking that allows people to
+    - The is a grammatical mood (that is, a way of speaking that allows people to
       express their attitude toward what they are saying) found in many languages. Subjunctive forms
       of verbs are typically used to express various states of unreality such as wish, emotion,
       possibility, judgement, opinion, obligation, or action that have not yet occurred; the precise
@@ -5107,7 +5113,7 @@ _imagined, conjectured, could-it-have-been? long-ago day (coming of light)_
       irrealis mood (one that does not refer directly to what is necessarily real) – it is often
       contrasted with the indicative, which is a realis mood (used principally to indicate that
       something is a statement of fact).
-    - see tense, aspect, mood <button id="refButton" onclick="ref('TAM');">TAM</button>: location, extension and reality of an action or state.
+    - see tense, aspect, mood : location, extension and reality of an action or state.
     - In classic formal approaches to <a href="https://en.wikipedia.org/wiki/Modality_(natural_language)" target="_blank">linguistic modality</a>, an utterance expressing modality is one that
       can always roughly be paraphrased to fit the following template:
       According to [a set of rules, wishes, beliefs,...] it is [necessary, possible] that [the main proposition] is the case.
@@ -5261,7 +5267,12 @@ _remote_
 
 "ʔi":
 `
-  - and
+<h5>ʔi</h5>
+
+  - and [LD 14, definition 2]
+  - yes, indeed [definition 1]
+  - greatly, vastly [definition 3]
+
 `,  
 
 "ƛ’aƛ’ac’apəd":
@@ -5468,18 +5479,18 @@ lexical category functioning as predicate or complement.
 
 "ti":
 `
-- this particular one:  an adjectival <button id="refButton" onclick="ref('demonstrative');">demonstrative</button> <button id="refButton" onclick="ref('determiner');">determiner</button> of unique reference  LD 224.  feminime tsi
+- this particular one:  an adjectival   of unique reference  LD 224.  feminime tsi
 - can be proximal adjectival or pronomial demonstrative
 - tiʔiɬ: that, adjectival or pronomial, femimine tsiʔiɬ
 - tiʔəʔ: this SL: ti
 - tsiʔəʔ: feminine
 - kʷi: hyptothetical or remote adjectival demonstrative
 - *demonstratives* are words, such as this and that, used to indicate which entities are being
-  referred to and to distinguish those entities from others. They are typically <button id="refButton" onclick="ref('deixis');">deictic</button> - their
+  referred to and to distinguish those entities from others. They are typically  - their
   meaning depending on a particular frame of reference and cannot be understood without
   context. Demonstratives are often used in spatial deixis (where the speaker or sometimes the
   listener are to provide context), but also in intra-discourse reference (including abstract
-  concepts) or <button id="refButton" onclick="ref('anaphor');">anaphora</button> where the meaning is dependent on something other than the relative
+  concepts) or  where the meaning is dependent on something other than the relative
   physical location of the speaker, for example whether something is currently being said or was
   said earlier.
 `,

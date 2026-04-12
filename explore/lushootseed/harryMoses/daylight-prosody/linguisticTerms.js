@@ -109,68 +109,6 @@ little more than speculation.
 
 `,
 
-" Verb classes":
-`
-**Verb Classes**
-
-Radicals can be grouped into several semantic classes,
-only one of which is genuinely unaccusative (see table 1 in
-appendix to online version).
-
-<ul>
-   <li>For example  <b>ɬič</b> "be cut with a knife"
-</ul>
-
-Most bare radicals are syntactically intransitive, and syntactically
-transitive verbs bear some morphological indicator of that
-transitivity.
-
-<pre>
-
-   (10a) ?u-ɬic̓ čəd
-         PFV-be.cut.with.knife 1SG.SUB
-         ‘I got cut with a knife’
-
-   (10b) ?u-ɬic̓i-d čəd tə sqʷiqʷali
-         PFV-be.cut.with.knife-ICS 1SG.SUB INDEF hay
-        ‘I cut hay (with a blade)’ 
-
-</pre>
-
-In (10a), the radical ɬic̓ ‘be cut with a knife’ — despite expressing a
-two-participant event high on the scale of semantic transitivity —
-takes only a single syntactic argument expressing the patient (Hess
-1973). In order to express an agent (10b), it is necessary to apply
-the suffix -t (which is realized word-finally as [-d]). Thus, what are
-plain transitive verbs in most languages are formed by morphological
-means from monovalent radicals in Lushootseed and many other members
-of the family.
-
-Members of this class, one of the largest, express a semantically
-transitive event but require one of the valency-increasing affixes to
-express an agent. While most languages lexicalize events at this end
-of the scale of semantic transitivity to include a valency-slot for
-both the agent and the patient/endpoint of the event, Lushootseed only
-includes the patient in the verb’s semantic valency and treats the
-agent as an implied participant.
-
-Accusative?
-
-<ol>
-   <li> position <b>ɬaq̓</b> be fallen, be lying down
-   <li> location <b>č̓it</b> be near
-   <li> state <b>qəɬ</b> be awake
-   <li> property <b>q̓ʷəl</b> be cooked
-   <li> process <b>hud</b> burn
-</ol>
-
-In all of these cases, the single actant of the monovalent radical is not
-exactly a patient; it might better be characterized as belonging to the more
-general class of undergoer (in the sense of Foley and Van Valin 1984).
-The transitive counterparts of these radicals are bivalent expressions which
-include an agent or causer acting on that undergoer to bring about the
-
-`,
 
 
 "PRLV":
@@ -275,6 +213,25 @@ little more than speculation.
 Radicals can be grouped into several semantic classes,
 only one of which is genuinely unaccusative (see table 1 in
 appendix to online version).
+
+<details><summary>accusative</summary>
+
+
+The accusative case is a grammatical category that marks the direct
+object of a transitive verb or the object of a preposition, indicating
+what or who receives the action.
+
+</details>
+
+<details><summary>unaccusative</summary>
+
+Unaccusative verbs are intransitive verbs whose surface subject is
+technically an underlying direct object ("deep object") that moves to
+subject position. These verbs, such as melt, sink, or fall, assign a
+theme role to their argument rather than an agent, and cannot assign
+accusative case to their internal object
+
+</details>
 
 <ul>
    <li>For example  <b>ɬič</b> "be cut with a knife"
