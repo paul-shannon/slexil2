@@ -102,7 +102,7 @@ lines:
     lushootseed: tut̓ədalgʷiɬ əlgʷəʔ.  tuʔaʔ dᶻəɬ kʷi ƛ̓əlayʔ tux̌ʷ xʷiʔ uʔxʷ gʷəsəsaxʷəbabacs
     morphemes: [tu=t̓əd•al•gʷiɬ,əlgʷəʔ,tu=ʔaʔ,dᶻəɬ,kʷi,ƛ̓əlayʔ,tux̌ʷ,xʷiʔ,uʔxʷ,gʷə=s=lə=saxʷəb•abac=s]
     morphemeGloss: [PAST=lined.up•cnn•canoe,PL,past=be.there,ptcl,rem,shovel.nose.canoe,just,neg,ptcl,sbj=nm=prog=jump•body=3po]
-    soundsLike: too tedalgweel gwell doke wheech, too ah.duh doke wheech lide.zuh koy.o butt.buzz swuh.bawb.utz
+    soundsLike: too te.dal.gweel gwell doke wheech, too ah.duh doke wheech lide.zuh koy.o butt.buzz swuh.bawb.utz
     english: They lined up the canoes. There must have been some shovel-nosed canoes but they could not yet jump over them.
 
 
@@ -149,7 +149,7 @@ lines:
 
   - startTime: 70461
     endTime:   77580
-    lushootseed: ʔaləxʷ kʷi čəɬ, ʔaləxʷ kʷi čəɬ tubuus, tubuusalgʷiɬil kʷi tuasx̌ək̓ʷ ƛ̓əlayʔ
+    lushootseed: ʔaləxʷ kʷi čəɬ tubuusalgʷiɬil kʷi tuasx̌ək̓ʷ ƛ̓əlayʔ
     soundsLike: 
     morphemes: [ʔal=əxʷ,kʷi,čəɬ,tu=buus•al•gʷiɬ–il,kʷi,tu=ʔas–x̌ək̓ʷ,ƛ̓əlayʔ]
     morphemeGloss: [at=now,REM,made,PAST=four•CNN•canoe–INCH,REM,PAST=STAT–overturned,canoe]
@@ -157,11 +157,11 @@ lines:
 
   - startTime: 77690
     endTime: 81022
-    lushootseed: gʷəl tusaxʷəbabacəd həlgʷa tiʔəʔ buusalgʷiɬ ƛ̓əlayʔ
-    soundsLike: 
+    lushootseed: gʷəl tusaxʷəbabacəd tiʔəʔ buusalgʷiɬ ƛ̓əlayʔ
+    soundsLike: gwell too-swuh.bawb.butz hell.gwah tiah bose.AL.gweesh tluh.lie
     morphemes: [gʷəl,tu=saxʷəb•abac–d,tiʔəʔ,buus•al•gʷiɬ,ƛ̓əlayʔ]
     morphemeGloss: [SCONJ,PAST=jump•body–ICS,PROX,four•CNN•canoe,canoe]
-    english:
+    english: They jumped over these fout.
 
   - startTime: 81245
     endTime: 87863
@@ -849,7 +849,7 @@ lines:
     soundsLike: 
     morphemes: [ʔaʔ,tiʔiɬ,d–sqəlalitut,ɬu=laʔ,čəd,gʷəl,ɬu=qʷšab,tiʔəʔ,swatixʷtəd]
     morphemeGloss: [be.there,DIST,1SG.PO–spirit.power,IRR=localize,1SG.SUB,SCONJ,IRR=foggy,PROX,land]
-    english: “I have a spirit power that I̓ll locate and the land will be foggy.”
+    english: “I have a spirit power that I'll locate and the land will be foggy.”
 
 
   - startTime: 420266
@@ -1026,9 +1026,9 @@ lines:
 
   - startTime: 488785
     endTime:   492996
-    lushootseed: ʔəsʔəx̌idəxʷ kʷi ʔaciɬtalbixʷ gʷastədziləs gʷəl ƛ̓al̓ uʔxʷ basləx̌il
+    lushootseed: ʔəsʔəx̌idəxʷ kʷi ʔaciɬtalbixʷ gʷastədᶻiləs gʷəl ƛ̓al̓ uʔxʷ basləx̌il
     soundsLike: 
-    morphemes: [ʔəs–ʔəx̌id=əxʷ,kʷi,ʔaciɬtalbixʷ,gʷə=ʔas–tədzil=əs,gʷəl,ƛ̓al̓,uʔxʷ,bə=ʔas–ləx̌–il]
+    morphemes: [ʔəs–ʔəx̌id=əxʷ,kʷi,ʔaciɬtalbixʷ,gʷə=ʔas–tədᶻil=əs,gʷəl,ƛ̓al̓,uʔxʷ,bə=ʔas–ləx̌–il]
     morphemeGloss: [STAT–what.happen=now,REM,people,SBJ=STAT–lie.in.bed=3SBJ,SCONJ,also,PTCL,ADD=STAT–light–INCH]
     english: Why were the people in bed when it had become light again?
 

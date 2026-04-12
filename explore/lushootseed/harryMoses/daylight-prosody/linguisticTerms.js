@@ -210,6 +210,8 @@ little more than speculation.
 `
 **Verb Classes**
 
+From David Beck, A taxonomy and typology of Lushootseed valency-increasing suffixes, IJAL 2009.
+
 Radicals can be grouped into several semantic classes,
 only one of which is genuinely unaccusative (see table 1 in
 appendix to online version).
@@ -270,7 +272,6 @@ both the agent and the patient/endpoint of the event, Lushootseed only
 includes the patient in the verb’s semantic valency and treats the
 agent as an implied participant.
 
-Accusative?
 
 <ol>
    <li> position <b>ɬaq̓</b> be fallen, be lying down
@@ -280,11 +281,21 @@ Accusative?
    <li> process <b>hud</b> burn
 </ol>
 
-In all of these cases, the single actant of the monovalent radical is not
-exactly a patient; it might better be characterized as belonging to the more
-general class of undergoer (in the sense of Foley and Van Valin 1984).
-The transitive counterparts of these radicals are bivalent expressions which
-include an agent or causer acting on that undergoer to bring about the
+In all of these cases, the single actant of the monovalent radical is
+not exactly a patient; it might better be characterized as belonging
+to the more general class of undergoer (in the sense of Foley and Van
+Valin 1984).  The transitive counterparts of these radicals are
+bivalent expressions which include an agent or causer acting on that
+undergoer to bring about the endstate expressed by the radical. For
+these radicals, it seems less necessary to postulate the presence of
+an implicit agent/causer in conceptual structure than it does for
+verbs such as ɬic’ ‘be cut with a knife’. Similarly, there is a very
+large class of radicals that express one-participant events where the
+single semantic actant is more like an agent or an actor than a
+patient or an undergoer (table 2 [in online appendix]). These might
+(loosely) be termed “unergative” (see Gerdts 1988). The majority are
+verbs of volitional motion (e.g., "ʔəƛ̓" ‘come’, kʷatač ‘climb’) or
+activity (p̓ayəq ‘carve canoe’, tay ‘go raiding’).
 
 `,
 
