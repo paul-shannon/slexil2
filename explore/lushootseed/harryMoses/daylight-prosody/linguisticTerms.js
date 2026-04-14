@@ -477,7 +477,7 @@ and a few CVCV radicals:
 
 <ul>
    <li><b>bali</b> "be forgetful"
-   <li><b>čubə ‘go inland’
+   <li><b>čubə</b> ‘go inland’
    <li><b>sula</b> "be in the middle"
    </ul>
 
