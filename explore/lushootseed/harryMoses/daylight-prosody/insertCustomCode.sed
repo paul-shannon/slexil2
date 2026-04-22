@@ -10,7 +10,7 @@
 }
 
 /<!-- otherControlsInsertionHook -->/ {
-  r wordCloudInsertion-d3.txt
+  r wordCloudInsertion-d3v2.txt
   d
 
 }

@@ -325,6 +325,7 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
 **David Beck's articles, papers, books**
 
 <ul>
+  <li><a href="https://pshannon.net/docs/NorthwestCoastTexts-StealingLight.pdf" target="_blank">PNW Daylight texts, 1977</a>
   <li><a href="https://pshannon.net/docs/StealingDaylight-from-beckAndHessBook.html" target="_blank">Daylight, Beck &amp; Hess version 2015</a>
   <li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
   <li><a href="https://pshannon.net/docs/nominals.pdf"

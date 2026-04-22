@@ -96,7 +96,16 @@ class Radicals {
           {"radical":"gʷəq", "definition": "be bright", "lines": [98]},
           {"radical":"ʔitut", "definition": "sleep", "lines": [107]},
           {"radical":"šəɬ", "definition": "make", "lines": [111]},
-          {"radical":"šac̓", "definition": "finished", "lines": [115]}
+          {"radical":"šac̓", "definition": "finished", "lines": [115]},
+          {"radical": "•ul̓gʷədxʷ", "definition": "•land", "lines":[4, 19]},
+          {"radical": "•gʷiɬ", "definition": "•canoe", "lines": [9,10,11,13,14,15]},
+          {"radical": "•abac", "definition": "•body", "lines": [9,11,13,15,70,72,81,82]},
+          {"radical": "•ič", "definition": "•covering", "lines": [21,61,62,65,89,92,94]},
+          {"radical": "•us", "definition": "•head", "lines": [31,39,53,55,]},
+          {"radical": "•ucid", "definition": "•mouth", "lines": [49,50,65]},
+          {"radical": "•dat", "definition": "•day", "lines": [57,67]},
+          {"radical": "•čup", "definition": "•fire", "lines": [61,62,65]},
+          {"radical": "•ačiʔ", "definition": "•hand", "lines": [67,102]}
          ];
 
     constructor(){

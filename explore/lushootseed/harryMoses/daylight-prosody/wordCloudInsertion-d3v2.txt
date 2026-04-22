@@ -6,9 +6,9 @@
 </span>
 
 <div id="cloudDialog"
-        style="margin: 5px; width: 700px;">
+        style="margin: 5px; width: 840px;">
   <div id="cloud-container">
-    <svg id="cloud-svg" width="600" height="600"></svg>
+    <svg id="cloud-svg" width="800" height="600"></svg>
   </div>
   <div id="info-panel" style="margin: 15px; padding: 10px; height: 120px; border: 1px solid green;">
        <p>Click on any word root above</p>
@@ -121,6 +121,7 @@ class Radicals {
 
 
 <script>
+    // ── Seeded PRNG (LCG) — swap Math.random for this to get reproducible layouts ──
     function seededRandom(seed) {
       let s = seed >>> 0;
       return function () {
@@ -129,55 +130,48 @@ class Radicals {
       };
     }
 
-    const WIDTH  = 600;
+    const WIDTH  = 800;
     const HEIGHT = 500;
     const SEED   = 42;
 
-      // ── Colour scale: blue (rare) → amber (frequent) ──
+    // ── Colour scale: blue (rare) → amber (frequent) ──
     const colorScale = d3.scaleSequential()
       .domain([1, 9])
       .interpolator(d3.interpolateRainbow);
 
-      // ── Build word list from Radicals data ──
+    // ── Build word list from Radicals data ──
     const radicals = new Radicals();
-    window.radicals = radicals
+    // de-duplicate by radical text, keeping max count
     const seen = new Map();
-    var i = 0;
     radicals.data.forEach(d => {
       const count = d.lines.length;
-      console.log("--- adding " + i + ": " + d.radical + " with lineCount: " + count);
-      console.log(d)
-      i += 1;
-      //if (!seen.has(d.radical) || seen.get(d.radical).count < count) {
-      seen.set(d.radical,
-            {text: d.radical, definition: d.definition, count, lines: d.lines});
-      //      }
-      }); // forEach
-      window.seen = seen;
-      const words = Array.from(seen.values()).map(d => ({
-         text:       d.text,
-         definition: d.definition,
-         count:      d.count,
-         lines:      d.lines,
-         size:       12 + d.count * 7   // font size proportional to frequency
-         }));
-      window.words = words;
+      if (!seen.has(d.radical) || seen.get(d.radical).count < count) {
+        seen.set(d.radical,
+          {text: d.radical, definition: d.definition, count, lines: d.lines});
+      }
+    });
+    window.seen = seen;
+    const words = Array.from(seen.values()).map(d => ({
+      text:       d.text,
+      definition: d.definition,
+      lines:      d.lines,
+      count:      d.count,
+      size:       12 + d.count * 7   // font size proportional to frequency
+    }));
+    window.words = words;
 
+    // ── Render function called after d3-cloud finishes layout ──
     function draw(laid_out_words) {
       const svg = d3.select('#cloud-svg');
-      svg.selectAll('*').remove();
-      console.log("----- in draw, laid_out_words:")
-      console.log(laid_out_words)
       window.low = laid_out_words;
-
+      svg.selectAll('*').remove();
       svg.append('g')
         .attr('transform', `translate(${WIDTH / 2},${HEIGHT / 2})`)
         .selectAll('text')
         .data(laid_out_words)
         .enter().append('text')
           .attr('class', 'word-text')
-          //.style('font-size',   d => `${d.size}px`)
-          .style('font-size',   '20px')
+          .style('font-size',   d => `${d.size}px`)
           .style('font-family', 'Arial, sans-serif')
           .style('font-weight', d => d.count >= 6 ? 'bold' : 'normal')
           .style('fill',        d => colorScale(d.count))
@@ -185,14 +179,14 @@ class Radicals {
           .attr('transform',   d => `translate(${d.x},${d.y}) rotate(${d.rotate})`)
           .text(d => d.text)
           .on('click', (event, d) => {
-             console.log("d: " + d);
-             console.log(d);
-             window.lineNumbers = d.lines;
-             d3.select('#info-panel').html(
-               `<strong>${d.text}</strong> &nbsp;—&nbsp; ${d.definition}<br>
-               <span style="color:#555;font-size:20px;">
-                  appears <strong>${d.count}</strong>
-                 time${d.count !== 1 ? 's' : ''} in the corpus</span>`
+            window.lineNumbers = d.lines;
+            console.log("--- click event, lineNumbers:");
+            console.log("d: ");
+            console.log(d);
+            console.log(window.lineNumbers);
+            d3.select('#info-panel').html(
+              `<strong>${d.text}</strong> &nbsp;—&nbsp; ${d.definition}<br>
+               <span style="color:#555;font-size:13px;">appears <strong>${d.count}</strong> time${d.count !== 1 ? 's' : ''} in the corpus</span>`
             );
           })
           .on('mouseenter', function () { d3.select(this).style('opacity', 0.65); })
@@ -203,21 +197,25 @@ class Radicals {
     function buildCloud() {
       d3.layout.cloud()
         .size([WIDTH, HEIGHT])
-        //.words(words.map(d => Object.assign({}, d)))   // fresh copy each run
-        .words(words) // .map(d => Object.assign({}, d)))   // fresh copy each run
+        .words(words.map(d => Object.assign({}, d)))   // fresh copy each run
         .padding(8)
         .rotate(0)                                      // keep all horizontal
         .font('Arial')
-        //.fontSize(d => d.size)
-        .fontSize(40)
+        .fontSize(d => d.size)
         .random(seededRandom(SEED))                     // ← reproducibility key
         .on('end', draw)
         .start();
     }
 
- buildCloud();
+   console.log("--- before buildCloud, words:");
+   console.log(words)
+   buildCloud();
 
+//--------------------------------------------------------------------------------
+</script>
 
+<script>
+//--------------------------------------------------------------------------------
 $("#showOnlyRootMatchesButton").on("click", function(){
   for (let i = 1; i <= 116; i++){
      x='#'+i;
@@ -245,7 +243,7 @@ $("#showAllLinesButton").on("click", function(){
 $(document).ready(function(){
    $("#cloudDialog").dialog({title: "Explore Verb Roots",
                              autoOpen: false,
-                             width: 700});
+                             width: 840});
   $("#showCloudButton").on('click', function(){
      console.log("open dialog button click");
      const app = new Radicals()

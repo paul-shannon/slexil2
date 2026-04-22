@@ -10,7 +10,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Living in the dark.
+                 Living in the dark
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -51,7 +51,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Mink and Raven Prepare
+                 Mink and Raven prepare
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -92,7 +92,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Canoe Jumping
+                 Canoe jumping
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -142,7 +142,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Four canoes - ready!
+                 Four canoes jumped - ready!
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -169,7 +169,7 @@ lines:
     soundsLike: gwel too (habo) ah gwel too duh STOAT uh bo duh oh, wah kwee ab gwuh chal duh bose
     morphemes: [gʷəl,tu=,(həbuʔ),ʔa,gʷəl,tu=dxʷ–cut–əb,PL,ʔuˑ,xʷi=ʔəxʷ,kʷi,ʔa=əxʷ,gʷə=čal(a)-dxʷ-buɬʔ]
     morphemeGloss: [SCONJ,PAST,HORT,be.there,SCONJ,PAST-CTD-speak-DSD,they,INTJ,NEG=now,REM,be.there=now,SBJ=catch–DC–1PL.OBJ]
-    english: And then they thought, nothing now can catch us.
+    english:  Oh, they thought, Oh there is nothing can catch us.
 
   - startTime: 88075
     endTime: 93611
@@ -183,7 +183,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Traveling Upriver
+                 Traveling upriver
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -194,7 +194,7 @@ lines:
     soundsLike: too.gwawk oak tiah dyah, too olo.uff tiah dyah babes.chub, ee tiah dhya ee tiah cowks
     morphemes: [tu=gʷaʔxʷ,ʔux̌ʷ,tiʔəʔ,diʔəʔ,tu=ʔuluɬ=əxʷ,tiʔəʔ,diʔəʔ,bi–bəščəb,ʔi,tiʔəʔ,diʔəʔ,ʔi,tiʔəʔ,qaw̓qs]
     morphemeGloss: [PAST=walk,go,PROX,here,PAST=travel.by.water=now,PROX,here,ATTN–mink,CONJ,PROX,here,CONJ,PROX,raven]
-    english: They soon went, this here, traveled by water this here mink, and this here, and this raven.
+    english: Now they set out.   Now Little Mink and Raven set out by canoe.
 
   - startTime: 105180
     endTime: 108783
@@ -202,7 +202,7 @@ lines:
     soundsLike: lawk oh doh kweech, kwee sluck.hail doh kwee kwoal.gwud
     morphemes: [tu=sə-gʷaʔxʷ,ʔux̌ʷ,tux̌ʷ,xʷiʔ,uʔxʷ,kʷi,sləx̌il,tux̌ʷ,kʷi,q̓xʷ•ul̓gʷədxʷ]
     morphemeGloss: [PAST=PROG–walk,go,but,not,yet,REM,daylight,but,REM,upstream•land]
-    english: Walking went but not yet, that daylight  that upstream.land.
+    english: They sought for daylight in the land upstream.
 
   - startTime: 111638
     endTime: 116800
@@ -218,7 +218,7 @@ lines:
     soundsLike: luck.hail.aichuff helgwah
     morphemes: [ləx̌–il•ič=əxʷ,əlgʷəʔ]
     morphemeGloss: [light–INCH•covering=now,pl]
-    english: light enveloped them.
+    english: Light enveloped them.
 
   - startTime: 119617
     endTime: 123638
@@ -240,7 +240,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Arrival
+                 Approaching the Upriver People
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -268,6 +268,16 @@ lines:
     morphemes: [ʔaciɬtalbixʷ,ʔəs–ɬaɬlil,dəxʷ=ʔa,ʔə,tiʔəʔ,sləx̌il]
     morphemeGloss: [people,STAT–live,ADNM=be.there,pr,PROX,daylight]
     english:  people who dwelled at the place of light.
+
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 They plan the theft
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
 
   - startTime: 144400
     endTime:   149000
@@ -359,6 +369,18 @@ lines:
     morphemeGloss: [IRR=take–DC=now]
     english: I will take it.
  
+
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink arrives and states his plight
+                 <!-- button style="margin-left: 10px" onclick="myBox('firstContact')">V</button-->
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
+
   - startTime: 198016
     endTime: 204603
     lushootseed: tutəlawiləxʷ tiʔəʔ tuʔux̌ʷəxʷ tiʔəʔ bibščəb gʷəl tuɬčil dxʷʔal tiʔəʔ diʔəʔ siʔab ʔabsləx̌il
@@ -375,16 +397,6 @@ lines:
     morphemes: [lə=luƛ̓,ʔəs–qʷəlub•us,ləs–ck̓usəd]
     morphemeGloss: [PROG=old,STAT–grey.hair•head,PROG.STAT–use.walking.stick]
     english: He was old with grey hair and used a cane
-
-  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
-                       margin-left: 100px; white-space: nowrap;'>
-              <div style='width: 600px; text-align: center;'>
-                 <hr style="width: 60%; margin-left: 100px;">
-                 Mink arrives, states his plight.
-                 <button style="margin-left: 10px" onclick="myBox('firstContact')">V</button>
-                  <hr style="width: 60%; margin-left: 100px;;">
-               </div>
-              </div>"
 
 
   - startTime: 211055
@@ -442,7 +454,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Mink negotiates his sleeping place.
+                 Mink negotiates his sleeping place
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -491,7 +503,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Mink watches
+                 Mink watches the sun
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -557,7 +569,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 Mink makes his first attempt
+                 He makes his first attempt
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -583,7 +595,7 @@ lines:
     lushootseed: ƛ̓al̓ lil gʷəl ləx̌
     soundsLike: 
     morphemes: [ƛ̓al̓,lil,gʷəl,ləx̌]
-    morphemeGloss: [also,far,SCONJ,light]
+    morphemeGloss: [also,far,SCONJl,ight]
     english: It was still far away when it lit up.
 
   - startTime: 294880
@@ -635,6 +647,16 @@ lines:
     morphemeGloss: [STAT–see–altv–PASS,pr,spec,old,STAT–fall,in.place•mouth,STAT–dstr–buried•covering,pr,spec,ash•fire]
     english: The old fellow lying by the door covered in fine ash watched it.
 
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 More attempts then success
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
+
   - startTime: 319698
     endTime:   323341
     lushootseed: ʔal bəƛ̓uɬax̌ gʷəl bəʔux̌ʷcəb ʔə bibščəb
@@ -658,6 +680,15 @@ lines:
     morphemes: [diɬ,tu=s=pəkʷib–bi–d=s,tiʔəʔ,sləx̌il,gʷəl,tu=saxʷəb–txʷ]
     morphemeGloss: [loc,past=NM=snatch–MAP–ICS=3PO,PROX,daylight,SCONJ,past=jump–ECS]
     english: He snatched the daylight and ran off with it.
+
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 The chase begins
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 336653
     endTime: 339598
@@ -827,6 +858,16 @@ lines:
     morphemeGloss: [neg,REM,who,SBJ=pfv–chased–DC,spec,attn–mink,because,SCONJ,swift]
     english: No one could overtake Little Mink because he is swift.
 
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Escape by canoe
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
+
   - startTime: 403247
     endTime:   408981
     lushootseed: dxʷʔal tusɬčils əlgʷəʔ dxʷʔal tiʔəʔ q̓il̓bids əlgʷəʔ gʷəl tuq̓ilagʷil gʷəl tuʔuluɬ
@@ -951,6 +992,14 @@ lines:
     morphemeGloss: [past=come–ECS,PL,PROX,daylight,SCONJ,past=arrive,CNTRPT–at,PROX,land,ADNM=cntrfg–be.there=3PO,pl]
     english: They brought the daylight and came to the land they were from.
 
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Back home Raven takes charge
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
   - startTime: 455100
     endTime:   460248
@@ -999,6 +1048,17 @@ lines:
     morphemes: [x̌ʷul̓,ʔaɬ]
     morphemeGloss: [only,fast]
     english: It was too fast.
+
+  - html: "<div  class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink gets it right
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
+
 
   - startTime: 472229 
     endTime:   480658
