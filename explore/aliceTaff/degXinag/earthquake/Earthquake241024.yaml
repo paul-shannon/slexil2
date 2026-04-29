@@ -1,0 +1,707 @@
+title: Ngan’ Dit’anh Earthquake
+narrator: narrator
+textEntry: textEntryBy X
+mediaFile: EarthquakeDX2.wav
+mimeType: audio/x-wav
+
+lines:
+
+  - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
+      Ngan' Dit'anh, Earthquake, told by Ellen Savage at her home in Anchorage, AK, October 2002. 
+      This material was funded by National Science Foundation grant 0651787. Any opinions,
+      findings, and conclusions or recommendations expressed in this material are those of
+      the authors and do not necessarily reflect the views of the National Science Foundation.
+      </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
+     Recorded by Alice Taff and Donna Miller MacAlpine. Transcribed and translated
+     by Donna Miller MacAlpine, Alta Jerue, Edna Deacon, and Alice Taff.
+     We use SLEXIL to render ELAN XML output as interactive web pages. Pronounced
+     'sluck-HAIL', SLEXIL means daylight in the Lushootseed language, for which it
+     was originally developed. The name may also be understood as an acronym:
+     Software Linking ELAN XML to Illuminated Language.
+     </div>"
+
+  - lineNumber: 3
+    startTime: 796
+    endTime: 2695
+    Utterance: Gogide xiłdik.
+    Translation: Here it is then.
+
+  - lineNumber: 4
+    startTime: 2695
+    endTime: 5062
+    Utterance: Noy doghit'an'di.
+    Translation: It was war time.
+
+  - lineNumber: 5
+    startTime: 5062
+    endTime: 8305
+    Utterance: Xughin' yixi nughił datasneł.
+    Translation: I'll tell it for you.
+
+  - lineNumber: 6
+    startTime: 8305
+    endTime: 10526
+    Utterance: Engtthi sittheyqay ye yił
+    Translation: In the future, my grandchildren,
+
+  - lineNumber: 7
+    startTime: 11022
+    endTime: 13930
+    Utterance: sixididhiłtth'eł.
+    Translation: they will listen to me.
+
+  - lineNumber: 8
+    startTime: 14149
+    endTime: 15960
+    Utterance: Istl'idong,
+    Translation: When I was little,
+
+  - lineNumber: 9
+    startTime: 16018
+    endTime: 19140
+    Utterance: gidinitldik.
+    Translation: I was going to school.
+
+  - lineNumber: 10
+    startTime: 19232
+    endTime: 21482
+    Utterance: Yit {gi... di...} yix,
+    Translation: That house there,
+
+  - lineNumber: 11
+    startTime: 21482
+    endTime: 23966
+    Utterance: gazriniłdikdi yix xichux xidhi'onh.
+    Translation: the place where we go to school was a big house.
+
+  - lineNumber: 12
+    startTime: 24669
+    endTime: 28360
+    Utterance: Yit xiłdi, gitr'idiniłdik.
+    Translation: There then, we go to school.
+
+  - lineNumber: 13
+    startTime: 28468
+    endTime: 31594
+    Utterance: Xunh xiyił, yiggidhisdo xingo,
+    Translation: Suddenly, while I'm sitting at school,
+
+  - lineNumber: 14
+    startTime: 31594
+    endTime: 33230
+    Utterance: ngidix,
+    Translation: up there,
+
+  - lineNumber: 15
+    startTime: 33289
+    endTime: 36360
+    Utterance: {ngidegh} ngidix che che
+    Translation: upstairs again and again
+
+  - lineNumber: 16
+    startTime: 36386
+    endTime: 39890
+    Utterance: a, xelanh,
+    Translation: there was,
+
+  - lineNumber: 17
+    startTime: 40009
+    endTime: 43110
+    Utterance: ngidix xantr'ididiłdi che xelanh,
+    Translation: up there going up was a stairway,
+
+  - lineNumber: 18
+    startTime: 43164
+    endTime: 47560
+    Utterance: ngidixi xits'i antr'an yeg vigasrathdlo xiq'i.
+    Translation: it's like someone is moving things around up there.
+
+  - lineNumber: 19
+    startTime: 47637
+    endTime: 50010
+    Utterance: Gidhatltth'onh xiłdik.
+    Translation: I'm listening to it then.
+
+  - lineNumber: 20
+    startTime: 50091
+    endTime: 52341
+    Utterance: «Diva sre' ngidix ghigela,»
+    Translation: "I wonder who is up there,"
+
+  - lineNumber: 21
+    startTime: 52721
+    endTime: 55970
+    Utterance: inisdhinh.
+    Translation: I'm thinking.
+
+  - lineNumber: 22
+    startTime: 56130
+    endTime: 58140
+    Utterance: Deg dhisdo xiyił,
+    Translation: I'm just sitting there,
+
+  - lineNumber: 23
+    startTime: 58214
+    endTime: 61837
+    Utterance: xunh xiyił go, viq'i didhisdo che che,
+    Translation: all at once here, my chair too,
+
+  - lineNumber: 24
+    startTime: 61837
+    endTime: 63736
+    Utterance: ghitithinonh yuxudz.
+    Translation: everything is moving.
+
+  - lineNumber: 25
+    startTime: 63736
+    endTime: 64963
+    Utterance: Ngi'iditlux.
+    Translation: It's jumping about.
+
+  - lineNumber: 26
+    startTime: 64963
+    endTime: 66560
+    Utterance: Ngi'iditlux.
+    Translation: It's jumping about.
+
+  - lineNumber: 27
+    startTime: 66628
+    endTime: 68790
+    Utterance: Xiyił an,
+    Translation: Meanwhile that person
+
+  - lineNumber: 28
+    startTime: 68849
+    endTime: 70580
+    Utterance: dinagi
+    Translation: our 
+
+  - lineNumber: 29
+    startTime: 70605
+    endTime: 76180
+    Utterance: {xidiginaghi xidi} dina xidinił'anhinh, gashigh xit'an,
+    Translation: our teacher, a white man,
+
+  - lineNumber: 30
+    startTime: 76273
+    endTime: 79136
+    Utterance: «Diggandidhuxlyo,» dina iłne.
+    Translation: "Stand up," he tells us.
+
+  - lineNumber: 31
+    startTime: 79136
+    endTime: 80451
+    Utterance: «Ngo, ngan' dit'anh,»
+    Translation: "Well, it's an earthquake,"
+
+  - lineNumber: 32
+    startTime: 80919
+    endTime: 83380
+    Utterance: dina iłne.
+    Translation: he tells us.
+
+  - lineNumber: 33
+    startTime: 83490
+    endTime: 85150
+    Utterance: Yitots'i,
+    Translation: Then,
+
+  - lineNumber: 34
+    startTime: 85214
+    endTime: 86892
+    Utterance: go yuxudz,
+    Translation: everyone there,
+
+  - lineNumber: 35
+    startTime: 86967
+    endTime: 89479
+    Utterance: sraqay digganxididlyo.
+    Translation: the children stand up.
+
+  - lineNumber: 36
+    startTime: 89509
+    endTime: 93899
+    Utterance: «Gila xot engtthe xidoy ngi'in xidoy xits'i tuxdał.»
+    Translation: "Now slowly walk over there to the door,"
+
+  - lineNumber: 37
+    startTime: 93971
+    endTime: 95407
+    Utterance: dina iłne.
+    Translation: he tells us.
+
+  - lineNumber: 38
+    startTime: 95520
+    endTime: 98566
+    Utterance: Ts'i yitots'i xidoy ntr'inedatł.
+    Translation: So then we got to the door.
+
+  - lineNumber: 39
+    startTime: 98617
+    endTime: 100880
+    Utterance: Ts'i yit xiłdik yadz gatatht'onh.
+    Translation: Then he opens it.
+
+  - lineNumber: 40
+    startTime: 100983
+    endTime: 102804
+    Utterance: Yit nazritlyo xingo,
+    Translation: While we are standing there,
+
+  - lineNumber: 41
+    startTime: 102882
+    endTime: 104195
+    Utterance: «Agide!
+    Translation: "There!
+
+  - lineNumber: 42
+    startTime: 104285
+    endTime: 106288
+    Utterance: Ngan' dighit'an',»
+    Translation: That was an earthquake,"
+
+  - lineNumber: 43
+    startTime: 106359
+    endTime: 110149
+    Utterance: dina iłne.
+    Translation: he tells us.
+
+  - lineNumber: 44
+    startTime: 110465
+    endTime: 112173
+    Utterance: Agide iy.
+    Translation: That was it.
+
+  - lineNumber: 45
+    startTime: 112173
+    endTime: 114582
+    Utterance: Yuxudz tr'inisidhet se.
+    Translation: I was all suprised, me.
+
+  - lineNumber: 46
+    startTime: 114582
+    endTime: 119288
+    Utterance: Che tth'e ngan' itidit'anh ts'i xantr'ixusneg.
+    Translation: I didn't yet know (anything about) an earthquake.
+
+  - lineNumber: 47
+    startTime: 119315
+    endTime: 121342
+    Utterance: Xiyo xinadilighusr ine',
+    Translation: They'd talk about it, but even so,
+
+  - lineNumber: 48
+    startTime: 121565
+    endTime: 124085
+    Utterance: vantr'ixusneg.
+    Translation: I didn't know.
+
+  - lineNumber: 49
+    startTime: 124136
+    endTime: 125275
+    Utterance: Ts'i yitots'i,
+    Translation: So then,
+
+  - lineNumber: 50
+    startTime: 125275
+    endTime: 127759
+    Utterance: xidighenek xotl'ogh xiłdik,
+    Translation: after it stopped then,
+
+  - lineNumber: 51
+    startTime: 127759
+    endTime: 130067
+    Utterance: schoolhouse xidontr'ididatl.
+    Translation: we go back into the schoolhouse.
+
+  - lineNumber: 52
+    startTime: 130067
+    endTime: 132609
+    Utterance: Gazriniłdikdi xidontr'ididatl.
+    Translation: We go back  into the schoolhouse.
+
+  - lineNumber: 53
+    startTime: 132609
+    endTime: 133602
+    Utterance: Ngiyiq,
+    Translation: Back inside,
+
+  - lineNumber: 54
+    startTime: 133602
+    endTime: 135677
+    Utterance: xidontr'ididałdi ts'i xiłdik,
+    Translation: when we go in,
+
+  - lineNumber: 55
+    startTime: 135677
+    endTime: 138060
+    Utterance: nigitr'idendldik.
+    Translation: we start to write.
+
+  - lineNumber: 56
+    startTime: 138085
+    endTime: 139604
+    Utterance: Dałine' getiy,
+    Translation: But really,
+
+  - lineNumber: 57
+    startTime: 139604
+    endTime: 141869
+    Utterance: iyan' ntasdoł ts'i xiq'at,
+    Translation: only to go back (home) I want,
+
+  - lineNumber: 58
+    startTime: 141883
+    endTime: 147303
+    Utterance: xiłdi singonh nughił datasneł dixo'in.
+    Translation: so my mother, I can tell her about it, is why.
+
+  - lineNumber: 59
+    startTime: 147376
+    endTime: 150449
+    Utterance: Ts'i yitots'i gazrnughiłdik xotl'ogh,
+    Translation: So then after we wrote,
+
+  - lineNumber: 60
+    startTime: 150532
+    endTime: 153374
+    Utterance: yit xiy antr'ididiłdi nixinedhit.
+    Translation: then the time came  to go home.
+
+  - lineNumber: 61
+    startTime: 153424
+    endTime: 155129
+    Utterance: Ts'i yitots'i,
+    Translation: Then,
+
+  - lineNumber: 62
+    startTime: 155177
+    endTime: 156572
+    Utterance: anh,
+    Translation: that one,
+
+  - lineNumber: 63
+    startTime: 156638
+    endTime: 158912
+    Utterance: dinagi...
+    Translation: our...
+
+  - lineNumber: 64
+    startTime: 159005
+    endTime: 162812
+    Utterance: xididinaxidinił'anh,
+    Translation: our teacher,
+
+  - lineNumber: 65
+    startTime: 162855
+    endTime: 164580
+    Utterance: «Agidet,» dina iłne.
+    Translation: "That's all," he tells us.
+
+  - lineNumber: 66
+    startTime: 164637
+    endTime: 166608
+    Utterance: Ts'i yitots'i, yitots'i,
+    Translation: So then,
+
+  - lineNumber: 67
+    startTime: 166770
+    endTime: 168857
+    Utterance: nongidaghigicheth ts'i yuxudz.
+    Translation: I put on everything.
+
+  - lineNumber: 68
+    startTime: 168857
+    endTime: 171041
+    Utterance: Tth'anigiggoq.
+    Translation: Out I ran.
+
+  - lineNumber: 69
+    startTime: 171065
+    endTime: 174694
+    Utterance: Ngi'in iy an ngigiggok singonh ts'in'.
+    Translation: All the way home I ran to my mother.
+
+  - lineNumber: 70
+    startTime: 174694
+    endTime: 177216
+    Utterance: Yix xidonigiggoq.
+    Translation: Into the house I ran.
+
+  - lineNumber: 71
+    startTime: 177230
+    endTime: 180765
+    Utterance: Yuxudz singonh yuxudz nitlqa ts'i yuxudz.
+    Translation: My mother I really look hard at her.
+
+  - lineNumber: 72
+    startTime: 180765
+    endTime: 183118
+    Utterance: «Ngan' dighit'an',» vidisne.
+    Translation: "There was an earthquake," I tell her.
+
+  - lineNumber: 73
+    startTime: 183219
+    endTime: 185510
+    Utterance: «Agidet,» siłne.
+    Translation: "That is so," she says to me.
+
+  - lineNumber: 74
+    startTime: 185510
+    endTime: 188045
+    Utterance: «Agide ngan' dighit'an'.
+    Translation: "There was an earthquake.
+
+  - lineNumber: 75
+    startTime: 188091
+    endTime: 189955
+    Utterance: Go deg xiyił yuxudz,
+    Translation: All around here,
+
+  - lineNumber: 76
+    startTime: 189955
+    endTime: 194355
+    Utterance: ngan' dighit'an',» siłne.
+    Translation: there was earthquake," she tells me.
+
+  - lineNumber: 77
+    startTime: 194519
+    endTime: 199925
+    Utterance: «Agidet. Gila go yiggidhedo.
+    Translation: "OK. Go ahead sit down here.
+
+  - lineNumber: 78
+    startTime: 200070
+    endTime: 202725
+    Utterance: Gogide nginughił xatasneł
+    Translation: Right here I'm going to tell you
+
+  - lineNumber: 79
+    startTime: 202788
+    endTime: 203606
+    Utterance: xo'in
+    Translation: why
+
+  - lineNumber: 80
+    startTime: 203956
+    endTime: 205388
+    Utterance: ngan' dit'anh ts'i,»
+    Translation: earthquakes happen,"
+
+  - lineNumber: 81
+    startTime: 205651
+    endTime: 207225
+    Utterance: siłne.
+    Translation: she says to me.
+
+  - lineNumber: 82
+    startTime: 207316
+    endTime: 209045
+    Utterance: Yitots'i yit
+    Translation: So there
+
+  - lineNumber: 83
+    startTime: 209112
+    endTime: 211215
+    Utterance: viq'idz gitr'iłnon xiyiq'idz,
+    Translation: (across) the table,
+
+  - lineNumber: 84
+    startTime: 211215
+    endTime: 214488
+    Utterance: ne yiggi yiq'i ditr'athdoy yiggididhisdo ts'i.
+    Translation: she tells me to sit down on a chair.
+
+  - lineNumber: 85
+    startTime: 214488
+    endTime: 217711
+    Utterance: Mama xiłdi che yiq'i xoq'odz dhido.
+    Translation: Then mama too sits down across (from me).
+
+  - lineNumber: 86
+    startTime: 217789
+    endTime: 219349
+    Utterance: «Agidet.
+    Translation: "OK.
+
+  - lineNumber: 87
+    startTime: 219425
+    endTime: 221130
+    Utterance: Dina Xito',
+    Translation: Our Father,
+
+  - lineNumber: 88
+    startTime: 221130
+    endTime: 222300
+    Utterance: 'n at,
+    Translation: He is the one,
+
+  - lineNumber: 89
+    startTime: 222347
+    endTime: 224692
+    Utterance: go ngan' itlts'enh,
+    Translation: made this land,
+
+  - lineNumber: 90
+    startTime: 224743
+    endTime: 227630
+    Utterance: go iy 'n a q'idz dazritltthe,»
+    Translation: this one we are staying on,"
+
+  - lineNumber: 91
+    startTime: 227781
+    endTime: 229606
+    Utterance: siłne.
+    Translation: she tells me.
+
+  - lineNumber: 92
+    startTime: 229606
+    endTime: 231192
+    Utterance: «Ts'i yitots'in',
+    Translation: "So then,
+
+  - lineNumber: 93
+    startTime: 231229
+    endTime: 233654
+    Utterance: edivenhditux xiłdi iy ngan',
+    Translation: day after day the land, 
+
+  - lineNumber: 94
+    startTime: 233917
+    endTime: 236899
+    Utterance: Ditl'o diyitl'onh»
+    Translation: His hand, it is sitting on it,"
+
+  - lineNumber: 95
+    startTime: 236899
+    endTime: 239798
+    Utterance: siłne.
+    Translation: she tells me.
+
+  - lineNumber: 96
+    startTime: 239845
+    endTime: 243633
+    Utterance: «Ditl'o yetingh' iy dinage ngan',» yiłne.
+    Translation: "His hand is holding our land," she tells me.
+
+  - lineNumber: 97
+    startTime: 243669
+    endTime: 248170
+    Utterance: «Iłt'e nixidodhił xingo, Vitl'o diyidhi'onh,»
+    Translation: "Still year after year, His hand, it is sitting on it,"
+
+  - lineNumber: 98
+    startTime: 248227
+    endTime: 249808
+    Utterance: siłne.
+    Translation: she tells me.
+
+  - lineNumber: 99
+    startTime: 249892
+    endTime: 252720
+    Utterance: «Yitots'in',
+    Translation: "So,
+
+  - lineNumber: 100
+    startTime: 252814
+    endTime: 254835
+    Utterance: q'idughitux xiłdi getiy
+    Translation: once in a while, really
+
+  - lineNumber: 101
+    startTime: 254904
+    endTime: 257944
+    Utterance:  nq'oxdina' ye gits'i nixixo'oł.
+    Translation: people are doing wrong.
+
+  - lineNumber: 102
+    startTime: 258248
+    endTime: 260728
+    Utterance: Dałche Dina Xito' anh,
+    Translation: Even so Our Father,
+
+  - lineNumber: 103
+    startTime: 260820
+    endTime: 262444
+    Utterance: xivititłdhit.
+    Translation: he doesn't bother them.
+
+  - lineNumber: 104
+    startTime: 262446
+    endTime: 267582
+    Utterance: Q'idughitux xiłdi yuxudz, getiy gho gits'i dixit'anh tux,
+    Translation: Once in a while, when really badly they are doing,
+
+  - lineNumber: 105
+    startTime: 267582
+    endTime: 272225
+    Utterance: Dilo' {na} na'alyax xiyozr.
+    Translation: He moves his hand a little bit.
+
+  - lineNumber: 106
+    startTime: 272315
+    endTime: 274273
+    Utterance: Uxitux an ngan' dit'anh.
+    Translation: That's when an earthquake happens.
+
+  - lineNumber: 107
+    startTime: 274623
+    endTime: 277445
+    Utterance: Xiłdi nq'oxdina' ye,
+    Translation: Then people,
+
+  - lineNumber: 108
+    startTime: 277516
+    endTime: 279941
+    Utterance: 'Ngo, gits'i duxt'anh,' xiłne tux,
+    Translation: 'Well, you guys are doing things wrong,' He tells them then,
+
+  - lineNumber: 109
+    startTime: 279941
+    endTime: 280846
+    Utterance: tr'i'ne.
+    Translation: it is said.
+
+  - lineNumber: 110
+    startTime: 280846
+    endTime: 282295
+    Utterance: Dilo' iy,
+    Translation: His hand,
+
+  - lineNumber: 111
+    startTime: 282337
+    endTime: 283907
+    Utterance: niyaghiłno.
+    Translation: He moves it.
+
+  - lineNumber: 112
+    startTime: 284002
+    endTime: 286435
+    Utterance: Yuxudz xaxa yitots'i,
+    Translation: With that then,
+
+  - lineNumber: 113
+    startTime: 286485
+    endTime: 289925
+    Utterance: gits'i dixit'anh ts'i nixixiniyh.»
+    Translation: that they are doing wrong, they know it."
+
+  - lineNumber: 114
+    startTime: 289960
+    endTime: 291011
+    Utterance: Singonh,
+    Translation: My mother,
+
+  - lineNumber: 115
+    startTime: 291011
+    endTime: 293553
+    Utterance: gogidet sinughił didighine' ts'in'.
+    Translation: this is what she told me.
+
+  - lineNumber: 116
+    startTime: 293641
+    endTime: 294985
+    Utterance: That's it.
+
