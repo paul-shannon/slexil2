@@ -8,7 +8,9 @@ mimeType: audio/wav
 lines:
   - html: "<div class='lessonTitle'>Lesson Twenty-Eight: saliʔačiʔ ʔi ti təqačiʔ</div>"
 
-  - html: "<div style='margin:30px; margin-top: 0px;'><ul>
+  - html: "<div style='margin:30px; margin-top: 0px;'>
+           <h5>Topics</h5>
+           <ul>
            <li><b>-dxʷ</b>: without full control
            <li> <b>-d</b>: with control
            <li><b>ƛ̓u-</b>: habitually</ul></div>"
@@ -103,7 +105,9 @@ lines:
 
   - html: "<div class='lessonTitle'>Lesson Twenty-Nine: &nbsp; <i>saliʔačiʔ &nbsp; ʔi &nbsp;ti &nbsp;x̌ʷəl</i></div>"
 
-  - html: "<div style='margin:30px; margin-top: 0px;'><ul>
+  - html: "<div style='margin:30px; margin-top: 0px;'>
+           <h5>Topics</h5>
+           <ul>
            <li><b>-txʷ</b>: cause
            <li><b>səxʷ-</b>: means by which something is done</ul></div>"
 
@@ -246,7 +250,9 @@ lines:
 
   - html: "<div class='lessonTitle'>Lesson Thirty: &nbsp; <i>ɬixʷačiʔ</i></div>"
 
-  - html: "<div style='margin:30px; margin-top: 0px;'><ul>
+  - html: "<div style='margin:30px; margin-top: 0px;'>
+           <h5>Topics</h5>
+           <ul>
            <li>weather
            <li><b>diɬ</b>: the one who, the thing that, that which, the aforementioned
            <li><b>-ič</b>: got caught in (some kind of weather)
@@ -368,6 +374,13 @@ lines:
 
   - html: "<div class='lessonTitle'>Lesson Thirty-One: &nbsp; <i>ɬixʷačiʔ ʔi ti dəč̓uʔ</i></div>"
 
+  - html: "<div style='margin:30px; margin-top: 0px;'>
+           <h5>Topics</h5>
+           <ul>
+           <li>Actor and person acted upon
+           <li><b>ʔə</b> introduces actor
+           </ul></div>"
+
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 
   - html: "<div class='sectionNumber'>31A.1</div>"
@@ -411,6 +424,15 @@ lines:
     english: We will be taken home by my neice.
 
   - html: "<div class='lessonTitle'>Lesson Thirty-Two: &nbsp; <i>ɬixʷačiʔ ʔi ti saliʔ</i></div>"
+
+  - html: "<div style='margin:30px; margin-top: 0px;'>
+           <h5>Topics</h5>
+           <ul>
+           <li><b>-yi-/(-ši-)</b>
+           <li> Six words translated as <i>break</i>
+           <li> Summary of <b>ʔə</b> uses
+           </ul>
+           </div>"
 
   - html: "<div style='margin-left: 30px'><h5> Choral Repetition A</h5></div>"
 

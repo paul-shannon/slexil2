@@ -53,13 +53,13 @@ curl:
 # 	cat index2.html | sed s,https://slexilData.artsrn.ualberta.ca/includes/slexil.js,slexil.js, > index3.html
 # 
 publish:
-	scp $(HTML.FILE) pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
-	scp kb2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
-	scp linguisticTerms2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
-	scp *.png pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	rsync -a $(HTML.FILE) pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/$(HTML.FILE)
+	rsync -a kb2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	rsync -a  linguisticTerms2.js pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	rsync -a *.png pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 publish-audio:
-	scp volume2.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
+	rsync -a  volume2.wav pshannon@206.12.95.4:www/lushootseed/$(PROJECT)/
 
 view:
 	open $(HTML.FILE)

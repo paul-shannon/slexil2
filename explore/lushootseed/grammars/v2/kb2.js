@@ -2000,7 +2000,7 @@ Book One, page 60.
 
 "tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy.":
 `
-**tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy.**
+**tukʷaxʷatəb ʔə ti dstaləɬ tsə dsk̓ʷuy**
 
 <details open><summary>Vocabulary Notes</summary>
 
@@ -2029,6 +2029,9 @@ Book One, page 60.
 
 
 </details>
+
+**Grammar Note 31.1, page 22**
+
 Prior to this lesson there has been no way of expressing
 both actor and person acted upon in the same sentence
 (unless at least one of the other was <i>I, we, or you)</i>.
@@ -2036,13 +2039,13 @@ both actor and person acted upon in the same sentence
 Choral Repetion A presents how this is done: the actor is marked by <b>ʔə</b>.
 
 Action words ending in <b>-dxʷ (-du-)</b> and <b>-txʷ (-tu-)</b> simply
-add <b>-b</b> (after the <b>u- ending</b>.
+add <b>-b</b> (after the <b>u- ending</b>).
 
 Those with the <b>-d</b> suffix require a change of <b>-d</b> to <b>-t-</b>
 before <b>-b</b> may be added.  (An <b>ə</b> sound is added between the
-<b>-t-</b> and the <b>-b</b> to make pronunciation easier.
+<b>-t-</b> and the <b>-b</b> to make pronunciation easier.)
 
-**Grammar Note 31.2, page 23**
+**Grammar Note 31.2, page 22**
 
 It is possible to change the order of actor and person
 acted upon; therefore, <b>ʔə</b> is essential to keep clear
@@ -2054,6 +2057,80 @@ Both of the following sentences means "The dog is chasing the boy".
   <li> ləčalatəb ʔe ti sqʷəbayʔ ti č̓ač̓as.
   <li> ləčalatəb ti č̓ač̓as ʔe ti sqʷəbayʔ.
 </ul>
+`,
+
+//------------------------ 
+// section 31B.1, line 61
+//------------------------
+
+"tukʷaxʷatəb čəd ʔə ti dstaləɬ.":
+`
+**tukʷaxʷatəb čəd ʔə ti dstaləɬ**
+
+**Grammar Notes 31.3, page 23**
+
+It is possible to use <b>čəd</b> words after the endings
+<ul>
+   <li><b>-t-əb</b>
+   <li><b>-du-b</b>
+   <li><b>-tu-b</b>
+</ul>
+
+The difference between these two is slight:
+
+<ul>
+   <li><b>tukʷaxʷatəb čəd ʔə ti dstaləɬ</b>
+   <li><b>tukʷaxʷac ti dstaləɬ</b>
+</ul>
+
+In the first case the speaker is focusing his
+attention on himself, <b>čəd</b>, whereas in the second he is not.
+
+**Grammar Note 31.4, page 23**
+
+Although the endings <b>-t-əb</b>, <b>-du-b</b>, and <b>-tu-b</b>
+are required for expressing both the actor and person acted
+upon as explained in <b>31.1</b> (line 58), it is possible to omit specific
+mention of either actor or the one affected, or both.
+
+Each of the following sentences is grammatical in Lushootseed:
+
+<ul>
+  <li><b>ləčalatəb ʔə ti sqʷəbayʔ ti č̓ač̓as.</b> The dog is chasing the boy.
+  <li><b>ləčalatəb ʔə ti sqʷəbayʔ</b> Someone is getting chased by the dog.
+  <li><b>ləčalatəb ti č̓ač̓as.</b> The boy is getting chased by someone/something.
+  <li><b>ləčalatəb</b> Someone is getting chased by someone/something else.
+</ul>
+
+(Again note the importance of <b>ʔə</b> in the second sentence and the
+significance of its absence in the third).
+
+**Grammar Note 31.5, apge 24**
+
+<b>staləɬ</b> is the son or daughter of all one's <b>sqa</b> and
+<b?suq̓ʷaʔ</b>; therefor, <>staləɬ</b> designates not only the children
+of one's borthers and sisters, but also of his cousins as well.
+`,
+
+//------------------------ 
+// section 32A.1, line 64
+//------------------------
+
+
+"ʔahyic ʔə tiʔiɬ xʷəltəbalc.":
+`
+**ʔahyic ʔə tiʔiɬ xʷəltəbalc**
+
+**Grammar Notes 32.1, page 27**
+
+In Lushootseed one speaks of presenting someone <i>with</i>
+something using <b>ʔə</b> before the name of the item given:
+
+<ul>
+  <li><b>tuʔabyicid ʔu t(i) adbad ʔə tiʔiɬ q̓əčic</b>
+  <li> Did your father give you that bow? (i.e., <i>present you with that bow</i>)
+  </ul>
+  
 `,
 
 }
