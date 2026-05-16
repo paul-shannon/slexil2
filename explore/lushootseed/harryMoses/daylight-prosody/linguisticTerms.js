@@ -1,5 +1,169 @@
 linguistics = {
 
+"Inflectional Prefix":
+`
+<h4> Inflectional Prefix</h4>
+
+[David distinguishes "phrase-level clitics" ]
+
+Clitics have the form of affixes, but the distribution of function words.
+
+page 311, tense and mood:
+
+<ul>
+  <li>Past tense tu=
+  <li>Habitual mood ƛ̓u=
+  <li>Irrealis mood ɬu=
+  <li> Subjunctive mood gʷə=
+  <li> Negative mood lə=
+  <li> Progressive clitic lə=
+  <li> Additive clitic bə=
+
+</ul>
+
+Adds grammatical relationships - how nouns, verbs, and other parts of
+speech interact with and rely on one another to build coherent
+meaning, primarily by establishing who or what is performing the
+action and who is receiving it.
+
+<ul>
+   <li> <b>tense</b>: past, present or future
+   <li> <b>aspect</b>: extension in time, im/perfective, repeated (habitual)
+   <li> <b>mood</b>: indicates modality, reality or unreality (subjunctive (conceived) or indicative (certain, actual, matter of fact))
+</ul>
+
+<details><summary>Lushootseed</summary>
+
+<h5> simple aspect </h5>
+
+<ul>
+   <li>Ø- ‘imperfective’:  looking at the situation from outside, without
+necessarily distinguishing any of the internal structure of the situation (Comrie)
+   <li> ʔu- ‘perfective’: looking “at the situation from inside, and as such is crucially
+concerned with the internal structure of the situation.
+   <li> ʔas- ‘stative’: treats the situation or event described by the verb (or its outcome) as an established
+fact or state of affairs without reference to its beginning or any potential endpoint
+</ul>
+
+<ul>
+   <li><b></b>
+   <li>
+   <li>
+   <li>
+   <li>
+</ul>
+</details>
+
+
+<details><summary>In English</summary>
+
+
+In English all prefixes are derivational. Suffixes may be either derivational or inflectional.
+
+<a href="https://www.quora.com/What-are-inflections-in-a-language-Is-the-English-language-inflectionally-complex-or-simple" target="_blank">quora, Christina Biava </a>
+
+Over the centuries, English lost most of its inflections as it changed from Old to Middle to Modern English. Linguists now consider that English has only 8 inflections left:
+
+4 are verbal:
+
+<ol>
+  <li> {-s} 3rd person singular (“calls” “has” “is” “sings” )
+  <li> {-ed} past + lots of other spellings (“called” “had” “was” “sang”)
+  <li> {-ing} present participle (“calling” “having” “being” “singing”)
+  <li> {-en} past participle + lots of other spellings (“called” “had” “been” “sung”)
+</ol>
+
+<ol>
+2 are nominal (=applied to nouns):
+
+<li>{-s} plural + lots of other spellings (“dogs” “men” “children” “feet”)
+
+<li>{-‘s} possessive (“dog’s” “man’s” “men’s” “child’s” “children” “John’s” )
+</ol>
+
+
+2 are adverbial/adjectival:
+
+<ol>
+<li>{-er } comparative degree (“taller” “crazier” “faster” )
+<li>{-est } superlative degree (“tallest” “craziest” “fastest”)
+</ol>
+
+So, English inflectional morphology is quite simple when compared to
+most other Indo-European languages. However, inflections are not the
+only way to add grammatical meaning to a word—English now depends more
+heavily on syntax (word order) and prepositions to indicate
+grammatical relationships.
+
+
+</details>
+
+`,
+
+"-i-t-b":
+
+`
+<h4>i-t-b</h4>
+
+<pre>
+  ƛ̓u=lə=ƛ̓ip̓•us–i–t–b  [Harry Moses Daylight 53]
+  HAB=PROG=squeeze•face–SS–ICS–PASS
+
+  ƛ̓u=lə=ƛ̓uc̓•us–i–t–b</b>  [Harry Moses Daylight 55]
+  HAB=PROG=tied.in.bunch•face–SS–ICS–PASS
+
+</pre>
+
+<h5>Details</h5>
+
+<details><summary><b>-i</b> SS</summary>
+
+ These combine with another valency-increaser, usually -t ‘internal
+ causative’, to form a morphological complex that adds a direct object
+ expressing some semantic role other than PATIENT. [Grammar 2.1.3]
+
+</details>
+
+<details><summary><b>-t</b> ICS</summary>
+<ul>
+  <li> Internal Causative
+  <li> A transitive event-internal cause
+  <li> [GAI] not externally controlled: bloom, blossom, decay, ferment, germinate, rust
+  <li> [Beck Grammar 2.1.2.1]
+  <li> ..keeping in mind the basically stative nature of
+Lushootseed radicals: the radical itself expresses a state while the derived transitive stems
+expresses an action preformed by an AGENT resulting in a PATIENT coming into that state
+</details>
+
+<details><summary><b>-b</b> PASS</summary>
+
+<b>-b</b> has two distinct meanings: middle and passive
+
+<ul>
+  <li> middle voice [Beck Grammar 2.1.1.3]
+  <li>  A second class of middle forms involves the combination of the middle marker, a radical,
+and a lexical suffix (Section 2.1.6).
+  <li> The bodypart expressed by the lexical suffix in such forms belongs to the AGENT/subject of the
+sentence. Verbs derived in this way are monovalent and intransitive. Most such forms are
+quite transparent, denoting an action taken by the AGENT/subject of the sentence involving a part
+of its own body.
+  <li>But  a number of verbs of this type have figurative meanings:
+    <ul>
+       <li> <b>ɬiʔɬda(hə)b</b> ‘troll’ (in fishing) from √ɬid ‘be tied’ + -ah ‘bottom’
+       <li> <b>xʷəbaladiʔb</b> ‘toss head side to side’ from º√xʷəb ‘be thrown’ + -adiʔ ‘ear’) 
+    </ul>
+<li>Middles formed with lexical suffixes constitute a very large class of verb
+stems; a sample of these is given in Table 15.  For instance
+<ul>
+<li> <b>c̓agʷačiʔəb</b> ‘wash hands’ (c̓aʔkʷ ‘be washed’ + -ačiʔ ‘hand’)
+<li> <b>dxʷqʷalusəb</b> ‘paint face’ (qʷal ‘be marked, be painted’ + -us ‘face’)
+</ul>
+</ul>
+</details>
+
+`,
+
+
 "Stems and Radicals":
 `
 **Stems and Radicals**
@@ -35,79 +199,6 @@ is the root/radical plus any derivational affixes.
 
 `,
 
-
-"-i":
-`
-**-i**
-
-<i>Except for secondary suffixes (Section 2.1.3), Lushootseed disallows
-combinations of valency-increasing suffixes, thereby excluding the
-possibility of adding a causative suffix to a transitive stem (which
-would itself have to have been derived using a causative or
-applicative suffix). footnote 36, p83, Beck Grammar</i>
-
-<i>Secondary suffixes are affixes that combine with another
-valency-increaser, usually -t ‘internal causative’, to form a
-morphological complex that adds a direct object expressing some
-semantic role other than PATIENT. In total, Hess & Bates (2004) list
-four secondary suffixes — -yi-, -bi-, -di-, and -i-.</i>
-
-Of these, only -yi- and -bi- appear to be productive and can
-be associated with unique and fairly consistent meanings; the other
-two appear to be confined to a few fossilized forms and to have
-meanings that overlap with those of the more productive secondary
-suffixes.
-
-<pre>
-
- 90a. ʔucaq̓ čəd ʔə tiʔəʔ sxə̌ diʔac
-      ʔu–caq̓ čəd ʔə tiʔəʔ sxə̌ diʔac
-      PFV–be.speared 1SG.SUB PR PROX devil’s.club
-      I got speared by the Devil’s Club
-
- 90c. dxʷcaq̓ax̌adid tiʔiɬ č̓ətx̌
-      dxʷ–caq̓–ax̌ad–i–d tiʔiɬ č̓ətx̌
-      CTD–speared–side–SS–ICS DIST kingfisher
-      he speared Kingfisher in the side
-
-</pre>
-
-The form in (90c) is transitive and takes as its subject
-the AGENT rather than the PATIENT which is the subject of the radical
-in (90a). Thus, the effect on the valency and government pattern of
-the radical of adding -i-d is the same as that of adding the
-transitive causative suffix -t.
-
-This raises the issue of what contribution, if any, the secondary
-suffix -i- makes to the meaning of the stem. One possibility is that
--i- is not a meaningful element at all and that the sequence [id] may
-simply be an allomorph of the internal causative associated with a
-lexical suffix (or a particular subset of lexical suffixes).
-
-This seems unlikely given that, as we saw in Section 2.1.6, there are
-abundant internal causative stems containing lexical suffixes such as
-c̓agʷačiʔd ‘wash someone’s hands’ (cf. č̓əlpačiʔid ‘twist someone’s
-wrist’ in Table 46) that do not contain -i-.
-
-Another possibility is that the -i- is associated with the
-possessor-raising seen in sentences like (90c) whereby it is the
-bodypart that is affected by the action, but the possessor of the
-bodypart is expressed as the direct object. This, however, still begs
-the question of why -i- is not present in all transitive stems
-containing lexical suffixes that express affected bodyparts.
-
-Another reason for not dismissing -i- as a morpheme entirely, at least
-from a diachronic perspective, is that it turns up in a few other
-places as a stem-formative associated with -t. One particularly
-suggestive pair of verbs is haʔlid ‘make good for someone, make
-someone comfortable’ vs. halʔad ‘tend to someone’, both derived from
-the adverbial radical √haʔɬ ‘good’.  However, these are the only such
-contrastive pairs found in the corpus to date, making any analysis of
--i- as anything more than a vestige of an earlier form that was most
-likely associated in some way with valency-altering constructions
-little more than speculation.
-
-`,
 
 
 
@@ -325,6 +416,8 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
 **David Beck's articles, papers, books**
 
 <ul>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_glossing_abbreviations"
+    target="_blank"> List of glossing abbreviations</a>
   <li><a href="https://pshannon.net/docs/NorthwestCoastTexts-StealingLight.pdf" target="_blank">PNW Daylight texts, 1977</a>
   <li><a href="https://pshannon.net/docs/StealingDaylight-from-beckAndHessBook.html" target="_blank">Daylight, Beck &amp; Hess version 2015</a>
   <li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
@@ -335,6 +428,8 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes</a>
   <li><a href="https://pshannon.net/docs/valencyClean.pdf" target="_blank">
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes (clean)</a>
+  <li><a href="https://www.jstor.org/stable/1264618?seq=1" target="_blank">
+         Agent in a Coast Salish Language - Thom Hess, 1973</a>
 
 </ul>
 `,
@@ -589,6 +684,8 @@ shorten further, solidifying its status as a single word.
 `
 **Derivational Affixation**
 
+(From David Beck's draft grammar, section 2.1, page 20)
+
 Probably one of the most notable features of Lushootseed (and other
 Salishan languages) is the rich verbal morphology, particularly in the
 realm of derivation. 
@@ -611,7 +708,8 @@ set of monovalent patient-oriented (Hess 1995) radicals whose
 syntactic subject expresses the semantic PATIENT or ENDPOINT of an
 event rather than the AGENT.
 
-**Example: kʷəd**
+<details><summary>Example: kʷəd</summary>
+
 
 <ul>
   <li><b>kʷəd</b> be held, taken
@@ -628,15 +726,21 @@ event rather than the AGENT.
   <li><b>kʷədax̌adid</b> take X by the arm, from kʷəd ‘be held, be taken’ + -ax̌ad ‘arm’
 </ul>
 
+</details>
 
 
-Some examples from Harry Moses's Daylight:
+
+<details><summary>Some monovalent intransitive verbs from HMD</summary>
 
 <ul>
    <li><b>huy</b> be done, be made, be finished
    <li><b>kʷəd</b> be held, be taken
    <li><b>c̓agʷ</b> be washing
 </ul>   
+
+
+</details>
+
 
 
 
@@ -657,18 +761,22 @@ event participants (semantic actants) or syntactic arguments.
 
 <ul>
    <li> dxʷ(s)- ‘contained’
+     <ul>
+        <li> permeate, throughout, filled with, covered with
+        <li> derivational prefix which marks stems as serving to contain, to hold within
+        <li> a secondary meaning of this prefix designates a proclivity, what one has "inside"
+        <li> also carrying this prefix are a number of stems referring to matters of the
+        ind, the _x̌əč_.
+        <li> <b>tudxʷadhadəxʷ</b> past=ctd–dstr–discuss=now [Harry Moses Daylight 3]
+        <li> <b>tudxʷcutəb</b> PAST-CTD-speak-DSD [Harry Moses Daylight 16]
+        <li> <b>ɬudxʷʔiwədəxʷ</b> IRR=CTD–decide=NOW [Harry Moses Daylight 27]
+     </ul>
    <li> -il ‘inchoative’
    <li> -b ‘middle’
    <li> -agʷil ‘autonomous action’
    <li> -iluɬ ‘purposive’, and -áb ‘method’
-<ul>
-
-   <li><b></b>
-   <li>
-   <li>
-   <li>
-   <li>
 </ul>
+
 </details>
 
 <details><summary>valency-increasing</summary>
@@ -1687,7 +1795,7 @@ The valency-neutral affixes
 
 
 
-Valency-incresing affixes, on the other hand, add semantic and actants
+Valency-increasing affixes, on the other hand, add semantic and actants
 and increase the syntactic valency of their bases. In total there are
 ten of these:
 - -t ‘internal causative’
@@ -3164,7 +3272,7 @@ at best.
 **secondary suffix**
 
 From David's <a href="https://sites.ualberta.ca/~dbeck/valency.pdf"
-                target="_blank">Taxonomy of Lushootseed Valency-Incresing Affixes</a>:
+                target="_blank">Taxonomy of Lushootseed Valency-Increasing Affixes</a>:
 
 [Except for secondary suffixes (Section 2.1.3), Lushootseed disallows
 combinations of valency-increasing suffixes, thereby excluding the
@@ -3931,9 +4039,9 @@ the earth was a formless wasteland, and darkness covered the abyss, while a migh
 `,
 
 
-"Habitual":
+"HAB":
 `
-#####Habitual:
+#####HAB Habitual
 
 <a href="https://en.wikipedia.org/wiki/Habitual_aspect" target="_top">wikipedia</a>: 
 the aspect of a verb is a grammatical category that defines

@@ -12,10 +12,12 @@ default:
 	@echo  s2h    # yaml2html
 	@echo  inject 
 	@echo  view
+	@echo  view-pshannon
 	@echo  updateLocal [s2h, inject]
 	@echo  update [s2h, inject, publish, viewRemote]
 	@echo  publish
 	@echo  publish-audio
+	@echo  publish-pshannon
 	@echo  viewRemote
 
 venv:
@@ -93,10 +95,10 @@ publish-audio:
 
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/daylight
 publish-pshannon:
-	scp daylight2.html $(DEST)/index.html
-	scp kb.js $(DEST)
-	scp linguisticTerms.js $(DEST)
-	scp daylight-restoration_V03-22k-aLaw.wav $(DEST)
+	rsync -a daylight2.html $(DEST)/index.html
+	rsync -a kb.js $(DEST)
+	rsync -a linguisticTerms.js $(DEST)
+	rsync -a daylight-restoration_V03-22k-aLaw.wav $(DEST)
 
 
 updateLocal: s2h inject 
@@ -109,4 +111,7 @@ view:
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/
+
+view-pshannon:
+	open https://pshannon.net/daylight
 

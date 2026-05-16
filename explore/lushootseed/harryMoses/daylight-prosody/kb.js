@@ -90,6 +90,7 @@ kb = {
 
 <ul>
       <li><b>ƛ̓u-</b> habitual action or state; generally, usually [LD 155]
+          [inflectional habitual prefix]
 
       <li><b>lə-</b> action is ongoing, non-circumscribed, continuous,
           developing, acts are performed in a series, performed while
@@ -178,8 +179,8 @@ Uncertainty on this:
        <li><b>diʔucid</b> other side of the path, road, lake, river, body of water
        <li><b>diʔyalus</b>: other end, on the end. lexical suffix _yalus_: end, edge [LD 274]
      </ul>
-   <li><b>-ʔ</b> a reduplication indicating exclusivity or uniqueness.
-      Note the <b>EXC</b> gloss.  [Beck Grammar, section 5.3.3, page 330]
+   <li><b>-iʔ</b> a reduplication indicating exclusivity or uniqueness.
+      Note the <b>EXC</b> gloss. [<i>red3</i> <b>+VC</b>] [Beck Grammar, section 5.3.3, page 330]
    <li><b>-il</b> reach or achieve a state or position; becoming, becoming more so; begin
      [derivtional suffix, becomes <b>-i-</b> before transitive <b>-s</b>] [LD 116]
 </ul>
@@ -3193,7 +3194,7 @@ finite clause with a Ø (elided) pronoun.
 _ongoing repeating coming of darkness_
 
 
-- _ƛ’u_<sup>1</sup>: habitual action or state; generally, usually. .   LD 155. 
+- _ƛ’u_: habitual action or state; generally, usually.   LD 155. 
 
 - _bə_: inflectional additive prefix. abbreviated _ADD_.  LD 34  
      - again, anew (of actions or states)
