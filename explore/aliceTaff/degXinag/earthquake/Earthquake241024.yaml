@@ -8,18 +8,11 @@ lines:
 
   - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
     Ngan' Dit'anh, Earthquake, told by Ellen Savage at her home in Anchorage, AK, October 2002. 
-    This material was funded by National Science Foundation grant 0651787. Any opinions,
-    findings, and conclusions or recommendations expressed in this material are those of
-    the authors and do not necessarily reflect the views of the National Science Foundation.
     </div>"
 
   - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
     Recorded by Alice Taff and Donna Miller MacAlpine. Transcribed and translated
     by Donna Miller MacAlpine, Alta Jerue, Edna Deacon, and Alice Taff.
-    We use SLEXIL to render ELAN XML output as interactive web pages. Pronounced
-    'sluck-HAIL', SLEXIL means daylight in the Lushootseed language, for which it
-    was originally developed. The name may also be understood as an acronym:
-    Software Linking ELAN XML to Illuminated Language.
     </div>"
 
   - lineNumber: 3
