@@ -1,0 +1,131 @@
+title: title
+narrator: speaker
+textEntry: transcriber
+mediaFile: weWillTry-720.mov
+mimeType: video/quicktime
+
+lines:
+  - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
+           Speaker is Edna Deacon. Recorded on Sept. 6, 2023, by Alice
+           Taff at David Louis Memorial School in Grayling, Alaska.
+           </div>"
+
+  - html: "<div style='margin: 30px; margin-left: 50px; margin-right: 100px;'>
+           Deg Xinag transcription and English translation by Edna
+           Deacon with Alice Taff.
+           </div>"
+
+  - lineNumber: 3
+    startTime: 6868
+    endTime: 8760
+    utterance: Vitr'enotox.
+    translation: We'll try.
+
+  - lineNumber: 4
+    startTime: 15480
+    endTime: 20680
+    utterance: Dithiq'izr xiy oqo xinitl’anh.
+    translation: I'm looking for red one.
+
+  - lineNumber: 5
+    startTime: 24400
+    endTime: 26536
+    utterance: Agon adinh.
+    translation: Not this one.
+
+  - lineNumber: 6
+    startTime: 29970
+    endTime: 32090
+    utterance: Agon adinh.
+    translation: Not this one.
+
+  - lineNumber: 7
+    startTime: 37390
+    endTime: 39665
+    utterance: Viq'adidisne.
+    translation: I want it. 
+
+  - lineNumber: 8
+    startTime: 48110
+    endTime: 50992
+    utterance: Dred viqixigiyax.
+    translation: I’m barely finding any.
+
+  - lineNumber: 9
+    startTime: 56715
+    endTime: 59853
+    utterance: Dred viqixigiyax.
+    translation: I’m barely finding any.
+
+  - lineNumber: 10
+    startTime: 71110
+    endTime: 73920
+    utterance: Vaxa iditr’ixinałt'oy.
+    translation: Relaxing game (jigsaw puzzle) [Because doing the puzzle is fun and relaxing.]
+
+  - lineNumber: 11
+    startTime: 88280
+    endTime: 91254
+    utterance: Ndadz deningiddhinh?
+    translation: What do you (s) think?
+
+  - lineNumber: 12
+    startTime: 96116
+    endTime: 99266
+    utterance: Ndadz denuxdaq?
+    translation: What do you (p) think?
+
+  - lineNumber: 13
+    startTime: 105466
+    endTime: 109528
+    utterance: Getiy xełedz deningiddhinh.
+    translation: Your thoughts are good.
+
+  - lineNumber: 14
+    startTime: 115075
+    endTime: 117822
+    utterance: Imo ghined.
+    translation: Medicine.
+
+  - lineNumber: 15
+    startTime: 124254
+    endTime: 127755
+    utterance: Ngilo’ nełtlux.
+    translation: On your hand.
+
+  - lineNumber: 16
+    startTime: 147130
+    endTime: 150724
+    utterance: Nguxu idagh gidichet.
+    translation: For you (I) pick. [When giving a gift. You have to have it in your bag all the way.]
+
+  - lineNumber: 17
+    startTime: 154884
+    endTime: 157150
+    utterance: Ggogidet iy.
+    translation: Here it is.
+
+  - lineNumber: 18
+    startTime: 162079
+    endTime: 164945
+    utterance: Ggo nine’oyh.
+    translation: It goes here.
+
+  - lineNumber: 19
+    startTime: 168419
+    endTime: 171325
+    utterance: Ndałon agon.
+    translation: Maybe this one.
+
+  - lineNumber: 20
+    startTime: 180732
+    endTime: 184815
+    utterance: Dogidinh sidhałtth’onh.
+    translation: Thank you for listening to me.
+
+  - lineNumber: 21
+    startTime: 188796
+    endTime: 191231
+    utterance: Vinasinek.
+    translation: I can’t do it.
+
