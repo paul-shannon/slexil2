@@ -6,6 +6,6 @@ SFMT.FILE = $(BASE).yaml
 HELP_FILE = help.html
 HTML.FILE = firstAirplaneSee.html
 VID = DXCultHist7_3.wav
-TITLE = "Xintthe q’unt’ux xiy naghitl’an xiy"
+TITLE = "Xintthe q’unt’ux xiy naghitl’an xiy - The first time I saw an airplane"
 HOST = https://aklanguages.uas.alaska.edu
 
