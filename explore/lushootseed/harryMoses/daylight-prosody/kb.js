@@ -1,6 +1,48 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"s=ʔaʔ=s":
+
+`
+<b>sʔaʔs</b>
+   <ul>
+      <li><b>s=</b> nominalizer
+      <li><b>ʔa</b> be there [LD 1]
+      <li><b>-s</b> 3rd person possessive suffix [LD 199]
+   </ul>
+`,
+
+"s=ɬixʷ•əɬ•dat–t–sut=s":
+
+`
+<b>sɬixʷəɬdacuts</b>
+
+   <ul>
+      <li><b>s=</b> nominalizer
+      <li><b>ɬixʷ</b> three 
+      <li><b>-əɬ</b> variant of <b>-aɬ</b> class membership [derivational suffix] [LD 29] 
+         <ul>
+            <li><b>stabaɬ</b> what kind?
+            <li><b>sduhubšaɬ</b> I am from Swinomish.
+            <li><b>qaǰaǰətəɬ</b> Skagit-blooded.
+         </ul>
+      <li><b>dat</b> day, 24 hour period [LD 77]
+      <li><b>sɬixʷəɬdat</b> the third day, Wednesday [LD 147] "third of the day class"?
+      <li><b>-d, -əd, -t</b> action performed on someone or something else
+   [transitive suffix, allows for a direct complement patient,
+    creating a patient-oriented verb] [ICS] [LD 76]
+      <li><b>-sut</b> reflexive. <b>cut</b> #3, from <b>-t-sut</b> reflexive,
+            myself,yourself, himself, herself, itself, themselves [LD 49]
+      <li><b>-s</b> 3rd person possessive suffix [LD 199]
+   </ul>
+
+
+
+ <b></b>  [LD ]
+
+`,
+
+
 "tu=c̓agʷa–t–sut=əxʷ":
 `
 <h5>tu=c̓agʷa–t–sut=əxʷ</h5>

@@ -1,5 +1,247 @@
 linguistics = {
 
+"  Interrogatives":
+`
+<b>Interrogatives</b>
+
+
+<details><summary>gʷat - who?</summary>
+
+Of the interrogative words, the most straightforward (from an English
+perspective, at any rate) is the noun gʷat ‘who?; someone’, which is
+used in questions to ask for the identity of humans and personified
+animals:
+
+<ul>
+   <li><b>gʷat čəxʷ</b> who are you?
+   <li<b>gʷat tsiʔiɬ sɬadəyʔ</b> who is that woman?
+   <li<b>gʷatəxʷ kʷi ɬudsʔiɬugʷadadgʷad</b> who will I converse with now?
+   <li<b>xʷiʔəxʷ kʷi gʷat gʷəʔux̌</b> there was not anyone to go
+   <li<b>bək̓ʷ gʷat</b>  everyone  (all who)
+   <li<b>xʷiʔəxʷ gʷəsuʔitut ʔə tiʔəʔ bək’ʷ gʷat</b> no one could fall asleep
+</details>
+
+<details><summary>stab - what?</summary>
+
+...derived from a combination of the verbal radical √tab ‘do’ plus the
+nominalizing prefix s- (Section 2.2.1). It is used in questions to ask
+the addressee to identify or name an object or non-human.  In its
+non-interrogative uses, it often has the sense of "thing" or "unspecified
+object".
+
+<ul>
+   <li><b>stab tiʔiɬ</b>  what is that?
+   <li><b>gʷəl ʔuluudəxʷ tiʔiɬ stab</b> he heard something
+   <li><b>xʷiʔ kʷi stab gʷətusuʔəɬəds</b> there was nothing they could eat.
+   <li><b>ɬusʔay’gʷasəxʷ ti bək’ʷ stab</b> everything will be changed now
+</ul>
+
+</details>
+
+<details><summary>stabaɬ ‘what kind of?’</summary>
+The incorporative suffix <b>aɬ</b> is also found with the
+interrogative word <b>stab</b> "what?" to form <b>stabaɬ</b>
+"what kind?".
+
+<ul>
+   <li><b>stabaɬ titčulbixʷ</b> what kind of little animal is that?
+   <li><b>stabaɬ əw̓ə qʷɬayʔ tiʔiɬ ʔəsƛ̓ax̌ʷ ʔal tiʔiɬ</b> what kind
+   of wood is that growing over there?
+</ul>
+</details>
+
+<details><summary><b>čədaɬ</b> ‘which?’</summary>
+<ul>
+   <li><b>čədaɬ əw’ə kʷi hikʷ sq’əlaɬədac</b> which is the biggest berry bush?
+</ul>
+
+</details>
+
+<details><summary>pədtab</b> ‘when?’</summary>
+
+Another word that may be derivationally related to stab is pədtab
+‘when?’, formed with the prefix pəd- ‘seasonal’. This
+interrogative is rather infrequent in texts, but follows the same
+pattern as other interrogative words, acting as the predicate of a
+clause requesting specific information from the addressee — in this
+case, a particular point in time described by the clausal subject:
+
+   <ul>
+      <li><b>pədtab kʷi ɬudšudubicid</b> when will I see you again?’
+      <li><b>pədtab kʷi adəxʷəxʷcutəb gʷəsɬčils</b> when do you think he will arrive?
+   </ul>
+
+
+</details>
+
+<details><summary>čad</b> ‘where?’,</summary>
+The interrogative word čad ‘somewhere; where?’ is used to request information about the
+location of an entity or event:
+   <ul>
+      <li><b>tučadəxʷ čəxʷ</b> where have you been?
+      <li><b>čadəxʷ kʷi sbəq’ʷaʔ</b>where is Heron now?
+   </ul>
+
+
+
+</details>
+
+<details><summary>dxʷčad</b> ‘to where?’</summary>
+
+The combination of čad with the centripetal particle dxʷ questions the
+GOAL or the point towards which the referent of the subject phrase is
+moving
+
+   <ul>
+      <li><b>lədxʷčad čəxʷ</b> where are you going to?
+      <li><b></b>
+   </ul>
+
+
+
+</details>
+
+<details><summary>tul̓čad</b> ‘from where?’</summary>
+   <ul>
+      <li><b>tul̓čad čəxʷ</b> where are you going to?
+   </ul>
+
+</details>
+
+<details><summary>liɬčad</b> ‘which way?’</summary>
+   <ul>
+      <li><b>ƛ̓uliɬčad čəxʷ</b> which way did you travel?
+   </ul>
+
+
+</details>
+
+<details><summary>čal</b> ‘how?’ </summary>
+
+The interrogative word čal, glossed roughly as ‘how?’, is used to ask
+after the state or condition of the entity referred to by its
+subject. When the subject is an NP, a headless relative clause, or an
+oblique-centred nominalization, the question is interpreted as a
+request for information about the current condition, status, or nature
+(as opposed to identity) of the subject
+
+   <ul>
+      <li><bƛ̓asčaləxʷ čəxʷ></b> how have you been?
+      <li><b>ʔəsčal əw̓ə tiʔiɬ adsut̓ilib</b> how is your song?
+   </ul>
+
+</details>
+
+
+<details><summary>k̓ʷid</b> ‘how many? how much?’</summary>
+
+The interrogative word k̓ʷid ‘some amount; how many, how much?’
+requests information about the number or quantity of items specified
+by the subject phrase:
+
+   <ul>
+      <li><b>k̓ʷid kʷi adsʔuladxʷ</b> how many salmon do you have?
+      <li><b>ƛ̓ucutəb, k’ʷid sq’aʔšəd</b> he was asked, “how many moccasins?
+   </ul>
+
+Like stab ‘what?’, k̓ʷid is regularly found associated with lexical
+suffixes. In these constructions, the lexical suffixes act as
+classifiers, indicating the type of item being asked about:
+
+   <ul>
+      <li><b>k̓ʷidilc kʷi adtalə</b> [how.many•round.object] how much money do you have?
+      <li><b>k̓ʷidalq čəxʷ</b> [how.many•game] How much game do you have?
+   </ul>
+
+While <b>stab</b> is attested with only a few lexical suffixes, k̓ʷid
+combines with a much wider (perhaps unrestricted) range: in the
+present corpus, there are attestations of
+
+   <ul>
+      <li><b>k̓ʷidalps</b> how many (economically important) animals?
+      <li><b>k̓ʷidgʷiɬ</b> how many canoes?’
+      <li><b>k̓ʷidətaɬ</b> how many fathoms? [əɬ: INCRP]
+      <li><b>k̓ʷidəladxʷəxʷ tiʔiɬ stubš</b> how many years now is that man?
+      <li><b> k̓ʷidwač ‘what time?’</b> [based on English <i>watch</i>]
+   </ul>
+
+Many more interesting comments in the length 2.6.6 section on this word.
+
+</details>
+
+
+<details><summary>čayɬ</b> ‘go for what reason?’</summary>
+
+The interrogative verbs, čayɬ ‘go for what reason?’ and ʔidigʷat ‘say
+what?’, request information about a particular type of event whose
+nature is specified in the meaning of the interrogative itself.
+
+<b>čayɬ</b> asks for the motive behind someone’s going somewhere:
+
+   <ul>
+      <li><b>čayɬ čəxʷ</b> why do you want to go
+      <li><b>ləčayɬəxʷ kʷi sʔux̌ʷs ʔal tiʔiɬ ʔuq̓ʷuʔq̓ʷuʔ</b> why should she want to go to that gathering?
+   </ul>
+
+
+
+</details>
+
+
+<details><summary>ʔidigʷat</b> ‘say what?’</summary>
+
+Requests information about the contents of a speech or communicative act:
+
+   <ul>
+      <li><b> ʔuʔidigʷat čəxʷ</b> what did you say?
+      <li><b>ʔu, ləcuʔidigʷat čələp, wiw̓su</b> oh, what are you saying, children?
+      <li><b>ʔəsʔidigʷat ti syəcəb ʔal tiʔiɬ sx̌al</b> what is reported in this document?
+   </ul>
+
+
+
+</details>
+
+<details><summary>ʔəx̌id</b> ‘what happened?’</summary>
+</details>
+
+`,
+
+    
+
+"  Verbs":
+`
+<details><summary>bəsad</summary>
+
+<ul>
+   <li> grow dark, evening [LD 39]
+   <ul>
+      <li><b>ƛ̓alal uʔxʷ gʷəl ləbəsad</b> It's early yet, but it's getting dark.
+      <li><b>ʔubəsadiǰəxʷ čəxʷ</b> It's getting dark on you.
+      <li><b>ɬubəsadič čəɬ</b> It will get dark on us. (=ič: lexical suffix, covering, etc. [LD 114])
+   </ul>
+   <li><b>tasbəsad</b> <a href="https://pshannon.net/daylight/#2">2</a>
+      <ul>
+         <li>tu=?as-bəsad
+         <li><span style="font-family: courier"> PAST=STAT–grow.dark </span>
+      </ul>
+ <li><b>ƛ̓ubələbəsad</b> <a href="https://pshannon.net/daylight/#22">22</a>
+      <ul>
+         <li>  ƛ̓u=bə=lə=bəsad
+         <li> <span style="font-family: courier"> HAB=ADD=PROG=grow.dark </span>
+      </ul>
+   <li><b>sbəsads</b> <a href="https://pshannon.net/daylight/#55">55</a>
+      <ul>
+         <li>s=bəsad=s
+         <li> <span style="font-family: courier"> NM=grow.dark=3PO <span>
+      </ul>
+   </ul>
+
+</details>
+
+`,
+
+
 "Inflectional Prefix":
 `
 <h4> Inflectional Prefix</h4>
@@ -417,7 +659,7 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
 
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/List_of_glossing_abbreviations"
-    target="_blank"> List of glossing abbreviations</a>
+    target="_blank"> Wikipedia's List of glossing abbreviations</a>
   <li><a href="https://pshannon.net/docs/NorthwestCoastTexts-StealingLight.pdf" target="_blank">PNW Daylight texts, 1977</a>
   <li><a href="https://pshannon.net/docs/StealingDaylight-from-beckAndHessBook.html" target="_blank">Daylight, Beck &amp; Hess version 2015</a>
   <li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
@@ -583,7 +825,7 @@ More complex radicals are also attested:
   <li><b>ʔigʷəɬa</b> ‘climb tree’
   <li><b>hədʔiw̓</b> ‘be inside a house’,
   <li><b>təlawil</b> ‘run a distance’,
-  <li><b>xʷiʔxʷiʔ ‘hunt for something, forage for something’).
+  <li><b>xʷiʔxʷiʔ</b> ‘hunt for something, forage for something’).
 </ul>
 
 Many of this last group appear to be fossilizations of
