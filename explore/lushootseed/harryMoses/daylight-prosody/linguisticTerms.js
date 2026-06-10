@@ -239,6 +239,38 @@ Requests information about the contents of a speech or communicative act:
 
 </details>
 
+<details><summary>ʔux̌ʷ</summary>
+
+<ol>
+   <li> go  [LD 22]
+   <li> be, exist
+</ol>
+
+<ul>
+   <li><b>gʷəsʔuʔux̌ʷc</b> <a href="#17">17</a>
+   <ul>
+      <li>gʷə=s=ʔu–ʔux̌ʷ–c
+      <li> <span style="font-family: courier">SBJ=NM=PFV–go–ALTV<span>
+   </ul>
+
+
+   <li><b>ʔux̌ʷ</b> <a href="#18">18</a> <a href="#19">19</a>  <a href="#45">45</a>
+   <li><b>ɬuʔux̌ʷtxʷ</b> <a href="#27">27</a>
+   <ul>
+      <li>ɬu=ʔux̌ʷ–txʷ
+      <li> <span style="font-family: courier">IRR=go–ECS<span>
+   </ul>
+
+   <li><b>gʷəʔux̌ʷ</b> <a href="#28">28</a>
+   <li><b>ləʔux̌ʷc</b> <a href="#28">28</a>
+   <li><b>ɬuləʔux̌ʷ</b> <a href="#33">33</a>
+   <li><b>tuʔux̌ʷəxʷ</b> <a href="#38">38</a> <a href="#90">90</a>
+   <li><b>ux̌ʷc</b> <a href="#58">58</a>
+   <li><b>bəʔux̌ʷcəb</b> <a href="#66">66</a>
+   <li><b>suʔux̌ʷcs</b> <a href="#67">67</a>
+</ul>
+</details>
+
 `,
 
 
