@@ -5,13 +5,14 @@ default:
 	@echo  venv 
 	@echo  y2h
 	@echo  eaf
+	@echo  s2h
 	@echo  html
 	@echo  view
 	@echo  publish
 	@echo  viewRemote
 
 venv:
-	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
+	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 eaf:
 	python ~/github/yamlToEAF/toEAF.py $(NAME).yaml
@@ -35,6 +36,15 @@ y2h:
         --pageTitle "Martha Lamont - Owl Lives There" \
         --helpButtonLabel About \
         --helpFile about.html
+
+s2h:
+	python ~/github/slexil2/utils/sfmt2html.py \
+        --sfmt owlLivesThere.yaml \
+        --htmlFile owlLivesThere.html \
+        --pageTitle "Martha Lamont - Owl Lives There" \
+        --helpButtonLabel About \
+        --helpFile about.html
+
 
 publish:
 	scp index.html pshannon@206.12.95.4:www/lushootseed/marthaLamont/owlLivesThere/

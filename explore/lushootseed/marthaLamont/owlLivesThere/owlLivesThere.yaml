@@ -11,7 +11,7 @@ lines:
    endTime: 7586
    lushootseed: ﻿ʔəsɬaɬlil tiʔiɬ tiʔiɬ təkʷtəkʷəlus
    morphemes: [ʔas–ɬaɬlil,tiʔiɬ,tiʔiɬ,təkʷtəkʷəlus]
-   morphemeGloss: [stat–live,dist,dist,owl]
+   morphemeGloss: [STAT–live,DIST,DIST,owl]
    english: Owl lives there.
 
  - lineNumber: 2
@@ -461,6 +461,7 @@ lines:
    morphemes: [xʷiʔ,sswələq̓,...,ʔu–dᶻakʷ•iʔɬ,tsiʔiɬ,waq̓waq̓]
    morphemeGloss: [neg,sswələq̓,...,pfv–rock•child,dist:fem,frog]
    english:  "No. Shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk, shuwooluk."  Frog rocks the baby.
+
 #
 #   - lineNumber: 73
 #     startTime: 0
@@ -477,6 +478,7 @@ lines:
    morphemes: [xʷiʔ=axʷ,gʷə=s=x̌ʷubil=s,bə=cut–cut=axʷ,gʷəl,bə=cut–cut=axʷ]
    morphemeGloss: [neg=now,sbj=nm=quiet=3po,add=dstr–say=now,sconj,add=dstr–say=now]
    english: She does not keep quiet. She always talks on and on. And again she talks on and on. 
+
 #
 #   - lineNumber: 75
 #     startTime: 0
@@ -494,6 +496,7 @@ lines:
 #     morphemeGloss: [sconj,add=dstr–say=now]
 #     english: And again she talks on and on.
 #
+
  - lineNumber: 77
    startTime: 264064
    endTime: 265642
@@ -501,6 +504,7 @@ lines:
    morphemes: [ʔu–haʔl•iʔɬ]
    morphemeGloss: [pfv–stop.crying•child]
    english:  "Tend to the baby!" 
+
 
  - lineNumber: 78
    startTime: 266183
@@ -526,13 +530,15 @@ lines:
 #     morphemeGloss: [sconj,sconj,fly=now]
 #     english: And then he flies off.
 #
+
  - lineNumber: 81
    startTime: 271033
    endTime: 274876
    lushootseed: gʷəl x̌ʷul̓əxʷ ƛ̓ubədᶻalqʷus lil ʔal kʷədiʔ dəxʷəsqəp̓s
    morphemes: [gʷəl,x̌ʷul̓=axʷ,ƛ̓u=bə=dᶻalqʷ•us,lil,ʔal,kʷədiʔ,dəxʷ=ʔas–qəp̓=s]
-   morphemeGloss: [sconj,only=now,hab=add=turn•face,far,at,rem.dma,adnm=stat–alight=3po]
+   morphemeGloss: [SCONJ,only=NOW,HAB=ADD=turn•face,far,at,REM.DMA,ADNM=STAT–alight=3PO]
    english: And he would just turn his face away over there where he alights.
+
 
  - lineNumber: 82
    startTime: 274879
@@ -541,15 +547,16 @@ lines:
    morphemes: [gʷəl,bə=huyu,gʷəl,bə=ʔux̌ʷ=axʷ,bə=lilalqəb=axʷ]
    morphemeGloss: [sconj,add=made,sconj,add=go=now,add=distance.self=now]
    english: And he does it again and he goes on. He goes even farther away.
-#
-#   - lineNumber: 83
-#     startTime: 0
-#     endTime: 0
-#     lushootseed: bəlilalqəbəxʷ
-#     morphemes: [bə=lilalqəb=axʷ]
-#     morphemeGloss: [add=distance.self=now]
-#     english: He goes even farther away.
-#
+
+   - lineNumber: 83
+     startTime: 0
+     endTime: 0
+     lushootseed: bəlilalqəbəxʷ
+     morphemes: [bə=lilalqəb=axʷ]
+     morphemeGloss: [add=distance.self=now]
+     english: He goes even farther away.
+
+
  - lineNumber: 84
    startTime: 277898
    endTime: 282871
@@ -557,6 +564,7 @@ lines:
    morphemes: [x̌əc–bi–t=axʷ,tsiʔəʔ,čəgʷas–s,gʷəl,x̌əc–bi–t=axʷ,tiʔəʔ,biʔ–bədaʔ–s,əlgʷəʔ]
    morphemeGloss: [mind–map–ics=now,prox:fem,wife–3po,sconj,mind–map–ics=now,prox,attn–offspring–3po,pl]
    english: He is afraid of his wife.  And he is afraid of their little baby.
+
 #
 #   - lineNumber: 85
 #     startTime: 0
@@ -566,6 +574,7 @@ lines:
 #     morphemeGloss: [sconj,mind–map–ics=now,prox,attn–offspring–3po,pl]
 #     english: And he is afraid of their little baby.
 #
+
  - lineNumber: 86
    startTime: 283114
    endTime: 287451
@@ -582,6 +591,7 @@ lines:
 #     morphemeGloss: [afraid=now]
 #     english: He is afraid.
 #
+
  - lineNumber: 88
    startTime: 288364
    endTime: 291780
@@ -589,6 +599,7 @@ lines:
    morphemes: [hay,gʷəl,ʔa=axʷ,tsiʔəʔ,čəgʷas–s,gʷəl,cut–cut–t–b=axʷ]
    morphemeGloss: [sconj,sconj,be.there=now,prox:fem,wife–3po,sconj,dstr–say–ics–pass=now]
    english: And so there is his wife. And she talks on and on.
+
 #
 #   - lineNumber: 89
 #     startTime: 0
@@ -598,6 +609,7 @@ lines:
 #     morphemeGloss: [sconj,dstr–say–ics–pass=now]
 #     english: And she talks on and on.
 #
+
  - lineNumber: 90
    startTime: 292186
    endTime: 296104
@@ -605,6 +617,7 @@ lines:
    morphemes: [hay,gʷəl,diʔɬ=axʷ,kʷi,s=lə=ʔibəš,ʔə,tiʔəʔ,dukʷibəɬ,ɬčil=axʷ,dukʷibəɬ]
    morphemeGloss: [sconj,sconj,suddenly=now,rem,nm=prog=travel,Pr,prox,Changer,arrive=now,Changer]
    english: And so suddenly Changer is traveling.  Changer arrives.
+
 #
 #   - lineNumber: 91
 #     startTime: 0
@@ -614,6 +627,7 @@ lines:
 #     morphemeGloss: [arrive=now,Changer]
 #     english: Changer arrives.
 #
+
  - lineNumber: 92
    startTime: 296502
    endTime: 300214
@@ -621,6 +635,7 @@ lines:
    morphemes: [ɬčil=axʷ,dukʷibəɬ,gʷəl,lə=k̓ʷili–t–b,əlgʷəʔ,ʔal,gʷə=lu–t–b]
    morphemeGloss: [arrive=now,Changer,sconj,prog=peer–ics–pass,pl,at,sbj=heard–ics–pass]
    english: Changer arrives. And he peeks at them as he listens to them.
+
 #
 #   - lineNumber: 93
 #     startTime: 0
@@ -630,6 +645,7 @@ lines:
 #     morphemeGloss: [sconj,prog=say–ics–pass]
 #     english: And it is said,
 #
+
  - lineNumber: 94
    startTime: 300480
    endTime: 303674
@@ -637,6 +653,7 @@ lines:
    morphemes: [gʷəl,lə=cut–t–b,ʔu–ʔəx̌id,əw̓ə,tsiʔəʔ,waq̓waq̓,ʔu–ʔəx̌id]
    morphemeGloss: [sconj,prog=say–ics–pass,pfv–what.happen,ptcl,prox:fem,frog,pfv–what.happen]
    english:  And it is said, "Whats the matter with Frog? Whats the matter?"
+
 #
 #   - lineNumber: 95
 #     startTime: 0
@@ -646,6 +663,7 @@ lines:
 #     morphemeGloss: [pfv–what.happen]
 #     english:  "Whats the matter?
 #
+
  - lineNumber: 96
    startTime: 304299
    endTime: 307640
@@ -653,6 +671,7 @@ lines:
    morphemes: [ʔu–haʔl•iʔɬ,gʷəl,tux̌ʷ,xʷiʔ=axʷ,gʷə=s=x̌ʷubil=s]
    morphemeGloss: [pfv–stop.crying•child,sconj,just,neg=now,sbj=nm=quiet=3po]
    english:  "She tends to the baby. And (the baby) just doesnt quiet down." 
+
 #
 #   - lineNumber: 97
 #     startTime: 0
@@ -662,6 +681,7 @@ lines:
 #     morphemeGloss: [sconj,just,neg=now,sbj=nm=quiet=3po]
 #     english:  "And (the baby) just doesnt quiet down." 
 #
+
  - lineNumber: 98
    startTime: 307644
    endTime: 313720
@@ -677,6 +697,7 @@ lines:
    morphemes: [ʔu–x̌ədᶻ=axʷ,tiʔiɬ,təkʷtəkʷəlus,gʷəl,tu=ʔux̌=axʷ,tu=paɬ=axʷ,tu=saq̓ʷ=axʷ]
    morphemeGloss: [pfv–scared=now,dist,owl,sconj,past=go=now,past=flee=now,past=fly=now]
    english: Owl gets scared. He went and he fled. He flew off.
+
 #
 #   - lineNumber: 100
 #     startTime: 0
@@ -694,6 +715,7 @@ lines:
 #     morphemeGloss: [past=fly=now]
 #     english: He flew off.
 #
+
  - lineNumber: 102
    startTime: 319060
    endTime: 323210
@@ -701,6 +723,7 @@ lines:
    morphemes: [gʷəl,diɬ,bədaʔ–s,əlgʷəʔ,tiʔiɬ,ʔu–x̌aa–x̌aab•iʔɬ]
    morphemeGloss: [sconj,foc,offspring–3po,pl,dist,pfv–dstr–cry•child]
    english: And the one who cries on and on is their baby.
+
 #
 #   - lineNumber: 103
 #     startTime: 0
@@ -710,6 +733,7 @@ lines:
 #     morphemeGloss: [pfv–dstr–cry•child]
 #     english: He cries on and on.
 #
+
  - lineNumber: 104
    startTime: 323224
    endTime: 325760
@@ -742,6 +766,7 @@ lines:
 #     morphemeGloss: [always=now,pfv–dstr–say]
 #     english: She is always talking.
 #
+
  - lineNumber: 108
    startTime: 331531
    endTime: 339550
@@ -765,6 +790,7 @@ lines:
    morphemes: [huy,kʷəda–t–b=axʷ,ʔə,tiʔəʔ,dukʷibəɬ,tsiʔəʔ,čəgʷas,ʔə,tiʔəʔ,təkʷtəkʷəlus,ʔas–bədaʔ–b]
    morphemeGloss: [sconj,taken–ics–pass=now,Pr,prox,Changer,prox:fem,wife,pr,prox,owl,stat–offspring–md]
    english: Then Changer grabs Owls wife, she has a baby,
+
 #
 #   - lineNumber: 111
 #     startTime: 0
@@ -782,6 +808,7 @@ lines:
 #     morphemeGloss: [stat–prop–attn–offspring]
 #     english: She has a little baby.
 #
+
  - lineNumber: 113
    startTime: 354091
    endTime: 357859
@@ -797,6 +824,7 @@ lines:
    morphemes: [x̌əɬ‿ti,ʔul–ʔulal,qa,ʔas–ɬəqʷ]
    morphemeGloss: [seemingly,dstr–bullrush,many,stat–wet]
    english: It seems there are bullrushes. It is very wet.
+
 #
 #   - lineNumber: 115
 #     startTime: 0
@@ -806,6 +834,7 @@ lines:
 #     morphemeGloss: [many,stat–wet]
 #     english: It is very wet.
 #
+
  - lineNumber: 116
    startTime: 361705
    endTime: 364775
@@ -821,6 +850,7 @@ lines:
    morphemes: [tiʔiɬ,ʔas–gʷal•dup, ʔas–ʔəx̌id,gʷə=s=cut–t–b=s,ʔas–c̓əp̓•dup]
    morphemeGloss: [dist,stat–capsize•land,stat–what.happen,sbj=nm=say–ics–pass=3po,stat–stagnant•land]
    english: That over-turned place. What would it be called? It is a swampy place.
+
 #
 #   - lineNumber: 118
 #     startTime: 0
@@ -838,6 +868,7 @@ lines:
 #     morphemeGloss: [stat–stagnant•land]
 #     english: It is a swampy place.
 #
+
  - lineNumber: 120
    startTime: 371252
    endTime: 374092
@@ -942,6 +973,7 @@ lines:
 #     morphemeGloss: [sconj,past=dstr–say=now,dist:fem,frog]
 #     english: And Frog talked and talked.
 #
+
  - lineNumber: 133
    startTime: 417920
    endTime: 424165
@@ -949,6 +981,7 @@ lines:
    morphemes: [cut–cut=axʷ,gʷəl,cut–cut=axʷ,gʷəl,ƛ̓əladiʔ=axʷ,ʔal,ti,sc̓p̓alič,saʔ,qʷuʔ]
    morphemeGloss: [dstr–say=now,sconj,dstr–say=now,sconj,make.noise=now,at,spec,swamp,bad,water]
    english: She talks on and on, on and on. And she makes noise in the swamp, in the bad water.
+
 #
 #   - lineNumber: 134
 #     startTime: 0
@@ -958,6 +991,7 @@ lines:
 #     morphemeGloss: [sconj,make.noise=now,at,spec,swamp,bad,water]
 #     english: And she makes noise in the swamp, in the bad water.
 #
+
  - lineNumber: 135
    startTime: 424416
    endTime: 429526
@@ -982,6 +1016,7 @@ lines:
 #     morphemeGloss: [only=now,2sg.sub,irr=frog]
 #     english:  "You will just be a frog.
 #
+
  - lineNumber: 138
    startTime: 429856
    endTime: 435465
@@ -1005,6 +1040,7 @@ lines:
    morphemes: [ɬu=saʔ,ɬu=s–titčul̓bixʷ,čəxʷ,xʷiʔ=axʷ,kʷi,stab,ɬu=ad=dəxʷ=haʔɬ]
    morphemeGloss: [irr=bad,irr=np–small.animal,2sg.sub,neg=now,rem,what,irr=2sg.po=adnm=good]
    english:  "It will be bad. You will be a little animal. You will be good for nothing."
+
 #
 #   - lineNumber: 141
 #     startTime: 0
@@ -1022,6 +1058,7 @@ lines:
 #     morphemeGloss: [neg=now,rem,what,irr=2sg.po=adnm=good]
 #     english:  "You will be good for nothing.
 #
+
  - lineNumber: 143
    startTime: 443537
    endTime: 448223
@@ -1029,6 +1066,7 @@ lines:
    morphemes: [ɬu=cut–cut=axʷ,čəxʷ,dəgʷi,ɬu=ad=s=ʔu–gʷad–gʷad,xʷiʔ=axʷ,gʷə=ɬu=ad=s=ʔu–x̌ʷubil]
    morphemeGloss: [irr=dstr–say=now,2sg.sub,you,irr=2sg.po=nm=pfv–dstr–talk,neg=now,sbj=irr=2sg.po=nm=pfv–be.quiet]
    english:  "You will talk on and on. You are the one who will be speaking all the time.  No longer be quiet ..."
+
 #
 #   - lineNumber: 144
 #     startTime: 0
@@ -1046,6 +1084,7 @@ lines:
 #     morphemeGloss: [neg=now,sbj=irr=2sg.po=nm=pfv–be.quiet,conj,prox,attn–offspring–3po]
 #     english:  "You and your little baby will never be quiet." 
 #
+
  - lineNumber: 146
    startTime: 448738
    endTime: 451546
@@ -1078,6 +1117,7 @@ lines:
 #     morphemeGloss: [neg=now,dist:fem,wife–3po]
 #     english: His wife is not there.
 #
+
  - lineNumber: 150
    startTime: 458068
    endTime: 461804
@@ -1085,6 +1125,7 @@ lines:
    morphemes: [x̌ʷul̓=axʷ,tu=bə=x̌əč,gʷəl,tu=bə=ʔux̌ʷ,tu=saq̓ʷ,tiʔiɬ,təkʷtəkʷəlus]
    morphemeGloss: [only=now,past=add=scared,sconj,past=add=go,past=fly,dist,owl]
    english: He just got more scared. And he went again. Owl flew off.
+
 #
 #   - lineNumber: 151
 #     startTime: 0
@@ -1102,6 +1143,7 @@ lines:
 #     morphemeGloss: [past=fly,dist,owl]
 #     english: Owl flew off.
 #
+
  - lineNumber: 153
    startTime: 462278
    endTime: 463688
@@ -1133,6 +1175,7 @@ lines:
    morphemes: [x̌ʷul̓=axʷ,ɬu=titčul̓bixʷ,ɬu=ɬax̌,kʷi,s=cut=s,kʷi,s=ƛ̓əladiʔ=s]
    morphemeGloss: [only=now,irr=small.animal,irr=dark,rem,nm=say=3po,rem,nm=make.noise=3po]
    english:  "He will be just a little animal. It will be night when he talks, when he makes noise."
+
 #
 #   - lineNumber: 157
 #     startTime: 0
@@ -1142,6 +1185,7 @@ lines:
 #     morphemeGloss: [irr=dark,rem,nm=say=3po,rem,nm=make.noise=3po]
 #     english:  "It will be night when he talks, when he makes noise.
 #
+
  - lineNumber: 158
    startTime: 474247
    endTime: 478170
@@ -1149,6 +1193,7 @@ lines:
    morphemes: [ʔəbil̓=axʷ,ɬu=ʔas–k̓ʷədad=axʷ,ʔəbil̓=axʷ,ɬu=ʔəƛ̓,kʷi,s=haʔɬ–il=s,gʷəl,ɬu=cut–cut]
    morphemeGloss: [perhaps=now,irr=stat–predict.weather=now,perhaps=now,irr=come,rem,nm=good–inch=3po,sconj,irr=dstr–say]
    english:  "Perhaps he will forecast the weather. Perhaps good weather will come. And he will speak and speak"
+
 #
 #   - lineNumber: 159
 #     startTime: 0
@@ -1166,6 +1211,7 @@ lines:
 #     morphemeGloss: [sconj,irr=dstr–say]
 #     english:  "And he will speak and speak,
 #
+
  - lineNumber: 161
    startTime: 478500
    endTime: 480937
@@ -1213,6 +1259,7 @@ lines:
    morphemes: [huy,ƛ̓ub–il=axʷ,tiʔəʔ,ʔaciɬtalbixʷ,ƛ̓ub–il–dxʷ–but=axʷ]
    morphemeGloss: [sconj,well–inch=now,prox,people,well–inch–dc–refl=now]
    english: Then the people are fine now.  They managed to better themselves.
+
 #
 #   - lineNumber: 167
 #     startTime: 0
@@ -1222,6 +1269,7 @@ lines:
 #     morphemeGloss: [well–inch–dc–refl=now]
 #     english: They managed to better themselves.
 #
+
  - lineNumber: 168
    startTime: 502025
    endTime: 507429
@@ -1237,6 +1285,7 @@ lines:
    morphemes: [ƛ̓al̓=axʷ,tu=bə=ʔas–ʔistaʔ,tiʔiɬ,təkʷtəkʷəlus,ʔu–ƛ̓əladiʔ=axʷ,ʔu–ƛ̓əladiʔ=axʷ]
    morphemeGloss: [also=now,past=add=stat–be.like,dist,owl,pfv–make.noise=now,pfv–make.noise=now]
    english: It was the same with Owl.  He makes noise.  He makes noise.
+
 #
 #   - lineNumber: 170
 #     startTime: 0
@@ -1254,6 +1303,7 @@ lines:
 #     morphemeGloss: [pfv–make.noise=now]
 #     english: He makes noise.
 #
+
  - lineNumber: 172
    startTime: 512046
    endTime: 517600
@@ -1285,6 +1335,7 @@ lines:
    morphemes: [hay,gʷəl,tu=ʔa=axʷ,tsiʔəʔ,cədiɬ,ʔal,tiʔiɬ,qʷuʔ]
    morphemeGloss: [sconj,sconj,past=be.there=now,prox:fem,s/he,at,dist,water]
    english: So then, there she (Frog) was. Shuwooluk, shuwooluk, shuwooluk, shuwooluk. It is in the water.
+
 #
 #   - lineNumber: 176
 #     startTime: 0
@@ -1294,6 +1345,7 @@ lines:
 #     morphemeGloss: []
 #     english:  "Shuwooluk, shuwooluk, shuwooluk, shuwooluk." 
 #
+
  - lineNumber: 177
    startTime: 533164
    endTime: 537721
@@ -1341,6 +1393,7 @@ lines:
    morphemes: [hiqəb=axʷ,dxʷs–cut–cut,xʷiʔ=axʷ,gʷə=s=ʔu–ʔitut,ʔə,tiʔəʔ,ʔaciɬtalbixʷ]
    morphemeGloss: [excessively=now,proc–dstr–say,neg=now,sbj=nm=pfv–sleep,Pr,prox,people]
    english: She is too talkative. The people could not sleep.
+
 #
 #   - lineNumber: 183
 #     startTime: 0
@@ -1350,6 +1403,7 @@ lines:
 #     morphemeGloss: [neg=now,sbj=nm=pfv–sleep,Pr,prox,people]
 #     english: The people could not sleep.
 #
+
  - lineNumber: 184
    startTime: 561238
    endTime: 566000
@@ -1357,6 +1411,7 @@ lines:
    morphemes: [tiʔəʔ,dəxʷ=ʔas–huyu=axʷ,ʔə,tsiʔəʔ,waq̓waq̓,x̌ʷul̓əxʷ,ʔal,taʔaʔ,ʔul–ʔulal•dup,saʔ]
    morphemeGloss: [prox,adnm=stat–made=now,Pr,prox:fem,frog,only=now,at,dist:unq,dstr–bullrush•land,bad]
    english: This is why Frog is the way she is now. Only in that bad bullrush place.
+
 #
 #   - lineNumber: 185
 #     startTime: 0
@@ -1366,6 +1421,7 @@ lines:
 #     morphemeGloss: [only=now,at,dist:unq,dstr–bullrush•land,bad]
 #     english: Only in that bad bullrush place.
 #
+
  - lineNumber: 186
    startTime: 566300
    endTime: 574890
@@ -1389,6 +1445,7 @@ lines:
    morphemes: [ʔal,tiʔiɬ,x̌aƛ̓,čad,ʔas–ɬəqʷ•dup,dəxʷ=ʔal,tiʔiɬ,ʔulʔal,saʔ–saʔ•dup]
    morphemeGloss: [at,dist,brush,where,stat–wet•land,adnm=at,dist,bullrush,dstr–bad•land]
    english:  in the brush, where the land is wet, where the bullrush are in the bad lands.
+
 #
 #   - lineNumber: 189
 #     startTime: 0
@@ -1398,6 +1455,7 @@ lines:
 #     morphemeGloss: [foc,past=nm=made=3po]
 #     english: That is the end.
 #
+
  - lineNumber: 190
    startTime: 589086
    endTime: 598759
@@ -1413,6 +1471,7 @@ lines:
    morphemes: [təkʷtəkʷəlus,tiʔəʔ,sč̓istxʷ–s]
    morphemeGloss: [owl,prox,husband–3po]
    english: Her husband was Owl.
+
 #
 #  - lineNumber: 45
 #    startTime: 175650
