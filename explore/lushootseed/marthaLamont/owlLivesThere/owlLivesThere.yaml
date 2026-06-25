@@ -10,16 +10,16 @@ lines:
    startTime: 200
    endTime: 7586
    lushootseed: ﻿ʔəsɬaɬlil tiʔiɬ tiʔiɬ təkʷtəkʷəlus
-   morphemes: [ʔas–ɬaɬlil,tiʔiɬ,tiʔiɬ,təkʷtəkʷəlus]
-   morphemeGloss: [STAT–live,DIST,DIST,owl]
+   morphemes: [ʔas-ɬaɬlil,tiʔiɬ,tiʔiɬ,təkʷtəkʷəlus]
+   morphemeGloss: [STAT-live,DIST,DIST,owl]
    english: Owl lives there.
 
  - lineNumber: 2
    startTime: 8801
    endTime: 13273
    lushootseed: gʷəl ʔəbsčəgʷas tiʔiɬ təkʷtəkʷəlus ʔə tsiʔiɬ waq̓waq̓
-   morphemes: [gʷəl,ʔas–bəs–čəgʷas,tiʔiɬ,təkʷtəkʷəlus,ʔə,tsiʔiɬ,waq̓waq̓]
-   morphemeGloss: [sconj,stat–prop–wife,dist,owl,Pr,dist:fem,frog]
+   morphemes: [gʷəl,ʔas-bəs-čəgʷas,tiʔiɬ,təkʷtəkʷəlus,ʔə,tsiʔiɬ,waq̓waq̓]
+   morphemeGloss: [sconj,stat-prop-wife,dist,owl,Pr,dist:fem,frog]
    english: And Owl has Frog as a wife.
 
  - lineNumber: 3

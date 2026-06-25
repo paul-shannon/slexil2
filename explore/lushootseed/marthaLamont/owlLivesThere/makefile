@@ -47,11 +47,11 @@ s2h:
 
 
 publish:
-	scp index.html pshannon@206.12.95.4:www/lushootseed/marthaLamont/owlLivesThere/
-	scp owlLivesThere-mono-8k.wav pshannon@206.12.95.4:www/lushootseed/marthaLamont/owlLivesThere/
+	scp owlLivesThere.html pshannon@134.87.10.153:www/lushootseed/marthaLamont/owlLivesThere/
+	scp owlLivesThere-mono-8k.wav pshannon@134.87.10.153:www/lushootseed/marthaLamont/owlLivesThere/
 
 view:
-	open index.html
+	open owlLivesThere.html
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere
