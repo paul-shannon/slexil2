@@ -99,7 +99,7 @@ publish-pshannon:
 	rsync -a kb.js $(DEST)
 	rsync -a linguisticTerms.js $(DEST)
 	rsync -a daylight-restoration_V03-22k-aLaw.wav $(DEST)
-
+	rsync -a docs/taxonomy.html paulshannnon@pshannon.net:public_html/pshannon.net/docs/
 
 updateLocal: s2h inject 
 

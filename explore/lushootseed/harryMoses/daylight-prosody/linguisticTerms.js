@@ -1,5 +1,54 @@
 linguistics = {
 
+"PTCL":
+
+`
+<b>PTCL</b> particle
+
+<a href="https://en.wikipedia.org/wiki/Grammatical_particle" target="_blank">wikipedia: </a>
+In grammar, the term particle (abbreviated PTCL) has a traditional
+meaning, as a part of speech that cannot be inflected, and a modern
+meaning, as a function word (functor) associated with another word or
+phrase in order to impart meaning. Although a particle may have an
+intrinsic meaning and may fit into other grammatical categories, the
+fundamental idea of the particle is to add context to the sentence,
+expressing a mood or indicating a specific action.
+
+`,
+
+
+"MD":
+`
+<h4>MD - middle marker</h4>
+<b>-b</b>
+
+A middle marker is a word or verb part that shows the subject is
+acting upon or affected by their own action. In linguistics, it sits
+between the "active" voice (doing something to someone else) and the
+"passive" voice (having something done to you).
+
+With lexical stems <b>-b</b> designates middle voice.
+
+From David's paper on "The Unitariness of Participant and Event in
+the Bella Coola Middle Voice:
+
+[T]he m-marked clause is syntactically intransitive, the result of the
+lowering of semantic transitivity (Hopper & Thompson 1980) concomitant
+with the middle's function of reducing the distinctiveness of one or
+both of the event participants as highly individuable entities.
+
+What
+seems to be at stake in the Bella Coola intransitive middles is the
+partial identification of the initiator and the endpoint of the event,
+wherein the speaker construes the event as the initiator acting on
+some one of its subparts (e.g. acting on its body) or some part of the
+initiator acting on the initiator as a whole, as in xm+(s) ‘it is
+broken’ xm+m+(s) ‘it broke, it is breaking’, wherein (à la van Oosten
+1977) a particular property of the single event participant (its
+frailness) bears responsibility for the event itself.
+
+`,
+
 "  Interrogatives":
 `
 <b>Interrogatives</b>
@@ -690,6 +739,7 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
 **David Beck's articles, papers, books**
 
 <ul>
+
   <li><a href="https://en.wikipedia.org/wiki/List_of_glossing_abbreviations"
     target="_blank"> Wikipedia's List of glossing abbreviations</a>
   <li><a href="https://pshannon.net/docs/NorthwestCoastTexts-StealingLight.pdf" target="_blank">PNW Daylight texts, 1977</a>
@@ -702,9 +752,23 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes</a>
   <li><a href="https://pshannon.net/docs/valencyClean.pdf" target="_blank">
          A Taxonomy and Typology of Lushootseed Valency-increasing Suffixes (clean)</a>
+  <li><a href="docs/taxonomy.html" target="_blank">Taxonomy (annotated)</a>
   <li><a href="https://www.jstor.org/stable/1264618?seq=1" target="_blank">
          Agent in a Coast Salish Language - Thom Hess, 1973</a>
+  <li><a href="https://pshannon.net/docs/LSubjects.pdf" target="_blank">
+         Semantic agents, syntactive subjects and discourse topics: How to locate Lushootseed sentences in space and time</a>
+  <li><a href="https://pshannon.net/docs/beckMiddleVoice.pdf" target="_blank">
+         The Unitariness of Participant and Event
+         in the Bella Coola (Nuxalk) Middle Voice
+         </a>
+  <li><a href="https://pshannon.net/docs/beckNumerals.pdf" target="_blank">
+         Lushootseed Numerals (2020)
+         </a>
 
+  <li><a href="https://en.wikipedia.org/wiki/Argument_(linguistics)" target="_blank">
+        Arguments (wikipedia)</a>
+  <li><a href="https://en.wikipedia.org/wiki/Valency_(linguistics)" target="_blank">
+        Valency Theory (wikipedia)</a>
 </ul>
 `,
 
@@ -2108,6 +2172,30 @@ which are always combined with another valency-increaser.
 
 `,
 
+"-alik":
+
+`
+<b>-alik: creative activity</b>
+
+The suffix -alikʷ ‘causative of activity [ACT]’ or, as it has been
+traditionally glossed, ‘creative activity’ (Hess 1976; Bates, Hess &
+Hilbert 1994; Bates & Hess 2003) — is an intransitive causative suffix
+which, when added to a monovalent base, creates a bivalent
+intransitive verb by adding an AGENT expressed as syntactic
+subject.
+
+The resultant verbs express an event in which the AGENT is
+engaged in an activity affecting a PATIENT or involving a THEME. As an
+intransitive causative, however, the causative of activity creates
+stems that express the PATIENT/THEME as an oblique, rather than a
+direct, object.
+
+
+- <b></b>  [LD ]
+
+`,
+
+
 
 "-bi-d":
 `
@@ -3193,9 +3281,28 @@ Another attenuative morpheme? _kik_:
 `
 - _-b_, var _-əb_  LD 32
 - be involved in doing something
-- A suffix occuring on several levels of Lushootseed morphology.
-       It forms a very large class of agent-oriented intransitive verb
-       stems and a number of ambient stems such as *qəl-b* 'rain'.
+
+- [Grammar, 2.1.1.3 Middle -b] The valency-neutral middle marker -b
+  ‘middle [MD]’ is used to form verb stems denoting activities,
+  processes, and other event-types identified by Kemmer (1993) as
+  belonging to the semantic domain of the middle in a wide range of
+  languages. In its most productive use, the valency-neutral middle is
+  added to a verbal radical to form a monovalent intransitive stem as
+  in (12), where the middle marker has been added to the stative
+  radical √luƛ’ ‘be old’ (12a) to create a process verb luƛ’əb ‘age,
+  grow old’ (12b).
+
+- A second class of middle forms involves the combination of the
+  middle marker, a radical, and a lexical suffix (Section
+  2.1.6). Those forms in which the lexical suffix has a literal
+  meaning have parallel transitive expressions with an overt NP
+  argument: ʔu–c’agʷa–d tiʔiɬ čaləs–s  vs. ʔu–c’agʷ–ačiʔ–b.
+
+- A suffix occuring on several levels of
+  Lushootseed morphology.  It forms a very large class of
+  agent-oriented intransitive verb stems and a number of ambient stems
+  such as *qəl-b* 'rain'.
+
 - With lexical stems it designates middle voice and in construction
        with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
 - _desiderative_: (of a verb derived from another verb) expressing desire to perform

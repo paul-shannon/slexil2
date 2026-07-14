@@ -1,13 +1,37 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ʔux̌ʷ–c":
+
+`
+<b>ʔux̌ʷ–c</b>
+
+go after someone or something
+
+<ul>
+   <li><b>ʔux̌ʷ</b> go  [LD 22]
+   <li><b>-c</b> [LD 43]
+   <ul>
+     <li> portmanteau of suffix sequence <b>-t-s</b>, a transitive
+     suffix marking patient-oriented verbs
+     <li> often converts a verb of motion into one which takes a goal
+      patient
+     <li> vowels are lengthened before this suffix
+     <li> "allative applicative" (ALTV): Adds a new argument to the
+        valency of  its base, most frequently a GOAL, which is
+        realized as the direct object of the derived verb
+   </ul>
+</ul>
+
+`,
+
 "s=ʔaʔ=s":
 
 `
 <b>sʔaʔs</b>
    <ul>
       <li><b>s=</b> nominalizer
-      <li><b>ʔa</b> be there [LD 1]
+      <li><b>ʔaʔ</b> variant of <b>ʔa</b> be there, be in existence [LD 1]
       <li><b>-s</b> 3rd person possessive suffix [LD 199]
    </ul>
 `,
@@ -16,6 +40,26 @@ kb = {
 
 `
 <b>sɬixʷəɬdacuts</b>
+
+See "Lushootseed Numerals" in Linguistic Terms, Beck Texts.
+
+David offers (email 17 jun 2026):
+
+I guess I would parse the verb (without the s=) literally as
+
+  - he (=s)
+  - caused (-t)
+  - it to be three (ɬix) days (ʷ•əɬ•dat)
+  - for himself (-sut)
+
+Then you nominalize it and get something like ‘his having made it
+three days for himself’.
+
+Of course, in actual use most of that is gone and you get the “it was
+three days” or “it took him three days” type translations into
+English.
+
+
 
    <ul>
       <li><b>s=</b> nominalizer
@@ -597,12 +641,9 @@ irr=1sg.po=nm=stat–lie.down
   an intransitive causative, however, the causative of activity
   creates stems that express the PATIENT/THEME as an oblique, rather
   than a direct, object.
-
 - <b>lə </b>: progressive
 - <b>gʷəč̓</b>: look for, search [LD 98]
 - <b>gʷəč̓–alikʷ</b>: someone regularly seeks someone or something [LD 98]     
-     
-
 `,
 
 
@@ -2503,7 +2544,7 @@ _ɬu=hədʔiw̓–b=ad_
      - A suffix occuring on several levels of Lushootseed morphology.
        It forms a very large class of agent-oriented intransitive verb
        stems and a number of ambient stems such as *qəl-b* 'rain'.
-     - With lexial stems it designates middle voice and in construction
+     - With lexical stems it designates middle voice and in construction
        with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
      - _desiderative_: (of a verb derived from another verb) expressing desire to perform
         the action denoted by the underlying verb, as Sanskrit pi-patiṣ-ati “he wishes to fly”
@@ -2650,7 +2691,7 @@ My proposed translation:  pretend I diminishing.getting.old gray-haired.
     - _ʔəcá ti hədi_: It's me, Henry. 
     - _diɬ ʔəcá t(i) (h)aydxʷ_: I am the one who knows it. 
     - _dəb ʔəcá tiʔiɬ ƛ̓ə^x̌əɬqid_:   I'm the one who gets the headache (not you). 
-    - _ʔəcá gʷəl sduhùbš:I am Snohomish.
+    - _ʔəcá gʷəl sduhùbš_: I am Snohomish.
 `,
 
 
@@ -3759,7 +3800,7 @@ _they thought (past inside want to say)_
      - A suffix occuring on several levels of Lushootseed morphology.
        It forms a very large class of agent-oriented intransitive verb
        stems and a number of ambient stems such as *qəl-b* 'rain'.
-     - With lexial stems it designates middle voice and in construction
+     - With lexical stems it designates middle voice and in construction
        with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
      - _desiderative_: (of a verb derived from another verb) expressing desire to perform
         the action denoted by the underlying verb, as Sanskrit pi-patiṣ-ati “he wishes to fly”
@@ -5265,7 +5306,7 @@ _remote_
      - A suffix occuring on several levels of Lushootseed morphology.
        It forms a very large class of agent-oriented intransitive verb
        stems and a number of ambient stems such as *qəl-b* 'rain'.
-     - With lexial stems it designates middle voice and in construction
+     - With lexical stems it designates middle voice and in construction
        with *dxʷ(s)-* and *ʔəʷ(s)* it creates a desiderative stem.
      - This *-b* is a component in a number of derivational suffixes
        as well, and combines with transitive suffixes to form a passive
