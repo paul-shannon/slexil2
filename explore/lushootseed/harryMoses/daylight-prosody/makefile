@@ -46,6 +46,7 @@ s2h:
         --pageTitle "Harry Moses - How Daylight Was Stolen" \
         --helpButtonLabel About \
         --helpFile about.html \
+        --provideRecording \
         --linguistics linguisticTerms.js
 
 
@@ -84,14 +85,13 @@ refresh-js:
 	cp -p ../../slexil.css .
 
 
-
 publish:
-	scp daylight2.html pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/index.html
-	scp kb.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
-	scp linguisticTerms.js pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp daylight2.html pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/index.html
+	scp kb.js pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
+	scp linguisticTerms.js pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
 
 publish-audio:
-	scp daylight-restoration_V03-22k-aLaw.wav pshannon@206.12.95.4:www/lushootseed/harryMoses/daylight/
+	scp daylight-restoration_V03-22k-aLaw.wav pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
 
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/daylight
 publish-pshannon:

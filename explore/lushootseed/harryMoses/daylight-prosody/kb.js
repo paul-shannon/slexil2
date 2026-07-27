@@ -1,6 +1,89 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ləx̌":
+
+`
+<b>ləx̌</b>
+
+<ul>
+   <li><b>ləx̌</b> light (as verb?  illuminate?)   [LD 137] 
+   <li><b>ləx̌əd</b>  light it [transitive]
+   <li><b>ləx̌il</b>  grow light, day
+   <li><b>laʔb haʔɬ sləx̌il</b> a real nice day
+</ul>
+
+`,
+
+
+
+"lil":
+
+`
+<b>lil</b>
+
+<ul>
+   <li><b>lil</b> far, far away; go far [LD 137]
+   <li>see <b>ləliʔ</b> foreign, different
+   <li><b>xʷi ləlil</b> almost (literally, not far)
+</ul>
+
+`,
+
+
+"ƛ̓al̓":
+
+`
+<b>ƛ̓al̓</b>
+
+<ul>
+   <li>also, too  [LD 152]
+   <li>like bək̓ʷ, this root can fill a variety of lexical categories
+   including predicate adverb
+   <li><b>ƛ̓al̓ čəd</b> me too
+   <li><b>ʔəsƛ̓al̓əb čəd</b> I have a habit; I'm used to doing it.
+</ul>
+
+`,
+
+
+"čalə-s":
+`
+<b>čalə-s</b>
+
+   <ul>
+      <li><b>čaləs</b> hand, including forearm [LD 61]
+      <ul>
+         <li><b>čələsab</b> by means of the hands
+         <li><b>čal̓čələs</b> <i>red2</i> hands [distributive]
+      </ul>
+      <li><b>-s</b> third person possessive
+   </ul>
+
+`,
+
+"gʷə=s=ɬaʔ":
+
+`
+<b>gʷə=s=ɬaʔ</b>
+
+<ul>
+   <li><b>gʷə-</b>if, maybe, might, doubtful, hoped for [subjunctive prefix] [LD 95]
+   <li><b>s=</b> nominalizer   <li><b></b>  [LD ]
+   <li><b>ɬaʔ</b> arrive there, arrive at a specific place  [LD 141]
+   <ul>
+      <li><b>ɬuɬaʔc čəd</b> I will pick it up
+      <li><b>ɬaʔtxʷ</b> get it there
+      <li><b>ɬaʔ=aci(ʔ)-b-i-d</b> touch it
+   </ul>
+
+
+</ul>
+
+`,
+
+
+
 "ʔux̌ʷ–c":
 
 `

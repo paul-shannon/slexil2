@@ -569,7 +569,7 @@ lines:
                        margin-left: 100px; white-space: nowrap;'>
               <div style='width: 600px; text-align: center;'>
                  <hr style="width: 60%; margin-left: 100px;">
-                 He makes his first attempt
+                 Mink's first try
                   <hr style="width: 60%; margin-left: 100px;;">
                </div>
               </div>"
@@ -593,34 +593,43 @@ lines:
   - startTime: 289985
     endTime:   293628
     lushootseed:  xʷiʔ uʔxʷ gʷəsɬaʔ ʔə tiʔəʔ čaləs  ƛ̓al̓ lil gʷəl ləx̌
-    soundsLike: wuh-oak gwus.slaw tiah chawluss tlal lail gwel luck
     morphemes: [xʷiʔ,uʔxʷ,gʷə=s=ɬaʔ,ʔə,tiʔəʔ,čalə-s,ƛ̓al̓,lil,gʷəl,ləx̌]
     morphemeGloss: [neg,PTCL,SBJ=NM=arrive,pr,PROX,hand-3PO,also,far,SCONJ,light]
+    soundsLike: wee-oak gwus.SLAW tiah CHAWluss tlal lail gwel LUCK
     english: He can not reach it with his hand. It was still far away when it lit up.
 
   - startTime: 294880
-    endTime:   299721
+    endTime:   298309
     lushootseed: tiləb ʔusaxʷəb bibščəb gʷəl tədᶻil ʔal tiʔiɬ dəxʷəstədᶻils
-    soundsLike: 
+    soundsLike: tay.lub oh.sawfwub babes.chud gwell lut tudz.ail al teesh day saws tail
     morphemes: [tiləb,ʔu–saxʷəb,bi–bəščəb,gʷəl,tədᶻil,ʔal,tiʔiɬ,dəxʷ=ʔəs–tədᶻil=s]
     morphemeGloss: [immediately,pfv–jump,attn–mink,SCONJ,lie.in.bed,at,DIST,ADNM=STAT–lie.in.bed=3PO]
     english: Quickly Little Mink jumped back and lay where he lay down.
 
-  - startTime: 298110
-    endTime:   301155
-    lushootseed: ʔəstədᶻilič ʔə diʔ q̓ʷaɬčup
-    soundsLike: 
-    morphemes: [ʔəs–tədᶻil•ič,ʔə,diʔ,q̓ʷaɬ•čup]
-    morphemeGloss: [STAT–lie.in.bed•covering,pr,other.side,ash•fire]
-    english: He went to bed covered by fine ash powder.
+  - html: "<div class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Mink retreats
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
 
-  - startTime: 301151
-    endTime:   303103
-    lushootseed: puʔud tiʔəʔ q̓ʷaɬčup gʷəl pədič
+  - startTime: 298635
+    endTime:   302765
+    lushootseed: ʔəstədᶻilič ʔə diʔ q̓ʷaɬčup puʔud tiʔəʔ q̓ʷaɬčup gʷəl pədič
     soundsLike: 
-    morphemes: [puʔu–d,tiʔəʔ,q̓ʷaɬ•čup,gʷəl,pəd•ič]
-    morphemeGloss: [blow–ICS,PROX,ash•fire,SCONJ,buried•covering]
-    english: He blew on this fine ash powder and is buried.
+    morphemes: [ʔəs–tədᶻil•ič,ʔə,diʔ,q̓ʷaɬ•čup,puʔu–d,tiʔəʔ,q̓ʷaɬ•čup,gʷəl,pəd•ič]
+    morphemeGloss: [STAT–lie.in.bed•covering,pr,other.side,ash•fire,blow–ICS,PROX,ash•fire,SCONJ,buried•covering]
+    english: He went to bed covered by fine ash powder.He blew on this fine ash powder and is buried.
+
+#  - startTime: 301151
+#    endTime:   303103
+#    lushootseed: puʔud tiʔəʔ q̓ʷaɬčup gʷəl pədič
+#    soundsLike: 
+#    morphemes: [puʔu–d,tiʔəʔ,q̓ʷaɬ•čup,gʷəl,pəd•ič]
+#    morphemeGloss: [blow–ICS,PROX,ash•fire,SCONJ,buried•covering]
+#    english: He blew on this fine ash powder and is buried.
 
   - startTime: 305208
     endTime:   307270
