@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title> recorder & buttons </title>
+    <link rel="shortcut icon" href="#" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<style>
+
+body{
+   margin: 100px;
+   margin-top: 30px;
+   font-family: "New York Times-Roman";
+   font-size: 22px;
+   height: 100%;
+   }
+.demoButton{
+    margin: 10px;
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    background-color: #e8e8e8;
+    border-color: #ccc;
+   }
+   
+</style>
+<script type="module">
+import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
+import RecordPlugin from 'https://unpkg.com/wavesurfer.js/dist/plugins/record.esm.js'
+
+</script>
+
+</head>
+<body>
+  <h3>Recorder and Buttons Skunk Works</h3>
+  <div id="main" style="border: 5px solid red; border-radius: 8px;
+                        height: 500px;">
+    <button class="demoButton" id="openRecorderButton">
+       <img src="https://slexildata.artsrn.ualberta.ca/images/microphone-342.png" width=30>
+    </button>
+    
+    <div id="buttonsAndRecorderDiv"
+         style="border: 5px dashed lightblue;
+                height: 150px;
+                border-radius:5px;
+                margin-top: 10px;" >
+      <div id="buttonsDiv" style="float: left; width: 100px;" >
+        <button id="recordButton"
+                class="demoButton">Record</button>
+        <button id="playRecordingButton"
+                class="demoButton" style="display: none;">Play</button>
+        </div>
+      <div id="recorderDiv"
+           style="float: right;  width: calc(100% - 200px);
+                  height: 125px;
+                  border: 5px solid green; border-radius: 10px;
+                  margin: 10px;">
+        </div>
+      <div id="playerDiv"
+           style="display: none;
+                  float: right;  width: calc(100% - 200px);
+                  border: 1px dotted darkblue;  border-radius:10px;
+                  margin-top: 10px; margin-right: 10px;">
+        </div>
+      </div>
+
+    <div id="originalSoundPlayerAndButtonDiv"
+         style="border: 5px magenta solid; height: 150px;">
+        <div id="playOriginalButtonDiv"
+             style="float: left; width: 100px;
+                    border: 5px dashed orange;">
+           <button id="playOriginalButton"
+                   class="demoButton" 
+                   style="margin: 10px;">Play Original</button>
+        </div>
+        <div id="originalSoundPlayerDiv"
+            style="float: right; width: calc(100% - 200px);
+                   height: 125px;
+                   border: 5px dotted darkred;  border-radius:10px;
+                  margin: 10px;">
+        </div>
+     </div>
+
+    </div>
+
+<script type="module">
+
+import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
+import RecordPlugin from 'https://unpkg.com/wavesurfer.js/dist/plugins/record.esm.js'
+
+  var player, recorder, wavesurfer, originalPhraseWavesurfer;
+  var originalSoundPlayer;
+//--------------------------------------------------------------------------------
+function createRecorder(containerID, buttonID, endOfRecordingFunction)
+{
+   console.log("--- entering recorderModule.createRecorder")
+   wavesurfer = WaveSurfer.create({
+      container: containerID,
+      waveColor: '#4F4A85',
+      progressColor: '#383351',
+      backend: 'MediaElement'
+      })
+
+  
+  recorder = wavesurfer.registerPlugin(
+    RecordPlugin.create({
+       renderRecordedAudio: true,
+       scrollingWaveform: false,
+       continuousWaveform: false,
+       continuousWaveformDuration: 30, // optional
+       }),
+       ) // registerPlugin
+
+  recorder.on('record-end', (blob) => {
+     const recordedUrl = URL.createObjectURL(blob)
+     console.log("record-end event handler")
+     console.log("url: " + recordedUrl)
+     endOfRecordingFunction(recordedUrl)
+     })
+
+  RecordPlugin.getAvailableAudioDevices().then((devices) => {
+      console.log("device promise fulfilled");
+      devices.forEach((device) => {
+          console.log(device.deviceId)
+      })})
+
+    return(recorder);
+    
+ } //createRecorder
+//--------------------------------------------------------------------------------
+//export default createRecorder;
+
+var player;
+//--------------------------------------------------------------------------------
+function createPlayer(url, containerID, buttonID)
+{
+  if(player){
+     console.log("--- destroying player")
+     player.destroy();
+     }
+
+   player = WaveSurfer.create({
+      container: containerID,
+      waveColor: '#4F4A85',
+      progressColor: '#383351',
+      url: url,
+      backend: 'MediaElement'
+      })
+
+    player.on('finish', function() {
+       console.log("playback finished");
+       $(buttonID).text("Play")
+       })
+
+   $(buttonID).on("click", function(e){
+       e.stopImmediatePropagation(); // not sure why this is needed
+       let buttonLabel = $(buttonID).text()
+       console.log("--- play/pause button click, current label: " + buttonLabel)
+       if(buttonLabel == "Play"){
+          $(buttonID).text("Pause")
+          //console.log(player)           
+          player.play();
+          }
+       else{
+          console.log("--- pausing play");
+          player.pause()
+          $(buttonID).text("Play")
+          }
+       }) // on button click
+
+    return(player)
+    
+} // createPlayer
+//--------------------------------------------------------------------------------p
+  $("#playOriginalButton").on("click", function(e){
+     console.log("--- playOriginal")
+     originalPhraseWavesurfer = WaveSurfer.create({
+       container: '#originalSoundPlayerDiv',
+       waveColor: '#4F4A85',
+       progressColor: '#383351',
+       url: 'a54.wav',
+     })
+
+   originalPhraseWavesurfer.on('ready', () => {
+      console.log("originalPhraseWavsurfer created")
+      originalPhraseWavesurfer.play()
+      })
+
+  }) // on click, playOriginalButton
+
+
+
+function loadURL(url)
+{
+   player.load(url)
+
+} // loadURL
+//--------------------------------------------------------------------------------
+
+$(document).ready(function(){
+   console.log("===== document ready")
+})
+
+//--------------------------------------------------------------------------------
+function recordingEndHandler(recordedUrl){
+   console.log(" recording ended, seen by recorderModuleTest.html")
+   console.log("url: " + recordedUrl)
+   $("#recorderDiv").children()[0].remove()
+   $("#recorderDiv").hide()
+   $("#playerDiv").show()
+   $("#playRecordingButton").show()
+   if(player == undefined){
+      player = createPlayer(recordedUrl, "#playerDiv","#playRecordingButton")
+      window.player = player
+      console.log("player")
+      console.log(player)
+      }
+   else{
+      loadURL(recordedUrl)
+      }
+} // recordingEndHandler
+//--------------------------------------------------------------------------------
+$("#openRecorderButton").on("click", function(e){
+   e.stopImmediatePropagation(); // not sure why this is needed
+   console.log("--- visible? " + $("#buttonsAndRecorderDiv").is(":visible"));
+   if($("#buttonsAndRecorderDiv").is(":visible")){
+      console.log("--- calling show")
+      $("#buttonsAndRecorderDiv").hide()
+      }
+   else{
+      console.log("--- calling show")
+      $("#buttonsAndRecorderDiv").show()
+      //let recorder = createRecorder("#recorderDiv", "#recordButton",
+      //                               recordingEndHandler);   
+      }
+}) // openRecorder on click
+//--------------------------------------------------------------------------------
+$("#recordButton").on("click", function() {
+    let incomingState = $("#recordButton").text()
+    if(incomingState == "Record"){
+       $("#recorderDiv").show()
+       $("#playerDiv").hide()
+       $("#recordButton").text("Stop")
+       recorder = createRecorder("#recorderDiv", "#recordButton",
+                                                recordingEndHandler);   
+       let deviceId = "default"; // $('#microphone-selector').find(":selected").val()
+       console.log("mic deviceId: " + deviceId)
+       recorder.startRecording("default").then(() => {
+          console.log("recording started, from promise")
+          });
+       } // if "Record"
+    else{  // must be "Stop"
+       recorder.stopRecording()
+       $("#recordButton").text("Record")
+       }
+     }) // recordButton click
+
+</script>
+</body>
+</html>
