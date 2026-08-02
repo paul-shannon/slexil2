@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RemoteWavClip + WaveSurfer demo</title>
+<style>
+  body { font-family: sans-serif; padding: 24px; }
+  #waveform { background: #f4f4f4; margin-bottom: 10px; }
+</style>
+ <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+</head>
+<body>
+
+<h3>Line clip via WaveSurfer (native audio element backend)</h3>
+<label for="selectFile">Choose a file:</label>
+
+<select name="file" id="selectFile">
+  <option value=""> -- Choose remote file -- </option>
+  <option value="daylight">Daylight (pcm, 24000, 16 bits)</option>
+  <option value="owl">Owl Lives There (pcm, 8000, 16 bits)</option>
+</select>
+<br>
+
+<div id="waveform" style="margin: 10px; border: 2px solid blue;
+                          border-radius: 10px;"></div>
+<audio id="line-audio" controls></audio>
+<div id="infoDiv">
+
+</div>
+
+<script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
+<script src="remoteWavClip-v3.js"></script>
+<script>
+
+var state = {};
+//--------------------------------------------------------------------------------
+$(document).ready(function() {
+   var remoteAudioFile = "https://pshannon.net/tmp/new.wav"
+   $('#selectFile').on('change', function() {
+      var value = $(this).val();
+      var selectedText = $(this).find('option:selected').text();
+      console.log("Value: " + value, "Text: " + selectedText);
+      if(value == "daylight"){
+         remoteAudioFile = "https://pshannon.net/tmp/new.wav"
+         }
+       if(value == "owl")
+         remoteAudioFile = "https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav"
+       const startMs = 15000;
+       const endMs = 35000;
+       loadLine(remoteAudioFile, startMs, endMs)
+      });
+   }); // ready
+
+state['currentClip'] = null
+//--------------------------------------------------------------------------------
+async function loadLine(remoteAudioFile, startMs, endMs)
+{
+  const previousClip = state['currentClip'];
+  state['currentClip'] = await RemoteWavClip.create(remoteAudioFile, startMs, endMs);
+  const audioEl = document.getElementById('line-audio');
+  audioEl.src = state['currentClip'].url;
+
+  if (window.wavesurfer) window.wavesurfer.destroy();
+  window.wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    media: audioEl,
+      url: state['currentClip'].url, // currentClip.url,
+    waveColor: '#3a4356',
+    progressColor: '#6fd6c4',
+    height: 160,
+    });
+
+  if (previousClip) previousClip.revoke();
+
+} // loadLine
+//--------------------------------------------------------------------------------
+</script>
+
+</body>
+</html>
