@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
+
+<title>RemoteWavClip demo</title>
+<style>
+  body {
+    margin: 30px 60px;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+  }
+  h3 { margin-bottom: 4px; }
+  .controls { margin: 20px 0; }
+  select {
+    width: 496px;
+    padding: 6px 8px;
+    font-family: monospace;
+    font-size: 14px;
+  }
+  button {
+    padding: 6px 14px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 480px;
+  }
+  td, th {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th {
+    background: #f4f4f4;
+    width: 160px;
+  }
+  .status-ok    { color: #1a7f37; font-weight: bold; }
+  .status-bad   { color: #c00; font-weight: bold; }
+  .status-pending { color: #888; }
+</style>
+</head>
+<body>
+
+<h3>RemoteWavClip demo</h3>
+
+<div class="controls">
+  <select id="urlInput">
+    <option value="https://pshannon.net/tmp/new.wav">valid — pshannon.net/tmp/new.wav</option>
+    <option value="https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav">valid — owlLivesThere-mono-8k.wav</option>
+    <option value="https://pshannon.net/bogus.wav">invalid — bogus.wav (404)</option>
+    <option value="https://pshannon-bogus.net/tmp/new.wav">invalid — bad host (DNS failure)</option>
+    <option value="https://aklanguages.uas.alaska.edu/degXinag/ClayPotsDX4.wav"> Clay Pots (uas)</option>
+  </select>
+  <button id="runBtn">Run probe()</button>
+</div>
+
+<table>
+  <tr><th>url</th><td id="outUrl"></td></tr>
+  <tr><th>startMs</th><td id="outStart"></td></tr>
+  <tr><th>endMs</th><td id="outEnd"></td></tr>
+  <tr><th>httpStatus</th><td id="outStatus" class="status-pending"></td></tr>
+  <tr><th>audio format</th><td id="outAudioFormat"></td></tr>
+  <tr><th>sample rate</th><td id="outSampleRate"></td></tr>
+  <tr><th>channels</th><td id="outNumberOfChannels"></td></tr>
+  <tr><th>bit depth</th><td id="outBitDepth"></td></tr>
+  <tr><th>data offset</th><td id="outDataOffset"></td></tr>
+  <tr><th>data size</th><td id="outDataSize"></td></tr>
+  <tr><th>duration msecs</th><td id="outDurationMs"></td></tr>
+  <tr><th>duration minutes</th><td id="outDurationMinutes"></td></tr>
+  <tr><th>file size</th><td id="outFileSize"></td></tr>
+
+</table>
+<p>
+
+<button id="playAudioButton">Load Clip</button>
+<div id="waveform" style="margin: 10px; border: 2px solid blue;
+                          border-radius: 10px;"></div>
+<audio id="clipAudioPlayer" controls></audio>
+  
+
+<script type="module">
+  import RemoteWavClip from 'http://localhost:9876/RemoteWavClip.mjs';
+
+  const urlInput   = document.getElementById('urlInput');
+  const runBtn     = document.getElementById('runBtn');
+  const playAudioButton = document.getElementById('playAudioButton');
+  const outUrl     = document.getElementById('outUrl');
+  const outStart   = document.getElementById('outStart');
+  const outEnd     = document.getElementById('outEnd');
+  const outStatus  = document.getElementById('outStatus');
+  const outResult  = document.getElementById('outResult');
+
+  function renderStatus(status) {
+    outStatus.textContent = status === null ? 'null' : status;
+    }
+
+  async function run() {
+    const url = urlInput.value.trim();
+      var startMs, endMs;
+    if(url == "https://pshannon.net/tmp/new.wav"){
+        startMs = 2000
+        endMs = 4000
+        }
+    if(url == "https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav"){
+       startMs = 8000
+       endMs = 12000
+       }
+      if(url == "https://aklanguages.uas.alaska.edu/degXinag/ClayPotsDX4.wav"){
+        startMs = 3000
+        endMs = 7000
+        }
+    outUrl.textContent = url;
+    outStart.textContent = startMs;
+    outEnd.textContent = endMs;
+
+    const clip = new RemoteWavClip(url, startMs, endMs);
+    console.log('clip created:', clip.getUrl(), clip.getStartMs(), clip.getEndMs());
+    var exists = await clip.urlExists();
+    const httpStatus = clip.getHttpStatus()
+    renderStatus(httpStatus)
+    console.log('url exists?  ' + exists)
+    if(!exists){
+       return
+       } 
+    try {
+      const header = await clip.getHeader()
+      //const result = await clip.probe();
+      console.log("--- web page has header: " + header)
+      $("#outAudioFormat").text(header.get("audioFormat"))
+      $("#outBitDepth").text(header.get("bitDepth"))
+      $("#outNumberOfChannels").text(header.get("numberOfChannels"))
+      $("#outSampleRate").text(header.get("sampleRate"))
+
+      $("#outDataOffset").text(header.get("dataOffset"));
+      $("#outDataSize").text(header.get("dataSize"));
+      $("#outDurationMs").text(header.get("durationMs"));
+      $("#outDurationMinutes").text(header.get("durationMinutes"));
+      $("#outFileSize").text(header.get("fileSize"));
+      console.log("--- fileSize: " + header.get("fileSize"));
+
+    } catch (err) {
+      renderStatus(httpStatus, 'exception thrown');
+      outResult.textContent = err.message;
+      console.error('probe() threw:', err);
+    }
+  } // async function run
+
+
+  runBtn.addEventListener('click', function(){
+     $("#outUrl").text("");
+     $("#outStart").text("");
+     $("#outEnd").text("");
+     $("#outAudioFormat").text("");
+     $("#outBitDepth").text("");
+     $("#outNumberOfChannels").text("");
+     $("#outSampleRate").text("");
+     $("#outDataOffset").text("");
+     $("#outDataSize").text("");
+     $("#outDurationMs").text("");
+     $("#outDurationMinutes").text("");
+     $("#outFileSize").text("");
+     run();
+     })
+
+  async function play(){
+    const url = urlInput.value.trim();
+    const startMs = Number($("#outStart").text())
+    const endMs = Number($("#outEnd").text())
+    const clip = new RemoteWavClip(url, startMs, endMs);
+    await clip.retrieve()
+    const blobUrl = clip.getObjectUrl()
+    const audioEl = document.getElementById('clipAudioPlayer');
+    audioEl.src = blobUrl;
+    const wavesurfer = WaveSurfer.create({
+        container: '#waveform',
+        media: audioEl,
+        url: blobUrl,
+        waveColor: '#3a4356',
+        progressColor: '#6fd6c4',
+        height: 160,
+        });
+    } // async function play
+
+  playAudioButton.addEventListener('click', function(){
+      play()
+      })
+
+
+</script>
+
+</body>
+</html>

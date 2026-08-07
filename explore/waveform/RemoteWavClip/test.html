@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>RemoteWavClip demo</title>
+<style>
+  body {
+    margin: 30px 60px;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+  }
+  h3 { margin-bottom: 4px; }
+  .controls { margin: 20px 0; }
+  input[type="text"] {
+    width: 480px;
+    padding: 6px 8px;
+    font-family: monospace;
+    font-size: 14px;
+  }
+  button {
+    padding: 6px 14px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 480px;
+  }
+  td, th {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th {
+    background: #f4f4f4;
+    width: 160px;
+  }
+  .status-ok    { color: #1a7f37; font-weight: bold; }
+  .status-bad   { color: #c00; font-weight: bold; }
+  .status-pending { color: #888; }
+</style>
+</head>
+<body>
+
+<h3>RemoteWavClip demo</h3>
+
+<div class="controls">
+  <input id="urlInput" type="text" value="https://pshannon.net/tmp/new.wav" />
+  <button id="runBtn">Run probe()</button>
+</div>
+
+<table>
+  <tr><th>url</th><td id="outUrl">—</td></tr>
+  <tr><th>startMs</th><td id="outStart">—</td></tr>
+  <tr><th>endMs</th><td id="outEnd">—</td></tr>
+  <tr><th>fetchStatus</th><td id="outStatus" class="status-pending">not run yet</td></tr>
+  <tr><th>probe() result</th><td id="outResult">—</td></tr>
+</table>
+
+<script type="module">
+  import RemoteWavClip from 'http://localhost:9876/RemoteWavClip.mjs';
+
+  const urlInput   = document.getElementById('urlInput');
+  const runBtn     = document.getElementById('runBtn');
+  const outUrl     = document.getElementById('outUrl');
+  const outStart   = document.getElementById('outStart');
+  const outEnd     = document.getElementById('outEnd');
+  const outStatus  = document.getElementById('outStatus');
+  const outResult  = document.getElementById('outResult');
+
+  function renderStatus(status, note) {
+    outStatus.textContent = status === null ? 'null' : status;
+    outStatus.className = (status && status >= 200 && status < 300)
+      ? 'status-ok'
+      : 'status-bad';
+    if (note) outStatus.textContent += `  (${note})`;
+  }
+
+  async function run() {
+    const url = urlInput.value.trim();
+    const startMs = 2000;
+    const endMs = 4000;
+
+    outUrl.textContent = url;
+    outStart.textContent = startMs;
+    outEnd.textContent = endMs;
+    outStatus.textContent = 'fetching…';
+    outStatus.className = 'status-pending';
+    outResult.textContent = '—';
+
+    const clip = new RemoteWavClip(url, startMs, endMs);
+    console.log('clip created:', clip.getUrl(), clip.getStartMs(), clip.getEndMs());
+
+    try {
+      const result = await clip.probe();
+      renderStatus(clip.getFetchStatus());
+      outResult.textContent = result;
+      console.log('probe() resolved:', result, 'fetchStatus:', clip.getFetchStatus());
+    } catch (err) {
+      renderStatus(clip.getFetchStatus(), 'threw');
+      outResult.textContent = err.message;
+      console.error('probe() threw:', err);
+    }
+  }
+
+  runBtn.addEventListener('click', run);
+</script>
+
+</body>
+</html>

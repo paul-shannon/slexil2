@@ -1,0 +1,9 @@
+{
+  "name": "remote-wav-clip",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node test/RemoteWavClip.test.mjs"
+  }
+}
