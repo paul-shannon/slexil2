@@ -14,7 +14,7 @@ server:
 	python -m http.server $(PORT) &
 
 html:
-	open http://localhost:$(PORT)/demoRWC.html
+	open http://localhost:$(PORT)/demo2.html
 
 testCode:
 	node --test

@@ -3,10 +3,32 @@
 <head>
 <meta charset="UTF-8"/>
 <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/themes/base/jquery-ui.min.css"></script>
+
 <script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
+<script src="http://localhost:9876/recordPopup.js" type="module"></script>
 
 <title>RemoteWavClip demo</title>
 <style>
+
+.ui-dialog-titlebar{
+    background-color: lightgreen;
+    border: 1px solid green;
+    border-radius: 10px;
+   }
+
+#recordingPopup{
+    border: 2px solid green;
+    height: 300px;
+    width: 800px;
+    border-radius:5px;
+    background-color: ivory;
+    display: none;
+    margin-top: 00px;
+    }
+
+
   body {
     margin: 30px 60px;
     font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -78,11 +100,31 @@
 </table>
 <p>
 
+<button id="recordYourselfButton">Record Yourself</button>
 <button id="playAudioButton">Load Clip</button>
 <div id="waveform" style="margin: 10px; border: 2px solid blue;
                           border-radius: 10px;"></div>
 <audio id="clipAudioPlayer" controls></audio>
   
+     <div id='recordingPopup' style="display: none">
+        <div id='buttonsDiv' style='float: left; width: 100px;' >
+           <button id='recordButton'
+                   class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
+           <button id='playRecordingButton'
+                   class='recorderButton' 
+                   style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+           </div>
+        <div id='recorderDiv'
+             style='display: none; float: right;
+                    width: calc(100% - 120px); height: 200px; border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
+            </div>
+        <div id='playerDiv'
+             style='display: none; float: right;  width: calc(100% - 120px); border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
+          </div>
+      </div>
+
+
+
 
 <script type="module">
   import RemoteWavClip from 'http://localhost:9876/RemoteWavClip.mjs';
@@ -90,6 +132,7 @@
   const urlInput   = document.getElementById('urlInput');
   const runBtn     = document.getElementById('runBtn');
   const playAudioButton = document.getElementById('playAudioButton');
+  const recordYourselfButton = document.getElementById('recordYourselfButton');
   const outUrl     = document.getElementById('outUrl');
   const outStart   = document.getElementById('outStart');
   const outEnd     = document.getElementById('outEnd');
@@ -190,7 +233,14 @@
   playAudioButton.addEventListener('click', function(){
       play()
       })
-
+  recordYourselfButton.addEventListener('click', function(){
+      let newStatus = 'open'
+      if($("#recordingPopup").is(":visible")){
+        newStatus = 'close'
+        }
+      $("#recordingPopup").dialog(newStatus);
+     console.log("recordYourselfButton");
+     })
 
 </script>
 

@@ -2,7 +2,7 @@
  * RemoteWavClip — pulls a [startMs, endMs] slice out of a remote WAV file
  * and reconstructs it as a standalone, valid WAV Blob.
  *
- * Node vs browser: this file is meant to run unchanged in both. The only
+ * Node vs browser: this file is meant to run unchanged in both. Just one
  * browser-only call (URL.createObjectURL) is isolated behind a small
  * seam (see probe()) so it degrades gracefully in Node instead of throwing.
  */
@@ -16,6 +16,10 @@ class RemoteWavClip {
   #objectUrl;   // browser-only Object URL for #blob, set by probe()
   //--------------------------------------------------------------------------------
   constructor(url, startMs, endMs) {
+    console.log(" --- RWC ctor");
+    console.log("url: " + url)
+    console.log("startMs: " + startMs);
+    console.log("endMs: " + endMs);
     this.#url = url;
     this.#startMs = startMs;
     this.#endMs = endMs;
@@ -23,7 +27,8 @@ class RemoteWavClip {
     this.#clipSpecs = null;
     this.#blob = null;
     this.#objectUrl = null;
-  }
+    }
+
   //--------------------------------------------------------------------------------
   getUrl()        { return this.#url; }
   getStartMs()    { return this.#startMs; }
@@ -35,8 +40,11 @@ class RemoteWavClip {
   //--------------------------------------------------------------------------------
   async urlExists() {
     try {
+      this.#httpStatus = 404;  // pessimistically
       const result = await fetch(this.#url, { method: 'HEAD' });
       this.#httpStatus = result.status;
+      console.log("  urlExists, httpStatus: ")
+      console.log(this.#httpStatus)
       return ![404, 500].includes(result.status);
     } catch (err) {
       // network failure, DNS failure, CORS block, offline, etc. —
@@ -187,4 +195,5 @@ class RemoteWavClip {
     return new Blob([header, pcmBuffer], { type: 'audio/wav' });
   }
 } // class RemoteWavClip
+
 export default RemoteWavClip;

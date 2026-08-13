@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Wavefrom & Record Demo </title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" 
+         href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/themes/base/jquery-ui.min.css"/>
+    <script src="http://localhost:9876/recordPopup.js" type="module"></script>
+
+<style>
+
+body{
+   margin: 100px;
+   margin-top: 30px;
+   font-family: "New York Times-Roman";
+   font-size: 22px;
+   height: 100%;
+   }
+
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 480px;
+  }
+  td, th {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+    }
+  th {
+    background: #f4f4f4;
+    width: 160px;
+    }
+
+  select{
+    font-size: 24px;
+    margin: 20px;
+    margin-left: 5px;
+    padding: 5px;
+    }
+
+  button{
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+  details > summary {
+    font-size: 24px;
+    }
+
+</style>
+
+
+<!-- style the record & waveform dialog popup -->
+<style>
+
+dialog {
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 400px;
+  height: 500px;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dialog-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dialog-body {
+  padding: 16px;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+</style>
+  
+
+<script type="module">
+
+import RemoteWavClip from 'http://localhost:9876/RemoteWavClip.mjs';
+import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js';
+import State from './appState.mjs'; 
+
+var sourceLineWaveSurfer = null;
+const state = new State()
+
+window.state = state  
+
+$(document).ready(function(){
+  console.log("*** demo2.html document ready")
+  $('#urlSelector').on('change', function() {
+     const url = $(this).val();
+     if(url){
+        state.set("url", url);
+        setStartAndStopTimes(url)
+        probeRemoteUrl(url)
+        }         
+     });
+
+  $('#waveformPopupButton').on('click', function(){
+      let newStatus = 'open'
+      console.log("---- waveforPopupButton")
+      if($("#recordingPopup").is(":visible")){
+        newStatus = 'close'
+        }
+     $("#recordingPopup").dialog(newStatus);
+     console.log("recordYourselfButton");
+     })
+
+    $("#showPlaySourceLineDetailsWidget").on('toggle', function(){
+        console.log("*** details widget toggled")
+        if($(this).prop('open')){
+          console.log("load RWC");
+          displaySourceLine()
+          }
+       }) // showPlaySourceLineDetailsWidget
+
+   $("#recordingPopup").on("dialogclose", function(event, ui) {  // cleanup
+      console.log("recordingPopup dialog closed via event listener.");
+      
+      if(sourceLineWaveSurfer != null)
+         $("#showPlaySourceLineDetailsWidget").removeAttr('open');
+         sourceLineWaveSurfer.destroy()
+      });
+
+  }) // document ready
+
+  function setStartAndStopTimes(url){
+    console.log("--- entering setStartAndStopTimes(url)");
+    var startMs = 0;
+    var endMs = 0;
+    if(url == "https://pshannon.net/tmp/new.wav"){
+       startMs = 251930
+       endMs = 254225
+       }
+    if(url == "https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav"){
+        startMs = 14568;
+        endMs = 17500;
+       }
+    if(url == "https://aklanguages.uas.alaska.edu/degXinag/ClayPotsDX4.wav"){
+       startMs = 344960;
+       endMs  = 350372;
+       }
+    state.set("startTime", startMs)
+    state.set("endTime", endMs)
+    }
+
+  function displayWaveformPopup(){
+     console.log("display waveform popup")
+     }
+
+  function clearUrlAttributesTable(){
+     $("#outFilename").text("");
+     $("#outStart").text("");
+     $("#outEnd").text("");
+     $("#outAudioFormat").text("");
+     $("#outBitDepth").text("");
+     $("#outNumberOfChannels").text("");
+     $("#outSampleRate").text("");
+     $("#outDataOffset").text("");
+     $("#outDataSize").text("");
+     $("#outDurationMs").text("");
+     $("#outDurationMinutes").text("");
+     $("#outFileSize").text("");
+     }
+      
+  async function probeRemoteUrl(url) {
+    console.log("entering probeRemoteUrl, url: " + url)
+    const startMs = state.get("startTime")
+    const endMs = state.get("endTime")
+    clearUrlAttributesTable()
+    let filenameTokens = url.split("/")
+    let filename = filenameTokens[filenameTokens.length-1]      
+    outFilename.textContent = filename;
+    outStart.textContent = startMs;
+    outEnd.textContent = endMs;
+
+    const clip = new RemoteWavClip(url, startMs, endMs);
+    console.log('clip created:', clip.getUrl(), clip.getStartMs(), clip.getEndMs());
+    var exists = await clip.urlExists();
+    console.log("  url exists? " + exists)
+    const httpStatus = clip.getHttpStatus()
+    $("#outStatus").text(httpStatus);
+    // renderStatus(httpStatus)
+    console.log('url exists?  ' + exists)
+    if(!exists){
+       return
+       } 
+    try {
+      //$("#urlAttributesDetails").prop("open", true)
+      const header = await clip.getHeader()
+      //const result = await clip.probe();
+      console.log("--- web page has header: " + header)
+      $("#outAudioFormat").text(header.get("audioFormat"))
+      $("#outBitDepth").text(header.get("bitDepth"))
+      $("#outNumberOfChannels").text(header.get("numberOfChannels"))
+      $("#outSampleRate").text(header.get("sampleRate"))
+
+      $("#outDataOffset").text(header.get("dataOffset"));
+      $("#outDataSize").text(header.get("dataSize"));
+      $("#outDurationMs").text(header.get("durationMs"));
+      $("#outDurationMinutes").text(header.get("durationMinutes"));
+      $("#outFileSize").text(header.get("fileSize"));
+      console.log("--- fileSize: " + header.get("fileSize"));
+
+    } catch (err) {
+      renderStatus(httpStatus, 'exception thrown');
+      outResult.textContent = err.message;
+      console.error('probe() threw:', err);
+    }
+  } // async function run
+
+  async function displaySourceLine(){
+    console.log("--- entering displaySourceLine");
+    //const url = window.url;
+    const url = state.get("url");
+    const startMs = state.get("startTime")
+    const endMs = state.get("endTime")
+    //const startMs = Number($("#outStart").text())
+    //const endMs = Number($("#outEnd").text())
+    const clip = new RemoteWavClip(url, startMs, endMs);
+    await clip.retrieve()
+    console.log("--- clip retrieved")
+    const blobUrl = clip.getObjectUrl()
+    const audioEl = document.getElementById('clipAudioPlayer');
+    audioEl.src = blobUrl;
+    console.log("--- about to create sourceLineWaveSurfer")
+    if(sourceLineWaveSurfer){
+       sourceLineWaveSurfer.destroy()
+       }
+    sourceLineWaveSurfer = WaveSurfer.create({
+        container: '#sourceLineWaveform',
+        media: audioEl,
+        url: blobUrl,
+        waveColor: '#3a4356',
+        progressColor: '#6fd6c4',
+        height: 160,
+        });
+    } // async function displaySourceLine
+
+
+
+//--------------------------------------------------------------------------------
+</script>  
+
+</head>
+<body>
+<h3>Waveform and Record Demo </h3>
+
+<div id="mainDiv">
+
+  <div id="remoteWavClipDiv" style="padding: 10px;">
+  <select id="urlSelector">
+    <option value=null> Choose a URL</option>
+    <option value="https://pshannon.net/tmp/new.wav">pshannon.net/tmp/new.wav</option>
+    <option value="https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav">owlLivesThere-mono-8k.wav</option>
+    <option value="https://pshannon.net/bogus.wav">pshannon.net/bogus.wav (404)</option>
+    <option value="https://pshannon-bogus.net/tmp/new.wav">pshannon-bogus.net/tmp/new.wav</option>
+    <option value="https://aklanguages.uas.alaska.edu/degXinag/ClayPotsDX4.wav"> uas/clayPotsDX4.wav</option>
+  </select>
+
+  <details id="urlAttributesDetails"><summary>Wav File Attributes</summary>
+     <table>
+       <tr><th>url</th><td id="outFilename"></td></tr>
+       <tr><th>startMs</th><td id="outStart"></td></tr>
+       <tr><th>endMs</th><td id="outEnd"></td></tr>
+       <tr><th>httpStatus</th><td id="outStatus" class="status-pending"></td></tr>
+       <tr><th>audio format</th><td id="outAudioFormat"></td></tr>
+       <tr><th>sample rate</th><td id="outSampleRate"></td></tr>
+       <tr><th>channels</th><td id="outNumberOfChannels"></td></tr>
+       <tr><th>bit depth</th><td id="outBitDepth"></td></tr>
+       <tr><th>data offset</th><td id="outDataOffset"></td></tr>
+       <tr><th>data size</th><td id="outDataSize"></td></tr>
+       <tr><th>duration msecs</th><td id="outDurationMs"></td></tr>
+       <tr><th>duration minutes</th><td id="outDurationMinutes"></td></tr>
+       <tr><th>file size</th><td id="outFileSize"></td></tr>
+     
+     </table>
+  </details>    
+
+  <div id="waveformDiv" style="margin-top: 30px;">
+    <button id="waveformPopupButton" command="show-modal" commandfor="waveformDialog">
+       Record Yourself, View Source Speaker Waveform</button>
+ 
+     <div id='recordingPopup' style="display: none; height: 800px;">
+        <div id='buttonsDiv' style='float: left; width: 100px;' >
+           <button id='recordButton'
+                   class='recorderButton'
+                   style='margin: 10px; margin-left: 0px; margin-bottom: 0px;'>Record Your Voice</button><br>
+           <button id='playRecordingButton'
+                   class='recorderButton' 
+                   style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+           </div>
+        <div id="recorderAndPlayerDiv" style="height: 165px;">
+           <div id='recorderDiv'
+                style='display: block; float: right;  height: 160px; width: calc(100% - 120px); border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
+               </div>
+           <div id='playerDiv'
+               style='display: none; float: right;  width: calc(100% - 120px); border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
+            </div>
+         </div>
+         <div id="sourcePlayerDiv" style="block; margin-top: 30px;">
+            <details id="showPlaySourceLineDetailsWidget"><summary>Show and Play Current Line from the Source
+                Recording</summary>
+              <div id="sourceLineWaveform"
+                   style="margin: 10px; border: 2px solid blue; border-radius: 10px;"></div>
+              <audio id="clipAudioPlayer" controls></audio>
+             </details>
+         </div>
+      </div id='recordingPopup'>
+
+  </div id='waveformDiv'>
+  
+</div>
+</body>
+</html>
