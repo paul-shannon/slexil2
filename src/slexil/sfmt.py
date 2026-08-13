@@ -20,10 +20,11 @@ class SFMT:
                      "startTime", "endTime"]
    
    #------------------------------------------------------
-   def __init__(self, textFile):
+   def __init__(self, textFile, verbose):
 
       assert(Path(textFile).is_file())
       self.textFile = textFile
+      self.verbose = verbose
 
       with open(self.textFile, 'r') as f:
         self.lines = f.readlines()
@@ -99,7 +100,7 @@ class SFMT:
           #-----------------------------------------------
 
      videoExtensions = [".m4v", ".mov", ".mp4", ".mpg"]
-     audioExtensions = [".wav", ".mp3", ".ogg"]
+     audioExtensions = [".wav", ".mp3", ".ogg", ".webm"]
      mediaExtensions = videoExtensions + audioExtensions
 
      mediaFileLine = [line for line in self.lines if line.find("mediaFile:") == 0][0]
@@ -211,6 +212,9 @@ class SFMT:
       lineElements = self.lines[self.blockStarts[i]:self.blockEnds[i]]
       for lineElement in lineElements:
          lineElement = lineElement.strip()
+         if(self.verbose):
+            print("sfmt.py, getTier %d: " % i)
+            print(lineElement)
          firstColonPos = lineElement.find(":")
          key = lineElement[:firstColonPos].strip()
          key = key.replace("- ", "") # in case, e.g., "- startTime: 1212"

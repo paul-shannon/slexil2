@@ -72,13 +72,14 @@ class sfmtToWebPage:
                 useTooltips=False,
                 showAnnotations=False):
 
+      self.verbose = verbose
       if verbose:
          print("--- sfmtToWebPage.py, ctor")
       self.provideRecording = provideRecording
 
       self.file = file
       self.grammaticalTerms = grammaticalTerms
-      self.sfmt = SFMT(file)
+      self.sfmt = SFMT(file, self.verbose)
       self.sfmt.parse()
 
       self.lines = self.sfmt.getTieredLines()
@@ -141,7 +142,7 @@ class sfmtToWebPage:
    #--------------------------------------------------------------------------------   
    def makeJavascriptStartStopObject(self, tbl):
       if(self.verbose):
-         print("--- entering makeStartStopTable")
+         print("--- entering makeJavascriptStartStopObject")
       startStopTimes = "window.timeStamps=["
       rows = tbl.shape[0]
       for i in range(rows):
@@ -185,7 +186,7 @@ class sfmtToWebPage:
 
       suffix = Path(url).suffix.lower()
       videoExtensions = [".m4v", ".mov", ".mp4", ".mpg"]
-      audioExtensions = [".wav", ".mp3", ".ogg"]
+      audioExtensions = [".wav", ".mp3", ".ogg", ".webm"]
       mediaExtensions = videoExtensions + audioExtensions
 
       
@@ -463,6 +464,10 @@ class sfmtToWebPage:
                tierGuide = self.sfmt.getTierGuide()
                signature = int(signature)   # startTime in msecs is the signature
                tiers = [tier for tier in tieredLines if tier['startTime'] == signature]
+               if(len(tiers) <= 0):
+                  print("length of tiers is 0")
+                  print("signature: %s" % signature)
+                  pdb.set_trace()
                assert(len(tiers) > 0)
                if type(tiers) == bool: #  == bool or len(tiers==0):
                   traceFileName = "sfmtToWebPage.py"
@@ -477,6 +482,8 @@ class sfmtToWebPage:
                                        grammaticalTerms=self.grammaticalTerms,
                                        useTooltips=False, verbose=self.verbose)
                spokenText = str(tieredLine.getSpokenText())
+               if(self.verbose):
+                  print("%d: %s" % (i, spokenText))
                #print("\n--- sfmtToWebPage, line 473, spokenText:")
                #print(spokenText)
                # pdb.set_trace()

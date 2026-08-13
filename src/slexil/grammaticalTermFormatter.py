@@ -48,6 +48,7 @@ class GrammaticalTermFormatter:
    #------------------------------------------------------------
    def __init__(self, gloss, grammaticalTerms):
 
+      self.verbose = True;
       self.gloss = gloss
       self.grammaticalTerms = grammaticalTerms
 
@@ -70,11 +71,16 @@ class GrammaticalTermFormatter:
      for part in self.parts:
         part = part.strip()
         partUpper = part.upper()  # grammatical terms stored in upper case
+        if self.verbose:
+           print(" grammaticalTerm formatting '%s'" % partUpper);
+        result = part
         if partUpper in self.grammaticalTerms:
            expansion = "<span class='grammatical-term'>%s</span>" % part.lower()
-           out.append(expansion)
-        else:
-           out.append(part)
+           if self.verbose:
+              print(" expanded to %s" % expansion)
+           result = expansion
+           
+        out.append(result)
 
      # pdb.set_trace()
      return "".join(out)
