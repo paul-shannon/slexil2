@@ -22,3 +22,5 @@ testCode:
 testCodeDebug:
 	node inspect --test
 
+testCodePattern:
+	node --test --test-name-pattern="exception.when.re"

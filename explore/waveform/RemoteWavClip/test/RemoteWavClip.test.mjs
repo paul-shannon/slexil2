@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import RemoteWavClip from '../RemoteWavClip.mjs';
-
+import {state} from '../appState.mjs'
 //--------------------------------------------------------------------------------
 test('constructor stores url, startMs, endMs and exposes them via getters', () => {
 
@@ -21,21 +21,11 @@ test('private fields are not accessible from outside the class', () => {
 
   const clip = new RemoteWavClip('https://example.com/file.wav', 0, 1000);
 
-  // #url is a true private field: it doesn't show up as an own property
+    // #url is a true private field: it doesn't show up as an own property
   assert.equal(Object.keys(clip).length, 0);
   assert.equal(clip['#url'], undefined);
 
 });
-//--------------------------------------------------------------------------------
-//test('probe discovers and stores codec, sampling rate & depth, numberOfChannels',
-//    async () => {
-//
-//  console.log("--- testing probe for wav attributes");
-//
-//  const clip = new RemoteWavClip("https://pshannon.net/tmp/new.wav", 0, 1000);
-//  const x = await clip.probe()
-//  // assert.equal(x, "fubar")
-//  })
 //--------------------------------------------------------------------------------
 test('urlExists', async () => {
 
@@ -62,24 +52,22 @@ test('urlExists', async () => {
 
 })
 //--------------------------------------------------------------------------------
-test('getHeader.daylight', async () => {
+test('getMetadata.daylight', async () => {
 
-  console.log("--- testing getHeader.daylight");
+  console.log("--- testing getMetadata.daylight");
 
   const url = "https://pshannon.net/tmp/new.wav"
   const clip = new RemoteWavClip(url, 0, 1000);
-  const header = await clip.getHeader()
+  const header = await clip.getMetadata()
   console.log("--- status: " + clip.getHttpStatus())
 
   assert.ok(header instanceof Map);
   const keys = Array.from(header.keys()).sort()
 
-
   console.log(keys);
   assert.deepStrictEqual(keys, ['audioFormat', 'bitDepth',
                                 'dataOffset', 'dataSize',
                                 'durationMinutes', 'durationMs',
-                                'fileSize',
                                 'numberOfChannels', 'sampleRate'])
   console.log("------ daylight header");
   for(const key of keys){
@@ -90,22 +78,23 @@ test('getHeader.daylight', async () => {
   assert.ok(header.get('bitDepth') == 16)
   assert.ok(header.get('numberOfChannels') == 1)
   assert.ok(header.get('sampleRate') == 24000)
-  console.log("fileSize: " + header.get('fileSize'));
   console.log("dataOffset: " + header.get('dataOffset'));
   console.log("dataSize: " + header.get('dataSize'));
   console.log("durationMs: " + header.get('durationMs'));
   console.log("durationMinutes: " + header.get('durationMinutes'));
-  console.log("fileSize: " + header.get('fileSize'));
+  debugger;
+  console.log("hhh");
+
   })
 //--------------------------------------------------------------------------------
-test('getHeader.owlLivesThere', async () => {
+test('getMetadata.owlLivesThere', async () => {
 
-  console.log("--- testing getHeader.owl");
+  console.log("--- testing getMetadata.owl");
 
   const url = "https://slexildata.artsrn.ualberta.ca/lushootseed/marthaLamont/owlLivesThere/owlLivesThere-mono-8k.wav"
 
   const clip = new RemoteWavClip(url, 0, 1000);
-  const header = await clip.getHeader()
+  const header = await clip.getMetadata()
   assert.ok(header instanceof Map);
   const keys = Array.from(header.keys()).sort()
   console.log(keys);
@@ -116,13 +105,11 @@ test('getHeader.owlLivesThere', async () => {
   assert.deepStrictEqual(keys, ['audioFormat', 'bitDepth',
                                 'dataOffset', 'dataSize',
                                 'durationMinutes', 'durationMs',
-                                'fileSize',
                                 'numberOfChannels', 'sampleRate'])
   assert.ok(header.get('audioFormat') == 1)
   assert.ok(header.get('bitDepth') == 16)
   assert.ok(header.get('numberOfChannels') == 1)
   assert.ok(header.get('sampleRate') == 8000)
-  console.log("fileSize: " + header.get('fileSize'));
   console.log("dataOffset: " + header.get('dataOffset'));
   console.log("dataSize: " + header.get('dataSize'));
   console.log("durationMs: " + header.get('durationMs'));
@@ -131,15 +118,15 @@ test('getHeader.owlLivesThere', async () => {
   })
 
 //--------------------------------------------------------------------------------
-test('getBlob.daylight', async () => {
+test('retrieve.daylight', async () => {
 
-  console.log("--- testing getBlob.daylight");
+  console.log("--- testing retrieve.daylight");
 
   const url = "https://pshannon.net/tmp/new.wav"
   var clip = new RemoteWavClip(url, 0, 1000);
-  var header = await clip.getHeader()
-
+  var header = await clip.getMetadata()
   var blob = await clip.retrieve()
+
   console.log("--- blob: ")
   console.log(blob)
   assert.ok(blob['size'] == 48044)
@@ -147,7 +134,7 @@ test('getBlob.daylight', async () => {
 
      // now get much shorter clip from later in the file
   clip = new RemoteWavClip(url, 2000, 2100);
-  header = await clip.getHeader()
+  header = await clip.getMetadata()
 
   blob = await clip.retrieve()
   console.log("--- small blob: ")
@@ -157,4 +144,23 @@ test('getBlob.daylight', async () => {
   })
 
 //--------------------------------------------------------------------------------
-  
+test('exception.when.retrieve.without.metadata', async () => {
+
+  console.log("--- testing exception when retrieve without metadata");
+
+  state.clear()
+  const url = "https://pshannon.net/tmp/new.wav"
+  const clip = new RemoteWavClip(url, 0, 1000);
+
+     // skip this step: const header = await clip.getMetadata()
+
+  try{
+     const blob = await clip.retrieve()
+     } catch (error){
+          const expected = "RemoteWavClip.retrieve: metadata must exist before clip retrieval";
+          assert.ok(error.message == expected)
+          }
+
+  }) // test exception
+
+//--------------------------------------------------------------------------------

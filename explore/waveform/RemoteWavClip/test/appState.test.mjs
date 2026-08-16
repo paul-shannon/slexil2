@@ -1,14 +1,11 @@
 import test from 'node:test';
-//import assert from 'node:assert/strict';
 import assert from 'node:assert';
-import State from '../appState.mjs';
+import {state} from '../appState.mjs'; 
 
 //--------------------------------------------------------------------------------
 test('constructor simply creates the internal data structure, currently a Map', () => {
 
   console.log("--- testing appState constructor");
-
-  const state = new State()
   assert.equal(state.size(), 0)
   });
 
@@ -17,7 +14,7 @@ test('setters and getters', () => {
 
   console.log("--- testing appState setters and getters");
 
-  const state = new State()
+  state.clear()
   assert.equal(state.size(), 0)
   state.set("x", 1)
   state.set("y", "2")
@@ -40,7 +37,7 @@ test('keys', () => {
 
   console.log("--- testing appState keys");
   
-  const state = new State()
+  state.clear()
   assert.equal(state.size(), 0)
   state.set("x", 1)
   state.set("z", [1,2,3])

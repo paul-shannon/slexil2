@@ -6,12 +6,14 @@
  * browser-only call (URL.createObjectURL) is isolated behind a small
  * seam (see probe()) so it degrades gracefully in Node instead of throwing.
  */
+
+import {state} from './appState.mjs'
+
 class RemoteWavClip {
   #url;
   #startMs;
   #endMs;
   #httpStatus;
-  #clipSpecs;   // Map of parsed header info, set by getHeader()
   #blob;        // reconstructed WAV Blob, set by probe()
   #objectUrl;   // browser-only Object URL for #blob, set by probe()
   //--------------------------------------------------------------------------------
@@ -24,7 +26,6 @@ class RemoteWavClip {
     this.#startMs = startMs;
     this.#endMs = endMs;
     this.#httpStatus = null;
-    this.#clipSpecs = null;
     this.#blob = null;
     this.#objectUrl = null;
     }
@@ -34,12 +35,12 @@ class RemoteWavClip {
   getStartMs()    { return this.#startMs; }
   getEndMs()      { return this.#endMs; }
   getHttpStatus() { return this.#httpStatus; }
-  getClipSpecs()  { return this.#clipSpecs; }
   getBlob()       { return this.#blob; }
   getObjectUrl()  { return this.#objectUrl; }
   //--------------------------------------------------------------------------------
   async urlExists() {
     try {
+      console.log("--- RWC.urlExists, fetching only HEAD")
       this.#httpStatus = 404;  // pessimistically
       const result = await fetch(this.#url, { method: 'HEAD' });
       this.#httpStatus = result.status;
@@ -56,24 +57,24 @@ class RemoteWavClip {
   /** Fetches and parses format info: codec, sample rate, bit depth, channel
    *  count, plus the byte offset/size of the 'data' chunk (needed to compute
    *  byte ranges for probe()) and derived fileSize/durationMs. */
-  async getHeader() {
+  async getMetadata() {
+    console.log("--- RWC.getMetadata");
+    console.log("     url: " + this.#url);
     const SCAN_WINDOW = 65536;
     const res = await fetch(
       this.#url, { headers: { Range: `bytes=0-${SCAN_WINDOW - 1}` } });
+    console.log("     result status: " + res.status)
     this.#httpStatus = res.status;
+
     if (!res.ok && res.status !== 206) {
       throw new Error(`Header range fetch failed: ${res.status} (server may not support byte ranges)`);
-    }
-    if (res.status !== 206) {
+      }
+    if (res.status == 206){
+      console.log("  result status: 206 partial content ")
+      }
+    else{
       console.warn('RemoteWavClip: server returned the full file instead of a partial range for the header fetch. Byte-range support may be misconfigured.');
-    }
-
-    // Content-Range: "bytes 0-65535/1284302" — the number after "/" is the
-    // server's authoritative total file size, independent of anything the
-    // WAV header itself claims.
-    const contentRange = res.headers.get('Content-Range');
-    console.log(" --- RWC.getHeader, contentRange: " + contentRange);
-    const totalFileSize = contentRange ? Number(contentRange.split('/')[1]) : null;
+      }
 
     const buf = await res.arrayBuffer();
     const view = new DataView(buf);
@@ -83,8 +84,8 @@ class RemoteWavClip {
     const sampleRate  = view.getUint32(24, true);
     const bitDepth    = view.getUint16(34, true);
 
-    // Metadata chunks (LIST/INFO, bext, iXML, etc.) can push 'data' out well
-    // past byte 44, so scan for it rather than assuming a fixed offset.
+      // Metadata chunks (LIST/INFO, bext, iXML, etc.) can push 'data' out well
+      // past byte 44, so scan for it rather than assuming a fixed offset.
     let offset = 12;
     let dataOffset = null;
     let dataSize = null;
@@ -97,13 +98,13 @@ class RemoteWavClip {
         dataOffset = offset + 8;
         dataSize = size;
         break;
-      }
+        }
       offset += 8 + size + (size % 2); // chunks are word-aligned
-    }
+      } // while
 
     if (dataOffset === null) {
       throw new Error(`RemoteWavClip: could not locate 'data' chunk within the first ${SCAN_WINDOW} bytes.`);
-    }
+      }
 
     const byteRate = sampleRate * numChannels * (bitDepth / 8);
     const durationMs = (dataSize / byteRate) * 1000;
@@ -121,25 +122,28 @@ class RemoteWavClip {
     map.set("dataSize", dataSize);
     map.set("durationMs", msecs);
     map.set("durationMinutes", minutes);
-    console.log(" --- RWC.getHeader, setting fileSize to " + totalFileSize)
-    map.set("fileSize", totalFileSize);
-    this.#clipSpecs = map;
+    state.set("wavMetaData", map)
     return map;
 
-  } // getHeader
+  } // getMetadata
   //--------------------------------------------------------------------------------
   /** Fetches the [startMs, endMs] audio byte range and rebuilds it as a
-   *  standalone, valid WAV Blob. Calls getHeader() first if it hasn't run
+   *  standalone, valid WAV Blob. 
    *  yet. In a browser, also creates an Object URL for the blob
    *  (see getObjectUrl()); in Node, that step is skipped rather than
-   *  thrown, since URL.createObjectURL doesn't exist there. */
+   *  thrown, since URL.createObjectURL doesn't exist there. 
+   */
+
   async retrieve() {
-    if (!this.#clipSpecs) await this.getHeader();
-    const specs = this.#clipSpecs;
-    const dataOffset = specs.get("dataOffset");
-    const sampleRate = specs.get("sampleRate");
-    const bitDepth = specs.get("bitDepth");
-    const numChannels = specs.get("numberOfChannels");
+    console.log("--- entering RWC.retrieve")
+    if (!state.hasKey("wavMetaData")){
+      throw new Error("RemoteWavClip.retrieve: metadata must exist before clip retrieval")
+      }
+    const metadata = state.get("wavMetaData")
+    const dataOffset = metadata.get("dataOffset");
+    const sampleRate = metadata.get("sampleRate");
+    const bitDepth = metadata.get("bitDepth");
+    const numChannels = metadata.get("numberOfChannels");
     const blockAlign = (bitDepth / 8) * numChannels;
 
     const startByte = dataOffset + Math.floor((this.#startMs / 1000) * sampleRate) * blockAlign;
@@ -154,20 +158,23 @@ class RemoteWavClip {
 
     this.#blob = RemoteWavClip.#buildWavBlob(raw, { sampleRate, numChannels, bitDepth });
 
-    // Browser-only seam: skip gracefully in Node rather than throwing.
+      // Browser-only seam: skip gracefully in Node rather than throwing.
     this.#objectUrl = (typeof URL !== 'undefined' && typeof URL.createObjectURL === 'function')
       ? URL.createObjectURL(this.#blob)
       : null;
 
     return this.#blob;
+
   } // retrieve
   //--------------------------------------------------------------------------------
-  /** Call when this clip's Blob/Object URL is no longer needed. */
+  /* Call when this clip's Blob/Object URL is no longer needed. 
+   */
   revoke() {
     if (this.#objectUrl) URL.revokeObjectURL(this.#objectUrl);
   }
   //--------------------------------------------------------------------------------
-  static #buildWavBlob(pcmBuffer, { sampleRate, numChannels, bitDepth }) {
+  static #buildWavBlob(pcmBuffer, {sampleRate, numChannels, bitDepth}) {
+
     const blockAlign = numChannels * (bitDepth / 8);
     const byteRate = sampleRate * blockAlign;
     const dataSize = pcmBuffer.byteLength;
@@ -193,7 +200,9 @@ class RemoteWavClip {
     view.setUint32(40, dataSize, true);
 
     return new Blob([header, pcmBuffer], { type: 'audio/wav' });
-  }
+
+    } // #buildWavBlog
+
 } // class RemoteWavClip
 
 export default RemoteWavClip;

@@ -5,6 +5,7 @@
     <title>Wavefrom & Record Demo </title>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/jquery-ui.min.js"></script>
+    <link rel="icon" href="data:,">
     <link rel="stylesheet" type="text/css" 
          href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/themes/base/jquery-ui.min.css"/>
     <script src="http://localhost:9876/recordPopup.js" type="module"></script>
@@ -103,10 +104,9 @@ dialog::backdrop {
 
 import RemoteWavClip from 'http://localhost:9876/RemoteWavClip.mjs';
 import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js';
-import State from './appState.mjs'; 
+import {state} from './appState.mjs'; 
 
 var sourceLineWaveSurfer = null;
-const state = new State()
 
 window.state = state  
 
@@ -189,7 +189,7 @@ $(document).ready(function(){
      }
       
   async function probeRemoteUrl(url) {
-    console.log("entering probeRemoteUrl, url: " + url)
+    console.log("--- demo2.html, probeRemoteUrl, url: " + url)
     const startMs = state.get("startTime")
     const endMs = state.get("endTime")
     clearUrlAttributesTable()
@@ -199,33 +199,35 @@ $(document).ready(function(){
     outStart.textContent = startMs;
     outEnd.textContent = endMs;
 
+    console.log(" demo2.html:probeRemoteUrl constructing RemoteWavClip")
     const clip = new RemoteWavClip(url, startMs, endMs);
     console.log('clip created:', clip.getUrl(), clip.getStartMs(), clip.getEndMs());
     var exists = await clip.urlExists();
     console.log("  url exists? " + exists)
     const httpStatus = clip.getHttpStatus()
+    console.log("   http status: " + httpStatus)
     $("#outStatus").text(httpStatus);
-    // renderStatus(httpStatus)
-    console.log('url exists?  ' + exists)
     if(!exists){
        return
        } 
     try {
-      //$("#urlAttributesDetails").prop("open", true)
-      const header = await clip.getHeader()
-      //const result = await clip.probe();
-      console.log("--- web page has header: " + header)
-      $("#outAudioFormat").text(header.get("audioFormat"))
-      $("#outBitDepth").text(header.get("bitDepth"))
-      $("#outNumberOfChannels").text(header.get("numberOfChannels"))
-      $("#outSampleRate").text(header.get("sampleRate"))
+        // got this far, url exists, now get the wav file's metadata
+      state.set("remoteWavClip", clip);
+      console.log(" demo2 awaits RWC.getWavMetadata")
+      const metadata = await clip.getWavMetadata()
+      console.log("--- audio file metadata: ");
+      console.log(metadata)
+      $("#outAudioFormat").text(metadata.get("audioFormat"))
+      $("#outBitDepth").text(metadata.get("bitDepth"))
+      $("#outNumberOfChannels").text(metadata.get("numberOfChannels"))
+      $("#outSampleRate").text(metadata.get("sampleRate"))
 
-      $("#outDataOffset").text(header.get("dataOffset"));
-      $("#outDataSize").text(header.get("dataSize"));
-      $("#outDurationMs").text(header.get("durationMs"));
-      $("#outDurationMinutes").text(header.get("durationMinutes"));
-      $("#outFileSize").text(header.get("fileSize"));
-      console.log("--- fileSize: " + header.get("fileSize"));
+      $("#outDataOffset").text(metadata.get("dataOffset"));
+      $("#outDataSize").text(metadata.get("dataSize"));
+      $("#outDurationMs").text(metadata.get("durationMs"));
+      $("#outDurationMinutes").text(metadata.get("durationMinutes"));
+      //$("#outFileSize").text(metadata.get("fileSize"));
+     // console.log("--- fileSize: " + metadata.get("fileSize"));
 
     } catch (err) {
       renderStatus(httpStatus, 'exception thrown');
@@ -236,12 +238,9 @@ $(document).ready(function(){
 
   async function displaySourceLine(){
     console.log("--- entering displaySourceLine");
-    //const url = window.url;
     const url = state.get("url");
     const startMs = state.get("startTime")
     const endMs = state.get("endTime")
-    //const startMs = Number($("#outStart").text())
-    //const endMs = Number($("#outEnd").text())
     const clip = new RemoteWavClip(url, startMs, endMs);
     await clip.retrieve()
     console.log("--- clip retrieved")
