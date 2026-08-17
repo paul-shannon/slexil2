@@ -213,8 +213,8 @@ $(document).ready(function(){
     try {
         // got this far, url exists, now get the wav file's metadata
       state.set("remoteWavClip", clip);
-      console.log(" demo2 awaits RWC.getWavMetadata")
-      const metadata = await clip.getWavMetadata()
+      console.log(" demo2 awaits RWC.getMetadata")
+      const metadata = await clip.getMetadata()
       console.log("--- audio file metadata: ");
       console.log(metadata)
       $("#outAudioFormat").text(metadata.get("audioFormat"))
@@ -230,8 +230,6 @@ $(document).ready(function(){
      // console.log("--- fileSize: " + metadata.get("fileSize"));
 
     } catch (err) {
-      renderStatus(httpStatus, 'exception thrown');
-      outResult.textContent = err.message;
       console.error('probe() threw:', err);
     }
   } // async function run
