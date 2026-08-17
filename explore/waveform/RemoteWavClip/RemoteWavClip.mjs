@@ -4,7 +4,7 @@
  *
  * Node vs browser: this file is meant to run unchanged in both. Just one
  * browser-only call (URL.createObjectURL) is isolated behind a small
- * seam (see probe()) so it degrades gracefully in Node instead of throwing.
+ * seam (see retrieve()) so it degrades gracefully in Node instead of throwing.
  */
 
 import {state} from './appState.mjs'
