@@ -1,0 +1,120 @@
+title: Star Child
+narrator: Susie Sampson Peters
+textEntry: Paul Shannon
+mediaFile: wauem_2005001-hilbert_0976_side2.wav
+mimeType: audio/x-wav
+
+lines:
+
+  - html: "<div class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Star Child, from line 982
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
+# 982
+  - startTime: 6931
+    endTime: 8217
+    lushootseed: adbədaʔ k̓ʷəɬ
+    morphemes: [ad–bədaʔ,k̓ʷəɬ]
+    morphemeGloss: [2sg.po–offspring,qtv]
+    english: ‘ “He says he is your son.’
+
+# 983
+  - startTime: 9063
+    endTime: 11168
+    lushootseed: adbədaʔ k̓ʷəɬ tiʔiɬ ʔuɬčil
+    morphemes: [ad–bədaʔ,k̓ʷəɬ,tiʔiɬ,ʔu–ɬčil]
+    morphemeGloss: [2sg.po–offspring,qtv,dist,pfv–arrive]
+    english: ‘ “The one who came says he is your son.’
+
+# 984
+  - startTime: 11581
+    endTime: 12674
+    lushootseed: həbuʔ
+    morphemes: [həbuʔ]
+    morphemeGloss: [haboo]
+    english: UW: ‘Haboo.’ (chuckles)
+
+  - startTime: 12729
+    endTime: 17572
+    lushootseed: diɬ sixʷ ti gə[t], bəščəb
+    morphemes: [diɬ,sixʷ,ti,gət,bəščəb]
+    morphemeGloss: [foc,ptcl,spec,guy,mink]
+    english: ‘ “It is that fellow Mink.” ’
+
+
+# 987 - 989
+  - startTime: 21247
+    endTime: 27383
+    lushootseed: ʔaˑ ƛ̓uƛ̓ačup tiʔəʔ bəščəb. ƛ̓uƛ̓ačup. gʷəl ƛ̓uʔux̌ʷ tiʔəʔ bads.
+    morphemes: [ƛ̓u=ƛ̓a•čup,tiʔəʔ,bəščəb,ƛ̓u=ƛ̓a•čup,gʷəl,ƛ̓u=ʔux̌ʷ,tiʔəʔ,bad–s]
+    morphemeGloss: [hab=go•firewood,prox,mink,hab=go•firewood,sconj,hab=go,prox,father–3po]
+    english: ‘Oh, Mink brings in wood. He brings in wood. And his father goes.'
+
+# 990
+  - startTime: 28791
+    endTime: 29910
+    lushootseed: diʔɬ tiʔəʔ scuts
+    morphemes: [diʔɬ,tiʔəʔ,s=cut=s]
+    morphemeGloss: [suddenly,prox,nm=say=3po]
+    english: ‘Suddenly (Mink) says,’
+
+
+# 991
+  - startTime: 30447
+    endTime: 32514
+    lushootseed: maʔmaʔ ɬasgʷaʔəxʷ čəd
+    morphemes: [maʔmaʔ,ɬu=ʔas–gʷaʔ=axʷ,čəd]
+    morphemeGloss: [daddy,irr=stat–accompany=now,1sg.sub]
+    english: ‘ “Daddy, I will accompany you now.” ’
+
+
+# 1006
+  - startTime: 94856
+    endTime: 96144
+    lushootseed: huy saxʷəb
+    morphemes: [huy,saxʷ–b]
+    morphemeGloss: [scon,jump–md]
+    english: ‘Then Diaper Child jumps.’
+
+# 1007
+  - startTime: 97827
+    endTime: 99132
+    lushootseed: saxʷəbəxʷ
+    morphemes: [saxʷəb=axʷ]
+    morphemeGloss: [jump=now]
+    english: ‘He jumps.’
+
+# 1011
+  - startTime: 106982
+    endTime: 108589
+    lushootseed: sasaxʷəbəxʷ tiʔəʔ bad
+    morphemes: [sa–saxʷəb=axʷ,tiʔəʔ,bəščəb]
+    morphemeGloss: [attn–jump=now,prox,mink]
+    english: ‘The father hops over.’
+
+# 1014
+  - startTime: 116804
+    endTime: 117905
+    lushootseed: ɬaˑx̌il
+    morphemes: [ɬax̌–il]
+    morphemeGloss: [dark–inch]
+    english: ‘It becomes night.’
+
+# 1015
+  - startTime: 118206
+    endTime: 119951
+    lushootseed: wiliq̓itəb tiʔəʔ diʔəʔ
+    morphemes: [wiliq̓i–t–b,tiʔəʔ,diʔəʔ]
+    morphemeGloss: [ask–ics–pass,prox,here]
+    english: ‘This one is asked.’
+
+
+
+
+
+
