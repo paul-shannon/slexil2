@@ -5,7 +5,34 @@ var state = {
    currentLine: 0,
    practiceLists: null
    }
+//--------------------------------------------------------------------------------
+class State{
 
+  #map;
+  constructor(){
+    this.#map = new Map();
+    }
+   size() {
+    return this.#map.size;
+    }
+  set(key, value) {
+    this.#map.set(key, value);
+    }
+  get(key) {
+    return this.#map.get(key);
+    }
+  keys() {
+     return Array.from(this.#map.keys())
+     }
+  hasKey(key) {
+     return this.#map.has(key)
+     }
+
+  } // class State
+//--------------------------------------------------------------------------------
+const appState = new State();
+window.appState = appState;
+//--------------------------------------------------------------------------------
 var mediaSegmentEnd;
 var mediaContinuousPlay = true;
 var currentVideoSize = state.videoHeight;
@@ -69,16 +96,13 @@ function refreshLayout(videoRequestedSize)
 $(document).ready(function(){
    
    console.log("--- slexilText.js, document ready")
+
    docHeight =  $(document).height()
    var initialMediaPlayerHeight = 50;
    if(document.getElementById('aboutBoxDialog') != null){
       console.log("--- assigning state.dialogBox")
       state.aboutBoxDialog = document.getElementById("aboutBoxDialog")
       }
-   //if(document.getElementById('practiceDialog') != null){
-   //   console.log("--- assigning state.practicDialog")
-   //   state.practiceDialog = document.getElementById("practiceDialog")
-   //   }
 
    if(document.getElementById('videoPlayer') != null){
       initialMediaPlayerHeight = state.videoHeight;
@@ -90,48 +114,49 @@ $(document).ready(function(){
       }
    slop = 130;
    $("#textDiv").height(docHeight - (50 + 300 + slop))
-   refreshLayout(initialMediaPlayerHeight);
     
    $("#aboutBoxButton").on('click', function(){
       console.log("show aboutBox")
       state.aboutBoxDialog.showModal()
       })
 
-   $("#showPracticeDialogButton").on('click', function(){
-      console.log("show showPracticeDialog")
-      state.practiceDialog.showModal()
-      })
-
-   $(".practiceButton").on('click', function(event){
-      var button = $(this);
-      var buttonLabel = $(this).text(); 
-      console.log(buttonLabel);
-      console.log(practiceLists);
-      list = practiceLists[buttonLabel]
-      if(list.length > 0){
-         let lineNumber = list[0];
-         scrollAndHighlight(lineNumber);
-         practiceLists[buttonLabel] = practiceLists[buttonLabel].filter(item => item !== lineNumber)
-         } // if length
-      else{
-         button.attr("disabled", true)
-         }
-      })
-
-   $("#configurePracticeButton").on('click', function(event){
-      const lineCount = $(".line-content").length;
-      console.log("configure practice, lines: " + lineCount)
-      var arr = []
-      while(arr.length < lineCount){
-         var randomnumber=Math.ceil(Math.random()*lineCount)
-         if(arr.indexOf(randomnumber) === -1){arr.push(randomnumber)}  
-         }
-      console.log(arr)
-      i = arr[2]
-      playSample(i, timeStamps[i-1].start, timeStamps[i-1].end)
-      event.preventDefault();
-      event.stopPropagation();
-      })
+ /**********
+  * $("#showPracticeDialogButton").on('click', function(){
+  *    console.log("show showPracticeDialog")
+  *    state.practiceDialog.showModal()
+  *    })
+  *
+  *  $(".practiceButton").on('click', function(event){
+  *    var button = $(this);
+  *    var buttonLabel = $(this).text(); 
+  *    console.log(buttonLabel);
+  *    console.log(practiceLists);
+  *    list = practiceLists[buttonLabel]
+  *    if(list.length > 0){
+  *       let lineNumber = list[0];
+  *       scrollAndHighlight(lineNumber);
+  *       practiceLists[buttonLabel] = practiceLists[buttonLabel].filter(item => item !== lineNumber)
+  *       } // if length
+  *    else{
+  *       button.attr("disabled", true)
+  *       }
+  *    })
+  *
+  *  $("#configurePracticeButton").on('click', function(event){
+  *    const lineCount = $(".line-content").length;
+  *    console.log("configure practice, lines: " + lineCount)
+  *    var arr = []
+  *    while(arr.length < lineCount){
+  *       var randomnumber=Math.ceil(Math.random()*lineCount)
+  *       if(arr.indexOf(randomnumber) === -1){arr.push(randomnumber)}  
+  *       }
+  *    console.log(arr)
+  *    i = arr[2]
+  *    playSample(i, timeStamps[i-1].start, timeStamps[i-1].end)
+  *    event.preventDefault();
+  *    event.stopPropagation();
+  *    })
+  **********/
 
    $("#closeAboutBoxButton").on('click', function(){
       state.aboutBoxDialog.close()
@@ -178,7 +203,6 @@ $(document).ready(function(){
       $("#playbackSpeedReadout").text(currentSpeed)
       state.mediaPlayer.playbackRate = currentSpeed;
       })
-
 
    $("#showAnnotationsButton").on('click', function() {
       visible = $("#annoDiv").is(":visible")
@@ -266,11 +290,18 @@ $(document).ready(function(){
        for(lineTimes of timeStamps){
           if(lineTimes.start <= tCurrent && lineTimes.end >= tCurrent){
               var lineNumber = parseInt(lineTimes.id)
-              //console.log("         currentLine: " + lineNumber)
-              //console.log("         lineNumber: " + lineNumber)
-             if (lineNumber != state.currentLine){ // only if new line
+              state.startTime = lineTimes.start;
+              state.endTime = lineTimes.end;
+              appState.set("currentLine", lineNumber);
+              appState.set("startTime", state.startTime)
+              appState.set("endTime", state.endTime)
+              //console.log("       lineNumber: " + lineNumber)
+              //console.log("       state.currentLine: " + state.currentLine)
+              if (lineNumber != state.currentLine){ // only if new line
                  state.currentLine = lineNumber;
+                 console.log("--- calling scrollAndHighlight " + lineNumber);
                  scrollAndHighlight(lineNumber)
+                 state.currentLine = lineNumber;
 					  break;
                  }
               } // if start <=
@@ -285,6 +316,15 @@ $(document).ready(function(){
           } // reached end
        })  // addEventListener timeupdate
 
+      // give initial values for current lines start and end times.
+      // before any line has been played, we just use the first line's times
+    appState.set("startTime", timeStamps[0]['start'])
+    appState.set("endTime", timeStamps[0]['end'])
+
+   console.log("--- calling refreshLayout as leaving ready")
+   initialMediaPlayerHeight = state.videoHeight;
+   refreshLayout(initialMediaPlayerHeight);
+
 }) // ready
 
 var mediaSegmentEnd;
@@ -292,8 +332,8 @@ var mediaContinuousPlay = true;
 //--------------------------------------------------------------------------------
 function scrollAndHighlight(lineNumber){
 
-   // from here:
-   // https://stackoverflow.com/questions/27980084/scrolling-to-a-element-inside-a-scrollable-div-with-pure-javascript
+   // from here: 
+  // https://stackoverflow.com/questions/27980084/scrolling-to-a-element-inside-a-scrollable-div-with-pure-javascript
    var scrollingDivTop = document.getElementById("textDiv").offsetTop
 
    console.log("--- scrollAndHighlight to line " + lineNumber);
@@ -316,7 +356,7 @@ function scrollAndHighlight(lineNumber){
 //--------------------------------------------------------------------------------
 function playSample(mediaID, startTime, endTime)
 {
-   // state.mediaPlayer = document.getElementById("audioPlayer")
+    // state.mediaPlayer = document.getElementById("audioPlayer")
    console.log("playSample: " + mediaID);
    playMediaSegment(mediaID, startTime, endTime)
    //console.log("currentLine: " + state.currentLine)

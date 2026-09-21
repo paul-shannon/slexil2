@@ -92,10 +92,11 @@ $(function() {
      console.log("     position check after set: " + $("#textDiv").scrollTop())
 
      }); // toggleAnnotationsButton click
-    pshannonSig = '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/14'  //0.0.0.0 Safari/537.36"'
-                  // Version 141.0.7390.108 (Official Build) (arm64)
-    console.log("kb defined? " + typeof(kb) == 'object')
-    if((JSON.stringify(navigator.userAgent).startsWith(pshannonSig)) & (typeof(kb) == 'object')){
+    const pshannonSig = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/1'
+    //console.log("pshannonSig: " + pshannonSig)
+    //console.log("userAgent:   " + navigator.userAgent)
+    //console.log("kb defined? " + typeof(kb) == 'object')
+    if((navigator.userAgent).startsWith(pshannonSig) & (typeof(kb) == 'object')){
        showAnno = true;
        $("#annoDiv").show()
        $("#toggleAnnotationsButton").text("Hide Annotations")

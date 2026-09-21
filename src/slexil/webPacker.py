@@ -32,7 +32,9 @@ class WebPacker:
 
        self.jsFiles.append("annotations.js")
        self.jsFiles.append("DropDownMenu.js")
+       self.jsFiles.append("remoteWavClip.js")
        self.jsFiles.append("recordPopup.js")
+       # self.jsFiles.append("waveformPopup.js")
 
        if (self.verbose):
           for path in self.cssFiles:

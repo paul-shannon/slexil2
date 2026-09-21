@@ -4,6 +4,7 @@ import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js
 import RecordPlugin from 'https://unpkg.com/wavesurfer.js@7/dist/plugins/record.esm.js'
 
 var recorder, wavesurfer;
+var sourceLineWaveSurfer = null;
 
 //--------------------------------------------------------------------------------
 function loadURL(url)
@@ -17,10 +18,10 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
    console.log("--- entering recorderModule.createRecorder")
    wavesurfer = WaveSurfer.create({
       container: containerID,
-      waveColor: '#4F4A85',
-      progressColor: '#383351',
+      waveColor: 'darkGray',
+      progressColor: 'gray',
+      height: 160,
       })
-
   
   recorder = wavesurfer.registerPlugin(
     RecordPlugin.create({
@@ -30,7 +31,7 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
        scrollingWaveform: true,
        audioBitsPerSecond: 12800,       
        continuousWaveform: false,
-      // continuousWaveformDuration: 30, // optional
+       height: 160,
        }),
        ) // registerPlugin
 
@@ -55,13 +56,14 @@ function recordingEndHandler(recordedUrl)
 {
    console.log(" ---- recording ended, seen by recorderModuleTest.html")
    console.log(" ---- url: " + recordedUrl)
-   console.log("children: " +    $("#recorderDiv").children().length)
+   console.log("children: " +    $("#waveRecorderDiv").children().length)
    // $("#recorderDiv").children()[0].remove()
-   $("#recorderDiv").hide()
-   $("#playerDiv").show()
+   $("#waveRecorderDiv").hide()
+   $("#wavePlayerDiv").show()
+   $("#playRecordingButton").css("display", "inline-block")    
    $("#playRecordingButton").show()
    if(player == undefined){
-      player = createPlayer(recordedUrl, "#playerDiv","#playRecordingButton")
+      player = createPlayer(recordedUrl, "#wavePlayerDiv", "#playRecordingButton")
       window.player = player
       console.log("player")
       console.log(player)
@@ -81,14 +83,15 @@ function createPlayer(url, containerID, buttonID)
 
    player = WaveSurfer.create({
       container: containerID,
-      waveColor: '#4F4A85',
-      progressColor: '#383351',
+      waveColor: 'darkGray',
+      progressColor: 'gray',
       url: url
       })
 
     window.player = player;
     player.on('finish', function() {
        console.log("playback finished");
+       console.log("changing text to Play: " + buttonID)
        $(buttonID).text("Play")
        })
 
@@ -114,12 +117,13 @@ function createPlayer(url, containerID, buttonID)
 //--------------------------------------------------------------------------------
 $(document).ready(function() {
 
+    console.log(" ******* recordPopup.js, ready function")
         
-   $('#recordingPopup').dialog({autoOpen: false,
-                               title: 'Record Your Voice',
+   $('#waveformPopup').dialog({autoOpen: false,
+                               title: 'Audio Waveform',
                                width: 800,
-                               height: 400,
-                               closeText: "&times;"
+                               height: 800,
+                               closeText: " close "
                                });
    $('#recordingNotAvailablePopup').dialog({autoOpen: false,
                                             title: 'Record your voice not available',
@@ -139,31 +143,39 @@ $(document).ready(function() {
 
    $("#openRecordDialogButton").on('click', function(){
        console.log("--- mic button clicked")
-       const chromeBrowserDetected =
-             navigator.userAgent.toLowerCase().search("chrome") >= 0;
+       const chromeBrowserDetected = true;
+             // navigator.userAgent.toLowerCase().search("chrome") >= 0;
        if(!chromeBrowserDetected){
           $('#recordingNotAvailablePopup').dialog('open')
           }
        else{       
           let newStatus = 'open'
-          if($("#recordingPopup").is(":visible")){
+          if($("#waveformPopup").is(":visible")){
              newStatus = 'close'
              }
-           $("#recordingPopup").dialog(newStatus);
+          $("#waveformPopup").dialog(newStatus);
+           if(newStatus == 'open'){
+              displaySourceLine()
+              }
           } // else
        }); // on click
+
+   if (typeof(recorder) == "undefined"){
+        recorder = createRecorder("#waveRecorderDiv", "#recordButton",
+                                  recordingEndHandler);
+      }
 
    $("#recordButton").on("click", function(){
        console.log("--- record button clicked")
        let incomingState = $("#recordButton").text()
        console.log(" incomingState: " + incomingState);
-       if(incomingState == "Record"){
-          $("#recorderDiv").show()
-          $("#playerDiv").hide()
-          $("#recordButton").text("Stop")
+       if(incomingState == "Record Your Voice"){
+          $("#waveRecorderDiv").show()
+          $("#wavePlayerDiv").hide()
+          $("#recordButton").text("Stop Recording")
           if (typeof(recorder) == "undefined"){
-             recorder = createRecorder("#recorderDiv", "#recordButton",
-                                       recordingEndHandler);   
+             //recorder = createRecorder("#waveRecorderDiv", "#recordButton",
+             //                          recordingEndHandler);   
              let deviceId = "default"; // $('#microphone-selector').find(":selected").val()
              console.log("mic deviceId: " + deviceId)
              window.recorder = recorder;
@@ -174,10 +186,52 @@ $(document).ready(function() {
           }
        else{
           recorder.stopRecording()
-          $("#recordButton").text("Record")
+          $("#recordButton").text("Record Your Voice")
           }
        }) // if "Record"
 
+    $("#showPlaySourceLineDetailsWidget").on('toggle', function(){
+       console.log("*** details widget toggled")
+       if($(this).prop('open')){
+          console.log("load RWC");
+          displaySourceLine()
+          }
+       }) // showPlaySourceLineDetailsWidget
+
+   $("#waveformPopup").on("dialogclose", function(event, ui) {  // cleanup
+      console.log("recordingPopup dialog closed via event listener.");
+      if(sourceLineWaveSurfer != null)
+         $("#showPlaySourceLineDetailsWidget").removeAttr('open');
+         sourceLineWaveSurfer.destroy()
+      });
+
+  async function displaySourceLine(){
+    console.log("--- entering displaySourceLine");
+    const url = state.mediaPlayer.currentSrc
+    const startMs = appState.get("startTime")
+    const endMs = appState.get("endTime")
+    //const startMs = Number($("#outStart").text())
+    //const endMs = Number($("#outEnd").text())
+    const clip = new RemoteWavClip(url, startMs, endMs);
+    const header = await clip.getMetadata()
+    await clip.retrieve()
+    console.log("--- clip retrieved")
+    const blobUrl = clip.getObjectUrl()
+    const audioEl = document.getElementById('clipAudioPlayer');
+    audioEl.src = blobUrl;
+    console.log("--- about to create sourceLineWaveSurfer")
+    if(sourceLineWaveSurfer){
+       sourceLineWaveSurfer.destroy()
+       }
+    sourceLineWaveSurfer = WaveSurfer.create({
+        container: '#sourceLineWaveform',
+        media: audioEl,
+        url: blobUrl,
+        waveColor: 'darkGray',
+        progressColor: 'gray',
+        height: 160,
+        });
+    } // async function displaySourceLine
 
    }); // document ready
 

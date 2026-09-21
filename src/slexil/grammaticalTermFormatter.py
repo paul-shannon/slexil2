@@ -48,7 +48,7 @@ class GrammaticalTermFormatter:
    #------------------------------------------------------------
    def __init__(self, gloss, grammaticalTerms):
 
-      self.verbose = True;
+      self.verbose = False;
       self.gloss = gloss
       self.grammaticalTerms = grammaticalTerms
 
