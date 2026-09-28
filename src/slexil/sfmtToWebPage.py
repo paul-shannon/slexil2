@@ -349,8 +349,8 @@ class sfmtToWebPage:
               <audio id="clipAudioPlayer" controls></audio>
            </div>
 
-           <div id='recordingNotAvailablePopup'>
-              </div>
+           <div id='recordingNotAvailablePopup' style="margin-top:
+           30px; border: 1px solid red;"></div>
            <div id="recorderAndPlayerDiv" style="height: 165px;">
               <div id='recorderDiv'
                   style='height: 160px;  border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>

@@ -125,15 +125,9 @@ $(document).ready(function() {
                                height: 800,
                                closeText: " close "
                                });
-   $('#recordingNotAvailablePopup').dialog({autoOpen: false,
-                                            title: 'Record your voice not available',
-                                            width: 800,
-                                            height: 400,
-                                            closeText: "&times;"
-                                            });
     let errorText = `
-        The 'record your voice' capability only works in Chrome browsers.
-        <br>Safari and FireFox support for recording is currently broken.
+        slexil offers a 'record your voice' option, but it works only in Chrome browsers.
+        <br><br>Safari and FireFox support for recording is currently broken.
         <br><br>Note that you can install Chrome on most computers
         and devices: Windows computers, Android phones and tablets,
         as well as Apple desktops, laptops, iPads and iPhones.
@@ -143,22 +137,27 @@ $(document).ready(function() {
 
    $("#openRecordDialogButton").on('click', function(){
        console.log("--- mic button clicked")
-       const chromeBrowserDetected = true;
-             // navigator.userAgent.toLowerCase().search("chrome") >= 0;
+       const navString = navigator.userAgent.toLowerCase();
+       const chromeBrowserDetected = navString.search("chrome") >= 0 |
+             navString.search("crios") >= 0;
+       console.log("chromeBrowserDetected? " + chromeBrowserDetected);
        if(!chromeBrowserDetected){
-          $('#recordingNotAvailablePopup').dialog('open')
+          $('#recorderAndPlayerDiv').hide()
+          $('#recordingNotAvailablePopup').show()
           }
-       else{       
-          let newStatus = 'open'
-          if($("#waveformPopup").is(":visible")){
-             newStatus = 'close'
-             }
-          $("#waveformPopup").dialog(newStatus);
-           if(newStatus == 'open'){
-              displaySourceLine()
-              }
-          } // else
-       }); // on click
+       else{
+          $('#recorderAndPlayerDiv').show()
+          $('#recordingNotAvailablePopup').hide()
+          }
+       let newStatus = 'open'
+       if($("#waveformPopup").is(":visible")){
+          newStatus = 'close'
+          }
+       $("#waveformPopup").dialog(newStatus);
+       if(newStatus == 'open'){
+          displaySourceLine()
+          }
+   }); // on click
 
    if (typeof(recorder) == "undefined"){
         recorder = createRecorder("#waveRecorderDiv", "#recordButton",
