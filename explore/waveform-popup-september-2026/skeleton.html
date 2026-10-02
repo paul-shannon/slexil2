@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title> title </title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/themes/base/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.2/jquery-ui.min.js"></script>
+
+<style>
+
+body{
+   margin: 100px;
+   margin-top: 30px;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 22px;
+   height: 100%;
+   }
+
+</style>
+
+<script type='module'>
+import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
+
+var sourceLineWaveSurfer = null;
+
+$(document).ready(function(){
+  console.log("document ready")
+  $("#openRecordDialogButton").on("click", function(){
+     console.log("open dialog")
+     $("#waveformPopup").dialog('open');
+     $('#recorderAndPlayerDiv').show()
+
+     })
+  $('#waveformPopup').dialog({autoOpen: false,
+                              title: 'Audio Waveform',
+                              width: 'auto',
+                              height: 'auto',
+                              resizable: true,
+                              closeText: " close ",
+                              open: function() {
+                                 $(this).dialog("widget").resizable("option", "handles", "e, w");
+                                 }
+                              });
+    sourceLineWaveSurfer = WaveSurfer.create({
+        container: '#sourceLineWaveform',
+        media: document.getElementById('clipAudioPlayer'), // audioEl
+        url: 'http://localhost:9012/tinyTest.wav',
+        waveColor: 'darkGray',
+        progressColor: 'gray',
+        height: 'auto', // 160,
+        });
+
+  });
+
+
+
+</script>
+
+</head>
+
+<body>
+<h3>waveform popup demo</h3>
+
+<button id="openRecordDialogButton">open dialog</button>
+
+<div id="waveformPopup" style="display: none">
+    <div id="sourcePlayerDiv">
+       <div id="sourceLineWaveform"
+          style="margin: 0px; border: 2px solid blue; border-radius:
+          10px; width: 'auto';">
+          </div>
+       <audio id="clipAudioPlayer" controls></audio>
+      </div id='sourcePlayerDiv'>
+
+   <div id='recordingNotAvailablePopup'> </div>
+   <div id="recorderAndPlayerDiv" style="height: 165px;">
+       <div id='recorderDiv'
+            style='height: 120px;  width: "auto"; border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; '>
+          </div id='recorderDiv'>
+       <div id='playerDiv'
+           style='display: none; width: "auto"; 1px dotted darkblue;
+                  border-radius: 10px; margin-top: 10px; '>
+           </div id="playerDiv">
+       <div id='recordVoiceButtonsDiv'>
+           <button id='recordButton'
+                   class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
+           <button id='playRecordingButton'
+                    class='recorderButton' 
+                    style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+           </div id="recordVoiceButtonsDiv">
+       </div id="recorderAndPlayerDiv">
+  </div id="waveformPopup">
+
+
+</body>
+
+</html>
