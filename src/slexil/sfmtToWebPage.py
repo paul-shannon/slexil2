@@ -378,14 +378,16 @@ class sfmtToWebPage:
 
       html = """
      <div id='recordingNotAvailablePopup'></div>
-       <div id='recordingPopup' style="display: none; height: 800px;">
-        <div id="recorderAndPlayerDiv" style="height: 165px;">
+       <div id='recordingPopup' style="display: none; height: 600px;">
+        <div id="recorderAndPlayerDiv" style="height: 'auto';">
 
-           <div id="sourcePlayerDiv" style="block; margin-top: 30px;">
+           <div id="sourcePlayerDiv" style="block; margin-top: 30px;
+                                            height: 'auto';">
               <details id="showPlaySourceLineDetailsWidget"><summary>Show and Play Current Line from the Source
                   Recording</summary>
               <div id="sourceLineWaveform"
-                   style="margin: 10px; border: 2px solid blue; border-radius: 10px;"></div>
+                   style="margin: 10px; border: 2px solid blue;
+                   border-radius: 10px; height: 'auto';"></div>
               <audio id="clipAudioPlayer" controls></audio>
              </details>
          </div>
@@ -399,10 +401,11 @@ class sfmtToWebPage:
            </div>
 
            <div id='recorderDiv'
-               style='display: block; float: right;  height: 160px; width: calc(100% - 120px); border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
+               style='display: block; float: right;  height: 'auto'; width: calc(100% - 120px); border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
                </div>
            <div id='playerDiv'
-               style='display: none; float: right;  width: calc(100% - 120px); border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
+               style='display: none; float: right;  width: calc(100% -
+               120px); height: 'auto'; border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
              </div>
           </div>
 

@@ -20,7 +20,7 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
       container: containerID,
       waveColor: 'darkGray',
       progressColor: 'gray',
-      height: 160,
+      height: 'auto',  // 160
       })
   
   recorder = wavesurfer.registerPlugin(
@@ -31,7 +31,7 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
        scrollingWaveform: true,
        audioBitsPerSecond: 12800,       
        continuousWaveform: false,
-       height: 160,
+       height: 'auto', // 160,
        }),
        ) // registerPlugin
 
@@ -122,7 +122,8 @@ $(document).ready(function() {
    $('#waveformPopup').dialog({autoOpen: false,
                                title: 'Audio Waveform',
                                width: 800,
-                               height: 800,
+                               height: 660,
+                               resizable: false,
                                closeText: " close "
                                });
     let errorText = `
@@ -228,7 +229,7 @@ $(document).ready(function() {
         url: blobUrl,
         waveColor: 'darkGray',
         progressColor: 'gray',
-        height: 160,
+        height: 'auto', // 160,
         });
     } // async function displaySourceLine
 
