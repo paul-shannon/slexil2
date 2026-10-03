@@ -1,29 +1,29 @@
-var player, recorder, wavesurfer;
 
 import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
 import RecordPlugin from 'https://unpkg.com/wavesurfer.js@7/dist/plugins/record.esm.js'
 
-var recorder, wavesurfer;
-var sourceLineWaveSurfer = null;
+var myVoicePlayer, myVoiceRecorder, myVoiceWavesurfer;
+var sourceLineWavesurfer = null;
 
 //--------------------------------------------------------------------------------
 function loadURL(url)
 {
-   player.load(url)
+   myVoicePlayer.load(url)
 
 } // loadURL
 //--------------------------------------------------------------------------------
-function createRecorder(containerID, buttonID, endOfRecordingFunction)
+function createMyVoiceRecorder(containerID, buttonID, endOfRecordingFunction)
 {
-   console.log("--- entering recorderModule.createRecorder")
-   wavesurfer = WaveSurfer.create({
+   console.log("--- entering recorderModule.createMyVoiceRecorder")
+   console.log("    continainerID: " + containerID);
+   myVoiceWavesurfer = WaveSurfer.create({
       container: containerID,
       waveColor: 'darkGray',
       progressColor: 'gray',
       height: 'auto',  // 160
       })
   
-  recorder = wavesurfer.registerPlugin(
+  myVoiceRecorder = myVoiceWavesurfer.registerPlugin(
     RecordPlugin.create({
        renderRecordedAudio: false,
        audioRate: 1, // Don't modify playback rate
@@ -35,7 +35,7 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
        }),
        ) // registerPlugin
 
-  recorder.on('record-end', (blob) => {
+  myVoiceRecorder.on('record-end', (blob) => {
      const recordedUrl = URL.createObjectURL(blob)
      console.log("record-end event handler")
      console.log("url: " + recordedUrl)
@@ -48,9 +48,9 @@ function createRecorder(containerID, buttonID, endOfRecordingFunction)
           console.log("device id: " + device.deviceId)
       })})
 
-    return(recorder);
+    return(myVoiceRecorder);
     
- } //createRecorder
+ } //createMyVoiceRecorder
 //--------------------------------------------------------------------------------
 function recordingEndHandler(recordedUrl)
 {
@@ -60,13 +60,13 @@ function recordingEndHandler(recordedUrl)
    // $("#recorderDiv").children()[0].remove()
    $("#waveRecorderDiv").hide()
    $("#wavePlayerDiv").show()
-   $("#playRecordingButton").css("display", "inline-block")    
+   // $("#playRecordingButton").css("display", "inline-block")    
    $("#playRecordingButton").show()
-   if(player == undefined){
-      player = createPlayer(recordedUrl, "#wavePlayerDiv", "#playRecordingButton")
-      window.player = player
-      console.log("player")
-      console.log(player)
+   if(myVoicePlayer == undefined){
+      myVoicePlayer = createMyVoicePlayer(recordedUrl, "#wavePlayerDiv", "#playRecordingButton")
+      window.myVoicePlayer = myVoicePlayer
+      console.log("myVoicePlayer")
+      console.log(myVoicePlayer)
       }
    else{
       loadURL(recordedUrl)
@@ -74,22 +74,22 @@ function recordingEndHandler(recordedUrl)
 
 } // recordingEndHandler
 //--------------------------------------------------------------------------------
-function createPlayer(url, containerID, buttonID)
+function createMyVoicePlayer(url, containerID, buttonID)
 {
-  if(player){
-     console.log("--- destroying player")
-     player.destroy();
+  if(myVoicePlayer){
+     console.log("--- destroying myVoicePlayer")
+     myVoicePlayer.destroy();
      }
 
-   player = WaveSurfer.create({
+   myVoicePlayer = WaveSurfer.create({
       container: containerID,
       waveColor: 'darkGray',
       progressColor: 'gray',
       url: url
       })
 
-    window.player = player;
-    player.on('finish', function() {
+    window.myVoicePlayer = myVoicePlayer;
+    myVoicePlayer.on('finish', function() {
        console.log("playback finished");
        console.log("changing text to Play: " + buttonID)
        $(buttonID).text("Play")
@@ -101,19 +101,19 @@ function createPlayer(url, containerID, buttonID)
        console.log("--- play/pause button click, current label: " + buttonLabel)
        if(buttonLabel == "Play"){
           $(buttonID).text("Pause")
-          //console.log(player)           
-          player.play();
+          //console.log(myVoicePlayer)           
+          myVoicePlayer.play();
           }
        else{
           console.log("--- pausing play");
-          player.pause()
+          myVoicePlayer.pause()
           $(buttonID).text("Play")
           }
        }) // on button click
 
-  return(player)
+  return(myVoicePlayer)
 
-} // createPlayer
+} // createMyVoicePlayer
 //--------------------------------------------------------------------------------
 $(document).ready(function() {
 
@@ -121,10 +121,13 @@ $(document).ready(function() {
         
    $('#waveformPopup').dialog({autoOpen: false,
                                title: 'Audio Waveform',
-                               width: 800,
-                               height: 660,
+                               width: 'auto',
+                               height: 'auto',
                                resizable: false,
-                               closeText: " close "
+                               closeText: " close ",
+                               open: function(event, ui) {
+                                  console.log("Dialog is visible. Safe to calculate sizes or focus elements.");
+                                  }
                                });
     let errorText = `
         slexil offers a 'record your voice' option, but it works only in Chrome browsers.
@@ -149,6 +152,8 @@ $(document).ready(function() {
        else{
           $('#recorderAndPlayerDiv').show()
           $('#recordingNotAvailablePopup').hide()
+          myVoiceRecorder = createMyVoiceRecorder("#waveRecorderDiv", "#recordButton",
+                                    recordingEndHandler)
           }
        let newStatus = 'open'
        if($("#waveformPopup").is(":visible")){
@@ -158,35 +163,29 @@ $(document).ready(function() {
        if(newStatus == 'open'){
           displaySourceLine()
           }
-   }); // on click
-
-   if (typeof(recorder) == "undefined"){
-        recorder = createRecorder("#waveRecorderDiv", "#recordButton",
-                                  recordingEndHandler);
-      }
+       //if(typeof(recorder) == "undefined"){
+       
+      }); // on click
 
    $("#recordButton").on("click", function(){
        console.log("--- record button clicked")
        let incomingState = $("#recordButton").text()
        console.log(" incomingState: " + incomingState);
-       if(incomingState == "Record Your Voice"){
+       if(incomingState == "Record"){
           $("#waveRecorderDiv").show()
           $("#wavePlayerDiv").hide()
           $("#recordButton").text("Stop Recording")
-          if (typeof(recorder) == "undefined"){
-             //recorder = createRecorder("#waveRecorderDiv", "#recordButton",
-             //                          recordingEndHandler);   
+          if (typeof(myVoiceRecorder) == "undefined"){
              let deviceId = "default"; // $('#microphone-selector').find(":selected").val()
              console.log("mic deviceId: " + deviceId)
-             window.recorder = recorder;
              }
-          recorder.startRecording("default").then(() => {
+          myVoiceRecorder.startRecording("default").then(() => {
              console.log("recording started, from promise")
              });
           }
        else{
-          recorder.stopRecording()
-          $("#recordButton").text("Record Your Voice")
+          myVoiceRecorder.stopRecording()
+          $("#recordButton").text("Record")
           }
        }) // if "Record"
 
@@ -199,11 +198,30 @@ $(document).ready(function() {
        }) // showPlaySourceLineDetailsWidget
 
    $("#waveformPopup").on("dialogclose", function(event, ui) {  // cleanup
-      console.log("recordingPopup dialog closed via event listener.");
-      if(sourceLineWaveSurfer != null)
+       console.log("recordingPopup dialog closed via event listener.");
+       if(sourceLineWavesurfer != null){
          $("#showPlaySourceLineDetailsWidget").removeAttr('open');
-         sourceLineWaveSurfer.destroy()
-      });
+         console.log("--- destroying sourceLineWaveSurver")
+         sourceLineWavesurfer.destroy()
+         }
+       myVoiceWavesurfer.destroy();
+       sourceLineWavesurfer.destroy();
+       if(myVoiceRecorder != undefined){
+          myVoiceRecorder.destroy()
+          }
+       if(myVoicePlayer != undefined){
+          myVoicePlayer.destroy()
+          }
+       myVoiceWavesurfer = undefined;
+       sourceLineWavesurfer = undefined;
+       myVoiceRecorder = undefined;
+       myVoicePlayer = undefined;
+       //if(myVoiceRecorder != null){
+       //   console.log("--- destorying voice myVoiceRecorder");
+          //recorder.stopMic()
+          //recorder.destroy()
+          //}
+       }); // on dialogclose
 
   async function displaySourceLine(){
     console.log("--- entering displaySourceLine");
@@ -219,11 +237,11 @@ $(document).ready(function() {
     const blobUrl = clip.getObjectUrl()
     const audioEl = document.getElementById('clipAudioPlayer');
     audioEl.src = blobUrl;
-    console.log("--- about to create sourceLineWaveSurfer")
-    if(sourceLineWaveSurfer){
-       sourceLineWaveSurfer.destroy()
+    console.log("--- about to create sourceLineWavesurfer")
+    if(sourceLineWavesurfer){
+       sourceLineWavesurfer.destroy()
        }
-    sourceLineWaveSurfer = WaveSurfer.create({
+    sourceLineWavesurfer = WaveSurfer.create({
         container: '#sourceLineWaveform',
         media: audioEl,
         url: blobUrl,
@@ -235,4 +253,4 @@ $(document).ready(function() {
 
    }); // document ready
 
-
+//--------------------------------------------------------------------------------

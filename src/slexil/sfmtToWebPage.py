@@ -337,83 +337,83 @@ class sfmtToWebPage:
                   htmlDoc.stag('img',
                                src='https://slexildata.artsrn.ualberta.ca/images/microphone-342.png')
 
-   #-------------------------------------------------------------------------------
-   def getWaveformDialogHTML(self):
-
-      html = """
-        <div id="waveformPopup" style="height: 800px;">
-           <div id="sourcePlayerDiv" style="block; margin-top: 30px;">
-              <div id="sourceLineWaveform"
-                   style="margin: 10px; border: 2px solid blue; border-radius: 10px;">
-              </div>
-              <audio id="clipAudioPlayer" controls></audio>
-           </div>
-
-           <div id='recordingNotAvailablePopup' style="margin-top:
-           30px; border: 1px solid red;"></div>
-           <div id="recorderAndPlayerDiv" style="height: 165px;">
-              <div id='recorderDiv'
-                  style='height: 160px;  border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
-                  </div>
-              <div id='playerDiv'
-                  style='display: none; border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
-                  </div id="playerDiv">
-              <div id='recordVoiceButtonsDiv'>
-                       <button id='recordButton'
-                          class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
-                       <button id='playRecordingButton'
-                          class='recorderButton' 
-                          style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
-                     </div id="recordVoiceButtonsDiv">
-             </div id="recorderAndPlayerDiv">
-        </div id="waveformPopup">
-
-        """
-
-      return(html)
-
-
-   #-------------------------------------------------------------------------------
-   def getRecordingDialogHTML(self):
-
-      html = """
-     <div id='recordingNotAvailablePopup'></div>
-       <div id='recordingPopup' style="display: none; height: 600px;">
-        <div id="recorderAndPlayerDiv" style="height: 'auto';">
-
-           <div id="sourcePlayerDiv" style="block; margin-top: 30px;
-                                            height: 'auto';">
-              <details id="showPlaySourceLineDetailsWidget"><summary>Show and Play Current Line from the Source
-                  Recording</summary>
-              <div id="sourceLineWaveform"
-                   style="margin: 10px; border: 2px solid blue;
-                   border-radius: 10px; height: 'auto';"></div>
-              <audio id="clipAudioPlayer" controls></audio>
-             </details>
-         </div>
-
-        <div id='buttonsDiv' style='float: left; width: 100px;' >
-           <button id='recordButton'
-                   class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
-           <button id='playRecordingButton'
-                   class='recorderButton' 
-                   style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
-           </div>
-
-           <div id='recorderDiv'
-               style='display: block; float: right;  height: 'auto'; width: calc(100% - 120px); border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
-               </div>
-           <div id='playerDiv'
-               style='display: none; float: right;  width: calc(100% -
-               120px); height: 'auto'; border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
-             </div>
-          </div>
-
-   </div id="recordingPopup">
-     """
-
-      return(html)
-       
+#    #-------------------------------------------------------------------------------
+#    def getWaveformDialogHTML(self):
+# 
+#       html = """
+#         <div id="waveformPopup" style="height: 800px;">
+#            <div id="sourcePlayerDiv" style="block; margin-top: 30px;">
+#               <div id="sourceLineWaveform"
+#                    style="margin: 10px; border: 1px solid gray; border-radius: 10px;">
+#               </div>
+#               <audio id="clipAudioPlayer" controls></audio>
+#            </div>
+# 
+#            <div id='recordingNotAvailablePopup' style="margin-top:
+#            30px; border: 1px solid gray;"></div>
+#            <div id="recorderAndPlayerDiv" style="height: 165px;">
+#               <div id='recorderDiv'
+#                   style='height: 160px;  border: 1px solid gray; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
+#                   </div>
+#               <div id='playerDiv'
+#                   style='display: none; border: 1px dotted gray;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
+#                   </div id="playerDiv">
+#               <div id='recordVoiceButtonsDiv'>
+#                        <button id='recordButton'
+#                           class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
+#                        <button id='playRecordingButton'
+#                           class='recorderButton' 
+#                           style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+#                      </div id="recordVoiceButtonsDiv">
+#              </div id="recorderAndPlayerDiv">
+#         </div id="waveformPopup">
+# 
+#         """
+# 
+#       return(html)
+# 
+# 
+#    #-------------------------------------------------------------------------------
+#    def getRecordingDialogHTML(self):
+# 
+#       html = """
+#      <div id='recordingNotAvailablePopup'></div>
+#        <div id='recordingPopup' style="display: none; height: 600px;">
+#         <div id="recorderAndPlayerDiv" style="height: 'auto';">
+# 
+#            <div id="sourcePlayerDiv" style="block; margin-top: 30px;
+#                                             height: 'auto';">
+#               <details id="showPlaySourceLineDetailsWidget"><summary>Show and Play Current Line from the Source
+#                   Recording</summary>
+#               <div id="sourceLineWaveform"
+#                    style="margin: 10px; border: 1px solid gray;
+#                    border-radius: 10px; height: 'auto';"></div>
+#               <audio id="clipAudioPlayer" controls></audio>
+#              </details>
+#          </div>
+# 
+#         <div id='buttonsDiv' style='float: left; width: 100px;' >
+#            <button id='recordButton'
+#                    class='recorderButton' style='margin: 10px; margin-bottom: 0px;'>Record</button><br>
+#            <button id='playRecordingButton'
+#                    class='recorderButton' 
+#                    style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+#            </div>
+# 
+#            <div id='recorderDiv'
+#                style='display: block; float: right;  height: 'auto'; width: calc(100% - 120px); border: 1px solid darkblue; border-radius: 10px; margin-top: 10px; margin-right: 10px;'>
+#                </div>
+#            <div id='playerDiv'
+#                style='display: none; float: right;  width: calc(100% -
+#                120px); height: 'auto'; border: 1px dotted darkblue;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
+#              </div>
+#           </div>
+# 
+#    </div id="recordingPopup">
+#      """
+# 
+#       return(html)
+#        
    #--------------------------------------------------------------------------------
    def createOtherControlsDiv(self, htmlDoc):
 
@@ -669,41 +669,89 @@ def getLinguisticsTopics(filename, verbose):
 
 #-------------------------------------------------------------------------------
 def addWaveformDialog(htmlDoc):
+  
+   html = """
 
-    html = """
-      <div id='waveformPopup'> Current source line:
-         <div id="sourcePlayerDiv" style="block; margin-top: 30px;">
+     <div id="waveformPopup" style="display: none">
+         <div id="sourcePlayerDiv">
             <div id="sourceLineWaveform"
-                 style="margin: 10px; border: 2px solid black; border-radius: 10px;">
-                 </div>
+               style="margin: 0px; border: 1px solid gray; border-radius:
+               10px; width: 'auto';">
+               </div>
             <audio id="clipAudioPlayer" controls></audio>
-            </div>
+           </div id='sourcePlayerDiv'>
+     
+        <div id='recordingNotAvailablePopup'> </div>
+        <div id="recorderAndPlayerDiv" style="height: 165px;">
+            <div id='waveRecorderDiv'
+                 style='height: 120px;  
+                        width: "auto";
+                        border: 1px solid gray;
+                        border-radius: 10px;
+                        margin-top: 10px;'>
+               </div id='recorderDiv'>
+            <div id='wavePlayerDiv'
+                 style='height: 120px;
+                         width: "auto";
+                         display: none;
+                         border: 1px solid gray;
+                         border-radius: 10px;
+                         margin-top: 10px; '>
+                </div id="playerDiv">
+            <div id='recordVoiceButtonsDiv'>
+                <button id='recordButton'
+                        class='recorderButton' style='margin: 2px;
+                        margin-bottom: 0px;'>Record</button>
+                <button id='playRecordingButton'
+                         class='recorderButton' 
+                         style='display:none; margin: 2px; margin-bottom: 0px;' >Play</button>
+                </div id="recordVoiceButtonsDiv">
+            </div id="recorderAndPlayerDiv">
+       </div id="waveformPopup">
+       """
 
-           <div id='recordingNotAvailablePopup'></div>
-           <div id="recorderAndPlayerDiv" style="margin-top: 50px;">
+   htmlDoc.asis(html)
 
-              <button id='recordButton'
-                      class='recorderButton' style='margin: 10px;
-                      margin-bottom: 0px;'>Record Your Voice</button>
-              <div id='waveRecorderDiv'
-                  style="margin: 10px; border: 2px solid black; border-radius: 10px;">
-                  </div>
-              <div id='wavePlayerDiv'
-                  style='display: none; border: 2px solid black;  border-radius:10px; margin-top: 10px; margin-right: 10px;'>
-                  </div id="wavePlayerDiv">
-              <div id='recordVoiceButtonsDiv'>
-                       <button id='playRecordingButton'
-                          class='recorderButton' 
-                          style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
-                     </div id="recordVoiceButtonsDiv">
-             </div id="recorderAndPlayerDiv">
-         </div>
-      """
-
-    htmlDoc.asis(html)
-
+#-------------------------------------------------------------------------------
+# def oldAddWaveformDialog(htmlDoc):
+#  
+#      html = """
+#        <div id='waveformPopup'> Current source line:
+#           <div id="sourcePlayerDiv" style="block; margin-top: 30px;">
+#              <div id="sourceLineWaveform"
+#                   style="margin: 10px; border: 2px solid black; border-radius: 10px;">
+#                   </div>
+#              <audio id="clipAudioPlayer" controls></audio>
+#              </div>
+#  
+#             <div id='recordingNotAvailablePopup'></div>
+#             <div id="recorderAndPlayerDiv" style="margin-top: 50px;
+#                                                   height: 'auto';
+#                                                   width: 'auto';">
+#  
+#                <button id='recordButton'
+#                        class='recorderButton' style='margin: 10px;
+#                        margin-bottom: 0px;'>Record Your Voice</button>
+#                <div id='waveRecorderDiv'
+#                     style="margin: 10px; border: 2px solid black;
+#                            border-radius: 10px;">
+#                    </div>
+#                <div id='wavePlayerDiv'
+#                     style='display: none; border: 2px solid black;
+#                            border-radius: 10px; margin: 10px;'>
+#                    </div id="wavePlayerDiv">
+#                <div id='recordVoiceButtonsDiv'>
+#                         <button id='playRecordingButton'
+#                            class='recorderButton' 
+#                            style='display:none; margin: 10px; margin-bottom: 0px;' >Play</button>
+#                       </div id="recordVoiceButtonsDiv">
+#               </div id="recorderAndPlayerDiv">
+#           </div>
+#        """
+#  
+#      htmlDoc.asis(html)
+#  
 #--------------------------------------------------------------------------------
-
 def addAboutBox(htmlDoc, helpFilename):
 
    helpText = open(helpFilename).read()
