@@ -1,9 +1,14 @@
 
 import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
 import RecordPlugin from 'https://unpkg.com/wavesurfer.js@7/dist/plugins/record.esm.js'
+import RegionsPlugin from 'https://unpkg.com/wavesurfer.js@7/dist/plugins/regions.esm.js'
 
 var myVoicePlayer, myVoiceRecorder, myVoiceWavesurfer;
 var sourceLineWavesurfer = null;
+var sourceLineRegions = null;
+var activeRegion = null;
+// let regionDragStartX = null;
+let regionRemovedForThisGesture = false;
 
 //--------------------------------------------------------------------------------
 function loadURL(url)
@@ -228,8 +233,6 @@ $(document).ready(function() {
     const url = state.mediaPlayer.currentSrc
     const startMs = appState.get("startTime")
     const endMs = appState.get("endTime")
-    //const startMs = Number($("#outStart").text())
-    //const endMs = Number($("#outEnd").text())
     const clip = new RemoteWavClip(url, startMs, endMs);
     const header = await clip.getMetadata()
     await clip.retrieve()
@@ -238,6 +241,15 @@ $(document).ready(function() {
     const audioEl = document.getElementById('clipAudioPlayer');
     audioEl.src = blobUrl;
     console.log("--- about to create sourceLineWavesurfer")
+
+    function pixelXToSeconds(clientX) {
+       let container = document.querySelector('#sourceLineWaveform')
+       const rect = container.getBoundingClientRect()
+       const relativeX = clientX - rect.left;
+       const ratio = relativeX / rect.width;
+       return ratio * sourceLineWavesurfer.getDuration();
+       }
+
     if(sourceLineWavesurfer){
        sourceLineWavesurfer.destroy()
        }
@@ -249,6 +261,72 @@ $(document).ready(function() {
         progressColor: 'gray',
         height: 'auto', // 160,
         });
+    window.xx = sourceLineWavesurfer;
+
+    sourceLineRegions = sourceLineWavesurfer.registerPlugin(RegionsPlugin.create());
+    sourceLineRegions.enableDragSelection({
+       color: 'rgba(255, 0, 0, 0.15)',
+      });
+
+       // Keep only one region at a time -- a new drag replaces the old one
+    sourceLineRegions.on('region-created', (region) => {
+       console.log("region created")
+       if (activeRegion && activeRegion !== region){
+         activeRegion.remove();
+         }
+       activeRegion = region;
+       sourceLineWavesurfer.play(region.start, region.end);
+       });
+      
+    sourceLineRegions.on('region-clicked', (region, e) => {
+       console.log("region-clicked");
+       e.stopPropagation(); // prevent the click from also seeking/resetting via the waveform's own click handler
+       sourceLineWavesurfer.play(region.start, region.end);
+       });
+
+   $("#sourceLineWaveform").on("pointerdown", function(e){
+      console.log("pointerdown: " + e.clientX);
+      //regionDragStartX = e.clientX;
+      const clickedTime = pixelXToSeconds(e.clientX);
+      if(!activeRegion) return;
+      const insideActiveRegion =
+         activeRegion &&
+         clickedTime >= activeRegion.start &&
+         clickedTime <= activeRegion.end;
+      console.log("pointerdown, insideActiveRegion: " + insideActiveRegion)
+      if(!insideActiveRegion){
+         console.log("pointer down outside the active region")
+         activeRegion.remove();
+         activeRegion = null;
+         regionRemovedForThisGesture = true;
+         console.log(" seekTo(0)");
+         setTimeout(() => {
+            sourceLineWavesurfer.seekTo(0);          
+            }, 100);
+         }          
+      //console.log("    startx: " + regionDragStartX);
+      regionRemovedForThisGesture = false;
+      });  // pointerdown
+
+   $("#sourceLineWaveform").on("pointerup", function(e){
+      const clickedTime = pixelXToSeconds(e.clientX);
+      const insideActiveRegion =
+          activeRegion &&
+          clickedTime >= activeRegion.start &&
+          clickedTime <= activeRegion.end;
+      console.log("in active region: "+ insideActiveRegion)
+      if(!insideActiveRegion && activeRegion){
+         console.log("removing activeRegion");
+         activeRegion.remove();
+         activeRegion = null;
+         regionRemovedForThisGesture = true;
+         console.log(" setting time to 0");
+         setTimeout(() => {
+            sourceLineWavesurfer.seekTo(0);          
+            }, 100);
+         }
+      }); // pointerup
+
     } // async function displaySourceLine
 
    }); // document ready
