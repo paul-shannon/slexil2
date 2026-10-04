@@ -1,9 +1,156 @@
 linguistics = {
 
+
+"   Lushootseed Grammar":
+
+
+`
+<h4>Lushootseed Grammar</h4>
+
+<a href="https://en.wikipedia.org/wiki/Lushootseed_grammar" target="_blank">wikipedia </a>
+
+<h5> the empty preposition "ʔə"</h5>
+
+Careful treatment found in section 8.1.5 of David's draft grammar,
+"Subject, object, and direct complement noun phrases".
+
+<h5> one nominal rule, and example, from gemini</h5>
+
+<ul>
+  <li><a href="https://share.google/aimode/fXInbupFhmmchAAN8"
+target="_blank">One-Nominal Interpretation Law (ONI) </a>
+  <li><a href="https://share.google/aimode/uWMJ9S3TTrNX801TW" target="_blank">gemini: seeing and being seen by the dog </a>
+</ul>
+
+<h5>Adapted from claude</h5>
+
+This connects directly back to the ləq̓aɬ data you shared earlier —
+that "ʔə" appearing before every comparandum
+
+<blockquote>
+<ul>
+<li><i>ləq̓aɬ čəxʷ ʔə t(a) adsqa</i>: you are just like your older brother.
+<li><i>ləq̓aɬgʷəs čəx̌ ʔə kʷi haʔɬ sləx̌il </i>: You are like a fine day<.
+</ul> 
+</blockquote>
+
+This is the visible signature of the single most consequential
+structural fact about Lushootseed sentences: the <b>one nominal rule</b>
+
+**The core constraint: only one full lexical argument per clause.**
+Lushootseed grammar allows only one lexical nominal in the clause
+core — either the sole argument of an intransitive clause, or the
+object of a transitive one — but never both a lexical subject and a
+lexical object in the same clause. Transitive subjects are
+restricted to speech-act participants (first and second person),
+realized as pronominal clitics rather than full noun phrases, while
+third-person transitive subjects are typically elided entirely
+rather than spelled out as a lexical NP. This is sometimes called
+the "<b>one nominal rule</b>": full noun phrases are marked via pronominal
+prefixes and suffixes on the verb, with additional full NPs
+relegated to oblique status precisely because the clause core has
+room for only one.
+
+**What happens to everything else: it goes oblique, marked by ʔə.**
+
+Since a clause can't simply add a second core participant the way
+English adds direct and indirect objects, Lushootseed pushes every
+additional participant — agents in passive-like constructions,
+instruments, comparanda, benefactives, and more — into an oblique
+phrase marked by the general oblique particle ʔə, which serves as a
+general oblique linker introducing NPs for roles like agents,
+patients, instruments, manners, or benefactives in periphrastic
+constructions. This is exactly the mechanism in your ləq̓aɬ examples:
+"you-are-in-right-place ʔə your-brother" can't make "your brother" a
+second direct argument, so the standard of comparison is demoted to an
+oblique phrase instead — a comparison that in English needs no special
+marking ("like your brother") requires this grammatical workaround in
+Lushootseed purely because of the one-argument ceiling.
+
+**Predicates are overwhelmingly derived, not basic, transitives.**
+
+With only a few exceptions, Lushootseed roots are monovalent and
+intransitive, requiring valency-increasing morphology (transitivizing
+suffixes like -d) to form a verb stem capable of taking an object at
+all — transitivity is something built onto a root, not a default
+property most roots start with. This ties back to the Beck/Kinkade
+thread from earlier: since virtually any root can be pressed into
+predicate service, and transitivity itself is a derivational add-on
+rather than a lexical given, argument structure in Lushootseed is
+constructed piece by piece through morphology rather than inherited
+wholesale from a root's basic category.
+
+**Passive voice runs the same demotion machinery in reverse.**
+
+A transitive clause's subject can be demoted to oblique position
+(again marked by ʔə) while the object is promoted to the single core
+slot — the same one-argument bottleneck, just with the roles
+reassigned. This means the identical surface marker (ʔə + NP) can
+represent an agent, an instrument, or a comparandum depending on
+context — a single grammatical tool doing multiple semantic jobs, not
+unlike how we saw one lexical suffix (-ucid, from "mouth") radiate
+into language, opening, and eating.
+
+**A basic word-order frame this all sits inside:**
+
+Lushootseed word order is generally VSO (predicate-initial), though
+it can be rearranged to SVO or VOS without changing the words
+themselves — the particle ʔə can also mark this rearrangement,
+meaning you'll see the same small word doing structural work at
+multiple levels of the grammar. The language also has no copula, so
+fully verbless sentences are grammatical (*stab əw̓ə tiʔiɬ*, "what is
+that?") — predication doesn't require a predicate root at all in
+these cases, just juxtaposition.
+
+**Worth flagging one wrinkle, since it's easy to conflate:**
+
+There are two unrelated "ʔ-words" doing different jobs — ʔə as the
+oblique-argument/case-linking particle described above, and ʔal as the
+general spatial preposition ("on, above, in, beside, around"), which
+behaves more like an ordinary preposition preceding its object. Given
+how much morphological economy this language runs on (one suffix
+radiating across "mouth/language/doorway/eat," one particle covering
+agent/instrument/comparandum/passivized-subject), it's a useful habit
+to keep asking, for any small grammatical word doing heavy lifting,
+exactly which of its several jobs is active in a given sentence — the
+ləq̓aɬ data is really a clean illustration of that broader Lushootseed
+pattern: a small, structurally powerful inventory of morphemes, each
+spread thin across many functions, doing enormous work per token.
+
+`,
+
+
 "PTCL":
 
 `
 <b>PTCL</b> particle
+
+<b>gemini</b>
+
+A predicate particle in Lushootseed is a specialized functional word
+or modal element that helps shape, modify, or anchor the main
+predicate (which can be a verb, noun, or other lexical category) in a
+clause.In Lushootseed grammar—like in many Salishan
+languages—sentences are built around a central predicate-initial
+structure, and particles often occupy positions within the predicate
+complex to express modality, aspect, or spatial/frequentative meanings
+(such as sixʷ, meaning "as usual" or "over again," which typically
+occurs in the predicate). 
+
+<ul>
+
+   <li><b>sixʷ</b>  as usual, over again (modal particle, usually in predicate,
+   though occasionally in complement. Sometimes connotes annoyance or
+   exaspiration with recurrence)
+   <li><b>uʔxʷ</b>  still, yet
+   <li><b>əlgʷə</b>  they, them, their, theirs (optional third-person plural predicate particle)
+   <li><b>əlgʷəʔ</b>  they, them, their, theirs (optional third-person plural predicate particle)
+   <li><b>ʔal</b>  agent marker
+   <li><b>ʔu</b>  denoting a question
+   <li> ʔə about, as, in, of, by, on, into, onto, over, when, while
+   (particle linking phrases of various semantic roles to a predicate or
+   other clause constituent)
+</ul>
 
 <a href="https://en.wikipedia.org/wiki/Grammatical_particle" target="_blank">wikipedia: </a>
 In grammar, the term particle (abbreviated PTCL) has a traditional
@@ -745,6 +892,7 @@ a noun or pronoun that has the basic meaning of "by way of" or "via".
   <li><a href="https://pshannon.net/docs/NorthwestCoastTexts-StealingLight.pdf" target="_blank">PNW Daylight texts, 1977</a>
   <li><a href="https://pshannon.net/docs/StealingDaylight-from-beckAndHessBook.html" target="_blank">Daylight, Beck &amp; Hess version 2015</a>
   <li><a href="https://pshannon.net/docs/grammar-DavidBeck-Jan10.pdf" target="_blank">Draft Grammar</a>
+  <li><a href="https://pshannon.net/docs/wordcon.pdf" target="_blank">PNW Daylight texts, 1977</a>
   <li><a href="https://pshannon.net/docs/nominals.pdf"
      target="_blank">Patterns of nominalization in Bella Coola and Lushootseed</a>
   <li><a href="https://pshannon.net/docs/CAUS.pdf" target="_blank">Transitivity and Causation in Lushootseed Morphology</a>.
@@ -1355,6 +1503,112 @@ variant: <b>ləq̓al</b>
 
 - be in correct place
 - be on target
+
+<details><summary>claude's notes on translation</summary>
+
+### ləq̓aɬ / ləq̓aɬucid — notes on a Lushootseed translation problem
+
+#### The starting puzzle
+
+Hess and Hilbert gloss the Lushootseed root **ləq̓aɬ** as "be.in.right.place." The *Lushootseed Dictionary* (Bates, Hess & Hilbert 1994) lists a cluster of senses for the root: **be near, on target, correct, similar**. The compound **ləq̓aɬucid** is translated variously as "by the door" or "in the right place, at the door" — raising the question of how a root about *rightness* comes to mean, in this compound, simply *doorway*.
+
+#### The suffix -ucid
+
+-ucid derives from Proto-Salish ***cin*, "mouth"** (Wiktionary, citing Bates/Hess/Hilbert 1994, p. 243). In Lushootseed it has fissioned into a striking spread of glosses attested in the dictionary: *body of water to be crossed, river, mouth, language, doorway, opening in general, eat*.
+
+Three branches radiate from the single "mouth" root:
+
+1. **Speech/language** — mouth as organ of speech → language. This is the branch preserved in the language's own name: *dxʷ-* + *-ucid* = "language," with *ləš* an archaic name for the Puget Sound region. "Lushootseed" (dxʷləšucid) is transparently "[Puget-Sound]-mouth" → "the Puget Sound language."
+2. **Aperture/opening** — mouth as orifice → any opening, specifically doorway. This is the branch active in *ləq̓aɬucid*.
+3. **Ingestion** — mouth as site of eating → "eat," and by extension "river mouth / place to be crossed."
+
+This is a textbook Salish lexical-suffix pattern: body-part suffixes routinely grammaticalize into locative/relational formatives, radiating into senses that no longer look connected on the surface without the etymology in hand.
+
+#### The dictionary paradigm for ləq̓aɬ
+
+A set of attested forms, lined up:
+
+| Form | Gloss | Structure |
+|---|---|---|
+| ləqaɬ čəxʷ ʔə t(a) adsqa | You are just like your older brother | root + comparison phrase |
+| ləqaɬ ʔu ʔə tiʔiɬ bads tiʔiɬ sadᶻəps | Is he as tall as his father? | root + comparison phrase |
+| xʷi kʷi stab gʷədəxʷləq̓aɬs əlgʷəʔ | There isn't a thing that they are good for | root, nominalized |
+| ʔuləq̓aɬil čəd | I'm correct | completive ʔu- + root + -il |
+| daʔxʷ čəxʷ ləq̓aɬil | Now you've got it right | root + -il |
+| ləq̓aɬilbic | You are in my way | root + -il + -bic ("way/path") |
+| ləq̓algʷəs čəxʷ ʔə kʷi haʔɬ sləx̌il | You are like a fine day | root + -gʷəs + comparison phrase |
+| ləq̓aɬucid čəd | I'm in the doorway | root + -ucid ("opening") |
+
+The pattern that emerges: **ləq̓aɬ + [X] = "be coincident with, at, or matching X."** The suffix specifies *what kind* of coincidence — a physical opening (-ucid), a path (-bic), a domain of resemblance (-gʷəs, with an explicit standard of comparison) — while bare root + the stativizer -il gives the purely evaluative "correct/right," with no location or comparandum at all.
+
+This is a productive template, not a set of scattered idioms. Swapping the suffix produces a predictable shift in what's being matched, with the root's core contribution constant throughout — the hallmark of live compositionality rather than a frozen, arbitrary compound.
+
+#### The English parallel: "right"
+
+English **"right"** spans the identical semantic territory: normative correctness ("you're right"), precise spatial coincidence ("right here," "right at the door"), and resemblance-adjacent uses ("right as rain"). Nobody using "right in the way" is consciously invoking moral correctness — yet it's the same word, doing two jobs from one underlying "exact coincidence with a reference point" schema.
+
+This convergence — an unrelated language independently producing the same polysemy cluster from "correctness/matching" — is evidence for a **shared human conceptual structure** (coincidence-with-a-reference-point covering both spatial and evaluative domains), not evidence that Lushootseed's culture or grammar uniquely elaborates this idea. It's the same reason "ləq̓aɬucid = I'm in the doorway" should be read as the natural idiomatic equivalent of "right at the door," not as proof the compound has gone semantically dead.
+
+#### Compositionality vs. lexicalization vs. bleaching (a needed distinction)
+
+Three concepts that are easy to conflate:
+
+- **Compositionality**: the meaning of a whole is derivable from its parts plus the combination rule. Fully compositional forms are transparent — the parts are still visibly doing their jobs.
+- **Lexicalization**: a once-compositional form becomes conventionalized as a single stored unit; speakers stop actively parsing it, even though an analyst can still recover the history. English *breakfast* (break + fast) is the classic case — etymologically clear, psychologically dead.
+- **Bleaching** (technical sense, from grammaticalization theory): a *content* word loses its semantic richness as it grammaticalizes into a *function* word. English "going to" → "gonna" (motion-verb meaning drains out entirely as it becomes a future-tense marker) is the canonical example. This is a different phenomenon from lexicalization — it's about semantic hollowing-out in service of a new grammatical role, not about loss of transparency.
+
+The relevant axis for ləq̓aɬucid is **transparency** (the lexicalization cline — Ullmann's older "motivation" scale: fully motivated → partially motivated → fully opaque), not bleaching. Diagnostics for where a form sits on that cline:
+1. **Productivity** — are there other root+ucid compounds built the same pattern? (Yes, per the paradigm above — strong evidence for continued compositionality.)
+2. **Semantic narrowing** — does the compound apply to any opening, or only a specific, socially/structurally "correct" one?
+3. **Speaker paraphrase behavior** — does a fluent speaker explain the word compositionally, or reach immediately for an unanalyzed gloss?
+
+Given the productive paradigm evidence, ləq̓aɬucid looks closer to the transparent end of the cline than to a frozen idiom — Hess and Hilbert's choice to preserve the morpheme-by-morpheme gloss ("be.in.right.place") alongside the idiomatic translation ("by the door") reads as showing both the compositional analysis and its natural English equivalent, not as hedging between two unrelated meanings.
+
+#### The noun/verb question — Kinkade vs. Beck
+
+M. Dale Kinkade's 1983 paper ("Salish Evidence Against the Universality of 'Noun' and 'Verb'") argued that virtually any Salish root can be inflected as a predicate regardless of its lexical category, taking this as evidence against a noun/verb distinction existing at all in these languages. This strong claim is now considered incorrect.
+
+**David Beck's (2013) correction**, using Lushootseed data: the noun–verb distinction is **neutralized in syntactic predicate position** (any root can be pressed into predicate use, as Kinkade observed) but **remains relevant in argument position**, where nouns and verbs behave differently. Beck terms this **unidirectional flexibility** — a real, specific structural pattern, but importantly *not* equivalent to the complete absence of the category distinction that Kinkade's stronger claim implied.
+
+#### A better piece of evidence: derivational transparency (Hess, ləɬax̌il)
+
+Separate from the (now-revised) noun/verb debate, Thom Hess's own commentary offers a cleaner example of a genuine, checkable typological difference. From *Lushootseed Grammar*, Vocabulary Note 10.17:
+
+> Note the similarity between ɬax̌ "night" and ləɬax̌il "evening." The latter is made from the former by fixing lə- to the beginning, and -il to the ending. The prefix -lə- indicates an ongoing action or condition, while the suffix -il has the meaning of beginning or becoming (more so). Thus ləɬax̌il "evening" means literally "becoming night" and has the added flavor of deepening darkness moving over the earth. Lushootseed words are often much more descriptive than their English translations. This is but the first of thousands of examples where it is seen that Lushootseed talks in terms of actions and changes while English manipulates things.
+
+This directly illuminates the -il morpheme seen throughout the ləq̓aɬ paradigm: **-il is not a simple stativizer, it is specifically inchoative** ("becoming," not just "being"). Reread in that light:
+- *daʔxʷ čəxʷ ləq̓aɬil* — "now you've got it right" — literally "now you've **become** correct," a change of state, not a static description.
+- *ʔuləq̓aɬil čəd* — "I'm correct" — with completive ʔu- stacked on inchoative -il: "I have **arrived at** correct," a completed change-of-state.
+
+The same morphological move that turns "night" into "evening" (root + becoming-suffix) turns "correct/matching" into "having-become correct." This is a real, structural parallel — not dependent on Kinkade's discredited claim — and a stronger example of "Lushootseed talks in actions and changes."
+
+#### Weighing the cultural-tendency hypothesis
+
+**The question:** is ləq̓aɬ's rich polysemy (and Lushootseed's verb/process-oriented derivational style generally) evidence of a *cultural* tendency toward valuing "being in right place" — as opposed to simply a structural or coincidental feature of the grammar?
+
+**Arguments for caution:**
+- The "right" parallel shows the *polysemy itself* (correctness ↔ spatial coincidence) is a general human conceptual pattern, attested in an unrelated language (English) with no comparable cultural claim attached. One richly-polysemous word is weak evidence for a cultural thesis on its own.
+- This kind of move — reading one striking lexical item as a direct window into a culture's worldview — has a poor track record (cf. the "Eskimo words for snow" cautionary tale), where modest lexical facts get inflated into unsupported claims about how a whole people think.
+- Some of the English/Lushootseed contrast in derivational transparency may reflect **linguistic history and erosion rate** rather than differing conceptual ontologies — English has both eroded many of its own once-transparent deverbal nouns through sound change and buried native vocabulary under heavy Latinate/French borrowing, which never had English-internal derivational transparency to begin with.
+- Morphological transparency (visible to an analyst) doesn't guarantee psychological liveness (felt by an ordinary speaker in real time) — English *breakfast* is just as etymologically transparent as *ləɬax̌il*, but dead to ordinary use.
+
+**Arguments in favor of taking the hypothesis seriously (though not as proven):**
+- The derivational-transparency claim (Lushootseed keeps a large share of everyday vocabulary visibly built from active, change-of-state material) is a real, checkable typological fact — Hess frames it as pervasive ("thousands of examples"), not anecdotal, and it is in principle quantifiable and comparable across languages.
+- Coast Salish oral tradition and protocol literature **independently** emphasizes correct/appropriate placement, right relationship to place, and proper conduct (seating and speaking order, relationship to resources) as social and spiritual values — documented by tribal knowledge-keepers on their own terms, not inferred backward from etymology. If that independently-attested cultural emphasis and the lexical pattern line up, the convergence is a stronger argument than either fact alone, because it isn't just an outsider reading meaning into a word.
+
+**Where this leaves it:** a live, respectable hypothesis rather than a demonstrated fact. The strongest version of the claim keeps the two evidentiary threads separate and lets them corroborate each other — independent ethnographic documentation of a "right relationship to place" value, alongside (not derived from) the lexical/morphological pattern — rather than trying to prove the cultural claim from the word alone.
+
+#### Sources referenced
+- Bates, Dawn; Hess, Thom; Hilbert, Vi taqʷšəblu (1994). *Lushootseed Dictionary*. University of Washington Press.
+- Hess, Thom. *Lushootseed Grammar*, Vocabulary Note 10.17 (via Hess & Hilbert grammar materials, aklanguages.uas.alaska.edu / slexildata.artsrn.ualberta.ca archives).
+- Kinkade, M. Dale (1983). "Salish Evidence Against the Universality of 'Noun' and 'Verb'." *Lingua* 60.
+- Beck, David (2013). On unidirectional flexibility of parts-of-speech categories in Lushootseed.
+- Wiktionary entry for *-ucid*, citing Bates/Hess/Hilbert 1994, p. 243.
+- Wikipedia, "Lushootseed" and "Lushootseed grammar" (for the dxʷləšucid etymology and general grammatical background).
+
+
+</details>
+
 
 <details><summary>ləq̓aɬ čəxʷ ʔə t(a) adsqa</summary>
 You are just like your older brother.
@@ -2022,9 +2276,9 @@ verbs, some speakers usually omit <b>kʷi</b>, others tend to omit
 `,
 
 
-"Sentence Structure":
+"  Phrase Structure":
 `
-<h5>Lushootseed Sentence Structure</h5>
+<h5>Lushootseed Phrase Structure</h5>
 
 <h7>(informal comments by David Beck, offered in email November 2019)</h7>
 
@@ -3700,7 +3954,49 @@ that fit this definition:
 `
 **ICS**
 
+<details><summary>ICS vs ECS: vague boundaries</summary>
+
+
+Well, I think the first caveat with all this is that we need to be
+careful about taking the meanings of affixes like -t too
+literally. More often than not, the combination of a derivational
+(word-forming) affix with a given stem is not going to be
+compositional (the exact sum of the meanings of its parts). Since no
+language is going to have exactly the pieces we need with the meanings
+we want to combine to get precisely the word we want, speakers have to
+use a best fit approach, taking things that are close enough to what
+we need to get something that works. It’s the sae with
+words. Sometimes there isn’t exactly the word we need so we make one
+up or tie a new connotation to one that exists. Just like words,
+derivational affixes can be used in metaphorical or figurative ways,
+as in this example.
+
+I call -t an event-internal causative because when you compare the
+words forms with -t to the words forms with -txʷ, the overall
+impressionistic trend I saw was the -txʷ tends to be found in word
+where the causer/agent is less involved or affected by the action
+being described, and the translations into English are often things
+we’d say with expressions like “X makes/causes Y to … “. -t words tend
+to be things that the actor X does to Y (causing a change in Y), and
+more often correspond to single English words. But there are lots of
+exceptions.
+
+So your question for me is, why did they choose -t instead of -txʷ, or
+why did they think -t was a better fit for what they wanted to say. My
+answer would be, probably because the verb they wanted a) has an
+inanimate object and b) is a routine thing people do in which the
+actor is almost always going to be more important than the thing acted
+on. I would guess that the word ƛ̓uc̓usid seemed more analogous to other
+-t verbs already in the lexicon than to the -txʷ words.
+
+
+
+</details>
+
+Note (email
+
 internal causative: approximately, the transitive, event-internal cause.
+for example: the flower bloomed.
 
 **David Beck's draft grammar, section 2.1.2.1.**
 

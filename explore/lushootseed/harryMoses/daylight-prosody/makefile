@@ -2,8 +2,13 @@
 NAME = howDaylightWasStolen
 BASEDIR=~/github/slexil2
 
+PORT = 8765
+
 default:
 	@echo targets:
+	@echo venv
+	@echo server
+	@echo pid
 	@echo  venv eaf http refresh-js html
 	@echo  install
 	@echo  curl
@@ -14,8 +19,8 @@ default:
 	@echo  view
 	@echo  view-pshannon
 	@echo  updateLocal [s2h, inject]
-	@echo  update [s2h, inject, publish, viewRemote]
-	@echo  publish
+	@echo  update [s2h, inject, publish-alberta, viewRemote]
+	@echo  publish-alberta
 	@echo  publish-audio
 	@echo  publish-pshannon
 	@echo  viewRemote
@@ -23,13 +28,16 @@ default:
 venv:
 	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
-PORT = 8009
+server:
+	python -m http.server $(PORT) &
+
+pid:
+	lsof -i -n -P | grep $(PORT)
+
 
 curl:
 	curl -I https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-restoration_V03-22k-aLaw.wav
 
-http:
-	python -m http.server $(PORT) &
 
 #y2h:
 #	python $(BASEDIR)/utils/yaml2html.py \
@@ -45,7 +53,7 @@ s2h:
         --kbFilename kb.js \
         --pageTitle "Harry Moses - How Daylight Was Stolen" \
         --helpButtonLabel About \
-        --helpFile about.html \
+        --helpFile aboutNew.html \
         --provideRecording \
         --linguistics linguisticTerms.js
 
@@ -84,14 +92,18 @@ refresh-js:
 	cp -p ../../*.js .
 	cp -p ../../slexil.css .
 
+DEST2=pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
 
-publish:
-	scp daylight2.html pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/index.html
-	scp kb.js pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
-	scp linguisticTerms.js pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
+publish-alberta:
+	rsync -a daylight2.html $(DEST2)/index.html
+	rsync -a kb.js $(DEST2)
+	rsync -a linguisticTerms.js $(DEST2)
+	rsync -a docs/taxonomy.html $(DEST2)docs/
+	rsync -a *.jpeg $(DEST2)
 
 publish-audio:
-	scp daylight-restoration_V03-22k-aLaw.wav pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
+	scp daylight-24k.wav pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
+#	scp daylight-restoration_V03-22k-aLaw.wav pshannon@134.87.10.153:www/lushootseed/harryMoses/daylight/
 
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/daylight
 publish-pshannon:
@@ -100,14 +112,15 @@ publish-pshannon:
 	rsync -a linguisticTerms.js $(DEST)
 	rsync -a daylight-restoration_V03-22k-aLaw.wav $(DEST)
 	rsync -a docs/taxonomy.html paulshannnon@pshannon.net:public_html/pshannon.net/docs/
+	rsync -a *.jpeg $(DEST)
 
 updateLocal: s2h inject 
 
-update: s2h inject publish viewRemote
+update: s2h inject publish-alberta viewRemote
 
 
 view:
-	open daylight2.html
+	open http://localhost:$(PORT)/daylight2.html
 
 viewRemote:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/

@@ -1,6 +1,277 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"dᶻəɬ":
+`
+<b>dᶻəɬ</b>
+
+Verb, also predicate particle?  (see HM line 9)
+
+   <ul>
+      <li><b>variants</b> dᶻal, dᶻəl, dᶻalq,  dᶻəlq
+      <li>reverse the side of, i.e., turn over, turn around [LD 87]
+      <li> go around or over a hill of obstruction
+      <li><b>dᶻalq-cut</b> turn self over
+      <li><b>dᶻal=alap </b> go around a tree
+      <li><b>dᶻal=qs</b> go around a point
+   </ul>
+
+`,
+
+
+"ƛ̓ub ləq̓aɬucid kʷi ɬudsʔaʔ":
+
+`
+<b>ƛ̓ub ləq̓aɬucid kʷi ɬudsʔaʔ</b>
+
+<details><summary>ƛ̓ub <i>good, fine, all right; should, had better, ought </i></summary>
+   <ul>
+      <li><b>LD 155</b>
+      <li><b>this root can fill a variety of lexical categories, including
+      verb and predicate adverb</b>
+   </ul>
+
+<b>as verb</b>
+   <ul>
+      <li><b>ʔəsƛ̓ub ɬuhəliʔ</b> Let it live!  
+   </ul>
+
+
+<b>as predicate adverb</b>
+   <ul>
+      <li><b>ƛ̓ubəxʷ čəxʷ x̌ʷuləxʷ ɬubščəb</b> You ought to become just a mink...
+      <li><b>bəƛ̓ub ʔas</b> it's all right that way
+      <li><b>ʔu, tux̌ʷ čəxʷ ƛ̓ub ʔuʔux̌ʷ</b> Oh, but you had better go
+      <li><b>xʷi ləƛ̓ub</b> it is not right (that)
+      <li><b>ʔəsƛ̓uƛ̓ubil</b>  a little better
+      <li><b>uƛ̓ubildxʷ</b>  agree with someone
+   </ul>
+
+
+
+</details>
+
+<details><summary>ləq̓aɬ <i>be in correct place, be on target </i></summary>
+   <ul>
+      <li><b>ləqaɬ čəxʷ ʔə t(a) adsqa</b> You are just like your older brother.
+      <li><b>ləqaɬ ʔu ʔə tiʔiɬ bads tiʔiɬ sadᶻəps</b> Is he as tall as his father?
+      <li><b>xʷi kʷi stab gʷədəxʷləq̓aɬs əlgʷəʔ</b> There isn't a thing that they are good for
+      <li><b>ʔuləq̓aɬil čəd</b> I'm correct   (perfective right/correct becoming)
+      <li><b>daʔxʷ čəxʷ ləq̓aɬil</b> Now you've got it right  (becoming right/correct)
+      <li><b>ləq̓aɬilbic</b> You are in my way
+      <li><b>ləq̓algʷəs čəxʷ ʔə kʷi haʔɬ sləx̌il</b> You are like a fine day
+      <li><b>ləq̓aɬucid čəd</b> I'm in the doorway
+   </ul>
+
+Advice from claude: The pattern that emerges: ləq̓aɬ + [X] = "be
+coincident with, at, or matching X." The suffix specifies what kind of
+coincidence — a physical opening (-ucid), a path (-bic), a domain of
+resemblance (-gʷəs, with an explicit standard of comparison) — while
+bare root + the stativizer -il gives the purely evaluative
+"correct/right," with no location or comparandum at all.
+
+This is a productive template, not a set of scattered idioms. Swapping
+the suffix produces a predictable shift in what's being matched, with
+the root's core contribution constant throughout — the hallmark of
+live compositionality rather than a frozen, arbitrary compound.
+
+English **"right"** spans the identical semantic territory: normative
+correctness ("you're right"), precise spatial coincidence ("right
+here," "right at the door"), and resemblance-adjacent uses ("right as
+rain"). Nobody using "right in the way" is consciously invoking moral
+correctness — yet it's the same word, doing two jobs from one
+underlying "exact coincidence with a reference point" schema.
+
+This convergence — an unrelated language independently producing the
+same polysemy cluster from "correctness/matching" — is evidence for a
+**shared human conceptual structure**
+(coincidence-with-a-reference-point covering both spatial and
+evaluative domains), not evidence that Lushootseed's culture or
+grammar uniquely elaborates this idea. It's the same reason "ləq̓aɬucid
+= I'm in the doorway" should be read as the natural idiomatic
+equivalent of "right at the door," not as proof the compound has gone
+semantically dead.
+
+
+
+</details>
+
+
+<details><summary>ʔaʔ</summary>
+</details>
+   <ul>
+   <li><b></b>  [LD ]
+   <li><b></b>  [LD ]
+   <li><b></b>  [LD ]
+</ul>
+
+`,
+
+
+
+"x̌ʷul̓ ƛ̓ulədiʔiʔil tiʔiɬ ɬukʷaɬ gʷəl ƛ̓uləƛ̓ip̓usitəb tiʔəʔ sləx̌il":
+
+`
+<b>x̌ʷul̓ ƛ̓ulədiʔiʔil tiʔiɬ ɬukʷaɬ gʷəl ƛ̓uləƛ̓ip̓usitəb tiʔəʔ sləx̌il</b>
+
+<details><summary>diʔ <i>be on other side</i></summary>
+   <ul>
+      <li><b>ƛ̓u-</b> ongoing
+      <li><b>lə-</b> progressive
+      <li><b>diʔ</b> opposite side, other side, on/at/to the other side
+      <li><b>iʔ</b> exclusivity or uniqueness
+      <li><b>-il</b> becoming (more so)
+   </ul>
+
+</details>
+
+<details><summary>ƛ̓ip̓ <i>squeeze</i></summary>
+   <ul>
+      <li><b>ƛ̓u-</b> ongoing
+      <li><b>lə-</b> progressive
+      <li><b>ƛ̓ip̓</b> grip tightly, squeeze, compress [LD 154]
+      <li><b>us</b> face
+      <li><b>-i</b> secondary suffix
+      <li><b>-t</b> internal causative (e.g., like "flower bloomed")
+      <li><b>-b</b> passive, subject is the target, undergoer of action [LD 32]
+   </ul>
+
+
+
+</details>
+
+
+`,
+
+
+
+
+
+"x̌ʷul̓ ʔəswačbid":
+`
+<b>ʔəswačbid</b>
+
+<details><summary>wač <i>watch</i></summary>
+   <ul>
+      <li><b>ʔəs-</b> stative
+      <li><b>wač</b> [loan word]
+      <li><b>-bi</b> MAP adds an 'extra' recipient or beneficiary of an action,
+         not an ordinary subject (mink) or object (the sun) - but rather
+         what is being done to the sun.
+      <li><b>-d</b> internal causation
+   </ul>
+</details>
+
+`,
+
+
+"diɬ səɬax̌il":
+
+`
+<b>diɬ səɬax̌il</b>
+
+<details><summary>ɬax̌ <i>be dark</i></summary>
+
+<ul>
+   <li> <b>s</b> nominalizer 
+   <li> <b>lə</b> progressive
+   <li><b>ɬax̌</b> night, dark, darkness
+   <li> <b>il</b> become (more so)
+</ul>
+</details>
+
+`,
+
+
+"ƛ̓uləƛ̓uc̓usitəb diɬ sbəsads":
+`
+<b>ƛ̓uləƛ̓uc̓usitəb diɬ sbəsads</b>
+
+<details><summary>ƛ̓uc̓ <i>tied.in.bunch</i></summary>
+
+<ul>
+    <li> ƛ̓u: ongoing
+    <li> lə: progressively
+    <li> <b>ƛ̓uc̓</b> pull together, bunch up [LD 156]
+    <li> =us: face (lexical suffix)
+    <li> i: secondary suffix?
+    <li> t: internal causative, transitive
+    <li> b: passive, emphasizes the person or object that experiences an action rather than the person or object that performs the action.
+</ul>
+</details>
+
+<details><summary>bəsad <i>grow dark</i></summary>
+
+<ul>
+   <li> <b>s=</b>  nominalizer
+   <li> <b>bəsad</b> grow dark, evening [LD 39]
+   <li> <b>=s</b>  3po
+</ul>
+</details>
+
+`,
+
+"ʔəswačbitəb ʔə bibščəb":
+
+`
+<b>ʔəswačbitəb ʔə bibščəb</b>
+
+<details><summary>analysis</summary>
+
+Compare 52 <b>ʔəswačbid</b> STAT–watch–MAP–ICS in which implicit subject is Mink,
+who watches
+
+to <b>ʔəswačbitəb</b> STAT–watch–MAP–ICS–PASS
+in which the implicit subject is sun/daylight, which is watched.
+
+Two important constraints of Lushootseed grammar
+<ul>
+
+   <li> Only one third-person direct actant (subject or direct object)
+    may be overt in a clause: in transitive clauses, third-person
+    subjects are elided (1a); first- and second-person subjects in
+    transitive clauses are realizable as pronominals (2a), which are
+    not NPs.
+
+   <li> Oblique (intransitive) objects are not in the verb’s profile and surface as a PP (2b).
+</ul>
+
+
+
+   <ul>
+      <li><b>-bi</b> middle applicative, but not sure how
+      <li><b>-t-b</b> -b is a component in a number of derivational
+      suffixes as well, and combines with transitive suffixes to form
+      a passive construction: -təb, -du-b, -tu-b, c-əb, and -s-əb
+   </ul>
+
+
+
+  
+<a href="https://share.google/aimode/ADY0QvW7hvDY496RH" target="_blank">analysis</a>
+
+</details>
+
+
+
+<details><summary>wač</summary>
+
+<ul>
+   <li><b>ʔəs-</b> stative
+   <li><b>wač</b> [loan word]
+   <li><b>bi</b> MAP adds an 'extra' recipient or beneficiary of an action,
+         not an ordinary subject (mink) or object (the sun) - but rather
+         what is being done to the sun.
+   <li><b>t</b> internal causation
+   <li><b>-b</b> passive, subject is the target, undergoer of action [LD 32]
+</ul>
+</details>
+
+
+`,
+
+
+
 "ləx̌":
 
 `
@@ -308,6 +579,78 @@ English.
 
 **ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il**
 
+<details><summary>ʔaʔ <i>be there, be in existence</i></summary>
+   <ul>
+      <li><b>ƛ̓u=</b> ongoing
+   </ul>
+
+
+</details>
+
+<details><summary>wač <i>watch</i></summary>
+   <ul>
+      <li><b>ƛ̓u=</b> ongoing 
+      <li><b>ʔas-</b> stative
+      <li><b>wač</b> [loan word]
+      <li><b>-bi</b> MAP adds an 'extra' recipient or beneficiary of an action,
+         not an ordinary subject (mink) or object (the sun) - but rather
+         what is being done to the sun.
+      <li><b>-d</b> internal causation
+   </ul>
+</details>
+
+<details><summary>huyu <i> do, make, prepare, get ready</i></summary>
+   <ul>
+      <li><b>ƛ̓u-</b> ongoing
+      <li><b>as</b> stative
+      <li><b>huyu</b>
+      <li><b>-t</b> internal causation
+      <li><b>-id</b> passive (in conservative speech)
+   </ul>
+
+
+</details>
+
+
+<details><summary>Comments on ICS, ECS, DC</summary>
+
+email from david 30 august 2026):
+
+<blockquote>
+Well, I think the first caveat with all this is that we need to be
+careful about taking the meanings of affixes like <b>-t</b> too
+literally. More often than not, the combination of a derivational
+(word-forming) affix with a given stem is not going to be
+compositional (the exact sum of the meanings of its parts). Since no
+language is going to have exactly the pieces we need with the meanings
+we want to combine to get precisely the word we want, speakers have to
+use a best fit approach, taking things that are close enough to what
+we need to get something that works. It’s the sae with
+words. Sometimes there isn’t exactly the word we need so we make one
+up or tie a new connotation to one that exists. Just like words,
+derivational affixes can be used in metaphorical or figurative ways,
+as in this example.
+
+I call <b>-t</b> an event-internal causative because when you compare the
+words forms with <b>-t</b> to the words forms with <b>-txʷ</b>, the overall
+impressionistic trend I saw was the <b>-txʷ</b> tends to be found in word
+where the causer/agent is less involved or affected by the action
+being described, and the translations into English are often things
+we’d say with expressions like “X makes/causes Y to … “. <b>-t</b> words tend
+to be things that the actor X does to Y (causing a change in Y), and
+more often correspond to single English words. But there are lots of
+exceptions.
+
+So your question for me is, why did they choose <b>-t</b> instead of <b>-txʷ</b>, or
+why did they think <b>-t</b> was a better fit for what they wanted to say. My
+answer would be, probably because the verb they wanted a) has an
+inanimate object and b) is a routine thing people do in which the
+actor is almost always going to be more important than the thing acted
+on. I would guess that the word ƛ̓uc̓usid seemed more analogous to other
+<b>-t</b> verbs already in the lexicon than to the <b>-txʷ</b> words.
+
+Maybe not the most satisfying answer
+</blockquote>
 
 Here is an interesting use of two different flavors of the <b>ICS</b>
 (internal causation) suffix.  Recall that <b>internal causation</b>
@@ -328,6 +671,7 @@ Uncertainty on this:
    <li>(something) does something to the sun, which Mink is on the lookout for. (Sounds like ECS to me.)
 </ul>
 
+</details>
 
 `,
 
@@ -3974,9 +4318,10 @@ _ʔəɬəd  ʔə  ti     sʔuladx̌_        (oblique complement)
 eat       of   the  salmon
 ’s/he/they eat the salmon'
 
-Direct complements, or noun phrases in general, normally have demonstratives or determiners like
-“ti”, “tiʔiɬ”, etc., in front of them. However, there are a couple of verbs that can have nouns
-without a demonstrative, like this čəɬ. So it is okay to say something like
+Direct complements, or noun phrases in general, normally have
+demonstratives or determiners like “ti”, “tiʔiɬ”, etc., in front of
+them. However, there are a couple of verbs that can have nouns without
+a demonstrative, like this čəɬ. So it is okay to say something like
 
 _čəɬ 		ƛ’əlayʔ_
 make	canoe
@@ -4333,10 +4678,12 @@ _back there (then)_
 
 "uʔxʷ":
 `
-- still, yet. predicate particle.  LD 243
-- also _huʔxʷ_
-- _xʷi uʔxʷ_ : not yet
-
+- still, yet. predicate particle.  [LD 243]
+- also <i>huʔxʷ</i>
+- <i>xʷi uʔxʷ</i>  &nbsp; not yet
+- <i>ƛ̓alal uʔxʷ gʷək ləbsad</i>  &nbsp; Early yet, bit it's getting dark.
+- <i>ʔəsʔitut uʔxʷ</i>  &nbsp; He's still sleeping.
+- <i>xʷiʔ uʔxʷ gʷədsʔitut</i> &nbsp;  I still cannot sleep.
 `,
 
 "tu=t’əd•al•gʷiɬ":

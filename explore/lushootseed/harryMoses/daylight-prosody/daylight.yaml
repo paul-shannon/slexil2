@@ -1,7 +1,9 @@
 title: How Daylight Was Stolen
 narrator: Harry Moses
 textEntry: Paul Shannon
-mediaFile: daylight-restoration_V03-22k-aLaw.wav
+mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-24k.wav
+#mediaFile: daylight-24k.wav
+#mediaFile: http://localhost:8080/daylight-24k.wav
 mimeType: audio/x-wav
 
 lines:
@@ -213,14 +215,14 @@ lines:
     english: As they drew near this place of daylight,
 
   - startTime: 117000
-    endTime: 119616
+    endTime: 119031
     lushootseed:  ləx̌iličəxʷ əlgʷəʔ
     soundsLike: luck.hail.aichuff helgwah
     morphemes: [ləx̌–il•ič=əxʷ,əlgʷəʔ]
     morphemeGloss: [light–INCH•covering=now,pl]
     english: Light enveloped them.
 
-  - startTime: 119617
+  - startTime: 119758
     endTime: 123638
     lushootseed: ƛ̓uhagʷəxʷ kʷi ƛ̓usləx̌ils gʷəl ƛ̓ubələbəsad
     soundsLike: tloo.hogwuff kwee tloo.sluckhails gwel tloo.bah.luh.buhsod
@@ -512,7 +514,7 @@ lines:
   - startTime: 259821
     endTime:   264823
     lushootseed: ƛ̓uʔaʔ x̌ʷul̓ ƛ̓aswačbid tiʔiɬ ƛ̓ashuyutid tiʔəʔ sləx̌il
-    soundsLike: tloo.AHHHHH too buss tluss.watch.uh.beed teeth tu.hoyute.teed tee.ah sluh.khail
+    soundsLike: tloo.AHHHHH too buss tluss.watch.uh.beed teeth tu.hoyute.teed tee.ah sluck.hail
     morphemes: [ƛ̓u=ʔaʔ,x̌ʷul̓,ƛ̓u=ʔas–wač–bi–d,tiʔiɬ,ƛ̓u=ʔas–huyu–t–id,tiʔəʔ,sləx̌il]
     morphemeGloss: [HAB=be.there,only,HAB=STAT–watch–MAP–ICS,DIST,HAB=STAT–made–ICS–PASS.SBRD,PROX,daylight]
     english: He would be there just watching what was done with it.
@@ -535,7 +537,7 @@ lines:
 
   - startTime: 272256
     endTime:   274573
-    lushootseed: diɬ səɬaˑx̌il
+    lushootseed: diɬ səɬax̌il
     soundsLike: deeth luh.slaaaaawk.hail
     morphemes: [diɬ,s=lə=ɬax̌–il]
     morphemeGloss: [foc,NM=PROG=dark–INCH]
@@ -601,7 +603,7 @@ lines:
   - startTime: 294880
     endTime:   298309
     lushootseed: tiləb ʔusaxʷəb bibščəb gʷəl tədᶻil ʔal tiʔiɬ dəxʷəstədᶻils
-    soundsLike: tay.lub oh.sawfwub babes.chud gwell lut tudz.ail al teesh day saws tail
+    soundsLike: tay.lub oh.sawfwub babes.chud gwell lut tuh.ZAIL al teesh dawss ZAIL
     morphemes: [tiləb,ʔu–saxʷəb,bi–bəščəb,gʷəl,tədᶻil,ʔal,tiʔiɬ,dəxʷ=ʔəs–tədᶻil=s]
     morphemeGloss: [immediately,pfv–jump,attn–mink,SCONJ,lie.in.bed,at,DIST,ADNM=STAT–lie.in.bed=3PO]
     english: Quickly Little Mink jumped back and lay where he lay down.
@@ -618,7 +620,7 @@ lines:
   - startTime: 298635
     endTime:   302765
     lushootseed: ʔəstədᶻilič ʔə diʔ q̓ʷaɬčup puʔud tiʔəʔ q̓ʷaɬčup gʷəl pədič
-    soundsLike: 
+    soundsLike: tuh.daaay ah dee kwawlsup
     morphemes: [ʔəs–tədᶻil•ič,ʔə,diʔ,q̓ʷaɬ•čup,puʔu–d,tiʔəʔ,q̓ʷaɬ•čup,gʷəl,pəd•ič]
     morphemeGloss: [STAT–lie.in.bed•covering,pr,other.side,ash•fire,blow–ICS,PROX,ash•fire,SCONJ,buried•covering]
     english: He went to bed covered by fine ash powder.He blew on this fine ash powder and is buried.
