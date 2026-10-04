@@ -1,6 +1,44 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ʔu–saxʷəb":
+
+`
+<b>ʔu–saxʷəb</b>
+
+<ul>
+
+   <li><i>ʔu-</i> &nbsp; perfective, action viewed as a single whole
+   w/o regard to phases or parts of the event. verbal inflectional
+   prefix of perfective aspect [LD 19]
+   <li><i>saxʷəb</i> &nbsp;jump, leap, scamper off; run (especially in a
+   short burst of energy, as opposed to <i>təlawil</i>, to run for a
+   sustained period)  [LD 200]
+
+   <li><i>saxʷəb-txʷ</i> &nbsp; run off with, kidnap
+   <li><i>saʔsxʷəb</i> &nbsp; run a few steps [<i>red1</i>
+</ul>
+
+`,
+
+
+"tiləb":
+
+`
+<b>tiləb</b>
+
+<ul>
+   <li>right away, suddenly, abruptly, unexpectedly, immediately  [LD 225]
+   <li>right there, directly (with locative expression) [adverb]  [LD 225]
+   <li><i>tiləb čəd ɬuʔux̌ʷ</i> &nbsp; I'm going right now.
+   <li><i>tiləbəxʷ</i> &nbsp; bluntly
+   <li><i>tiləbəxʷ ʔuʔux̌ʷ</i> &nbsp; went directly
+   <li><i>tiləb t̓aq̓t kʷi sbəčs əlgʷəʔ</i> &nbsp; Abruptly up above (the shore) they dropped.
+</ul>
+
+`,
+
+
 "dᶻəɬ":
 `
 <b>dᶻəɬ</b>
