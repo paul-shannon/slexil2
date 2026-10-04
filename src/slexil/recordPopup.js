@@ -126,7 +126,7 @@ $(document).ready(function() {
         
    $('#waveformPopup').dialog({autoOpen: false,
                                title: 'Audio Waveform',
-                               width: 'auto',
+                               width: 400,
                                height: 'auto',
                                resizable: false,
                                closeText: " close ",
@@ -135,9 +135,8 @@ $(document).ready(function() {
                                   }
                                });
     let errorText = `
-        slexil offers a 'record your voice' option, but it works only in Chrome browsers.
-        <br><br>Safari and FireFox support for recording is currently broken.
-        <br><br>Note that you can install Chrome on most computers
+        slexil offers a 'record your voice' option, but only in Chrome browsers.
+        <br><br>You can install Chrome on most computers
         and devices: Windows computers, Android phones and tablets,
         as well as Apple desktops, laptops, iPads and iPhones.
         `;
@@ -209,7 +208,9 @@ $(document).ready(function() {
          console.log("--- destroying sourceLineWaveSurver")
          sourceLineWavesurfer.destroy()
          }
-       myVoiceWavesurfer.destroy();
+       if(myVoiceWavesurfer){
+          myVoiceWavesurfer.destroy();
+          }
        sourceLineWavesurfer.destroy();
        if(myVoiceRecorder != undefined){
           myVoiceRecorder.destroy()
