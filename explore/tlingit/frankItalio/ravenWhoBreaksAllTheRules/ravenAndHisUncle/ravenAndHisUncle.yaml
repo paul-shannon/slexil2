@@ -1,0 +1,183 @@
+title: Yéil k̲a Du Kaak
+narrator: Frank Italio
+textEntry: Paul Shannon
+#mediaFile: breakRules-standard.wav
+mediaFile: http://localhost:12341/breakRules-standard.wav
+#mediaFile: https://aklanguages.uas.alaska.edu/tlingit/breakRules-mono.1-3.wav
+mimeType: audio/x-wav
+
+lines:
+
+  - lineNumber: 1
+    startTime: 0
+    endTime: 2778
+    tlingit: Yéil, {...}x̲ siteeyi át
+    english: Raven, a being that is {...},
+
+  - lineNumber: 2
+    startTime: 3870
+    endTime: 5251
+    tlingit: k̲a yú dís—
+    english: and the moon—
+    
+  - lineNumber: 3
+    startTime: 5449
+    endTime: 7162
+    tlingit: Ts’oowdalé: Dei ÿaa kanilaník áwé.
+    english: Minnie Johnson: You’re already telling the story.
+
+  - lineNumber: 4
+    startTime: 7812
+    endTime: 9422
+    tlingit: yú dís áyú,
+    english: the moon
+
+  - lineNumber: 5
+    startTime: 10002
+    endTime: 14304
+    tlingit: du káakx̱ sitee, yá lingit’aanikáx’ ḵwá yéi yatee yú dís,
+    english: was his uncle; but the moon was here on the earth.
+
+  - lineNumber: 6
+    startTime: 14745
+    endTime: 16726
+    tlingit: tléil yú dikéex̱ wulxáat’.
+    english: It wasn’t suspended up above in the sky.
+
+  - lineNumber: 7
+    startTime: 17881
+    endTime: 18668
+    tlingit: Haaw
+    english: Well
+
+  - lineNumber: 8
+    startTime: 20450
+    endTime: 23000
+    tlingit: x̱at x̱’akakg̱eenéek ágé? Ách áyá {…},
+    english: are you going to interpret what I say? This is why {…},
+
+  - lineNumber: 9
+    startTime: 23424
+    endTime: 25313
+    tlingit: ách áwé tléil—.
+    english: that's why I'm not—.
+
+  - lineNumber: 10
+    startTime: 25644 
+    endTime: 28891
+    tlingit: Ts’oowdalé: Yá a tóode yoo x̱’eeyatangi (Aaá) át áwé, tlákw ÿaa kaklaneek.
+    english: Johnson: It’s this recorder you are speaking (Okay) into; continue telling the story.
+
+  - lineNumber: 11
+    startTime: 28900
+    endTime: 28901
+    tlingit: Aaá.
+    english: Okay.
+
+  - lineNumber: 12
+    startTime: 29107
+    endTime: 29907
+    tlingit: Áwé
+    english: So,
+
+  - lineNumber: 13
+    startTime: 32438
+    endTime: 34836
+    tlingit: yáa tl’atgikáa yéi teeyí,
+    english: when he was here on the earth,
+
+  - lineNumber: 14
+    startTime: 35357 
+    endTime: 36706
+    tlingit: yú dís ḵu.aa,
+    english: the moon, that is,
+
+  - lineNumber: 15
+    startTime: 37150
+    endTime: 41142
+    tlingit: ldakát lingit’aantuḵwáanich áyú du jee akawdlix̱éitl’.
+    english: all of the inhabitants of the world were afraid of what he could do
+
+  - lineNumber: 16
+    startTime: 42582
+    endTime: 43363
+    tlingit: Yá ḵées’
+    english: Because the tide
+
+  - lineNumber: 17
+    startTime: 43560
+    endTime: 45035
+    tlingit: du jeenáx̱ kawuhaaÿích,
+    english: was under his authority,
+
+  - lineNumber: 18
+    startTime: 45454
+    endTime: 49675
+    tlingit: Yooḵis’kooḵéik yóo áyú duwasáakw yú dís.
+    english: the moon was called Tide-Commander.
+
+
+#  - lineNumber: 
+#    startTime: 
+#    endTime: 
+#    tlingit: 
+#    english: 
+#
+# Haaw,
+# x̱at x̱’akakg̱eenéek ágé? Ách áyá {…},
+# ách áwé tléil—.
+# Ts’oowdalé: Yá a tóode yoo x̱’eeyatangi át áwé, tlákw ÿaa kaklaneek.
+# Aaá.
+# Áwé
+# yáa tl’atgikáa yéi teeyí,
+# yú dís ḵu.aa,
+# ldakát lingit’aantuḵwáanich áyú du jee akawdlix̱éitl’.
+# Yá ḵées’
+# du jeenáx̱ kawuhaaÿích,
+# Yooḵis’kooḵéik yóo áyú duwasáakw yú dís.
+# Lingítch yéi yasáakw
+# Yooḵis’kooḵéik.
+# Á áwé,
+# áwé yáa—
+# yáa tl’atgikáa yéi teeyée áwé,
+# du dlaak’ jeex’ tlél yát awuswáat.
+
+
+# It wasn’t suspended up above in the sky.
+# Well,
+# are you going to interpret what I say? This is why {…},
+# that’s why I’m not—.
+# Johnson: It’s this recorder you are speaking into; continue telling the story.
+# Okay.
+# So,
+# when he was here on the earth,
+# the moon, that is,
+# all of the inhabitants of the world were afraid of what he could do.
+# Because the tide
+# was under his authority,
+# the moon was called Tide-Commander.
+# The Tlingit people call him
+# Tide-Commander.
+# So,
+# when—
+# when he was on the earth,
+# he did not allow any children to be raised in his sister’s care.
+
+
+#  - lineNumber: 
+#    startTime: 
+#    endTime: 
+#    tlingit: 
+#    english: 
+
+#  - lineNumber: 
+#    startTime: 
+#    endTime: 
+#    tlingit: 
+#    english: 
+
+#  - lineNumber: 
+#    startTime: 
+#    endTime: 
+#    tlingit: 
+#    english: 
