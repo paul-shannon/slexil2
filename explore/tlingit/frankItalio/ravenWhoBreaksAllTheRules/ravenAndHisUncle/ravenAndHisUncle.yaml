@@ -2,11 +2,33 @@ title: Yéil k̲a Du Kaak
 narrator: Frank Italio
 textEntry: Paul Shannon
 #mediaFile: breakRules-standard.wav
-mediaFile: http://localhost:12341/breakRules-standard.wav
-#mediaFile: https://aklanguages.uas.alaska.edu/tlingit/breakRules-mono.1-3.wav
+#mediaFile: http://localhost:12341/breakRules-standard.wav
+#mediaFile: http://localhost:12341/ravenAndHisUncle.wav
+mediaFile: https://aklanguages.uas.alaska.edu/tlingit/ravenAndHisUncle.wav
 mimeType: audio/x-wav
 
 lines:
+
+  - html: "<div class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <h5>Ḵuchéin, Frank Italio (1870–1956)</h5>
+              <img src='frankItalio-thunderbirdHouse-1918.jpeg'
+                       width='400'>
+              <div style='margin: 20px; margin-left: 2px; width: 500px; white-space: normal;'>
+              Figure 3 from Yéil Kundayaayí. This may be
+              the only photograph that exists of Frank Italio. This is
+              a detail of a larger image taken on glass plate in Dry
+              Bay, c. 1918. He stands inside Xeitl Hít ‘Thunderbird
+              House’, a Shangukeidí clan house erected in Dry Bay in
+              1909. Behind him is the Xeitl X̱ ’éen ‘Thunderbird
+              Screen’, which now resides at the Alaska State Museum in
+              Juneau. Photo by Fhoki Kayamori. Courtesy of Bryn Mawr
+              College Special Collections, bmc-1975-06, box 13, folder
+              2. See de Laguna, Under Mount Saint Elias, plate 215,
+              1144–55, for the full image and further details and
+              identification.  </div>
+           </div>"
+
 
   - lineNumber: 1
     startTime: 0
@@ -155,692 +177,692 @@ lines:
   - lineNumber: 25
     startTime: 67195
     endTime:  69150
-    tlingit: Du dlaak’ ḵudzitee.25
-    english: He had a sister. 25
+    tlingit: Du dlaak’ ḵudzitee.
+    english: He had a sister. 
 
   - lineNumber: 26
     startTime: 70635
-    endTime:   72402
-    tlingit: Tle yéi ḵunastéeni áwé 26
-    english: As one was being born,26
+    endTime:   72342
+    tlingit: Tle yéi ḵunastéeni áwé
+    english: As one was being born,
 
   - lineNumber: 27
-    startTime: 72407
+    startTime: 72451
     endTime:   73999
-    tlingit: du goox̱x’ú yéi ayanasḵéich—. 27
-    english: he would tell his slaves—. 27
+    tlingit: du goox̱x’ú yéi ayanasḵéich—.
+    english: he would tell his slaves—.
 
   - lineNumber: 28
     startTime: 74041
     endTime:   78100
-    tlingit: Ldakát yá lingit’aantuḵwáani áyá goox̱x’úx̱ awliyéx̱ yú dís. 28
-    english: The moon had made all of the world’s inhabitants into slaves. 28
+    tlingit: Ldakát yá lingit’aantuḵwáani áyá goox̱x’úx̱ awliyéx̱ yú dís.
+    english: The moon had made all of the world’s inhabitants into slaves.
 
   - lineNumber: 29
     startTime: 79051
     endTime:   83358
-    tlingit: Yú du jee akoolx̱éitl’—yá ḵées’i akoolx̱éitl’ ḵu.aa áyú yóo kaawagei, 29
-    english: The fear of his power—the fear of the floodtide had become so pervasive that 29
+    tlingit: Yú du jee akoolx̱éitl’—yá ḵées’i akoolx̱éitl’ ḵu.aa áyú yóo kaawagei,
+    english: The fear of his power—the fear of the floodtide had become so pervasive that
 
   - lineNumber: 30
     startTime: 84187
     endTime:   87395
-    tlingit: ch’u tle ch’a aadóo sá yéi ayawsiḵaa tle du jeex̱ goot, 30
-    english: whomever he told to do so would submit to his power, 30
+    tlingit: ch’u tle ch’a aadóo sá yéi ayawsiḵaa tle du jeex̱ goot,
+    english: whomever he told to do so would submit to his power,
 
   - lineNumber: 31
     startTime: 87970
     endTime:   88764
-    tlingit: tle ch’a hú. 31
-    english: his alone. 31
+    tlingit: tle ch’a hú.
+    english: his alone.
 
   - lineNumber: 32
     startTime: 90525
     endTime:   91462
-    tlingit: Á áwé, 32
-    english: So, 32
+    tlingit: Á áwé,
+    english: So,
 
   - lineNumber: 33
     startTime: 91704
     endTime:   92940
-    tlingit: áx’ áwé 33
-    english: at that point 33
+    tlingit: áx’ áwé
+    english: at that point
 
   - lineNumber: 34
     startTime: 93603
     endTime:   94964
-    tlingit: yéi yaawaḵaa—. 34
-    english: he said—. 34
+    tlingit: yéi yaawaḵaa—.
+    english: he said—.
 
   - lineNumber: 35
     startTime: 101219
     endTime:   103006
-    tlingit: Yú du dlaak’,35
-    english: As for his sister, 35
+    tlingit: Yú du dlaak’,
+    english: As for his sister,
 
   - lineNumber: 36
     startTime: 105663
     endTime:   107149
-    tlingit: wáanée sáwé 36
-    english: eventually 36
+    tlingit: wáanée sáwé
+    english: eventually
 
   - lineNumber: 37
     startTime: 107305
     endTime:   109717
-    tlingit: hóoch’x̱ wusitee du wátx’i. Ch’u tle áwé 37
-    english: all her children had been eradicated. 37
+    tlingit: hóoch’x̱ wusitee du wátx’i. Ch’u tle áwé
+    english: all her children had been eradicated.
 
   - lineNumber: 38
     startTime: 109870
     endTime:   111522
-    tlingit: goox̱x’ áwé yéi ayanasḵéich, 38
-    english: He would just tell the slaves, 38
+    tlingit: goox̱x’ áwé yéi ayanasḵéich,
+    english: He would just tell the slaves,
 
   - lineNumber: 39
     startTime: 112662 
     endTime:   114537
-    tlingit: «Aadé naÿ.á! 39
-    english: “Go there! 39
+    tlingit: «Aadé naÿ.á!
+    english: “Go there!
 
   - lineNumber: 40
     startTime: 115274
     endTime:   117187
-    tlingit: Daa sáyú ḵuwdzitee?» 40
-    english: What is it that has been born?” 40
+    tlingit: Daa sáyú ḵuwdzitee?»
+    english: What is it that has been born?”
 
   - lineNumber: 41
-    startTime: 115341
-    endTime:   117179
-    tlingit: «Ḵáa áyú. » 41
-    english: “It’s a male.” 41
+    startTime: 118609
+    endTime:   119856
+    tlingit: «Ḵáa áyú. »
+    english: “It’s a male.”
 
   - lineNumber: 42
     startTime: 120896
     endTime:   122269
-    tlingit: «Ag̱ajaaḵ! 42
-    english: “Let my slaves kill it! 42
+    tlingit: «Ag̱ajaaḵ!
+    english: “Let my slaves kill it!
 
   - lineNumber: 43
     startTime: 123004
     endTime:   124901
-    tlingit: Ag̱ajaaḵ!» tle yóo aÿanasḵéich du dlaak’. 43
-    english: Let them kill it!” he would say to his sister. 43
+    tlingit: Ag̱ajaaḵ!» tle yóo aÿanasḵéich du dlaak’.
+    english: Let them kill it!” he would say to his sister.
 
   - lineNumber: 44
     startTime: 125019
     endTime:   126587
-    tlingit: Aadé ḵukunaḵéich. 44
-    english: He would send people there. 44
+    tlingit: Aadé ḵukunaḵéich.
+    english: He would send people there.
 
   - lineNumber: 45
     startTime: 127511
     endTime:   131705
-    tlingit: Du x̱’ayáx̱ áwé tle oojaaḵch. Tsu yú du dlaak’ du jee akwdlix̱éitl’ yú ḵées’. 45
-    english: They would kill it at his word. Even his sister was afraid of his power and the floodtide. 45
+    tlingit: Du x̱’ayáx̱ áwé tle oojaaḵch. Tsu yú du dlaak’ du jee akwdlix̱éitl’ yú ḵées’.
+    english: They would kill it at his word. Even his sister was afraid of his power and the floodtide.
 
   - lineNumber: 46
     startTime: 132085
     endTime:   132964
-    tlingit: Ách 46
-    english: That’s why 46
+    tlingit: Ách
+    english: That’s why
 
   - lineNumber: 47
     startTime: 133708
     endTime:   135915
-    tlingit: tle oojaaḵch wé shaawát du wádi,47
-    english: they would always kill the child of that woman, 47
+    tlingit: tle oojaaḵch wé shaawát du wádi,
+    english: they would always kill the child of that woman,
 
   - lineNumber: 48
     startTime: 136852
     endTime:   138178
-    tlingit: ḵáax̱ wusteeyí 48
-    english: when it was determined 48
+    tlingit: ḵáax̱ wusteeyí
+    english: when it was determined
 
   - lineNumber: 49
     startTime: 138329
     endTime:   140113
-    tlingit: tsoo shaawátx̱ sateeyí 49
-    english: whether it was male, 49
+    tlingit: tsoo shaawátx̱ sateeyí
+    english: whether it was male,
 
   - lineNumber: 50
     startTime: 140609
     endTime:   142297
-    tlingit: yéi kawduneegí. 50
-    english: or even if it was female. 50
+    tlingit: yéi kawduneegí.
+    english: or even if it was female.
 
   - lineNumber: 51
     startTime: 142697
     endTime:   145445
-    tlingit: Yú du shát eedé ÿax̱ ÿagax̱dusḵáa. 51
-    english: Someone could smuggle a message to his wife. 51
+    tlingit: Yú du shát eedé ÿax̱ ÿagax̱dusḵáa.
+    english: Someone could smuggle a message to his wife.
 
   - lineNumber: 52
     startTime: 146120
     endTime:   149273
-    tlingit: Ách áwé ch’u tle tsu oojaaḵch tle yú shaawát tsú 52
-    english: That’s why they would still kill it, even if it were a female, 52
+    tlingit: Ách áwé ch’u tle tsu oojaaḵch tle yú shaawát tsú
+    english: That’s why they would still kill it, even if it were a female,
 
   - lineNumber: 53
     startTime: 151017
     endTime:   152382
-    tlingit: du x̱’ayéx̱. 53
-    english: at his command. 53
+    tlingit: du x̱’ayéx̱.
+    english: at his command.
 
   - lineNumber: 54
     startTime: 153993
     endTime:   156962
-    tlingit: Tlél ḵwaayú ín áyú du x̱’awoolnáx̱ unashú 54
-    english: But there was no obsidian sticking up through her doorway 54
+    tlingit: Tlél ḵwaayú ín áyú du x̱’awoolnáx̱ unashú
+    english: But there was no obsidian sticking up through her doorway
 
   - lineNumber: 55
     startTime: 157597
     endTime:   159838
-    tlingit: áa yóo ḵaa jikung̱aḵéigín áwé. 55
-    english: whenever he would order people there to do it. 55
+    tlingit: áa yóo ḵaa jikung̱aḵéigín áwé.
+    english: whenever he would order people there to do it.
 
   - lineNumber: 56
     startTime: 161091
     endTime:   162003
-    tlingit: Tléik’.56
-    english: No. 56
+    tlingit: Tléik’.
+    english: No.
 
   - lineNumber: 57
     startTime: 162597
     endTime:   165400
-    tlingit: De ch’a hóoch’ áwé, aadé kdunik yé áyá, du x̱’ayéx̱ áyú. 57
-    english: That’s all there was to it. This is the way it is told; it was as he commanded. 57
+    tlingit: De ch’a hóoch’ áwé, aadé kdunik yé áyá, du x̱’ayéx̱ áyú.
+    english: That’s all there was to it. This is the way it is told; it was as he commanded.
 
   - lineNumber: 58
     startTime: 165633
     endTime:   167365
-    tlingit: Du x̱’éix’ áyú akawdlix̱éitl’ yú— 58
-    english: His sister lived in— 58
+    tlingit: Du x̱’éix’ áyú akawdlix̱éitl’ yú—
+    english: His sister lived in—
 
   - lineNumber: 59
     startTime: 167935
     endTime:   169277
-    tlingit: yú du dlaak’ ḵu.aa. 59
-    english: in fear of his pronouncements. 59
+    tlingit: yú du dlaak’ ḵu.aa.
+    english: in fear of his pronouncements.
 
   - lineNumber: 60
     startTime: 170859
     endTime:   171891
-    tlingit: Aadéx̱ áwé, 60
-    english: So then, 60
+    tlingit: Aadéx̱ áwé,
+    english: So then,
 
   - lineNumber: 61
     startTime: 173138
     endTime:   174353
-    tlingit: wáananée sáwé, 61
-    english: eventually, 61
+    tlingit: wáananée sáwé,
+    english: eventually,
 
   - lineNumber: 62
     startTime: 174481
     endTime:   176318
-    tlingit: hóoch’, de ÿát du jeet shoowaxíx. 62
-    english: that was that; she ran out of children. 62
+    tlingit: hóoch’, de ÿát du jeet shoowaxíx.
+    english: that was that; she ran out of children.
 
   - lineNumber: 63
     startTime: 177770
     endTime: 179367
-    tlingit: «Ei-ei áyáa-áa-áa!» 63
-    english: “He-ey aya-a-ah!” 63 
+    tlingit: «Ei-ei áyáa-áa-áa!»
+    english: “He-ey aya-a-ah!”
 
   - lineNumber: 64
     startTime: 179452
     endTime: 181059
-    tlingit: X’aa luká áwé áa g̱ax̱ nuch 64
-    english: On the tip of a point of land the woman 64 
+    tlingit: X’aa luká áwé áa g̱ax̱ nuch
+    english: On the tip of a point of land the woman
 
   - lineNumber: 65
     startTime: 181165
     endTime: 182184
-    tlingit: wé shaawát, 65
-    english: would weep, 65 
+    tlingit: wé shaawát,
+    english: would weep,
 
   - lineNumber: 66
     startTime: 183298
     endTime: 184582
-    tlingit: x’aa luká. 66
-    english: on the tip of a point. 66 
+    tlingit: x’aa luká.
+    english: on the tip of a point.
 
   - lineNumber: 67
     startTime: 186868
-    endTime: 189901
-    tlingit: Wáanée sáyá Kéet du eeg̱iyáa yaawagóo. 67
-    english: At some point a flotilla of Killerwhales appeared offshore from her. 67 
+    endTime: 189901 
+    tlingit: Wáanée sáyá Kéet du eeg̱iyáa yaawagóo.
+    english: At some point a flotilla of Killerwhales appeared offshore from her.
 
   - lineNumber: 68
     startTime: 192554
     endTime: 195670
-    tlingit: Tle anax̱ ÿánde akaawanáa wé aanḵáawuch. 68
-    english: The Killerwhale Headman commanded the flotilla ashore. 68 
+    tlingit: Tle anax̱ ÿánde akaawanáa wé aanḵáawuch.
+    english: The Killerwhale Headman commanded the flotilla ashore.
 
   - lineNumber: 69
     startTime: 197458
     endTime: 198811
-    tlingit: Gushtuwool 69
-    english: Hole-in-the-Dorsal-Fin 69 
+    tlingit: Gushtuwool
+    english: Hole-in-the-Dorsal-Fin
 
   - lineNumber: 70
     startTime: 199071
     endTime: 200340
-    tlingit: yóo duwasáakw 70
-    english: is the name of 70 
+    tlingit: yóo duwasáakw
+    english: is the name of 
 
   - lineNumber: 71
     startTime: 200824
     endTime: 202484
-    tlingit: Kéet Aanḵáawu. 71
-    english: the Killerwhale Headman. 71 
+    tlingit: Kéet Aanḵáawu.
+    english: the Killerwhale Headman.
 
   - lineNumber: 72
     startTime: 204499
-    endTime: 207500
-    tlingit: Du eeg̱aÿáanáx̱ ÿan uwaḵúx̱, 72
-    english: He landed at the shore below her, 72 
+    endTime: 205874
+    tlingit: Du eeg̱aÿáanáx̱ ÿan uwaḵúx̱,
+    english: He landed at the shore below her,
 
   - lineNumber: 73
-    startTime: 205963
+    startTime: 205989
     endTime: 207316
-    tlingit: tle ash x̱áni yéi uwagút. 73
-    english: got out of his canoe, and walked up to her. 73 
+    tlingit: tle ash x̱áni yéi uwagút.
+    english: got out of his canoe, and walked up to her.
 
   - lineNumber: 74
     startTime: 207882
     endTime: 209829
-    tlingit: «Wáa sáyá x̱’ayeeḵá yáat?» 74
-    english: “What are you carrying on about here?” 74 
+    tlingit: «Wáa sáyá x̱’ayeeḵá yáat?»
+    english: “What are you carrying on about here?”
 
   - lineNumber: 75
     startTime: 210827
     endTime: 215068
-    tlingit: «Aaa, ax̱ ÿátx’u sáani ax̱ jeet shoowaxíx, cha Aanḵáawu. 75
-    english: “Yes, O Headman, all my children have died off on me. 75 
+    tlingit: «Aaa, ax̱ ÿátx’u sáani ax̱ jeet shoowaxíx, cha Aanḵáawu.
+    english: “Yes, O Headman, all my children have died off on me.
 
   - lineNumber: 76
     startTime: 216046
     endTime: 217130
-    tlingit: Hóoch’.  76
-    english: They’re all gone. 76 
+    tlingit: Hóoch’.
+    english: They’re all gone.
 
   - lineNumber: 77
     startTime: 217332
-    endTime: 219024
-    tlingit: Hasdu ítde áyá yéi x̱’ayax̱aḵá.  77
-    english: I am crying for their loss. 77 
+    endTime: 219090
+    tlingit: Hasdu ítde áyá yéi x̱’ayax̱aḵá.
+    english: I am crying for their loss.
 
   - lineNumber: 78
-    startTime: 219148
+    startTime: 219215
     endTime: 220960
-    tlingit: Yú ax̱ éek’ x̱’ayéx̱ áyú.» 78
-    english: They were killed at my brother’s command.” 78 
+    tlingit: Yú ax̱ éek’ x̱’ayéx̱ áyú.»
+    english: They were killed at my brother’s command.”
 
   - lineNumber: 79
     startTime: 222602
     endTime: 224100
-    tlingit: Awsikóo hóoch ḵu.aa 79
-    english: Hole-in-the-Dorsal-Fin himself knew 79 
+    tlingit: Awsikóo hóoch ḵu.aa
+    english: Hole-in-the-Dorsal-Fin himself knew
 
   - lineNumber: 80
     startTime: 224304
     endTime: 226460
-    tlingit: yú ḵées’ du jeenáx̱ kawuhaayí. 80
-    english: that the floodtide was under her brother’s control. 80 
+    tlingit: yú ḵées’ du jeenáx̱ kawuhaayí.
+    english: that the floodtide was under her brother’s control.
 
   - lineNumber: 81
     startTime: 227309
     endTime: 230708
-    tlingit: Tléil wáa sá—tléil wáa sá aÿawusḵaaÿí áwé ch’u tle, 81
-    english: Without—without saying anything to her, 81 
+    tlingit: Tléil wáa sá—tléil wáa sá aÿawusḵaaÿí áwé ch’u tle,
+    english: Without—without saying anything to her,
 
   - lineNumber: 82
     startTime: 232150
     endTime: 233194
-    tlingit: aan— 82
-    english: with her— 82 
+    tlingit: aan—
+    english: with her—
 
   - lineNumber: 83
     startTime: 233809
     endTime: 235101
-    tlingit: aan wudzigeet. 83
-    english: he performed the act with her. 83 
+    tlingit: aan wudzigeet.
+    english: he performed the act with her.
 
   - lineNumber: 84
     startTime: 235297
     endTime: 237399
-    tlingit: Du kinaak.ádi tle kaax̱ kéi awditée, 84
-    english: He took off his coat, 84 
+    tlingit: Du kinaak.ádi tle kaax̱ kéi awditée,
+    english: He took off his coat,
 
   - lineNumber: 85
     startTime: 237931
     endTime: 241249
-    tlingit: yú du doogú áyá. Ch’u shóogu lingítx̱ sitee 85
-    english: which was his skin. You see, Hole-in-the-Dorsal-Fin 85 
+    tlingit: yú du doogú áyá. Ch’u shóogu lingítx̱ sitee
+    english: which was his skin. You see, Hole-in-the-Dorsal-Fin
 
   - lineNumber: 86
     startTime: 242192
     endTime: 243790
-    tlingit: yú Gushtuwool ḵu.aa. 86
-    english: was the same as a human being. 86 
+    tlingit: yú Gushtuwool ḵu.aa.
+    english: was the same as a human being.
 
   - lineNumber: 87
     startTime:  244398
     endTime: 246370
-    tlingit: Tle wé shaawáttin áwé 87
-    english: He and the woman just 87 
+    tlingit: Tle wé shaawáttin áwé
+    english: He and the woman just
 
   - lineNumber: 88
     startTime: 246880
     endTime: 248845
-    tlingit: at géide s wudzigeet tle. 88
-    english: performed the unnatural act. 88 
+    tlingit: at géide s wudzigeet tle.
+    english: performed the unnatural act.
 
   - lineNumber: 89
     startTime: 250411
     endTime: 250991
-    tlingit: Haaw, 89
-    english: Well, 89 
+    tlingit: Haaw,
+    english: Well,
 
-  - lineNumber: 190
+  - lineNumber: 90
     startTime: 251088
     endTime: 252869
-    tlingit: atx̱ áwé ÿan aÿawsiḵáa, 190
-    english: after that he explained the plan to her, 190 
+    tlingit: atx̱ áwé ÿan aÿawsiḵáa,
+    english: after that he explained the plan to her,
 
-  - lineNumber: 191
+  - lineNumber: 91
     startTime: 254029
     endTime: 257584
-    tlingit: «Yá ts’ootaatx’ yan wulaayí ch’u tle yú ḵées’— 191
-    english: “In the morning when the tide has gone all the way down, 191 
+    tlingit: «Yá ts’ootaatx’ yan wulaayí ch’u tle yú ḵées’—
+    english: “In the morning when the tide has gone all the way down,
 
-  - lineNumber: 192
+  - lineNumber: 92
     startTime: 257805
     endTime: 259338
-    tlingit: ḵées’ áx̱ laa ÿé, 192
-    english: you will go to 192 
+    tlingit: ḵées’ áx̱ laa ÿé,
+    english: you will go to 
 
-  - lineNumber: 193
+  - lineNumber: 93
     startTime: 259826
     endTime: 261277
-    tlingit: aadé áwé kg̱eegóot. 193
-    english: the place the tide recedes to. 193 
+    tlingit: aadé áwé kg̱eegóot.
+    english: the place the tide recedes to.
 
-  - lineNumber: 194
+  - lineNumber: 94
     startTime: 261848
     endTime: 263423
-    tlingit: Áx̱ ÿaa ḵikg̱eetées’. 194
-    english: You should proceed to search about there. 194 
+    tlingit: Áx̱ ÿaa ḵikg̱eetées’.
+    english: You should proceed to search about there.
 
-  - lineNumber: 195
+  - lineNumber: 95
     startTime: 264030
     endTime: 266351
-    tlingit: Té aax̱ ÿit’eiÿí yéi kugeiyí, 195
-    english: When you find a stone there that’s this big, 195 
+    tlingit: Té aax̱ ÿit’eiÿí yéi kugeiyí,
+    english: When you find a stone there that’s this big,
 
-  - lineNumber: 196
+  - lineNumber: 96
     startTime: 267169
     endTime: 269834
-    tlingit: daakdadúgu ch’u tlei ch’a k’idéin 196
-    english: a solid one without blemishes, you should very carefully 196 
+    tlingit: daakdadúgu ch’u tlei ch’a k’idéin
+    english: a solid one without blemishes, you should very carefully
 
-  - lineNumber: 197
+  - lineNumber: 97
     startTime: 270039
     endTime: 271347
-    tlingit: atx̱ kéi kg̱eetée. 197
-    english: pick it up from there. 197 
+    tlingit: atx̱ kéi kg̱eetée.
+    english: pick it up from there.
 
-  - lineNumber: 198
+  - lineNumber: 98
     startTime: 271937
     endTime: 273820
-    tlingit: Tle gankáa daak gag̱eetée. 198
-    english: Then you are to put it in the fire. 198 
+    tlingit: Tle gankáa daak gag̱eetée.
+    english: Then you are to put it in the fire.
 
-  - lineNumber: 199
+  - lineNumber: 99
     startTime: 275043
     endTime: 277530
-    tlingit: Gankáx’ áwéi ÿakg̱isat’áa. 199
-    english: You are to heat it up in the fire. 199 
+    tlingit: Gankáx’ áwéi ÿakg̱isat’áa.
+    english: You are to heat it up in the fire.
 
   - lineNumber: 100
     startTime: 278962
     endTime: 281807
-    tlingit: Ḵúnáx̱ tl’éx̱ yáx̱ ÿawut’aaÿí áwé tsá 100
-    english: Only once it’s really nice and warm, 100
+    tlingit: Ḵúnáx̱ tl’éx̱ yáx̱ ÿawut’aaÿí áwé tsá
+    english: Only once it’s really nice and warm,
 
   - lineNumber: 101
     startTime: 282075
     endTime: 284646
-    tlingit: kéi kg̱ilaxwéin tle kikg̱eenóot’. 101
-    english: you are to scoop it up and swallow it. 101
+    tlingit: kéi kg̱ilaxwéin tle kikg̱eenóot’.
+    english: you are to scoop it up and swallow it.
 
   - lineNumber: 102
     startTime: 284808
     endTime: 286431
-    tlingit: léil x̱’éi kg̱idanook,»                                                     102 
-    english:  You won’t feel the heat in your mouth,” 102
+    tlingit: léil x̱’éi kg̱idanook,»                                                    
+    english:  You won’t feel the heat in your mouth,”
 
   - lineNumber: 103
     startTime: 286918
     endTime: 288271
-    tlingit: yóo áwé ash daaÿaḵá.                                                      103 
-    english:  he said to her. 103
+    tlingit: yóo áwé ash daaÿaḵá.                                                     
+    english:  he said to her.
 
   - lineNumber: 104
     startTime: 291127
     endTime: 293590
-    tlingit: Ayéx̱ áwé yéi jeewanei wé shaawát.                                         104 
-    english:  The woman did just that. 104
+    tlingit: Ayéx̱ áwé yéi jeewanei wé shaawát.                                        
+    english:  The woman did just that.
 
   - lineNumber: 105
     startTime: 295347
     endTime: 296461
-    tlingit: Haaw,                                                                     105 
-    english:  Well, 105
+    tlingit: Haaw,                                                                    
+    english:  Well,
 
   - lineNumber: 106
     startTime: 297927
     endTime: 299308
-    tlingit: ḵeina.áa,                                                                 106 
-    english:  the next day 106
+    tlingit: ḵeina.áa,                                                                
+    english:  the next day
 
   - lineNumber: 107
     startTime: 299388
     endTime: 301331
-    tlingit: ḵeix̱’é áwé sh wudzix̱éḵ.                                                   107 
-    english:  she roused herself at daybreak. 107
+    tlingit: ḵeix̱’é áwé sh wudzix̱éḵ.                                                  
+    english:  she roused herself at daybreak.
 
   - lineNumber: 108
     startTime: 301654
     endTime: 303548
-    tlingit: Éi! Yan kawlikúx wé ḵées’.                                                108 
-    english:  Ey! The tide had completely dried up. 108
+    tlingit: Éi! Yan kawlikúx wé ḵées’.                                               
+    english:  Ey! The tide had completely dried up.
 
   - lineNumber: 109
     startTime: 306952
     endTime: 310526
-    tlingit: Áx̱ ÿaa nagúdi yá éiḵ awsiteen wé té, yéi kugoogek’i té.                   109 
-    english:  As she was walking down the beach she saw the stone, a tiny stone. 109
+    tlingit: Áx̱ ÿaa nagúdi yá éiḵ awsiteen wé té, yéi kugoogek’i té.                  
+    english:  As she was walking down the beach she saw the stone, a tiny stone.
 
   - lineNumber: 110
     startTime: 311576
     endTime: 313969
-    tlingit: Tle k’wát’ yáx̱ kaaxát, daakdidúk tle.                                     110 
-    english:  It was just round and solid with no imperfections. 110
+    tlingit: Tle k’wát’ yáx̱ kaaxát, daakdidúk tle.                                    
+    english:  It was just round and solid with no imperfections.
 
   - lineNumber: 111
     startTime: 316512
     endTime: 320901
-    tlingit: Tle dáaḵx’ daaḵ uwagút, tle gankáa daak aawatée.                          111 
-    english:  Then she walked further up from the beach and put it on the fire. 111
+    tlingit: Tle dáaḵx’ daaḵ uwagút, tle gankáa daak aawatée.                         
+    english:  Then she walked further up from the beach and put it on the fire.
 
   - lineNumber: 112
     startTime: 323276
     endTime: 325182
-    tlingit: Gankáa daak atée áwé                                                      112 
-    english:  When she put it on the fire, 112
+    tlingit: Gankáa daak atée áwé                                                     
+    english:  When she put it on the fire,
 
   - lineNumber: 113
     startTime: 327381
     endTime: 330180
-    tlingit: tl’éx̱ yáx̱ ÿaawat’áa, aadé ash shukoojeis’ yéyéx                           113 
-    english:  it became nice and hot; just as he instructed her 113
+    tlingit: tl’éx̱ yáx̱ ÿaawat’áa, aadé ash shukoojeis’ yéyéx                          
+    english:  it became nice and hot; just as he instructed her
 
   - lineNumber: 114
     startTime: 331080
     endTime: 333177
-    tlingit: a yeenáx̱ ayaawatsáḵ tsu daa sá.                                           114 
-    english:  she poked something or other down under it. 114
+    tlingit: a yeenáx̱ ayaawatsáḵ tsu daa sá.                                          
+    english:  she poked something or other down under it.
 
   - lineNumber: 115
     startTime: 334163
     endTime: 336565
-    tlingit: Du lakát akaawag̱íx’i                                                      115 
-    english:  When she tossed it into her mouth, 115
+    tlingit: Du lakát akaawag̱íx’i                                                     
+    english:  When she tossed it into her mouth,
 
   - lineNumber: 116
     startTime: 337477
     endTime: 339807
-    tlingit: tlél x̱’éi awdanook, áwé tle aawanóot’.                                    116 
-    english:  she didn’t feel the heat; she just swallowed it. 116
+    tlingit: tlél x̱’éi awdanook, áwé tle aawanóot’.                                   
+    english:  she didn’t feel the heat; she just swallowed it.
 
   - lineNumber: 117
     startTime: 340892
     endTime: 343733
-    tlingit: Goosú tlax̱ yéi yaawat’aÿi át l x̱’éi oodanoogún?                           117 
-    english:  How was it that she hadn’t felt such a hot object in her mouth? 117
+    tlingit: Goosú tlax̱ yéi yaawat’aÿi át l x̱’éi oodanoogún?                          
+    english:  How was it that she hadn’t felt such a hot object in her mouth?
 
   - lineNumber: 118
     startTime: 344836
     endTime: 345686
-    tlingit: Hóoch’.                                                                   118 
-    english:  That’s all there was to it. 118
+    tlingit: Hóoch’.                                                                  
+    english:  That’s all there was to it.
 
   - lineNumber: 119
     startTime: 345961
     endTime: 348850
-    tlingit: Tle tlél daa sá du yíkde tóo oonook tsú.                                  119 
-    english:  She didn’t feel anything inside her body either. 119
+    tlingit: Tle tlél daa sá du yíkde tóo oonook tsú.                                 
+    english:  She didn’t feel anything inside her body either.
 
   - lineNumber: 120
     startTime: 350259
     endTime: 353892
-    tlingit: Du yík ÿawut’aaÿí áyú aadé tóo akg̱wanóok yóo a daa tuwatee.               120 
-    english:  She thought she was going to feel her insides getting warm. 120
+    tlingit: Du yík ÿawut’aaÿí áyú aadé tóo akg̱wanóok yóo a daa tuwatee.              
+    english:  She thought she was going to feel her insides getting warm.
 
   - lineNumber: 121
     startTime: 354422
     endTime: 355262
-    tlingit: Tléik’.                                                                   121 
-    english:  Nope. 121
+    tlingit: Tléik’.                                                                  
+    english:  Nope.
 
   - lineNumber: 122
     startTime: 356970
     endTime: 359332
-    tlingit: Ei-ei-ei-ei wáannée sáwé                                                  122 
-    english:  Ey-y-y-y, eventually, 122
+    tlingit: Ei-ei-ei-ei wáannée sáwé                                                 
+    english:  Ey-y-y-y, eventually,
 
   - lineNumber: 123
     startTime: 360082
     endTime: 361223
-    tlingit: deisguch                                                                  123 
-    english:  gradually, 123
+    tlingit: deisguch                                                                 
+    english:  gradually,
 
   - lineNumber: 124
     startTime: 361764
     endTime: 362525
-    tlingit: dís—                                                                      124 
-    english:  her menstrual cycles— 124
+    tlingit: dís—                                                                     
+    english:  her menstrual cycles—
 
   - lineNumber: 125
     startTime: 362758
     endTime: 364485
-    tlingit: du dísi yaa shunaxíx.                                                     125 
-    english:  she stopped having her menstrual cycles. 125
+    tlingit: du dísi yaa shunaxíx.                                                    
+    english:  she stopped having her menstrual cycles.
 
   - lineNumber: 126
     startTime: 365802
     endTime: 367198
-    tlingit: Dís yaa nas.át.                                                           126 
-    english:  The months were passing. 126
+    tlingit: Dís yaa nas.át.                                                          
+    english:  The months were passing.
 
   - lineNumber: 127
     startTime: 371031
     endTime: 373362
-    tlingit: Áyá tsá hóoch’i aaÿí ÿawdziḵeen.                                          127 
-    english:  Finally, the last new moon came. 127
+    tlingit: Áyá tsá hóoch’i aaÿí ÿawdziḵeen.                                         
+    english:  Finally, the last new moon came.
 
   - lineNumber: 128
     startTime: 374424
     endTime: 377027
-    tlingit: «Líl i éek’ waḵshiyeex’ ḵu.aa,                                            128 
-    english:  “Don’t give birth where your brother can see; 128
+    tlingit: «Líl i éek’ waḵshiyeex’ ḵu.aa,                                           
+    english:  “Don’t give birth where your brother can see;
 
   - lineNumber: 129
     startTime: 377369
     endTime: 381681
-    tlingit: yéi ḵusteech yéix’ i yétx’i x’wán,» ÿan yóo ash yasiḵéik,                 129 
-    english:  be sure not to have this child where your children were born,” he kept warning her, 129
+    tlingit: yéi ḵusteech yéix’ i yétx’i x’wán,» ÿan yóo ash yasiḵéik,                
+    english:  be sure not to have this child where your children were born,” he kept warning her,
 
   - lineNumber: 130
     startTime: 382714
     endTime: 384245
-    tlingit: wé—wé du wadák’u.                                                         130 
-    english:  that young man of hers. 130
+    tlingit: wé—wé du wadák’u.                                                        
+    english:  that young man of hers.
 
   - lineNumber: 131
     startTime: 387213
     endTime: 388403
-    tlingit: Aadéx̱ áwé,                                                                131 
-    english:  Then, 131
+    tlingit: Aadéx̱ áwé,                                                               
+    english:  Then,
 
   - lineNumber: 132
     startTime: 389513
     endTime: 390077
-    tlingit: hóoch’,                                                                   132 
-    english:  that was that; 132
+    tlingit: hóoch’,                                                                  
+    english:  that was that;
 
   - lineNumber: 133
     startTime: 390277
     endTime: 392291
-    tlingit: ch’a yant’éix’ áwé ÿatwoo.oo.                                             133 
-    english:  she gave birth in seclusion. 133
+    tlingit: ch’a yant’éix’ áwé ÿatwoo.oo.                                            
+    english:  she gave birth in seclusion.
 
   - lineNumber: 134
     startTime: 394223
     endTime: 396965
-    tlingit: Tle tlél tsu du toowú tín tsú utí,                                        134 
-    english:  She no longer had reservations 134
+    tlingit: Tle tlél tsu du toowú tín tsú utí,                                       
+    english:  She no longer had reservations
 
   - lineNumber: 135
     startTime: 398185
     endTime: 401554
-    tlingit: ch’a wéit’át tuwáx’ kwshéiwé du éet wudasheeyí.                           135 
-    english:  as to whether that creature intended to help her. 135
+    tlingit: ch’a wéit’át tuwáx’ kwshéiwé du éet wudasheeyí.                          
+    english:  as to whether that creature intended to help her.
 
   - lineNumber: 136
     startTime: 402628
-    endTime: 404167
-    tlingit: Ei-ei, deisguch yaa nawát,                                                136 
-    english:  Ey-y, the child was gradually growing up, 136
+    endTime: 404109
+    tlingit: Ei-ei, deisguch yaa nawát,                                               
+    english:  Ey-y, the child was gradually growing up,
 
   - lineNumber: 137
-    startTime: 404311
-    endTime: 405234
-    tlingit: deisgwach yaa nawát.                                                      137 
-    english:  gradually growing up. 137
+    startTime: 404320  
+    endTime: 405157
+    tlingit: deisgwach yaa nawát.                                                     
+    english:  gradually growing up.
 
   - lineNumber: 138
-    startTime: 405302
+    startTime: 405340
     endTime: 407414
-    tlingit: Ch’a yant’éix’ áwé áx’ yaa anaswát.                                       138 
-    english:  She was raising him in seclusion. 138
+    tlingit: Ch’a yant’éix’ áwé áx’ yaa anaswát.                                      
+    english:  She was raising him in seclusion.
 
   - lineNumber: 139
     startTime: 409239
     endTime: 411073
-    tlingit: Du x̱ánt u.aatch wé du éek’ goox̱x’ú, tléik’,                               139 
-    english:  Her brother’s slaves would come to her, but no; 139
+    tlingit: Du x̱ánt u.aatch wé du éek’ goox̱x’ú, tléik’,                              
+    english:  Her brother’s slaves would come to her, but no;
 
 #  apparently untranscribed:
 #   startTime: 411168
@@ -850,738 +872,737 @@ lines:
   - lineNumber: 140
     startTime: 413258
     endTime: 414502
-    tlingit: a waaḵ náḵ oolsínch. 140                                                  
-    english:  she would hide the child from their eyes. 140 
+    tlingit: a waaḵ náḵ oolsínch.
+    english:  she would hide the child from their eyes.
 
   - lineNumber: 141
     startTime: 416655
     endTime: 419227
-    tlingit: Wáanée sáwé deisgwach at t’úkt wé neil. 141                               
-    english:  Eventually he was shooting a bow and arrow around the house. 141 
+    tlingit: Wáanée sáwé deisgwach at t’úkt wé neil.
+    english:  Eventually he was shooting a bow and arrow around the house.
 
   - lineNumber: 142
     startTime: 420732
     endTime: 423255
-    tlingit: Áwé tsáa káx̱ akanasteech chooneit yéx̱. 142                                
-    english:  At last he would don a string of little sticks to use as arrows. 142 
+    tlingit: Áwé tsáa káx̱ akanasteech chooneit yéx̱.
+    english:  At last he would don a string of little sticks to use as arrows.
 
   - lineNumber: 143
     startTime: 423378
     endTime: 424806
-    tlingit: Áa at t’úkt wé neil. 143                                                  
-    english:  He would shoot arrows at things inside the house. 143 
+    tlingit: Áa at t’úkt wé neil.
+    english:  He would shoot arrows at things inside the house.
 
   - lineNumber: 144
     startTime: 428481
     endTime: 431247
-    tlingit: Yax̱.atg̱wakú keitl yaanawádi yéx̱ áwé ÿatee. 144                            
-    english:  As the proverb goes, he was growing up as fast as a dog. 144 
+    tlingit: Yax̱.atg̱wakú keitl yaanawádi yéx̱ áwé ÿatee.
+    english:  As the proverb goes, he was growing up as fast as a dog.
 
   - lineNumber: 145
     startTime: 434230
     endTime: 435005
-    tlingit: Éh! 145                                                                   
-    english:  Eh! 145 
+    tlingit: Éh!
+    english:  Eh!
 
   - lineNumber: 146
     startTime: 436191
     endTime: 438069
-    tlingit: Shde ḵáax̱ sateeyí áwé, 146                                                
-    english:  Now that he was a man, 146 
+    tlingit: Shde ḵáax̱ sateeyí áwé,
+    english:  Now that he was a man,
 
   - lineNumber: 147
     startTime: 439676
     endTime: 442824
-    tlingit: yéi áwé ch’a hú chooneit chush jiyís awdliyéx̱ tle. 147                    
-    english:  he made his own arrows for himself. 147 
+    tlingit: yéi áwé ch’a hú chooneit chush jiyís awdliyéx̱ tle.
+    english:  he made his own arrows for himself.
 
   - lineNumber: 148
     startTime: 444569
     endTime: 446353
-    tlingit: Ÿan alyéix̱déx̱ áwé 148                                                     
-    english:  When he was done making them, 148 
+    tlingit: Ÿan alyéix̱déx̱ áwé
+    english:  When he was done making them,
 
   - lineNumber: 149
     startTime: 447376
     endTime: 449239
-    tlingit: woogoot. Aan nagútch. 149                                                 
-    english:  he left. He always brought them along. 149 
+    tlingit: woogoot. Aan nagútch.
+    english:  he left. He always brought them along.
 
   - lineNumber: 150
     startTime: 451574
     endTime: 452744
-    tlingit: Wáananée sáwé 150                                                         
-    english:  At some point 150 
+    tlingit: Wáananée sáwé
+    english:  At some point
 
   - lineNumber: 151
     startTime: 453024
     endTime: 454154
-    tlingit: x’éig̱aa 151                                                               
-    english:  he actually 151 
+    tlingit: x’éig̱aa
+    english:  he actually
 
   - lineNumber: 152
     startTime: 461078
     endTime: 462642
-    tlingit: at uwat’úk. 152                                                           
-    english:  shot something. 152 
+    tlingit: at uwat’úk.
+    english:  shot something.
 
   - lineNumber: 153
     startTime:  463116
     endTime: 464935
-    tlingit: Jiwdihoo wé gáaxw, 153                                                    
-    english:  A duck was swimming on the water, 153 
+    tlingit: Jiwdihoo wé gáaxw,
+    english:  A duck was swimming on the water,
 
   - lineNumber: 154
     startTime: 466113
     endTime: 467395
-    tlingit: áwé aawat’úk. 154                                                         
-    english:  so he shot it. 154 
+    tlingit: áwé aawat’úk.
+    english:  so he shot it.
 
   - lineNumber: 155
     startTime: 468082
     endTime: 471110
-    tlingit: De ash een ÿan akaawaník yú du káak aadé yéi jine yé 155                  
-    english:  His mother had already informed him of 155 
+    tlingit: De ash een ÿan akaawaník yú du káak aadé yéi jine yé
+    english:  His mother had already informed him of
 
   - lineNumber: 156
     startTime: 471318
     endTime: 473923
-    tlingit: du tláach ḵu.aa. (Du jín aawat’ách)  156                                  
-    english:  what his uncle was up to. (Slaps hands) 156 
+    tlingit: du tláach ḵu.aa. (Du jín aawat’ách) 
+    english:  what his uncle was up to. (Slaps hands)
 
   - lineNumber: 157
     startTime: 474027
     endTime: 474501
-    tlingit: Éh! 157                                                                   
-    english:  Eh! 157 
+    tlingit: Éh!
+    english:  Eh!
 
   - lineNumber: 158
     startTime: 478413
     endTime: 481842
-    tlingit: Atx̱ tóot awsitáa, adax̱ daaḵ awsitáa. 158                                  
-    english:  He picked up the duck, took it for himself, and then brought it up. 158 
+    tlingit: Atx̱ tóot awsitáa, adax̱ daaḵ awsitáa.
+    english:  He picked up the duck, took it for himself, and then brought it up.
 
   - lineNumber: 159
     startTime: 483152
     endTime: 486161
-    tlingit: Tle du tláa x̱ánt awustaaÿée áwé 159                                       
-    english:  When he brought it to his mother, 159 
+    tlingit: Tle du tláa x̱ánt awustaaÿée áwé
+    english:  When he brought it to his mother,
 
   - lineNumber: 160
     startTime: 487701
     endTime: 488947
-    tlingit: alx’éesh. 160                                                             
-    english:  she skinned it. 160 
+    tlingit: alx’éesh.
+    english:  she skinned it.
 
   - lineNumber: 161
     startTime: 489951
     endTime: 492085
-    tlingit: Yá a dix̱’kaanáx̱ áwé aawaḵ’ék’w 161                                        
-    english:  She slit it open along the back, 161 
+    tlingit: Yá a dix̱’kaanáx̱ áwé aawaḵ’ék’w
+    english:  She slit it open along the back,
 
   - lineNumber: 162
     startTime: 494526
     endTime: 495491
-    tlingit: du tláa— 162                                                              
-    english:  his mother— 162 
+    tlingit: du tláa—
+    english:  his mother—
 
   - lineNumber: 163
     startTime: 495773
     endTime: 496740
-    tlingit: du tláach. 163                                                            
-    english:  his mother did. 163 
+    tlingit: du tláach.
+    english:  his mother did.
 
   - lineNumber: 164
     startTime: 498612
     endTime: 503682
-    tlingit: Ch’u tle yóo áwé daatx̱ aawatee, tle a kíjitín, ldakát tle a x̱’oosí, 164   
-    english:  Then she took the skin off the body like this, wings and all, and even the feet, 164 
+    tlingit: Ch’u tle yóo áwé daatx̱ aawatee, tle a kíjitín, ldakát tle a x̱’oosí,
+    english:  Then she took the skin off the body like this, wings and all, and even the feet,
 
   - lineNumber: 165
     startTime: 504646
     endTime: 505897
-    tlingit: tle yéi áwé. 165                                                          
-    english:  just like that. 165 
+    tlingit: tle yéi áwé.
+    english:  just like that.
 
   - lineNumber: 166
     startTime: 508603
-    endTime: 511875
-    tlingit: Chaa ch’a aag̱áa áwé tsáa wé k’eeljáa yéi aÿakdatée áwé 166                
-    english:  Only when the storm wind was picking up 166 
+    endTime: 511881
+    tlingit: Chaa ch’a aag̱áa áwé tsáa wé k’eeljáa yéi aÿakdatée áwé
+    english:  Only when the storm wind was picking up
 
   - lineNumber: 167
-    startTime: 512071
+    startTime: 512128
     endTime: 513685
-    tlingit: yéi aÿawsiḵaa du tláa,167                                                 
-    english:  did he say to his mother, 167 
+    tlingit: yéi aÿawsiḵaa du
+    english:  did he say to his mother,
 
   - lineNumber: 168
     startTime: 514239
     endTime: 517064
-    tlingit: «K’e tóox̱ nagú, atléi, k’e tóox̱ nagú. » 168                               
-    english:  “You should get inside this duck skin, mother, you should get inside it.” 168 
+    tlingit: «K’e tóox̱ nagú, atléi, k’e tóox̱ nagú. »
+    english:  “You should get inside this duck skin, mother, you should get inside it.”
 
   - lineNumber: 169
     startTime: 517789
     endTime: 519313
-    tlingit: Tle a tóode woogoot 169                                                   
-    english:  His mother 169 
+    tlingit: Tle a tóode woogoot
+    english:  His mother
 
   - lineNumber: 170
     startTime: 520462
     endTime: 521421
-    tlingit: wé du tláa. 170                                                           
-    english:  then entered it. 170 
+    tlingit: wé du tláa.
+    english:  then entered it.
 
   - lineNumber: 171
     startTime: 522091
     endTime: 523152
-    tlingit: Íḵde yéiḵ nashíx— 171                                                     
-    english:  She began running down to the beach— 171 
+    tlingit: Íḵde yéiḵ nashíx—
+    english:  She began running down to the beach—
 
   - lineNumber: 172
     startTime: 523316
     endTime: 524950
-    tlingit: he.é—tle daak jiwdihóo. 172                                               
-    english:  gosh—and swam out to sea on the surface of the water. 172 
+    tlingit: he.é—tle daak jiwdihóo.
+    english:  gosh—and swam out to sea on the surface of the water.
 
   - lineNumber: 173
     startTime: 525425
     endTime: 526748
-    tlingit: Du kaadé yóo 173                                                          
-    english:  When the waves 173 
+    tlingit: Du kaadé yóo
+    english:  When the waves
 
   - lineNumber: 174
     startTime: 527147
     endTime: 529770
-    tlingit: teet yóo wuneeyí áwé tle a taÿeedé kát shaadax̱eechch. 174                 
-    english:  come over her, she would just dive beneath them. 174 
+    tlingit: teet yóo wuneeyí áwé tle a taÿeedé kát shaadax̱eechch.
+    english:  come over her, she would just dive beneath them.
 
   - lineNumber: 175
     startTime: 529928
     endTime: 531119
-    tlingit: Du kaanáx̱ kéi u— 175                                                      
-    english:  {When the waves washed} over her 175 
+    tlingit: Du kaanáx̱ kéi u—
+    english:  {When the waves washed} over her
 
   - lineNumber: 176
     startTime: 531707
     endTime: 533779
-    tlingit: diginaa áwéi-éi át wulitéet. 176                                          
-    english:  she bobbed along on the waves out toward the o-open water. 176 
+    tlingit: diginaa áwéi-éi át wulitéet.
+    english:  she bobbed along on the waves out toward the o-open water.
 
   - lineNumber: 177
     startTime: 534997
     endTime: 535928
-    tlingit: Ei-ei-ei,                                                      177
-    english:  Ey-y-y, 177
+    tlingit: Ei-ei-ei,                                                     
+    english:  Ey-y-y,
 
   - lineNumber: 178
     startTime: 536127
     endTime: 537748
-    tlingit: wáananée sáwé de                                               178
-    english:  eventually 178
+    tlingit: wáananée sáwé de                                              
+    english:  eventually
 
   - lineNumber: 179
     startTime: 538524
     endTime: 539739
-    tlingit: yan jiwdihóo.                                                  179
-    english:  she swam ashore. 179
+    tlingit: yan jiwdihóo.                                                 
+    english:  she swam ashore.
 
   - lineNumber: 180
     startTime: 540327
     endTime: 542641
-    tlingit: Ax̱’eiwawóos’, «Wáa sás i ée ÿatee?»                            180
-    english:  He asked, “How is it for you?” 180
+    tlingit: Ax̱’eiwawóos’, «Wáa sás i ée ÿatee?»                           
+    english:  He asked, “How is it for you?”
 
   - lineNumber: 181
     startTime: 544651
-    endTime: 546578
-    tlingit: «Tle atk’é áhé,» yóo,                                          181
-    english:  “This is a neat thing,” she said, 181 
+    endTime:  546463
+    tlingit: «Tle atk’é áhé,» yóo,                                         
+    english:  “This is a neat thing,” she said,
 
   - lineNumber: 182
-    startTime: 546662
+    startTime: 546690
     endTime: 549451
-    tlingit: «Tle ch’u shóogu yáax’ {ḵux̱wasteeyéyéx̱} x̱á x̱áa ÿatee,»         182
-    english:  “To me, you see, it’s just like it was when I lived my life here before,” 182
+    tlingit: «Tle ch’u shóogu yáax’ {ḵux̱wasteeyéyéx̱} x̱á x̱áa ÿatee,»        
+    english:  “To me, you see, it’s just like it was when I lived my life here before,”
 
   - lineNumber: 183
     startTime: 550644
     endTime: 551919
-    tlingit: yóo áwé adaaÿaḵá                                               183
-    english:  she told 183
+    tlingit: yóo áwé adaaÿaḵá                                              
+    english:  she told
 
   - lineNumber: 184
     startTime: 552212
     endTime: 552961
-    tlingit: du ÿéet.                                                       184
-    english:  her son. 184
+    tlingit: du ÿéet.                                                      
+    english:  her son.
 
   - lineNumber: 185
     startTime: 555253
     endTime: 556892
-    tlingit: Atx̱ áwé du aayée sákw                                          185
-    english:  After that, he shot one 185
+    tlingit: Atx̱ áwé du aayée sákw                                         
+    english:  After that, he shot one
 
   - lineNumber: 186
     startTime: 561870
     endTime: 562849
-    tlingit: aawat’úk.                                                      186
-    english:  to serve as his own. 186
+    tlingit: aawat’úk.                                                     
+    english:  to serve as his own.
 
   - lineNumber: 187
     startTime: 564505
     endTime: 565797
-    tlingit: Á ḵu.aa                                                        187
-    english:  But the beak 187
+    tlingit: Á ḵu.aa                                                       
+    english:  But the beak
 
   - lineNumber: 188
     startTime: 566214
     endTime: 567461
-    tlingit: yá a lú—                                                       188
-    english:  of the one he shot for himself— 188
+    tlingit: yá a lú—                                                      
+    english:  of the one he shot for himself—
 
   - lineNumber: 189
     startTime: 568773
-    endTime: 568773
-    tlingit: Gus’x̱lugooḵ                                                    189
-    english:  it was the creature that is called 189
+    endTime: 570187
+    tlingit: Gus’x̱lugooḵ                                                   
+    english:  it was the creature that is called
 
   - lineNumber: 190
-    startTime: 569675
-    endTime: 571989
-    tlingit: yóo áyú duwasáagu át áyú—                                      190
-    english:  Pokes-Nose-Into-Clouds— 190
+    startTime: 570350
+    endTime: 571871
+    tlingit: yóo áyú duwasáagu át áyú—                                     
+    english:  Pokes-Nose-Into-Clouds—
 
   - lineNumber: 191
-    startTime: 572119
+    startTime: 572164
     endTime: 573272
-    tlingit: yóo lukoowáat’.                                                191
-    english:  it had a long beak. 191
+    tlingit: yóo lukoowáat’.                                               
+    english:  it had a long beak.
 
   - lineNumber: 192
     startTime: 574659
     endTime: 576664
-    tlingit: Áwé a shanáa daak aawatée.                                     192
-    english:  He took the skin off over its head. 192
+    tlingit: Áwé a shanáa daak aawatée.                                    
+    english:  He took the skin off over its head.
 
   - lineNumber: 193
     startTime: 578338
     endTime: 581369
-    tlingit: Tle a tóox̱ wugoodí áwé tle kindachóon kéi wdiḵín.              193
-    english:  When he had donned the skin, he just flew straight up. 193
+    tlingit: Tle a tóox̱ wugoodí áwé tle kindachóon kéi wdiḵín.             
+    english:  When he had donned the skin, he just flew straight up.
 
   - lineNumber: 194
     startTime: 583172
     endTime: 585266
-    tlingit: Tle yú xáats’t áwé wdiḵín.                                     194
-    english:  Raven just flew up to the firmament. 194
+    tlingit: Tle yú xáats’t áwé wdiḵín.                                    
+    english:  Raven just flew up to the firmament.
 
   - lineNumber: 195
     startTime: 586731
     endTime: 587191
-    tlingit: Éh!                                                            195
-    english:  Eh! 195
+    tlingit: Éh!                                                           
+    english:  Eh!
 
   - lineNumber: 196
     startTime: 587287
     endTime: 588074
-    tlingit: Tle yú du lú                                                   196
-    english:  He stuck the entire length 196
+    tlingit: Tle yú du lú                                                  
+    english:  He stuck the entire length
 
   - lineNumber: 197
     startTime: 588167
     endTime: 590625
-    tlingit: wáa sá koowáat’ tle a yéx̱ a tóode yawdig̱eech.                  197
-    english:  of his beak into it. 197
+    tlingit: wáa sá koowáat’ tle a yéx̱ a tóode yawdig̱eech.                 
+    english:  of his beak into it.
 
   - lineNumber: 198
     startTime: 592182
     endTime: 594202
-    tlingit: Ch’a át áwé sh wudlitool.                                      198
-    english:  He just spun himself around. 198
+    tlingit: Ch’a át áwé sh wudlitool.                                     
+    english:  He just spun himself around.
 
   - lineNumber: 199
     startTime: 595576
     endTime: 598832
-    tlingit: Tlél tsu ch’a g̱ég̱aa yóo anasneech, tléik’.                     199
-    english:  He wasn’t just doing this for fun, no. 199
+    tlingit: Tlél tsu ch’a g̱ég̱aa yóo anasneech, tléik’.                    
+    english:  He wasn’t just doing this for fun, no.
 
   - lineNumber: 200
     startTime: 599957
     endTime: 601213
-    tlingit: Wáannée sáwé                                                   200
-    english:  Eventually 200
+    tlingit: Wáannée sáwé                                                  
+    english:  Eventually
 
   - lineNumber: 201
     startTime: 601351
     endTime: 602994
-    tlingit: áa g̱unéi akawlitéx̱’.                                           201
-    english:  he began to twist it free. 201
-#
-#  - lineNumber: 202
-#    startTime: 
-#    endTime: 
-#    tlingit: Tle daak sh wudix̱ích yínde,                                    202
-#    english:  He then hurled himself downwards 202
-#
-#  - lineNumber: 203
-#    startTime: 
-#    endTime: 
-#    tlingit: tle yáa tl’átgi káa ÿaa wdzigeet.                              203
-#    english:  and fell down onto the ground. 203
-#
-#  - lineNumber: 204
-#    startTime: 
-#    endTime: 
-#    tlingit: Tle k’idéin awsinee, k’idéin atéen.                            204
-#    english:  He cleaned up the skin and carefully stored it away. 204
-#
-#  - lineNumber: 205
-#    startTime: 
-#    endTime: 
-#    tlingit: De a kát woosh kát ÿawdidaa yú du káak ḵu.aa.                  205
-#    english:  He would stop by at intervals to keep an eye on his uncle. 205
-#
-#  - lineNumber: 206
-#    startTime: 
-#    endTime: 
-#    tlingit: Wáannée sáwé deisguch                                          206
-#    english:  At some point, 206
-#
-#  - lineNumber: 207
-#    startTime: 
-#    endTime: 
-#    tlingit: dulnáax’w íḵdé.                                                207
-#    english:  bundles were gradually being taken down to the beach. 207
-#
-#  - lineNumber: 208
-#    startTime: 
-#    endTime: 
-#    tlingit: G̱una.aandé kg̱waḵóox̱.                                           208
-#    english:  His uncle was going to travel to some other town. 208
-#
-#  - lineNumber: 209
-#    startTime: 
-#    endTime: 
-#    tlingit: G̱una.aant wuḵoox̱ akwshitán.                                    209
-#    english:  He was in the habit of going around to different towns. 209
-#
-#  - lineNumber: 210
-#    startTime: 
-#    endTime: 
-#    tlingit: Éh!                                                            210
-#    english:  Eh! 210
-#
-#  - lineNumber: 211
-#    startTime: 
-#    endTime: 
-#    tlingit: Ch’u tle yaa ÿakandaÿíg̱i yant’éide,                            211
-#    english:  As he was disappearing from sight behind a landmass, 211
-#
-#  - lineNumber: 212
-#    startTime: 
-#    endTime: 
-#    tlingit: tle yáax’ áwé tle aadé woogoot.                                212
-#    english:  Raven started walking toward his uncle’s house. 212
-#
-#  - lineNumber: 213
-#    startTime: 
-#    endTime: 
-#    tlingit: Tsu yeekawliyáat’éyáx̱ áwé.                                     213
-#    english:  It seems to have taken a really long time. 213
-#
-#  - lineNumber: 214
-#    startTime: 
-#    endTime: 
-#    tlingit: Hé’!                                                           214
-#    english:  Heh! 214
-#
-#  - lineNumber: 215
-#    startTime: 
-#    endTime: 
-#    tlingit: Wé goox̱x’—                                                     215
-#    english:  Those slaves— 215
-#
-#  - lineNumber: 216
-#    startTime: 
-#    endTime: 
-#    tlingit: aax̱ at wujix̱einéyáx̱ áwé ÿatee wé neil.                         216 
-#    english:  the inside of the house was in shambles. 216
-#
-#  - lineNumber: 217
-#    startTime: 
-#    endTime: 
-#    tlingit: Haaw.                                                          217 
-#    english:  Well. 217
-#
-#  - lineNumber: 218
-#    startTime: 
-#    endTime: 
-#    tlingit: Tle yéi aÿawsiḵaa, ax̱’eiwawóos’,                               218 
-#    english:  Then he said to them, he asked them, 218
-#
-#  - lineNumber: 219
-#    startTime: 
-#    endTime: 
-#    tlingit: «Goosú yú shaawát?                                             219 
-#    english:  “Where is that woman? 219
-#
-#  - lineNumber: 220
-#    startTime: 
-#    endTime: 
-#    tlingit: Yú ax̱ káak shát goosú hú?»                                     220 
-#    english:  My uncle’s wife, where is she?” 220
-#
-#  - lineNumber: 221
-#    startTime: 
-#    endTime: 
-#    tlingit: Yú s’eyatóot áwé du een wuduwach’íx̱’, «Yóodu hú.»              221 
-#    english:  They pointed him to the inside of the gable of the roof, “There she is.” 221
-#
-#  - lineNumber: 222
-#    startTime: 
-#    endTime: 
-#    tlingit: Át awdlig̱ín, át gwáa akawliyaa. Ḵóok yíkt—                     222 
-#    english:  He looked at it; lo and behold, his uncle had left her dangling there. In a box— 222
-#
-#  - lineNumber: 223
-#    startTime: 
-#    endTime: 
-#    tlingit: ḵóok yíkt as.áa yú du shát.                                    223 
-#    english:  he had his wife sit in a box. 223
-#
-#  - lineNumber: 224
-#    startTime: 
-#    endTime: 
-#    tlingit: Tle dzeit át ashawsitán,                                       224 
-#    english:  So Raven propped up a ladder 224
-#
-#  - lineNumber: 225
-#    startTime: 
-#    endTime: 
-#    tlingit: áa kéi uwagút.                                                 225 
-#    english:  and climbed up to her. 225
-#
-#  - lineNumber: 226
-#    startTime: 
-#    endTime: 
-#    tlingit: Ch’u súg̱aa áwé a shuyeedé g̱ax̱.istí wéit,                       226 
-#    english:  There, at the foot of the ladder, those slaves were wailing 226
-#
-#  - lineNumber: 227
-#    startTime: 
-#    endTime: 
-#    tlingit: yú goox̱x’,                                                     227 
-#    english:  in anticipation, 227
-#
-#  - lineNumber: 228
-#    startTime: 
-#    endTime: 
-#    tlingit: wé ḵées’ kakg̱wadaaÿí.                                          228 
-#    english:  fearing that the tide might return. 228
-#
-#  - lineNumber: 229
-#    startTime: 
-#    endTime: 
-#    tlingit: Anax̱ aÿawsi.ín tle,                                            229 
-#    english:  Raven just carried the box through there 229
-#
-#  - lineNumber: 230
-#    startTime: 
-#    endTime: 
-#    tlingit: tle gánde.                                                     230 
-#    english:  and outside. 230
-#
-#  - lineNumber: 231
-#    startTime: 
-#    endTime: 
-#    tlingit: Gáanx’ áwé tsáa ÿanáax̱ aÿawlik’úts.                            231 
-#    english:  Once he was outside he snapped the lines over the cover of the box. 231
-#
-#  - lineNumber: 232
-#    startTime: 
-#    endTime: 
-#    tlingit: Daax̱ aÿawlik’úts                                               232 
-#    english:  He snapped them off all around it, 232
-#
-#  - lineNumber: 233
-#    startTime: 
-#    endTime: 
-#    tlingit: ách kawdudzi.ax̱u át.                                           233 
-#    english:  the lines with which it had been bound. 233
-#
-#  - lineNumber: 234
-#    startTime: 
-#    endTime: 
-#    tlingit: A yíknáx̱ kéi aawax̱út’ wé du káak shát.                         234 
-#    english:  He pulled his uncle’s wife up out of the box. 234
-#
-#  - lineNumber: 235
-#    startTime: 
-#    endTime: 
-#    tlingit: A jín yéi awsinei—                                             235 
-#    english:  He grabbed her by the arm— 235
-#
-#  - lineNumber: 236
-#    startTime: 
-#    endTime: 
-#    tlingit: Éeneekóon áyú aawasháa—                                        236 
-#    english:  his uncle had married Flicker-Pits— 236
-#
-#  - lineNumber: 237
-#    startTime: 
-#    endTime: 
-#    tlingit: tle atx̱ áwé ax’óol’.                                           237 
-#    english:  and he was just plucking the flickers out. 237
-#
-#  - lineNumber: 238
-#    startTime: 
-#    endTime: 
-#    tlingit: Gáant kanalÿichji át áyá, kóon.                                238 
-#    english:  It’s a creature that flies outside, the flicker. 238
-#
-#  - lineNumber: 239
-#    startTime: 
-#    endTime: 
-#    tlingit: «Gáant,» yóo áwé x̱’aÿaḵá.                                      239 
-#    english:  “Gáant,” is what it says. 239
-#
-#  - lineNumber: 240
-#    startTime: 
-#    endTime: 
-#    tlingit: Kalÿíchx’,                                                     240 
-#    english:  They were flying, 240
-#
-#  - lineNumber: 241
-#    startTime: 
-#    endTime: 
-#    tlingit: tle kalÿíchx’, tle kalÿíchx’ du jeedáx̱,                        241 
-#    english:  just flying, just flying out of his hands, 241
-#
-#  - lineNumber: 242
-#    startTime: 
-#    endTime: 
-#    tlingit: tle héinax̱.á aa tsú.                                           242 
-#    english:  and the ones from the other armpit too. 242
-#
-#  - lineNumber: 243
-#    startTime: 
-#    endTime: 
-#    tlingit: Ch’a wéix’ áwé du x̱einínáx̱ kawdliyeech.                        243 
-#    english:  Right there those flickers caught up with his uncle. 243
-#
-#  - lineNumber: 244
-#    startTime: 
-#    endTime: 
-#    tlingit: «Ax̱ adée!»                                                     244 
-#    english:  “My precious stuff!” 244
-#
-#  - lineNumber: 245
-#    startTime: 
-#    endTime: 
-#    tlingit: tle yóo waawaḵaa,                                              245 
-#    english:  Tide-Commander said, 245
-#
-#  - lineNumber: 246
-#    startTime: 
-#    endTime: 
-#    tlingit: Yooḵis’kooḵéik ḵu.aa, «Ax̱ adée!                                246 
-#    english:  “My precious stuff! 246
-#
-#  - lineNumber: 247
-#    startTime: 
-#    endTime: 
-#    tlingit: Daa sákwshé (At.shooḵ)                                         247 
-#    english:  What could it be, (Laughter) 247
-#
-#  - lineNumber: 248
-#    startTime: 
-#    endTime: 
-#    tlingit: a tóonáx̱ ayadlaḵx’u át áyú gé?                                 248 
-#    english:  that creature that’s getting bunches of flickers from in there; is that what’s going on? 248
-#
-#  - lineNumber: 249
-#    startTime: 
-#    endTime: 
-#    tlingit: Ḵúx̱de déi!»                                                    249 
-#    english:  Go back now!” 249
-#
-#  - lineNumber: 250
-#    startTime: 
-#    endTime: 
-#    tlingit: Tle ḵúx̱de akaawanáa.                                           250 
-#    english:  He just ordered the boat to go back. 250
-#
-#  - lineNumber: 251
-#    startTime: 
-#    endTime: 
-#    tlingit: Aahá.                                                          251 
-#    english:  Aha. 251
-#
-#  - lineNumber: 252
-#    startTime: 
-#    endTime: 
-#    tlingit: Hóoch’.                                                        252 
-#    english:  That was that. 252
-#
-#  - lineNumber: 253
-#    startTime: 
-#    endTime: 
-#    tlingit: Ḵux̱ wudiḵúx̱.                                                                                    253
-#    english: He returned in his boat. 253
-#
-#  - lineNumber: 254
-#    startTime: 
-#    endTime: 
-#    tlingit: Tlei tléil adax̱ gwáayá a tú du shát.                                                            254
-#    english: But then, lo and behold, his wife was no longer inside the box. 254
-#
-#  - lineNumber: 255
-#    startTime: 
-#    endTime: 
-#    tlingit: Tle yéi áwé                                                                                     255
-#    english: Just like that, 255
-#
-#  - lineNumber: 256
-#    startTime: 
-#    endTime: 
-#    tlingit: at wooxoon                                                                                      256
-#    english: he got ready to go 256
-#
-#  - lineNumber: 257
-#    startTime: 
-#    endTime: 
-#    tlingit: tle yáa dikéede.                                                                                257
-#    english: up above. 257
-#
-#  - lineNumber: 258
-#    startTime: 
-#    endTime: 
-#    tlingit: Wé dís ḵu.aa, wé Yooḵis’kooḵéik, hú áwé,ách áwé dikée kéi uwaxíx, ch’a hú du ḵées’i jináḵ.      258
-#    english: Now that moon, Tide-Commander himself, that’s why he rose up into the sky, escaping his own floodtide. 258
-#
-#  - lineNumber: 259
-#    startTime: 
-#    endTime: 
-#    tlingit: Aaa.                                                                                            259
-#    english: Yes. 259
-#
-#  - lineNumber: 260
-#    startTime: 
-#    endTime: 
-#    tlingit: Shaawatl’ít’ áyá lingit’aaní.                                                                   260
-#    english: The world was covered in water. 260
-#
-#  - lineNumber: 261
-#    startTime: 
-#    endTime: 
-#    tlingit: Ḵées’ akawsidaa.                                                                                261
-#    english: He had caused the floodtide to flow. 261
-#
-#  - lineNumber: 262
-#    startTime: 
-#    endTime: 
-#    tlingit: Hóoch’.                                                                                         262
-#    english: That was that. 262
-#
+    tlingit: áa g̱unéi akawlitéx̱’.                                          
+    english:  he began to twist it free.
+
+  - lineNumber: 202
+    startTime: 604040
+    endTime: 605905
+    tlingit: Tle daak sh wudix̱ích yínde,                                   
+    english:  He then hurled himself downwards
+
+  - lineNumber: 203
+    startTime: 608793
+    endTime: 610833
+    tlingit: tle yáa tl’átgi káa ÿaa wdzigeet.                             
+    english:  and fell down onto the ground.
+
+  - lineNumber: 204
+    startTime: 611007
+    endTime: 613607
+    tlingit: Tle k’idéin awsinee, k’idéin atéen.                           
+    english:  He cleaned up the skin and carefully stored it away.
+
+  - lineNumber: 205
+    startTime: 618419
+    endTime: 621019
+    tlingit: De a kát woosh kát ÿawdidaa yú du káak ḵu.aa.                 
+    english:  He would stop by at intervals to keep an eye on his uncle.
+
+  - lineNumber: 206
+    startTime: 622683
+    endTime: 624029
+    tlingit: Wáannée sáwé deisguch                                         
+    english:  At some point,
+
+  - lineNumber: 207
+    startTime: 624823
+    endTime: 626315
+    tlingit: dulnáax’w íḵdé.                                               
+    english:  bundles were gradually being taken down to the beach.
+
+  - lineNumber: 208
+    startTime: 627180
+    endTime: 628870
+    tlingit: G̱una.aandé kg̱waḵóox̱.                                          
+    english:  His uncle was going to travel to some other town.
+
+  - lineNumber: 209
+    startTime: 629092
+    endTime: 631067
+    tlingit: G̱una.aant wuḵoox̱ akwshitán.                                   
+    english:  He was in the habit of going around to different towns.
+
+  - lineNumber: 210
+    startTime:  632655
+    endTime: 633278
+    tlingit: Éh!                                                           
+    english:  Eh!
+
+  - lineNumber: 211
+    startTime: 634285
+    endTime: 637340
+    tlingit: Ch’u tle yaa ÿakandaÿíg̱i yant’éide,                           
+    english:  As he was disappearing from sight behind a landmass,
+
+  - lineNumber: 212
+    startTime: 638316
+    endTime: 640685
+    tlingit: tle yáax’ áwé tle aadé woogoot.                               
+    english:  Raven started walking toward his uncle’s house.
+
+  - lineNumber: 213
+    startTime: 641534
+    endTime: 643629
+    tlingit: Tsu yeekawliyáat’éyáx̱ áwé.                                    
+    english:  It seems to have taken a really long time.
+
+  - lineNumber: 214
+    startTime: 646625
+    endTime: 647492
+    tlingit: Hé’!                                                          
+    english:  Heh!
+
+  - lineNumber: 215
+    startTime: 648456
+    endTime: 649450
+    tlingit: Wé goox̱x’—                                                    
+    english:  Those slaves—
+
+  - lineNumber: 216
+    startTime: 650438
+    endTime: 653001
+    tlingit: aax̱ at wujix̱einéyáx̱ áwé ÿatee wé neil.                        
+    english:  the inside of the house was in shambles.
+
+  - lineNumber: 217
+    startTime: 654862
+    endTime: 655880
+    tlingit: Haaw.                                                         
+    english:  Well.
+
+  - lineNumber: 218
+    startTime: 657907
+    endTime: 660327
+    tlingit: Tle yéi aÿawsiḵaa, ax̱’eiwawóos’,                              
+    english:  Then he said to them, he asked them,
+
+  - lineNumber: 219
+    startTime: 661019
+    endTime: 662513
+    tlingit: «Goosú yú shaawát?                                            
+    english:  “Where is that woman?
+
+  - lineNumber: 220
+    startTime: 663615
+    endTime: 665371
+    tlingit: Yú ax̱ káak shát goosú hú?»                                    
+    english:  My uncle’s wife, where is she?”
+
+  - lineNumber: 221
+    startTime: 667037
+    endTime: 670328
+    tlingit: Yú s’eyatóot áwé du een wuduwach’íx̱’, «Yóodu hú.»             
+    english:  They pointed him to the inside of the gable of the roof, “There she is.”
+
+  - lineNumber: 222
+    startTime: 671787
+    endTime: 674698
+    tlingit: Át awdlig̱ín, át gwáa akawliyaa. Ḵóok yíkt—                    
+    english:  He looked at it; lo and behold, his uncle had left her dangling there. In a box—
+
+  - lineNumber: 223
+    startTime: 674884
+    endTime: 676749
+    tlingit: ḵóok yíkt as.áa yú du shát.                                   
+    english:  he had his wife sit in a box.
+
+  - lineNumber: 224
+    startTime: 680032
+    endTime: 681794
+    tlingit: Tle dzeit át ashawsitán,                                      
+    english:  So Raven propped up a ladder
+
+  - lineNumber: 225
+    startTime: 683228
+    endTime: 684371
+    tlingit: áa kéi uwagút.                                                
+    english:  and climbed up to her.
+
+  - lineNumber: 226
+    startTime: 685237
+    endTime: 687584
+    tlingit: Ch’u súg̱aa áwé a shuyeedé g̱ax̱.istí wéit,                      
+    english:  There, at the foot of the ladder, those slaves were wailing
+
+  - lineNumber: 227
+    startTime: 687806
+    endTime: 688713
+    tlingit: yú goox̱x’,                                                    
+    english:  in anticipation,
+
+  - lineNumber: 228
+    startTime: 690025
+    endTime: 691739
+    tlingit: wé ḵées’ kakg̱wadaaÿí.                                         
+    english:  fearing that the tide might return.
+
+  - lineNumber: 229
+    startTime: 692667
+    endTime: 694203
+    tlingit: Anax̱ aÿawsi.ín tle,                                           
+    english:  Raven just carried the box through there
+
+  - lineNumber: 230
+    startTime: 694934
+    endTime: 696169
+    tlingit: tle gánde.                                                    
+    english:  and outside.
+
+  - lineNumber: 231
+    startTime: 696704
+    endTime: 698962
+    tlingit: Gáanx’ áwé tsáa ÿanáax̱ aÿawlik’úts.                           
+    english:  Once he was outside he snapped the lines over the cover of the box.
+
+  - lineNumber: 232
+    startTime: 700175
+    endTime: 701229
+    tlingit: Daax̱ aÿawlik’úts                                              
+    english:  He snapped them off all around it,
+
+  - lineNumber: 233
+    startTime: 701469
+    endTime: 702658
+    tlingit: ách kawdudzi.ax̱u át.                                          
+    english:  the lines with which it had been bound.
+
+  - lineNumber: 234
+    startTime: 703882
+    endTime: 706081
+    tlingit: A yíknáx̱ kéi aawax̱út’ wé du káak shát.                        
+    english:  He pulled his uncle’s wife up out of the box.
+
+  - lineNumber: 235
+    startTime: 707397
+    endTime: 708574
+    tlingit: A jín yéi awsinei—                                            
+    english:  He grabbed her by the arm—
+
+  - lineNumber: 236
+    startTime: 709504
+    endTime: 711517
+    tlingit: Éeneekóon áyú aawasháa—                                       
+    english:  his uncle had married Flicker-Pits—
+
+  - lineNumber: 237
+    startTime: 712755
+    endTime: 714206
+    tlingit: tle atx̱ áwé ax’óol’.                                          
+    english:  and he was just plucking the flickers out.
+
+  - lineNumber: 238
+    startTime: 714586
+    endTime: 717045
+    tlingit: Gáant kanalÿichji át áyá, kóon.                               
+    english:  It’s a creature that flies outside, the flicker.
+
+  - lineNumber: 239
+    startTime: 717683
+    endTime: 719384
+    tlingit: «Gáant,» yóo áwé x̱’aÿaḵá.                                     
+    english:  “Gáant,” is what it says.
+
+  - lineNumber: 240
+    startTime: 720857
+    endTime: 721539
+    tlingit: Kalÿíchx’,                                                    
+    english:  They were flying,
+
+  - lineNumber: 241
+    startTime: 721668
+    endTime: 723959
+    tlingit: tle kalÿíchx’, tle kalÿíchx’ du jeedáx̱,                       
+    english:  just flying, just flying out of his hands,
+
+  - lineNumber: 242
+    startTime: 724048
+    endTime: 725084
+    tlingit: tle héinax̱.á aa tsú.                                          
+    english:  and the ones from the other armpit too.
+
+  - lineNumber: 243
+    startTime: 725831
+    endTime: 728178
+    tlingit: Ch’a wéix’ áwé du x̱einínáx̱ kawdliyeech.                       
+    english:  Right there those flickers caught up with his uncle.
+
+  - lineNumber: 244
+    startTime: 729550
+    endTime: 730836
+    tlingit: «Ax̱ adée!»                                                    
+    english:  “My precious stuff!”
+
+  - lineNumber: 245
+    startTime: 731087
+    endTime: 732565
+    tlingit: tle yóo waawaḵaa,                                             
+    english:  Tide-Commander said,
+
+  - lineNumber: 246
+    startTime: 733846
+    endTime: 736626
+    tlingit: Yooḵis’kooḵéik ḵu.aa, «Ax̱ adée!                               
+    english:  “My precious stuff!
+
+  - lineNumber: 247
+    startTime: 737749
+    endTime: 740059
+    tlingit: Daa sákwshé (At.shooḵ)                                        
+    english:  What could it be, (Laughter)
+
+  - lineNumber: 248
+    startTime: 740102
+    endTime: 742384
+    tlingit: a tóonáx̱ ayadlaḵx’u át áyú gé?                                
+    english:  that creature that’s getting bunches of flickers from in there; is that what’s going on?
+
+  - lineNumber: 249
+    startTime: 743330
+    endTime: 744487
+    tlingit: Ḵúx̱de déi!»                                                   
+    english:  Go back now!”
+
+  - lineNumber: 250
+    startTime: 744697
+    endTime: 746452
+    tlingit: Tle ḵúx̱de akaawanáa.                                          
+    english:  He just ordered the boat to go back.
+
+  - lineNumber: 251
+    startTime: 747559
+    endTime: 748483
+    tlingit: Aahá.                                                         
+    english:  Aha.
+
+  - lineNumber: 252
+    startTime: 748727
+    endTime: 749386
+    tlingit: Hóoch’.                                                       
+    english:  That was that.
+
+  - lineNumber: 253
+    startTime: 750405
+    endTime: 751773
+    tlingit: Ḵux̱ wudiḵúx̱.                                                                                   
+    english: He returned in his boat.
+
+  - lineNumber: 254
+    startTime: 752797
+    endTime: 755385
+    tlingit: Tlei tléil adax̱ gwáayá a tú du shát.                                                           
+    english: But then, lo and behold, his wife was no longer inside the box.
+
+  - lineNumber: 255
+    startTime: 757909
+    endTime: 758897
+    tlingit: Tle yéi áwé                                                                                    
+    english: Just like that,
+
+  - lineNumber: 256
+    startTime: 759233
+    endTime: 760455
+    tlingit: at wooxoon                                                                                     
+    english: he got ready to go
+
+  - lineNumber: 257
+    startTime: 761827
+    endTime: 763510
+    tlingit: tle yáa dikéede.                                                                               
+    english: up above.
+
+  - lineNumber: 258
+    startTime: 765180
+    endTime: 771138
+    tlingit: Wé dís ḵu.aa, wé Yooḵis’kooḵéik, hú áwé,ách áwé dikée kéi uwaxíx, ch’a hú du ḵées’i jináḵ.     
+    english: Now that moon, Tide-Commander himself, that’s why he rose up into the sky, escaping his own floodtide.
+
+  - lineNumber: 259
+    startTime: 772261
+    endTime: 773155
+    tlingit: Aaa.                                                                                           
+    english: Yes.
+
+  - lineNumber: 260
+    startTime: 774573
+    endTime: 776752
+    tlingit: Shaawatl’ít’ áyá lingit’aaní.                                                                  
+    english: The world was covered in water.
+
+  - lineNumber: 261
+    startTime: 778023
+    endTime: 779310
+    tlingit: Ḵées’ akawsidaa.                                                                               
+    english: He had caused the floodtide to flow.
+
+  - lineNumber: 262
+    startTime: 779483
+    endTime: 780430
+    tlingit: Hóoch’.                                                                                        
+    english: That was that.
