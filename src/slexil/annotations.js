@@ -67,11 +67,10 @@ $(function() {
             })
 
   $("#toggleAnnotationsButton").click(function(){
-     var annoDivVisible = $("#annoNotesDiv").is(":visible")
+     var annoDivVisible = $("#annoDiv").is(":visible")
      var currentPosition = $("#textDiv").scrollTop();
      console.log("click simple anno toggle, annoDivVisible? " + annoDivVisible +
                 "  pos: " + currentPosition)
-     console.log
      if (annoDivVisible){
         console.log("hiding annoDiv");
         showAnno = false;
@@ -109,8 +108,10 @@ function displayAnnotation(topic)
 {
   var annoBox = $("#annoDiv");
   var annoText = lookup(topic)
-  annoBox.html(text);
-   
+  console.log("--- displayAnnotation, annoText: '" + annoText + "'");
+  console.log("     length: " + annoText.length);
+  annoBox.html(annoText);
+
 } 
 //------------------------------------------------------------------------------------------------------------------------
 function lookup(key)
