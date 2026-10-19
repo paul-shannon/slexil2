@@ -319,9 +319,11 @@ td, th {
 
 .line-wrapper {
   display: grid;
-  width: 98%; //fit-content;
+  //width: 98%; //fit-content;
+  width: fit-content;
   height: fit-content;
-  overflow-x: visible;
+  //overflow-x: visible;
+  //overflow-x: scroll;
   overflow-y: clip;
   grid-template-columns: 60px 1fr;
   grid-column-gap: 10px;
@@ -597,6 +599,13 @@ sub {
     display: none;
     margin-top: 10px;
     }
+
+.has-annotation {
+  //color: #0066cc;
+  //text-decoration: underline;
+  text-decoration: underline rgba(0, 0, 0, 0.3) 3px;
+  text-underline-offset: 5px;
+  }
 
 .ui-dialog-titlebar-close:after {
    content: 'x' !important;

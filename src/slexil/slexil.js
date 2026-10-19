@@ -182,7 +182,7 @@ $(document).ready(function(){
       }); // showHideOtherControlsButton
     
    $("#fasterPlaybackButton").on('click', function(){
-       var currentSpeed = parseFloat($("#speedSelector").val())
+      var currentSpeed = parseFloat($("#speedSelector").val())
       console.log("faster")
       if(currentSpeed <= 1.75){
          currentSpeed = currentSpeed + 0.25
@@ -204,17 +204,17 @@ $(document).ready(function(){
       state.mediaPlayer.playbackRate = currentSpeed;
       })
 
-   $("#showAnnotationsButton").on('click', function() {
-      visible = $("#annoDiv").is(":visible")
-      if(visible){
-         $("#annoDiv").hide()
-         $("#showAnnotationsButton").text("Show Annotations")
-         }
-       else{
-          $("#annoDiv").show()
-          $("#showAnnotationsButton").text("Hide Annotations")
-          }
-       }) // showAnnotationsButton
+   //$("#showAnnotationsButton").on('click', function() {
+   //   visible = $("#annoDiv").is(":visible")
+   //   if(visible){
+   //      $("#annoDiv").hide()
+   //      $("#showAnnotationsButton").text("Show Annotations")
+   //      }
+   //    else{
+   //       $("#annoDiv").show()
+   //       $("#showAnnotationsButton").text("Hide Annotations")
+   //       }
+   //    }) // showAnnotationsButton
 
     $('#videoSizeSelector').on('input', function() {
        var videoRequestedSize = Number($(this).val());
@@ -302,6 +302,9 @@ $(document).ready(function(){
                  console.log("--- calling scrollAndHighlight " + lineNumber);
                  scrollAndHighlight(lineNumber)
                  state.currentLine = lineNumber;
+                 //const spokenText = $(".speech-tier").get(lineNumber).innerHTML
+                 //const noteText = lookup(spokenText)
+                 // $("#annoNotesDiv").html(noteText)
 					  break;
                  }
               } // if start <=
@@ -342,6 +345,16 @@ function scrollAndHighlight(lineNumber){
     //lineDivTop -= 10;
     lineDivTop -= 80;
 
+   const zeroBasedLineNumber = lineNumber - 1;
+   const spokenText = $(".speech-tier").get(zeroBasedLineNumber).innerHTML
+   //const spokenText = $(".speech-tier").get(lineNumber).innerHTML
+   console.log("--- scrollAndHighlight finds " + spokenText);
+   console.log("  annoDiv visible? " + $("#annoDiv").is(":visible"))
+   if ($("#annoDiv").is(":visible")){
+      console.log(" about to displayAnnotation" + spokenText);
+      displayAnnotationByString(spokenText)
+      }
+
    var options = {top: lineDivTop, left: 0, behavior: "smooth"}
    document.getElementById("textDiv").scrollTo(options)
 
@@ -362,6 +375,8 @@ function playSample(mediaID, startTime, endTime)
    //console.log("currentLine: " + state.currentLine)
    let lineNumber = mediaID - 1;
    //console.log("lineNumber: " + lineNumber)
+   newDisplayAnnotation(lineNumber)
+   /*********
    let spokenText = ""
    if(lineNumber >= 0){
       spokenText = $(".speech-tier").get(lineNumber).innerHTML
@@ -369,7 +384,7 @@ function playSample(mediaID, startTime, endTime)
       noteText = lookup(spokenText)
       $("#annoNotesDiv").html(noteText)
       }
-
+     *******/
 
 } // playSample
 //--------------------------------------------------------------------------------

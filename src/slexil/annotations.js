@@ -1,3 +1,7 @@
+var annoState = {
+  annotationDivVisble: false,
+  }
+
 var showAnno = false;
 converter = new showdown.Converter()
 converter.setOption("tables", true);
@@ -17,54 +21,37 @@ $(function() {
 
 
     //$(".morpheme-cell, .speech-tier, .freeTranslation-tier, .grammatical-term")
-    $(".speech-tier, .freeTranslation-tier")
-        .mouseenter(function(){
+    //$(".morpheme-cell", ".grammatical-term", ".speech-tier",
+    //   ".freeTranslation-tier")
+    $(".morpheme-cell, .grammatical-term, .speech-tier").mouseenter(function(){
+        if(annoState.annotationDivVisible){
+           var currentElement = $(this);
+           console.log("--- mouseenter " + currentElement.html());
+           var key = currentElement.html();
+           console.log("speech & translation tier, kb key lookup: " + key);
+           if(lookup(key).length > 0)
+              currentElement.addClass("has-annotation")
+           } //  if annotationDivVisible
+        }) // mouseenter
+      .mouseleave(function(){
+         if(annoState.annotationDivVisible){
             var currentElement = $(this);
-            //console.log("--- mouseenter " + currentElement.html());
-            if(showAnno){
-                if(timer != null){clearTimeout(timer);}
-                timer = setTimeout(function(){
-                   //console.log("mouseenter delay");
-                   currentElement.addClass("focusedGrammaticalElement")
-                   var key = currentElement.html();
-                   var annoBox = $("#annoNotesDiv");
-                   console.log("speech & translation tier, kb key lookup: " + key);
-                   var annoText = lookup(key)
-                   console.log("chars retrieved: " + annoText.length);
-                   annoBox.html(annoText);
-                   }, 1000) // setTimeout function
-                } // if showAnno
-            }) // mouseenter
-        .mouseleave(function(){
-            var currentElement = $(this);
-            if(timer != null){clearTimeout(timer);}
-            timer = null;
-            currentElement.removeClass("focusedGrammaticalElement")
-            //var infoBox = $(this).parent().siblings(".morphemeInfo");
-            //infoBox.hide()
-            }) // mouseleave
+            currentElement.removeClass("has-annotation")
+            }
+         }) // mouseleave
 
-    $(".morpheme-cell, .grammatical-term, .storyLaunch").on('click', function(e){
-        //.click(function(e){
-            console.log("morpheme-cell, grammatical-term click!")
-            var currentElement = $(this);
-            const key = currentElement.text().trim()
-            console.log("--- currentElement text:")
-            console.log(key)
-            currentElement.addClass("focusedGrammaticalElement")
-            console.log("morpheme and term, click kb key lookup: '" + key + "'");
-            var annoBox = $("#annoNotesDiv");
-            var annoText = lookup(key)
-            console.log("chars retrieved: " + annoText.length);
-            if(annoText.length == 0){
-               annoText = "no annotation found"
-               }
-            if(annoText.length > 0){
-              annoBox.html(annoText);
-              }
-            //e.preventDefault()
-            //e.stopPropagation()
-            })
+    $(".morpheme-cell, .grammatical-term, .speech-tier").on('click', function(e){
+        console.log("morpheme-cell, grammatical-term, speech-tier click!")
+        if(annoState.annotationDivVisible){
+           var currentElement = $(this);
+           const key = currentElement.text().trim()
+           console.log("--- currentElement text:")
+           console.log(key)
+           currentElement.addClass("focusedGrammaticalElement")
+           console.log("morpheme and term, click kb key lookup: '" + key + "'");
+           displayAnnotationByString(key)
+           }
+        }) // on click
 
   $("#toggleAnnotationsButton").click(function(){
      var annoDivVisible = $("#annoDiv").is(":visible")
@@ -78,6 +65,7 @@ $(function() {
         $("#textLeftColumn").removeClass("col-7").addClass("col-12")
         $("#toggleAnnotationsButton").text("Show Annotations")
         $("#linguisticTopicController").css("display", "none")
+        annoState.annotationDivVisible = false;
      } else {
         console.log("showing annoDiv");
         $("#annoDiv").addClass("col-4").show()
@@ -85,12 +73,14 @@ $(function() {
         $("#toggleAnnotationsButton").text("Hide Annotations")
         $("#linguisticTopicController").css("display", "inline-block")
         showAnno = true;
+        annoState.annotationDivVisible = true;
         }
      console.log("  --- toggle complete, setting position: " + currentPosition)
      $("#textDiv").scrollTop(currentPosition);
      console.log("     position check after set: " + $("#textDiv").scrollTop())
 
      }); // toggleAnnotationsButton click
+
     const pshannonSig = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/1'
     //console.log("pshannonSig: " + pshannonSig)
     //console.log("userAgent:   " + navigator.userAgent)
@@ -98,21 +88,22 @@ $(function() {
     if((navigator.userAgent).startsWith(pshannonSig) & (typeof(kb) == 'object')){
        showAnno = true;
        $("#annoDiv").show()
+       annoState.annotationDivVisible = true;                
        $("#toggleAnnotationsButton").text("Hide Annotations")
        // $("#otherControlsDiv").show()
        }
     }); // on ready
 
 //------------------------------------------------------------------------------------------------------------------------
-function displayAnnotation(topic)
+function displayAnnotationByString(topic)
 {
-  var annoBox = $("#annoDiv");
+  var annoBox = $("#annoNotesDiv");
   var annoText = lookup(topic)
   console.log("--- displayAnnotation, annoText: '" + annoText + "'");
   console.log("     length: " + annoText.length);
   annoBox.html(annoText);
 
-} 
+} // displayAnnotationByString
 //------------------------------------------------------------------------------------------------------------------------
 function lookup(key)
 {
@@ -126,7 +117,8 @@ function lookup(key)
    console.log("    index: " + index);
 
    if(index < 0)
-       return("no annotation available")
+      return("")
+      //return("no annotation available")
 
    var markup = converter.makeHtml(kb[key]);
    return(markup);
