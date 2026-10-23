@@ -1,0 +1,6588 @@
+title: Star Child
+narrator: Susie Sampson Peters
+textEntry: Paul Shannon
+#mediaFile: candidate-01.wav
+mediaFile: http://localhost:12340/candidate-01.wav
+mimeType: audio/x-wav
+
+lines:
+
+  - html: "<div class='html' style='overflow-x: clip; margin: 30px;
+                       margin-left: 100px; white-space: nowrap;'>
+              <div style='width: 600px; text-align: center;'>
+                 <hr style="width: 60%; margin-left: 100px;">
+                 Star Child
+                  <hr style="width: 60%; margin-left: 100px;;">
+               </div>
+              </div>"
+
+
+  - startTime: 2333
+    endTime: 4967
+    lushootseed: həbuʔ, sk̓ʷuyɬ, həbuʔ
+    morphemes: [həbuʔ, sk̓ʷuy–aɬ,həbuʔ]
+    morphemeGloss: [haboo,mother–dim,haboo]
+    english: Alfonso Sampson: Haboo, Mother, haboo.
+
+  - startTime: 5235
+    endTime: 7052
+    lushootseed: həbuʔ                       
+    morphemes: [həbuʔ]
+    morphemeGloss: [haboo]
+    english: Susie Sampson Peter: Haboo.
+
+
+  - startTime: 9120
+    endTime: 14846
+    lushootseed: ʔu tacuxʷiʔxʷiʔ tiʔəʔ sɬəɬadəyʔ
+    morphemes: [tu=ləcu–xʷiʔxʷiʔ,tiʔəʔ,sɬə–ɬadəyʔ]
+    morphemeGloss: [past=cont–forage,prox,pl–woman]
+    english: Oh, the women were foraging for food.
+
+  - startTime: 16056
+    endTime: 17279
+    lushootseed: dəbəɬ sƛ̓aʔ                      
+    morphemes: [dəbəɬ,sƛ̓aʔ]
+    morphemeGloss: [belong.to.bloodline,nobility]
+    english: They belong to the upper class.
+
+  - startTime:  19562         
+    endTime: 21987
+    lushootseed: [sə]sa[ʔ]liʔ təlixʷ suʔsuq̓ʷaʔ               
+    morphemes: [səsaʔliʔ,təlixʷ,suʔ–suq̓ʷaʔ]
+    morphemeGloss: [two:hmn,blood.siblings,attn–younger.sibling]
+    english: They are two sisters.
+
+  - startTime: 22532
+    endTime: 27871
+    lushootseed: ləcuč’aʔad əlgʷəʔ tiʔəʔ skʷiʔxʷ, stabəs kʷi sdaʔs ʔal gʷəɬ pastəd          
+    morphemes: [ləcu–č’aʔ–t,əlgʷəʔ,tiʔəʔ,skʷiʔxʷ,stab=as,kʷi,sdaʔ–s,ʔal,gʷəɬ,pastəd]
+    morphemeGloss: [cont–dig–ics,pl,prox,fern.root,what=3sbrd,rem,name–3po,at,assc,white.person]
+    english: They are digging for fern roots, whatever the white man’s name for it is.
+
+# lines 7 and 8 combined: phonological phrase
+
+  - startTime: 29197
+    endTime: 34181
+    lushootseed: č̓aʔad əlgʷəʔ tiʔəʔ skʷiʔxʷ gʷəl ƛ̓ušabšabəb
+    morphemes: [č̓aʔ–t,əlgʷəʔ,tiʔəʔ,skʷiʔxʷ,gʷəl,ƛ̓u=šab–šab–b]
+    morphemeGloss: [dig–ics,pl,prox,fern.root,sconj,hab=dstr–dry–md]
+    english: They dig up fern roots. And always dry them.
+
+  - startTime: 35215
+    endTime: 40100
+    lushootseed: x̌ʷul̓ buusəɬdat tiʔəʔ sč̓aʔəbs əlgʷəʔ ʔə tiʔəʔ skʷiʔxʷ
+    morphemes: [x̌ʷul̓,buus•əɬ•dat,tiʔəʔ,s=č̓aʔ–b=s,əlgʷəʔ,ʔə,tiʔəʔ,skʷiʔxʷ]
+    morphemeGloss: [just,four•cls•day,prox,nm=dig–md=3po,pl,Pr,prox,fern.root]
+    english: They dig ferns for four days,
+
+  - startTime: 40694
+    endTime: 43290
+    lushootseed:  tiʔəʔ sɬəɬadəyʔ gʷəl ɬax̌iličəxʷ əlgʷəʔ
+    morphemes: [tiʔəʔ,sɬəɬadəyʔ,gʷəl,ɬax̌–il•ič=axʷ,əlgʷəʔ]
+    morphemeGloss: [prox,pl–woman,sconj,darkness–inch•covering=now,pl]
+    english: these women. And it got dark on them.
+
+  - startTime: 43546
+    endTime: 44936
+    lushootseed: ɬax̌iličəxʷ əlgʷəʔ
+    morphemes: [ɬax̌–il•ič=axʷ,əlgʷəʔ]
+    morphemeGloss: [darkness–inch•covering=now,pl]
+    english: Got dark on them
+
+  - startTime: 45130
+    endTime: 48296
+    lushootseed: huy, k̓ʷik̓ʷəqəxʷ əlgʷəʔ, tiʔəʔ sɬəɬadəyʔ       
+    morphemes: [huy,k̓ʷi–k̓ʷəq=axʷ,əlgʷəʔ,tiʔəʔ,sɬə–ɬadəyʔ]
+    morphemeGloss: [sconj,attn–lie.on.back=now,pl,prox,pl–woman]
+    english: Then, the women lie down.
+
+  - startTime: 49039
+    endTime: 52971
+    lushootseed: tiləb ʔucut t[s]iʔəʔ ʔiɬluƛ̓
+    morphemes: [tiləb,ʔu–cut,tsiʔəʔ,ʔiɬ–luƛ̓]
+    morphemeGloss: [immediately,pfv–say,prox:fem,prtv–old]
+    english: ‘Right away, the older one says,’
+
+  - startTime: 54532
+    endTime: 58712
+    lushootseed: ʔu, diɬəxʷ (h)aʔɬ tiʔiɬ stububš
+    morphemes: [ʔu,diɬ=axʷ,haʔɬ,tiʔiɬ,stub–ubš]
+    morphemeGloss: [intj,foc=now,good,dist,pl–man]
+    english: ‘ Oh, aren’t those nice men?’
+
+  - startTime: 60450
+    endTime: 63907
+    lushootseed: haʔɬ tiʔəʔ stububš gʷəsč̓isč̓istxʷ čəɬ
+    morphemes: [haʔɬ,tiʔəʔ,stub–ubš,gʷə=s=č̓is–č̓istxʷ,čəɬ]
+    morphemeGloss: [good,prox,pl–man,sbj=nm=dstr–husband,1pl.po]
+    english: ‘ “Wouldn’t they make good husbands for us?’
+
+  - startTime: 64258
+    endTime: 66228
+    lushootseed: gʷasʔuləx̌tubuɬ kʷədaʔ
+    morphemes: [gʷə=s=ʔuləx̌–txʷ–buɬ,kʷədaʔ]
+    morphemeGloss: [sbj=nm=gather–ecs–1pl.obj,ptcl]
+    english: ‘Would they maybe take us?’
+
+  - startTime: 66848
+    endTime: 70967
+    lushootseed: gʷəgʷəɬ tsi dəgʷi tiʔiɬ ʔəsčcalus. tux̌ʷ p̓aƛ̓aƛ̓ sǰuʔcut.
+    morphemes: [gʷə=gʷəɬ,tsi,dəgʷi,tiʔiɬ,ʔas–čc•alus,tux̌ʷ,p̓aƛ̓aƛ̓,s=ǰuʔ–t–sut]
+    morphemeGloss: [sbj=assc,spec:fem,you,dist,stat–red•colour,just,worthless,nm=enjoy–ics–refl]
+    english: ‘The red one would be yours, It’s just a little joke.’
+
+# line 
+  - startTime: 72031
+    endTime: 74462
+    lushootseed: gʷəl dsgʷaʔ tiʔiɬ dxʷqʷq̓ʷalus
+    morphemes: [gʷəl	d–sgʷaʔ	tiʔiɬ	dxʷ–qʷq̓ʷ•alus]
+    morphemeGloss: [sconj	1sg.po–one’s.own	dist	ctd–white•colour]
+    english: ‘ “And the white one would be mine.” ’
+
+  - startTime:76785
+    endTime: 80656
+    lushootseed: ʔa, ʔəsləqtəb ʔə tiʔəʔ čusəd, t̓it̓ət̓əwaʔs
+    morphemes: [ʔa,ʔas–ləq–t–b,ʔə,tiʔəʔ,čusəd,t̓i–t̓ət̓əwaʔs]
+    morphemeGloss: [be.there,stat–listen–ics–pass,Pr,prox,star,attn–star]
+    english: ‘They are being listened to by the stars, these little stars.’
+
+# lines 21-23
+
+  - startTime: 81852
+    endTime: 86901
+    lushootseed: x̌ʷul̓ ʔuʔitʔitut, gʷəl ʔukʷəduˑptub, gʷəl ʔuʔux̌ʷtub dxʷšqulgʷədxʷ
+    morphemes: [x̌ʷul̓,ʔu–ʔit–ʔitut,gʷəl,ʔu–kʷəd•dup–txʷ–b,gʷəl,ʔu–ʔux̌ʷ–txʷ–b,dxʷ–šqulgʷədxʷ]
+    morphemeGloss: [just,pfv–dstr–sleep,sconj,pfv–take•coll–ecs–pass,sconj,pfv–go–ecs–pass,cntrpt–sky]
+    english: ‘The women just go to sleep, and they are gathered up. And they are taken up to the sky.’
+
+
+  - startTime: 87452
+    endTime: 89949
+    lushootseed: ʔa gʷəl ləkʷačil
+    morphemes: [ʔa,gʷəl,lə=kʷačil]
+    morphemeGloss: [be.there,sconj,prog=dawn]
+    english: ‘They are there and it became morning.’
+
+  - startTime: 91009
+    endTime: 93923
+    lushootseed: ʔušudxʷəxʷ əlgʷəʔ tiʔəʔ stububš
+    morphemes: [ʔu–šuɬ–dxʷ=axʷ,əlgʷəʔ,tiʔəʔ,stub–ubš]
+    morphemeGloss: [pfv–see–dc=now,pl,prox,pl–man]
+    english: ‘Now they see the men.’
+
+# 26
+  - startTime: 95851
+    endTime: 100219
+    lushootseed: tiləb ʔudᶻilitəb ʔə tsi qəp tiʔəʔ sč̓istxʷils
+    morphemes: [tiləb,ʔu–dᶻili–t–b,ʔə,tsi,qəp,tiʔəʔ,s=sč’istxʷ–il=s]
+    morphemeGloss: [immediately,pfv–reject–ics–pass,Pr,spec:fem,foolish,prox,nm=husband–inch=3po]
+    english: ‘Right away the foolish one rejects the one who was to become her husband.’
+
+  - startTime: 100608
+    endTime: 103094
+    lushootseed: sqəbibas kʷaʔ xʷiʔ ləhaʔɬ
+    morphemes: [sqəbibas,kʷaʔ,xʷiʔ,lə=haʔɬ]
+    morphemeGloss: [even.so,ptcl,neg,negp=good]
+    english: ‘ “Even so, but he’s no-good,’
+
+  - startTime: 103423
+    endTime: 106601
+    lushootseed: ʔuˑ saʔəxʷ kʷi dsk̓ʷaɬəlucid
+    morphemes: [ʔu,saʔ=axʷ,kʷi,d=s=k̓ʷaɬa•l•us–t–sid]
+    morphemeGloss: [intj	bad=now	rem	1sg.po=nm=examine•cnn•face–ics–2sg.obj]
+    english: ‘ “Oh, I don’t want to have to be looking at his face.’
+
+#   - startTime: 
+#     endTime: 
+#     lushootseed: haʔɬ ti sč’istxʷ ʔə ts(i) dsk’ʷuyaʔ
+#     morphemes: [haʔɬ  	ti	sč’istxʷ	ʔə	tsi	d–sk’ʷuyaʔ]
+#     morphemeGloss: [good	spec	husband	Pr	spec:fem	1po–dear.girl]
+#     english: ‘ “But the husband of my dear sister is good.” ’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: tiləb ʔuhaydub ʔə tiʔəʔ t’ət’əwaʔs
+#     morphemes: [tiləb	ʔu–hay–dxʷ–b	ʔə	tiʔəʔ	t’ət’əwaʔs]
+#     morphemeGloss: [immediately	pfv–known–dc–pass	Pr	prox	star]
+#     english: ‘Right away it was known by the star.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ʔuʔəx̌idəxʷ tiʔiɬ adəxʷdᶻilic
+#     morphemes: [ʔu–ʔəx̌id=axʷ	tiʔiɬ	ad=dəxʷ=dᶻili–t–s]
+#     morphemeGloss: [pfv–what.happened=now	dist	2sg.po=adnm=reject–ics–1sg.obj]
+#     english: ‘ “Why do you reject me?’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: gʷəl tux̌ʷ čəxʷ tubəhiq’ʷabic
+#     morphemes: [gʷəl	tux̌ʷ	čəxʷ	tu=bə=hiq’ʷa–bi–t–s]
+#     morphemeGloss: [sconj	just	2sg.sub	past=add=desire–map–ics–1sg.obj]
+#     english: ‘ “And you chose at first to admire me?’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: adsgʷaʔ adx̌əč tashiq’ʷabic
+#     morphemes: [ad–sgʷaʔ	ad–x̌əč	tu=ʔas–hiq’ʷa–bi–t–s]
+#     morphemeGloss: [2sg.po–one’s.own	2sg.po–mind	past=stat–desire–map–ics–1sg.obj]
+#     english: ‘ “It was your own idea to desire me.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: adsgʷaʔ
+#     morphemes: [ad–sgʷaʔ]
+#     morphemeGloss: [2sg.po–one’s.own]
+#     english: ‘ “It is yours.” ’
+# 
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: xʷiʔ gʷəsgʷəgʷadəd ʔə tsiʔəʔ
+#     morphemes: [xʷiʔ	gʷə=s=gʷə–gʷad–t	ʔə	tsiʔəʔ]
+#     morphemeGloss: [neg	sbj=nm=attn–talk–ics	Pr	prox:fem]
+#     english: ‘She didn’t say anything.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: huy, bəciqʷəxʷ əlgʷəʔ
+#     morphemes: [huy	bə=ciqʷ=axʷ	əlgʷəʔ]
+#     morphemeGloss: [sconj	add=dig.roots=now	pl]
+#     english: ‘Then they go digging again.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: bəciˑqʷ tiʔiʔəʔ
+#     morphemes: [bə=ciqʷ	tiʔ–iʔəʔ]
+#     morphemeGloss: [add=dig.roots	pl–prox]
+#     english: SSP: ‘They dig again.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: gʷəl qəl’qəlil kʷədiʔ sxʷiʔxʷiʔs
+#     morphemes: [gʷəl	qəl’–qəlil	kʷədiʔ	s=xʷiʔxʷiʔ=s]
+#     morphemeGloss: [sconj	dstr–become.many	rem.dma	nm=forage=3po]
+#     english: ‘And they have lots (of roots).’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ʔa ʔəsdukʷ tiʔəʔ x̌əč̌əč[s]
+#     morphemes: [ʔa	ʔas–dukʷ	tiʔəʔ	x̌əč–əč–s]
+#     morphemeGloss: [be.there	stat–abnormal	prox	dim.eff–mind–3po]
+#     english: SSP: ‘She is unhappy in her mind there.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ʔa ʔəsdukʷ
+#     morphemes: [ʔa	ʔas–dukʷ]
+#     morphemeGloss: [be.there	stat–abnormal]
+#     english: ‘She is unhappy there.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: xʷiʔ gʷəsx̌aƛ’txʷs tiʔiɬ stubš 
+#     morphemes: [xʷiʔ	gʷə=s=x̌aƛ’–txʷ=s	tiʔiɬ	stubš]
+#     morphemeGloss: [neg	sbj=nm=like–ecs=3po	dist	man]
+#     english: ‘She does not like this man.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: diɬ kʷi sdᶻidᶻihiʔs
+#     morphemes: [diɬ	kʷi	s=dᶻidᶻihiʔ=s]
+#     morphemeGloss: [foc	rem	nm=be.pregnant=3po]
+#     english: ‘She is pregnant.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: dᶻidᶻihiˑʔəxʷ tsiʔəʔ
+#     morphemes: [dᶻidᶻihiʔ=axʷ	tsiʔəʔ]
+#     morphemeGloss: [be.pregnant=now	prox:fem]
+#     english: SSP: ‘She is pregnant now.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: gʷəl ƛ’al’əxʷ diɬ tiʔəʔ cədiɬ luƛ’ kʷədiʔ ʔucut
+#     morphemes: [gʷəl	ƛ’al’=axʷ	diɬ	tiʔəʔ	cədiɬ	luƛ’	kʷədiʔ	ʔu–cut]
+#     morphemeGloss: [sconj	also=now	foc	prox	he	old	rem.dma	pfv–say]
+#     english: ‘And it is this old one who says,’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ʔu, xʷiʔ kʷi čaladləp kʷ(i ʔ)ut’q’ʷaxʷ gʷədaab
+#     morphemes: [ʔu	xʷiʔ	kʷi	čalad=lap	kʷi	ʔu–t’q’ʷa=axʷ	gʷədaab]
+#     morphemeGloss: [intj	neg	rem	chase=2pl.po	rem	pfv–break=now	underground]
+#     english: ‘ “Oh, don’t you guys go after roots that break off underground.” ’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: bədᶻaƛ’əbəxʷ
+#     morphemes: [bə=dᶻaƛ’–b=axʷ]
+#     morphemeGloss: [add=confuse–md=now]
+#     english: ‘That’s where he is mistaken.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ʔu, ʔəsčaləxʷ kʷi dəxʷqəldub čəɬ ʔə tiʔəʔ ʔal tiʔəʔ cədiɬ luƛ’
+#     morphemes: [ʔu	ʔas–čal=axʷ	kʷi	dəxʷ=qəl–dxʷ–b	čəɬ	ʔə	tiʔəʔ	ʔal	tiʔəʔ cədiɬ	luƛ’]
+#     morphemeGloss: [int	stat–how=now	rem	adnm=stop–dc–pass	1pl.po	Pr	prox	at	prox he	old]
+#     english: SSP: ‘ “Now why have we been told not to do this by this old one?” ’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: č’aʔad 
+#     morphemes: [č’aʔa–t]
+#     morphemeGloss: [dig–ics]
+#     english: ‘They dig.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: pkʷalcəxʷ tsiʔəʔ
+#     morphemes: [pkʷ•alc=axʷ	tsiʔəʔ]
+#     morphemeGloss: [break.off•prdct=now	prox:fem]
+#     english: ‘She breaks it off.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: pkʷaxʷ tiʔəʔ skʷiʔxʷ
+#     morphemes: [pkʷ•alc=axʷ	tiʔəʔ	skʷiʔxʷ]
+#     morphemeGloss: [break.off•prdct=now	prox	fern.root]
+#     english: ‘She breaks off the fern root.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: huy, ʔuč’aʔadəxʷ ʔuč’aʔadəxʷ ʔuč’aʔadəxʷ 
+#     morphemes: [huy	ʔu–č’aʔa–t=axʷ	ʔu–č’aʔa–t=axʷ	ʔu–č’aʔa–t=axʷ]
+#     morphemeGloss: [sconj	pfv–dig–ics=now	pfv–dig–ics=now	pfv–dig–ics=now]
+#     english: ‘Then, she digs, and digs, and digs.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: tiˑləb ʔut’uʔali
+#     morphemes: [tiləb	ʔu–t’uʔ•ali]
+#     morphemeGloss: [immediately	pfv–hole.through•place]
+#     english: ‘Finally she breaks through.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: tiləb ʔuʔux̌ʷ
+#     morphemes: [tiləb	ʔu–ʔux̌ʷ]
+#     morphemeGloss: [immediately	pfv–go]
+#     english: ‘She goes’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ləšuuc
+#     morphemes: [lə=šuɬ–c]
+#     morphemeGloss: [prog=see–altv]
+#     english: ‘And she looks.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: diɬ ti swatixʷtəd čəɬ tadiʔ gʷəd
+#     morphemes: [diɬ	ti	swatixʷtəd	čəɬ	tadiʔ	gʷəd]
+#     morphemeGloss: [foc	spec	country	1pl.po	dist.dma	down]
+#     english: ‘ “That’s our land down there.” ’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: tiləb ʔudxʷx̌ac’əlusəd
+#     morphemes: [tiləb	ʔu–dxʷ–x̌ac’•alus–t]
+#     morphemeGloss: [immediately	pfv–ctd–cover•eye–ics]
+#     english: SSP: ‘She covers it up right away.’
+# 
+#   - startTime: 
+#     endTime: 
+#     lushootseed: ɬčil əlgʷəʔ
+#     morphemes: [ɬčil	əlgʷəʔ]
+#     morphemeGloss: [arrive	pl]
+#     english: ‘They arrive.’
+# 
+#     lushootseed: gʷəl tiləb ʔucut tiʔəʔ luƛ’
+#     morphemes: [gʷəl	tiləb	ʔu–cut	tiʔəʔ	luƛ’]
+#     morphemeGloss: [sconj	immediately	pfv–say	prox	old]
+#     english: ‘And the old man says right away,’
+# 
+#     lushootseed: ʔut’uʔali čələp dᶻəɬ
+#     morphemes: [ʔu–t’uʔ•ali	čələp	dᶻəɬ]
+#     morphemeGloss: [pfv–hole.through•place	2pl.sub	ptcl]
+#     english: ‘ “Oh, you folks must have broken through.’
+# 
+#     lushootseed: ʔu tiʔiɬ dəxʷʔəƛ’ ʔə tiʔiɬ šəxʷəb
+#     morphemes: [ʔu	tiʔiɬ	dəxʷ=ʔəƛ’	ʔə	tiʔiɬ	šəxʷəb]
+#     morphemeGloss: [intj	dist	adnm=come	Pr	dist	wind]
+#     english: ‘ “That’s why there was a wind.” ’
+# 
+#     lushootseed: xʷiʔ, xʷuʔələʔ lil
+#     morphemes: [xʷiʔ	xʷuʔələʔ	lil]
+#     morphemeGloss: [neg	maybe	far]
+#     english: ‘ “No, maybe it was far away.’
+# 
+#     lushootseed: xʷuʔələʔ lil
+#     morphemes: [xʷuʔələʔ	lil]
+#     morphemeGloss: [maybe	far]
+#     english: ‘ “Maybe it was from a distance.’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: xʷiʔ xʷiʔ gʷəst’uʔali čəɬ
+#     morphemes: [xʷiʔ	xʷiʔ	gʷə=s=t’uʔ•ali	čəɬ]
+#     morphemeGloss: [neg	neg	sbj=nm=hole.through•place.where	1pl.po]
+#     english: SSP: ‘ “We didn’t break through.” ’
+# 
+#     lushootseed: kʷačil
+#     morphemes: [kʷačil]
+#     morphemeGloss: [dawn]
+#     english: ‘It dawns.’
+# 
+#     lushootseed: gʷəl bəʔux̌ʷ əlgʷəʔ
+#     morphemes: [gʷəl	bə=ʔux̌ʷ	əlgʷəʔ]
+#     morphemeGloss: [sconj	add=go	pl]
+#     english: ‘And they go again.’
+# 
+#     lushootseed: ʔux̌ʷ
+#     morphemes: [ʔux̌ʷ]
+#     morphemeGloss: [go]
+#     english: ‘She goes.’
+# 
+#     lushootseed: ləcuuc tsiʔəʔ suq’ʷaʔs
+#     morphemes: [lə=cut–c	tsiʔəʔ	suq’ʷaʔ–s]
+#     morphemeGloss: [prog=say–altv	prox:fem	younger.sibling–3po]
+#     english: ‘She says to her sister,’
+# 
+#     lushootseed: ʔu, ɬudxʷƛ’alšəd čəd
+#     morphemes: [ʔu	ɬu=dxʷƛ’alšəd	čəd]
+#     morphemeGloss: [intj	irr=prepare.cedar	1sg.sub]
+#     english: ‘ “I’m going to prepare cedar limbs (for rope making).” ’
+# 
+#     lushootseed: ʔəx̌idəxʷ sixʷ tsiʔiɬ dəgʷi
+#     morphemes: [ʔəx̌id=axʷ	sixʷ	tsiʔiɬ	dəgʷi]
+#     morphemeGloss: [what.happened=now	ptcl	dist:fem	you]
+#     english: ‘ “What do you plan to do?” ’
+# 
+#     lushootseed: haʔɬ tiʔiɬ adsč’istxʷ
+#     morphemes: [haʔɬ	tiʔiɬ	ad–sč’istxʷ]
+#     morphemeGloss: [good	dist	2sg.po–husband]
+#     english: ‘ “You have a good husband.’
+# 
+#     lushootseed: xʷiʔ gʷədsx̌aƛ’txʷ tiʔiɬ luƛ’
+#     morphemes: [xʷiʔ	gʷə=d=s=x̌aƛ’–txʷ	tiʔiɬ	luƛ’]
+#     morphemeGloss: [neg	sbj=1sg.po=nm=like–ecs	dist	old]
+#     english: ‘ “I don’t like that old one.’
+# 
+#     lushootseed: xʷiʔ gʷədsx̌aƛ’txʷ kʷi gʷədsəsƛ’alƛ’alab diʔaʔ gʷəsbədaʔəxʷəd
+#     morphemes: [xʷiʔ	gʷə=d=s=x̌aƛ’–txʷ	kʷi	gʷə=d=s=ʔas–ƛ’al–ƛ’ala–b]
+#     morphemeGloss: [neg	sbj=1sg.po=nm=like–ecs	rem	sbj=1sg.po=nm=stat–dstr–stranded–md]
+#     english: diʔaʔ	gʷə=s=bədaʔ=axʷ=ad
+# be.here	sbj=nm=offspring=now=1sg.sbrd
+# ‘ “I don’t want to get stuck here when I have a child.’
+# 
+# ɬu[d]xʷƛ’aˑlšəd čəd ʔə kʷi sq’ʷuʔq’ʷuʔ čəd[a] ɬučədᶻq’ʷəd čəda ɬut’əbš [čəda] ɬuxʷit’ilagʷil
+# ɬu=dxʷƛ’alšəd	čəd	ʔə	kʷi	s=q’ʷuʔ–q’ʷuʔ	čəda
+# irr=prepare.cedar	1sg.sub	Pr	rem	nm=dstr–gather	1sg.coord
+# ɬu=čədᶻq’ʷ–t	čəda	ɬu=t’əbš	čəda
+# irr=rub.about–ics	1sg.coord	irr=braid	1sg.coord
+# ɬu=xʷit’–il–agʷil
+# irr=descend–inch–auto
+# ‘ “I’m going prepare cedar limbs that are gathered, and I’ll break down the fibers and I’ll braid with it, and I’ll let myself down.” ’
+# 
+#     lushootseed: adsgʷaʔ adx̌əč
+#     morphemes: [ad–sgʷaʔ	ad–x̌əč]
+#     morphemeGloss: [2sg.po–one’s.own	2sg.po–mind]
+#     english: ‘ “It’s your decision,” ’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: cutəb ʔə tsi suq’ʷaʔs
+#     morphemes: [cut–t–b	ʔə	tsi	suq’ʷaʔ–s]
+#     morphemeGloss: [say–ics–pass	Pr	spec:fem	younger.sibling–3po]
+#     english: SSP: ‘She is told by her sister.’
+# 
+#     lushootseed: [d]xʷƛ’alšəd čəd
+#     morphemes: [dxʷƛ’alšəd	čəd]
+#     morphemeGloss: [prepare.cedar	1sg.sub]
+#     english: ‘ “I’ll prepare cedar.’
+# 
+#     lushootseed: cugʷəxʷ dəgʷi kʷi ɬuciqʷ
+#     morphemes: [cukʷ=axʷ	dəgʷi	kʷi	ɬu=ciqʷ]
+#     morphemeGloss: [only=now	you	rem	irr=dig.roots]
+#     english: ‘ “The one who digs for roots will just be you.” ’
+# 
+#     lushootseed: [d]xʷƛ’alš[əd]
+#     morphemes: [dxʷƛ’alšəd]
+#     morphemeGloss: [prepare.cedar]
+#     english: ‘She prepares cedar boughs’
+# 
+#     lushootseed: gʷəl t’əbš
+#     morphemes: [gʷəl	t’əbš]
+#     morphemeGloss: [sconj	braid]
+#     english: ‘And she braids.’
+# 
+#     lushootseed: ʔuˑ tuʔuɬax̌il
+#     morphemes: [ʔu	tu=ʔu–ɬax̌–il]
+#     morphemeGloss: [intj	past=pfv–dark–inch]
+#     english: ‘And it becomes night.’
+# 
+#     lushootseed: ʔuˑ, pukʷəb tiʔəʔ x̌ix̌payʔ ʔəst’əbš
+#     morphemes: [ʔu	pukʷəb	tiʔəʔ	x̌i–x̌payʔ	ʔas–t’əbš]
+#     morphemeGloss: [intj	pile	prox	attn–red.cedar	stat–braid]
+#     english: ‘Oh, the braided cedar piles up.’
+# 
+#     lushootseed: huyudəxʷ tiʔəʔ ɬudəxʷəsgʷədils
+#     morphemes: [huyu–t=axʷ	tiʔəʔ	ɬu=dəxʷ=ʔas–gʷəd–il=s]
+#     morphemeGloss: [made–ics=now	prox	irr=adnm=stat–down–inch=3po]
+#     english: ‘She makes something to sit on.’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: huy kʷalšəxʷ
+#     morphemes: [huy	kʷal–š=axʷ]
+#     morphemeGloss: [sconj	weave–ics=now]
+#     english: SSP: ‘Then she weaves it.’
+# 
+#     lushootseed: t’əbšədaxʷ
+#     morphemes: [t’əbš–t=axʷ]
+#     morphemeGloss: [braid–ics=now]
+#     english: ‘She braids it.’
+# 
+#     lushootseed: kʷəkʷalš
+#     morphemes: [kʷə–kʷal–š]
+#     morphemeGloss: [attn–weave–ics]
+#     english: ‘She weaves it.’
+# 
+#     lushootseed: huyud tiʔəʔ ɬudəxʷəskʷədyalc
+#     morphemes: [huyu–t	tiʔəʔ	ɬu=dəxʷ=ʔas–kʷəd•y•alc]
+#     morphemeGloss: [made–ics	prox	irr=adnm=stat–grasp•cnn•prdct]
+#     english: ‘She makes something to hang onto.’
+# 
+#     lushootseed: kʷədad tiʔəʔ dəč’uʔ bast’əbš
+#     morphemes: [kʷəda–t	tiʔəʔ	dəč’uʔ	bə=ʔas–t’əbš]
+#     morphemeGloss: [taken–ics	prox	one	add=stat–braid]
+#     english: ‘She takes one braided piece’
+# 
+#     lushootseed: gʷəl ʔəsɬidtxʷəxʷ tiʔəʔ diʔəʔ cədiɬ qʷɬayʔ
+#     morphemes: [gʷəl	ʔas–ɬid–txʷ=axʷ	tiʔəʔ	diʔəʔ	cədiɬ	qʷɬayʔ]
+#     morphemeGloss: [sconj	stat–tie–ecs=now	prox	here	he	log]
+#     english: ‘And she ties it to a stick.’
+# 
+#     lushootseed: ɬuɬaq’ dᶻixʷ
+#     morphemes: [ɬu=ɬaq’a	dᶻixʷ]
+#     morphemeGloss: [irr=fall	first]
+#     english: ‘It will land first.’
+# 
+# gʷəl tililəb ɬasgʷib kʷi ɬuscəq’šadəbs dəxʷəsaydxʷs tiʔiɬ ɬusɬaʔs dxʷʔal tiʔiɬ pədixʷ
+# gʷəl	til–iləb	ɬu=ʔas–gʷib	kʷi	ɬu=s=cəq’•šad–b=s
+# sconj	immediately–intns	irr=stat–prepare	rem	irr=nm=jab•foot–md=3po
+# dəxʷ=ʔas–hay–dxʷ=s	tiʔiɬ	ɬu=s=ɬaʔ=s	dxʷ–ʔal
+# adnm=stat–know–dc=3po	dist	irr=nm=arrive.there=3po	cntrpt–at
+# tiʔiɬ	pədixʷ
+# dist	soil
+# ‘And it will be ready for her to stand upon; that’s how she’ll know it has reached the ground’
+# 
+#     lushootseed: gʷəl ɬucəq’šadəb
+#     morphemes: [gʷəl	ɬu=cəq’•šad–b]
+#     morphemeGloss: [sconj	irr=jab•foot–md]
+#     english: ‘And she will stand on it.’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: t’ugʷuˑd tiʔəʔ
+#     morphemes: [t’ukʷu–t	tiʔəʔ]
+#     morphemeGloss: [measure–ics	prox]
+#     english: SSP: ‘She measures it.’
+# 
+#     lushootseed: gʷəl ɬaˑʔ
+#     morphemes: [gʷəl	ɬaʔ]
+#     morphemeGloss: [sconj	arrive.there]
+#     english: ‘And it reaches there.’
+# 
+#     lushootseed: ƛ’ubiləxʷ
+#     morphemes: [ƛ’ub–il=axʷ]
+#     morphemeGloss: [well–inch=now]
+#     english: ‘It is all right now.’
+# 
+#     lushootseed: tx̌ʷuˑd
+#     morphemes: [tx̌ʷu–t]
+#     morphemeGloss: [pull–ics]
+#     english: ‘She pulls it.’
+# 
+#     lushootseed: cuuc tsiʔəʔ suq’ʷaʔs
+#     morphemes: [cut–c	tsiʔəʔ	suq’ʷaʔ–s]
+#     morphemeGloss: [say–altv	prox:fem	younger.sibling–3po]
+#     english: ‘She says to her sister,’
+# 
+#     lushootseed: x̌ʷul’ čəxʷ ɬaskʷədyic 
+#     morphemes: [x̌ʷul’	čəxʷ	ɬu=ʔas–kʷəda–yi–t–s]
+#     morphemeGloss: [just	2sg.sub	irr=stat–grasp–dat–ics–1sg.obj]
+#     english: ‘ “You will just be holding on to it for me.’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: ʔu gʷəl čəxʷ ɬaskʷədyic
+#     morphemes: [ʔu	gʷəl	čəxʷ	ɬu=ʔas–kʷəda–yi–t–s]
+#     morphemeGloss: [intj	sconj	2sg.sub	irr=stat–grasp–dat–ics–1sg.obj]
+#     english: SSP: ‘ “Oh, and you will be holding on to it for me.’
+# 
+#     lushootseed: x̌ʷul’ šəlcutəxʷ čəd
+#     morphemes: [x̌ʷul’	šəls–t–sut=axʷ	čəd]
+#     morphemeGloss: [just	hanging.down–ics–refl=now	1sg.sub]
+#     english: ‘ “I’ll just let myself down.” ’
+# 
+#     lushootseed: šəlstəb ʔə tsiʔəʔ suq’ʷaˑʔs
+#     morphemes: [šəls–t–b	ʔə	tsiʔəʔ	suq’ʷaʔ–s]
+#     morphemeGloss: [hanging.down–ics–pass	Pr	prox:fem	younger.sibling–3po]
+#     english: ‘She is lowered by her sister.’
+# 
+# ɬubuusaɬ kʷi ɬudstitx̌ʷud čxʷa ɬukʷaʔəd čəda ɬutx̌ʷuˑdəxʷ
+# ɬu=buus•aɬ	kʷi	ɬu=d=s=ti–tx̌ʷu–t	čxʷa	ɬu=kʷaʔ–t
+# irr=four•cls	rem	irr=1sg.po=nm=attn–pull–ics	2sg.coord	irr=released–ics
+# čəda	ɬu=tx̌ʷu–t=axʷ
+# 1sg.coord	irr=pull–ics=now
+# ‘ “I shall pull it four times, then you let it go and I’ll pull it.” ’
+# 
+#     lushootseed: ɬupukʷəb
+#     morphemes: [ɬu=pukʷəb]
+#     morphemeGloss: [irr=pile]
+#     english: ‘ “It will pile up.” ’
+# 
+#     lushootseed: ʔux̌ʷ
+#     morphemes: [ʔux̌ʷ]
+#     morphemeGloss: [go]
+#     english: ‘She goes’
+# 
+#     lushootseed: gʷəl ɬaʔ
+#     morphemes: [gʷəl	ɬaʔ]
+#     morphemeGloss: [sconj	arrive.there]
+#     english: ‘And she arrives.’
+# 
+#     lushootseed: titx̌ʷud titx̌ʷud titx̌ʷud
+#     morphemes: [ti–tx̌ʷu–t	ti–tx̌ʷu–t	ti–tx̌ʷu–t]
+#     morphemeGloss: [attn–pull–ics	attn–pull–ics	attn–pull–ics]
+#     english: ‘She pulls, and pulls, and pulls.’
+# 
+#     lushootseed: buusaɬ kʷi stx̌ʷuds
+#     morphemes: [buus•aɬ	kʷi	s=tx̌ʷu–t=s]
+#     morphemeGloss: [four•cls	rem	nm=pull–ics=3po]
+#     english: ‘She pulls four times’
+# 
+#     lushootseed: gʷəl kʷaʔtəb ʔə tsi
+#     morphemes: [gʷəl	kʷaʔ–t–b	ʔə	tsi]
+#     morphemeGloss: [sconj	released–ics–pass	Pr	spec:fem]
+#     english: ‘And it is released by (her sister).’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: huy tx̌ʷudəxʷ
+#     morphemes: [huy	tx̌ʷu–t=axʷ]
+#     morphemeGloss: [sconj	pull–ics=now]
+#     english: SSP: ‘Then she pulls it.’
+# 
+#     lushootseed: gʷəl pukʷəb
+#     morphemes: [gʷəl	pukʷəb]
+#     morphemeGloss: [sconj	pile]
+#     english: ‘And it piles up.’
+# 
+#     lushootseed: ʔibəšəxʷ
+#     morphemes: [ʔibəš=axʷ]
+#     morphemeGloss: [travel=now]
+#     english: ‘She walks.’
+# 
+#     lushootseed: gʷəč’əbaxʷ ʔə kʷi dᶻəɬixʷ
+#     morphemes: [gʷəč’–b=axʷ	ʔə	kʷi	dᶻəɬixʷ]
+#     morphemeGloss: [search–csmd=now	Pr	rem	creek]
+#     english: ‘She searches now for a creek.’
+# 
+#     lushootseed: ʔiˑbəš dᶻəlucid ʔə tiʔiɬ duqʷač
+#     morphemes: [ʔibəš	dᶻəlucid	ʔə	tiʔiɬ	duqʷač]
+#     morphemeGloss: [travel	cross.river	Pr	dist	Nookachamps]
+#     english: ‘She walks to the banks of the Nookachamps River.’
+# 
+#     lushootseed: həbuʔ
+#     morphemes: [həbuʔ]
+#     morphemeGloss: [haboo]
+#     english: AS: ‘Haboo.’
+# 
+#     lushootseed: diɬ sdaʔs
+#     morphemes: [diɬ	sdaʔ–s]
+#     morphemeGloss: [foc	name–3po]
+#     english: SSP: ‘That is its name.’
+# 
+#     lushootseed: duqʷač kʷi sədaʔad[s]əxʷ
+#     morphemes: [duqʷač	kʷi	s=lə=daʔa–t=s=axʷ]
+#     morphemeGloss: [Nookachamps	rem	nm=prog=name–ics=3po=now]
+#     english: ‘What she is naming it now is Nookachamps.’
+# 
+#     lushootseed: cədiləxʷ tiʔəiɬ lədaʔad
+#     morphemes: [cədiɬ=axʷ	tiʔiɬ	lə=daʔa–t]
+#     morphemeGloss: [he=now	dist	prog=name–ics]
+#     english: ‘What she names it is that.’
+# 
+#     lushootseed: diɬ duqʷač tiʔiɬ
+#     morphemes: [diɬ	duqʷač	tiʔiɬ]
+#     morphemeGloss: [foc	duqʷač	dist]
+#     english: ‘That one’s the Nookachamp.’
+# 
+#     lushootseed: ʔuˑx̌ʷ
+#     morphemes: [ʔux̌ʷ]
+#     morphemeGloss: [go]
+#     english: ‘She goes.’
+# 
+#     lushootseed: gʷəl ʔalil tiʔiɬ lil
+#     morphemes: [gʷəl	ʔal–il	tiʔiɬ	lil]
+#     morphemeGloss: [sconj	at–inch	dist	far]
+#     english: ‘And she arrives a long way off.’
+# 
+#     lushootseed: lil tiʔiɬ sʔibəš[s]
+#     morphemes: [lil	tiʔiɬ	s=ʔibəš=s]
+#     morphemeGloss: [far	dist	nm=travel=3po]
+#     english: ‘She walks a long way.’
+# 
+#     lushootseed: ɬustabəxʷ kʷi dsʔəladᶻiʔɬ
+#     morphemes: [ɬu=stab=axʷ	kʷi	 d=s=ʔəladᶻ•iʔɬ]
+#     morphemeGloss: [irr=what=now	rem	 1sg.po=nm=care.for•child]
+#     english: ‘ “What will I use for a babysitter?’
+# 
+#     lushootseed: ɬustabəxʷ kʷi ɬasʔəladᶻiʔɬyic
+#     morphemes: [ɬu=stab=axʷ	kʷi	ɬu=ʔas–ʔəladᶻ•iʔɬ–yi–t–s]
+#     morphemeGloss: [irr=what=now	rem	irr=stat–care.for•child–dat–ics–1sg.obj]
+#     english: ‘ “Who will babysit for me?” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# gʷəl ʔəšudxʷ tiʔəʔ haʔɬ p’q’ac
+# gʷəl	ʔas–šuɬ–dxʷ	tiʔəʔ	haʔɬ	p’q’ac
+# sconj	stat–see–dc	prox	good	rotten.wood
+# SSP: ‘And she sees a good old rotten log.’
+# 
+# dᶻubud dᶻubud dᶻubud
+# dᶻubu–t	dᶻubu–t	dᶻubu–t
+# kick–ics	kick–ics	kick–ics
+# ‘She kicks it, kicks it, and kicks it.’
+# 
+# tiləb ʔut[ab]
+# tiləb	ʔu–tab
+# immediately	pfv–do
+# ‘Right away it moves.’
+# 
+# yaʔɬ ʔugʷədil tiʔəʔ p’q’ac
+# yaʔɬ	ʔu–gʷəd–il	tiʔəʔ	p’q’ac
+# be.unable	pfv–down–inch	prox	rotten.wood
+# ‘In vain it tries to get up, this rotten log.’
+# 
+# xʷiˑʔ gʷəsʔəx̌ids
+# xʷiʔ	gʷə=s=ʔəx̌id=s
+# neg	sbj=nm=what.happened=3po
+# ‘It doesn’t.’
+# 
+# paƛ’aƛ’ x̌ʷul’ ʔəsgʷədil
+# paƛ’aƛ’	x̌ʷul’	ʔas–gʷəd–il
+# worthless	just	stat–down–inch
+# ‘It just sits there.’
+# 
+# bədᶻubud
+# bə=dᶻubu–t
+# add=kick–ics
+# ‘She kicks it again,’
+# 
+# gʷəl bəhuyil p’q’ac
+# gʷəl	bə=huyu–il	p’q’ac
+# sconj	add=made–inch	rotten.wood
+# ‘And it became a rotten log.’
+# 
+# gʷəl bəʔibəˑš
+# gʷəl	bə=ʔibəš
+# sconj	add=travel
+# ‘And she walked on.’
+# 
+# bəɬčis tiʔəʔ dəč’uʔ
+# bə=ɬčil–s	tiʔəʔ	dəč’uʔ
+# add=arrive–altv	prox	one
+# ‘She comes to another.’
+# 
+# gʷəl bədᶻubud
+# gʷəl	bə=dᶻubu–t
+# sconj	add=kick–ics
+# ‘And again she kicks it.’
+# 
+# yaʔɬ ʔugʷədiˑl
+# yaʔɬ	ʔu–gʷəd–il
+# be.unable	pfv–down–inch
+# ‘It tries in vain to get up.’
+# 
+# xʷiʔ gʷəsuhuys ʔaciɬtalbixʷ
+# xʷiʔ	gʷə=s=ʔu–huyu=s	ʔaciɬtalbixʷ
+# neg	sbj=nm=pfv–made=3po	people
+# ‘It doesn’t become a person.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ləbədᶻubud
+# lə=bə=dᶻubu–t
+# prog=add=kick–ics
+# SSP: ‘She kicks it again.’
+# 
+# gʷəl bəp’q’acil
+# gʷəl	bə=p’q’ac–il
+# sconj	add=rotten.wood–inch
+# ‘And becomes a log.’
+# 
+# ʔuˑx̌ʷ tsiʔəˑʔ
+# ʔux̌ʷ	tsiʔəʔ
+# go	prox:fem
+# ‘She goes.’
+# 
+# gʷəl bəɬčis tiʔəʔ haˑʔɬ p’q’ac
+# gʷəl	bə=ɬčil–s	tiʔəʔ	haʔɬ	p’q’ac
+# sconj	add=arrive–altv	prox	good	rotten.wood
+# ‘And again she comes to a good log.’
+# 
+# dᶻubud
+# dᶻubu–t
+# kick–ics
+# ‘She kicks it.’
+# 
+# dᶻubud ʔə kʷi buusaɬ 
+# dᶻubu–t	ʔə	kʷi	buus•aɬ
+# kick–ics	Pr	rem	four•cls
+# ‘She kicks it four times.’
+# 
+# yaʔɬ ʔugʷədil 
+# yaʔɬ	ʔu–gʷəd–il
+# be.unable	pfv–down–inch
+# ‘It is unable to get up.’
+# 
+# xʷiʔ gʷəsgʷəgʷadəds
+# xʷiʔ	gʷə=s=gʷə–gʷad–t=s
+# neg	sbj=nm=attn–speak–ics=3po
+# ‘It can’t speak a word.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# huy sixʷ bədᶻubdᶻubudəxʷ
+# huy	sixʷ	bə=dᶻub–dᶻubu–t=axʷ
+# sconj	ptcl	add=dstr–kick–ics=now
+# SSP: ‘Then again she kicks it.’
+# 
+# bədᶻubudəxʷ
+# bə=dᶻubu–t=axʷ
+# add=kick–ics=now
+# ‘She kicks it again.’
+# 
+# dᶻubud
+# dᶻubu–t
+# kick–ics
+# ‘And kicks it.’
+# 
+# tiˑləb ʔutab
+# tiləb	ʔu–tab
+# immediately	pfv–what
+# ‘Right away it moves.’
+# 
+# tiləb ʔuhuyil p’q’ac
+# tiləb	ʔu–huyu–il	p’q’ac
+# immediately	pfv–made–inch	rotten.wood
+# ‘Right away it becomes a rotten log.’
+# 
+# huy, bəʔibəšəxʷ 
+# huy	bə=ʔibəš=axʷ
+# sconj	add=travel=now
+# ‘Then, she walks again.’
+# 
+# mmmm
+# ʔi gʷəl ɬčis tiʔəʔ haˑʔɬ p’q’aˑc ʔəšaˑb
+# ʔi	gʷəl	ɬčil–s	tiʔəʔ	haʔɬ	p’q’ac	ʔas–šab
+# intj	sconj	arrive–altv	prox	good	rotten.wood	stat–dry
+# ‘Oh, and she comes to a good rotten log that is dry.’
+# 
+# haˑʔɬ kʷədiʔ səshuˑys
+# haʔɬ	kʷədiʔ	s=ʔas–huyu=s
+# good	rem.dma	nm=stat–made=3po
+# ‘That one that is made is a good one.’
+# 
+# huy dᶻubud ʔə tiʔiɬ buusaɬ
+# huy	dᶻubu–t	ʔə	tiʔiɬ	buus•aɬ
+# sconj	kick–ics	Pr	dist	four•cls
+# ‘Then she kicks it four times.’
+# 
+# tiləb ʔugʷədil tsiʔəʔ ɬuƛ’
+# tiləb	ʔu–gʷəd–il	tsiʔəʔ	ɬuƛ’
+# immediately	pfv–down–inch	prox:fem	old
+# ‘Right away, an old lady sat up.’
+# 
+# ʔəsx̌ʷuq’ʷdis ʔə tiʔəʔ sqiqəlikʷs
+# ʔas–x̌ʷuq’ʷdis	ʔə	tiʔəʔ	s=qi–qəlikʷ=s
+# stat–pinned	Pr	prox	nm=attn–blanket=3po
+# ‘She has a little blanket pinned around her.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# gʷəl ʔugʷəgʷadəd,
+# gʷəl	ʔu–gʷə–gʷad–t
+# sconj	pfv–attn–speak–ics
+# SSP: ‘And she speaks.’
+# 
+# šəwu dʔibač 
+# šəwu	d–ʔibač
+# intj	1sg.po–grand.child
+# ‘ “Oh, my granddaughter,’
+# 
+# šu ʔuqəɬ čəd tasʔiʔitut
+# šu	ʔu–qɬ	čəd	tu=ʔas–ʔi–ʔitut
+# intj	pfv–awake	1sg.sub	past=stat–attn–sleep
+# ‘ “I have awakened, I was having a little sleep.” ’
+# 
+# gʷədil kiaʔ gʷədil
+# gʷəd–il	kiaʔ	gʷəd–il
+# down–inch	grandmother	down–inch
+# ‘ “Sit up, grandmother, sit up.’
+# 
+# ləʔibəš čəd
+# lə=ʔibəš	čəd
+# prog=travel	1sg.sub
+# ‘ “I am travelling.’
+# 
+# ɬasʔəladᶻaʔɬyic čəxʷ
+# ɬu=ʔas–ʔəladᶻ•aʔɬ–yi–t–s	čəxʷ
+# irr=stat–care.for•child–dat–ics–1sg.obj	2sg.sub
+# ‘ “You will babysit for me.” ’
+# 
+# dxʷʔaləxʷ ti dxʷx̌ədiʔəb tiʔiɬ dxʷʔas 
+# dxʷ–ʔal=axʷ	ti	dxʷ–x̌ədiʔəb	tiʔiɬ	dxʷ–ʔa=s
+# cntrpt–at=now	spec	cntrpt–x̌ədiʔəb	dist	cntrpt–be.there=3po
+# ‘Where she goes to is x̌ədiʔəb.’
+# 
+# diʔɬ sʔəq’dxʷs tiʔiɬ bəbuus x̌payʔac
+# diʔɬ	s=ʔəq’–dxʷ=s	tiʔiɬ	bə=buus	x̌payʔac
+# suddenly	nm=open–dc=3po	dist	add=four	red.cedar
+# ‘She comes upon four cedars.’
+# 
+# haʔɬ yaˑw’ ʔəšab
+# haʔɬ	yaw’	ʔas–šab
+# good	only.if	stat–dry
+# ‘They are very dry.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔuˑ, diɬəxʷ (h)aʔɬ tiʔəʔ ɬudəxʷəsɬaɬlil čəɬ
+# ʔu	diɬ=axʷ	haʔɬ	tiʔəʔ	ɬu=dəxʷ=ʔas–ɬaɬlil	čəɬ
+# intj	foc=now	good	prox	irr=adnm=stat–live	1pl.po
+# SSP: ‘ “Oh, this will be a good place for us to live.” ’
+# 
+# huy, qʷibicutəxʷ
+# huy	qʷibi–t–sut=axʷ
+# sconj	prepared–ics–refl=now
+# ‘Then, she prepares herself.’
+# 
+# mmmmmmmm
+# ʔux̌ʷ
+# ʔux̌ʷ
+# go
+# ‘She goes.’
+# 
+# šuuc tiʔəʔ dᶻəɬixʷ
+# šuɬ–c	tiʔəʔ	dᶻəɬixʷ
+# see–altv	prox	creek
+# ‘She looks at the creek.’
+# 
+# ləcutəyil dᶻəɬ kʷi sʔuladxʷ
+# ləcu–təyil	dᶻəɬ	kʷi	sʔuladxʷ
+# cont–go.upriver	ptcl	rem	salmon
+# ‘The salmon must have been running.’
+# 
+# ɬučəɬ əw’ə čəd sxʷiʔap
+# ɬu=čəɬ	əw’ə	čəd	sxʷiʔap
+# irr=make	ptcl	1sg.sub	fish.trap
+# ‘ “I’ll make a fishtrap.’
+# 
+# ɬutqalikʷ əw’ə čəd
+# ɬu=tqa–alikʷ	əw’ə	čəd
+# irr=closed–act	ptcl	1sg.sub
+# ‘ “I’ll trap them.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# huy [d]xʷƛ’alšədəxʷ
+# huy	dxʷƛ’alšəd=axʷ
+# sconj	prepare.cedar=now
+# SSP: ‘Then she prepares the cedars.’
+# 
+# huˑy čəčx̌abəxʷ
+# huy	čə–čəx̌a–b=axʷ
+# sconj	attn–split–md=now
+# ‘Then she splits them.’
+# 
+# gʷəl huy kʷalšəxʷ tiʔiɬ sčəɬs sxʷiʔap
+# gʷəl	huy	kʷal–š=axʷ	tiʔiɬ	s=čəɬ=s	sxʷiʔap
+# sconj	sconj	weave–ics=now	dist	nm=make=3po	fish.trap
+# ‘And then she weaves her fishtrap.’
+# 
+# huy dxʷtčigʷədidəxʷ
+# huy	dxʷ–təč•igʷəd–i–t=axʷ
+# sconj	ctd–roll•body–ss–ics=now
+# ‘Then she puts it in the water’
+# 
+# huy ʔux̌ʷəxʷ
+# huy	ʔux̌ʷ=axʷ
+# sconj	go=now
+# ‘Then she goes.’
+# 
+# gʷəl huyudəxʷ tiʔəʔ ɬudəxʷəstqadiʔs, təqtqadiʔs
+# gʷəl	huyu–t=axʷ	tiʔəʔ	ɬu=dəxʷ=ʔas–tqadiʔ=s
+# sconj	made–ics=now	prox	irr=adnm=stat–fish.trap=3po
+# təq–tqadiʔ–s
+# dstr–fish.trap–3po
+# ‘And she makes the rest of her trap.’
+# 
+# ʔaʔədəxʷ tiʔəʔ sxʷiʔaps
+# ʔa–t=axʷ	tiʔəʔ	sxʷiʔap–s
+# be.there–ics=now	prox	fish.trap–3po
+# ‘She places the fishtrap.’
+# 
+# ʔaˑ gʷəl, basbədaʔil
+# ʔa	gʷəl	bə=ʔəs=bədaʔ–il
+# be.there	sconj	add=stat–offspring–inch
+# ‘She is there and she gives birth to her child.’
+# 
+# həbuʔ 
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔa gʷəl ləcut,
+# ʔa	gʷəl	lə=cut
+# be.there	sconj	prog=say
+# SSP: ‘She is there and she says,’
+# 
+# ɬuhaʔlid čəxʷ t(i) adʔibac
+# ɬu=haʔɬ–i–t	čəxʷ	ti	ad–ʔibac
+# irr=good–ss–ics	2sg.sub	spec	2sg.po–grandchild
+# ‘ “You will comfort your grandchild.’
+# 
+# ɬuɬadəyʔlucidbid čəxʷ
+# ɬu=ɬadəyʔ•l•ucid–bi–t	čəxʷ
+# irr=woman•cnn•mouth–map–ics	2sg.sub
+# ‘ “You will refer to the baby only as a girl child.’
+# 
+# ʔəsgʷəč’əb k’ʷəɬ kʷi dəbəɬ tul’ʔal q’ixʷ sɬəɬadəyʔ ʔə kʷi stubš 
+# ʔas–gʷəč’–b	k’ʷəɬ	kʷi	dəbəɬ	tul’–ʔal	q’ixʷ
+# stat–search–csmd	qtv	rem	belong.to.bloodline	cntrfg–at	upstream
+# sɬə–ɬadəyʔ	ʔə	kʷi	stubš
+# pl–woman	Pr	rem	man
+# ‘ “I hear that there are women from upriver looking for a man.’
+# 
+# gʷəsaxʷəbtub t(i) adʔibac
+# gʷə=saxʷəb–txʷ–b	ti	ad–ʔibac
+# sbj=run–ecs–pass	spec	2sg.po–grandchild
+# ‘ “Your grandson will be kidnapped.’
+# 
+# x̌ʷul’ čəxʷ ɬadəyʔlucidbid
+# x̌ʷul’	čəxʷ	ɬadəyʔ•l•ucid–bi–t
+# just	2sg.sub	woman•cnn•mouth–map–ics
+# ‘ “Just call him a girl.” ’
+# 
+# gʷəl ʔəsqəp t[s]ə gə[t] luƛ’
+# gʷəl	ʔas–qəp	tsə	gət	luƛ’
+# sconj	stat–foolish	nspec:fem	guy	old
+# ‘But this silly old woman is foolish.’
+# 
+# ʔuˑx̌ʷ t[s]iʔəʔ šəhab
+# ʔux̌ʷ	tsiʔəʔ	šəhab
+# go	prox:fem	trap.fish
+# ‘The one who traps fish goes,’
+# 
+# gʷəl ƛ’uləsč’ədᶻəd čad dəxʷuhaʔlad[s] ti xʷiʔ ləhaʔɬ ti bibədaʔ
+# gʷəl	ƛ’u=ləs–č’ədᶻ–t	čad	dəxʷ=ʔu–haʔɬad=s
+# sconj	hab=prog.stat–stalk–ics	where	adnm=pfv–make.better=3po
+# ti	xʷiʔ	lə=haʔɬ	ti	bi–bədaʔ
+# spec	neg	negp=good	spec	attn–offspring
+# ‘And she always sneaks up to where that good-for-nothing soothes the baby.’
+# 
+# ʔaˑbšpibəš 
+# ʔas–bəs–špibəš
+# stat–prop–man
+# ‘ “She has a boy.’
+# 
+# ʔaˑbšpibəš
+# ʔas–bəs–špibəš
+# stat–prop–man
+# ‘ “She has a boy.’
+# 
+# k’ʷəliˑɬ čəxʷ ʔubəspaʔpadəyʔ
+# k’ʷəliɬ	čəxʷ	ʔu–bəs–paʔ–padəyʔ
+# intj	2sg.sub	pfv–prop–attn–woman
+# ‘ “Oh! I mean you have a little girl.’
+# 
+# k’ʷəliɬ čəxʷ ʔubəspaʔpadəɬyʔ
+# k’ʷəliɬ	čəxʷ	ʔu–bəs–paʔ–padəɬyʔ
+# intj	2sg.sub	pfv–prop–attn–woman
+# ‘ “Oh! I mean you have a little girl.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔu, ƛ’utubšlucidbitəb ʔə tsi xʷiʔ ləhaʔɬ ti bibədaʔ
+# ʔu	ƛ’u=tubš•l•ucid–bi–t–b	ʔə	tsi	xʷiʔ	lə=haʔɬ
+# intj	hab=man•cnn•mouth–map–ics–pass	Pr	spec:fem	neg	negp=good
+# ti	bi–bədaʔ
+# spec	attn–offspring
+# SSP: ‘ “Oh, the baby is called a boy by the good-for-nothing.’
+# 
+# ɬusaxʷəbtub
+# ɬu=saxʷəb–txʷ–b
+# irr=run–ecs–pass
+# ‘ “He’ll be kidnapped.” ’
+# 
+# ʔiˑ kʷi stab gʷəgʷadgʷadxʷ
+# ʔi	kʷi	stab	gʷə=gʷad–gʷad–dxʷ
+# intj	rem	what	sbj=dstr–speak–dc
+# ‘And she scolds her.’
+# 
+# ʔəx̌id kʷ(i) adəxʷtubšlucidbid t(i) adʔibac
+# ʔəx̌id	kʷi	ad=dəxʷ=tubš•l•ucid–bi–t	ti
+# what.happened	rem	2sg.po=adnm=man•cnn•mouth–map–ics	spec
+# ad–ʔibac
+# 2sg.po–grandchild
+# ‘ “Why do you call your grandchild a grandson?” ’
+# 
+# ƛ’udxʷbalihigʷəd čəd ƛ’udxʷbalihigʷəd [čəd]
+# ƛ’u=dxʷ–bali•igʷəd	čəd	ƛ’u=dxʷ–balih•igʷəd
+# hab=ctd–forget•inside.small.area	1sg.sub	hab=ctd–forget•inside.small.area
+# čəd
+# 1sg.sub
+# ‘ “I forgot myself, I forgot myself.” ’
+# 
+# həbuʔəd gʷəkawič čəxʷ
+# həbuʔ–t	gʷə=kawič	čəxʷ
+# həbuʔ–ics	sbj=hunchback	2sg.sub
+# ‘Say haboo, or you’ll get hunchbacked.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ tsiʔəʔ
+# ʔa	tsiʔəʔ
+# be.there	prox:fem
+# SSP: ‘She is there.’
+# 
+# gʷəl bəʔux̌ʷ bəšəhab
+# gʷəl	bə=ʔux̌ʷ	bə=šəhab
+# sconj	add=go	add=trap.fish
+# ‘And she goes to trap fish again.’
+# 
+# ƛ’al’ sixʷ bətubšlucidbitəb ʔə tsi xʷiʔ ləhaʔɬ
+# ƛ’al’	sixʷ	bə=tubš•l•ucid–bi–t–b	ʔə	tsi	xʷiʔ
+# also	ptcl	add=man•cnn•mouth–map–ics–pass	Pr	spec:fem	neg
+# lə=haʔɬ
+# negp=good
+# ‘She again hears the foolish babysitter using boy terms to the child.’
+# 
+# ʔuˑ ɬusaxʷəbtub ti dbədaʔ
+# ʔu	ɬu=saxʷəb–txʷ–b	ti	d–bədaʔ
+# intj	irr=run–ecs–pass	spec	1sg.po–offspring
+# ‘ “Oh, my child will be kidnapped.” ’
+# 
+# ʔuladxʷ tsiʔəʔ ʔuladxʷ ʔuladxʷ ʔuladxʷ
+# ʔuladxʷ	tsiʔəʔ	ʔuladxʷ	ʔuladxʷ	ʔuladxʷ
+# catch.salmon	prox:fem	catch.salmon	catch.salmon	catch.salmon
+# ‘She caught salmon, caught salmon, caught salmon.’
+# 
+# ʔəx̌id, ʔuʔəx̌id kʷ(i) adəxʷutubšlucidbid t(i) adʔibac
+# ʔəx̌id	ʔu–ʔəx̌id	kʷi
+# what.happened	pfv–what.happened	rem
+# ad=dəxʷ=tu–tubš•l•ucid–bi–t	ti	ad–ʔibac
+# 2sg.po=adnm=attn–man•cnn•mouth–map–ics	spec	2sg.po–grandchild
+# ‘ “Why, oh why, do you call your grandchild a grandson?’
+# 
+# ʔəx̌id kʷ(i) adəx̌ʷul’ ɬadəyʔlucidbid
+# ʔəx̌id	kʷi	ad=dəxʷ=x̌ʷul’	ɬadəyʔ•l•ucid–bi–t
+# what.happened	rem	2sg.po=adnm=just	woman•cnn•mouth–map–ics
+# ‘ “Why don’t you just call him a girl child?’
+# 
+# x̌ʷul’ gʷadsaxʷəbtxʷyitəb
+# x̌ʷul’	gʷə=ad=s=saxʷəb–txʷ–yi–t–b
+# just	sbj=2sg.po=nm=run–ecs–dat–ics–pass
+# ‘ “You’ll just have him kidnapped from you.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ, ƛ’udxʷbalihigʷəd čəd ƛ’udxʷbalihigʷəd [čəd]
+# ʔa	ƛ’u=dxʷ–bali•igʷəd	čəd
+# intj	hab=ctd–forget•inside.small.area	1sg.sub
+# ƛ’u=dxʷ–balih•igʷəd	čəd
+# hab=ctd–forget•inside.small.area	1sg.sub
+# SSP: ‘ “Oh, I forget myself, I forgot myself.” ’
+# 
+# x̌əɬ ti ƛ’ux̌aab t[s]iʔəʔ luƛ’
+# x̌əɬ‿ti	ƛ’u=x̌aab	tsiʔəʔ	luƛ’
+# seemingly	hab=cry	prox:fem	old
+# ‘She kind of cries, this old one.’
+# 
+# ʔiˑ, bəʔux̌ʷəxʷ tsiʔəʔ šəhabiluɬ
+# ʔi	bə=ʔux̌ʷ=axʷ	tsiʔəʔ	šəhab–iluɬ
+# intj	add=go=now	prox:fem	trap.fish–prpv
+# ‘Again she goes, she goes to remove salmon from her trap.’
+# 
+# tiˑləbəxʷ xʷiʔ gʷəsuhaʔliʔɬ ʔə tsiʔəʔ
+# tiləb=axʷ	xʷiʔ	gʷə=s=ʔu–haʔɬ•iʔɬ	ʔə	tsiʔəʔ
+# immediately=now	neg	sbj=nm=pfv–good•child	Pr	prox:fem
+# ‘But right away the old one can’t seem to comfort the child.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔuˑ	ɬik’ʷtubəxʷ ti dbədaʔ ʔə tsi xʷiʔ ləhaʔɬ
+# ʔu	ɬik’ʷ–txʷ–b=axʷ	ti	d–bədaʔ	ʔə	tsi	xʷiʔ
+# intj	hook–ecs–pass=now	spec	1sg.po–offspring	Pr	spec:fem	neg
+# lə=haʔɬ
+# negp=good
+# SSP: ‘Oh, the good-for-nothing will have my son kidnapped from her.’
+# 
+# ɬčisəbəxʷ tsiʔəʔ luƛ’ ʔə tiʔəʔ sɬəɬadəyʔ
+# ɬčil–s–b=axʷ	tsiʔəʔ	luƛ’	ʔə	tiʔəʔ	sɬə–ɬadəyʔ
+# arrive–altv–pass=now	prox:fem	old	Pr	prox	pl–woman
+# ‘Some women came to the old woman.’
+# 
+# tiləb ʔuwiliq’ʷitəb
+# tiləb	ʔu–wiliq’ʷi–t–b
+# immediately	pfv–ask–ics–pass
+# ‘They ask her right away,’
+# 
+# stab tiʔiɬ adsəsʔəladᶻiʔɬ
+# stab	tiʔiɬ	ad=s=ʔas–ʔəladᶻ•iʔɬ
+# what	dist	2sg.po=nm=stat–care.for•child
+# ‘ “What is that you are taking care of?” ’
+# 
+# spaʔpadəyʔ, sbəlus, spaʔpadəyʔ
+# spaʔ–padəyʔ	sbəlus	spaʔ–padəyʔ
+# attn–woman	??	attn–woman
+# ‘ “A girl child, your honours, a girl child.” ’
+# 
+# x̌ʷul’ ƛ’ubəɬəgʷəldub tsə gə[t]
+# x̌ʷul’	ƛ’u=bə=ɬəgʷɬ–dxʷ–b	tsə	gət
+# just	hab=add=leave–dc–pass	nspec:fem	guy
+# ‘This gal is just left.’
+# 
+# gʷəl bəhaʔliʔɬ
+# gʷəl	bə=haʔɬ•iʔɬ
+# sconj	add=good•child
+# ‘And she comforts the child.’
+# 
+# čaˑč kʷi bəčagʷil k’ʷəasliɬ čəxʷ ʔubəspaʔpadəyʔ
+# čaˑčas	kʷi	bəča–agʷil	k’ʷəliɬ	čəxʷ	ʔu–bəs–paʔ–padəyʔ
+# child	rem	fall–auto	intj	2sg.sub	pfv–prop–attn–woman
+# ‘Ｎ “He who lies down is a child—oh, oh, I mean you have a daughter!” Ｎ ’
+# 
+# ʔu, ƛ’utubšlucidbitəb ʔə tsiʔiɬ luƛ’ tiʔiɬ č’ač’as
+# ʔu	ƛ’u=tubš•l•ucid–bi–t–b	ʔə	tsiʔiɬ	luƛ’	tiʔiɬ	č’ač’as
+# intj	hab=man•cnn•mouth–map–ics–pass	Pr	dist:fem	old	dist	child
+# ‘ “Oh, that old woman always calls that child a boy!” ’
+# 
+# saxʷəbəxʷ tsi ʔiɬt’it’isu
+# saxʷəb=axʷ	tsi	ʔiɬ–t’i–t’isu
+# run=now	spec:fem	prtv–attn–youngest
+# ‘The younger one runs’
+# 
+# gʷəl kʷədyid tsiʔəʔ luƛ’
+# gʷəl	kʷəda–yi–t	tsiʔəʔ	luƛ’
+# sconj	take–dat–ics	prox:fem	old
+# ‘And takes the child from the old lady’
+# 
+# gʷəl ləp’aɬabacəd
+# gʷəl	lə=p’aɬ•abac–t
+# sconj	prog=examine•body–ics
+# ‘And examines it all over.’
+# 
+# tiˑləb ʔuhaydxʷ stutubš
+# tiləb	ʔu–hay–dxʷ	stu–tubš
+# immediately	pfv–known–dc	attn–man
+# ‘Right away she finds out that it is a boy child.’
+# 
+# huy saxʷəbtxʷəxʷ əlgʷəʔ
+# huy	saxʷəb–txʷ=axʷ	əlgʷəʔ
+# sconj	run–ecs=now	pl
+# ‘Then they kidnap him.’
+# 
+# ʔaˑ tsiʔəʔ luƛ’ ʔəsx̌ik’ʷəb
+# ʔa	tsiʔəʔ	luƛ’	ʔas–x̌ik’ʷəb
+# be.there	prox:fem	old	stat–alone
+# ‘The old woman is there by herself alone.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# gʷəl ɬčil tsiʔəʔ ʔəbsbədaʔ
+# gʷəl	ɬčil	tsiʔəʔ	ʔas–bəs–bədaʔ
+# sconj	arrive	prox:fem	stat–prop–offspring
+# SSP: ‘And the child’s mother arrives.’
+# 
+# ʔuɬčisəb tiʔəʔ adbədaʔ ʔə ti sɬəɬadəyʔ
+# ʔu–ɬčil–s–b	tiʔəʔ	ad–bədaʔ	ʔə	ti	sɬə–ɬadəyʔ
+# pfv–arrive–altv–pass	prox	2sg.po–offspring	Pr	spec	pl–woman
+# ‘ “Oh, some women have come to your child.’
+# 
+# yaʔɬ čəd x̌əɬ ti ʔux̌ibdup
+# yaʔɬ	čəd	x̌əɬ‿ti	ʔu–x̌ib•dup
+# be.unable	1sg.sub	seemingly	pfv–grab•coll
+# ‘ “I have tried in vain to grab onto him,’
+# 
+# x̌ʷul’ ʔiɬsaxʷəbtxʷ əlgʷəʔ
+# x̌ʷul’	ʔiɬ–saxʷəb–txʷ	əlgʷəʔ
+# just	prtv–run–ecs	pl
+# ‘ “They have simply kidnapped him.” ’
+# 
+# yəx̌i čəxʷ ƛ’utubšlucidbid
+# yəx̌i	čəxʷ	ƛ’u=tubš•l•ucid–bi–t
+# because	2sg.sub	hab=man•cnn•mouth–map–ics
+# ‘ “Because you called him a boy child!” ’
+# 
+# tiləb ʔudᶻubutəb tsiʔəʔ luƛ’
+# tiləb	ʔu–dᶻubu–t–b	tsiʔəʔ	luƛ’
+# immediately	pfv–kick–ics–pass	prox:fem	old
+# ‘Right away, the old woman was kicked.’
+# 
+# gʷəl ləcut
+# gʷəl	lə=cut
+# sconj	prog=say
+# ‘And she says,’
+# 
+# šaha bəʔəx̌itubš čəxʷ ʔu
+# šaha	bə=ʔəx̌id–txʷ–bš	čəxʷ	ʔu
+# intj	add=what.happened–ecs–1sg.obj	2sg.sub	int
+# ‘ “What are you doing to me?” ’
+# 
+# həʔ həʔ hay 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ t[s]iʔəʔ luƛ’
+# ʔa	tsiʔəʔ	luƛ’
+# be.there	prox:fem	old
+# SSP: ‘This old woman is there.’
+# 
+# gʷəl dᶻubdᶻubutəbəxʷ
+# gʷəl	dᶻub–dᶻubu–t–b=axʷ
+# sconj	dstr–kick–ics–pass=now
+# ‘She is kicked.’
+# 
+# ʔuˑ p’q’acəxʷ
+# ʔu	p’q’ac=axʷ
+# intj	rotten.wood=now
+# ‘Oh, now she is a rotten log.’
+# 
+# huy ɬəgʷəlbaxʷ
+# huy	ɬəgʷɬ–b=axʷ
+# sconj	leave–pass=now
+# ‘Then she is left there.’
+# 
+# kʷədatəb ʔə tsiʔəʔ tiʔəʔ sqəlad ʔə tiʔəʔ tubədaʔs
+# kʷəda–t–b	ʔə	tsiʔəʔ	tiʔəʔ	sqəlad	ʔə	tiʔəʔ	tu=bədaʔ–s
+# taken–ics–pass	Pr	prox:fem	prox	diaper	Pr	prox	past=offspring–3po
+# ‘The mother takes the soiled diaper of what was her child.’
+# 
+# gʷəl k’ʷit’txʷ dxʷʔal kʷədiʔ dᶻəɬixʷ
+# gʷəl	k’ʷit’–txʷ	dxʷ–ʔal	kʷədiʔ	dᶻəɬixʷ
+# sconj	shoreward–ecs	cntrpt–at	rem.dma	creek
+# ‘And she takes it down to the creek.’
+# 
+# huy dᶻaqadəxʷ
+# huy	dᶻaqa–t=axʷ
+# sconj	mourn–ics=now
+# ‘Then she mourns.’
+# 
+# x̌aabəxʷ
+# x̌aab=axʷ
+# cry=now
+# ‘She cries.’
+# 
+# ʔistadəxʷ čəd ʔə tiˑ, ti šiʔab gʷəɬ dbədaʔ,
+# ʔistaʔ–t=axʷ	čəd	ʔə	ti	ti	šiʔab	gʷəɬ	d–bədaʔ
+# be.like–ics=now	1sg.sub	Pr	spec	spec	beloved	assc	1sg.po–offspring
+# ‘Ｎ “Here is what I used to do to the clothing of my beloved child. Ｎ’
+# 
+# p’ic’i[d] kʷədaʔ, p’ic’i[d] kʷədaʔ
+# p’ic’i–t	kʷədaʔ	p’ic’i–t	kʷədaʔ
+# wring.out–ics	ptcl	wring.out–ics	ptcl
+# ‘Ｎ “Wringing it out, wringing it out.” Ｎ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔistadəxʷ čəd ʔə tiˑ, ti šiʔab gʷəɬ dbədaʔ,
+# ʔistaʔ–t=axʷ	čəd	ʔə	ti	ti	šiʔab	gʷəɬ	d–bədaʔ
+# be.like–ics=now	1sg.sub	Pr	spec	spec	beloved	assc	1sg.po–offspring
+# SSP: ‘Ｎ “Here is what I used to do to the clothing of my beloved child. Ｎ’
+# 
+# p’ic’i[d] kʷədaʔ
+# p’ic’i–t	kʷədaʔ
+# wring.out–ics	ptcl
+# ‘Ｎ “Wringing it out.” Ｎ’
+# 
+# x̌ʷul’ dxʷdᶻal kʷədiʔ sup’ic’ids kʷədiʔ xʷciʔikʷ
+# x̌ʷul’	dxʷ–dᶻal	kʷədiʔ	s=ʔu–p’ic’i–t=s	kʷədiʔ
+# just	cntrpt–reverse	rem.dma	nm=pfv–wring.out–ics=3po	rem.dma
+# xʷci•ʔikʷ
+# remove•wipe
+# ‘Only to the right does she wring out his diaper.’
+# 
+# diˑʔɬ kʷi gʷəč’iq’əd ʔə sp’ic’ikʷ
+# diʔɬ	kʷi	gʷə=č’iq’əd	ʔə	sp’ic’ikʷ
+# suddenly	rem	sbj=scream	Pr	Diaper.Child
+# ‘Suddenly the Diaper Child cries out.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# x̌aab tiʔəʔ diʔəʔ
+# x̌aab	tiʔəʔ	diʔəʔ
+# cry	prox	here
+# SSP: ‘This one cries.’
+# 
+# x̌aab
+# x̌aab
+# cry
+# ‘He cries.’
+# 
+# x̌aab
+# x̌aab
+# cry
+# ‘He cries.’
+# 
+# kʷədad tiʔəʔ bədaʔs
+# kʷəda–t	tiʔəʔ	bədaʔ–s
+# taken–ics	prox	offspring–3po
+# ‘She takes her child’
+# 
+# gʷəl xʷəlk’ʷabactxʷ
+# gʷəl	xʷəlk’ʷ•abac–txʷ
+# sconj	wrap.around•body–ecs
+# ‘And she wraps him up.’
+# 
+# xʷəlk’ʷabactub kʷədaʔ, tiʔəʔ staʔtəbs, tiʔəʔ [s]ʔəɬəds
+# xʷəlk’ʷ•abac–txʷ–b	kʷədʔ	tiʔəʔ	staʔ–tab–s	tiʔəʔ
+# wrap.around•body–ecs–pass	rem:dma	prox	attn–thing–3po	prox
+# sʔəɬəd–s
+# food–3po
+# ‘Those things, her belongings and her food, are wrapped up.’
+# 
+# gʷəl čəbaʔəd
+# gʷəl	čəbaʔ–t
+# sconj	backpack–ics
+# ‘She packs them.’
+# 
+# dxʷqicəxʷ ʔə tiʔiɬ x̌ədiˑʔəb
+# dxʷ–qic=axʷ	ʔə	tiʔiɬ	x̌ədiʔəb
+# cntrpt–downstream=now	Pr	dist	x̌ədiʔəb
+# ‘Downstream of x̌ədiʔəb now.’
+# 
+# gʷəl ɬčiˑl dxʷʔal tiʔəʔ diʔəʔ ƛ’udaʔatəb sčičigʷqs
+# gʷəl	ɬčil	dxʷ–ʔal	tiʔəʔ	diʔəʔ	ƛ’u=daʔa–t–b	sčičigʷqs
+# sconj	arrive	cntrpt–at	prox	here	hab=named–ics–pass	sčičigʷqs
+# ‘And she arrives at a place called sčičigʷqs …’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔilucid ʔə tiʔiɬ duqʷač
+# ʔilucid	ʔə	tiʔiɬ	duqʷač
+# river.mouth	Pr	dist	Nookachamps
+# SSP: ‘… the mouth of the Nookachamps River.’
+# 
+# ʔa kʷi səshudičupsəxʷ
+# ʔa	kʷi	s=ʔas–hud•čup=s=axʷ
+# be.there	rem	nm=stat–burn•firewood=3po=now
+# ‘There she builds a fire’ 
+# 
+# ɬaɬlil
+# ɬaɬlill
+# live
+# ‘She lives there.’
+# 
+# ɬaˑɬliləxʷ
+# ɬaɬlill=axʷ
+# live=now
+# ‘She lives there now.’
+# 
+# ləcux̌aab
+# ləcu–x̌aab
+# cont–cry
+# ‘She cries, she cries.’
+# 
+# x̌aaˑb
+# x̌aab
+# cry
+# ‘She cries.’
+# 
+# ck’ʷaqid ʔux̌aabid tiʔiɬ bədaʔs
+# ck’ʷaqid	ʔu–x̌aab–i–t	tiʔiɬ	bədaʔ–s
+# always	pfv–cry–ss–ics	dist	offspring–3po
+# ‘She always cries for her son.’
+# 
+# qəlbut ʔa tiʔəʔ cədiɬ p’ic’ikʷs …
+# qəlbut	ʔa	tiʔəʔ	cədiɬ	p’ic’ikʷ–s
+# even.though	be.there	prox	he	Diaper.Child–3po
+# ‘Even though she has her Diaper Child … ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# … bədaʔs
+# bədaʔ–s
+# offspring–3po
+# SSP: ‘… her son.’
+# 
+# gʷəl ləʔa tiʔəʔ qaw’qs ʔal tiʔəʔ x̌ʷix̌ʷalič ʔəsɬaɬlil
+# gʷəl	lə=ʔa	tiʔəʔ	qaw’qs	ʔal	tiʔəʔ	x̌ʷix̌ʷalič	ʔas–ɬaɬlil
+# sconj	prog=be.there	prox	raven	at	prox	x̌ʷix̌ʷalič	stat–live
+# ‘And there is Raven there, living at x̌ʷix̌ʷalič.’
+# 
+# hikʷ[alʔ]txʷ
+# hikʷ•alʔtxʷ
+# big•house
+# ‘He has a big house.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# Unknown woman: ‘Haboo.’
+# 
+# hiˑkʷ tiʔəʔ ʔalʔal ʔə qaw’qs
+# hikʷ	tiʔəʔ	ʔalʔal	ʔə	qaw’qs
+# big	prox	house	Pr	raven
+# SSP: ‘Raven’s house is big.’
+# 
+# dxʷsaliʔič
+# dxʷ–saliʔ•ič
+# ctd–two•cover
+# ‘It is two-fire size.’
+# 
+# siʔab
+# siʔab
+# noble
+# ‘He is high class.’
+# 
+# siʔab tiʔəʔ qaw’qs
+# siʔab	tiʔəʔ	qaw’qs
+# noble	prox	raven
+# ‘Raven is high class.’
+# 
+# ʔaˑ tiʔəʔ qaw’qs ʔəsɬaɬlil
+# ʔa	tiʔəʔ	qaw’qs	ʔas–ɬaɬlil
+# be.there	prox	raven	stat–live
+# ‘Raven lives there’
+# 
+# qa tiʔəʔ sq’ʷuʔq’ʷuʔs
+# qa	tiʔəʔ	s=q’ʷuʔ–q’ʷuʔ=s
+# many	prox	nm=dstr–gather=3po
+# ‘Many people are around him.’
+# 
+# diʔɬ kʷi scut ʔə kʷi qaw’qs
+# diʔɬ	kʷi	s=cut	ʔə	kʷi	qaw’qs
+# suddenly	rem	nm=say	Pr	rem	raven
+# ‘Suddenly Raven says,’
+# 
+# ɬuqʷic čən’ ɬuqʷic čən’ 
+# ɬu=qʷic	čən’	ɬu=qʷic	čən’
+# irr=travel.downstream	1sg.sub	irr=travel.downstream	1sg.sub
+# ‘ “I’m going downstream, I’m going downstream.’
+# 
+# ɬu[ʔu]l[u]luɬ čən’ ɬu[ʔu]l[u]luɬ čən’ ɬuʔuluɬ
+# ɬu=ʔul–uluɬ	čəd	ɬu=ʔul–uluɬ	čəd
+# irr=dim.eff–travel.by.water	1sg.sub	irr=dim.eff–travel.by.water	1sg.sub
+# ɬu=ʔuluɬ
+# irr=travel.by.water
+# ‘ “I’m going to paddle around, paddle around, paddle around.” ’
+# 
+# huy, qʷicəxʷ kʷi qaw’qs
+# huy	qʷic=axʷ	kʷi	qaw’qs
+# sconj	travel.downstream=now	rem	raven
+# ‘So Raven goes downstream.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# diˑʔɬ kʷi šudxʷs kʷi ləcuqʷiqʷšab
+# diʔɬ	kʷi	s=šuɬ–dxʷ=s	kʷi	ləcu–qʷi–qʷšab
+# suddenly	rem	nm=see–dc=3po	rem	cont–attn–smoke
+# SSP: ‘Suddenly he sees a little smoke.’
+# 
+# ɬalil kʷi q’aw’qs
+# ɬalil	kʷi	q’aw’qs
+# go.ashore	rem	Raven
+# ‘Raven goes ashore.’
+# 
+# gʷəl q’ʷib
+# gʷəl	q’ʷib
+# sconj	disembark
+# ‘And he gets out.’
+# 
+# ʔəsq’isq’isaq
+# ʔas–q’is–q’is•aq
+# stat–dstr–exposed•forked
+# ‘He lifts his pant legs.’
+# 
+# ʔux̌ʷ
+# ʔux̌ʷ
+# go
+# ‘He goes.’
+# 
+# stab
+# stab
+# what
+# ‘ What’s this?’
+# 
+# sɬadəyʔ tsiʔəʔ ʔəsgʷədil
+# sɬadəyʔ	tsiʔəʔ	ʔas–gʷəd–il
+# woman	prox:fem	stat–down–inch
+# ‘Sitting there is a woman.’
+# 
+# ʔəskʷədiʔɬ
+# ʔas–kʷəd•iʔɬ
+# stat–hold•child
+# ‘She is holding a child.’
+# 
+# həbuʔ ho
+# həbuʔ	ho
+# haboo	ho
+# UW: ‘Haboo.’
+# 
+# saxʷəbisəb ʔə kʷi qaw’qs
+# saxʷəb–bi–s–b	ʔə	kʷi	qaw’qs
+# run–map–altv–pass	Pr	rem	raven
+# SSP: ‘They are run after by Raven.’
+# 
+# gʷəl tux̌ʷilcəd
+# gʷəl	tux̌ʷu•ilc–t
+# sconj	pull•round.thing–ics
+# ‘And grabs her by the hair.’
+# 
+# hahahaha
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# k’ʷit’txʷ
+# k’ʷit’–txʷ
+# shoreward–ecs
+# SSP: ‘He takes them down to the water.’
+# 
+# kʷəduˑptub ʔə tsiʔəʔ tiʔəʔ stabiʔɬ, tiʔəʔ sqiqəlikʷs, tiʔəʔ sʔəɬəds əlgʷəʔ
+# kʷəd•dup–txʷ–b	ʔə	tsiʔəʔ	tiʔəʔ	stab•iʔɬ	tiʔəʔ
+# grab•coll–ecs–pass	Pr	prox:fem	prox	thing•child	prox
+# s=qi–qəlikʷ=s	tiʔəʔ	sʔəɬəd–s	əlgʷəʔ
+# nm=attn–blanket=3po	prox	food–3po	pl
+# ‘Things for her child, his little blankets, their food are grabbed up by her.’
+# 
+# gʷəl q’ilid
+# gʷəl	q’ili–t
+# sconj	aboard–ics
+# ‘And she puts them on board.’
+# 
+# huy, təyiltxʷəxʷ tiʔəʔ studəqs
+# huy	təyil–txʷ=axʷ	tiʔəʔ	studəq–s
+# sconj	go.upriver–ecs=now	prox	slave–3po
+# ‘Then, he takes his slaves upstream.’
+# 
+# tiˑləb ʔudaʔad tiʔəʔ stutudəqs
+# tiləb	ʔu–daʔa–t	tiʔəʔ	s=tu–tudəq–s
+# immediately	pfv–name–ics	prox	nm=attn–slave–3po
+# ‘He names his little slave right away.’
+# 
+# daʔad ʔə kʷi ɬəɬəwabixʷ
+# daʔa–t	ʔə	kʷi	ɬəɬəwabixʷ
+# named–ics	Pr	rem	ɬəɬəwabixʷ
+# ‘He names him ɬəɬəwabixʷ.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ɬəɬəwabixʷ
+# ɬəɬəwabixʷ
+# ɬəɬəwabixʷ
+# SSP: ‘ɬəɬəwabixʷ.’
+# 
+# təyil
+# təyil
+# go.upriver
+# ‘They go upstream’
+# 
+# gʷəl ɬčil dxʷʔal tiʔiɬ ʔal x̌ʷix̌ʷalič, siʔab ʔi studəq
+# gʷəl	ɬčil	dxʷ–ʔal	tiʔiɬ	ʔal	x̌ʷix̌ʷalič	siʔab	ʔi	studəq
+# sconj	arrive	cntrpt–at	dist	at	x̌ʷix̌ʷalič	master	and	slave
+# ‘And they arrive at x̌ʷix̌ʷalič, nobleman and slaves.’
+# 
+# ʔuˑ, ƛ’uləšədᶻal tiʔəʔ qaw’qs
+# ʔu	ƛ’u=lə=šədᶻal	tiʔəʔ	qaw’qs
+# intj	hab=prog=go.outside	prox	raven
+# ‘Oh, Raven always goes outside.’
+# 
+# gʷəl ƛ’uləcup’əc’didusəd tiʔəʔ studəqs liɬʔal p’əc’ 
+# gʷəl	ƛ’u=ləcu–p’əc’–di–t–us–t	tiʔəʔ	studəq–s	liɬ–ʔal
+# sconj	hab=cont–defecate–ss–ics–face–ics	prox	slave–3po	prlv–at
+# p’əc’
+# defecate
+# ‘And he relieves himself on the face of his slave with his feces’
+# 
+# x̌ʷul’ bət’əqt’qaladiʔ ʔə kʷi sp’əc’ ʔə qaw’qs
+# x̌ʷul’	bə=t’əq–t’q•aladiʔ	ʔə	kʷi	s=p’əc’	ʔə	qaw’qs
+# just	add=dstr–adhere•side.of.head	Pr	rem	nm=defecate	Pr	raven
+# ‘The sides of her head are just crusted with the excrement of Raven.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# huy sixʷ tudəqiləxʷ tsiʔəʔ tudᶻilid tadiʔ t’ət’əwaʔs
+# huy	sixʷ	tudəq–il=axʷ	tsiʔəʔ	tudᶻil–i–t	tadiʔ
+# sconj	ptcl	enslaved–inch=now	prox:fem	bend.forward–ss–ics	dist.dma
+# t’ət’əwaʔs
+# star
+# SSP: ‘So now this one woman who rejected the star way up there becomes a slave.’
+# 
+# huy p’aƛ’aƛ’iləxʷ
+# huy	p’aƛ’aƛ’–il=axʷ
+# sconj	worthless–inch=now
+# ‘Then she becomes beggarly.’
+# 
+# ʔa gʷəl saliʔiləxʷ
+# ʔa	gʷəl	saliʔ–il=axʷ
+# intj	sconj	two–inch=now
+# ‘Now we come to the second part (of the story).’
+# 
+# ʔaˑ tiʔəʔ bədaʔs ʔal tiʔiɬ ʔə dəbəɬ tul’q’ixʷ sɬəɬadəyʔ
+# ʔa	tiʔəʔ	bədaʔ–s	ʔal	tiʔiɬ	ʔə	dəbəɬ
+# be.there	prox	offspring–3po	at	dist	Pr	belong.to.bloodline
+# tul’–q’ixʷ	sɬə–ɬadəyʔ
+# cntrfg–upstream	pl–woman
+# ‘Her son is there with the women from upriver.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+#    #--------------------------------------------------------------------------------
+#    # starChild-mono.wav  16:43:559
+#    #--------------------------------------------------------------------------------
+# 
+# gʷəl ləluˑƛ’il
+# gʷəl	lə=luƛ’–il
+# sconj	prog=old–inch
+# SSP: ‘And he gets older.’
+# 
+# ləʔibʔibəš
+# lə=ʔib–ʔibəš
+# prog=dstr–travel
+# ‘He walks around.’
+# 
+# tiləb ʔusaxʷəb tiʔəʔ č’ač’as
+# tiləb	ʔu–saxʷəb	tiʔəʔ	č’ač’as
+# immediately	pfv–run	prox	child
+# ‘Right away he runs.’
+# 
+# k’ʷuyəʔ, ʔa tsi ʔəsɬax̌ʷɬax̌ʷalus ʔal tadiʔ
+# k’ʷuyəʔ	ʔa	tsi	ʔas–ɬax̌ʷɬax̌ʷ•alus	ʔal	tadiʔ
+# mother	be.there	spec:fem	stat–staring•eyes	at	dist.dma
+# ‘ “Mother, there is someone with big eyes over there.” ’
+# 
+# čad, čad
+# čad	čad
+# where	where
+# ‘ “Where, where?” ’
+# 
+# ʔal tadiʔ
+# ʔal	tadiʔ
+# at	dist.dma
+# ‘ “Over there.” ’
+# 
+# sč’istxʷ čəɬ ti dəgʷi sč’istxʷ 
+# sč’istxʷ	čəɬ	ti	dəgʷi	sč’istxʷ
+# husband	1pl.po	spec	you	husband
+# ‘ “You are our husband, a husband,” ’
+# 
+# cutəb ʔə tsiʔəʔ tiʔiɬ č’ač’as
+# cut–t–b	ʔə	tsiʔəʔ	tiʔiɬ	č’ač’as
+# say–ics–pass	Pr	prox:fem	dist	child
+# ‘The woman says to this boy.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+#    #--------------------------------------------------------------------------------
+#    # starChild-mono.wav  17:10:410
+#    #--------------------------------------------------------------------------------
+# 
+# huy, čəɬtxʷəxʷ q’čic tiʔəʔ
+# huy	čəɬ–txʷ=axʷ	q’čic	tiʔəʔ
+# sconj	make–ecs=now	bow	prox
+# SSP: ‘Then, she makes him a bow.’
+# 
+# puʔpəy’ičəd
+# puʔ–pəy’ič–t
+# attn–curve•covering–ics
+# ‘She puts a bowstring on it.’
+# 
+# bək’ʷ sʔəɬəd čəɬ tə stab adsut’uc’ud čəxʷ ɬuɬuƛ’iləxʷ
+# bək’ʷ	sʔəɬəd	čəɬ	tə	stab	ad=s=ʔu–t’uc’u–t	čəxʷ
+# all	food	1pl.po	nspec	what	2sg.po=nm=pfv–shoot–ics	2sg.sub
+# ɬu–ɬuƛ’–il=axʷ
+# attn–old–inch=now
+# ‘ “Everything you shoot is food for us as you grow up.” ’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  17:16:674
+# #--------------------------------------------------------------------------------
+# 
+# ʔux̌ʷ tiʔəʔ č’ač’as  
+# ʔux̌ʷ	tiʔəʔ	č’ač’as
+# go	prox	child
+# ‘The boy goes.’
+# 
+# gʷəl t’uc’ud tsiʔəʔ sqʷiʔəqʷ
+# gʷəl	t’uc’u–t	tsiʔəʔ	sqʷiʔəqʷ
+# sconj	shot–ics	prox:fem	squirrel
+# ‘And he shoots a squirrel.’
+# 
+# huy, ʔəƛ’txʷyidəxʷ tsiʔəʔ
+# huy	ʔəƛ’–txʷ–yi–t=axʷ	tsiʔəʔ
+# sconj	come–ecs–dat–ics=now	prox:fem
+# ‘And he brings it to her.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  17:22:499
+# #--------------------------------------------------------------------------------
+# 
+# huy, q’ʷəx̌ʷtəb   
+# huy	q’ʷəx̌ʷ–t–b
+# sconj	butcher–ics–pass
+# ‘Then it is butchered.’
+# 
+# gʷəl sʔəɬəd
+# gʷəl	sʔəɬəd
+# sconj	food
+# ‘And it is food.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  17:26:570
+# #--------------------------------------------------------------------------------
+# 
+# ʔaˑ gʷəl ləluˑƛ’il         
+# ʔa	gʷəl	lə=luƛ’–il
+# be.there	sconj	prog=old–inch
+# ‘He is there and he grows up.’
+# 
+# gʷəl bəšudxʷ tiʔiɬ bədəč’uʔ
+# gʷəl	bə=šuɬ–dxʷ	tiʔiɬ	bə=dəč’uʔ
+# sconj	add=see–dc	dist	add=one
+# ‘And he sees another one.’
+# 
+# laʔbəxʷ higʷəxʷ kʷədiʔ q’čictəgʷi
+# həlaʔb=axʷ	hikʷ=axʷ	kʷədiʔ	q’čictəgʷi
+# really=now	big=now	rem.dma	bow
+# ‘His bow is very big.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  17:35:456 
+# #--------------------------------------------------------------------------------
+# 
+# ʔu k’ʷuyəʔ, ʔa tiʔiɬ ʔušudxʷ čəd 
+# ʔu	k’ʷuyəʔ	ʔa	tiʔiɬ	ʔu–šuɬ–dxʷ	čəd
+# intj	mother	be.there	dist	pfv–see–dc	1sg.sub
+# ‘ “Oh, Mother, there is something I saw.’
+# 
+# haaˑc k’ʷəlk’ʷəladiʔs
+# haac	k’ʷəl–k’ʷəladiʔs
+# long	dstr–ear
+# ‘ “It had long ears.” ’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  17:40:110
+# #--------------------------------------------------------------------------------
+# 
+# sč’istxʷ čəɬ ti dəgʷi sč’istxʷ           
+# sč’istxʷ	čəɬ	ti	dəgʷi	sč’istxʷ
+# husband	1pl.po	spec	you	husband
+# ‘ “You are our husband, a husband.’
+# 
+# t’uc’ud čəxʷ
+# t’uc’u–t	čəxʷ
+# shot–ics	2sg.sub
+# ‘ “You shoot it.’
+# 
+# bək’ʷ sʔəɬəd čəɬ tə bək’ʷ stab
+# bək’ʷ	sʔəɬəd	čəɬ	tə	bək’ʷ	stab
+# all	food	1pl.po	nspec	all	what
+# ‘ “Everything is food for us.” ’
+# 
+# huy, t’uc’udəxʷ tsiʔəʔ k’ʷčidiʔ
+# huy	t’uc’u–t=axʷ	tsiʔəʔ	k’ʷčidiʔ
+# sconj	shoot–ics=now	prox:fem	rabbit
+# ‘Then he shoots the rabbit’
+# 
+# huy, ʔux̌ʷtxʷyidəxʷ
+# huy	ʔux̌ʷ–txʷ–yi–t=axʷ
+# sconj	go–ecs–dat–ics=now
+# ‘Then he takes it to her.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  17:53:081
+# #--------------------------------------------------------------------------------
+# 
+# ʔux̌ʷtxʷyidəxʷ   
+# ʔux̌ʷ–txʷ–yi–t=axʷ
+# go–ecs–dat–ics=now
+# ‘He takes it to her.’
+# 
+# gʷəl ləq’ʷax̌ʷtəb ʔə tsiʔəˑʔ
+# gʷəl	lə=q’ʷax̌ʷ–t–b	ʔə	tsiʔəʔ
+# sconj	prog=butcher–ics–pass	Pr	prox:fem
+# ‘And it is butchered.’
+# 
+# gʷəl q’ʷəlb əlgʷəʔ ʔə tiʔəʔ k’ʷčidiʔ
+# gʷəl	q’ʷəl–b	əlgʷəʔ	ʔə	tiʔəʔ	k’ʷčidiʔ
+# sconj	cooked–csmd	pl	Pr	prox	rabbit
+# ‘And they cook it.’
+# 
+# gʷəl ləhuˑydxʷ
+# gʷəl	lə=huyu–dxʷ
+# sconj	prog=made–ecs
+# ‘And they manage to do it.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  18:03:887
+# #--------------------------------------------------------------------------------
+# 
+# diˑɬ sixʷ kʷi bəšudxʷs kʷi ʔəsɬax̌ʷɬax̌ʷalus  
+# diɬ	sixʷ	kʷi	bə=s=šuɬ–dxʷ=s	kʷi	ʔas–ɬax̌ʷɬax̌ʷ•alus
+# foc	ptcl	rem	add=nm=see–dc=3po	rem	stat–stare•eyes
+# SSP: ‘Again he sees something with staring eyes.’
+# 
+# k’ʷuyəʔ, ʔa tsi ʔəsɬax̌ʷɬax̌ʷalus ʔušudxʷ čəd
+# k’ʷuyəʔ	ʔa	tsi	ʔas–ɬax̌ʷɬax̌ʷ•alus	ʔu–šuɬ–dxʷ	čəd
+# mother	be.there	spec:fem	stat–staring•eyes	pfv–see–dc	1sg.sub
+# ‘ “Mama, there is someone with big eyes I saw.” ’
+# 
+# xʷiʔ xʷiʔ kʷ(i) adsucutcut
+# xʷiʔ	xʷiʔ	kʷi	ad=s=ʔu–cut–cut
+# neg	neg	rem	2sg.po=nm=pfv–dstr–say
+# ‘ “No! No! Don’t say that!’
+# 
+# sč’istxʷ čəɬ ti dəgʷi
+# sč’istxʷ	čəɬ	ti	dəgʷi
+# husband	1pl.po	spec	you
+# ‘ “You are our husband.” ’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  18:18:640
+# #--------------------------------------------------------------------------------
+# 
+# ʔa gʷəl ləhuyudəxʷ ʔə tiʔəʔ laʔb q’čic 
+# ʔa	gʷəl	lə=huyu–t=axʷ	ʔə	tiʔəʔ	həlaʔb	q’čic
+# be.there	sconj	prog=made–ics=now	Pr	prox	really	bow
+# ‘He is there and a real bow is now made for him.’
+# 
+# hikʷ
+# hikʷ
+# big
+# ‘It is big.’
+# 
+# huy, t’uc’utəbəxʷ ʔə tiʔəʔ č’ač’as tsiʔəʔ sqigʷac
+# huy	t’uc’u–t–b=axʷ	ʔə	tiʔəʔ	č’ač’as	tsiʔəʔ	sqigʷac
+# sconj	shoot–ics–pass=now	Pr	prox	child	prox:fem	deer
+# ‘Then the boy shoots a deer.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  18:28:346
+# #--------------------------------------------------------------------------------
+# 
+# huy, ʔux̌ʷcəxʷ tiʔiʔəʔ  
+# huy	ʔux̌ʷ–c=axʷ	tiʔ–iʔəʔ
+# sconj	go–altv=now	pl–prox
+# ‘Then he goes after it’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# gʷəl tx̌ʷutəb
+# gʷəl	tx̌ʷu–t–b
+# sconj	pull–ics–pass
+# SSP: ‘And pulls it.’
+# 
+# mmm
+# huy, q’ʷəx̌ʷtəbaxʷ
+# huy	q’ʷəx̌ʷ–t–b=axʷ
+# sconj	butcher–ics–pass=now
+# ‘Then it is butchered.’
+# 
+# huy, luƛ’iləxʷ tiʔəʔ gə[t] 
+# huy	luƛ’–il=axʷ	tiʔəʔ	gət
+# sconj	old–inch=now	prox	guy
+# ‘Then this guy grows up.’
+# 
+# xʷiʔəxʷ ləgʷəč’gʷč’i[ɬəd] 
+# xʷiʔ=axʷ	lə=gʷəč’–gʷč’•iɬəd
+# neg=now	negp=dstr–search•food
+# ‘He no longer hunts only small game.’
+# 
+# mmm
+# huy, t’uc’ud kʷi kʷagʷičəd
+# huy	t’uc’u–t	kʷi	kʷagʷičəd
+# sconj	shoot–ics	rem	elk
+# ‘Then he shoots an elk.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# t’uc’udəxʷ 
+# t’uc’u–t=axʷ
+# shoot–ics=now
+# SSP: ‘He shoots it.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# t’uc’udəxʷ 
+# t’uc’u–t=axʷ
+# shoot–ics=now
+# SSP: ‘He shoots it.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  18:49:926
+# #--------------------------------------------------------------------------------
+# 
+# ʔa kʷaʔ sp’ic’ikʷ  
+# ʔa	kʷaʔ	sp’ic’ikʷ
+# be.there	ptcl	Diaper.Child
+# ‘There, though, is Diaper Child.’
+# 
+# ʔəstudəqil ʔal ti qaw’qs
+# ʔas–studəq–il	ʔal	ti	qaw’qs
+# stat–slave–inch	at	spec	raven
+# ‘He has become the slave of Raven.’
+# 
+# ʔahəxʷ
+# ʔa=axʷ
+# be.there=now
+# ‘There he is now.’
+# 
+# gʷəl ləluˑƛ’iləxʷ tiʔəʔ diʔəʔ, tiʔəʔ sp’ic’ikʷ
+# gʷəl	lə=luƛ’–il=axʷ	tiʔəʔ	diʔəʔ	tiʔəʔ	sp’ic’ikʷ
+# sconj	prog=old–inch=now	prox	here	prox	Diaper.Child
+# ‘And this one, Diaper Child, is growing older.’
+# 
+# ɬuƛ’ačupəxʷ
+# ɬu=ƛ’a•čup=axʷ
+# irr=go•firewood=now
+# ‘He goes out now to get firewood.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:02:496
+# #--------------------------------------------------------------------------------
+# 
+# šəƛ’aptubəx dxʷʔal tə xʷədᶻaʔəb  
+# šəƛ’•ap–txʷ–b=ax	dxʷ–ʔal	tə	xʷədᶻaʔəb
+# scorch•bottom–ecs–pass=now	cntrpt–at	nspec	xʷədᶻaʔəb
+# ‘He is sent toward xʷədᶻaʔəb.’
+# 
+# diɬ sdaʔs
+# diɬ	sdaʔ–s
+# foc	name–3po
+# ‘That is its name.’
+# 
+# šəƛ’aptubəxʷ
+# šƛ’•ap–txʷ–b=axʷ
+# scorch•bottom–ecs–pass=now
+# ‘He is sent to fall trees by burning through a hole at its base.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:09:839
+# #--------------------------------------------------------------------------------
+# 
+# ʔaˑ gʷəl tuqəldub ʔə tiʔiɬ gə(t) tiʔəʔ č’ač’as     
+# ʔa	gʷəl	tu=qəl–dxʷ–b	ʔə	tiʔiɬ	gət	tiʔəʔ	č’ač’as
+# intj	sconj	past=bad–dc–pass	Pr	dist	guy	prox	child
+#  ‘These gals have warned this boy.’
+# 
+# tux̌ʷ ɬadəxʷstubš 
+# tux̌ʷ	ɬu=ad=dəxʷ=stubš
+# just	irr=2sg.po=adnm=man
+# ‘ “Only when you are a grown man,’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:15:902
+# #--------------------------------------------------------------------------------
+# 
+# xʷiʔ kʷ(i) adsčalad kʷagʷičəd ɬuʔux̌ʷəs ʔə tə ʔa  
+# xʷiʔ	kʷi	ad=s=čala–t	kʷagʷičəd	ɬu=ʔux̌ʷ=as	ʔə	tə ʔa
+# neg	rem	2sg.po=nm=chased–ics	elk	irr=go=3sbrd	Pr	nspec be.there
+# SSP: ‘ “Shall you follow an elk over in that direction.’
+# 
+# cukʷ kʷi ləcudxʷdiʔucid kʷi ləcučalad čəxʷ
+# cukʷ	kʷi	ləcu–dxʷ–diʔu–t–sid	kʷi	ləcu–čala–t	čəxʷ
+# only	rem	cont–ctd–other.side–ics–2sg.obj	rem	cont–chase–ics	2sg.sub
+# ‘ “Only those which go across the water are you to follow.” ’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:23:137
+# #--------------------------------------------------------------------------------
+# 
+# ʔu, ʔəsčal əw’ə tiʔiɬ cəxʷuqəldup ʔə tiʔiʔiɬ gʷəxʷiʔəs gʷədsčalad kʷi tatačulbixʷ dxʷʔistaʔ 
+# ʔu	ʔas–čal	əw’ə	tiʔiɬ	d=dəxʷ=ʔu–qəl•dup	ʔə	tiʔ–iʔiɬ
+# intj	stat–how	seem	dist	1sg.po=adnm=pfv–stop•coll	Pr	pl–dist
+# gʷə=xʷiʔ=as	gʷə=d=s=čala–t	kʷi	tatačulbixʷ
+# sbj=neg=3sbrd	sbj=1sg.po=nm=chase–ics	rem	big.game.animal
+# dxʷ–ʔistaʔ
+# cntrpt–be.like
+# ‘ “Now why am I forbidden to follow my game in that direction?’
+# 
+# ƛ’ub čəd haw’ə ʔutəlawil
+# ƛ’ub	čəd	haw’ə	ʔu–təlawil
+# well	1sg.sub	ptcl	pfv–run
+# ‘ “I guess I had better run.” ’
+# 
+# ʔuʔux̌ʷ
+# ʔu–ʔux̌ʷ
+# pfv–go
+# ‘He goes.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:33:378
+# #--------------------------------------------------------------------------------
+# 
+# huy, təlawiləxʷ tiʔəʔ č’ač’as 
+# huy	təlawil=axʷ	tiʔəʔ	č’ač’as
+# sconj	run=now	prox	child
+# SSP: ‘Then, the boy runs.’
+# 
+# gʷəl q’ilus
+# gʷəl	q’ilus
+# sconj	reach.the.top.of
+# ‘He gets to the top.’
+# 
+# gʷəl šuuc
+# gʷəl	šuɬ–c
+# sconj	see–altv
+# ‘And he looks at it.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:37:712
+# #--------------------------------------------------------------------------------
+# 
+# ʔuˑ ləcuqʷəšqʷəšəb tadiʔ q’ixʷ  
+# ʔu	ləcu–qʷəš–qʷəšəb	tadiʔ	q’ixʷ
+# intj	cont–dstr–smoke	dist.dma	upstream
+# ‘Oh, there is something creating some smoke upriver.’
+# 
+# ləcuqʷəšqʷəšəb tiʔəʔ ʔaɬx̌ad
+# ləcu–qʷəš–qʷəšəb	tiʔəʔ	ʔaɬx̌ad
+# cont–dstr–smoke	prox	downstream
+# ‘Smoke is rising downstream.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  19:47:405
+# #--------------------------------------------------------------------------------
+# 
+# gʷəl biˑʔman’ dᶻidᶻəɬixʷ tiʔəʔ cəxʷcutəbids tiʔəʔ stuləkʷ kʷa hikʷ stuləkʷ 
+# gʷəl	biʔman’	dᶻi–dᶻəɬixʷ	tiʔəʔ	d=dəxʷ=cut–b–i–t=s
+# sconj	small	attn–creek	prox	1sg.po=adnm=say–md–ss–ics=3po
+# tiʔəʔ	stuləkʷ 	kʷaʔ	hikʷ	stuləkʷ
+# prox	river	ptcl	big	river
+# ‘He thinks it was just a small creek, this that is really a large river.’
+# 
+# ʔuˑ diɬ xʷuʔələʔ cəxʷtul’ʔa kʷi cəxʷqadaditəb ʔə tiʔiɬ xʷiʔ ləhaʔɬ
+# ʔu	diɬ	xʷuʔələʔ	d=dəxʷ=tul’–ʔa	kʷi
+# intj	foc	maybe	1sg.po=adnm=cntrfg–be.there	rem
+# d=dəxʷ=qada–di–t–b	ʔə	tiʔiɬ	xʷiʔ	lə=haʔɬ
+# 1sg.po=adnm=steal–ss–ics–pass	Pr	dist	neg	negp=good
+# ‘ “Oh, maybe that is where the no-good ones stole me from.’
+# 
+# tiʔiʔiɬ ʔəsɬaɬlil
+# tiʔ–iʔiɬ	ʔas–ɬaɬlil
+# pl–dist	stat–live
+# ‘ “From those who are living there.’
+# 
+# ɬuhaydxʷ čələp
+# ɬu=hay–dxʷ	čələp
+# irr=know–dc	2pl.sub
+# ‘ “You guys will know.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  20:06:968
+# #--------------------------------------------------------------------------------
+# 
+# ʔuˑx̌ʷ tiʔəˑʔ  
+# ʔux̌ʷ	tiʔəʔ
+# go	prox
+# SSP: ‘He goes.’
+# 
+# ləsč’ič’ədᶻəd tiʔaʔ
+# ləs–č’i–č’ədᶻ–t	tiʔaʔ
+# prog.stat–attn–stalk–ics	prox:unq
+# ‘Stealthily he creeps up on them.’
+# 
+# tasx̌ik’ʷx̌ik’ʷəb
+# tu=ʔas–x̌ik’ʷ–x̌ik’ʷəb
+# past=stat–dstr–lonely
+# ‘They were alone.’
+# 
+# ʔux̌ʷ
+# ʔux̌ʷ
+# go
+# ‘He goes.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  20:15:649
+# #--------------------------------------------------------------------------------
+# 
+# gʷəl ləlil’əqalatxʷ  
+# gʷəl	lə=li–l’əq•alatxʷ
+# sconj	prog=attn–be.in.be.in.right.place.place•house
+# ‘He comes close to the house.’
+# 
+# gʷəl tubsč’istxʷ kʷədaʔ tsiʔəʔ gʷətuxʷiʔəs, xʷiʔəs gʷətudsƛ’aʔalqəb čəd[a] tusaxʷəbid tsi luƛ’ čəda tup’aɬabacyid ʔə tiʔiɬ səsʔaladᶻtəgʷi tiʔiɬ č’ač’as
+# gʷəl	tu=bə=sč’istxʷ	kʷədaʔ	tsiʔəʔ	gʷə=tu=xʷiʔ=as	xʷiʔ=as
+# sconj	past=add=husband	ptcl	prox:fem	sbj=past=neg=3sub	neg=3sub
+# gʷə=tu=d=s=ƛ’aʔalq–b	čəda	tu=saxʷəb–bi–t	tsi
+# sbj=past=1sg.po=nm=notice–md	1sg.coord	past=run–map–ics	spec:fem
+# luƛ’	čəda	tu=p’aɬ•abac–yi–t	ʔə	tiʔiɬ
+# old	1sg.coord	past=examine•body–dat–ics	Pr	dist
+# s=ʔas–ʔaladᶻ–t–agʷid	tiʔiɬ	č’ač’as
+# nm=stat–care.for–ics–tobj	dist	child
+# ‘ “And would there be a provider if it were not for the fact that I noticed and took him from the old woman and I examined the child that she was babysitting?” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  20:31:941
+# #--------------------------------------------------------------------------------
+# 
+# ʔuˑ, tusqadaʔ haw’ə čəd ʔə tə xʷiʔ ləhaʔɬ 
+# ʔu	tu=ʔas–qadaʔ	haw’ə	čəd	ʔə	tə	xʷiʔ	lə=haʔɬ
+# intj	past=stat–steal	ptcl	1sg.sub	Pr	nspec	neg	negp=good
+# SSP: ‘ “Oh, so I was stolen by these no good people.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔuhaydxʷ čələp
+# ʔu–hay–dxʷ	čələp
+# pfv–known–dc	2pl.sub
+# SSP: ‘ “You folks know it.” ’
+# 
+# ʔaˑ bəbəlkʷaxʷ
+# ʔa	bə=bəlkʷ=axʷ
+# intj	add=return=now
+# ‘Thereupon he returns.’
+# 
+# gʷəl ləkʷiʔkʷtxʷ ʔə kʷi sʔəˑƛ’s
+# gʷəl	lə=kʷiʔ–kʷ–txʷ	ʔə	kʷi	s=ʔəƛ’=s
+# sconj	prog=attn–call.out–ecs	Pr	rem	nm=come=3po
+# ‘And he makes some noise as he approached.’
+# 
+# gʷəl gʷəƛ’əbk’ʷadəxʷ tiʔiʔəʔ
+# gʷəl	gʷə=səba–t=axʷ	tiʔ–iʔəʔ
+# sconj	sbj=quiet–ics=now	pl–prox
+# ‘And they stop talking.’
+# 
+# x̌aƛ’txʷ gʷəsaydxʷs ʔəsčal kʷədiʔ dᶻixʷ kʷədaʔ dxʷkʷədatiʔ
+# ʔa ʔu kʷ(i) adsxʷiʔxʷiʔ
+# ʔa	ʔu	kʷi	ad=sxʷiʔxʷiʔ
+# be.there	int	rem	2sg.po=game
+# ‘ “Do you have any game?’’
+# 
+# ʔa
+# ʔah
+# be.there
+# ‘ “Yes.’
+# 
+# ʔəsɬaq’ ʔal ti ʔal tadiʔ
+# ʔas–ɬaq’a	ʔal	ti	ʔal	tadiʔ
+# stat–fall	at	spec	at	dist.dma
+# ‘ “It is laying way over there.” ’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:00:936
+# #--------------------------------------------------------------------------------
+# 
+# ʔux̌ʷəxʷ tsiʔəʔ  
+# ʔux̌ʷ=axʷ	tsiʔəʔ
+# go=now	prox:fem
+# ‘She goes.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  kʷagʷičəd starts at 21:06:207
+# #--------------------------------------------------------------------------------
+# 
+# gʷəl ləkʷədad tiʔəʔ kʷagʷičəd  
+# gʷəl	lə=kʷəda–t	tiʔəʔ	kʷagʷičəd
+# sconj	prog=taken–ics	prox	elk
+# ‘And she takes this elk’
+# 
+# gʷəl tx̌ʷud
+# gʷəl	tx̌ʷu–t
+# sconj	pull–ics
+# ‘And she pulls it.’
+# 
+# čəbaʔəd
+# čəbaʔ–t
+# backpack–ics
+# ‘She backpacks it.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# q’ʷəx̌ʷəd
+# q’ʷəx̌ʷ–t
+# butcher–ics
+# SSP: ‘She butchers it.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:12:751
+# #--------------------------------------------------------------------------------
+# 
+# kʷačil  
+# kʷačil
+# day.begins
+# ‘It dawns.’
+# 
+# gʷəl bəʔux̌ʷ
+# gʷəl	bə=ʔux̌ʷ
+# sconj	add=go
+# ‘And he goes.’
+# 
+# ʔahəxʷ x̌ʷul’əxʷ diɬ tiʔiɬ, tiʔiɬ ʔəslax̌dxʷəxʷ
+# ʔa=axʷ	x̌ʷul’=axʷ	diɬ	tiʔiɬ	tiʔiɬ	ʔas–lax̌–dxʷ=axʷ
+# be.there=now	just=now	foc	dist	dist	stat–remember–dc=now
+# ‘He is there and he just remembers this.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:20:456
+# #--------------------------------------------------------------------------------
+# 
+# bəɬčiˑl tiʔəʔ diʔəʔ  
+# bə=ɬčil	tiʔəʔ	diʔəʔ
+# add=arrive	prox	here
+# ‘He arrives.’
+# 
+# ƛ’al’ bələcuyabuk’ʷ
+# ƛ’al’	bə=ləcu–yabuk’ʷ
+# also	add=cont–fight
+# ‘And they are still quarreling.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:25:700
+# #--------------------------------------------------------------------------------
+# 
+# ʔuˑ, tasqadaʔ haw’ə čəd ʔə tə dxʷsaʔsaʔus  
+# ʔu	tu=ʔas–qadaʔ	haw’ə	čəd	ʔə	tə	dxʷ–saʔ–saʔus
+# intj	past=stat–steal	ptcl	1sg.sub	Pr	nspec	ctd–dstr–bad
+# ‘ “So I was stolen by these bad people.’
+# 
+# ɬuhaydxʷ čələp
+# ɬu=hay–dxʷ	čələp
+# irr=know–dc	2pl.sub
+# ‘ “You guys will know.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:34:924
+# #--------------------------------------------------------------------------------
+# 
+# ɬučaladəxʷ čəd tiʔiɬ kʷagʷičəd  
+# ɬu=čala–t=axʷ	čəd	tiʔiɬ	kʷagʷičəd
+# irr=chase–ics=now	1sg.sub	dist	elk
+# SSP: ‘ “I’m going now to chase that elk.’
+# 
+# ɬučaladəxʷ čəd
+# ɬu=čala–t=axʷ	čəd
+# irr=chase–ics=now	1sg.sub
+# ‘ “I will chase it.” ’
+# 
+# huy, saxʷəbəxʷ tiʔəʔ kʷagʷičəd dxʷgʷəd, q’ixʷbid ʔə tiʔəʔ ʔal Sedro Woolley
+# huy	saxʷəb=axʷ	tiʔəʔ	kʷagʷičəd	dxʷ–gʷəd	q’ixʷ–bid	ʔə
+# sconj	run–md=now	prox	elk	cntrpt–down	upstream–rlnl	Pr
+# tiʔəʔ	ʔal 	Sedro	Woolley
+# prox	at	Sedro	Woolley
+# ‘Then the elk runs downhill, upstream from above Sedro Woolley.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:50:029
+# #--------------------------------------------------------------------------------
+# 
+# saxʷəb dxʷgʷəd 
+# saxʷəb	dxʷ–gʷəd
+# run	cntrpt–down
+# ‘It runs downhill’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:52:374
+# #--------------------------------------------------------------------------------
+# 
+# ʔaˑ gʷəl gʷədil ʔalil tiʔiɬ cak’ʷdup  
+# ʔa	gʷəl	gʷəd–il	ʔal–il	tiʔiɬ	cak’ʷdup
+# intj	sconj	down–inch	at–inch	dist	level
+# ‘Oh, and it sits (as it) comes to level ground.’
+# 
+# gʷəl gʷəlald
+# gʷəl	gʷəlal–t
+# sconj	kill–ics
+# ‘And he kills it.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  21:58:953
+# #--------------------------------------------------------------------------------
+# 
+# q’ʷəx̌ʷəd 
+# q’ʷəx̌ʷ–t
+# butcher–ics
+# ‘He butchers it.’
+# 
+# dxʷʔix̌ʷigʷədid
+# dxʷ–ʔix̌ʷi•igʷəd–i–t
+# ctd–thrown•insides–ss–ics
+# ‘He throws away the insides.’
+# 
+# gʷəl šəqəd
+# gʷəl	šq–t
+# sconj	high–ics
+# ‘And he raises it.’
+# 
+# k’iɬid
+# k’iɬi–t
+# hang–ics
+# ‘He hangs it up.’
+# 
+# kʷədad tiʔəʔ ʔudaw’
+# kʷəda–t	tiʔəʔ	ʔudaw’
+# taken–ics	prox	tallow
+# ‘He takes the tallow.’
+# 
+# gʷəl dəgʷaš ʔal tiʔəʔ ʔiɬʔičids, dəxʷʔa ʔə tiʔəʔ dəxʷdəwalc … 
+# gʷəl	dəkʷa–š	ʔal	tiʔəʔ	ʔiɬ–ʔičid–s	dəxʷ=ʔa	ʔə	tiʔəʔ
+# sconj	inside–ics	at	prox	prtv–quiver–3po	adnm=be.there	Pr	prox
+# dəxʷ=dəkʷ•alc
+# adnm=inside•prdct
+# ‘And he packs it with his hunting equipment … .’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav  22:10:479
+# #--------------------------------------------------------------------------------
+# 
+# tiʔəʔ dxʷq’čic ʔi tiʔəʔ t’isəds   
+# tiʔəʔ	dxʷ–q’čic	ʔi	tiʔəʔ	t’isəd–s
+# prox	ctd–bow	conj	prox	arrow–3po
+# SSP: ‘… with his bow and his arrows.’
+# 
+# huy
+# huy
+# sconj
+# Unknown man: ‘Huy.’
+# 
+# #--------------------------------------------------------------------------------
+# # starChild-mono.wav recording ends at 22:16:482
+# #--------------------------------------------------------------------------------
+# 
+# yəyəhub k’ʷuyəʔ  
+# yəyəhub	k’ʷuyəʔ
+# tell.story	mom
+# AS: ‘Tell it, Mom.’
+# 
+# the first side of the first reel of tape runs out and the next side begins with  something indistinct spoken by Al Sampson before the story continues
+# 
+# #--------------------------------------------------------------------------------
+# # ssp-starChild-middleSection-mono.wav 0:07:569
+# #--------------------------------------------------------------------------------
+# 
+# diˑɬ kʷi sugʷtəb tiʔəʔ sp’ic’ikʷ ʔə tsiʔəʔ sk’ʷuys
+# diɬ	kʷi	s=ʔugʷ–t–b	tiʔəʔ	sp’ic’ikʷ	ʔə	tsiʔəʔ
+# foc	rem	nm=advise–ics–pass	prox	Diaper.Child	Pr	prox:fem
+# sk’ʷuy–s
+# mother–3po
+# SSP: ‘Diaper Child’s mother advises him this way.’
+# 
+# ʔuˑ luƛ’əxʷ kʷədaʔ kʷ(i) adsəxʷstudəq
+# ʔu	luƛ’=axʷ	kʷədaʔ	kʷi	ad=səxʷ–studəq
+# intj	old=now	ptcl	rem	2sg.po=instr–slave
+# ‘ “Oh, I guess your dear relative must be older now.’
+# 
+# ʔaləxʷ ʔu tiʔəʔ səxʷstudəq kʷi č’ač’as uʔxʷ
+# ʔal=axʷ	ʔu	tiʔəʔ	səxʷ=studəq	kʷi	č’ač’as	uʔxʷ
+#  at=now	int	prox	instr–slave	rem	child	ptcl
+# ‘ “Surely he is no longer a child?’
+# 
+# luƛ’əxʷ xʷuʔələʔ stubš
+# luƛ’=axʷ	xʷuʔələʔ	stubš
+# old=now	maybe	man
+# ‘ “I suppose by now he is a grown man.’
+# 
+# ɬux̌aab čəxʷ ʔə kʷi ʔəscut ʔə tiʔəʔ ʔal kʷədiʔ adəxʷušəƛ’ap
+# ɬu=x̌aab	čəxʷ	ʔə	kʷi	ʔas–cut	ʔə	tiʔəʔ	ʔal	kʷədiʔ
+# irr=cry	2sg.sub	Pr	rem	stat–say	Pr	prox	at	rem.dma
+# ad=dəxʷ=ʔu–šəƛ’•ap
+# 2sg.po=adnm=pfv–scorch•bottom
+# ‘ “You will weep with these words while you are burning down (a fir tree).’
+# 
+# #--------------------------------------------------------------------------------
+# # ssp-starChild-middleSection-mono.wav 0:36:130
+# #--------------------------------------------------------------------------------
+# 
+# 
+# həʔə, həʔə, həʔə
+# həʔə	həʔə	həʔə
+# hey	hey	hey
+# ‘Ｎ “ ‘Hey, hey, hey. Ｎ’
+# 
+# tuɬik’ʷtub k’ʷəɬ kʷi tudsqa ʔə kʷi saliʔ sɬəɬadəyʔ dəbəɬ tul’q’ixʷ
+# tu=ɬik’ʷ–txʷ–b	k’ʷəɬ	kʷi	tu=d–sqa	ʔə	kʷi	saliʔ
+# past=hook–ecs–pass	qtv	rem	past=1sg.po–older.brother	Pr	rem	two
+# sɬə–ɬadəyʔ	dəbəɬ	tul’–q’ixʷ
+# pl–woman	belong.to.bloodline	cntrfg–upstream
+# ‘Ｎ “ ‘It is said my brother was stolen away by two women of the upriver people. Ｎ’
+# 
+# tux̌ʷəxʷ čəd k’ʷəɬ ti p’ic’ikʷ ʔə tsi k’ʷuyəʔ
+# tux̌ʷ=axʷ	čəd	k’ʷəɬ	ti	p’ic’ikʷ	ʔə	tsi	k’ʷuyəʔ
+# just=now	1sg.sub	qtv	spec	Diaper.Child	Pr	spec:fem	mother
+# ‘Ｎ “ ‘I am only the Diaper Child of my mother. Ｎ’
+# 
+# ʔəshuyutəb čəd studəq ʔə ti qaw’qaˑs
+# ʔas–huyu–t–b	čəd	studəq	ʔə	ti	qaw’qas
+# stat–made–ics–pass	1sg.sub	slave	Pr	spec	raven
+# ‘Ｎ “ ‘Raven has made me a slave.’ ” Ｎ’
+# 
+# ƛ’udəxʷšaˑc’əpadup tiʔəʔ č’ač’as,
+# ƛ’u=dəxʷ=šac’əpadup	tiʔəʔ	č’ač’as
+# hab=adnm=sound.forlorn	prox	child
+# ‘Thus the child sounded forlorn.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# həʔə, həʔə, həʔə
+# həʔə	həʔə	həʔə
+# hey	hey	hey
+# SSP: ‘Ｎ “Hey, hey, hey. Ｎ’
+# 
+# tuɬik’ʷtub k’ʷəɬ kʷi tudsqa ʔə kʷi saliʔ sɬəɬadəyʔ dəbəɬ tul’q’ixʷ
+# tu=ɬik’ʷ–txʷ–b	k’ʷəɬ	kʷi	tu=d–sqa	ʔə	kʷi	saliʔ
+# past=hook–ecs–pass	qtv	rem	past=1sg.po–older.brother	Pr	rem	two
+# sɬə–ɬadəyʔ	dəbəɬ	tul’–q’ixʷ
+# pl–woman	belong.to.bloodline	cntrfg–upstream
+# ‘Ｎ “It is said that my brother was stolen by two women of the upriver people. Ｎ’
+# 
+# tux̌ʷəxʷ čəd k’ʷəɬ ti p’ic’ikʷ ʔə tsi k’ʷuyəʔ
+# tux̌ʷ=axʷ	čəd	k’ʷəɬ	ti	p’ic’ikʷ	ʔə	tsi	k’ʷuyəʔ
+# just=now	1sg.sub	qtv	spec	Diaper.Child	Pr	spec:fem	mother
+# ‘Ｎ “I’m the Diaper Child of my mother. Ｎ’
+# 
+# ʔəshuyutəb čəd studəq ʔə ti qaw’qas
+# ʔas–huyu–t–b	čəd	studəq	ʔə	ti	qaw’qas
+# stat–made–ics–pass	1sg.sub	slave	Pr	spec	Raven
+# SSP: ‘Ｎ “I’ve been made a slave by Raven.” Ｎ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ tiʔəʔ diʔəʔ
+# ʔa	tiʔəʔ	diʔəʔ
+# be.there	prox	here
+# ‘There is this one.’
+# 
+# tuq’ʷəx̌ʷəd tiʔəʔ kʷagʷičəd
+# tu=q’ʷəx̌ʷ–t	tiʔəʔ	kʷagʷičəd
+# past=butcher–ics	prox	elk
+# ‘He had butchered the elk.’
+# 
+# gʷəl tuk’iɬid
+# gʷəl	tu=k’iɬi–t
+# sconj	past=hang–ics
+# ‘And he hung it up.’
+# 
+# huy, tudəgʷašəxʷ tiʔəʔ ʔudaw’ ʔal tiʔəʔ ʔiɬičids
+# huy	tu=dəkʷa–š=axʷ	tiʔəʔ	ʔudaw’	ʔal	tiʔəʔ
+# sconj	past=inside.something.small–ics=now	prox	tallow	at	prox
+# ʔiɬ–ʔičid–s
+# prtv–quiver–3po
+# ‘Then he packed the tallow in his quiver.’
+# 
+# gʷəl k’ʷit’
+# gʷəl	k’ʷit’
+# sconj	shoreward
+# ‘And he goes shoreward.’
+# 
+# ʔa k’ʷil
+# ʔa	k’ʷil
+# intj	peek
+# ‘Oh, he peers.’
+# 
+# ləcuƛ’əladiʔ ʔal tiʔiɬ ləcuqʷiqʷəšəb
+# ləcu–ƛ’əladiʔ	ʔal	tiʔiɬ	ləcu–qʷi–qʷəšəb
+# cont–make.noise	at	dist	cont–attn–smoke
+# ‘Someone is making noise where that little smoke is rising.’
+# 
+# ʔuˑx̌ʷ tiʔəʔ
+# ʔux̌ʷ	tiʔəʔ
+# go	prox
+# ‘He goes’
+# 
+# ʔuč’ədᶻəd
+# ʔu–č’ədᶻ–t
+# pfv–sneak.up–ics
+# ‘He sneaks up on him.’
+# 
+# gʷəl ləkiis diʔalap ʔə tiʔəʔ [s]ləcušəƛ’ap[s] haw’əʔ 
+# gʷəl	lə=kiis	diʔ•alap	ʔə	tiʔəʔ	s=ləcu–šəƛ’•ap=s
+# sconj	prog=stand	other.side•leg	Pr	prox	nm=cont–scorch•bottom=3po
+# haw’əʔ
+# ptcl
+# ‘He stands on the other side of the tree that is being felled.’
+# 
+# x̌ʷul’ čəd ɬasləqəd
+# x̌ʷul’	čəd	ɬu=ʔas–ləq–t
+# just	1sg.sub	irr=stat–listen–ics
+# ‘ “I’ll just listen to him.’’
+# 
+# həʔə, həʔə, həʔə
+# həʔə	həʔə	həʔə
+# hey	hey	hey
+# ‘Ｎ “Hey, hey, hey. Ｎ’
+# 
+# tuɬik’ʷtub k’ʷəɬ kʷi tudsqa ʔə kʷi saliʔ sɬəɬadəyʔ dəbəɬ tul’q’ixʷ
+# tu=ɬik’ʷ–txʷ–b	k’ʷəɬ	kʷi	tu=d–sqa	ʔə	kʷi	saliʔ
+# past=hook–ecs–pass	qtv	rem	past=1sg.po–older.brother	Pr	rem	two
+# sɬə–ɬadəyʔ	dəbəɬ	tul’–q’ixʷ
+# pl–woman	belong.to.bloodline	cntrfg–upstream
+# ‘Ｎ “It is said that my brother was stolen by two women of the upriver people. Ｎ’
+# 
+# tux̌ʷ čəd k’ʷəɬ ti p’ic’ikʷ ʔə tsi k’ʷuyəʔ
+# tux̌ʷ	čəd	k’ʷəɬ	ti	p’ic’ikʷ	ʔə	tsi	k’ʷuyəʔ
+# just	1sg.sub	qtv	spec	Diaper.Child	Pr	spec:fem	mother
+# ‘Ｎ “I’m the Diaper Child of my mother. Ｎ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔəshuyutəb čəd studəq ʔə ti qaw’qas
+# ʔas–huyu–t–b	čəd	studəq	ʔə	ti	qaw’qas
+# stat–made–ics–pass	1sg.sub	slave	Pr	spec	Raven
+# SSP: ‘Ｎ “I’ve been made a slave by Raven.” Ｎ’
+# 
+# q’aq’aˑx̌acut tiʔəʔ
+# q’a–q’ax̌a–t–sut	tiʔəʔ
+# attn–uncover–ics–refl	prox
+# ‘(The older brother) shows himself a little.’
+# 
+# ʔəxʷbutusəb tiʔəʔ č’ač’as
+# ʔas–dxʷ–butusəb	tiʔəʔ	č’ač’as
+# stat–ctd–hold.face.with.hands	prox	child
+# ‘The boy has his face covered with his hands.’
+# 
+# ʔəsʔistahəb ʔə ti [s]əsbutusəb[s] ʔə tə sux̌aabs
+# ʔas–ʔistaʔ–b	ʔə	ti	s=ʔas–butusəb=s	ʔə	tə
+# stat–be.like–pass	Pr	spec	nm=stat–hold.face.with.hands=3po	Pr	nspec
+# s=ʔu–x̌aab=s
+# nm=pfv–cry=3po
+# ‘He is like this as he cries.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# gʷəl ləwiliq’ʷitəb,
+# gʷəl	lə=wiliq’ʷi–t–b
+# sconj	prog=ask–ics–pass
+# ‘And he is asked,’
+# 
+# ləcuʔidigʷat čəxʷ ləcuʔidigʷat
+# ləcu–ʔidigʷat	čəxʷ	ləcu–ʔidigʷat
+# cont–say.what	2sg.sub	cont–say.what
+# ‘ “What are you saying?” ’
+# 
+# ləcux̌aab čəd
+# ləcu–x̌aab	čəd
+# cont–cry	1sg.sub
+# ‘ “I’m crying.’
+# 
+# dxʷtugʷus
+# dxʷ–tugʷ•us
+# ctd–immerse•face
+# ‘ “I’m drowning my face.’
+# 
+# ləcux̌aab čəd ləcux̌aab
+# ləcu–x̌aab	čəd	ləcu–x̌aab
+# cont–cry	1sg.sub	cont–cry
+# ‘ “I’m crying, crying.” ’
+# 
+# xʷiˑʔ gʷəšudxʷs tiʔəʔ c’əc’xʷaq’s
+# xʷiʔ	gʷə=s=šuɬ–dxʷ=s	tiʔəʔ	c’əc’xʷaq’s
+# neg	sbj=nm=see–dc=3po	prox	shining.being
+# ‘He can’t see this shining being.’
+# 
+# ləcux̌aab čəd
+# ləcu–x̌aab	čəd
+# cont–cry	1sg.sub
+# ‘ “I’m crying.’
+# 
+# tuɬik’ʷtub k’ʷəɬ kʷi tudsqa ʔə kʷi saliʔ sɬəɬadəyʔ dəbəɬ tul’q’ixʷ tusqadaʔ[s]
+# tu=ɬik’ʷ–txʷ–b	k’ʷəɬ	kʷi	tu=d–sqa	ʔə	kʷi	saliʔ
+# past=hook–ecs–pass	qtv	rem	past=1sg.po–older.brother	Pr	rem	two
+# sɬə–ɬadəyʔ	dəbəɬ	tul’–q’ixʷ	tu=s=qadaʔ=s
+# pl–woman	belong.to.bloodline	cntrfg–upstream	past=nm=steal=3po
+# ‘ “It is said that my brother was stolen by two women of the upriver people.’
+# 
+# tuʔəbsʔəladᶻəɬə[d] k’ʷəɬ kʷsi k’ʷuyəʔ ʔə kʷsi tuluƛ’
+# tu=ʔas–bəs–ʔəladᶻ•iʔɬ–d	k’ʷəɬ	kʷsi	k’ʷuyəʔ	ʔə	kʷsi
+# past=stat–prop–babysit•child–ics	qtv	rem.dma	mother	Pr	rem.dma 
+# tu=luƛ’
+# past=old
+# “‘My mother had an old woman for a baby sitter.’
+# 
+# ʔuˑ, tudukʷtxʷəxʷ kʷsi tuluƛ’
+# ʔu	tu=dukʷ–txʷ=axʷ	kʷsi	tu=luƛ’
+# intj	past=change–ecs=now	rem.dma	past=old
+# ‘ “She got mad at the old woman’
+# 
+# gʷəl tudᶻubdᶻubudəxʷ
+# gʷəl	tu=dᶻub–dᶻubu–t=axʷ
+# sconj	past=dstr–kick–ics=now
+# ‘ “And kicked her,’
+# 
+# gʷəl tubəhuyil p’q’ac
+# gʷəl	tu=bə=huyu–il	p’q’ac
+# sconj	past=add=made–inch	rotten.wood
+# ‘ “And she became a rotten log,’
+# 
+# gʷəl tuʔibəš
+# gʷəl	tu=ʔibəš
+# sconj	past=travel
+# ‘ “And (my mother) walked.’
+# 
+# huy, tuɬčisəbəxʷ ʔə tiʔiɬ cədiɬ qaw’qs čɬa stətudəqəxʷ ʔə ti qaw’qs
+# huy	tu=ɬčil–s–b=axʷ	ʔə	tiʔiɬ	cədiɬ	qaw’qs	čɬa
+# sconj	past=arrive–altv–pass=now	Pr	dist	he	raven	1pl.coord
+# stə–tudəq=axʷ	ʔə	ti	qaw’qs
+# attn–slave=now	Pr	spec	raven
+# ‘ “Then that Raven came to her and now we are slaves of Raven.’
+# 
+# ʔahəxʷ čəɬ q’ixʷ
+# ʔa=axʷ	čəɬ	q’ixʷ
+# be.there=now	1pl.po	upstream
+# ‘ “We are there upriver now.’
+# 
+# ʔəshuyutubuɬəxʷ studəq
+# ʔas–huyu–txʷ–buɬ=axʷ	studəq
+# stat–made–ecs–1pl.obj=now	slave
+# ‘ “We’ve been made slaves.’
+# 
+# ʔəshuyutub[uɬ] sʔušəbabdxʷ tiʔiɬ qaw’qs
+# ʔas–huyu–txʷ–buɬ	sʔušəbabdxʷ	tiʔiɬ	qaw’qs
+# stat–made–ecs–1pl.obj	poor.guy	dist	raven
+# ‘ “We have been made riff-raff by that Raven.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# x̌ʷul’əxʷ čəɬ x̌ʷul 
+# x̌ʷul’=axʷ	čəɬ	x̌ʷul
+# only=now	1pl.sub	be.near
+# SSP: ‘ “We are just nearby.” ’
+# 
+# saliʔ sɬəɬadəyʔ tiʔiɬ cəxʷʔa
+# saliʔ	sɬə–ɬadəyʔ	tiʔiɬ	d=dəxʷ=ʔa
+# two	pl–woman	dist	1sg.po=adnm=be.there
+# ‘ “There are two women where I am.’
+# 
+# gʷəl xʷiʔ gʷədsəsaydxʷ tul’čad
+# gʷəl	xʷiʔ	gʷə=d=s=ʔas–hay–dxʷ	tul’–čad
+# sconj	neg	sbj=1sg.po=nm=stat–known–dc	cntrfg–where
+# ‘ “And I don’t know where they are from.’
+# 
+# ƛ’uyabuk’ʷ tə xʷiʔ ləhaʔɬ
+# ƛ’u=yabuk’ʷ	tə	xʷiʔ	lə=haʔɬ
+# hab=fight	nspec	neg	negp=good
+# ‘ “The good-for-nothings quarrel all the time.’
+# 
+# ck’ʷaqid ʔuyabuk’ʷ bək’ʷ səɬax̌il čəda ƛ’asləqid x̌ʷul’ab ʔə tiʔiɬ ləʔux̌ʷtxʷ čəxʷ
+# ck’ʷaqid	ʔu–yabuk’ʷ	bək’ʷ	s=lə=ɬax̌–il	čəda
+# always	pfv–quarrel	all	nm=prog=dark–inch	1sg.coord
+# ƛ’u=ʔas–ləq•qid	x̌ʷul’ab	ʔə	tiʔiɬ	lə=ʔux̌ʷ–txʷ	čəxʷ
+# hab=stat–listen•voice	same.way	Pr	dist	prog=go–ecs	2sg.sub
+# ‘ “They quarrel every night and I listen to them saying what you are saying now.’
+# 
+# tux̌ʷəxʷ kʷsi dstab[igʷs] kʷi ɬucəxʷčubə, tux̌ʷəxʷ ti dəgʷdəgʷalap ʔi ti dpuʔtəd
+# tux̌ʷ=axʷ	kʷsi	d–stabigʷs	kʷi	ɬu=d=dəxʷ=čubə
+# just=now	rem.dma	1sg.po–things	rem	irr=1sg.po=adnm=go.inland
+# tux̌ʷ=axʷ	ti	d–dəgʷdəgʷalap	ʔi	ti	d–puʔtəd
+# just=now	spec	1sg.po–pants	conj	spec	1sg.po–shirt
+# ‘ “It is just my things now that I will have to go and get, my pants and my shirt.’
+# 
+# ɬax̌əxʷ kʷədaʔ čəda ɬuɬaʔ
+# ɬax̌=axʷ	kʷədaʔ	čəda	ɬu=ɬaʔ
+# dark=now	ptcl	1sg.coord	irr=arrive
+# ‘ “I guess it will be night before I arrive there.’
+# 
+# ʔəɬəd tiʔəʔ tə ʔudaw’
+# ʔəɬəd	tiʔəʔ	tə	ʔudaw’
+# feed.on	prox	nspec	tallow
+# ‘ “Eat this tallow.” ’
+# 
+# yəx̌i hiwisəxʷ tiʔəʔ susuq’ʷaʔs 
+# yəx̌i	hiwil–s=axʷ	tiʔəʔ	susuq’ʷaʔ–s
+# because	go.ahead–altv=now	prox	younger.sibling–3po
+# ‘Because he had approached his younger brother,’
+# 
+# gʷəl dxʷtašusəd tašad
+# gʷəl	dxʷ–taš•us–t	taša–t
+# sconj	ctd–stroke•face–ics	stroke–ics
+# ‘And he stroked his face, he stroked him.’
+# 
+# yuˑ ləgʷəb tiʔəʔ sqas (h)aʔɬ
+# yu	ləgʷəb	tiʔəʔ	sqa–s	haʔɬ
+# good	youth	prox	older.brother–3po	good
+# ‘His older brother is a good-looking young man.’
+# 
+# ʔəshiiɬ tiʔəʔ sp’ic’ikʷ
+# ʔas–hiiɬ	tiʔəʔ	sp’ic’ikʷ
+# stat–happy	prox	Diaper.Child
+# ‘This makes Diaper Child happy.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔuˑ, ɬuq’iləb čəd ʔə tiʔiɬ hud
+# ʔu	ɬu=q’ili–b	čəd	ʔə	tiʔiɬ	hud
+# intj	irr=aboard–csmd	1sg.sub	Pr	dist	firewood
+# SSP: ‘ “Oh, I’ll load your canoe with wood.’
+# 
+# xʷəƛ’gʷasyicid čəd
+# xʷəƛ’•gʷas–yi–t–sid	čəd
+# split•pair–dat–ics–2sg.obj	1sg.sub
+# ‘ “I’ll break it up into pieces for you.” ’
+# 
+# kʷədatəb ʔə tiʔəʔ kʷədiʔ sək’ʷəbac
+# kʷəda–t–b	ʔə	tiʔəʔ	kʷədiʔ	sək’ʷəbac
+# taken–ics–pass	Pr	prox	rem.dma	alder.tree
+# ‘He took alder.’
+# 
+# gʷəl č’axʷduptəˑb
+# gʷəl	č’axʷa•dup–t–b
+# sconj	clubbed•coll–ics–pass
+# ‘And he pounded it’
+# 
+# gʷəl xʷəƛ’gʷas
+# gʷəl	xʷəƛ’•gʷas
+# sconj	split•pair
+# ‘And he broke it into pieces.’
+# 
+# gʷəl q’iləb[yi]d tiʔəʔ susuq’ʷaʔs
+# gʷəl	q’ili–b–yi–t	tiʔəʔ	susuq’ʷaʔ–s
+# sconj	aboard–csmd–dat–ics	prox	younger.sibling–3po
+# ‘And he loaded the canoe for his brother.’
+# 
+# gʷəl ləcut tiʔəʔ sp’ic’ikʷ
+# gʷəl	lə=cut	tiʔəʔ	sp’ic’ikʷ
+# sconj	prog=say	prox	Diaper.Child
+# ‘And Diaper Child said,’
+# 
+# ʔuˑ, ɬasx̌ʷal’bid čəd kʷədaʔ gʷəɬuq’ʷibidəd
+# ʔu	ɬu=ʔas=x̌ʷal’–bi–t	čəd	kʷədaʔ
+# intj	irr=stat–lack.control–map–ics	1sg.sub	ptcl
+# gʷə=ɬu=q’ʷibi–t=ad
+# sbj=irr=fix–ics=1sg.sbrd
+# ‘ “Oh, I’ll never be able to unload all of that.” ’
+# 
+# xʷiʔ x̌ʷul’ čəxʷ ɬuʔix̌ʷdupəd
+# xʷiʔ	x̌ʷul’	čəxʷ	ɬu=ʔix̌ʷi•dup–t
+# neg	just	2sg.sub	irr=thrown•coll–ics
+# ‘ “No, you’ll just throw it all out easily.’
+# 
+# dukʷəɬdat čəda ɬuʔəƛ’ dadatu[t]
+# dukʷəɬdat	čəda	ɬu=ʔəƛ’	dadatut
+# tomorrow	1sg.coord	irr=come	morning
+# ‘ “I’ll come tomorrow morning.’
+# 
+# ʔəƛ’txʷ kʷi hikʷ ƛ’əlayʔ dəxʷq’il ʔə kʷi kʷagʷičəd ʔal tiʔəʔ t’aq’t
+# ʔəƛ’–txʷ	kʷi	hikʷ	ƛ’əlayʔ	dəxʷ=q’ili	ʔə	kʷi
+# come–ecs	rem	big	shovel.nose.canoe	adnm=load.vehicle	Pr	rem
+# kʷagʷičəd	ʔal 	tiʔəʔ	t’aq’t
+# elk	at	prox	inland
+# ‘ “Bring a big canoe to put the elk into, it is right up the hill.’
+# 
+# xʷiʔ ləlil
+# xʷiʔ	lə=lil
+# neg	negp=far
+# ‘ “It is not far.’
+# 
+# tiləb čəɬ ɬutəyil
+# tiləb	čəɬ	ɬu=təyil
+# immediately	1pl.po	irr=go.upriver
+# ‘ “Right away we will travel upstream.’
+# 
+# tiʔaʔ tə ʔudaw’ ɬadsʔəɬtxʷ kʷs(i) adsk’ʷuy
+# tiʔəʔ	tə	ʔudaw’	ɬu=ad=s=ʔəɬ–txʷ	kʷsi	ad–sk’ʷuy
+# prox.dma	nspec	tallow	irr=2sg.po=nm=eat–ecs	rem.dma	2sg.po–mother
+# ‘ “Here is some tallow to feed your mother.” ’
+# 
+# ʔuˑ, diɬ sixʷ kʷi ƛ’u[d]sugʷəlaltəb ʔə ti gʷəqaw’qs ɬušudxʷəs kʷi ɬudsup’ə[c’]p’ə[c’]
+# ʔu	diɬ	sixʷ	kʷi	ƛ’u=d=s=ʔu–gʷəlal–t–b	ʔə	ti
+# intj	foc	ptcl	rem	hab=1sg.po=nm=pfv–kill–ics–pass	Pr	spec
+# gʷə=qaw’qs	ɬu=šuɬ–dxʷ=as	kʷi
+# sbj=Raven	irr=see–dc=3sbrd	rem
+# ɬu=d=s=ʔu–p’əc’–p’əc’
+# irr=1sg.po=nm=pfv–dstr–defecate
+# ‘ “Oh, I am always beaten by Raven when he examines my feces.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# liləq’aɬucid
+# li–ləq’aɬ•ucid
+# attn–be.in.right.place•doorway
+# SSP: ‘ “Right near the doorway of the house.’
+# 
+# laʔb liləq’aɬucid ʔə kʷi ʔalʔal kʷ(i) adsp’ə[c’]p’ə[c’] ʔal kʷi səɬax̌il
+# həlaʔb	li–ləq’aɬ•ucid	ʔə	kʷi	ʔalʔal	kʷi
+# really	attn–be.in.right.place•doorway	Pr	rem	house	rem
+# ad=s=p’əc’–p’əc’	ʔal	kʷi	s=lə=ɬax̌–il
+# 2sg.po=nm=dstr–defecate	at	rem	nm=prog=dark–inch
+# “‘Near the door of the house is where you will relieve yourself in the evening.’
+# 
+# gʷəl ɬulək’ʷcəb
+# gʷəl	ɬu=lək’ʷ–c–b
+# sconj	irr=eat–altv–pass
+# ‘ “And he will gulp it down.” ’
+# 
+# cutəb [ʔə] kʷi qaw’qs təɬ ʔəsč’əw’it
+# cut–t–b	ʔə	kʷi	qaw’qs	təɬ	ʔas–č’əw’it
+# say–ics–pass	Pr	rem	raven	truly	stat–powerful
+# ‘That is said about Raven who is so smart.’
+# 
+# ʔuˑ, təyiˑl tiʔəʔ sp’iˑc’iˑkʷ
+# ʔu	təyil	tiʔəʔ	sp’ic’ikʷ
+# intj	go.upriver	prox	Diaper.Child
+# ‘Oh, Diaper Child travels upriver.’
+# 
+# gʷəl ləq’il
+# gʷəl	lə=q’ili
+# sconj	prog=aboard
+# ‘And he arrives (in his canoe).’
+# 
+# gʷəl ʔix̌ʷdupəd tiʔəʔ hud
+# gʷəl	ʔix̌ʷi•dup–t	tiʔəʔ	hud
+# sconj	thrown•coll–ics	prox	firewood
+# ‘And he throws out all the wood.’
+# 
+# ʔix̌ʷid ʔix̌ʷid
+# ʔix̌ʷi–t	ʔix̌ʷi–t
+# thrown–ics	thrown–ics
+# ‘He throws it, he throws it.’
+# 
+# laʔməxʷ ləliʔ ɬaʔɬəwamixʷ
+# həlaʔm=axʷ	ləliʔ	ɬaʔɬəwamixʷ
+# really=now	different	ɬaʔɬəwamixʷ
+# ‘ “ɬaʔɬəwamixʷ is really different now.’
+# 
+# laʔməxʷ ləliʔ ɬaʔɬəwamixʷ
+# həlaʔm=axʷ	ləliʔ	ɬəɬəwabixʷ
+# really=now	different	ɬəɬəwabixʷ
+# ‘ “ɬaʔɬəwamixʷ is really different now.’
+# 
+# laʔməxʷ ləliʔ
+# həlaʔm=axʷ	ləliʔ
+# really=now	different
+# ‘ “He is really different.’
+# 
+# gʷasʔəx̌ay kʷi xʷiʔ ləhaʔɬ gʷədəxʷəsləliʔils
+# gʷə=ʔas–ʔəx̌ay	kʷi	xʷiʔ	lə=haʔɬ
+# sbj=stat–what.happened	rem	neg	negp=good
+# gʷə=dəxʷ=ʔas–ləliʔ–il=s
+# sbj=adnm=stat–different–inch=3po
+# ‘ “Why should the good-for-nothing look different?’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# diɬ sutalx̌ils cukʷ
+# diɬ	s=ʔu–talx̌–il=s	cukʷ
+# foc	nm=pfv–able–inch=3po	only
+# SSP: ‘ “Is it just that he is growing big and strong?” ’
+# 
+# ʔaˑ gʷəl čubə tiʔəʔ
+# ʔa	gʷəl	čubə	tiʔəʔ
+# intj	sconj	go.inland	prox
+# ‘He is there and he goes inland.’
+# 
+# gʷəl gʷədiličəd tsi sk’ʷuys
+# gʷəl	gʷəd–il•ič–t	tsi	sk’ʷuy–s
+# sconj	down–inch•covering–ics	spec:fem	mother–3po
+# ‘And he sits on the mat by his mother’
+# 
+# gʷəl ləgʷaagʷatxʷ
+# gʷəl	lə=gʷaa–gʷad–txʷ
+# sconj	prog=attn–talk–ecs
+# ‘And he talks to her.’
+# 
+# k’ʷuyəʔ, ʔa ti ʔuɬčisəbš ʔaciɬtalbixʷ
+# k’ʷuyəʔ	ʔa	ti	ʔu–ɬčil–s–bš	ʔaciɬtalbixʷ
+# mother	be.there	spec	pfv–arrive–altv–1sg.obj	people
+# ‘ “Mother, someone has come to me, it was a person.’
+# 
+# xʷiˑʔ gʷədšudxʷ
+# xʷiʔ	gʷə=d=s=šuɬ–dxʷ
+# neg	sbj=1sg.po=nm=see–dc
+# ‘ “I couldn’t see him.’
+# 
+# ʔudxʷtašusc t(i) cəxʷšudxʷ haʔɬ ʔaciɬtalbixʷ, tiʔiɬ cəxʷšudxʷ
+# ʔu–dxʷ–taš•us–t–s	ti	d=dəxʷ=šuɬ–dxʷ	haʔɬ
+# pfv–ctd–stroke.lightly•face–ics–1sg.obj	spec	1sg.po=adnm=see–dc	good
+# ʔaciɬtalbixʷ	tiʔiɬ	d=dəxʷ=šuɬ–dxʷ
+# people	dist	1sg.po=adnm=see–dc
+# ‘ “Then he brushed my face so I could see that he was a nice person.’
+# 
+# tiʔaʔ tə ʔudaw’
+# tiʔaʔ	tə	ʔudaw’
+# prox.dma	nspec	tallow
+# ‘ “Here is some tallow.’
+# 
+# diɬ xʷuʔələʔ kʷ(i) adbədaʔ
+# diɬ	xʷuʔələʔ	kʷi	ad–bədaʔ
+# foc	maybe	rem	2sg.po–offspring
+# ‘ “I guess he was your son.’
+# 
+# saliʔ k’ʷəɬ sɬəɬadəyʔ kʷədiʔ dəxʷʔas
+# saliʔ	k’ʷəɬ	sɬə–ɬadəyʔ	kʷədiʔ	dəxʷ=ʔa=s
+# two	qtv	pl–woman	rem.dma	adnm=be.there=3po
+# ‘ “There are two women where he is,’
+# 
+# gʷəl ck’ʷaqid ƛ’uyabuk’ʷ
+# gʷəl	ck’ʷaqid	ƛ’u=yabuk’ʷ
+# sconj	always	hab=fight
+# ‘ “And they are always quarrelling.’
+# 
+# x̌ʷul’ k’ʷəɬ sč’istxʷ kʷi ƛ’usc’kʷati[d] 
+# x̌ʷul’	k’ʷəɬ	sč’istxʷ	kʷi	ƛ’u=s=c’kʷa–t–id
+# just	qtv	husband	rem	hab=nm=claim.kinship–ics–pass.sbrd
+# ‘ “He says he is just called husband.’
+# 
+# xʷiʔ gʷəƛ’ubəsulaʔti[d]s tul’čad 
+# xʷiʔ	gʷə=ƛ’u=bə=s=ʔu–laʔ–t–id=s	tul’–čad
+# neg	sbj=hab=add=nm=pfv–point.out–ics–pass.sbrd=3po	cntrfg–where
+# ‘ “It is not said where they are from,’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# gʷəl ƛ’uyabuk’ʷ k’ʷəɬ kʷi xʷiʔ ləhaʔɬ
+# gʷəl	ƛ’u=yabuk’ʷ	k’ʷəɬ	kʷi	xʷiʔ	lə=haʔɬ
+# sconj	hab=fight	qtv	rem	neg	negp=good
+# SSP: ‘ “And the no-goods are always quarrelling.’’
+# 
+# gʷəl ɬuʔəƛ’ k’ʷəɬ ʔal kʷi dadatu[t] tiʔiɬ adbədaʔ
+# gʷəl	ɬu=ʔəƛ’	k’ʷəɬ	ʔal	kʷi	dadatut	tiʔiɬ	ad–bədaʔ
+# sconj	irr=come	qtv	at	rem	morning	dist	2sg.po–offspring
+# ‘ “And he says he will come in the morning, your son.’
+# 
+# ɬuqʷictxʷ čəd kʷi ƛ’əlayʔ ʔal kʷi dadatu[t]
+# ɬu=qʷic–txʷ	čəd	kʷi	ƛ’əlayʔ	ʔal
+# irr=travel.downstream–ecs	1sg.sub	rem	shovel.nose.canoe	at
+# kʷi	dadatut
+# rem	morning
+# ‘ “I’ll bring the canoe down river in the morning.” ’
+# 
+# ʔu, t(i) adsəxʷstudəq
+# ʔu	ti	ad–səxʷ–studəq
+# intj	spec	2sg.po–instr–slave
+# ‘ “Oh, it is your dear one!’
+# 
+# diɬ xʷuʔələʔ, diɬ
+# diɬ	xʷuʔələʔ	diɬ
+# foc	maybe	foc
+# ‘ “It must be him, it is him.” ’
+# 
+# ləmələcugʷa[ad]gʷa[d] ɬaʔɬəwamixʷ ləmələcugʷa[ad]gʷa[d]
+# lə=bə=ləcu–gʷaadgʷad	ɬəɬəwabixʷ	lə=bə=ləcu–gʷaadgʷad
+# prog=add=cont–talk	ɬəɬəwabixʷ	prog=add=cont–talk
+# ‘ “He is talking again, that ɬaʔɬəwamixʷ, he is talking again.” ’
+# 
+# kʷədiʔ šəƛ’aps ti dəxʷudxʷʔəhadəds 
+# kʷədiʔ	s=šəƛ’•ap=s	ti	dəxʷ=ʔu–dxʷ–ʔəhad–t=s
+# rem.dma	nm=scorch•bottom=3po	spec	adnm=pfv–ctd–talk–ics=3po
+# ‘ “What he speaks of is his burning down trees over there.’
+# 
+# ɬuhakʷ dᶻəɬ
+# ɬu=hakʷ	dᶻəɬ
+# irr=ago	ptcl
+# ‘ “It seems it will take a long time.’
+# 
+# gʷəl ɬuləcudᶻaq’aq’ad k’ʷəɬ kʷədiʔ suhuds
+# gʷəl	ɬu=ləcu–dᶻaq’–aq’a–t	k’ʷəɬ	kʷədiʔ	s=ʔu–hud=s
+# sconj	irr=cont–dim.eff–fall–ics	qtv	rem.dma	nm=pfv–burn=3po
+# ‘ “And it is said the tree will just topple over as it burns there.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# cutəb ʔə tiʔəʔ siʔab
+# cut–t–b	ʔə	tiʔəʔ	siʔab
+# say–ics–pass	Pr	prox	noble
+# SSP: ‘He is told by this nobleman,’
+# 
+# huydxʷ tiʔəʔ ʔudaw’ 
+# huyu–dxʷ	tiʔəʔ	ʔudaw’
+# made–dc	prox	tallow
+# ‘ “Prepare the tallow,’
+# 
+# huydxʷəxʷ huydxʷəxʷ
+# huyu–dxʷ=axʷ	huyu–dxʷ=axʷ
+# prepare–dc=now	prepare–dc=now
+# ‘‘Prepare it, prepare it.” ’
+# 
+# ʔaˑ gʷəl ləp’ə[c’]p’ə[c’] kʷi ɬaʔɬəwabixʷ liləq’aɬucid
+# ʔa	gʷəl	lə=p’əc’–p’əc’	kʷi	ɬaʔɬəwabixʷ
+# intj	sconj	prog=dstr–defecate	rem	ɬaʔɬəwabixʷ
+# li–ləq’aɬ•ucid
+# attn–be.in.right.place•doorway
+# ‘Time goes by and ɬaʔɬəwabixʷ goes to relieve himself right near the doorway.’
+# 
+# xʷiwəm tə n’əč n’iɬ p’ə[c’]p’ə[c’] ʔə ɬaʔɬəwamixʷ
+# xʷiwəm	tə	dəč’uʔ	diɬ	p’əc’–p’əc’	ʔə	ɬaʔɬəwabixʷ
+# ??	nspec	another	foc	dstr–defecate	Pr	ɬaʔɬəwabixʷ
+# ‘ “Look at the feces of ɬaʔɬəwabixʷ.” ’
+# 
+# diʔɬ ɬəqsid, ɬəqsid, ɬəqsid
+# diʔɬ	ɬəqsid	ɬəqsid	ɬəqsid
+# suddenly	gulp.it	gulp.it	gulp.it
+# ‘Suddenly he gulps it down, gulps it down, gulps it down!’
+# 
+# kʷačil
+# kʷačil
+# day.begins
+# ‘It dawns’
+# 
+# gʷəl qʷic
+# gʷəl	qʷic
+# sconj	go.downstream
+# ‘And he goes downstream.’
+# 
+# xʷiˑʔ gʷəsʔitut ʔə sp’ic’ikʷ
+# xʷiʔ	gʷə=s=ʔitut	ʔə	sp’ic’ikʷ
+# neg	sbj=nm=sleep	Pr	Diaper.Child
+# ‘Diaper Child doesn’t sleep.’
+# 
+# laʔb xʷiʔ gʷəsʔituts
+# həlaʔb	xʷiʔ	gʷə=s=ʔitut=s
+# really	neg	sbj=nm=sleep=3po
+# ‘He really doesn’t sleep’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# huy, diɬ tiʔiɬ sqas kʷi x̌əčs
+# huy	diɬ	tiʔiɬ	sqa–s	kʷi	x̌əč–s
+# sconj	foc	dist	older.brother–3po	rem	mind–3po
+# SSP: ‘Then, he has his older brother on his mind.’
+# 
+# qʷic tiʔəˑʔəxʷ
+# qʷic	tiʔəʔ=axʷ
+# go.downstream	prox=now
+# ‘He goes downstream now.’
+# 
+# sidsidq’əd tiʔəʔ ƛ’əlayʔ
+# sid–sidq’–t	tiʔəʔ	ƛ’əlayʔ
+# dstr–turn–ics	prox	shovel.nose.canoe
+# ‘He turns the canoe back and forth.’
+# 
+# hikʷ ƛ’əlayʔ, ƛ’əlayʔ ʔə q’aw’qs
+# hikʷ	ƛ’əlayʔ	ƛ’əlayʔ	ʔə	q’aw’qs
+# big	shovel.nose.canoe	canoe	Pr	Raven
+# ‘It is a big canoe, this canoe of Raven’s.’
+# 
+# sidsidq’əd
+# sid–sidq’–t
+# dstr–turn–ics
+# ‘He turns it back and forth’
+# 
+# gʷəl lələx̌ʷusdub ʔə kʷədiʔ č’ƛ’aʔ 
+# gʷəl	lə=ləx̌ʷ•us–dxʷ–b	ʔə	kʷədiʔ	č’ƛ’aʔ
+# sconj	prog=cover•head–dc–pass	Pr	rem.dma	stone
+# ‘And he puts rocks on top of it.’
+# 
+# ləqʷic
+# lə=qʷic
+# prog=go.downstream
+# ‘He goes downstream.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔahəxʷ
+# ʔa=axʷ
+# be.there=now
+# SSP: ‘He is there now.’
+# 
+# gʷəl čaʔkʷ tiʔəʔ sqas
+# gʷəl	čaʔkʷ	tiʔəʔ	sqa–s
+# sconj	seaward	prox	older.brother–3po
+# ‘His brother reaches shore.’
+# 
+# tiləb ləq’iˑlitub tiʔəʔ kʷagʷičəd
+# tiləb	lə=q’ili–txʷ–b	tiʔəʔ	kʷagʷičəd
+# immediately	prog=aboard–ecs–pass	prox	elk
+# ‘Right away the elk is loaded.’
+# 
+# ʔudəgʷiɬ ʔə kʷədiʔ ƛ’əlayʔ
+# ʔudəgʷ•gʷiɬ	ʔə	kʷədiʔ	ƛ’əlayʔ
+# centre•canoe	Pr	rem.dma	canoe
+# ‘It is in the middle of the canoe.’
+# 
+# tadiʔ x̌əɬ ti haʔɬ čəbid
+# tadiʔ	x̌əɬ‿ti	haʔɬ	čəbid
+# dist.dma	seemingly	good	Douglas.fir
+# ‘ “Over there is a rather good fir tree.’
+# 
+# ɬuq’ʷalap čəɬ čɬa ɬuq’ilq’ilid
+# ɬuq’ʷ•alap	čəɬ	čɬa	ɬu=q’il–q’ili–t
+# peel•leg	1pl.po	1pl.coord	irr=dstr–aboard–ics
+# ‘ “We could pry off (its bark) and load it onto the canoe.” ’
+# 
+# ɬuq’ʷalap, ɬuq’ʷaˑlap tiʔəʔ diʔəʔ gʷələq’iləb əlgʷəʔ yəlyalus
+# ɬuq’ʷ•alap	ɬuq’ʷ•alap	tiʔəʔ	diʔəʔ	gʷə=lə=q’ili–b	əlgʷəʔ	yəl–yalus
+# peel•leg	peel•leg	prox	here	sbj=prog=aboard–md	pl	dstr–end
+# ‘So they pried off the bark, pried off the bark and loaded it onto the canoe, at either end.’
+# 
+# ʔudəgʷiɬ tiʔəʔ kʷagʷičəd
+# ʔudəgʷ•gʷiɬ	tiʔəʔ	kʷagʷičəd
+# centre•canoe	prox	elk
+# ‘The elk was in the middle of the canoe.’
+# 
+# gʷəl ləgʷaadil
+# gʷəl	lə=gʷaadil
+# sconj	prog=many.sit
+# ‘They sat together,’
+# 
+# gʷəl lətatabəb
+# gʷəl	lə=ta–tabəb
+# sconj	prog=attn–converse
+# ‘And they talked.’
+# 
+# ʔa ʔu kʷi sɬəɬadəyʔ ʔal kʷ(i) adəxʷʔa
+# ʔa	ʔu	kʷi	sɬə–ɬadəyʔ	ʔal	kʷi	ad=dəxʷ=ʔa
+# be.there	int	rem	pl–woman	at	rem	2sg.po=adnm=be.there
+# ‘ “Are there any women where you are?’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔa ʔu kʷi sɬəɬadəyʔ
+# ʔa	ʔu	kʷi	sɬə–ɬadəyʔ
+# be.there	int	rem	pl–woman
+# ‘ “Are there any women?” ’
+# 
+# qah–a
+# qah–a
+# many–intns
+# ‘‘Yes, there are lots.’’
+# 
+# bəbuʔus
+# bə–buʔus
+# attn–four
+# ‘ “There are four.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔa ti ɬixʷixʷ tux̌ʷ p’aƛ’aƛ’
+# ʔa	ti	ɬixʷixʷ	tux̌ʷ	p’aƛ’aƛ’
+# be.there	spec	three:hmn	just	worthless
+# SSP: ‘ “There are three but they are nothing.’
+# 
+# xʷiʔ kʷi stab dəxʷləq’aɬs
+# xʷiʔ	kʷi	stab	dəxʷ=ləq’aɬ=s
+# neg	rem	what	adnm=be.in.right.place=3po
+# ‘ “They don’t measure up in any way.’
+# 
+# gʷəl diič’uʔ tsi ʔal tsiʔiɬ haˑʔɬ sɬadəyʔ
+# gʷəl	diič’uʔ	tsi	ʔal	tsiʔiɬ	haʔɬ	sɬadəyʔ
+# sconj	one:hmn	spec:fem	at	dist:fem	good	woman
+# ‘ “And there is one who is a very good woman.’
+# 
+# gʷəyayus dxʷʔal gʷəsuɬax̌ils
+# gʷə=yayus	dxʷ–ʔal	gʷə=s=ʔu–ɬax̌–il=s
+# sbj=work	cntrpt–at	sbj=nm=pfv–dark–inch=3po
+# ‘ “She works until it becomes night.’
+# 
+# gʷəl ti ɬixʷixʷ gʷəl p’aƛ’aƛ’
+# gʷəl	ti	ɬixʷixʷ	gʷəl	p’aƛ’aƛ’
+# sconj	spec	three:hmn	sconj	worthless
+# ‘ “And these three, they are nothing.’
+# 
+# p’aƛ’aƛ’ x̌ʷul’ ƛ’usaxʷsaxʷəb
+# p’aƛ’aƛ’	x̌ʷul’	ƛ’u=saxʷ–saxʷ–b
+# worthless	just	hab=dstr–run–md
+# ‘ “They just run around wasting time.’
+# 
+# ʔa tsi k’ʷat’ad
+# ʔa	tsi	k’ʷat’ad
+# be.there	spec:fem	mouse
+# ‘ “There is Mouse.’
+# 
+# ʔa tsi pul’yəʔ
+# ʔa	tsi	pul’yəʔ
+# be.there	spec:fem	mole
+# ‘ “There is Mole.’
+# 
+# ʔa tsi ʔadʔad
+# ʔa	tsi	ʔadʔad
+# be.there	spec:fem	magpie
+# ‘ “There is Magpie.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# xʷiʔ kʷi stab gʷədəxʷləq’aɬs əlgʷəʔ
+# xʷiʔ	kʷi	stab	gʷə=dəxʷ=ləq’aɬ=s	əlgʷəʔ
+# neg	rem	what	sbj=adnm=be.in.right.place=3po	pl
+# SSP: ‘ “There isn’t a thing that they are good for.’
+# 
+# cugʷukʷ saxʷsaxʷəb dəxʷʔas əlgʷəʔ
+# cukʷ–ukʷ	saxʷ–saxʷəb	dəxʷ=ʔa=s	əlgʷəʔ
+# only–exc	dstr–run	adnm=be.there=3po	pl
+# ‘ “The only thing they are good for is running around.’
+# 
+# gʷəl tsi ʔal tsiʔiɬ diič’uʔ gʷəl cugʷəxʷ siʔab sɬadəyʔ
+# gʷəl	tsi	ʔal	tsiʔiɬ	diič’uʔ	gʷəl	cugʷ=axʷ	siʔab	sɬadəyʔ
+# sconj	spec:fem	at	dist:fem	one:hmn	sconj	only=now	noble	woman
+# ‘ “But that one of them, she is an exceptionally noble lady.’
+# 
+# bək’ʷ stab syayus
+# bək’ʷ	stab	s=yayus=s
+# all	what	nm=work=3po
+# ‘ “She can do all kinds of work.” ’
+# 
+# xʷuʔələʔ diɬ gʷədčəgʷas
+# xʷuʔələʔ	diɬ	gʷə=d–čəgʷas
+# maybe	foc	sbj=1sg.po–wife
+# ‘ “It would be good to have her for my wife.’
+# 
+# ʔalil gʷat ɬučəbaʔtxʷ ti dsčəbaʔ
+# ʔal–il	gʷat	ɬu=čəbaʔ–txʷ	ti	d–sčəbaʔ
+# at–inch	who	irr=backpack–ecs	spec	1sg.po–backpack
+# ‘ “Whoever manages to pack my load.’
+# 
+# diɬ ɬudshuygʷas
+# diɬ	ɬu=d=s=huyu•gʷas
+# foc	irr=1sg.po=nm=made•pair
+# ‘ “She is the one I will marry.” ’
+# 
+# ʔu, ƛ’ub, čutəb ʔə tiʔəʔ susuq’ʷaʔs
+# ʔu	ƛ’ub	čut–t–b	ʔə	tiʔəʔ	susuq’ʷaʔ–s
+# intj	well	say–ics–pass	Pr	prox	younger.sibling–3po
+# ‘ “Oh, that is good,” his younger brother says to him.’
+# 
+# ʔu, ƛ’ub
+# ʔu	ƛ’ub
+# int	well
+# ‘ “That is good.” ’
+# 
+# ʔu, luƛ’iləxʷ ti sp’ic’ikʷ
+# ʔu	luƛ’–il=axʷ	ti	sp’ic’ikʷ
+# intj	old–inch=now	spec	Diaper.Child
+# ‘Diaper Child has now grown up.’
+# 
+# huy, ʔutašatəbəxʷ ʔə tiʔəʔ sqas
+# huy	ʔu–taša–t–b=axʷ	ʔə	tiʔəʔ	sqa–s
+# sconj	pfv–stroke–ics–pass=now	Pr	prox	older.brother–3po
+# ‘Then he is stroked by his older brother.’
+# 
+# təyiˑl əlgʷəʔ
+# təyil	əlgʷəʔ
+# go.upriver	pl
+# ‘They go upstream.’
+# 
+# təyil ʔal kʷi shuys ʔə kʷi sutatabəbs əlgʷəʔ
+# təyil	ʔal	kʷi	s=huyu=s	ʔə	kʷi	s=ʔu–tatabəb=s	əlgʷəʔ
+# go.upriver	at	rem	nm=made=3po	Pr	rem	nm=pfv–confer=3po	pl
+# ‘They go upriver after they have discussed it.’
+# 
+# gʷəl x̌ʷul’ ʔuq’ax̌ad kʷi ʔəsɬaɬlil 
+# gʷəl	x̌ʷul’	ʔu–q’ax̌a–t	kʷi	ʔas–ɬaɬlil
+# sconj	just	pfv–uncover–ics	rem	stat–live
+# ‘And they come into view of those living there,’
+# 
+# gʷəl ʔudəgʷiɬ ʔə tiʔəʔ
+# gʷəl	ʔudəgʷ•gʷiɬ	ʔə	tiʔəʔ
+# sconj	middle•canoe	Pr	prox
+# ‘And they are in the middle of the canoe.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔəxʷqaqadus
+# ʔas–dxʷ–qa–qad•us
+# stat–ctd–attn–back•face
+# SSP: ‘They face backwards.’
+# 
+# ʔəxʷqaqadus
+# ʔas–dxʷ–qa–qad•us
+# stat–ctd–attn–back•face
+# ‘They face backwards.’
+# 
+# tiˑləb ʔušudub ʔə tiʔəʔ qaw’qs
+# tiləb	ʔu–šuɬ–dxʷ–b	ʔə	tiʔəʔ	qaw’qs
+# immediately	pfv–see–dc–pass	Pr	prox	raven
+# ‘Raven recognizes him right away.’
+# 
+# həmʔ, həmʔ, ʔəsɬaʔɬəwamixʷ, ɬaʔɬəwamixʷ
+# həmʔ	həmʔ	ʔas–ɬaʔɬəwamixʷ	ɬaʔɬəwamixʷ
+# hmm	hmm	stat–ɬaʔɬəwamixʷ	ɬaʔɬəwamixʷ
+# ‘ “Hmm, it is ɬaʔɬəwamixʷ, ɬaʔɬəwamixʷ.’
+# 
+# hikʷiləxʷ ɬaʔɬəwamixʷ
+# hikʷ–il=axʷ	ɬaʔɬəwamixʷ
+# big–inch=now	ɬaʔɬəwamixʷ
+# ‘ “ɬaʔɬəwamixʷ has become big.” ’
+# 
+# ƛ’al’ čəd ʔugʷəstudəq ʔə tə xʷiʔ ləhaʔɬ
+# ƛ’al’	čəd	ʔu–gʷə=s=studəq	ʔə	tə	xʷiʔ	lə=haʔɬ
+# also	1sg.sub	pfv–sbj=nm=slave	Pr	nspec	neg	negp=good
+# ‘ “How could I be a slave for that good-for-nothing?” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ɬuhaydxʷ ʔə til’x̌iʔ
+# ɬu=hay–dxʷ	ʔə	til’x̌iʔ
+# irr=know–dc	Pr	later
+# SSP: ‘ “He’ll find out (how wrong he is) later.” ’
+# 
+# cutəb ʔə tiʔəʔ
+# cut–t–b	ʔə	tiʔəʔ
+# say–ics–pass	Pr	prox
+# ‘It is spoken by him,’
+# 
+# x̌ʷul’ab čəd dᶻəɬ ʔu ʔə tiʔiɬ ʔəshuyud studəq
+# x̌ʷul’ab	čəd	dᶻəɬ	ʔu	ʔə	tiʔiɬ	ʔas–huyu–t	studəq
+# same.way	1sg.sub	ptcl	int	Pr	dist	stat–made–ics	slave
+# ‘ “Does he think I’m like the one he has made a slave?” ’
+# 
+# ʔux̌ʷ gʷəl ləɬalil
+# ʔuˑx̌ʷ	gʷəl	lə=ɬalil
+# go	sconj	prog=go.ashore
+# ‘They go and they come ashore.’
+# 
+# ɬalil gʷəl čəʔčubə
+# ɬalil	gʷəl	čəʔ–čubə
+# go.ashore	sconj	attn–go.inland
+# ‘They come ashore and they go inland.’
+# 
+# kʷədad tiʔəʔ ʔiɬʔičids
+# kʷəda–t	tiʔəʔ	ʔiɬ–ʔičid–s
+# taken–ics	prox	prtv–quiver–3po
+# ‘They take their quivers.’
+# 
+# gʷəl ləčubə həlgʷəʔ
+# gʷəl	lə=čubə	həlgʷəʔ
+# sconj	prog=go.inland	pl
+# ‘And they go inland.’
+# 
+# gʷədiličəd tsiʔəʔ sk’ʷuys
+# gʷəd–il•ič–t	tsiʔəʔ	sk’ʷuy–s
+# down–inch•cover–ics	prox:fem	mother–3po
+# ‘(Diaper Child) sits by his mother’
+# 
+# gʷəl dxʷtašusəd
+# gʷəl	dxʷ–taš•us–t
+# sconj	ctd–stroke•face–ics
+# ‘And he strokes her face.’
+# 
+# tašad tsiʔəʔ sk’ʷuys
+# taša–t	tsiʔəʔ	sk’ʷuy–s
+# stroke–ics	prox:fem	mother–3po
+# ‘He strokes his mother,’
+# 
+# tašad
+# taša–t
+# stroke–ics
+# ‘He strokes her.’
+# 
+# tiləb tugʷəcut tiʔəʔ qaw’qs
+# tiləb	tu=gʷə=cut	tiʔəʔ	qaw’qs
+# suddenly	past=sbj=say	prox	raven
+# ‘Suddenly Raven would have said …’
+# 
+# yəx̌i cut, cut tiʔəʔ qaw’qs
+# yəx̌i	cut	cut	tiʔəʔ	qaw’qs
+# because	say	say	prox	raven
+# ‘Because he says, Raven says …’
+# 
+# xʷulʔələʔ diɬ cut tsiʔəʔ sɬadəyʔ
+# cut	tsiʔəʔ	sɬadəyʔ
+# say	prox:fem	woman
+# ‘Maybe it was the woman who says,’
+# 
+# xʷuʔələʔ diɬ ti səxʷstudəqs sqas kʷədiʔ tučaʔkʷs ʔal ti dukʷəɬdat
+# xʷuʔələʔ	diɬ	ti	səxʷ–studəq–s	sqa–s	kʷədiʔ
+# maybe	foc	spec	instr–slave–3po	older.brother–3po	rem.dma
+# tu=čaʔkʷ=s	ʔal	ti	dukʷəɬdat
+# past=seaward=3po	at	spec	tomorrow
+# ‘ “Maybe it was his dear older brother who came down to him yesterday.” ’
+# 
+# n’iɬ ʔu kʷ(i) an’mən’aʔ
+# n’iɬ	ʔu	kʷi	ad–bədaʔ
+# foc	int	rem	2sg.po–offspring
+# ‘ “Is it your son?’
+# 
+# n’iɬ kʷ(i) an’mən’aʔ
+# dɬ	kʷi	ad–bədaʔ
+# foc	rem	2sg.po–offspring
+# ‘ “It’s your son!’
+# 
+# n’iɬ, n’iɬ
+# diɬ	diɬ
+# foc	foc
+# ‘ “It is! It is!” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ gʷəl ɬčil tiʔəʔ 
+# ʔa	gʷəl	ɬčil	tiʔəʔ
+# intj	sconj	arrive	prox
+# SSP: ‘And he arrives there.’
+# 
+# q’ilad
+# q’ilad
+# items.loaded
+# ‘The items are loaded (on the canoe).’
+# 
+# huˑy, q’aq’aladəxʷ tiʔəʔ diʔəʔ bədaʔ ʔə tsiʔəʔ
+# huy	q’a–q’ala–t=axʷ	tiʔəʔ	diʔəʔ	bədaʔ	ʔə	tsiʔəʔ
+# sconj	attn–fool–ics=now	prox	here	offspring	Pr	prox:fem
+# ‘Then (Raven) fools her son.’
+# 
+# q’aq’aladəxʷ
+# q’a–q’ala–t=axʷ
+# attn–fool–ics=now
+# ‘He fools him.’
+# 
+# šudxʷ tiʔiɬ sq’ʷibs 
+# šuɬ–dxʷ	tiʔiɬ	s=q’ʷib=s
+# see–dc	dist	nm=disembark=3po
+# ‘He sees them get out of the canoe.’
+# 
+# ɬidgʷiɬ əlgʷəʔ
+# ɬid•gʷiɬ	əlgʷəʔ
+# tie•canoe	pl
+# ‘They moor it.’
+# 
+# gʷəl ləcut,
+# gʷəl	lə=cut
+# sconj	prog=say
+# ‘And (Raven) says,’
+# 
+# tiʔiɬ ʔəmsɬagʷin’ ts(i) n’sk’ʷuy
+# tiʔiɬ	ʔas–bəs–sɬagʷid	tsi	ad–sk’ʷuy
+# dist	stat–prop–sleeping.mat	spec:fem	2sg.po–mother
+# ‘ “Your mother is the one who has a sleeping mat,’
+# 
+# ʔəmsɬagʷin’
+# ʔas–bəs–sɬagʷid
+# stat–prop–sleeping.mat
+# ‘ “She has a sleeping mat.’
+# 
+# ʔəmsɬagʷin’ ts(i) n’sk’ʷuy
+# ʔas–bəs–sɬagʷid	tsi	ad–sk’ʷuy
+# stat–prop–sleeping.mat	spec:fem	2sg.po–mother
+# ‘ “Your mother is the one who has a sleeping mat.” ’
+# 
+# gʷəl ləcutəb ʔə tsiʔəʔ sk’ʷuys,
+# gʷəl	lə=cut–t–b	ʔə	tsiʔəʔ	sk’ʷuy–s
+# sconj	prog=say–ics–pass	Pr	prox:fem	mother–3po
+# ‘And it is said by his mother,’
+# 
+# q’alal’q’alacid, dbədaʔ
+# q’al–al–q’ala–t–sid	d–bədaʔ
+# dstr–attn–fool–ics–2sg.obj	1sg.po–offspring
+# ‘ “He is fooling you.’
+# 
+# ʔuq’aq’alacid ti xʷiʔ ləhaʔɬ
+# ʔu–q’a–q’ala–t–sid	ti	xʷiʔ	lə=haʔɬ
+# pfv–attn–fool–ics–2sg.obj	spec	neg	negp=good
+# ‘ “The good-for-nothing is fooling you.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ləšədᶻal gʷəl ləʔəxʷp’əc’ədidusc
+# lə=šədᶻal	gʷəl	lə=ʔas–dxʷ–p’əc’ə–di–t•us–t–s
+# prog=go.outside	sconj	prog=stat–ctd–defecate–ss–ics•face–ics–1sg.obj
+# SSP: ‘ “He goes outside and he relieves himself on my face.’
+# 
+# ləšədᶻal gʷəl ləʔəxʷp’əc’ədidusc
+# lə=šədᶻal	gʷəl	lə=ʔas–dxʷ–p’əc’ə–di–t•us–t–s
+# prog=go.outside	sconj	prog=stat–ctd–defecate–ss–ics•face–ics–1sg.obj
+# ‘ “He goes outside and he relieves himself on my face.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔəˑɬəd tsiʔəʔ ʔə tiʔəʔ ʔudaw’ sʔabyiti[d] ʔə tiʔəʔ bədaʔs
+# ʔəɬəd	tsiʔəʔ	ʔə	tiʔəʔ	ʔudaw’	s=ʔab–yi–t–b	ʔə	tiʔəʔ
+# feed.on	prox:fem	Pr	prox	tallow	nm=reach–dat–ics–pass	Pr	prox
+# bədaʔ–s
+# offspring–3po
+# SSP: ‘She eats the tallow given to her by her son.’
+# 
+# ʔəɬəd, k’ʷuyəʔ, ʔəɬəd
+# ʔəɬəd	k’ʷuyəʔ	ʔəɬəd
+# feed.on	mother	feed.on
+# ‘ “Eat, mother, eat.” ’
+# 
+# ʔaˑ ʔutatabəb tiʔaˑʔ
+# ʔa	ʔu–tatabəb	tiʔaʔ
+# be.there	pfv=confer	prox.dma
+# ‘There they confer.’
+# 
+# ʔutatabəb
+# ʔu–tatabəb
+# pfv–confer
+# ‘They confer.’
+# 
+# ʔutatabəb tiʔiʔəʔ diʔəʔ
+# ʔu–tatabəb	tiʔ–iʔəʔ	diʔəʔ
+# pfv–confer	pl–prox	here
+# ‘Those guys confer.’
+# 
+# gʷəl ləcuuc tiʔəʔ
+# gʷəl	lə=cut–c	tiʔəʔ
+# sconj	prog=say–altv	prox
+# ‘And (the older brother) says to (Diaper Child),’
+# 
+# cuuc tiʔəʔ diʔəʔ
+# cut–c	tiʔəʔ	diʔəʔ
+# say–altv	prox	here
+# ‘He says to this one,’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# cuuc tiʔəʔ suq’ʷaʔs
+# cut–c	tiʔəʔ	suq’ʷaʔ–s
+# say–altv	prox	younger.sibling–3po
+# SSP: ‘He says to his younger brother,’
+# 
+# ʔuyəcəbtxʷ tiʔəʔ qaw’qs 
+# ʔu–yəc–b–txʷ	tiʔəʔ	qaw’qs
+# pfv–tell–md–ecs	prox	raven
+# ‘ “Let Raven hear (my plan).’
+# 
+# ʔəsp’alil
+# ʔas–p’alil
+# stat–revive
+# ‘ “He will come to his senses.’
+# 
+# ʔu, ɬuwiʔad
+# ʔu	ɬu=wiʔa–t
+# intj	irr=holler–ics
+# ‘ “Oh, he will holler it.” ’
+# 
+# ʔu, ʔabil’əxʷ gʷat ɬučəbaʔtxʷ tiʔiɬə čəbaʔ ʔə ti dsqa
+# ʔu	ʔabil’=axʷ	gʷat	ɬu=čəbaʔ–txʷ	tiʔiɬə	čəbaʔ	ʔə	ti
+# intj	perhaps=now	who	irr=backpack–ecs	dist	backpack	Pr	spec
+# d–sqa
+# 1sg.po–older.brother
+# ‘ “Oh, perhaps there is one who can carry my older brother’s backpack.’’
+# 
+# gʷəl ɬu[s]čəgʷasils, ɬushuygʷas
+# gʷəl	ɬu=s=čəgʷas–il=s	ɬu=s=huyu•gʷas=s
+# sconj	irr=nm=wife–inch=3po	irr=nm=made•pair=3po
+# ‘ “And she will become his wife, it is she that he will marry.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# tiˑləb sixʷ ʔuwiʔad kʷi qaw’qs
+# tiləb	sixʷ	ʔu–wiʔa–t	kʷi	qaw’qs
+# immediately	ptcl	pfv–holler–ics	rem	raven
+# SSP: ‘Raven immediately hollers,’
+# 
+# qʷiˑn’icut ɬi, sɬən’ayʔ
+# qʷibi–t–sut	ɬi	sɬədayʔ
+# prepared–ics–refl	2pl.imp	woman
+# ‘ “Prepare yourselves, women!’
+# 
+# qʷin’icut ɬi
+# qʷibi–t–sut	ɬi
+# prepared–ics–refl	2pl.imp
+# ‘ “Prepare yourselves!’
+# 
+# mək’ʷ gʷat ɬučəmaʔtxʷ tiʔiɬə sčəmaʔ ʔə tiʔiɬ dsčəɬmən’aʔəb gʷəl ɬu[s]čəgʷasils
+# bək’ʷ	gʷat	ɬu=čəbaʔ–txʷ	tiʔiɬə	sčəbaʔ	ʔə	tiʔiɬ	d–sčəɬbədaʔəb
+# all	who	irr=backpack–ecs	dist	backpack	Pr	dist	1sg.po–stepchild
+# gʷəl	ɬu=s=čəgʷas–il=s
+# sconj	irr=np=wife–inch=3po
+# ‘ “Whoever can carry the pack of my stepson, she will become his wife.’
+# 
+# qʷimicut ɬi
+# qʷibi–t–sut	ɬi
+# prepared–ics–refl	2pl.imp
+# ‘ “Prepare yourselves!’
+# 
+# qʷimicut ɬi
+# qʷibi–t–sut	ɬi
+# prepared–ics–refl	2pl.imp
+# ‘ “Prepare yourselves!’
+# 
+# t’əmt’əmšən’iʔəm ɬi
+# t’əb–t’əbš•adiʔ–t	ɬi
+# dstr–braid•ear–ics	2pl.imp
+# ‘ “Braid your hair!” ’
+# 
+# yayusəxʷ
+# yayus=axʷ
+# work=now
+# ‘They work now.’
+# 
+# t’əbt’əbšaydid tiʔiɬ sɬəɬadəyʔ
+# t’əb–t’əbš•ay•diʔ–t	tiʔiɬ	sɬə–ɬadəyʔ
+# dstr–braid•cnn•ear–ics	dist	pl–woman
+# ‘The women braid their hair.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔux̌ʷ tsi k’ʷat’ad
+# ʔux̌ʷ	tsi	k’ʷat’ad
+# go	spec:fem	mouse
+# SSP: ‘Mouse goes.’
+# 
+# gʷəl buyucuˑt
+# gʷəl	buyus–t–sut
+# sconj	primp–ics–refl
+# ‘And she dolls herself up.’
+# 
+# pul’yəʔ
+# pul’yəʔ
+# mole
+# ‘(So does) Mole.’
+# 
+# tsiʔiɬə ʔadʔad
+# tsiʔiɬə	ʔadʔad
+# dist:fem	magpie
+# ‘(So does) Magpie.’
+# 
+# qʷibid sɬadəyʔ kʷsi ʔadʔad, ʔuˑ
+# qʷibi–d	sɬadəyʔ	kʷsi	ʔadʔad	ʔuˑ
+# prepared–ics	woman	rem.dma	magpie	intj
+# ‘Magpie fixes herself up like a woman, oh.’
+# 
+# huyəxʷ
+# huyu=axʷ
+# made=now
+# ‘They finish now.’
+# 
+# gʷəl ƛ’ucutəxʷ tiʔiʔəʔ
+# gʷəl	ƛ’u=cut=axʷ	tiʔ–iʔəʔ
+# sconj	hab=say=now	pl–prox
+# ‘And they say,’
+# 
+# tiləb diɬ tsi k’ʷat’ad kʷ(i ʔ)uʔux̌ʷ
+# tiləb	diɬ	tsi	k’ʷat’ad	kʷi	ʔu–ʔux̌ʷ
+# immediately	foc	spec:fem	mouse	rem	pfv–go
+# ‘ “Let the one to go first be Mouse.” ’
+# 
+# kʷədatəb ʔə ts(i) k’ʷat’ad tiʔəʔ kʷagʷičəd
+# kʷəda–t–b	ʔə	tsi	k’ʷat’ad	tiʔəʔ	kʷagʷičəd
+# taken–ics–pass	Pr	spec:fem	mouse	prox	elk
+# ‘The elk was taken by Mouse.’
+# 
+# gʷəl x̌əɬ tučəbaʔəd
+# gʷəl	x̌əɬ	tu=čəbaʔ–d
+# sconj	seemingly	past=backpack–ics
+# ‘And she tried to pack it.’
+# 
+# xʷiʔ
+# xʷiʔ
+# neg
+# ‘No!’
+# 
+# x̌ʷul’ ʔugʷəcikʷəd
+# x̌ʷul’	ʔu–gʷə=cikʷ–t
+# just	pfv–sbj=taut–ics
+# ‘She just jerks on it.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# x̌ʷul’ ʔugʷəcikʷəd
+# x̌ʷul’	ʔu–gʷə=cikʷ–t
+# just	pfv–sbj=taut–ics
+# SSP: ‘She just jerks on it.’
+# 
+# huˑy sixʷ ʔux̌ʷəxʷ kʷsi pul’yəʔ
+# huy	sixʷ	ʔux̌ʷ=axʷ	kʷsi	pul’yəʔ
+# sconj	ptcl	go=now	rem.dma	mole
+# ‘Then Mole goes.’
+# 
+# ʔux̌ʷ
+# ʔux̌ʷ
+# go
+# ‘She goes.’
+# 
+# ʔuˑ
+# ʔu
+# intj
+# ‘Oh!’
+# 
+# x̌ʷul’ ʔugʷəcikʷəd tiʔiɬ sčəbaʔ ʔə tiʔiɬ
+# x̌ʷul’	ʔu–gʷə=cikʷ–t	tiʔiɬ	s=čəbaʔ	ʔə	tiʔiɬ
+# just	pfv–sbj=taut–ics	dist	nm=backpack	Pr	dist
+# ‘She just jerks on this pack of his.’
+# 
+# x̌ʷiʔ gʷəsčəbaʔtəgʷiʔ[s] 
+# x̌ʷiʔ	gʷə=s=čəbaʔ–t–agʷiʔ=s
+# neg	sbj=nm=backpack–ics–tobj=3po
+# ‘She isn’t able to carry it.’
+# 
+# huˑy, ʔux̌ʷəxʷ kʷsi ʔadʔad
+# huy	ʔux̌ʷ=axʷ	kʷsi	ʔadʔad
+# sconj	go=now	rem.dma	magpie
+# ‘Then Magpie goes.’
+# 
+# ləx̌aʔx̌ayəbcut
+# lə=x̌aʔ–x̌ayəb–t–sut
+# prog=attn–laugh–ics–refl
+# ‘She is laughing’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# SSP: mmm
+# huy hiq’ʷabyitəbəxʷ ʔə tiʔəʔ
+# huy	hiq’ʷab–yi–t–b=axʷ	ʔə	tiʔəʔ
+# sconj	desire–dat–ics–pass=now	Pr	prox
+# ‘Then she is desired by him.’
+# 
+# ʔu, diɬəxʷ ʔiɬaʔɬ sɬadəyʔ [tsiʔəʔ diɬ]
+# ʔu	diɬ=axʷ	ʔiɬ–haʔɬ	sɬadəyʔ	tsiʔəʔ	diɬ
+# intj	foc=now	prtv–good	woman	prox:fem	foc
+# ‘ “Oh, she is the best woman, that one.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔup’aƛ’aƛ’ 
+# ʔu–p’aƛ’aƛ’
+# pfv–worthless
+# ‘ “She is worthless.’
+# 
+# ʔa tsi haʔɬ sɬadəyʔ
+# ʔa	tsi	haʔɬ	sɬadəyʔ
+# be.there	spec:fem	good	woman
+# ‘ “There is a better woman.’
+# 
+# day’ ɬuʔəƛ’ ʔə til’x̌i
+# day’	ɬu=ʔəƛ’	ʔə	til’x̌i
+# only	irr=come	Pr	later.on
+# ‘ “She will certainly come later.’
+# 
+# day’ čəxʷ ɬušudxʷ
+# day’	čəxʷ	ɬu=šuɬ–dxʷ
+# only	2sg.sub	irr=see–dc
+# ‘ “You’ll certainly see her.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ tsiʔəʔ ʔadʔad
+# ʔa	tsiʔəʔ	ʔadʔad
+# be.there	prox:fem	magpie
+# SSP: ‘There is Magpie’
+# 
+# x̌ʷuˑl’ ʔucikʷcikʷcut tiʔəʔ kʷagʷičəd
+# x̌ʷul’	ʔu–cikʷ–cikʷ–t–sut	tiʔəʔ	kʷagʷičəd
+# just	pfv–dstr–taut–ics–refl	prox	elk
+# ‘The elk is just jerking back and forth.’
+# 
+# gʷəl kʷaʔəd 
+# gʷəl	kʷaʔ–t
+# sconj	released–ics
+# ‘And she lets it go.’
+# 
+# huy gʷəl x̌əx̌əp’k’ʷəd
+# huy	gʷəl	x̌ə–x̌əp’k’ʷ–d
+# sconj	sconj	attn–gnawed–ics
+# ‘And then (Mouse) is nibbling at it.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔa tsi k’ʷat’ad dᶻəldᶻəlyalus
+# ʔa	tsi	k’ʷat’ad	dᶻəl–dᶻəl•yalus
+# be.there	spec:fem	mouse	dstr–turn.over•end
+# SSP: ‘Mouse is there going from end to end’
+# 
+# ləcuč’it’č’it’id tiʔəʔ stə kʷagičəd
+# ləcu–č’it’–č’it’i–t	tiʔəʔ	stə	kʷagičəd
+# cont–dstr–chewed–ics	prox	intj	elk
+# ‘She is gnawing at the, uh, elk.’
+# 
+# č’it’apəd 
+# č’it’•ap–t
+# chewed•bottom–ics
+# ‘She gnaws at its rump.’
+# 
+# ʔaˑ, huˑy, xʷdigʷitəbəxʷ tsiʔəʔ diʔəʔ waw’lis [ʔə] tsiʔəʔ sk’ʷuys
+# ʔa	huy	xʷ–digʷi–t–b=axʷ	tsiʔəʔ	diʔəʔ	wa–w’lis	ʔə
+# be.there	sconj	ctd–advise–ics–pass=now	prox:fem	here	attn–frog	Pr
+# tsiʔəʔ	sk’ʷuy–s
+# prox:fem	mother–3po
+# ‘She is there, (and) then Little Frog is advised by her mother.’
+# 
+# tix̌ix̌dubut
+# tix̌–ix̌–dxʷ–but
+# spread–intns–dc–refl
+# ‘ “Take care!’
+# 
+# dxʷlaq kʷi ɬadsgʷəgʷadad
+# dxʷ–laq	kʷi	ɬu=ad=s=gʷə–gʷad–ad
+# ctd–last	rem	irr=2sg.po=nm=attn–dim.eff–speak
+# ‘ “You’ll speak last.’
+# 
+# ɬucut čəxʷ
+# ɬu=cut	čəxʷ
+# irr=say	2sg.sub
+# ‘ “You’ll say,’
+# 
+# ʔaləxʷ ʔu ʔəca kʷi gʷučəbaʔdxʷ kʷi sčəbaʔ ʔə kʷi siʔab
+# ʔal=axʷ	ʔu	ʔəca	kʷi	gʷə=ʔu–čəbaʔ–dxʷ	kʷi	s=čəbaʔ	ʔə
+# at=now	int	I	rem	sbj=pfv–backpack–dc	rem	nm=backpack	Pr
+# kʷi	siʔab
+# rem	noble
+# ‘ “ ‘Would it be me who would be packing the pack of such a high class person?’ ’
+# 
+# x̌aʔx̌aʔ kʷi ɬadsbəq’əd kʷədiʔ ɬadsuʔabyitəb ɬaskʷədayač[iʔ]yidəxʷ ʔə kʷədiʔ diɬ
+# x̌aʔx̌aʔ	kʷi	ɬu=ad=s=bəq’–t	kʷədiʔ
+# taboo	rem	irr=2sg.po=nm=put.in.mouth–ics	rem.dma
+# ɬu=ad=s=ʔu–ʔab–yi–t–b
+# irr=2sg.po=nm=pfv–reach–dat–ics–pass
+# ɬu=ʔas–kʷəd•ay•ačiʔ–yi–t=axʷ	ʔə	kʷədiʔ	diɬ
+# irr=stat–take•cnn•hand–dat–ics=now	Pr	rem.dma	foc
+# ‘ “It is forbidden for you to eat what you’ll be given to hand out to guests.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+#  x̌aʔx̌aʔ
+# x̌aʔx̌aʔ
+# taboo
+# SSP: ‘ “It is forbidden.’
+# 
+# x̌ʷul’ čəxʷ ɬuləqʷatad 
+# x̌ʷul’	čəxʷ	ɬu=lə=qʷata–t
+# just	2sg.sub	irr=prog=fall–ics
+# ‘ “You will just lay it down.’
+# 
+# x̌ʷul’ čəxʷ ɬuləqʷatad 
+# x̌ʷul’	čəxʷ	ɬu=lə=qʷata–t
+# just	2sg.sub	irr=prog=fall–ics
+# ‘ “You will just lay it down.’
+# 
+# ɬugʷəɬ tiʔiɬ ʔəsgʷədil, sgʷihgʷihidəq ʔə tiʔiɬ qaw’qs
+# ɬu=gʷəɬ	tiʔiɬ	ʔas–gʷəd–il	s=gʷihgʷihidəq	ʔə	tiʔiɬ	qaw’qs
+# irr=assc	dist	stat–down–inch	nm=invite.many	Pr	dist	raven
+# ‘ “It will belong to those guests that are seated, those invited by Raven.” ’
+# 
+# hay ʔa kʷədiʔ ləcučəɬ x̌ək’ʷəd
+# hay	ʔa	kʷədiʔ	ləcu–čəɬ	x̌ək’ʷəd
+# sconj	be.there	rem.dma	cont–make	roasting.sticks
+# ‘So there are those preparing roasting sticks there.’
+# 
+# čagʷəxʷ, ʔəsq’iləxʷ tadiʔ kʷagʷičəd
+# čaʔkʷ=axʷ	ʔas–q’ili=axʷ	tadiʔ	kʷagʷičəd
+# seaward=now	stat–aboard=now	dist.dma	elk
+# ‘That elk is still on board the canoe by the water.’
+# 
+# ləcuhilibəɬ ʔə kʷi x̌ək’ʷəd
+# ləcu–hili–b–aɬ	ʔə	kʷi	x̌ək’ʷəd
+# cont–tell–csmd–incrp	Pr	rem	roasting.sticks
+# ‘People are being told to make themselves roasting sticks.’
+# 
+# ʔa, diɬ ɬasq’aq’ax̌ad tsi waw’lis ʔə taˑbabac
+# ʔa	diɬ	ɬu=ʔas=q’a–q’ax̌a–t	tsi	wa–w’lis	ʔə	tababac
+# intj	foc	irr=stat–attn–uncover–ics	spec:fem	attn–frog	Pr	slow
+# ‘Oh, now Little Frog shows herself a little, very slowly.’
+# 
+# šuuc tsi ʔəƛ’axʷ
+# šuɬ–c	tsi	ʔəƛ’a=axʷ
+# see–altv	spec:fem	come.to=now
+# ‘ “Look at that one coming!” ’
+# 
+# ʔuˑ, diɬ tsi ɬučəgʷas
+# ʔu	diɬ	tsi	ɬu=čəgʷas
+# intj	foc	spec:fem	irr=wife
+# ‘ “Oh, she is the one who will be the wife.” ’
+# 
+# x̌ʷiqʷubus tsiʔəʔ waw’lis
+# x̌ʷiqʷubus	tsiʔəʔ	wa–w’lis
+# fair	prox:fem	attn–frog
+# ‘She is fair, this little Green Frog,’
+# 
+# haacalqid qʷatdup tiʔiɬ sq’ədᶻuʔs
+# haac•al•qid	qʷata•dup	tiʔiɬ	sq’ədᶻuʔ–s
+# long•cnn•head	fall•coll	dist	hair–3po
+# ‘Her long hair falls freely.’
+# 
+# haʔɬubš sɬadəyʔ
+# haʔɬubš	sɬadəyʔ
+# good.looking	woman
+# ‘She is good looking.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔuˑx̌ʷ
+# ʔux̌ʷ
+# go
+# SSP: ‘She goes.’
+# 
+# gʷəl ləʔalil tiʔəʔ dəxʷləq’aɬ ʔə tiʔəʔ ʔəsgʷədil
+# gʷəl	lə=ʔal–il	tiʔəʔ	dəxʷ=ləq’aɬ	ʔə	tiʔəʔ
+# sconj	prog=at–inch	prox	adnm=be.in.right.place	Pr	prox
+# ʔas–gʷəd–il
+# stat–down–inch
+# ‘And she comes to the place where they are seated.’
+# 
+# gʷəl ləgʷəgʷadad tsiʔəʔ waw’lis ʔə tababac
+# gʷəl	lə=gʷə–gʷad–ad	tsiʔəʔ	wa–w’lis	ʔə	tababac
+# sconj	prog=attn–dim.eff–speak	prox:fem	attn–frog	Pr	slow
+# ‘Little Green Frog speaks.’
+# 
+# ʔaləxʷ ʔu ʔəca saʔ kʷi gʷučəbaʔdxʷ kʷi sč’əbaʔ ʔə kʷi siʔab
+# ʔal=axʷ	ʔu	ʔəca	saʔ	kʷi	gʷə=ʔu–čəbaʔ–dxʷ	kʷi	s=č’əbaʔ
+# at=now	int	I	bad	rem	sbj=pfv–backpack–dc	rem	nm=backpack
+# ʔə	kʷi	siʔab
+# Pr	rem	noble
+# ‘ “Would it be unworthy for me to carry the pack of a high class person?” ’
+# 
+# həbuʔ huʔ
+# həbuʔ	huʔ
+# haboo	intj
+# UW: ‘Haboo.’
+# 
+# ʔux̌ʷ
+# ʔux̌ʷ
+# go
+# SSP: ‘She goes.’
+# 
+# k’ʷit’ tsiʔəʔ
+# k’ʷit’	tsiʔəʔ
+# shoreward	prox:fem
+# ‘She goes to the water’s edge.’
+# 
+# x̌ʷul’ ʔu dxʷiʔxʷəbwičəbyitəb ʔə kʷsi wəlis kʷədiʔ kʷagʷičəd
+# x̌ʷul’	ʔu	dxʷ–xʷiʔ–xʷəb•wič–b–yi–t–b	ʔə	kʷsi
+# just	int	ctd–attn–throw•back.of.body–md–dat–ics–pass	Pr	rem.dma
+# wəlis	kʷədiʔ	kʷagʷičəd
+# frog	rem.dma	elk
+# ‘Little Green Frog just tosses the elk over her back.’
+# 
+# gʷəl gʷəbələčubəstxʷ
+# gʷəl	gʷə=bə=lə=čubəs–txʷ
+# sconj	sbj=add=prog=go.inland–ecs
+# ‘And she carries it inland.’
+# 
+# ʔux̌ʷ ʔə kʷədiʔ cilačid ʔəshədʔiw’, ʔudəgʷabac ʔə kʷədiʔ ʔalʔal ʔə qaw’qs
+# ʔux̌ʷ	ʔə	kʷədiʔ	cili•ačiʔ–t	ʔas–hədʔiw’	ʔudəgʷ•abac	ʔə
+# go	Pr	rem.dma	supported•hand–ics	stat–indoors	centre•body	Pr
+# kʷədiʔ	ʔalʔal	ʔə	qaw’qs
+# rem.dma	house	Pr	raven
+# ‘She takes it to the receptacle in the middle of Raven’s house.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔaˑ, gʷəl ləgʷiid tsiʔəʔ sk’ʷuys
+# ʔa	gʷəl	lə=gʷihi–t	tsiʔəʔ	sk’ʷuy–s
+# intj	sconj	prog=invite–ics	prox:fem	mother–3po
+# SSP: ‘Then she invites (Diaper Child’s) mother to come inside.’
+# 
+# ʔəƛ’a, k’ʷuyəʔ
+# ʔəƛ’a	k’ʷuyəʔ
+# come.to	mother
+# ‘ “Come, mother,’
+# 
+# [ʔə]ƛ’a čxʷa hədʔiw’b
+# ʔəƛ’a	čxʷa	hədʔiw’–b
+# come.to	2sg.coord	be.inside.house–md
+# ‘ “Come inside.’
+# 
+# hədhədʔiˑw’b tiʔəʔ ʔi tə suq’ʷaʔs
+# həd–hədʔiw’–b	tiʔəʔ	ʔi	tə	suq’ʷaʔ–s
+# dstr–be.inside.house–md	prox	conj	nspec	younger.sibling–3po
+# ‘The rest entered including the younger brother.’
+# 
+# gʷaʔgʷatəb kʷi sp’ic’ikʷ
+# gʷaʔ–gʷat–t–b	kʷi	sp’ic’ikʷ
+# attn–speak–ics–pass	rem	Diaper.Child
+# ‘Diaper Child is spoken to.’
+# 
+# xʷiʔəxʷ gʷasuxʷtəš
+# xʷiʔ=axʷ	gʷə=ʔas–suxʷt–š
+# neg=now	sbj=stat–recognize–ics
+# ‘No one recognizes him.’
+# 
+# xʷiʔəxʷ gʷasuxʷtəš tiʔəʔ sp’ic’ikʷ
+# xʷiʔ=axʷ	gʷə=ʔas–suxʷt–š	tiʔəʔ	sp’ic’ikʷ
+# neg=now	sbj=stat–recognize–ics	prox	Diaper.Child
+# ‘No one recognizes Diaper Child.’
+# 
+# huˑy, q’ʷəx̌ʷəbaxʷ
+# huy	q’ʷəx̌ʷ–b=axʷ
+# sconj	butcher–csmd=now
+# ‘Then they butcher it.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# x̌ʷul’ ləʔabyitəb qaw’qs ʔə kʷədiʔ stə ʔudaw’
+# x̌ʷul’	lə=ʔab–yi–t–b	qaw’qs	ʔə	kʷədiʔ	stə	ʔudaw’
+# just	prog=reach–dat–ics–pass	raven	Pr	rem.dma	intj	tallow
+# SSP: ‘Raven is just given the tallow.’
+# 
+# x̌ʷul’ ləɬəqsəd, ɬəqsəd, ɬəqsəd, ɬəqsəd
+# x̌ʷul’	lə=ɬəqsəd	ɬəqsəd	ɬəqsəd	ɬəqsəd
+# just	prog=gulp	gulp	gulp	gulp
+# ‘He just gulps it down, gulps it down, gulps it down, gulps it down.’
+# 
+# xʷiʔ kʷ(i) gʷəsk’aw’s
+# xʷiʔ	kʷi	gʷə=s=k’aw’=s
+# neg	rem	sbj=nm=chew=3po
+# ‘He doesn’t chew it.’
+# 
+# huy dᶻəgʷaʔ qaw’qs ʔəsq’əyuq’ʷ
+# huy	dᶻəgʷaʔ	qaw’qs	ʔas–q’əyuq’ʷ
+# sconj	expert	raven	stat–big.appetite
+# ‘Well Raven who has a big appetite is known for this.’
+# 
+# ʔux̌ʷ
+# ʔux̌ʷ
+# go
+# ‘It continues.’
+# 
+# huˑy ʔabyitəb tsiʔəʔ waw’lis ʔə tiʔəʔ stə ɬič’ɬič’gʷastəb ʔə kʷədiʔ kʷagʷičəd
+# huy	ʔab–yi–t–b	tsiʔəʔ	wa–w’lis	ʔə	tiʔəʔ	stə
+# sconj	reach–dat–ics–pass	prox:fem	attn–frog	Pr	prox	intj
+# ɬič’–ɬič’i•gʷas–t–b 	ʔə	kʷədiʔ	kʷagʷičəd
+# dstr–slice•pair–ics–pass	Pr	rem.dma	elk
+# ‘Then Little Frog is given this that has been cut up, this elk.’
+# 
+# gʷəl t’al’t’alatəb ʔə tiʔəʔ ləgʷləgʷəb
+# gʷəl	t’al’–t’ala–t–b	ʔə	tiʔəʔ	ləgʷ–ləgʷəb
+# sconj	dstr–slice–ics–pass	Pr	prox	dstr–youth
+#  ‘And it is sliced up by the young men’
+# 
+# gʷəl ləq’ʷəltəb
+# gʷəl	lə=q’ʷəl–t–b
+# sconj	prog=cook–ics–pass
+# ‘And it is roasted.’
+# 
+# ciˑlitəb ʔə tsiʔəʔ waw’lis tiʔəʔ ʔudaw’
+# cili–t–b	ʔə	tsiʔəʔ	wa–w’lis	tiʔəʔ	ʔudaw’
+# supported–ics–pass	Pr	prox:fem	attn–frog	prox	tallow
+# ‘The tallow is dished up by Little Frog.’
+# 
+# gʷəl ʔux̌ʷtxʷyid tsi sk’ʷuys
+# gʷəl	ʔux̌ʷ–txʷ–yi–t	tsi	sk’ʷuy–s
+# sconj	take–ecs–dat–ics	spec:fem	mother–3po
+# ‘And she takes it to her mother.’
+# 
+# huy wəšəbaxʷ tiʔə sk’ʷuys ʔə tiʔəʔ ʔudaw’
+# huy	wəš–b=axʷ	tiʔəʔ	sk’ʷuy–s	ʔə	tiʔəʔ	ʔudaw’
+# sconj	distribute–csmd=now	prox	mother–3po	Pr	prox	tallow
+# ‘Then her mother passes it around, this tallow.’
+# 
+# ʔəɬədaxʷ tiʔəʔ luƛ’luƛ’
+# ʔəɬəd=axʷ	tiʔəʔ	luƛ’–luƛ’
+# feed.on=now	prox	dstr–old
+# ‘Now the old people eat.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔəɬədaxʷ əlgʷəʔ ʔə tiʔəʔ ʔudaw’
+# ʔəɬəd=axʷ	əlgʷəʔ	ʔə	tiʔəʔ	ʔudaw’
+# feed.on=now	pl	Pr	prox	tallow
+# SSP: ‘They eat this tallow.’
+# 
+# xʷiʔ gʷəbəq’təb ʔə waw’lis
+# xʷiʔ	gʷə=bəq’–t–b	ʔə	wa–w’lis
+# neg	sbj=put.in.mouth–ics–pass	Pr	attn–frog
+# ‘Little Frog doesn’t put anything in her mouth.’
+# 
+# huy, ʔuxʷdigʷitəb ʔə tsi sk’ʷuys
+# huy	ʔuxʷdigʷi–t–b	ʔə	tsi	sk’ʷuy–s
+# sconj	advise–ics–pass	Pr	spec:fem	mother–3po
+# ‘She has been advised by her mother.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# tiˑləb sixʷ scut ʔə kʷi qaw’qs 
+# tiləb	sixʷ	s=cut	ʔə	kʷi	qaw’qs
+# immediately	ptcl	nm=say	Pr	rem	raven
+# SSP: ‘Right away, Raven says,’
+# 
+# q’ax̌alətxʷ, q’ax̌alətxʷ, q’ax̌alətxʷ, q’ax̌alətxʷ
+# q’ax̌a•alətxʷ	q’ax̌a•alətxʷ	q’ax̌a•alətxʷ	q’ax̌a•alətxʷ
+# uncover•house	uncover•house	uncover•house	uncover•house
+# ‘ “Open the roof, open the roof, open the roof, open the roof!’
+# 
+# sədil čəɬ, sədil čəɬ
+# s=həd–il	čəɬ	s=həd–il	čəɬ
+# nm=hot–inch	1pl.po	nm=hot–inch	1pl.po
+# ‘ “We are getting too hot, we are getting too hot.” ’
+# 
+# kʷaʔ ʔəsdukʷtub ʔə tiʔəʔ
+# kʷaʔ	ʔas–dukʷu–txʷ–b	ʔə	tiʔəʔ
+# ptcl	stat–abnormal–ecs–pass	Pr	prox
+# ‘He is under a spell.’
+# 
+# q’ax̌alətxʷ tiʔiʔəˑʔ
+# q’ax̌a•alətxʷ	tiʔ–iʔəʔ
+# uncover•house	pl–prox
+# ‘The people open the roof.’
+# 
+# ʔa, ʔugʷadgʷad tiʔiɬ qaw’qs
+# ʔa	ʔu–gʷad–gʷad	tiʔiɬ	qaw’qs
+# intj	pfv–dstr–talk	dist	raven
+# ‘Oh, Raven continues to talk.’
+# 
+# ʔa, ʔugʷadgʷad
+# ʔa	ʔu–gʷad–gʷad
+# intj	pfv–dstr–talk
+# ‘Oh, he talks.’
+# 
+# diˑʔɬ kʷi saq’ ʔə kʷi qaw’qs
+# diʔɬ	kʷi	s=saq’	ʔə	kʷi	qaw’qs
+# suddenly	rem	nm=fly	Pr	rem	raven
+# ‘All of a sudden, Raven flies.’
+# 
+# saq’ʷəxʷ dxʷšqalətxʷ
+# saq’ʷ=axʷ	dxʷ–šqalətxʷ
+# fly=now	cntrpt–roof
+# ‘He flies up to the roof.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# saq’ʷ saq’ʷ
+# saq’ʷ	saq’ʷ
+# fly	fly
+# SSP: ‘He flies, he flies.’
+# 
+# qa qa qa qa qa qa
+# ‘ “Caw caw caw caw caw caw.” ’
+# 
+# x̌ʷul’ bəqayx̌icut ʔal kʷədiʔ šqalətxʷ
+# x̌ʷul’	bə=qayx̌icut	ʔal	kʷədiʔ	šqalətxʷ
+# just	add=flap.wings	at	rem.dma	roof
+# ‘He is there at the roof flapping around.’
+# 
+# # 829
+# hay sixʷ hay, ƛ’ubəʔəx̌idəxʷ tiʔiɬ qaw’qs
+# hay	sixʷ	hay	ƛ’u=bə=ʔəx̌id=axʷ	tiʔiɬ	qaw’qs
+# sconj	ptcl	sconj	hab=add=what.happened=now	dist	raven
+# ‘What in the world is Raven doing now?’
+# 
+# ƛ’ubəʔəx̌id
+# ƛ’u=bə=ʔəx̌id
+# hab=add=what.happened
+# ‘What now is he doing?’
+# 
+# šqalətxʷəxʷ kʷi suqayx̌icuts
+# šqalətxʷ=axʷ	kʷi	s=ʔu–qayx̌icut=s
+# roof=now	rem	nm=pfv–flap.wings=3po
+# ‘There he is at the roof flapping around.’
+# 
+# ʔiˑ diʔɬ tiʔiɬ saq’ʷs
+# ʔi	diʔɬ	tiʔiɬ	s=saq’ʷ=s
+# intj	suddenly	dist	nm=fly=3po
+# ‘Suddenly he flies off.’
+# 
+# dukʷiləxʷ
+# dukʷu–il=axʷ
+# abnormal–inch=now
+# ‘He is transformed.’
+# 
+# dukʷutəbəxʷ ʔə tiʔəʔ dəbəɬ t’ət’əwaʔs
+# dukʷu–t–b=axʷ	ʔə	tiʔəʔ	dəbəɬ	t’ət’əwaʔs
+# abnormal–ics–pass=now	Pr	prox	belong.to.bloodline	star
+# ‘The Star People transformed him.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# saq’ʷ dxʷʔaɬx̌ad
+# saq’ʷ	dxʷ–ʔaɬx̌ad
+# fly	cntrpt–downstream
+# SSP: ‘He flies downstream.’
+# 
+# qa qa
+# ‘ “Caw caw.” ’
+# 
+# x̌ʷul’ ləgʷadgʷad
+# x̌ʷul’	lə=gʷad–gʷad
+# just	prog=dstr–talk
+# ‘He is just talking.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# qa qa qa
+# SSP: ‘ “Caw caw caw.” ’
+# 
+# huy, q’ʷəl’q’ʷəlabəxʷ tiʔiʔəʔ
+# huy	q’ʷəl’–q’ʷəla–b=axʷ	tiʔ–iʔəʔ
+# sconj	dstr–cook–md=now	pl–prox
+# ‘Then they roast the food.’
+# 
+# gʷəl ʔəɬʔəɬadəxʷ
+# gʷəl	ʔəɬ–ʔəɬad=axʷ
+# sconj	dstr–be.fed=now
+# ‘And they feast.’
+# 
+# hmm
+# gʷəl ləɬax̌il
+# gʷəl	lə=ɬax̌–il
+# sconj	prog=dark–inch
+# ‘Then night comes.’
+# 
+# huy kʷačil
+# huy	kʷačil
+# sconj	day.begins
+# ‘Then morning comes.’
+# 
+# huy tatabəxʷ tiʔiʔəʔ
+# huy	tatabəb=axʷ	tiʔ–iʔəʔ
+# sconj	confer=now	pl–prox
+# ‘Then they confer.’
+# 
+# dukʷiləxʷ kʷaʔ ti qaw’qs
+# dukʷu–il=axʷ	kʷaʔ	ti	qaw’qs
+# abnormal–inch=now	ptcl	spec	raven
+# ‘Raven, though, has been transformed.’
+# 
+# saq’ʷəxʷ
+# saq’ʷ=axʷ
+# fly=now
+# ‘He flies.’
+# 
+# dukʷiləxʷ ti siʔab
+# dukʷu–il=axʷ	ti	siʔab
+# abnormal–inch=now	spec	noble
+# UW: ‘The high class one has been transformed.’
+# 
+# dukʷiləxʷ ti siʔab qaw’qs
+# dukʷu–il=axʷ	ti	siʔab	qaw’qs
+# abnormal–inch=now	spec	noble	raven
+# SSP: ‘The high class Raven has been transformed.’
+# 
+# ləcut
+# lə=cut
+# prog=say
+# ‘Someone is saying.’
+# 
+# cuucəb ʔə tsiʔəʔ diʔəʔ
+# cut–c–b	ʔə	tsiʔəʔ	diʔəʔ
+# say–altv–pass	Pr	prox:fem	here
+# ‘It is said to (the people) by this (woman).’
+# 
+# cut tsiʔəʔ cədiɬ luƛ’
+# cut	tsiʔəʔ	cədiɬ	luƛ’
+# say	prox:fem	s/he	old
+# ‘This old woman says,’
+# 
+# ɬustabəxʷ kʷi ɬudəxʷəsləx̌ ʔə kʷi ɬuləʔəƛ’ ʔaciɬtal[b]ixʷ 
+# ɬu=stab=axʷ	kʷi	ɬu=dəxʷ=ʔas–ləx̌	ʔə	kʷi	ɬu=lə=ʔəƛ’
+# irr=what=now	rem	irr=adnm=stat–light	Pr	rem	irr=prog=come
+# ʔaciɬtalbixʷ
+# people
+# ‘ “How will coming generations of people have light?’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ɬustabəxʷ tiʔəʔ ɬuləx̌iləxʷ
+# ɬu=stab=axʷ	tiʔəʔ	ɬu=ləx̌–il=axʷ
+# irr=what=now	prox	irr=light–inch=now
+# SSP: ‘ “What will it be at dawn?” ’
+# 
+# ɬustabəxʷ kʷi sdukʷəcutəxʷ
+# ɬu=stab=axʷ	kʷi	s=dukʷ–t–sut=axʷ
+# irr=what=now	rem	nm=abnormal–ics–refl=now
+# ‘ “What will it be changed to?” ’
+# 
+# ƛ’ub čəd haw’əʔ ɬup’aʔcut [ʔal] kʷi dukʷəɬdat
+# ƛ’ub	čəd	haw’əʔ	ɬu=p’aʔ–t–sut	ʔal	kʷi	dukʷəɬdat
+# well	1sg.sub	ptcl	irr=try–ics–refl	at	rem	tomorrow
+# ‘ “I guess I should try tomorrow.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# cutəb ʔə tiʔəʔ dəbəɬ t’ət’əwaʔs 
+# cut–t–b	ʔə	tiʔəʔ	dəbəɬ	t’ət’əwaʔs
+# say–ics–pass	Pr	prox	belong.to.bloodline	star
+# SSP: ‘It is spoken by the one descended from the Star People.’
+# 
+# ƛ’al’əxʷ bədxʷšəq 
+# ƛ’al’=axʷ	bə=dxʷ–šq
+# also=now	add=cntrpt–high
+# ‘He also goes up high.’
+# 
+# ʔa ti bads əlgʷəʔ
+# ʔa	ti	bad–s	əlgʷəʔ
+# be.there	spec	father–3po	pl
+# ‘Their father is there.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# t’ət’əwaʔs šqulgʷədxʷ
+# t’ət’əwaʔs	šqulgʷədxʷ
+# star	sky
+# ‘SSP: He is a star in the sky world.’
+# 
+# ƛ’al’ bəstubš tiʔiɬ bədaʔ ʔə tsiʔiɬ tusuq’ʷaʔs 
+# ƛ’al’	bəs–stubš	tiʔiɬ	bədaʔ	ʔə	tsiʔiɬ
+# also	prop–man	dist	offspring	Pr	dist:fem
+# tu=suq’ʷaʔ–s
+# past=younger.sibling–3po
+# ‘(The mother’s) younger sister also has a son.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# SSP: ha hay
+# ʔuˑx̌ʷ tiʔəʔ, kʷi səxʷdadatu[t] 
+# ʔux̌ʷ	tiʔəʔ	kʷi	səxʷ–dadatut
+# go	prox	rem	instr–morning
+# ‘He goes, the one who is for morning.’
+# 
+# huy, ʔəƛ’axʷ
+# huy	ʔəƛ’=axʷ
+# sconj	come=now
+# ‘Then, he comes.’
+# 
+# ƛ’al’al’ ʔal tadiʔ q’ixʷ 
+# ƛ’al’–al’	ʔal	tadiʔ	q’ixʷ
+# dim.eff–early	at	dist.dma	upstream
+# ‘It is early upriver.’
+# 
+# gʷəl dxʷsədil
+# gʷəl	dxʷs–həd–il
+# sconj	ctd–hot–inch
+# ‘And it gets warm.’
+# 
+# hiqab sq’ʷəl
+# hiqab	s–q’ʷəl
+# excessively	np–hot
+# ‘It is too hot.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# t’it’ičəb kʷi tuʔaciɬta[l]bixʷ
+# t’i–t’ičəb	kʷi	tu=ʔaciɬtalbixʷ
+# attn–bathe	rem	past=people
+# SSP: ‘The people go into the water.’
+# 
+# x̌ʷul’əxʷ biɬaʔlb ti tusəsq’ikʷs čaʔkʷ 
+# x̌ʷul’=axʷ	biɬaʔl–b	ti	tu=s=ʔas–q’ikʷ=s	čaʔkʷ
+# just=now	too.much–md	spec	past=nm=stat–appear=3po	seaward
+# ‘They can be seen in the water just out of their depth.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# huˑy, taʔtab[ac] gʷəl ləɬaˑx̌il
+# huy	taʔ–tabac	gʷəl	lə=ɬax̌–il
+# sconj	attn–slow	sconj	prog=dark–inch
+# SSP: ‘Then, slowly, it becomes night.’
+# 
+# šišigʷagʷil tiʔiʔəʔ
+# ši–šigʷ–agʷil	tiʔ–iʔəʔ
+# attn–emerge.from.water–auto	pl–prox
+# ‘These people get themselves out of the water.’
+# 
+# gʷəl gʷəgʷatəb tiʔəʔ sp’ic’ikʷ
+# gʷəl	gʷə–gʷat–b	tiʔəʔ	sp’ic’ikʷ
+# sconj	attn–talk–pass	prox	Diaper.Child
+# ‘And Diaper Child is spoken to,’
+# 
+# hiqab sq’ʷəl tiʔiɬ adsqa
+# hiqab	s–q’ʷəl	tiʔiɬ	ad–sqa
+# excessively	np–hot	dist	2sg.po–older.brother
+# ‘ “Your older brother is far too hot.’
+# 
+# ʔaləxʷ ʔu tiʔiɬ ƛ’usx̌aʔx̌aʔil ʔə tiʔiɬ sq’ʷəl ƛ’uspədils hədəb
+# ʔal=axʷ	ʔu	tiʔiɬ	ƛ’u=s=x̌aʔx̌aʔ–il	ʔə	tiʔiɬ	s–q’ʷəl
+# at=now	int	dist	hab=nm=great–inch	Pr	dist	np–hot
+# ƛ’u=s=pəd–il=s 	hədəb
+# hab=nm=season–inch=3po	summer
+# ‘ “When it comes to the peak of the heat of summer season,’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# huy gʷəl šubali tiʔəʔ ʔaciɬta[l]bixʷ
+# huy	gʷəl	šubali	tiʔəʔ	ʔaciɬtalbixʷ
+# sconj	sconj	many.die	prox	people
+# SSP: ‘ “And then people will perish.’
+# 
+# ʔabil’əxʷ gʷəʔəƛ’ tiʔiɬ ɬukʷaˑɬ
+# ʔabil’=axʷ	gʷə=ʔəƛ’	tiʔiɬ	ɬukʷaɬ
+# perhaps=now	sbj=come	dist	sun
+# ‘ “If perhaps the sun were to come,’
+# 
+# gʷəl ʔalil taʔa 
+# gʷəl	ʔal–il	taʔa
+# sconj	at–inch	dist:unq.dma
+# ‘ “And it appears over there.’
+# 
+# ləbsq’ʷəliˑl 
+# lə=bə=ʔas–q’ʷəl–il
+# prog=add=stat–hot–inch
+# “‘It will become warm.’
+# 
+# gʷəl ʔalil tadiʔ
+# gʷəl	ʔal–il	tadiʔ
+# sconj	at–inch	dist.dma
+# ‘ “Its position would be over there,’
+# 
+# gʷəl ƛ’ux̌ʷil
+# gʷəl	ƛ’ux̌ʷ–il
+# sconj	cold–inch
+# ‘ “And it would cool down.’
+# 
+# gʷəl ɬax̌il
+# gʷəl	ɬax̌–il
+# sconj	dark–inch
+# ‘ “And night would come.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# diɬ gʷəƛ’ub
+# diɬ	gʷə=ƛ’ub
+# foc	sbj=well
+# SSP: ‘ “That would be right.” ’
+# 
+# tatatəbəxʷ tiʔiʔəʔ
+# tatatəb=axʷ	tiʔ–iʔəʔ
+# confer=now	pl–prox
+# ‘They confer.’
+# 
+# ʔuˑ, diɬ gʷəhaʔɬ
+# ʔu	diɬ	gʷə=haʔɬ
+# intj	foc	sbj=good
+# ‘ “Oh, that would be the good way.’
+# 
+# hiqab dxʷsəd
+# hiqab	dxʷs–həd
+# excessively	ctd–hot
+# ‘ “It’s too hot.” ’
+# 
+# hiqab dxʷsəd
+# hiqab	dxʷs–həd
+# excessively	ctd–hot
+# ‘ “It’s too hot.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ɬčil tiʔəʔ sqas
+# ɬčil	tiʔəʔ	sqa–s
+# arrive	prox	older.brother–3po
+# SSP: ‘His brother arrives.’
+# 
+# gʷəl ləwiliqʷ
+# gʷəl	lə=wiliqʷ
+# sconj	prog=ask
+# ‘And he asks,’
+# 
+# ʔəsʔəx̌id
+# ʔas–ʔəx̌id
+# stat–what.happened
+# ‘ “How was it?’
+# 
+# həʔ həʔ
+# ‘ “Ha ha.” ’
+# 
+# hiqab čəxʷ dxʷsəd
+# hiqab	čəxʷ	dxʷs–həd
+# excessively	2sg.sub	ctd–hot
+# ‘ “You were too hot.” ’
+# 
+# həʔ həʔ
+# ‘ “Ha ha.’
+# 
+# gʷəl šubali kʷədaʔ tiʔiɬ ʔaciɬta[l]bix cut tiʔəʔ sqas
+# gʷəl	šubali	kʷədaʔ	tiʔiɬ	ʔaciɬtalbix	cut	tiʔəʔ	sqa–s
+# sonj	many.die	ptcl	dist	people	say	prox	older.brother–3po
+# ‘ “I suppose the people died!” his older brother said.’
+# 
+# ƛ’alal ʔal tadiʔ ʔəsq’ikʷ 
+# ƛ’al–al	ʔal	tadiʔ	ʔas–q’ikʷ
+# attn–located	at	dist.dma	stat–appear
+# ‘ “As soon as it appears over there,’
+# 
+# gʷəl dxʷsədiˑl
+# gʷəl	dxʷs–həd–il
+# sconj	ctd–hot–inch
+# ‘ “And it gets hot.’
+# 
+# bək’ʷaxʷ x̌ʷul’əxʷ ʔut’ičt’ičəb
+# bək’ʷ=axʷ	x̌ʷul’=axʷ	ʔu–t’ič–t’ičəb
+# all=now	just=now	pfv–dstr–wade.out
+# ‘ “Everyone gets into the water.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# xʷiʔəxʷ gʷədiič’uʔ gʷəšikʷ
+# xʷiʔ=axʷ	gʷə=diič’uʔ	gʷə=šikʷ
+# neg=now	sbj=one	sbj=emerge.from.water
+# SSP: ‘ “Not one comes out of the water.’
+# 
+# x̌ʷul’ čaʔkʷ ʔal tadiʔ 
+# x̌ʷul’	čaʔkʷ	ʔal	tadiʔ
+# just	seaward	at	dist.dma
+# ‘ “Just out from shore over there,’
+# 
+# čaʔkʷ x̌ʷul’ lədxʷčaʔčaʔkʷ
+# čaʔkʷ	x̌ʷul’	lə=dxʷ–čaʔ–čaʔkʷ
+# seaward	just	prog=cntrpt–dstr–seaward
+# ‘ “Out from shore, just out seaward,’
+# 
+# gʷəl taw’taw’ičəd əlgʷəʔ
+# gʷəl	taw’–taw’ičəd	əlgʷəʔ
+# sconj	dstr–immerse	pl
+# ‘ “They immerse themselves in the water.’
+# 
+# tux̌ʷəxʷ ʔəskʷədkʷədaɬ qʷəɬqʷɬayʔ, cq’ap
+# tux̌ʷ=axʷ	ʔas–kʷəda–kʷəda–aɬ	qʷəɬ–qʷɬayʔ	cq’•ap
+# just=now	stat–dstr–hold–incrp	dstr–log	spear•bottom
+# ‘ “They have to hold poles to support themselves.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔu, dəgʷi k’ʷəɬ kʷi ɬup’aʔcut
+# ʔu	dəgʷi	k’ʷəɬ	kʷi	ɬu=p’aʔ–t–sut
+# intj	you	qtv	rem	irr=try–ics–refl
+# SSP: ‘ “Oh, so the one to try is you.’
+# 
+# dəgʷi kʷi ɬup’aʔcut ʔal kʷi dukʷəɬdat
+# dəgʷi	kʷi	ɬu=p’aʔ–t–sut	ʔal	kʷi	dukʷəɬdat
+# you	rem	irr=try–ics–refl	at	rem	tomorrow
+# ‘ “The one who will try tomorrow is you.” ’
+# 
+# ʔu, ʔəca ʔal taʔa gʷəl dxʷsədiˑl
+# ʔu	ʔəca	ʔal	taʔa	gʷəl	dxʷs–həd–il
+# intj	I	at	dist:unq.dma	sconj	ctd–hot–inch
+# ‘ “Oh, so I am to place myself over there and make it warm?” ’
+# 
+# x̌ʷul’ ʔal tadiʔ gʷəl ƛ’ux̌ʷil dxʷʔal sɬax̌il
+# x̌ʷul’	ʔal	tadiʔ	gʷəl	ƛ’ux̌ʷ–il	dxʷ–ʔal	sɬax̌–il
+# just	at	dist.dma	sconj	cold–inch	cntrpt–at	darkness–inch
+# ‘ “Just over there, it will be cold toward evening.’
+# 
+# diɬ gʷəƛ’ub
+# diɬ	gʷə=ƛ’ub
+# foc	sbj=well
+# ‘ “That would be good.” ’
+# 
+# cutəb ʔə tiʔəʔ suq’ʷaʔs 
+# cut–t–b	ʔə	tiʔəʔ	suq’ʷaʔ–s
+# say–ics–pass	Pr	prox	younger.sibling–3po
+# ‘He is spoken to by his younger sibling.’
+# 
+# cutəb ʔə sp’ic’ikʷ 
+# cut–t–b	ʔə	sp’ic’ikʷ
+# say–ics–pass	Pr	Diaper.Child
+# ‘Diaper Child is told.’
+# 
+# ʔux̌ʷ kʷi sp’ic’ikʷ ʔal kʷi sləx̌ils
+# ʔux̌ʷ	kʷi	sp’ic’ikʷ	ʔal	kʷi	s=sləx̌–il=s
+# go	rem	Diaper.Child	at	rem	nm=daylight–inch=3po
+# ‘Diaper Child goes in the morning.’
+# 
+# ʔuˑ, ʔəsƛ’ux̌ʷil ʔal kʷi sʔəƛ’aˑs
+# ʔu	ʔas–ƛ’ux̌ʷ–il	ʔal	kʷi	s=ʔəƛ’=as
+# intj	stat–cold–inch	at	rem	nm=come=3sbrd
+# ‘Oh, it is cool while he comes.’
+# 
+# ʔilabac ʔə t’at’agʷt gʷəl dxʷsədiˑl 
+# ʔil•abac	ʔə	t’a–t’agʷt	gʷəl	dxʷs–həd–il
+# side•body	Pr	attn–on.top	sconj	ctd–hot–inch
+# ‘Just before noon it gets hot.’
+# 
+# ləcuǰiq’agʷil kʷaʔ tiʔəʔ ʔaciɬtaˑ[l]bixʷ
+# ləcu–ǰiq’–agʷil	kʷaʔ	tiʔəʔ	ʔaciɬtalbixʷ
+# cont–immerse–auto	ptcl	prox	people
+# ‘The people, though, are putting themselves in the water.’
+# 
+# x̌ʷul’ ʔalil tadiʔ
+# x̌ʷul’	ʔal–il	tadiʔ
+# just	at–inch	dist.dma
+# ‘He gets over there.’
+# 
+# gʷəl ƛ’uˑx̌ʷil
+# gʷəl	ƛ’ux̌ʷ–il
+# sconj	cold–inch
+# ‘And it cools off’
+# 
+# gʷəl ɬax̌
+# gʷəl	ɬax̌
+# sconj	dark
+# ‘And night comes.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔuˑ, diɬ ƛ’ub tiʔiɬ adsuq’ʷaʔ
+# ʔu	diɬ	ƛ’ub	tiʔiɬ	ad–suq’ʷaʔ
+# intj	foc	well	dist	2sg.po–younger.sibling
+# SSP: ‘ “Oh, your brother is all right.’
+# 
+# diɬ ƛ’ub tiʔiɬ adsuq’ʷaʔ
+# diɬ	ƛ’ub	tiʔiɬ	ad–suq’ʷaʔ
+# foc	well	dist	2sg.po–younger.sibling
+# ‘ “Your brother is all right.’
+# 
+# ɬuləsləx̌əd t(i) swatixʷtəd
+# ɬu=ləs–ləx̌ə–t	ti	swatixʷtəd
+# irr=prog.stat–light–ics	spec	country
+# ‘ “He will be the one to light the land.” ’
+# 
+# ʔuˑ, ɬuliɬʔal haw’əʔ čəd səɬax̌il
+# ʔu	ɬu=liɬʔal	haw’əʔ	čəd	s=lə=ɬax̌–il
+# intj	irr=by.way.of	ptcl	1sg.sub	nm=prog=dark–inch
+# ‘Oh, I guess that means I’ll be going by night.” ’
+# 
+# cut
+# cut
+# say
+# ‘He says.’
+# 
+# liɬʔal haw’əʔ čəd səɬax̌il
+# liɬ–ʔal	haw’əʔ	čəd	s=lə=ɬax̌–il
+# prlv–at	ptcl	1sg.sub	nm=prog=dark–inch
+# ‘ “I’ll be going by night.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# x̌ʷul’ ʔuʔisʔistab, x̌ʷul’ 
+# x̌ʷul’	ʔu–ʔis–ʔistaʔ–b	x̌ʷul’
+# just	pfv–dstr–be.like–md	just
+# SSP: ‘So it is done that way.’
+# 
+# gʷəl ləcut
+# gʷəl	lə=cut
+# sconj	prog=say
+# ‘And he speaks.’
+# 
+# ɬčil tiʔəʔ
+# ɬčil	tiʔəʔ
+# arrive	prox
+# ‘(Diaper Child) arrives.’
+# 
+# gʷəl ləwiliq’ʷ
+# gʷəl	lə=wiliq’ʷ
+# sconj	prog=ask
+# ‘And he asks.’
+# 
+# ʔəx̌id
+# ʔəx̌id
+# what.happened
+# ‘ “How was it?’
+# 
+# ʔəx̌id čəd
+# ʔəx̌id	čəd
+# what.happened	1sg.sub
+# ‘ “How was I?’
+# 
+# ƛ’ubil čəd ʔu
+# ƛ’ub–il	čəd	ʔu
+# well–inch	1sg.sub	int
+# ‘ “Was I all right?” ’
+# 
+# ʔəsƛ’ubil čəxʷ
+# ʔas–ƛ’ub–il	čəxʷ
+# stat–well–inch	2sg.sub
+# ‘ “You are all right.’
+# 
+# ʔal taˑʔa gʷəl dxʷsədil 
+# ʔal	taʔa	gʷəl	dxʷs–həd–il
+# at	dist:unq.dma	sconj	ctd–hot–inch
+# ‘ “When you get there it gets hot.’
+# 
+# x̌ʷul’ ʔal taʔa gʷəl ləƛ’uˑx̌ʷil 
+# x̌ʷul’	ʔal	taʔa	gʷəl	lə=ƛ’ux̌ʷ–il
+# just	at	dist:unq.dma	sconj	prog=cold–inch
+# ‘ “Over there and it cooled.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# x̌ʷul’ ləcuǰiq’agʷil t(i) adʔiišəd dxʷʔal sƛ’ubils
+# x̌ʷul’	ləcu–ǰiq’–agʷil	ti	ad–ʔiišəd	dxʷ–ʔal
+# just	cont–immerse–auto	spec	2sg.po–relatives	cntrpt–at
+# s=ƛ’ub–il=s
+# nm=well–inch=3po
+# SSP: ‘ “Your people put themselves in the water until it was all right.” ’
+# 
+# ʔux̌ʷc
+# ʔux̌ʷ–c
+# go–altv
+# ‘He goes to his older brother.’
+# 
+# ɬuliɬʔal haw’əʔ čəd ti ƛ’usəɬax̌il čəda x̌ʷul’əxʷ ɬuləst’it’əswičəb ʔal ti ƛ’usaʔɬil ʔə tə swatixʷtəd
+# ɬu=liɬ–ʔal	haw’əʔ	čəd	ti	ƛ’u=s=lə=ɬax̌–il	čəda
+# irr=prlv–at	ptcl	1sg.sub	spec	hab=nm=prog=dark–inch	1sg.coord
+# x̌ʷul’=axʷ	ɬu=ləs–t’i–t’əswič–b	ʔal	ti
+# just=now	irr=prog.stat–attn–back.to.fire–md	at	spec
+# ƛ’u=s=haʔɬ–il	ʔə	tə	swatixʷtəd
+# hab=nm=good–inch	Pr	nspec	country
+# ‘ “I guess I’ll (go) when it gets dark and I’ll just turn my back when (the weather) is good in the land.’
+# 
+# ɬubək’ʷ ts(i) adč’əbas
+# ɬu=bək’ʷ	tsi	ad–č’əbas
+# irr=all	spec:fem	2sg.po–sibling.in.law
+# ‘ “Your sister-in-law will go too.” ’
+# 
+# qʷibicut tiʔiʔəʔ ʔi tsiʔəʔ čəgʷas 
+# qʷibi–t–sut	tiʔ–iʔəʔ	ʔi	tsiʔəʔ	čəgʷas–s
+# prepare–ics–refl	pl–prox	conj	prox:fem	wife=3po
+# ‘So he prepares himself and so does his wife.’
+# 
+# kʷədad tsiʔəʔ čəgʷas
+# kʷəda–t	tsiʔəʔ	čəgʷas–s
+# taken–ics	prox:fem	wife–3po
+# ‘He takes his wife.’
+# 
+# kʷədatəb ʔə tiʔəʔ tiʔəʔ xʷʔix̌ʷads 
+# kʷəda–t–b	ʔə	tiʔəʔ	tiʔəʔ	xʷʔix̌ʷads
+# taken–ics–pass	Pr	prox	prox	xʷʔix̌ʷads
+# ‘xʷʔix̌ʷads is taken by him.’
+# 
+# tudəxʷʔasəxʷ tsiʔəʔ waw’lis ʔal ti stə sɬukʷalb
+# tu=dəxʷ=ʔa=s=axʷ	tsiʔəʔ	wa–w’lis	ʔal	ti	stə	sɬukʷalb
+# past=adnm=be.there=3po=now	prox:fem	attn–frog	at	spec	intj	moon
+# ‘There is a little frog on the moon because she was there.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# xʷč’asusəxʷ ti sɬukʷalb 
+# xʷ–č’as•us=axʷ	ti	sɬukʷalb
+# ctd–dirty•face=now	spec	moon
+# SSP: ‘The moon has markings on his face.’
+# 
+# x̌ʷul’əxʷ ləʔa[h]il ʔə kʷi dxʷcutəbid 
+# x̌ʷul’=axʷ	lə=ʔa–il	ʔə	kʷi	dxʷ=cut–ab–bi–t
+# just=now	prog=be.there–inch	Pr	rem	ctd=say–dsd–map–ics
+# ‘They are just visible to those that notice them.’
+# 
+# gʷəl ləst’it’əswičəbəxʷ
+# gʷəl	ləs–t’i–t’əswič–b=axʷ
+# sconj	prog.stat–attn–back.to.fire–md=now
+# ‘And (the older brother) turns his back.’
+# 
+# ʔuˑx̌ʷ ti sp’ic’ikʷ 
+# ʔux̌ʷ	ti	sp’ic’ikʷ
+# go	spec	Diaper.Child
+# ‘Diaper Child goes.’
+# 
+# ʔəsləx̌əd tiʔə swatixʷtəd
+# ʔas–ləx̌–t	tiʔəʔ	swatixʷtəd
+# stat–light–ics	prox	country
+# ‘The land is lit.’
+# 
+# t’igʷiˑd
+# t’igʷi–t
+# thank–ics
+# ‘They thank him.’
+# 
+# x̌ʷul’ buusaɬ tiʔəʔ suʔux̌ʷs
+# x̌ʷul’	buus•aɬ	tiʔəʔ	s=ʔu–ʔux̌ʷ=s
+# just	four•cls	prox	nm=pfv–go=3po
+# ‘He goes four times.’
+# 
+# gʷəl ɬčil tiʔəʔ bəščəb
+# gʷəl	ɬčil	tiʔəʔ	bəščəb
+# sconj	arrive	prox	mink
+# ‘And Mink arrives.’
+# 
+# həbuʔ
+#  həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# huy sixʷ bədčəbaxʷ [tiʔəʔ] bəščəb
+# huy	sixʷ	bədčəb=axʷ	tiʔəʔ	bəščəb
+# sconj	ptcl	lie=now	prox	mink
+# SSP: ‘Then, as usual, Mink lies.’
+# 
+# tiləb ʔuwiliq’ʷid 
+# tiləb	ʔu–wiliq’ʷi–t
+# immediately	pfv–ask–ics
+# ‘He asks him right away.’
+# 
+# bəʔəbsčəgʷas ʔu tiʔəʔ cədiɬ sp’ic’ikʷ 
+# bə=ʔas–bəs–čəgʷas	ʔu	tiʔəʔ	cədiɬ	sp’ic’ikʷ
+# add=stat–prop–wife	int	prox	he	Diaper.Child
+# ‘ “Does Diaper Child have a wife?’
+# 
+# stabəxʷ tsiʔəʔ cədiɬ čəgʷas ʔal tiʔiɬ gʷəbasčəgʷasils 
+# stab=axʷ	tsiʔəʔ	cədiɬ	čəgʷas–s	ʔal	tiʔiɬ
+# what=now	prox:fem	he	wife=3po	at	dist
+# gʷə=bə=ʔas–čəgʷas–il=s
+# sbj=add=stat–wife–inch=3po
+# ‘ “Who is his wife when he marries?’
+# 
+# čad kʷi maʔmaʔ 
+# čad	kʷi	maʔmaʔ
+# where	rem	daddy
+# ‘ “Where is daddy?” ’
+# 
+# cutəb ʔə tiʔiɬ bəščəb
+# cut–t–b	ʔə	tiʔiɬ	bəščəb
+# say–ics–pass	Pr	dist	mink
+# ‘It is spoken by Mink.’
+# 
+# čad kʷi maʔmaʔ
+# čad	kʷi	maʔmaʔ
+# where	rem	daddy
+# ‘ “Where is daddy?” ’
+# 
+# ʔəbsbədaʔ haw’əʔ ʔu sus tiʔəʔ ʔal tiʔəʔ 
+# ʔas–bəs–bədaʔ	haw’əʔ	ʔu	s=ʔu=s	tiʔəʔ	ʔal	tiʔəʔ
+# stat–prop–offspring	ptcl	int	nm=int=3po	prox	at	prox
+# ‘ “Does he have a child?’
+# 
+# gʷəl xʷiʔ gʷətučəgʷas
+# gʷəl	xʷiʔ	gʷə=tu=čəgʷas=s
+# sconj	neg	sbj=past=wife=3po
+# ‘ “And doesn’t he have a wife?” ’
+# 
+# ʔəsləx̌əd tə swatixʷtəd
+# ʔas–ləx̌–t	tə	swatixʷtəd
+# stat–light–ics	nspec	country
+# ‘He is lighting the land.’
+# 
+# ʔa, ɬugʷiitəb ʔə tiʔəʔ ʔal kʷədiʔ diʔadiʔ 
+# ʔa	ɬu=gʷihi–t–b	ʔə	tiʔəʔ	ʔal	kʷədiʔ	diʔ•adiʔ
+# intj	irr=invite–ics–pass	Pr	prox	at	rem.dma	other.side•ear
+# ‘Oh, (Mink) will be invited to the other room.’
+# 
+# ɬčil tiʔəʔ tusəsɬax̌il[s]
+# ɬčil	tiʔəʔ	tu=s=ʔəs–ɬax̌–il=s
+# arrive	prox	past=nm=stat–dark–inch=3po
+# ‘He came during the night.’
+# 
+# gʷəl ləwiliq’ʷid 
+# gʷəl	lə=wiliq’ʷi–t	
+# sconj	prog=ask–ics
+# ‘And he asked … .’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# [tsi] čəgʷas
+# tsi	čəgʷas–s
+# spec:fem	wife–3po
+# SSP: ‘… his wife.’
+# 
+# ʔahəxʷ t(i) adsəsʔəq’dagʷəl
+# ʔa=axʷ	ti	ad=s=ʔas–ʔəq’–t–agʷəl
+# be.there=now	spec	2sg.po=nm=stat–open–ics–rcp
+# ‘ “You have a visitor.’
+# 
+# adbədaʔ k’ʷəɬ
+# ad–bədaʔ	k’ʷəɬ
+# 2sg.po–offspring	qtv
+# ‘ “He says he is your son.’
+# 
+#  adbədaʔ k’ʷəɬ tiʔiɬ ʔuɬčil
+# ad–bədaʔ	k’ʷəɬ	tiʔiɬ	ʔu–ɬčil
+# 2sg.po–offspring	qtv	dist	pfv–arrive
+# ‘ “The one who came says he is your son.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo		
+# UW: ‘Haboo.’ (chuckles)
+# 
+# diɬ sixʷ ti gə[t], bəščəb, diɬ
+# diɬ	sixʷ	ti	gət	bəščəb	diɬ
+# foc	ptcl	spec	guy	mink	foc
+# SSP: ‘ “It is that guy, Mink, it is.’
+# 
+# diɬ sixʷ ti gə[t], bəščəb
+# diɬ	sixʷ	ti	gət	bəščəb
+# foc	ptcl	spec	guy	mink
+# ‘ “It is that fellow Mink.” ’
+# 
+# ʔaˑ ƛ’uƛ’ačup tiʔəʔ bəščəb
+# ƛ’u=ƛ’a•čup	tiʔəʔ	bəščəb
+# hab=go•firewood	prox	mink
+# ‘Oh, Mink brings in wood.’
+# 
+# ƛ’uƛ’ačup
+# ƛ’u=ƛ’a•čup
+# hab=go•firewood
+# ‘He brings in wood’
+# 
+# gʷəl ƛ’uʔux̌ʷ tiʔəʔ bads
+# gʷəl	ƛ’u=ʔux̌ʷ	tiʔəʔ	bad–s
+# sconj	hab=go	prox	father–3po
+# ‘And his father goes.’
+# 
+# diʔɬ tiʔəʔ scuts
+# diʔɬ	tiʔəʔ	s=cut=s
+# suddenly	prox	nm=say=3po
+# ‘Suddenly (Mink) says,’
+# 
+# maʔmaʔ ɬasgʷaʔəxʷ čəd
+# maʔmaʔ	ɬu=ʔas–gʷaʔ=axʷ	čəd
+# daddy	irr=stat–accompany=now	1sg.sub
+# ‘ “Daddy, I will accompany you now.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔu, x̌aƛ’ tiʔiɬ stuləkʷ
+# ʔu	x̌aƛ’	tiʔiɬ	stuləkʷ
+# intj	difficult	dist	river
+# SSP: ‘ “Oh, that river is difficult.’
+# 
+# gʷəxʷit’il čəxʷ čxʷa gʷəʔatəbəd
+# gʷə=xʷit’–il	čəxʷ	čxʷa	gʷə=ʔatəbəd
+# sbj=descend–inch	2sg.sub	2sg.coord	sbj=die
+# ‘ “You’d fall and you would die.” ’
+# 
+# #-------------------------------------------------------------------------------------
+# # 1:12:565  - beginning of wauem_2005001-hilbert_0976_side2.  just noise before this
+# #-------------------------------------------------------------------------------------
+# 
+#  bəq’aq’ax̌acut
+# bə=qʷa–q’ax̌a–t–sut
+# add=attn–uncover–ics–refl
+# ‘He shows himself a little.’
+# 
+# bəq’aq’ax̌acut k’ʷəɬ 
+# bə=q’a–q’ax̌a–t–sut	k’ʷəɬ
+# add=attn–uncover–ics–refl	qtv
+# ‘It is said that he shows himself a little.’
+# 
+# #-----------------
+# # 1:17:230
+# #-----------------
+# 
+# gʷəl ƛ’usaliʔil tiʔiɬ ɬukʷəɬ    #
+# gʷəl	ƛ’u=saliʔ–il	tiʔiɬ	ɬukʷəɬ
+# sconj	hab=two–inch	dist	sun
+# ‘And the sun always looks like two.’
+# 
+# xʷiʔ kʷ(i) adsuq’ax̌acut, xʷiʔ
+# xʷiʔ	kʷi	ad=s=ʔu–q’ax̌a–t–sut	xʷiʔ
+# neg	rem	2sg.po=nm=pfv–uncover–ics–refl	neg
+# ‘ “Don’t show yourself, don’t!” ’
+# 
+# ʔaliləxʷ tiʔiɬə stuləkʷ   # 1:22:312
+# ʔal–il=axʷ	tiʔiɬə	stuləkʷ
+# at–inch=now	dist	river
+# ‘When Diaper Child arrived at the river,’
+# 
+# gʷəl cutəb tiʔəʔ bəščəb,
+# gʷəl	cut–t–b	tiʔəʔ	bəščəb
+# sconj	say–ics–pass	prox	mink
+# ‘And Mink is told,’
+# 
+# kʷədyalc čəxʷ ʔə kʷi tib
+# kʷəd•y•alc	čəxʷ	ʔə	kʷi	tib
+# hold•cnn•prdct	2sg.sub	Pr	rem	be.strong
+# ‘ “You hold on tight now.’
+# 
+# ɬusaxʷəb čəd dxʷdiʔucid
+# ɬu=saxʷəb	čəd	dxʷ–diʔ•ucid
+# irr=jump	1sg.sub	cntrpt–other.side•mouth
+# ‘ “I am going to jump to the other side.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# huy kʷədyalcəxʷ kʷi bəščəb
+# huy	kʷəd•y•alc=axʷ	kʷi	bəščəb
+# sconj	hold•cnn•prdct=now	rem	mink
+# SSP: ‘Then Mink hangs on.’
+# 
+# #--------------------------------------------------------------------------------
+# # wauem_2005001-hilbert_0976_side2:  1'34"775
+# #--------------------------------------------------------------------------------
+# 
+# huy saxʷəb 
+# huy	saxʷ–b
+# sconj	jump–md
+# ‘Then Diaper Child jumps.’
+# 
+# saxʷəbəxʷ    1'36" 791
+# saxʷəb=axʷ
+# jump=now
+# ‘He jumps.’
+# 
+# saxʷəbəxʷ kʷi bəščəb
+# saxʷəb=axʷ	kʷi	bəščəb
+# jump=now	rem	mink
+# ‘Mink jumps.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+#  
+# SSP: mmm
+# sasaxʷəbəxʷ tiʔəʔ bad
+# sa–saxʷəb=axʷ	tiʔəʔ	bəščəb
+# attn–jump=now	prox	mink
+# ‘The father hops over.’
+# 
+# x̌ibyalc x̌əɬ ti kʷuʔkʷəb
+# x̌ib•y•alc	x̌əɬ‿ti	kʷuʔkʷəb
+# grab•cnn•prdct	seemingly	hunchbacked
+# ‘(Mink) grabs on (so that they) seem hunchbacked.’
+# 
+# saxʷəbəxʷ tiʔəʔ dəbəɬ t’ət’əwaʔs
+# saxʷəb=axʷ	tiʔəʔ	dəbəɬ	t’ət’əwaʔs
+# jump=now	prox	belong.to.bloodline	star
+# ‘This one of the Star People jumps.’
+# 
+# ɬaˑx̌il
+# ɬax̌–il
+# dark–inch
+# ‘It becomes night.’
+# 
+# wiliq’itəb tiʔəʔ diʔəʔ
+# wiliq’i–t–b	tiʔəʔ	diʔəʔ
+# ask–ics–pass	prox	here
+# ‘This one is asked.’
+# 
+# ƛ’uʔəx̌id kʷ(i) adəxʷsaliʔil
+# ƛ’u=ʔəx̌id	kʷi	ad=dəxʷ=saliʔ–il
+# hab=what.happened	rem	2sg.po=adnm=two–inch
+# ‘ “Why do you become two?’
+# 
+# ʔuʔəx̌id
+# ʔu–ʔəx̌id
+# pfv–what.happened
+# ‘ “What happened?’
+# 
+# saliʔil čəxʷ ʔal tiʔiɬ ʔilʔabac ʔə t’at’əgʷt
+# saliʔ–il	čəxʷ	ʔal	tiʔiɬ	ʔil•abac	ʔə	t’a–t’əgʷt
+# two–inch	2sg.sub	at	dist	repeat•body	Pr	attn–noon
+# ‘ “You become two at noon.’
+# 
+# ƛ’adsbuusaɬil ʔal tiʔəʔ huyəɬt’agʷt
+# ƛ’u=ad=s=buus•aɬ–il	ʔal	tiʔəʔ	huyu–aɬ•t’agʷt
+# hab=2sg.po=nm=four•cls–inch	at	prox	made–incrp•noon
+# ‘ “It was your fourth time at noon.” ’
+# 
+# diɬ sixʷ tiʔəʔ ti ƛ’uləq’ax̌acut, ʔəsqpali
+# diɬ	sixʷ	tiʔəʔ	ti	ƛ’u=lə=q’ax̌a–t–sut	ʔas–qpali
+# foc	ptcl	prox	spec	hab=prog=uncover–ics–refl	stat–crazy
+# ‘ “It is the one who keeps showing himself, he is crazy,” ’
+# 
+# #--------------------------------------------------------------------------------
+# # ssp-starChild-middleSection-mono.wav  26:41:347
+# #--------------------------------------------------------------------------------
+# 
+# cutəb tiʔiɬ bəščəb
+# cut–t–b	tiʔiɬ	bəščəb
+# say–ics–pass	dist	mink
+# ‘He speaks of Mink.’
+# 
+# ʔuˑx̌ʷ əlgʷəʔ
+# ʔux̌ʷ	əlgʷəʔ
+# go	pl
+# ‘They go.’
+# 
+# t’uˑk’ʷ
+# t’uk’ʷ
+# go.home
+# ‘They go home.’
+# 
+# ʔaˑ, qahəɬdat
+# ʔa	qa•aɬ•dat
+# intj	many•cls•day
+# ‘Oh, it was many days.’
+# 
+# gʷəl bəcut,
+# gʷəl	bə=cut
+# sconj	add=say
+# ‘And Mink says,’
+# 
+# # middleSection: 26:51:938
+# 
+# 
+# maʔmaʔ, ʔəca kʷi ɬasləx̌əd tə sləx̌il
+# maʔmaʔ	ʔəca	kʷi	ɬu=ʔas–ləx̌–t	tə	sləx̌–il
+# daddy	I	rem	irr=stat–light–ics	nspec	daylight–inch
+# ‘ “Daddy, I am going to go and light the daytime.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’ (chuckles)
+# 
+# ʔəca kʷi ɬasləx̌əd
+# ʔəca	kʷi	ɬu=ʔas–ləx̌–t
+# I	rem	irr=stat–light–ics
+# SSP: ‘ “I am going to light it.’
+# 
+# ʔəcahəxʷ
+# ʔəca=axʷ
+# I=now
+# ‘ “It will be me now.” ’
+# 
+# ʔu, gʷəʔatəbəd čəxʷ
+# ʔu	gʷə=ʔatəbəd	čəxʷ
+# intj	sbj=die	2sg.sub
+# ‘ “Oh, you would die.’
+# 
+# xʷiʔ gʷadsaxʷəb
+# xʷiʔ	gʷə=ad=s=saxʷəb
+# neg	sbj=2sg.po=nm=jump
+# ‘ “You couldn’t jump.’
+# 
+# xʷiʔ gʷadsaxʷəb dxʷdiʔucid ʔə ti ʔal tiʔiɬ stuləkʷ
+# xʷiʔ	gʷə=ad=s=saxʷəb	dxʷ–diʔ•ucid	ʔə	ti	ʔal
+# neg	sbj=2sg.po=nm=jump	cntrpt–other.side•mouth	Pr	spec	at
+# tiʔiɬ	stuləkʷ
+# dist	river
+# ‘ “You couldn’t jump to the other side of the river.’
+# 
+# gʷəʔatəbəd čəxʷ
+# gʷə=ʔatəbəd	čəxʷ
+# sbj=die	2sg.sub
+# ‘ “You would die.” ’
+# 
+# # middleSection:  middleSection: 27:11:156
+# ʔuˑ, gʷəsaxʷəb čəd
+# ʔu	gʷə=saxʷəb	čəd
+# intj	sbj=jump	1sg.sub
+# ‘ “Oh, I could jump.” ’
+# 
+# hiwil [s]ʔas
+# hiwil	s=ʔa=s
+# go.ahead	nm=be.there=3po
+# ‘ “Go ahead then.” ’
+# 
+# ʔabyitəb ʔə kʷi tushaʔkʷs ƛ’alabac
+# ʔab–yi–t–b	ʔə	kʷi	tu=s=haʔkʷ=s	ƛ’al•abac
+# extend–dat–ics–pass	Pr	rem	past=nm=3po	put.on•body
+# ‘He is given some old time clothing.’
+# 
+# # ssp-starChild-middleSection-mono 27:19:666
+# 
+# ʔux̌ʷ kʷi bəščəb
+# ʔux̌ʷ	kʷi	bəščəb
+# go	rem	mink
+# ‘Mink goes.’
+# 
+# mmm
+#  huˑy, ʔahəxʷ ʔal tiʔiɬ stuləkʷ kʷi sq’iq’əlx̌s gʷəsaxʷəbs
+# huy	ʔa=axʷ	ʔal	tiʔiɬ	stuləkʷ	kʷi	s=q’i–q’əlx̌=s
+# sconj	be.there=now	at	dist	river	rem	nm=attn–surprised=3po
+# gʷə=s=saxʷəb=s
+# sbj=nm=jump=3po
+# ‘He arrives at the river and he hesitates to jump (from fear).’
+# 
+# # middlesection 27:27:856
+# 
+# x̌ʷul’əxʷ ʔa
+# x̌ʷul’=axʷ	ʔa
+# just=now	be.there
+# ‘He just stands there,’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# huy, huyucutəxʷ kʷi bəščəb
+# huy	huyu–t–sut=axʷ	kʷi	bəščəb
+# sconj	made–ics–refl=now	rem	mink
+# SSP: ‘Then Mink prepares himself.’
+# 
+# saxʷəb
+# saxʷəb
+# jump
+# ‘He jumped.’
+# 
+# # middlesection: 27:34:833
+# 
+# siʔiʔacgʷiɬ kʷi sɬaq’s 
+# s=ʔiʔi–ʔac•gʷiɬ	kʷi	s=ɬaq’a=s
+# nm=attn–center•canoe	rem	nm=fall=3po
+# ‘He lands in mid-river.’
+# 
+# huy p’q’ʷaxʷ
+# huy	p’q’ʷ=axʷ
+# sconj	float=now
+# ‘Then he drifts.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# # middlesection: 27:39:194
+# 
+# huy ɬax̌iləxʷ
+# huy	ɬax̌–il=axʷ
+# sconj	dark–inch=now
+# SSP: ‘Then it becomes night.’
+# 
+# # middlesection: 27:41,851
+# 
+# ƛ’al’al’ gʷəl ɬax̌il
+# ƛ’al’–al’	gʷəl	ɬax̌–il
+# dim.eff–early	sconj	dark–inch
+# ‘It is early and yet it gets dark.’
+# 
+# # ssp-starChild-middleSection-mono 27:45:944
+# 
+# ʔal tiʔiɬ dəč’uʔ sləx̌il gʷəl bəʔux̌ʷ tiʔəʔ diʔəʔ
+# ʔal	tiʔiɬ	dəč’uʔ	sləx̌–il	gʷəl	bə=ʔux̌ʷ	tiʔəʔ	diʔəʔ
+# at	dist	one	daylight–inch	sconj	add=go	prox	here
+# ‘The next day (Diaper Child) goes again.’
+# 
+#  #--------------------------------------------------------------------------------
+#  # the second side of the first reel of tape runs out and the second reel begins
+#  #--------------------------------------------------------------------------------
+# 
+# # ssp-starChild-85pc-mono.wav, starts with Leon Metcalf saying "finish of star husband"
+# # ssp's son starts off at 0:24:347
+# 
+# ʔa hiltxʷ k’ʷuyəʔ
+# ʔa–il–txʷ	k’ʷuyəʔ
+# be.there–inch–ecs	mom
+# AS: ‘Put it there, Mom.’
+# 
+# the recording becomes indistinct as several people begin talking at once
+# 
+# #--------------------------------------------------------------------------------
+# # ssp-starChild-85pc-mono.wav: 0:33:385
+# #--------------------------------------------------------------------------------
+# 
+# tuʔux̌ʷəxʷ tiʔəʔ cədiɬ sp’ic’ikʷ
+# tu=ʔux̌ʷ=axʷ	tiʔəʔ	cədiɬ	sp’ic’ikʷ
+# past=go=now	prox	he	Diaper.Child
+# SSP: ‘Diaper Child went.’
+# 
+# tuʔux̌ʷəxʷ
+# tu=ʔux̌ʷ=axʷ
+# past=go=now
+# ‘He went … .’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔal tiʔiɬ bədč’uʔəxʷ basləx̌il
+# ʔal	tiʔiɬ	bə=dəč’uʔ=axʷ	bə=ʔas–ləx̌–il
+# at	dist	add=one=now	add=stat–light–inch
+# SSP: ‘… the next day.’
+# 
+# gʷəl ʔux̌ʷ tiʔəʔ sp’ic’ikʷ
+# gʷəl	ʔux̌ʷ	tiʔəʔ	sp’ic’ikʷ
+# sconj	go	prox	Diaper.Child
+# ‘And Diaper Child goes,’
+# 
+# ʔuʔatəbədəxʷ kʷaʔ ti bəščəb
+# ʔu–ʔatəbəd=axʷ	kʷaʔ	ti	bəščəb
+# pfv–die=now	ptcl	spec	mink
+# ‘However, Mink dies.’
+# 
+# x̌ʷul’əxʷ ʔudᶻək’ʷucut
+# x̌ʷul’=axʷ	ʔu–dᶻək’ʷu–t–sut
+# just=now	pfv–travel–ics–refl
+# ‘He drifts.’ 
+# 
+# ʔuˑx̌ʷ tiʔəʔ diʔəˑʔ
+# ʔux̌ʷ	tiʔəʔ	diʔəʔ
+# go	prox	here
+# ‘He goes.’
+# 
+# gʷəl ʔəƛ’ tiʔəʔ sp’ic’iˑkʷ
+# gʷəl	ʔəƛ’	tiʔəʔ	sp’ic’ikʷ
+# sconj	come	prox	Diaper.Child
+# ‘And Diaper Child comes.’
+# 
+# gʷəl ɬaˑx̌il
+# gʷəl	ɬax̌–il
+# sconj	dark–inch
+# ‘And it gets dark.’
+# 
+# x̌ʷuˑl’ ləɬčil dxʷʔal tiʔəʔ ʔiišəds
+# x̌ʷul’	lə=ɬčil	dxʷ–ʔal	tiʔəʔ	ʔiišəd–s
+# just	prog=arrive	cntrpt–at	prox	relatives–3po
+# ‘He arrives where his people are.’
+# 
+# huy x̌aʔx̌aʔx̌ayəbcutəxʷ tiʔiʔəʔ
+# huy	x̌aʔ–x̌aʔ–x̌ayəb–t–sut=axʷ	tiʔ–iʔəʔ
+# sconj	attn–attn–laugh–ics–refl=now	pl–prox
+# ‘Then they laugh.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# huy tubəʔəx̌idəxʷ čəxʷ
+# huy	tu=bə=ʔəx̌id=axʷ	čəxʷ
+# sconj	past=add=what.happened=now	2sg.sub
+# SSP: ‘ “What was the matter with you then?’
+# 
+# tubəʔəx̌idəxʷ dəxʷsƛ’al’al’s tiʔəʔ adsɬax̌iltxʷ
+# tu=bə=ʔəx̌id=axʷ	dəxʷ=s=ƛ’al’–al’=s	tiʔəʔ
+# past=add=what.happened=now	adnm=nm=dim.eff–early=3po	prox
+# ad=s=ɬax̌–il–txʷ
+# 2sg.po=nm=light–inch–ecs
+# ‘ “What was the matter that you made it get dark early?” ’
+# 
+# tiləb ʔucut tiʔəʔ diʔəʔ sp’ic’ikʷ
+# tiləb	ʔu–cut	tiʔəʔ	diʔəʔ	sp’ic’ikʷ
+# immediately	pfv–say	prox	here	Diaper.Child
+# ‘Right away, Diaper Child says,’
+# 
+# həʔhuʔ diɬ sixʷ ti xʷiʔ ləhaʔɬ bəščəb
+# həʔhuʔ	diɬ	sixʷ	ti	xʷiʔ	lə–haʔɬ	bəščəb
+# ha	foc	ptcl	spec	neg	neg–good	mink
+# ‘ “Ha, it was that no-good Mink.’
+# 
+# diɬ tiʔiɬ ƛ’uhuhuyucut
+# diɬ	tiʔiɬ	ƛ’u=hu–huyu–t–sut
+# foc	dist	hab=attn–made–ics–refl
+# ‘ “He is the one who acted up.” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ƛ’učaˑdəxʷ ʔal ti ʔaɬx̌adulgʷədxʷ kʷi sʔas
+# ƛ’u=čad=axʷ	ʔal	ti	ʔaɬx̌ad•ulgʷədxʷ	kʷi	s=ʔa=s
+# hab=where=now	at	spec	downstream•land	rem	nm=be.there=3po
+# SSP: ‘ “Where is he now in the sky?” ’
+# 
+# diɬ tuʔəƛ’
+# diɬ	tu=ʔəƛ’
+# foc	past=come
+# ‘ “He came.’
+# 
+# tuləx̌əd tiʔəʔ swatixʷtəd
+# tu=ləx̌–t	tiʔəʔ	swatixʷtəd
+# past=light–ics	prox	country
+# ‘ “He lit up the land.’
+# 
+# gʷəl x̌ʷul’ ʔusaxʷəb
+# gʷəl	x̌ʷul’	ʔu–saxʷəb
+# sconj	just	pfv–jump
+#  ‘ “And he just jumped,’
+# 
+# gʷəl ƛ’al’ ʔacgʷiɬ
+# gʷəl	ƛ’al’	ʔac•gʷiɬ
+# sconj	also	center•canoe
+# ‘ “And he landed midstream’
+# 
+# gʷəl ʔux̌ʷ, p’əq’ʷ
+# gʷəl	ʔux̌ʷ	p’əq’ʷ
+# sconj	go	drift
+# ‘ “And he goes, he drifts.’
+# 
+# ʔuʔatəbəd xʷuʔələʔ
+# ʔu–ʔatəbəd	xʷuʔələʔ
+# pfv–die	maybe
+# ‘ “I guess he died,” ’
+# 
+# cutəb tiʔəʔ bəščəd
+# cut–t–b	tiʔəʔ	bəščəd
+# say–ics–pass	prox	mink
+# ‘Mink is spoken about.’
+# 
+# xʷiʔ uʔxʷ kʷi bəsʔux̌ʷ ʔə tiʔəʔ cədiɬ sqaʔs          # ssp-starChild-85pc-mono: 1:44:965
+# xʷiʔ	uʔxʷ	kʷi	bə=s=ʔux̌ʷ	ʔə	tiʔəʔ	cədiɬ	sqaʔ–s
+# neg	ptcl	rem	add=nm=go	Pr	prox	he	older.sibling–3po
+# ‘His older brother hasn’t gone.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# xʷiʔ uʔxʷ gʷəsʔux̌ʷ ʔə tiʔəʔ diʔəʔ sɬukʷalb
+# xʷiʔ	uʔxʷ	gʷə=s=ʔux̌ʷ	ʔə	tiʔəʔ	diʔəʔ	sɬukʷalb
+# neg	ptcl	sbj=nm=go	Pr	prox	here	moon
+# SSP: ‘The Moon hasn’t gone yet.’
+# 
+# ƛ’al’ ƛ’ubələcuɬiɬəčil dxʷʔal tiʔəʔ cədiɬ ʔalʔals əlgʷəʔ dəxʷəsq’ʷuʔs
+# ƛ’al’	ƛ’u=bə=ləcu–ɬi–ɬəčil	dxʷ–ʔal	tiʔəʔ	cədiɬ	ʔalʔal–s
+# also	hab=add=cont–attn–arrive	cntrpt–at	prox	he	house–3po
+# əlgʷəʔ	dəxʷ=ʔas–q’ʷuʔ=s
+# pl	adnm=stat–gather=3po
+# ‘He keeps coming back to the house where they are gathered.’
+# 
+# tatabəbəxʷ tiʔiʔəʔ
+# tatabəb=axʷ	tiʔ–iʔəʔ
+# confer=now	pl–prox
+# ‘They confer.’
+# 
+# tatabəbəxʷ tiʔəʔ sp’ic’ikʷ ʔi tiʔəʔ sqaʔs
+# tatabəb=axʷ	tiʔəʔ	sp’ic’ikʷ	ʔi	tiʔəʔ	sqaʔ–s
+# confer=now	prox	Diaper.Child	conj	prox	older.sibling–3po
+# ‘Diaper Child and his brother confer.’
+# 
+# ʔu, ɬudaʔadəxʷ čəɬ haw’əʔ tiʔəʔ stul’tuləkʷ   # ssp-starChild-85pc-mono 2:15:569 
+# ʔu	ɬu=daʔa–t=axʷ	čəɬ	haw’əʔ	tiʔəʔ	stul’–tuləkʷ
+# intj	irr=name–ics=now	1pl.po	ptcl	prox	dstr–river
+# ‘ “Oh, I guess we had better name the rivers.’
+# 
+#  həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ɬudaʔad čəɬ tiʔəʔ stuləkʷ
+# ɬu=daʔa–t	čəɬ	tiʔəʔ	stuləkʷ
+# irr=named–ics	1pl.po	prox	river
+# SSP: ‘ “We’ll name the rivers.’
+# 
+# gʷəl ɬudxʷšac’qid
+# gʷəl	ɬu=dxʷ–šac’•qid
+# sconj	irr=ctd–end•voice
+# ‘ “And they will have names.’
+# 
+# ɬudaʔad čəɬ kʷi dᶻəɬixʷ, kʷi dᶻəɬixʷ, kʷi dᶻəɬixʷ ʔal kʷi dəč’aʔkʷbixʷ
+# ɬu=daʔa–t	čəɬ	kʷi	dᶻəɬixʷ	kʷi	dᶻəɬixʷ	kʷi	dᶻəɬixʷ	ʔal	kʷi
+# irr=named–ics	1pl.po	rem	creek	rem	creek	rem	creek	at	rem
+# dəč’aʔkʷbixʷ
+# different.tribe
+# ‘ “We’ll name the streams, the creeks, the creeks belonging to other tribes.’
+# 
+# ɬudaʔad čəɬ tiʔəʔ diʔəʔ, tiʔəʔ dəč’aʔkʷbixʷ
+# ɬu=daʔa–t	čəɬ	tiʔəʔ	diʔəʔ	tiʔəʔ	dəč’aʔkʷbixʷ
+# irr=named–ics	1pl.po	prox	here	prox	different.tribe
+# ‘ “We’ll name these, these other tribes.’
+# 
+# ʔi, gʷəl ɬuləliʔucid
+# ʔi	gʷəl	ɬu=ləliʔ•ucid
+# yes	sconj	irr=foreign•language
+# ‘ “Yes, they will have different languages …” ’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# taʔaʔ dəč’aʔkʷbixʷ
+# taʔaʔ	dəč’aʔkʷbixʷ
+# dist:unq.dma	different.tribe
+# SSP: ‘ “… those other tribes.” ’
+# 
+# cutəb ʔə tiʔəʔ ʔiɬluƛ’
+# cut–t–b	ʔə	tiʔəʔ	ʔiɬ–luƛ’
+# say–ics–pass	Pr	prox	prtv–old
+# ‘He says to the older one,’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ɬudaʔadəxʷ čəɬ tul’ʔal tiʔəʔ diʔəʔ
+# ɬu=daʔa–t=axʷ	čəɬ	tul’–ʔal	tiʔəʔ	diʔəʔ
+# irr=name–ics=now	1pl.po	cntrfg–at	prox	here
+# SSP: ‘ “We’ll name them all now from here.’
+# 
+# ɬux̌čaʔkʷbixʷədəxʷ čəɬ
+# ɬu=x̌–čaʔkʷ•bixʷ–t=axʷ	čəɬ
+# irr=ctd–seaward•cluster–ics=now	1pl.po
+# ‘ “We’ll start counting them off now.” ’
+# 
+# daʔad tiʔəʔ q’ʷulƛ’əl
+# daʔa–t	tiʔəʔ	q’ʷulƛ’əl
+# named–ics	prox	Point.Roberts
+# ‘They named Point Roberts.’
+# 
+# daʔad tiʔəʔ diʔəʔ sʔəbac
+# daʔa–t	tiʔəʔ	diʔəʔ	sʔəbac
+# named–ics	prox	here	Sumas
+# ‘They named Sumas.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# daʔad tiʔəʔ bəšxʷsaʔq   # ssp-starChild-85pc-mono: 3:07:294
+# daʔa–t	tiʔəʔ	bəšxʷsaʔq
+# named–ics	prox	Nooksack
+# SSP: ‘They named Nooksack.’
+# 
+# daʔad tiʔəʔ dxʷləbəyʔ
+# daʔa–t	tiʔəʔ	dxʷləbəyʔ
+# named–ics	prox	Lummi
+# ‘They named Lummi.’
+# 
+# daʔad tiʔəʔ dxʷʔahaʔ
+# daʔa–t	tiʔəʔ	dxʷʔahaʔ
+# named–ics	prox	Upper.Samish
+# ‘They named Upper Samish.’
+# 
+# daʔad tiʔəʔ dxʷɬaʔɬaʔus
+# daʔa–t	tiʔəʔ	dxʷɬaʔɬaʔus
+# named–ics	prox	Bayview
+# ‘They named Bayview;’
+# 
+# daʔad tiʔəʔ čəčabqəb, tiʔəʔ sʔabš, tiʔəʔ swədəbš, tiʔəʔ gʷəɬ sqaǰət stuləkʷ, tiʔəʔ kikiʔalus, tiʔəʔ qʷadᶻaʔkʷbixʷ, tiʔəʔ sdəhubš, tiʔəʔ sq’ixʷəbš, tiʔəʔ sdukʷalbixʷ, tiʔəʔ dxʷdəwʔabš, tiʔəʔ puyalapəbš
+# daʔa–t	tiʔəʔ	čəčabqəb	tiʔəʔ	sʔabš	tiʔəʔ	swədəbš	tiʔəʔ
+# named–ics	prox	Lower.Guemes	prox	Samish	prox	Swinomish	prox
+# gʷəɬ	sqaǰət	stuləkʷ	tiʔəʔ	kikiʔalus	tiʔəʔ	qʷadᶻaʔkʷbixʷ	tiʔəʔ
+# assc	Skagit	river	prox	Kikialus	prox	Camano.Isle	prox
+# sdəhubš	tiʔəʔ 	sq’ixʷəbš	tiʔəʔ	sdukʷalbixʷ	tiʔəʔ
+# Snohomish	prox	Monro.Area	prox	Snoqualmie	prox
+# dxʷdəwʔabš	tiʔəʔ	puyalapəbš
+# Duwamish	prox	Puyallup
+# ‘They named Lower Guemes Island, Samish, Swinomish, Skagit, Kikiallus, Northeast Camano Island, Snohomish, the Monro Area, Snoqualmie, Duwamish, Puyallup.’
+# 
+# x̌ʷul’ x̌əɬ ti diɬgʷas tiʔəʔ sk’ʷidaʔkʷbixʷ
+# x̌ʷul’	x̌əɬ‿ti	diɬgʷas	tiʔəʔ	sk’ʷid•aʔkʷ•bixʷ
+# just	seemingly	alike	prox	how.much•group•cluster
+# ‘ “These will be kind of alike.’
+# 
+# tux̌ʷ (h)uy ləliʔ kʷi sudaʔads kʷi bək’ʷ stab 
+# tux̌ʷ	huy	ləliʔ	kʷi	s=ʔu–daʔa–t=s	kʷi	bək’ʷ	stab
+# just	sconj	different	rem	nm=pfv–named–ics=3po	rem	all	what
+# ‘ “Only they will call everything differently.’
+# 
+# lələliʔil  # ssp-starChild-85pc-mono 3:51:823
+# lə–ləliʔ–il
+# prog–different–inch
+# ‘ “They will be a little different.’
+# 
+# ƛ’al’ basʔistəʔ tiʔiɬə čəčabqab
+# ƛ’al’	bə=ʔas–ʔistəʔ	tiʔiɬə	čəčabqab
+# also	add=stat–be.like	dist	Lower.Guemes
+# ‘ “The Lower Guemes branch of Samish will be similar also.’
+# 
+# ƛ’al’ x̌əɬ ti x̌ʷul’ diɬgʷas 
+# ƛ’al’	x̌əɬ‿ti	x̌ʷul’	diɬgʷas
+# also	seemingly	just	alike
+# ‘ “It will be similar also,’
+# 
+# gʷəl tux̌ʷ (h)uy ləliʔ tiʔiɬ xʷgʷədgʷatəd ʔə tiʔiɬ diič’uʔ 
+# gʷəl	tux̌ʷ	huy	ləliʔ	tiʔiɬ	xʷgʷədgʷatəd	ʔə	tiʔiɬ	diič’uʔ
+# sconj	just	sconj	different	dist	voice	Pr	dist	one:hmn
+# ‘ “And their speech will be a different one.” ’
+# 
+# 
+#    # 7:09:473     ssp-starChild-85pc-mono  5:03:836
+# tiʔiɬ bəkʷšab, tiʔiɬ qəw’čəd, tiʔiɬ st’ək’iʔ, tiʔiɬ st’əbšyəl, tiʔiɬ ʔəytəʔ, tiʔiɬ yəqʷɬtəʔ
+# tiʔiɬ	bəkʷšab	tiʔiɬ	qəw’čəd	tiʔiɬ	st’ək’iʔ	tiʔiɬ	st’əbšyəl
+# dist	Muckleshoot	dist	Cowichan	dist	Stikine	dist	Alaskans
+# tiʔiɬ	ʔəytəʔ	tiʔiɬ	yəqʷɬtəʔ
+# dist	Haida	dist	yəqʷɬtəʔ
+# ‘The Muckleshoot, the Cowichan, the Stikine, the Alaskans, the Haida, the yəqʷɬtəʔ.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# diɬ bək’ʷ tudaʔad dxʷʔal sxʷʔəƛ’gʷas
+# diɬ	bək’ʷ	tu=daʔa–t	dxʷ–ʔal	s=xʷ–ʔəƛ’•gʷas=s
+# foc	all	past=name–ics	cntrpt–at	nm=ctd–come•pair=3po
+# SSP: ‘These were all named until it was finished.’
+# 
+# ʔi diɬəxʷ ƛ’udəx̌ʷiličəxʷ ʔə tiʔiɬ ƛ’uləcuʔiyəhub
+# ʔi	diɬ=axʷ	ƛ’u=dəxʷ=x̌ʷilič=axʷ	ʔə	tiʔiɬ	ƛ’u=ləcu–ʔiyəhub
+# yes	foc=now	hab=adnm=kneel=now	Pr	dist	hab=cont–tell.story
+# ‘That is why storytellers used to kneel.’
+# 
+# x̌ʷiličəxʷ ʔə tsiʔiɬ tudkiaʔ
+# x̌ʷilič=axʷ	ʔə	tsiʔiɬ	tu=d–kiaʔ
+# kneel=now	Pr	dist:fem	past=1sg.po–grandmother
+# ‘My late grandmother knelt.’
+# 
+# daʔatəbəxʷ tiʔəʔ gʷəɬ sqaǰət stuləkʷ  # ssp-starChild-85pc-mono  4:26:514
+# daʔa–t–b=axʷ	tiʔəʔ	gʷəɬ	sqaǰət	stuləkʷ
+# name–ics–pass=now	prox	assc	Skagit	river
+# ‘The Skagit river is named.’
+# 
+# ləq’aɬidgʷas ʔə tiʔəʔ swatixʷtəd 
+# ləq’aɬ•gʷas	ʔə	tiʔəʔ	swatixʷtəd
+# be.in.right.place•pair	Pr	prox	country
+# ‘It was right next to the land.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# tiʔəʔ gʷəɬ sqaǰət stuləkʷ 
+# tiʔəʔ	gʷəɬ	sqaǰət	stuləkʷ
+# prox	assoc	Skagit	river
+# SSP: ‘It belongs with the Skagit River.’
+# 
+# daʔadəxʷ tul’al tadiʔ diʔiʔ  # waem_side2  7:44:137
+# daʔa–t=axʷ	tul’–ʔal	tadiʔ	diʔiʔ
+# name–ics=now	cntrfg–at	dist.dma	yonder
+# ‘They name them from way over there.’
+# 
+# ʔəwʔəwalus, tiʔəʔ dx̌ʷitx̌ʷitəb, tiʔəʔ dxʷɬuaykʷ 
+# ʔəwʔəwalus	tiʔəʔ	dxʷx̌ʷitx̌ʷitəb	tiʔəʔ	dxʷɬuaykʷ
+# Camano	prox	dxʷx̌ʷitx̌ʷitəb	prox	dxʷɬuaykʷ
+# ‘Camano, dxʷx̌ʷitx̌ʷitəb, dxʷɬuaykʷ.’
+# 
+# daʔad tiʔəʔ qa   # wauem_side2  7.59.231
+# daʔa–t	tiʔəʔ	qa
+# named–ics	prox	many
+# ‘They name lots.’
+# 
+# tiʔəʔ xʷiʔ gʷəsudaʔads
+# tiʔəʔ	xʷiʔ	gʷə=s=ʔu–daʔa–t=s
+# prox	neg	sbj=nm=pfv–name–ics=3po
+# ‘There aren’t many that they didn’t name.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+#    # 8:06:833
+# k’ʷak’ʷasalap, k’ʷasalap, dx̌ʷitx̌ʷitəb, [dxʷ]ɬuaykʷ, dxʷduʔdkʷəšəd, dxʷduʔdkʷəšəd, ʔidigʷatəs tiʔəʔ ʔal tiʔacəc 
+# k’ʷak’ʷasalap	k’ʷasalap	dxʷx̌ʷitx̌ʷitəb	dxʷɬuaykʷ	dxʷ–dudkʷəšəd
+# k’ʷak’ʷasalap	k’ʷasalap	dxʷx̌ʷitx̌ʷitəb	dxʷɬuaykʷ	ctd–Demock.Point
+# dxʷ–dudkʷəšəd	ʔidigʷat=as	tiʔəʔ	ʔal	tiʔacəc
+# ctd–Demock.Point	say.what=3sbrd	prox	at	unq
+# SSP: ‘k’ʷak’ʷasalap, k’ʷasalap, dxʷx̌ʷitx̌ʷitəb, dxʷɬuaykʷ, dxʷdudkʷəšəd, what do they call that place there?’
+# 
+# dəbəxʷ tuʔal ti ʔəcəladiʔ
+# dəb=axʷ	tu=ʔal	ti	ʔəcəladiʔ
+# instead=now	past=at	spec	Utsalady
+# ‘Instead of what was at Utsalady.’
+# 
+# tigʷəbid
+# tigʷəbid
+# tigʷəbid
+# UW: ‘tigʷəbid.’
+# 
+# tigʷəbid
+# tigʷəbid
+# tigʷəbid
+# ‘tigʷəbid.’
+# 
+# tigʷəbid 
+# tigʷəbid
+# tigʷəbid
+# SSP: ‘tigʷəbid.’
+# 
+# diɬəxʷ tusdaʔads tiʔəʔ diʔəʔ  # ssp-starChild-85pc-mono 5:18:581
+# diɬ=axʷ	tu=s=daʔa–t=s	tiʔəʔ	diʔəʔ
+# foc=now	past=nm=name–ics=3po	prox	here
+# ‘That is what they named it.’
+# 
+# gʷəl dəbaxʷ diɬəxʷ ʔəcəladiʔtub ʔə tə pastəd   
+# gʷəl	dəb=axʷ	diɬ=axʷ	ʔəcəladiʔ–txʷ–b	ʔə	tə	pastəd
+# sconj	instead=now	foc=now	Utsalady–ecs–pass	Pr	nspec	white.person
+# ‘And instead now it is Utsalady, what the white people call it.’
+# 
+# ʔahəxʷ tiʔəʔ diʔəʔ ʔəcəladiʔ
+# ʔa=axʷ	tiʔəʔ	diʔəʔ	ʔəcəladiʔ
+# be.there=now	prox	here	Utsalady
+# ‘Then there is Utsalady.’
+# 
+# ʔahəxʷ tiʔəʔ diʔəʔ x̌əɬqʷuʔ
+# ʔa=axʷ	tiʔəʔ	diʔəʔ	x̌əɬqʷuʔ
+# be.there=now	prox	here	x̌əɬqʷuʔ
+# ‘Then there is x̌əɬqʷuʔ.’
+# 
+# ʔahəxʷ tiʔəʔ sq’ayups
+# ʔa=axʷ	tiʔəʔ	sq’ayups
+# be.there=now	prox	sq’ayups
+# ‘There is sq’ayups.’
+# 
+# ʔahəxʷ tiʔəʔ tul’aləxʷ tiʔəʔ ʔilucid ti sdaʔ ʔə tiʔəʔ, tiʔiɬ stusp’ic’ikʷ 
+# ʔa=axʷ	tiʔəʔ	tul’–ʔal=axʷ	tiʔəʔ	ʔil•ucid	ti
+# be.there=now	prox	cntrfg–at=now	prox	side•mouth	spec
+# sdaʔ	ʔə	tiʔəʔ	tiʔiɬ	s=tu=sp’ic’ikʷ
+# name	Pr	prox	dist	nm=past=Diaper.Child
+# ‘From the water’s edge now is where he, the one who had been Diaper Child, named places.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# daʔadəxʷ əlgʷəʔ tiʔəʔ diʔəʔ x̌ʷəlalič
+# daʔa–t=axʷ	əlgʷəʔ	tiʔəʔ	diʔəʔ	x̌ʷəlalič
+# name–ics=now	pl	prox	here	x̌ʷəlalič
+# SSP: ‘They name this x̌ʷəlalič.’
+# 
+# daʔadəxʷ əlgʷəʔ tiʔəʔ stuʔtuʔtələkʷ             # wauem_side2  7=8:55:043
+# daʔa–t=axʷ	əlgʷəʔ	tiʔəʔ	stuʔ–tuʔ–tələkʷ
+# name–ics=now	pl	prox	attn–attn–river
+# ‘They name the little rivers.’
+# 
+# balbaliic čəd gʷatəxʷəs ti sdaʔdaʔ ʔə tiʔiʔiɬ 
+# bal–bali–c	čəd	gʷat=axʷ=as	ti	sdaʔ–daʔa	ʔə	tiʔ–iʔiɬ
+# dstr–forget–altv	1sg.sub	who=now=3sbrd	spec	dstr–name	Pr	pl–dist
+# ‘I’ve forgotten what all of their names were.’
+# 
+# ʔəbadəč   # ssp-starChild-85pc-mono 5:55:514
+# ʔəbadəč
+# ʔəbadəč
+# ‘ʔəbadəč.’
+# 
+# diɬ dəč’uʔ
+# diɬ	dəč’uʔ
+# foc	one
+# ‘That is one.’
+# 
+# ʔudaʔatəb tiʔəʔ ʔabadəč
+# ʔu–daʔa–t–b	tiʔəʔ	ʔabadəč
+# pfv–named–ics–pass	prox	ʔabadəč
+# ‘This ʔabadəč is named.’
+# 
+# #--------------------------------------------------------------------------------
+# # wauem_2005001-hilbert_0976_side2: 9:17:645
+# #--------------------------------------------------------------------------------
+# 
+# ʔux̌ʷ=axʷ	tiʔəʔ	cədiɬ	dᶻəɬ–dᶻəɬixʷ	saliʔ
+# go=now	prox	he	dstr–creek	two
+# ‘Now comes the creeks, two.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔəsbaliic [čəd]
+# ʔas–bali–c	čəd
+# stat–forget–altv	1sg.sub
+# SSP: ‘I’ve forgotten them.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ dxʷsigʷucid
+# ʔux̌ʷ=axʷ	tiʔəʔ	dxʷsigʷucid
+# go=now	prox	dxʷsigʷucid
+#  ‘Now comes dxʷsigʷucid,’
+# 
+# ƛ’udaʔatəb 
+# ƛ’u=daʔa–t–b
+# hab=named–ics–pass
+# ‘It is called (that).’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ kikiʔalusali
+# ʔux̌ʷ=axʷ	tiʔəʔ	kikiʔalusali
+# go=now	prox	Kikiallus
+# ‘Now comes Kikiallus.’
+# 
+# ʔa xʷuʔələʔ tiʔiʔiɬ sdaʔdaʔs
+# ʔa	xʷuʔələʔ	tiʔ–iʔiɬ	sdaʔ–daʔs
+# be.there	maybe	pl–dist	dstr–name
+# ‘I suppose there are lots of names.’
+# 
+# tux̌ʷ čəd ʔəsbaliic
+# tux̌ʷ	čəd	ʔas–bali–c
+# just	1sg.sub	stat–forget–altv
+# ‘Unfortunately I’ve forgotten them.’
+# 
+# ʔuˑx̌ʷəxʷ tiʔəʔ diʔəʔ ʔaɬx̌adqid ʔə qʷaʔalič
+# ʔux̌ʷ=axʷ	tiʔəʔ	diʔəʔ	ʔaɬx̌ad•qid	ʔə	qʷaʔalič
+# go=now	prox	here	downstream•top	Pr	qʷaʔalič
+# ‘Now comes the upriver area of qʷaʔalič.’
+# 
+# qa tiʔiɬ ʔəsbaliic čəd [kʷi] sdaʔdaʔ ʔə tiʔəʔ stul’tuləkʷ
+# qa	tiʔiɬ	ʔas–bali–c	čəd	kʷi	sdaʔ–daʔa	ʔə	tiʔəʔ
+# lots	dist	stat–forget–altv	1sg.sub	rem	dstr–name	Pr	prox
+# stul’–tuləkʷ
+# dstr–river
+# ‘There are so many I’ve forgotten, the names of the rivers.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ diʔəʔ q’ʷaq’ʷaluʔ   # ssp-starChild-85pc-mono  6:37:672
+# ʔux̌ʷ=axʷ	tiʔəʔ	diʔəʔ	q’ʷaq’ʷaluʔ
+# go=now	prox	here	q’ʷaq’ʷaluʔ
+# SSP: ‘Now comes q’ʷaq’ʷaluʔ.’
+# 
+# həbuʔ kʷi gʷadsč’abč’abyiqʷəb
+# həbuʔ	kʷi	gʷə=ad=s=č’ab–č’abyiqʷ–b
+# haboo	rem	sbj=2sg.po=nm=dstr–great.grandparent–md
+# AS: ‘Say haboo that you will have great-grandchildren!’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ diʔəʔ susut’iʔəʔəxʷ
+# ʔux̌ʷ=axʷ	tiʔəʔ	diʔəʔ	susut’iʔəʔ=axʷ
+# go=now	prox	here	Mt.Vernon=now
+# SSP: ‘Now comes Mount Vernon.’
+# 
+# xʷq’ʷiq’ʷus
+# xʷ–q’ʷiq’ʷ•us
+# ctd–white•face
+# ‘xʷq’ʷiq’ʷus.’
+# 
+# xʷq’ʷiq’ʷus tusdaʔs
+# xʷ–q’ʷiq’ʷ•us	tu=sdaʔ–s
+# ctd–white•face	past=name–3po
+# ‘xʷq’ʷiq’ʷus was its name.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ xʷq’ʷubtax̌a[d] 
+# ʔux̌ʷ=axʷ	tiʔəʔ	xʷq’ʷubtax̌ad
+# go=now	prox	xʷq’ʷubtax̌ad
+# ‘Now comes xʷq’ʷubtax̌ad.’
+# 
+# ʔux̌ʷəxʷ č’ač’xʷəx̌aʔ
+# ʔux̌ʷ=axʷ	č’ač’xʷəx̌aʔ
+# go=now	č’ač’xʷəx̌aʔ
+# ‘Now comes čač’xʷəx̌aʔ.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ diʔəʔ dxʷbaqʷas, q’ʷəbtax̌a[d] xʷuʔələʔ  # ssp-starChild-85pc-mono: 7:08:125
+# ʔux̌ʷ=axʷ	tiʔəʔ	diʔəʔ	dxʷbaqʷas	q’ʷəbtax̌ad	xʷuʔələʔ
+# go=now	prox	here	dxʷbaqʷas	q’ʷəbtax̌ad	maybe
+# ‘Then comes this dxʷbaqʷas, maybe it is q’ʷəbtax̌ad.’
+# 
+# ʔux̌ʷəxʷ tiʔə x̌idubuʔ
+# ʔux̌ʷ=axʷ	tiʔəʔ	x̌idubuʔ
+# go=now	prox	x̌idubuʔ
+# ‘Now comes this x̌idubuʔ.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ xʷq’aytəd
+# ʔux̌ʷ=axʷ	tiʔəʔ	xʷq’aytəd
+# go=now	prox	xʷq’ayted
+# ‘Now comes this xʷq’ayted.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ sčačigʷəqs
+# ʔux̌ʷ=axʷ	tiʔəʔ	sčačigʷəqs
+# go=now	prox	sčačigʷəqs
+# ‘Now comes this sčačigʷəqs.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ dxʷč’itqsqəd, pəlgʷusali
+# ʔux̌ʷ=axʷ	tiʔəʔ	dxʷč’itqsqəd	pəlgʷusali
+# go=now	prox	dxʷč’itqsqəd	pəlgʷusali
+# ‘Now comes this dxʷč’itqsqəd, pəlgʷusali.’
+# 
+# diɬəxʷ tudaʔatəb ʔə tiʔiɬ tuluƛ’luƛ’   # ssp-starChild-85pc-mono 7:30:983
+# diɬ=axʷ	tu=daʔa–t–b	ʔə	tiʔiɬ	tu=luƛ’–luƛ’
+# foc=now	past=name–ics–pass	Pr	dist	past=dstr–old
+# ‘These were all named by those elders.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ diʔəʔ x̌ʷix̌ʷalič
+# ʔux̌ʷ=axʷ	tiʔəʔ	diʔəʔ	x̌ʷix̌ʷalič
+# go=now	prox	here	x̌ʷix̌ʷalič
+# SSP: ‘Now comes x̌ʷix̌ʷalič.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ x̌ʷəlacu
+# ʔux̌ʷ=axʷ	tiʔəʔ	x̌ʷəlacu
+# go=now	prox	x̌ʷəlacu
+# ‘Now comes x̌ʷəlacu.’
+# 
+# ʔux̌ʷəxʷ tiʔəʔ čičəwucid
+# ʔux̌ʷ=axʷ	tiʔəʔ	čičəwucid
+# go=now	prox	čičəwucid
+# ‘Now comes čičəwucid.’
+# 
+# ʔux̌ʷəxʷ tiʔə xʷixʷəcilax̌ad, kəkəwaʔcuʔ, yubəčal’txʷ
+# ʔux̌ʷ=axʷ	tiʔəʔ	xʷixʷəcilax̌ad	kəkəwaʔcuʔ	yubəčal’txʷ
+# go=now	prox	xʷixʷəcilax̌ad	kəkəwaʔcuʔ	yubəčal’txʷ
+# ‘Now comes this xʷixʷəcilax̌ad, kəkəwaʔcuʔ, yubəčal’txʷ.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬə
+# ʔux̌ʷ=axʷ	tiʔiɬə
+# go=now	dist
+# SSP: ‘Now comes this ...’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# gʷat əw’ə tiʔiɬ sdaʔ ʔə tiʔiɬ ʔal l’yman 
+# gʷat	əw’ə	tiʔiɬ	sdaʔ	ʔə	tiʔiɬ	ʔal	l’yman
+# who	ptcl	dist	name	Pr	dist	at	Lyman
+# ‘What in the world is the name of that (place) at Lyman?’
+# 
+# ʔəsbal’baliic tiʔiɬ sdaʔdaʔ ʔə tiʔiʔiɬ          # ssp-starChild-85pc-mono 8:05:945
+# ʔas–bal’–bali–c	tiʔiɬ	sdaʔ–daʔa	ʔə	tiʔ–iʔiɬ
+# stat–dstr–forget–altv	dist	dstr–name	Pr	pl–dist
+# ‘I’ve forgotten their names.’
+# 
+# ʔəsbaliicəxʷ
+# ʔas–bali–c=axʷ
+# stat–forget–altv=now
+# UW: ‘She forgets.’
+# 
+# x̌ʷul’ čəxʷ ʔuʔux̌ʷtxʷ
+# x̌ʷul’	čəxʷ	ʔu–ʔux̌ʷ–txʷ
+# just	2sg.sub	pfv–go–ecs
+# AS: ‘Just go ahead,’
+# 
+# x̌ʷul’ p’aƛ’aƛ’ gʷəsbaliic čəxʷ
+# x̌ʷul’	p’aƛ’aƛ’	gʷə=s=bali–c	čəxʷ
+# just	worthless	sbj=nm=forget–altv	2sg.sub
+# ‘It doesn’t matter what you’ve forgotten.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ ʔal č’ič’əx̌əb  # 85pc 8:07:295
+# ʔux̌ʷ=axʷ	tiʔiɬ	ʔal	č’ič’əx̌əb
+# go=now	dist	at	č’ič’əx̌əb
+# SSP: ‘Now comes č’ič’əx̌əb.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ ʔal səxʷyuqʷəb
+# ʔux̌ʷ=axʷ	tiʔiɬ	ʔal	səxʷyuqʷəb
+# go=now	dist	at	səxʷyuqʷəb
+# ‘Now comes that at səxʷyuqʷəb.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ q’ədᶻɬx̌ac
+# ʔux̌ʷ=axʷ	tiʔiɬ	q’ədᶻɬx̌ac
+# go=now	dist	q’ədᶻɬx̌ac
+# ‘Now comes q’ədᶻx̌ac.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ slux̌
+# ʔux̌ʷ=axʷ	tiʔiɬ	slux̌
+# go=now	dist	slux̌
+# ‘Now comes  slux̌.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ sx̌adᶻx̌adᶻədis, ƛ’iƛ’ɬqi[d], dxʷqʷadᶻbucid
+# ʔux̌ʷ=axʷ	tiʔiɬ	sx̌adᶻx̌adᶻədis	ƛ’iƛ’ɬqid	dxʷqʷadᶻbucid
+# go=now	dist	sx̌adᶻx̌adᶻədis	ƛ’iƛ’ɬqid	dxʷqʷadᶻbucid
+# ‘Now comes sx̌adᶻx̌adᶻədis, ƛ’iƛ’ɬquid, dʷqʷadᶻbucid.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# SSP: ʔuqʷalap, dxʷqʷadᶻbucid, hadᶻaligʷəd, dxʷuptəd, sx̌ʷulux̌ʷ, šuƛ’, dxʷʔihigʷəb, diʔus
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# liɬq’ix̌ʷəxʷ čəd  # ssm 85pc 8:52:050
+# liɬ•q’ix̌ʷ=axʷ	čəd
+# located•upstream=now	1sg.sub
+# SSP: ‘I’m upriver now.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# UW: ‘Haboo.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ ləc’ililəb
+# ʔux̌ʷ=axʷ	tiʔiɬ	ləc’ililəb
+# go=now	dist	ləc’ililəb
+# ‘Now comes this ləc’ililəb,’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ sp’aʔdaq
+# ʔux̌ʷ=axʷ	tiʔiɬ	sp’aʔdaq
+# go=now	dist	Channel Gorge
+# ‘Now comes this Channel Gorge.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ ʔilucid ʔə dxʷqəlb
+# ʔux̌ʷ=axʷ	tiʔiɬ	ʔil•ucid	ʔə	dxʷqəlb
+# go=now	dist	side•mouth	Pr	Baker River
+# ‘Then, on the banks of Baker River.’
+# 
+# AS: Up in concrete now, we are up in Concrete
+# ʔux̌ʷəxʷ tiʔiɬ duqʷduqʷala[d]
+# ʔux̌ʷ=axʷ	tiʔiɬ	duqʷduqʷalad
+# go=now	dist	duqʷduqʷalad
+# SSP: ‘Now comes this duqʷduqʷalad.’
+# 
+# ʔux̌ʷəxʷ ti xʷuk’ʷadis
+# ʔux̌ʷ=axʷ	ti	xʷuk’ʷadis
+# go=now	spec	xʷuk’ʷadis
+# ‘Then there is xʷuk’ʷadis.’
+# 
+# ʔux̌ʷəxʷ ti sʔiʔəʔišiw’
+# ʔux̌ʷ=axʷ	ti	sʔiʔəʔišiw’
+# go=now	spec	sʔiʔəʔišiw’
+# ‘Now comes this sʔiʔəʔišiw’.’
+# 
+# ʔux̌ʷəxʷ ti dxʷqʷadᶻbucid
+# ʔux̌ʷ=axʷ	ti	dxʷqʷadᶻbucid
+# go=now	spec	dxʷqʷadᶻbucid
+# ‘Now comes dxʷadᶻəbucid.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ ʔilucid saʔkʷ
+# ʔux̌ʷ=axʷ	tiʔiɬ	ʔil•ucid	saʔkʷ
+# go=now	dist	side•mouth	Sauk
+# ‘Now comes the Sauk River (area).’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ p’əlk’ʷaličtuʔ, x̌ʷadᶻabac, sək’ʷabadᶻalgʷiɬ, dadəč’ulqi[d], xʷqəlbucid
+# ʔux̌ʷ=axʷ	tiʔiɬ	p’əlk’ʷaličtuʔ
+# go=now	dist	p’əlk’ʷaličtuʔ
+# ‘Now comes p’əlk’ʷaličtuʔ.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# x̌ʷadᶻabac, sək’ʷabadᶻalgʷiɬ, dadəč’ulqi[d], xʷqəlbucid
+# x̌ʷadᶻabac	sək’ʷabadᶻalgʷiɬ	dadəč’ulqid	xʷqəlbucid
+# x̌ʷadᶻabac	sək’ʷabadᶻalgʷiɬ	dadəč’ulqid	Cascade.River
+# SSP: ‘x̌ʷadᶻabac, sək’ʷəbadᶻəlgʷiɬ, dadč’ulqid, Cascade River.’
+# 
+# diɬ ləʔux̌ʷəxʷ tul’q’ixʷ
+# diɬ	lə=ʔux̌ʷ=axʷ	tul’–q’ixʷ
+# foc	prog=go=now	cntrfg–upstream
+# ‘That is going upriver now.’
+# 
+# diɬəxʷ x̌ʷul’əxʷ šabš
+# diɬ=axʷ	x̌ʷul’=axʷ	šabš
+# foc=now	just=now	šabš
+# ‘It is just šabš.’ 
+# 
+# ʔux̌ʷəxʷ tiʔiɬə dxʷədᶻəb
+# ʔux̌ʷ=axʷ	tiʔiɬə	dxʷhədᶻəb
+# go=now	dist	dxʷhədᶻəb
+# ‘Now comes dxʷhədᶻəb.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬə
+# ʔux̌ʷ=axʷ	tiʔiɬə
+# go=now	dists
+# ‘Then comes … .’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# stkʷab
+# ʔux̌ʷ=axʷ	tiʔiɬə	stkʷab
+# go=now	dist	Falls
+# SSP: ‘… the Falls.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬə
+# ʔux̌ʷ=axʷ	tiʔiɬə	gʷəsəxʷ	swatixʷtəd
+# go=now	dist	??	country
+# ‘Now comes … .’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# the next line spoken by Mrs. Peter is indistinct
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# qa kʷədiʔ yədwas ʔal tiʔiɬ stkʷab       # ssp 85pc ends at 10:00:560
+# qa	kʷədiʔ	yədwas	ʔal	tiʔiɬ	stkʷab
+# lots	rem.dma	heart	at	dist	stkʷab
+# SSP: ‘There are lots of hearts at the Falls.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬə ƛ’udcuuc ʔacʔaciɬta[l]bixʷəɬ sdaʔ  # 13:14:931
+# ʔux̌ʷ=axʷ	tiʔiɬə	ƛ’u=d=s=cuu–c	ʔac–ʔaciɬtalbixʷ–aɬ	sdaʔ
+# go=now	dist	hab=1sg.po=nm=say–altv	dstr–people–incrp	name
+# ‘Then there are those that I give human(-sounding) names to.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ xʷq’aɬəlc’əʔ
+# ʔux̌ʷ=axʷ	tiʔiɬ	xʷq’aɬəlc’əʔ
+# go=now	dist	xʷq’aɬəlc’əʔ
+# SSP: ‘There is xʷq’aɬəlc’əʔ.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ xʷq’ʷastəd
+# ʔux̌ʷ=axʷ	tiʔiɬ	xʷq’ʷastəd
+# go=now	dist	xʷq’ʷastəd
+# ‘Then comes xʷq’ʷastəd.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ ʔalatəbqi[d]
+# ʔux̌ʷ=axʷ	tiʔiɬ	ʔalatəbqid
+# go=now	dist	ʔalatəbqid
+# ‘Then ʔalatəbqid.’
+# 
+# ʔiɬq’iˑxʷəxʷ, q’ixʷbidəxʷ ʔə kʷədiʔ stkʷab ti lədaʔdup čəd 
+# ʔiɬ•q’ixʷ=axʷ	q’ixʷ–bid=axʷ	ʔə	kʷədiʔ	stkʷab	ti
+# located•upstream=now	upstream–rlnl=now	Pr	rem.dma	stkʷab	spec
+# lə=daʔa•dup	čəd
+# prog=name•coll	1sg.sub
+# ‘Upriver now, above the Falls, is what I am naming off.’
+# 
+# həbuʔ
+# həbuʔ
+# haboo
+# AS: ‘Haboo.’
+# 
+# ʔux̌ʷəxʷ kʷədiʔ gʷəɬ tubšədə[d] # 13:43:989    ssp-85pc ends at 10:27:825
+# ʔux̌ʷ=axʷ	kʷədiʔ	gʷəɬ	tubšədad
+# go=now	rem.dma	assc	Sahaptin
+# SSP: ‘Now comes that belonging to the Sahaptin.’
+# 
+# ʔux̌ʷəxʷ tiʔiɬ x̌ačx̌ačuʔ, q’ʷuʔq’ʷuʔ x̌ačuʔ
+# ʔux̌ʷ=axʷ	tiʔiɬ	x̌ač–x̌ačuʔ	q’ʷuʔ–q’ʷuʔ	x̌ačuʔ
+# go=now	dist	dstr–lake	dstr–gather	lake
+# ‘Now come the lakes, there are many lakes.’
+# 
+# diɬəxʷ gʷəɬəxʷ tiʔəʔ ʔiɬsp’ic’ikʷs sdaʔadsəxʷ tiʔəʔ swatixʷtəd 
+# diɬ=axʷ	gʷəɬ=axʷ	tiʔəʔ	ʔiɬ–sp’ic’ikʷs	s=daʔa–t=s=axʷ
+# foc=now	assc=now	prox	prtv–Diaper.Child	nm=name–ics=3po=now
+# tiʔəʔ	swatixʷtəd
+# prox	country
+# ‘These were the names that Diaper Child (and his brother) give to the land.’
+# 
+# cutəxʷ əlgʷəʔ  # 13.53.497, wauem_2005001-hilbert-0976_side2
+# cut=axʷ	əlgʷəʔ
+# say=now	pl
+# ‘They say,’
+# 
+# ɬudiɬgʷas kʷi liˑl, ɬudiɬgʷas kʷi liˑl, ɬudiɬgʷas sdaʔs tiʔəʔ swatixʷtəd
+# ɬu=diɬ•gʷas	kʷi	lil	ɬu=diɬ•gʷas	kʷi	lil	ɬu=diɬ•gʷas	sdaʔ–s
+# irr=foc•pair	rem	far	irr=foc•pair	rem	far	irr=foc•pair	name–3po
+# tiʔəʔ	swatixʷtəd
+#  prox	country
+# ‘ “Areas from far away will have the same name, other areas will give the same name to their lands.’
+# 
+# tiʔiɬ dəxʷʔas tiʔiɬə slux̌ ʔal tiʔiɬ stuləgʷabš
+# tiʔiɬ	dəxʷ=ʔa=s	tiʔiɬə	slux̌	ʔal	tiʔiɬ	stuləgʷabš
+# dist	adnm=be.there=3po	dist	slux̌	at	dist	Stillaguamish
+# ‘ “There is another slux̌ at Stillaguamish.’
+# 
+# ʔa tiʔiɬ xʷadᶻaʔəb   # wauem_side2  14:05:864     ssp-85pc ends at 10:51:714
+# ʔa	tiʔiɬ	xʷadᶻaʔəb
+# be.there	dist	xʷadᶻaʔəb
+# ‘ “There is xʷadᶻaʔəb,’
+# 
+# diɬ, diɬdiɬgʷas  $ 14:08:487
+# diɬ	diɬ–diɬ•gʷas
+# foc	dstr–foc•pair
+# ‘ “It has another place named the same.’
+# 
+# biɬaʔəb
+# biɬaʔ–b
+# have.more.than.enough–md
+# ‘ “It has more than enough.” ’
+# 
+# #--------------------------------------------------------------------------------
+# # 14:10:493  of wauem_2005001-hilbert_0976_side2
+# #--------------------------------------------------------------------------------
+# 
+# diɬ šac’səxʷ             
+# diɬ	s=šac’=s=axʷ
+# foc	nm=end=3po=now
+#  ‘That is the end now.’
+# 
+# #--------------------------------------------------------------------------------
+# # ssp-starChild-8 5pc-mono  16:38:865
+# #--------------------------------------------------------------------------------
+# 
+# diɬ šac’s huy     # ssp-85pc 10:55:713
+# diɬ	s=šac’=s	huyu
+# foc	nm=end=3po	made
+# AS: ‘That is the end.’
+# 
+#  
