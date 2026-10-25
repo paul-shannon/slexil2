@@ -190,170 +190,175 @@ lines:
     endTime: 106601
     lushootseed: ʔuˑ saʔəxʷ kʷi dsk̓ʷaɬəlucid
     morphemes: [ʔu,saʔ=axʷ,kʷi,d=s=k̓ʷaɬa•l•us–t–sid]
-    morphemeGloss: [intj	bad=now	rem	1sg.po=nm=examine•cnn•face–ics–2sg.obj]
+    morphemeGloss: [intj,bad=now,rem,1sg.po=nm=examine•cnn•face–ics–2sg.obj]
     english: ‘ “Oh, I don’t want to have to be looking at his face.’
 
+   - startTime: 106851
+     endTime: 109612
+     lushootseed: haʔɬ ti sč̓istxʷ ʔə ts(i) dsk̓ʷuyaʔ
+     morphemes: [haʔɬ,ti,sč̓stxʷ,ʔə,tsi,d–sk̓ʷuyaʔ]
+     morphemeGloss: [good,spec,husband,Pr,spec:fem,1po–dear.girl]
+     english: ‘ “But the husband of my dear sister is good.” ’
+ 
+   - startTime: 109994
+     endTime: 113148
+     lushootseed: tiləb ʔuhaydub ʔə tiʔəʔ t̓ət̓əwaʔs
+     morphemes: [tiləb,ʔu–hay–dxʷ–b,ʔə,tiʔəʔ,t̓ət̓əwaʔs]
+     morphemeGloss: [immediately,pfv–known–dc–pass,Pr,prox,star]
+     english: ‘Right away it was known by the star.’
+
+# lines 31 and 32 combined
+
+   - startTime: 113884
+     endTime: 118091
+     lushootseed: ʔuʔəx̌idəxʷ tiʔiɬ adəxʷdᶻilic. gʷəl tux̌ʷ čəxʷ tubəhiq̓ʷabic
+     morphemes: [ʔu–ʔəx̌id=axʷ,tiʔiɬ,ad=dəxʷ=dᶻili–t–s,gʷəl,tux̌ʷ,čəxʷ,tu=bə=hiq̓ʷa–bi–t–s]
+     morphemeGloss: [pfv–what.happened=now,dist,2sg.po=adnm=reject–ics–1sg.obj,sconj,just,2sg.sub,past=add=desire–map–ics–1sg.obj]
+     english: ‘ “Why do you reject me? And you chose at first to admire me?’
+ 
 #   - startTime: 
 #     endTime: 
-#     lushootseed: haʔɬ ti sč’istxʷ ʔə ts(i) dsk’ʷuyaʔ
-#     morphemes: [haʔɬ  	ti	sč’istxʷ	ʔə	tsi	d–sk’ʷuyaʔ]
-#     morphemeGloss: [good	spec	husband	Pr	spec:fem	1po–dear.girl]
-#     english: ‘ “But the husband of my dear sister is good.” ’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: tiləb ʔuhaydub ʔə tiʔəʔ t’ət’əwaʔs
-#     morphemes: [tiləb	ʔu–hay–dxʷ–b	ʔə	tiʔəʔ	t’ət’əwaʔs]
-#     morphemeGloss: [immediately	pfv–known–dc–pass	Pr	prox	star]
-#     english: ‘Right away it was known by the star.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ʔuʔəx̌idəxʷ tiʔiɬ adəxʷdᶻilic
-#     morphemes: [ʔu–ʔəx̌id=axʷ	tiʔiɬ	ad=dəxʷ=dᶻili–t–s]
-#     morphemeGloss: [pfv–what.happened=now	dist	2sg.po=adnm=reject–ics–1sg.obj]
-#     english: ‘ “Why do you reject me?’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: gʷəl tux̌ʷ čəxʷ tubəhiq’ʷabic
-#     morphemes: [gʷəl	tux̌ʷ	čəxʷ	tu=bə=hiq’ʷa–bi–t–s]
+#     lushootseed: gʷəl tux̌ʷ čəxʷ tubəhiq̓ʷabic
+#     morphemes: [gʷəl	tux̌ʷ	čəxʷ	tu=bə=hiq̓ʷa–bi–t–s]
 #     morphemeGloss: [sconj	just	2sg.sub	past=add=desire–map–ics–1sg.obj]
 #     english: ‘ “And you chose at first to admire me?’
-# 
+ 
+   - startTime: 118680
+     endTime: 121826
+     lushootseed: adsgʷaʔ adx̌əč tashiq̓ʷabic
+     morphemes: [ad–sgʷaʔ,ad–x̌əč,tu=ʔas–hiq̓ʷa–bi–t–s]
+     morphemeGloss: [2sg.po–one’s.own,2sg.po–mind,past=stat–desire–map–ics–1sg.obj]
+     english: ‘ “It was your own idea to desire me.’
+ 
+   - startTime: 122562
+     endTime: 123866
+     lushootseed: adsgʷaʔ
+     morphemes: [ad–sgʷaʔ]
+     morphemeGloss: [2sg.po–one’s.own]
+     english: ‘ “It is yours.” ’
+ 
+   - startTime: 124675
+     endTime: 127748
+     lushootseed: xʷiʔ gʷəsgʷəgʷadəd ʔə tsiʔəʔ
+     morphemes: [xʷiʔ,gʷə=s=gʷə–gʷad–t,ʔə,tsiʔəʔ]
+     morphemeGloss: [neg,sbj=nm=attn–talk–ics,Pr,prox:fem]
+     english: ‘She didn’t say anything.’
+ 
+   - startTime: 128021
+     endTime: 129774
+     lushootseed: huy, bəciqʷəxʷ əlgʷəʔ
+     morphemes: [huy,bə=ciqʷ=axʷ,əlgʷəʔ]
+     morphemeGloss: [sconj,add=dig.roots=now,pl]
+     english: ‘Then they go digging again.’
+ 
+   - startTime: 130087
+     endTime: 130748
+     lushootseed: həbuʔ
+     morphemes: [həbuʔ]
+     morphemeGloss: [haboo]
+     english: AS: ‘Haboo.’
+ 
+# 38 and 39 combined
+
+   - startTime: 131055
+     endTime: 137616
+     lushootseed: bəciˑqʷ tiʔiʔəʔ. gʷəl qəl̓qəlil kʷədiʔ sxʷiʔxʷiʔs
+     morphemes: [bə=ciqʷ,tiʔ–iʔəʔ,gʷəl,qəl̓–qəlil,kʷədiʔ,s=xʷiʔxʷiʔ=s]
+     morphemeGloss: [add=dig.roots,pl–prox,sconj,dstr–become.many,rem.dma,nm=forage=3po]
+     english: SSP: ‘They dig again. And they have lots (of roots).’
+ 
 #   - startTime: 
 #     endTime: 
-#     lushootseed: adsgʷaʔ adx̌əč tashiq’ʷabic
-#     morphemes: [ad–sgʷaʔ	ad–x̌əč	tu=ʔas–hiq’ʷa–bi–t–s]
-#     morphemeGloss: [2sg.po–one’s.own	2sg.po–mind	past=stat–desire–map–ics–1sg.obj]
-#     english: ‘ “It was your own idea to desire me.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: adsgʷaʔ
-#     morphemes: [ad–sgʷaʔ]
-#     morphemeGloss: [2sg.po–one’s.own]
-#     english: ‘ “It is yours.” ’
-# 
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: xʷiʔ gʷəsgʷəgʷadəd ʔə tsiʔəʔ
-#     morphemes: [xʷiʔ	gʷə=s=gʷə–gʷad–t	ʔə	tsiʔəʔ]
-#     morphemeGloss: [neg	sbj=nm=attn–talk–ics	Pr	prox:fem]
-#     english: ‘She didn’t say anything.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: huy, bəciqʷəxʷ əlgʷəʔ
-#     morphemes: [huy	bə=ciqʷ=axʷ	əlgʷəʔ]
-#     morphemeGloss: [sconj	add=dig.roots=now	pl]
-#     english: ‘Then they go digging again.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: bəciˑqʷ tiʔiʔəʔ
-#     morphemes: [bə=ciqʷ	tiʔ–iʔəʔ]
-#     morphemeGloss: [add=dig.roots	pl–prox]
-#     english: SSP: ‘They dig again.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: gʷəl qəl’qəlil kʷədiʔ sxʷiʔxʷiʔs
-#     morphemes: [gʷəl	qəl’–qəlil	kʷədiʔ	s=xʷiʔxʷiʔ=s]
-#     morphemeGloss: [sconj	dstr–become.many	rem.dma	nm=forage=3po]
+#     lushootseed: gʷəl qəl̓qəlil kʷədiʔ sxʷiʔxʷiʔs
+#     morphemes: [gʷəl,qəl̓–qəlil,kʷədiʔ,s=xʷiʔxʷiʔ=s]
+#     morphemeGloss: [sconj,dstr–become.many,rem.dma,nm=forage=3po]
 #     english: ‘And they have lots (of roots).’
-# 
+ 
+   - startTime: 137714
+     endTime: 138387
+     lushootseed: həbuʔ
+     morphemes: [həbuʔ]
+     morphemeGloss: [haboo]
+     english: AS: ‘Haboo.’
+ 
+   - startTime: 138488
+     endTime: 141697
+     lushootseed: ʔa ʔəsdukʷ tiʔəʔ x̌əč̌əč[s]
+     morphemes: [ʔa,ʔas–dukʷ,tiʔəʔ,x̌əč–əč–s]
+     morphemeGloss: [be.there,stat–abnormal,prox,dim.eff–mind–3po]
+     english: SSP: ‘She is unhappy in her mind there.’
+ 
+# lines 42 and 43 combined
+
+   - startTime: 142239
+     endTime: 145567
+     lushootseed: ʔa ʔəsdukʷ. xʷiʔ gʷəsx̌aƛ̓txʷs tiʔiɬ stubš 
+     morphemes: [ʔa,ʔas–dukʷ,xʷiʔ,gʷə=s=x̌aƛ̓–txʷ=s,tiʔiɬ,stubš]
+     morphemeGloss: [be.there,stat–abnormal,neg,sbj=nm=like–ecs=3po,dist,man]
+     english: ‘She is unhappy there. She does not like this man.’
+ 
 #   - startTime: 
 #     endTime: 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ʔa ʔəsdukʷ tiʔəʔ x̌əč̌əč[s]
-#     morphemes: [ʔa	ʔas–dukʷ	tiʔəʔ	x̌əč–əč–s]
-#     morphemeGloss: [be.there	stat–abnormal	prox	dim.eff–mind–3po]
-#     english: SSP: ‘She is unhappy in her mind there.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ʔa ʔəsdukʷ
-#     morphemes: [ʔa	ʔas–dukʷ]
-#     morphemeGloss: [be.there	stat–abnormal]
-#     english: ‘She is unhappy there.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: xʷiʔ gʷəsx̌aƛ’txʷs tiʔiɬ stubš 
-#     morphemes: [xʷiʔ	gʷə=s=x̌aƛ’–txʷ=s	tiʔiɬ	stubš]
+#     lushootseed: xʷiʔ gʷəsx̌aƛ̓txʷs tiʔiɬ stubš 
+#     morphemes: [xʷiʔ	gʷə=s=x̌aƛ̓–txʷ=s	tiʔiɬ	stubš]
 #     morphemeGloss: [neg	sbj=nm=like–ecs=3po	dist	man]
 #     english: ‘She does not like this man.’
 # 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: diɬ kʷi sdᶻidᶻihiʔs
-#     morphemes: [diɬ	kʷi	s=dᶻidᶻihiʔ=s]
-#     morphemeGloss: [foc	rem	nm=be.pregnant=3po]
-#     english: ‘She is pregnant.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: dᶻidᶻihiˑʔəxʷ tsiʔəʔ
-#     morphemes: [dᶻidᶻihiʔ=axʷ	tsiʔəʔ]
-#     morphemeGloss: [be.pregnant=now	prox:fem]
-#     english: SSP: ‘She is pregnant now.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: gʷəl ƛ’al’əxʷ diɬ tiʔəʔ cədiɬ luƛ’ kʷədiʔ ʔucut
-#     morphemes: [gʷəl	ƛ’al’=axʷ	diɬ	tiʔəʔ	cədiɬ	luƛ’	kʷədiʔ	ʔu–cut]
-#     morphemeGloss: [sconj	also=now	foc	prox	he	old	rem.dma	pfv–say]
-#     english: ‘And it is this old one who says,’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ʔu, xʷiʔ kʷi čaladləp kʷ(i ʔ)ut’q’ʷaxʷ gʷədaab
-#     morphemes: [ʔu	xʷiʔ	kʷi	čalad=lap	kʷi	ʔu–t’q’ʷa=axʷ	gʷədaab]
-#     morphemeGloss: [intj	neg	rem	chase=2pl.po	rem	pfv–break=now	underground]
-#     english: ‘ “Oh, don’t you guys go after roots that break off underground.” ’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: bədᶻaƛ’əbəxʷ
-#     morphemes: [bə=dᶻaƛ’–b=axʷ]
-#     morphemeGloss: [add=confuse–md=now]
-#     english: ‘That’s where he is mistaken.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ʔu, ʔəsčaləxʷ kʷi dəxʷqəldub čəɬ ʔə tiʔəʔ ʔal tiʔəʔ cədiɬ luƛ’
-#     morphemes: [ʔu	ʔas–čal=axʷ	kʷi	dəxʷ=qəl–dxʷ–b	čəɬ	ʔə	tiʔəʔ	ʔal	tiʔəʔ cədiɬ	luƛ’]
-#     morphemeGloss: [int	stat–how=now	rem	adnm=stop–dc–pass	1pl.po	Pr	prox	at	prox he	old]
-#     english: SSP: ‘ “Now why have we been told not to do this by this old one?” ’
+   - startTime: 146685
+     endTime: 148268
+     lushootseed: diɬ kʷi sdᶻidᶻihiʔs
+     morphemes: [diɬ,kʷi,s=dᶻidᶻihiʔ=s]
+     morphemeGloss: [foc,rem,nm=be.pregnant=3po]
+     english: ‘She is pregnant.’
+ 
+   - startTime: 148476
+     endTime: 148982
+     lushootseed: həbuʔ
+     morphemes: [həbuʔ]
+     morphemeGloss: [haboo]
+     english: AS: ‘Haboo.’
+ 
+   - startTime: 150021
+     endTime: 151764
+     lushootseed: dᶻidᶻihiˑʔəxʷ tsiʔəʔ
+     morphemes: [dᶻidᶻihiʔ=axʷ,tsiʔəʔ]
+     morphemeGloss: [be.pregnant=now,prox:fem]
+     english: SSP: ‘She is pregnant now.’
+ 
+   - startTime: 152717
+     endTime: 156420
+     lushootseed: gʷəl ƛ̓al̓əxʷ diɬ tiʔəʔ cədiɬ luƛ̓ kʷədiʔ ʔucut
+     morphemes: [gʷəl,ƛ̓al̓=axʷ,diɬ,tiʔəʔ,cədiɬ,luƛ̓,kʷədiʔ,ʔu–cut]
+     morphemeGloss: [sconj,also=now,foc,prox,he,old,rem.dma,pfv–say]
+     english: ‘And it is this old one who says,’
+ 
+   - startTime: 157932
+     endTime: 164984
+     lushootseed: ʔu, xʷiʔ kʷi čaladləp kʷ(i ʔ)ut̓q̓ʷaxʷ gʷədaab
+     morphemes: [ʔu,xʷiʔ,kʷi,čalad=lap,kʷi,ʔu–t̓q̓ʷa=axʷ,gʷədaab]
+     morphemeGloss: [intj,neg,rem,chase=2pl.po,rem,pfv–break=now,underground]
+     english: ‘ “Oh, don’t you guys go after roots that break off underground.” ’
+ 
+   - startTime: 165717
+     endTime: 166824
+     lushootseed: bədᶻaƛ’əbəxʷ
+     morphemes: [bə=dᶻaƛ’–b=axʷ]
+     morphemeGloss: [add=confuse–md=now]
+     english: ‘That’s where he is mistaken.’
+ 
+   - startTime: 166971
+     endTime: 167551
+     lushootseed: həbuʔ
+     morphemes: [həbuʔ]
+     morphemeGloss: [haboo]
+     english: AS: ‘Haboo.’
+ 
+   - startTime: 169682
+     endTime: 173163
+     lushootseed: ʔu, ʔəsčaləxʷ kʷi dəxʷqəldub čəɬ ʔə tiʔəʔ ʔal tiʔəʔ cədiɬ luƛ’
+     morphemes: [ʔu,ʔas–čal=axʷ,kʷi,dəxʷ=qəl–dxʷ–b,čəɬ,ʔə,tiʔəʔ,ʔal,tiʔəʔ,cədiɬ,luƛ’]
+     morphemeGloss: [int,stat–how=now,rem,adnm=stop–dc–pass,1pl.po,Pr,prox,at,prox,he,old]
+     english: SSP: ‘ “Now why have we been told not to do this by this old one?” ’
 # 
 #   - startTime: 
 #     endTime: 
