@@ -20,9 +20,13 @@ class RemoteWavClip {
 
     console.log(" --- RWC ctor");
     console.log("url: " + url)
+    this.#url = url;
+    if(url.split('.').pop()[0] == 'm'){
+       this.#url = url.replace(/\.[^/.]+$/, ".wav");
+       console.log("video url detected, changing to wav: " + this.#url);
+       }
     console.log("startMs: " + startMs);
     console.log("endMs: " + endMs);
-    this.#url = url;
     this.#startMs = startMs;
     this.#endMs = endMs;
     this.#httpStatus = null;

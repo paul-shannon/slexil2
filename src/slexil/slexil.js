@@ -375,7 +375,7 @@ function playSample(mediaID, startTime, endTime)
    //console.log("currentLine: " + state.currentLine)
    let lineNumber = mediaID - 1;
    //console.log("lineNumber: " + lineNumber)
-   newDisplayAnnotation(lineNumber)
+   //newDisplayAnnotation(lineNumber)
    /*********
    let spokenText = ""
    if(lineNumber >= 0){
