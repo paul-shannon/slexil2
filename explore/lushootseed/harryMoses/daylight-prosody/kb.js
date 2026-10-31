@@ -1,6 +1,125 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"pəd•ič":
+
+`
+<b>pəd•ič</b>
+
+<ul>
+   <li><b>pəd</b>  earth, soil; dirt, dust; bury. [LD 161]
+   <li> <b>ʔəspəd</b> covered with dirt, dusty, buried
+   <li> <b>ʔəspədəb</b> baked by burying in hot sand or ashes
+</ul>
+
+<ul>
+   <li> <b>=ič</b>:
+   <li> cover(ing), surface; on top of, over;  series of items on a string, string cord, spine [LD 114]
+   <li> <b>ʔubəsadič</b> got caught in the dark
+   <li> variants: _=ij-_, _=ic_
+</ul>
+
+`,
+
+"puʔu–d":
+
+`
+<b>puʔu-d</b>  
+
+<ul>
+   <li><b>puʔu</b> blow, wind [LD 164]
+   <li><b>-d</b> ICS, (internal) causative — that is, it expresses that an agent X did something to affect or change patient Y. [LD ]
+   <li><b>puʔ-alikʷ</b> wind blows, windy; <b>=akikʷ</b> creative activity
+</ul>
+
+`,
+
+
+"diʔ":
+
+`
+<b>diʔ</b>
+
+<ul>
+   <li>opposite side, other side, on the other side, at the other side  [LD 81]
+   <li><b>di</b>  variant of <b>ti</b> used occasionally by Susie Sampson Peter [LD 81]
+   <li><b></b>  [LD ]
+</ul>
+
+`,
+
+
+"q̓ʷaɬ•čup":
+
+`
+<b>q̓ʷaɬ•čup:</b> ash•fire
+
+<ul>
+  <li><b>q̓ʷaɬ=čup</b> white ashes [LD 195]
+  <li><b>q̓ʷaɬ</b> no independent attested meaning
+  <li> <b>=čup</b> cooking fire, campfire, firewood [lexical suffix] [LD 66]
+</ul>
+
+`,
+
+
+"tiləb ʔusaxʷəb bibščəb gʷəl tədᶻil ʔal tiʔiɬ dəxʷəstədᶻils":
+
+`
+<b>tiləb ʔusaxʷəb bibščəb gʷəl <u>tədᶻil</u> ʔal tiʔiɬ dəxʷəstədᶻils</b>
+
+The transcription offered &mdash; <b>tədᶻil</b> &mdash; could also be
+<b>lətədᶻil</b>.  Many of the meanings of this "verbal inflectional
+prefix of prgressive aspect" (see below).  Or perhaps this is only an
+epenthetic sound.
+
+<ul>
+  <li> gwell lut tuh.ZAIL 
+  <li> gʷəl tədᶻil
+  <li><b>lə-</b> action is ongoing, non-circumscribed, continuous,
+   developing, acts are performed in a series, <b>performed while moving
+   from one place to another</b>, happening gradually. [verbal
+   inflectional prefix of progressive aspect] [LD 134]
+  <li> <b>Epenthesis</b> is the addition of one or more sounds to a word, often to make it easier to pronounce or to fit the rhythmic pattern of a language.
+</ul>
+
+`,
+
+
+
+"dəxʷ=ʔəs–tədᶻil=s":
+
+`
+<b>dəxʷ=ʔəs–tədᶻil=s</b>
+
+   <ul>
+
+      <li><b>dəxʷ</b> reason for, place where [LD 81]. nominalizes
+      adjunct and circumstantial expressions, particularly (but not
+      exclusively), instruments, locations, motivations, and manners.
+      <li><b>ʔəs-</b> stative
+      <li><b>tədᶻil</b> go to bed, lie in bed, be in bed [LD 220]
+      <li><b>s</b> third person possessive.
+   </ul>
+
+
+`,
+
+
+"tədᶻil":
+
+`
+<b>tədᶻil</b>
+
+<ul>
+   <li> go to bed, lie in bed, be in bed [LD 220]
+   <li> <b>titədᶻil</b> &nbsp; <i>red1</i> (attenuative) lie down for a little while
+   <li> <b>taadᶻil</b> &nbsp; <i>red6</i> (intensified, augmented; plural) several lie in bed, several go to bed
+</ul>
+
+`,
+
+
 "ʔu–saxʷəb":
 
 `
@@ -5729,7 +5848,9 @@ _long ago past_
 ######_ʔal_
 - preposition: on, along, through, in, at; when.
 - be located at or by some specific point in time and space, location with reference to something named.  LD 4
+- compare <b>ʔa</b> be located, be there in tie or space
 - see discussion of __ʔal-phrases__ LR1.p82, which are rather like English prepositional phrases.
+
 - derivations:
     - _dʷʔal_: toward, until, in order to, the reason for
     - _tul'ʔal_:  from

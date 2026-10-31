@@ -1,5 +1,20 @@
 linguistics = {
 
+"reduplications":
+
+`
+<b>Reduplications</b>
+
+From LD xvii.
+
+<ul>
+   <li><i>red1</i> smallness, dimiished action, endearment. attenuative (ATTN)
+   <li><i>red6</i> intensified or augmented groups of events, plural 
+</ul>
+
+`,
+
+
 
 "   Lushootseed Grammar":
 

@@ -12,11 +12,12 @@ default:
 	@echo  venv eaf http refresh-js html
 	@echo  install
 	@echo  curl
+	@echo audio-probe
 	@echo  eaf
 	@echo  html
 	@echo  s2h    # yaml2html
 	@echo  inject 
-	@echo  view
+	@echo  view-in-local-server
 	@echo  view-pshannon
 	@echo  updateLocal [s2h, inject]
 	@echo  update [s2h, inject, publish-alberta, viewRemote]
@@ -119,7 +120,7 @@ updateLocal: s2h inject
 update: s2h inject publish-alberta viewRemote
 
 
-view:
+view-in-local-server:
 	open http://localhost:$(PORT)/daylight2.html
 
 viewRemote:
@@ -128,3 +129,5 @@ viewRemote:
 view-pshannon:
 	open https://pshannon.net/daylight
 
+audio-probe:
+	ffprobe-simple daylight-24k.wav
