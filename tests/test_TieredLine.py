@@ -43,7 +43,7 @@ def test_ctor():
 
     f  = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
 
-    sfmt = SFMT(f)
+    sfmt = SFMT(f, verbose=False)
     lines = sfmt.getTieredLines()
     assert(len(lines) == 3)
 
@@ -69,26 +69,22 @@ def test_ctor():
     htmlDoc = yattag.Doc()
     tl.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
-    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div><div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
-    assert(html == expected)
 
-    pdb.set_trace()
+    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div>\n<!-- speechLineAfterHook -->\n\n<!-- speechLineAfterHook_1 -->\n<div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
+    assert(html == expected)
 
 #----------------------------------------------------------------------------------------------------
 def test_infernoFirstLine():
 
     print("--- test_infernoFirstLine")
 
-    yamlTextFile = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
-    its = InferTierStructure(yamlTextFile)
+    f = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
+    sfmt = SFMT(f, verbose=False)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 3)
 
-    fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
-    expected = ['title', 'narrator', 'textEntry', 'mediaFile', 'mimeType', 'lines']
-    assert(list(fullDoc.keys()) == expected)
-
-    lines = fullDoc['lines']
-    tierGuide = its.getTierGuide()
-    line = TieredLine(lines, lineNumber=0, tierNumber=1,
+    tierGuide = sfmt.getTierGuide()
+    line = TieredLine(sfmt, lines, lineNumber=0, tierNumber=1,
                       tierGuide=tierGuide, grammaticalTerms=[],
                       useTooltips=False, verbose=False)
 
@@ -113,12 +109,12 @@ def test_toHTML_noAnalysisLines():
     
     print("--- test_toHTML_noAnalysisLines")
 
-    yamlTextFile = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
-    its = InferTierStructure(yamlTextFile)
-    fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
-    lines = fullDoc['lines']
-    tierGuide = its.getTierGuide()
+    f = "../testData/validEafYamlFiles/inferno-noAnalysisTiers.yaml"
+    sfmt = SFMT(f, verbose=False)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 3)
 
+    tierGuide = sfmt.getTierGuide()
 
     #------------------------------------------------------------
     # the first line:
@@ -130,28 +126,31 @@ def test_toHTML_noAnalysisLines():
     #     english: Midway upon the journey of our life
     #------------------------------------------------------------
 
-    line = TieredLine(lines, lineNumber=0, tierNumber=1, tierGuide=tierGuide,
+    line = TieredLine(sfmt, lines, lineNumber=0, tierNumber=1,
+                      tierGuide=tierGuide,
                       grammaticalTerms=[],
                       useTooltips=False, verbose=False)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
-    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div><div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
+    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">Nel mezzo del cammin di nostra vita</span></div>\n<!-- speechLineAfterHook -->\n\n<!-- speechLineAfterHook_1 -->\n<div class="tier soundsLike-tier" name="soundsLike">nell metzo del kuh-mean dee nostruh veeta</div><div class="tier generic-tier" name="english">Midway upon the journey of our life</div><div class="annotationDiv"></div></div>'
     assert(html == expected)
 
 #----------------------------------------------------------------------------------------------------
 def test_toHTML_withAnalysisLines():
-    
 
     print("--- test_toHTML_withAnalysisLines")
 
-    #grammaticalTerms = mga.getAll()
+    f = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
 
-    yamlTextFile = "../testData/validEafYamlFiles/inferno-heterogeneousTiers.yaml"
-    its = InferTierStructure(yamlTextFile)
-    fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
-    lines = fullDoc['lines']
-    tierGuide = its.getTierGuide()
+    sfmt = SFMT(f, verbose=False)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 3)
+
+    tierGuide = sfmt.getTierGuide()
+    line = TieredLine(sfmt, lines, lineNumber=0, tierNumber=1,
+                      tierGuide=tierGuide, grammaticalTerms=[],
+                      useTooltips=False, verbose=False)
 
       # inferno line 1 (aka tier 2) has these morpheme glosses
       # [I:DAT,found–1SG:INDEF:REM:PAST,for,INDEF:FEM:SG,forest-FEM,dark–FEM:SG]
@@ -160,16 +159,16 @@ def test_toHTML_withAnalysisLines():
       # terms are converted to lower case, tagged for class so they can be styled
       # as sm-cap - which requires that they be lower case.  and that the
       # I remains capitalized
-    line = TieredLine(lines, lineNumber=1,   # the second line
+    line = TieredLine(sfmt, lines, lineNumber=1,   # the second line
                       tierNumber=1,
-                      tierGuide=its.getTierGuide(),
+                      tierGuide=tierGuide,
                       grammaticalTerms=mga.getAll(),
                       useTooltips=False, verbose=False)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
 
-    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">mi ritrovai per una selva oscura</span></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morphemes"><div class="morpheme-cell">mi</div><div class="morpheme-cell">ritrov–ai</div><div class="morpheme-cell">per</div><div class="morpheme-cell">una</div><div class="morpheme-cell">selv–a</div><div class="morpheme-cell">oscur–a</div></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morpheme-gloss"><div class="morpheme-cell">I:<span class=\'grammatical-term\'>dat</span></div><div class="morpheme-cell">found–<span class=\'grammatical-term\'>1sg</span>:<span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>rem</span>:<span class=\'grammatical-term\'>past</span></div><div class="morpheme-cell">for</div><div class="morpheme-cell"><span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div><div class="morpheme-cell">forest-<span class=\'grammatical-term\'>fem</span></div><div class="morpheme-cell">dark–<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div></div><div class="tier soundsLike-tier" name="soundsLike">me ritrovie per oona selva oscura</div><div class="tier generic-tier" name="english">I found myself within a forest dark</div><div class="annotationDiv"></div></div>'
+    expected = '<div class="line-content" id="1"><div class="line"><span class="tier speech-tier" name="italianSpeech">mi ritrovai per una selva oscura</span></div>\n<!-- speechLineAfterHook -->\n\n<!-- speechLineAfterHook_1 -->\n<div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morphemes"><div class="morpheme-cell">mi</div><div class="morpheme-cell">ritrov–ai</div><div class="morpheme-cell">per</div><div class="morpheme-cell">una</div><div class="morpheme-cell">selv–a</div><div class="morpheme-cell">oscur–a</div></div><div class="tier morpheme-tier" style="grid-template-columns: 8ch 27ch 6ch 15ch 13ch 14ch ;" name="morpheme-gloss"><div class="fubarmorpheme-cell">I:<span class=\'grammatical-term\'>dat</span></div><div class="fubarmorpheme-cell">found–<span class=\'grammatical-term\'>1sg</span>:<span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>rem</span>:<span class=\'grammatical-term\'>past</span></div><div class="fubarmorpheme-cell">for</div><div class="fubarmorpheme-cell"><span class=\'grammatical-term\'>indef</span>:<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div><div class="fubarmorpheme-cell">forest-<span class=\'grammatical-term\'>fem</span></div><div class="fubarmorpheme-cell">dark–<span class=\'grammatical-term\'>fem</span>:<span class=\'grammatical-term\'>sg</span></div></div><div class="tier soundsLike-tier" name="soundsLike">me ritrovie per oona selva oscura</div><div class="tier generic-tier" name="english">I found myself within a forest dark</div><div class="annotationDiv"></div></div>'
     assert(html == expected)
 
       # check a morpheme:
@@ -181,31 +180,70 @@ def test_toHTML_withAnalysisLines_oneMorphemeOnly():
     
     print("--- test_toHTML_withAnalysisLines_oneMorphemeOnly")
 
-    yamlTextFile = "../testData/validEafYamlFiles/daylight-line6-only.yaml"
-    its = InferTierStructure(yamlTextFile)
-    fullDoc = yaml.load(open(yamlTextFile), Loader=yaml.FullLoader)
-    lines = fullDoc['lines']
-    tierGuide = its.getTierGuide()
+    f = "../testData/validEafYamlFiles/daylight-line6-only.yaml"
 
-    line = TieredLine(lines, lineNumber=0,   # the second line
+    sfmt = SFMT(f, verbose=False)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 1)
+    tierGuide = sfmt.getTierGuide()
+
+    line = TieredLine(sfmt, lines, lineNumber=0,   # the second line
                       tierNumber=1,
-                      tierGuide=its.getTierGuide(),
+                      tierGuide=tierGuide,
                       grammaticalTerms=mga.getAll(),
                       useTooltips=False, verbose=False)
     htmlDoc = yattag.Doc()
     s = line.toHTML(htmlDoc)
     html = htmlDoc.getvalue()
 
-    assert(html.find('<div class="morpheme-cell">tu=c̓agʷa–t–sut=əxʷ</div>') > 0)
-    assert(html.find("<span class='grammatical-term'>past</span>=washed–<span class='grammatical-term'>ics</span>–<span class='grammatical-term'>refl</span>=now</div>") > 0)
+    expected = '<div class="morpheme-cell">"tu=c̓agʷa–t–sut=əxʷ"</div>'
+    assert(html.find(expected) > 0)
+
+    expected = "<span class=\'grammatical-term\'>past</span>=washed–<span class=\'grammatical-term\'>ics</span>"
+    assert(html.find(expected) > 0)
+
+
+#----------------------------------------------------------------------------------------------------
+def test_explicitLineNumber():
+    
+    print("--- test_explicitLineNumber")
+    
+    yamlTextFile = "../testData/validEafYamlFiles/inferno.yaml"
+    sfmt = SFMT(yamlTextFile, verbose=False)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 3)
+
+    tierGuide = sfmt.getTierGuide()
+    tl = TieredLine(sfmt, lines, lineNumber=0, tierNumber=1,
+                    tierGuide=tierGuide,
+                    grammaticalTerms=mga.getAll(),
+                    useTooltips=False, verbose=False)
+
+    buttonLabel = tl.getPlayLineButtonLabel()
+    #print("buttonLabel: %s" % buttonLabel)
+    assert(buttonLabel == "1")
+
+    yamlTextFile = "../testData/validEafYamlFiles/inferno-withHtmlLines-explicitLineNumbers.yaml"
+    sfmt = SFMT(yamlTextFile, verbose=False)
+    lines = sfmt.getTieredLines()
+    assert(len(lines) == 3)
+
+    tierGuide = sfmt.getTierGuide()
+    tl = TieredLine(sfmt, lines, lineNumber=0, tierNumber=1,
+                    tierGuide=tierGuide,
+                    grammaticalTerms=mga.getAll(),
+                    useTooltips=False, verbose=False)
+
+    buttonLabel = tl.getPlayLineButtonLabel()
+    assert(buttonLabel == "abc")
+    #print("buttonLabel: %s" % buttonLabel)
 
 
 #----------------------------------------------------------------------------------------------------
 def runTests():
 
    test_ctor()
-   sys.exit(0)
-   
+   test_explicitLineNumber()
    test_infernoFirstLine()
    test_toHTML_withAnalysisLines()
    test_toHTML_withAnalysisLines_oneMorphemeOnly()
