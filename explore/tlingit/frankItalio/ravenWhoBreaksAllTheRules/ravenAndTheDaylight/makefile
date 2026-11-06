@@ -10,7 +10,7 @@ TITLE = "Yéil ḵa Ḵei.á: Raven and the Daylight"
 HOST = https://aklanguages.uas.alaska.edu
 PORT =  12342
 
-s2hv:
+s2hlocal:
 	python $(BASEDIR)/utils/sfmt2html.py \
         --sfmt $(BASE).yaml \
         --htmlFile $(BASE).html \
