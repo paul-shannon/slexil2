@@ -20,7 +20,7 @@ class SFMT:
                      "startTime", "endTime"]
    
    #------------------------------------------------------
-   def __init__(self, textFile, verbose):
+   def __init__(self, textFile, verbose=False):
 
       assert(Path(textFile).is_file())
       self.textFile = textFile
@@ -220,6 +220,8 @@ class SFMT:
          key = key.replace("- ", "") # in case, e.g., "- startTime: 1212"
          value = lineElement[firstColonPos+1:].strip()
            # is this a list, of the sort found in morpheme analysis tiers?
+         #print("--- trace in sfmt.py, getTier, line 223")
+         #pdb.set_trace()
          if re.search("^\[", value) and re.search("\]$", value):
             s = re.sub("^\[", "", value)
             s = re.sub("\]$", "", s)
@@ -337,7 +339,8 @@ class SFMT:
    #------------------------------------------------------
    def inferTierStructure(self):
 
-      self.nonTierFields = ["lineType", "startTime", "endTime", "lineNumber", "number"]
+      self.nonTierFields = ["lineType", "startTime", "endTime", "number"]
+      #self.nonTierFields = ["lineType", "startTime", "endTime", "lineNumber", "number"]
 
       self.tieredLines = self.getTiers()
       self.htmlLines = self.htmlLines
@@ -364,7 +367,6 @@ class SFMT:
             allTierNames.extend(uniqueKeys)
 
       self.allTierNames = [el for el in allTierNames if el not in self.nonTierFields]
-
 
       self.identifyAnalysisTiers()
       self.identifyGenericTierNames()

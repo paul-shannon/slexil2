@@ -469,6 +469,7 @@ class sfmtToWebPage:
                             numberedLineNumber, numberedLine=True):
 
         buttonLabel = numberedLineNumber
+        print("--- tieredLineHtmlLeadin, tierNumber: %s   numberedLineNumber: %s  numberedLine: %s" % (tierNumber, numberedLineNumber, numberedLine))
         if(not numberedLine):
              # create an empty button label, with width roughly the same
              # as that of the surrounding numbered buttons
@@ -502,6 +503,8 @@ class sfmtToWebPage:
          tbl = self.sfmt.getOrderedLineObjectsTieredAndHTML()
          htmlLines = self.sfmt.getAllHtml()
          tieredLines = self.sfmt.getTieredLines()
+         print("--- trace in sftmToWebPage.py")
+         # pdb.set_trace()
          rows = tbl.shape[0]
          for i in range(rows):
             lineNumber = i
@@ -524,7 +527,7 @@ class sfmtToWebPage:
                if(len(tiers) <= 0):
                   print("length of tiers is 0")
                   print("signature: %s" % signature)
-                  pdb.set_trace()
+                  #pdb.set_trace()
                assert(len(tiers) > 0)
                if type(tiers) == bool: #  == bool or len(tiers==0):
                   traceFileName = "sfmtToWebPage.py"
@@ -558,8 +561,10 @@ class sfmtToWebPage:
                   with htmlDoc.tag("div", klass="line-sidebar"):
                      #print("sfmtToWebPage, line 477, tierNumber: %d" % tierNumber);
                      #pdb.set_trace()
+                     buttonLabel = tieredLine.getPlayLineButtonLabel()
+                     print("--- buttonLabel: %s" % buttonLabel)
                      self.tieredLineHtmlLeadin(htmlDoc, tierNumber, start, end,
-                                               numberedLineNumber, numberedLine)
+                                               buttonLabel, numberedLine)
                      s = f"\n<!-- sidebarHookLine_{i+1} -->\n"
                      htmlDoc.asis(s)
                   tieredLine.toHTML(htmlDoc)

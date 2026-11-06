@@ -47,6 +47,7 @@ class TieredLine:
     doc = None
     tierGuide = None
     sfmt = None
+    buttonLabel = None
     lineNumber = None  # identifies the line in lineList, which may include html lines
     tierNumber = None  # counts only tieredLines, ignore html lines.
     lineList = []
@@ -86,6 +87,13 @@ class TieredLine:
     def getTierNames(self):
        return(list(self.tierGuide.keys()))
 
+    def getPlayLineButtonLabel(self):
+       if "buttonLabel" in self.line.keys():
+          self.buttonLabel = self.line['buttonLabel']
+          del self.line['buttonLabel']
+          return(self.buttonLabel)
+       return(str(self.tierNumber))
+        
     def getTierValues(self):
        return([v for k, v in self.tierGuide.items()])
 
