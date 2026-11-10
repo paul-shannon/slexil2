@@ -1475,9 +1475,9 @@ Are always combined with another valency-increaser
 
 
 
-"ʔə":
+"ʔə (actor marker)":
 `
-**ʔə**
+**ʔə (actor marker)**
 
 From Lushootseed Grammar Book Two, Grammar Note 31.1, page 23:
 

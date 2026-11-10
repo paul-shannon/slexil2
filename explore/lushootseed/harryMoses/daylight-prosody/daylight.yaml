@@ -633,25 +633,25 @@ lines:
 #    morphemeGloss: [blow–ICS,PROX,ash•fire,SCONJ,buried•covering]
 #    english: He blew on this fine ash powder and is buried.
 
-  - startTime: 305208
-    endTime:   307270
-    lushootseed: dəb kʷədiʔ ʔiɬlilalʔtxʷ kʷi ʔuƛ̓aʔad 
-    soundsLike: 
-    morphemes: [dəb,kʷədiʔ,ʔiɬ–lil•alʔtxʷ,kʷi,ʔu–ƛ̓aʔa–d]
-    morphemeGloss: [instead,rem.dma,prtv–far•room,REM,pfv–notice–ICS]
-    english: The others at the far part of the house noticed it.
+  - startTime: 304899
+    endTime:   308946
+    lushootseed: dəb kʷədiʔ ʔiɬlilalʔtxʷ kʷi ʔuƛ̓aʔad. buʔəx̌idəxʷ kʷi [s]ləx̌il kʷi dəxʷwəq̓wəq̓s
+    soundsLike: dub kwuh.day yale.all.txʷ o.slawd.ud bo.hay.duff kwee sluck.hail kwee duff.wuck.wucks
+    morphemes: [dəb,kʷədiʔ,ʔiɬ–lil•alʔtxʷ,kʷi,ʔu–ƛ̓aʔa–d,bə=ʔu–ʔəx̌id=əxʷ,kʷi,sləx̌il,kʷi,dəxʷ=wəq̓–wəq̓=s]
+    morphemeGloss: [instead,rem.dma,prtv–far•room,REM,pfv–notice–ICS,ADD=pfv–what.happen=now,REM,daylight,REM,ADNM=dstr–blink=3PO]
+    english: The others at the far part of the house noticed it. "Why is the daylight blinking?”
 
 
-  - startTime: 307218
-    endTime:   309084
-    lushootseed: buʔəx̌idəxʷ kʷi [s]ləx̌il kʷi dəxʷwəq̓wəq̓s
-    soundsLike: 
-    morphemes: [bə=ʔu–ʔəx̌id=əxʷ,kʷi,sləx̌il,kʷi,dəxʷ=wəq̓–wəq̓=s]
-    morphemeGloss: [ADD=pfv–what.happen=now,REM,daylight,REM,ADNM=dstr–blink=3PO]
-    english: “Why is the daylight blinking?”
+#  - startTime: 307218
+#    endTime:   309084
+#    lushootseed: buʔəx̌idəxʷ kʷi [s]ləx̌il kʷi dəxʷwəq̓wəq̓s
+#    soundsLike: 
+#    morphemes: [bə=ʔu–ʔəx̌id=əxʷ,kʷi,sləx̌il,kʷi,dəxʷ=wəq̓–wəq̓=s]
+#    morphemeGloss: [ADD=pfv–what.happen=now,REM,daylight,REM,ADNM=dstr–blink=3PO]
+#    english: “Why is the daylight blinking?”
 
-  - startTime: 312634
-    endTime:   317797
+  - startTime: 312540
+    endTime:   317214 
     lushootseed: ʔəšuucəb ʔə ti luƛ̓ ʔəsbəč ləq̓aɬucid ʔəspədpədič ʔə ti q̓ʷaɬčup
     soundsLike: 
     morphemes: [ʔəs–šuɬ–c–b,ʔə,ti,luƛ̓,ʔəs–bəč,ləq̓aɬ•ucid,ʔəs–pəd–pəd•ič,ʔə,ti,q̓ʷaɬ•čup]

@@ -1,6 +1,133 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"dəxʷ=wəq̓–wəq̓=s":
+
+`
+<b>dəxʷ=wəq̓–wəq̓=s</b>
+
+<ul>
+    <li><b>dəxʷ</b> reason for, place where. nominalizes
+      adjunct and circumstantial expressions, particularly (but not
+      exclusively), instruments, locations, motivations, and manners. [LD 81]
+   <li><b>wəq̓</b> blink, flash [LD 247] 
+   <li><b>wəq̓-wəq̓</b>  <i>red2</i> CVC+ items are distributed about, plural. [LD xvii]
+   <li><b>=s</b> he, him, his, she, her, hers, it, its,
+        they, them, their, theirs [3rd person possessive suffix] [LD 199]
+</ul>
+
+`,
+
+
+
+"bə=ʔu–ʔəx̌id=əxʷ":
+
+`
+<b>bə=ʔu–ʔəx̌id=əxʷ</b>
+
+<ul>
+   <li><b>bə=</b> [LD 34]
+     <ul>
+       <li> again, anew (of actions or states)
+       <li> additional, another (or nouns)
+       <li> inflectional additive prefix
+    </ul>
+   <li><b>ʔu</b>:  perfective, action viewed as a whole [LD 19]
+   <li><b>ʔəx̌id</b> what happened [LD 13]
+   <li><b>=əxʷ</b> now, at the particular time  [LD 30]
+</ul>
+
+`,
+
+
+"ʔu–ƛ̓aʔa–d":
+
+`
+<b>ʔu–ƛ̓aʔa–d</b>
+
+<ul>
+   <li><i>ʔu-</i> &nbsp; perfective, action viewed as a single whole
+   w/o regard to phases or parts of the event. verbal inflectional
+   prefix of perfective aspect [LD 19]
+   <li><b>ƛ̓aʔ(a)</b> to become aware of, notice [LD 150]
+</ul>
+
+`,
+
+
+
+"ʔiɬ–lil•alʔtxʷ":
+
+`
+<b>ʔiɬ–lil•alʔtxʷ</b>
+
+<ul>
+   <li><b>ʔiɬ</b> partitive prefix:  indicates a partial quantity, division, or selection of a larger whole [LD 17]
+   <li><b>lil</b> far, far way; go far. [LD 137]
+   <li><b>alʔtxʷ</b> house, room of a house, building [lexical suffix] [LD 27]
+</ul>
+
+`,
+
+
+"kʷədiʔ":
+
+`
+<b>kʷədiʔ</b> [LD 125]
+
+   <ul>
+      <li>remote adverbial demonstrative
+      <li> see <b>tudiʔ</b>
+      <li> compare <b>diʔ</b>
+   </ul>
+
+<b> examples </b>
+
+<ul>
+   <li><b>ʔal kʷədiʔ tuhaʔkʷ</b> a long time ago 
+   <li><b>bəlkʷtxʷ dxʷʔal kʷədiʔ tudəxʷʔas</b> Put it back where it was.
+</ul>
+
+`,
+
+
+"dəb":
+
+`
+<b>dab <i>var.</i> dəb </b>  [LD 77]
+
+instead [contrastive emphatic]
+
+<ul>
+   <li><b>dabəxʷ dəgʷi</b> Let it be you.
+   <li><b>dəb dəgʷi t(i) as(h)aydxʷ</b>You (instead of me) know it.
+</ul>
+
+`,
+
+
+"ʔəs–tədᶻil•ič":
+
+`
+<b>ʔəs–tədᶻil•ič</b>
+
+<ul>
+   <li><b>ʔəs-</b> stative
+   <li><b>tədᶻil</b> go to bed, lie in bed, be in bed [LD 220]
+   <li> <b>=ič</b> [LD 114]
+   <ul>
+      <li> cover(ing), surface; on top of, over;  series of items on a string,
+           string cord, spine [LD 114]
+      <li> <b>ʔubəsadič</b> got caught in the dark
+      <li> variants: _=ij-_, _=ic_
+   </ul>
+</ul>
+
+
+`,
+
+
+
 "pəd•ič":
 
 `
