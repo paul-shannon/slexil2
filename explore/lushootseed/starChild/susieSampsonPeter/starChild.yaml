@@ -2,7 +2,7 @@ title: Star Child
 narrator: Susie Sampson Peters
 textEntry: Paul Shannon
 #mediaFile: candidate-01.wav
-mediaFile: http://localhost:12340/candidate-01.wav
+mediaFile: http://localhost:12340/starchild-ssp.wav
 mimeType: audio/x-wav
 
 lines:
@@ -359,14 +359,14 @@ lines:
      morphemes: [ʔu,ʔas–čal=axʷ,kʷi,dəxʷ=qəl–dxʷ–b,čəɬ,ʔə,tiʔəʔ,ʔal,tiʔəʔ,cədiɬ,luƛ’]
      morphemeGloss: [int,stat–how=now,rem,adnm=stop–dc–pass,1pl.po,Pr,prox,at,prox,he,old]
      english: SSP: ‘ “Now why have we been told not to do this by this old one?” ’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: č’aʔad 
-#     morphemes: [č’aʔa–t]
-#     morphemeGloss: [dig–ics]
-#     english: ‘They dig.’
-# 
+ 
+   - startTime: 174365
+     endTime: 176490
+     lushootseed: č̓aʔad. pkʷalcəxʷ tsiʔəʔ
+     morphemes: [č̓aʔa–t,pkʷ•alc=axʷ,tsiʔəʔ]
+     morphemeGloss: [dig–ics,break.off•prdct=now,prox:fem]
+     english: ‘They dig. She breaks it off.’
+ 
 #   - startTime: 
 #     endTime: 
 #     lushootseed: pkʷalcəxʷ tsiʔəʔ
@@ -374,150 +374,196 @@ lines:
 #     morphemeGloss: [break.off•prdct=now	prox:fem]
 #     english: ‘She breaks it off.’
 # 
-#   - startTime: 
+   - startTime: 176776
+     endTime: 178029
+     lushootseed: pkʷaxʷ tiʔəʔ skʷiʔxʷ
+     morphemes: [pkʷ•alc=axʷ	tiʔəʔ	skʷiʔxʷ]
+     morphemeGloss: [break.off•prdct=now	prox	fern.root]
+     english: ‘She breaks off the fern root.’
+ 
+   - startTime: 178590
+     endTime: 182086
+     lushootseed: huy, ʔuč̓aʔadəxʷ ʔuč̓aʔadəxʷ ʔuč̓aʔadəxʷ 
+     morphemes: [huy,ʔu–č̓aʔa–t=axʷ,ʔu–č̓aʔa–t=axʷ,ʔu–č̓aʔa–t=axʷ]
+     morphemeGloss: [sconj,pfv–dig–ics=now,pfv–dig–ics=now,pfv–dig–ics=now]
+     english: ‘Then, she digs, and digs, and digs.’
+ 
+   - startTime: 182442
+     endTime: 184188
+     lushootseed: tiˑləb ʔut̓uʔali
+     morphemes: [tiləb,ʔu–t̓uʔ•ali]
+     morphemeGloss: [immediately,pfv–hole.through•place]
+     english: ‘Finally she breaks through.’
+ 
+   - startTime: 184563
+     endTime: 186310
+     lushootseed: tiləb ʔuʔux̌ʷ
+     morphemes: [tiləb,ʔu–ʔux̌ʷ]
+     morphemeGloss: [immediately,pfv–go]
+     english: ‘She goes’
+ 
+   - startTime: 186732
+     endTime: 187713
+     lushootseed: ləšuuc
+     morphemes: [lə=šuɬ–c]
+     morphemeGloss: [prog=see–altv]
+     english: ‘And she looks.’
+ 
+   - startTime: 188016
+     endTime: 190556
+     lushootseed: diɬ ti swatixʷtəd čəɬ tadiʔ gʷəd
+     morphemes: [diɬ,ti,swatixʷtəd,čəɬ,tadiʔ,gʷəd]
+     morphemeGloss: [foc,spec,country,1pl.po,dist.dma,down]
+     english: ‘ “That’s our land down there.” ’
+ 
+   - startTime: 190774
+     endTime: 191361
+     lushootseed: həbuʔ
+     morphemes: [həbuʔ]
+     morphemeGloss: [haboo]
+     english: AS: ‘Haboo.’
+ 
+   - startTime: 193431
+     endTime: 194850
+     lushootseed: tiləb ʔudxʷx̌ac’əlusəd
+     morphemes: [tiləb,ʔu–dxʷ–x̌ac’•alus–t]
+     morphemeGloss: [immediately,pfv–ctd–cover•eye–ics]
+     english: SSP: ‘She covers it up right away.’
+ 
+   - startTime: 195665
+     endTime: 197189
+     lushootseed: ɬčil əlgʷəʔ
+     morphemes: [ɬčil,əlgʷəʔ]
+     morphemeGloss: [arrive,pl]
+     english: ‘They arrive.’
+ 
+     startTime: 197455
+     endTime: 199098
+     lushootseed: gʷəl tiləb ʔucut tiʔəʔ luƛ̓
+     morphemes: [gʷəl,tiləb,ʔu–cut,tiʔəʔ,luƛ̓]
+     morphemeGloss: [sconj,immediately,pfv–say,prox,old]
+     english: ‘And the old man says right away,’
+ 
+     startTime: 200825
+     endTime: 203800
+     lushootseed: ʔut’uʔali čələp dᶻəɬ. ʔu tiʔiɬ dəxʷʔəƛ’ ʔə tiʔiɬ šəxʷəb.
+     morphemes: [ʔu–t’uʔ•ali,čələp,dᶻəɬ,ʔu,tiʔiɬ,dəxʷ=ʔəƛ’,ʔə,tiʔiɬ,šəxʷəb]
+     morphemeGloss: [pfv–hole.through•place,2pl.sub,ptcl,intj,dist,adnm=come,Pr,dist,wind]
+     english: ‘ “Oh, you folks must have broken through. That’s why there was a wind.” ’
+ 
+#     startTime:
 #     endTime: 
-#     lushootseed: pkʷaxʷ tiʔəʔ skʷiʔxʷ
-#     morphemes: [pkʷ•alc=axʷ	tiʔəʔ	skʷiʔxʷ]
-#     morphemeGloss: [break.off•prdct=now	prox	fern.root]
-#     english: ‘She breaks off the fern root.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: huy, ʔuč’aʔadəxʷ ʔuč’aʔadəxʷ ʔuč’aʔadəxʷ 
-#     morphemes: [huy	ʔu–č’aʔa–t=axʷ	ʔu–č’aʔa–t=axʷ	ʔu–č’aʔa–t=axʷ]
-#     morphemeGloss: [sconj	pfv–dig–ics=now	pfv–dig–ics=now	pfv–dig–ics=now]
-#     english: ‘Then, she digs, and digs, and digs.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: tiˑləb ʔut’uʔali
-#     morphemes: [tiləb	ʔu–t’uʔ•ali]
-#     morphemeGloss: [immediately	pfv–hole.through•place]
-#     english: ‘Finally she breaks through.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: tiləb ʔuʔux̌ʷ
-#     morphemes: [tiləb	ʔu–ʔux̌ʷ]
-#     morphemeGloss: [immediately	pfv–go]
-#     english: ‘She goes’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ləšuuc
-#     morphemes: [lə=šuɬ–c]
-#     morphemeGloss: [prog=see–altv]
-#     english: ‘And she looks.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: diɬ ti swatixʷtəd čəɬ tadiʔ gʷəd
-#     morphemes: [diɬ	ti	swatixʷtəd	čəɬ	tadiʔ	gʷəd]
-#     morphemeGloss: [foc	spec	country	1pl.po	dist.dma	down]
-#     english: ‘ “That’s our land down there.” ’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: tiləb ʔudxʷx̌ac’əlusəd
-#     morphemes: [tiləb	ʔu–dxʷ–x̌ac’•alus–t]
-#     morphemeGloss: [immediately	pfv–ctd–cover•eye–ics]
-#     english: SSP: ‘She covers it up right away.’
-# 
-#   - startTime: 
-#     endTime: 
-#     lushootseed: ɬčil əlgʷəʔ
-#     morphemes: [ɬčil	əlgʷəʔ]
-#     morphemeGloss: [arrive	pl]
-#     english: ‘They arrive.’
-# 
-#     lushootseed: gʷəl tiləb ʔucut tiʔəʔ luƛ’
-#     morphemes: [gʷəl	tiləb	ʔu–cut	tiʔəʔ	luƛ’]
-#     morphemeGloss: [sconj	immediately	pfv–say	prox	old]
-#     english: ‘And the old man says right away,’
-# 
-#     lushootseed: ʔut’uʔali čələp dᶻəɬ
-#     morphemes: [ʔu–t’uʔ•ali	čələp	dᶻəɬ]
-#     morphemeGloss: [pfv–hole.through•place	2pl.sub	ptcl]
-#     english: ‘ “Oh, you folks must have broken through.’
-# 
 #     lushootseed: ʔu tiʔiɬ dəxʷʔəƛ’ ʔə tiʔiɬ šəxʷəb
 #     morphemes: [ʔu	tiʔiɬ	dəxʷ=ʔəƛ’	ʔə	tiʔiɬ	šəxʷəb]
 #     morphemeGloss: [intj	dist	adnm=come	Pr	dist	wind]
 #     english: ‘ “That’s why there was a wind.” ’
 # 
-#     lushootseed: xʷiʔ, xʷuʔələʔ lil
-#     morphemes: [xʷiʔ	xʷuʔələʔ	lil]
-#     morphemeGloss: [neg	maybe	far]
-#     english: ‘ “No, maybe it was far away.’
-# 
-#     lushootseed: xʷuʔələʔ lil
-#     morphemes: [xʷuʔələʔ	lil]
-#     morphemeGloss: [maybe	far]
-#     english: ‘ “Maybe it was from a distance.’
-# 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
-#     lushootseed: xʷiʔ xʷiʔ gʷəst’uʔali čəɬ
-#     morphemes: [xʷiʔ	xʷiʔ	gʷə=s=t’uʔ•ali	čəɬ]
-#     morphemeGloss: [neg	neg	sbj=nm=hole.through•place.where	1pl.po]
-#     english: SSP: ‘ “We didn’t break through.” ’
-# 
-#     lushootseed: kʷačil
-#     morphemes: [kʷačil]
-#     morphemeGloss: [dawn]
-#     english: ‘It dawns.’
-# 
+     startTime: 204274
+     endTime: 205935
+     lushootseed: xʷiʔ, xʷuʔələʔ lil
+     morphemes: [xʷiʔ,xʷuʔələʔ,lil]
+     morphemeGloss: [neg,maybe,far]
+     english: ‘ “No, maybe it was far away.’
+ 
+     startTime: 207176
+     endTime: 207965
+     lushootseed: xʷuʔələʔ lil
+     morphemes: [xʷuʔələʔ,lil]
+     morphemeGloss: [maybe,far]
+     english: ‘ “Maybe it was from a distance.’
+ 
+     startTime: 208186
+     endTime: 208730
+     lushootseed: həbuʔ
+     morphemes: [həbuʔ]
+     morphemeGloss: [haboo]
+     english: AS: ‘Haboo.’
+ 
+     startTime: 209375
+     endTime: 212373
+     lushootseed: xʷiʔ xʷiʔ gʷəst’uʔali čəɬ
+     morphemes: [xʷiʔ,xʷiʔ,gʷə=s=t’uʔ•ali,čəɬ]
+     morphemeGloss: [neg,neg,sbj=nm=hole.through•place.where,1pl.po]
+     english: SSP: ‘ “We didn’t break through.” ’
+ 
+     startTime: 215405
+     endTime: 217470
+     lushootseed: kʷačil. gʷəl bəʔux̌ʷ əlgʷəʔ
+     morphemes: [kʷačil,gʷəl,bə=ʔux̌ʷ,əlgʷəʔ]
+     morphemeGloss: [dawn,sconj,add=go,pl]
+     english: ‘It dawns. And they go again.’
+ 
+#     startTime:
+#     endTime: 
 #     lushootseed: gʷəl bəʔux̌ʷ əlgʷəʔ
 #     morphemes: [gʷəl	bə=ʔux̌ʷ	əlgʷəʔ]
 #     morphemeGloss: [sconj	add=go	pl]
 #     english: ‘And they go again.’
 # 
+#     startTime: 218180
+#     endTime: 218893
 #     lushootseed: ʔux̌ʷ
 #     morphemes: [ʔux̌ʷ]
 #     morphemeGloss: [go]
 #     english: ‘She goes.’
-# 
-#     lushootseed: ləcuuc tsiʔəʔ suq’ʷaʔs
-#     morphemes: [lə=cut–c	tsiʔəʔ	suq’ʷaʔ–s]
-#     morphemeGloss: [prog=say–altv	prox:fem	younger.sibling–3po]
+
+#     startTime: 219768
+#     endTime: 221782
+#     lushootseed: ləcuuc tsiʔəʔ suq̓ʷaʔs
+#     morphemes: [lə=cut–c,tsiʔəʔ,suq̓ʷaʔ–s]
+#     morphemeGloss: [prog=say–altv,prox:fem,younger.sibling–3po]
 #     english: ‘She says to her sister,’
-# 
-#     lushootseed: ʔu, ɬudxʷƛ’alšəd čəd
-#     morphemes: [ʔu	ɬu=dxʷƛ’alšəd	čəd]
-#     morphemeGloss: [intj	irr=prepare.cedar	1sg.sub]
+ 
+#     startTime: 223215
+#     endTime: 229740
+#     lushootseed: ʔu, ɬudxʷƛ̓alšəd čəd
+#     morphemes: [ʔu,ɬu=dxʷƛ̓alšəd,čəd]
+#     morphemeGloss: [intj,irr=prepare.cedar,1sg.sub]
 #     english: ‘ “I’m going to prepare cedar limbs (for rope making).” ’
-# 
-#     lushootseed: ʔəx̌idəxʷ sixʷ tsiʔiɬ dəgʷi
-#     morphemes: [ʔəx̌id=axʷ	sixʷ	tsiʔiɬ	dəgʷi]
-#     morphemeGloss: [what.happened=now	ptcl	dist:fem	you]
+ 
+#     startTime: 231079
+#     endTime: 233950
+#     lushootseed: ʔəx̌idəxʷ sixʷ tsiʔiɬ dəgʷi haʔɬ tiʔiɬ adsč̓istxʷ
+#     morphemes: [ʔəx̌id=axʷ,sixʷ,tsiʔiɬ,dəgʷi,haʔɬ,tiʔiɬ,ad–sč̓istxʷ]
+#     morphemeGloss: [what.happened=now,ptcl,dist:fem,you,good,dist,2sg.po–husband]
 #     english: ‘ “What do you plan to do?” ’
-# 
+ 
+#     startTime: 231088
+#     endTime: 
 #     lushootseed: haʔɬ tiʔiɬ adsč’istxʷ
 #     morphemes: [haʔɬ	tiʔiɬ	ad–sč’istxʷ]
 #     morphemeGloss: [good	dist	2sg.po–husband]
 #     english: ‘ “You have a good husband.’
-# 
-#     lushootseed: xʷiʔ gʷədsx̌aƛ’txʷ tiʔiɬ luƛ’
-#     morphemes: [xʷiʔ	gʷə=d=s=x̌aƛ’–txʷ	tiʔiɬ	luƛ’]
-#     morphemeGloss: [neg	sbj=1sg.po=nm=like–ecs	dist	old]
+ 
+#     startTime: 234065 
+#     endTime: 235878
+#     lushootseed: xʷiʔ gʷədsx̌aƛ̓txʷ tiʔiɬ luƛ̓
+#     morphemes: [xʷiʔ,gʷə=d=s=x̌aƛ̓–txʷ,tiʔiɬ,luƛ̓]
+#     morphemeGloss: [neg,sbj=1sg.po=nm=like–ecs,dist,old]
 #     english: ‘ “I don’t like that old one.’
-# 
+ 
+
+#     startTime: 238094
+#     endTime: 241703
+#     lushootseed: xʷiʔ gʷədsx̌aƛ̓txʷ kʷi gʷədsəsƛ̓alƛ̓alab diʔaʔ gʷəsbədaʔəxʷəd
+#     morphemes: [xʷiʔ,gʷə=d=s=x̌aƛ̓–txʷ,kʷi,gʷə=d=s=ʔas–ƛ̓al–ƛ̓ala–b,diʔaʔ,gʷə=s=bədaʔ=axʷ=ad]
+#     morphemeGloss: [neg,sbj=1sg.po=nm=like–ecs,rem,sbj=1sg.po=nm=stat–dstr–stranded–md be.here,sbj=nm=offspring=now=1sg.sbrd]
+#     english: ‘ “I don’t want to get stuck here when I have a child.’
+#
+#     startTime: 242489
+#     endTime: 249480
+#     lushootseed: ɬu[d]xʷƛ̓aˑlšəd čəd ʔə kʷi sq̓ʷuʔq̓ʷuʔ čəd[a] ɬučədᶻq̓ʷəd čəda ɬut̓əbš [čəda] ɬuxʷit̓ilagʷil
+#     morphemes: [ɬu=dxʷƛ̓alšəd,čəd,ʔə,kʷi,s=q̓ʷuʔ–q̓ʷuʔ,čəda,ɬu=čədᶻq̓ʷ–t,čəda,ɬu=t̓əbš,čəda,ɬu=xʷit̓–il–agʷil]
+#     morphhemeGloss: [irr=prepare.cedar,1sg.sub,Pr,rem,nm=dstr–gather,1sg.coord,irr=rub.about–ics,1sg.coord,irr=braid,1sg.coord,irr=descend–inch–auto]
+#     english: ‘ “I’m going prepare cedar limbs that are gathered, and I’ll break down the fibers and I’ll braid with it, and I’ll let myself down.” ’
+
+
+#     startTime: 
+#     endTime: 
 #     lushootseed: xʷiʔ gʷədsx̌aƛ’txʷ kʷi gʷədsəsƛ’alƛ’alab diʔaʔ gʷəsbədaʔəxʷəd
-#     morphemes: [xʷiʔ	gʷə=d=s=x̌aƛ’–txʷ	kʷi	gʷə=d=s=ʔas–ƛ’al–ƛ’ala–b]
-#     morphemeGloss: [neg	sbj=1sg.po=nm=like–ecs	rem	sbj=1sg.po=nm=stat–dstr–stranded–md]
-#     english: diʔaʔ	gʷə=s=bədaʔ=axʷ=ad
-# be.here	sbj=nm=offspring=now=1sg.sbrd
-# ‘ “I don’t want to get stuck here when I have a child.’
+#     morphemes: [xʷiʔ	gʷə=d=s=x̌aƛ’–txʷ	kʷi	gʷə=d=s=ʔas–ƛ’al–ƛ’ala–b	diʔaʔ	gʷə=s=bədaʔ=axʷ=ad]
+#     morphemeGloss: [neg	sbj=1sg.po=nm=like–ecs	rem	sbj=1sg.po=nm=stat–dstr–stranded–md	be.here	sbj=nm=offspring=now=1sg.sbrd]
+#     english: ‘ “I don’t want to get stuck here when I have a child.’
 # 
 # ɬu[d]xʷƛ’aˑlšəd čəd ʔə kʷi sq’ʷuʔq’ʷuʔ čəd[a] ɬučədᶻq’ʷəd čəda ɬut’əbš [čəda] ɬuxʷit’ilagʷil
 # ɬu=dxʷƛ’alšəd	čəd	ʔə	kʷi	s=q’ʷuʔ–q’ʷuʔ	čəda
@@ -528,56 +574,80 @@ lines:
 # irr=descend–inch–auto
 # ‘ “I’m going prepare cedar limbs that are gathered, and I’ll break down the fibers and I’ll braid with it, and I’ll let myself down.” ’
 # 
+#     startTime: 249713
+#     endTime: 251722
 #     lushootseed: adsgʷaʔ adx̌əč
-#     morphemes: [ad–sgʷaʔ	ad–x̌əč]
-#     morphemeGloss: [2sg.po–one’s.own	2sg.po–mind]
+#     morphemes: [ad–sgʷaʔ,ad–x̌əč]
+#     morphemeGloss: [2sg.po–one’s.own,2sg.po–mind]
 #     english: ‘ “It’s your decision,” ’
-# 
+ 
+#     startTime: 252077
+#     endTime: 252757
 #     lushootseed: həbuʔ
 #     morphemes: [həbuʔ]
 #     morphemeGloss: [haboo]
 #     english: AS: ‘Haboo.’
 # 
-#     lushootseed: cutəb ʔə tsi suq’ʷaʔs
-#     morphemes: [cut–t–b	ʔə	tsi	suq’ʷaʔ–s]
-#     morphemeGloss: [say–ics–pass	Pr	spec:fem	younger.sibling–3po]
+#     startTime: 253018
+#     endTime: 254743
+#     lushootseed: cutəb ʔə tsi suq̓ʷaʔs
+#     morphemes: [cut–t–b,ʔə,tsi,suq̓ʷaʔ–s]
+#     morphemeGloss: [say–ics–pass,Pr,spec:fem,younger.sibling–3po]
 #     english: SSP: ‘She is told by her sister.’
 # 
+#     startTime: 
+#     endTime: 
 #     lushootseed: [d]xʷƛ’alšəd čəd
 #     morphemes: [dxʷƛ’alšəd	čəd]
 #     morphemeGloss: [prepare.cedar	1sg.sub]
 #     english: ‘ “I’ll prepare cedar.’
 # 
+#     startTime: 
+#     endTime: 
 #     lushootseed: cugʷəxʷ dəgʷi kʷi ɬuciqʷ
 #     morphemes: [cukʷ=axʷ	dəgʷi	kʷi	ɬu=ciqʷ]
 #     morphemeGloss: [only=now	you	rem	irr=dig.roots]
 #     english: ‘ “The one who digs for roots will just be you.” ’
 # 
-#     lushootseed: [d]xʷƛ’alš[əd]
-#     morphemes: [dxʷƛ’alšəd]
-#     morphemeGloss: [prepare.cedar]
-#     english: ‘She prepares cedar boughs’
+     startTime: 258283
+     endTime: 263667
+     lushootseed: [d]xʷƛ̓alš[əd] gʷəl t̓əbš ʔuˑ tuʔuɬax̌il
+     morphemes: [dxʷƛ̓alšəd,gʷəl,t̓əbš,ʔu,tu=ʔu–ɬax̌–il]
+     morphemeGloss: [prepare.cedar,sconj,braid,intj,past=pfv–dark–inch]
+     english: ‘She prepares cedar boughs. And she braids. And it becomes night.’
+
 # 
+##     lushootseed: (d)xʷƛ̓alš[əd] gʷəl t̓əbš ʔuˑ tuʔuɬax̌il 
+#     startTime: 
+#     endTime: 
 #     lushootseed: gʷəl t’əbš
 #     morphemes: [gʷəl	t’əbš]
 #     morphemeGloss: [sconj	braid]
 #     english: ‘And she braids.’
 # 
+#     startTime: 
+#     endTime: 
 #     lushootseed: ʔuˑ tuʔuɬax̌il
 #     morphemes: [ʔu	tu=ʔu–ɬax̌–il]
 #     morphemeGloss: [intj	past=pfv–dark–inch]
 #     english: ‘And it becomes night.’
 # 
-#     lushootseed: ʔuˑ, pukʷəb tiʔəʔ x̌ix̌payʔ ʔəst’əbš
-#     morphemes: [ʔu	pukʷəb	tiʔəʔ	x̌i–x̌payʔ	ʔas–t’əbš]
-#     morphemeGloss: [intj	pile	prox	attn–red.cedar	stat–braid]
-#     english: ‘Oh, the braided cedar piles up.’
-# 
-#     lushootseed: huyudəxʷ tiʔəʔ ɬudəxʷəsgʷədils
-#     morphemes: [huyu–t=axʷ	tiʔəʔ	ɬu=dəxʷ=ʔas–gʷəd–il=s]
-#     morphemeGloss: [made–ics=now	prox	irr=adnm=stat–down–inch=3po]
-#     english: ‘She makes something to sit on.’
-# 
+     startTime: 263914
+     endTime: 269095
+     lushootseed: ʔuˑ, pukʷəb tiʔəʔ x̌ix̌payʔ ʔəst̓əbš
+     morphemes: [ʔu	pukʷəb	tiʔəʔ	x̌i–x̌payʔ	ʔas–t̓əbš]
+     morphemeGloss: [intj	pile	prox	attn–red.cedar	stat–braid]
+     english: ‘Oh, the braided cedar piles up.’
+ 
+     startTime: 269571
+     endTime: 272773
+     lushootseed: huyudəxʷ tiʔəʔ ɬudəxʷəsgʷədils
+     morphemes: [huyu–t=axʷ,tiʔəʔ,ɬu=dəxʷ=ʔas–gʷəd–il=s]
+     morphemeGloss: [made–ics=now,prox,irr=adnm=stat–down–inch=3po]
+     english: ‘She makes something to sit on.’
+ 
+#     startTime: 
+#     endTime: 
 #     lushootseed: həbuʔ
 #     morphemes: [həbuʔ]
 #     morphemeGloss: [haboo]
