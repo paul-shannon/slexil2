@@ -8,6 +8,7 @@ default:
 	@echo targets:
 	@echo venv
 	@echo server
+	@echo rangeServer
 	@echo pid
 	@echo  venv eaf http refresh-js html
 	@echo  install
@@ -20,17 +21,20 @@ default:
 	@echo  view-in-local-server
 	@echo  view-pshannon
 	@echo  updateLocal [s2h, inject]
-	@echo  update [s2h, inject, publish-alberta, viewRemote]
+	@echo  update [s2h, inject, publish-alberta, view-alberta]
 	@echo  publish-alberta
 	@echo  publish-audio
 	@echo  publish-pshannon
-	@echo  viewRemote
+	@echo  view-alberta
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3119slexil/bin/activate
 
 server:
 	python -m http.server $(PORT) &
+
+rangeServer:
+	python -m RangeHTTPServer $(PORT) &
 
 pid:
 	lsof -i -n -P | grep $(PORT)
@@ -123,7 +127,7 @@ update: s2h inject publish-alberta viewRemote
 view-in-local-server:
 	open http://localhost:$(PORT)/daylight2.html
 
-viewRemote:
+view-alberta:
 	open https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/
 
 view-pshannon:

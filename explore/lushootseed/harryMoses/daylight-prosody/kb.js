@@ -1,6 +1,61 @@
 //------------------------------------------------------------------------------------------------------------------------
 kb = {
 
+"ʔəs–pəd–pəd•ič":
+
+`
+<b>ʔəs–pəd–pəd•ič</b>
+
+<ul>
+   <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
+   <li><b>pəd-</b>  <i>red2</i> items are distributed about, plural [LD xvii]
+   <li><b>pəd</b>  earth, soil; dirt, dust; bury. [LD 161]
+   <li> <b>=ič</b>: cover(ing), surface; on top of, over;  series of items on a string, string cord, spine [LD 114]
+</ul>
+
+`,
+"ʔəs–bəč":
+
+`
+<b>ʔəs–bəč</b>
+
+<ul>
+   <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
+   <li><b>bəč</b>  fall down (from standing position, not from a height)[LD 35]
+</ul>
+
+`,
+
+
+"ʔəs–šuɬ–c–b":
+
+`
+<b>ʔəs–šuɬ–c–b</b>
+
+<ul>
+   <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
+   <li><b>šuɬ</b> look, see; appearance [LD 213]
+    <ul>
+      <li><b>ʔušuɬ čəd</b> I look around 
+      <li><b>haʔɬ šuɬ </b> good to look at, behold
+   </ul>
+   <li><b>-c</b> [LD 43]
+   <ul>
+     <li> portmanteau of suffix sequence <b>-t-s</b>, a transitive
+     suffix marking patient-oriented verbs
+     <li> often converts a verb of motion into one which takes a goal
+      patient
+     <li> vowels are lengthened before this suffix
+     <li> "allative applicative" (ALTV): Adds a new argument to the
+        valency of  its base, most frequently a GOAL, which is
+        realized as the direct object of the derived verb
+   </ul>
+   <li><b>–b</b> be involved in doing something [LD 32]
+</ul>
+
+`,
+
+
 "dəxʷ=wəq̓–wəq̓=s":
 
 `
@@ -112,7 +167,7 @@ instead [contrastive emphatic]
 <b>ʔəs–tədᶻil•ič</b>
 
 <ul>
-   <li><b>ʔəs-</b> stative
+   <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
    <li><b>tədᶻil</b> go to bed, lie in bed, be in bed [LD 220]
    <li> <b>=ič</b> [LD 114]
    <ul>
@@ -224,7 +279,7 @@ epenthetic sound.
       <li><b>dəxʷ</b> reason for, place where [LD 81]. nominalizes
       adjunct and circumstantial expressions, particularly (but not
       exclusively), instruments, locations, motivations, and manners.
-      <li><b>ʔəs-</b> stative
+      <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
       <li><b>tədᶻil</b> go to bed, lie in bed, be in bed [LD 220]
       <li><b>s</b> third person possessive.
    </ul>
@@ -437,7 +492,7 @@ semantically dead.
 
 <details><summary>wač <i>watch</i></summary>
    <ul>
-      <li><b>ʔəs-</b> stative
+      <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
       <li><b>wač</b> [loan word]
       <li><b>-bi</b> MAP adds an 'extra' recipient or beneficiary of an action,
          not an ordinary subject (mink) or object (the sun) - but rather
@@ -541,7 +596,7 @@ Two important constraints of Lushootseed grammar
 <details><summary>wač</summary>
 
 <ul>
-   <li><b>ʔəs-</b> stative
+   <li><b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
    <li><b>wač</b> [loan word]
    <li><b>bi</b> MAP adds an 'extra' recipient or beneficiary of an action,
          not an ordinary subject (mink) or object (the sun) - but rather
@@ -1229,7 +1284,8 @@ This was life in the dark.
 - <b>gʷə=</b> doubtful, conjectured, hoped for; if, maybe, might [LD 98&rarr;95]
 - <b>d=</b> my, I, me  [LD 76] See <b>PO</b> (possessive) in the Linguistics menu.
 - <b>s=</b> nominalizer [LD 199]
-- <b>ʔəs-</b> condition or state exists  [LD 13]
+- <b>ʔəs-</b> condition or state exists [verbal inflectional prefix of stative aspect] [LD 13]
+
 - <b>huy(u)</b>  do, make, prepare something, get ready, prepare for. [LD 112]
 
 
@@ -4993,7 +5049,9 @@ _(they) lined-up canoes_
 
 "ʔə":
 `
-- about, in, of, on, into, onto, when, while  LD 9
+<b>ʔə</b>
+
+- about, in, of, on, into, onto, when, while  [LD 9]
 - often marked in translations as **PR** - preposition
 - particle linking phrases of various semantic roles to a predicate or other clause constituent
 - linking agent
@@ -6279,7 +6337,10 @@ lexical category functioning as predicate or complement.
 
 "ti":
 `
-- this particular one:  an adjectival   of unique reference  LD 224.  feminime tsi
+<b>ti</b>
+
+
+- this particular one:  an adjectival   of unique reference.  feminime tsi  [LD 224]
 - can be proximal adjectival or pronomial demonstrative
 - tiʔiɬ: that, adjectival or pronomial, femimine tsiʔiɬ
 - tiʔəʔ: this SL: ti
