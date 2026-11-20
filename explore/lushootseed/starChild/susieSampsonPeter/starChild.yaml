@@ -1,8 +1,8 @@
 title: Star Child
 narrator: Susie Sampson Peters
 textEntry: Paul Shannon
-#mediaFile: candidate-01.wav
-mediaFile: http://localhost:12340/starchild-ssp.wav
+mediaFile: starchild-ssp.wav
+#mediaFile: http://localhost:12340/starchild-ssp.wav
 mimeType: audio/x-wav
 
 lines:
@@ -646,13 +646,13 @@ lines:
      morphemeGloss: [made–ics=now,prox,irr=adnm=stat–down–inch=3po]
      english: ‘She makes something to sit on.’
  
-#     startTime: 
-#     endTime: 
-#     lushootseed: həbuʔ
-#     morphemes: [həbuʔ]
-#     morphemeGloss: [haboo]
-#     english: AS: ‘Haboo.’
-# 
+     startTime: 272903
+     endTime: 277097
+     lushootseed: həbuʔ huy kʷalšəxʷ t̓əbšədaxʷ kʷəkʷalš
+     morphemes: [həbuʔ,huy,kʷal–š=axʷ,t̓əbš–t=axʷ,kʷə–kʷal–š]
+     morphemeGloss: [haboo,sconj,weave–ics=now,braid–ics=now,attn–weave–ics]
+     english: AS: ‘Haboo.’ SSP: ‘Then she weaves it. She braids it. She weaves it.’
+ 
 #     lushootseed: huy kʷalšəxʷ
 #     morphemes: [huy	kʷal–š=axʷ]
 #     morphemeGloss: [sconj	weave–ics=now]
@@ -668,21 +668,29 @@ lines:
 #     morphemeGloss: [attn–weave–ics]
 #     english: ‘She weaves it.’
 # 
-#     lushootseed: huyud tiʔəʔ ɬudəxʷəskʷədyalc
-#     morphemes: [huyu–t	tiʔəʔ	ɬu=dəxʷ=ʔas–kʷəd•y•alc]
-#     morphemeGloss: [made–ics	prox	irr=adnm=stat–grasp•cnn•prdct]
-#     english: ‘She makes something to hang onto.’
-# 
-#     lushootseed: kʷədad tiʔəʔ dəč’uʔ bast’əbš
-#     morphemes: [kʷəda–t	tiʔəʔ	dəč’uʔ	bə=ʔas–t’əbš]
-#     morphemeGloss: [taken–ics	prox	one	add=stat–braid]
-#     english: ‘She takes one braided piece’
-# 
-#     lushootseed: gʷəl ʔəsɬidtxʷəxʷ tiʔəʔ diʔəʔ cədiɬ qʷɬayʔ
-#     morphemes: [gʷəl	ʔas–ɬid–txʷ=axʷ	tiʔəʔ	diʔəʔ	cədiɬ	qʷɬayʔ]
-#     morphemeGloss: [sconj	stat–tie–ecs=now	prox	here	he	log]
-#     english: ‘And she ties it to a stick.’
-# 
+     startTime: 277462
+     endTime: 279576
+     lushootseed: huyud tiʔəʔ ɬudəxʷəskʷədyalc
+     morphemes: [huyu–t,tiʔəʔ,ɬu=dəxʷ=ʔas–kʷəd•y•alc]
+     morphemeGloss: [made–ics,prox,irr=adnm=stat–grasp•cnn•prdct]
+     english: ‘She makes something to hang onto.’
+ 
+     startTime: 279912
+     endTime: 286459
+     lushootseed: kʷədad tiʔəʔ dəč̓uʔ bast̓əbš
+     morphemes: [kʷəda–t,tiʔəʔ,dəč̓uʔ,bə=ʔas–t̓əbš]
+     morphemeGloss: [taken–ics,prox,one,add=stat–braid]
+     english: ‘She takes one braided piece’
+
+     startTime: 287109
+     endTime: 290539
+     lushootseed: gʷəl ʔəsɬidtxʷəxʷ tiʔəʔ diʔəʔ cədiɬ qʷɬayʔ
+     morphemes: [gʷəl,ʔas–ɬid–txʷ=axʷ,tiʔəʔ,diʔəʔ,cədiɬ,qʷɬayʔ]
+     morphemeGloss: [sconj,stat–tie–ecs=now,prox,here,he,log]
+     english: ‘And she ties it to a stick.’
+ 
+#     startTime:
+#     endTime:
 #     lushootseed: ɬuɬaq’ dᶻixʷ
 #     morphemes: [ɬu=ɬaq’a	dᶻixʷ]
 #     morphemeGloss: [irr=fall	first]
@@ -697,26 +705,36 @@ lines:
 # dist	soil
 # ‘And it will be ready for her to stand upon; that’s how she’ll know it has reached the ground’
 # 
+#     startTime:
+#     endTime:
 #     lushootseed: gʷəl ɬucəq’šadəb
 #     morphemes: [gʷəl	ɬu=cəq’•šad–b]
 #     morphemeGloss: [sconj	irr=jab•foot–md]
 #     english: ‘And she will stand on it.’
 # 
+#     startTime:
+#     endTime:
 #     lushootseed: həbuʔ
 #     morphemes: [həbuʔ]
 #     morphemeGloss: [haboo]
 #     english: AS: ‘Haboo.’
 # 
+#     startTime:
+#     endTime:
 #     lushootseed: t’ugʷuˑd tiʔəʔ
 #     morphemes: [t’ukʷu–t	tiʔəʔ]
 #     morphemeGloss: [measure–ics	prox]
 #     english: SSP: ‘She measures it.’
 # 
+#     startTime:
+#     endTime:
 #     lushootseed: gʷəl ɬaˑʔ
 #     morphemes: [gʷəl	ɬaʔ]
 #     morphemeGloss: [sconj	arrive.there]
 #     english: ‘And it reaches there.’
 # 
+#     startTime:
+#     endTime:
 #     lushootseed: ƛ’ubiləxʷ
 #     morphemes: [ƛ’ub–il=axʷ]
 #     morphemeGloss: [well–inch=now]
