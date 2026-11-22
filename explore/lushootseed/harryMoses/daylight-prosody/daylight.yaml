@@ -1,8 +1,8 @@
 title: How Daylight Was Stolen
 narrator: Harry Moses
 textEntry: Paul Shannon
-mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-24k.wav
-#mediaFile: daylight-24k.wav
+#mediaFile: https://slexildata.artsrn.ualberta.ca/lushootseed/harryMoses/daylight/daylight-24k.wav
+mediaFile: daylight-24k.wav
 #mediaFile: http://localhost:8080/daylight-24k.wav
 mimeType: audio/x-wav
 
@@ -653,7 +653,7 @@ lines:
   - startTime: 312540
     endTime:   317214 
     lushootseed: ʔəšuucəb ʔə ti luƛ̓ ʔəsbəč ləq̓aɬucid ʔəspədpədič ʔə ti q̓ʷaɬčup
-    soundsLike: uh.shoot.suh.bawk tee loak us.bush loo.kahs.sud juss.puh.dabe uh tee kwahs.sub
+    soundsLike: uh.shoat.suh.baw tee loak us.buhsh loo.kahs.sud juss.puh.dabe uh tee kwahs.sub
     morphemes: [ʔəs–šuɬ–c–b,ʔə,ti,luƛ̓,ʔəs–bəč,ləq̓aɬ•ucid,ʔəs–pəd–pəd•ič,ʔə,ti,q̓ʷaɬ•čup]
     morphemeGloss: [STAT–see–altv–PASS,pr,spec,old,STAT–fall,in.place•mouth,STAT–dstr–buried•covering,pr,spec,ash•fire]
     english: The old fellow lying by the door covered in fine ash watched it.
